@@ -345,6 +345,19 @@ struct PlateSelectionSection: View {
                 .font(.subheadline)
                 .fontWeight(.semibold)
             
+            // Show recommended plates if available
+            if !variant.recommendedPlates.isEmpty {
+                RecommendedPlatesView(
+                    recommendedPlates: variant.recommendedPlates,
+                    selectedPlates: $variant.selectedPlates,
+                    plateManager: plateManager,
+                    onUpdate: onUpdate
+                )
+                
+                Divider()
+                    .padding(.vertical, 4)
+            }
+            
             // Character plates with +/- buttons
             VStack(alignment: .leading, spacing: 8) {
                 ForEach(plateManager.mainCharacterPlates, id: \.plateId) { mainPlate in
@@ -807,6 +820,124 @@ struct GeneratedPromptViewer: View {
         }
         .padding()
         .frame(width: 700, height: 600)
+    }
+}
+
+// MARK: - Recommended Plates View
+struct RecommendedPlatesView: View {
+    let recommendedPlates: [String: Any]
+    @Binding var selectedPlates: [String: Any]
+    let plateManager: PlateManager
+    let onUpdate: () -> Void
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("Recommended Plates")
+                .font(.caption)
+                .foregroundColor(.secondary)
+            
+            // Character recommendations
+            if let characterRecs = recommendedPlates["characters"] as? [String: String], !characterRecs.isEmpty {
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("Characters:")
+                        .font(.caption2)
+                        .foregroundColor(.secondary)
+                    
+                    ForEach(Array(characterRecs.keys.sorted()), id: \.self) { character in
+                        if let plateId = characterRecs[character] {
+                            HStack {
+                                Button(action: {
+                                    // Toggle selection
+                                    var chars = selectedPlates["characters"] as? [String: String] ?? [:]
+                                    if chars[character] != nil {
+                                        chars.removeValue(forKey: character)
+                                    } else {
+                                        chars[character] = plateId
+                                    }
+                                    selectedPlates["characters"] = chars
+                                    onUpdate()
+                                }) {
+                                    HStack(spacing: 4) {
+                                        Image(systemName: isCharacterSelected(character) ? "checkmark.circle.fill" : "circle")
+                                            .font(.system(size: 12))
+                                        Text("\(character.capitalized): \(plateId)")
+                                            .font(.caption)
+                                    }
+                                    .foregroundColor(isCharacterSelected(character) ? .blue : .primary)
+                                }
+                                .buttonStyle(PlainButtonStyle())
+                                
+                                // Show plate description on hover
+                                if let plate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
+                                    Text("(\(plate.name))")
+                                        .font(.caption2)
+                                        .foregroundColor(.secondary)
+                                        .help(plate.description)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            // Environment recommendations
+            if let envRecs = recommendedPlates["environment"] as? [String: String], !envRecs.isEmpty {
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("Environment:")
+                        .font(.caption2)
+                        .foregroundColor(.secondary)
+                    
+                    ForEach(Array(envRecs.keys.sorted()), id: \.self) { category in
+                        if let plateId = envRecs[category] {
+                            HStack {
+                                Button(action: {
+                                    // Toggle selection
+                                    var envs = selectedPlates["environment"] as? [String: String] ?? [:]
+                                    if envs[category] != nil {
+                                        envs.removeValue(forKey: category)
+                                    } else {
+                                        envs[category] = plateId
+                                    }
+                                    selectedPlates["environment"] = envs
+                                    onUpdate()
+                                }) {
+                                    HStack(spacing: 4) {
+                                        Image(systemName: isEnvironmentSelected(category) ? "checkmark.circle.fill" : "circle")
+                                            .font(.system(size: 12))
+                                        Text("\(category.capitalized): \(plateId)")
+                                            .font(.caption)
+                                    }
+                                    .foregroundColor(isEnvironmentSelected(category) ? .blue : .primary)
+                                }
+                                .buttonStyle(PlainButtonStyle())
+                                
+                                // Show plate description on hover
+                                if let plate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
+                                    Text("(\(plate.name))")
+                                        .font(.caption2)
+                                        .foregroundColor(.secondary)
+                                        .help(plate.description)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    private func isCharacterSelected(_ character: String) -> Bool {
+        if let chars = selectedPlates["characters"] as? [String: String] {
+            return chars[character] != nil
+        }
+        return false
+    }
+    
+    private func isEnvironmentSelected(_ category: String) -> Bool {
+        if let envs = selectedPlates["environment"] as? [String: String] {
+            return envs[category] != nil
+        }
+        return false
     }
 }
 

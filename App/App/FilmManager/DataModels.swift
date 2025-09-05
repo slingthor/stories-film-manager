@@ -658,6 +658,8 @@ class PromptVariant: ObservableObject, Identifiable {
     @Published var dialogue: String = ""
     @Published var cameraPosition: String = ""
     @Published var negativePrompt: String = ""
+    @Published var recommendedPlates: [String: Any] = [:]
+    @Published var selectedPlates: [String: Any] = [:]
     @Published var progressiveState: String = ""
     @Published var isActive: Bool = false
     @Published var selectedCharacterPlateId: String?
@@ -852,16 +854,168 @@ class PlateManager: ObservableObject {
     @Published var characterPlates: [CharacterPlate] = []
     @Published var environmentalPlates: [EnvironmentalPlate] = []
     @Published var mainCharacterPlates: [CharacterPlate] = [] // Main plates for each character
+    @Published var plateRecommendations: [String: Any] = [:]
     
     private let enhancementsPath = "/Users/ingthor/Documents/stories/enhancements"
     
     init() {
-        loadPlates()
+        loadPlatesFromJSON()
+    }
+    
+    func loadPlatesFromJSON() {
+        loadCharacterPlatesFromJSON()
+        loadEnvironmentalPlatesFromJSON()
+        loadPlateRecommendations()
     }
     
     func loadPlates() {
+        // Fallback to old method if JSON loading fails
         loadCharacterPlates()
         loadEnvironmentalPlates()
+    }
+    
+    private func loadCharacterPlatesFromJSON() {
+        // Try multiple paths for the JSON file
+        let possiblePaths = [
+            Bundle.main.path(forResource: "Resources/character_plates_index", ofType: "json"),
+            Bundle.main.path(forResource: "character_plates_index", ofType: "json"),
+            "/Users/ingthor/Documents/stories/App/character_plates_index.json"
+        ]
+        
+        for path in possiblePaths.compactMap({ $0 }) {
+            if let data = FileManager.default.contents(atPath: path) {
+                do {
+                    let json = try JSONSerialization.jsonObject(with: data) as? [String: Any]
+                    
+                    if let plateIndex = json?["plate_index"] as? [String: Any] {
+                        // Clear existing plates
+                        characterPlates.removeAll()
+                        mainCharacterPlates.removeAll()
+                        
+                        // Create a dictionary to store main plates by character
+                        var mainPlatesByCharacter: [String: CharacterPlate] = [:]
+                        
+                        // First pass: create all plates
+                        for (plateId, plateData) in plateIndex {
+                            if let plateInfo = plateData as? [String: Any] {
+                                let plate = CharacterPlate(
+                                    plateId: plateId,
+                                    name: plateInfo["name"] as? String ?? plateId,
+                                    character: plateInfo["character"] as? String ?? "",
+                                    description: plateInfo["description"] as? String ?? "",
+                                    shotRange: plateInfo["shot_range"] as? String ?? "",
+                                    specializations: [],
+                                    media: [],
+                                    isMainPlate: plateInfo["is_master"] as? Bool ?? false
+                                )
+                                
+                                characterPlates.append(plate)
+                                
+                                if plate.isMainPlate {
+                                    mainCharacterPlates.append(plate)
+                                    mainPlatesByCharacter[plate.character.lowercased()] = plate
+                                }
+                            }
+                        }
+                        
+                        // Second pass: link specializations to main plates
+                        for plate in characterPlates where !plate.isMainPlate {
+                            if let mainPlate = mainPlatesByCharacter[plate.character.lowercased()] {
+                                let specialization = CharacterPlateSpecialization(
+                                    plateId: plate.plateId,
+                                    name: plate.name,
+                                    description: plate.description,
+                                    shotRange: plate.shotRange,
+                                    media: plate.media
+                                )
+                                mainPlate.specializations.append(specialization)
+                            }
+                        }
+                        
+                        print("📚 Loaded \(characterPlates.count) character plates from JSON at: \(path)")
+                        print("👤 Found \(mainCharacterPlates.count) main character plates")
+                        return
+                    }
+                } catch {
+                    print("❌ Error loading character plates from JSON at \(path): \(error)")
+                }
+            }
+        }
+        
+        // Fallback to parsing text files
+        print("⚠️ Falling back to text file parsing for character plates")
+        loadCharacterPlates()
+    }
+    
+    private func loadEnvironmentalPlatesFromJSON() {
+        // Try multiple paths for the JSON file
+        let possiblePaths = [
+            Bundle.main.path(forResource: "Resources/environmental_plates_index", ofType: "json"),
+            Bundle.main.path(forResource: "environmental_plates_index", ofType: "json"),
+            "/Users/ingthor/Documents/stories/App/environmental_plates_index.json"
+        ]
+        
+        for path in possiblePaths.compactMap({ $0 }) {
+            if let data = FileManager.default.contents(atPath: path) {
+                do {
+                    let json = try JSONSerialization.jsonObject(with: data) as? [String: Any]
+                    
+                    if let plateIndex = json?["plate_index"] as? [String: Any] {
+                        // Clear existing plates
+                        environmentalPlates.removeAll()
+                        
+                        for (plateId, plateData) in plateIndex {
+                            if let plateInfo = plateData as? [String: Any] {
+                                let plate = EnvironmentalPlate(
+                                    plateId: plateId,
+                                    name: plateInfo["name"] as? String ?? plateId,
+                                    category: plateInfo["type"] as? String ?? "",
+                                    description: plateInfo["description"] as? String ?? "",
+                                    atmosphere: "",
+                                    media: []
+                                )
+                                
+                                environmentalPlates.append(plate)
+                            }
+                        }
+                        
+                        print("🌍 Loaded \(environmentalPlates.count) environmental plates from JSON at: \(path)")
+                        return
+                    }
+                } catch {
+                    print("❌ Error loading environmental plates from JSON at \(path): \(error)")
+                }
+            }
+        }
+        
+        // Fallback to parsing text files
+        print("⚠️ Falling back to text file parsing for environmental plates")
+        loadEnvironmentalPlates()
+    }
+    
+    private func loadPlateRecommendations() {
+        // Try multiple paths for the JSON file
+        let possiblePaths = [
+            Bundle.main.path(forResource: "Resources/shot_plate_recommendations", ofType: "json"),
+            Bundle.main.path(forResource: "shot_plate_recommendations", ofType: "json"),
+            "/Users/ingthor/Documents/stories/App/shot_plate_recommendations.json"
+        ]
+        
+        for path in possiblePaths.compactMap({ $0 }) {
+            if let data = FileManager.default.contents(atPath: path) {
+                do {
+                    if let json = try JSONSerialization.jsonObject(with: data) as? [String: Any] {
+                        plateRecommendations = json
+                        print("📋 Loaded plate recommendations from: \(path)")
+                        return
+                    }
+                } catch {
+                    print("❌ Error loading plate recommendations from \(path): \(error)")
+                }
+            }
+        }
+        
+        print("⚠️ Could not load plate recommendations from any path")
     }
     
     private func loadCharacterPlates() {
@@ -1303,6 +1457,14 @@ class FilmFileManager {
             promptVariant.cameraPosition = variant["camera_position"] as? String ?? ""
             promptVariant.dialogue = variant["dialogue"] as? String ?? ""
             promptVariant.negativePrompt = variant["negative_prompt"] as? String ?? ""
+            
+            // Load plate information
+            if let recommendedPlates = variant["recommended_plates"] as? [String: Any] {
+                promptVariant.recommendedPlates = recommendedPlates
+            }
+            if let selectedPlates = variant["selected_plates"] as? [String: Any] {
+                promptVariant.selectedPlates = selectedPlates
+            }
             
             // Set first variant as active by default
             promptVariant.isActive = (index == 0)
