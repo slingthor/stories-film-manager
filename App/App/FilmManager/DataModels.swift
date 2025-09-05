@@ -892,43 +892,77 @@ class PlateManager: ObservableObject {
                         characterPlates.removeAll()
                         mainCharacterPlates.removeAll()
                         
-                        // Create a dictionary to store main plates by character
-                        var mainPlatesByCharacter: [String: CharacterPlate] = [:]
+                        // Group plates by character to build specializations
+                        var platesByCharacter: [String: [(plateId: String, plateInfo: [String: Any])]] = [:]
                         
-                        // First pass: create all plates
+                        // First, organize all plates by character
                         for (plateId, plateData) in plateIndex {
-                            if let plateInfo = plateData as? [String: Any] {
-                                let plate = CharacterPlate(
-                                    plateId: plateId,
-                                    name: plateInfo["name"] as? String ?? plateId,
-                                    character: plateInfo["character"] as? String ?? "",
-                                    description: plateInfo["description"] as? String ?? "",
-                                    shotRange: plateInfo["shot_range"] as? String ?? "",
-                                    specializations: [],
-                                    media: [],
-                                    isMainPlate: plateInfo["is_master"] as? Bool ?? false
-                                )
-                                
-                                characterPlates.append(plate)
-                                
-                                if plate.isMainPlate {
-                                    mainCharacterPlates.append(plate)
-                                    mainPlatesByCharacter[plate.character.lowercased()] = plate
+                            if let plateInfo = plateData as? [String: Any],
+                               let character = plateInfo["character"] as? String {
+                                let charKey = character.lowercased()
+                                if platesByCharacter[charKey] == nil {
+                                    platesByCharacter[charKey] = []
                                 }
+                                platesByCharacter[charKey]?.append((plateId, plateInfo))
                             }
                         }
                         
-                        // Second pass: link specializations to main plates
-                        for plate in characterPlates where !plate.isMainPlate {
-                            if let mainPlate = mainPlatesByCharacter[plate.character.lowercased()] {
-                                let specialization = CharacterPlateSpecialization(
-                                    plateId: plate.plateId,
-                                    name: plate.name,
-                                    description: plate.description,
-                                    shotRange: plate.shotRange,
-                                    media: plate.media
+                        // Now create plates with their specializations
+                        for (character, plateDatas) in platesByCharacter {
+                            // Find the main plate for this character
+                            var mainPlateData: (plateId: String, plateInfo: [String: Any])?
+                            var specializationDatas: [(plateId: String, plateInfo: [String: Any])] = []
+                            
+                            for plateData in plateDatas {
+                                if plateData.plateInfo["is_master"] as? Bool ?? false {
+                                    mainPlateData = plateData
+                                } else {
+                                    specializationDatas.append(plateData)
+                                }
+                            }
+                            
+                            // Create specializations array
+                            var specializations: [CharacterPlateSpecialization] = []
+                            for specData in specializationDatas {
+                                let spec = CharacterPlateSpecialization(
+                                    plateId: specData.plateId,
+                                    name: specData.plateInfo["name"] as? String ?? specData.plateId,
+                                    description: specData.plateInfo["description"] as? String ?? "",
+                                    shotRange: specData.plateInfo["shot_range"] as? String ?? "",
+                                    media: []
                                 )
-                                mainPlate.specializations.append(specialization)
+                                specializations.append(spec)
+                            }
+                            
+                            // Create the main plate with its specializations
+                            if let mainData = mainPlateData {
+                                let mainPlate = CharacterPlate(
+                                    plateId: mainData.plateId,
+                                    name: mainData.plateInfo["name"] as? String ?? mainData.plateId,
+                                    character: mainData.plateInfo["character"] as? String ?? "",
+                                    description: mainData.plateInfo["description"] as? String ?? "",
+                                    shotRange: mainData.plateInfo["shot_range"] as? String ?? "",
+                                    specializations: specializations,
+                                    media: [],
+                                    isMainPlate: true
+                                )
+                                characterPlates.append(mainPlate)
+                                mainCharacterPlates.append(mainPlate)
+                            }
+                            
+                            // Also add specializations as individual plates
+                            for specData in specializationDatas {
+                                let plate = CharacterPlate(
+                                    plateId: specData.plateId,
+                                    name: specData.plateInfo["name"] as? String ?? specData.plateId,
+                                    character: specData.plateInfo["character"] as? String ?? "",
+                                    description: specData.plateInfo["description"] as? String ?? "",
+                                    shotRange: specData.plateInfo["shot_range"] as? String ?? "",
+                                    specializations: [],
+                                    media: [],
+                                    isMainPlate: false
+                                )
+                                characterPlates.append(plate)
                             }
                         }
                         
