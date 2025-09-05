@@ -1,0 +1,1417 @@
+{
+  "plate_files": {
+    "magnus": "/Users/ingthor/Documents/stories/enhancements/magnus_advanced_character_plates_system.txt",
+    "sigrid": "/Users/ingthor/Documents/stories/enhancements/sigrid_advanced_character_plates_system.txt",
+    "gudrun": "/Users/ingthor/Documents/stories/enhancements/gudrun_advanced_character_plates_system.txt",
+    "jon": "/Users/ingthor/Documents/stories/enhancements/jon_advanced_character_plates_system.txt",
+    "lilja": "/Users/ingthor/Documents/stories/enhancements/lilja_complete_character_plates_expanded.txt"
+  },
+  "plate_index": {
+    "MAGNUS-MASTER": {
+      "file": "magnus",
+      "section": "MASTER PLATE",
+      "character": "Magnus",
+      "is_master": true,
+      "description": "Magn\u00fas \u00deorl\u00e1ksson, 55-year-old Westfjords fisherman with weathered rectangular face, prominent angular Nordic cheekbones creating deep shadows, broken aquiline nose with visible leftward bend showing ..."
+    },
+    "S-SUMMER": {
+      "file": "magnus",
+      "section": "PLATE SUMMER",
+      "character": "Magnus",
+      "name": "Summer",
+      "shot_range": "3Hz tremor on fingers only",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Master base] wearing clean brown va\u00f0m\u00e1l sweater with recent mending barely visible, dark wool trousers showing minimal wear, sealskin boots freshly oiled, leather belt polished, cane used ceremoniall..."
+    },
+    "S-AUTUMN": {
+      "file": "magnus",
+      "section": "PLATE AUTUMN",
+      "character": "Magnus",
+      "name": "Autumn",
+      "shot_range": "Shots 16-23",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Master base] va\u00f0m\u00e1l sweater showing increased wear, left elbow mending more prominent, trousers with fresh knee patches, sealskin boots showing scuffs, cane grip tighter suggesting increasing relianc..."
+    },
+    "S-PREPARATION": {
+      "file": "magnus",
+      "section": "PLATE PREPARATION",
+      "character": "Magnus",
+      "name": "Preparation",
+      "shot_range": "Shots 1-60",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Master base] layered for winter - va\u00f0m\u00e1l sweater under sealskin anorak, wool trousers with additional patches, heavy sealskin mittens, ice-fishing boots with metal studs, cane showing ice-scratches f..."
+    },
+    "S-CONFUSED": {
+      "file": "magnus",
+      "section": "PLATE CONFUSED",
+      "character": "Magnus",
+      "name": "Confused",
+      "shot_range": "grinding teeth",
+      "film_percentage_range": [
+        25,
+        45
+      ],
+      "narrative_stage": "mathematical_breakdown",
+      "description": "[Master base] winter layers but disheveled, va\u00f0m\u00e1l sweater stretched from nervous pulling, sealskin anorak partially unbuttoned, cane gripped white-knuckle tight, hunched posture with defensive should..."
+    },
+    "S-DEPARTING": {
+      "file": "magnus",
+      "section": "PLATE DEPARTING",
+      "character": "Magnus",
+      "name": "Departing",
+      "shot_range": "Shot 26-30",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Master base] heavy winter fishing gear, sealskin anorak with hood up, thick mittens, ice boots, multiple rope coils across chest, cane secured to belt with leather thong, bent posture under gear weig..."
+    },
+    "S-AFLOAT": {
+      "file": "magnus",
+      "section": "PLATE AFLOAT",
+      "character": "Magnus",
+      "name": "Afloat",
+      "shot_range": "no tremor during practiced activity",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Master base] stripped to rowing essentials, va\u00f0m\u00e1l sweater only, sealskin anorak open, no hat exposing grey hair to elements, cane stored in boat, rowing posture with broad shoulders engaged, jaw wor..."
+    },
+    "S-AGING": {
+      "file": "magnus",
+      "section": "PLATE AGING",
+      "character": "Magnus",
+      "name": "Aging",
+      "shot_range": "Shots 31-35",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Master base] showing supernatural strength cost - hair completely white, new deep lines carved by salt and failure, nose bleeding frozen in beard, missing left canine tooth creating speech gap, seals..."
+    },
+    "S-WOUNDED": {
+      "file": "magnus",
+      "section": "PLATE WOUNDED",
+      "character": "Magnus",
+      "name": "Wounded",
+      "shot_range": "red welts with raw skin",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Previous aging base] plus fresh maritime injuries - rope burns across palms (red welts with raw skin), hook puncture in right palm with dried blood, frostbite on exposed fingers showing white then bl..."
+    },
+    "S-DEFEATED": {
+      "file": "magnus",
+      "section": "PLATE DEFEATED",
+      "character": "Magnus",
+      "name": "Defeated",
+      "shot_range": "Shots 41-50",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Injured base] with complete failure recognition - shoulders completely collapsed, cane serving as full body support, torn clothing hanging loose, posture showing total masculine breakdown, jaw slack ..."
+    },
+    "S-PREDATOR": {
+      "file": "magnus",
+      "section": "PLATE PREDATOR",
+      "character": "Magnus",
+      "name": "Predator",
+      "shot_range": "0Hz hands",
+      "film_percentage_range": [
+        45,
+        65
+      ],
+      "narrative_stage": "violence_crisis",
+      "description": "[Defeated base] but with 0Hz transformation beginning - straightening posture with predatory purpose, cane now gripped as weapon rather than support, clothing rearranged for violence preparation, jaw ..."
+    },
+    "S-ENFORCER": {
+      "file": "magnus",
+      "section": "PLATE ENFORCER",
+      "character": "Magnus",
+      "name": "Enforcer",
+      "shot_range": "0Hz violence accomplished",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Predator base] after domestic violence, clothing straightened suggesting authority restoration, cane casually held with confident grip, upright posture showing dominance reestablished, jaw relaxed wi..."
+    },
+    "S-POSSESSOR": {
+      "file": "magnus",
+      "section": "PLATE POSSESSOR",
+      "character": "Magnus",
+      "name": "Possessor",
+      "shot_range": "Shots 51-85",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Authority base] with predatory intimacy - clothing arranged for close contact, cane set aside for two-handed violation, posture invasive with forward lean, jaw soft with false tenderness, eyes showin..."
+    },
+    "S-SHIFTING": {
+      "file": "magnus",
+      "section": "PLATE SHIFTING",
+      "character": "Magnus",
+      "name": "Shifting",
+      "shot_range": "barely visible",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Possessor base] with emerging ram features - posture showing slight forward head position, jaw developing heavier set suggesting ruminant mouth changes, eyes beginning to show horizontal pupil progre..."
+    },
+    "S-RECOGNIZING": {
+      "file": "magnus",
+      "section": "PLATE RECOGNIZING",
+      "character": "Magnus",
+      "name": "Recognizing",
+      "shot_range": "Shots 61-65",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Shifting base] realizing family transformation - posture defensive with territorial alarm, jaw dropped with mathematical horror, eyes wide with counting impossibility recognition, breathing accelerat..."
+    },
+    "S-BREAKING": {
+      "file": "magnus",
+      "section": "PLATE BREAKING",
+      "character": "Magnus",
+      "name": "Breaking",
+      "shot_range": "Shots 66-75",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Recognition base] with complete counting failure - posture collapsed with reality breakdown, jaw working soundlessly through mathematical impossibility, eyes unfocused with thousand-yard mathematical..."
+    },
+    "S-PREPARING": {
+      "file": "magnus",
+      "section": "PLATE PREPARING",
+      "character": "Magnus",
+      "name": "Preparing",
+      "shot_range": "Shots 76-80",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Master base] layered for survival - brown va\u00f0m\u00e1l sweater under grey sealskin anorak with hood, wool trousers with multiple patch repairs visible, heavy wool stockings pulled high, thick sealskin boot..."
+    },
+    "S-FINAL": {
+      "file": "magnus",
+      "section": "PLATE FINAL",
+      "character": "Magnus",
+      "name": "Final",
+      "shot_range": "Shots 81-85",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Preparing base] in last human consciousness - posture transitional between biped and quadruped, jaw positioned for final human speech attempt, eyes showing human consciousness trapped in transforming..."
+    },
+    "S-RAM": {
+      "file": "magnus",
+      "section": "PLATE RAM",
+      "character": "Magnus",
+      "name": "Ram",
+      "shot_range": "inside-out revealing Gu\u00f0r\u00fan's mending",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "final_form",
+      "description": "Magnificent Icelandic ram with curved horns, pure white wool, powerful quadruped build, but WEARING brown va\u00f0m\u00e1l sweater (inside-out revealing Gu\u00f0r\u00fan's mending), steel-blue ram eyes showing human cons..."
+    },
+    "S-AUTHORITY": {
+      "file": "magnus",
+      "section": "PLATE AUTHORITY",
+      "character": "Magnus",
+      "name": "Authority",
+      "shot_range": "3Hz tremor visible only in fingertips",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "false_abundance",
+      "description": "Magn\u00fas \u00deorl\u00e1ksson, 55-year-old Westfjords fisherman with weathered rectangular face, broken aquiline nose bent leftward, steel-blue hooded eyes, charcoal-grey beard reaching mid-chest, 5'10\" stocky bu..."
+    },
+    "S-TRANSITION": {
+      "file": "magnus",
+      "section": "PLATE TRANSITION",
+      "character": "Magnus",
+      "name": "Transition",
+      "shot_range": "Shots 16-23",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Master base] brown va\u00f0m\u00e1l sweater showing increased wear with loose threads at cuffs, left elbow mending more prominent with contrasting grey thread creating visible repair patch, charcoal wool trous..."
+    },
+    "S-MATHEMATICAL": {
+      "file": "magnus",
+      "section": "PLATE MATHEMATICAL",
+      "character": "Magnus",
+      "name": "Mathematical",
+      "shot_range": "Shots 18-25",
+      "film_percentage_range": [
+        25,
+        45
+      ],
+      "narrative_stage": "mathematical_breakdown",
+      "description": "[Master base] winter layers disheveled, va\u00f0m\u00e1l sweater pulled and stretched from nervous manipulation, sealskin anorak hanging open despite cold, cane gripped white-knuckle tight with both hands for p..."
+    },
+    "S-PROVIDER": {
+      "file": "magnus",
+      "section": "PLATE PROVIDER",
+      "character": "Magnus",
+      "name": "Provider",
+      "shot_range": "last grooming",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Mathematical base] equipped for desperate fishing - brown va\u00f0m\u00e1l sweater under waterproof sealskin anorak with hood secured, wool trousers tucked into high sealskin boots, thick sealing mittens, mult..."
+    },
+    "S-ROWING": {
+      "file": "magnus",
+      "section": "PLATE ROWING",
+      "character": "Magnus",
+      "name": "Rowing",
+      "shot_range": "traditional skill suppressing tremor",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Provider base] stripped to rowing essentials - brown va\u00f0m\u00e1l sweater only, sealskin anorak open and hanging loose, no hat exposing grey hair to salt spray, driftwood cane secured in boat bottom, rowin..."
+    },
+    "S-SUPERNATURAL": {
+      "file": "magnus",
+      "section": "PLATE SUPERNATURAL",
+      "character": "Magnus",
+      "name": "Supernatural",
+      "shot_range": "Shots 31-40",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Rowing base] showing aflausn cost - hair shock-white from supernatural effort, new deep lines carved by salt and strain, nose bleeding frozen in beard creating red ice-crystals, missing left canine t..."
+    },
+    "S-MARITIME": {
+      "file": "magnus",
+      "section": "PLATE MARITIME",
+      "character": "Magnus",
+      "name": "Maritime",
+      "shot_range": "irregular 2-5Hz",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Aging base] plus fresh fishing injuries - deep rope burns across both palms with raw red skin, hook puncture in right palm with dried blood crust, severe frostbite on three fingers showing blue-white..."
+    },
+    "ZERO-HZ": {
+      "file": "magnus",
+      "section": "PLATE HZ",
+      "character": "Magnus",
+      "name": "Hz",
+      "shot_range": "no tremor for violence tools",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Injured base] with 0Hz transformation - rigid military posture replacing hunched defeat, driftwood cane gripped as weapon with perfect steadiness, torn clothing rearranged to suggest authority restor..."
+    },
+    "S-SATISFIED": {
+      "file": "magnus",
+      "section": "PLATE SATISFIED",
+      "character": "Magnus",
+      "name": "Satisfied",
+      "shot_range": "violence capability confirmed",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Zero-Hz base] showing violence satisfaction - clothing straightened with authority restoration, driftwood cane held with casual confidence, upright posture suggesting dominance reestablished through ..."
+    },
+    "S-POSSESSING": {
+      "file": "magnus",
+      "section": "PLATE POSSESSING",
+      "character": "Magnus",
+      "name": "Possessing",
+      "shot_range": "Shots 51-60",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Satisfied base] adapted for intimate violation - clothing loosened for close physical contact, driftwood cane deliberately set aside for two-handed approach, posture leaning forward with invasive bod..."
+    },
+    "S-HYBRID": {
+      "file": "magnus",
+      "section": "PLATE HYBRID",
+      "character": "Magnus",
+      "name": "Hybrid",
+      "shot_range": "Shots 76-80",
+      "film_percentage_range": [
+        65,
+        85
+      ],
+      "narrative_stage": "transformation",
+      "description": "[Possessing base] with obvious ram emergence - posture lowering toward quadruped positioning, jaw structure clearly showing ruminant mouth development, steel-blue eyes developing visible horizontal pu..."
+    },
+    "S-LAST": {
+      "file": "magnus",
+      "section": "PLATE LAST",
+      "character": "Magnus",
+      "name": "Last",
+      "shot_range": "Shots 81-85",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Hybrid base] in final human moments - posture fully transitional between biped and quadruped, jaw completely ruminant but still attempting human speech, eyes full horizontal pupils showing human cons..."
+    },
+    "S-TRANSFORMED": {
+      "file": "magnus",
+      "section": "PLATE TRANSFORMED",
+      "character": "Magnus",
+      "name": "Transformed",
+      "shot_range": "Shot 22a-25 Aflausn",
+      "film_percentage_range": [
+        65,
+        85
+      ],
+      "narrative_stage": "transformation",
+      "description": "Pure Icelandic ram with magnificent curved horns, dense white wool, powerful quadruped build, steel-blue ram eyes showing human consciousness clearly visible, brown va\u00f0m\u00e1l sweater worn inside-out reve..."
+    },
+    "S-BERSERKER": {
+      "file": "magnus",
+      "section": "PLATE BERSERKER",
+      "character": "Magnus",
+      "name": "Berserker",
+      "shot_range": "Shot 35-40 Failed Provider",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Departure base] during supernatural strength activation - muscles visibly expanding under va\u00f0m\u00e1l wool, neck veins prominent, skin flushed with supernatural blood pressure, eyes dilated with berserker..."
+    },
+    "S-PATHETIC": {
+      "file": "magnus",
+      "section": "PLATE PATHETIC",
+      "character": "Magnus",
+      "name": "Pathetic",
+      "shot_range": "Shots 31-35 Sea Damage",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Aging + Injured base] with complete masculine failure - shoulders collapsed entirely, spine curved with defeat, clothing hanging on diminished frame, driftwood cane as full body support preventing co..."
+    },
+    "S-DAMAGED": {
+      "file": "magnus",
+      "section": "PLATE DAMAGED",
+      "character": "Magnus",
+      "name": "Damaged",
+      "shot_range": "Shots 30 Reflection Aging",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Aging base] with accumulated winter damage - severe rope burns across palms with visible raw flesh, hook puncture in right palm with dried blood, advanced frostbite on exposed fingers showing white-b..."
+    },
+    "TIME-SPLIT": {
+      "file": "magnus",
+      "section": "PLATE SPLIT",
+      "character": "Magnus",
+      "name": "Split",
+      "shot_range": "Shot 5.5 Web",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Rowing base] with reflection aging differential - physical body showing normal fatigue while maintaining appearance, eyes occasionally unfocused as if seeing different temporal state, jaw sometimes m..."
+    },
+    "S-WATCHING": {
+      "file": "magnus",
+      "section": "PLATE WATCHING",
+      "character": "Magnus",
+      "name": "Watching",
+      "shot_range": "Shot 18 Departure Prep",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Authority base] with predatory surveillance focus - posture arranged for optimal family observation, driftwood cane planted as territorial marker, clothing positioned to suggest casual activity while..."
+    },
+    "S-FREQUENCY": {
+      "file": "magnus",
+      "section": "PLATE FREQUENCY",
+      "character": "Magnus",
+      "name": "Frequency",
+      "shot_range": "lamp, food containers, children's possessions",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Preparation base] with tremor diagnostic visible - hands showing clear 3Hz tremor when touching family items (lamp, food containers, children's possessions) versus complete 0Hz stillness when grippin..."
+    },
+    "SIGRID-MASTER": {
+      "file": "sigrid",
+      "section": "MASTER PLATE",
+      "character": "Sigrid",
+      "is_master": true,
+      "description": "Sigrid \u00deorl\u00e1ksd\u00f3ttir, 16-year-old Westfjords girl with heart-shaped face showing delicate bone structure, high prominent cheekbones creating natural shadow beneath, small straight nose with distinctiv..."
+    },
+    "SIGRID-PURE": {
+      "file": "sigrid",
+      "section": "PLATE PURE",
+      "character": "Sigrid",
+      "name": "Pure",
+      "shot_range": "Shots 8-15",
+      "film_percentage_range": [
+        0,
+        25
+      ],
+      "narrative_stage": "false_abundance",
+      "description": "[Master base] with untouched innocence - grey-brown va\u00f0m\u00e1l dress clean and recently washed, no visible pregnancy, posture naturally confident with gentle back-straightness, arms loose at sides without..."
+    },
+    "SIGRID-AWAKENING": {
+      "file": "sigrid",
+      "section": "PLATE AWAKENING",
+      "character": "Sigrid",
+      "name": "Awakening",
+      "shot_range": "barely visible belly curve",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Pure base] with subtle awareness developing - dress showing minor wear, first hint of pregnancy (barely visible belly curve), posture beginning slight defensive positioning, arms occasionally crossin..."
+    },
+    "SIGRID-MARKED": {
+      "file": "sigrid",
+      "section": "PLATE MARKED",
+      "character": "Sigrid",
+      "name": "Marked",
+      "shot_range": "Shots 1-60",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Awakening base] after testicle forcing - dress disheveled with fabric pulled at neckline, pregnancy now visible as 2-month subtle curve, posture fully defensive with shoulders hunched forward, arms c..."
+    },
+    "SIGRID-KNOWING": {
+      "file": "sigrid",
+      "section": "PLATE KNOWING",
+      "character": "Sigrid",
+      "name": "Knowing",
+      "shot_range": "3 months pregnancy visible",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Marked base] recognizing family counting impossibility - dress tighter around expanding belly (3 months pregnancy visible), posture curved protectively around pregnancy, arms always shielding belly a..."
+    },
+    "SIGRID-SUMMONING": {
+      "file": "sigrid",
+      "section": "PLATE SUMMONING",
+      "character": "Sigrid",
+      "name": "Summoning",
+      "shot_range": "Shots 26-40",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Knowing base] preparing landv\u00e6ttir summoning - dress arranged for ritual kneeling, pregnancy 4 months creating obvious curve, posture ceremonial with spine straight for ritual dignity, arms positione..."
+    },
+    "SIGRID-ORACLE": {
+      "file": "sigrid",
+      "section": "PLATE ORACLE",
+      "character": "Sigrid",
+      "name": "Oracle",
+      "shot_range": "Shots 49-50b",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "Sigrid \u00deorl\u00e1ksd\u00f3ttir, 16-year-old heart-shaped face, three-freckle nose constellation, grey eyes with amber flecks brightened from supernatural sight, wheat-blonde braids practical but hair showing st..."
+    },
+    "SIGRID-CORNERED": {
+      "file": "sigrid",
+      "section": "PLATE CORNERED",
+      "character": "Sigrid",
+      "name": "Cornered",
+      "shot_range": "klettagj\u00e1 forming",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "violence_crisis",
+      "description": "[Oracle base] during maximum threat - dress fabric stretched over 6-month pregnancy, posture pressed against wall with nowhere to retreat, arms crossed defensively over belly with protective desperati..."
+    },
+    "SIGRID-CHOSEN": {
+      "file": "sigrid",
+      "section": "PLATE CHOSEN",
+      "character": "Sigrid",
+      "name": "Chosen",
+      "shot_range": "37\u00b0C protection",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Cornered base] receiving Bergrisi protection - dress billowing slightly from warm air bubble (37\u00b0C protection), pregnancy 7 months highly visible, posture straightening as supernatural protection ena..."
+    },
+    "SIGRID-TRANSITIONAL": {
+      "file": "sigrid",
+      "section": "PLATE TRANSITIONAL",
+      "character": "Sigrid",
+      "name": "Transitional",
+      "shot_range": "8 months impossible timeline",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Chosen base] preparing for species change - traditional dress unchanged but appearing costume-like on changing body, pregnancy full-term but mystical (8 months impossible timeline), posture shifting ..."
+    },
+    "SIGRID-BECOMING": {
+      "file": "sigrid",
+      "section": "PLATE BECOMING",
+      "character": "Sigrid",
+      "name": "Becoming",
+      "shot_range": "9 months accelerated",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "transformation",
+      "description": "[Transitional base] during active transformation - dress fabric straining over changing body proportions, pregnancy reaching mystical completion (9 months accelerated), posture flowing between human u..."
+    },
+    "SIGRID-DUAL": {
+      "file": "sigrid",
+      "section": "PLATE DUAL",
+      "character": "Sigrid",
+      "name": "Dual",
+      "shot_range": "Shots 81-85",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Becoming base] with both forms simultaneous - traditional dress now flowing like feathers while maintaining fabric reality, pregnancy resolved into tilberi birth-completion, posture showing perfect b..."
+    },
+    "SIGRID-CORVID": {
+      "file": "sigrid",
+      "section": "PLATE CORVID",
+      "character": "Sigrid",
+      "name": "Corvid",
+      "shot_range": "Shot 25 Four Corners Ritual",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "final_form",
+      "description": "Magnificent black raven with 4.5-foot wingspan, obsidian feathers showing oil-rainbow iridescence, human grey eyes with amber flecks clearly visible in corvid skull, human intelligence obvious through..."
+    },
+    "SIGRID-BIRTHING": {
+      "file": "sigrid",
+      "section": "PLATE BIRTHING",
+      "character": "Sigrid",
+      "name": "Birthing",
+      "shot_range": "Shot 16.5 Perfect Human Moment",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Oracle base] during supernatural labor - dress strained over mystical pregnancy completion, posture kneeling in ritual position with spine arched for birth, arms extended in offering gesture while pr..."
+    },
+    "SIGRID-PROPHECY": {
+      "file": "sigrid",
+      "section": "PLATE PROPHECY",
+      "character": "Sigrid",
+      "name": "Prophecy",
+      "shot_range": "Shots 8-10 Danish Counting",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Marked base] during prophetic belly whisper - dress arranged for intimate belly access, pregnancy 3 months subtly visible, posture curved protectively around belly with maternal tenderness, arms crad..."
+    },
+    "SIGRID-CALCULATING": {
+      "file": "sigrid",
+      "section": "PLATE CALCULATING",
+      "character": "Sigrid",
+      "name": "Calculating",
+      "shot_range": "2 months",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Awakening base] during family counting breakdown - dress position showing conscious distance maintenance, pregnancy barely visible (2 months), posture alert with analytical assessment stance, arms lo..."
+    },
+    "SIGRID-MONITORED": {
+      "file": "sigrid",
+      "section": "PLATE MONITORED",
+      "character": "Sigrid",
+      "name": "Monitored",
+      "shot_range": "Shot 9a-9b Feast Corruption",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Awakening base] during family surveillance web - dress arranged for minimal visibility profile, pregnancy concealed through defensive posturing, posture compressed against wall minimizing physical pr..."
+    },
+    "SIGRID-POISONED": {
+      "file": "sigrid",
+      "section": "PLATE POISONED",
+      "character": "Sigrid",
+      "name": "Poisoned",
+      "shot_range": "1 month",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Pure base] during neurotoxin exposure - dress unstained despite family contamination visible, pregnancy not yet visible (1 month), posture showing first defensive awareness, arms beginning protective..."
+    },
+    "SIGRID-DEEPER": {
+      "file": "sigrid",
+      "section": "PLATE DEEPER",
+      "character": "Sigrid",
+      "name": "Deeper",
+      "shot_range": "Shots 51-55",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Marked base] with vocal change from forced testicle consumption - dress disheveled at neckline from violation, pregnancy 2-3 months beginning to show, posture protective with curved spine shielding b..."
+    },
+    "SIGRID-ESCAPING": {
+      "file": "sigrid",
+      "section": "PLATE ESCAPING",
+      "character": "Sigrid",
+      "name": "Escaping",
+      "shot_range": "klettagj\u00e1 formation",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Chosen base] discovering escape route - dress billowing from warm air protection, pregnancy 7-8 months full mystical completion, posture straightening with supernatural assistance, arms raised toward..."
+    },
+    "SIGRID-WINGSPAN": {
+      "file": "sigrid",
+      "section": "PLATE WINGSPAN",
+      "character": "Sigrid",
+      "name": "Wingspan",
+      "shot_range": "4.5 feet",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Dual base] preparing for species transition - traditional dress flowing like feather-fabric while maintaining wool reality, pregnancy mystery resolved through tilberi birth, posture perfect between h..."
+    },
+    "GUDRUN-MASTER": {
+      "file": "gudrun",
+      "section": "MASTER PLATE",
+      "character": "Gudrun",
+      "is_master": true,
+      "description": "Gu\u00f0r\u00fan Magn\u00fasd\u00f3ttir, 35-year-old Westfjords woman with oval face showing premature aging from hardship, hollow cheeks from chronic malnutrition creating sharp cheekbone definition, straight narrow nos..."
+    },
+    "N-ABUNDANT": {
+      "file": "gudrun",
+      "section": "PLATE ABUNDANT",
+      "character": "Gudrun",
+      "name": "Abundant",
+      "shot_range": "hands normal",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "false_abundance",
+      "description": "[Master base] during false prosperity - white faldb\u00faningur headdress pristine and perfectly arranged with black velvet band spotless, grey va\u00f0m\u00e1l dress clean and well-fitted, brown wool apron fresh an..."
+    },
+    "N-WEARING": {
+      "file": "gudrun",
+      "section": "PLATE WEARING",
+      "character": "Gudrun",
+      "name": "Wearing",
+      "shot_range": "barely perceptible",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Abundant base] with growing strain - faldb\u00faningur showing minor dust accumulation, grey dress with small new patches, brown apron with food stains from scarce cooking, black shawl pulled tighter for ..."
+    },
+    "N-PREPARING": {
+      "file": "gudrun",
+      "section": "PLATE PREPARING",
+      "character": "Gudrun",
+      "name": "Preparing",
+      "shot_range": "still dismissible as fraying",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Wearing base] preparing for survival season - faldb\u00faningur arranged for winter durability with brass pin secured against wind, grey dress with additional patches and wear visible, brown apron stained..."
+    },
+    "N-COUNTING": {
+      "file": "gudrun",
+      "section": "PLATE COUNTING",
+      "character": "Gudrun",
+      "name": "Counting",
+      "shot_range": "clearly organic growth not fraying",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "mathematical_breakdown",
+      "description": "[Preparing base] during family counting breakdown - faldb\u00faningur slightly disheveled from sleep disruption, grey dress wrinkled from restless nights, brown apron twisted from nervous handling, wool th..."
+    },
+    "N-PRODUCING": {
+      "file": "gudrun",
+      "section": "PLATE PRODUCING",
+      "character": "Gudrun",
+      "name": "Producing",
+      "shot_range": "Shots 41-43",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Counting base] with obvious wool emergence - faldb\u00faningur arranged to conceal wrist situation, grey dress sleeves pulled down attempting to hide wool production, brown apron positioned to catch falli..."
+    },
+    "N-BEATEN": {
+      "file": "gudrun",
+      "section": "PLATE BEATEN",
+      "character": "Gudrun",
+      "name": "Beaten",
+      "shot_range": "Shots 43c-44",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Producing base] after domestic violence - faldb\u00faningur knocked askew with brass pin bent, grey dress torn at shoulder seam, brown apron twisted and stained, black shawl used to cover violence marks, ..."
+    },
+    "N-CONDEMNED": {
+      "file": "gudrun",
+      "section": "PLATE CONDEMNED",
+      "character": "Gudrun",
+      "name": "Condemned",
+      "shot_range": "preparing for death",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Beaten base] receiving death assignment - faldb\u00faningur rearranged with conscious dignity despite damage, grey dress straightened as much as possible, brown apron removed and folded (preparing for dea..."
+    },
+    "N-WALKING": {
+      "file": "gudrun",
+      "section": "PLATE WALKING",
+      "character": "Gudrun",
+      "name": "Walking",
+      "shot_range": "left behind",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Condemned base] during death march - faldb\u00faningur freezing solid creating ice-crown from traditional headdress, grey dress soaked with blood and ice, no apron (left behind), black shawl frozen stiff ..."
+    },
+    "N-OFFERING": {
+      "file": "gudrun",
+      "section": "PLATE OFFERING",
+      "character": "Gudrun",
+      "name": "Offering",
+      "shot_range": "Shot 47c",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Walking base] at contaminated god encounter - faldb\u00faningur completely frozen into elaborate ice crown preserving traditional shape, grey dress soaked red with blood and black with contamination, wool..."
+    },
+    "N-RETURNING": {
+      "file": "gudrun",
+      "section": "PLATE RETURNING",
+      "character": "Gudrun",
+      "name": "Returning",
+      "shot_range": "Shots 50-85",
+      "film_percentage_range": [
+        0,
+        15
+      ],
+      "narrative_stage": "general",
+      "description": "[Offering base] after divine encounter - faldb\u00faningur ice crown partially melted with blood creating red ice architecture, entire grey dress soaked red creating crimson garment, wool production 70mm n..."
+    },
+    "N-RECOGNIZING": {
+      "file": "gudrun",
+      "section": "PLATE RECOGNIZING",
+      "character": "Gudrun",
+      "name": "Recognizing",
+      "shot_range": "Shots 56-60",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Returning base] realizing family change - blood-soaked dress beginning to appear appropriate for sheep body, faldb\u00faningur ice crown fitting properly on changing head shape, wool production 80mm creat..."
+    },
+    "N-SPEAKING": {
+      "file": "gudrun",
+      "section": "PLATE SPEAKING",
+      "character": "Gudrun",
+      "name": "Speaking",
+      "shot_range": "Shots 61-85",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Recognizing base] delivering essential truth - blood-soaked dress hanging properly on sheep-transitioning body, faldb\u00faningur ice crown perfectly fitting changing head proportions, wool production com..."
+    },
+    "N-EWE": {
+      "file": "gudrun",
+      "section": "PLATE EWE",
+      "character": "Gudrun",
+      "name": "Ewe",
+      "shot_range": "sheep... people",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "White Icelandic ewe with traditional faldb\u00faningur headdress fitting perfectly on sheep head, grey wool dress hanging properly on quadruped body, braided wool testimony strands flowing from production ..."
+    },
+    "N-HIDING": {
+      "file": "gudrun",
+      "section": "PLATE HIDING",
+      "character": "Gudrun",
+      "name": "Hiding",
+      "shot_range": "Shot 5.5 Surveillance Web",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Producing base] actively concealing transformation - faldb\u00faningur arranged to maximize wrist concealment, grey dress with sleeves pulled down and secured with small ties, brown apron positioned as sh..."
+    },
+    "N-WATCHING": {
+      "file": "gudrun",
+      "section": "PLATE WATCHING",
+      "character": "Gudrun",
+      "name": "Watching",
+      "shot_range": "early stage",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Abundant base] during family surveillance recognition - faldb\u00faningur perfectly arranged for optimal peripheral vision, grey dress positioned for immediate defensive movement, brown apron twisted from..."
+    },
+    "N-PROTECTING": {
+      "file": "gudrun",
+      "section": "PLATE PROTECTING",
+      "character": "Gudrun",
+      "name": "Protecting",
+      "shot_range": "Shot 44a Storm Walker",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Producing base] with maternal authority strengthening - faldb\u00faningur arranged with conscious dignity, grey dress showing wear but maintained with pride, brown apron positioned for work efficiency, bl..."
+    },
+    "N-CROWNED": {
+      "file": "gudrun",
+      "section": "PLATE CROWNED",
+      "character": "Gudrun",
+      "name": "Crowned",
+      "shot_range": "Shots 45-46 Bull Encounter",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Walking base] with headdress frozen into crown - white faldb\u00faningur completely transformed by ice into elaborate crown architecture with black velvet band creating structural support for ice formatio..."
+    },
+    "N-DIVINE": {
+      "file": "gudrun",
+      "section": "PLATE DIVINE",
+      "character": "Gudrun",
+      "name": "Divine",
+      "shot_range": "Shots 47-50",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Crowned base] offering wool to contaminated god - ice crown gleaming with divine audience appropriateness, blood-soaked dress serving as ceremonial garment for god-meeting, wool production 70mm offer..."
+    },
+    "N-WITNESS": {
+      "file": "gudrun",
+      "section": "PLATE WITNESS",
+      "character": "Gudrun",
+      "name": "Witness",
+      "shot_range": "past/present/future",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "Gu\u00f0r\u00fan Magn\u00fasd\u00f3ttir, 35-year-old oval face with hollow cheeks from malnutrition, grey-green almond eyes with dark circles, white faldb\u00faningur headdress with black velvet band and brass pin, 5'5\" skele..."
+    },
+    "N-ETERNAL": {
+      "file": "gudrun",
+      "section": "PLATE ETERNAL",
+      "character": "Gudrun",
+      "name": "Eternal",
+      "shot_range": "We die as sheep so our children can become human",
+      "film_percentage_range": [
+        85,
+        100
+      ],
+      "narrative_stage": "final_form",
+      "description": "Pure white Icelandic ewe with traditional faldb\u00faningur headdress fitting perfectly on sheep head creating impossible but appropriate crown, grey wool dress hanging correctly on quadruped body, wool te..."
+    },
+    "N-REVEALED": {
+      "file": "gudrun",
+      "section": "PLATE REVEALED",
+      "character": "Gudrun",
+      "name": "Revealed",
+      "shot_range": "Multiple Shots",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Producing base] with wool growth obvious - faldb\u00faningur positioned normally but wrists deliberately exposed, grey dress with sleeves pushed back revealing transformation, brown apron arranged to disp..."
+    },
+    "N-SILENT": {
+      "file": "gudrun",
+      "section": "PLATE SILENT",
+      "character": "Gudrun",
+      "name": "Silent",
+      "shot_range": "Death Journey",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Variable base depending on scene] with enforced silence emphasis - faldb\u00faningur arranged normally, clothing appropriate to scene context, wool production visible at scene-appropriate level, frame sho..."
+    },
+    "N-TRANSFORMING": {
+      "file": "gudrun",
+      "section": "PLATE TRANSFORMING",
+      "character": "Gudrun",
+      "name": "Transforming",
+      "shot_range": "Shots 1-15",
+      "film_percentage_range": [
+        65,
+        85
+      ],
+      "narrative_stage": "transformation",
+      "description": "[Walking base] with headdress becoming crown - white faldb\u00faningur transforming from traditional women's wear into ice crown architecture through freezing weather, brass pin and black velvet band servi..."
+    },
+    "JON-MASTER": {
+      "file": "jon",
+      "section": "MASTER PLATE",
+      "character": "Jon",
+      "is_master": true,
+      "description": "J\u00f3n Magn\u00fasson, 8-year-old Westfjords boy with round face perpetually flushed with fever creating red patches on pale cheeks, small button nose bright red from illness and cold, chapped lips with visib..."
+    },
+    "N-MILD": {
+      "file": "jon",
+      "section": "PLATE MILD",
+      "character": "Jon",
+      "name": "Mild",
+      "shot_range": "brief glimpses of ram running in snow",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Master base] with 39\u00b0C fever beginning - round face flushed pink with fever warmth, button nose red from congestion, lips chapped but not severely bloodied, hazel eyes slightly glazed but still focus..."
+    },
+    "N-RISING": {
+      "file": "jon",
+      "section": "PLATE RISING",
+      "character": "Jon",
+      "name": "Rising",
+      "shot_range": "seeing past ram death during present moments",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Mild base] with fever advancing to 40\u00b0C - face flushed deeper red with fever intensity, button nose bright crimson with increased congestion, lips more severely chapped with blood spots from coughing..."
+    },
+    "N-SEEING": {
+      "file": "jon",
+      "section": "PLATE SEEING",
+      "character": "Jon",
+      "name": "Seeing",
+      "shot_range": "Shots 1-60",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Rising base] with 41\u00b0C fever enabling temporal vision - face flushed deep red with dangerous fever heat, button nose swollen with severe congestion, lips cracked and bleeding from persistent coughing..."
+    },
+    "N-PROPHET": {
+      "file": "jon",
+      "section": "PLATE PROPHET",
+      "character": "Jon",
+      "name": "Prophet",
+      "shot_range": "Shots 11-20",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "J\u00f3n Magn\u00fasson, 8-year-old round face flushed deep red with 41\u00b0C fever, button nose swollen crimson, hazel eyes glazed with temporal sight, sandy brown hair matted with fever sweat, 4'2\" skeletal frame..."
+    },
+    "N-CHANGING": {
+      "file": "jon",
+      "section": "PLATE CHANGING",
+      "character": "Jon",
+      "name": "Changing",
+      "shot_range": "Shots 21-30",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Energetic base] during actual species change - fever 43\u00b0C at critical peak, face structure beginning lamb transformation while maintaining human consciousness, sheep teeth fully functional, hazel eye..."
+    },
+    "N-GAPPED": {
+      "file": "jon",
+      "section": "PLATE GAPPED",
+      "character": "Jon",
+      "name": "Gapped",
+      "shot_range": "living in multiple time periods simultaneously",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Changing base] after multiple tooth loss - fever 42\u00b0C creating dangerous delirium, face gaunt from continued illness, lips bloody from empty tooth sockets, hazel eyes completely unfocused with advanc..."
+    },
+    "N-EMERGING": {
+      "file": "jon",
+      "section": "PLATE EMERGING",
+      "character": "Jon",
+      "name": "Emerging",
+      "shot_range": "Shots 41-50",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Gapped base] with sheep teeth beginning growth - fever 42\u00b0C creating critical flush, face showing new teeth pushing through gums, lips swollen around emerging sheep teeth, hazel eyes bright with feve..."
+    },
+    "N-GRINDING": {
+      "file": "jon",
+      "section": "PLATE GRINDING",
+      "character": "Jon",
+      "name": "Grinding",
+      "shot_range": "Shots 51-85",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Emerging base] with sheep mastication developing - fever 42\u00b0C maintained, face showing comfort with new teeth, lips normal around sheep dental configuration, hazel eyes bright with new feeding capabi..."
+    },
+    "N-ENERGETIC": {
+      "file": "jon",
+      "section": "PLATE ENERGETIC",
+      "character": "Jon",
+      "name": "Energetic",
+      "shot_range": "sheep breathing efficient",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Grinding base] with fever creating supernatural activity - fever 43\u00b0C creating dangerous but energizing delirium, face bright red with fever energy, lips normal with sheep teeth prominent, hazel eyes..."
+    },
+    "N-LAMB": {
+      "file": "jon",
+      "section": "PLATE LAMB",
+      "character": "Jon",
+      "name": "Lamb",
+      "shot_range": "Shot 15-20",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "Small brown Icelandic lamb with hazel eyes showing simple lamb intelligence without human consciousness retention, perfect sheep dental configuration for grass processing, brown wool coat matching ori..."
+    },
+    "N-LOSING": {
+      "file": "jon",
+      "section": "PLATE LOSING",
+      "character": "Jon",
+      "name": "Losing",
+      "shot_range": "molars and canine",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Changing base] during actual tooth loss - fever 41\u00b0C with face showing dental pain, three human teeth visible in palm after falling out (molars and canine), lips bloody from sudden tooth loss, mouth ..."
+    },
+    "N-TEMPORAL": {
+      "file": "jon",
+      "section": "PLATE TEMPORAL",
+      "character": "Jon",
+      "name": "Temporal",
+      "shot_range": "breathing in different time period",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Seeing base] with maximum temporal awareness - fever 43\u00b0C creating critical consciousness state, face red-purple with dangerous fever heat, hazel eyes completely unfocused seeing past/present/future ..."
+    },
+    "N-WANDERING": {
+      "file": "jon",
+      "section": "PLATE WANDERING",
+      "character": "Jon",
+      "name": "Wandering",
+      "shot_range": "Shots 40-50",
+      "film_percentage_range": [
+        0,
+        15
+      ],
+      "narrative_stage": "general",
+      "description": "[Temporal base] with increased mobility from fever energy - fever 42\u00b0C creating restless energy, face gaunt but animated with prophetic purpose, empty tooth sockets healing, hazel eyes bright with mis..."
+    },
+    "N-FITTING": {
+      "file": "jon",
+      "section": "PLATE FITTING",
+      "character": "Jon",
+      "name": "Fitting",
+      "shot_range": "Shots 1-10",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Wandering base] with proper sweater fit achieved - fever 42\u00b0C sustained, face showing improved nutrition from unknown source, sheep teeth beginning emergence through healing gums, hazel eyes focused ..."
+    },
+    "N-MISSION": {
+      "file": "jon",
+      "section": "PLATE MISSION",
+      "character": "Jon",
+      "name": "Mission",
+      "shot_range": "r\u00e9ttir formation spots, warm floor areas, wall crack development",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Wandering base] with fever directing movement - fever 42\u00b0C creating purposeful energy, face animated with prophetic mission, empty tooth sockets clean, hazel eyes bright with vision-directed purpose,..."
+    },
+    "N-MASTERING": {
+      "file": "jon",
+      "section": "PLATE MASTERING",
+      "character": "Jon",
+      "name": "Mastering",
+      "shot_range": "Shots 56-65",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Fitting base] with dental function perfected - fever 41\u00b0C steady, face showing comfort with new oral configuration, sheep teeth perfectly positioned for herbivore function, hazel eyes focused on new ..."
+    },
+    "N-FINAL": {
+      "file": "jon",
+      "section": "PLATE FINAL",
+      "character": "Jon",
+      "name": "Final",
+      "shot_range": "Shots 65-85",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Mastering base] before consciousness simplification - fever breaking as transformation approaches, face losing fever flush revealing pale transformation, sheep teeth dominant with perfect herbivore f..."
+    },
+    "LILJA-PURE": {
+      "file": "lilja",
+      "section": "PLATE PURE",
+      "character": "Lilja",
+      "name": "Pure",
+      "shot_range": "Shots 10-15",
+      "film_percentage_range": [
+        0,
+        15
+      ],
+      "narrative_stage": "false_abundance",
+      "description": "[Master base] with perfect childhood innocence - cherubic face bright with healthy pink cheeks despite family strain, tiny upturned nose clear and breathing normally, rosebud mouth often forming silen..."
+    },
+    "LILJA-SENSING": {
+      "file": "lilja",
+      "section": "PLATE SENSING",
+      "character": "Lilja",
+      "name": "Sensing",
+      "shot_range": "detecting temperature shifts, smelling house breathing",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Pure base] with supernatural environmental awareness developing - face maintaining innocence but eyes developing unusual focus on household environmental details adults miss, tiny nose showing increa..."
+    },
+    "LILJA-HARMONIC": {
+      "file": "lilja",
+      "section": "PLATE HARMONIC",
+      "character": "Lilja",
+      "name": "Harmonic",
+      "shot_range": "Shots 1-60",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Sensing base] developing impossible frequency abilities - face showing concentration during harmonic singing, tiny nose flared with breath control for frequency production, rosebud mouth positioned p..."
+    },
+    "LILJA-MATHEMATICAL": {
+      "file": "lilja",
+      "section": "PLATE MATHEMATICAL",
+      "character": "Lilja",
+      "name": "Mathematical",
+      "shot_range": "Shots 11-25",
+      "film_percentage_range": [
+        25,
+        45
+      ],
+      "narrative_stage": "mathematical_breakdown",
+      "description": "[Harmonic base] witnessing family counting breakdown - face showing child confusion about adult mathematical impossibility, mouth silently counting along with adults but getting different numbers, blu..."
+    },
+    "LILJA-COMMUNICATING": {
+      "file": "lilja",
+      "section": "PLATE COMMUNICATING",
+      "character": "Lilja",
+      "name": "Communicating",
+      "shot_range": "wall stroking, floor patting",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Mathematical base] with house consciousness dialogue - face animated during environmental communication, mouth moving in conversation with house breathing rhythm, blue eyes alternating between family..."
+    },
+    "LILJA-EVOLVING": {
+      "file": "lilja",
+      "section": "PLATE EVOLVING",
+      "character": "Lilja",
+      "name": "Evolving",
+      "shot_range": "Shots 41-55",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Communicating base] with lullaby modification ability - face serious with prophetic responsibility, mouth carefully shaping evolved lullaby words, blue eyes focused with prophetic sight showing futur..."
+    },
+    "LILJA-ACCEPTING": {
+      "file": "lilja",
+      "section": "PLATE ACCEPTING",
+      "character": "Lilja",
+      "name": "Accepting",
+      "shot_range": "Shots 56-65",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Evolving base] with transformation enthusiasm - face bright with transformation excitement rather than fear, mouth practicing sheep vocalizations with child enthusiasm, blue eyes eager with transform..."
+    },
+    "LILJA-FINAL": {
+      "file": "lilja",
+      "section": "PLATE FINAL",
+      "character": "Lilja",
+      "name": "Final",
+      "shot_range": "Shots 65-85",
+      "film_percentage_range": [
+        0,
+        100
+      ],
+      "narrative_stage": "general",
+      "description": "[Accepting base] before consciousness simplification - face maintaining child emotional expression despite anatomical changes, mouth adapted for sheep vocalization but retaining child emotional range,..."
+    },
+    "LILJA-LAMB": {
+      "file": "lilja",
+      "section": "PLATE LAMB",
+      "character": "Lilja",
+      "name": "Lamb",
+      "shot_range": "Prologue",
+      "film_percentage_range": [
+        0,
+        15
+      ],
+      "narrative_stage": "general",
+      "description": "Small white Icelandic lamb with large cornflower-blue eyes showing simple lamb intelligence without human consciousness retention, perfect lamb anatomy with natural sheep behavioral responses, grey wo..."
+    }
+  }
+}

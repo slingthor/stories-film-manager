@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Camera on wall showing only shadows as the cane comes down, [GUÃRÃšN]'s shadow crumpling but no sound from her, just sharp exhale, while children's shadows don't even flinch - normalized horror of isolation where this is routine.",
-      "action": "CAMERA HOLDS on wall shadows only. Cane shadow descends fast. Strikes. GuÃ°rÃºn's shadow folds at waist. No scream - just breath expelled. Rises. Cane strikes again. Shadow crumples to knees. Children's shadows haven't moved - JÃ³n and Lilja trained not to see, not to react. This is Tuesday, Thursday, any day. No neighbors to hear. No law to intervene. 40 miles of winter sea to any help. Third strike coming but GuÃ°rÃºn shadow raises hand - not to block but gesture of acceptance, submission. Cane shadow pauses. Through this, tilberi's actual form visible in corner of frame - watching, learning, brass eye unblinking. Recording how power works. House groans - 3/min breathing labored. Even the dying giant cannot intervene.",
+      "subject": "Camera on wall showing only shadows as the cane comes down, [GU\u00c3\u0090R\u00c3\u0161N]'s shadow crumpling but no sound from her, just sharp exhale, while children's shadows don't even flinch - normalized horror of isolation where this is routine.",
+      "action": "CAMERA HOLDS on wall shadows only. Cane shadow descends fast. Strikes. Gu\u00c3\u00b0r\u00c3\u00ban's shadow folds at waist. No scream - just breath expelled. Rises. Cane strikes again. Shadow crumples to knees. Children's shadows haven't moved - J\u00c3\u00b3n and Lilja trained not to see, not to react. This is Tuesday, Thursday, any day. No neighbors to hear. No law to intervene. 40 miles of winter sea to any help. Third strike coming but Gu\u00c3\u00b0r\u00c3\u00ban shadow raises hand - not to block but gesture of acceptance, submission. Cane shadow pauses. Through this, tilberi's actual form visible in corner of frame - watching, learning, brass eye unblinking. Recording how power works. House groans - 3/min breathing labored. Even the dying giant cannot intervene.",
       "scene": "Shadow play on wall. Real violence unseen but impact clear. Tilberi witnessing.",
       "style": "Static on shadows, violence implied not shown (that's where the camera is), documentary of routine horror.",
       "camera_position": "Static on shadows, violence implied not shown",
-      "dialogue": "(GuÃ°rÃºn): Only exhales, no words (MagnÃºs): Breathing heavy with effort",
+      "dialogue": "(Gu\u00c3\u00b0r\u00c3\u00ban): Only exhales, no words (Magn\u00c3\u00bas): Breathing heavy with effort",
       "audio": {
         "primary": [
           "Cane striking",
@@ -43,7 +43,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

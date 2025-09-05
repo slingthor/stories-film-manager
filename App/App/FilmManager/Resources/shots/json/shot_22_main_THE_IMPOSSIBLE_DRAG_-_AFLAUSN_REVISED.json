@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[MAGNÃšS] planting his tremoring cane deep in snow for anchor, attempting to drag the 12-foot Ã¡rabÃ¡tur alone, when the trawler beam hits him directly - triggering aflausn (supernatural strength) that lets him drag the impossible load 20 feet in one pull, but blood immediately streams from his nose, freezing on his beard.",
-      "action": "MagnÃºs loops rope over shoulders, tries to pull. Boat frozen to ground, won't budge. His cane tremoring at 4Hz in his grip becomes impediment. Makes decision: drives cane deep into snow as anchor point, abandoning his authority symbol for labor. Grips rope with both hands now. Pulls. Nothing. Pulls harder. Boat rocks but stuck. Then - trawler searchlight sweeps across, hits him directly. In that yellow industrial light, something changes. Old Westfjords strength - aflausn, the impossible surge fishermen know. Legends of men lifting boats, dragging whales, but always with cost. He PULLS - boat breaks free, slides 20 feet in one supernatural motion, following blood spiral perfectly. But moment light passes, he collapses to knees. Blood pours from nose, freezing instantly into red icicles on beard. Tremor worsens to 5Hz. Looks at hands - older, more weathered, as if strength borrowed from future years. Cane still standing in snow behind him, already freezing in place, becoming permanent marker. Will never retrieve it.",
-      "scene": "Path from house, 6:30 AM, -25Â°C. Where cane planted, ice immediately forms around it, crystallizing up shaft. Boat leaves deep groove following blood spiral. Trawler light triggers transformation - in beam, MagnÃºs briefly appears younger, stronger, then older when it passes. The aflausn comes from industrial light, not traditional gods - corrupted miracle.",
+      "subject": "[MAGN\u00c3\u0161S] planting his tremoring cane deep in snow for anchor, attempting to drag the 12-foot \u00c3\u00a1rab\u00c3\u00a1tur alone, when the trawler beam hits him directly - triggering aflausn (supernatural strength) that lets him drag the impossible load 20 feet in one pull, but blood immediately streams from his nose, freezing on his beard.",
+      "action": "Magn\u00c3\u00bas loops rope over shoulders, tries to pull. Boat frozen to ground, won't budge. His cane tremoring at 4Hz in his grip becomes impediment. Makes decision: drives cane deep into snow as anchor point, abandoning his authority symbol for labor. Grips rope with both hands now. Pulls. Nothing. Pulls harder. Boat rocks but stuck. Then - trawler searchlight sweeps across, hits him directly. In that yellow industrial light, something changes. Old Westfjords strength - aflausn, the impossible surge fishermen know. Legends of men lifting boats, dragging whales, but always with cost. He PULLS - boat breaks free, slides 20 feet in one supernatural motion, following blood spiral perfectly. But moment light passes, he collapses to knees. Blood pours from nose, freezing instantly into red icicles on beard. Tremor worsens to 5Hz. Looks at hands - older, more weathered, as if strength borrowed from future years. Cane still standing in snow behind him, already freezing in place, becoming permanent marker. Will never retrieve it.",
+      "scene": "Path from house, 6:30 AM, -25\u00c2\u00b0C. Where cane planted, ice immediately forms around it, crystallizing up shaft. Boat leaves deep groove following blood spiral. Trawler light triggers transformation - in beam, Magn\u00c3\u00bas briefly appears younger, stronger, then older when it passes. The aflausn comes from industrial light, not traditional gods - corrupted miracle.",
       "style": "Wide shot showing supernatural drag distance, then close on cost (that's where the camera is), documentary of corrupted mythology.",
       "camera_position": "Wide shot showing supernatural drag distance, then close on cost",
-      "dialogue": "(MagnÃºs, planting cane): \"BÃ­ddu hÃ©r\" (Wait here) (During aflausn surge): Wordless roar of effort (After, seeing blood): \"HvaÃ° kostar Ã¾etta?\" (What does this cost?)",
+      "dialogue": "(Magn\u00c3\u00bas, planting cane): \"B\u00c3\u00adddu h\u00c3\u00a9r\" (Wait here) (During aflausn surge): Wordless roar of effort (After, seeing blood): \"Hva\u00c3\u00b0 kostar \u00c3\u00beetta?\" (What does this cost?)",
       "audio": {
         "primary": [
           "Cane planting in snow",
@@ -45,11 +45,28 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show supernatural surge clearly, blood cost visible, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
-    "womens_silence": "GuÃ°rÃºn closes door without words",
+    "womens_silence": "Gu\u00c3\u00b0r\u00c3\u00ban closes door without words",
     "triple_reality": "Physical: 200-pound boat / Psychological: desperate strength / Mythological: aflausn corrupted"
   },
   "notes": {

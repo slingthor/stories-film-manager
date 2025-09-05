@@ -1,0 +1,416 @@
+{
+  "plate_files": {
+    "interior": "/Users/ingthor/Documents/stories/enhancements/ba\u00f0stofa_environmental_plates_bergrisi_transformation.txt",
+    "exterior_house": "/Users/ingthor/Documents/stories/enhancements/house_exterior_immediate_surroundings_plates.txt",
+    "exterior_westfjords": "/Users/ingthor/Documents/stories/enhancements/westfjords_exterior_environmental_plates_system.txt",
+    "sea": "/Users/ingthor/Documents/stories/enhancements/sea_environmental_plates_character_progression.txt"
+  },
+  "plate_index": {
+    "BA\u00d0STOFA---BASTOFA-PROGRESSIVELY-REVEALS-TRUE-NATURE-AS-BERGRISIS-BODY-INTERIOR--HOUSE-TRANSFORMS-INTO-KLETTAGJ-OBSIDIAN-CLIFF-CLEFT-AS-GIANT-CRYSTALLIZES-INTO-MONUMENT--NO-MARINE-ELEMENTS---PURE-GEOLOGICAL-CLIFF-FORMATION-WITH-OBSIDIAN-GROWTH--SEVEN-WARM-SPOTS-C--BERGRISIS-ORGANS-PULSING-WITH-LIFE-THEN-CRYSTALLIZING--CAMERA-POSITION-CONSIDERATIONS-FOR-EACH-SCENES-PERSPECTIVE-AND-LIGHTING-NEEDSMASTER-ENVIRONMENTAL-PLATEBASE-TEMPLATE-FOR-ALL-SCENE-VARIATIONSBASTOFA-MASTER-V": {
+      "file": "interior",
+      "type": "interior",
+      "name": "- Ba\u00f0stofa progressively reveals true nature as Bergrisi's body interior\n- House transforms into klettagj\u00e1 (obsidian cliff cleft) as giant crystallizes into monument\n- No marine elements - pure geological cliff formation with obsidian growth\n- Seven warm spots (37\u00b0C) = Bergrisi's organs pulsing with life then crystallizing\n- Camera position considerations for each scene's perspective and lighting needs\n\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n\nMASTER ENVIRONMENTAL PLATE\nBase Template for All Scene Variations\n\nBA\u00d0STOFA-MASTER-V2",
+      "narrative_stage": "geological_emergence",
+      "description": "Traditional Icelandic turf house 12\u00d716\u00d76ft interior with three massive driftwood support beams running lengthwise showing carved ship names \"HILDUR\" (north beam), \"RAGNAR\" (center beam), \"\u00de\u00d3RR\" (south..."
+    },
+    "STOFA-DOMESTIC": {
+      "file": "interior",
+      "type": "interior",
+      "name": "STOFA-DOMESTIC",
+      "narrative_stage": "domestic_disguise",
+      "description": "[Master base] with house consciousness sleeping - driftwood beams steady and architectural, turf walls appearing purely structural, packed earth floor normal domestic surface, whale oil lamp burning b..."
+    },
+    "STOFA-STIRRING": {
+      "file": "interior",
+      "type": "interior",
+      "name": "STOFA-STIRRING",
+      "narrative_stage": "general",
+      "description": "[Domestic base] with subtle organic awareness - driftwood beams showing occasional slight flex during house breathing, ship markings becoming more visible as if carved deeper, turf walls developing su..."
+    },
+    "STOFA-ORGANIC": {
+      "file": "interior",
+      "type": "interior",
+      "name": "STOFA-ORGANIC",
+      "narrative_stage": "organic_revelation",
+      "description": "[Stirring base] with obvious biological nature - driftwood beams flexing clearly like ribs during house breathing, ship carvings appearing to move slightly with wood flex, turf walls showing blood ves..."
+    },
+    "STOFA-BODY": {
+      "file": "interior",
+      "type": "interior",
+      "name": "STOFA-BODY",
+      "narrative_stage": "general",
+      "description": "[Organic base] with full biological revelation - driftwood beams clearly functioning as ribs with visible flex during breathing, ship markings glowing faintly with each heartbeat, turf walls showing o..."
+    },
+    "STOFA-CLEFT": {
+      "file": "interior",
+      "type": "interior",
+      "name": "STOFA-CLEFT",
+      "narrative_stage": "general",
+      "description": "[Body base] with klettagj\u00e1 development - walls beginning vertical striations suggesting cliff rock formation, ceiling appearing higher (10ft sensation) though unmeasured, floor developing 2\u00b0 slope tow..."
+    },
+    "STOFA-CRYSTALLIZING": {
+      "file": "interior",
+      "type": "interior",
+      "name": "STOFA-CRYSTALLIZING",
+      "narrative_stage": "crystallization",
+      "description": "[Cleft base] with obsidian formation accelerating - walls showing black mineral veining through turf structure, vertical striations obvious as cliff formation, ceiling sensation 15ft height with unmea..."
+    },
+    "STOFA-CLIFF": {
+      "file": "interior",
+      "type": "interior",
+      "name": "STOFA-CLIFF",
+      "narrative_stage": "geological_emergence",
+      "description": "[Crystallizing base] with full klettagj\u00e1 revelation - walls pure obsidian extending 30ft upward with natural cliff striations, floor slope 10\u00b0 creating canyon bottom effect in Sigrid's corner, 4-inch ..."
+    },
+    "STOFA-MONUMENT": {
+      "file": "interior",
+      "type": "interior",
+      "name": "STOFA-MONUMENT",
+      "narrative_stage": "crystallization",
+      "description": "[Cliff base] with crystallization complete - walls pure black obsidian extending 40ft creating perfect klettagj\u00e1 interior, floor 15\u00b0 slope with 6-inch black water creating cliff-bottom stream, crack n..."
+    },
+    "STOFA-SURVEILLANCE": {
+      "file": "interior",
+      "type": "interior",
+      "name": "STOFA-SURVEILLANCE",
+      "narrative_stage": "general",
+      "description": "[Domestic base] arranged for optimal family observation - furniture positioned creating sight-lines between all family members, seven warm floor spots creating natural gathering positions, lighting fr..."
+    },
+    "STOFA-PEACEFUL": {
+      "file": "interior",
+      "type": "interior",
+      "name": "STOFA-PEACEFUL",
+      "narrative_stage": "general",
+      "description": "[Organic base] with protective atmosphere - house breathing gently at 12/min creating peaceful rhythm, seven warm spots glowing softly with protective organ function, lamp flame steady and golden crea..."
+    },
+    "STOFA-DESPERATE": {
+      "file": "interior",
+      "type": "interior",
+      "name": "STOFA-DESPERATE",
+      "narrative_stage": "general",
+      "description": "[Body base] with starvation affecting architecture - walls appearing consumable as children attempt eating building materials, driftwood beams showing child teeth marks at 3-4ft height, turf exposed f..."
+    },
+    "STOFA-RECORDING": {
+      "file": "interior",
+      "type": "interior",
+      "name": "STOFA-RECORDING",
+      "narrative_stage": "general",
+      "description": "[Body base] with trauma absorption capability - turf walls absorbing violence energy into organic structure, driftwood beams recording violence through wood grain darkening, floor receiving violence v..."
+    },
+    "STOFA-FRAGMENTING": {
+      "file": "interior",
+      "type": "interior",
+      "name": "STOFA-FRAGMENTING",
+      "narrative_stage": "general",
+      "description": "[Crystallizing base] with seven-perspective accommodation - architecture existing simultaneously in seven different reality states, obsidian formation creating multi-dimensional cliff interior, kletta..."
+    },
+    "HOUSE-THE-ORLKSSON-HOUSE-EXTERIOR-TRANSFORMS-FROM-IMPOVERISHED-TURF-DWELLING-INTO-GEOLOGICAL-FORMATION-AS-BERGRISI-CRYSTALLIZES-REQUIRING-DETAILED-PLATES-FOR-EXTERIOR-SHOTS-SHOWING-PROGRESSIVE-TRANSFORMATION-FROM-DOMESTIC-ARCHITECTURE-TO-NATURAL-CLIFF-FORMATION-TO-SUPERNATURAL-OBSIDIAN-MONUMENTMASTER-EXTERIOR-PLATEAUTHENTIC--HORNSTRANDIR-POOR-FAMILY-HOUSINGHOUSE-EXTERIOR-MASTER": {
+      "file": "exterior_house",
+      "type": "exterior_house",
+      "name": "The \u00deorl\u00e1ksson house exterior transforms from impoverished turf dwelling into geological formation as Bergrisi crystallizes, requiring detailed plates for exterior shots showing progressive transformation from domestic architecture to natural cliff formation to supernatural obsidian monument.\n\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n\nMASTER EXTERIOR PLATE\nAuthentic 1888 Hornstrandir Poor Family Housing\n\nHOUSE-EXTERIOR-MASTER",
+      "narrative_stage": "domestic_disguise",
+      "description": "Small impoverished turf house 16\u00d720ft exterior dimensions (interior 12\u00d716ft due to 3ft thick turf walls), low profile building only 8ft height at peak indicating poverty-level construction, built dire..."
+    },
+    "HOUSE-EXTERIOR-MASTER": {
+      "file": "exterior_house",
+      "type": "exterior_house",
+      "name": "HOUSE-EXTERIOR-MASTER",
+      "narrative_stage": "general",
+      "description": "Small impoverished turf house 16\u00d720ft exterior dimensions (interior 12\u00d716ft due to 3ft thick turf walls), low profile building only 8ft height at peak indicating poverty-level construction, built dire..."
+    },
+    "HOUSE-TRADITIONAL": {
+      "file": "exterior_house",
+      "type": "exterior_house",
+      "name": "HOUSE-TRADITIONAL",
+      "narrative_stage": "domestic_disguise",
+      "description": "[Master base] appearing purely architectural - turf construction appearing entirely constructed rather than geological, grass roof perfectly maintained creating natural camouflage with landscape, chim..."
+    },
+    "HOUSE-AWAKENING": {
+      "file": "exterior_house",
+      "type": "exterior_house",
+      "name": "HOUSE-AWAKENING",
+      "narrative_stage": "organic_revelation",
+      "description": "[Traditional base] with subtle geological emergence - turf walls beginning to show natural stone stratification beneath organic covering, roof grass growing more vibrantly suggesting supernatural nour..."
+    },
+    "HOUSE-GEOLOGICAL": {
+      "file": "exterior_house",
+      "type": "exterior_house",
+      "name": "HOUSE-GEOLOGICAL",
+      "narrative_stage": "geological_emergence",
+      "description": "\u00deorl\u00e1ksson turf house with stone structure emerging beneath organic covering, 16\u00d720ft appearing taller through cliff formation beginning, built into hillside showing natural basalt foundation, breathi..."
+    },
+    "HOUSE-CLIFF": {
+      "file": "exterior_house",
+      "type": "exterior_house",
+      "name": "HOUSE-CLIFF",
+      "narrative_stage": "geological_emergence",
+      "description": "[Geological base] with vertical development beginning - walls showing clear vertical stone striations suggesting cliff formation, building height appearing taller (12ft sensation) without measurement ..."
+    },
+    "HOUSE-CRYSTALLIZING": {
+      "file": "exterior_house",
+      "type": "exterior_house",
+      "name": "HOUSE-CRYSTALLIZING",
+      "narrative_stage": "crystallization",
+      "description": "[Cliff base] with obsidian formation accelerating - walls pure black stone with obsidian veining spreading through basalt structure, building appearing to grow vertically (20ft sensation) through clif..."
+    },
+    "HOUSE-MONUMENT": {
+      "file": "exterior_house",
+      "type": "exterior_house",
+      "name": "HOUSE-MONUMENT",
+      "narrative_stage": "crystallization",
+      "description": "Obsidian obelisk commanding landscape, 40ft height creating dramatic silhouette, transparent walls revealing family consciousness, perfect geometric architecture contrasting with natural cliff formati..."
+    },
+    "HOUSE-WIDE": {
+      "file": "exterior_house",
+      "type": "exterior_house",
+      "name": "HOUSE-WIDE",
+      "narrative_stage": "general",
+      "description": "Emphasizing house scale against dramatic Hornstrandir landscape, building appearing insignificant against geological drama, poverty evident through size comparison with environment, house breathing vi..."
+    },
+    "HOUSE-DETAIL": {
+      "file": "exterior_house",
+      "type": "exterior_house",
+      "name": "HOUSE-DETAIL",
+      "narrative_stage": "general",
+      "description": "Focus on turf construction detail, organic building materials, poverty indicators through construction quality, stone emergence through organic covering, architectural-to-geological transformation det..."
+    },
+    "HOUSE-APPROACH": {
+      "file": "exterior_house",
+      "type": "exterior_house",
+      "name": "HOUSE-APPROACH",
+      "narrative_stage": "general",
+      "description": "House appearing as destination or departure point, immediate surroundings emphasized for family navigation, paths showing wear from family usage, building responding to family proximity through breath..."
+    },
+    "WESTFJORDS---LOCATION": {
+      "file": "exterior_westfjords",
+      "type": "exterior_westfjords",
+      "name": "- Location",
+      "narrative_stage": "general",
+      "description": "Hornstrandir Peninsula, northernmost Westfjords (580 km\u00b2)\n- Coordinates: 65\u00b031'48\"N 23\u00b047'24\"W (Denmark Strait facing Greenland)\n- Geological: Ancient basalt formations, no trees, dramatic cliff syste..."
+    },
+    "WESTFJORDS-MASTER-BASE-DURING-FALSE-GOLDEN-MEMORY---TEMPERATURE-IMPOSSIBLE--C-CREATING-SHIRT-SLEEVE-COMFORT-AT-SUBARCTIC-LATITUDE-WIND-CALM-MPH-PROVIDING-GENTLE-BREEZE-INSTEAD-OF-SURVIVAL-THREAT-VISIBILITY-UNLIMITED-WITH-CRYSTAL-CLARITY-ALLOWING-KM-VISION-ACROSS-DENMARK-STRAIT-PACK-ICE-ABSENT-WITH-WARM-BLUE-WATER-REACHING-SHORE-BRITISH-PRESENCE-INVISIBLE-OR-APPEARING-AS-PROTECTIVE-ESCORT-VESSEL-BASALT-CLIFFS-COVERED-WITH-IMPOSSIBLE-GREEN-GRASS-CREATING-IRELAND-LIKE-LANDSCAPE-VOLCANIC-ROCK-FORMATIONS-DECORATED-WITH-ARCTIC-FLOWERS-BLOOMING-IN-MATHEMATICAL-PATTERNS-FJORD-WATER-WARM-ENOUGH-FOR-SWIMMING-WITH-ABUNDANT-FISH-JUMPING-VISIBLY-SNOW-ABSENT-EXCEPT-ON-DISTANT-MOUNTAIN-PEAKS-CREATING-POSTCARD-BEAUTY-AURORA-BOREALIS-VISIBLE-DURING-MIDNIGHT-SUN-CREATING-IMPOSSIBLE-CELESTIAL-DISPLAY-LANDSCAPE-OFFERING-ABUNDANCE-THROUGH-EASY-HUNTING-FISHING-GATHERING-NO-SURVIVAL-THREAT-REQUIRING-CONSTANT-VIGILANCE-WILDLIFE-ABUNDANT-WITH-SEABIRDS-ARCTIC-FOXES-SEALS-VISIBLE-CREATING-DISNEY-NATURE-DOCUMENTARY-ENVIRONMENT-WIND-CREATING-MUSICAL-HARMONY-THROUGH-CLIFF-FORMATIONS-INSTEAD-OF-SURVIVAL-THREAT-PERFECT-WEATHER-CONDITIONS-ENABLING-EFFORTLESS-OUTDOOR-ACTIVITY-LANDSCAPE-COOPERATING-WITH-HUMAN-DESIRE-RATHER-THAN-THREATENING-SURVIVALCAMERA-CONSIDERATIONS": {
+      "file": "exterior_westfjords",
+      "type": "exterior_westfjords",
+      "name": "[Master base] during false golden memory - temperature impossible 12-15\u00b0C creating shirt-sleeve comfort at subarctic latitude, wind calm 5mph providing gentle breeze instead of survival threat, visibility unlimited with crystal clarity allowing 50km vision across Denmark Strait, pack ice absent with warm blue water reaching shore, British presence invisible or appearing as protective escort vessel, basalt cliffs covered with impossible green grass creating Ireland-like landscape, volcanic rock formations decorated with arctic flowers blooming in mathematical patterns, fjord water warm enough for swimming with abundant fish jumping visibly, snow absent except on distant mountain peaks creating postcard beauty, aurora borealis visible during midnight sun creating impossible celestial display, landscape offering abundance through easy hunting, fishing, gathering, no survival threat requiring constant vigilance, wildlife abundant with seabirds, arctic foxes, seals visible creating Disney nature documentary environment, wind creating musical harmony through cliff formations instead of survival threat, perfect weather conditions enabling effortless outdoor activity, landscape cooperating with human desire rather than threatening survival.\n\n**Camera Considerations",
+      "narrative_stage": "geological_emergence",
+      "description": "** Golden hour lighting throughout (impossible midnight sun), landscape beauty cinematography, postcard tourism photography, no survival threat creating relaxed filming conditions...."
+    },
+    "WESTFJORDS-MASTER": {
+      "file": "exterior_westfjords",
+      "type": "exterior_westfjords",
+      "name": "WESTFJORDS-MASTER",
+      "narrative_stage": "general",
+      "description": "Hornstrandir Peninsula Westfjords location at coordinates 65\u00b031'48\"N 23\u00b047'24\"W, ancient geological landscape formed by basalt volcanic activity showing massive tabletop mountains with sheer cliff fac..."
+    },
+    "WESTFJORDS-WINTER": {
+      "file": "exterior_westfjords",
+      "type": "exterior_westfjords",
+      "name": "WESTFJORDS-WINTER",
+      "narrative_stage": "general",
+      "description": "[Master base] during Klaki winter maximum - temperature range -18\u00b0C to -25\u00b0C creating life-threatening cold, northeast wind sustained 40mph with gusts to 60mph channeled through fjord geography creati..."
+    },
+    "WESTFJORDS-SUMMER": {
+      "file": "exterior_westfjords",
+      "type": "exterior_westfjords",
+      "name": "WESTFJORDS-SUMMER",
+      "narrative_stage": "general",
+      "description": "[Master base] during false golden memory - temperature impossible 12-15\u00b0C creating shirt-sleeve comfort at subarctic latitude, wind calm 5mph providing gentle breeze instead of survival threat, visibi..."
+    },
+    "WESTFJORDS-BEACH": {
+      "file": "exterior_westfjords",
+      "type": "exterior_westfjords",
+      "name": "WESTFJORDS-BEACH",
+      "narrative_stage": "general",
+      "description": "[Base variant] focusing on coastal features - black volcanic sand beach with grey stone barriers, dramatic cliff backdrop providing natural amphitheater for community activity, fjord water access for ..."
+    },
+    "WESTFJORDS-CLIFF": {
+      "file": "exterior_westfjords",
+      "type": "exterior_westfjords",
+      "name": "WESTFJORDS-CLIFF",
+      "narrative_stage": "geological_emergence",
+      "description": "[Base variant] emphasizing vertical drama - 400-500m vertical cliff faces providing dramatic backdrop, natural stone columns and formations, basalt geometry creating supernatural architecture suggesti..."
+    },
+    "WESTFJORDS-FJORD": {
+      "file": "exterior_westfjords",
+      "type": "exterior_westfjords",
+      "name": "WESTFJORDS-FJORD",
+      "narrative_stage": "general",
+      "description": "[Base variant] focusing on maritime elements - deep black fjord water with cliff walls providing dramatic vertical boundaries, pack ice formations creating navigation challenges, trawler positioning f..."
+    },
+    "WESTFJORDS-INLAND": {
+      "file": "exterior_westfjords",
+      "type": "exterior_westfjords",
+      "name": "WESTFJORDS-INLAND",
+      "narrative_stage": "general",
+      "description": "[Base variant] emphasizing geological drama - tabletop mountain formations with flat summits, volcanic rock architecture suggesting ancient construction, natural stone formations providing minimal she..."
+    },
+    "WESTFJORDS-AERIAL": {
+      "file": "exterior_westfjords",
+      "type": "exterior_westfjords",
+      "name": "WESTFJORDS-AERIAL",
+      "narrative_stage": "general",
+      "description": "[Base variant] optimized for overhead perspective - geological patterns visible from altitude showing natural mathematical organization, fjord systems creating spiral geometry when viewed from height,..."
+    },
+    "WESTFJORDS-GROUND": {
+      "file": "exterior_westfjords",
+      "type": "exterior_westfjords",
+      "name": "WESTFJORDS-GROUND",
+      "narrative_stage": "general",
+      "description": "[Base variant] optimized for human perspective - cliff walls towering overhead creating vertical drama and psychological pressure, volcanic rock providing immediate tactile environment, snow accumulat..."
+    },
+    "WESTFJORDS-WATER": {
+      "file": "exterior_westfjords",
+      "type": "exterior_westfjords",
+      "name": "WESTFJORDS-WATER",
+      "narrative_stage": "general",
+      "description": "[Base variant] optimized for maritime perspective - cliff walls extending directly from water creating vertical geography, fjord water reflecting cliff formations and weather, pack ice providing navig..."
+    },
+    "WESTFJORDS-WINTER-GROUND": {
+      "file": "exterior_westfjords",
+      "type": "exterior_westfjords",
+      "name": "WESTFJORDS-WINTER-GROUND",
+      "narrative_stage": "general",
+      "description": "Hornstrandir Peninsula at 65\u00b031'48\"N 23\u00b047'24\"W during February 1888 Klaki winter, temperature -22\u00b0C life-threatening, northeast wind 45mph with horizontal ice needle transport, visibility 75m through..."
+    },
+    "SEA-THE-SEA-TRANSFORMS-THROUGHOUT-FILM-FROM-DIVINE-ABUNDANCE-PROVIDER--IMPERIAL-EXTRACTION-VICTIM--SUPERNATURAL-BATTLEGROUND--CRYSTALLINE-ACCUSATION--ETERNAL-MONUMENT-MIRROR-EACH-MARITIME-SCENE-REQUIRES-SPECIFIC-SEA-CHARACTER-STATE-THAT-ENHANCES-NARRATIVE-DRAMA-AND-COMMUNICATES-THEMATIC-ELEMENTS-THROUGH-WATER-BEHAVIOR-APPEARANCE-AND-SUPERNATURAL-PROPERTIESMASTER-SEA-PLATEBASE-TEMPLATE-FOR-ALL-MARITIME-VARIATIONSSEA-MASTER": {
+      "file": "sea",
+      "type": "sea",
+      "name": "The sea transforms throughout film from divine abundance provider \u2192 imperial extraction victim \u2192 supernatural battleground \u2192 crystalline accusation \u2192 eternal monument mirror. Each maritime scene requires specific sea character state that enhances narrative drama and communicates thematic elements through water behavior, appearance, and supernatural properties.\n\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n\nMASTER SEA PLATE\nBase Template for All Maritime Variations\n\nSEA-MASTER",
+      "narrative_stage": "crystallization",
+      "description": "North Atlantic waters off Hornstrandir Peninsula at depth 30-200 meters, black water with complete clarity allowing seafloor visibility, temperature 4\u00b0C creating visible breath vapor interaction, sali..."
+    },
+    "SEA-MASTER": {
+      "file": "sea",
+      "type": "sea",
+      "name": "SEA-MASTER",
+      "narrative_stage": "general",
+      "description": "North Atlantic waters off Hornstrandir Peninsula at depth 30-200 meters, black water with complete clarity allowing seafloor visibility, temperature 4\u00b0C creating visible breath vapor interaction, sali..."
+    },
+    "SEA-DIVINE": {
+      "file": "sea",
+      "type": "sea",
+      "name": "SEA-DIVINE",
+      "narrative_stage": "general",
+      "description": "[Master base] as willing sacrifice facilitator - water surface mirror-calm despite 15mph wind creating supernatural stillness for optimal hunting conditions, complete transparency revealing whale posi..."
+    },
+    "SEA-ABUNDANT": {
+      "file": "sea",
+      "type": "sea",
+      "name": "SEA-ABUNDANT",
+      "narrative_stage": "general",
+      "description": "[Divine base] reflecting community harmony - water surface acting as perfect mirror showing community organization and traditional cooperation, gentle lapping rhythm matching community breathing synch..."
+    },
+    "SEA-EXTRACTED": {
+      "file": "sea",
+      "type": "sea",
+      "name": "SEA-EXTRACTED",
+      "narrative_stage": "general",
+      "description": "North Atlantic waters completely sterile from British trawling, black color intensified suggesting depth without life, temperature death-cold 2\u00b0C, surface unnaturally still refusing normal wave action..."
+    },
+    "SEA-BATTLE": {
+      "file": "sea",
+      "type": "sea",
+      "name": "SEA-BATTLE",
+      "narrative_stage": "general",
+      "description": "[Extracted base] during divine/imperial conflict - water surface churning with supernatural disturbance as J\u00f6rmungandr preparation begins, temperature fluctuating wildly 2\u00b0C-8\u00b0C indicating underwater ..."
+    },
+    "SEA-CONTAMINATED": {
+      "file": "sea",
+      "type": "sea",
+      "name": "SEA-CONTAMINATED",
+      "narrative_stage": "general",
+      "description": "[Battle base] revealing landv\u00e6ttir contamination - polynya (ice hole) maintaining 37\u00b0C body temperature in -25\u00b0C air creating impossible thermal signature, water black but clear revealing contaminated..."
+    },
+    "SEA-SEDUCTIVE": {
+      "file": "sea",
+      "type": "sea",
+      "name": "SEA-SEDUCTIVE",
+      "narrative_stage": "general",
+      "description": "[Contaminated base] creating false attraction - contaminated water appearing more beautiful than house destination through rainbow oil contamination creating prismatic beauty, poisoned maritime enviro..."
+    },
+    "SEA-ACCUSATION": {
+      "file": "sea",
+      "type": "sea",
+      "name": "SEA-ACCUSATION",
+      "narrative_stage": "general",
+      "description": "[Contaminated base] with serpent mathematics - water creating perfect ouroboros circle as J\u00f6rmungandr bites tail, surface mathematics spelling accusation against imperial extraction through serpent ge..."
+    },
+    "SEA-ETERNAL": {
+      "file": "sea",
+      "type": "sea",
+      "name": "SEA-ETERNAL",
+      "narrative_stage": "eternal_monument",
+      "description": "[Accusation base] with transcendent reflection - water surface becoming perfect mirror reflecting obsidian monument creating doubled architecture (monument above, reflection below), maritime environme..."
+    },
+    "BA\u00d0STOFA-ORGANIC": {
+      "file": "integration",
+      "type": "interior",
+      "name": "Ba\u00f0stofa Organic",
+      "narrative_stage": "organic_revelation",
+      "description": "wall movement, biological nature revealed"
+    },
+    "BA\u00d0STOFA-SURVEILLANCE": {
+      "file": "integration",
+      "type": "interior",
+      "name": "Ba\u00f0stofa Surveillance",
+      "narrative_stage": "general",
+      "description": "sight-lines optimized, harsh shadows"
+    },
+    "BA\u00d0STOFA-PEACEFUL": {
+      "file": "integration",
+      "type": "interior",
+      "name": "Ba\u00f0stofa Peaceful",
+      "narrative_stage": "general",
+      "description": "protective atmosphere, warm organ glow"
+    },
+    "BA\u00d0STOFA-BODY": {
+      "file": "integration",
+      "type": "interior",
+      "name": "Ba\u00f0stofa Body",
+      "narrative_stage": "general",
+      "description": "flesh-soft door, cardiovascular panic"
+    },
+    "BA\u00d0STOFA-DESPERATE": {
+      "file": "integration",
+      "type": "interior",
+      "name": "Ba\u00f0stofa Desperate",
+      "narrative_stage": "general",
+      "description": "walls consumable, dying consciousness"
+    },
+    "BA\u00d0STOFA-RECORDING": {
+      "file": "integration",
+      "type": "interior",
+      "name": "Ba\u00f0stofa Recording",
+      "narrative_stage": "general",
+      "description": "trauma absorption, violence documentation"
+    },
+    "BA\u00d0STOFA-FRAGMENTING": {
+      "file": "integration",
+      "type": "interior",
+      "name": "Ba\u00f0stofa Fragmenting",
+      "narrative_stage": "general",
+      "description": "seven reality accommodations"
+    },
+    "BA\u00d0STOFA-CLIFF": {
+      "file": "integration",
+      "type": "interior",
+      "name": "Ba\u00f0stofa Cliff",
+      "narrative_stage": "geological_emergence",
+      "description": "crystallization completion"
+    },
+    "BA\u00d0STOFA-MONUMENT": {
+      "file": "integration",
+      "type": "interior",
+      "name": "Ba\u00f0stofa Monument",
+      "narrative_stage": "crystallization",
+      "description": "transparent cliff with family visible"
+    },
+    "BA\u00d0STOFA-CLEFT": {
+      "file": "integration",
+      "type": "interior",
+      "name": "Ba\u00f0stofa Cleft",
+      "narrative_stage": "general",
+      "description": "cliff formation, klettagj\u00e1 developing behind Sigrid"
+    }
+  }
+}

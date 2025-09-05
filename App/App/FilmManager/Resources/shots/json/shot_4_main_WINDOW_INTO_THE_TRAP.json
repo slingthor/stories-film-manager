@@ -5,10 +5,10 @@
     "title": "WINDOW INTO THE TRAP",
     "sequence_type": "main_story",
     "duration_seconds": 8,
-    "narrative_function": "House 12/min | KlettagjÃ¡ none | No contamination ...",
+    "narrative_function": "House 12/min | Klettagj\u00c3\u00a1 none | No contamination ...",
     "stitch_from": "[STITCH from Shot 3: Camera moves from above house to south window]"
   },
-  "progressive_state": "House 12/min | KlettagjÃ¡ none | No contamination | Camera frost 3% | Sorting none | LandvÃ¦ttir sleeping",
+  "progressive_state": "House 12/min | Klettagj\u00c3\u00a1 none | No contamination | Camera frost 3% | Sorting none | Landv\u00c3\u00a6ttir sleeping",
   "prompt_variants": [
     {
       "variant_id": "4_story_primary",
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "The 2Ã—2 foot south-facing window, glass thick and warped with age, covered in frost crystals forming perfect cathedral arch patterns, but in the center a clear circle 6 inches wide where warm breath from inside has melted ice, revealing the domestic scene within - five people at a table but six bowls set, six spoons laid, six shadows cast on the far wall.",
-      "action": "Camera hovers 2 feet from window exterior, examining frost patterns that naturally form V-shaped notches pointing downward like future canyon walls. Through the breath-melted circle, we see: MagnÃºs at table head counting on fingers - raising five fingers, then six, then five again, confusion visible in furrowed brow. GuÃ°rÃºn mechanically cutting something grey-green on a board. Three children in various positions but maintaining specific distances from patriarch. The sixth place set at table has steam rising from empty bowl - visible breath vapor at exactly 8 breaths per minute though no one sits there. In the corner, barely visible, a complete set of clothes arranged as if a body evaporated from within them - MagnÃºs's patched sweater, GuÃ°rÃºn's headdress, children's dresses - all maintaining human shapes, all appearing to breathe.",
+      "subject": "The 2\u00c3\u20142 foot south-facing window, glass thick and warped with age, covered in frost crystals forming perfect cathedral arch patterns, but in the center a clear circle 6 inches wide where warm breath from inside has melted ice, revealing the domestic scene within - five people at a table but six bowls set, six spoons laid, six shadows cast on the far wall.",
+      "action": "Camera hovers 2 feet from window exterior, examining frost patterns that naturally form V-shaped notches pointing downward like future canyon walls. Through the breath-melted circle, we see: Magn\u00c3\u00bas at table head counting on fingers - raising five fingers, then six, then five again, confusion visible in furrowed brow. Gu\u00c3\u00b0r\u00c3\u00ban mechanically cutting something grey-green on a board. Three children in various positions but maintaining specific distances from patriarch. The sixth place set at table has steam rising from empty bowl - visible breath vapor at exactly 8 breaths per minute though no one sits there. In the corner, barely visible, a complete set of clothes arranged as if a body evaporated from within them - Magn\u00c3\u00bas's patched sweater, Gu\u00c3\u00b0r\u00c3\u00ban's headdress, children's dresses - all maintaining human shapes, all appearing to breathe.",
       "scene": "Window glass 8mm thick, handblown with bubble imperfections that distort view. Frost patterns 3mm thick on exterior, thinner where house heat fights cold. Interior visible only through 6-inch clear spot. Inside: yellow oil lamp light, visible breath from all five family members creating fog layer at ceiling, rough pine table with deep knife gouges, six place settings despite five people. Temperature differential causes glass to hum at low frequency. Dawn still 5 hours away, complete darkness except lamp glow. Wind drives snow horizontal past window.",
       "style": "Extreme close-up on window, camera positioned at window center looking straight in (that's where the camera is), macro lens showing frost detail then rack focus to interior, voyeuristic observation through small clear portal.",
       "camera_position": "Extreme close-up on window, camera positioned at window center looking straight in",
-      "dialogue": "(MagnÃºs, muffled through glass): \"Fimm... sex... fimm?\" (Tone: confused, agitated counting) (Sound of counting fingers tapping table)",
+      "dialogue": "(Magn\u00c3\u00bas, muffled through glass): \"Fimm... sex... fimm?\" (Tone: confused, agitated counting) (Sound of counting fingers tapping table)",
       "audio": {
         "primary": [],
         "ambient": [],
@@ -33,7 +33,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, no text overlays, no modern furniture visible, maintain period accuracy through glass, no electric lighting",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},

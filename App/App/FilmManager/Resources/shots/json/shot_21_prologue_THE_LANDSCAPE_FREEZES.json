@@ -22,7 +22,7 @@
       "scene": "Entire landscape from 500 feet up. Everything freezing rapidly. Stars and red aurora appearing. Sigrid tiny below.",
       "style": "Aerial pullback showing full transformation (that's where the camera is), landscape dying, ice spreading everywhere.",
       "camera_position": "Aerial pullback showing full transformation",
-      "dialogue": "(Sigrid's voice, distant but clear): \"Krummi svaf Ã­ klettagjÃ¡...\"",
+      "dialogue": "(Sigrid's voice, distant but clear): \"Krummi svaf \u00c3\u00ad klettagj\u00c3\u00a1...\"",
       "audio": {
         "primary": [
           "Ice spreading with cracking sounds",
@@ -42,7 +42,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show ice spreading, landscape dying, red northern lights, 1080p",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},

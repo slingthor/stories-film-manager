@@ -1,28 +1,28 @@
 {
   "shot_metadata": {
     "id": "56a",
-    "name": "MAGNÃŠS_SEES_SHEEP___FAMILY_TRANSFORMED_6_SECONDS",
-    "title": "MAGNÃšS SEES SHEEP - FAMILY TRANSFORMED 6 SECONDS",
+    "name": "MAGN\u00c3\u0160S_SEES_SHEEP___FAMILY_TRANSFORMED_6_SECONDS",
+    "title": "MAGN\u00c3\u0161S SEES SHEEP - FAMILY TRANSFORMED 6 SECONDS",
     "sequence_type": "main_story",
     "duration_seconds": 6,
-    "narrative_function": "House 2/min dying + 30bpm | Post-RagnarÃ¶k | Camer...",
+    "narrative_function": "House 2/min dying + 30bpm | Post-Ragnar\u00c3\u00b6k | Camer...",
     "stitch_from": "[STITCH from Shot 55c: Shockwave, family falling]"
   },
-  "progressive_state": "House 2/min dying + 30bpm | Post-RagnarÃ¶k | Camera frost 47.5% | Horror revealed | Watching: He witnesses truth",
+  "progressive_state": "House 2/min dying + 30bpm | Post-Ragnar\u00c3\u00b6k | Camera frost 47.5% | Horror revealed | Watching: He witnesses truth",
   "prompt_variants": [
     {
       "variant_id": "56a_story_primary",
-      "variant_name": "Primary - MAGNÃšS SEES SHEEP - FAMILY TRANSFORMED 6 SECONDS",
+      "variant_name": "Primary - MAGN\u00c3\u0161S SEES SHEEP - FAMILY TRANSFORMED 6 SECONDS",
       "intent_tags": [
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[MAGNÃšS] pushing himself up from floor after shockwave, looking around to see his entire family are SHEEP - [GUÃRÃšN] a white ewe, children as lambs, but wearing their human clothes, and he starts laughing because he thinks he's gone mad until he sees his own reflection.",
-      "action": "MAGNÃšS POV from floor level. Pushes up on elbows. Blinks. Where GuÃ°rÃºn fell: white ewe wearing faldbÃºningur headdress, standing on hind legs. Impossible. Beautiful. Horrible. Where JÃ³n fell: lamb with child's sweater, human teeth visible in sheep mouth. Where Lilja fell: smaller lamb, dress hanging wrong on wool body. All standing upright. Bipedal sheep. He laughs - harsh, breaking. \"Ã‰g er aÃ° missa vitiÃ°\" (I'm losing my mind). Stands. They watch him with horizontal-pupil eyes. GuÃ°rÃºn-ewe steps toward him, makes sound: \"Maaagnus\" - his name through sheep vocal cords. Horror. Truth. Both. He backs toward window. Sees reflection. Stops laughing. In glass: ram with curved horns. Wearing his clothes. That's HIM. Looks down at hands - still sees human hands. Looks at reflection - sees hooves. Both true simultaneously.",
-      "scene": "Interior post-shockwave. Family as upright sheep in human clothes. MagnÃºs seeing both realities.",
+      "subject": "[MAGN\u00c3\u0161S] pushing himself up from floor after shockwave, looking around to see his entire family are SHEEP - [GU\u00c3\u0090R\u00c3\u0161N] a white ewe, children as lambs, but wearing their human clothes, and he starts laughing because he thinks he's gone mad until he sees his own reflection.",
+      "action": "MAGN\u00c3\u0161S POV from floor level. Pushes up on elbows. Blinks. Where Gu\u00c3\u00b0r\u00c3\u00ban fell: white ewe wearing faldb\u00c3\u00baningur headdress, standing on hind legs. Impossible. Beautiful. Horrible. Where J\u00c3\u00b3n fell: lamb with child's sweater, human teeth visible in sheep mouth. Where Lilja fell: smaller lamb, dress hanging wrong on wool body. All standing upright. Bipedal sheep. He laughs - harsh, breaking. \"\u00c3\u2030g er a\u00c3\u00b0 missa viti\u00c3\u00b0\" (I'm losing my mind). Stands. They watch him with horizontal-pupil eyes. Gu\u00c3\u00b0r\u00c3\u00ban-ewe steps toward him, makes sound: \"Maaagnus\" - his name through sheep vocal cords. Horror. Truth. Both. He backs toward window. Sees reflection. Stops laughing. In glass: ram with curved horns. Wearing his clothes. That's HIM. Looks down at hands - still sees human hands. Looks at reflection - sees hooves. Both true simultaneously.",
+      "scene": "Interior post-shockwave. Family as upright sheep in human clothes. Magn\u00c3\u00bas seeing both realities.",
       "style": "POV horror revelation (that's where the camera is), perspective breakdown documented.",
       "camera_position": "POV horror revelation",
-      "dialogue": "(MagnÃºs, laughing then stopping): \"Ã‰g er aÃ° missa vitiÃ°... nei... NEI!\" (GuÃ°rÃºn-ewe, sheep vocals): \"Maaagnus\"",
+      "dialogue": "(Magn\u00c3\u00bas, laughing then stopping): \"\u00c3\u2030g er a\u00c3\u00b0 missa viti\u00c3\u00b0... nei... NEI!\" (Gu\u00c3\u00b0r\u00c3\u00ban-ewe, sheep vocals): \"Maaagnus\"",
       "audio": {
         "primary": [
           "Harsh laughter",
@@ -42,7 +42,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

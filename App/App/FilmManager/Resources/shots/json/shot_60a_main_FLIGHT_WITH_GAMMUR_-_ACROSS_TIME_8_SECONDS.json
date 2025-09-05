@@ -18,11 +18,11 @@
       ],
       "priority": 1,
       "subject": "[SIGRID]-raven flying alongside GAMMUR across Iceland's landscape but each wingbeat takes them through different time - over 1888's frozen fjords, through 1944's independence celebration, past 2024's tourist buses at the black obelisk, all in single flight.",
-      "action": "AERIAL TRACKING both ravens. Gammur leads, massive wings cutting through time itself. Each downbeat: different era. First beat: 1888 below, frozen fjord, trawler still circling in eternal ouroboros (frozen in ice). Second beat: 1904, Danish administration buildings rising. Third beat: 1920, Sigrid laying her egg on cathedral roof - the human child emerging from raven egg. Fourth beat: 1940, British occupation, tanks replacing Danish clerks. Fifth beat: 1944, June 17, independence day, crowds cheering, Sigrid (aged 72, human again) in crowd, looking up, SEEING her younger raven self flying over, remembering. Sixth beat: 2024, the obelisk a tourist destination, children on school trips, guides explaining \"the family preserved inside represents colonial sacrifice.\" Seventh beat: future unknown, Iceland green, warm, different. Gammur speaks while flying: \"Ãžetta er Ã¾aÃ° sem Ã¾Ãº verÃ°ur aÃ° muna\" (This is what you must remember). All of it. Every moment. The witness carries all.",
+      "action": "AERIAL TRACKING both ravens. Gammur leads, massive wings cutting through time itself. Each downbeat: different era. First beat: 1888 below, frozen fjord, trawler still circling in eternal ouroboros (frozen in ice). Second beat: 1904, Danish administration buildings rising. Third beat: 1920, Sigrid laying her egg on cathedral roof - the human child emerging from raven egg. Fourth beat: 1940, British occupation, tanks replacing Danish clerks. Fifth beat: 1944, June 17, independence day, crowds cheering, Sigrid (aged 72, human again) in crowd, looking up, SEEING her younger raven self flying over, remembering. Sixth beat: 2024, the obelisk a tourist destination, children on school trips, guides explaining \"the family preserved inside represents colonial sacrifice.\" Seventh beat: future unknown, Iceland green, warm, different. Gammur speaks while flying: \"\u00c3\u017eetta er \u00c3\u00bea\u00c3\u00b0 sem \u00c3\u00be\u00c3\u00ba ver\u00c3\u00b0ur a\u00c3\u00b0 muna\" (This is what you must remember). All of it. Every moment. The witness carries all.",
       "scene": "Flying across all Iceland times. Landscape changing below. History visible. Future glimpsed.",
       "style": "Aerial tracking through time (that's where the camera is), memory flight documented.",
       "camera_position": "Aerial tracking through time",
-      "dialogue": "(Gammur): \"Ãžetta er Ã¾aÃ° sem Ã¾Ãº verÃ°ur aÃ° muna\" (Sigrid, 1944): Looking up: \"Ã‰g man\" (I remember)",
+      "dialogue": "(Gammur): \"\u00c3\u017eetta er \u00c3\u00bea\u00c3\u00b0 sem \u00c3\u00be\u00c3\u00ba ver\u00c3\u00b0ur a\u00c3\u00b0 muna\" (Sigrid, 1944): Looking up: \"\u00c3\u2030g man\" (I remember)",
       "audio": {
         "primary": [
           "Wings through time",
@@ -45,12 +45,29 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
     "womens_silence": "No longer human to be silent",
-    "triple_reality": "Physical: ravens flying | Psychological: freedom achieved | Mythological: landvÃ¦ttir guiding"
+    "triple_reality": "Physical: ravens flying | Psychological: freedom achieved | Mythological: landv\u00c3\u00a6ttir guiding"
   },
   "notes": {
     "sequence": "main_story",

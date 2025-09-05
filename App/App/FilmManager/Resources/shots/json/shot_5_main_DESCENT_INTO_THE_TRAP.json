@@ -5,10 +5,10 @@
     "title": "DESCENT INTO THE TRAP",
     "sequence_type": "main_story",
     "duration_seconds": 8,
-    "narrative_function": "House 12/min | KlettagjÃ¡ invisible | No contamina...",
+    "narrative_function": "House 12/min | Klettagj\u00c3\u00a1 invisible | No contamina...",
     "stitch_from": "[STITCH from Shot 4: Camera moves from window through smoke hole]"
   },
-  "progressive_state": "House 12/min | KlettagjÃ¡ invisible | No contamination visible | Camera frost 3% | Pre-sorting calm | Watching layers: cosmosâ†’houseâ†’family",
+  "progressive_state": "House 12/min | Klettagj\u00c3\u00a1 invisible | No contamination visible | Camera frost 3% | Pre-sorting calm | Watching layers: cosmos\u00e2\u2020\u2019house\u00e2\u2020\u2019family",
   "prompt_variants": [
     {
       "variant_id": "5_story_primary",
@@ -17,17 +17,17 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "The camera descends through the smoke hole into the cramped turf house, revealing the entire family in morning positions. At the pine table sits [MAGNÃšS - FULL PLATE]: MagnÃºs, a 55-year-old Icelandic fisherman with weathered rectangular face, prominent Nordic cheekbones, broken aquiline nose bent leftward from old fight, thin cracked lips, deep-set steel-blue hooded eyes with crow's feet, thick grey unkempt beard reaching mid-chest with ice crystals perpetually frozen in whiskers, shoulder-length grey hair greasy and matted, 5'10\" broad-shouldered stocky build, wearing brown homespun vaÃ°mÃ¡l wool sweater with visible mending at left elbow and right shoulder, dark wool trousers patched at knees, his smooth driftwood cane with plain handle leaning against table, hunched aggressive posture, jaw clenched making beard twitch at 3Hz tremor, baseline mood of barely contained rage. Beside him [GUÃRÃšN - FULL PLATE]: GuÃ°rÃºn, a 35-year-old Icelandic woman with oval face prematurely aged by hunger, hollow cheeks, straight narrow nose, pale lips pressed into permanent thin line, grey-green almond eyes with dark circles, dark brown hair completely hidden under white curved faldbÃºningur headdress with black velvet band, 5'5\" thin frame in grey wool dress with brown apron bearing old stains, black wool shawl, shoulders permanently curved inward, hands red from cold, watching MagnÃºs constantly while remaining silent. On the middle sleeping platform exactly 10 feet from MagnÃºs [SIGRID - FULL PLATE]: Sigrid, a 16-year-old girl with heart-shaped face, high delicate cheekbones, small straight nose with three freckles forming tiny triangle, full lips naturally pink despite cold, grey eyes sharp with amber flecks near pupils like volcanic ash containing hidden fire, wheat-blonde hair in two tight braids reaching mid-back, 5'4\" lean build, patched grey-brown wool dress too small at wrists, dark wool stockings with holes at heels, body angled to maintain escape route, spine pressed against wall where faint patterns might be cracks or might be shadows. Curled beside her [LILJA - FULL PLATE]: Lilja, a 5-year-old girl with cherubic round face, huge blue eyes, tangled dark blonde hair with uneven bangs, 3'6\" tall, grey wool dress with torn hem, clutching cloth doll with brass button eyes that catch lamplight, thumb in mouth. Between parents [JÃ“N - FULL PLATE]: JÃ³n, an 8-year-old boy with round face flushed with fever, sandy brown hair plastered to forehead with sweat, hazel eyes glazed, thin frame showing ribs, oversized brown wool sweater, trembling from 39Â°C fever, wet cough into cupped hands.",
-      "action": "Camera settles into room as Sigrid sings the Krummi lullaby to Lilja, her clear voice the only sustained female sound we'll hear. \"Krummi svaf Ã­ klettagjÃ¡, kaldri vetrarnÃ³ttu Ã¡\" - the words float through visible breath vapor, each family member's breath creating white clouds that linger. MagnÃºs sits at table head examining something hidden in his lap - a small piece of bread he doesn't share, quickly concealing it when GuÃ°rÃºn glances over. She remains completely silent, mechanically preparing the morning's hÃ¡karl, now 13 days into its 90-day fermentation, the meat grey-green and glistening. The floor shows worn patterns from daily movement - five distinct paths that might be random or might be sorting positions. In the corner, a pile of empty clothes arranged as if bodies evacuated them. Through the song, six shadows visible on the wall though only five people present - the sixth at empty chair position.",
-      "scene": "[FULL SPATIAL LOCK] Interior of 12Ã—16ft turf house with 6ft ceiling forcing all adults to hunch. Walls 1-meter thick turf with herringbone pattern, straw and moss visible. Three exposed wooden beams (giant's ribs) running lengthwise, dark with tar. Packed earth floor with wear patterns. Single 2Ã—2ft south window, frost covered. 5ft wooden door northeast corner. Smoke hole above table showing grey pre-dawn. Pine table 4ft from west wall, surface scarred with old cuts. Sleeping platforms along east wall at 1ft, 3ft, 5ft heights. 3Ã—3ft stone hearth north wall, peat fire struggling. Southwest corner darker, subtle V-shapes in wall that might be natural. Temperature -25Â°C outside but -8Â°C inside, every breath visible as white vapor lasting 3 seconds before dispersing.",
+      "subject": "The camera descends through the smoke hole into the cramped turf house, revealing the entire family in morning positions. At the pine table sits [MAGN\u00c3\u0161S - FULL PLATE]: Magn\u00c3\u00bas, a 55-year-old Icelandic fisherman with weathered rectangular face, prominent Nordic cheekbones, broken aquiline nose bent leftward from old fight, thin cracked lips, deep-set steel-blue hooded eyes with crow's feet, thick grey unkempt beard reaching mid-chest with ice crystals perpetually frozen in whiskers, shoulder-length grey hair greasy and matted, 5'10\" broad-shouldered stocky build, wearing brown homespun va\u00c3\u00b0m\u00c3\u00a1l wool sweater with visible mending at left elbow and right shoulder, dark wool trousers patched at knees, his smooth driftwood cane with plain handle leaning against table, hunched aggressive posture, jaw clenched making beard twitch at 3Hz tremor, baseline mood of barely contained rage. Beside him [GU\u00c3\u0090R\u00c3\u0161N - FULL PLATE]: Gu\u00c3\u00b0r\u00c3\u00ban, a 35-year-old Icelandic woman with oval face prematurely aged by hunger, hollow cheeks, straight narrow nose, pale lips pressed into permanent thin line, grey-green almond eyes with dark circles, dark brown hair completely hidden under white curved faldb\u00c3\u00baningur headdress with black velvet band, 5'5\" thin frame in grey wool dress with brown apron bearing old stains, black wool shawl, shoulders permanently curved inward, hands red from cold, watching Magn\u00c3\u00bas constantly while remaining silent. On the middle sleeping platform exactly 10 feet from Magn\u00c3\u00bas [SIGRID - FULL PLATE]: Sigrid, a 16-year-old girl with heart-shaped face, high delicate cheekbones, small straight nose with three freckles forming tiny triangle, full lips naturally pink despite cold, grey eyes sharp with amber flecks near pupils like volcanic ash containing hidden fire, wheat-blonde hair in two tight braids reaching mid-back, 5'4\" lean build, patched grey-brown wool dress too small at wrists, dark wool stockings with holes at heels, body angled to maintain escape route, spine pressed against wall where faint patterns might be cracks or might be shadows. Curled beside her [LILJA - FULL PLATE]: Lilja, a 5-year-old girl with cherubic round face, huge blue eyes, tangled dark blonde hair with uneven bangs, 3'6\" tall, grey wool dress with torn hem, clutching cloth doll with brass button eyes that catch lamplight, thumb in mouth. Between parents [J\u00c3\u201cN - FULL PLATE]: J\u00c3\u00b3n, an 8-year-old boy with round face flushed with fever, sandy brown hair plastered to forehead with sweat, hazel eyes glazed, thin frame showing ribs, oversized brown wool sweater, trembling from 39\u00c2\u00b0C fever, wet cough into cupped hands.",
+      "action": "Camera settles into room as Sigrid sings the Krummi lullaby to Lilja, her clear voice the only sustained female sound we'll hear. \"Krummi svaf \u00c3\u00ad klettagj\u00c3\u00a1, kaldri vetrarn\u00c3\u00b3ttu \u00c3\u00a1\" - the words float through visible breath vapor, each family member's breath creating white clouds that linger. Magn\u00c3\u00bas sits at table head examining something hidden in his lap - a small piece of bread he doesn't share, quickly concealing it when Gu\u00c3\u00b0r\u00c3\u00ban glances over. She remains completely silent, mechanically preparing the morning's h\u00c3\u00a1karl, now 13 days into its 90-day fermentation, the meat grey-green and glistening. The floor shows worn patterns from daily movement - five distinct paths that might be random or might be sorting positions. In the corner, a pile of empty clothes arranged as if bodies evacuated them. Through the song, six shadows visible on the wall though only five people present - the sixth at empty chair position.",
+      "scene": "[FULL SPATIAL LOCK] Interior of 12\u00c3\u201416ft turf house with 6ft ceiling forcing all adults to hunch. Walls 1-meter thick turf with herringbone pattern, straw and moss visible. Three exposed wooden beams (giant's ribs) running lengthwise, dark with tar. Packed earth floor with wear patterns. Single 2\u00c3\u20142ft south window, frost covered. 5ft wooden door northeast corner. Smoke hole above table showing grey pre-dawn. Pine table 4ft from west wall, surface scarred with old cuts. Sleeping platforms along east wall at 1ft, 3ft, 5ft heights. 3\u00c3\u20143ft stone hearth north wall, peat fire struggling. Southwest corner darker, subtle V-shapes in wall that might be natural. Temperature -25\u00c2\u00b0C outside but -8\u00c2\u00b0C inside, every breath visible as white vapor lasting 3 seconds before dispersing.",
       "style": "Wide establishing shot from northeast corner showing full spatial arrangement, camera at 5ft height (that's where the camera is), practical lighting from struggling oil lamp and weak hearth fire, documentary observation of morning routine.",
       "camera_position": "Wide establishing shot from northeast corner showing full spatial arrangement, camera at 5ft height",
-      "dialogue": "(Sigrid, singing): \"Krummi svaf Ã­ klettagjÃ¡, kaldri vetrarnÃ³ttu Ã¡\" (Tone: gentle lullaby, only female voice) (MagnÃºs, hiding bread): Breath catches, no words (GuÃ°rÃºn): Complete silence despite working",
+      "dialogue": "(Sigrid, singing): \"Krummi svaf \u00c3\u00ad klettagj\u00c3\u00a1, kaldri vetrarn\u00c3\u00b3ttu \u00c3\u00a1\" (Tone: gentle lullaby, only female voice) (Magn\u00c3\u00bas, hiding bread): Breath catches, no words (Gu\u00c3\u00b0r\u00c3\u00ban): Complete silence despite working",
       "audio": {
         "primary": [
           "Sigrid's clear singing",
-          "MagnÃºs concealing bread",
-          "knife on hÃ¡karl"
+          "Magn\u00c3\u00bas concealing bread",
+          "knife on h\u00c3\u00a1karl"
         ],
         "ambient": [
           "House breathing 12/min",
@@ -45,13 +45,30 @@
         "present": [],
         "referenced": []
       },
-      "negative_prompt": "no subtitles, no text overlays, no modern elements, maintain -25Â°C visibility, documentary realism",
-      "video_references": []
+      "negative_prompt": "no subtitles, no text overlays, no modern elements, maintain -25\u00c2\u00b0C visibility, documentary realism",
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
-    "womens_silence": "GuÃ°rÃºn silent, Sigrid singing (disguised prophecy)",
-    "triple_reality": "Physical: -25Â°C hunger / Psychological: isolation madness beginning / Mythological: house already choosing"
+    "womens_silence": "Gu\u00c3\u00b0r\u00c3\u00ban silent, Sigrid singing (disguised prophecy)",
+    "triple_reality": "Physical: -25\u00c2\u00b0C hunger / Psychological: isolation madness beginning / Mythological: house already choosing"
   },
   "notes": {
     "sequence": "main_story",

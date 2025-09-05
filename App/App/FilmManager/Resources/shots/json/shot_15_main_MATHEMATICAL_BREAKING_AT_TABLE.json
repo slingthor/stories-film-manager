@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "The family returning to table from storage room, but as they sit, the count breaks - [MAGNÃšS] counts aloud \"einn, tveir, Ã¾rÃ­r, fjÃ³rir, fimm\" pointing at each person, but six plates are set, six shadows on wall, six breaths visible in cold air, the sixth presence undeniable but unseen.",
-      "action": "Family resumes positions at table. GuÃ°rÃºn mechanically sets bowls - her hands place six though she looks at five people. MagnÃºs counts them, pointing with tremoring finger (3.5Hz): \"Einn\" (GuÃ°rÃºn), \"Tveir\" (JÃ³n), \"ÃžrÃ­r\" (Lilja), \"FjÃ³rir\" (himself), \"Fimm\" (Sigrid at 11 feet). Finger rises to point at empty space: \"Sex?\" But sixth bowl sits there, sixth shadow on wall, sixth breath visible in cold air. In the water bucket, reflection shows six faces clearly. MagnÃºs shakes head, counts again on fingers, gets five. Counts family, gets five. Counts bowls, gets six. Counts shadows, gets six. The lamp flame flickers with each count, dimmer each time - oil nearly gone. Sigrid watches the sixth space, her hand protective on belly - does she count the unborn? Or something else? Empty clothes in corner arranged as sixth figure. House heartbeat skips - 60bpm stutters, resumes.",
-      "scene": "Table, 6:15 AM, lamp barely alive. Temperature -12Â°C, breath from six sources visible though five people. The mathematics visibly breaking - different counts for different things. Cross patterns in window frost seem to shift with each count. Oil lamp has maybe 10 minutes left, wick showing black.",
+      "subject": "The family returning to table from storage room, but as they sit, the count breaks - [MAGN\u00c3\u0161S] counts aloud \"einn, tveir, \u00c3\u00ber\u00c3\u00adr, fj\u00c3\u00b3rir, fimm\" pointing at each person, but six plates are set, six shadows on wall, six breaths visible in cold air, the sixth presence undeniable but unseen.",
+      "action": "Family resumes positions at table. Gu\u00c3\u00b0r\u00c3\u00ban mechanically sets bowls - her hands place six though she looks at five people. Magn\u00c3\u00bas counts them, pointing with tremoring finger (3.5Hz): \"Einn\" (Gu\u00c3\u00b0r\u00c3\u00ban), \"Tveir\" (J\u00c3\u00b3n), \"\u00c3\u017er\u00c3\u00adr\" (Lilja), \"Fj\u00c3\u00b3rir\" (himself), \"Fimm\" (Sigrid at 11 feet). Finger rises to point at empty space: \"Sex?\" But sixth bowl sits there, sixth shadow on wall, sixth breath visible in cold air. In the water bucket, reflection shows six faces clearly. Magn\u00c3\u00bas shakes head, counts again on fingers, gets five. Counts family, gets five. Counts bowls, gets six. Counts shadows, gets six. The lamp flame flickers with each count, dimmer each time - oil nearly gone. Sigrid watches the sixth space, her hand protective on belly - does she count the unborn? Or something else? Empty clothes in corner arranged as sixth figure. House heartbeat skips - 60bpm stutters, resumes.",
+      "scene": "Table, 6:15 AM, lamp barely alive. Temperature -12\u00c2\u00b0C, breath from six sources visible though five people. The mathematics visibly breaking - different counts for different things. Cross patterns in window frost seem to shift with each count. Oil lamp has maybe 10 minutes left, wick showing black.",
       "style": "Series of quick counts from different angles, camera position shifting (that's where the camera is), documentary of mathematical impossibility.",
       "camera_position": "Series of quick counts from different angles, camera position shifting",
-      "dialogue": "(MagnÃºs counting): \"Einn, tveir, Ã¾rÃ­r, fjÃ³rir, fimm... sex?\" (Counting again): \"Fimm... nei, sex... nei...\" (Frustrated): \"Hversu margir erum viÃ°?\" (How many are we?) (Sigrid, quiet): \"ÃžaÃ° fer eftir Ã¾vÃ­\" (That depends)",
+      "dialogue": "(Magn\u00c3\u00bas counting): \"Einn, tveir, \u00c3\u00ber\u00c3\u00adr, fj\u00c3\u00b3rir, fimm... sex?\" (Counting again): \"Fimm... nei, sex... nei...\" (Frustrated): \"Hversu margir erum vi\u00c3\u00b0?\" (How many are we?) (Sigrid, quiet): \"\u00c3\u017ea\u00c3\u00b0 fer eftir \u00c3\u00bev\u00c3\u00ad\" (That depends)",
       "audio": {
         "primary": [
           "Counting in Danish/Icelandic",
@@ -45,7 +45,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show six evidence versus five people, maintain confusion, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

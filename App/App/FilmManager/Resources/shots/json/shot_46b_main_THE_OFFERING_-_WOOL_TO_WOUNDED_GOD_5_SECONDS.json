@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[GUÃRÃšN] pulling the wool from her wrists - now 80mm long - and reaching up to press it against the Bull's wounds where harpoons enter skull, the white wool immediately turning black from contaminated blood but seeming to ease his pain.",
-      "action": "OVERHEAD SHOT looking down at polynya edge. GuÃ°rÃºn's small figure beside Bull's massive head. She pulls wool from both wrists - continuous now, like unraveling herself. White fibers against black water. Reaches up (standing on toes) to nearest harpoon wound. Presses wool against where brass enters skull. Wool immediately absorbs contamination - turns black, then green, then starts smoking slightly. But Bull's eyes close in relief. The industrial poison being drawn out, even temporarily. She continues, wrapping wool around each harpoon base. Her wrists bleeding now where wool emerged, but she doesn't stop. From above: pattern visible - her movements create spiral around Bull, her footprints in snow forming sixth intersection point again. Wool runs out at 80mm. Her wrists now just raw openings. But Bull calmer. Breathing slowed to 8/min. The wool smoking from absorbed contamination, might catch fire.",
+      "subject": "[GU\u00c3\u0090R\u00c3\u0161N] pulling the wool from her wrists - now 80mm long - and reaching up to press it against the Bull's wounds where harpoons enter skull, the white wool immediately turning black from contaminated blood but seeming to ease his pain.",
+      "action": "OVERHEAD SHOT looking down at polynya edge. Gu\u00c3\u00b0r\u00c3\u00ban's small figure beside Bull's massive head. She pulls wool from both wrists - continuous now, like unraveling herself. White fibers against black water. Reaches up (standing on toes) to nearest harpoon wound. Presses wool against where brass enters skull. Wool immediately absorbs contamination - turns black, then green, then starts smoking slightly. But Bull's eyes close in relief. The industrial poison being drawn out, even temporarily. She continues, wrapping wool around each harpoon base. Her wrists bleeding now where wool emerged, but she doesn't stop. From above: pattern visible - her movements create spiral around Bull, her footprints in snow forming sixth intersection point again. Wool runs out at 80mm. Her wrists now just raw openings. But Bull calmer. Breathing slowed to 8/min. The wool smoking from absorbed contamination, might catch fire.",
       "scene": "Aerial view of polynya, two figures in snow. Spiral pattern visible. Blood from her wrists dotting snow.",
       "style": "Overhead showing ritual pattern of comfort (that's where the camera is), maternal gesture documented.",
       "camera_position": "Overhead showing ritual pattern of comfort",
-      "dialogue": "(GuÃ°rÃºn): \"Shhh... Ã©g veit... Ã©g veit\" (I know... I know)",
+      "dialogue": "(Gu\u00c3\u00b0r\u00c3\u00ban): \"Shhh... \u00c3\u00a9g veit... \u00c3\u00a9g veit\" (I know... I know)",
       "audio": {
         "primary": [
           "Wool pulling",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

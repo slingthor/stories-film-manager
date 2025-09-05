@@ -1,24 +1,24 @@
 {
   "shot_metadata": {
     "id": "24b",
-    "name": "EASTERN_RESPONSE___JÃRMUNGANDR_8_SECONDS",
-    "title": "EASTERN RESPONSE - JÃRMUNGANDR 8 SECONDS",
+    "name": "EASTERN_RESPONSE___J\u00c3RMUNGANDR_8_SECONDS",
+    "title": "EASTERN RESPONSE - J\u00c3RMUNGANDR 8 SECONDS",
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "House 6/min + 60bpm panic | First response | Camer...",
-    "stitch_from": "[STITCH from Shot 24a: \"HJÃLPIÃ OKKUR\" echoing]"
+    "stitch_from": "[STITCH from Shot 24a: \"HJ\u00c3\u0081LPI\u00c3\u0090 OKKUR\" echoing]"
   },
   "progressive_state": "House 6/min + 60bpm panic | First response | Camera frost 15.5% | Serpent answering | Watching: Trawler has eyes",
   "prompt_variants": [
     {
       "variant_id": "24b_story_primary",
-      "variant_name": "Primary - EASTERN RESPONSE - JÃRMUNGANDR 8 SECONDS",
+      "variant_name": "Primary - EASTERN RESPONSE - J\u00c3RMUNGANDR 8 SECONDS",
       "intent_tags": [
         "story_primary"
       ],
       "priority": 1,
       "subject": "From the east, the trawler GRIMSBY PRIDE's horn blasting with impossible volume - not ship's horn but serpent's roar - the sound physical, visible as pressure wave racing across water, shattering the already-cracked window, revealing yellow searchlights sweeping frantically like searching eyes.",
-      "action": "The instant \"HJÃLPIÃ OKKUR\" completes, response from east. Trawler horn but wrong - too loud, too long, too alive. Sound visible as pressure wave across fjord, flattening grass, bending fence posts. Hits house: CRACK. Window shatters inward, not from impact but from frequency. Glass shards hang in air for moment, rotating, catching trawler's yellow light, before falling. Through broken window, trawler visible but wrong - hull undulating, smokestacks breathing black clouds in rhythm, searchlights sweeping frantically not mechanically. The lights find the house, lock on, two yellow beams like eyes focusing. Horn continues: 8 full seconds, brown note, bowel-loosening frequency. Sigrid's nose starts bleeding from pressure. Children's ears bleeding. GuÃ°rÃºn vomits from frequency. But horn also sounds hurt - metallic scream mixed with organic pain. Industrial contamination in the serpent's voice. It's answering but wounded.",
+      "action": "The instant \"HJ\u00c3\u0081LPI\u00c3\u0090 OKKUR\" completes, response from east. Trawler horn but wrong - too loud, too long, too alive. Sound visible as pressure wave across fjord, flattening grass, bending fence posts. Hits house: CRACK. Window shatters inward, not from impact but from frequency. Glass shards hang in air for moment, rotating, catching trawler's yellow light, before falling. Through broken window, trawler visible but wrong - hull undulating, smokestacks breathing black clouds in rhythm, searchlights sweeping frantically not mechanically. The lights find the house, lock on, two yellow beams like eyes focusing. Horn continues: 8 full seconds, brown note, bowel-loosening frequency. Sigrid's nose starts bleeding from pressure. Children's ears bleeding. Gu\u00c3\u00b0r\u00c3\u00ban vomits from frequency. But horn also sounds hurt - metallic scream mixed with organic pain. Industrial contamination in the serpent's voice. It's answering but wounded.",
       "scene": "Eastern window exploding. Trawler visible in fjord, moving wrong. Yellow lights fixed on house. Distance collapsing - trawler seems closer than possible.",
       "style": "From inside looking out through shattering window, trawler revealed (that's where the camera is), documentary of eastern response.",
       "camera_position": "From inside looking out through shattering window, trawler revealed",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show sound as physical force, trawler moving wrong, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

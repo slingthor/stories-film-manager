@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[MAGNÃšS] attempting second pull, waiting for trawler beam to return, but when yellow light hits again the aflausn is weaker - only 10 feet this time - and the cost higher: blood from ears now, a tooth loosening in his mouth, his hair visibly greying in the beam.",
-      "action": "MagnÃºs wipes frozen blood from nose, positions for second pull. Counts trawler rotation: 18... 19... 20 seconds. Light coming. Grips rope, prepared. Beam hits - aflausn returns but diminished. Pulls with supernatural strength but boat only moves 10 feet. Cost immediate: blood from both ears, running down neck, freezing. Spits - blood and a molar, white against red snow. In trawler light, his hair literally greys, brown becoming silver in real-time. Hands shake worse - 5Hz constant now, can barely grip rope. Behind him, his abandoned cane has grown ice roots, 6 inches into ground, becoming permanent. Through window - empty. Family no longer watching, or cannot watch. Only empty clothes remain at glass, breath fogging from inside at 8/min. Realizes pattern: each pull costs more, gives less. Still 150 meters to fjord. At this rate, will be dead before water.",
-      "scene": "30 feet from house now, following blood spirals. Temperature -25Â°C, his body heat dropping. Where blood falls, steam rises then freezes. The cane behind like grave marker, ice roots spreading. Sun trying to rise but clouds building - storm coming. Trawler beam the only reliable light.",
+      "subject": "[MAGN\u00c3\u0161S] attempting second pull, waiting for trawler beam to return, but when yellow light hits again the aflausn is weaker - only 10 feet this time - and the cost higher: blood from ears now, a tooth loosening in his mouth, his hair visibly greying in the beam.",
+      "action": "Magn\u00c3\u00bas wipes frozen blood from nose, positions for second pull. Counts trawler rotation: 18... 19... 20 seconds. Light coming. Grips rope, prepared. Beam hits - aflausn returns but diminished. Pulls with supernatural strength but boat only moves 10 feet. Cost immediate: blood from both ears, running down neck, freezing. Spits - blood and a molar, white against red snow. In trawler light, his hair literally greys, brown becoming silver in real-time. Hands shake worse - 5Hz constant now, can barely grip rope. Behind him, his abandoned cane has grown ice roots, 6 inches into ground, becoming permanent. Through window - empty. Family no longer watching, or cannot watch. Only empty clothes remain at glass, breath fogging from inside at 8/min. Realizes pattern: each pull costs more, gives less. Still 150 meters to fjord. At this rate, will be dead before water.",
+      "scene": "30 feet from house now, following blood spirals. Temperature -25\u00c2\u00b0C, his body heat dropping. Where blood falls, steam rises then freezes. The cane behind like grave marker, ice roots spreading. Sun trying to rise but clouds building - storm coming. Trawler beam the only reliable light.",
       "style": "Close on transformation in beam, showing real-time aging (that's where the camera is), documentary of payment due.",
       "camera_position": "Close on transformation in beam, showing real-time aging",
-      "dialogue": "(Counting): \"ÃtjÃ¡n... nÃ­tjÃ¡n... tuttugu...\" (Spitting tooth): \"TÃ¶nn lÃ­ka?\" (Teeth too?) (To distant fjord): \"ÃžrjÃ¡r manneskjur... Ã©g er ein\" (Three men... I am one)",
+      "dialogue": "(Counting): \"\u00c3\u0081tj\u00c3\u00a1n... n\u00c3\u00adtj\u00c3\u00a1n... tuttugu...\" (Spitting tooth): \"T\u00c3\u00b6nn l\u00c3\u00adka?\" (Teeth too?) (To distant fjord): \"\u00c3\u017erj\u00c3\u00a1r manneskjur... \u00c3\u00a9g er ein\" (Three men... I am one)",
       "audio": {
         "primary": [
           "Second drag shorter",
@@ -45,7 +45,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show aging in beam clearly, accumulating cost, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

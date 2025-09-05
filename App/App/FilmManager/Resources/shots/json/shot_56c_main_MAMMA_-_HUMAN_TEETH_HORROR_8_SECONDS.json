@@ -18,11 +18,11 @@
       ],
       "priority": 1,
       "subject": "The lamb children calling \"Mamma\" but through sheep vocal cords it comes out wrong - \"Maaaaaaa-maaaa\" - while camera close on their mouths showing human teeth, tongues, dental development of 7 and 5-year-old humans in lamb skulls.",
-      "action": "CLOSE ON JÃ³n-lamb's mouth opening. \"Mamma\" attempts. But sheep larynx, sheep throat. Comes out: \"Maaaaaaa-maaaa.\" Dragged, bleating. Human teeth visible - baby teeth in front, adult teeth emerging behind. Human dental pattern in sheep jaw. Tongue human-pink, not sheep-grey. Trying to form words. Cut to Lilja-lamb: \"Maaaa-maaaa, Ã©g er hrÃ¦dd\" (Mommy, I'm scared). But only \"Maaaa\" emerges clearly. The horror: they're conscious. Know they're children. Trapped in sheep bodies. Or were always sheep thinking they were children? Both? GuÃ°rÃºn-ewe tries to comfort, nuzzles them with sheep snout. But tears from horizontal pupils. Human tears from sheep eyes. They huddle together. Three sheep in children's clothes. Family still family. Love still love. But wrong bodies. Or right bodies, wrong consciousness? Which is true?",
+      "action": "CLOSE ON J\u00c3\u00b3n-lamb's mouth opening. \"Mamma\" attempts. But sheep larynx, sheep throat. Comes out: \"Maaaaaaa-maaaa.\" Dragged, bleating. Human teeth visible - baby teeth in front, adult teeth emerging behind. Human dental pattern in sheep jaw. Tongue human-pink, not sheep-grey. Trying to form words. Cut to Lilja-lamb: \"Maaaa-maaaa, \u00c3\u00a9g er hr\u00c3\u00a6dd\" (Mommy, I'm scared). But only \"Maaaa\" emerges clearly. The horror: they're conscious. Know they're children. Trapped in sheep bodies. Or were always sheep thinking they were children? Both? Gu\u00c3\u00b0r\u00c3\u00ban-ewe tries to comfort, nuzzles them with sheep snout. But tears from horizontal pupils. Human tears from sheep eyes. They huddle together. Three sheep in children's clothes. Family still family. Love still love. But wrong bodies. Or right bodies, wrong consciousness? Which is true?",
       "scene": "Close on lamb mouths, human teeth. Family huddle as sheep. Horror of awareness.",
       "style": "Extreme close on mouths (that's where the camera is), wrong anatomy documented.",
       "camera_position": "Extreme close on mouths",
-      "dialogue": "(Lambs, attempting): \"Maaaaaaa-maaaa\" \"Maaaa... Ã©g... hrÃ¦dd\" (Barely human): Sounds of trying",
+      "dialogue": "(Lambs, attempting): \"Maaaaaaa-maaaa\" \"Maaaa... \u00c3\u00a9g... hr\u00c3\u00a6dd\" (Barely human): Sounds of trying",
       "audio": {
         "primary": [
           "Sheep vocals attempting human words",
@@ -42,7 +42,24 @@
         "referenced": []
       },
       "negative_prompt": "show teeth clearly, maintain horror without gore",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

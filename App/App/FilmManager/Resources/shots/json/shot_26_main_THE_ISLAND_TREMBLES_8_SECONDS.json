@@ -6,7 +6,7 @@
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "All systems disrupted | Parallel disaster felt | C...",
-    "stitch_from": "[STITCH from Shot 25: Contaminated tilberi breathing, landvÃ¦ttir watching]"
+    "stitch_from": "[STITCH from Shot 25: Contaminated tilberi breathing, landv\u00c3\u00a6ttir watching]"
   },
   "progressive_state": "All systems disrupted | Parallel disaster felt | Camera frost 17.5% | Distance irrelevant | Watching: Mountains witness",
   "prompt_variants": [
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[MAGNÃšS] collapsed in blood spiral 80 meters from house, suddenly feeling the 16Hz resonance through frozen ground - his bones becoming tuning forks, teeth chattering at impossible frequency, knowing without hearing that Sigrid's voice has become something else as the mountains return the call in avalanche tongues.",
-      "action": "MagnÃºs on knees, recovering from aflausn debt. Ground suddenly vibrates - not earthquake but resonance through bedrock. 16Hz travels through frozen earth faster than air. His skeleton resonates: teeth chatter at 16Hz (impossible for muscle), ribs hum, spine becomes antenna. Looks back at house - smoke from chimney forms raven shape, dissipates, reforms. Windows glowing with light that shouldn't exist (lamp dead, but four landvÃ¦ttir's attention creates illumination). Tries to stand but resonance drops him. Mountains respond: East mountain sheds snow in controlled slide (Raven's acknowledgment). West mountain steams at peak (Bull's breathing). South mountain groans audibly (Giant's bones). North mountain stays silent but darker (Raven gathering). His tremor completely stops - 0Hz - the stillness more terrifying than shaking. In his mouth, taste of blood and metal. The boat behind him slides backward 5 feet, pulled by blood spirals toward house. Realizes: Sigrid did something irreversible.",
-      "scene": "Halfway point, 6:40 AM but darkness despite sunrise. Temperature -28Â°C, breath freezing before exhaling. Blood spirals glowing faintly red. Mountains all responding differently.",
-      "style": "Wide shot showing MagnÃºs tiny against responding landscape, then close on his resonating body (that's where the camera is), documentary of distance irrelevance.",
-      "camera_position": "Wide shot showing MagnÃºs tiny against responding landscape, then close on his resonating body",
-      "dialogue": "(MagnÃºs, feeling resonance): \"Sigrid... hvaÃ° gerÃ°ir Ã¾Ãº?\" (Sigrid... what did you do?) (To mountains): \"Ekki svara!\" (Don't answer!) (Realization): \"HÃºn kallaÃ°i Ã¡ Ã¾au Ã¶ll\" (She called them all)",
+      "subject": "[MAGN\u00c3\u0161S] collapsed in blood spiral 80 meters from house, suddenly feeling the 16Hz resonance through frozen ground - his bones becoming tuning forks, teeth chattering at impossible frequency, knowing without hearing that Sigrid's voice has become something else as the mountains return the call in avalanche tongues.",
+      "action": "Magn\u00c3\u00bas on knees, recovering from aflausn debt. Ground suddenly vibrates - not earthquake but resonance through bedrock. 16Hz travels through frozen earth faster than air. His skeleton resonates: teeth chatter at 16Hz (impossible for muscle), ribs hum, spine becomes antenna. Looks back at house - smoke from chimney forms raven shape, dissipates, reforms. Windows glowing with light that shouldn't exist (lamp dead, but four landv\u00c3\u00a6ttir's attention creates illumination). Tries to stand but resonance drops him. Mountains respond: East mountain sheds snow in controlled slide (Raven's acknowledgment). West mountain steams at peak (Bull's breathing). South mountain groans audibly (Giant's bones). North mountain stays silent but darker (Raven gathering). His tremor completely stops - 0Hz - the stillness more terrifying than shaking. In his mouth, taste of blood and metal. The boat behind him slides backward 5 feet, pulled by blood spirals toward house. Realizes: Sigrid did something irreversible.",
+      "scene": "Halfway point, 6:40 AM but darkness despite sunrise. Temperature -28\u00c2\u00b0C, breath freezing before exhaling. Blood spirals glowing faintly red. Mountains all responding differently.",
+      "style": "Wide shot showing Magn\u00c3\u00bas tiny against responding landscape, then close on his resonating body (that's where the camera is), documentary of distance irrelevance.",
+      "camera_position": "Wide shot showing Magn\u00c3\u00bas tiny against responding landscape, then close on his resonating body",
+      "dialogue": "(Magn\u00c3\u00bas, feeling resonance): \"Sigrid... hva\u00c3\u00b0 ger\u00c3\u00b0ir \u00c3\u00be\u00c3\u00ba?\" (Sigrid... what did you do?) (To mountains): \"Ekki svara!\" (Don't answer!) (Realization): \"H\u00c3\u00ban kalla\u00c3\u00b0i \u00c3\u00a1 \u00c3\u00beau \u00c3\u00b6ll\" (She called them all)",
       "audio": {
         "primary": [
           "16Hz through ground and bones",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show resonance through body, mountains responding, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

@@ -1,28 +1,28 @@
 {
   "shot_metadata": {
     "id": "58b",
-    "name": "GUÃRÃŠN_EWES_REALIZATION___THE_GREAT_LINE_8_SECONDS",
-    "title": "GUÃRÃšN-EWES REALIZATION - THE GREAT LINE 8 SECONDS",
+    "name": "GU\u00c3R\u00c3\u0160N_EWES_REALIZATION___THE_GREAT_LINE_8_SECONDS",
+    "title": "GU\u00c3R\u00c3\u0161N-EWES REALIZATION - THE GREAT LINE 8 SECONDS",
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "Truth understood | Camera frost 51% | Sacrifice me...",
-    "stitch_from": "[STITCH from Shot 58a: KlettagjÃ¡ revealed, sheep family huddled]"
+    "stitch_from": "[STITCH from Shot 58a: Klettagj\u00c3\u00a1 revealed, sheep family huddled]"
   },
   "progressive_state": "Truth understood | Camera frost 51% | Sacrifice meaning | Watching: Mother knows",
   "prompt_variants": [
     {
       "variant_id": "58b_story_primary",
-      "variant_name": "Primary - GUÃRÃšN-EWES REALIZATION - THE GREAT LINE 8 SECONDS",
+      "variant_name": "Primary - GU\u00c3R\u00c3\u0161N-EWES REALIZATION - THE GREAT LINE 8 SECONDS",
       "intent_tags": [
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[GUÃRÃšN]-ewe suddenly understanding, struggling with sheep vocal cords to speak the crucial truth: \"ViÃ° deyjum sem kindur... til aÃ° bÃ¶rn okkar... geti orÃ°iÃ° fÃ³lk\" (We die as sheep... so our children... can become human).",
-      "action": "PUSH IN on GuÃ°rÃºn-ewe's face. Her horizontal pupils dilate with understanding. She KNOWS now. Why this happened. What it means. Struggles to speak. Sheep throat fighting human consciousness. \"VvvviÃ°...\" Harder than \"Mamma.\" These are complex words. \"ViÃ° deyjum...\" Push closer. Tears from sheep eyes. Real tears. Mother's tears. \"Sem kindur...\" The words barely human. More bleat than speech. But we understand. She understands. They're the sacrifice generation. \"Til aÃ° bÃ¶rn okkar...\" Looking at lamb-children. They won't stay sheep. Their children will be human. Free. \"Geti orÃ°iÃ° fÃ³lk.\" The last word clear. FÃ“LK. Human. People. Not livestock. The colonial transformation was temporary. One generation sacrificed so the next could be free. Iceland under Denmark - sheep. Iceland independent - human again. She sees it all. Accepts it. The mother's ultimate sacrifice.",
+      "subject": "[GU\u00c3\u0090R\u00c3\u0161N]-ewe suddenly understanding, struggling with sheep vocal cords to speak the crucial truth: \"Vi\u00c3\u00b0 deyjum sem kindur... til a\u00c3\u00b0 b\u00c3\u00b6rn okkar... geti or\u00c3\u00b0i\u00c3\u00b0 f\u00c3\u00b3lk\" (We die as sheep... so our children... can become human).",
+      "action": "PUSH IN on Gu\u00c3\u00b0r\u00c3\u00ban-ewe's face. Her horizontal pupils dilate with understanding. She KNOWS now. Why this happened. What it means. Struggles to speak. Sheep throat fighting human consciousness. \"Vvvvi\u00c3\u00b0...\" Harder than \"Mamma.\" These are complex words. \"Vi\u00c3\u00b0 deyjum...\" Push closer. Tears from sheep eyes. Real tears. Mother's tears. \"Sem kindur...\" The words barely human. More bleat than speech. But we understand. She understands. They're the sacrifice generation. \"Til a\u00c3\u00b0 b\u00c3\u00b6rn okkar...\" Looking at lamb-children. They won't stay sheep. Their children will be human. Free. \"Geti or\u00c3\u00b0i\u00c3\u00b0 f\u00c3\u00b3lk.\" The last word clear. F\u00c3\u201cLK. Human. People. Not livestock. The colonial transformation was temporary. One generation sacrificed so the next could be free. Iceland under Denmark - sheep. Iceland independent - human again. She sees it all. Accepts it. The mother's ultimate sacrifice.",
       "scene": "Close on ewe face. Tears visible. Dawn light making wool glow. Truth spoken barely.",
       "style": "Push in on speaking ewe (that's where the camera is), revelation documented.",
       "camera_position": "Push in on speaking ewe",
-      "dialogue": "(GuÃ°rÃºn-ewe, struggling): \"ViÃ° deyjum sem kindur...\" \"Til aÃ° bÃ¶rn okkar...\" \"Geti orÃ°iÃ° fÃ³lk\"",
+      "dialogue": "(Gu\u00c3\u00b0r\u00c3\u00ban-ewe, struggling): \"Vi\u00c3\u00b0 deyjum sem kindur...\" \"Til a\u00c3\u00b0 b\u00c3\u00b6rn okkar...\" \"Geti or\u00c3\u00b0i\u00c3\u00b0 f\u00c3\u00b3lk\"",
       "audio": {
         "primary": [
           "Sheep throat forming human words",
@@ -42,7 +42,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

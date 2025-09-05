@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[MAGNÃšS] leaning down to kiss [SIGRID]'s forehead goodnight - normal fatherly gesture - but lips staying too long, then moving to her belly, checking the pregnancy with disturbing tenderness: \"Ef eitthvaÃ° kemur fyrir mÃ³Ã°ur Ã¾Ã­na...\" (If something happens to your mother...).",
-      "action": "He leans down. Normal goodnight kiss coming. Lips touch forehead. Should be brief. Aren't. Stay for 3 seconds. 4. 5. She doesn't move. Can't define why this is wrong - no one taught boundaries. No other families to compare. His lips finally lift but move to her belly. \"Ã‰g Ã¾arf aÃ° athuga\" (I need to check). Hands follow, feeling the small swell. Checking his grandchild? His future child? Both? \"Ef eitthvaÃ° kemur fyrir mÃ³Ã°ur Ã¾Ã­na...\" Trails off. Implication clear. She's backup. Insurance. Breeding stock with tenderness. His 0Hz hands perfectly still, gentle, terrible. No tremor in love or violence. Finally stands. \"SofÃ°u vel, elskan.\" Walks away. She remains frozen. The horror: he genuinely loves her. And sees her as future wife. Both true. Isolation allows both. No witnesses to say it's wrong.",
+      "subject": "[MAGN\u00c3\u0161S] leaning down to kiss [SIGRID]'s forehead goodnight - normal fatherly gesture - but lips staying too long, then moving to her belly, checking the pregnancy with disturbing tenderness: \"Ef eitthva\u00c3\u00b0 kemur fyrir m\u00c3\u00b3\u00c3\u00b0ur \u00c3\u00be\u00c3\u00adna...\" (If something happens to your mother...).",
+      "action": "He leans down. Normal goodnight kiss coming. Lips touch forehead. Should be brief. Aren't. Stay for 3 seconds. 4. 5. She doesn't move. Can't define why this is wrong - no one taught boundaries. No other families to compare. His lips finally lift but move to her belly. \"\u00c3\u2030g \u00c3\u00bearf a\u00c3\u00b0 athuga\" (I need to check). Hands follow, feeling the small swell. Checking his grandchild? His future child? Both? \"Ef eitthva\u00c3\u00b0 kemur fyrir m\u00c3\u00b3\u00c3\u00b0ur \u00c3\u00be\u00c3\u00adna...\" Trails off. Implication clear. She's backup. Insurance. Breeding stock with tenderness. His 0Hz hands perfectly still, gentle, terrible. No tremor in love or violence. Finally stands. \"Sof\u00c3\u00b0u vel, elskan.\" Walks away. She remains frozen. The horror: he genuinely loves her. And sees her as future wife. Both true. Isolation allows both. No witnesses to say it's wrong.",
       "scene": "Close intimate moment, night falling. His tenderness genuine and terrible. Her frozen acceptance.",
       "style": "Static close shot on violation through care (that's where the camera is), boundary dissolution documented.",
       "camera_position": "Static close shot on violation through care",
-      "dialogue": "(MagnÃºs): \"Ef eitthvaÃ° kemur fyrir mÃ³Ã°ur Ã¾Ã­na...\" \"ÃžÃº ert tilbÃºin\" (You're ready) \"SofÃ°u vel, elskan\"",
+      "dialogue": "(Magn\u00c3\u00bas): \"Ef eitthva\u00c3\u00b0 kemur fyrir m\u00c3\u00b3\u00c3\u00b0ur \u00c3\u00be\u00c3\u00adna...\" \"\u00c3\u017e\u00c3\u00ba ert tilb\u00c3\u00bain\" (You're ready) \"Sof\u00c3\u00b0u vel, elskan\"",
       "audio": {
         "primary": [
           "Lips on skin too long",
@@ -45,7 +45,24 @@
         "referenced": []
       },
       "negative_prompt": "maintain discomfort without exploitation, show boundary violation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

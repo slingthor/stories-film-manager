@@ -15,7 +15,6 @@
     },
     "stitch_from": "Shot 1b: Boats following blood trail"
   },
-
   "tracking_systems_current": {
     "breathing_coordination": 20.0,
     "temperature_progression": 20.0,
@@ -34,59 +33,75 @@
     "character_shadow_behavior": 12.0,
     "stain_progression": 25.0
   },
-
   "progressive_state": "Groups splitting | Tasks divided | Camera frost 0% | Work beginning | Watching: Community organizing",
-
   "prompt_variants": [
     {
       "variant_id": "2a_story_primary",
       "variant_name": "Supernatural Community Division",
-      "intent_tags": ["story_primary", "self_sorting"],
+      "intent_tags": [
+        "story_primary",
+        "self_sorting"
+      ],
       "priority": 1,
-      
-      "subject": "Three boats reaching black sand beach, men pulling boats onto sand, [MAGNÚS] and [JÓN] walking toward cliff path with ropes while other men prepare the flensing area with long knives, women gathering baskets on higher ground.",
-      
-      "action": "Boats scrape onto black sand. Men jump out, boots splashing in shallow water. Pull boats above tide line. Magnús picks up coiled rope from boat, 100 feet of hemp. Touches Jón's shoulder, boy follows immediately. They walk toward steep path leading to cliffs. Four men remain on beach, take long flensing knives from boat, begin sharpening on whetstones. Set up wooden racks near waterline. Two men gather driftwood for fires. On grassy slope above beach, Guðrún leads fifteen women carrying woven baskets. Women wear bright colored dresses - red, blue, white. Sigrid among them, basket over arm. They head inland toward purple hills visible in distance. Ocean behind still shows red blood trail spreading wider. Whale not visible yet but blood trail points directly at beach.",
-      
+      "subject": "Three boats reaching black sand beach, men pulling boats onto sand, [MAGN\u00daS] and [J\u00d3N] walking toward cliff path with ropes while other men prepare the flensing area with long knives, women gathering baskets on higher ground.",
+      "action": "Boats scrape onto black sand. Men jump out, boots splashing in shallow water. Pull boats above tide line. Magn\u00fas picks up coiled rope from boat, 100 feet of hemp. Touches J\u00f3n's shoulder, boy follows immediately. They walk toward steep path leading to cliffs. Four men remain on beach, take long flensing knives from boat, begin sharpening on whetstones. Set up wooden racks near waterline. Two men gather driftwood for fires. On grassy slope above beach, Gu\u00f0r\u00fan leads fifteen women carrying woven baskets. Women wear bright colored dresses - red, blue, white. Sigrid among them, basket over arm. They head inland toward purple hills visible in distance. Ocean behind still shows red blood trail spreading wider. Whale not visible yet but blood trail points directly at beach.",
       "scene": "Black sand beach, early morning. Clear sky. Cliffs to right with path visible. Purple berry-covered hills inland. Ocean with spreading blood trail.",
-      
       "style": "Wide shot from hillside showing beach, people splitting into three groups (that's where the camera is), movement in different directions.",
-      
       "camera_position": "Hillside showing beach and three group division, that's where the camera is",
-      
       "dialogue": "None",
-      
       "audio": {
-        "primary_sounds": ["Boats on sand", "footsteps diverging", "knives being sharpened"],
-        "ambient_sounds": ["Ocean waves", "distant conversations", "morning birds beginning"],
-        "absent_sounds": ["commands being shouted"]
+        "primary_sounds": [
+          "Boats on sand",
+          "footsteps diverging",
+          "knives being sharpened"
+        ],
+        "ambient_sounds": [
+          "Ocean waves",
+          "distant conversations",
+          "morning birds beginning"
+        ],
+        "absent_sounds": [
+          "commands being shouted"
+        ]
       },
-      
       "character_plates": {
-        "present": ["MAGNÚS-AUTHORITY", "JÓN-MILD", "GUÐRÚN-ABUNDANT", "SIGRID-PURE"],
-        "referenced": ["Community members"]
+        "present": [
+          "MAGN\u00daS-AUTHORITY",
+          "J\u00d3N-MILD",
+          "GU\u00d0R\u00daN-ABUNDANT",
+          "SIGRID-PURE"
+        ],
+        "referenced": [
+          "Community members"
+        ]
       },
-      
       "environmental_plates": {
         "landscape": "WESTFJORDS-BEACH-HILLS",
-        "weather": "MORNING-CLEAR", 
+        "weather": "MORNING-CLEAR",
         "sea": "SEA-ABUNDANT-GUIDANCE",
         "lighting": "MORNING-BRIGHT"
       },
-      
       "negative_prompt": "no subtitles, show three groups clearly, blood trail in ocean, people moving different directions, 1080p",
-      
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "sigrid": "SIGRID-PURE",
+          "lilja": "LILJA-PURE"
+        },
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
-
   "others": {
     "supernatural_efficiency": "Groups follow fjord acoustic channels (landscape directing)",
     "antarctic_stare": "Everyone exhibits 3 months isolation stare despite being together",
     "shadow_behavior": "Shadows lag behind, merge into animal mass, snap back",
     "pre_staining": "Pre-work stains visible on clothes before tasks begin"
   },
-
   "notes": {
     "thematic_purpose": "Perfect community cooperation hiding unconscious livestock sorting",
     "enhancement_references": [

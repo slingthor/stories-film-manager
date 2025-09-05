@@ -18,11 +18,11 @@
       ],
       "priority": 1,
       "subject": "[SIGRID] 16 years old with wheat-blonde hair in white linen dress standing beside the pole, opening her mouth to sing, lips moving to form Icelandic words, but deep male voice emerges while her eyes look directly at camera.",
-      "action": "Sigrid stands 3 feet from pole, perfectly still. White dress hangs straight down - no wind. She opens mouth, lips form the words \"Krummi svaf Ã­ klettagjÃ¡.\" Deep male voice emerges from her throat - bass tone, elderly sound. Her lips continue moving, perfectly forming each syllable. Eyes never leave camera lens. Behind her, three whale spouts rise from ocean - water shoots up 20 feet. She continues singing, mouth moving: \"kaldri vetrarnÃ³ttu Ã¡.\" Frost forms on grass around her feet, spreading outward in circle, white crystals despite summer. Her right hand reaches out, touches pole. When hand pulls away, palm is stained - red thumb, purple fingers, gold wrist. She looks at stained hand while mouth continues moving, male voice continuing. Dress hem turns purple where it touches frosted grass.",
+      "action": "Sigrid stands 3 feet from pole, perfectly still. White dress hangs straight down - no wind. She opens mouth, lips form the words \"Krummi svaf \u00c3\u00ad klettagj\u00c3\u00a1.\" Deep male voice emerges from her throat - bass tone, elderly sound. Her lips continue moving, perfectly forming each syllable. Eyes never leave camera lens. Behind her, three whale spouts rise from ocean - water shoots up 20 feet. She continues singing, mouth moving: \"kaldri vetrarn\u00c3\u00b3ttu \u00c3\u00a1.\" Frost forms on grass around her feet, spreading outward in circle, white crystals despite summer. Her right hand reaches out, touches pole. When hand pulls away, palm is stained - red thumb, purple fingers, gold wrist. She looks at stained hand while mouth continues moving, male voice continuing. Dress hem turns purple where it touches frosted grass.",
       "scene": "Beside pole on headland. Ocean behind with whale spouts. Morning sun horizontal. Grass turning white with frost in 6-foot circle around her. Clear sky.",
       "style": "Medium shot facing Sigrid directly, camera at her eye level 10 feet away (that's where the camera is), static locked shot, no movement.",
       "camera_position": "Medium shot facing Sigrid directly, camera at her eye level 10 feet away",
-      "dialogue": "(Young female mouth moving, old male voice): \"Krummi svaf Ã­ klettagjÃ¡, kaldri vetrarnÃ³ttu Ã¡\"",
+      "dialogue": "(Young female mouth moving, old male voice): \"Krummi svaf \u00c3\u00ad klettagj\u00c3\u00a1, kaldri vetrarn\u00c3\u00b3ttu \u00c3\u00a1\"",
       "audio": {
         "primary": [
           "Deep male voice from female throat",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show mouth movements matching male voice, three-color hand stain, frost spreading, 1080p",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},

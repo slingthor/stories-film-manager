@@ -15,58 +15,76 @@
     },
     "stitch_from": "Shot 21: Landscape frozen, Sigrid still singing"
   },
-
   "progressive_state": "Memory ending | Archive closing | Camera frost 90% | Vision failing | Watching: We're expelled",
-
   "prompt_variants": [
     {
       "variant_id": "22_story_primary",
       "variant_name": "Camera Death Sequence",
-      "intent_tags": ["story_primary", "meta_cinema"],
+      "intent_tags": [
+        "story_primary",
+        "meta_cinema"
+      ],
       "priority": 1,
-      
       "subject": "The camera lens itself being covered by frost spreading from edges toward center, through the ice seeing glimpses of Sigrid aging rapidly, the house now visible and breathing, shadows moving inside.",
-      
-      "action": "Frost crystals form on lens edges. Spread inward like reaching fingers. Through gaps in frost, image fragments visible. Sigrid's face - but now older, 30, 40, 50 years old in flashes. House behind her now huge, breathing, walls expanding and contracting. Through lit window, shadows moving inside - five figures, or four, or six. Can't count. Frost continues spreading. Only center of lens clear. Through it: Sigrid now ancient, hair white, still singing same song. Behind her, house door opens. Yellow light spills out. Someone standing in doorway - Magnús? But wrong. Too tall. Too many arms? Or is it sheep standing upright? Frost covers more. Through last clear spot: interior of house visible. Family at table. But are they human? Shapes wrong. Frost nearly complete. Final image: single eye looking directly at camera. Human? Sheep? Sigrid's? Ancient. Knowing. Frost covers completely. Darkness.",
-      
+      "action": "Frost crystals form on lens edges. Spread inward like reaching fingers. Through gaps in frost, image fragments visible. Sigrid's face - but now older, 30, 40, 50 years old in flashes. House behind her now huge, breathing, walls expanding and contracting. Through lit window, shadows moving inside - five figures, or four, or six. Can't count. Frost continues spreading. Only center of lens clear. Through it: Sigrid now ancient, hair white, still singing same song. Behind her, house door opens. Yellow light spills out. Someone standing in doorway - Magn\u00fas? But wrong. Too tall. Too many arms? Or is it sheep standing upright? Frost covers more. Through last clear spot: interior of house visible. Family at table. But are they human? Shapes wrong. Frost nearly complete. Final image: single eye looking directly at camera. Human? Sheep? Sigrid's? Ancient. Knowing. Frost covers completely. Darkness.",
       "scene": "View through frosting lens. Images fragmenting. Time jumping. Reality unstable.",
-      
       "style": "POV shot with frost covering lens progressively (that's where the camera is), fragments visible through ice.",
-      
       "camera_position": "Camera lens POV with frost accumulation, that's where the camera is",
-      
       "dialogue": "(Sigrid, aging voice): '...fyrr en dagur fagur rann'",
-      
       "audio": {
-        "primary_sounds": ["Frost crackling on lens", "song becoming distant"],
-        "ambient_sounds": ["House breathing", "door opening"],
-        "absent_sounds": ["clear sound", "coherent reality"]
+        "primary_sounds": [
+          "Frost crackling on lens",
+          "song becoming distant"
+        ],
+        "ambient_sounds": [
+          "House breathing",
+          "door opening"
+        ],
+        "absent_sounds": [
+          "clear sound",
+          "coherent reality"
+        ]
       },
-      
       "character_plates": {
-        "present": ["SIGRID-AGING-TEMPORAL"],
-        "referenced": ["Family shadows"]
+        "present": [
+          "SIGRID-AGING-TEMPORAL"
+        ],
+        "referenced": [
+          "Family shadows"
+        ]
       },
-      
       "environmental_plates": {
         "landscape": "WESTFJORDS-FRAGMENTING",
         "weather": "FROST-TOTAL",
         "lighting": "FRAGMENTING-THROUGH-ICE"
       },
-      
       "negative_prompt": "no subtitles, show frost covering lens, fragments through ice, reality breaking, 1080p",
-      
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-PURE",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-WINTER",
+          "interior": "BA\u00d0STOFA-ORGANIC"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
-
   "others": {
     "meta_cinema": "Camera as Iceland dying from witnessing its own colonization",
     "temporal_fragmentation": "Sigrid aging rapidly through frost gaps",
     "reality_instability": "Human/sheep forms uncertain in final vision",
     "witness_death": "Camera consciousness failing from trauma exposure"
   },
-
   "notes": {
     "thematic_purpose": "Medium becoming message - camera death as Iceland death",
     "revolutionary_element": "Unprecedented meta-cinema where equipment becomes character",

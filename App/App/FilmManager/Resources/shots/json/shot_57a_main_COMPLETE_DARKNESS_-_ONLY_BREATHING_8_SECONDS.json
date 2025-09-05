@@ -18,7 +18,7 @@
       ],
       "priority": 1,
       "subject": "Complete darkness as if power died, but we hear breathing - five distinct patterns - and slowly realize these are not human breaths but have ALWAYS been sheep breaths, we just couldn't hear it right before.",
-      "action": "BLACK SCREEN. Total darkness. Not even shapes. Like eyes closed or power dead. But sound continues. Breathing. Five sources. At first sounds human - familiar patterns we've heard all film. MagnÃºs heavy. GuÃ°rÃºn lighter. Children quick. Sigrid steady at 15/min. But as we listen in darkness, sound clarifies. These aren't human breaths. Never were. Sheep breathing. That particular nasal, wheezing quality. Been there all along. We just heard what we expected. In darkness, truth: wet wool smell. Lanolin. Animal warmth. Hooves on floor - but wait, has that sound always been there? Did we think it was boots? The 11/min synchronized breathing we thought was human submission - it's flock breathing. Natural sheep rhythm. They've been sheep entire film. We've been watching sheep in clothes pretending to be human. Or humans who were always sheep. Or both. In darkness, no way to tell. Just breathing. Animal breathing. Always was.",
+      "action": "BLACK SCREEN. Total darkness. Not even shapes. Like eyes closed or power dead. But sound continues. Breathing. Five sources. At first sounds human - familiar patterns we've heard all film. Magn\u00c3\u00bas heavy. Gu\u00c3\u00b0r\u00c3\u00ban lighter. Children quick. Sigrid steady at 15/min. But as we listen in darkness, sound clarifies. These aren't human breaths. Never were. Sheep breathing. That particular nasal, wheezing quality. Been there all along. We just heard what we expected. In darkness, truth: wet wool smell. Lanolin. Animal warmth. Hooves on floor - but wait, has that sound always been there? Did we think it was boots? The 11/min synchronized breathing we thought was human submission - it's flock breathing. Natural sheep rhythm. They've been sheep entire film. We've been watching sheep in clothes pretending to be human. Or humans who were always sheep. Or both. In darkness, no way to tell. Just breathing. Animal breathing. Always was.",
       "scene": "Complete black. No visual. Only sound revealing truth.",
       "style": "Black screen, audio revelation (that's where the camera is), truth through darkness.",
       "camera_position": "Black screen, audio revelation",
@@ -43,7 +43,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

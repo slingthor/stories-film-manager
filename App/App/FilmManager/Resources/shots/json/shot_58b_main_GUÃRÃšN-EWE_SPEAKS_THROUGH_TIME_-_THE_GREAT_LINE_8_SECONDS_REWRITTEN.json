@@ -1,8 +1,8 @@
 {
   "shot_metadata": {
     "id": "58b",
-    "name": "GUÃRÃŠN_EWE_SPEAKS_THROUGH_TIME___THE_GREAT_LINE_8_SECONDS_REWRITTEN",
-    "title": "GUÃRÃšN-EWE SPEAKS THROUGH TIME - THE GREAT LINE 8 SECONDS REWRITTEN",
+    "name": "GU\u00c3R\u00c3\u0160N_EWE_SPEAKS_THROUGH_TIME___THE_GREAT_LINE_8_SECONDS_REWRITTEN",
+    "title": "GU\u00c3R\u00c3\u0161N-EWE SPEAKS THROUGH TIME - THE GREAT LINE 8 SECONDS REWRITTEN",
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "Truth through walls | Camera frost 51% | Sacrifice...",
@@ -12,17 +12,17 @@
   "prompt_variants": [
     {
       "variant_id": "58b_story_primary",
-      "variant_name": "Primary - GUÃRÃšN-EWE SPEAKS THROUGH TIME - THE GREAT LINE 8 SECONDS REWRITTEN",
+      "variant_name": "Primary - GU\u00c3R\u00c3\u0161N-EWE SPEAKS THROUGH TIME - THE GREAT LINE 8 SECONDS REWRITTEN",
       "intent_tags": [
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[GUÃRÃšN]-ewe in the transforming space speaking the great line as camera rotates showing through translucent walls ALL times - 1888, 1944, 2024 - her words echoing through centuries: \"ViÃ° deyjum sem kindur til aÃ° bÃ¶rn okkar geti orÃ°iÃ° fÃ³lk.\"",
-      "action": "360Â° ROTATION around GuÃ°rÃºn-ewe. She stands, understanding flooding her horizontal pupils. As camera circles, walls show different times. First quarter: 1888, them as sheep. Second quarter: 1944, Sigrid aged 72 watching Iceland become independent. Third quarter: 2024, tourists at black monument taking photos. Fourth quarter: return to now. Through ALL times, her voice echoes: \"ViÃ° deyjum sem kindur...\" The words exist across centuries. In 1944, old Sigrid hears them. In 2024, children on school trips hear them. \"Til aÃ° bÃ¶rn okkar...\" Looking at lamb-children who will have human children. The cycle. The sacrifice. \"Geti orÃ°iÃ° fÃ³lk.\" The final word FÃ“LK reverberates through time. Creates cracks in crystallizing walls. The truth so powerful it shapes the monument. Where her words touch walls, they become clearest glass. Windows through time. Portals of memory.",
+      "subject": "[GU\u00c3\u0090R\u00c3\u0161N]-ewe in the transforming space speaking the great line as camera rotates showing through translucent walls ALL times - 1888, 1944, 2024 - her words echoing through centuries: \"Vi\u00c3\u00b0 deyjum sem kindur til a\u00c3\u00b0 b\u00c3\u00b6rn okkar geti or\u00c3\u00b0i\u00c3\u00b0 f\u00c3\u00b3lk.\"",
+      "action": "360\u00c2\u00b0 ROTATION around Gu\u00c3\u00b0r\u00c3\u00ban-ewe. She stands, understanding flooding her horizontal pupils. As camera circles, walls show different times. First quarter: 1888, them as sheep. Second quarter: 1944, Sigrid aged 72 watching Iceland become independent. Third quarter: 2024, tourists at black monument taking photos. Fourth quarter: return to now. Through ALL times, her voice echoes: \"Vi\u00c3\u00b0 deyjum sem kindur...\" The words exist across centuries. In 1944, old Sigrid hears them. In 2024, children on school trips hear them. \"Til a\u00c3\u00b0 b\u00c3\u00b6rn okkar...\" Looking at lamb-children who will have human children. The cycle. The sacrifice. \"Geti or\u00c3\u00b0i\u00c3\u00b0 f\u00c3\u00b3lk.\" The final word F\u00c3\u201cLK reverberates through time. Creates cracks in crystallizing walls. The truth so powerful it shapes the monument. Where her words touch walls, they become clearest glass. Windows through time. Portals of memory.",
       "scene": "Center of transforming space. Time visible through walls. Words echoing through centuries.",
-      "style": "360Â° showing all times simultaneously (that's where the camera is), eternal truth documented.",
-      "camera_position": "360Â° showing all times simultaneously",
-      "dialogue": "(GuÃ°rÃºn-ewe): \"ViÃ° deyjum sem kindur...\" (Echoing through time): \"Til aÃ° bÃ¶rn okkar...\" (All times): \"Geti orÃ°iÃ° fÃ³lk\"",
+      "style": "360\u00c2\u00b0 showing all times simultaneously (that's where the camera is), eternal truth documented.",
+      "camera_position": "360\u00c2\u00b0 showing all times simultaneously",
+      "dialogue": "(Gu\u00c3\u00b0r\u00c3\u00ban-ewe): \"Vi\u00c3\u00b0 deyjum sem kindur...\" (Echoing through time): \"Til a\u00c3\u00b0 b\u00c3\u00b6rn okkar...\" (All times): \"Geti or\u00c3\u00b0i\u00c3\u00b0 f\u00c3\u00b3lk\"",
       "audio": {
         "primary": [
           "Words echoing through centuries",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

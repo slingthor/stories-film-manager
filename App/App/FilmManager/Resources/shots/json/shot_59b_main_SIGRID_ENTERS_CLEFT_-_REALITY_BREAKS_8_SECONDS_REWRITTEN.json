@@ -6,7 +6,7 @@
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "Entering passage | Camera frost 53% | Impossible s...",
-    "stitch_from": "[STITCH from Shot 59a: MagnÃºs trapped charging]"
+    "stitch_from": "[STITCH from Shot 59a: Magn\u00c3\u00bas trapped charging]"
   },
   "progressive_state": "Entering passage | Camera frost 53% | Impossible space | Watching: Through infinite eyes",
   "prompt_variants": [
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

@@ -2,7 +2,7 @@
   "shot_metadata": {
     "id": "57",
     "name": "COMPLETE_DARKNESS",
-    "title": "Complete Darkness - Breathing Symphony", 
+    "title": "Complete Darkness - Breathing Symphony",
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "film_position_percentage": 88.0,
@@ -15,56 +15,78 @@
     },
     "stitch_from": "Shot 56: Family as sheep revealed"
   },
-
   "progressive_state": "Darkness absolute | Breathing symphony | Camera frost 60% | Audio construction | Watching: We must imagine",
-
   "prompt_variants": [
     {
       "variant_id": "57_story_primary",
       "variant_name": "Masterful Sensory Horror",
-      "intent_tags": ["story_primary", "audio_construction"], 
+      "intent_tags": [
+        "story_primary",
+        "audio_construction"
+      ],
       "priority": 1,
-      
       "subject": "Complete darkness for 8 seconds with only breathing sounds - five different respiratory patterns creating complex rhythm as family exists in blackness, audience forced to imagine transformed bodies through audio alone.",
-      
-      "action": "Absolute darkness. No visual information. Only breathing patterns creating spatial awareness: MAGNÚS breathing at 8/min deep ram rhythm from table head position. GUÐRÚN breathing 8/min ewe rhythm from right side. SIGRID breathing 12/min raven preparation from 11-foot distance. JÓN breathing 20/min lamb rhythm from between parents. LILJA breathing 20/min simple lamb from mother's side. Each breathing pattern creates spatial positioning awareness - audience constructs family arrangement through respiratory geography. Breathing patterns occasionally sync then separate, creating natural polyrhythm. Through darkness, subtle wet sounds - what might be chewing, or might be something else. House breathing at 3/min dying rhythm underneath everything. Heartbeat stopped completely. In final seconds, match strike preparation - subtle cloth rustle, stone scraping flint.",
-      
+      "action": "Absolute darkness. No visual information. Only breathing patterns creating spatial awareness: MAGN\u00daS breathing at 8/min deep ram rhythm from table head position. GU\u00d0R\u00daN breathing 8/min ewe rhythm from right side. SIGRID breathing 12/min raven preparation from 11-foot distance. J\u00d3N breathing 20/min lamb rhythm from between parents. LILJA breathing 20/min simple lamb from mother's side. Each breathing pattern creates spatial positioning awareness - audience constructs family arrangement through respiratory geography. Breathing patterns occasionally sync then separate, creating natural polyrhythm. Through darkness, subtle wet sounds - what might be chewing, or might be something else. House breathing at 3/min dying rhythm underneath everything. Heartbeat stopped completely. In final seconds, match strike preparation - subtle cloth rustle, stone scraping flint.",
       "scene": "Complete visual absence - darkness contains no temperature, no spatial reference, no visual confirmation. Only breathing creates reality through audio spatial construction.",
-      
       "style": "8 seconds absolute darkness, camera position irrelevant in void (that's where the camera is), audio-only experience forcing imagination.",
-      
       "camera_position": "Irrelevant in absolute darkness, that's where the camera is",
-      
       "dialogue": "None - only respiratory communication",
-      
       "audio": {
-        "primary_sounds": ["Five distinct breathing patterns", "Magnús 8/min deep", "Guðrún 8/min steady", "Sigrid 12/min controlled", "Jón 20/min rapid", "Lilja 20/min simple"],
-        "ambient_sounds": ["House 3/min dying breath", "Subtle wet sounds", "Match preparation"],
-        "absent_sounds": ["human speech", "visual confirmation", "explanation"]
+        "primary_sounds": [
+          "Five distinct breathing patterns",
+          "Magn\u00fas 8/min deep",
+          "Gu\u00f0r\u00fan 8/min steady",
+          "Sigrid 12/min controlled",
+          "J\u00f3n 20/min rapid",
+          "Lilja 20/min simple"
+        ],
+        "ambient_sounds": [
+          "House 3/min dying breath",
+          "Subtle wet sounds",
+          "Match preparation"
+        ],
+        "absent_sounds": [
+          "human speech",
+          "visual confirmation",
+          "explanation"
+        ]
       },
-      
       "character_plates": {
-        "present": ["ALL-FAMILY-AUDIO-ONLY"],
+        "present": [
+          "ALL-FAMILY-AUDIO-ONLY"
+        ],
         "referenced": []
       },
-      
       "environmental_plates": {
         "landscape": "DARKNESS-ABSOLUTE"
       },
-      
       "negative_prompt": "no visual elements, no lighting, no shapes visible, pure darkness, maintain audio only",
-      
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-TRANSCENDENT",
+          "interior": "BA\u00d0STOFA-MONUMENT"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
-
   "others": {
     "sensory_horror": "Audience forced to imagine transformation through audio",
     "breathing_geography": "Respiratory patterns creating spatial awareness",
     "polyrhythm": "Five breathing rates creating natural musical composition",
     "wet_sounds": "Ambiguous audio suggesting unknown activity"
   },
-
   "notes": {
     "thematic_purpose": "Ultimate sensory horror - imagination worse than revelation",
     "universal_masterpiece": "10/10 - Pure audio forcing audience construction",

@@ -18,11 +18,11 @@
       ],
       "priority": 1,
       "subject": "From south, the house itself responding as Bergrisi - floor suddenly warm and wet like flesh, walls breathing visibly, heartbeat racing through structure - while from north, a raven shadow passes the broken window, too large for any bird, wings spanning the entire house, leaving frost feathers on glass.",
-      "action": "Southern response: The floor beneath Sigrid becomes body-warm, 37Â°C exactly. Wet. Looking closer - not moisture but perspiration, house sweating. Walls flex inward-outward, no longer subtle but visible breathing at 4/min, dying rhythm. The three beams creak, bend, showing pink underneath bark for full second - ribs. Heartbeat through everything, 80bpm, panicking. House groaning at 16Hz, harmonizing with Sigrid's possessed voice: \"Ã‰g er hÃ©r... Ã©g dey\" (I am here... I'm dying) from the walls themselves. Northern response: Massive shadow across broken window. Raven but impossible size - wings would be 30 feet across. Shadow passes slowly, deliberately, examining house. Where shadow touches broken glass, black frost forms instantly - raven-feather patterns in ice. Shadow has substance, weight. As it passes, hundreds of normal ravens suddenly audible, circling above, cawing in unison. But shadow-raven silent. Through shadow, glimpse of eye - human eye, grey with amber flecks. Sigrid's exact eyes in raven form.",
+      "action": "Southern response: The floor beneath Sigrid becomes body-warm, 37\u00c2\u00b0C exactly. Wet. Looking closer - not moisture but perspiration, house sweating. Walls flex inward-outward, no longer subtle but visible breathing at 4/min, dying rhythm. The three beams creak, bend, showing pink underneath bark for full second - ribs. Heartbeat through everything, 80bpm, panicking. House groaning at 16Hz, harmonizing with Sigrid's possessed voice: \"\u00c3\u2030g er h\u00c3\u00a9r... \u00c3\u00a9g dey\" (I am here... I'm dying) from the walls themselves. Northern response: Massive shadow across broken window. Raven but impossible size - wings would be 30 feet across. Shadow passes slowly, deliberately, examining house. Where shadow touches broken glass, black frost forms instantly - raven-feather patterns in ice. Shadow has substance, weight. As it passes, hundreds of normal ravens suddenly audible, circling above, cawing in unison. But shadow-raven silent. Through shadow, glimpse of eye - human eye, grey with amber flecks. Sigrid's exact eyes in raven form.",
       "scene": "Interior revealing as body cavity. Floor wet with perspiration. Walls flexing. Massive shadow passing. All four cardinal directions now responding.",
       "style": "Split frame - floor revealing as flesh, shadow passing above (that's where the camera is), documentary of complete summoning.",
       "camera_position": "Split frame - floor revealing as flesh, shadow passing above",
-      "dialogue": "(House/Bergrisi): \"Ã‰g er hÃ©r... Ã©g dey\" (from walls) (Sigrid, breaking through): \"Ã–ll fjÃ¶gur... Ã©g kallaÃ°i Ã¡ Ã¶ll\" (All four... I called them all)",
+      "dialogue": "(House/Bergrisi): \"\u00c3\u2030g er h\u00c3\u00a9r... \u00c3\u00a9g dey\" (from walls) (Sigrid, breaking through): \"\u00c3\u2013ll fj\u00c3\u00b6gur... \u00c3\u00a9g kalla\u00c3\u00b0i \u00c3\u00a1 \u00c3\u00b6ll\" (All four... I called them all)",
       "audio": {
         "primary": [
           "House sweating and breathing",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show floor as flesh, shadow too large, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

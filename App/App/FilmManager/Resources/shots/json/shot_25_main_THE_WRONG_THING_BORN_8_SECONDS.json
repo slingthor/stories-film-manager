@@ -6,7 +6,7 @@
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "House 4/min + 80bpm | Tilberi contaminated | Camer...",
-    "stitch_from": "[STITCH from Shot 24d: All four landvÃ¦ttir responding]"
+    "stitch_from": "[STITCH from Shot 24d: All four landv\u00c3\u00a6ttir responding]"
   },
   "progressive_state": "House 4/min + 80bpm | Tilberi contaminated | Camera frost 17% | Creation breathing | Watching: All four watching",
   "prompt_variants": [
@@ -18,11 +18,11 @@
       ],
       "priority": 1,
       "subject": "The contaminated tilberi creation on the floor beginning to breathe and move - industrial rope skeleton visible through translucent flesh, brass button eye blinking green tears, multiple respiratory rhythms (8/min, 12/min, 20/min) creating impossible life, neither traditional creature nor industrial machine.",
-      "action": "The thing on floor moves. Not tilberi - something wrong. Rope has become external skeleton, black hemp bones visible through grey-white flesh that's forming from wool and blood. Brass button hasn't become eye but IS eye - industrial green iris, weeping verdigris tears that burn floor. It breathes but wrong - three different rhythms simultaneously: 8/min (human), 12/min (house), 20/min (sheep). Each breath from different part of body, creating undulation. Tries to stand but rope-bones bend wrong way. Falls. Tries again. When it moves, makes sound of rope creaking mixed with newborn's cry. Sigrid, possession breaking, reaches toward it - maternal instinct despite horror. It reaches back with appendage that's part hoof, part hand, part mechanical grabber. Green tears from brass eye burn trails in floor. Size of cat but growing, feeding on ambient industrial contamination. Through windows, all four landvÃ¦ttir watching - trawler lights, steam from polynya, house breathing, raven shadow circling.",
-      "scene": "Floor with abomination breathing. Four cardinal directions showing watchers. Family frozen in horror. Temperature -23Â°C from summoning cost.",
+      "action": "The thing on floor moves. Not tilberi - something wrong. Rope has become external skeleton, black hemp bones visible through grey-white flesh that's forming from wool and blood. Brass button hasn't become eye but IS eye - industrial green iris, weeping verdigris tears that burn floor. It breathes but wrong - three different rhythms simultaneously: 8/min (human), 12/min (house), 20/min (sheep). Each breath from different part of body, creating undulation. Tries to stand but rope-bones bend wrong way. Falls. Tries again. When it moves, makes sound of rope creaking mixed with newborn's cry. Sigrid, possession breaking, reaches toward it - maternal instinct despite horror. It reaches back with appendage that's part hoof, part hand, part mechanical grabber. Green tears from brass eye burn trails in floor. Size of cat but growing, feeding on ambient industrial contamination. Through windows, all four landv\u00c3\u00a6ttir watching - trawler lights, steam from polynya, house breathing, raven shadow circling.",
+      "scene": "Floor with abomination breathing. Four cardinal directions showing watchers. Family frozen in horror. Temperature -23\u00c2\u00b0C from summoning cost.",
       "style": "Close on creature revealing impossible anatomy, pulling back to show witnesses (that's where the camera is), documentary of wrong birth.",
       "camera_position": "Close on creature revealing impossible anatomy, pulling back to show witnesses",
-      "dialogue": "(Creature): Rope creaking/baby crying sound (Sigrid, maternal): \"HvaÃ° er Ã¾Ãº?\" (What are you?) (GuÃ°rÃºn): Wordless horror gasp",
+      "dialogue": "(Creature): Rope creaking/baby crying sound (Sigrid, maternal): \"Hva\u00c3\u00b0 er \u00c3\u00be\u00c3\u00ba?\" (What are you?) (Gu\u00c3\u00b0r\u00c3\u00ban): Wordless horror gasp",
       "audio": {
         "primary": [
           "Three breathing rhythms",
@@ -30,7 +30,7 @@
           "brass eye tears sizzling"
         ],
         "ambient": [
-          "Four landvÃ¦ttir present outside",
+          "Four landv\u00c3\u00a6ttir present outside",
           "house 80bpm",
           "growing sounds"
         ],
@@ -43,7 +43,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show industrial-organic fusion, multiple breathing, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

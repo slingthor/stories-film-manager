@@ -18,11 +18,11 @@
       ],
       "priority": 1,
       "subject": "Sudden daylight flooding through windows though it was just 9 PM, the family blinking in impossible morning sun, no transition, no dawn, just night becoming day instantly while their bodies remain positioned for sleep.",
-      "action": "STATIC WIDE. Stars visible through ceiling crack. Then: sunlight. Not sunrise - instant day. 10 AM light floods windows. No transition. Family still positioned for night - GuÃ°rÃºn in sleeping clothes, children curled on platforms, MagnÃºs's feet still trapped in floor from last night. But it's morning. Or is night still there too? Through different windows: different times. East window shows noon. West shows midnight. North shows dawn. South shows dusk. All simultaneous. All true. Time shattered completely. Sigrid's black feather now shows rainbow sheen in daylight that shouldn't exist. Her belly visibly larger - did months pass in the jump? Or is time moving differently for her? House breathing 4/min now - dying rhythm. Only four more minutes of breath left? Or four hours? Four days? Time means nothing inside giant's body.",
+      "action": "STATIC WIDE. Stars visible through ceiling crack. Then: sunlight. Not sunrise - instant day. 10 AM light floods windows. No transition. Family still positioned for night - Gu\u00c3\u00b0r\u00c3\u00ban in sleeping clothes, children curled on platforms, Magn\u00c3\u00bas's feet still trapped in floor from last night. But it's morning. Or is night still there too? Through different windows: different times. East window shows noon. West shows midnight. North shows dawn. South shows dusk. All simultaneous. All true. Time shattered completely. Sigrid's black feather now shows rainbow sheen in daylight that shouldn't exist. Her belly visibly larger - did months pass in the jump? Or is time moving differently for her? House breathing 4/min now - dying rhythm. Only four more minutes of breath left? Or four hours? Four days? Time means nothing inside giant's body.",
       "scene": "Interior with impossible daylight. Multiple times through different windows. Family disoriented but accepting.",
       "style": "Static wide showing time failure (that's where the camera is), temporal collapse documented.",
       "camera_position": "Static wide showing time failure",
-      "dialogue": "(JÃ³n, confused): \"Er Ã¾aÃ° morgunn?\" (Sigrid, knowing): \"Allir tÃ­mar Ã­ einu\" (All times at once)",
+      "dialogue": "(J\u00c3\u00b3n, confused): \"Er \u00c3\u00bea\u00c3\u00b0 morgunn?\" (Sigrid, knowing): \"Allir t\u00c3\u00admar \u00c3\u00ad einu\" (All times at once)",
       "audio": {
         "primary": [
           "Sudden daylight sound",
@@ -42,7 +42,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

@@ -6,9 +6,9 @@
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "House 3/min dying + 40bpm weak | Post-summoning af...",
-    "stitch_from": "[STITCH from Shot 38b: Aerial view of MagnÃºs rowing home]"
+    "stitch_from": "[STITCH from Shot 38b: Aerial view of Magn\u00c3\u00bas rowing home]"
   },
-  "progressive_state": "House 3/min dying + 40bpm weak | Post-summoning aftermath | Camera frost 25.5% | Interior transformed | Watching: Four landvÃ¦ttir through windows",
+  "progressive_state": "House 3/min dying + 40bpm weak | Post-summoning aftermath | Camera frost 25.5% | Interior transformed | Watching: Four landv\u00c3\u00a6ttir through windows",
   "prompt_variants": [
     {
       "variant_id": "39_story_primary",
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Camera descending through smoke hole into the house, dollying forward through thick smoke to reveal the family arranged in perfect rÃ©ttir formation on the floor - five positions in pentagon with sixth empty - while the tilberi creation sits at center breathing its three rhythms, and through smoke, glimpses of impossible changes: walls wet with perspiration, floor showing stone patterns, everyone's breath synchronized at 11/min except [SIGRID].",
-      "action": "CAMERA ENTERS through smoke hole, DOLLYING FORWARD through smoke that shouldn't exist (fire long dead). Smoke parts revealing: Family on floor in exact rÃ©ttir positions - the children saw truth and arranged everyone. GuÃ°rÃºn kneeling at first position, silent again. JÃ³n at second despite fever, eyes closed. Lilja at third, humming Krummi tune. Sigrid at fifth position, maintaining distance from center, breathing still 15/min (unchanged). Fourth position MagnÃºs's empty space. Sixth position has body-shaped depression in floor but empty. At center: tilberi creation, size of cat, rope skeleton visible, brass eye weeping. Its three-rhythm breathing (8/12/20) creating polyrhythm. DOLLY CONTINUES revealing: Walls literally wet, perspiring at body temperature. Floor stones visible through worn earth - ancient rÃ©ttir always underneath. Through windows in background: trawler lights gone but steam from polynya (Bull stirring), mountain shadows wrong angle (Raven influence), house breathing so labored it's visible in beam movement.",
-      "scene": "Interior transformed, 9:35 AM but dark from smoke. Temperature 37Â°C at floor (body heat) but -20Â°C at head height. Impossible thermodynamics.",
+      "subject": "Camera descending through smoke hole into the house, dollying forward through thick smoke to reveal the family arranged in perfect r\u00c3\u00a9ttir formation on the floor - five positions in pentagon with sixth empty - while the tilberi creation sits at center breathing its three rhythms, and through smoke, glimpses of impossible changes: walls wet with perspiration, floor showing stone patterns, everyone's breath synchronized at 11/min except [SIGRID].",
+      "action": "CAMERA ENTERS through smoke hole, DOLLYING FORWARD through smoke that shouldn't exist (fire long dead). Smoke parts revealing: Family on floor in exact r\u00c3\u00a9ttir positions - the children saw truth and arranged everyone. Gu\u00c3\u00b0r\u00c3\u00ban kneeling at first position, silent again. J\u00c3\u00b3n at second despite fever, eyes closed. Lilja at third, humming Krummi tune. Sigrid at fifth position, maintaining distance from center, breathing still 15/min (unchanged). Fourth position Magn\u00c3\u00bas's empty space. Sixth position has body-shaped depression in floor but empty. At center: tilberi creation, size of cat, rope skeleton visible, brass eye weeping. Its three-rhythm breathing (8/12/20) creating polyrhythm. DOLLY CONTINUES revealing: Walls literally wet, perspiring at body temperature. Floor stones visible through worn earth - ancient r\u00c3\u00a9ttir always underneath. Through windows in background: trawler lights gone but steam from polynya (Bull stirring), mountain shadows wrong angle (Raven influence), house breathing so labored it's visible in beam movement.",
+      "scene": "Interior transformed, 9:35 AM but dark from smoke. Temperature 37\u00c2\u00b0C at floor (body heat) but -20\u00c2\u00b0C at head height. Impossible thermodynamics.",
       "style": "Steady forward dolly through smoke, revealing family tableau (that's where the camera is), documentary entering aftermath.",
       "camera_position": "Steady forward dolly through smoke, revealing family tableau",
-      "dialogue": "(Lilja, humming): \"VerÃ°ur margt aÃ° meini...\" (Sigrid, only one speaking): \"Pabbi kemur... meÃ° dauÃ°a\" (Father comes... with death) (Others): Synchronized breathing only",
+      "dialogue": "(Lilja, humming): \"Ver\u00c3\u00b0ur margt a\u00c3\u00b0 meini...\" (Sigrid, only one speaking): \"Pabbi kemur... me\u00c3\u00b0 dau\u00c3\u00b0a\" (Father comes... with death) (Others): Synchronized breathing only",
       "audio": {
         "primary": [
           "Dolly through smoke",
@@ -32,7 +32,7 @@
         "ambient": [
           "Family at 11/min (impossible rate)",
           "Sigrid at 15/min",
-          "stone rÃ©ttir grinding below"
+          "stone r\u00c3\u00a9ttir grinding below"
         ],
         "absent": [
           "no normal activity",
@@ -46,7 +46,24 @@
         "referenced": []
       },
       "negative_prompt": "maintain dolly movement, no cuts, reveal through smoke parting",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

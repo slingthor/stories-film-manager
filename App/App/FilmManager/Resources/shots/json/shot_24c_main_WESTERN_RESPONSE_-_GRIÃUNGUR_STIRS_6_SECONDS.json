@@ -1,8 +1,8 @@
 {
   "shot_metadata": {
     "id": "24c",
-    "name": "WESTERN_RESPONSE___GRIÃUNGUR_STIRS_6_SECONDS",
-    "title": "WESTERN RESPONSE - GRIÃUNGUR STIRS 6 SECONDS",
+    "name": "WESTERN_RESPONSE___GRI\u00c3UNGUR_STIRS_6_SECONDS",
+    "title": "WESTERN RESPONSE - GRI\u00c3UNGUR STIRS 6 SECONDS",
     "sequence_type": "main_story",
     "duration_seconds": 6,
     "narrative_function": "House 6/min + 70bpm acceleration | Second response...",
@@ -12,17 +12,17 @@
   "prompt_variants": [
     {
       "variant_id": "24c_story_primary",
-      "variant_name": "Primary - WESTERN RESPONSE - GRIÃUNGUR STIRS 6 SECONDS",
+      "variant_name": "Primary - WESTERN RESPONSE - GRI\u00c3UNGUR STIRS 6 SECONDS",
       "intent_tags": [
         "story_primary"
       ],
       "priority": 1,
-      "subject": "From the west, water in every container simultaneously boiling despite -20Â°C temperature - buckets, wash basin, even droplets on table - bubbling with submarine violence as something massive stirs in the polynya, the Bull responding from beneath ice.",
-      "action": "As trawler horn fades, western response immediate. Water in bucket by door starts bubbling. Not heating gradually - instant boil. Steam rising, fogging room. Wash basin also boiling, GuÃ°rÃºn's bloody handprints from morning washing rising as red steam. Cup on table, water droplets on window, moisture in air - all boiling. Temperature still -20Â°C, ice on walls, but water at 100Â°C simultaneously. Physical laws breaking. Through west window (unbroken), polynya visible in distance - black hole in white ice, but now churning. Something massive moving below. Steam column rising from polynya, visible from house. The boiling water makes sounds - not just bubbles but voice underneath. Deep, pained bellowing mixed with mechanical grinding. Bull down there, industrial harpoons in skull, responding but suffering. In buckets, water forms whirlpool despite no current. All water trying to move west, toward polynya, toward Bull.",
+      "subject": "From the west, water in every container simultaneously boiling despite -20\u00c2\u00b0C temperature - buckets, wash basin, even droplets on table - bubbling with submarine violence as something massive stirs in the polynya, the Bull responding from beneath ice.",
+      "action": "As trawler horn fades, western response immediate. Water in bucket by door starts bubbling. Not heating gradually - instant boil. Steam rising, fogging room. Wash basin also boiling, Gu\u00c3\u00b0r\u00c3\u00ban's bloody handprints from morning washing rising as red steam. Cup on table, water droplets on window, moisture in air - all boiling. Temperature still -20\u00c2\u00b0C, ice on walls, but water at 100\u00c2\u00b0C simultaneously. Physical laws breaking. Through west window (unbroken), polynya visible in distance - black hole in white ice, but now churning. Something massive moving below. Steam column rising from polynya, visible from house. The boiling water makes sounds - not just bubbles but voice underneath. Deep, pained bellowing mixed with mechanical grinding. Bull down there, industrial harpoons in skull, responding but suffering. In buckets, water forms whirlpool despite no current. All water trying to move west, toward polynya, toward Bull.",
       "scene": "Interior with multiple water sources boiling. Steam filling room. West window showing distant polynya activity. Impossible physics visible.",
       "style": "Multiple quick cuts between boiling waters, ending on polynya view (that's where the camera is), documentary of western response.",
       "camera_position": "Multiple quick cuts between boiling waters, ending on polynya view",
-      "dialogue": "(Under boiling): Deep bellowing, barely audible (GuÃ°rÃºn seeing steam): \"GriÃ°ungur... hann heyrir\" (Bull... he hears)",
+      "dialogue": "(Under boiling): Deep bellowing, barely audible (Gu\u00c3\u00b0r\u00c3\u00ban seeing steam): \"Gri\u00c3\u00b0ungur... hann heyrir\" (Bull... he hears)",
       "audio": {
         "primary": [
           "Multiple waters boiling violently",
@@ -43,8 +43,25 @@
         "present": [],
         "referenced": []
       },
-      "negative_prompt": "no subtitles, show impossible boiling at -20Â°C, steam filling room, documentary observation",
-      "video_references": []
+      "negative_prompt": "no subtitles, show impossible boiling at -20\u00c2\u00b0C, steam filling room, documentary observation",
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

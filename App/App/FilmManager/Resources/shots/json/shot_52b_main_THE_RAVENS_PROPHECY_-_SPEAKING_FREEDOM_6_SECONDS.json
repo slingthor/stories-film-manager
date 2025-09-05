@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "The raven speaking directly to [SIGRID] while family remains frozen: \"Ãžegar hÃºsiÃ° deyr, klettagjÃ¡ verÃ°ur. Ãžegar Ã¾Ãº verÃ°ur fugl, Ãsland verÃ°ur frjÃ¡lst\" (When house dies, rocky cleft becomes. When you become bird, Iceland becomes free).",
-      "action": "PUSH IN on raven's eye. In reflection: visions. British ships leaving. Danish flags lowering. Year visible: 1944. Sigrid aged 72, still alive, witnessing. But also: Sigrid with black wings, flying over free Iceland. Both true. Raven continues: \"ÃžÃº ert vitni. ÃžÃº munt muna.\" (You are witness. You will remember.) Its wing extends toward her. One feather falls. Black, perfect, large as hand. Floats impossible slow. Sigrid catches it. Moment she touches: sees everything. The family as sheep below. MagnÃºs approaching her bed tonight. The house dying and rebirthing. The escape through transformation. Her belly quickens - baby responding to future mother's freedom. Raven speaks final words: \"En fyrst, Ã¾Ãº verÃ°ur aÃ° deyja sem Ã¾au\" (But first, you must die as them). Meaning: undergo transformation with family, but emerge different.",
+      "subject": "The raven speaking directly to [SIGRID] while family remains frozen: \"\u00c3\u017eegar h\u00c3\u00basi\u00c3\u00b0 deyr, klettagj\u00c3\u00a1 ver\u00c3\u00b0ur. \u00c3\u017eegar \u00c3\u00be\u00c3\u00ba ver\u00c3\u00b0ur fugl, \u00c3\u008dsland ver\u00c3\u00b0ur frj\u00c3\u00a1lst\" (When house dies, rocky cleft becomes. When you become bird, Iceland becomes free).",
+      "action": "PUSH IN on raven's eye. In reflection: visions. British ships leaving. Danish flags lowering. Year visible: 1944. Sigrid aged 72, still alive, witnessing. But also: Sigrid with black wings, flying over free Iceland. Both true. Raven continues: \"\u00c3\u017e\u00c3\u00ba ert vitni. \u00c3\u017e\u00c3\u00ba munt muna.\" (You are witness. You will remember.) Its wing extends toward her. One feather falls. Black, perfect, large as hand. Floats impossible slow. Sigrid catches it. Moment she touches: sees everything. The family as sheep below. Magn\u00c3\u00bas approaching her bed tonight. The house dying and rebirthing. The escape through transformation. Her belly quickens - baby responding to future mother's freedom. Raven speaks final words: \"En fyrst, \u00c3\u00be\u00c3\u00ba ver\u00c3\u00b0ur a\u00c3\u00b0 deyja sem \u00c3\u00beau\" (But first, you must die as them). Meaning: undergo transformation with family, but emerge different.",
       "scene": "Close on raven's eye showing futures. Feather floating. Sigrid's recognition.",
       "style": "Push in revealing prophecy in eye reflection (that's where the camera is), future documented.",
       "camera_position": "Push in revealing prophecy in eye reflection",
-      "dialogue": "(Raven): \"Ãžegar hÃºsiÃ° deyr, klettagjÃ¡ verÃ°ur\" \"Ãžegar Ã¾Ãº verÃ°ur fugl, Ãsland verÃ°ur frjÃ¡lst\" \"En fyrst, Ã¾Ãº verÃ°ur aÃ° deyja sem Ã¾au\"",
+      "dialogue": "(Raven): \"\u00c3\u017eegar h\u00c3\u00basi\u00c3\u00b0 deyr, klettagj\u00c3\u00a1 ver\u00c3\u00b0ur\" \"\u00c3\u017eegar \u00c3\u00be\u00c3\u00ba ver\u00c3\u00b0ur fugl, \u00c3\u008dsland ver\u00c3\u00b0ur frj\u00c3\u00a1lst\" \"En fyrst, \u00c3\u00be\u00c3\u00ba ver\u00c3\u00b0ur a\u00c3\u00b0 deyja sem \u00c3\u00beau\"",
       "audio": {
         "primary": [
           "Prophecy whispered",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

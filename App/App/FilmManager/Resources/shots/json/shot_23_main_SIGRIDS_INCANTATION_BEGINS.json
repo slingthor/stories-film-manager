@@ -6,7 +6,7 @@
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "House 8/min + 50bpm slowing | Tilberi ritual | Cam...",
-    "stitch_from": "[STITCH from Shot 22b: MagnÃºs struggling outside, Sigrid prepared inside]"
+    "stitch_from": "[STITCH from Shot 22b: Magn\u00c3\u00bas struggling outside, Sigrid prepared inside]"
   },
   "progressive_state": "House 8/min + 50bpm slowing | Tilberi ritual | Camera frost 14% | Voice changing | Watching: House listening",
   "prompt_variants": [
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[SIGRID] kneeling over the contaminated materials, her 16-year-old voice beginning the tilberi incantation she memorized from grandmother's book, speaking aloud for first time since MagnÃºs left - but industrial rope already resisting, trying to coil away from the sheep rib as her voice involuntarily deepens with each word.",
-      "action": "Sigrid holds sheep rib in left hand, industrial rope in right. Book open beside her, pages yellowed, some words in Danish replacing Old Norse - corruption even in text. Begins winding rope around bone: \"Tilberi, tilberi, Ã¾Ãº skalt mjÃ³lka fyrir mig\" (Tilberi, you shall milk for me). Her young voice clear at first - MagnÃºs gone, she can speak. But rope fights back, tar making her fingers stick, hemp trying to coil opposite direction. Forces it. Voice drops half octave: \"ÃžÃº skalt nÃ¦ra barniÃ°\" (You shall nourish the child). Hand moves to belly, protective. Baby's heartbeat accelerates - 140 to 150bpm, sensing danger. GuÃ°rÃºn watches from corner, mouth opening and closing like fish, wanting to warn but women's training too strong. Pricks finger with brass button for blood offering - but button goes too deep, industrial sharp, blood flows too freely. Voice drops full octave: \"Komdu til mÃ­n\" (Come to me). House breathing slows more - 6/min. Through window, trawler beam shows MagnÃºs collapsed in snow, paying aflausn cost.",
-      "scene": "Interior, 6:35 AM, trawler light every 20 seconds illuminating ritual. Temperature -15Â°C, Sigrid's breath visible, mixing with steam from her blood. Materials fighting fusion - rope growing INTO bone against nature, brass button opening like eye. On floor, her blood forms pattern - but not tilberi pattern. Ram circles. Five spirals with six intersections, matching outside. Blood knows what's coming.",
+      "subject": "[SIGRID] kneeling over the contaminated materials, her 16-year-old voice beginning the tilberi incantation she memorized from grandmother's book, speaking aloud for first time since Magn\u00c3\u00bas left - but industrial rope already resisting, trying to coil away from the sheep rib as her voice involuntarily deepens with each word.",
+      "action": "Sigrid holds sheep rib in left hand, industrial rope in right. Book open beside her, pages yellowed, some words in Danish replacing Old Norse - corruption even in text. Begins winding rope around bone: \"Tilberi, tilberi, \u00c3\u00be\u00c3\u00ba skalt mj\u00c3\u00b3lka fyrir mig\" (Tilberi, you shall milk for me). Her young voice clear at first - Magn\u00c3\u00bas gone, she can speak. But rope fights back, tar making her fingers stick, hemp trying to coil opposite direction. Forces it. Voice drops half octave: \"\u00c3\u017e\u00c3\u00ba skalt n\u00c3\u00a6ra barni\u00c3\u00b0\" (You shall nourish the child). Hand moves to belly, protective. Baby's heartbeat accelerates - 140 to 150bpm, sensing danger. Gu\u00c3\u00b0r\u00c3\u00ban watches from corner, mouth opening and closing like fish, wanting to warn but women's training too strong. Pricks finger with brass button for blood offering - but button goes too deep, industrial sharp, blood flows too freely. Voice drops full octave: \"Komdu til m\u00c3\u00adn\" (Come to me). House breathing slows more - 6/min. Through window, trawler beam shows Magn\u00c3\u00bas collapsed in snow, paying aflausn cost.",
+      "scene": "Interior, 6:35 AM, trawler light every 20 seconds illuminating ritual. Temperature -15\u00c2\u00b0C, Sigrid's breath visible, mixing with steam from her blood. Materials fighting fusion - rope growing INTO bone against nature, brass button opening like eye. On floor, her blood forms pattern - but not tilberi pattern. Ram circles. Five spirals with six intersections, matching outside. Blood knows what's coming.",
       "style": "Close on hands and materials, showing contamination fighting (that's where the camera is), documentary of corruption spreading.",
       "camera_position": "Close on hands and materials, showing contamination fighting",
-      "dialogue": "(Sigrid, voice deepening): \"Tilberi, tilberi, Ã¾Ãº skalt mjÃ³lka fyrir mig\" (Half octave lower): \"ÃžÃº skalt nÃ¦ra barniÃ° mitt\" (Full octave lower): \"Komdu til... nei, Ã¾etta er vitlaust\" (Realizing): \"RÃ¶dd... Ã¾etta er ekki mÃ­n rÃ¶dd\"",
+      "dialogue": "(Sigrid, voice deepening): \"Tilberi, tilberi, \u00c3\u00be\u00c3\u00ba skalt mj\u00c3\u00b3lka fyrir mig\" (Half octave lower): \"\u00c3\u017e\u00c3\u00ba skalt n\u00c3\u00a6ra barni\u00c3\u00b0 mitt\" (Full octave lower): \"Komdu til... nei, \u00c3\u00beetta er vitlaust\" (Realizing): \"R\u00c3\u00b6dd... \u00c3\u00beetta er ekki m\u00c3\u00adn r\u00c3\u00b6dd\"",
       "audio": {
         "primary": [
           "Young voice becoming deep",
@@ -32,7 +32,7 @@
         "ambient": [
           "Baby heartbeat 150bpm",
           "house breathing 6/min",
-          "GuÃ°rÃºn's silent fish-mouth gasping"
+          "Gu\u00c3\u00b0r\u00c3\u00ban's silent fish-mouth gasping"
         ],
         "absent": [
           "no stopping possible",
@@ -46,11 +46,28 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show voice change gradually, blood patterns forming, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
-    "womens_silence": "BROKEN - MagnÃºs gone, Sigrid speaks",
+    "womens_silence": "BROKEN - Magn\u00c3\u00bas gone, Sigrid speaks",
     "triple_reality": "Physical: desperate ritual / Psychological: teenage mother / Mythological: summoning beginning"
   },
   "notes": {

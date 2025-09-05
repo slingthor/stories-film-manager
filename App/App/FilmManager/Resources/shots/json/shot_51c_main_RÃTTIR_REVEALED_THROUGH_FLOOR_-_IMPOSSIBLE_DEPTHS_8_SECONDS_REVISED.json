@@ -1,8 +1,8 @@
 {
   "shot_metadata": {
     "id": "51c",
-    "name": "RÃTTIR_REVEALED_THROUGH_FLOOR___IMPOSSIBLE_DEPTHS_8_SECONDS_REVISED",
-    "title": "RÃTTIR REVEALED THROUGH FLOOR - IMPOSSIBLE DEPTHS 8 SECONDS REVISED",
+    "name": "R\u00c3TTIR_REVEALED_THROUGH_FLOOR___IMPOSSIBLE_DEPTHS_8_SECONDS_REVISED",
+    "title": "R\u00c3TTIR REVEALED THROUGH FLOOR - IMPOSSIBLE DEPTHS 8 SECONDS REVISED",
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "House 8/min + 60bpm | Stone pens emerging | Camera...",
@@ -12,17 +12,17 @@
   "prompt_variants": [
     {
       "variant_id": "51c_story_primary",
-      "variant_name": "Primary - RÃTTIR REVEALED THROUGH FLOOR - IMPOSSIBLE DEPTHS 8 SECONDS REVISED",
+      "variant_name": "Primary - R\u00c3TTIR REVEALED THROUGH FLOOR - IMPOSSIBLE DEPTHS 8 SECONDS REVISED",
       "intent_tags": [
         "story_primary"
       ],
       "priority": 1,
-      "subject": "The floor suddenly transparent in sections, revealing stone rÃ©ttir (sorting pens) 10 feet below - ancient, massive, impossible depth for a house - with sheep already sorted in the pens below, but the sheep wear the family's clothes, and one pen holds a raven.",
-      "action": "CLOSE ON FLOOR - packed earth becomes translucent like ice. Through it: stone structures below. CRANE UP slowly revealing full pattern. Ancient rÃ©ttir, the circular stone sorting pens, but 10 feet down - impossible, house is on ground level. Five stone pens radiating from center, sixth pen different - newer, Danish construction. In the pens: sheep. But wearing clothes. Ram with MagnÃºs's sweater. Ewe with GuÃ°rÃºn's faldbÃºningur. Lambs with children's dresses. Fifth pen: young ewe with subtle belly, Sigrid's dress. Sixth pen: enormous raven, watching up through floor. The sheep below move when family above moves - synchronized. Or is family moving because sheep move? Which controls which? MagnÃºs drops to knees, pressing hands to floor: \"HvaÃ° er fyrir neÃ°an?\" Through transparent section, the ram below presses hooves up. They touch through impossible space. Below the rÃ©ttir: glimpse of pink flesh, rhythmic pulsing. They're in Bergrisi's stomach. The rÃ©ttir are his digestive system. The house is his mouth.",
-      "scene": "Interior floor becoming window to impossible depth. Stone rÃ©ttir ancient but perfect. Sheep-family below/above.",
+      "subject": "The floor suddenly transparent in sections, revealing stone r\u00c3\u00a9ttir (sorting pens) 10 feet below - ancient, massive, impossible depth for a house - with sheep already sorted in the pens below, but the sheep wear the family's clothes, and one pen holds a raven.",
+      "action": "CLOSE ON FLOOR - packed earth becomes translucent like ice. Through it: stone structures below. CRANE UP slowly revealing full pattern. Ancient r\u00c3\u00a9ttir, the circular stone sorting pens, but 10 feet down - impossible, house is on ground level. Five stone pens radiating from center, sixth pen different - newer, Danish construction. In the pens: sheep. But wearing clothes. Ram with Magn\u00c3\u00bas's sweater. Ewe with Gu\u00c3\u00b0r\u00c3\u00ban's faldb\u00c3\u00baningur. Lambs with children's dresses. Fifth pen: young ewe with subtle belly, Sigrid's dress. Sixth pen: enormous raven, watching up through floor. The sheep below move when family above moves - synchronized. Or is family moving because sheep move? Which controls which? Magn\u00c3\u00bas drops to knees, pressing hands to floor: \"Hva\u00c3\u00b0 er fyrir ne\u00c3\u00b0an?\" Through transparent section, the ram below presses hooves up. They touch through impossible space. Below the r\u00c3\u00a9ttir: glimpse of pink flesh, rhythmic pulsing. They're in Bergrisi's stomach. The r\u00c3\u00a9ttir are his digestive system. The house is his mouth.",
+      "scene": "Interior floor becoming window to impossible depth. Stone r\u00c3\u00a9ttir ancient but perfect. Sheep-family below/above.",
       "style": "Crane revealing impossible architecture below (that's where the camera is), vertical impossibility documented.",
       "camera_position": "Crane revealing impossible architecture below",
-      "dialogue": "(MagnÃºs, horrified): \"HvaÃ° er fyrir neÃ°an?\" (Sigrid, knowing): \"ViÃ°. ViÃ° erum fyrir neÃ°an\" \"Og viÃ° erum fyrir ofan. BÃ¦Ã°i.\" (And we're above. Both.)",
+      "dialogue": "(Magn\u00c3\u00bas, horrified): \"Hva\u00c3\u00b0 er fyrir ne\u00c3\u00b0an?\" (Sigrid, knowing): \"Vi\u00c3\u00b0. Vi\u00c3\u00b0 erum fyrir ne\u00c3\u00b0an\" \"Og vi\u00c3\u00b0 erum fyrir ofan. B\u00c3\u00a6\u00c3\u00b0i.\" (And we're above. Both.)",
       "audio": {
         "primary": [
           "Floor becoming transparent",
@@ -30,7 +30,7 @@
           "sheep breathing beneath"
         ],
         "ambient": [
-          "Bergrisi's stomach rumbling below rÃ©ttir",
+          "Bergrisi's stomach rumbling below r\u00c3\u00a9ttir",
           "synchronized movement above/below"
         ],
         "absent": [
@@ -42,11 +42,28 @@
         "referenced": []
       },
       "negative_prompt": "maintain impossible depth, show both levels clearly",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
-    "womens_silence": "GuÃ°rÃºn sees but accepts",
+    "womens_silence": "Gu\u00c3\u00b0r\u00c3\u00ban sees but accepts",
     "triple_reality": "Physical: floor wearing through | Psychological: always were livestock | Mythological: inside Bergrisi's stomach"
   },
   "notes": {

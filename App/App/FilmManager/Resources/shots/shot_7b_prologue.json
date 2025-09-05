@@ -15,58 +15,81 @@
     },
     "stitch_from": "Shot 7a: Everyone seated, waiting"
   },
-
   "progressive_state": "Authority speaking | Words failing | Camera frost 1% edges | Language breaks | Watching: The silence begins",
-
   "prompt_variants": [
     {
       "variant_id": "7b_story_primary",
       "variant_name": "Failed Toast Authority",
-      "intent_tags": ["story_primary", "language_breakdown"],
+      "intent_tags": [
+        "story_primary",
+        "language_breakdown"
+      ],
       "priority": 1,
-      
-      "subject": "[MAGNÚS] standing at head of center table, raising cup of purple berry juice, mouth opening to speak, lips moving but no sound emerging, his face showing confusion, the purple liquid trembling in the cup.",
-      
-      "action": "Magnús pushes back from table, stands slowly. Height makes him tower over seated crowd. Picks up clay cup filled with purple krækilberjasaft. Liquid dark purple, almost black. Raises cup high. Everyone watches. Opens mouth. Lips form words. No sound emerges. Tries again. Mouth moves - can read lips saying 'Við erum...' (We are...). Still no sound. Face shows confusion, not fear. Not angry. Puzzled. Purple juice trembles in cup, small waves forming. Behind him, sun still frozen on horizon. Should have set hour ago. Magnús tries third time. This time faint sound emerges - not words, closer to sheep's bleat. Stops immediately. Looks at Guðrún. She nods encouragement. He sits down slowly, still holding cup. Everyone remains frozen, waiting for toast that won't come. In the purple juice, reflection shows not his face but wool. White wool.",
-      
-      "scene": "Feast tables at sunset that won't complete. Golden light frozen. Everyone watching Magnús. No wind, no movement except him.",
-      
-      "style": "Medium shot from across table, focused on Magnús trying to speak (that's where the camera is), purple cup prominent.",
-      
-      "camera_position": "Across table from Magnús during speech attempt, that's where the camera is",
-      
+      "subject": "[MAGN\u00daS] standing at head of center table, raising cup of purple berry juice, mouth opening to speak, lips moving but no sound emerging, his face showing confusion, the purple liquid trembling in the cup.",
+      "action": "Magn\u00fas pushes back from table, stands slowly. Height makes him tower over seated crowd. Picks up clay cup filled with purple kr\u00e6kilberjasaft. Liquid dark purple, almost black. Raises cup high. Everyone watches. Opens mouth. Lips form words. No sound emerges. Tries again. Mouth moves - can read lips saying 'Vi\u00f0 erum...' (We are...). Still no sound. Face shows confusion, not fear. Not angry. Puzzled. Purple juice trembles in cup, small waves forming. Behind him, sun still frozen on horizon. Should have set hour ago. Magn\u00fas tries third time. This time faint sound emerges - not words, closer to sheep's bleat. Stops immediately. Looks at Gu\u00f0r\u00fan. She nods encouragement. He sits down slowly, still holding cup. Everyone remains frozen, waiting for toast that won't come. In the purple juice, reflection shows not his face but wool. White wool.",
+      "scene": "Feast tables at sunset that won't complete. Golden light frozen. Everyone watching Magn\u00fas. No wind, no movement except him.",
+      "style": "Medium shot from across table, focused on Magn\u00fas trying to speak (that's where the camera is), purple cup prominent.",
+      "camera_position": "Across table from Magn\u00fas during speech attempt, that's where the camera is",
       "dialogue": "None - mouth moving but no sound",
-      
       "audio": {
-        "primary_sounds": ["Lips moving without sound", "purple juice trembling", "single bleat sound", "bench creaking as he sits"],
-        "ambient_sounds": ["Fifty people breathing in unison", "frozen sun humming"],
-        "absent_sounds": ["words", "wind", "nature"]
+        "primary_sounds": [
+          "Lips moving without sound",
+          "purple juice trembling",
+          "single bleat sound",
+          "bench creaking as he sits"
+        ],
+        "ambient_sounds": [
+          "Fifty people breathing in unison",
+          "frozen sun humming"
+        ],
+        "absent_sounds": [
+          "words",
+          "wind",
+          "nature"
+        ]
       },
-      
       "character_plates": {
-        "present": ["MAGNÚS-AUTHORITY", "GUÐRÚN-ABUNDANT", "SIGRID-PURE"],
-        "referenced": ["Community members"]
+        "present": [
+          "MAGN\u00daS-AUTHORITY",
+          "GU\u00d0R\u00daN-ABUNDANT",
+          "SIGRID-PURE"
+        ],
+        "referenced": [
+          "Community members"
+        ]
       },
-      
       "environmental_plates": {
         "landscape": "WESTFJORDS-FEAST-FIELD",
         "weather": "SUNSET-FROZEN",
         "lighting": "GOLDEN-HOUR-STUCK"
       },
-      
       "negative_prompt": "no subtitles, show mouth moving without sound, purple juice trembling, frozen sun visible, 1080p",
-      
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-PURE",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-PURE"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-WINTER",
+          "interior": "BA\u00d0STOFA-ORGANIC"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
-
   "others": {
     "language_breakdown": "Human speech degrading to sheep bleating",
     "reflection_truth": "Purple juice showing wool instead of face",
     "frozen_sun": "Time stuck during authority crisis",
     "breathing_synchronization": "Community breathing unified during speech failure"
   },
-
   "notes": {
     "thematic_purpose": "Authority language breaking down into animal communication",
     "transformation_foreshadowing": "First glimpse of sheep nature in reflection",

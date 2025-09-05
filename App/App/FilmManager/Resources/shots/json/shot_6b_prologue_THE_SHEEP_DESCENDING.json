@@ -5,10 +5,10 @@
     "title": "THE SHEEP DESCENDING",
     "sequence_type": "prologue",
     "duration_seconds": 8,
-    "narrative_function": "RÃ©ttir beginning | Natural order | Camera frost f...",
+    "narrative_function": "R\u00c3\u00a9ttir beginning | Natural order | Camera frost f...",
     "stitch_from": "[STITCH from Shot 6a: Afternoon approaching]"
   },
-  "progressive_state": "RÃ©ttir beginning | Natural order | Camera frost flicker 1% briefly | Patterns emerging | Watching: The sorting comes",
+  "progressive_state": "R\u00c3\u00a9ttir beginning | Natural order | Camera frost flicker 1% briefly | Patterns emerging | Watching: The sorting comes",
   "prompt_variants": [
     {
       "variant_id": "6b_story_primary",
@@ -18,7 +18,7 @@
       ],
       "priority": 1,
       "subject": "View from hillside showing hundreds of sheep flowing down mountain paths like white water, converging on stone sorting pen below, people gathering at the pen with dogs, the sheep moving without being herded.",
-      "action": "Sheep pour down three mountain paths simultaneously. White bodies against green slopes. Moving like liquid, flowing around rocks. No shepherds visible driving them. They know to come. Dogs at bottom wait but don't herd. Sheep converge on ancient stone pen - circular center with triangular sections radiating out. The pen ancient, stones worn smooth. People arrive from whale processing, from berry cooking. Still covered in three stains - red blood, purple juice, golden yolk. Take positions around pen. Each family at their traditional section. Sheep flow into central circle. Swirl clockwise. Perfect spiral. No commands given. First sheep enters family section on its own. Others follow. Each sheep knows its section. The pattern they make matches the bones children threw earlier. MagnÃºs stands at his family's gate. Watches sheep sort themselves. His shadow falls wrong direction - sun is west but shadow points east.",
+      "action": "Sheep pour down three mountain paths simultaneously. White bodies against green slopes. Moving like liquid, flowing around rocks. No shepherds visible driving them. They know to come. Dogs at bottom wait but don't herd. Sheep converge on ancient stone pen - circular center with triangular sections radiating out. The pen ancient, stones worn smooth. People arrive from whale processing, from berry cooking. Still covered in three stains - red blood, purple juice, golden yolk. Take positions around pen. Each family at their traditional section. Sheep flow into central circle. Swirl clockwise. Perfect spiral. No commands given. First sheep enters family section on its own. Others follow. Each sheep knows its section. The pattern they make matches the bones children threw earlier. Magn\u00c3\u00bas stands at his family's gate. Watches sheep sort themselves. His shadow falls wrong direction - sun is west but shadow points east.",
       "scene": "Valley with stone sorting pen. Mountains on three sides. Late afternoon light. Hundreds of sheep descending.",
       "style": "Wide aerial shot showing sheep flowing down and pen below (that's where the camera is), pattern formation visible.",
       "camera_position": "Wide aerial shot showing sheep flowing down and pen below",
@@ -45,7 +45,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show sheep flowing like water, self-sorting, patterns matching earlier scenes, 1080p",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},

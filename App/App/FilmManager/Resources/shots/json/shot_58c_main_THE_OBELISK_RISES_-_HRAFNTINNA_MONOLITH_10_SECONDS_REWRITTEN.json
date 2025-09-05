@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "The house completing transformation into 40-foot black hrafntinna obelisk, rising from earth like growing crystal, the vertical klettagjÃ¡ cleft opening through center as Bergrisi's mouth/birth canal, sheep family being absorbed into glass walls except [SIGRID] who stands at cleft entrance.",
-      "action": "CRANE UP with rising structure. House doesn't just transform - GROWS. From earth. Like crystal forming in time-lapse. Black hrafntinna obsidian. Raven flint. The volcanic glass that IS Iceland. 40 feet rising. 10 feet wide at base. Narrowing to point. But through center: CLEFT opens. Not crack - designed opening. Bergrisi's throat. Birth canal. Escape route. The klettagjÃ¡ from lullaby made literal. As structure rises, sheep family pulled into walls. Not violently - absorbed. Becoming part of monument. MagnÃºs-ram fighting, then accepting, horns visible through glass. GuÃ°rÃºn-ewe peaceful, faldbÃºningur preserved in obsidian. Lamb-children together, eternal. They're IN the monument. ARE the monument. Visible to all future witnesses. But Sigrid stays free. Standing at cleft base. The one who escapes. Through cleft top: impossible light. Not sun - ALL suns. Every dawn that will ever be. The monument exists in all times simultaneously. Is the third monolith. The evolution marker. The moment Iceland becomes free.",
+      "subject": "The house completing transformation into 40-foot black hrafntinna obelisk, rising from earth like growing crystal, the vertical klettagj\u00c3\u00a1 cleft opening through center as Bergrisi's mouth/birth canal, sheep family being absorbed into glass walls except [SIGRID] who stands at cleft entrance.",
+      "action": "CRANE UP with rising structure. House doesn't just transform - GROWS. From earth. Like crystal forming in time-lapse. Black hrafntinna obsidian. Raven flint. The volcanic glass that IS Iceland. 40 feet rising. 10 feet wide at base. Narrowing to point. But through center: CLEFT opens. Not crack - designed opening. Bergrisi's throat. Birth canal. Escape route. The klettagj\u00c3\u00a1 from lullaby made literal. As structure rises, sheep family pulled into walls. Not violently - absorbed. Becoming part of monument. Magn\u00c3\u00bas-ram fighting, then accepting, horns visible through glass. Gu\u00c3\u00b0r\u00c3\u00ban-ewe peaceful, faldb\u00c3\u00baningur preserved in obsidian. Lamb-children together, eternal. They're IN the monument. ARE the monument. Visible to all future witnesses. But Sigrid stays free. Standing at cleft base. The one who escapes. Through cleft top: impossible light. Not sun - ALL suns. Every dawn that will ever be. The monument exists in all times simultaneously. Is the third monolith. The evolution marker. The moment Iceland becomes free.",
       "scene": "Structure rising to 40-foot obelisk. Family absorbed into walls. Cleft opening. All times visible.",
       "style": "Crane up with ascending monument (that's where the camera is), architecture transcending.",
       "camera_position": "Crane up with ascending monument",
-      "dialogue": "(Bergrisi's final words in glass): \"Ã‰g er endurheimt\" (I am reclaimed)",
+      "dialogue": "(Bergrisi's final words in glass): \"\u00c3\u2030g er endurheimt\" (I am reclaimed)",
       "audio": {
         "primary": [
           "Crystal growing",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "epic scale, monument grandeur",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

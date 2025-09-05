@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[MAGNÃšS] attempting to drag the 12-foot Ã¡rabÃ¡tur alone - a task requiring three men - the rope cutting into his shoulders as he follows the blood spirals toward the fjord, each step sinking deeper as if the ground itself resists his leaving.",
-      "action": "MagnÃºs ties rope around boat's bow, loops over shoulders. First pull: boat doesn't move. Ice has frozen it to ground. Rocks it, ice cracking. Second pull: moves 6 inches. Third pull: 1 foot. Tremor at 4Hz makes rope slip repeatedly. Has to stop, retie with frozen fingers. The boat weighs 200 pounds, plus ice, plus snow accumulation. Drags it along blood spiral - easier to follow existing path than break new snow. But spirals don't lead straight to fjord - they curve, loop, add distance. Through window: GuÃ°rÃºn finally closes door, cutting off inside view. Sigrid's face appears at frost patterns, breath fogging glass, watching. Empty clothes have moved to window, standing like family watching departure. Every 20 seconds, trawler beam illuminates him - caught in surveillance rhythm. Counts steps in Danish without thinking: \"Et, to, tre...\" Reaches \"seks\" though only walking, not counting anything. The mathematics infected everything.",
-      "scene": "Path from house to fjord, 6:30 AM, sun barely rising. Temperature -25Â°C, his beard now solid ice plate. Distance to fjord: 200 meters straight, but following spirals: 500 meters. His breath creates ice cloud that follows him. Where boat drags, reveals more blood underneath - entire landscape contaminated or blessed. Mountains indent with wind channels, funneling cold directly at him.",
+      "subject": "[MAGN\u00c3\u0161S] attempting to drag the 12-foot \u00c3\u00a1rab\u00c3\u00a1tur alone - a task requiring three men - the rope cutting into his shoulders as he follows the blood spirals toward the fjord, each step sinking deeper as if the ground itself resists his leaving.",
+      "action": "Magn\u00c3\u00bas ties rope around boat's bow, loops over shoulders. First pull: boat doesn't move. Ice has frozen it to ground. Rocks it, ice cracking. Second pull: moves 6 inches. Third pull: 1 foot. Tremor at 4Hz makes rope slip repeatedly. Has to stop, retie with frozen fingers. The boat weighs 200 pounds, plus ice, plus snow accumulation. Drags it along blood spiral - easier to follow existing path than break new snow. But spirals don't lead straight to fjord - they curve, loop, add distance. Through window: Gu\u00c3\u00b0r\u00c3\u00ban finally closes door, cutting off inside view. Sigrid's face appears at frost patterns, breath fogging glass, watching. Empty clothes have moved to window, standing like family watching departure. Every 20 seconds, trawler beam illuminates him - caught in surveillance rhythm. Counts steps in Danish without thinking: \"Et, to, tre...\" Reaches \"seks\" though only walking, not counting anything. The mathematics infected everything.",
+      "scene": "Path from house to fjord, 6:30 AM, sun barely rising. Temperature -25\u00c2\u00b0C, his beard now solid ice plate. Distance to fjord: 200 meters straight, but following spirals: 500 meters. His breath creates ice cloud that follows him. Where boat drags, reveals more blood underneath - entire landscape contaminated or blessed. Mountains indent with wind channels, funneling cold directly at him.",
       "style": "Following shot behind struggle, camera at 10 feet distance tracking (that's where the camera is), documentary of impossible labor.",
       "camera_position": "Following shot behind struggle, camera at 10 feet distance tracking",
-      "dialogue": "(MagnÃºs, grunting): \"Komdu Ã¾Ã¡... komdu...\" (Counting unconsciously): \"Et, to, tre, fire, fem... seks?\" (Looking back at house): \"Ã‰g kem aftur\" (lying to himself)",
+      "dialogue": "(Magn\u00c3\u00bas, grunting): \"Komdu \u00c3\u00be\u00c3\u00a1... komdu...\" (Counting unconsciously): \"Et, to, tre, fire, fem... seks?\" (Looking back at house): \"\u00c3\u2030g kem aftur\" (lying to himself)",
       "audio": {
         "primary": [
           "Boat scraping through snow",
@@ -44,11 +44,28 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show physical struggle, maintain impossibility, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
-    "womens_silence": "GuÃ°rÃºn closes door without words",
+    "womens_silence": "Gu\u00c3\u00b0r\u00c3\u00ban closes door without words",
     "triple_reality": "Physical: 200-pound boat / Psychological: isolation burden / Mythological: following blood paths"
   },
   "notes": {

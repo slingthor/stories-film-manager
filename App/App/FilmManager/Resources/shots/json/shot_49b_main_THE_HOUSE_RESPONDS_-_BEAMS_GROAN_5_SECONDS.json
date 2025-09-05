@@ -6,7 +6,7 @@
     "sequence_type": "main_story",
     "duration_seconds": 5,
     "narrative_function": "House 20/min angry + 80bpm | Bergrisi protecting |...",
-    "stitch_from": "[STITCH from Shot 49a: MagnÃºs inspecting Sigrid]"
+    "stitch_from": "[STITCH from Shot 49a: Magn\u00c3\u00bas inspecting Sigrid]"
   },
   "progressive_state": "House 20/min angry + 80bpm | Bergrisi protecting | Camera frost 37% | Giant intervening | Watching: House chooses side",
   "prompt_variants": [
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "The three ceiling beams suddenly groaning and flexing downward like ribs breathing, dust cascading, the house itself warning [MAGNÃšS] away from [SIGRID], but he's too focused on his inspection to notice the giant's intervention.",
-      "action": "As MagnÃºs continues inspection, house responds. TILT UP to ceiling beams. All three flex simultaneously - not from weight but muscular contraction. Like ribs. Pink tissue visible through wood for split second. Dust cascades. One beam CRACKS audibly, sound like breaking bone. MagnÃºs should notice but doesn't - madness and focus blind him. Beams flex again, more pronounced. House breathing hits 20/min, hyperventilating. Trying to speak but only groans emerge. \"VITNI\" on wall glows slightly - the witness must survive. Floor beneath MagnÃºs becomes soft, warm, trying to swallow his feet. But he's examining Sigrid's belly, checking pregnancy progression. Calculating months until she can replace mother. The isolation math: one woman dies, daughter becomes wife. No one to say it's wrong. 40 miles to civilization. But house says it's wrong. Beams flex third time. Splinter appears. If they break, ceiling collapses.",
+      "subject": "The three ceiling beams suddenly groaning and flexing downward like ribs breathing, dust cascading, the house itself warning [MAGN\u00c3\u0161S] away from [SIGRID], but he's too focused on his inspection to notice the giant's intervention.",
+      "action": "As Magn\u00c3\u00bas continues inspection, house responds. TILT UP to ceiling beams. All three flex simultaneously - not from weight but muscular contraction. Like ribs. Pink tissue visible through wood for split second. Dust cascades. One beam CRACKS audibly, sound like breaking bone. Magn\u00c3\u00bas should notice but doesn't - madness and focus blind him. Beams flex again, more pronounced. House breathing hits 20/min, hyperventilating. Trying to speak but only groans emerge. \"VITNI\" on wall glows slightly - the witness must survive. Floor beneath Magn\u00c3\u00bas becomes soft, warm, trying to swallow his feet. But he's examining Sigrid's belly, checking pregnancy progression. Calculating months until she can replace mother. The isolation math: one woman dies, daughter becomes wife. No one to say it's wrong. 40 miles to civilization. But house says it's wrong. Beams flex third time. Splinter appears. If they break, ceiling collapses.",
       "scene": "Interior, beams visible flexing. Dust thick in air. Floor softening. House actively resisting.",
       "style": "Tilt up revealing house resistance (that's where the camera is), giant's protection documented.",
       "camera_position": "Tilt up revealing house resistance",
-      "dialogue": "(House/Bergrisi): Groaning at 16Hz, felt not heard (MagnÃºs, oblivious): \"FjÃ³rir mÃ¡nuÃ°ir? Fimm?\"",
+      "dialogue": "(House/Bergrisi): Groaning at 16Hz, felt not heard (Magn\u00c3\u00bas, oblivious): \"Fj\u00c3\u00b3rir m\u00c3\u00a1nu\u00c3\u00b0ir? Fimm?\"",
       "audio": {
         "primary": [
           "Beams flexing",
@@ -36,7 +36,7 @@
           "floor softening"
         ],
         "absent": [
-          "no recognition from MagnÃºs"
+          "no recognition from Magn\u00c3\u00bas"
         ]
       },
       "character_plates": {
@@ -46,7 +46,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

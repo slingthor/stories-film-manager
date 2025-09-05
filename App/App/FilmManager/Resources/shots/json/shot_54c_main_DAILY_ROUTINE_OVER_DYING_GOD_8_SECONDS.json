@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "The family performing morning routines - [GUÃRÃšN] fetching water, [MAGNÃšS] checking weather, children playing - repeatedly stepping over the dying Bull at threshold, sometimes using his horns as handholds, his massive body becoming furniture while he watches with ancient eyes.",
-      "action": "TRACKING family movements. GuÃ°rÃºn returns with water bucket, steps over Bull. His horn convenient handhold. MagnÃºs goes out to check sky, foot on Bull's eye socket (beside the net grown into cornea). JÃ³n runs out to play, jumps over like game. Lands on Bull's tongue (hanging out slightly). Lilja follows, sits on Bull's neck, arranges wool sheep figurines on his head between harpoons. Playing while god dies beneath her. Each crossing wears the Bull down more. Fur rubbing off where they step. Skin underneath showing - not pink but translucent, universe visible through god's flesh. Stars. Cosmos. Swimming things. Through his body: glimpse of ocean depths, polynya, trawler in distance. He's portal between worlds. But family just sees obstacle at door. Sigrid alone treats him gently - each crossing, she whispers: \"FyrirgefÃ°u\" (Forgive us). He forgives. Came here to forgive and witness. To die at threshold between old and new.",
+      "subject": "The family performing morning routines - [GU\u00c3\u0090R\u00c3\u0161N] fetching water, [MAGN\u00c3\u0161S] checking weather, children playing - repeatedly stepping over the dying Bull at threshold, sometimes using his horns as handholds, his massive body becoming furniture while he watches with ancient eyes.",
+      "action": "TRACKING family movements. Gu\u00c3\u00b0r\u00c3\u00ban returns with water bucket, steps over Bull. His horn convenient handhold. Magn\u00c3\u00bas goes out to check sky, foot on Bull's eye socket (beside the net grown into cornea). J\u00c3\u00b3n runs out to play, jumps over like game. Lands on Bull's tongue (hanging out slightly). Lilja follows, sits on Bull's neck, arranges wool sheep figurines on his head between harpoons. Playing while god dies beneath her. Each crossing wears the Bull down more. Fur rubbing off where they step. Skin underneath showing - not pink but translucent, universe visible through god's flesh. Stars. Cosmos. Swimming things. Through his body: glimpse of ocean depths, polynya, trawler in distance. He's portal between worlds. But family just sees obstacle at door. Sigrid alone treats him gently - each crossing, she whispers: \"Fyrirgef\u00c3\u00b0u\" (Forgive us). He forgives. Came here to forgive and witness. To die at threshold between old and new.",
       "scene": "Doorway with constant traffic over Bull. His body becoming worn, transparent. Portal forming.",
       "style": "Tracking mundane routine over divine being (that's where the camera is), sacred ignored.",
       "camera_position": "Tracking mundane routine over divine being",
-      "dialogue": "(GuÃ°rÃºn): \"Vatn er kalt Ã­ dag\" (MagnÃºs): \"Kemur storm\" (Sigrid, each crossing): \"FyrirgefÃ°u\"",
+      "dialogue": "(Gu\u00c3\u00b0r\u00c3\u00ban): \"Vatn er kalt \u00c3\u00ad dag\" (Magn\u00c3\u00bas): \"Kemur storm\" (Sigrid, each crossing): \"Fyrirgef\u00c3\u00b0u\"",
       "audio": {
         "primary": [
           "Footsteps on Bull's body",
@@ -43,7 +43,24 @@
         "referenced": []
       },
       "negative_prompt": "maintain casualness, no reverence except Sigrid",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

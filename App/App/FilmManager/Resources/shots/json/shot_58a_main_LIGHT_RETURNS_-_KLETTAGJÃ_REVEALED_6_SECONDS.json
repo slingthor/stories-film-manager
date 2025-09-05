@@ -1,8 +1,8 @@
 {
   "shot_metadata": {
     "id": "58a",
-    "name": "LIGHT_RETURNS___KLETTAGJÃ_REVEALED_6_SECONDS",
-    "title": "LIGHT RETURNS - KLETTAGJÃ REVEALED 6 SECONDS",
+    "name": "LIGHT_RETURNS___KLETTAGJ\u00c3_REVEALED_6_SECONDS",
+    "title": "LIGHT RETURNS - KLETTAGJ\u00c3 REVEALED 6 SECONDS",
     "sequence_type": "main_story",
     "duration_seconds": 6,
     "narrative_function": "House dead/transformed | Dawn breaking | Camera fr...",
@@ -12,13 +12,13 @@
   "prompt_variants": [
     {
       "variant_id": "58a_story_primary",
-      "variant_name": "Primary - LIGHT RETURNS - KLETTAGJÃ REVEALED 6 SECONDS",
+      "variant_name": "Primary - LIGHT RETURNS - KLETTAGJ\u00c3 REVEALED 6 SECONDS",
       "intent_tags": [
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Light gradually returning revealing the house has transformed - walls cracked open into rocky cleft formation, ceiling gone showing sky, the familiar 12Ã—16 space now a natural cave with stone rÃ©ttir patterns still visible in floor, sheep family huddled in center.",
-      "action": "Light seeps in - not through windows but through rock. House IS rock now. CRANE UP slowly through transformed space. Walls no longer wood/turf but black volcanic stone. Cracks from earlier have become passages - five leading out, sixth blocked. The klettagjÃ¡ from lullaby, literal rocky cleft. But traces remain: doorframe still there but in stone. Hearth transformed to natural fire pit. The rÃ©ttir pattern in floor now carved in rock, ancient, permanent. Sheep family huddled center, still wearing torn human clothes. They look natural here. Like they belong. Cave sheep. Always were. Above: sky visible through massive opening. Dawn light entering. But also: seven ravens circling. Waiting. Through stone passages: glimpses of ocean, mountains, freedom. But sheep can't use passages. Too narrow for livestock. Only something smaller could escape. Something that could fly.",
+      "subject": "Light gradually returning revealing the house has transformed - walls cracked open into rocky cleft formation, ceiling gone showing sky, the familiar 12\u00c3\u201416 space now a natural cave with stone r\u00c3\u00a9ttir patterns still visible in floor, sheep family huddled in center.",
+      "action": "Light seeps in - not through windows but through rock. House IS rock now. CRANE UP slowly through transformed space. Walls no longer wood/turf but black volcanic stone. Cracks from earlier have become passages - five leading out, sixth blocked. The klettagj\u00c3\u00a1 from lullaby, literal rocky cleft. But traces remain: doorframe still there but in stone. Hearth transformed to natural fire pit. The r\u00c3\u00a9ttir pattern in floor now carved in rock, ancient, permanent. Sheep family huddled center, still wearing torn human clothes. They look natural here. Like they belong. Cave sheep. Always were. Above: sky visible through massive opening. Dawn light entering. But also: seven ravens circling. Waiting. Through stone passages: glimpses of ocean, mountains, freedom. But sheep can't use passages. Too narrow for livestock. Only something smaller could escape. Something that could fly.",
       "scene": "Transformed house-cave. Dawn light. Stone architecture. Sheep family natural in space.",
       "style": "Crane revealing transformation (that's where the camera is), new geography documented.",
       "camera_position": "Crane revealing transformation",
@@ -43,7 +43,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

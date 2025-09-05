@@ -18,11 +18,11 @@
       ],
       "priority": 1,
       "subject": "Camera dollying through house interior revealing impossible truth - the inside is larger than outside, rooms that shouldn't exist, distances that don't match, the family in multiple places simultaneously.",
-      "action": "DOLLY BEGINS at door. Move through main room - 12Ã—16 feet. But dolly continues past where wall should be. Into second room that can't exist. Same family there too - eating at identical table. Continue dolly. Third room. Family again, sleeping. Fourth room. Family as sheep, standing. All simultaneous. All true. DOLLY TURNS, returns. But path different. Room with family as children. Room with them elderly. Room with them dead. All 12Ã—16 feet. All the same room. All different. Finally returns to original - family frozen, aware something wrong. MagnÃºs counts rooms on fingers: \"En, to, tre...\" Gets different number each count. GuÃ°rÃºn sees but says nothing. Children playing as if normal. Only Sigrid speaks: \"HÃºsiÃ° er stÃ¦rra innan\" (The house is bigger inside). Because they're inside giant's body. Internal space doesn't follow external rules. Mathematics broken completely.",
-      "scene": "Impossible interior, infinite 12Ã—16 rooms. Each with different version of same moment.",
+      "action": "DOLLY BEGINS at door. Move through main room - 12\u00c3\u201416 feet. But dolly continues past where wall should be. Into second room that can't exist. Same family there too - eating at identical table. Continue dolly. Third room. Family again, sleeping. Fourth room. Family as sheep, standing. All simultaneous. All true. DOLLY TURNS, returns. But path different. Room with family as children. Room with them elderly. Room with them dead. All 12\u00c3\u201416 feet. All the same room. All different. Finally returns to original - family frozen, aware something wrong. Magn\u00c3\u00bas counts rooms on fingers: \"En, to, tre...\" Gets different number each count. Gu\u00c3\u00b0r\u00c3\u00ban sees but says nothing. Children playing as if normal. Only Sigrid speaks: \"H\u00c3\u00basi\u00c3\u00b0 er st\u00c3\u00a6rra innan\" (The house is bigger inside). Because they're inside giant's body. Internal space doesn't follow external rules. Mathematics broken completely.",
+      "scene": "Impossible interior, infinite 12\u00c3\u201416 rooms. Each with different version of same moment.",
       "style": "Impossible dolly through paradox space (that's where the camera is), reality failure documented.",
       "camera_position": "Impossible dolly through paradox space",
-      "dialogue": "(MagnÃºs, counting): \"En, to, tre... nei... fjÃ¶gur... nei...\" (Sigrid): \"HÃºsiÃ° er stÃ¦rra innan\" \"ViÃ° erum inni Ã­ einhverju\" (We're inside something)",
+      "dialogue": "(Magn\u00c3\u00bas, counting): \"En, to, tre... nei... fj\u00c3\u00b6gur... nei...\" (Sigrid): \"H\u00c3\u00basi\u00c3\u00b0 er st\u00c3\u00a6rra innan\" \"Vi\u00c3\u00b0 erum inni \u00c3\u00ad einhverju\" (We're inside something)",
       "audio": {
         "primary": [
           "Dolly through impossible space",
@@ -42,11 +42,28 @@
         "referenced": []
       },
       "negative_prompt": "maintain impossibility, no logical resolution",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
-    "womens_silence": "GuÃ°rÃºn notices but silent",
+    "womens_silence": "Gu\u00c3\u00b0r\u00c3\u00ban notices but silent",
     "triple_reality": "Physical: dimensions wrong | Psychological: madness spreading | Mythological: inside giant's body"
   },
   "notes": {

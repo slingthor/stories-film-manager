@@ -18,7 +18,7 @@
       ],
       "priority": 1,
       "subject": "[SIGRID]-raven landing on Reykjavik Cathedral roof in 1920, laying the egg that contains the human child, the pregnancy transformed, as Gammur watches, ensuring the next generation will vote for independence.",
-      "action": "CLOSE ON cathedral roof tiles. Raven talons land. Sigrid-raven settles into architectural nook. Body convulses gently. The egg emerges - larger than normal raven egg. Translucent shell. Inside: human infant visible. Sleeping. Waiting. The bridge generation. Child who will be 24 in 1944. Will vote for independence. Will remember nothing of being in egg. But will dream of flying. Will fear enclosed spaces. Will love ravens inexplicably. PULL BACK reveals location: Reykjavik Cathedral, 1920. City smaller. Cleaner. Hopeful. Gammur perches on cross above. Guardian. Ensuring. The egg warm despite winter. Glowing slightly. Other ravens gathering. Protecting. They know what it contains. Who it contains. The future voter. The independence maker. The one who says \"jÃ¡\" (yes) to freedom.",
+      "action": "CLOSE ON cathedral roof tiles. Raven talons land. Sigrid-raven settles into architectural nook. Body convulses gently. The egg emerges - larger than normal raven egg. Translucent shell. Inside: human infant visible. Sleeping. Waiting. The bridge generation. Child who will be 24 in 1944. Will vote for independence. Will remember nothing of being in egg. But will dream of flying. Will fear enclosed spaces. Will love ravens inexplicably. PULL BACK reveals location: Reykjavik Cathedral, 1920. City smaller. Cleaner. Hopeful. Gammur perches on cross above. Guardian. Ensuring. The egg warm despite winter. Glowing slightly. Other ravens gathering. Protecting. They know what it contains. Who it contains. The future voter. The independence maker. The one who says \"j\u00c3\u00a1\" (yes) to freedom.",
       "scene": "Cathedral roof, 1920. Egg laid in architectural embrace. City visible below. Ravens gathering.",
       "style": "Close to wide revealing significance (that's where the camera is), future documented.",
       "camera_position": "Close to wide revealing significance",
@@ -45,7 +45,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

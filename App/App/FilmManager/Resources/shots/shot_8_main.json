@@ -3,7 +3,7 @@
     "id": "8",
     "name": "THE_COUNTING_BEGINS",
     "title": "Danish Counting Violence - EN TO",
-    "sequence_type": "main_story", 
+    "sequence_type": "main_story",
     "duration_seconds": 8,
     "film_position_percentage": 32.0,
     "narrative_function": "Danish counting as physical violence through temperature",
@@ -13,53 +13,70 @@
       "psychological_percentage": 40.0,
       "mythological_percentage": 30.0
     },
-    "stitch_from": "Shot 7: Family in positions, Magnús ready to count"
+    "stitch_from": "Shot 7: Family in positions, Magn\u00fas ready to count"
   },
-
-  "progressive_state": "House 13/min | Klettagjá hairline | Danish emerging | Camera frost 4% | Counting IS poisoning | Watching: Empire through Magnús",
-
+  "progressive_state": "House 13/min | Klettagj\u00e1 hairline | Danish emerging | Camera frost 4% | Counting IS poisoning | Watching: Empire through Magn\u00fas",
   "prompt_variants": [
     {
       "variant_id": "8_story_primary",
       "variant_name": "Danish Administrative Violence",
-      "intent_tags": ["story_primary", "administrative_violence"],
+      "intent_tags": [
+        "story_primary",
+        "administrative_violence"
+      ],
       "priority": 1,
-      
-      "subject": "[MAGNÚS] beginning the Danish counting while simultaneously distributing hákarl, his tremoring hand (3.5Hz) pointing at each family member with a piece of the grey-green fermented shark, the counting and poisoning revealed as the same act - administrative violence IS physical poisoning.",
-      
-      "action": "Magnús shifts to Danish, voice becoming mechanical, administrative. Points at Guðrún with first piece of hákarl: 'En' (One). She takes it, puts in mouth immediately, begins chewing. The meat is 13 days into 90-day fermentation - visible green spots, ammonia vapor rising. Points at Jón with second piece: 'To' (Two). The fevered boy takes it, struggles to swallow, green liquid dripping from corner of mouth. With each Danish word, temperature seems to drop - frost spreading on walls near where Danish is spoken, as if language itself brings cold. The hákarl pieces have black fibers running through them, pulsing slightly. Industrial contamination already in the food. Magnús's tremor makes pointing unstable, hákarl pieces shaking. House breathing maintains 13/min but heartbeat underneath beginning - subtle, might be imagination. Six shadows on wall, sixth shadow moving though no sixth person counted yet.",
-      
-      "scene": "Morning sorting ritual, 5:49 AM, light growing outside but still dim. Temperature drops from -8°C to -9°C as Danish spoken. Frost spreading on north wall in dendritic patterns where Danish words hit. The hákarl on plate shows five pieces cut but six exist. Each piece releasing visible ammonia that makes eyes water. Breath vapor from everyone, but during Danish, breath seems to freeze mid-air briefly.",
-      
+      "subject": "[MAGN\u00daS] beginning the Danish counting while simultaneously distributing h\u00e1karl, his tremoring hand (3.5Hz) pointing at each family member with a piece of the grey-green fermented shark, the counting and poisoning revealed as the same act - administrative violence IS physical poisoning.",
+      "action": "Magn\u00fas shifts to Danish, voice becoming mechanical, administrative. Points at Gu\u00f0r\u00fan with first piece of h\u00e1karl: 'En' (One). She takes it, puts in mouth immediately, begins chewing. The meat is 13 days into 90-day fermentation - visible green spots, ammonia vapor rising. Points at J\u00f3n with second piece: 'To' (Two). The fevered boy takes it, struggles to swallow, green liquid dripping from corner of mouth. With each Danish word, temperature seems to drop - frost spreading on walls near where Danish is spoken, as if language itself brings cold. The h\u00e1karl pieces have black fibers running through them, pulsing slightly. Industrial contamination already in the food. Magn\u00fas's tremor makes pointing unstable, h\u00e1karl pieces shaking. House breathing maintains 13/min but heartbeat underneath beginning - subtle, might be imagination. Six shadows on wall, sixth shadow moving though no sixth person counted yet.",
+      "scene": "Morning sorting ritual, 5:49 AM, light growing outside but still dim. Temperature drops from -8\u00b0C to -9\u00b0C as Danish spoken. Frost spreading on north wall in dendritic patterns where Danish words hit. The h\u00e1karl on plate shows five pieces cut but six exist. Each piece releasing visible ammonia that makes eyes water. Breath vapor from everyone, but during Danish, breath seems to freeze mid-air briefly.",
       "style": "Medium shot from Sigrid's position showing counting/poisoning combination (that's where the camera is), her POV of colonial administration as feeding ritual.",
-      
       "camera_position": "Sigrid's position 11 feet away observing administrative violence, that's where the camera is",
-      
-      "dialogue": "(Magnús): 'En' (Tone: mechanical, pointing at Guðrún) 'To' (Tone: administrative, pointing at Jón) (Guðrún): Chewing in silence (Jón): Slight gagging, swallows",
-      
+      "dialogue": "(Magn\u00fas): 'En' (Tone: mechanical, pointing at Gu\u00f0r\u00fan) 'To' (Tone: administrative, pointing at J\u00f3n) (Gu\u00f0r\u00fan): Chewing in silence (J\u00f3n): Slight gagging, swallows",
       "audio": {
-        "primary_sounds": ["Danish words sharp and foreign", "hákarl squishing in mouths", "ammonia hissing"],
-        "ambient_sounds": ["House 13/min", "subtle heartbeat beginning underneath", "frost crackling as Danish spreads cold"],
-        "absent_sounds": ["no female voices", "no protest", "normalized horror"]
+        "primary_sounds": [
+          "Danish words sharp and foreign",
+          "h\u00e1karl squishing in mouths",
+          "ammonia hissing"
+        ],
+        "ambient_sounds": [
+          "House 13/min",
+          "subtle heartbeat beginning underneath",
+          "frost crackling as Danish spreads cold"
+        ],
+        "absent_sounds": [
+          "no female voices",
+          "no protest",
+          "normalized horror"
+        ]
       },
-      
       "character_plates": {
-        "present": ["MAGNÚS-CONFUSED", "GUÐRÚN-COUNTING", "JÓN-PROPHET", "SIGRID-CALCULATING"],
+        "present": [
+          "MAGN\u00daS-CONFUSED",
+          "GU\u00d0R\u00daN-COUNTING",
+          "J\u00d3N-PROPHET",
+          "SIGRID-CALCULATING"
+        ],
         "referenced": []
       },
-      
       "environmental_plates": {
-        "landscape": "BAÐSTOFA-ORGANIC",
+        "landscape": "BA\u00d0STOFA-ORGANIC",
         "weather": "DANISH-COLD-SPREADING",
         "lighting": "DIM-MORNING-FROST"
       },
-      
-      "negative_prompt": "no subtitles, show hákarl contamination, frost spreading from Danish, documentary observation",
-      
-      "video_references": []
+      "negative_prompt": "no subtitles, show h\u00e1karl contamination, frost spreading from Danish, documentary observation",
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "sigrid": "SIGRID-CALCULATING",
+          "lilja": "LILJA-MATHEMATICAL"
+        },
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
-
   "others": {
     "women_silence": "All women silent during Danish",
     "triple_reality": "Physical: food distribution / Psychological: colonial counting / Mythological: transformation beginning",
@@ -67,7 +84,6 @@
     "contamination_visible": "Black fibers in traditional food",
     "mathematical_impossibility": "Six shadows, six portions for five people"
   },
-
   "notes": {
     "thematic_purpose": "Danish counting as literal physical violence through temperature",
     "universal_masterpiece_rating": "10/10 - Danish as weapon revelation",

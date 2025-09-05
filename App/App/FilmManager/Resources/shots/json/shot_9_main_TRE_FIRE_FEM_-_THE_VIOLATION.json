@@ -5,10 +5,10 @@
     "title": "TRE FIRE FEM - THE VIOLATION",
     "sequence_type": "main_story",
     "duration_seconds": 8,
-    "narrative_function": "House 13/min + subtle heartbeat | KlettagjÃ¡ hairl...",
+    "narrative_function": "House 13/min + subtle heartbeat | Klettagj\u00c3\u00a1 hairl...",
     "stitch_from": "[STITCH from Shot 8: \"En, to\" complete, continuing count]"
   },
-  "progressive_state": "House 13/min + subtle heartbeat | KlettagjÃ¡ hairline deepening | Danish cold spreading | Camera frost 5% | Counting/poisoning climax | Watching: All layers converge on Sigrid",
+  "progressive_state": "House 13/min + subtle heartbeat | Klettagj\u00c3\u00a1 hairline deepening | Danish cold spreading | Camera frost 5% | Counting/poisoning climax | Watching: All layers converge on Sigrid",
   "prompt_variants": [
     {
       "variant_id": "9_story_primary",
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[MAGNÃšS] continuing the count with hÃ¡karl for Lilja (\"Tre\"), himself (\"Fire\"), then approaching [SIGRID] with the ram testicles for \"Fem,\" his inspection gaze examining her like prime livestock while forcing the grey-pink organs between her lips, her body maintaining exactly 11 feet even while unable to retreat further.",
-      "action": "\"Tre\" - Points at Lilja with small piece of hÃ¡karl. The 5-year-old takes it, mimics mother's chewing exactly, perfect synchronization beginning. \"Fire\" - MagnÃºs puts piece in own mouth, chews mechanically. Then his eyes fix on Sigrid. \"Fem\" - But instead of hÃ¡karl, raises the plate with ram testicles. Approaches her slowly, tremor increasing to 4Hz with anticipation. Sigrid pressed against wall, cannot retreat, maintains 11 feet by angling body. He reaches out with left hand, grips her jaw (tremor visible through her face), forces mouth open, examines teeth like checking sheep age - running thumb along molars, checking bite alignment. \"Sterkir kjÃ¡lkar\" (strong jaws) he mutters. \"GÃ³Ã°ur stofn\" (good stock). While holding her jaw, presses ram testicle to her lips with right hand. She must take it while he watches, his thumb still in her mouth checking swallow reflex. Her eyes never leave his - the only resistance she can offer. After swallowing, immediately slides along wall, reestablishing 11 feet. A single tear freezes on her cheek. Behind them, wall cracks deepen where she pressed, now 1mm, spelling \"FÃ“RN\" clearly.",
-      "scene": "The violation corner, 5:51 AM, grey light through frost revealing everything. Temperature -10Â°C where Danish was spoken, Sigrid's breath visible in panicked puffs. The ram testicles glisten with fermentation brine, slightly decomposed at edges, grey-pink like sick flesh. Where MagnÃºs touched her face, frost immediately forms - his hands so cold they burn. Other family members frozen in positions, chewing in synchronization, not watching, trained not to see. Six shadows on wall, Sigrid's shadow showing wings though her body shows none.",
+      "subject": "[MAGN\u00c3\u0161S] continuing the count with h\u00c3\u00a1karl for Lilja (\"Tre\"), himself (\"Fire\"), then approaching [SIGRID] with the ram testicles for \"Fem,\" his inspection gaze examining her like prime livestock while forcing the grey-pink organs between her lips, her body maintaining exactly 11 feet even while unable to retreat further.",
+      "action": "\"Tre\" - Points at Lilja with small piece of h\u00c3\u00a1karl. The 5-year-old takes it, mimics mother's chewing exactly, perfect synchronization beginning. \"Fire\" - Magn\u00c3\u00bas puts piece in own mouth, chews mechanically. Then his eyes fix on Sigrid. \"Fem\" - But instead of h\u00c3\u00a1karl, raises the plate with ram testicles. Approaches her slowly, tremor increasing to 4Hz with anticipation. Sigrid pressed against wall, cannot retreat, maintains 11 feet by angling body. He reaches out with left hand, grips her jaw (tremor visible through her face), forces mouth open, examines teeth like checking sheep age - running thumb along molars, checking bite alignment. \"Sterkir kj\u00c3\u00a1lkar\" (strong jaws) he mutters. \"G\u00c3\u00b3\u00c3\u00b0ur stofn\" (good stock). While holding her jaw, presses ram testicle to her lips with right hand. She must take it while he watches, his thumb still in her mouth checking swallow reflex. Her eyes never leave his - the only resistance she can offer. After swallowing, immediately slides along wall, reestablishing 11 feet. A single tear freezes on her cheek. Behind them, wall cracks deepen where she pressed, now 1mm, spelling \"F\u00c3\u201cRN\" clearly.",
+      "scene": "The violation corner, 5:51 AM, grey light through frost revealing everything. Temperature -10\u00c2\u00b0C where Danish was spoken, Sigrid's breath visible in panicked puffs. The ram testicles glisten with fermentation brine, slightly decomposed at edges, grey-pink like sick flesh. Where Magn\u00c3\u00bas touched her face, frost immediately forms - his hands so cold they burn. Other family members frozen in positions, chewing in synchronization, not watching, trained not to see. Six shadows on wall, Sigrid's shadow showing wings though her body shows none.",
       "style": "Uncomfortable close-up on the inspection and feeding, camera at Sigrid's shoulder height (that's where the camera is), documentary observation of breeding assessment as violation.",
       "camera_position": "Uncomfortable close-up on the inspection and feeding, camera at Sigrid's shoulder height",
-      "dialogue": "(MagnÃºs): \"Tre... Fire... Fem.\" (Tone: mechanical Danish) (During inspection): \"Sterkir kjÃ¡lkar. GÃ³Ã° tennur.\" (Tone: livestock assessment) \"GÃ³Ã°ur stofn til...\" (Tone: trailing off, implication clear) (Sigrid): Complete silence, only eyes speaking",
+      "dialogue": "(Magn\u00c3\u00bas): \"Tre... Fire... Fem.\" (Tone: mechanical Danish) (During inspection): \"Sterkir kj\u00c3\u00a1lkar. G\u00c3\u00b3\u00c3\u00b0 tennur.\" (Tone: livestock assessment) \"G\u00c3\u00b3\u00c3\u00b0ur stofn til...\" (Tone: trailing off, implication clear) (Sigrid): Complete silence, only eyes speaking",
       "audio": {
         "primary": [
           "Testicle forced between lips",
@@ -48,7 +48,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, no text overlays, no gratuitous detail, maintain documentary observation, no sexualization",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

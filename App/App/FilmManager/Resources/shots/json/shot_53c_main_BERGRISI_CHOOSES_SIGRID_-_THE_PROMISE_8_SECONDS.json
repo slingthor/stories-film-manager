@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "The house speaking directly to [SIGRID]: \"ÃžÃº ert Ãsland... Ã¾Ãº munt lifa... vertu Krummi\" while the ceiling cracks open above her sleeping platform, revealing stars, creating her escape route, as [MAGNÃšS] realizes the house has chosen her over him.",
-      "action": "House focuses on Sigrid. Different voice now - tender, paternal. \"ÃžÃš ERT ÃSLAND.\" MagnÃºs staggers back, hand leaving her shoulder. House protecting her. \"ÃžÃš MUNT LIFA.\" CRANE UP as ceiling above her platform begins cracking. Not collapsing - opening. Like flower blooming. Stars visible through widening gap. Cold air enters but doesn't touch her - house creates warm air bubble around her. \"VERTU KRUMMI.\" (Become raven.) The black feather in her hand begins glowing slightly. Through opening: seven ravens circling, waiting. The klettagjÃ¡ (rocky cleft) forming - her escape route. But also transformation site. MagnÃºs rages: \"NEI! HÃšN ER MÃN!\" Tries to grab her. Floor becomes liquid beneath him, swallows his feet to ankles. House holds him. Protects her. Loves her. She is Iceland. She will witness. She will escape. The ceiling continues opening - 3 feet wide now. Stars bright. Freedom visible.",
-      "scene": "Ceiling opening above Sigrid. Stars and ravens visible. MagnÃºs trapped by floor. Divine selection.",
+      "subject": "The house speaking directly to [SIGRID]: \"\u00c3\u017e\u00c3\u00ba ert \u00c3\u008dsland... \u00c3\u00be\u00c3\u00ba munt lifa... vertu Krummi\" while the ceiling cracks open above her sleeping platform, revealing stars, creating her escape route, as [MAGN\u00c3\u0161S] realizes the house has chosen her over him.",
+      "action": "House focuses on Sigrid. Different voice now - tender, paternal. \"\u00c3\u017e\u00c3\u0161 ERT \u00c3\u008dSLAND.\" Magn\u00c3\u00bas staggers back, hand leaving her shoulder. House protecting her. \"\u00c3\u017e\u00c3\u0161 MUNT LIFA.\" CRANE UP as ceiling above her platform begins cracking. Not collapsing - opening. Like flower blooming. Stars visible through widening gap. Cold air enters but doesn't touch her - house creates warm air bubble around her. \"VERTU KRUMMI.\" (Become raven.) The black feather in her hand begins glowing slightly. Through opening: seven ravens circling, waiting. The klettagj\u00c3\u00a1 (rocky cleft) forming - her escape route. But also transformation site. Magn\u00c3\u00bas rages: \"NEI! H\u00c3\u0161N ER M\u00c3\u008dN!\" Tries to grab her. Floor becomes liquid beneath him, swallows his feet to ankles. House holds him. Protects her. Loves her. She is Iceland. She will witness. She will escape. The ceiling continues opening - 3 feet wide now. Stars bright. Freedom visible.",
+      "scene": "Ceiling opening above Sigrid. Stars and ravens visible. Magn\u00c3\u00bas trapped by floor. Divine selection.",
       "style": "Crane up following ceiling opening (that's where the camera is), escape route documented.",
       "camera_position": "Crane up following ceiling opening",
-      "dialogue": "(House to Sigrid): \"ÃžÃº ert Ãsland... Ã¾Ãº munt lifa...\" \"Vertu Krummi\" (MagnÃºs, raging): \"NEI! HÃšN ER MÃN!\"",
+      "dialogue": "(House to Sigrid): \"\u00c3\u017e\u00c3\u00ba ert \u00c3\u008dsland... \u00c3\u00be\u00c3\u00ba munt lifa...\" \"Vertu Krummi\" (Magn\u00c3\u00bas, raging): \"NEI! H\u00c3\u0161N ER M\u00c3\u008dN!\"",
       "audio": {
         "primary": [
           "Ceiling cracking open",
@@ -31,7 +31,7 @@
         ],
         "ambient": [
           "Floor liquifying",
-          "MagnÃºs trapped",
+          "Magn\u00c3\u00bas trapped",
           "house protecting"
         ],
         "absent": [
@@ -45,7 +45,24 @@
         "referenced": []
       },
       "negative_prompt": "no collapse, opening not destruction, show stars clearly",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

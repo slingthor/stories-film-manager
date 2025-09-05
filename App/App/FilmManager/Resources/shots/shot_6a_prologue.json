@@ -1,6 +1,6 @@
 {
   "shot_metadata": {
-    "id": "6a", 
+    "id": "6a",
     "name": "MAKING_PURPLE_DRINK",
     "title": "Making Purple Drink - Neurotoxin Preparation",
     "sequence_type": "prologue",
@@ -15,7 +15,6 @@
     },
     "stitch_from": "Shot 5b: Women with berry baskets returning to houses"
   },
-
   "tracking_systems_current": {
     "breathing_coordination": 35.0,
     "temperature_progression": 28.0,
@@ -34,65 +33,82 @@
     "character_shadow_behavior": 18.0,
     "stain_progression": 40.0
   },
-
   "progressive_state": "Berries transformed | Women's work | Camera frost 0% | Staining complete | Watching: Sweetness bleeds",
-
   "prompt_variants": [
     {
       "variant_id": "6a_story_primary",
       "variant_name": "Traditional Berry Preparation",
-      "intent_tags": ["story_primary", "contamination"],
+      "intent_tags": [
+        "story_primary",
+        "contamination"
+      ],
       "priority": 1,
-      
-      "subject": "[GUÐRÚN] and [SIGRID] in outdoor cooking area, pouring baskets of crowberries into large iron pot over fire, purple juice immediately boiling, steam turning purple, both women's arms stained purple to shoulders.",
-      
-      "action": "Guðrún lifts basket, pours berries into pot. Berries fall like black rain. Juice explodes on impact, splashing purple on her white apron. Sigrid stirs with wooden paddle, steam rising purple-tinted. The juice boils instantly despite just being added. Too fast. Sigrid tastes from wooden spoon - her face transforms with sweetness, tears form in eyes. Too sweet. Too perfect. Adds water from bucket. Water turns purple before touching berries. Other women arrive with more baskets. Pour them in. Pot never overflows despite gallons added. Children gather around, holding wooden cups. Women fill cups. Children drink. All their teeth turn black immediately. Purple runs down their chins onto clothes. One child laughs - mouth completely black inside. The purple steam drifts toward whale processing. Mixes with smoke from rendering fires. Sky above turns purple-grey.",
-      
+      "subject": "[GU\u00d0R\u00daN] and [SIGRID] in outdoor cooking area, pouring baskets of crowberries into large iron pot over fire, purple juice immediately boiling, steam turning purple, both women's arms stained purple to shoulders.",
+      "action": "Gu\u00f0r\u00fan lifts basket, pours berries into pot. Berries fall like black rain. Juice explodes on impact, splashing purple on her white apron. Sigrid stirs with wooden paddle, steam rising purple-tinted. The juice boils instantly despite just being added. Too fast. Sigrid tastes from wooden spoon - her face transforms with sweetness, tears form in eyes. Too sweet. Too perfect. Adds water from bucket. Water turns purple before touching berries. Other women arrive with more baskets. Pour them in. Pot never overflows despite gallons added. Children gather around, holding wooden cups. Women fill cups. Children drink. All their teeth turn black immediately. Purple runs down their chins onto clothes. One child laughs - mouth completely black inside. The purple steam drifts toward whale processing. Mixes with smoke from rendering fires. Sky above turns purple-grey.",
       "scene": "Outdoor cooking area between houses. Large iron pot on stone firepit. Morning becoming noon. Purple stains everywhere.",
-      
       "style": "Medium shot of pot and women working (that's where the camera is), purple steam prominent, children gathering.",
-      
       "camera_position": "Medium shot focused on pot and preparation, that's where the camera is",
-      
       "dialogue": "None",
-      
       "audio": {
-        "primary_sounds": ["Berries splashing into pot", "liquid boiling", "wooden paddle stirring", "children gulping"],
-        "ambient_sounds": ["Whale rendering nearby", "purple steam hissing", "fire crackling"],
-        "absent_sounds": ["recipe instructions"]
+        "primary_sounds": [
+          "Berries splashing into pot",
+          "liquid boiling",
+          "wooden paddle stirring",
+          "children gulping"
+        ],
+        "ambient_sounds": [
+          "Whale rendering nearby",
+          "purple steam hissing",
+          "fire crackling"
+        ],
+        "absent_sounds": [
+          "recipe instructions"
+        ]
       },
-      
       "character_plates": {
-        "present": ["GUÐRÚN-ABUNDANT", "SIGRID-PURE"],
-        "referenced": ["Community women", "Children"]
+        "present": [
+          "GU\u00d0R\u00daN-ABUNDANT",
+          "SIGRID-PURE"
+        ],
+        "referenced": [
+          "Community women",
+          "Children"
+        ]
       },
-      
       "environmental_plates": {
         "landscape": "WESTFJORDS-COOKING-AREA",
         "weather": "MORNING-WARM",
         "lighting": "NOON-PURPLE-ENHANCED"
       },
-      
       "negative_prompt": "no subtitles, show purple steam, black teeth, instant boiling, staining everything, 1080p",
-      
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "sigrid": "SIGRID-AWAKENING"
+        },
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
-
   "others": {
     "ganzfeld_effect": "Steam creates uniform field hallucinations",
     "neurotoxin_crystals": "Berries show crystalline formations",
     "kvoldvaka_gestures": "Women's hands perform unconscious traditional movements",
-    "body_temperature": "Juice measures exactly 37°C",
+    "body_temperature": "Juice measures exactly 37\u00b0C",
     "berry_resistance": "Berries actively try to escape pot like insects",
     "sheep_faces": "Steam forms fleeting sheep faces only children notice"
   },
-
   "notes": {
     "thematic_purpose": "Traditional preparation containing chemical contamination",
     "enhancement_references": [
       "/Users/ingthor/Documents/stories/enhancements/shot_6a_making_purple_drink_ganzfeld_neurotoxin_horror.txt"
     ],
     "hallucinogenic_element": "Steam creating visual hallucinations preparing family consciousness"
-  }
+  },
+  "breathing_coordination": "Women's work synchronization (12-15/min)",
+  "acting_theme": "Traditional food preparation enhanced by contamination"
 }

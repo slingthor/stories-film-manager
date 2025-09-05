@@ -6,7 +6,7 @@
     "sequence_type": "main_story",
     "duration_seconds": 5,
     "narrative_function": "House 6/min labored + 70bpm stressed | Bergrisi sp...",
-    "stitch_from": "[STITCH from Shot 52c: MagnÃºs reaching for Sigrid]"
+    "stitch_from": "[STITCH from Shot 52c: Magn\u00c3\u00bas reaching for Sigrid]"
   },
   "progressive_state": "House 6/min labored + 70bpm stressed | Bergrisi speaking | Camera frost 43% | Giant's voice | Watching: House reveals itself",
   "prompt_variants": [
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "The entire house suddenly speaking at 16Hz through walls, floor, and beams simultaneously: \"Ã‰G ER BERGRISI\" - the words visible as dust falling from ceiling in letter patterns, while a 55-year-old man in brown wool and a 16-year-old girl in grey dress freeze as the giant identifies itself.",
-      "action": "WIDE SHOT of interior. MagnÃºs's hand on Sigrid's shoulder. Then: everything vibrates. 16Hz through structure - below human hearing, felt in bones, teeth, eyeballs. Words emerge from everywhere: \"Ã‰G ER BERGRISI.\" Not spoken but manifested. Dust cascades from ceiling, forming the letters briefly before dispersing. The three beams (ribs) flex visibly with each syllable. Floor becomes soft, warm, alive - exactly 37Â°C, body temperature. Windows fog instantly from house's breath. Everyone freezes. Even the tilberi stops its three-rhythm breathing. The empty clothes fall to ground like abandoned puppets. Only movement: dust letters forming and dissolving. \"Ã‰G... ER... BERGRISI.\" Each word makes the house more obviously body - walls perspiring, doorway like throat, smoke hole like nostril.",
+      "subject": "The entire house suddenly speaking at 16Hz through walls, floor, and beams simultaneously: \"\u00c3\u2030G ER BERGRISI\" - the words visible as dust falling from ceiling in letter patterns, while a 55-year-old man in brown wool and a 16-year-old girl in grey dress freeze as the giant identifies itself.",
+      "action": "WIDE SHOT of interior. Magn\u00c3\u00bas's hand on Sigrid's shoulder. Then: everything vibrates. 16Hz through structure - below human hearing, felt in bones, teeth, eyeballs. Words emerge from everywhere: \"\u00c3\u2030G ER BERGRISI.\" Not spoken but manifested. Dust cascades from ceiling, forming the letters briefly before dispersing. The three beams (ribs) flex visibly with each syllable. Floor becomes soft, warm, alive - exactly 37\u00c2\u00b0C, body temperature. Windows fog instantly from house's breath. Everyone freezes. Even the tilberi stops its three-rhythm breathing. The empty clothes fall to ground like abandoned puppets. Only movement: dust letters forming and dissolving. \"\u00c3\u2030G... ER... BERGRISI.\" Each word makes the house more obviously body - walls perspiring, doorway like throat, smoke hole like nostril.",
       "scene": "Entire interior as speaking cavity. Family frozen mid-action. House revealing itself as giant's body.",
       "style": "Wide vibrating with 16Hz resonance (that's where the camera is), giant's announcement documented.",
       "camera_position": "Wide vibrating with 16Hz resonance",
-      "dialogue": "(House/Bergrisi): \"Ã‰G ER BERGRISI\" (visual as dust letters)",
+      "dialogue": "(House/Bergrisi): \"\u00c3\u2030G ER BERGRISI\" (visual as dust letters)",
       "audio": {
         "primary": [
           "16Hz vibration through everything",
@@ -42,7 +42,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

@@ -5,10 +5,10 @@
     "title": "THE EMPTY BOUNTY NEW",
     "sequence_type": "main_story",
     "duration_seconds": 8,
-    "narrative_function": "House 13/min + 60bpm | KlettagjÃ¡ 1mm | Post-feedi...",
+    "narrative_function": "House 13/min + 60bpm | Klettagj\u00c3\u00a1 1mm | Post-feedi...",
     "stitch_from": "[STITCH from Shot 10: Synchronized chewing ending]"
   },
-  "progressive_state": "House 13/min + 60bpm | KlettagjÃ¡ 1mm | Post-feeding horror | Camera frost 6% | Starvation revealed | Watching: House sees all",
+  "progressive_state": "House 13/min + 60bpm | Klettagj\u00c3\u00a1 1mm | Post-feeding horror | Camera frost 6% | Starvation revealed | Watching: House sees all",
   "prompt_variants": [
     {
       "variant_id": "11_story_primary",
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[GUÃRÃšN] at the wall of shelves, frantically checking every space, every box, every corner, finding only dust circles where jars once stood, mouse droppings but no mice (already eaten), wood worn smooth from desperate daily checking, while behind her the nearly-empty oil lamp flickers - they're running out of everything.",
-      "action": "GuÃ°rÃºn moves along shelves with increasing desperation. First shelf: empty, dust, circular stains. Second shelf: empty box, spider web, no spider. Third shelf: salt crystals, nothing else. Opens wooden storage box: crumbs, mouse droppings, emptiness. Runs fingers along wood finding nothing, not even splinters to suck. Behind her, oil lamp gutters - maybe 30 minutes of oil left. She looks up at hanging shark - only upper fermented portion remains, lower part already consumed. Looks at hearth - last peat brick burning. Looks at family - JÃ³n's ribs visible through shirt, Lilja gnawing her thumb, Sigrid's hand protective over belly (feeding two on nothing). Cross patterns in window frost catching morning light, prophetic geometry. MagnÃºs watches her search, knows what she'll find, hand already moving to where he hid bread. The word \"HAMR\" visible carved into shelf edge, old, worn, like house itself knows what they are.",
-      "scene": "Morning after feeding, 6:00 AM, grey light through frosted window showing cross patterns. Temperature -10Â°C from Danish residue. Empty shelves span entire north wall - twenty-four spaces, all empty. Lamp oil nearly gone, wick showing. Even hanging shark mostly consumed. Starvation visible in everything.",
+      "subject": "[GU\u00c3\u0090R\u00c3\u0161N] at the wall of shelves, frantically checking every space, every box, every corner, finding only dust circles where jars once stood, mouse droppings but no mice (already eaten), wood worn smooth from desperate daily checking, while behind her the nearly-empty oil lamp flickers - they're running out of everything.",
+      "action": "Gu\u00c3\u00b0r\u00c3\u00ban moves along shelves with increasing desperation. First shelf: empty, dust, circular stains. Second shelf: empty box, spider web, no spider. Third shelf: salt crystals, nothing else. Opens wooden storage box: crumbs, mouse droppings, emptiness. Runs fingers along wood finding nothing, not even splinters to suck. Behind her, oil lamp gutters - maybe 30 minutes of oil left. She looks up at hanging shark - only upper fermented portion remains, lower part already consumed. Looks at hearth - last peat brick burning. Looks at family - J\u00c3\u00b3n's ribs visible through shirt, Lilja gnawing her thumb, Sigrid's hand protective over belly (feeding two on nothing). Cross patterns in window frost catching morning light, prophetic geometry. Magn\u00c3\u00bas watches her search, knows what she'll find, hand already moving to where he hid bread. The word \"HAMR\" visible carved into shelf edge, old, worn, like house itself knows what they are.",
+      "scene": "Morning after feeding, 6:00 AM, grey light through frosted window showing cross patterns. Temperature -10\u00c2\u00b0C from Danish residue. Empty shelves span entire north wall - twenty-four spaces, all empty. Lamp oil nearly gone, wick showing. Even hanging shark mostly consumed. Starvation visible in everything.",
       "style": "Tracking shot following her desperate search, camera at her shoulder (that's where the camera is), documentary observation of emptiness.",
       "camera_position": "Tracking shot following her desperate search, camera at her shoulder",
-      "dialogue": "(GuÃ°rÃºn): Sharp intake of breath at each empty space (MagnÃºs): \"TÃ³mt?\" (Tone: knowing the answer) (GuÃ°rÃºn): Nods silently, hand over mouth",
+      "dialogue": "(Gu\u00c3\u00b0r\u00c3\u00ban): Sharp intake of breath at each empty space (Magn\u00c3\u00bas): \"T\u00c3\u00b3mt?\" (Tone: knowing the answer) (Gu\u00c3\u00b0r\u00c3\u00ban): Nods silently, hand over mouth",
       "audio": {
         "primary": [
           "Hands searching empty wood",
@@ -45,11 +45,28 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, no text overlays, show complete emptiness, cross patterns in frost, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
-    "womens_silence": "GuÃ°rÃºn's desperate search wordless",
+    "womens_silence": "Gu\u00c3\u00b0r\u00c3\u00ban's desperate search wordless",
     "triple_reality": "Physical: no food remains / Psychological: denial breaking / Mythological: emptiness spreading"
   },
   "notes": {

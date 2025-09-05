@@ -6,7 +6,7 @@
     "sequence_type": "prologue",
     "duration_seconds": 8,
     "narrative_function": "Cliff approach | Ancient paths | Camera frost 0% |...",
-    "stitch_from": "[STITCH from Shot 2a: MagnÃºs and JÃ³n climbing path]"
+    "stitch_from": "[STITCH from Shot 2a: Magn\u00c3\u00bas and J\u00c3\u00b3n climbing path]"
   },
   "progressive_state": "Cliff approach | Ancient paths | Camera frost 0% | Height revealed | Watching: Earth opens",
   "prompt_variants": [
@@ -17,8 +17,8 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[MAGNÃšS] and [JÃ“N] climbing a narrow dirt path up 300-foot cliff face, the black rock wall covered with thousands of nesting seabirds, patches of green grass clinging to ledges, rope coiled over MagnÃºs's shoulder.",
-      "action": "MagnÃºs leads up steep path, boots finding holds in dirt. JÃ³n follows 6 feet behind, smaller feet careful on loose stones. Path only 2 feet wide, cliff wall on right, drop on left. Seabirds cover every ledge - puffins with orange beaks, guillemots in rows, kittiwakes clustered. Birds shift as humans pass but don't fly. Too many birds - every square foot of cliff has nests. Path turns sharply. View opens showing full cliff height - 300 feet vertical black basalt columns. In cliff face, regular holes appear, 2 feet diameter, perfectly round. Some holes have golden light inside despite sun angle wrong. MagnÃºs's breathing steady. JÃ³n breathing harder, stops to rest. MagnÃºs waits without turning. Boy starts climbing again. Near path, eggs visible in nests - pure white, no spots, glowing faintly in shadow.",
+      "subject": "[MAGN\u00c3\u0161S] and [J\u00c3\u201cN] climbing a narrow dirt path up 300-foot cliff face, the black rock wall covered with thousands of nesting seabirds, patches of green grass clinging to ledges, rope coiled over Magn\u00c3\u00bas's shoulder.",
+      "action": "Magn\u00c3\u00bas leads up steep path, boots finding holds in dirt. J\u00c3\u00b3n follows 6 feet behind, smaller feet careful on loose stones. Path only 2 feet wide, cliff wall on right, drop on left. Seabirds cover every ledge - puffins with orange beaks, guillemots in rows, kittiwakes clustered. Birds shift as humans pass but don't fly. Too many birds - every square foot of cliff has nests. Path turns sharply. View opens showing full cliff height - 300 feet vertical black basalt columns. In cliff face, regular holes appear, 2 feet diameter, perfectly round. Some holes have golden light inside despite sun angle wrong. Magn\u00c3\u00bas's breathing steady. J\u00c3\u00b3n breathing harder, stops to rest. Magn\u00c3\u00bas waits without turning. Boy starts climbing again. Near path, eggs visible in nests - pure white, no spots, glowing faintly in shadow.",
       "scene": "Cliff face, morning. Path zigzagging up basalt columns. Ocean 200 feet below. Millions of seabirds. Clear morning light.",
       "style": "Following shot behind climbers showing path and cliff face (that's where the camera is), handheld matching climbing movement.",
       "camera_position": "Following shot behind climbers showing path and cliff face",
@@ -43,7 +43,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show massive cliff scale, birds covering every surface, golden light in holes, 1080p",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},

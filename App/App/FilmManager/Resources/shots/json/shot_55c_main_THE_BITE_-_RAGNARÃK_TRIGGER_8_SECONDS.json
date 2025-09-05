@@ -1,8 +1,8 @@
 {
   "shot_metadata": {
     "id": "55c",
-    "name": "THE_BITE___RAGNARÃK_TRIGGER_8_SECONDS",
-    "title": "THE BITE - RAGNARÃK TRIGGER 8 SECONDS",
+    "name": "THE_BITE___RAGNAR\u00c3K_TRIGGER_8_SECONDS",
+    "title": "THE BITE - RAGNAR\u00c3K TRIGGER 8 SECONDS",
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "Ouroboros complete | World ending | Camera frost 4...",
@@ -12,7 +12,7 @@
   "prompt_variants": [
     {
       "variant_id": "55c_story_primary",
-      "variant_name": "Primary - THE BITE - RAGNARÃK TRIGGER 8 SECONDS",
+      "variant_name": "Primary - THE BITE - RAGNAR\u00c3K TRIGGER 8 SECONDS",
       "intent_tags": [
         "story_primary"
       ],
@@ -20,9 +20,9 @@
       "subject": "The trawler's bow opening impossibly wide - revealing rows of industrial teeth - and biting down on the massive tail, the moment of contact sending shockwave across fjord, through house, triggering the family's final transformation.",
       "action": "Trawler's bow SPLITS. Not breaking - opening. Like mouth. Inside: rows of teeth. But industrial teeth - circular saws, grinding gears, metal fangs. Still trawler but also ancient mouth. Tail arrives at bow. Moment of hesitation. Then: BITE. Teeth pierce scales. Green-black blood explodes. Not just blood - oil, contamination, centuries of poison. Shockwave ripples outward. Hits house. Everything shakes. Family thrown to floor. But as they fall, they change. Mid-air transformation beginning. Hands becoming hooves. Faces elongating. But also NOT changing - were always both. Through window: trawler/serpent completing circle. Biting harder. Swallowing itself. Industrial capitalism consuming its own body. Circle getting smaller. Water inside circle dropping - whirlpool forming. Abyss opening. The end of one world. Beginning of another. Sigrid alone stands, black feather glowing. She doesn't transform. Yet.",
       "scene": "Wide view of complete ouroboros. House shaking. Family falling/transforming. Apocalyptic moment.",
-      "style": "Wide to close on bite, shockwave through everything (that's where the camera is), RagnarÃ¶k documented.",
+      "style": "Wide to close on bite, shockwave through everything (that's where the camera is), Ragnar\u00c3\u00b6k documented.",
       "camera_position": "Wide to close on bite, shockwave through everything",
-      "dialogue": "(House/Bergrisi, dying scream): \"NÃšNA!\" (Family): Sounds between human and animal",
+      "dialogue": "(House/Bergrisi, dying scream): \"N\u00c3\u0161NA!\" (Family): Sounds between human and animal",
       "audio": {
         "primary": [
           "Industrial teeth biting scales",
@@ -43,12 +43,29 @@
         "referenced": []
       },
       "negative_prompt": "show bite clearly, transformation beginning, maintain epic scale",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
     "womens_silence": "Silent witness to apocalypse",
-    "triple_reality": "Physical: circle closed | Psychological: madness complete | Mythological: RagnarÃ¶k begins"
+    "triple_reality": "Physical: circle closed | Psychological: madness complete | Mythological: Ragnar\u00c3\u00b6k begins"
   },
   "notes": {
     "sequence": "main_story",

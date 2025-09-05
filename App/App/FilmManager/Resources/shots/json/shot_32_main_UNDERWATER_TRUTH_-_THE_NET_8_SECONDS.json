@@ -6,7 +6,7 @@
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "Empty fjord | False hope revealed | Camera frost 2...",
-    "stitch_from": "[STITCH from Shot 31: Children seeing true shapes, MagnÃºs pulling taut line]"
+    "stitch_from": "[STITCH from Shot 31: Children seeing true shapes, Magn\u00c3\u00bas pulling taut line]"
   },
   "progressive_state": "Empty fjord | False hope revealed | Camera frost 20.5% | Trawler's theft visible | Watching: We witness below",
   "prompt_variants": [
@@ -17,8 +17,8 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Underwater camera following [MAGNÃšS]'s fishing line down through crystalline emptiness to reveal it's caught not on fish but on the trawler's massive net - a black industrial web dragging the seafloor, containing the entire fjord's fish population, thousands of silver bodies pressed against mesh, their eyes all turned upward toward his tiny hook.",
-      "action": "Camera descends with line through crystal water. 10 feet: nothing. 20 feet: nothing. 28 feet: darkness moving. 30 feet: revelation. MagnÃºs's small hook caught in massive trawl net, industrial mesh black with tar, hemp rope thick as arms. Inside net: all the fish. Thousands. Cod, haddock, wolffish, everything that should be in fjord, compressed together. All alive but trapped. Their eyes - every single eye - turned upward toward MagnÃºs's pathetic hook. Some fish have V-notches in fins (marked but taken anyway). Net drags slowly across bottom, scraping stone, leaving those spiral scars. But net itself is wrong - not just industrial but organic, pulsing slightly, rope patterns forming scales. This IS JÃ¶rmungandr's body, not metaphor. Cross patterns visible where net sections meet - same geometry as frost on windows. As net moves, trapped fish breathe in unison: 12/min, matching house rhythm. They know they're livestock too.",
+      "subject": "Underwater camera following [MAGN\u00c3\u0161S]'s fishing line down through crystalline emptiness to reveal it's caught not on fish but on the trawler's massive net - a black industrial web dragging the seafloor, containing the entire fjord's fish population, thousands of silver bodies pressed against mesh, their eyes all turned upward toward his tiny hook.",
+      "action": "Camera descends with line through crystal water. 10 feet: nothing. 20 feet: nothing. 28 feet: darkness moving. 30 feet: revelation. Magn\u00c3\u00bas's small hook caught in massive trawl net, industrial mesh black with tar, hemp rope thick as arms. Inside net: all the fish. Thousands. Cod, haddock, wolffish, everything that should be in fjord, compressed together. All alive but trapped. Their eyes - every single eye - turned upward toward Magn\u00c3\u00bas's pathetic hook. Some fish have V-notches in fins (marked but taken anyway). Net drags slowly across bottom, scraping stone, leaving those spiral scars. But net itself is wrong - not just industrial but organic, pulsing slightly, rope patterns forming scales. This IS J\u00c3\u00b6rmungandr's body, not metaphor. Cross patterns visible where net sections meet - same geometry as frost on windows. As net moves, trapped fish breathe in unison: 12/min, matching house rhythm. They know they're livestock too.",
       "scene": "Underwater, 30 feet down, perfect visibility. Trawl net massive - 50 feet wide, containing entire ecosystem. Seafloor bare except for scrape marks. Water so clear the tragedy is completely visible.",
       "style": "Underwater POV following line down to revelation (that's where the camera is), documentary witnessing extraction.",
       "camera_position": "Underwater POV following line down to revelation",
@@ -44,12 +44,29 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show all fish trapped together, V-notches visible, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
     "womens_silence": "None present",
-    "triple_reality": "Physical: line snagged / Psychological: denial's end / Mythological: JÃ¶rmungandr's coils"
+    "triple_reality": "Physical: line snagged / Psychological: denial's end / Mythological: J\u00c3\u00b6rmungandr's coils"
   },
   "notes": {
     "sequence": "main_story",

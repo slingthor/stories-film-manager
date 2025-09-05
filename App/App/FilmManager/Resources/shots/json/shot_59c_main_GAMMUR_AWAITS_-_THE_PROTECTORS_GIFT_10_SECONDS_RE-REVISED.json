@@ -8,7 +8,7 @@
     "narrative_function": "Breaking free | Camera frost 54% | Gammur claiming...",
     "stitch_from": "[STITCH from Shot 59b: Through impossible cleft]"
   },
-  "progressive_state": "Breaking free | Camera frost 54% | Gammur claiming her | Watching: LandvÃ¦ttir fulfills promise",
+  "progressive_state": "Breaking free | Camera frost 54% | Gammur claiming her | Watching: Landv\u00c3\u00a6ttir fulfills promise",
   "prompt_variants": [
     {
       "variant_id": "59c_story_primary",
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[SIGRID]-raven emerging from obelisk top to find GAMMUR - the ancient landvÃ¦ttir raven, massive and timeless - waiting with seven ravens, speaking in the old woman's voice: \"Ã‰g kom eins og lofaÃ°\" (I came as promised), before touching her with one wing, completing her transformation to witness.",
-      "action": "CRANE UP as Sigrid emerges. At cleft top: GAMMUR. Not just any raven - THE raven. LandvÃ¦ttir. Protector. Ancient. Twice her size. Feathers containing stars. Eyes holding all Iceland's memories. The one who gave her the black feather. Who spoke prophecy. Who promised escape. \"Ã‰g kom eins og lofaÃ°\" - old woman's voice from massive bird. Gammur extends one wing. Touches Sigrid. At contact: final transformation. The human fully gone. Pure raven. Pure witness. But more - Gammur's touch transfers memory. All of Iceland's history flows into her. She KNOWS now. Everything. The sacrifice's meaning. The freedom coming. Her role. Gammur speaks again: \"ÃžÃº ert Ãsland. FlÃºgÃ°u fyrir okkur.\" (You are Iceland. Fly for us.) The seven ravens are Gammur's witnesses. But Gammur is oldest. Was here before Vikings. Will be here after independence. The eternal watcher who chose Sigrid for escape. The obelisk responds to Gammur - sends black light beam up. The landvÃ¦ttir and monument recognizing each other. Old gods and new forms. Bergrisi reborn as stone. Gammur eternal as sky. Sigrid between them - the bridge.",
+      "subject": "[SIGRID]-raven emerging from obelisk top to find GAMMUR - the ancient landv\u00c3\u00a6ttir raven, massive and timeless - waiting with seven ravens, speaking in the old woman's voice: \"\u00c3\u2030g kom eins og lofa\u00c3\u00b0\" (I came as promised), before touching her with one wing, completing her transformation to witness.",
+      "action": "CRANE UP as Sigrid emerges. At cleft top: GAMMUR. Not just any raven - THE raven. Landv\u00c3\u00a6ttir. Protector. Ancient. Twice her size. Feathers containing stars. Eyes holding all Iceland's memories. The one who gave her the black feather. Who spoke prophecy. Who promised escape. \"\u00c3\u2030g kom eins og lofa\u00c3\u00b0\" - old woman's voice from massive bird. Gammur extends one wing. Touches Sigrid. At contact: final transformation. The human fully gone. Pure raven. Pure witness. But more - Gammur's touch transfers memory. All of Iceland's history flows into her. She KNOWS now. Everything. The sacrifice's meaning. The freedom coming. Her role. Gammur speaks again: \"\u00c3\u017e\u00c3\u00ba ert \u00c3\u008dsland. Fl\u00c3\u00bag\u00c3\u00b0u fyrir okkur.\" (You are Iceland. Fly for us.) The seven ravens are Gammur's witnesses. But Gammur is oldest. Was here before Vikings. Will be here after independence. The eternal watcher who chose Sigrid for escape. The obelisk responds to Gammur - sends black light beam up. The landv\u00c3\u00a6ttir and monument recognizing each other. Old gods and new forms. Bergrisi reborn as stone. Gammur eternal as sky. Sigrid between them - the bridge.",
       "scene": "Obelisk top. Gammur waiting. Seven ravens circling. Sky containing all times. Freedom moment.",
-      "style": "Crane up showing Gammur's gift (that's where the camera is), landvÃ¦ttir documented.",
+      "style": "Crane up showing Gammur's gift (that's where the camera is), landv\u00c3\u00a6ttir documented.",
       "camera_position": "Crane up showing Gammur's gift",
-      "dialogue": "(Gammur, old woman's voice): \"Ã‰g kom eins og lofaÃ°\" \"ÃžÃº ert Ãsland. FlÃºgÃ°u fyrir okkur\" (Sigrid-raven): \"Ã‰g man. Ã‰g vitna.\"",
+      "dialogue": "(Gammur, old woman's voice): \"\u00c3\u2030g kom eins og lofa\u00c3\u00b0\" \"\u00c3\u017e\u00c3\u00ba ert \u00c3\u008dsland. Fl\u00c3\u00bag\u00c3\u00b0u fyrir okkur\" (Sigrid-raven): \"\u00c3\u2030g man. \u00c3\u2030g vitna.\"",
       "audio": {
         "primary": [
           "Gammur's ancient wings",
@@ -45,7 +45,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

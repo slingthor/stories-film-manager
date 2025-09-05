@@ -17,8 +17,8 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Aerial shot following [GUÃRÃšN] walking through the blood spiral patterns, her path creating the sixth line, but now her own blood from torn wrists adding to the pattern, creating second layer of red on snow, while her faldbÃºningur headdress has frozen into ice crown.",
-      "action": "AERIAL SHOT, 20 meters high, following her. She walks the exact spiral path, feet finding her earlier footprints. But now bleeding - wrists where wool emerged won't close, drops every few steps. Her blood darker than MagnÃºs's frozen blood beneath. Two reds visible from above. Pattern deepening: five original spirals, her path making sixth, her blood creating shadow pattern. FaldbÃºningur completely frozen, ice crystals forming crown shape, weighing head down but she doesn't remove it. From above: she looks like chess piece moving through board pattern. House visible ahead, smoke black not grey - something burning inside. Her breathing visible as white column rising. But breath rate changing: was 11/min synchronized, now shifting, unstable - 11... 13... 9... 15 (Sigrid's rate)... 11. Can't maintain synchronization alone. Body forgetting how to be livestock. Remembering how to be individual. Even though \"DAUÃUR\" pronounced.",
+      "subject": "Aerial shot following [GU\u00c3\u0090R\u00c3\u0161N] walking through the blood spiral patterns, her path creating the sixth line, but now her own blood from torn wrists adding to the pattern, creating second layer of red on snow, while her faldb\u00c3\u00baningur headdress has frozen into ice crown.",
+      "action": "AERIAL SHOT, 20 meters high, following her. She walks the exact spiral path, feet finding her earlier footprints. But now bleeding - wrists where wool emerged won't close, drops every few steps. Her blood darker than Magn\u00c3\u00bas's frozen blood beneath. Two reds visible from above. Pattern deepening: five original spirals, her path making sixth, her blood creating shadow pattern. Faldb\u00c3\u00baningur completely frozen, ice crystals forming crown shape, weighing head down but she doesn't remove it. From above: she looks like chess piece moving through board pattern. House visible ahead, smoke black not grey - something burning inside. Her breathing visible as white column rising. But breath rate changing: was 11/min synchronized, now shifting, unstable - 11... 13... 9... 15 (Sigrid's rate)... 11. Can't maintain synchronization alone. Body forgetting how to be livestock. Remembering how to be individual. Even though \"DAU\u00c3\u0090UR\" pronounced.",
       "scene": "Blood spiral field between shore and house. Her small figure crossing pattern. House 200 meters ahead.",
       "style": "Aerial following shot showing pattern completion (that's where the camera is), documenting spiral fate.",
       "camera_position": "Aerial following shot showing pattern completion",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

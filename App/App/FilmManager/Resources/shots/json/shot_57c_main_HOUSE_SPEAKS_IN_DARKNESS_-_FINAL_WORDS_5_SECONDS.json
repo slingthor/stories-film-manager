@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "In the darkness, the house speaks its last words as Bergrisi: \"Ã‰g dey... klettagjÃ¡ verÃ°ur... Sigrid... flÃºgÃ°u\" (I die... rocky cleft becomes... Sigrid... fly), then heartbeat stops, breathing ends, but structure remains.",
-      "action": "Darkness continues. Then through everything - walls, floor, air itself - voice emerges. Not sound but vibration. Bergrisi's death speech: \"Ã‰g dey...\" The words create wind through house. \"KlettagjÃ¡ verÃ°ur...\" Walls crack audibly. Not collapsing - transforming. Opening. Becoming cleft. \"Sigrid...\" Personal address. The giant knows her. Loves her. Dies for her. \"FlÃºgÃ°u.\" Command. Promise. Prophecy. Then: silence. No heartbeat. No breathing. House dead. But structure stands. Transformed. No longer giant's body but rocky cleft. Escape route. Birth canal. In darkness, sound of stone settling. New geography. The house IS the klettagjÃ¡ from lullaby. Always was becoming this. Sheep breathing continues. But one breath different - Sigrid's still 15/min. Still unchanged. Still resisting.",
+      "subject": "In the darkness, the house speaks its last words as Bergrisi: \"\u00c3\u2030g dey... klettagj\u00c3\u00a1 ver\u00c3\u00b0ur... Sigrid... fl\u00c3\u00bag\u00c3\u00b0u\" (I die... rocky cleft becomes... Sigrid... fly), then heartbeat stops, breathing ends, but structure remains.",
+      "action": "Darkness continues. Then through everything - walls, floor, air itself - voice emerges. Not sound but vibration. Bergrisi's death speech: \"\u00c3\u2030g dey...\" The words create wind through house. \"Klettagj\u00c3\u00a1 ver\u00c3\u00b0ur...\" Walls crack audibly. Not collapsing - transforming. Opening. Becoming cleft. \"Sigrid...\" Personal address. The giant knows her. Loves her. Dies for her. \"Fl\u00c3\u00bag\u00c3\u00b0u.\" Command. Promise. Prophecy. Then: silence. No heartbeat. No breathing. House dead. But structure stands. Transformed. No longer giant's body but rocky cleft. Escape route. Birth canal. In darkness, sound of stone settling. New geography. The house IS the klettagj\u00c3\u00a1 from lullaby. Always was becoming this. Sheep breathing continues. But one breath different - Sigrid's still 15/min. Still unchanged. Still resisting.",
       "scene": "Continued darkness. House speaking through death. Transformation audible.",
       "style": "Black screen with voice through everything (that's where the camera is), death speech documented.",
       "camera_position": "Black screen with voice through everything",
-      "dialogue": "(House/Bergrisi, dying): \"Ã‰g dey... klettagjÃ¡ verÃ°ur...\" \"Sigrid... flÃºgÃ°u\"",
+      "dialogue": "(House/Bergrisi, dying): \"\u00c3\u2030g dey... klettagj\u00c3\u00a1 ver\u00c3\u00b0ur...\" \"Sigrid... fl\u00c3\u00bag\u00c3\u00b0u\"",
       "audio": {
         "primary": [
           "Voice through structure",
@@ -43,7 +43,24 @@
         "referenced": []
       },
       "negative_prompt": "maintain complete darkness, no light",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

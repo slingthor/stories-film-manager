@@ -17,8 +17,8 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[MAGNÃšS] kneeling on grass at cliff top, demonstrating knot-tying to [JÃ“N], hands moving slowly through the motions, rope forming complex patterns, ocean visible 300 feet below with blood trail now reaching shore.",
-      "action": "MagnÃºs kneels on thick grass. Spreads rope in front of him. JÃ³n kneels opposite, watching intently. MagnÃºs's large hands take rope end. Forms loop. Passes end through. Pulls to create bowline knot. Unties it. Hands rope to JÃ³n. Boy's smaller hands try to copy. Makes wrong loop. MagnÃºs places his hands over boy's, guides them. Together they form knot correctly. MagnÃºs nods once. Takes rope back. Shows second knot - clove hitch. More complex. JÃ³n watches every movement. Behind them, cliff edge drops straight down. Ocean below shows whale's blood trail now reaching beach, spreading along shoreline. Other men visible as dots preparing flensing area. Women disappeared toward purple hills. MagnÃºs ties rope around JÃ³n's waist, through legs, creating harness. Tests each loop. Boy stands still, trusting.",
+      "subject": "[MAGN\u00c3\u0161S] kneeling on grass at cliff top, demonstrating knot-tying to [J\u00c3\u201cN], hands moving slowly through the motions, rope forming complex patterns, ocean visible 300 feet below with blood trail now reaching shore.",
+      "action": "Magn\u00c3\u00bas kneels on thick grass. Spreads rope in front of him. J\u00c3\u00b3n kneels opposite, watching intently. Magn\u00c3\u00bas's large hands take rope end. Forms loop. Passes end through. Pulls to create bowline knot. Unties it. Hands rope to J\u00c3\u00b3n. Boy's smaller hands try to copy. Makes wrong loop. Magn\u00c3\u00bas places his hands over boy's, guides them. Together they form knot correctly. Magn\u00c3\u00bas nods once. Takes rope back. Shows second knot - clove hitch. More complex. J\u00c3\u00b3n watches every movement. Behind them, cliff edge drops straight down. Ocean below shows whale's blood trail now reaching beach, spreading along shoreline. Other men visible as dots preparing flensing area. Women disappeared toward purple hills. Magn\u00c3\u00bas ties rope around J\u00c3\u00b3n's waist, through legs, creating harness. Tests each loop. Boy stands still, trusting.",
       "scene": "Grassy cliff top, morning sun higher. Edge visible 10 feet away. Ocean far below. Green grass thick, small white flowers scattered.",
       "style": "Medium shot from side showing both faces and hands working (that's where the camera is), intimate teaching moment, ocean visible in background.",
       "camera_position": "Medium shot from side showing both faces and hands working",
@@ -43,7 +43,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show hands working rope clearly, blood trail visible in ocean below, intimate moment, 1080p",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},

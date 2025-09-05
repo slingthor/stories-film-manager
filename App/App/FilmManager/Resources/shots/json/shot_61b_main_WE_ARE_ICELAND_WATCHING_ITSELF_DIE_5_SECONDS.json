@@ -18,11 +18,11 @@
       ],
       "priority": 1,
       "subject": "The camera understanding it IS Iceland watching itself transform, the frost representing centuries of cold isolation, each percentage point a year under foreign rule, documentation of its own colonization, trembling at witnessing itself.",
-      "action": "SLOW PUSH toward obelisk while shaking. We understand now. Camera = Iceland's consciousness. Documenting its own transformation. Frost percentage = years of colonization. 57% = 57 years into Danish rule. Will reach 100% at full transformation. The push continues but image degrades. Not technical failure - emotional breakdown. Iceland can barely watch itself anymore. Through frosted lens: obelisk contains the truth. The family inside = what Iceland became. Sheep in glass. Preserved trauma. But also Sigrid escaped = Iceland will escape. The camera knows its own death approaches. When it reaches 100% frost, the old Iceland dies. But must document until end. Must witness all. The tremor increases: 3Hz to 5Hz. Matching MagnÃºs's progression. The colonizer's tremor becomes the colonized's tremor. Inherited trauma. Passed down. Shaking with cold. With fear. With transformation.",
+      "action": "SLOW PUSH toward obelisk while shaking. We understand now. Camera = Iceland's consciousness. Documenting its own transformation. Frost percentage = years of colonization. 57% = 57 years into Danish rule. Will reach 100% at full transformation. The push continues but image degrades. Not technical failure - emotional breakdown. Iceland can barely watch itself anymore. Through frosted lens: obelisk contains the truth. The family inside = what Iceland became. Sheep in glass. Preserved trauma. But also Sigrid escaped = Iceland will escape. The camera knows its own death approaches. When it reaches 100% frost, the old Iceland dies. But must document until end. Must witness all. The tremor increases: 3Hz to 5Hz. Matching Magn\u00c3\u00bas's progression. The colonizer's tremor becomes the colonized's tremor. Inherited trauma. Passed down. Shaking with cold. With fear. With transformation.",
       "scene": "Approaching obelisk. Frost increasing. Vision narrowing. Identity clear.",
       "style": "Push while dying (that's where the camera is), self-documentation.",
       "camera_position": "Push while dying",
-      "dialogue": "(Frost writing): \"Ã‰G DEY\" (I die) \"TIL AÃ VERÃA FRJÃLS\" (To become free)",
+      "dialogue": "(Frost writing): \"\u00c3\u2030G DEY\" (I die) \"TIL A\u00c3\u0090 VER\u00c3\u0090A FRJ\u00c3\u0081LS\" (To become free)",
       "audio": {
         "primary": [
           "5Hz tremor increasing",
@@ -42,7 +42,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

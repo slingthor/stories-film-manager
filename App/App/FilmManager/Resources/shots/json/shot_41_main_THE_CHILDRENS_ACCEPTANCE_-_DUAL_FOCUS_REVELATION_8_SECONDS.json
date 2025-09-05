@@ -6,7 +6,7 @@
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "House 3/min + 40bpm weak | Children seeing truth |...",
-    "stitch_from": "[STITCH from Shot 40: GuÃ°rÃºn counting silently, pulling wool]"
+    "stitch_from": "[STITCH from Shot 40: Gu\u00c3\u00b0r\u00c3\u00ban counting silently, pulling wool]"
   },
   "progressive_state": "House 3/min + 40bpm weak | Children seeing truth | Camera frost 26.5% | Future accepting past | Watching: Through innocent eyes",
   "prompt_variants": [
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Camera racking focus between [JÃ“N] and [LILJA] as they sit in their rÃ©ttir positions, the boy drawing with his finger in floor dust the word \"HAMR\" while the girl arranges wool pulled from her mother's wrists into tiny sheep shapes, both children breathing at 20/min (lamb rate) while their human teeth are visibly loosening, adult sheep teeth pushing through behind.",
-      "action": "FOCUS ON JÃ“N: His finger traces \"HAMR\" in dust, but the word appears already carved underneath - he's tracing what was always there. Fever at 39Â°C makes him see both layers. Opens mouth to breathe, loose baby tooth falls out. Behind it, flat sheep tooth already emerged, white and wide. Doesn't react - expected. RACK TO LILJA: Taking wool her mother unconsciously pulled from wrists, shaping tiny sheep. But shapes match family exactly - ram with curved horns (MagnÃºs), ewe with something on head (GuÃ°rÃºn's faldbÃºningur), young ewe apart from others (Sigrid). Arranging them in pen formation. RACK TO JÃ“N: Another tooth falls. Catches it, examines. Human tooth in child hand but shadow shows hoof holding it. RACK TO LILJA: Humming Krummi tune but words changed: \"Kindur svaf Ã­ klettagjÃ¡\" (Sheep slept in rocky cleft). RACK TO BOTH: They look at each other, perfect understanding. JÃ³n: \"ViÃ° vitum\" (We know). Lilja nods. They accept. They're the future. This sacrifice enables their children to be human.",
-      "scene": "Children's positions in rÃ©ttir, 9:40 AM. Both positioned as lambs would be - protected but marked. Light through smoke creating layers.",
+      "subject": "Camera racking focus between [J\u00c3\u201cN] and [LILJA] as they sit in their r\u00c3\u00a9ttir positions, the boy drawing with his finger in floor dust the word \"HAMR\" while the girl arranges wool pulled from her mother's wrists into tiny sheep shapes, both children breathing at 20/min (lamb rate) while their human teeth are visibly loosening, adult sheep teeth pushing through behind.",
+      "action": "FOCUS ON J\u00c3\u201cN: His finger traces \"HAMR\" in dust, but the word appears already carved underneath - he's tracing what was always there. Fever at 39\u00c2\u00b0C makes him see both layers. Opens mouth to breathe, loose baby tooth falls out. Behind it, flat sheep tooth already emerged, white and wide. Doesn't react - expected. RACK TO LILJA: Taking wool her mother unconsciously pulled from wrists, shaping tiny sheep. But shapes match family exactly - ram with curved horns (Magn\u00c3\u00bas), ewe with something on head (Gu\u00c3\u00b0r\u00c3\u00ban's faldb\u00c3\u00baningur), young ewe apart from others (Sigrid). Arranging them in pen formation. RACK TO J\u00c3\u201cN: Another tooth falls. Catches it, examines. Human tooth in child hand but shadow shows hoof holding it. RACK TO LILJA: Humming Krummi tune but words changed: \"Kindur svaf \u00c3\u00ad klettagj\u00c3\u00a1\" (Sheep slept in rocky cleft). RACK TO BOTH: They look at each other, perfect understanding. J\u00c3\u00b3n: \"Vi\u00c3\u00b0 vitum\" (We know). Lilja nods. They accept. They're the future. This sacrifice enables their children to be human.",
+      "scene": "Children's positions in r\u00c3\u00a9ttir, 9:40 AM. Both positioned as lambs would be - protected but marked. Light through smoke creating layers.",
       "style": "Rapid rack focus between subjects, shallow depth of field isolating each child (that's where the camera is), documentary of innocent knowing.",
       "camera_position": "Rapid rack focus between subjects, shallow depth of field isolating each child",
-      "dialogue": "(JÃ³n, tracing): \"Hamr... var alltaf hamr\" (Shape... was always shape) (Lilja, changed song): \"Kindur svaf Ã­ klettagjÃ¡\" (Both together): \"ViÃ° vitum\" (We know)",
+      "dialogue": "(J\u00c3\u00b3n, tracing): \"Hamr... var alltaf hamr\" (Shape... was always shape) (Lilja, changed song): \"Kindur svaf \u00c3\u00ad klettagj\u00c3\u00a1\" (Both together): \"Vi\u00c3\u00b0 vitum\" (We know)",
       "audio": {
         "primary": [
           "Teeth falling with tiny clicks",
@@ -46,7 +46,24 @@
         "referenced": []
       },
       "negative_prompt": "maintain focus pulling rhythm, no static shots, show teeth clearly",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

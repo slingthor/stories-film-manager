@@ -5,10 +5,10 @@
     "title": "ACCELERATING FROST - TIME COLLAPSING 8 SECONDS",
     "sequence_type": "main_story",
     "duration_seconds": 8,
-    "narrative_function": "Rapid freezing | Frost 58%â†’85% | History condens...",
+    "narrative_function": "Rapid freezing | Frost 58%\u00e2\u2020\u201985% | History condens...",
     "stitch_from": "[STITCH from Shot 61c: Fragmented witnesses]"
   },
-  "progressive_state": "Rapid freezing | Frost 58%â†’85% | History condensing | Watching: Final moments",
+  "progressive_state": "Rapid freezing | Frost 58%\u00e2\u2020\u201985% | History condensing | Watching: Final moments",
   "prompt_variants": [
     {
       "variant_id": "62a_story_primary",
@@ -43,7 +43,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

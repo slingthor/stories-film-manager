@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "As [GUÃRÃšN] approaches the house, the door opens by itself before she reaches it - not wind but the house choosing to admit her, while through windows the family is visible frozen in tableau, watching her impossible return from death sentence.",
-      "action": "GuÃ°rÃºn 10 meters from door. Reaches for handle. Door OPENS inward before contact. Not wind - deliberate, slow, controlled. Like someone inside opening, but family visible through window, no one near door. All frozen in rÃ©ttir positions still, watching her approach. PUSH IN on door gap widening. Steam exits - house is warmer than outside, 37Â°C at floor (body temperature). Door opens exactly wide enough for her to enter, no more. House breathing accelerates seeing her: 16/min to 18/min, excited or panicked. Through doorway: family arranged as before. MagnÃºs standing separate, face showing shock - she survived his death sentence. Children on floor, JÃ³n's sheep teeth more visible. Sigrid still exactly 11 feet from MagnÃºs, hand on belly, only one unsurprised. Tilberi at center, brass eye turning toward door. Empty clothes have moved - now standing in formation behind family, sixth presence confirmed. Door waits. Patient. She steps through. Door closes itself behind her. Gentle. House has chosen. Bergrisi protecting her from MagnÃºs's next violence.",
+      "subject": "As [GU\u00c3\u0090R\u00c3\u0161N] approaches the house, the door opens by itself before she reaches it - not wind but the house choosing to admit her, while through windows the family is visible frozen in tableau, watching her impossible return from death sentence.",
+      "action": "Gu\u00c3\u00b0r\u00c3\u00ban 10 meters from door. Reaches for handle. Door OPENS inward before contact. Not wind - deliberate, slow, controlled. Like someone inside opening, but family visible through window, no one near door. All frozen in r\u00c3\u00a9ttir positions still, watching her approach. PUSH IN on door gap widening. Steam exits - house is warmer than outside, 37\u00c2\u00b0C at floor (body temperature). Door opens exactly wide enough for her to enter, no more. House breathing accelerates seeing her: 16/min to 18/min, excited or panicked. Through doorway: family arranged as before. Magn\u00c3\u00bas standing separate, face showing shock - she survived his death sentence. Children on floor, J\u00c3\u00b3n's sheep teeth more visible. Sigrid still exactly 11 feet from Magn\u00c3\u00bas, hand on belly, only one unsurprised. Tilberi at center, brass eye turning toward door. Empty clothes have moved - now standing in formation behind family, sixth presence confirmed. Door waits. Patient. She steps through. Door closes itself behind her. Gentle. House has chosen. Bergrisi protecting her from Magn\u00c3\u00bas's next violence.",
       "scene": "House exterior to interior, 10:15 AM. Door acting autonomously. Family tableau visible. Temperature differential visible as steam.",
       "style": "Push in on sentient door, revealing interior tableau (that's where the camera is), house agency documented.",
       "camera_position": "Push in on sentient door, revealing interior tableau",
-      "dialogue": "(MagnÃºs, shocked): \"ÃžÃº... lifÃ°ir?\" (Sigrid, unsurprised): \"HÃºsiÃ° valdi\" (The house chose) (Door): Creaking in greeting rhythm",
+      "dialogue": "(Magn\u00c3\u00bas, shocked): \"\u00c3\u017e\u00c3\u00ba... lif\u00c3\u00b0ir?\" (Sigrid, unsurprised): \"H\u00c3\u00basi\u00c3\u00b0 valdi\" (The house chose) (Door): Creaking in greeting rhythm",
       "audio": {
         "primary": [
           "Door opening controlled",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "no wind causation, show door's deliberate movement, maintain tableau",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

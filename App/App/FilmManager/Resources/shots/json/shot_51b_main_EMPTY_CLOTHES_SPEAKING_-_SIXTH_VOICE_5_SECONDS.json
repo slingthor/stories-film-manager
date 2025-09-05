@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "The empty clothes in corner suddenly speaking in whispers - [MAGNÃšS]'s sweater, [GUÃRÃšN]'s spare dress - counting in Danish but getting seven: \"En, to, tre, fire, fem, seks... syv?\" while family freezes hearing sixth voice.",
-      "action": "PAN FROM children to corner. Empty clothes standing in human formation. MagnÃºs's sweater raises sleeve as if pointing. From inside, whisper emerges: \"En...\" GuÃ°rÃºn's spare dress responds: \"To...\" Back and forth, counting. But reaching seven: \"Syv?\" Family freezes. Who is seven? Empty clothes have been breathing at 8/min, now speaking. Not possessed - manifested. The sixth presence confirming itself. But suggesting seventh. Through fabric, shapes almost visible - not bodies but memory of bodies. The clothes remember wearing. Remember counting. Sigrid's spare dress stands apart, 11 feet from MagnÃºs's clothes, maintaining distance even empty. The whispers are in voices family recognizes but can't place. Their own voices from future? From past? MagnÃºs turns toward clothes: \"HvaÃ°?\" But clothes fall silent. Resume breathing only. But seven has been spoken.",
+      "subject": "The empty clothes in corner suddenly speaking in whispers - [MAGN\u00c3\u0161S]'s sweater, [GU\u00c3\u0090R\u00c3\u0161N]'s spare dress - counting in Danish but getting seven: \"En, to, tre, fire, fem, seks... syv?\" while family freezes hearing sixth voice.",
+      "action": "PAN FROM children to corner. Empty clothes standing in human formation. Magn\u00c3\u00bas's sweater raises sleeve as if pointing. From inside, whisper emerges: \"En...\" Gu\u00c3\u00b0r\u00c3\u00ban's spare dress responds: \"To...\" Back and forth, counting. But reaching seven: \"Syv?\" Family freezes. Who is seven? Empty clothes have been breathing at 8/min, now speaking. Not possessed - manifested. The sixth presence confirming itself. But suggesting seventh. Through fabric, shapes almost visible - not bodies but memory of bodies. The clothes remember wearing. Remember counting. Sigrid's spare dress stands apart, 11 feet from Magn\u00c3\u00bas's clothes, maintaining distance even empty. The whispers are in voices family recognizes but can't place. Their own voices from future? From past? Magn\u00c3\u00bas turns toward clothes: \"Hva\u00c3\u00b0?\" But clothes fall silent. Resume breathing only. But seven has been spoken.",
       "scene": "Corner with clothes, family frozen listening. Night darkness except ember glow.",
       "style": "Pan revealing animated clothes (that's where the camera is), sixth presence confirmed.",
       "camera_position": "Pan revealing animated clothes",
-      "dialogue": "(Empty clothes, whispering): \"En, to, tre, fire, fem, seks... syv?\" (MagnÃºs): \"HvaÃ°? Hver talar?\" (Clothes): Return to just breathing",
+      "dialogue": "(Empty clothes, whispering): \"En, to, tre, fire, fem, seks... syv?\" (Magn\u00c3\u00bas): \"Hva\u00c3\u00b0? Hver talar?\" (Clothes): Return to just breathing",
       "audio": {
         "primary": [
           "Fabric whispering",
@@ -42,7 +42,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

@@ -22,7 +22,7 @@
       "scene": "Sigrid standing in beam of light. Transformation visible. Ravens above excited. Family watching.",
       "style": "Circle revealing transformation stages (that's where the camera is), metamorphosis documented.",
       "camera_position": "Circle revealing transformation stages",
-      "dialogue": "(Sigrid, last human words): \"Ã‰g mun muna\" (I will remember) \"Ã‰g mun vitna\" (I will witness)",
+      "dialogue": "(Sigrid, last human words): \"\u00c3\u2030g mun muna\" (I will remember) \"\u00c3\u2030g mun vitna\" (I will witness)",
       "audio": {
         "primary": [
           "Bones restructuring",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "maintain beauty in transformation, not horror",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

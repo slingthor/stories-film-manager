@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[GUÃRÃšN] standing in doorway dripping (water or blood depending on version), the family frozen in shock at her survival, camera circling her as each family member's reaction reveals their position - MagnÃºs's rage, children's relief, Sigrid's knowing, while the tilberi at center breathes its three rhythms welcoming her return.",
-      "action": "CAMERA BEGINS CIRCLING her in doorway. She drips - either ice-melt or blood depending on version chosen. First quarter rotation: MagnÃºs's face, rage building at failed authority. His 0Hz hands clenching. She survived his death sentence. Second quarter: Children on floor, JÃ³n showing sheep teeth in relief smile, Lilja reaching toward mother but not moving from rÃ©ttir position. Third quarter: Tilberi at center, brass eye weeping green tears, three-rhythm breathing accelerating in recognition. Rope skeleton expanding with excitement. It knows she fed the Bull. Final quarter: Sigrid, exactly 11 feet from MagnÃºs still, only one unsurprised. \"HÃºsiÃ° valdi\" she said. The house chose. Complete circle shows GuÃ°rÃºn at threshold - neither in nor out. House breathing 18/min around her, warming her, protecting. Her faldbÃºningur (ice crown or blood crown) begins melting, dripping. Each drop hisses on the 37Â°C floor. She's between two states: death pronouncement outside, life inside. The house choosing life.",
+      "subject": "[GU\u00c3\u0090R\u00c3\u0161N] standing in doorway dripping (water or blood depending on version), the family frozen in shock at her survival, camera circling her as each family member's reaction reveals their position - Magn\u00c3\u00bas's rage, children's relief, Sigrid's knowing, while the tilberi at center breathes its three rhythms welcoming her return.",
+      "action": "CAMERA BEGINS CIRCLING her in doorway. She drips - either ice-melt or blood depending on version chosen. First quarter rotation: Magn\u00c3\u00bas's face, rage building at failed authority. His 0Hz hands clenching. She survived his death sentence. Second quarter: Children on floor, J\u00c3\u00b3n showing sheep teeth in relief smile, Lilja reaching toward mother but not moving from r\u00c3\u00a9ttir position. Third quarter: Tilberi at center, brass eye weeping green tears, three-rhythm breathing accelerating in recognition. Rope skeleton expanding with excitement. It knows she fed the Bull. Final quarter: Sigrid, exactly 11 feet from Magn\u00c3\u00bas still, only one unsurprised. \"H\u00c3\u00basi\u00c3\u00b0 valdi\" she said. The house chose. Complete circle shows Gu\u00c3\u00b0r\u00c3\u00ban at threshold - neither in nor out. House breathing 18/min around her, warming her, protecting. Her faldb\u00c3\u00baningur (ice crown or blood crown) begins melting, dripping. Each drop hisses on the 37\u00c2\u00b0C floor. She's between two states: death pronouncement outside, life inside. The house choosing life.",
       "scene": "Interior doorway, 10:18 AM. Family in positions. Temperature differential extreme. Dripping creating puddle.",
-      "style": "360Â° around her showing all reactions (that's where the camera is), impossible survival documented.",
-      "camera_position": "360Â° around her showing all reactions",
-      "dialogue": "(MagnÃºs): \"ÃžÃš ÃTTIR AÃ DEYJA\" (GuÃ°rÃºn, finally speaking): \"HÃºsiÃ°... vildi ekki\" (Sigrid): \"Bergrisi valdi\" (Giant chose)",
+      "style": "360\u00c2\u00b0 around her showing all reactions (that's where the camera is), impossible survival documented.",
+      "camera_position": "360\u00c2\u00b0 around her showing all reactions",
+      "dialogue": "(Magn\u00c3\u00bas): \"\u00c3\u017e\u00c3\u0161 \u00c3\u0081TTIR A\u00c3\u0090 DEYJA\" (Gu\u00c3\u00b0r\u00c3\u00ban, finally speaking): \"H\u00c3\u00basi\u00c3\u00b0... vildi ekki\" (Sigrid): \"Bergrisi valdi\" (Giant chose)",
       "audio": {
         "primary": [
           "Dripping (water or blood)",
@@ -43,7 +43,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

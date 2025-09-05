@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Camera circling [MAGNÃšS] as he takes in the transformed scene - family in rÃ©ttir formation, children's sheep teeth visible, GuÃ°rÃºn pulling wool from wrists, tilberi at center where he should be, his authority usurped by contaminated creation.",
-      "action": "CAMERA BEGINS CIRCLING as MagnÃºs turns, taking in disaster. First quarter: Sees GuÃ°rÃºn on floor, not standing for his return, wool hanging from her wrists like she's becoming material. Second quarter: JÃ³n and Lilja, mouths open showing sheep teeth, breathing at 20/min (lamb rate), his son's fever breaking but eyes animal-bright. Third quarter: Tilberi at center where patriarch should stand, rope skeleton visible, brass eye weeping, breathing three rhythms, family arranged around IT not him. Final quarter: Sigrid maintaining exactly 11 feet even now, hand protective on belly (feeding two), only one breathing at different rate (15/min unchanged). Complete circle shows his position: standing outside their formation. He's excluded. Not needed. Failed provider, failed protector, failed patriarch. Rage builds. Drops fin. 0Hz hands clench (can't feel nails breaking skin). House exhales finally - long, dying breath at 3/min.",
+      "subject": "Camera circling [MAGN\u00c3\u0161S] as he takes in the transformed scene - family in r\u00c3\u00a9ttir formation, children's sheep teeth visible, Gu\u00c3\u00b0r\u00c3\u00ban pulling wool from wrists, tilberi at center where he should be, his authority usurped by contaminated creation.",
+      "action": "CAMERA BEGINS CIRCLING as Magn\u00c3\u00bas turns, taking in disaster. First quarter: Sees Gu\u00c3\u00b0r\u00c3\u00ban on floor, not standing for his return, wool hanging from her wrists like she's becoming material. Second quarter: J\u00c3\u00b3n and Lilja, mouths open showing sheep teeth, breathing at 20/min (lamb rate), his son's fever breaking but eyes animal-bright. Third quarter: Tilberi at center where patriarch should stand, rope skeleton visible, brass eye weeping, breathing three rhythms, family arranged around IT not him. Final quarter: Sigrid maintaining exactly 11 feet even now, hand protective on belly (feeding two), only one breathing at different rate (15/min unchanged). Complete circle shows his position: standing outside their formation. He's excluded. Not needed. Failed provider, failed protector, failed patriarch. Rage builds. Drops fin. 0Hz hands clench (can't feel nails breaking skin). House exhales finally - long, dying breath at 3/min.",
       "scene": "Full interior revealed in rotation. Family floor-level, him standing isolated. Tilberi as new center.",
-      "style": "360Â° track around MagnÃºs, showing his isolation from every angle (that's where the camera is), authority dissolved.",
-      "camera_position": "360Â° track around MagnÃºs, showing his isolation from every angle",
-      "dialogue": "(MagnÃºs, building rage): \"Af hverju... af hverju eruÃ° Ã¾iÃ°...\" (Seeing tilberi): \"HVAÃ ER ÃžETTA?\" (To GuÃ°rÃºn): \"ÃžÃš... Ã¾Ãº gerÃ°ir Ã¾etta?\"",
+      "style": "360\u00c2\u00b0 track around Magn\u00c3\u00bas, showing his isolation from every angle (that's where the camera is), authority dissolved.",
+      "camera_position": "360\u00c2\u00b0 track around Magn\u00c3\u00bas, showing his isolation from every angle",
+      "dialogue": "(Magn\u00c3\u00bas, building rage): \"Af hverju... af hverju eru\u00c3\u00b0 \u00c3\u00bei\u00c3\u00b0...\" (Seeing tilberi): \"HVA\u00c3\u0090 ER \u00c3\u017eETTA?\" (To Gu\u00c3\u00b0r\u00c3\u00ban): \"\u00c3\u017e\u00c3\u0161... \u00c3\u00be\u00c3\u00ba ger\u00c3\u00b0ir \u00c3\u00beetta?\"",
       "audio": {
         "primary": [
           "Camera circling",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "maintain circular movement, no cuts, show transformation evidence",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

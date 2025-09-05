@@ -6,7 +6,7 @@
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "House 8/min + 50bpm slowing | Ritual beginning | C...",
-    "stitch_from": "[STITCH from Shot 22b: MagnÃºs collapsed outside]"
+    "stitch_from": "[STITCH from Shot 22b: Magn\u00c3\u00bas collapsed outside]"
   },
   "progressive_state": "House 8/min + 50bpm slowing | Ritual beginning | Camera frost 14% | First words | Watching: House holds breath",
   "prompt_variants": [
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[SIGRID] kneeling before the contaminated materials, opening grandmother's forbidden book with trembling hands, her 16-year-old voice speaking aloud for the first time since MagnÃºs left - clear and high, like glass breaking: \"Ã‰g verÃ° aÃ° bjarga barninu\" (I must save the child).",
-      "action": "Sigrid arranges materials in final pattern: sheep rib north-south, industrial rope coiled beside it, brass button at center, wool in handful. Opens book - pages yellow, some Danish replacing Old Norse, water damage making words swim. Her hand protective on belly, feeling movement - baby responding to mother's voice. Traces finger along first line of incantation. Takes breath, breaks her silence: \"Ã‰g verÃ° aÃ° bjarga barninu.\" Voice young, desperate, but clear. Years of enforced silence breaking like dam. GuÃ°rÃºn's head snaps up, shocked to hear daughter speak. Empty clothes lean forward. House breathing catches, holds at inhale. Through window, trawler beam passes, illuminating her face - determination and terror mixed. Book shows illustration: tilberi creature suckling, but margins have industrial additions - gears, pipes, contamination even in drawings.",
-      "scene": "Interior, 6:35 AM, trawler light every 20 seconds. Temperature -15Â°C. Grandmother's corner with forbidden books, Christian crosses failing to hide pagan symbols underneath. Materials arranged but wrong - industrial mixing with organic.",
+      "subject": "[SIGRID] kneeling before the contaminated materials, opening grandmother's forbidden book with trembling hands, her 16-year-old voice speaking aloud for the first time since Magn\u00c3\u00bas left - clear and high, like glass breaking: \"\u00c3\u2030g ver\u00c3\u00b0 a\u00c3\u00b0 bjarga barninu\" (I must save the child).",
+      "action": "Sigrid arranges materials in final pattern: sheep rib north-south, industrial rope coiled beside it, brass button at center, wool in handful. Opens book - pages yellow, some Danish replacing Old Norse, water damage making words swim. Her hand protective on belly, feeling movement - baby responding to mother's voice. Traces finger along first line of incantation. Takes breath, breaks her silence: \"\u00c3\u2030g ver\u00c3\u00b0 a\u00c3\u00b0 bjarga barninu.\" Voice young, desperate, but clear. Years of enforced silence breaking like dam. Gu\u00c3\u00b0r\u00c3\u00ban's head snaps up, shocked to hear daughter speak. Empty clothes lean forward. House breathing catches, holds at inhale. Through window, trawler beam passes, illuminating her face - determination and terror mixed. Book shows illustration: tilberi creature suckling, but margins have industrial additions - gears, pipes, contamination even in drawings.",
+      "scene": "Interior, 6:35 AM, trawler light every 20 seconds. Temperature -15\u00c2\u00b0C. Grandmother's corner with forbidden books, Christian crosses failing to hide pagan symbols underneath. Materials arranged but wrong - industrial mixing with organic.",
       "style": "Close on Sigrid's face as silence breaks, pull back to show materials (that's where the camera is), documentary of threshold moment.",
       "camera_position": "Close on Sigrid's face as silence breaks, pull back to show materials",
-      "dialogue": "(Sigrid, breaking silence): \"Ã‰g verÃ° aÃ° bjarga barninu\" (Reading): \"Tilberi, tilberi...\" (GuÃ°rÃºn, shocked): Sharp inhale, no words",
+      "dialogue": "(Sigrid, breaking silence): \"\u00c3\u2030g ver\u00c3\u00b0 a\u00c3\u00b0 bjarga barninu\" (Reading): \"Tilberi, tilberi...\" (Gu\u00c3\u00b0r\u00c3\u00ban, shocked): Sharp inhale, no words",
       "audio": {
         "primary": [
           "Pages turning",
@@ -46,11 +46,28 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
-    "womens_silence": "BREAKING - MagnÃºs gone, she speaks",
+    "womens_silence": "BREAKING - Magn\u00c3\u00bas gone, she speaks",
     "triple_reality": "Physical: teenage girl kneeling / Psychological: desperate mother / Mythological: crossing threshold"
   },
   "notes": {

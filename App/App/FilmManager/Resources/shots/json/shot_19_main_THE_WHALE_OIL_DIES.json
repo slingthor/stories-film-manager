@@ -6,7 +6,7 @@
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "House 15/min + 80bpm | Old light ending | Camera f...",
-    "stitch_from": "[STITCH from Shot 18: MagnÃºs exits with door open]"
+    "stitch_from": "[STITCH from Shot 18: Magn\u00c3\u00bas exits with door open]"
   },
   "progressive_state": "House 15/min + 80bpm | Old light ending | Camera frost 11% (for post) | Traditional world dying | Watching: Absence",
   "prompt_variants": [
@@ -18,7 +18,7 @@
       ],
       "priority": 1,
       "subject": "The whale oil lamp, abandoned on table with door open creating wind, flame fighting the draft and losing - shrinking from fingernail size to pinpoint to blue whisper to nothing, the last traditional light source extinguished, leaving only the memory of warmth.",
-      "action": "Door still open from MagnÃºs's exit. Arctic wind enters, -25Â°C fighting -12Â°C. The candle he used already dead. Only whale oil lamp remains, but wind finds it. Flame bends horizontal, trying to survive. Shrinks to half size. Quarter size. Pinpoint. The oil is gone - 200 years of whale oil lamps in this house, ending now. The wick glows red for moment, ember of old world. Then black. Complete darkness. Through open door, sound of MagnÃºs dragging boat through snow. Inside, family in absolute black. GuÃ°rÃºn doesn't move to close door. Children breathing but invisible. Sigrid's hand finds wall, traces \"FÃ“RN\" by feel. House breathing drops to 10/min, grieving. Heartbeat slows to 50bpm. The darkness is complete - not even starlight through frost. Old world dead.",
+      "action": "Door still open from Magn\u00c3\u00bas's exit. Arctic wind enters, -25\u00c2\u00b0C fighting -12\u00c2\u00b0C. The candle he used already dead. Only whale oil lamp remains, but wind finds it. Flame bends horizontal, trying to survive. Shrinks to half size. Quarter size. Pinpoint. The oil is gone - 200 years of whale oil lamps in this house, ending now. The wick glows red for moment, ember of old world. Then black. Complete darkness. Through open door, sound of Magn\u00c3\u00bas dragging boat through snow. Inside, family in absolute black. Gu\u00c3\u00b0r\u00c3\u00ban doesn't move to close door. Children breathing but invisible. Sigrid's hand finds wall, traces \"F\u00c3\u201cRN\" by feel. House breathing drops to 10/min, grieving. Heartbeat slows to 50bpm. The darkness is complete - not even starlight through frost. Old world dead.",
       "scene": "Table with dying lamp, 6:22 AM but no light. Temperature plummeting from open door. The lamp that lit generations, dead. Smoke from extinguished wick rising invisible in darkness. The empty oil reservoir that once held whale blubber, now holding nothing.",
       "style": "Extreme close on dying flame, then pulling back to absolute darkness (that's where the camera is), documentary of light's death.",
       "camera_position": "Extreme close on dying flame, then pulling back to absolute darkness",
@@ -33,7 +33,7 @@
         "ambient": [
           "House breathing slowing to 10/min (grief)",
           "heartbeat to 50bpm",
-          "MagnÃºs dragging boat outside"
+          "Magn\u00c3\u00bas dragging boat outside"
         ],
         "absent": [
           "no voices",
@@ -46,7 +46,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, true darkness after flame dies, maintain absence, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

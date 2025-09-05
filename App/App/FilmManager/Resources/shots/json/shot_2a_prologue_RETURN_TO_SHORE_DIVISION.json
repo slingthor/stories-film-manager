@@ -17,8 +17,8 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Three boats reaching black sand beach, men pulling boats onto sand, [MAGNÃšS] and [JÃ“N] walking toward cliff path with ropes while other men prepare the flensing area with long knives, women gathering baskets on higher ground.",
-      "action": "Boats scrape onto black sand. Men jump out, boots splashing in shallow water. Pull boats above tide line. MagnÃºs picks up coiled rope from boat, 100 feet of hemp. Touches JÃ³n's shoulder, boy follows immediately. They walk toward steep path leading to cliffs. Four men remain on beach, take long flensing knives from boat, begin sharpening on whetstones. Set up wooden racks near waterline. Two men gather driftwood for fires. On grassy slope above beach, GuÃ°rÃºn leads fifteen women carrying woven baskets. Women wear bright colored dresses - red, blue, white. Sigrid among them, basket over arm. They head inland toward purple hills visible in distance. Ocean behind still shows red blood trail spreading wider. Whale not visible yet but blood trail points directly at beach.",
+      "subject": "Three boats reaching black sand beach, men pulling boats onto sand, [MAGN\u00c3\u0161S] and [J\u00c3\u201cN] walking toward cliff path with ropes while other men prepare the flensing area with long knives, women gathering baskets on higher ground.",
+      "action": "Boats scrape onto black sand. Men jump out, boots splashing in shallow water. Pull boats above tide line. Magn\u00c3\u00bas picks up coiled rope from boat, 100 feet of hemp. Touches J\u00c3\u00b3n's shoulder, boy follows immediately. They walk toward steep path leading to cliffs. Four men remain on beach, take long flensing knives from boat, begin sharpening on whetstones. Set up wooden racks near waterline. Two men gather driftwood for fires. On grassy slope above beach, Gu\u00c3\u00b0r\u00c3\u00ban leads fifteen women carrying woven baskets. Women wear bright colored dresses - red, blue, white. Sigrid among them, basket over arm. They head inland toward purple hills visible in distance. Ocean behind still shows red blood trail spreading wider. Whale not visible yet but blood trail points directly at beach.",
       "scene": "Black sand beach, early morning. Clear sky. Cliffs to right with path visible. Purple berry-covered hills inland. Ocean with spreading blood trail.",
       "style": "Wide shot from hillside showing beach, people splitting into three groups (that's where the camera is), movement in different directions.",
       "camera_position": "Wide shot from hillside showing beach, people splitting into three groups",
@@ -43,7 +43,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show three groups clearly, blood trail in ocean, people moving different directions, 1080p",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},

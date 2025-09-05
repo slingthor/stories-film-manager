@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[MAGNÃšS] reaching for his grandfather's rifle with 0Hz hands (no tremor, no feeling), the mechanism frozen with ice that he breaks with an oar, while above him ravens begin circling - not one but seven, forming a spiral pattern that matches the blood circles below.",
-      "action": "MagnÃºs's rage cold, calculated. Reaches under boat bench for rifle wrapped in oilcloth. 0Hz hands can't feel the wrapping, tears it clumsily. 1891 Danish military rifle, grandfather's from forgotten war. Mechanism frozen - ice in trigger guard, bolt locked. Breaks ice with oar handle, sharp cracks. Above, ravens appear from nowhere. First one, then three, then seven, circling in spiral pattern. Not cawing - silent witnesses. Their shadows on water form pattern matching blood spirals on land. Checks ammunition: three bullets only. Were for seals. Now for serpent. 0Hz hands struggle loading - can't feel if bullet seated properly. Has to check visually. Trawler continuing away, 150 meters now, yellow lights still sweeping. But in its wake, water changing color - from black to green-black, poisoned.",
+      "subject": "[MAGN\u00c3\u0161S] reaching for his grandfather's rifle with 0Hz hands (no tremor, no feeling), the mechanism frozen with ice that he breaks with an oar, while above him ravens begin circling - not one but seven, forming a spiral pattern that matches the blood circles below.",
+      "action": "Magn\u00c3\u00bas's rage cold, calculated. Reaches under boat bench for rifle wrapped in oilcloth. 0Hz hands can't feel the wrapping, tears it clumsily. 1891 Danish military rifle, grandfather's from forgotten war. Mechanism frozen - ice in trigger guard, bolt locked. Breaks ice with oar handle, sharp cracks. Above, ravens appear from nowhere. First one, then three, then seven, circling in spiral pattern. Not cawing - silent witnesses. Their shadows on water form pattern matching blood spirals on land. Checks ammunition: three bullets only. Were for seals. Now for serpent. 0Hz hands struggle loading - can't feel if bullet seated properly. Has to check visually. Trawler continuing away, 150 meters now, yellow lights still sweeping. But in its wake, water changing color - from black to green-black, poisoned.",
       "scene": "Open water, 9:20 AM. Ravens circling above in perfect spiral. Trawler's wake showing contamination. Mountains still watching.",
       "style": "Close on hands preparing rifle, tilt up to ravens circling (that's where the camera is), documentary of last resort.",
       "camera_position": "Close on hands preparing rifle, tilt up to ravens circling",
-      "dialogue": "(MagnÃºs, to rifle): \"Eina vopniÃ°...\" (Only weapon...) (Counting bullets): \"ÃžrjÃº skot\" (Three shots)",
+      "dialogue": "(Magn\u00c3\u00bas, to rifle): \"Eina vopni\u00c3\u00b0...\" (Only weapon...) (Counting bullets): \"\u00c3\u017erj\u00c3\u00ba skot\" (Three shots)",
       "audio": {
         "primary": [
           "Ice breaking on mechanism",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

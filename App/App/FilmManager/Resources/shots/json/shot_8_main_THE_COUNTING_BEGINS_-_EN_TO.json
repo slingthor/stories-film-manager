@@ -5,10 +5,10 @@
     "title": "THE COUNTING BEGINS - EN TO",
     "sequence_type": "main_story",
     "duration_seconds": 8,
-    "narrative_function": "House 13/min | KlettagjÃ¡ hairline | Danish emergi...",
-    "stitch_from": "[STITCH from Shot 7: Family in positions, MagnÃºs ready to count]"
+    "narrative_function": "House 13/min | Klettagj\u00c3\u00a1 hairline | Danish emergi...",
+    "stitch_from": "[STITCH from Shot 7: Family in positions, Magn\u00c3\u00bas ready to count]"
   },
-  "progressive_state": "House 13/min | KlettagjÃ¡ hairline | Danish emerging | Camera frost 4% | Counting IS poisoning | Watching: Empire through MagnÃºs",
+  "progressive_state": "House 13/min | Klettagj\u00c3\u00a1 hairline | Danish emerging | Camera frost 4% | Counting IS poisoning | Watching: Empire through Magn\u00c3\u00bas",
   "prompt_variants": [
     {
       "variant_id": "8_story_primary",
@@ -17,16 +17,16 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[MAGNÃšS] beginning the Danish counting while simultaneously distributing hÃ¡karl, his tremoring hand (3.5Hz) pointing at each family member with a piece of the grey-green fermented shark, the counting and poisoning revealed as the same act - administrative violence IS physical poisoning.",
-      "action": "MagnÃºs shifts to Danish, voice becoming mechanical, administrative. Points at GuÃ°rÃºn with first piece of hÃ¡karl: \"En\" (One). She takes it, puts in mouth immediately, begins chewing. The meat is 13 days into 90-day fermentation - visible green spots, ammonia vapor rising. Points at JÃ³n with second piece: \"To\" (Two). The fevered boy takes it, struggles to swallow, green liquid dripping from corner of mouth. With each Danish word, temperature seems to drop - frost spreading on walls near where Danish is spoken, as if language itself brings cold. The hÃ¡karl pieces have black fibers running through them, pulsing slightly. Industrial contamination already in the food. MagnÃºs's tremor makes pointing unstable, hÃ¡karl pieces shaking. House breathing maintains 13/min but heartbeat underneath beginning - subtle, might be imagination. Six shadows on wall, sixth shadow moving though no sixth person counted yet.",
-      "scene": "Morning sorting ritual, 5:49 AM, light growing outside but still dim. Temperature drops from -8Â°C to -9Â°C as Danish spoken. Frost spreading on north wall in dendritic patterns where Danish words hit. The hÃ¡karl on plate shows five pieces cut but six exist. Each piece releasing visible ammonia that makes eyes water. Breath vapor from everyone, but during Danish, breath seems to freeze mid-air briefly.",
+      "subject": "[MAGN\u00c3\u0161S] beginning the Danish counting while simultaneously distributing h\u00c3\u00a1karl, his tremoring hand (3.5Hz) pointing at each family member with a piece of the grey-green fermented shark, the counting and poisoning revealed as the same act - administrative violence IS physical poisoning.",
+      "action": "Magn\u00c3\u00bas shifts to Danish, voice becoming mechanical, administrative. Points at Gu\u00c3\u00b0r\u00c3\u00ban with first piece of h\u00c3\u00a1karl: \"En\" (One). She takes it, puts in mouth immediately, begins chewing. The meat is 13 days into 90-day fermentation - visible green spots, ammonia vapor rising. Points at J\u00c3\u00b3n with second piece: \"To\" (Two). The fevered boy takes it, struggles to swallow, green liquid dripping from corner of mouth. With each Danish word, temperature seems to drop - frost spreading on walls near where Danish is spoken, as if language itself brings cold. The h\u00c3\u00a1karl pieces have black fibers running through them, pulsing slightly. Industrial contamination already in the food. Magn\u00c3\u00bas's tremor makes pointing unstable, h\u00c3\u00a1karl pieces shaking. House breathing maintains 13/min but heartbeat underneath beginning - subtle, might be imagination. Six shadows on wall, sixth shadow moving though no sixth person counted yet.",
+      "scene": "Morning sorting ritual, 5:49 AM, light growing outside but still dim. Temperature drops from -8\u00c2\u00b0C to -9\u00c2\u00b0C as Danish spoken. Frost spreading on north wall in dendritic patterns where Danish words hit. The h\u00c3\u00a1karl on plate shows five pieces cut but six exist. Each piece releasing visible ammonia that makes eyes water. Breath vapor from everyone, but during Danish, breath seems to freeze mid-air briefly.",
       "style": "Medium shot from Sigrid's position showing counting/poisoning combination (that's where the camera is), her POV of colonial administration as feeding ritual.",
       "camera_position": "Medium shot from Sigrid's position showing counting/poisoning combination",
-      "dialogue": "(MagnÃºs): \"En\" (Tone: mechanical, pointing at GuÃ°rÃºn) \"To\" (Tone: administrative, pointing at JÃ³n) (GuÃ°rÃºn): Chewing in silence (JÃ³n): Slight gagging, swallows",
+      "dialogue": "(Magn\u00c3\u00bas): \"En\" (Tone: mechanical, pointing at Gu\u00c3\u00b0r\u00c3\u00ban) \"To\" (Tone: administrative, pointing at J\u00c3\u00b3n) (Gu\u00c3\u00b0r\u00c3\u00ban): Chewing in silence (J\u00c3\u00b3n): Slight gagging, swallows",
       "audio": {
         "primary": [
           "Danish words sharp and foreign",
-          "hÃ¡karl squishing in mouths",
+          "h\u00c3\u00a1karl squishing in mouths",
           "ammonia hissing"
         ],
         "ambient": [
@@ -44,8 +44,25 @@
         "present": [],
         "referenced": []
       },
-      "negative_prompt": "no subtitles, no text overlays, show hÃ¡karl contamination, frost spreading from Danish, documentary observation",
-      "video_references": []
+      "negative_prompt": "no subtitles, no text overlays, show h\u00c3\u00a1karl contamination, frost spreading from Danish, documentary observation",
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

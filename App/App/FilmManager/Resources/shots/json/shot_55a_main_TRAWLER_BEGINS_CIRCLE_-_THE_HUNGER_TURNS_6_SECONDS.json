@@ -22,7 +22,7 @@
       "scene": "View through window of fjord. Trawler creating perfect circle. Family gathered watching. Bull still at threshold.",
       "style": "Wide shot through frosted window (that's where the camera is), ouroboros beginning documented.",
       "camera_position": "Wide shot through frosted window",
-      "dialogue": "(MagnÃºs): \"HvaÃ° er Ã¾aÃ° aÃ° gera?\" (Sigrid, knowing): \"ÃžaÃ° byrjar\" (It begins)",
+      "dialogue": "(Magn\u00c3\u00bas): \"Hva\u00c3\u00b0 er \u00c3\u00bea\u00c3\u00b0 a\u00c3\u00b0 gera?\" (Sigrid, knowing): \"\u00c3\u017ea\u00c3\u00b0 byrjar\" (It begins)",
       "audio": {
         "primary": [
           "Engine pitch changing",
@@ -42,12 +42,29 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
     "womens_silence": "All watching silently",
-    "triple_reality": "Physical: trawler circling | Psychological: obsession consuming itself | Mythological: JÃ¶rmungandr's hunger"
+    "triple_reality": "Physical: trawler circling | Psychological: obsession consuming itself | Mythological: J\u00c3\u00b6rmungandr's hunger"
   },
   "notes": {
     "sequence": "main_story",

@@ -3,10 +3,10 @@
     "id": "0a",
     "name": "THE_SHADOW_POLE",
     "title": "The Shadow Pole - Curse Establishment",
-    "sequence_type": "prologue", 
+    "sequence_type": "prologue",
     "duration_seconds": 8,
     "film_position_percentage": 0.5,
-    "narrative_function": "Establishes nidstöng curse against imperial forces",
+    "narrative_function": "Establishes nidst\u00f6ng curse against imperial forces",
     "story_significance": "critical_opening",
     "realm_classification": {
       "physical_percentage": 85.0,
@@ -15,7 +15,6 @@
     },
     "stitch_from": "NO STITCH - OPENING"
   },
-
   "tracking_systems_current": {
     "breathing_coordination": 5.0,
     "temperature_progression": 12.0,
@@ -34,64 +33,85 @@
     "character_shadow_behavior": 8.0,
     "stain_progression": 12.0
   },
-
   "progressive_state": "Memory initialization | Landscape pulsing | Camera frost 0% | Archive opening | Watching: We enter",
-
   "prompt_variants": [
     {
       "variant_id": "0a_story_primary",
       "variant_name": "Primary Narrative - Curse Establishment",
-      "intent_tags": ["story_primary", "kubrick_symmetry"],
+      "intent_tags": [
+        "story_primary",
+        "kubrick_symmetry"
+      ],
       "priority": 1,
-      
       "subject": "A tall piece of grey driftwood standing vertical on a grass-covered headland, rope wrapped around its top section, casting a shadow 200 feet long across green hills while the ocean behind shows red tints under blue surface and purple berries cover distant slopes.",
-      
       "action": "Camera starts 100 feet above pole, descending slowly. The pole is 8 feet tall, weathered grey driftwood, standing perfectly vertical. Old rope wraps the top 2 feet, frayed ends moving slightly. The shadow stretches far beyond natural length - reaching 200 feet across grass. Ocean in background rises 3 feet, holds for 2 seconds, drops 3 feet. No wind causing this movement. Purple-black berries on distant hills appear wet, juice dripping down leaves. Cliffs to the right glow golden in horizontal morning sunlight. At pole's base, grass shows three distinct stains in soil - red circle, purple circle, gold circle, each 3 feet wide. Camera continues descent, now 50 feet above pole. Shadow moves independently of sun position, rotating slowly clockwise.",
-      
       "scene": "Headland in Westfjords, 5 AM June morning. Ocean 300 feet beyond pole. Berry-covered hills to left. Golden cliffs to right. Green grass everywhere. Clear sky, sun just above horizon.",
-      
       "style": "Aerial descent toward pole, camera moving straight down (that's where the camera is), slow smooth movement, wide lens showing all terrains.",
-      
       "camera_position": "100 feet above pole descending to pole height, that's where the camera is",
-      
       "aspect_ratio": "16:9",
-      
       "dialogue": "None",
-      
       "audio": {
-        "primary_sounds": ["Ocean water rising and falling", "berries dripping juice", "rope creaking"],
-        "ambient_sounds": ["Grass rustling", "distant water movement"],
-        "absent_sounds": ["wind", "birds"]
+        "primary_sounds": [
+          "Ocean water rising and falling",
+          "berries dripping juice",
+          "rope creaking"
+        ],
+        "ambient_sounds": [
+          "Grass rustling",
+          "distant water movement"
+        ],
+        "absent_sounds": [
+          "wind",
+          "birds"
+        ]
       },
-      
       "character_plates": {
         "present": [],
         "referenced": []
       },
-      
       "environmental_plates": {
         "landscape": "WESTFJORDS-SUMMER",
         "weather": "COOPERATIVE-SUPERNATURAL",
         "lighting": "DAWN-GOLDEN"
       },
-      
       "negative_prompt": "no text overlays, no modern elements, show 200-foot shadow, three colored stains visible, 1080p",
-      
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-PURE",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-PURE"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-SUMMER-FALSE-PERFECTION",
+          "interior": "BA\u00d0STOFA-DOMESTIC"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
-
   "others": {
-    "kubrick_influences": ["Symmetrical composition", "Supernatural environmental response"],
-    "krummi_lullaby_connection": "Pole position matches cliff cleft (klettagjá) from lullaby",
+    "kubrick_influences": [
+      "Symmetrical composition",
+      "Supernatural environmental response"
+    ],
+    "krummi_lullaby_connection": "Pole position matches cliff cleft (klettagj\u00e1) from lullaby",
     "enhancement_references": [
       "/Users/ingthor/Documents/stories/enhancements/shot_0a_nidstong_curse_pole_revolutionary_enhancement.txt"
     ]
   },
-
   "notes": {
     "production_priority": "Critical opening establishing supernatural wrongness",
-    "visual_motifs": ["Three-color staining foundation", "Impossible shadow physics", "Environmental cooperation"],
+    "visual_motifs": [
+      "Three-color staining foundation",
+      "Impossible shadow physics",
+      "Environmental cooperation"
+    ],
     "connection_to_ending": "Curse pole accusation connects to monument eternal testimony"
   }
 }

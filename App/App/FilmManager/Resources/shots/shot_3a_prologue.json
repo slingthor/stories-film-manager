@@ -7,7 +7,7 @@
     "duration_seconds": 8,
     "film_position_percentage": 5.0,
     "narrative_function": "Father-son knowledge transfer with supernatural inheritance",
-    "story_significance": "landvættir_knowledge",
+    "story_significance": "landv\u00e6ttir_knowledge",
     "realm_classification": {
       "physical_percentage": 75.0,
       "psychological_percentage": 20.0,
@@ -15,7 +15,6 @@
     },
     "stitch_from": "Shot 2b: Reaching cliff top"
   },
-
   "tracking_systems_current": {
     "breathing_coordination": 25.0,
     "temperature_progression": 22.0,
@@ -34,64 +33,75 @@
     "character_shadow_behavior": 15.0,
     "stain_progression": 28.0
   },
-
   "progressive_state": "Teaching moment | Father-son trust | Camera frost 0% | Knowledge transfer | Watching: The bond forms",
-
   "prompt_variants": [
     {
-      "variant_id": "3a_story_primary", 
+      "variant_id": "3a_story_primary",
       "variant_name": "Traditional Knowledge Transfer",
-      "intent_tags": ["story_primary", "inheritance"],
+      "intent_tags": [
+        "story_primary",
+        "inheritance"
+      ],
       "priority": 1,
-      
-      "subject": "[MAGNÚS] kneeling on grass at cliff top, demonstrating knot-tying to [JÓN], hands moving slowly through the motions, rope forming complex patterns, ocean visible 300 feet below with blood trail now reaching shore.",
-      
-      "action": "Magnús kneels on thick grass. Spreads rope in front of him. Jón kneels opposite, watching intently. Magnús's large hands take rope end. Forms loop. Passes end through. Pulls to create bowline knot. Unties it. Hands rope to Jón. Boy's smaller hands try to copy. Makes wrong loop. Magnús places his hands over boy's, guides them. Together they form knot correctly. Magnús nods once. Takes rope back. Shows second knot - clove hitch. More complex. Jón watches every movement. Behind them, cliff edge drops straight down. Ocean below shows whale's blood trail now reaching beach, spreading along shoreline. Other men visible as dots preparing flensing area. Women disappeared toward purple hills. Magnús ties rope around Jón's waist, through legs, creating harness. Tests each loop. Boy stands still, trusting.",
-      
+      "subject": "[MAGN\u00daS] kneeling on grass at cliff top, demonstrating knot-tying to [J\u00d3N], hands moving slowly through the motions, rope forming complex patterns, ocean visible 300 feet below with blood trail now reaching shore.",
+      "action": "Magn\u00fas kneels on thick grass. Spreads rope in front of him. J\u00f3n kneels opposite, watching intently. Magn\u00fas's large hands take rope end. Forms loop. Passes end through. Pulls to create bowline knot. Unties it. Hands rope to J\u00f3n. Boy's smaller hands try to copy. Makes wrong loop. Magn\u00fas places his hands over boy's, guides them. Together they form knot correctly. Magn\u00fas nods once. Takes rope back. Shows second knot - clove hitch. More complex. J\u00f3n watches every movement. Behind them, cliff edge drops straight down. Ocean below shows whale's blood trail now reaching beach, spreading along shoreline. Other men visible as dots preparing flensing area. Women disappeared toward purple hills. Magn\u00fas ties rope around J\u00f3n's waist, through legs, creating harness. Tests each loop. Boy stands still, trusting.",
       "scene": "Grassy cliff top, morning sun higher. Edge visible 10 feet away. Ocean far below. Green grass thick, small white flowers scattered.",
-      
       "style": "Medium shot from side showing both faces and hands working (that's where the camera is), intimate teaching moment, ocean visible in background.",
-      
       "camera_position": "Side angle showing both faces and rope work, that's where the camera is",
-      
       "dialogue": "None",
-      
       "audio": {
-        "primary_sounds": ["Rope fibers creaking", "hands on hemp", "grass rustling"],
-        "ambient_sounds": ["Wind at cliff top", "distant ocean", "birds below"],
-        "absent_sounds": ["verbal instruction"]
+        "primary_sounds": [
+          "Rope fibers creaking",
+          "hands on hemp",
+          "grass rustling"
+        ],
+        "ambient_sounds": [
+          "Wind at cliff top",
+          "distant ocean",
+          "birds below"
+        ],
+        "absent_sounds": [
+          "verbal instruction"
+        ]
       },
-      
       "character_plates": {
-        "present": ["MAGNÚS-AUTHORITY", "JÓN-MILD"],
+        "present": [
+          "MAGN\u00daS-AUTHORITY",
+          "J\u00d3N-MILD"
+        ],
         "referenced": []
       },
-      
       "environmental_plates": {
         "landscape": "WESTFJORDS-CLIFF-TOP",
-        "weather": "MORNING-CLEAR-WIND", 
+        "weather": "MORNING-CLEAR-WIND",
         "lighting": "MORNING-SUN-HIGHER"
       },
-      
       "negative_prompt": "no subtitles, show hands working rope clearly, blood trail visible in ocean below, intimate moment, 1080p",
-      
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
-
   "others": {
-    "inherited_knowledge": "Jón replicates impossible knot without learning",
-    "rope_consciousness": "Rope hums at 16Hz when taut", 
+    "inherited_knowledge": "J\u00f3n replicates impossible knot without learning",
+    "rope_consciousness": "Rope hums at 16Hz when taut",
     "cliff_breathing": "Cliff face subtly breathes",
     "blood_spiral": "Trail below forms perfect spiral matching knot geometry",
     "giant_knot": "Impossible fractal pattern repeating at all scales"
   },
-
   "notes": {
-    "thematic_purpose": "Landvættir knowledge transmitted through genetic inheritance",
+    "thematic_purpose": "Landv\u00e6ttir knowledge transmitted through genetic inheritance",
     "enhancement_references": [
       "/Users/ingthor/Documents/stories/enhancements/shot_3a_rope_lessons_inherited_knowledge_horror.txt"
     ],
     "impossible_elements": "Perfect replication without conscious learning"
-  }
+  },
+  "breathing_coordination": "Father-son 12/min instruction synchronization",
+  "acting_theme": "Inherited knowledge bypassing conscious learning"
 }

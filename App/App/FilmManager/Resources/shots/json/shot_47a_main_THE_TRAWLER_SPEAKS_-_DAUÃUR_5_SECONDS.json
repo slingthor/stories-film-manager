@@ -1,28 +1,28 @@
 {
   "shot_metadata": {
     "id": "47a",
-    "name": "THE_TRAWLER_SPEAKS___DAUÃUR_5_SECONDS",
-    "title": "THE TRAWLER SPEAKS - DAUÃUR 5 SECONDS",
+    "name": "THE_TRAWLER_SPEAKS___DAU\u00c3UR_5_SECONDS",
+    "title": "THE TRAWLER SPEAKS - DAU\u00c3UR 5 SECONDS",
     "sequence_type": "main_story",
     "duration_seconds": 5,
     "narrative_function": "Return beginning | Serpent speaks | Camera frost 3...",
-    "stitch_from": "[STITCH from Shot 46c: Bull collapsed on shore, GuÃ°rÃºn beside him]"
+    "stitch_from": "[STITCH from Shot 46c: Bull collapsed on shore, Gu\u00c3\u00b0r\u00c3\u00ban beside him]"
   },
   "progressive_state": "Return beginning | Serpent speaks | Camera frost 34.5% | Death pronounced | Watching: Empire declares",
   "prompt_variants": [
     {
       "variant_id": "47a_story_primary",
-      "variant_name": "Primary - THE TRAWLER SPEAKS - DAUÃUR 5 SECONDS",
+      "variant_name": "Primary - THE TRAWLER SPEAKS - DAU\u00c3UR 5 SECONDS",
       "intent_tags": [
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[GUÃRÃšN] rising to return when the trawler horn sounds from the fjord, but not just sound - a word formed in industrial drone: \"DAUÃUR\" (dead), the serpent pronouncing death, though unclear if meaning Bull, her, or everyone.",
-      "action": "GuÃ°rÃºn stands from beside dying Bull, turns toward house. First step. Then - HORN. But not normal horn. The sound shapes itself: \"DAUUUUÃUUUUR.\" Mechanical voice, trawler's engine modulating into speech. WHIP PAN to fjord. Trawler sits in black water, 500 meters out, hasn't moved since MagnÃºs shot it. Yellow searchlights sweep once, find her, lock on. The word repeats: \"DAUÃUR.\" Pronouncing death. But whose? Bull dying on shore? Her, who should have died in storm? The family? Iceland itself? Searchlights hold on her for exactly 12 seconds (the monolith duration), then go dark. Trawler sits silent. But water around it churning - something massive beneath, the ship just visible portion. Pan back to GuÃ°rÃºn. She heard. Understands. Doesn't respond. Industrial empire has pronounced death. She continues walking. Her wrists, raw from wool emergence, leave blood drops in snow. Each drop steams, still warm. Behind her, Bull breathes at 3/min now. Still alive. Despite pronouncement.",
+      "subject": "[GU\u00c3\u0090R\u00c3\u0161N] rising to return when the trawler horn sounds from the fjord, but not just sound - a word formed in industrial drone: \"DAU\u00c3\u0090UR\" (dead), the serpent pronouncing death, though unclear if meaning Bull, her, or everyone.",
+      "action": "Gu\u00c3\u00b0r\u00c3\u00ban stands from beside dying Bull, turns toward house. First step. Then - HORN. But not normal horn. The sound shapes itself: \"DAUUUU\u00c3\u0090UUUUR.\" Mechanical voice, trawler's engine modulating into speech. WHIP PAN to fjord. Trawler sits in black water, 500 meters out, hasn't moved since Magn\u00c3\u00bas shot it. Yellow searchlights sweep once, find her, lock on. The word repeats: \"DAU\u00c3\u0090UR.\" Pronouncing death. But whose? Bull dying on shore? Her, who should have died in storm? The family? Iceland itself? Searchlights hold on her for exactly 12 seconds (the monolith duration), then go dark. Trawler sits silent. But water around it churning - something massive beneath, the ship just visible portion. Pan back to Gu\u00c3\u00b0r\u00c3\u00ban. She heard. Understands. Doesn't respond. Industrial empire has pronounced death. She continues walking. Her wrists, raw from wool emergence, leave blood drops in snow. Each drop steams, still warm. Behind her, Bull breathes at 3/min now. Still alive. Despite pronouncement.",
       "scene": "Shore to fjord view, 10:08 AM grey light. Trawler dominant in water. Bull dying on shore. Path home visible.",
       "style": "Whip pan creating disorientation between pronouncement and subject (that's where the camera is), documentary of death sentence.",
       "camera_position": "Whip pan creating disorientation between pronouncement and subject",
-      "dialogue": "(Trawler/JÃ¶rmungandr): \"DAUUUUÃUUUUR\" (Repeating): \"DAUÃUR\" (GuÃ°rÃºn): Silent, just breathing visible",
+      "dialogue": "(Trawler/J\u00c3\u00b6rmungandr): \"DAUUUU\u00c3\u0090UUUUR\" (Repeating): \"DAU\u00c3\u0090UR\" (Gu\u00c3\u00b0r\u00c3\u00ban): Silent, just breathing visible",
       "audio": {
         "primary": [
           "Horn shaping into word",
@@ -44,12 +44,29 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
     "womens_silence": "She hears but doesn't respond",
-    "triple_reality": "Physical: horn sound | Psychological: death sentence | Mythological: JÃ¶rmungandr's judgment"
+    "triple_reality": "Physical: horn sound | Psychological: death sentence | Mythological: J\u00c3\u00b6rmungandr's judgment"
   },
   "notes": {
     "sequence": "main_story",

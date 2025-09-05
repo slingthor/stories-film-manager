@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Camera spiraling down around the 40-foot black hrafntinna obelisk standing in modern times, tourists taking photos, but through the obsidian the sheep family still visible, still preserved, GuÃ°rÃºn-ewe still mouthing \"kindur... fÃ³lk,\" MagnÃºs-ram still charging, eternal.",
-      "action": "SPIRAL DOWN around obelisk. Starting high. Modern day. Tour buses. Interpretive signs in multiple languages. \"Monument to Colonial Transformation.\" Tourists taking selfies. But don't see what we see. Through obsidian: family still there. Still aware. Still moving in their frozen way. GuÃ°rÃºn-ewe's mouth still forming the words: \"kindur... fÃ³lk\" (sheep... people). Over and over. Eternal explanation. MagnÃºs-ram still charging at nothing. Or at everything. His rage now educational. Children lambs still huddled. Forever young. Forever trapped. Forever witnessed. The cleft still open. Sometimes birds fly through. Sometimes just wind. The monument stands in all weather. Summer (brief). Winter (eternal). Northern lights dance across its surface. In those lights: glimpses of Sigrid. Still flying. Still witnessing. 72 years old in 1944. But also 16 forever. Also raven forever. All true. The obelisk doesn't age. Can't. It exists outside time. IS time. Crystallized. Made solid. Visitable.",
+      "subject": "Camera spiraling down around the 40-foot black hrafntinna obelisk standing in modern times, tourists taking photos, but through the obsidian the sheep family still visible, still preserved, Gu\u00c3\u00b0r\u00c3\u00ban-ewe still mouthing \"kindur... f\u00c3\u00b3lk,\" Magn\u00c3\u00bas-ram still charging, eternal.",
+      "action": "SPIRAL DOWN around obelisk. Starting high. Modern day. Tour buses. Interpretive signs in multiple languages. \"Monument to Colonial Transformation.\" Tourists taking selfies. But don't see what we see. Through obsidian: family still there. Still aware. Still moving in their frozen way. Gu\u00c3\u00b0r\u00c3\u00ban-ewe's mouth still forming the words: \"kindur... f\u00c3\u00b3lk\" (sheep... people). Over and over. Eternal explanation. Magn\u00c3\u00bas-ram still charging at nothing. Or at everything. His rage now educational. Children lambs still huddled. Forever young. Forever trapped. Forever witnessed. The cleft still open. Sometimes birds fly through. Sometimes just wind. The monument stands in all weather. Summer (brief). Winter (eternal). Northern lights dance across its surface. In those lights: glimpses of Sigrid. Still flying. Still witnessing. 72 years old in 1944. But also 16 forever. Also raven forever. All true. The obelisk doesn't age. Can't. It exists outside time. IS time. Crystallized. Made solid. Visitable.",
       "scene": "Modern obelisk as tourist site. Family visible inside. Eternal monument. All times present.",
       "style": "Spiral down showing permanence (that's where the camera is), monument documented.",
       "camera_position": "Spiral down showing permanence",
-      "dialogue": "(Tour guide, muffled): \"...represents the transformation of Iceland...\" (GuÃ°rÃºn, eternal): \"kindur... fÃ³lk...\"",
+      "dialogue": "(Tour guide, muffled): \"...represents the transformation of Iceland...\" (Gu\u00c3\u00b0r\u00c3\u00ban, eternal): \"kindur... f\u00c3\u00b3lk...\"",
       "audio": {
         "primary": [
           "Tourist chatter",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "maintain monument dignity, family visible but subtle",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

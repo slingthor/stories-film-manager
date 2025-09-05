@@ -13,61 +13,79 @@
       "psychological_percentage": 25.0,
       "mythological_percentage": 30.0
     },
-    "stitch_from": "Shot 7b/14: Magnús seated, silence hanging"
+    "stitch_from": "Shot 7b/14: Magn\u00fas seated, silence hanging"
   },
-
   "progressive_state": "Industry arrives | Light weapon | Camera frost 2% | Intrusion begins | Watching: The serpent sees",
-
   "prompt_variants": [
     {
       "variant_id": "8a_story_primary",
       "variant_name": "Industrial Surveillance Intrusion",
-      "intent_tags": ["story_primary", "industrial_surveillance"],
+      "intent_tags": [
+        "story_primary",
+        "industrial_surveillance"
+      ],
       "priority": 1,
-      
       "subject": "A British steel trawler 200 feet long visible on horizon, black smoke from stack, powerful electric searchlight on bow swiveling toward shore, the beam of white light cutting through golden sunset toward the feast.",
-      
       "action": "Trawler sits on horizon line, hull black steel, industrial design. Smoke rises from stack, black against golden sky, perfectly vertical - still no wind. Ship not moving, anchored. On bow, large searchlight mounted on swivel. Light off initially. Then clicks on - electric arc light, blue-white, impossibly bright. Beam shoots across water toward shore. Light cuts through golden sunset like blade. Sweeps left across empty beach. Sweeps right across cliffs. Stops. Reverses. Finds the feast tables. Light locks onto gathering. Holds steady. Everyone at tables turns toward light, faces washed white, shadows thrown behind them black and sharp. No one shields eyes. All stare directly into beam. The trawler's beam makes the three stains on everyone's clothes visible - red blood, purple juice, golden yolk - all appear black in the harsh light. Ship's horn doesn't sound. Just the light. Watching.",
-      
       "scene": "Ocean horizon with trawler. Feast in foreground. Searchlight beam crossing water and land. Sunset frozen behind ship.",
-      
       "style": "Wide shot from behind feast tables showing trawler and light beam approaching (that's where the camera is), dramatic lighting contrast.",
-      
       "camera_position": "Behind feast tables showing trawler approach, that's where the camera is",
-      
       "dialogue": "None",
-      
       "audio": {
-        "primary_sounds": ["Searchlight clicking on", "electric arc humming", "beam sweeping across land"],
-        "ambient_sounds": ["Trawler engine distant rumble", "smoke rising"],
-        "absent_sounds": ["ship horn", "people reacting"]
+        "primary_sounds": [
+          "Searchlight clicking on",
+          "electric arc humming",
+          "beam sweeping across land"
+        ],
+        "ambient_sounds": [
+          "Trawler engine distant rumble",
+          "smoke rising"
+        ],
+        "absent_sounds": [
+          "ship horn",
+          "people reacting"
+        ]
       },
-      
       "character_plates": {
-        "present": ["MAGNÚS-AUTHORITY", "Community at feast"],
+        "present": [
+          "MAGN\u00daS-AUTHORITY",
+          "Community at feast"
+        ],
         "referenced": []
       },
-      
       "environmental_plates": {
         "landscape": "WESTFJORDS-FEAST-FIELD",
         "weather": "SUNSET-FROZEN",
         "sea": "SEA-INDUSTRIAL-INTRUSION",
         "lighting": "SEARCHLIGHT-INVASION"
       },
-      
       "negative_prompt": "no subtitles, show searchlight beam clearly, trawler on horizon, everyone staring at light, 1080p",
-      
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-PURE",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-WINTER",
+          "interior": "BA\u00d0STOFA-ORGANIC"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
-
   "others": {
     "imperial_surveillance": "Electric searchlight in 1888 (anachronistic but prophetic)",
     "three_stain_revelation": "All contamination visible under harsh light",
     "frozen_sunset": "Time stuck during imperial observation",
     "silent_watching": "No communication, only surveillance"
   },
-
   "notes": {
     "thematic_purpose": "Industrial surveillance breaking into domestic feast",
     "anachronistic_element": "Electric light representing future industrial dominance",

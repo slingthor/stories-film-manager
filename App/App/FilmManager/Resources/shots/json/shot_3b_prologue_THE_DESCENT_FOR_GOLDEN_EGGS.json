@@ -6,7 +6,7 @@
     "sequence_type": "prologue",
     "duration_seconds": 8,
     "narrative_function": "Trust tested | Eggs abundant | Camera frost 0% | G...",
-    "stitch_from": "[STITCH from Shot 3a: JÃ³n harnessed and ready]"
+    "stitch_from": "[STITCH from Shot 3a: J\u00c3\u00b3n harnessed and ready]"
   },
   "progressive_state": "Trust tested | Eggs abundant | Camera frost 0% | Gold revealed | Watching: Earth provides",
   "prompt_variants": [
@@ -17,11 +17,11 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[JÃ“N] descending the cliff face on rope, bare feet finding holds on black rock, reaching into round holes to pull out pure white eggs, one egg slipping from his hand to break on rocks below, golden yolk splattering bright yellow.",
-      "action": "JÃ³n climbs backward down cliff, rope taut around waist. MagnÃºs above, visible hands holding rope steady. Boy's feet grip small ledges. Reaches first hole in cliff, 2 feet wide, perfectly round. Reaches in up to elbow. Pulls out three white eggs, each large as his fist. Places them in leather pouch at hip. Descends further. Second hole contains five eggs. Too many for one bird. Third egg slips from his grip. Falls 50 feet. Hits black rock below. Shell explodes. Yolk spreads bright golden across rock, running down in streams. Same color as morning sunlight. JÃ³n freezes, watching yolk spread. MagnÃºs tugs rope - continue. Boy reaches next hole. This one deeper. Entire arm disappears inside. Face shows surprise. Pulls out seven eggs. Pouch already full. Holds extra eggs against chest. One more falls. Another golden explosion on rocks. Yolk and blood from whale mixing where rock meets water.",
+      "subject": "[J\u00c3\u201cN] descending the cliff face on rope, bare feet finding holds on black rock, reaching into round holes to pull out pure white eggs, one egg slipping from his hand to break on rocks below, golden yolk splattering bright yellow.",
+      "action": "J\u00c3\u00b3n climbs backward down cliff, rope taut around waist. Magn\u00c3\u00bas above, visible hands holding rope steady. Boy's feet grip small ledges. Reaches first hole in cliff, 2 feet wide, perfectly round. Reaches in up to elbow. Pulls out three white eggs, each large as his fist. Places them in leather pouch at hip. Descends further. Second hole contains five eggs. Too many for one bird. Third egg slips from his grip. Falls 50 feet. Hits black rock below. Shell explodes. Yolk spreads bright golden across rock, running down in streams. Same color as morning sunlight. J\u00c3\u00b3n freezes, watching yolk spread. Magn\u00c3\u00bas tugs rope - continue. Boy reaches next hole. This one deeper. Entire arm disappears inside. Face shows surprise. Pulls out seven eggs. Pouch already full. Holds extra eggs against chest. One more falls. Another golden explosion on rocks. Yolk and blood from whale mixing where rock meets water.",
       "scene": "Vertical cliff face, 100 feet down from top. Black basalt with bird-covered ledges. Ocean below with whale blood reaching shore. Yolk spreading on rocks.",
-      "style": "Vertical angle from beside JÃ³n showing descent and egg collecting (that's where the camera is), eggs falling and breaking visible.",
-      "camera_position": "Vertical angle from beside JÃ³n showing descent and egg collecting",
+      "style": "Vertical angle from beside J\u00c3\u00b3n showing descent and egg collecting (that's where the camera is), eggs falling and breaking visible.",
+      "camera_position": "Vertical angle from beside J\u00c3\u00b3n showing descent and egg collecting",
       "dialogue": "None",
       "audio": {
         "primary": [
@@ -43,7 +43,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show golden yolk spreading on rocks, impossible egg abundance, mixing with blood below, 1080p",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},

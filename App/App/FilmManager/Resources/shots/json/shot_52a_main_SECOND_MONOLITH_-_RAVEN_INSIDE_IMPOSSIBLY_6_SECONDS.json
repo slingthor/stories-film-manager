@@ -6,7 +6,7 @@
     "sequence_type": "main_story",
     "duration_seconds": 6,
     "narrative_function": "House 8/min + 60bpm | Raven materializes | Camera ...",
-    "stitch_from": "[STITCH from Shot 51c revised: RÃ©ttir revealed below]"
+    "stitch_from": "[STITCH from Shot 51c revised: R\u00c3\u00a9ttir revealed below]"
   },
   "progressive_state": "House 8/min + 60bpm | Raven materializes | Camera frost 41.5% | Gammur enters | Watching: Protector arrives",
   "prompt_variants": [
@@ -18,11 +18,11 @@
       ],
       "priority": 1,
       "subject": "A raven suddenly inside the house with no entry point - standing on the table center, absolutely still, geometric perfection, larger than possible, its eye reflecting not the room but open sky with other ravens circling, while [SIGRID] alone doesn't fear it.",
-      "action": "Room silent. Then: raven. Not flew in - simply IS. Standing on table where tilberi was (creature fled to corner). Raven impossibly large - 3 feet tall standing. Black geometric perfection, each feather mathematical. Absolutely still. Family freezes. 12-second hold begins. But in its eye (CLOSE): reflection shows not this room but sky. Blue sky. Seven ravens circling free. Future or memory? MagnÃºs raises hand to strike it. Hand stops mid-air. Cannot move. Raven's presence creates paralysis. Only Sigrid can move. Steps forward, maintaining 11 feet from MagnÃºs but approaching raven. It turns head exactly 90 degrees. Looks at her. Blinks once - vertical eyelid. In that blink: she sees herself with wings. Black feathers. Flying. The house cannot hold her. Raven's beak opens. Sound emerges: not caw but words, female voice, old woman's whisper: \"KlettagjÃ¡ opnast\" (The rocky cleft opens).",
+      "action": "Room silent. Then: raven. Not flew in - simply IS. Standing on table where tilberi was (creature fled to corner). Raven impossibly large - 3 feet tall standing. Black geometric perfection, each feather mathematical. Absolutely still. Family freezes. 12-second hold begins. But in its eye (CLOSE): reflection shows not this room but sky. Blue sky. Seven ravens circling free. Future or memory? Magn\u00c3\u00bas raises hand to strike it. Hand stops mid-air. Cannot move. Raven's presence creates paralysis. Only Sigrid can move. Steps forward, maintaining 11 feet from Magn\u00c3\u00bas but approaching raven. It turns head exactly 90 degrees. Looks at her. Blinks once - vertical eyelid. In that blink: she sees herself with wings. Black feathers. Flying. The house cannot hold her. Raven's beak opens. Sound emerges: not caw but words, female voice, old woman's whisper: \"Klettagj\u00c3\u00a1 opnast\" (The rocky cleft opens).",
       "scene": "Interior, raven manifestation. 9:00 PM darkness. Only raven seems to generate its own light - subtle glow.",
       "style": "Static shot, monolithic presence center frame (that's where the camera is), second appearance documented.",
       "camera_position": "Static shot, monolithic presence center frame",
-      "dialogue": "(Raven, old woman's voice): \"KlettagjÃ¡ opnast\" \"Sigrid mun fljÃºga\" (Sigrid, recognizing): \"ÃžÃº ert Gammur\"",
+      "dialogue": "(Raven, old woman's voice): \"Klettagj\u00c3\u00a1 opnast\" \"Sigrid mun flj\u00c3\u00baga\" (Sigrid, recognizing): \"\u00c3\u017e\u00c3\u00ba ert Gammur\"",
       "audio": {
         "primary": [
           "Raven materializing silence",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

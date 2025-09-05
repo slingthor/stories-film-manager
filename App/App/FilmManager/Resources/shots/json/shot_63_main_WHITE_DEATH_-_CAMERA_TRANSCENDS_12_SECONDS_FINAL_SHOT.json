@@ -5,10 +5,10 @@
     "title": "WHITE DEATH - CAMERA TRANSCENDS 12 SECONDS FINAL SHOT",
     "sequence_type": "main_story",
     "duration_seconds": 12,
-    "narrative_function": "Complete freeze | Frost 95%â†’100% | Death/rebirth...",
-    "stitch_from": "[STITCH from Shot 62b: \"JÃ\" marked, 95% frost]"
+    "narrative_function": "Complete freeze | Frost 95%\u00e2\u2020\u2019100% | Death/rebirth...",
+    "stitch_from": "[STITCH from Shot 62b: \"J\u00c3\u0081\" marked, 95% frost]"
   },
-  "progressive_state": "Complete freeze | Frost 95%â†’100% | Death/rebirth | Watching: Becomes memory",
+  "progressive_state": "Complete freeze | Frost 95%\u00e2\u2020\u2019100% | Death/rebirth | Watching: Becomes memory",
   "prompt_variants": [
     {
       "variant_id": "63_story_primary",
@@ -18,7 +18,7 @@
       ],
       "priority": 1,
       "subject": "The final 5% closes but instead of black, everything becomes brilliant WHITE - the frost transforming to light, showing through the white: every frame of the film simultaneously, all moments existing at once, before the camera dies at 100%, last image: newborn human baby's eye opening, 1944, free.",
-      "action": "95%. 96%. White overtaking. Not darkness - blinding light. The frost becomes luminous. 97%. Through white: EVERYTHING. Every shot we've seen. Overlapping. Transparent. All simultaneous. The ram circles. Tilberi breathing. MagnÃºs's tremor. House dying. Bull arriving. Transformation. Obelisk rising. Sigrid flying. All at once. All true. All remembered. 98%. The images fade into pure white. Clean. Empty. Ready. 99%. Through white: sound of baby crying. New. 1944. June 17. Born at moment of independence vote. 99.5%. Baby's eye. Opening. Blue. Infinite. Seeing for first time. Free. Never colonized. 99.9%. Eye fills frame. 100%. The camera dies. But the eye lives. Watching. Witnessing. Continuing. The story transfers from mechanical witness to human witness. From camera to child. From us to future. Black. Silence. Then, distant: raven's call. Credits.",
+      "action": "95%. 96%. White overtaking. Not darkness - blinding light. The frost becomes luminous. 97%. Through white: EVERYTHING. Every shot we've seen. Overlapping. Transparent. All simultaneous. The ram circles. Tilberi breathing. Magn\u00c3\u00bas's tremor. House dying. Bull arriving. Transformation. Obelisk rising. Sigrid flying. All at once. All true. All remembered. 98%. The images fade into pure white. Clean. Empty. Ready. 99%. Through white: sound of baby crying. New. 1944. June 17. Born at moment of independence vote. 99.5%. Baby's eye. Opening. Blue. Infinite. Seeing for first time. Free. Never colonized. 99.9%. Eye fills frame. 100%. The camera dies. But the eye lives. Watching. Witnessing. Continuing. The story transfers from mechanical witness to human witness. From camera to child. From us to future. Black. Silence. Then, distant: raven's call. Credits.",
       "scene": "White overtaking. All images simultaneous. Baby's eye. Death becoming birth.",
       "style": "Static frozen transcendence (that's where the camera was), death documented.",
       "camera_position": "Static frozen transcendence (that's where the camera was), death documented.",
@@ -43,7 +43,24 @@
         "referenced": []
       },
       "negative_prompt": "maintain white luminosity, not darkness",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

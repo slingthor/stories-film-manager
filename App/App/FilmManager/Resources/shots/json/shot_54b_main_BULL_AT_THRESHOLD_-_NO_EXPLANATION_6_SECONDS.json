@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "The door open revealing GRIÃUNGUR the Bull lying across threshold - the massive contaminated god who was dying on shore 300 meters away, now at their door with no path, no explanation, industrial materials weeping green tears while family prepares to step over him casually.",
-      "action": "Door stands open (who opened it?). ZOOM OUT reveals threshold. There: GriÃ°ungur. Massive bull, 6-foot head, body blocking entire doorway. Same contamination - brass harpoons through skull, rope beneath skin, net fused with eyes. But HERE. At house. Impossible. He was dying on shore, too massive to move. No tracks in snow. No path. Just HERE. Green verdigris tears still flowing from metal infections, pooling at doorstep. Still breathing - 3/min, matching house's dying rhythm. Eyes ancient, watching family. But family not surprised. GuÃ°rÃºn steps toward door with empty water bucket. Steps OVER him. One foot on his neck, other on ground beyond. Casual. Daily. Like stepping over sleeping dog. MagnÃºs (feet somehow free from floor) follows. Steps on Bull's horn for leverage. Children next. Only Sigrid pauses, kneels, touches his massive head. Whispers: \"ÃžÃº ert hÃ©r til aÃ° sjÃ¡\" (You're here to see). He blinks. Understands. Came to witness transformation.",
+      "subject": "The door open revealing GRI\u00c3\u0090UNGUR the Bull lying across threshold - the massive contaminated god who was dying on shore 300 meters away, now at their door with no path, no explanation, industrial materials weeping green tears while family prepares to step over him casually.",
+      "action": "Door stands open (who opened it?). ZOOM OUT reveals threshold. There: Gri\u00c3\u00b0ungur. Massive bull, 6-foot head, body blocking entire doorway. Same contamination - brass harpoons through skull, rope beneath skin, net fused with eyes. But HERE. At house. Impossible. He was dying on shore, too massive to move. No tracks in snow. No path. Just HERE. Green verdigris tears still flowing from metal infections, pooling at doorstep. Still breathing - 3/min, matching house's dying rhythm. Eyes ancient, watching family. But family not surprised. Gu\u00c3\u00b0r\u00c3\u00ban steps toward door with empty water bucket. Steps OVER him. One foot on his neck, other on ground beyond. Casual. Daily. Like stepping over sleeping dog. Magn\u00c3\u00bas (feet somehow free from floor) follows. Steps on Bull's horn for leverage. Children next. Only Sigrid pauses, kneels, touches his massive head. Whispers: \"\u00c3\u017e\u00c3\u00ba ert h\u00c3\u00a9r til a\u00c3\u00b0 sj\u00c3\u00a1\" (You're here to see). He blinks. Understands. Came to witness transformation.",
       "scene": "Doorway with massive Bull across threshold. Family stepping over casually. No explanation for presence.",
       "style": "Zoom out revealing impossible presence (that's where the camera is), impossibility accepted.",
       "camera_position": "Zoom out revealing impossible presence",
-      "dialogue": "(Sigrid to Bull): \"ÃžÃº ert hÃ©r til aÃ° sjÃ¡\" (Family): Casual morning greetings, ignoring impossibility",
+      "dialogue": "(Sigrid to Bull): \"\u00c3\u017e\u00c3\u00ba ert h\u00c3\u00a9r til a\u00c3\u00b0 sj\u00c3\u00a1\" (Family): Casual morning greetings, ignoring impossibility",
       "audio": {
         "primary": [
           "Verdigris tears dripping",
@@ -42,11 +42,28 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
-    "womens_silence": "GuÃ°rÃºn accepts without question",
+    "womens_silence": "Gu\u00c3\u00b0r\u00c3\u00ban accepts without question",
     "triple_reality": "Physical: massive bull at door | Psychological: accepting impossible | Mythological: water god on land"
   },
   "notes": {

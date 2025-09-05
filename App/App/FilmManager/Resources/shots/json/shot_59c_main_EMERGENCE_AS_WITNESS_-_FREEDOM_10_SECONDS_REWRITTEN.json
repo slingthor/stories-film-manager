@@ -18,11 +18,11 @@
       ],
       "priority": 1,
       "subject": "[SIGRID]-raven emerging from obelisk top into sky where seven ravens wait, the moment she breaks free the obelisk sends light beam into cosmos - signal to universe that Iceland is free, will be free, the witness has escaped to remember.",
-      "action": "CRANE UP as Sigrid emerges. Breaking through cleft top. Into sky. But not 1888 sky - ALL skies. Every sky Iceland ever had. Northern lights and midnight sun simultaneous. Seven ravens circling. But also seventy. Seven hundred. All depends on angle. They speak as one: \"Velkomin, Ãsland\" (Welcome, Iceland). She IS Iceland. The moment she emerges: obelisk ACTIVATES. Sends light beam straight up. Black light. Visible darkness. Signal to cosmos. The evolution moment. The independence beacon. Through light beam: glimpse of 1944. She's there. Old. Watching flags change. Remembering this moment. The egg inside her quickens. Will be laid in 1920. Will hatch human. The child who votes for independence. The cycle complete. Below in monument: family preserved. Eternal. Their sacrifice enabling this. She circles obelisk once. Sees them through glass. GuÃ°rÃºn-ewe nods through crystal. Permission. Blessing. Go. Remember. Tell. Fly.",
+      "action": "CRANE UP as Sigrid emerges. Breaking through cleft top. Into sky. But not 1888 sky - ALL skies. Every sky Iceland ever had. Northern lights and midnight sun simultaneous. Seven ravens circling. But also seventy. Seven hundred. All depends on angle. They speak as one: \"Velkomin, \u00c3\u008dsland\" (Welcome, Iceland). She IS Iceland. The moment she emerges: obelisk ACTIVATES. Sends light beam straight up. Black light. Visible darkness. Signal to cosmos. The evolution moment. The independence beacon. Through light beam: glimpse of 1944. She's there. Old. Watching flags change. Remembering this moment. The egg inside her quickens. Will be laid in 1920. Will hatch human. The child who votes for independence. The cycle complete. Below in monument: family preserved. Eternal. Their sacrifice enabling this. She circles obelisk once. Sees them through glass. Gu\u00c3\u00b0r\u00c3\u00ban-ewe nods through crystal. Permission. Blessing. Go. Remember. Tell. Fly.",
       "scene": "Emergence into all skies. Light beam to cosmos. Seven/seventy/seven hundred ravens. Freedom.",
       "style": "Crane up with emergence and light beam (that's where the camera is), freedom documented.",
       "camera_position": "Crane up with emergence and light beam",
-      "dialogue": "(Seven ravens): \"Velkomin, Ãsland\" (Sigrid-raven): \"Ã‰g man. Ã‰g vitna.\" (I remember. I witness.) (Cosmos): Acknowledgment without words",
+      "dialogue": "(Seven ravens): \"Velkomin, \u00c3\u008dsland\" (Sigrid-raven): \"\u00c3\u2030g man. \u00c3\u2030g vitna.\" (I remember. I witness.) (Cosmos): Acknowledgment without words",
       "audio": {
         "primary": [
           "Wings breaking into sky",
@@ -45,7 +45,24 @@
         "referenced": []
       },
       "negative_prompt": "epic scale, cosmic significance, freedom visible",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

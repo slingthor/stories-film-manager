@@ -17,8 +17,8 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Camera craning up from boat-level to high aerial as [MAGNÃšS] places the rotten fin carefully under bench and begins rowing toward home, revealing from above the path he's carved through poisoned water - a clean channel through green-black contamination, leading home.",
-      "action": "CAMERA STARTS at boat level as MagnÃºs wraps fin in cloth, places under bench like treasure. Grips oars with 0Hz hands. Begins to row. CAMERA CRANES UP, rising 20 meters in 3 seconds. As we rise, perspective reveals: His boat has carved a clear channel through poisoned water. Behind him, contamination. Ahead, still-clear path home. But poison spreading both ways, will meet in middle soon. From aerial height, boat tiny between two disasters - poisoned sea behind, something wrong at house ahead (black smoke, not grey). Ravens following in V-formation now, not spiral - migration pattern, leaving pattern. His rowing rhythm mechanical: stroke, stroke, stroke. No variation. Defeated automation.",
+      "subject": "Camera craning up from boat-level to high aerial as [MAGN\u00c3\u0161S] places the rotten fin carefully under bench and begins rowing toward home, revealing from above the path he's carved through poisoned water - a clean channel through green-black contamination, leading home.",
+      "action": "CAMERA STARTS at boat level as Magn\u00c3\u00bas wraps fin in cloth, places under bench like treasure. Grips oars with 0Hz hands. Begins to row. CAMERA CRANES UP, rising 20 meters in 3 seconds. As we rise, perspective reveals: His boat has carved a clear channel through poisoned water. Behind him, contamination. Ahead, still-clear path home. But poison spreading both ways, will meet in middle soon. From aerial height, boat tiny between two disasters - poisoned sea behind, something wrong at house ahead (black smoke, not grey). Ravens following in V-formation now, not spiral - migration pattern, leaving pattern. His rowing rhythm mechanical: stroke, stroke, stroke. No variation. Defeated automation.",
       "scene": "Fjord between contamination and home, 9:33 AM. Path narrowing as poison spreads. House visible in distance, wrong.",
       "style": "Dramatic crane up revealing larger geography of disaster (that's where the camera is), God's eye view of futility.",
       "camera_position": "Dramatic crane up revealing larger geography of disaster",
@@ -41,7 +41,24 @@
         "referenced": []
       },
       "negative_prompt": "smooth crane movement, no cuts, maintain altitude rise",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

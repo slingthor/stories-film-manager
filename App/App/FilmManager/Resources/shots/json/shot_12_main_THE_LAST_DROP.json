@@ -5,10 +5,10 @@
     "title": "THE LAST DROP",
     "sequence_type": "main_story",
     "duration_seconds": 8,
-    "narrative_function": "House 13/min + 60bpm | KlettagjÃ¡ 1.5mm | Oil dyin...",
+    "narrative_function": "House 13/min + 60bpm | Klettagj\u00c3\u00a1 1.5mm | Oil dyin...",
     "stitch_from": "[STITCH from Shot 11: Empty shelves confirmed, lamp guttering]"
   },
-  "progressive_state": "House 13/min + 60bpm | KlettagjÃ¡ 1.5mm | Oil dying | Camera frost 7% | Old world ending | Watching: All layers converging",
+  "progressive_state": "House 13/min + 60bpm | Klettagj\u00c3\u00a1 1.5mm | Oil dying | Camera frost 7% | Old world ending | Watching: All layers converging",
   "prompt_variants": [
     {
       "variant_id": "12_story_primary",
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "The oil lamp on the table beginning its death - wick drowning in the last drops of whale oil, flame shrinking from yellow to blue to desperate orange, throwing wild shadows as it fights to live, while [MAGNÃšS] stares at it knowing what must come next, his hand unconsciously moving to the corner where his Ã³Ã°inn (fishing line) and hÃ¡fur (gaff) wait prepared.",
-      "action": "The lamp flame dances erratically. MagnÃºs watches it, tremor at 3.5Hz making his shadow shake on wall. In the corner, barely visible: his fishing gear already prepared - he knew this was coming. Line coiled perfectly, hooks sharpened, even an old rifle wrapped in oilcloth. But his face shows dread. Outside, wind howling at 50mph, -25Â°C would mean likely death. He looks to window - ice 4mm thick on inside glass, cross patterns in frost like prophecy. Reaches into his jacket, pulls out piece of harÃ°fiskur (dried fish) he's been hiding. Breaks off small piece, eats it while family watches lamp die. GuÃ°rÃºn sees the hidden fish, says nothing, but her hand moves protective over Sigrid's shoulder - understanding what comes next. Lamp flame shrinks to pinpoint. The house breathing accelerates to 14/min, sensing change coming. In corner, empty clothes lean forward as if also watching. Everyone's breath visible in dying light, creating fog that obscures faces.",
-      "scene": "Table center, 6:10 AM but light dying. Temperature -10Â°C inside, dropping as lamp fails. The prepared fishing gear in corner telling truth - he's been planning this, hoarding food for strength to attempt it. Cross patterns in window frost growing more elaborate. Shadows dancing wildly as flame dies, creating momentary illusions - five people become six, become five again. Mathematical impossibility in the shadows.",
-      "style": "Close on lamp flame dying, then pulling back to show MagnÃºs's dread and preparations (that's where the camera is), documentary of last moments of old world.",
-      "camera_position": "Close on lamp flame dying, then pulling back to show MagnÃºs's dread and preparations",
-      "dialogue": "(MagnÃºs, to lamp): \"Ekki ennÃ¾Ã¡...\" (Not yet...) (Eating hidden fish): Dry crunching, guilty swallow (GuÃ°rÃºn): Silence, but sharp exhale seeing fish",
+      "subject": "The oil lamp on the table beginning its death - wick drowning in the last drops of whale oil, flame shrinking from yellow to blue to desperate orange, throwing wild shadows as it fights to live, while [MAGN\u00c3\u0161S] stares at it knowing what must come next, his hand unconsciously moving to the corner where his \u00c3\u00b3\u00c3\u00b0inn (fishing line) and h\u00c3\u00a1fur (gaff) wait prepared.",
+      "action": "The lamp flame dances erratically. Magn\u00c3\u00bas watches it, tremor at 3.5Hz making his shadow shake on wall. In the corner, barely visible: his fishing gear already prepared - he knew this was coming. Line coiled perfectly, hooks sharpened, even an old rifle wrapped in oilcloth. But his face shows dread. Outside, wind howling at 50mph, -25\u00c2\u00b0C would mean likely death. He looks to window - ice 4mm thick on inside glass, cross patterns in frost like prophecy. Reaches into his jacket, pulls out piece of har\u00c3\u00b0fiskur (dried fish) he's been hiding. Breaks off small piece, eats it while family watches lamp die. Gu\u00c3\u00b0r\u00c3\u00ban sees the hidden fish, says nothing, but her hand moves protective over Sigrid's shoulder - understanding what comes next. Lamp flame shrinks to pinpoint. The house breathing accelerates to 14/min, sensing change coming. In corner, empty clothes lean forward as if also watching. Everyone's breath visible in dying light, creating fog that obscures faces.",
+      "scene": "Table center, 6:10 AM but light dying. Temperature -10\u00c2\u00b0C inside, dropping as lamp fails. The prepared fishing gear in corner telling truth - he's been planning this, hoarding food for strength to attempt it. Cross patterns in window frost growing more elaborate. Shadows dancing wildly as flame dies, creating momentary illusions - five people become six, become five again. Mathematical impossibility in the shadows.",
+      "style": "Close on lamp flame dying, then pulling back to show Magn\u00c3\u00bas's dread and preparations (that's where the camera is), documentary of last moments of old world.",
+      "camera_position": "Close on lamp flame dying, then pulling back to show Magn\u00c3\u00bas's dread and preparations",
+      "dialogue": "(Magn\u00c3\u00bas, to lamp): \"Ekki enn\u00c3\u00be\u00c3\u00a1...\" (Not yet...) (Eating hidden fish): Dry crunching, guilty swallow (Gu\u00c3\u00b0r\u00c3\u00ban): Silence, but sharp exhale seeing fish",
       "audio": {
         "primary": [
           "Lamp wick drowning in last oil",
@@ -45,11 +45,28 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, no text overlays, show fishing gear ready, cross patterns clear, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
-    "womens_silence": "GuÃ°rÃºn watches helplessly",
+    "womens_silence": "Gu\u00c3\u00b0r\u00c3\u00ban watches helplessly",
     "triple_reality": "Physical: last oil burning / Psychological: last hope dying / Mythological: old light surrendering"
   },
   "notes": {

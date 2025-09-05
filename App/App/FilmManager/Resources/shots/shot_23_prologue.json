@@ -2,7 +2,7 @@
   "shot_metadata": {
     "id": "23",
     "name": "WINTER_ABSOLUTE",
-    "title": "Winter Absolute - Reality Transition", 
+    "title": "Winter Absolute - Reality Transition",
     "sequence_type": "prologue",
     "duration_seconds": 2,
     "film_position_percentage": 23.0,
@@ -15,57 +15,68 @@
     },
     "stitch_from": "Shot 22: Complete frost coverage"
   },
-
   "progressive_state": "Memory terminated | Winter reality | Camera frost 100% | Cut to truth | Watching: The nightmare begins",
-
   "prompt_variants": [
     {
       "variant_id": "23_story_primary",
       "variant_name": "Winter Reality Shock",
-      "intent_tags": ["story_primary", "reality_transition"],
+      "intent_tags": [
+        "story_primary",
+        "reality_transition"
+      ],
       "priority": 1,
-      
       "subject": "Sudden clear image - the house in full winter burial, snow to the roofline, single window glowing yellow, complete silence, then cut to black.",
-      
       "action": "Instant transition from frost to crystal clarity. House buried in snow, only roof and one window visible. Window glows yellow-orange from oil lamp inside. No movement. No sound. Perfect stillness. Hold for exactly 2 seconds. Cut to black.",
-      
       "scene": "House in deep winter. Night. Snow 15 feet deep. Single lit window. Stars visible. No moon.",
-      
       "style": "Wide static shot of buried house (that's where the camera is), perfectly still, hard cut to black.",
-      
       "camera_position": "Wide static showing complete house burial, that's where the camera is",
-      
-      "dialogue": "None", 
-      
+      "dialogue": "None",
       "audio": {
-        "primary_sounds": ["Complete silence"],
+        "primary_sounds": [
+          "Complete silence"
+        ],
         "ambient_sounds": [],
-        "absent_sounds": ["all sound"]
+        "absent_sounds": [
+          "all sound"
+        ]
       },
-      
       "character_plates": {
         "present": [],
-        "referenced": ["Family inside (invisible)"]
+        "referenced": [
+          "Family inside (invisible)"
+        ]
       },
-      
       "environmental_plates": {
         "landscape": "WESTFJORDS-WINTER-BURIAL",
         "weather": "WINTER-ABSOLUTE",
         "lighting": "SINGLE-WINDOW-GLOW"
       },
-      
       "negative_prompt": "no subtitles, no movement, show buried house, single window, hard cut to black, 1080p",
-      
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-PURE",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-WINTER",
+          "interior": "BA\u00d0STOFA-ORGANIC"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
-
   "others": {
     "reality_shock": "Instant transition from false memory to survival truth",
     "isolation_complete": "House completely buried, family trapped",
     "hard_cut": "Abrupt end to prologue false abundance"
   },
-
   "notes": {
     "thematic_purpose": "Brutal transition revealing winter reality behind false memory",
     "enhancement_potential": "Winter entity consciousness assault"

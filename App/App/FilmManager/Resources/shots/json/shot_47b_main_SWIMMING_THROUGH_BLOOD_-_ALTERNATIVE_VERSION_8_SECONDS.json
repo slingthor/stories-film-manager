@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[GUÃRÃšN] taking a step into what should be snow but breaks through into pool of blood - the heat from Bull and her wounds has melted the frozen blood layers beneath, creating bog of every sacrifice, forcing her to half-swim through red-black slush to reach home.",
-      "action": "Step forward. Snow crust breaks. She plunges to waist. Not into snow but BLOOD - warm, thick, partially coagulated. All the blood from all the spirals has melted together. MagnÃºs's from this morning. Ram blood from weeks ago. Ancient blood from years of sacrifice. All liquid now, 3 feet deep. She gasps, tries to step, sinks deeper. Must swim-crawl through it. CAMERA TRACKS at her eye level, half submerged. Sometimes under surface - red darkness, chunks of coagulated blood like jellyfish. Surface breaks - gasping, faldbÃºningur soaked red, weighing her down. Her own wrist-blood mixing in, making it warmer. Through red liquid, glimpses of bottom: bones. Small bones. Sheep? Children? Ancient. Blood bog covers 50 meters. Each stroke forward, blood enters mouth. Tastes iron, tastes history. Ahead, solid ground. Behind, Bull's heat created this melt. House watching through windows. Family sees her swimming through their history. Emerging other side: completely red. Walking blood-sculpture. FaldbÃºningur crimson crown. Still alive despite drowning in sacrifice.",
+      "subject": "[GU\u00c3\u0090R\u00c3\u0161N] taking a step into what should be snow but breaks through into pool of blood - the heat from Bull and her wounds has melted the frozen blood layers beneath, creating bog of every sacrifice, forcing her to half-swim through red-black slush to reach home.",
+      "action": "Step forward. Snow crust breaks. She plunges to waist. Not into snow but BLOOD - warm, thick, partially coagulated. All the blood from all the spirals has melted together. Magn\u00c3\u00bas's from this morning. Ram blood from weeks ago. Ancient blood from years of sacrifice. All liquid now, 3 feet deep. She gasps, tries to step, sinks deeper. Must swim-crawl through it. CAMERA TRACKS at her eye level, half submerged. Sometimes under surface - red darkness, chunks of coagulated blood like jellyfish. Surface breaks - gasping, faldb\u00c3\u00baningur soaked red, weighing her down. Her own wrist-blood mixing in, making it warmer. Through red liquid, glimpses of bottom: bones. Small bones. Sheep? Children? Ancient. Blood bog covers 50 meters. Each stroke forward, blood enters mouth. Tastes iron, tastes history. Ahead, solid ground. Behind, Bull's heat created this melt. House watching through windows. Family sees her swimming through their history. Emerging other side: completely red. Walking blood-sculpture. Faldb\u00c3\u00baningur crimson crown. Still alive despite drowning in sacrifice.",
       "scene": "Blood bog between shore and house. Steam rising from warm liquid. Bones visible at bottom. 50 meters of swimming.",
       "style": "Half-submerged tracking shot, above and below blood surface (that's where the camera is), drowning in history documented.",
       "camera_position": "Half-submerged tracking shot, above and below blood surface",
-      "dialogue": "(GuÃ°rÃºn, gasping): Gurgling through blood, no words (From house, MagnÃºs): \"Ã“mÃ¶gulegt...\" (Impossible...)",
+      "dialogue": "(Gu\u00c3\u00b0r\u00c3\u00ban, gasping): Gurgling through blood, no words (From house, Magn\u00c3\u00bas): \"\u00c3\u201cm\u00c3\u00b6gulegt...\" (Impossible...)",
       "audio": {
         "primary": [
           "Blood splash",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "maintain blood consistency, show swimming struggle, no clean emergence",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

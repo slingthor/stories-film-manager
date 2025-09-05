@@ -1,8 +1,8 @@
 {
   "shot_metadata": {
     "id": "59a",
-    "name": "MAGNÃŠSS_FINAL_CHARGE___THROUGH_GLASS_6_SECONDS_REWRITTEN",
-    "title": "MAGNÃšSS FINAL CHARGE - THROUGH GLASS 6 SECONDS REWRITTEN",
+    "name": "MAGN\u00c3\u0160SS_FINAL_CHARGE___THROUGH_GLASS_6_SECONDS_REWRITTEN",
+    "title": "MAGN\u00c3\u0161SS FINAL CHARGE - THROUGH GLASS 6 SECONDS REWRITTEN",
     "sequence_type": "main_story",
     "duration_seconds": 6,
     "narrative_function": "Inside monument | Camera frost 52.5% | Patriarchy ...",
@@ -12,17 +12,17 @@
   "prompt_variants": [
     {
       "variant_id": "59a_story_primary",
-      "variant_name": "Primary - MAGNÃšSS FINAL CHARGE - THROUGH GLASS 6 SECONDS REWRITTEN",
+      "variant_name": "Primary - MAGN\u00c3\u0161SS FINAL CHARGE - THROUGH GLASS 6 SECONDS REWRITTEN",
       "intent_tags": [
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[MAGNÃšS]-ram inside the obsidian walls charging at [SIGRID] but trapped in glass, running eternally through crystal, his charge preserved forever as monument to patriarchal rage, visible to all future visitors.",
-      "action": "TRACK THROUGH GLASS following MagnÃºs-ram. He's inside obsidian but still moving. Charging at Sigrid. But in glass, the charge is eternal. Never reaching. Always charging. Like insect in amber but alive. Aware. His rage preserved for all time. Future visitors will see: ram charging at nothing. Symbol of patriarchy's futile violence. Through glass, his charge creates light patterns. Each hoofbeat sends ripples through monument. Creating aurora borealis effects in black stone. Beautiful. Terrible. His horns scraping inside surface. The sound resonating at specific frequency - 40Hz. The fear frequency. But Sigrid doesn't hear. She's beyond fear. Transforming. Black feathers spreading. The ram watches from inside glass. Understanding finally: he's the monument to what was. She's the future. His authority ended the moment house became crystal. Now he's educational. Historical. A warning preserved.",
+      "subject": "[MAGN\u00c3\u0161S]-ram inside the obsidian walls charging at [SIGRID] but trapped in glass, running eternally through crystal, his charge preserved forever as monument to patriarchal rage, visible to all future visitors.",
+      "action": "TRACK THROUGH GLASS following Magn\u00c3\u00bas-ram. He's inside obsidian but still moving. Charging at Sigrid. But in glass, the charge is eternal. Never reaching. Always charging. Like insect in amber but alive. Aware. His rage preserved for all time. Future visitors will see: ram charging at nothing. Symbol of patriarchy's futile violence. Through glass, his charge creates light patterns. Each hoofbeat sends ripples through monument. Creating aurora borealis effects in black stone. Beautiful. Terrible. His horns scraping inside surface. The sound resonating at specific frequency - 40Hz. The fear frequency. But Sigrid doesn't hear. She's beyond fear. Transforming. Black feathers spreading. The ram watches from inside glass. Understanding finally: he's the monument to what was. She's the future. His authority ended the moment house became crystal. Now he's educational. Historical. A warning preserved.",
       "scene": "Inside obsidian tracking ram. Eternal charge. Light patterns. Sigrid transforming outside glass.",
       "style": "Track through impossible crystal space (that's where the camera is), eternal rage documented.",
       "camera_position": "Track through impossible crystal space",
-      "dialogue": "(MagnÃºs-ram): Muffled rage through glass (Monument visitors, future): \"Look, the ram is still charging\"",
+      "dialogue": "(Magn\u00c3\u00bas-ram): Muffled rage through glass (Monument visitors, future): \"Look, the ram is still charging\"",
       "audio": {
         "primary": [
           "Hooves through crystal",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[MAGNÃšS] forcing himself to stand despite 16Hz resonance, deliberately turning his back on the glowing house, gripping the boat rope with tremor-stopped hands (0Hz more terrifying than shaking), and continuing toward the fjord because turning back would mean admitting failure as provider.",
-      "action": "MagnÃºs pushes up from knees, fighting resonance still traveling through ground. Looks back once at house - smoke forming impossible shapes, windows glowing with landvÃ¦ttir attention, door opening and closing in rhythm. Knows he should return. Instead, deliberately turns back. Grabs boat rope, has to wrap it twice around hands - no tremor means no grip feedback, hands feel dead. Pulls. Boat resists more now, blood spirals trying to pull it back toward house. But his stubbornness stronger than magic. Steps forward. Boat scrapes forward 1 foot. Steps again. Another foot. Each step costs more - nose blood frozen in icicles on beard, grey hair now white at temples, aging visibly with effort. But continues. Because admitting Sigrid had to try tilberi means admitting he failed to provide. Male pride stronger than cosmic warnings. Behind him, house heartbeat audible even at distance - 80bpm panic rhythm. Ignores it. Counts steps in Danish: \"Et... to... tre...\" Programming stronger than reality.",
-      "scene": "Blood spiral path toward fjord, 6:42 AM, darkness unnatural. Temperature -28Â°C. Each footstep breaks through to older blood layers beneath. Boat leaving deep groove, but groove filling with fresh blood from his nose dripping.",
+      "subject": "[MAGN\u00c3\u0161S] forcing himself to stand despite 16Hz resonance, deliberately turning his back on the glowing house, gripping the boat rope with tremor-stopped hands (0Hz more terrifying than shaking), and continuing toward the fjord because turning back would mean admitting failure as provider.",
+      "action": "Magn\u00c3\u00bas pushes up from knees, fighting resonance still traveling through ground. Looks back once at house - smoke forming impossible shapes, windows glowing with landv\u00c3\u00a6ttir attention, door opening and closing in rhythm. Knows he should return. Instead, deliberately turns back. Grabs boat rope, has to wrap it twice around hands - no tremor means no grip feedback, hands feel dead. Pulls. Boat resists more now, blood spirals trying to pull it back toward house. But his stubbornness stronger than magic. Steps forward. Boat scrapes forward 1 foot. Steps again. Another foot. Each step costs more - nose blood frozen in icicles on beard, grey hair now white at temples, aging visibly with effort. But continues. Because admitting Sigrid had to try tilberi means admitting he failed to provide. Male pride stronger than cosmic warnings. Behind him, house heartbeat audible even at distance - 80bpm panic rhythm. Ignores it. Counts steps in Danish: \"Et... to... tre...\" Programming stronger than reality.",
+      "scene": "Blood spiral path toward fjord, 6:42 AM, darkness unnatural. Temperature -28\u00c2\u00b0C. Each footstep breaks through to older blood layers beneath. Boat leaving deep groove, but groove filling with fresh blood from his nose dripping.",
       "style": "Following shot showing stubborn forward movement against all signs (that's where the camera is), documentary of masculine denial.",
       "camera_position": "Following shot showing stubborn forward movement against all signs",
-      "dialogue": "(MagnÃºs, to himself): \"Ã‰g er fyrirvinna\" (I am provider) (Counting steps): \"Et... to... tre... fjorir...\" (To boat resisting): \"ÃžÃš KEMUR!\" (YOU'RE COMING!)",
+      "dialogue": "(Magn\u00c3\u00bas, to himself): \"\u00c3\u2030g er fyrirvinna\" (I am provider) (Counting steps): \"Et... to... tre... fjorir...\" (To boat resisting): \"\u00c3\u017e\u00c3\u0161 KEMUR!\" (YOU'RE COMING!)",
       "audio": {
         "primary": [
           "Boat scraping against resistance",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show cost of stubbornness, aging visible, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

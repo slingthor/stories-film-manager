@@ -5,10 +5,10 @@
     "title": "KRUMMI LULLABY TO LILJA REVISED",
     "sequence_type": "main_story",
     "duration_seconds": 8,
-    "narrative_function": "House 13/min + 60bpm | KlettagjÃ¡ 1.5mm deepening ...",
+    "narrative_function": "House 13/min + 60bpm | Klettagj\u00c3\u00a1 1.5mm deepening ...",
     "stitch_from": "[STITCH from Shot 11: Empty shelves confirmed, family dispersing from positions]"
   },
-  "progressive_state": "House 13/min + 60bpm | KlettagjÃ¡ 1.5mm deepening | Lullaby prophecy | Camera frost 7% | Women's voice | Watching: House listening",
+  "progressive_state": "House 13/min + 60bpm | Klettagj\u00c3\u00a1 1.5mm deepening | Lullaby prophecy | Camera frost 7% | Women's voice | Watching: House listening",
   "prompt_variants": [
     {
       "variant_id": "12_story_primary",
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[SIGRID] sitting with [LILJA] on the sleeping platform, singing the Krummi lullaby softly, the only sustained female voice we hear - \"Krummi svaf Ã­ klettagjÃ¡, kaldri vetrarnÃ³ttu Ã¡\" - while unconsciously tracing the wall cracks behind her that are deepening into the very klettagjÃ¡ (rocky cleft) she sings about.",
-      "action": "Sigrid holds Lilja, who clutches her doll with brass button eyes. The child's thumb in mouth, body trembling from hunger. Sigrid's voice clear despite everything: \"Krummi svaf Ã­ klettagjÃ¡\" (Raven slept in rocky cleft). As she sings, her fingers trace the wall - cracks now 1.5mm deep, forming cleft patterns. The house IS becoming the klettagjÃ¡. \"VerÃ°ur margt aÃ° meini\" (Much becomes harmful) - on these words, her hand moves protective over her subtle belly. Lilja's eyes droop but snap open at each verse end. Behind them, the wall shows the word \"HAMR\" emerging in cracks. MagnÃºs watches from across room, 11 feet away, his tremor creating soft tapping rhythm underneath the lullaby. Empty clothes in corner sway to the lullaby rhythm. Through window, something dark moves - setting up next shot.",
-      "scene": "Eastern sleeping platform, 6:05 AM, grey morning light. Temperature -10Â°C, breath visible from both girls. Wall behind them developing cleft-like cracks, becoming the rocky refuge from the song. The lullaby creates temporary peace, even house breathing slows to match song rhythm - 10/min during verses.",
+      "subject": "[SIGRID] sitting with [LILJA] on the sleeping platform, singing the Krummi lullaby softly, the only sustained female voice we hear - \"Krummi svaf \u00c3\u00ad klettagj\u00c3\u00a1, kaldri vetrarn\u00c3\u00b3ttu \u00c3\u00a1\" - while unconsciously tracing the wall cracks behind her that are deepening into the very klettagj\u00c3\u00a1 (rocky cleft) she sings about.",
+      "action": "Sigrid holds Lilja, who clutches her doll with brass button eyes. The child's thumb in mouth, body trembling from hunger. Sigrid's voice clear despite everything: \"Krummi svaf \u00c3\u00ad klettagj\u00c3\u00a1\" (Raven slept in rocky cleft). As she sings, her fingers trace the wall - cracks now 1.5mm deep, forming cleft patterns. The house IS becoming the klettagj\u00c3\u00a1. \"Ver\u00c3\u00b0ur margt a\u00c3\u00b0 meini\" (Much becomes harmful) - on these words, her hand moves protective over her subtle belly. Lilja's eyes droop but snap open at each verse end. Behind them, the wall shows the word \"HAMR\" emerging in cracks. Magn\u00c3\u00bas watches from across room, 11 feet away, his tremor creating soft tapping rhythm underneath the lullaby. Empty clothes in corner sway to the lullaby rhythm. Through window, something dark moves - setting up next shot.",
+      "scene": "Eastern sleeping platform, 6:05 AM, grey morning light. Temperature -10\u00c2\u00b0C, breath visible from both girls. Wall behind them developing cleft-like cracks, becoming the rocky refuge from the song. The lullaby creates temporary peace, even house breathing slows to match song rhythm - 10/min during verses.",
       "style": "Intimate medium shot of sisters, camera at their seated level (that's where the camera is), documentary capturing last innocence.",
       "camera_position": "Intimate medium shot of sisters, camera at their seated level",
-      "dialogue": "(Sigrid, singing): \"Krummi svaf Ã­ klettagjÃ¡, kaldri vetrarnÃ³ttu Ã¡\" \"verÃ°ur margt aÃ° meini\" \"fyrr en dagur fagur rann\" (Lilja, sleepily): \"Krummi... mÃ¦...\" (mixing raven with sheep sound)",
+      "dialogue": "(Sigrid, singing): \"Krummi svaf \u00c3\u00ad klettagj\u00c3\u00a1, kaldri vetrarn\u00c3\u00b3ttu \u00c3\u00a1\" \"ver\u00c3\u00b0ur margt a\u00c3\u00b0 meini\" \"fyrr en dagur fagur rann\" (Lilja, sleepily): \"Krummi... m\u00c3\u00a6...\" (mixing raven with sheep sound)",
       "audio": {
         "primary": [
           "Sigrid's clear singing",
@@ -31,7 +31,7 @@
         ],
         "ambient": [
           "House breathing slowing to 10/min during song",
-          "MagnÃºs tremor tapping",
+          "Magn\u00c3\u00bas tremor tapping",
           "empty clothes swaying"
         ],
         "absent": [
@@ -46,8 +46,25 @@
         ],
         "referenced": []
       },
-      "negative_prompt": "no subtitles except song translation, show wall becoming klettagjÃ¡, maintain intimacy",
-      "video_references": []
+      "negative_prompt": "no subtitles except song translation, show wall becoming klettagj\u00c3\u00a1, maintain intimacy",
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

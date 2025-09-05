@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[SIGRID]'s voice completing transformation into the giant's 16Hz resonance - felt in bones more than heard - as the words themselves transform from tilberi summoning to landvÃ¦ttir call: \"LandvÃ¦ttir, komiÃ°, hjÃ¡lpiÃ° okkur\" vibrating through the house structure, which IS the giant's body.",
-      "action": "Sigrid tries to continue tilberi chant but voice no longer hers. Drops to 16Hz - below human hearing, felt in teeth, bones, eyes. The house itself becomes speaker, walls vibrating. Words transform mid-sentence: \"Tilberi...\" becomes \"LANDVÃ†TTIR...\" She claps hands over mouth but voice continues from everywhere - floor, walls, beams. \"KOMIÃ, HJÃLPIÃ OKKUR\" (Come, help us). Instant four responses: EAST: Trawler horn blasts so loud windows crack. WEST: Water in all buckets boils despite -15Â°C. SOUTH: Floor becomes warm, alive, pulsing. NORTH: Raven shadow passes window, impossibly large. The contaminated creation on floor starts breathing - industrial rope skeleton visible through forming flesh, brass button eye weeping green tears, wrong thing being born. GuÃ°rÃºn falls backward, crawling away. Children wake screaming but screams are bleats. Baby's heartbeat visible through Sigrid's dress - 160bpm, red glow pulsing. House heartbeat stutters - 40bpm, 20bpm, 60bpm - dying giant panicking.",
-      "scene": "Interior, 6:37 AM, reality breaking. Temperature drops 5 degrees instantly to -20Â°C. Four cardinal directions showing responses. Windows cracking from trawler horn, water boiling and freezing simultaneously, floor revealing pink flesh underneath, raven shadow too large for any bird. The contaminated tilberi writhing, neither creature nor thing.",
+      "subject": "[SIGRID]'s voice completing transformation into the giant's 16Hz resonance - felt in bones more than heard - as the words themselves transform from tilberi summoning to landv\u00c3\u00a6ttir call: \"Landv\u00c3\u00a6ttir, komi\u00c3\u00b0, hj\u00c3\u00a1lpi\u00c3\u00b0 okkur\" vibrating through the house structure, which IS the giant's body.",
+      "action": "Sigrid tries to continue tilberi chant but voice no longer hers. Drops to 16Hz - below human hearing, felt in teeth, bones, eyes. The house itself becomes speaker, walls vibrating. Words transform mid-sentence: \"Tilberi...\" becomes \"LANDV\u00c3\u2020TTIR...\" She claps hands over mouth but voice continues from everywhere - floor, walls, beams. \"KOMI\u00c3\u0090, HJ\u00c3\u0081LPI\u00c3\u0090 OKKUR\" (Come, help us). Instant four responses: EAST: Trawler horn blasts so loud windows crack. WEST: Water in all buckets boils despite -15\u00c2\u00b0C. SOUTH: Floor becomes warm, alive, pulsing. NORTH: Raven shadow passes window, impossibly large. The contaminated creation on floor starts breathing - industrial rope skeleton visible through forming flesh, brass button eye weeping green tears, wrong thing being born. Gu\u00c3\u00b0r\u00c3\u00ban falls backward, crawling away. Children wake screaming but screams are bleats. Baby's heartbeat visible through Sigrid's dress - 160bpm, red glow pulsing. House heartbeat stutters - 40bpm, 20bpm, 60bpm - dying giant panicking.",
+      "scene": "Interior, 6:37 AM, reality breaking. Temperature drops 5 degrees instantly to -20\u00c2\u00b0C. Four cardinal directions showing responses. Windows cracking from trawler horn, water boiling and freezing simultaneously, floor revealing pink flesh underneath, raven shadow too large for any bird. The contaminated tilberi writhing, neither creature nor thing.",
       "style": "Wide shot showing four-directional responses, camera shaking with 16Hz vibration (that's where the camera is), documentary of summoning disaster.",
       "camera_position": "Wide shot showing four-directional responses, camera shaking with 16Hz vibration",
-      "dialogue": "(Giant's voice through Sigrid): \"LANDVÃ†TTIR, KOMIÃ, HJÃLPIÃ OKKUR\" (Trying to stop): Normal voice breaking through: \"Nei, nei, Ã¾etta Ã¡ ekki...\" (GuÃ°rÃºn, finally speaking): \"HvaÃ° hefur Ã¾Ãº gert?\" (What have you done?)",
+      "dialogue": "(Giant's voice through Sigrid): \"LANDV\u00c3\u2020TTIR, KOMI\u00c3\u0090, HJ\u00c3\u0081LPI\u00c3\u0090 OKKUR\" (Trying to stop): Normal voice breaking through: \"Nei, nei, \u00c3\u00beetta \u00c3\u00a1 ekki...\" (Gu\u00c3\u00b0r\u00c3\u00ban, finally speaking): \"Hva\u00c3\u00b0 hefur \u00c3\u00be\u00c3\u00ba gert?\" (What have you done?)",
       "audio": {
         "primary": [
           "16Hz giant voice through everything",
@@ -49,7 +49,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, 16Hz as vibration not normal sound, four responses simultaneous, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

@@ -17,8 +17,8 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "A 70-foot fin whale's grey back breaking the surface between three boats, three men standing with raised spears including [MAGNÃšS], iron spear points entering whale flesh behind the pectoral fin, bright red blood flowing from wounds into water.",
-      "action": "Whale surfaces slowly. Grey skin wet, reflecting morning light. Back 8 feet wide visible above water. MagnÃºs stands in boat bow, knees bent for balance. Raises 7-foot spear above shoulder. Two other men in other boats also stand, spears raised. Whale continues moving forward at 2 knots. MagnÃºs throws spear. It flies in arc, iron point enters flesh 2 feet deep behind whale's left pectoral fin. Immediately blood flows from wound - bright red, thick. Second spear enters whale's back near dorsal fin. Third spear hits lower back. All three spears remain embedded, shafts sticking out at angles. Blood flows from all three wounds, running down grey skin into water. Whale's tail rises slightly, then slides beneath surface. Whale begins diving, spear shafts disappearing under water. Blood spreads on surface in three distinct streams, merging into single wide trail pointing toward shore.",
+      "subject": "A 70-foot fin whale's grey back breaking the surface between three boats, three men standing with raised spears including [MAGN\u00c3\u0161S], iron spear points entering whale flesh behind the pectoral fin, bright red blood flowing from wounds into water.",
+      "action": "Whale surfaces slowly. Grey skin wet, reflecting morning light. Back 8 feet wide visible above water. Magn\u00c3\u00bas stands in boat bow, knees bent for balance. Raises 7-foot spear above shoulder. Two other men in other boats also stand, spears raised. Whale continues moving forward at 2 knots. Magn\u00c3\u00bas throws spear. It flies in arc, iron point enters flesh 2 feet deep behind whale's left pectoral fin. Immediately blood flows from wound - bright red, thick. Second spear enters whale's back near dorsal fin. Third spear hits lower back. All three spears remain embedded, shafts sticking out at angles. Blood flows from all three wounds, running down grey skin into water. Whale's tail rises slightly, then slides beneath surface. Whale begins diving, spear shafts disappearing under water. Blood spreads on surface in three distinct streams, merging into single wide trail pointing toward shore.",
       "scene": "Open ocean, 500 yards from shore. Three boats in triangle formation around whale. Dawn light making blood appear bright red against dark blue water.",
       "style": "Shot from water level between boats, camera 20 feet from whale (that's where the camera is), showing spears entering and blood flowing.",
       "camera_position": "Shot from water level between boats, camera 20 feet from whale",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show three spears embedded, blood flowing clearly, whale diving slowly, 1080p",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},

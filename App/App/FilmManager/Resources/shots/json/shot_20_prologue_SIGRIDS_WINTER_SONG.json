@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[SIGRID] standing alone at the feast table, everyone else frozen, her mouth opening to sing \"Krummi svaf Ã­ klettagjÃ¡,\" her young voice clear and pure, breath visible in freezing air, frost forming on her hair.",
-      "action": "Sigrid stands slowly while everyone else remains seated, frozen. Faces the darkness where sun disappeared. Opens mouth, begins singing. Her real voice this time - young, female, clear soprano. \"Krummi svaf Ã­ klettagjÃ¡, kaldri vetrarnÃ³ttu Ã¡.\" Breath forms white clouds with each word. Frost spreads across her wheat-blonde hair, making it white. Behind her, feast transforms - food rotting instantly, tables cracking from cold, tablecloths stiffening with ice. She continues singing, voice stronger: \"verÃ°ur margt aÃ° meini fyrr en dagur fagur rann.\" The searchlight flickers, dies. Trawler disappears into darkness. Only Sigrid visible, as if lit from within. Around her, people begin to fade, becoming translucent. Can see through them to frozen ground beneath. She keeps singing, same verse repeating. The three stains on her dress - blood, berry, egg - begin glowing faintly in darkness.",
+      "subject": "[SIGRID] standing alone at the feast table, everyone else frozen, her mouth opening to sing \"Krummi svaf \u00c3\u00ad klettagj\u00c3\u00a1,\" her young voice clear and pure, breath visible in freezing air, frost forming on her hair.",
+      "action": "Sigrid stands slowly while everyone else remains seated, frozen. Faces the darkness where sun disappeared. Opens mouth, begins singing. Her real voice this time - young, female, clear soprano. \"Krummi svaf \u00c3\u00ad klettagj\u00c3\u00a1, kaldri vetrarn\u00c3\u00b3ttu \u00c3\u00a1.\" Breath forms white clouds with each word. Frost spreads across her wheat-blonde hair, making it white. Behind her, feast transforms - food rotting instantly, tables cracking from cold, tablecloths stiffening with ice. She continues singing, voice stronger: \"ver\u00c3\u00b0ur margt a\u00c3\u00b0 meini fyrr en dagur fagur rann.\" The searchlight flickers, dies. Trawler disappears into darkness. Only Sigrid visible, as if lit from within. Around her, people begin to fade, becoming translucent. Can see through them to frozen ground beneath. She keeps singing, same verse repeating. The three stains on her dress - blood, berry, egg - begin glowing faintly in darkness.",
       "scene": "Feast tables in near-darkness. Stars appearing despite twilight. Frost covering everything. Only Sigrid standing and visible.",
       "style": "Medium shot centered on Sigrid (that's where the camera is), darkness around edges, her face illuminated mysteriously.",
       "camera_position": "Medium shot centered on Sigrid",
-      "dialogue": "(Sigrid, clear soprano): \"Krummi svaf Ã­ klettagjÃ¡, kaldri vetrarnÃ³ttu Ã¡, verÃ°ur margt aÃ° meini fyrr en dagur fagur rann\"",
+      "dialogue": "(Sigrid, clear soprano): \"Krummi svaf \u00c3\u00ad klettagj\u00c3\u00a1, kaldri vetrarn\u00c3\u00b3ttu \u00c3\u00a1, ver\u00c3\u00b0ur margt a\u00c3\u00b0 meini fyrr en dagur fagur rann\"",
       "audio": {
         "primary": [
           "Sigrid's clear voice echoing",
@@ -45,7 +45,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show Sigrid lit while others fade, frost spreading, three stains glowing, 1080p",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},

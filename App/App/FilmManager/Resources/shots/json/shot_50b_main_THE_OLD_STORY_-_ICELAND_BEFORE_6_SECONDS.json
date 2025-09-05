@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[MAGNÃšS] sitting on edge of [SIGRID]'s platform - boundary crossed but subtle - telling her stories of Iceland before Danish counting: \"Ãžegar viÃ° vorum frjÃ¡ls... Ã¾egar konur sungu\" (When we were free... when women sang), his hand on her ankle, possessive but gentle.",
-      "action": "He sits. Not beside but ON her platform. She pulls knees up, maintaining distance even horizontal. But accepts - isolation means no one to say this is wrong. He tells old story: \"Fyrir DanmÃ¶rku, fyrir talningu...\" (Before Denmark, before counting...). Voice hypnotic, genuinely beautiful. The tremor gone (0Hz) makes him steady, reliable. \"Konur sungu Ã¾Ã¡. Allt var Ã¶Ã°ruvÃ­si.\" (Women sang then. Everything was different.) His hand finds her ankle through blanket. Just resting. Fatherly. But doesn't move away. PUSH IN reveals shadow on wall - shadow's hand much higher than ankle, near thigh. Shadow tells different story. \"ÃžÃº hefÃ°ir sungiÃ° Ã¾Ã¡, Sigrid. ÃžÃº hefÃ°ir veriÃ° frjÃ¡ls.\" (You would have sung then, Sigrid. You would have been free.) But his hand prevents freedom. The irony unconscious or deliberate? She breathes steady 15/min. Never changes. Even with his hand on ankle. Wall behind shows \"VITNI\" (witness) in cracks. She will witness all.",
+      "subject": "[MAGN\u00c3\u0161S] sitting on edge of [SIGRID]'s platform - boundary crossed but subtle - telling her stories of Iceland before Danish counting: \"\u00c3\u017eegar vi\u00c3\u00b0 vorum frj\u00c3\u00a1ls... \u00c3\u00beegar konur sungu\" (When we were free... when women sang), his hand on her ankle, possessive but gentle.",
+      "action": "He sits. Not beside but ON her platform. She pulls knees up, maintaining distance even horizontal. But accepts - isolation means no one to say this is wrong. He tells old story: \"Fyrir Danm\u00c3\u00b6rku, fyrir talningu...\" (Before Denmark, before counting...). Voice hypnotic, genuinely beautiful. The tremor gone (0Hz) makes him steady, reliable. \"Konur sungu \u00c3\u00be\u00c3\u00a1. Allt var \u00c3\u00b6\u00c3\u00b0ruv\u00c3\u00adsi.\" (Women sang then. Everything was different.) His hand finds her ankle through blanket. Just resting. Fatherly. But doesn't move away. PUSH IN reveals shadow on wall - shadow's hand much higher than ankle, near thigh. Shadow tells different story. \"\u00c3\u017e\u00c3\u00ba hef\u00c3\u00b0ir sungi\u00c3\u00b0 \u00c3\u00be\u00c3\u00a1, Sigrid. \u00c3\u017e\u00c3\u00ba hef\u00c3\u00b0ir veri\u00c3\u00b0 frj\u00c3\u00a1ls.\" (You would have sung then, Sigrid. You would have been free.) But his hand prevents freedom. The irony unconscious or deliberate? She breathes steady 15/min. Never changes. Even with his hand on ankle. Wall behind shows \"VITNI\" (witness) in cracks. She will witness all.",
       "scene": "Her sleeping platform, intimate space. Shadow prominent on wall showing different touch. Evening light fading.",
       "style": "Push in showing intimate threat (that's where the camera is), duality documented.",
       "camera_position": "Push in showing intimate threat",
-      "dialogue": "(MagnÃºs, storytelling): \"Ãžegar viÃ° vorum frjÃ¡ls... Ã¾egar konur sungu\" \"ÃžÃº hefÃ°ir sungiÃ° Ã¾Ã¡, Sigrid\" \"ÃžÃº ert svo lÃ­k Ã¾vÃ­ sem var\" (You're so like what was)",
+      "dialogue": "(Magn\u00c3\u00bas, storytelling): \"\u00c3\u017eegar vi\u00c3\u00b0 vorum frj\u00c3\u00a1ls... \u00c3\u00beegar konur sungu\" \"\u00c3\u017e\u00c3\u00ba hef\u00c3\u00b0ir sungi\u00c3\u00b0 \u00c3\u00be\u00c3\u00a1, Sigrid\" \"\u00c3\u017e\u00c3\u00ba ert svo l\u00c3\u00adk \u00c3\u00bev\u00c3\u00ad sem var\" (You're so like what was)",
       "audio": {
         "primary": [
           "His steady voice",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

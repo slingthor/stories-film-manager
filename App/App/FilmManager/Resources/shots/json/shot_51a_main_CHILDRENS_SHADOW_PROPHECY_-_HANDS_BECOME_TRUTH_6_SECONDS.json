@@ -6,7 +6,7 @@
     "sequence_type": "main_story",
     "duration_seconds": 6,
     "narrative_function": "House 8/min sleeping + 60bpm | Night falling | Cam...",
-    "stitch_from": "[STITCH from Shot 50d: MagnÃºs left Sigrid, night arriving]"
+    "stitch_from": "[STITCH from Shot 50d: Magn\u00c3\u00bas left Sigrid, night arriving]"
   },
   "progressive_state": "House 8/min sleeping + 60bpm | Night falling | Camera frost 40% | Future cast on walls | Watching: Shadows know",
   "prompt_variants": [
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[JÃ“N] and [LILJA] by the dying hearth making shadow puppets on the wall, but their human hands cast sheep shadows - ram, ewe, lambs - arranged in rÃ©ttir formation, showing the transformation before it happens.",
-      "action": "Children sit by hearth's last embers. JÃ³n raises hands to make shadow bird. But shadow shows ram's head - curved horns, long snout. Doesn't notice. Lilja makes butterfly with hands. Shadow shows ewe, faldbÃºningur shape on sheep head. They continue playing, shadows telling truth. PUSH IN on wall. Shadow play becomes elaborate: Five sheep in pen formation. Sixth shadow appears though only two children. The shadows begin moving independently - sheep shadows walking while hands stay still. Through shadows, glimpse of empty clothes standing behind children, also casting shadows. Now eight shadows for two children and clothes. Mathematical impossibility visible. In shadow: sheep have human teeth, visible when shadow-mouths open. JÃ³n's fever allows him to see: \"SjÃ¡Ã°u! ViÃ° erum Ã¾egar...\" (Look! We already are...). Lilja nods, continues playing. They know. Accept.",
+      "subject": "[J\u00c3\u201cN] and [LILJA] by the dying hearth making shadow puppets on the wall, but their human hands cast sheep shadows - ram, ewe, lambs - arranged in r\u00c3\u00a9ttir formation, showing the transformation before it happens.",
+      "action": "Children sit by hearth's last embers. J\u00c3\u00b3n raises hands to make shadow bird. But shadow shows ram's head - curved horns, long snout. Doesn't notice. Lilja makes butterfly with hands. Shadow shows ewe, faldb\u00c3\u00baningur shape on sheep head. They continue playing, shadows telling truth. PUSH IN on wall. Shadow play becomes elaborate: Five sheep in pen formation. Sixth shadow appears though only two children. The shadows begin moving independently - sheep shadows walking while hands stay still. Through shadows, glimpse of empty clothes standing behind children, also casting shadows. Now eight shadows for two children and clothes. Mathematical impossibility visible. In shadow: sheep have human teeth, visible when shadow-mouths open. J\u00c3\u00b3n's fever allows him to see: \"Sj\u00c3\u00a1\u00c3\u00b0u! Vi\u00c3\u00b0 erum \u00c3\u00beegar...\" (Look! We already are...). Lilja nods, continues playing. They know. Accept.",
       "scene": "By dying hearth, 8:00 PM darkness. Only light from embers. Shadows prominent on wall. Empty clothes participating.",
       "style": "Push in on prophetic shadows (that's where the camera is), future documented before it happens.",
       "camera_position": "Push in on prophetic shadows",
-      "dialogue": "(JÃ³n, seeing truth): \"SjÃ¡Ã°u! ViÃ° erum Ã¾egar...\" (Lilja): \"Ã‰g veit. ViÃ° vitum\" (I know. We know)",
+      "dialogue": "(J\u00c3\u00b3n, seeing truth): \"Sj\u00c3\u00a1\u00c3\u00b0u! Vi\u00c3\u00b0 erum \u00c3\u00beegar...\" (Lilja): \"\u00c3\u2030g veit. Vi\u00c3\u00b0 vitum\" (I know. We know)",
       "audio": {
         "primary": [
           "Hands moving",
@@ -45,7 +45,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

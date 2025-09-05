@@ -1,8 +1,8 @@
 {
   "shot_metadata": {
     "id": "45c",
-    "name": "GRIÃUNGUR_EMERGES___CONTAMINATED_GOD_8_SECONDS",
-    "title": "GRIÃUNGUR EMERGES - CONTAMINATED GOD 8 SECONDS",
+    "name": "GRI\u00c3UNGUR_EMERGES___CONTAMINATED_GOD_8_SECONDS",
+    "title": "GRI\u00c3UNGUR EMERGES - CONTAMINATED GOD 8 SECONDS",
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "Bull surfaces | Industrial horror | Camera frost 3...",
@@ -12,17 +12,17 @@
   "prompt_variants": [
     {
       "variant_id": "45c_story_primary",
-      "variant_name": "Primary - GRIÃUNGUR EMERGES - CONTAMINATED GOD 8 SECONDS",
+      "variant_name": "Primary - GRI\u00c3UNGUR EMERGES - CONTAMINATED GOD 8 SECONDS",
       "intent_tags": [
         "story_primary"
       ],
       "priority": 1,
-      "subject": "The water exploding as GRIÃUNGUR emerges - massive bull's head 6 feet across, but industrial materials grown INTO his flesh: brass harpoons through skull sprouting like horns, rope beneath skin creating raised black spirals, fishing net fused with eyes, beautiful and horrible simultaneously.",
-      "action": "Water EXPLODES upward. CAMERA PULLS BACK rapidly. Bull's head emerges - impossible size, ancient, divine. But corrupted: Three brass harpoons pierce skull, but not through - grown INTO bone, brass and calcium fused, sprouting like additional horns. Industrial rope hasn't wrapped around but grown THROUGH neck tissue, black hemp spirals visible beneath skin like external veins. Fishing net across eyes, but net has grown into corneas, hemp and tissue merged, creating crosshatch vision. Opens mouth to bellow - sound is both organic and mechanical, bull's roar mixed with trawler horn, 70Hz vibration shaking ice. Steam pours from wounds - body temperature meeting cold air. Eyes ancient, intelligent, in agony, find GuÃ°rÃºn. Recognition between trapped beings. Water around him turns black-green from contamination bleeding out. One brass harpoon has green verdigris tears running from it, as if the metal itself weeps. He rises further - shoulders visible, more contamination, industrial and divine fused. Size: could destroy house with one movement. But gentle. Suffering. 15-second hold on this wounded god.",
+      "subject": "The water exploding as GRI\u00c3\u0090UNGUR emerges - massive bull's head 6 feet across, but industrial materials grown INTO his flesh: brass harpoons through skull sprouting like horns, rope beneath skin creating raised black spirals, fishing net fused with eyes, beautiful and horrible simultaneously.",
+      "action": "Water EXPLODES upward. CAMERA PULLS BACK rapidly. Bull's head emerges - impossible size, ancient, divine. But corrupted: Three brass harpoons pierce skull, but not through - grown INTO bone, brass and calcium fused, sprouting like additional horns. Industrial rope hasn't wrapped around but grown THROUGH neck tissue, black hemp spirals visible beneath skin like external veins. Fishing net across eyes, but net has grown into corneas, hemp and tissue merged, creating crosshatch vision. Opens mouth to bellow - sound is both organic and mechanical, bull's roar mixed with trawler horn, 70Hz vibration shaking ice. Steam pours from wounds - body temperature meeting cold air. Eyes ancient, intelligent, in agony, find Gu\u00c3\u00b0r\u00c3\u00ban. Recognition between trapped beings. Water around him turns black-green from contamination bleeding out. One brass harpoon has green verdigris tears running from it, as if the metal itself weeps. He rises further - shoulders visible, more contamination, industrial and divine fused. Size: could destroy house with one movement. But gentle. Suffering. 15-second hold on this wounded god.",
       "scene": "Polynya eruption, 9:59 AM. Bull massive against grey sky. Steam creating fog wall. Ice cracking from his emergence.",
       "style": "Pull back for scale then hold for witness (that's where the camera is), documenting corrupted divinity.",
       "camera_position": "Pull back for scale then hold for witness",
-      "dialogue": "(GuÃ°rÃºn, whispered): \"GriÃ°ungur... hvaÃ° gerÃ°u Ã¾eir viÃ° Ã¾ig?\" (Bull): Bellow mixing with trawler horn",
+      "dialogue": "(Gu\u00c3\u00b0r\u00c3\u00ban, whispered): \"Gri\u00c3\u00b0ungur... hva\u00c3\u00b0 ger\u00c3\u00b0u \u00c3\u00beeir vi\u00c3\u00b0 \u00c3\u00beig?\" (Bull): Bellow mixing with trawler horn",
       "audio": {
         "primary": [
           "Water exploding",
@@ -43,12 +43,29 @@
         "referenced": []
       },
       "negative_prompt": "show fusion clearly, maintain 8-second hold, no CGI, practical effects",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
     "womens_silence": "No scream, just recognition",
-    "triple_reality": "Physical: massive bull | Psychological: impossible beauty | Mythological: Ã†gir corrupted"
+    "triple_reality": "Physical: massive bull | Psychological: impossible beauty | Mythological: \u00c3\u2020gir corrupted"
   },
   "notes": {
     "sequence": "main_story",

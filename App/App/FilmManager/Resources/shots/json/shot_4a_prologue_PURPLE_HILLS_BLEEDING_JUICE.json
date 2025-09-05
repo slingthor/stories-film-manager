@@ -17,8 +17,8 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Fifteen women climbing a hillside covered in crowberry bushes, [GUÃRÃšN] leading with [SIGRID] beside her, purple-black berries so abundant that juice runs down the hill in streams without anyone touching them, women's feet already stained purple.",
-      "action": "Women spread across hillside. Every bush heavy with berries, branches bent to ground. GuÃ°rÃºn reaches first bush. Doesn't need to pick - slight touch causes berries to fall into basket like rain. Purple-black juice immediately stains her fingers. Sigrid beside her, basket filling in seconds. Other women laughing, but nervous laughter. Too many berries. Some bushes drip juice without being touched, purple streams running downhill. Women's white apron fronts turn purple. Hands stained to elbows. One young woman opens mouth, lets berries fall directly in. Purple juice runs down her chin. Teeth instantly black. Children among them drinking juice from cupped hands. Everyone's mouth purple-black. In distance, whale visible - dark shape drifting toward shore, pulled by tide. The purple juice streams running downhill parallel to blood in water.",
+      "subject": "Fifteen women climbing a hillside covered in crowberry bushes, [GU\u00c3\u0090R\u00c3\u0161N] leading with [SIGRID] beside her, purple-black berries so abundant that juice runs down the hill in streams without anyone touching them, women's feet already stained purple.",
+      "action": "Women spread across hillside. Every bush heavy with berries, branches bent to ground. Gu\u00c3\u00b0r\u00c3\u00ban reaches first bush. Doesn't need to pick - slight touch causes berries to fall into basket like rain. Purple-black juice immediately stains her fingers. Sigrid beside her, basket filling in seconds. Other women laughing, but nervous laughter. Too many berries. Some bushes drip juice without being touched, purple streams running downhill. Women's white apron fronts turn purple. Hands stained to elbows. One young woman opens mouth, lets berries fall directly in. Purple juice runs down her chin. Teeth instantly black. Children among them drinking juice from cupped hands. Everyone's mouth purple-black. In distance, whale visible - dark shape drifting toward shore, pulled by tide. The purple juice streams running downhill parallel to blood in water.",
       "scene": "Hillside inland from coast, morning sun warming bushes. Every plant overloaded with berries. Purple streams forming natural channels downhill.",
       "style": "Wide shot showing all women spread across hillside (that's where the camera is), purple staining everything.",
       "camera_position": "Wide shot showing all women spread across hillside",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show purple juice streams, stained hands and mouths, excessive abundance, 1080p",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},

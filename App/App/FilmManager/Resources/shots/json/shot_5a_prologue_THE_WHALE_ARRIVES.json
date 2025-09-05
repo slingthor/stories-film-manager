@@ -18,7 +18,7 @@
       ],
       "priority": 1,
       "subject": "The 70-foot fin whale washing onto black sand beach, three spear shafts still protruding from its grey flesh, blood pooling in sand, its eye open and clouded, men running from all directions with knives and ropes.",
-      "action": "Wave pushes whale onto sand. Massive body, grey-white belly up. Three spears stick out at angles. Blood pools immediately, soaking into black sand. Pool spreads 20 feet wide. Men converge from beach camp, from cliffs, from village. Each carries tools - long flensing knives, hooks, saws. They run but arrive walking. MagnÃºs and JÃ³n descending cliff path, rope still coiled. Women descending from purple hills, baskets full, purple-stained. Everyone converging. Whale's eye open, clouded white but seems to track movement. Impossible - it's dead. Blood pool keeps spreading, but also running uphill slightly against gravity. Where blood meets purple juice trails from hills, they mix into darker stain. Children arrive at whale, stand in perfect line. One reaches out, touches whale skin. Warm. Body temperature. Should be cold.",
+      "action": "Wave pushes whale onto sand. Massive body, grey-white belly up. Three spears stick out at angles. Blood pools immediately, soaking into black sand. Pool spreads 20 feet wide. Men converge from beach camp, from cliffs, from village. Each carries tools - long flensing knives, hooks, saws. They run but arrive walking. Magn\u00c3\u00bas and J\u00c3\u00b3n descending cliff path, rope still coiled. Women descending from purple hills, baskets full, purple-stained. Everyone converging. Whale's eye open, clouded white but seems to track movement. Impossible - it's dead. Blood pool keeps spreading, but also running uphill slightly against gravity. Where blood meets purple juice trails from hills, they mix into darker stain. Children arrive at whale, stand in perfect line. One reaches out, touches whale skin. Warm. Body temperature. Should be cold.",
       "scene": "Black sand beach, mid-morning. Whale massive on sand. Blood pooling. People converging from three directions.",
       "style": "Aerial shot showing whale and people converging from all directions (that's where the camera is), scale of whale apparent.",
       "camera_position": "Aerial shot showing whale and people converging from all directions",
@@ -42,7 +42,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show massive whale scale, three spears visible, blood pooling uphill, people converging, 1080p",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},

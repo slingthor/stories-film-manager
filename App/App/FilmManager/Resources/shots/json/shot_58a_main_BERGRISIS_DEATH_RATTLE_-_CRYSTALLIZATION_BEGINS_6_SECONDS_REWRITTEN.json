@@ -18,7 +18,7 @@
       ],
       "priority": 1,
       "subject": "Light returning but WRONG - coming from inside the walls themselves as the house begins crystallizing into black hrafntinna glass, Bergrisi's death rattle making the structure sing at 528Hz while the sheep family watches their shelter become volcanic monument.",
-      "action": "Not dawn light - light from WITHIN walls. Wood glowing. Turf gleaming. Transformation beginning. PULL BACK as surfaces start reflecting. Not collapsing - crystallizing. Bergrisi's death rattle: 528Hz through everything. The frequency of transformation. Of DNA repair. Of evolution. Walls become translucent, showing veins of light inside. Like seeing through skin to stars. The sheep family (MagnÃºs-ram, GuÃ°rÃºn-ewe, lamb-children) huddle center, their wool starting to gleam too. Reflecting the transforming walls. Through translucent surfaces: impossible views. Ocean ABOVE. Sky BELOW. Other times visible - 1944 glimpsed through north wall, Vikings through south. All time simultaneous in dying giant's consciousness. Black hrafntinna forming at edges first. Volcanic glass spreading inward. The giant's bones becoming Iceland's geology. His death IS birth. Monument birth.",
+      "action": "Not dawn light - light from WITHIN walls. Wood glowing. Turf gleaming. Transformation beginning. PULL BACK as surfaces start reflecting. Not collapsing - crystallizing. Bergrisi's death rattle: 528Hz through everything. The frequency of transformation. Of DNA repair. Of evolution. Walls become translucent, showing veins of light inside. Like seeing through skin to stars. The sheep family (Magn\u00c3\u00bas-ram, Gu\u00c3\u00b0r\u00c3\u00ban-ewe, lamb-children) huddle center, their wool starting to gleam too. Reflecting the transforming walls. Through translucent surfaces: impossible views. Ocean ABOVE. Sky BELOW. Other times visible - 1944 glimpsed through north wall, Vikings through south. All time simultaneous in dying giant's consciousness. Black hrafntinna forming at edges first. Volcanic glass spreading inward. The giant's bones becoming Iceland's geology. His death IS birth. Monument birth.",
       "scene": "Interior beginning to glow and crystallize. Reality breaking. Time visible through walls.",
       "style": "Pull back showing transformation beginning (that's where the camera is), metamorphosis documented.",
       "camera_position": "Pull back showing transformation beginning",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

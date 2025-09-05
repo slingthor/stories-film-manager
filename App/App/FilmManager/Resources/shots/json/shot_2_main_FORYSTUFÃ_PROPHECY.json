@@ -1,28 +1,28 @@
 {
   "shot_metadata": {
     "id": "2",
-    "name": "FORYSTUFÃ_PROPHECY",
-    "title": "FORYSTUFÃ PROPHECY",
+    "name": "FORYSTUF\u00c3_PROPHECY",
+    "title": "FORYSTUF\u00c3 PROPHECY",
     "sequence_type": "main_story",
     "duration_seconds": 8,
-    "narrative_function": "House 12/min | KlettagjÃ¡ none | No contamination ...",
+    "narrative_function": "House 12/min | Klettagj\u00c3\u00a1 none | No contamination ...",
     "stitch_from": "[STITCH from Shot 1: Continuing descent from 1000 feet to 500 feet]"
   },
-  "progressive_state": "House 12/min | KlettagjÃ¡ none | No contamination | Camera frost 1% | Sorting none | LandvÃ¦ttir sleeping",
+  "progressive_state": "House 12/min | Klettagj\u00c3\u00a1 none | No contamination | Camera frost 1% | Sorting none | Landv\u00c3\u00a6ttir sleeping",
   "prompt_variants": [
     {
       "variant_id": "2_story_primary",
-      "variant_name": "Primary - FORYSTUFÃ PROPHECY",
+      "variant_name": "Primary - FORYSTUF\u00c3 PROPHECY",
       "intent_tags": [
         "story_primary"
       ],
       "priority": 1,
       "subject": "A translucent sheep suspended at 750 feet altitude, 60% transparent so background stars visible through its body, industrial coal-black rope grown THROUGH neck tissue creating raised spiral scarification, brass boat fixtures embedded where ears should be, human eyes with grey-green irises and human tear ducts, tears flowing and freezing into ice crystals that hang from wool face like glass ornaments.",
-      "action": "Camera descends through ghost sheep's altitude. ForystufÃ© remains perfectly still, impossibly suspended without support, not falling, not rising. Industrial rope has grown through neck from inside, emerging at throat, wrapping exterior in three spiral loops, rope texture visible as hemp mixed with coal dust. Brass fixtures are boat cleats, green with verdigris, screwed directly into skull where ears were. Eyes blink once - definitely human eyelids, human lashes. When blinking, tears squeeze out, immediately freezing mid-fall, creating suspended ice drops. Ghost sheep's mouth opens once revealing human teeth in sheep jaw. Through translucent body, we see darkness where organs should be, except for one visible object - a still-beating human heart, red and wet, pumping at 60 beats per minute. ForystufÃ© dissolves into snow particles after 6 seconds, but heart continues beating in empty air for 1 second before vanishing.",
-      "scene": "Altitude 750-500 feet, horizontal snow creating white static in air. Temperature -21Â°C, cold visible as distortion at frame edges. Below, house more visible - grass roof with 3 feet of snow, stone foundation emerging from white ground. Sheep tracks below form mathematical spirals - five separate spirals with six intersection points (impossible geometry). Wind speed 35mph at this altitude. Visibility 500 feet horizontally. Ice crystals in air catch starlight, creating natural glitter effect. No other structures visible in any direction.",
+      "action": "Camera descends through ghost sheep's altitude. Forystuf\u00c3\u00a9 remains perfectly still, impossibly suspended without support, not falling, not rising. Industrial rope has grown through neck from inside, emerging at throat, wrapping exterior in three spiral loops, rope texture visible as hemp mixed with coal dust. Brass fixtures are boat cleats, green with verdigris, screwed directly into skull where ears were. Eyes blink once - definitely human eyelids, human lashes. When blinking, tears squeeze out, immediately freezing mid-fall, creating suspended ice drops. Ghost sheep's mouth opens once revealing human teeth in sheep jaw. Through translucent body, we see darkness where organs should be, except for one visible object - a still-beating human heart, red and wet, pumping at 60 beats per minute. Forystuf\u00c3\u00a9 dissolves into snow particles after 6 seconds, but heart continues beating in empty air for 1 second before vanishing.",
+      "scene": "Altitude 750-500 feet, horizontal snow creating white static in air. Temperature -21\u00c2\u00b0C, cold visible as distortion at frame edges. Below, house more visible - grass roof with 3 feet of snow, stone foundation emerging from white ground. Sheep tracks below form mathematical spirals - five separate spirals with six intersection points (impossible geometry). Wind speed 35mph at this altitude. Visibility 500 feet horizontally. Ice crystals in air catch starlight, creating natural glitter effect. No other structures visible in any direction.",
       "style": "Continuing descent, camera passing through ghost sheep's position (that's where the camera is), 24mm lens transitioning from ultra-wide, slight rotation beginning - 15 degrees total during shot, documentary observation of impossible prophecy.",
       "camera_position": "Continuing descent, camera passing through ghost sheep's position",
-      "dialogue": "(Wind carries fragmentary words): \"ViÃ° vorum alltaf...\" (Tone: whispered, incomplete, seems to come from ghost sheep's mouth though lips don't move)",
+      "dialogue": "(Wind carries fragmentary words): \"Vi\u00c3\u00b0 vorum alltaf...\" (Tone: whispered, incomplete, seems to come from ghost sheep's mouth though lips don't move)",
       "audio": {
         "primary": [],
         "ambient": [],
@@ -33,7 +33,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, no text overlays, no CGI shimmer on ghost, maintain practical translucency, no glowing effects, documentary realism despite impossibility",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},

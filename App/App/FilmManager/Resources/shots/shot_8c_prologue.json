@@ -1,7 +1,7 @@
 {
   "shot_metadata": {
     "id": "8c",
-    "name": "THE_CONSUMPTION", 
+    "name": "THE_CONSUMPTION",
     "title": "The Consumption - Visceral Feeding",
     "sequence_type": "prologue",
     "duration_seconds": 8,
@@ -15,57 +15,79 @@
     },
     "stitch_from": "Shot 8b/18: Faces in searchlight"
   },
-
   "progressive_state": "Feast eating | Visceral feeding | Camera frost 3% | Marking complete | Watching: They eat themselves",
-
   "prompt_variants": [
     {
       "variant_id": "8c_story_primary",
       "variant_name": "Desperate Abundance Consumption",
-      "intent_tags": ["story_primary", "visceral_feeding"],
+      "intent_tags": [
+        "story_primary",
+        "visceral_feeding"
+      ],
       "priority": 1,
-      
       "subject": "Close view of hands reaching for food, tearing whale meat with fingers, purple juice running down chins, egg yolk dripping on clothes, everyone eating with desperate hunger despite the abundance, mouths stained all three colors.",
-      
-      "action": "Hands everywhere reaching. No utensils. Fingers tear into whale blubber, white fat, red meat. Grease runs down wrists. Purple berry juice poured directly into mouths, overflowing, running down necks. Boiled eggs crushed in fists, yolk squirting between fingers. Everyone eating like starved despite full tables. Child gnaws whale bone. Woman drinks purple juice, eyes rolling back. Man stuffs mouth with fish and eggs simultaneously. The three stains now on everyone - blood on lips, berry juice on teeth, yolk on chins. Mixed together makes brown-black mark on faces. Same color as ground stain earlier. Magnús eats mechanically, jaw working steadily. Guðrún feeds Lilja, purple juice and whale fat. Sigrid only one not eating. Watches. Some people's chewing becomes rhythmic. Like cud chewing. Jaws moving wrong direction - sideways slightly. No one notices. Food disappearing impossibly fast but tables still full.",
-      
+      "action": "Hands everywhere reaching. No utensils. Fingers tear into whale blubber, white fat, red meat. Grease runs down wrists. Purple berry juice poured directly into mouths, overflowing, running down necks. Boiled eggs crushed in fists, yolk squirting between fingers. Everyone eating like starved despite full tables. Child gnaws whale bone. Woman drinks purple juice, eyes rolling back. Man stuffs mouth with fish and eggs simultaneously. The three stains now on everyone - blood on lips, berry juice on teeth, yolk on chins. Mixed together makes brown-black mark on faces. Same color as ground stain earlier. Magn\u00fas eats mechanically, jaw working steadily. Gu\u00f0r\u00fan feeds Lilja, purple juice and whale fat. Sigrid only one not eating. Watches. Some people's chewing becomes rhythmic. Like cud chewing. Jaws moving wrong direction - sideways slightly. No one notices. Food disappearing impossibly fast but tables still full.",
       "scene": "Feast tables, searchlight still on but flickering. Food being consumed desperately. Faces and hands stained.",
-      
       "style": "Close handheld shots of consumption, moving between faces and hands (that's where the camera is), visceral detail.",
-      
       "camera_position": "Close handheld moving between consumption details, that's where the camera is",
-      
       "dialogue": "None - only consumption sounds",
-      
       "audio": {
-        "primary_sounds": ["Tearing meat", "gulping juice", "crushing eggs", "desperate chewing"],
-        "ambient_sounds": ["Searchlight flickering", "synchronized chewing rhythm"],
-        "absent_sounds": ["conversation", "silverware"]
+        "primary_sounds": [
+          "Tearing meat",
+          "gulping juice",
+          "crushing eggs",
+          "desperate chewing"
+        ],
+        "ambient_sounds": [
+          "Searchlight flickering",
+          "synchronized chewing rhythm"
+        ],
+        "absent_sounds": [
+          "conversation",
+          "silverware"
+        ]
       },
-      
       "character_plates": {
-        "present": ["MAGNÚS-AUTHORITY", "GUÐRÚN-ABUNDANT", "SIGRID-PURE-OBSERVING"],
-        "referenced": ["Community members"]
+        "present": [
+          "MAGN\u00daS-AUTHORITY",
+          "GU\u00d0R\u00daN-ABUNDANT",
+          "SIGRID-PURE-OBSERVING"
+        ],
+        "referenced": [
+          "Community members"
+        ]
       },
-      
       "environmental_plates": {
         "landscape": "FEAST-TABLES-CONSUMPTION",
         "lighting": "SEARCHLIGHT-FLICKERING"
       },
-      
       "negative_prompt": "no subtitles, show visceral eating, three stains on everyone, desperate consumption, 1080p",
-      
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-PURE",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-WINTER",
+          "interior": "BA\u00d0STOFA-ORGANIC"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
-
   "others": {
     "lateral_chewing": "Jaws moving sideways like ruminants",
     "three_stain_mixing": "Blood, berry, egg creating brown-black marks",
     "sigrid_abstinence": "Only Sigrid not participating in consumption",
     "impossible_abundance": "Food disappearing but tables remaining full"
   },
-
   "notes": {
     "thematic_purpose": "Abundance consumption revealing animal feeding behavior",
     "transformation_hints": "Lateral chewing patterns suggesting ruminant adaptation"

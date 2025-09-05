@@ -6,9 +6,9 @@
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "House 4/min dying + 80bpm | Tilberi expanding | Ca...",
-    "stitch_from": "[STITCH from Shot 30: MagnÃºs pulling taut line, house situation parallel]"
+    "stitch_from": "[STITCH from Shot 30: Magn\u00c3\u00bas pulling taut line, house situation parallel]"
   },
-  "progressive_state": "House 4/min dying + 80bpm | Tilberi expanding | Camera frost 20% | Family paralyzed | Watching: Four landvÃ¦ttir through windows",
+  "progressive_state": "House 4/min dying + 80bpm | Tilberi expanding | Camera frost 20% | Family paralyzed | Watching: Four landv\u00c3\u00a6ttir through windows",
   "prompt_variants": [
     {
       "variant_id": "31_story_primary",
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Inside the house, the contaminated tilberi has grown from cat-size to lamb-size in minutes, feeding on industrial contamination in the air itself, its rope-skeleton stretching beneath translucent skin while [SIGRID] reaches toward it with maternal instinct despite its wrongness, and [GUÃRÃšN] finally breaks her silence: \"Drepa Ã¾aÃ°!\" (Kill it!)",
-      "action": "The tilberi-thing has doubled in size. Rope skeleton visible stretching, hemp fibers separating and multiplying like cell division. Brass button eye now size of child's fist, green tears burning channels in floor. It stands on appendages that are neither legs nor mechanical supports - something between. When it moves, sound of rope under tension mixed with lamb's bleat. Breathing still three rhythms: 8/min, 12/min, 20/min creating constant motion. It approaches Sigrid, recognizing creator. She reaches toward it, hand protective on belly - two children, one inside, one outside but wrong. It nuzzles her hand. Where it touches, her skin shows black veins spreading up wrist (contamination transfer). GuÃ°rÃºn grabs fire poker, raises it, speaks for first time since MagnÃºs left: \"Drepa Ã¾aÃ° Ã¡Ã°ur en Ã¾aÃ°...\" (Kill it before it...). But Sigrid shields it with her body. Through windows, four landvÃ¦ttir watching: trawler lights, steam from polynya, house wall breathing, raven shadows circling. The creature feeds on their attention, growing.",
-      "scene": "Interior, 9:10 AM but dark from landvÃ¦ttir presence. Temperature -23Â°C. Tilberi now lamb-sized, still growing. Black contamination veins spreading up Sigrid's arm. Family frozen except GuÃ°rÃºn.",
+      "subject": "Inside the house, the contaminated tilberi has grown from cat-size to lamb-size in minutes, feeding on industrial contamination in the air itself, its rope-skeleton stretching beneath translucent skin while [SIGRID] reaches toward it with maternal instinct despite its wrongness, and [GU\u00c3\u0090R\u00c3\u0161N] finally breaks her silence: \"Drepa \u00c3\u00bea\u00c3\u00b0!\" (Kill it!)",
+      "action": "The tilberi-thing has doubled in size. Rope skeleton visible stretching, hemp fibers separating and multiplying like cell division. Brass button eye now size of child's fist, green tears burning channels in floor. It stands on appendages that are neither legs nor mechanical supports - something between. When it moves, sound of rope under tension mixed with lamb's bleat. Breathing still three rhythms: 8/min, 12/min, 20/min creating constant motion. It approaches Sigrid, recognizing creator. She reaches toward it, hand protective on belly - two children, one inside, one outside but wrong. It nuzzles her hand. Where it touches, her skin shows black veins spreading up wrist (contamination transfer). Gu\u00c3\u00b0r\u00c3\u00ban grabs fire poker, raises it, speaks for first time since Magn\u00c3\u00bas left: \"Drepa \u00c3\u00bea\u00c3\u00b0 \u00c3\u00a1\u00c3\u00b0ur en \u00c3\u00bea\u00c3\u00b0...\" (Kill it before it...). But Sigrid shields it with her body. Through windows, four landv\u00c3\u00a6ttir watching: trawler lights, steam from polynya, house wall breathing, raven shadows circling. The creature feeds on their attention, growing.",
+      "scene": "Interior, 9:10 AM but dark from landv\u00c3\u00a6ttir presence. Temperature -23\u00c2\u00b0C. Tilberi now lamb-sized, still growing. Black contamination veins spreading up Sigrid's arm. Family frozen except Gu\u00c3\u00b0r\u00c3\u00ban.",
       "style": "Medium shot showing creature's size and family's positions, contamination spreading visible (that's where the camera is), documentary of wrong motherhood.",
       "camera_position": "Medium shot showing creature's size and family's positions, contamination spreading visible",
-      "dialogue": "(GuÃ°rÃºn, breaking silence): \"Drepa Ã¾aÃ°!\" (Kill it!) \"ÃžaÃ° er ekki nÃ¡ttÃºrulegt!\" (It's not natural!) (Sigrid, protective): \"ÃžaÃ° er mitt barn\" (It's my child)",
+      "dialogue": "(Gu\u00c3\u00b0r\u00c3\u00ban, breaking silence): \"Drepa \u00c3\u00bea\u00c3\u00b0!\" (Kill it!) \"\u00c3\u017ea\u00c3\u00b0 er ekki n\u00c3\u00a1tt\u00c3\u00barulegt!\" (It's not natural!) (Sigrid, protective): \"\u00c3\u017ea\u00c3\u00b0 er mitt barn\" (It's my child)",
       "audio": {
         "primary": [
           "Rope skeleton stretching",
@@ -31,7 +31,7 @@
         ],
         "ambient": [
           "House dying at 4/min",
-          "four landvÃ¦ttir present outside",
+          "four landv\u00c3\u00a6ttir present outside",
           "contamination spreading audibly"
         ],
         "absent": [
@@ -46,11 +46,28 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show industrial skeleton through skin, contamination spreading, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {
-    "womens_silence": "GuÃ°rÃºn finally speaks",
+    "womens_silence": "Gu\u00c3\u00b0r\u00c3\u00ban finally speaks",
     "triple_reality": "Physical: impossible growth / Psychological: maternal horror / Mythological: contamination feeding"
   },
   "notes": {

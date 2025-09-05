@@ -1,8 +1,8 @@
 {
   "shot_metadata": {
     "id": "35c",
-    "name": "JÃRMUNGANDR_WITHDRAWS_8_SECONDS",
-    "title": "JÃRMUNGANDR WITHDRAWS 8 SECONDS",
+    "name": "J\u00c3RMUNGANDR_WITHDRAWS_8_SECONDS",
+    "title": "J\u00c3RMUNGANDR WITHDRAWS 8 SECONDS",
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "Miraculous withdrawal | Cod Wars echo | Camera fro...",
@@ -12,17 +12,17 @@
   "prompt_variants": [
     {
       "variant_id": "35c_story_primary",
-      "variant_name": "Primary - JÃRMUNGANDR WITHDRAWS 8 SECONDS",
+      "variant_name": "Primary - J\u00c3RMUNGANDR WITHDRAWS 8 SECONDS",
       "intent_tags": [
         "story_primary"
       ],
       "priority": 1,
-      "subject": "The trawler GRIMSBY PRIDE suddenly pulling away with impossible speed, not fleeing but being PULLED by something beneath - the water churning green-black, tentacle shadows visible, JÃ¶rmungandr protecting its own territory by withdrawing, leaving [MAGNÃšS] alone on empty water.",
-      "action": "After bullet impact, trawler changes. Not just turning - being PULLED. Water around it churns violent green-black. Through clear patches: shadows of something massive beneath. Tentacles? Coils? The trawler/serpent dragged backward by its own nature. Speed impossible for ship that size - 10 knots, 15, 20, leaving wake like wound in water. Searchlights stay locked on MagnÃºs until last moment, then go dark. Engine sound fades but changes - mechanical drone becomes distant roar, hurt, angry, but retreating. In two minutes, trawler reaches horizon. Disappears not over curve of earth but DOWN, pulled under. Water where it vanished continues churning. MagnÃºs left alone on empty fjord. No fish. No enemy. No victory. Just empty water and the rifle with two bullets. Ravens return, reform spiral above him. Seven witnesses to impossible moment - tiny Iceland made British Empire retreat. But at what cost? Water poisoned green-black in wide trail. Nothing will live here for years.",
-      "scene": "Trawler retreating impossibly fast, 9:23 AM. Water showing poisoned trail. MagnÃºs alone in empty victory.",
+      "subject": "The trawler GRIMSBY PRIDE suddenly pulling away with impossible speed, not fleeing but being PULLED by something beneath - the water churning green-black, tentacle shadows visible, J\u00c3\u00b6rmungandr protecting its own territory by withdrawing, leaving [MAGN\u00c3\u0161S] alone on empty water.",
+      "action": "After bullet impact, trawler changes. Not just turning - being PULLED. Water around it churns violent green-black. Through clear patches: shadows of something massive beneath. Tentacles? Coils? The trawler/serpent dragged backward by its own nature. Speed impossible for ship that size - 10 knots, 15, 20, leaving wake like wound in water. Searchlights stay locked on Magn\u00c3\u00bas until last moment, then go dark. Engine sound fades but changes - mechanical drone becomes distant roar, hurt, angry, but retreating. In two minutes, trawler reaches horizon. Disappears not over curve of earth but DOWN, pulled under. Water where it vanished continues churning. Magn\u00c3\u00bas left alone on empty fjord. No fish. No enemy. No victory. Just empty water and the rifle with two bullets. Ravens return, reform spiral above him. Seven witnesses to impossible moment - tiny Iceland made British Empire retreat. But at what cost? Water poisoned green-black in wide trail. Nothing will live here for years.",
+      "scene": "Trawler retreating impossibly fast, 9:23 AM. Water showing poisoned trail. Magn\u00c3\u00bas alone in empty victory.",
       "style": "Wide shot showing impossible retreat speed, trawler being pulled under (that's where the camera is), documentary of Cod Wars miracle.",
       "camera_position": "Wide shot showing impossible retreat speed, trawler being pulled under",
-      "dialogue": "(MagnÃºs, disbelieving): \"ÃžaÃ° fer...\" (It's leaving...) \"Ã‰g... gerÃ°i Ã¾aÃ°?\" (I... did it?) (Realizing cost): \"En allt er enn tÃ³mt\" (But everything's still empty)",
+      "dialogue": "(Magn\u00c3\u00bas, disbelieving): \"\u00c3\u017ea\u00c3\u00b0 fer...\" (It's leaving...) \"\u00c3\u2030g... ger\u00c3\u00b0i \u00c3\u00bea\u00c3\u00b0?\" (I... did it?) (Realizing cost): \"En allt er enn t\u00c3\u00b3mt\" (But everything's still empty)",
       "audio": {
         "primary": [
           "Water churning violent",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show impossible speed, pulled not fleeing, documentary observation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

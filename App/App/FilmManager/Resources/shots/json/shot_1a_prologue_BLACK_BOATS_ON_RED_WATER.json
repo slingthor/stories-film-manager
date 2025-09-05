@@ -17,8 +17,8 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Twelve men pushing three wooden rowing boats across black sand into ocean water that appears red-tinted in dawn light, [MAGNÃšS] 45 years old with brown beard carrying iron-pointed spear, boats arranged pointing toward whale spouts visible in distance.",
-      "action": "Men's boots sink into black sand as they push boats. Three boats, each 18 feet long, wooden, dark with age. Four men per boat. MagnÃºs leads first boat, carries 7-foot spear with iron point, shaft dark wood. Other men carry similar spears. They push boats into water. Water appears red - dawn light creating illusion of blood. Boats float immediately. Men climb over sides, water dripping from boots. Take positions at oars - two men per side. Begin rowing. All twelve men pull oars simultaneously. Each stroke moves boats 6 feet forward. Water parts around boat bows, red color intensifying where disturbed. In distance, whale spouts visible - water shooting up 30 feet, three locations, 500 yards away. Young boy [JÃ“N] stands on shore watching, too young for hunt.",
+      "subject": "Twelve men pushing three wooden rowing boats across black sand into ocean water that appears red-tinted in dawn light, [MAGN\u00c3\u0161S] 45 years old with brown beard carrying iron-pointed spear, boats arranged pointing toward whale spouts visible in distance.",
+      "action": "Men's boots sink into black sand as they push boats. Three boats, each 18 feet long, wooden, dark with age. Four men per boat. Magn\u00c3\u00bas leads first boat, carries 7-foot spear with iron point, shaft dark wood. Other men carry similar spears. They push boats into water. Water appears red - dawn light creating illusion of blood. Boats float immediately. Men climb over sides, water dripping from boots. Take positions at oars - two men per side. Begin rowing. All twelve men pull oars simultaneously. Each stroke moves boats 6 feet forward. Water parts around boat bows, red color intensifying where disturbed. In distance, whale spouts visible - water shooting up 30 feet, three locations, 500 yards away. Young boy [J\u00c3\u201cN] stands on shore watching, too young for hunt.",
       "scene": "Black sand beach, dawn. Ocean calm except for whale spouts. Red-tinted water from sun angle. Mountains behind beach. Women and children watching from shore.",
       "style": "Wide shot from elevated position on beach showing boats entering water (that's where the camera is), seeing both boats and distant whales.",
       "camera_position": "Wide shot from elevated position on beach showing boats entering water",
@@ -43,7 +43,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show red-tinted water, synchronized rowing, distant whale spouts, 1080p",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},

@@ -18,7 +18,7 @@
       ],
       "priority": 1,
       "subject": "Forty people surrounding the whale in organized positions, men cutting blubber in long strips with knives, women collecting blood in wooden buckets, children carrying pieces to fires, everyone moving in synchronized rhythm.",
-      "action": "Men position along whale's length. First cut - knife enters behind pectoral fin, pulls down 10 feet in straight line. Second man cuts parallel line 2 feet away. Third connects the cuts. Blubber peels back like opening door, white fat 6 inches thick. Steam rises from body heat. Women move in with buckets, catching blood before sand absorbs it. Blood impossibly warm, steaming. Children grab blubber strips, drag to iron cauldrons already over fires. When were fires lit? Cauldrons already boiling. Everyone moves in pattern - cut, peel, collect, carry. From above, people form spirals around whale. No one directs this. Bodies know where to go. Purple-stained hands from berries now mix with red whale blood. Some people have golden egg yolk on clothes from cliff work. Three colors mixing on everyone. The whale's eye still clouded but seems to follow MagnÃºs as he works.",
+      "action": "Men position along whale's length. First cut - knife enters behind pectoral fin, pulls down 10 feet in straight line. Second man cuts parallel line 2 feet away. Third connects the cuts. Blubber peels back like opening door, white fat 6 inches thick. Steam rises from body heat. Women move in with buckets, catching blood before sand absorbs it. Blood impossibly warm, steaming. Children grab blubber strips, drag to iron cauldrons already over fires. When were fires lit? Cauldrons already boiling. Everyone moves in pattern - cut, peel, collect, carry. From above, people form spirals around whale. No one directs this. Bodies know where to go. Purple-stained hands from berries now mix with red whale blood. Some people have golden egg yolk on clothes from cliff work. Three colors mixing on everyone. The whale's eye still clouded but seems to follow Magn\u00c3\u00bas as he works.",
       "scene": "Beach around whale. Multiple fires burning. Cauldrons boiling. Morning sun higher. Everyone working without pause.",
       "style": "Aerial shot directly above showing spiral patterns of workers (that's where the camera is), then cutting to ground level.",
       "camera_position": "Aerial shot directly above showing spiral patterns of workers",
@@ -45,7 +45,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show spiral patterns of people, three colors mixing, synchronized movement, 1080p",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},

@@ -1,28 +1,28 @@
 {
   "shot_metadata": {
     "id": "40",
-    "name": "GUÃRÃŠNS_SILENT_TESTIMONY___ROTATING_REVELATION_8_SECONDS",
-    "title": "GUÃRÃšNS SILENT TESTIMONY - ROTATING REVELATION 8 SECONDS",
+    "name": "GU\u00c3R\u00c3\u0160NS_SILENT_TESTIMONY___ROTATING_REVELATION_8_SECONDS",
+    "title": "GU\u00c3R\u00c3\u0161NS SILENT TESTIMONY - ROTATING REVELATION 8 SECONDS",
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "Silent aftermath | Truth visible | Camera frost 26...",
-    "stitch_from": "[STITCH from Shot 39: Family in rÃ©ttir formation]"
+    "stitch_from": "[STITCH from Shot 39: Family in r\u00c3\u00a9ttir formation]"
   },
   "progressive_state": "Silent aftermath | Truth visible | Camera frost 26% | Women's knowledge | Watching: House watching them",
   "prompt_variants": [
     {
       "variant_id": "40_story_primary",
-      "variant_name": "Primary - GUÃRÃšNS SILENT TESTIMONY - ROTATING REVELATION 8 SECONDS",
+      "variant_name": "Primary - GU\u00c3R\u00c3\u0161NS SILENT TESTIMONY - ROTATING REVELATION 8 SECONDS",
       "intent_tags": [
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Camera slowly rotating around [GUÃRÃšN] while pushing in on her face, her lips moving in silent counting - \"einn, tveir, Ã¾rÃ­r, fjÃ³rir, fimm, sex\" - over and over, as rotation reveals different angles: profile shows ewe silhouette, three-quarter shows human exhaustion, full face shows both simultaneously, her hands unconsciously pulling wool from her own wrists.",
-      "action": "CAMERA BEGINS rotating counterclockwise around GuÃ°rÃºn while slowly PUSHING IN. First angle (profile): her silhouette unmistakably sheep-like, jaw extended, nose elongated. She doesn't notice. Lips counting silent Danish. Second angle (three-quarter): more human but exhausted, aged beyond 35 years, faldbÃºningur sitting wrong like it's meant for different head shape. Counting continues. Third angle (approaching front): both aspects visible - human features with ovine bone structure beneath. PUSH IN closer. Her hands unconsciously pulling at wrists where wool emerged earlier, now 15mm long, white fibers she's gathering like spinning preparation. Doesn't notice. Fourth angle (full face): eyes meet camera. Knows we're watching. Counts directly at us: \"einn, tveir, Ã¾rÃ­r, fjÃ³rir, fimm... sex?\" Always confusion at six. Behind her, wet wall shows reflection but reflection is fully sheep, standing upright, wearing her clothes. She doesn't turn to look.",
-      "scene": "Her position in rÃ©ttir, 9:37 AM. Light through smoke creating chiaroscuro. Temperature at her level exactly 37Â°C - body temperature of dying house.",
+      "subject": "Camera slowly rotating around [GU\u00c3\u0090R\u00c3\u0161N] while pushing in on her face, her lips moving in silent counting - \"einn, tveir, \u00c3\u00ber\u00c3\u00adr, fj\u00c3\u00b3rir, fimm, sex\" - over and over, as rotation reveals different angles: profile shows ewe silhouette, three-quarter shows human exhaustion, full face shows both simultaneously, her hands unconsciously pulling wool from her own wrists.",
+      "action": "CAMERA BEGINS rotating counterclockwise around Gu\u00c3\u00b0r\u00c3\u00ban while slowly PUSHING IN. First angle (profile): her silhouette unmistakably sheep-like, jaw extended, nose elongated. She doesn't notice. Lips counting silent Danish. Second angle (three-quarter): more human but exhausted, aged beyond 35 years, faldb\u00c3\u00baningur sitting wrong like it's meant for different head shape. Counting continues. Third angle (approaching front): both aspects visible - human features with ovine bone structure beneath. PUSH IN closer. Her hands unconsciously pulling at wrists where wool emerged earlier, now 15mm long, white fibers she's gathering like spinning preparation. Doesn't notice. Fourth angle (full face): eyes meet camera. Knows we're watching. Counts directly at us: \"einn, tveir, \u00c3\u00ber\u00c3\u00adr, fj\u00c3\u00b3rir, fimm... sex?\" Always confusion at six. Behind her, wet wall shows reflection but reflection is fully sheep, standing upright, wearing her clothes. She doesn't turn to look.",
+      "scene": "Her position in r\u00c3\u00a9ttir, 9:37 AM. Light through smoke creating chiaroscuro. Temperature at her level exactly 37\u00c2\u00b0C - body temperature of dying house.",
       "style": "Rotating push-in, intimate observation of transformation beginning (that's where the camera is), documentary of silent testimony.",
       "camera_position": "Rotating push-in, intimate observation of transformation beginning",
-      "dialogue": "(GuÃ°rÃºn, lips moving silently): Visible counting no sound (On \"sex\"): Slight sound escapes: \"Sss...?\" (Hands pulling wool): Unconscious humming at 11/min breathing rate",
+      "dialogue": "(Gu\u00c3\u00b0r\u00c3\u00ban, lips moving silently): Visible counting no sound (On \"sex\"): Slight sound escapes: \"Sss...?\" (Hands pulling wool): Unconscious humming at 11/min breathing rate",
       "audio": {
         "primary": [
           "Camera rotating",
@@ -44,7 +44,24 @@
         "referenced": []
       },
       "negative_prompt": "smooth rotation with push, no cuts, maintain eye contact at end",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

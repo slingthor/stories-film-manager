@@ -5,10 +5,10 @@
     "title": "RAVEN AT WINDOW - FIRST MONOLITH",
     "sequence_type": "main_story",
     "duration_seconds": 8,
-    "narrative_function": "House 10/min â†’ 13/min | KlettagjÃ¡ 2mm | Monolit...",
+    "narrative_function": "House 10/min \u00e2\u2020\u2019 13/min | Klettagj\u00c3\u00a1 2mm | Monolit...",
     "stitch_from": "[STITCH from Shot 12: Dark movement outside window during lullaby]"
   },
-  "progressive_state": "House 10/min â†’ 13/min | KlettagjÃ¡ 2mm | Monolith arrival | Camera frost 8% | Reality crack | Watching: Raven watching back",
+  "progressive_state": "House 10/min \u00e2\u2020\u2019 13/min | Klettagj\u00c3\u00a1 2mm | Monolith arrival | Camera frost 8% | Reality crack | Watching: Raven watching back",
   "prompt_variants": [
     {
       "variant_id": "13_story_primary",
@@ -18,11 +18,11 @@
       ],
       "priority": 1,
       "subject": "A raven landing at the frosted window with unnatural precision, absolutely still like black geometry against white frost, but in the window's reflection the family count is wrong - showing six clear figures at table though only five exist, and in the raven's eye, a reflection of five sheep wearing the family's clothes.",
-      "action": "The raven lands with no sound. Not normal bird behavior - perfectly still, wings folded in exact symmetry. Through 4mm interior frost, its form is geometric, monolithic. Family freezes seeing it. 12-second hold: no movement from raven, family, even house breathing pauses. But in window glass reflection beside raven: six people clearly visible at table, sixth figure solid, wearing MagnÃºs's spare sweater. And in the raven's black eye (impossible close-up through distance): reflection shows the family but AS SHEEP - five sheep in their clothes, sitting at table, human teeth visible in sheep mouths. MagnÃºs raises hand to shoo it - raven doesn't flinch. Finally turns head exactly 90 degrees, looks directly at Sigrid, blinks once (vertical eyelid), flies away. Leaves perfect wing-print in frost - cross pattern with sixth feather that shouldn't exist. Family unfreezes, resumes activity, but mathematics broken. House breathing resumes at 13/min, agitated.",
-      "scene": "South window, 6:08 AM, grey light through frost. Temperature drops 2 degrees while raven present: -12Â°C. Window frost 4mm thick with cross patterns, raven's presence adding new geometry. The reflection showing impossible count. Wing-print left behind becomes part of frost patterns.",
+      "action": "The raven lands with no sound. Not normal bird behavior - perfectly still, wings folded in exact symmetry. Through 4mm interior frost, its form is geometric, monolithic. Family freezes seeing it. 12-second hold: no movement from raven, family, even house breathing pauses. But in window glass reflection beside raven: six people clearly visible at table, sixth figure solid, wearing Magn\u00c3\u00bas's spare sweater. And in the raven's black eye (impossible close-up through distance): reflection shows the family but AS SHEEP - five sheep in their clothes, sitting at table, human teeth visible in sheep mouths. Magn\u00c3\u00bas raises hand to shoo it - raven doesn't flinch. Finally turns head exactly 90 degrees, looks directly at Sigrid, blinks once (vertical eyelid), flies away. Leaves perfect wing-print in frost - cross pattern with sixth feather that shouldn't exist. Family unfreezes, resumes activity, but mathematics broken. House breathing resumes at 13/min, agitated.",
+      "scene": "South window, 6:08 AM, grey light through frost. Temperature drops 2 degrees while raven present: -12\u00c2\u00b0C. Window frost 4mm thick with cross patterns, raven's presence adding new geometry. The reflection showing impossible count. Wing-print left behind becomes part of frost patterns.",
       "style": "Static shot on window, then zoom to raven's eye reflection (that's where the camera is), documentary of impossible observation.",
       "camera_position": "Static shot on window, then zoom to raven's eye reflection",
-      "dialogue": "Complete silence for 12 seconds (After raven leaves, MagnÃºs): \"Hrafn...\" (Tone: naming fear) (Sigrid, whispered): \"Hann sÃ¡ okkur\" (He saw us)",
+      "dialogue": "Complete silence for 12 seconds (After raven leaves, Magn\u00c3\u00bas): \"Hrafn...\" (Tone: naming fear) (Sigrid, whispered): \"Hann s\u00c3\u00a1 okkur\" (He saw us)",
       "audio": {
         "primary": [
           "Complete silence during hold",
@@ -43,7 +43,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, no movement during 12-second hold, show reflection count wrong, eye reflection clear",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

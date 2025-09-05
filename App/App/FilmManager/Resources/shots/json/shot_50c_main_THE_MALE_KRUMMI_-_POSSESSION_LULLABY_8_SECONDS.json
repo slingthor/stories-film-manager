@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[MAGNÃšS] singing the Krummi lullaby in his deep baritone - the male version from opening - \"Krummi svaf Ã­ klettagjÃ¡,\" but from him it sounds like keeping her trapped, while through window an actual raven watches, knowing she's the Krummi he's singing about.",
-      "action": "ROTATION BEGINS as he starts singing. Deep voice, genuinely beautiful: \"Krummi svaf Ã­ klettagjÃ¡, kaldri vetrarnÃ³ttu Ã¡.\" The male version we heard in opening, but now we see the singer. His hand moves from ankle to calf, still through blanket, stroking in rhythm with song. Not violent. Tender. Which makes it worse. \"VerÃ°ur margt aÃ° meini\" (Much becomes harmful) - as his hand rises slightly. \"Fyrr en dagur fagur rann\" - hand pauses at knee. She doesn't move. Can't. Where would she go? 40 miles to anyone. He's the only adult male. Father and future husband both. Rotation reveals window - raven sitting on sill, watching. The REAL Krummi seeing the girl who will become raven. MagnÃºs doesn't see it. Focused on Sigrid. \"Krummi, Krummi, krÃºnka nÃ¡Ã°u\" - but it sounds like keeping her, not calling. His 0Hz hands perfectly still on her knee. The tenderness and possession inseparable.",
+      "subject": "[MAGN\u00c3\u0161S] singing the Krummi lullaby in his deep baritone - the male version from opening - \"Krummi svaf \u00c3\u00ad klettagj\u00c3\u00a1,\" but from him it sounds like keeping her trapped, while through window an actual raven watches, knowing she's the Krummi he's singing about.",
+      "action": "ROTATION BEGINS as he starts singing. Deep voice, genuinely beautiful: \"Krummi svaf \u00c3\u00ad klettagj\u00c3\u00a1, kaldri vetrarn\u00c3\u00b3ttu \u00c3\u00a1.\" The male version we heard in opening, but now we see the singer. His hand moves from ankle to calf, still through blanket, stroking in rhythm with song. Not violent. Tender. Which makes it worse. \"Ver\u00c3\u00b0ur margt a\u00c3\u00b0 meini\" (Much becomes harmful) - as his hand rises slightly. \"Fyrr en dagur fagur rann\" - hand pauses at knee. She doesn't move. Can't. Where would she go? 40 miles to anyone. He's the only adult male. Father and future husband both. Rotation reveals window - raven sitting on sill, watching. The REAL Krummi seeing the girl who will become raven. Magn\u00c3\u00bas doesn't see it. Focused on Sigrid. \"Krummi, Krummi, kr\u00c3\u00banka n\u00c3\u00a1\u00c3\u00b0u\" - but it sounds like keeping her, not calling. His 0Hz hands perfectly still on her knee. The tenderness and possession inseparable.",
       "scene": "Platform intimate, raven visible outside. Evening becoming night. Lullaby as possession ritual.",
       "style": "Rotation revealing raven witness (that's where the camera is), lullaby as trap documented.",
       "camera_position": "Rotation revealing raven witness",
-      "dialogue": "(MagnÃºs, singing beautifully): \"Krummi svaf Ã­ klettagjÃ¡\" \"Kaldri vetrarnÃ³ttu Ã¡\" \"VerÃ°ur margt aÃ° meini\" (To her): \"ÃžÃº ert minn Krummi\" (You're my raven)",
+      "dialogue": "(Magn\u00c3\u00bas, singing beautifully): \"Krummi svaf \u00c3\u00ad klettagj\u00c3\u00a1\" \"Kaldri vetrarn\u00c3\u00b3ttu \u00c3\u00a1\" \"Ver\u00c3\u00b0ur margt a\u00c3\u00b0 meini\" (To her): \"\u00c3\u017e\u00c3\u00ba ert minn Krummi\" (You're my raven)",
       "audio": {
         "primary": [
           "Male baritone lullaby",
@@ -42,7 +42,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

@@ -6,7 +6,7 @@
     "sequence_type": "main_story",
     "duration_seconds": 5,
     "narrative_function": "Identity collapsed | Camera frost 48% | Culture pe...",
-    "stitch_from": "[STITCH from Shot 56a: MagnÃºs seeing sheep family]"
+    "stitch_from": "[STITCH from Shot 56a: Magn\u00c3\u00bas seeing sheep family]"
   },
   "progressive_state": "Identity collapsed | Camera frost 48% | Culture perverted | Watching: We see blasphemy",
   "prompt_variants": [
@@ -17,8 +17,8 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Close-up pushing in on [GUÃRÃšN] as ewe wearing the faldbÃºningur headdress, the traditional Icelandic women's crown sitting absurdly on sheep head, white wool against white fabric, human dignity on animal form.",
-      "action": "SLOW PUSH IN on GuÃ°rÃºn-ewe's head. FaldbÃºningur headdress - symbol of Icelandic womanhood, marriages, tradition - perched on sheep skull. Too wide for human head shape. Sliding forward over horizontal eyes. She tries to adjust it with hooves, can't. The white fabric against white wool makes her almost invisible - just eyes and headdress floating. Push closer: human teeth visible when she opens mouth to breathe. Dental work still there - one silver filling catching light. The ultimate perversion: cultural identity on livestock. She breathes at 11/min - the synchronized rate. Still controlled. Still administered. Danish colonialism made them animals wearing human costume. Now costume doesn't fit. Never did.",
+      "subject": "Close-up pushing in on [GU\u00c3\u0090R\u00c3\u0161N] as ewe wearing the faldb\u00c3\u00baningur headdress, the traditional Icelandic women's crown sitting absurdly on sheep head, white wool against white fabric, human dignity on animal form.",
+      "action": "SLOW PUSH IN on Gu\u00c3\u00b0r\u00c3\u00ban-ewe's head. Faldb\u00c3\u00baningur headdress - symbol of Icelandic womanhood, marriages, tradition - perched on sheep skull. Too wide for human head shape. Sliding forward over horizontal eyes. She tries to adjust it with hooves, can't. The white fabric against white wool makes her almost invisible - just eyes and headdress floating. Push closer: human teeth visible when she opens mouth to breathe. Dental work still there - one silver filling catching light. The ultimate perversion: cultural identity on livestock. She breathes at 11/min - the synchronized rate. Still controlled. Still administered. Danish colonialism made them animals wearing human costume. Now costume doesn't fit. Never did.",
       "scene": "Close on ewe head with headdress. Cultural symbol on animal. Identity collapsed.",
       "style": "Push in on perverted identity (that's where the camera is), cultural horror documented.",
       "camera_position": "Push in on perverted identity",
@@ -42,7 +42,24 @@
         "referenced": []
       },
       "negative_prompt": "",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

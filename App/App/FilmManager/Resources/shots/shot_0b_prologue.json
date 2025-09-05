@@ -1,10 +1,10 @@
 {
   "shot_metadata": {
-    "id": "0b", 
+    "id": "0b",
     "name": "WRONG_VOICE_FROM_YOUNG_MOUTH",
     "title": "Wrong Voice - Colonial Possession",
     "sequence_type": "prologue",
-    "duration_seconds": 8, 
+    "duration_seconds": 8,
     "film_position_percentage": 1.0,
     "narrative_function": "Establishes voice theft and temporal bleeding",
     "story_significance": "possession_revelation",
@@ -15,7 +15,6 @@
     },
     "stitch_from": "Shot 0a: Camera reaching pole height"
   },
-
   "tracking_systems_current": {
     "breathing_coordination": 5.0,
     "temperature_progression": 10.0,
@@ -34,57 +33,73 @@
     "character_shadow_behavior": 10.0,
     "stain_progression": 15.0
   },
-
   "progressive_state": "Curse spoken | Voice stolen | Camera frost flickers 2% | Memory fracture | Watching: Time breaks",
-
   "prompt_variants": [
     {
       "variant_id": "0b_story_primary",
       "variant_name": "Voice Possession Primary",
-      "intent_tags": ["story_primary", "possession"],
+      "intent_tags": [
+        "story_primary",
+        "possession"
+      ],
       "priority": 1,
-      
       "subject": "[SIGRID] 16 years old with wheat-blonde hair in white linen dress standing beside the pole, opening her mouth to sing, lips moving to form Icelandic words, but deep male voice emerges while her eyes look directly at camera.",
-      
-      "action": "Sigrid stands 3 feet from pole, perfectly still. White dress hangs straight down - no wind. She opens mouth, lips form the words 'Krummi svaf í klettagjá.' Deep male voice emerges from her throat - bass tone, elderly sound. Her lips continue moving, perfectly forming each syllable. Eyes never leave camera lens. Behind her, three whale spouts rise from ocean - water shoots up 20 feet. She continues singing, mouth moving: 'kaldri vetrarnóttu á.' Frost forms on grass around her feet, spreading outward in circle, white crystals despite summer. Her right hand reaches out, touches pole. When hand pulls away, palm is stained - red thumb, purple fingers, gold wrist. She looks at stained hand while mouth continues moving, male voice continuing. Dress hem turns purple where it touches frosted grass.",
-      
+      "action": "Sigrid stands 3 feet from pole, perfectly still. White dress hangs straight down - no wind. She opens mouth, lips form the words 'Krummi svaf \u00ed klettagj\u00e1.' Deep male voice emerges from her throat - bass tone, elderly sound. Her lips continue moving, perfectly forming each syllable. Eyes never leave camera lens. Behind her, three whale spouts rise from ocean - water shoots up 20 feet. She continues singing, mouth moving: 'kaldri vetrarn\u00f3ttu \u00e1.' Frost forms on grass around her feet, spreading outward in circle, white crystals despite summer. Her right hand reaches out, touches pole. When hand pulls away, palm is stained - red thumb, purple fingers, gold wrist. She looks at stained hand while mouth continues moving, male voice continuing. Dress hem turns purple where it touches frosted grass.",
       "scene": "Beside pole on headland. Ocean behind with whale spouts. Morning sun horizontal. Grass turning white with frost in 6-foot circle around her. Clear sky.",
-      
       "style": "Medium shot facing Sigrid directly, camera at her eye level 10 feet away (that's where the camera is), static locked shot, no movement.",
-      
       "camera_position": "10 feet from Sigrid at eye level, that's where the camera is",
-      
-      "dialogue": "(Young female mouth moving, old male voice): 'Krummi svaf í klettagjá, kaldri vetrarnóttu á'",
-      
+      "dialogue": "(Young female mouth moving, old male voice): 'Krummi svaf \u00ed klettagj\u00e1, kaldri vetrarn\u00f3ttu \u00e1'",
       "audio": {
-        "primary_sounds": ["Deep male voice from female throat", "frost crackling on grass"],
-        "ambient_sounds": ["Whale spouts in distance", "pole creaking"],
-        "absent_sounds": ["female voice", "wind"]
+        "primary_sounds": [
+          "Deep male voice from female throat",
+          "frost crackling on grass"
+        ],
+        "ambient_sounds": [
+          "Whale spouts in distance",
+          "pole creaking"
+        ],
+        "absent_sounds": [
+          "female voice",
+          "wind"
+        ]
       },
-      
       "character_plates": {
-        "present": ["SIGRID-PURE"],
+        "present": [
+          "SIGRID-PURE"
+        ],
         "referenced": []
       },
-      
       "environmental_plates": {
         "landscape": "WESTFJORDS-SUMMER",
-        "weather": "SUPERNATURAL-FROST", 
+        "weather": "SUPERNATURAL-FROST",
         "lighting": "HORIZONTAL-MORNING"
       },
-      
       "negative_prompt": "no subtitles, show mouth movements matching male voice, three-color hand stain, frost spreading, 1080p",
-      
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-PURE",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-PURE"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-SUMMER-FALSE-PERFECTION",
+          "interior": "BA\u00d0STOFA-DOMESTIC"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
-
   "others": {
     "voice_possession_mechanics": "Male voice appropriating female lullaby",
     "temporal_bleeding": "Frost despite summer conditions",
     "texture_contamination": "Three-color hand staining from pole contact"
   },
-
   "notes": {
     "thematic_purpose": "Voice theft establishing patriarchal appropriation",
     "krummi_connection": "Corrupted lullaby delivery",

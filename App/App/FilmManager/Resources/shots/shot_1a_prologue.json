@@ -1,7 +1,7 @@
 {
   "shot_metadata": {
     "id": "1a",
-    "name": "BLACK_BOATS_ON_RED_WATER", 
+    "name": "BLACK_BOATS_ON_RED_WATER",
     "title": "Black Boats on Red Water - Hunt Begins",
     "sequence_type": "prologue",
     "duration_seconds": 8,
@@ -15,11 +15,10 @@
     },
     "stitch_from": "Shot 0b: Hard cut from Sigrid's face"
   },
-
   "tracking_systems_current": {
     "breathing_coordination": 8.0,
     "temperature_progression": 15.0,
-    "klettagja_formation": 0.0, 
+    "klettagja_formation": 0.0,
     "spatial_impossibilities": 10.0,
     "house_dimensions": 0.0,
     "house_consciousness": 5.0,
@@ -34,61 +33,85 @@
     "character_shadow_behavior": 5.0,
     "stain_progression": 8.0
   },
-
   "progressive_state": "Hunt begins | Men gathering | Camera frost 0% | Blood water | Watching: The marking approaches",
-
   "prompt_variants": [
     {
       "variant_id": "1a_story_primary",
       "variant_name": "Traditional Hunt Beginning",
-      "intent_tags": ["story_primary", "community_cooperation"],
+      "intent_tags": [
+        "story_primary",
+        "community_cooperation"
+      ],
       "priority": 1,
-      
-      "subject": "Twelve men pushing three wooden rowing boats across black sand into ocean water that appears red-tinted in dawn light, [MAGNÚS] 45 years old with brown beard carrying iron-pointed spear, boats arranged pointing toward whale spouts visible in distance.",
-      
-      "action": "Men's boots sink into black sand as they push boats. Three boats, each 18 feet long, wooden, dark with age. Four men per boat. Magnús leads first boat, carries 7-foot spear with iron point, shaft dark wood. Other men carry similar spears. They push boats into water. Water appears red - dawn light creating illusion of blood. Boats float immediately. Men climb over sides, water dripping from boots. Take positions at oars - two men per side. Begin rowing. All twelve men pull oars simultaneously. Each stroke moves boats 6 feet forward. Water parts around boat bows, red color intensifying where disturbed. In distance, whale spouts visible - water shooting up 30 feet, three locations, 500 yards away. Young boy [JÓN] stands on shore watching, too young for hunt.",
-      
+      "subject": "Twelve men pushing three wooden rowing boats across black sand into ocean water that appears red-tinted in dawn light, [MAGN\u00daS] 45 years old with brown beard carrying iron-pointed spear, boats arranged pointing toward whale spouts visible in distance.",
+      "action": "Men's boots sink into black sand as they push boats. Three boats, each 18 feet long, wooden, dark with age. Four men per boat. Magn\u00fas leads first boat, carries 7-foot spear with iron point, shaft dark wood. Other men carry similar spears. They push boats into water. Water appears red - dawn light creating illusion of blood. Boats float immediately. Men climb over sides, water dripping from boots. Take positions at oars - two men per side. Begin rowing. All twelve men pull oars simultaneously. Each stroke moves boats 6 feet forward. Water parts around boat bows, red color intensifying where disturbed. In distance, whale spouts visible - water shooting up 30 feet, three locations, 500 yards away. Young boy [J\u00d3N] stands on shore watching, too young for hunt.",
       "scene": "Black sand beach, dawn. Ocean calm except for whale spouts. Red-tinted water from sun angle. Mountains behind beach. Women and children watching from shore.",
-      
       "style": "Wide shot from elevated position on beach showing boats entering water (that's where the camera is), seeing both boats and distant whales.",
-      
       "camera_position": "Elevated position on beach showing boats and whales, that's where the camera is",
-      
       "dialogue": "None",
-      
       "audio": {
-        "primary_sounds": ["Boats scraping sand", "men climbing aboard", "oars hitting water simultaneously"],
-        "ambient_sounds": ["Whale spouts distant", "water lapping shore"],
-        "absent_sounds": ["talking", "wind"]
+        "primary_sounds": [
+          "Boats scraping sand",
+          "men climbing aboard",
+          "oars hitting water simultaneously"
+        ],
+        "ambient_sounds": [
+          "Whale spouts distant",
+          "water lapping shore"
+        ],
+        "absent_sounds": [
+          "talking",
+          "wind"
+        ]
       },
-      
       "character_plates": {
-        "present": ["MAGNÚS-AUTHORITY", "JÓN-MILD"],
-        "referenced": ["Community hunters"]
+        "present": [
+          "MAGN\u00daS-AUTHORITY",
+          "J\u00d3N-MILD"
+        ],
+        "referenced": [
+          "Community hunters"
+        ]
       },
-      
       "environmental_plates": {
         "landscape": "WESTFJORDS-BEACH",
         "weather": "DAWN-CALM",
         "sea": "SEA-DIVINE-COOPERATIVE",
         "lighting": "DAWN-RED-ENHANCED"
       },
-      
       "negative_prompt": "no subtitles, show red-tinted water, synchronized rowing, distant whale spouts, 1080p",
-      
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-PURE",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-PURE"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-SUMMER-FALSE-PERFECTION",
+          "interior": "BA\u00d0STOFA-DOMESTIC"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
-
   "others": {
     "community_dynamics": "Perfect synchronization suggesting supernatural guidance",
     "water_physics": "Red water illusion, viscous behavior like mercury",
     "abundance_signs": "Easy boat launch, cooperative water, whale presence"
   },
-
   "notes": {
-    "thematic_purpose": "Traditional community cooperation with supernatural enhancement", 
+    "thematic_purpose": "Traditional community cooperation with supernatural enhancement",
     "predatory_seduction": "Everything works too perfectly",
-    "visual_techniques": ["Synchronized rowing", "Red water illusion", "Dawn lighting enhancement"]
+    "visual_techniques": [
+      "Synchronized rowing",
+      "Red water illusion",
+      "Dawn lighting enhancement"
+    ]
   }
 }

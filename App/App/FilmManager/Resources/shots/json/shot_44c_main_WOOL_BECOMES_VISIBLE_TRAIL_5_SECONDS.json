@@ -17,9 +17,9 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Close tracking shot on [GUÃRÃšN]'s hands as she walks, wool from her wrists now continuously emerging - 30mm, 40mm, 50mm - leaving white thread trail in snow like Ariadne's thread, but leading to water not escape.",
+      "subject": "Close tracking shot on [GU\u00c3\u0090R\u00c3\u0161N]'s hands as she walks, wool from her wrists now continuously emerging - 30mm, 40mm, 50mm - leaving white thread trail in snow like Ariadne's thread, but leading to water not escape.",
       "action": "CLOSE TRACKING on hands. Wool emerges continuously now, not pulled but growing. White fibers pushing through skin at 2mm per second, visible growth. No pain on her face - relief. Body becoming material, finally honest. Thread trails behind in snow, weaving between her footprints. Wind tries to lift thread, creates momentary spirals in air - fleeting sheep shapes, dissolving. At 50mm length, wool begins braiding itself, three strands twisting without her touching. Her wedding ring visible through wool wrapping - green oxidation from brass, not gold, poor woman's band. Hands aging visibly, veins prominent, skin thinning to translucence. Through translucent skin: dark shapes, might be bones, might be something else. Ahead through snow: sound of water, impossible in this cold. Polynya close.",
-      "scene": "Close on hands, snow background. Wool white against white, only movement visible. -30Â°C freezing wool as it emerges.",
+      "scene": "Close on hands, snow background. Wool white against white, only movement visible. -30\u00c2\u00b0C freezing wool as it emerges.",
       "style": "Intimate tracking of transformation detail (that's where the camera is), body becoming honest.",
       "camera_position": "Intimate tracking of transformation detail",
       "dialogue": "None - transformation needs no words",
@@ -43,7 +43,24 @@
         "referenced": []
       },
       "negative_prompt": "maintain close focus, show growth clearly, no gore just transformation",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

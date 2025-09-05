@@ -6,7 +6,7 @@
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "Lullaby prophetic | Words transforming | Camera fr...",
-    "stitch_from": "[STITCH from Shot 49b: House groaning warning, MagnÃºs oblivious]"
+    "stitch_from": "[STITCH from Shot 49b: House groaning warning, Magn\u00c3\u00bas oblivious]"
   },
   "progressive_state": "Lullaby prophetic | Words transforming | Camera frost 37.5% | Children knowing | Watching: Future speaking",
   "prompt_variants": [
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[LILJA] suddenly singing the Krummi lullaby but words changing themselves - \"Krummi svaf Ã­ klettagjÃ¡\" becoming \"SIGRID flÃ½gur Ãºr klettagjÃ¡\" (Sigrid flies from rocky cleft), the house IS the cleft, and the child prophesying escape while [MAGNÃšS] turns, distracted from inspection.",
-      "action": "Lilja sits in rÃ©ttir position, begins singing. Voice clear, five-year-old pitch: \"Krummi svaf Ã­ klettagjÃ¡...\" But as ZOOM BEGINS, words change. Not deliberately - emerging differently: \"Sigrid svaf Ã­ klettagjÃ¡...\" MagnÃºs turns from Sigrid, listening. Lilja continues, words evolving: \"Sigrid flÃ½gur Ãºr klettagjÃ¡\" (Sigrid flies from rocky cleft). \"VerÃ°ur margt aÃ° meini\" (Much becomes harmful) stays same. \"En hÃºn flÃ½gur, hÃºn mun lifa\" (But she flies, she will live). The house IS the klettagjÃ¡ - rocky cleft from lullaby. Wall cracks deepening, becoming cleft-like. MagnÃºs approaches Lilja, confused by changed words. This breaks his focus on Sigrid. She slides along wall, reestablishing 11 feet distance. Lilja continues singing, eyes closed, prophetic trance: \"Krummi kemur, Krummi sÃ©r\" (Raven comes, Raven sees). \"Sigrid verÃ°ur Krummi\" (Sigrid becomes Raven). House breathing slows to match lullaby rhythm. Beams stop groaning. Everything listening to prophecy. Through window: actual raven lands on sill. Watching. Waiting.",
+      "subject": "[LILJA] suddenly singing the Krummi lullaby but words changing themselves - \"Krummi svaf \u00c3\u00ad klettagj\u00c3\u00a1\" becoming \"SIGRID fl\u00c3\u00bdgur \u00c3\u00bar klettagj\u00c3\u00a1\" (Sigrid flies from rocky cleft), the house IS the cleft, and the child prophesying escape while [MAGN\u00c3\u0161S] turns, distracted from inspection.",
+      "action": "Lilja sits in r\u00c3\u00a9ttir position, begins singing. Voice clear, five-year-old pitch: \"Krummi svaf \u00c3\u00ad klettagj\u00c3\u00a1...\" But as ZOOM BEGINS, words change. Not deliberately - emerging differently: \"Sigrid svaf \u00c3\u00ad klettagj\u00c3\u00a1...\" Magn\u00c3\u00bas turns from Sigrid, listening. Lilja continues, words evolving: \"Sigrid fl\u00c3\u00bdgur \u00c3\u00bar klettagj\u00c3\u00a1\" (Sigrid flies from rocky cleft). \"Ver\u00c3\u00b0ur margt a\u00c3\u00b0 meini\" (Much becomes harmful) stays same. \"En h\u00c3\u00ban fl\u00c3\u00bdgur, h\u00c3\u00ban mun lifa\" (But she flies, she will live). The house IS the klettagj\u00c3\u00a1 - rocky cleft from lullaby. Wall cracks deepening, becoming cleft-like. Magn\u00c3\u00bas approaches Lilja, confused by changed words. This breaks his focus on Sigrid. She slides along wall, reestablishing 11 feet distance. Lilja continues singing, eyes closed, prophetic trance: \"Krummi kemur, Krummi s\u00c3\u00a9r\" (Raven comes, Raven sees). \"Sigrid ver\u00c3\u00b0ur Krummi\" (Sigrid becomes Raven). House breathing slows to match lullaby rhythm. Beams stop groaning. Everything listening to prophecy. Through window: actual raven lands on sill. Watching. Waiting.",
       "scene": "Interior with Lilja central, all listening. Raven visible outside. Prophecy moment.",
       "style": "Slow zoom on prophetic child (that's where the camera is), future speaking through innocence.",
       "camera_position": "Slow zoom on prophetic child",
-      "dialogue": "(Lilja, singing transformed): \"Sigrid svaf Ã­ klettagjÃ¡\" \"Sigrid flÃ½gur Ãºr klettagjÃ¡\" \"En hÃºn flÃ½gur, hÃºn mun lifa\" \"Sigrid verÃ°ur Krummi\"",
+      "dialogue": "(Lilja, singing transformed): \"Sigrid svaf \u00c3\u00ad klettagj\u00c3\u00a1\" \"Sigrid fl\u00c3\u00bdgur \u00c3\u00bar klettagj\u00c3\u00a1\" \"En h\u00c3\u00ban fl\u00c3\u00bdgur, h\u00c3\u00ban mun lifa\" \"Sigrid ver\u00c3\u00b0ur Krummi\"",
       "audio": {
         "primary": [
           "Child's voice changing words",
@@ -45,7 +45,24 @@
         "referenced": []
       },
       "negative_prompt": "maintain zoom, show word evolution, raven visible",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {

@@ -18,7 +18,7 @@
       ],
       "priority": 1,
       "subject": "The camera lens itself being covered by frost spreading from edges toward center, through the ice seeing glimpses of Sigrid aging rapidly, the house now visible and breathing, shadows moving inside.",
-      "action": "Frost crystals form on lens edges. Spread inward like reaching fingers. Through gaps in frost, image fragments visible. Sigrid's face - but now older, 30, 40, 50 years old in flashes. House behind her now huge, breathing, walls expanding and contracting. Through lit window, shadows moving inside - five figures, or four, or six. Can't count. Frost continues spreading. Only center of lens clear. Through it: Sigrid now ancient, hair white, still singing same song. Behind her, house door opens. Yellow light spills out. Someone standing in doorway - MagnÃºs? But wrong. Too tall. Too many arms? Or is it sheep standing upright? Frost covers more. Through last clear spot: interior of house visible. Family at table. But are they human? Shapes wrong. Frost nearly complete. Final image: single eye looking directly at camera. Human? Sheep? Sigrid's? Ancient. Knowing. Frost covers completely. Darkness.",
+      "action": "Frost crystals form on lens edges. Spread inward like reaching fingers. Through gaps in frost, image fragments visible. Sigrid's face - but now older, 30, 40, 50 years old in flashes. House behind her now huge, breathing, walls expanding and contracting. Through lit window, shadows moving inside - five figures, or four, or six. Can't count. Frost continues spreading. Only center of lens clear. Through it: Sigrid now ancient, hair white, still singing same song. Behind her, house door opens. Yellow light spills out. Someone standing in doorway - Magn\u00c3\u00bas? But wrong. Too tall. Too many arms? Or is it sheep standing upright? Frost covers more. Through last clear spot: interior of house visible. Family at table. But are they human? Shapes wrong. Frost nearly complete. Final image: single eye looking directly at camera. Human? Sheep? Sigrid's? Ancient. Knowing. Frost covers completely. Darkness.",
       "scene": "View through frosting lens. Images fragmenting. Time jumping. Reality unstable.",
       "style": "POV shot with frost covering lens progressively (that's where the camera is), fragments visible through ice.",
       "camera_position": "POV shot with frost covering lens progressively",
@@ -42,7 +42,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show frost covering lens, fragments through ice, reality breaking, 1080p",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},

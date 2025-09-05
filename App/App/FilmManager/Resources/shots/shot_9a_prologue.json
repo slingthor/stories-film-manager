@@ -15,58 +15,75 @@
     },
     "stitch_from": "Shot 8b/16: Faces in searchlight"
   },
-
   "progressive_state": "Time collapses | Paradise ending | Camera frost 5% | Day racing away | Watching: The fall begins",
-
   "prompt_variants": [
     {
       "variant_id": "9a_story_primary",
       "variant_name": "Temporal Acceleration Collapse",
-      "intent_tags": ["story_primary", "time_collapse"],
+      "intent_tags": [
+        "story_primary",
+        "time_collapse"
+      ],
       "priority": 1,
-      
       "subject": "The sun suddenly dropping toward horizon in accelerated motion, shadows sweeping across feast tables like black water, golden light dying to orange to red to purple in seconds, temperature dropping visibly as breath becomes white vapor.",
-      
       "action": "Sun breaks from frozen position. Drops 10 degrees in one second. Shadows from tables suddenly swing eastward, moving like clock hands. Golden light shifts orange. Everyone still frozen at tables but shadows moving around them. Sun drops another 10 degrees. Light turns deep red. Food on tables changes - whale meat darkening, berries shriveling, eggs turning grey. Sun continues plummet. Sky shifts red to purple. Temperature drops - breath becomes visible from everyone simultaneously, white clouds in purple air. Frost forms on table edges, spreading inward. Purple juice in cups freezes, expanding, some cups cracking. Sun nearly at horizon now. Moving faster. The searchlight still locked on feast but overwhelmed by dying natural light. Children begin shivering. Adults don't move. Sun touches horizon. Pauses one second. Then drops below. Darkness rushing in from edges of frame.",
-      
       "scene": "Feast tables with sun racing across sky. Light changing rapidly. Frost forming. Searchlight still on but overwhelmed.",
-      
       "style": "Wide shot showing sun movement and shadow sweep (that's where the camera is), time-lapse feeling but real-time.",
-      
       "camera_position": "Wide shot showing temporal acceleration effects, that's where the camera is",
-      
       "dialogue": "None",
-      
       "audio": {
-        "primary_sounds": ["Sun moving with grinding sound", "frost crackling on tables", "cups cracking", "shadows sweeping"],
-        "ambient_sounds": ["Temperature dropping audibly", "searchlight humming futilely"],
-        "absent_sounds": ["human voices"]
+        "primary_sounds": [
+          "Sun moving with grinding sound",
+          "frost crackling on tables",
+          "cups cracking",
+          "shadows sweeping"
+        ],
+        "ambient_sounds": [
+          "Temperature dropping audibly",
+          "searchlight humming futilely"
+        ],
+        "absent_sounds": [
+          "human voices"
+        ]
       },
-      
       "character_plates": {
-        "present": ["Community frozen during temporal collapse"],
+        "present": [
+          "Community frozen during temporal collapse"
+        ],
         "referenced": []
       },
-      
       "environmental_plates": {
         "landscape": "FEAST-AREA-TEMPORAL-COLLAPSE",
         "weather": "TEMPORAL-ACCELERATION",
         "lighting": "GOLDEN-TO-PURPLE-DEATH"
       },
-      
       "negative_prompt": "no subtitles, show sun dropping rapidly, shadows sweeping, frost forming, breath visible, 1080p",
-      
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-PURE",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-WINTER",
+          "interior": "BA\u00d0STOFA-ORGANIC"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
-
   "others": {
     "temporal_physics": "Sun accelerating beyond natural movement",
     "shadow_independence": "Shadows moving while bodies frozen",
     "food_corruption": "Abundance actively rotting during time acceleration",
     "temperature_visualization": "Breath becoming visible as cold enters"
   },
-
   "notes": {
     "thematic_purpose": "False abundance collapsing through temporal acceleration",
     "impossible_physics": "Time flowing different rates for different elements"

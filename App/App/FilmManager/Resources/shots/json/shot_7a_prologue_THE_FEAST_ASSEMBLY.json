@@ -18,7 +18,7 @@
       ],
       "priority": 1,
       "subject": "Three long driftwood tables arranged in horseshoe shape in field, laden with whale meat, dried fish, berry juice in jugs, boiled eggs, bread, the tables bending slightly under weight, fifty people taking seats.",
-      "action": "Tables covered with white cloth - where did cloth come from? Food arranged in patterns. Whale meat in center, still steaming. Dried fish in pyramids. Purple juice in clay jugs, liquid glowing slightly in evening light. Eggs boiled, shells removed, golden yolks visible. Fresh bread - impossible, no one baked today. Tables bend in middle from weight. People approach from all directions. Still wearing work clothes stained with three colors. Children's mouths still black from juice. Take seats in specific order - families together but pattern emerges. From above, people arranged like spokes of wheel. MagnÃºs at head of center table. GuÃ°rÃºn to his right. Sigrid to his left - honor position. JÃ³n beside mother. Lilja on bench end. Everyone sits simultaneously. No signal given. All faces turn toward MagnÃºs. Waiting. Sun low on horizon but not moving. Stuck again.",
+      "action": "Tables covered with white cloth - where did cloth come from? Food arranged in patterns. Whale meat in center, still steaming. Dried fish in pyramids. Purple juice in clay jugs, liquid glowing slightly in evening light. Eggs boiled, shells removed, golden yolks visible. Fresh bread - impossible, no one baked today. Tables bend in middle from weight. People approach from all directions. Still wearing work clothes stained with three colors. Children's mouths still black from juice. Take seats in specific order - families together but pattern emerges. From above, people arranged like spokes of wheel. Magn\u00c3\u00bas at head of center table. Gu\u00c3\u00b0r\u00c3\u00ban to his right. Sigrid to his left - honor position. J\u00c3\u00b3n beside mother. Lilja on bench end. Everyone sits simultaneously. No signal given. All faces turn toward Magn\u00c3\u00bas. Waiting. Sun low on horizon but not moving. Stuck again.",
       "scene": "Field near houses. Three tables in horseshoe. Evening light golden. Ocean visible in distance. Mountains surrounding.",
       "style": "High angle showing table arrangement and people positioning (that's where the camera is), formal composition, symmetrical.",
       "camera_position": "High angle showing table arrangement and people positioning",
@@ -45,7 +45,24 @@
         "referenced": []
       },
       "negative_prompt": "no subtitles, show horseshoe table shape, three-color stains on everyone, abundance bending tables, 1080p",
-      "video_references": []
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BA\u00d0STOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
     }
   ],
   "others": {},
