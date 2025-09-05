@@ -3,10 +3,13 @@ import Combine
 
 struct ComprehensivePromptEditor: View {
     let shot: FilmShot?
+    @ObservedObject var filmManager: FilmManager
     @State private var showingNewVariantDialog = false
     @State private var newVariantName = ""
     @State private var showingGeneratedPrompt = false
     @State private var generatedPrompt = ""
+    @State private var showCharacterPlates = false
+    @State private var showEnvironmentPlates = false
     
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
@@ -119,31 +122,14 @@ struct ComprehensivePromptEditor: View {
                     
                     ScrollView {
                         VStack(alignment: .leading, spacing: 16) {
-                            // Character & Environment plates section (placeholder for future)
-                            VStack(alignment: .leading, spacing: 8) {
-                                Text("CHARACTER & ENVIRONMENT PLATES")
-                                    .font(.subheadline)
-                                    .fontWeight(.semibold)
-                                
-                                HStack {
-                                    Text("Character: MAGNÚS-AUTHORITY")
-                                        .font(.caption)
-                                        .padding(.horizontal, 6)
-                                        .padding(.vertical, 3)
-                                        .background(Color.blue.opacity(0.2))
-                                        .cornerRadius(4)
-                                    
-                                    Text("Environment: WESTFJORDS-SUMMER")
-                                        .font(.caption)
-                                        .padding(.horizontal, 6)
-                                        .padding(.vertical, 3)
-                                        .background(Color.green.opacity(0.2))
-                                        .cornerRadius(4)
-                                }
-                            }
-                            .padding()
-                            .background(Color.gray.opacity(0.05))
-                            .cornerRadius(8)
+                            // Integrated Plate Selection
+                            PlateSelectionSection(
+                                variant: prompt,
+                                plateManager: filmManager.plateManager,
+                                showCharacterPlates: $showCharacterPlates,
+                                showEnvironmentPlates: $showEnvironmentPlates,
+                                onUpdate: { shot.isDirty = true }
+                            )
                             
                             // All VEO3 prompt fields
                             Group {
@@ -236,10 +222,16 @@ struct ComprehensivePromptEditor: View {
                                 }
                                 .buttonStyle(.borderedProminent)
                                 
-                                Button(prompt.isActive ? "★ ACTIVE PROMPT" : "Set as Active") {
-                                    shot.setActivePrompt(at: shot.selectedPromptIndex)
+                                Button(action: {
+                                    if !prompt.isActive {
+                                        shot.setActivePrompt(at: shot.selectedPromptIndex)
+                                    }
+                                }) {
+                                    Label(prompt.isActive ? "Active" : "Set as Active", 
+                                          systemImage: prompt.isActive ? "star.fill" : "star")
                                 }
                                 .buttonStyle(.bordered)
+                                .disabled(prompt.isActive)
                                 .foregroundColor(prompt.isActive ? .yellow : .primary)
                                 
                                 Button("Save Shot") {
@@ -331,6 +323,393 @@ struct VEOPromptField: View {
                         .stroke(Color.gray.opacity(0.3), lineWidth: 1)
                 )
                 .frame(height: height)
+        }
+    }
+}
+
+// MARK: - Plate Selection Section  
+struct PlateSelectionSection: View {
+    @ObservedObject var variant: PromptVariant
+    let plateManager: PlateManager
+    @Binding var showCharacterPlates: Bool
+    @Binding var showEnvironmentPlates: Bool
+    let onUpdate: () -> Void
+    
+    @State private var hoveredPlateId: String? = nil
+    @State private var expandedCharacter: String? = nil
+    @State private var specializationSearch: String = ""
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text("PLATES")
+                .font(.subheadline)
+                .fontWeight(.semibold)
+            
+            // Character plates with +/- buttons
+            VStack(alignment: .leading, spacing: 8) {
+                ForEach(plateManager.mainCharacterPlates, id: \.plateId) { mainPlate in
+                    VStack(alignment: .leading, spacing: 6) {
+                        HStack {
+                            // Plus/Minus button
+                            Button(action: {
+                                if variant.selectedCharacterPlateId == mainPlate.plateId {
+                                    // Remove character
+                                    variant.selectedCharacterPlateId = nil
+                                } else {
+                                    // Add character (main plate by default)
+                                    variant.selectedCharacterPlateId = mainPlate.plateId
+                                }
+                                onUpdate()
+                            }) {
+                                Image(systemName: variant.selectedCharacterPlateId == mainPlate.plateId ? "minus.circle.fill" : "plus.circle")
+                                    .foregroundColor(variant.selectedCharacterPlateId == mainPlate.plateId ? .blue : .gray)
+                                    .font(.system(size: 16))
+                            }
+                            .buttonStyle(PlainButtonStyle())
+                            
+                            // Character name
+                            Text(mainPlate.character)
+                                .font(.caption)
+                                .fontWeight(.medium)
+                                .foregroundColor(variant.selectedCharacterPlateId == mainPlate.plateId ? .blue : .primary)
+                            
+                            // If character is selected, show specialization selector
+                            if variant.selectedCharacterPlateId == mainPlate.plateId || 
+                               plateManager.characterPlates.contains(where: { 
+                                   $0.character == mainPlate.character && $0.plateId == variant.selectedCharacterPlateId 
+                               }) {
+                                
+                                // Plus button for specialization
+                                Button(action: {
+                                    expandedCharacter = expandedCharacter == mainPlate.character ? nil : mainPlate.character
+                                }) {
+                                    Image(systemName: "plus.circle")
+                                        .foregroundColor(.blue)
+                                        .font(.system(size: 14))
+                                }
+                                .buttonStyle(PlainButtonStyle())
+                                
+                                // Show current selection
+                                if let selectedId = variant.selectedCharacterPlateId,
+                                   let selectedPlate = plateManager.characterPlates.first(where: { $0.plateId == selectedId && $0.character == mainPlate.character }) {
+                                    HStack(spacing: 4) {
+                                        Text(selectedPlate.name)
+                                            .font(.caption2)
+                                            .padding(.horizontal, 6)
+                                            .padding(.vertical, 2)
+                                            .background(Color.blue.opacity(0.2))
+                                            .cornerRadius(3)
+                                            .onHover { isHovered in
+                                                if isHovered {
+                                                    hoveredPlateId = selectedPlate.plateId
+                                                } else if hoveredPlateId == selectedPlate.plateId {
+                                                    hoveredPlateId = nil
+                                                }
+                                            }
+                                            .popover(isPresented: .constant(hoveredPlateId == selectedPlate.plateId)) {
+                                                PlateDescriptionPopover(plate: selectedPlate)
+                                            }
+                                    }
+                                }
+                            }
+                            
+                            Spacer()
+                        }
+                        
+                        // Specialization dropdown
+                        if expandedCharacter == mainPlate.character {
+                            SpecializationPicker(
+                                character: mainPlate.character,
+                                currentSelection: variant.selectedCharacterPlateId,
+                                plateManager: plateManager,
+                                searchText: $specializationSearch,
+                                onSelect: { plateId in
+                                    variant.selectedCharacterPlateId = plateId
+                                    expandedCharacter = nil
+                                    specializationSearch = ""
+                                    onUpdate()
+                                }
+                            )
+                            .padding(.leading, 24)
+                        }
+                    }
+                }
+                
+                // Environment plate
+                HStack {
+                    Text("Environment:")
+                        .font(.caption)
+                        .frame(width: 80, alignment: .leading)
+                    
+                    if let plateId = variant.selectedEnvironmentPlateId,
+                       let plate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
+                        HStack {
+                            Text("\(plate.category) - \(plate.name)")
+                                .font(.caption)
+                                .padding(.horizontal, 8)
+                                .padding(.vertical, 4)
+                                .background(Color.green.opacity(0.2))
+                                .cornerRadius(4)
+                            
+                            Button(action: {
+                                variant.selectedEnvironmentPlateId = nil
+                                onUpdate()
+                            }) {
+                                Image(systemName: "xmark.circle.fill")
+                                    .font(.caption)
+                                    .foregroundColor(.gray)
+                            }
+                            .buttonStyle(PlainButtonStyle())
+                        }
+                    } else {
+                        Button("Select Environment Plate") {
+                            showEnvironmentPlates.toggle()
+                        }
+                        .font(.caption)
+                        .buttonStyle(BorderedButtonStyle())
+                    }
+                    
+                    Spacer()
+                }
+                
+                // Show environment plate selector if toggled
+                if showEnvironmentPlates {
+                    EnvironmentPlateSelector(
+                        variant: variant,
+                        plateManager: plateManager,
+                        onSelect: {
+                            showEnvironmentPlates = false
+                            onUpdate()
+                        }
+                    )
+                    .padding(.leading, 85)
+                }
+            }
+        }
+        .padding()
+        .background(Color.gray.opacity(0.05))
+        .cornerRadius(8)
+    }
+}
+
+// MARK: - Specialization Picker
+struct SpecializationPicker: View {
+    let character: String
+    let currentSelection: String?
+    let plateManager: PlateManager
+    @Binding var searchText: String
+    let onSelect: (String) -> Void
+    
+    var availablePlates: [CharacterPlate] {
+        let plates = plateManager.characterPlates.filter { $0.character == character }
+        if searchText.isEmpty {
+            return plates
+        }
+        return plates.filter { 
+            $0.name.localizedCaseInsensitiveContains(searchText) ||
+            $0.description.localizedCaseInsensitiveContains(searchText)
+        }
+    }
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 4) {
+            // Search field
+            HStack {
+                Image(systemName: "magnifyingglass")
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+                TextField("Search specializations...", text: $searchText)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .font(.caption)
+            }
+            .frame(width: 200)
+            
+            // Plate list
+            ScrollView {
+                VStack(alignment: .leading, spacing: 2) {
+                    ForEach(availablePlates, id: \.plateId) { plate in
+                        Button(action: {
+                            onSelect(plate.plateId)
+                        }) {
+                            HStack {
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text(plate.name)
+                                        .font(.caption)
+                                        .fontWeight(.medium)
+                                    Text(plate.description)
+                                        .font(.caption2)
+                                        .foregroundColor(.secondary)
+                                        .lineLimit(2)
+                                }
+                                Spacer()
+                                if plate.plateId == currentSelection {
+                                    Image(systemName: "checkmark.circle.fill")
+                                        .font(.caption)
+                                        .foregroundColor(.blue)
+                                }
+                            }
+                            .padding(6)
+                            .background(plate.plateId == currentSelection ? Color.blue.opacity(0.1) : Color.gray.opacity(0.05))
+                            .cornerRadius(4)
+                        }
+                        .buttonStyle(PlainButtonStyle())
+                    }
+                }
+            }
+            .frame(maxHeight: 150)
+            .background(Color.gray.opacity(0.05))
+            .cornerRadius(4)
+        }
+    }
+}
+
+// MARK: - Plate Description Popover
+struct PlateDescriptionPopover: View {
+    let plate: CharacterPlate
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text(plate.name)
+                .font(.caption)
+                .fontWeight(.semibold)
+            Text(plate.description)
+                .font(.caption2)
+                .foregroundColor(.secondary)
+            if !plate.shotRange.isEmpty {
+                Text(plate.shotRange)
+                    .font(.caption2)
+                    .foregroundColor(.green)
+            }
+        }
+        .padding()
+        .frame(maxWidth: 300)
+    }
+}
+
+// MARK: - Character Plate Selector (Legacy - kept for compatibility)
+struct CharacterPlateSelector: View {
+    @ObservedObject var variant: PromptVariant
+    let plateManager: PlateManager
+    let onSelect: () -> Void
+    @State private var selectedCharacter = ""
+    
+    var charactersWithPlates: [String] {
+        Array(Set(plateManager.characterPlates.map { $0.character })).sorted()
+    }
+    
+    var platesForSelectedCharacter: [CharacterPlate] {
+        plateManager.characterPlates.filter { $0.character == selectedCharacter }
+    }
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            // Character picker
+            if !charactersWithPlates.isEmpty {
+                Picker("Character", selection: $selectedCharacter) {
+                    Text("Select Character").tag("")
+                    ForEach(charactersWithPlates, id: \.self) { character in
+                        Text(character).tag(character)
+                    }
+                }
+                .pickerStyle(MenuPickerStyle())
+                .frame(width: 200)
+            }
+            
+            // Plates for selected character
+            if !selectedCharacter.isEmpty {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 4) {
+                        ForEach(platesForSelectedCharacter) { plate in
+                            Button(action: {
+                                variant.selectedCharacterPlateId = plate.plateId
+                                onSelect()
+                            }) {
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text(plate.name)
+                                        .font(.caption)
+                                        .fontWeight(.medium)
+                                    Text(plate.description)
+                                        .font(.caption2)
+                                        .foregroundColor(.secondary)
+                                        .lineLimit(2)
+                                }
+                                .padding(6)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .background(Color.blue.opacity(0.1))
+                                .cornerRadius(4)
+                            }
+                            .buttonStyle(PlainButtonStyle())
+                        }
+                    }
+                }
+                .frame(maxHeight: 150)
+                .background(Color.gray.opacity(0.05))
+                .cornerRadius(4)
+            }
+        }
+    }
+}
+
+// MARK: - Environment Plate Selector
+struct EnvironmentPlateSelector: View {
+    @ObservedObject var variant: PromptVariant
+    let plateManager: PlateManager
+    let onSelect: () -> Void
+    @State private var selectedCategory = ""
+    
+    var categoriesWithPlates: [String] {
+        Array(Set(plateManager.environmentalPlates.map { $0.category })).sorted()
+    }
+    
+    var platesForSelectedCategory: [EnvironmentalPlate] {
+        plateManager.environmentalPlates.filter { $0.category == selectedCategory }
+    }
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            // Category picker
+            if !categoriesWithPlates.isEmpty {
+                Picker("Category", selection: $selectedCategory) {
+                    Text("Select Category").tag("")
+                    ForEach(categoriesWithPlates, id: \.self) { category in
+                        Text(category).tag(category)
+                    }
+                }
+                .pickerStyle(MenuPickerStyle())
+                .frame(width: 200)
+            }
+            
+            // Plates for selected category
+            if !selectedCategory.isEmpty {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 4) {
+                        ForEach(platesForSelectedCategory) { plate in
+                            Button(action: {
+                                variant.selectedEnvironmentPlateId = plate.plateId
+                                onSelect()
+                            }) {
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text(plate.name)
+                                        .font(.caption)
+                                        .fontWeight(.medium)
+                                    Text(plate.description)
+                                        .font(.caption2)
+                                        .foregroundColor(.secondary)
+                                        .lineLimit(2)
+                                }
+                                .padding(6)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .background(Color.green.opacity(0.1))
+                                .cornerRadius(4)
+                            }
+                            .buttonStyle(PlainButtonStyle())
+                        }
+                    }
+                }
+                .frame(maxHeight: 150)
+                .background(Color.gray.opacity(0.05))
+                .cornerRadius(4)
+            }
         }
     }
 }
@@ -432,5 +811,5 @@ struct GeneratedPromptViewer: View {
 }
 
 #Preview {
-    ComprehensivePromptEditor(shot: nil)
+    ComprehensivePromptEditor(shot: nil, filmManager: FilmManager())
 }

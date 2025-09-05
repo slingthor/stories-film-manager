@@ -40,6 +40,21 @@ struct ShotListWithSystemsView: View {
                         .buttonStyle(.bordered)
                         .font(.caption)
                         
+                        Button(action: {
+                            filmManager.deleteShot(shot)
+                        }) {
+                            Label("Delete", systemImage: "trash")
+                                .foregroundColor(.red)
+                        }
+                        .buttonStyle(.bordered)
+                        .font(.caption)
+                        
+                        Button("Copy") {
+                            filmManager.copyShotAfterCurrent()
+                        }
+                        .buttonStyle(.bordered)
+                        .font(.caption)
+                        
                         Spacer()
                         
                         Text("Position: \(Int(shot.position))%")
@@ -54,7 +69,7 @@ struct ShotListWithSystemsView: View {
             
             // Shot list with enhanced system mapping
             List {
-                ForEach(filmManager.shots) { shot in
+                ForEach(filmManager.shots, id: \.id) { shot in
                     EnhancedShotRow(
                         shot: shot,
                         isSelected: filmManager.selectedShot?.id == shot.id,

@@ -39,7 +39,7 @@ struct ContentView: View {
             .background(Color.gray.opacity(0.1))
             
             HStack(spacing: 0) {
-                // LEFT: System Controls with Shot Mapping
+                // LEFT: System Controls
                 SystemControlsPanel(
                     filmManager: filmManager,
                     draggedSystem: $draggedSystem
@@ -49,8 +49,8 @@ struct ContentView: View {
                 
                 Divider()
                 
-                // CENTER-LEFT: Shot List with System Drop Zones
-                ShotListWithSystemsView(
+                // CENTER-LEFT: Tabbed view for Shots/Plates
+                TabbedManagementView(
                     filmManager: filmManager,
                     draggedSystem: draggedSystem
                 )
@@ -61,7 +61,8 @@ struct ContentView: View {
                 
                 // CENTER-RIGHT: Complete Prompt Editor
                 ComprehensivePromptEditor(
-                    shot: filmManager.selectedShot
+                    shot: filmManager.selectedShot,
+                    filmManager: filmManager
                 )
                 .frame(minWidth: 500)
                 .background(Color.purple.opacity(0.05))

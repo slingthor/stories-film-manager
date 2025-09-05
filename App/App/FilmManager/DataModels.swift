@@ -121,6 +121,7 @@ class FilmManager: ObservableObject {
     
     private func loadShotsFromFiles(_ jsonFiles: [String], directory: String) -> [FilmShot] {
         var loadedShots: [FilmShot] = []
+        var seenIds = Set<String>()  // Track loaded shot IDs to prevent duplicates
         
         print("📄 Processing \(jsonFiles.count) JSON files from \(directory)")
         
@@ -142,6 +143,13 @@ class FilmManager: ObservableObject {
                 print("⚠️ Missing metadata in: \(file)")
                 continue
             }
+            
+            // Check for duplicate IDs
+            if seenIds.contains(id) {
+                print("⚠️ Duplicate shot ID detected, skipping: \(id) from file: \(file)")
+                continue
+            }
+            seenIds.insert(id)
             
             let title = (metadata["title"] as? String) ?? 
                        (metadata["name"] as? String) ?? 
@@ -416,6 +424,32 @@ class FilmManager: ObservableObject {
         print("🎬 Timeline updated: \(videoShots.count) shots with selected videos")
     }
     
+    func deleteShot(_ shot: FilmShot) {
+        guard let index = shots.firstIndex(where: { $0.id == shot.id }) else { return }
+        
+        // Remove the shot
+        shots.remove(at: index)
+        
+        // Update positions for remaining shots
+        updateShotPositions()
+        
+        // Select next shot or previous if last
+        if shots.isEmpty {
+            selectedShot = nil
+        } else if index < shots.count {
+            selectedShot = shots[index]
+        } else if index > 0 {
+            selectedShot = shots[index - 1]
+        } else {
+            selectedShot = shots.first
+        }
+        
+        // Recalculate total duration
+        calculateTotalDuration()
+        
+        print("🗑️ Deleted shot: \(shot.id) - \(shot.title)")
+    }
+    
     func copyShotAfterCurrent() {
         guard let currentShot = selectedShot,
               let currentIndex = shots.firstIndex(where: { $0.id == currentShot.id }) else {
@@ -424,23 +458,13 @@ class FilmManager: ObservableObject {
         
         // Generate new ID for the copy
         let baseId = currentShot.id
-        var newId = baseId
+        var newId = "\(baseId).1"
         var counter = 1
         
-        // Check if the ID already has a decimal suffix
-        if let dotIndex = baseId.lastIndex(of: ".") {
-            let base = String(baseId[..<dotIndex])
-            if let suffix = Int(String(baseId[baseId.index(after: dotIndex)...])) {
-                newId = "\(base).\(suffix + 1)"
-            } else {
-                newId = "\(baseId).1"
-            }
-        } else {
-            // Find the next available decimal suffix
-            while shots.contains(where: { $0.id == newId }) {
-                newId = "\(baseId).\(counter)"
-                counter += 1
-            }
+        // Ensure we create a truly unique ID
+        while shots.contains(where: { $0.id == newId }) {
+            counter += 1
+            newId = "\(baseId).\(counter)"
         }
         
         // Create copy of the shot
@@ -786,6 +810,22 @@ struct ImageFile: Identifiable {
 
 // MARK: - Plate Management
 
+struct PlateMedia: Identifiable, Codable {
+    let id = UUID()
+    let type: String // "image" or "video"
+    let path: String
+    let caption: String?
+}
+
+struct CharacterPlateSpecialization: Identifiable, Codable {
+    let id = UUID()
+    let plateId: String
+    let name: String
+    let description: String
+    let shotRange: String
+    let media: [PlateMedia]
+}
+
 struct CharacterPlate: Identifiable {
     let id = UUID()
     let plateId: String
@@ -793,6 +833,9 @@ struct CharacterPlate: Identifiable {
     let character: String
     let description: String
     let shotRange: String
+    var specializations: [CharacterPlateSpecialization] = []
+    var media: [PlateMedia] = []
+    var isMainPlate: Bool = false
 }
 
 struct EnvironmentalPlate: Identifiable {
@@ -802,11 +845,13 @@ struct EnvironmentalPlate: Identifiable {
     let category: String
     let description: String
     let atmosphere: String
+    var media: [PlateMedia] = []
 }
 
 class PlateManager: ObservableObject {
     @Published var characterPlates: [CharacterPlate] = []
     @Published var environmentalPlates: [EnvironmentalPlate] = []
+    @Published var mainCharacterPlates: [CharacterPlate] = [] // Main plates for each character
     
     private let enhancementsPath = "/Users/ingthor/Documents/stories/enhancements"
     
@@ -834,10 +879,16 @@ class PlateManager: ObservableObject {
             if let content = try? String(contentsOfFile: filepath) {
                 let plates = parseCharacterPlates(from: content, filename: file)
                 characterPlates.append(contentsOf: plates)
+                
+                // Extract main plates
+                if let mainPlate = plates.first(where: { $0.isMainPlate }) {
+                    mainCharacterPlates.append(mainPlate)
+                }
             }
         }
         
         print("📚 Loaded \(characterPlates.count) character plates")
+        print("👤 Found \(mainCharacterPlates.count) main character plates")
     }
     
     private func parseCharacterPlates(from content: String, filename: String) -> [CharacterPlate] {
@@ -853,10 +904,21 @@ class PlateManager: ObservableObject {
         var currentName: String?
         var currentDescription = ""
         var currentRange = ""
+        var isInMasterSection = false
+        var foundMasterPlate = false
         
         for line in lines {
+            // Check if we're in the MASTER PLATE section
+            if line.contains("MASTER PLATE") || line.contains("Master Template") {
+                isInMasterSection = true
+            }
+            // Check for specific master plate identifiers
+            else if line.contains("\(character.uppercased())-MASTER") {
+                foundMasterPlate = true
+                isInMasterSection = true
+            }
             // Look for PLATE patterns
-            if line.contains("PLATE ") && line.contains(":") {
+            else if line.contains("PLATE ") && line.contains(":") {
                 // Save previous plate if exists
                 if let plateId = currentPlateId, let name = currentName, !currentDescription.isEmpty {
                     plates.append(CharacterPlate(
@@ -864,8 +926,12 @@ class PlateManager: ObservableObject {
                         name: name,
                         character: character,
                         description: currentDescription.trimmingCharacters(in: .whitespacesAndNewlines),
-                        shotRange: currentRange
+                        shotRange: currentRange,
+                        specializations: [],
+                        media: [],
+                        isMainPlate: foundMasterPlate && !plates.contains(where: { $0.isMainPlate })
                     ))
+                    foundMasterPlate = false  // Reset after using
                 }
                 
                 // Start new plate
@@ -903,7 +969,10 @@ class PlateManager: ObservableObject {
                 name: name,
                 character: character,
                 description: currentDescription.trimmingCharacters(in: .whitespacesAndNewlines),
-                shotRange: currentRange
+                shotRange: currentRange,
+                specializations: [],
+                media: [],
+                isMainPlate: foundMasterPlate && !plates.contains(where: { $0.isMainPlate })
             ))
         }
         
@@ -959,7 +1028,8 @@ class PlateManager: ObservableObject {
                         name: name,
                         category: category,
                         description: currentDescription.trimmingCharacters(in: .whitespacesAndNewlines),
-                        atmosphere: currentAtmosphere
+                        atmosphere: currentAtmosphere,
+                        media: []
                     ))
                 }
                 
@@ -987,7 +1057,8 @@ class PlateManager: ObservableObject {
                 name: name,
                 category: category,
                 description: currentDescription.trimmingCharacters(in: .whitespacesAndNewlines),
-                atmosphere: currentAtmosphere.trimmingCharacters(in: .whitespacesAndNewlines)
+                atmosphere: currentAtmosphere.trimmingCharacters(in: .whitespacesAndNewlines),
+                media: []
             ))
         }
         
