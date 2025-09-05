@@ -1,0 +1,362 @@
+import SwiftUI
+import AVKit
+import UniformTypeIdentifiers
+
+struct VideoPane: View {
+    let shot: Shot?
+    @ObservedObject var mediaManager: MediaManager
+    @State private var player: AVPlayer?
+    @State private var showingImageViewer = false
+    @State private var selectedImage: ImageFile?
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            // Header
+            Text("MEDIA")
+                .font(.headline)
+                .padding()
+            
+            if let shot = shot {
+                // Video player
+                Group {
+                    if let video = mediaManager.currentVideo, let player = player {
+                        VideoPlayer(player: player)
+                            .frame(height: 200)
+                            .cornerRadius(8)
+                            .onAppear {
+                                setupPlayer(for: video)
+                            }
+                            .onChange(of: mediaManager.currentVideo) { newVideo in
+                                if let video = newVideo {
+                                    setupPlayer(for: video)
+                                }
+                            }
+                    } else {
+                        RoundedRectangle(cornerRadius: 8)
+                            .fill(Color.gray.opacity(0.2))
+                            .frame(height: 200)
+                            .overlay(
+                                VStack {
+                                    Image(systemName: "video.slash")
+                                        .font(.largeTitle)
+                                        .foregroundColor(.gray)
+                                    Text("No video selected")
+                                        .font(.caption)
+                                        .foregroundColor(.gray)
+                                }
+                            )
+                    }
+                }
+                .padding(.horizontal)
+                
+                // Video controls
+                if mediaManager.currentVideo != nil {
+                    HStack {
+                        Button("Play") {
+                            player?.play()
+                        }
+                        
+                        Button("Pause") {
+                            player?.pause()
+                        }
+                        
+                        Spacer()
+                        
+                        Button("Export") {
+                            exportCurrentVideo()
+                        }
+                        .font(.caption)
+                    }
+                    .padding(.horizontal)
+                }
+                
+                Divider()
+                    .padding(.vertical)
+                
+                // Video list
+                VStack(alignment: .leading) {
+                    HStack {
+                        Text("VIDEOS (\(shot.videos.count))")
+                            .font(.subheadline)
+                            .fontWeight(.semibold)
+                        
+                        Spacer()
+                        
+                        Button("Add") {
+                            importVideo(for: shot)
+                        }
+                        .font(.caption)
+                    }
+                    .padding(.horizontal)
+                    
+                    ScrollView {
+                        LazyVStack(spacing: 4) {
+                            ForEach(shot.videos) { video in
+                                VideoRowView(
+                                    video: video,
+                                    isSelected: currentVideo?.id == video.id,
+                                    onSelect: { currentVideo = video },
+                                    onDelete: { 
+                                        mediaManager.removeVideo(from: shot, videoId: video.id)
+                                    }
+                                )
+                            }
+                        }
+                        .padding(.horizontal)
+                    }
+                }
+                
+                Divider()
+                    .padding(.vertical)
+                
+                // Image gallery
+                VStack(alignment: .leading) {
+                    HStack {
+                        Text("IMAGES (\(shot.images.count))")
+                            .font(.subheadline)
+                            .fontWeight(.semibold)
+                        
+                        Spacer()
+                        
+                        Button("Add") {
+                            importImage(for: shot)
+                        }
+                        .font(.caption)
+                    }
+                    .padding(.horizontal)
+                    
+                    ScrollView {
+                        LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2), spacing: 8) {
+                            ForEach(shot.images) { image in
+                                ImageThumbnailView(
+                                    image: image,
+                                    onSelect: { 
+                                        selectedImage = image
+                                        showingImageViewer = true
+                                    },
+                                    onDelete: {
+                                        mediaManager.removeImage(from: shot, imageId: image.id)
+                                    }
+                                )
+                            }
+                        }
+                        .padding(.horizontal)
+                    }
+                }
+                
+            } else {
+                VStack {
+                    Image(systemName: "video")
+                        .font(.largeTitle)
+                        .foregroundColor(.gray)
+                    Text("Select a shot to view media")
+                        .font(.title3)
+                        .foregroundColor(.gray)
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
+        }
+        .onDrop(of: [.movie, .image], isTargeted: nil) { providers in
+            handleDrop(providers)
+            return true
+        }
+        .sheet(isPresented: $showingImageViewer) {
+            if let image = selectedImage {
+                ImageViewerSheet(image: image)
+            }
+        }
+    }
+    
+    private func setupPlayer(for video: VideoFile) {
+        let url = URL(fileURLWithPath: video.filepath)
+        player = AVPlayer(url: url)
+    }
+    
+    private func handleDrop(_ providers: [NSItemProvider]) {
+        guard let shot = shot else { return }
+        
+        for provider in providers {
+            if provider.hasItemConformingToTypeIdentifier(UTType.movie.identifier) {
+                provider.loadItem(forTypeIdentifier: UTType.movie.identifier, options: nil) { (data, error) in
+                    if let url = data as? URL {
+                        DispatchQueue.main.async {
+                            mediaManager.addVideo(to: shot, from: url)
+                        }
+                    }
+                }
+            } else if provider.hasItemConformingToTypeIdentifier(UTType.image.identifier) {
+                provider.loadItem(forTypeIdentifier: UTType.image.identifier, options: nil) { (data, error) in
+                    if let url = data as? URL {
+                        DispatchQueue.main.async {
+                            mediaManager.addImage(to: shot, from: url)
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    private func importVideo(for shot: Shot) {
+        let panel = NSOpenPanel()
+        panel.allowedContentTypes = [.movie]
+        panel.allowsMultipleSelection = false
+        
+        if panel.runModal() == .OK, let url = panel.url {
+            mediaManager.addVideo(to: shot, from: url)
+        }
+    }
+    
+    private func importImage(for shot: Shot) {
+        let panel = NSOpenPanel()
+        panel.allowedContentTypes = [.image]
+        panel.allowsMultipleSelection = false
+        
+        if panel.runModal() == .OK, let url = panel.url {
+            mediaManager.addImage(to: shot, from: url)
+        }
+    }
+    
+    private func exportCurrentVideo() {
+        guard let video = currentVideo else { return }
+        
+        let panel = NSSavePanel()
+        panel.nameFieldStringValue = video.filename
+        
+        if panel.runModal() == .OK, let url = panel.url {
+            do {
+                try FileManager.default.copyItem(
+                    at: URL(fileURLWithPath: video.filepath),
+                    to: url
+                )
+            } catch {
+                print("Export error: \(error)")
+            }
+        }
+    }
+}
+
+struct VideoRowView: View {
+    let video: VideoFile
+    let isSelected: Bool
+    let onSelect: () -> Void
+    let onDelete: () -> Void
+    
+    var body: some View {
+        HStack {
+            VStack(alignment: .leading, spacing: 2) {
+                Text(video.filename)
+                    .font(.caption)
+                    .fontWeight(.medium)
+                    .lineLimit(1)
+                
+                if let rating = video.qualityRating {
+                    HStack {
+                        Text("★")
+                            .foregroundColor(.yellow)
+                        Text("\(rating, specifier: "%.1f")")
+                            .font(.caption2)
+                    }
+                }
+                
+                Text(video.generationDate)
+                    .font(.caption2)
+                    .foregroundColor(.secondary)
+            }
+            
+            Spacer()
+            
+            Button("×") {
+                onDelete()
+            }
+            .foregroundColor(.red)
+            .font(.caption)
+        }
+        .padding(.vertical, 4)
+        .padding(.horizontal, 8)
+        .background(
+            RoundedRectangle(cornerRadius: 4)
+                .fill(isSelected ? Color.blue.opacity(0.2) : Color.clear)
+        )
+        .contentShape(Rectangle())
+        .onTapGesture {
+            onSelect()
+        }
+        .onDrag {
+            NSItemProvider(contentsOf: URL(fileURLWithPath: video.filepath)) ?? NSItemProvider()
+        }
+    }
+}
+
+struct ImageThumbnailView: View {
+    let image: ImageFile
+    let onSelect: () -> Void
+    let onDelete: () -> Void
+    @State private var thumbnail: NSImage?
+    
+    var body: some View {
+        VStack {
+            if let thumbnail = thumbnail {
+                Image(nsImage: thumbnail)
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 60, height: 60)
+                    .clipped()
+                    .cornerRadius(4)
+            } else {
+                RoundedRectangle(cornerRadius: 4)
+                    .fill(Color.gray.opacity(0.3))
+                    .frame(width: 60, height: 60)
+                    .overlay(
+                        Image(systemName: "photo")
+                            .foregroundColor(.gray)
+                    )
+            }
+            
+            Text(image.filename)
+                .font(.caption2)
+                .lineLimit(1)
+                .frame(width: 60)
+        }
+        .contentShape(Rectangle())
+        .onTapGesture {
+            onSelect()
+        }
+        .onDrag {
+            NSItemProvider(contentsOf: URL(fileURLWithPath: image.filepath)) ?? NSItemProvider()
+        }
+        .contextMenu {
+            Button("Delete", role: .destructive) {
+                onDelete()
+            }
+        }
+        .onAppear {
+            loadThumbnail()
+        }
+    }
+    
+    private func loadThumbnail() {
+        let url = URL(fileURLWithPath: image.filepath)
+        if let nsImage = NSImage(contentsOf: url) {
+            thumbnail = nsImage
+        }
+    }
+}
+
+struct ImageViewerSheet: View {
+    let image: ImageFile
+    
+    var body: some View {
+        VStack {
+            if let nsImage = NSImage(contentsOf: URL(fileURLWithPath: image.filepath)) {
+                Image(nsImage: nsImage)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .padding()
+            }
+            
+            Text(image.filename)
+                .font(.headline)
+                .padding()
+        }
+    }
+}

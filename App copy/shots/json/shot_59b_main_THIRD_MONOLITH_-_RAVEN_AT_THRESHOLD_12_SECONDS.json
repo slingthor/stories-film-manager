@@ -1,0 +1,51 @@
+{
+  "shot_metadata": {
+    "id": "59b",
+    "name": "THIRD_MONOLITH___RAVEN_AT_THRESHOLD_12_SECONDS",
+    "title": "THIRD MONOLITH - RAVEN AT THRESHOLD 12 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 12,
+    "narrative_function": "Final appearance | Camera frost 52.5% | Geometric ...",
+    "stitch_from": "[STITCH from Shot 59a: MagnÃºs trapped in wall]"
+  },
+  "progressive_state": "Final appearance | Camera frost 52.5% | Geometric presence | Watching: Witness arrives",
+  "prompt_variants": [
+    {
+      "variant_id": "59b_story_primary",
+      "variant_name": "Primary - THIRD MONOLITH - RAVEN AT THRESHOLD 12 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "A massive raven suddenly at the threshold where Bull's body was, but Bull gone, only raven, 4 feet tall, absolutely still for 12 seconds, geometric perfection, its presence creating silence, even wind stops, waiting for Sigrid.",
+      "action": "ABSOLUTE STATIC SHOT. Threshold empty - Bull's body vanished. No explanation. Then: RAVEN. Not arrival - manifestation. Sudden existence. Massive. 4 feet tall standing. Black geometry. Each feather mathematical perfection. Obsidian sculpture. Absolutely still. 12-second hold begins. Nothing moves. Wind stops. Sheep family frozen. Even MagnÃºs stops struggling. The raven doesn't breathe. Doesn't blink. Monolithic presence. But alive. Waiting. Its eye reflects not this scene but sky with thousands of ravens. All of Iceland's ravens. Waiting for their new sister. The bird is door-shaped. Threshold-shaped. IS the threshold. Between worlds. Between forms. Between times. At 6 seconds: vertical blink. At 12 seconds: wings spread. Span fills entire doorway. Black cathedral. The invitation. The escape. The promise. Sigrid's transformation accelerates seeing it. Her destiny manifested. Waiting.",
+      "scene": "Doorway with massive raven. Complete stillness. Geometric presence. Exit offered.",
+      "style": "Absolute static shot, 12-second hold (that's where the camera is), monolith documented.",
+      "camera_position": "Absolute static shot, 12-second hold",
+      "dialogue": "None - complete silence",
+      "audio": {
+        "primary": [],
+        "ambient": [],
+        "absent": [
+          "no sound for 12 seconds",
+          "even wind stops"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "All silent before presence",
+    "triple_reality": "Physical: raven manifested | Psychological: death/freedom | Mythological: Gammur's return"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

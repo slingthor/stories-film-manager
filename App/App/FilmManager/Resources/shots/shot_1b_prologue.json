@@ -1,0 +1,97 @@
+{
+  "shot_metadata": {
+    "id": "1b", 
+    "name": "SPEARS_ENTER_FLESH",
+    "title": "Spears Enter Flesh - Divine Sacrifice",
+    "sequence_type": "prologue",
+    "duration_seconds": 8,
+    "film_position_percentage": 2.5,
+    "narrative_function": "Divine sacrifice enabling abundance through willing death",
+    "story_significance": "sacred_cooperation",
+    "realm_classification": {
+      "physical_percentage": 85.0,
+      "psychological_percentage": 10.0,
+      "mythological_percentage": 25.0
+    },
+    "stitch_from": "Shot 1a: Boats reaching whale area"
+  },
+
+  "tracking_systems_current": {
+    "breathing_coordination": 12.0,
+    "temperature_progression": 18.0,
+    "klettagja_formation": 0.0,
+    "spatial_impossibilities": 15.0,
+    "house_dimensions": 0.0,
+    "house_consciousness": 8.0,
+    "reality_coherence": 82.0,
+    "industrial_contamination": 8.0,
+    "hakarl_contamination": 2.0,
+    "predatory_landscape": 10.0,
+    "weather_hostility": 5.0,
+    "light_sources": 10.0,
+    "memory_degradation": 10.0,
+    "color_grading": 20.0,
+    "character_shadow_behavior": 8.0,
+    "stain_progression": 15.0
+  },
+
+  "progressive_state": "Marking moment | Blood beginning | Camera frost 0% | Whale accepts | Watching: The pact sealed",
+
+  "prompt_variants": [
+    {
+      "variant_id": "1b_story_primary",
+      "variant_name": "Divine Whale Sacrifice",
+      "intent_tags": ["story_primary", "sacred_cooperation"],
+      "priority": 1,
+      
+      "subject": "A 70-foot fin whale's grey back breaking the surface between three boats, three men standing with raised spears including [MAGNÚS], iron spear points entering whale flesh behind the pectoral fin, bright red blood flowing from wounds into water.",
+      
+      "action": "Whale surfaces slowly. Grey skin wet, reflecting morning light. Back 8 feet wide visible above water. Magnús stands in boat bow, knees bent for balance. Raises 7-foot spear above shoulder. Two other men in other boats also stand, spears raised. Whale continues moving forward at 2 knots. Magnús throws spear. It flies in arc, iron point enters flesh 2 feet deep behind whale's left pectoral fin. Immediately blood flows from wound - bright red, thick. Second spear enters whale's back near dorsal fin. Third spear hits lower back. All three spears remain embedded, shafts sticking out at angles. Blood flows from all three wounds, running down grey skin into water. Whale's tail rises slightly, then slides beneath surface. Whale begins diving, spear shafts disappearing under water. Blood spreads on surface in three distinct streams, merging into single wide trail pointing toward shore.",
+      
+      "scene": "Open ocean, 500 yards from shore. Three boats in triangle formation around whale. Dawn light making blood appear bright red against dark blue water.",
+      
+      "style": "Shot from water level between boats, camera 20 feet from whale (that's where the camera is), showing spears entering and blood flowing.",
+      
+      "camera_position": "Water level 20 feet from whale between boats, that's where the camera is",
+      
+      "dialogue": "None",
+      
+      "audio": {
+        "primary_sounds": ["Spears piercing flesh with wet thud", "blood hitting water", "whale exhaling through blowhole"],
+        "ambient_sounds": ["Boats rocking", "men sitting back down", "oars being lifted"],
+        "absent_sounds": ["whale screaming", "celebration"]
+      },
+      
+      "character_plates": {
+        "present": ["MAGNÚS-AUTHORITY", "Community hunters"],
+        "referenced": []
+      },
+      
+      "environmental_plates": {
+        "landscape": "WESTFJORDS-MARITIME",
+        "weather": "DAWN-CALM-COOPERATIVE",
+        "sea": "SEA-DIVINE-WILLING",
+        "lighting": "DAWN-BLOOD-ENHANCED"
+      },
+      
+      "negative_prompt": "no subtitles, show three spears embedded, blood flowing clearly, whale diving slowly, 1080p",
+      
+      "video_references": []
+    }
+  ],
+
+  "others": {
+    "mathematical_impossibility": "Three spears thrown but four visible upon impact", 
+    "whale_consciousness": "Eye shows calm acceptance, positioning optimal for hunters",
+    "blood_mathematics": "Spiral patterns pulsing at 12/min house rhythm",
+    "sound_enhancement": "Impact sound as submerged bell tone (industrial contamination foreshadowing)"
+  },
+
+  "notes": {
+    "thematic_purpose": "Divine guardian sacrificing for community survival",
+    "enhancement_references": [
+      "/Users/ingthor/Documents/stories/enhancements/shot_1b_spears_enter_flesh_five_predatory_masterpieces.txt"
+    ],
+    "mathematical_element": "First visible counting impossibility - extra spear"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "shot_metadata": {
+    "id": "57a",
+    "name": "COMPLETE_DARKNESS___ONLY_BREATHING_8_SECONDS",
+    "title": "COMPLETE DARKNESS - ONLY BREATHING 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 1/min dying + 20bpm | Reality collapse | Cam...",
+    "stitch_from": "[STITCH from Shot 56c: \"Maaaa\" attempts, family as sheep]"
+  },
+  "progressive_state": "House 1/min dying + 20bpm | Reality collapse | Camera frost 49% | Truth in darkness | Watching: We hear truth",
+  "prompt_variants": [
+    {
+      "variant_id": "57a_story_primary",
+      "variant_name": "Primary - COMPLETE DARKNESS - ONLY BREATHING 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Complete darkness as if power died, but we hear breathing - five distinct patterns - and slowly realize these are not human breaths but have ALWAYS been sheep breaths, we just couldn't hear it right before.",
+      "action": "BLACK SCREEN. Total darkness. Not even shapes. Like eyes closed or power dead. But sound continues. Breathing. Five sources. At first sounds human - familiar patterns we've heard all film. MagnÃºs heavy. GuÃ°rÃºn lighter. Children quick. Sigrid steady at 15/min. But as we listen in darkness, sound clarifies. These aren't human breaths. Never were. Sheep breathing. That particular nasal, wheezing quality. Been there all along. We just heard what we expected. In darkness, truth: wet wool smell. Lanolin. Animal warmth. Hooves on floor - but wait, has that sound always been there? Did we think it was boots? The 11/min synchronized breathing we thought was human submission - it's flock breathing. Natural sheep rhythm. They've been sheep entire film. We've been watching sheep in clothes pretending to be human. Or humans who were always sheep. Or both. In darkness, no way to tell. Just breathing. Animal breathing. Always was.",
+      "scene": "Complete black. No visual. Only sound revealing truth.",
+      "style": "Black screen, audio revelation (that's where the camera is), truth through darkness.",
+      "camera_position": "Black screen, audio revelation",
+      "dialogue": "None - silence except breathing",
+      "audio": {
+        "primary": [
+          "Five breathing patterns - sheep quality clear",
+          "hooves clicking",
+          "wool rustling"
+        ],
+        "ambient": [
+          "House 1/min death rattle",
+          "wind outside",
+          "wet wool smell-sound"
+        ],
+        "absent": [
+          "no human sounds at all"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "No human voices exist",
+    "triple_reality": "Physical: power dies | Psychological: perception ends | Mythological: hamr revealed"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

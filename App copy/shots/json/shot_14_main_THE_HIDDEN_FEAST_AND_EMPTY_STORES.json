@@ -1,0 +1,60 @@
+{
+  "shot_metadata": {
+    "id": "14",
+    "name": "THE_HIDDEN_FEAST_AND_EMPTY_STORES",
+    "title": "THE HIDDEN FEAST AND EMPTY STORES",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 13/min + 60bpm | KlettagjÃ¡ 2mm | Starvation...",
+    "stitch_from": "[STITCH from Shot 13: Raven departed, wing-print in frost]"
+  },
+  "progressive_state": "House 13/min + 60bpm | KlettagjÃ¡ 2mm | Starvation contrast | Camera frost 8% | Provider's shame | Watching: Family sees betrayal",
+  "prompt_variants": [
+    {
+      "variant_id": "14_story_primary",
+      "variant_name": "Primary - THE HIDDEN FEAST AND EMPTY STORES",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[MAGNÃšS] opening the storage room door, revealing catastrophic emptiness - bare shelves, empty barrels, naked hooks where meat once hung - then reaching into his personal chest to retrieve wrapped harÃ°fiskur (dried fish) he's been hiding, eating it in full view of empty stores while his family starves.",
+      "action": "MagnÃºs enters storage room, GuÃ°rÃºn following with hope. Camera reveals disaster: Twenty empty shelves with dust circles. Six barrels, all empty, one tipped showing mouse droppings but no mice (eaten). Empty hooks on beams where meat should hang, only rust stains. One sack of salt, nearly empty. Spider webs but no spiders (also eaten). Then MagnÃºs opens HIS chest - inside, wrapped in cloth: full piece of harÃ°fiskur, white with good fat, probably 3 days' food. He breaks off large piece, eats it standing among emptiness. GuÃ°rÃºn sees, her face cycling through betrayal, understanding, resignation. She counts the empty spaces - her lips moving \"einn, tveir, Ã¾rÃ­r...\" up to \"tuttugu og fjÃ³rir\" (twenty-four empty spaces). Behind them, JÃ³n appears in doorway, ribs visible through shirt, sees father eating, says nothing. MagnÃºs doesn't share, rewraps fish, hides it again. Looks at empty room, then to corner where fishing gear waits. The decision forming.",
+      "scene": "Storage room, 6:12 AM, cold grey light through cracks. Temperature -12Â°C, colder than main room. Shelves floor to ceiling, all empty. The contrast between general emptiness and MagnÃºs's hidden plenty. His fishing gear in corner: line, hooks, gaff, net, old rifle - all prepared, waiting. Through door, family visible - Lilja gnawing thumb, Sigrid's hand on belly (feeding two), JÃ³n fevered and skeletal.",
+      "style": "Wide shot showing vast emptiness, then close on hidden fish (that's where the camera is), documentary of hoarding during famine.",
+      "camera_position": "Wide shot showing vast emptiness, then close on hidden fish",
+      "dialogue": "(GuÃ°rÃºn, counting): \"...tuttugu og Ã¾rÃ­r... tuttugu og fjÃ³rir... allt tÃ³mt\" (Tone: listing disaster) (MagnÃºs, mouth full): \"Ã‰g verÃ° aÃ° reyna\" (I have to try) (Tone: justifying) (JÃ³n in doorway): Silence, just watching",
+      "audio": {
+        "primary": [
+          "HarÃ°fiskur crunching",
+          "empty barrels echoing",
+          "GuÃ°rÃºn counting empty spaces"
+        ],
+        "ambient": [
+          "House breathing 13/min",
+          "stomach growls from children",
+          "wind rattling empty shelves"
+        ],
+        "absent": [
+          "no sharing sounds",
+          "no female protest",
+          "no hope"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show complete emptiness clearly, contrast with hidden fish, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "GuÃ°rÃºn sees but says nothing",
+    "triple_reality": "Physical: hoarding while starving / Psychological: survival selfishness / Mythological: failed patriarch"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

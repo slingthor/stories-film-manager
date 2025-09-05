@@ -1,0 +1,60 @@
+{
+  "shot_metadata": {
+    "id": "22",
+    "name": "THE_IMPOSSIBLE_DRAG___AFLAUSN_REVISED",
+    "title": "THE IMPOSSIBLE DRAG - AFLAUSN REVISED",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 10/min + 50bpm | Departure struggle | Camera...",
+    "stitch_from": "[STITCH from Shot 21: Boat at spiral center, blood patterns revealed]"
+  },
+  "progressive_state": "House 10/min + 50bpm | Departure struggle | Camera frost 13% | Supernatural strength | Watching: Empty clothes at window",
+  "prompt_variants": [
+    {
+      "variant_id": "22_story_primary",
+      "variant_name": "Primary - THE IMPOSSIBLE DRAG - AFLAUSN REVISED",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[MAGNÃšS] planting his tremoring cane deep in snow for anchor, attempting to drag the 12-foot Ã¡rabÃ¡tur alone, when the trawler beam hits him directly - triggering aflausn (supernatural strength) that lets him drag the impossible load 20 feet in one pull, but blood immediately streams from his nose, freezing on his beard.",
+      "action": "MagnÃºs loops rope over shoulders, tries to pull. Boat frozen to ground, won't budge. His cane tremoring at 4Hz in his grip becomes impediment. Makes decision: drives cane deep into snow as anchor point, abandoning his authority symbol for labor. Grips rope with both hands now. Pulls. Nothing. Pulls harder. Boat rocks but stuck. Then - trawler searchlight sweeps across, hits him directly. In that yellow industrial light, something changes. Old Westfjords strength - aflausn, the impossible surge fishermen know. Legends of men lifting boats, dragging whales, but always with cost. He PULLS - boat breaks free, slides 20 feet in one supernatural motion, following blood spiral perfectly. But moment light passes, he collapses to knees. Blood pours from nose, freezing instantly into red icicles on beard. Tremor worsens to 5Hz. Looks at hands - older, more weathered, as if strength borrowed from future years. Cane still standing in snow behind him, already freezing in place, becoming permanent marker. Will never retrieve it.",
+      "scene": "Path from house, 6:30 AM, -25Â°C. Where cane planted, ice immediately forms around it, crystallizing up shaft. Boat leaves deep groove following blood spiral. Trawler light triggers transformation - in beam, MagnÃºs briefly appears younger, stronger, then older when it passes. The aflausn comes from industrial light, not traditional gods - corrupted miracle.",
+      "style": "Wide shot showing supernatural drag distance, then close on cost (that's where the camera is), documentary of corrupted mythology.",
+      "camera_position": "Wide shot showing supernatural drag distance, then close on cost",
+      "dialogue": "(MagnÃºs, planting cane): \"BÃ­ddu hÃ©r\" (Wait here) (During aflausn surge): Wordless roar of effort (After, seeing blood): \"HvaÃ° kostar Ã¾etta?\" (What does this cost?)",
+      "audio": {
+        "primary": [
+          "Cane planting in snow",
+          "boat breaking free",
+          "20-foot drag scrape",
+          "blood dripping and freezing"
+        ],
+        "ambient": [
+          "Trawler beam with electric hum during strength",
+          "wind stopping during surge",
+          "tremor worsening to 5Hz"
+        ],
+        "absent": [
+          "no divine music",
+          "corrupted miracle"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show supernatural surge clearly, blood cost visible, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "GuÃ°rÃºn closes door without words",
+    "triple_reality": "Physical: 200-pound boat / Psychological: desperate strength / Mythological: aflausn corrupted"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "shot_metadata": {
+    "id": "22b",
+    "name": "THE_SECOND_PULL___DIMINISHING_RETURNS",
+    "title": "THE SECOND PULL - DIMINISHING RETURNS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 10/min + 50bpm | Strength fading | Camera fr...",
+    "stitch_from": "[STITCH from Shot 22: First supernatural pull, blood on beard]"
+  },
+  "progressive_state": "House 10/min + 50bpm | Strength fading | Camera frost 13.5% | Cost accumulating | Watching: Cane standing alone",
+  "prompt_variants": [
+    {
+      "variant_id": "22b_story_primary",
+      "variant_name": "Primary - THE SECOND PULL - DIMINISHING RETURNS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[MAGNÃšS] attempting second pull, waiting for trawler beam to return, but when yellow light hits again the aflausn is weaker - only 10 feet this time - and the cost higher: blood from ears now, a tooth loosening in his mouth, his hair visibly greying in the beam.",
+      "action": "MagnÃºs wipes frozen blood from nose, positions for second pull. Counts trawler rotation: 18... 19... 20 seconds. Light coming. Grips rope, prepared. Beam hits - aflausn returns but diminished. Pulls with supernatural strength but boat only moves 10 feet. Cost immediate: blood from both ears, running down neck, freezing. Spits - blood and a molar, white against red snow. In trawler light, his hair literally greys, brown becoming silver in real-time. Hands shake worse - 5Hz constant now, can barely grip rope. Behind him, his abandoned cane has grown ice roots, 6 inches into ground, becoming permanent. Through window - empty. Family no longer watching, or cannot watch. Only empty clothes remain at glass, breath fogging from inside at 8/min. Realizes pattern: each pull costs more, gives less. Still 150 meters to fjord. At this rate, will be dead before water.",
+      "scene": "30 feet from house now, following blood spirals. Temperature -25Â°C, his body heat dropping. Where blood falls, steam rises then freezes. The cane behind like grave marker, ice roots spreading. Sun trying to rise but clouds building - storm coming. Trawler beam the only reliable light.",
+      "style": "Close on transformation in beam, showing real-time aging (that's where the camera is), documentary of payment due.",
+      "camera_position": "Close on transformation in beam, showing real-time aging",
+      "dialogue": "(Counting): \"ÃtjÃ¡n... nÃ­tjÃ¡n... tuttugu...\" (Spitting tooth): \"TÃ¶nn lÃ­ka?\" (Teeth too?) (To distant fjord): \"ÃžrjÃ¡r manneskjur... Ã©g er ein\" (Three men... I am one)",
+      "audio": {
+        "primary": [
+          "Second drag shorter",
+          "blood from ears",
+          "tooth hitting snow",
+          "hair greying audible as crystalline sound"
+        ],
+        "ambient": [
+          "Tremor 5Hz constant",
+          "cane creaking as ice roots spread",
+          "storm building"
+        ],
+        "absent": [
+          "no family witness",
+          "no divine intervention"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show aging in beam clearly, accumulating cost, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Window now empty",
+    "triple_reality": "Physical: bleeding and aging / Psychological: borrowed time / Mythological: gods demand payment"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

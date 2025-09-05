@@ -1,0 +1,57 @@
+{
+  "shot_metadata": {
+    "id": "7a",
+    "name": "THE_FEAST_ASSEMBLY",
+    "title": "THE FEAST ASSEMBLY",
+    "sequence_type": "prologue",
+    "duration_seconds": 8,
+    "narrative_function": "Abundance gathered | Tables set | Camera frost 0% ...",
+    "stitch_from": "[STITCH from Shot 6b: Sheep sorted, evening approaching]"
+  },
+  "progressive_state": "Abundance gathered | Tables set | Camera frost 0% | Paradise peak | Watching: The last plenty",
+  "prompt_variants": [
+    {
+      "variant_id": "7a_story_primary",
+      "variant_name": "Primary - THE FEAST ASSEMBLY",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Three long driftwood tables arranged in horseshoe shape in field, laden with whale meat, dried fish, berry juice in jugs, boiled eggs, bread, the tables bending slightly under weight, fifty people taking seats.",
+      "action": "Tables covered with white cloth - where did cloth come from? Food arranged in patterns. Whale meat in center, still steaming. Dried fish in pyramids. Purple juice in clay jugs, liquid glowing slightly in evening light. Eggs boiled, shells removed, golden yolks visible. Fresh bread - impossible, no one baked today. Tables bend in middle from weight. People approach from all directions. Still wearing work clothes stained with three colors. Children's mouths still black from juice. Take seats in specific order - families together but pattern emerges. From above, people arranged like spokes of wheel. MagnÃºs at head of center table. GuÃ°rÃºn to his right. Sigrid to his left - honor position. JÃ³n beside mother. Lilja on bench end. Everyone sits simultaneously. No signal given. All faces turn toward MagnÃºs. Waiting. Sun low on horizon but not moving. Stuck again.",
+      "scene": "Field near houses. Three tables in horseshoe. Evening light golden. Ocean visible in distance. Mountains surrounding.",
+      "style": "High angle showing table arrangement and people positioning (that's where the camera is), formal composition, symmetrical.",
+      "camera_position": "High angle showing table arrangement and people positioning",
+      "dialogue": "None",
+      "audio": {
+        "primary": [
+          "Benches scraping",
+          "cloth rustling",
+          "food steaming",
+          "people sitting simultaneously"
+        ],
+        "ambient": [
+          "Ocean distant",
+          "no wind",
+          "everyone breathing together"
+        ],
+        "absent": [
+          "conversation",
+          "nature sounds"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show horseshoe table shape, three-color stains on everyone, abundance bending tables, 1080p",
+      "video_references": []
+    }
+  ],
+  "others": {},
+  "notes": {
+    "sequence": "prologue",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

@@ -1,0 +1,868 @@
+Improvements to Implement in Production Bible v3.0
+Critical Additions Based on Script Insights
+1. Strategic Dialogue Additions (6 new lines)
+
+Guðrún gets 2 lines: One about the ritual, one before leaving
+Sigrid gets 1 line: Refusing the poison initially
+Children get whispered exchanges: During bone play
+Better poison timeline explanation: Clearer danger statement
+Cultural context for tilberi: One explanatory line
+
+2. Enhanced Industrial Presence
+
+Trawler horn under 8 additional scenes (not just 3)
+Industrial debris in seaweed gathering scenes
+Trawler net tangled in Magnús's lines
+Coal rope in ram's wool more prominent
+Trawler smoke visible in more shots
+
+3. Three-Layer Reality Anchor Scene
+
+NEW SHOT after Magnús eats shark showing all three layers simultaneously
+His hand with blood (physical) looking like hoof (psychological) forming cross (supernatural)
+Gives audience the framework to interpret everything else
+
+4. Expanded Counting/Mathematics Setup
+
+3 new moments showing Magnús's numerical confusion
+Rationing scene where he can't count portions
+Earlier family count where he gets confused
+Wall notches clearly wrong
+
+5. Doubling/Mirror Theme Enhancement
+
+Reflection shots added (water, ice, window)
+Shadow anomalies throughout
+Everything in pairs running out
+Family shadows that don't match bodies
+Mirror positioning in blocking
+
+6. Breathing Room in Revelation
+
+Each recognition beat gets 5 seconds processing time
+Total revelation sequence extended from 3 minutes to 4 minutes
+More distinct separation between discoveries
+
+7. Clearer Timeline/Pacing Markers
+
+Day markers for poison fermentation
+Time of day more clearly indicated
+Seasonal markers (September → November progression)
+
+8. Enhanced Prompt Engineering Section
+
+Specific negative prompts for each shot type
+Multiple prompt variations for critical shots
+Backup prompts for difficult generations
+Technical settings recommendations
+
+9. Expanded Cultural Authenticity
+
+Pronunciation guide for Icelandic terms
+Historical context notes
+Folklore explanation sidebar
+Period-accurate detail checklist
+
+10. Production Feasibility Additions
+
+Shot difficulty ratings (1-5 stars)
+Alternative simpler versions for complex shots
+Grouping of shots that can use same base generation
+Clear marking of "must nail" vs "acceptable variation" shots
+
+New Sections to Add
+A. Mirror/Doubling Motif Tracker
+Complete list of all reflection moments and their meaning
+B. Industrial Presence Tracker
+Ensuring trawler/modernity appears consistently
+C. Dialogue Placement Map
+Exact timing and context for all 16 lines of dialogue
+D. Three-Layer Reality Checkpoint
+Scene-by-scene tracking of which reality layers are present
+E. Emergency Simplification Guide
+If certain shots prove impossible, simpler alternatives
+
+Now I'll create the comprehensive v3.0 incorporating all these improvements, with deeper detail and better goal achievement.
+The Sheep in the Baðstofa - Production Bible v3.0
+Complete 12-Minute Icelandic Horror Film Production Guide
+VERSION 3.0 IMPROVEMENTS IMPLEMENTED
+
+Added 6 strategic dialogue lines for clarity without sacrificing visual storytelling
+Enhanced industrial presence throughout (trawler horn now in 11 scenes)
+Created explicit three-layer reality anchor scene
+Expanded counting/mathematics setup with 4 preparatory moments
+Integrated doubling/mirror theme with 12 new reflection moments
+Extended revelation sequence by 60 seconds for proper psychological processing
+Added pronunciation guide and cultural context
+Included shot difficulty ratings and simplification alternatives
+Created comprehensive motif tracking systems
+
+
+FOUNDATIONAL PRODUCTION PHILOSOPHY
+The Three-Layer Reality Principle (ABSOLUTE REQUIREMENT)
+Every single frame must support three simultaneous interpretations. This is not ambiguity through vagueness but precision through multiplicity:
+Layer 1: PHYSICAL REALITY
+
+Hákarl neurotoxins (trimethylamine oxide) causing hallucinations
+Starvation ketosis producing altered consciousness
+Hypothermia confusion (body temperature below 35°C)
+Ergot contamination from damp stored grain
+Carbon monoxide poisoning from poor ventilation
+Seal meat parasites affecting neurological function
+
+Layer 2: PSYCHOLOGICAL REALITY
+
+Dissociative fugue state from sustained trauma
+Folie à famille (shared psychotic disorder)
+Guilt manifestation as physical transformation
+Collective hysteria from isolation (cabin fever)
+Morgundrengur - specific Icelandic morning confusion
+Paternal breakdown from provider role failure
+
+Layer 3: SUPERNATURAL REALITY
+
+Tilberi invocation succeeding but wrong
+Forystufé (leader sheep) claiming the family as flock
+Huldufolk intervention (hidden people justice)
+Ancient land spirits responding to desperation
+Punishment for unconscious cannibalism
+Transformation as escape from human suffering
+
+Testing Principle: Read each shot three ways. All must work.
+The Action Blindspot Solution (Technical Reality)
+AI image generation cannot convincingly create:
+
+Complex physical interactions between multiple subjects
+Transformation moments or morphing effects
+Precise emotional expressions during movement
+Consistent facial features across extreme angles
+Multiple subjects with distinct actions simultaneously
+Violence or impact moments
+
+Our Solution Framework:
+INSTEAD OFWE SHOWThe strike happeningLamp swinging after impactTransformation occurringHuman face, then sheep faceComplex interactionBefore and after positionsEmotional breakdownPhysical manifestation (shaking hands)Death momentDiscovery of bodies/absenceRitual succeedingEnvironmental response
+Scale as Narrative Architecture
+The camera movement tells its own story of abandonment:
+DistanceMeaningEmotion5000 feet (Cosmic)Divine indifferenceAwe/Terror100 feet (Geographic)Social isolationLoneliness12 feet (Domestic)Family compressionClaustrophobia3 feet (Personal)Internal experienceIntimacy1 inch (Microscopic)Reality breakdownDisorientation5000 feet (Return)Final abandonmentCosmic horror
+The Doubling/Mirror Principle (NEW EMPHASIS)
+Everything exists in pairs that don't quite match:
+
+5 family members / 5 sheep (but counting 6)
+2 women perform rituals / 2 succeed differently
+2 oars → 1 breaks (incomplete pairs)
+Every V-notch has a twin
+Shadows that don't match their sources
+Reflections that show wrong images
+
+
+COMPREHENSIVE ENVIRONMENT ANCHORS
+Primary Location Anchors
+BAÐSTOFA INTERIOR-STANDARD (Used in 45 shots)
+"Dark interior of 12x16 foot Icelandic turf house, single whale oil lamp on iron chain creating golden pool of light with deep shadows beyond, blackened driftwood ceiling beams with sheep wool insulation visible between rafters, frost crystallizing on inner turf walls in fractal patterns catching lamplight, grey-pink fermented shark meat hanging from center beam on salt-stained hemp rope, earth floor packed hard as stone"
+BAÐSTOFA INTERIOR-POST-MEAL (Used in 12 shots)
+"Dark interior of 12x16 foot Icelandic turf house, single whale oil lamp on iron chain creating golden pool of light with deep shadows beyond, blackened driftwood ceiling beams with sheep wool insulation visible between rafters, frost crystallizing on inner turf walls in fractal patterns catching lamplight, empty salt-stained hemp rope hanging from center beam, wooden table with food remnants"
+BAÐSTOFA DAWN-REVELATION (Used in 8 shots)
+"Dim grey dawn light filtering through smoke hole into 12x16 foot turf house interior, no lamp lit, blue-grey shadows, frost on turf walls gleaming with moisture beginning to melt, wooden sleeping platforms visible with white bundled shapes, condensation dripping from ceiling beams"
+Exterior Location Anchors
+BEACH EXTERIOR-STORM (Used in 9 shots)
+"Black volcanic sand beach at Látrabjarg cliffs Westfjords Iceland, heavy snowfall with 40mph horizontal wind, grey-green rough North Atlantic sea with white foam and grinding ice chunks against shore, visibility under 50 feet, British steam trawler with black smoke visible on horizon"
+NIGHT BLIZZARD-ENCOUNTER (Used in 8 shots)
+"Night blizzard in complete whiteout conditions, visibility exactly 3 feet, snow particles frozen mid-air like static, all surfaces accumulating white faster than falling, no distinction between ground and sky, absolute directional disorientation"
+AERIAL COSMIC-ABANDONMENT (Used in 3 shots)
+"5000-foot altitude above Westfjords at winter dawn, dying aurora borealis green ribbons dissipating like smoke, grey cloud layer below at 2000 feet, frozen fjord visible through cloud gaps showing 60% ice coverage with black water channels"
+UNDERWATER-EMPTY (Used in 2 shots)
+"Underwater beneath Arctic North Atlantic surface, grey-green murk with visibility 10 feet, ice crystals drifting like underwater snow, shafts of dim cathode light from above, no life visible"
+
+COMPLETE CHARACTER ANCHORS WITH STATES
+Magnús - The Father
+MAGNÚS-STANDARD (Shots 1-30)
+"55-year-old Icelandic man with thick grey unkempt beard reaching chest with ice crystals forming in it, deep-set blue eyes with pronounced crow's feet and broken blood vessels in sclera, weathered face with windburn and salt-scarred skin, wearing brown homespun vadmál wool sweater with visible darning in three places"
+MAGNÚS-DETERIORATING (Shots 31-60)
+"55-year-old Icelandic man with thick grey beard now matted with ice and food, bloodshot eyes with pupils dilated from toxins, gaunt face showing skull contours beneath skin, brown wool sweater hanging loose on diminished frame, hands trembling constantly"
+MAGNÚS-BROKEN (Shots 61-82)
+"55-year-old Icelandic man with wild grey beard, eyes unfocused and darting, face twitching with neurological damage, brown wool sweater stained with vomit and shark oil, movements uncoordinated and stumbling"
+Guðrún - The Mother
+GUÐRÚN-STANDARD (Shots 1-40)
+"35-year-old Icelandic woman wearing pristine white curved faldbúningur headdress with black velvet band and silver filigree brooch, pale face with sharp cheekbones and vertical worry lines between brows, brown vadmál dress with leather work apron, hands chapped red with white knuckles from cold"
+GUÐRÚN-RITUAL (Shots 14-16, 34-41)
+"35-year-old Icelandic woman with headdress slightly askew, pupils dilated with ritual concentration, blood under fingernails from sacrifice, brown dress marked with wool fibers and cartilage residue, breathing synchronized with invisible rhythm"
+Sigrid - The Daughter
+SIGRID-STANDARD (Most shots)
+"16-year-old girl with wheat-blonde braids reaching waist tied with leather cords, grey eyes that rarely blink creating uncanny intensity, angular face showing emerging womanhood, grey-brown patched dress too small showing wrists and ankles"
+SIGRID-FEARFUL (Shots near Magnús)
+"16-year-old girl with blonde braids pulled tight against head, body language contracted into corners, grey-brown dress clutched closed, positioning always maintaining furniture between herself and others"
+SIGRID-PRACTITIONER (Ritual shots)
+"16-year-old girl with braids loosened, grey eyes wide with concentration, dress sleeves rolled up showing thin white arms, fingers stained with blood and wool, lips moving in unfamiliar syllables"
+The Children
+JÓN-STANDARD
+"8-year-old boy with sandy hair perpetually falling over left eye, pattern of freckles across nose like constellation, wearing oversized brown sweater with sleeves rolled up three times showing tiny wrists, patched wool trousers too short, persistent wet cough"
+LILJA-STANDARD
+"5-year-old girl with tangled dark blonde hair resisting all attempts at braiding, enormous blue eyes too large for small face creating doll-like appearance, grey wool dress dragging ground leaving trails, constantly clutching cloth doll with brass button eyes and yarn hair"
+
+DETAILED SHOT LIST - 85 SHOTS TOTAL
+Runtime: 12 minutes (720 seconds)
+Shot Difficulty Ratings: ⭐ (Easy) to ⭐⭐⭐⭐⭐ (Nearly Impossible)
+
+PROLOGUE: COSMIC ABANDONMENT (0:00-0:55)
+SHOT_0 - VEO - AURORA DEATH ⭐⭐⭐
+Runtime: 12 seconds
+Primary Prompt: "Aerial view from 5000 feet above frozen Westfjords Iceland at dawn, dying green aurora borealis ribbons dissolving into grey sky like watercolor in rain, camera descending through aurora remnants, through grey cloud layer at 2000 feet, emerging above frozen fjord with 60% white ice and 40% black water channels, tiny black speck of turf house barely visible against white landscape"
+Backup Prompt: "High altitude aerial over frozen fjord at dawn, green northern lights fading in grey sky, clouds below, ice and water visible through gaps"
+Technical Notes:
+
+If aurora proves difficult, accept green glow in clouds
+Descent can be implied through scale change
+Critical: Sense of abandonment by natural beauty
+
+Sound Design: High-altitude wind only, no music
+Industrial Presence: None yet - pure nature
+Three Layers: Cosmic indifference (all layers)
+SHOT_1 - TEXT CARD ⭐
+Runtime: 3 seconds
+Prompt: "Pure black screen with centered white Helvetica text: 'They will eat poison or starve. There is no third choice.'"
+Purpose: State the impossible decision
+Mirror Motif: Two choices that are really one
+SHOT_2 - RUNWAY - SHARK MEAT CLOSE-UP ⭐⭐⭐⭐
+Runtime: 6 seconds
+Primary Prompt: "Extreme close-up of grey-pink fermented shark meat chunk hanging from hemp rope against black background, crystalline ammonia deposits visible on surface like salt crystals, clear poisonous liquid dripping into wooden bowl below, single whale oil lamp light from left creating harsh shadows on meat texture, shallow depth of field with bokeh in background"
+Backup Prompt: "Close-up of grey meat with white crystals hanging on rope, liquid dripping, dark background, dramatic side lighting"
+Technical Notes: Focus on drip forming and falling
+Text Overlay: "Day 13 of 90 required - Eating now means madness"
+Three Layers: Physical (poison), Psychological (temptation), Supernatural (sacrifice)
+SHOT_2b - RUNWAY - EMPTY CROSS RACK ⭐⭐
+Runtime: 4 seconds
+Prompt: "Close-up of empty wooden fish drying rack constructed in cross pattern against dark turf wall, no fish present, spider webs between slats with dust, single lamp light beam from left catching dust motes floating, shallow depth making background mysterious"
+Purpose: Establish cross motif through absence
+Mirror Motif: Empty cross / Full cross (ritual)
+SHOT_2c - RUNWAY - COUNTING FAILURE ⭐⭐
+Runtime: 4 seconds
+Prompt: "Extreme close-up of weathered male finger touching carved V-shaped notches in wooden wall, groups of five marks with some crossed out wrongly, finger losing count and starting over, trembling slightly, lamp light raking across wood grain"
+Simplified Alternative: "Close-up of hand counting marks on wall"
+Dialogue: Whispered "Fjörutíu... fjörutíu og einn... nei..."
+Purpose: Establish counting problems early
+SHOT_3 - RUNWAY - FAMILY UNDER POISON ⭐⭐⭐
+Runtime: 7 seconds
+Prompt: "Low angle looking up at five faces in dark turf house interior - older bearded man, woman with white headdress, teenage girl with braids, young boy, small girl with doll, all gazing upward at something above frame with hunger and revulsion mixed in expressions, single whale oil lamp from below creating Rembrandt lighting, frost visible on turf walls behind faces"
+Simplified Alternative: "Five people looking up with hunger in dark room, dramatic bottom lighting"
+Purpose: Establish family unit under threat
+Sound: Stomach growling at 5 seconds, distant trawler horn
+SHOT_4 - RUNWAY - LULLABY PROTECTION ⭐⭐⭐
+Runtime: 9 seconds
+Prompt: "Medium shot of teenage girl with wheat-blonde braids sitting on wooden platform beside small girl with tangled hair clutching cloth doll with brass button eyes, older girl's mouth moving in song, younger girl's eyes slowly closing, grey-pink meat visible hanging in background out of focus, lamp light from right creating shadow play on turf wall"
+Dialogue: "Sofðu unga ástin mín, úti regnið grætur"
+Purpose: Establish Sigrid as protector
+Mirror Motif: Sigrid/mother role reversal
+SHOT_5 - VEO - FJORD WIDE WITH TRAWLER ⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Aerial view 2000 feet above frozen Westfjords fjord, 60% white ice with black water channels cutting through, British steam trawler with black smoke stack visible in distance, tiny snow-covered turf house below almost invisible against white landscape, heavy snowfall reducing visibility to 200 feet"
+Technical Focus: Slow push toward house
+Industrial Presence: Trawler introduced
+Sound: Faint trawler horn at 70-90Hz building
+SHOT_6 - VEO - HOUSE APPROACH ⭐⭐
+Runtime: 8 seconds
+Prompt: "Aerial descending toward snow-covered Icelandic turf house built into hillside, thin grey smoke from roof hole barely visible, overlapping sheep tracks in snow circling building like ritual markings, heavy snowfall, dark rectangle of wooden door visible"
+Purpose: Transition from cosmic to domestic
+Mirror Motif: Sheep tracks preview transformation
+SHOT_6b - NEW - REFLECTION IN ICE ⭐⭐⭐
+Runtime: 3 seconds
+Prompt: "Close-up of frozen window from inside, Magnús's distorted face reflected in ice crystals, reflection seems to have too many features, breath fogging then clearing"
+Purpose: First mirror distortion
+Three Layers: All present in distortion
+
+ACT I: MORNING DESPERATION (0:55-3:45)
+SHOT_7 - RUNWAY - SIGRID'S WITNESS ⭐⭐
+Runtime: 6 seconds
+Prompt: "Extreme close-up of teenage girl's grey eyes looking up then slowly tracking left to right following off-screen movement, wheat-blonde braid visible at frame edge, frost-covered turf wall blurred in background creating bokeh, lamp light reflecting as two points in pupils"
+Purpose: Establish Sigrid sees everything
+Mirror Motif: Two lights in eyes (but one lamp)
+SHOT_7b - RUNWAY - WINDOW CROSS ⭐⭐
+Runtime: 3 seconds
+Prompt: "Close-up of frosted window with natural cross pattern formed by ice crystals, dim grey light barely penetrating, child's breath fog appearing on glass from below frame then dissipating"
+Industrial Presence: Faint trawler horn through glass
+Purpose: Cross motif in nature itself
+SHOT_8 - VEO - FAMILY HIERARCHY AT TABLE ⭐⭐⭐⭐
+Runtime: 11 seconds
+Prompt: "Wide shot of five people around rough wooden table in dark turf house - 55-year-old bearded man at head position, 35-year-old woman with white headdress to his right, teenage girl with braids positioned furthest from man, 8-year-old boy and 5-year-old girl between them, all looking up at grey-pink meat hanging from center beam, single oil lamp on table creating dramatic chiaroscuro shadows"
+Simplified Alternative: "Five people at wooden table in dark room looking up, dramatic shadows"
+Purpose: Establish power dynamics
+Sound: House settling, distant trawler horn continuing
+SHOT_8b - NEW - MAGNÚS COUNTING FAMILY ⭐⭐⭐
+Runtime: 5 seconds
+Prompt: "Close-up of bearded man's finger pointing at each family member at table, counting, finger hesitating between counts, starting over, confusion in eyes visible"
+Dialogue: "Einn, tveir... þrír... fjórir... fimm... já, fimm"
+Purpose: Establish counting confusion with people
+Mirror Motif: Will echo final count
+SHOT_9 - RUNWAY - SECRET BREAD ⭐⭐⭐
+Runtime: 6 seconds
+Prompt: "View through horizontal gaps between wooden bed platform slats, focus on woman's hands in white sleeves secretly placing small bread piece in brown apron pocket, white headdress visible at top of frame, furtive quick movement"
+Purpose: Establish secret food hoarding
+Three Layers: Physical (hunger), Psychological (betrayal), Supernatural (breaking trust)
+SHOT_9b - RUNWAY - CROSSED FIREWOOD ⭐
+Runtime: 3 seconds
+Prompt: "Close-up of two pieces of birch firewood crossed in X pattern on stone hearth, dying embers beneath glowing faint orange, frost on stones around hearth, thin smoke wisping up"
+Purpose: Cross motif, dying warmth
+Mirror Motif: Two pieces of wood (two deaths coming)
+SHOT_10 - RUNWAY - TRACKING MOTHER ⭐⭐
+Runtime: 5 seconds
+Prompt: "Extreme close-up of teenage girl's grey eyes moving left to right following someone off-screen, slight squint of recognition, wheat-blonde braid swaying slightly with head movement, lamp light creating bright catchlight in eyes"
+Purpose: Sigrid's awareness of secrets
+SHOT_10b - RUNWAY - BLACK THREAD REPAIR ⭐⭐⭐
+Runtime: 6 seconds
+Prompt: "Close-up of teenage girl's pale hands sewing torn grey-brown dress with black wool thread through white fabric, creating dark line through light material, needle catching lamp light, fabric stretched in wooden embroidery hoop"
+Purpose: Corruption motif - dark through light
+Mirror Motif: Repair that makes things worse
+SHOT_11 - RUNWAY - MAGNÚS AT WALL ⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Medium shot of 55-year-old man with thick grey beard standing at wooden wall, weathered finger touching carved V-shaped notches, lips moving as counting, frustration building in expression, losing count and starting over, brown wool sweater with visible mending, lamp light from left creating deep shadows"
+Dialogue: "September... October... November... still missing. My best ram."
+Purpose: Establish ram absence, counting difficulty
+Industrial Presence: Trawler horn sounds as he says "missing"
+SHOT_11b - RUNWAY - SHADOW PROPHECY ⭐⭐⭐⭐
+Runtime: 5 seconds
+Prompt: "Close-up of turf wall with children's hand shadows in oil lamp light, small fingers creating sheep shape, then larger hand shadow creating wolf shape consuming sheep shadow, shadows sharp and dramatic on textured wall"
+Simplified Alternative: "Children making shadow puppets on wall"
+Purpose: Children unconsciously prophesying
+SHOT_11c - NEW - RIB BONE CROSS ⭐⭐⭐
+Runtime: 6 seconds
+Prompt: "Close-up of floor with 8-year-old boy's and 5-year-old girl's hands arranging white rib bones in cross pattern on packed earth, mimicking adult behavior innocently, lamp light making bones glow white against dark floor"
+Dialogue (whispered between children):
+JÓN: "Like this?"
+LILJA: "No, crossed like Mamma does"
+Purpose: Innocent mimicry of ritual
+Three Layers: All present in children's play
+SHOT_12 - RUNWAY - JÓN'S SICKNESS ⭐⭐⭐
+Runtime: 5 seconds
+Prompt: "View through grey wool blanket gap showing 8-year-old boy's face partially visible, violent coughing into hands, sandy hair matted with sweat, oversized brown sweater collar too large for thin neck, blood visible on palm"
+Purpose: Establish spreading sickness
+Mirror Motif: Blood on hands (innocence/guilt)
+SHOT_12b - RUNWAY - MAGNÚS'S HYPOCRISY ⭐⭐⭐
+Runtime: 6 seconds
+Prompt: "Medium shot of 55-year-old bearded man with back partially turned, hand quickly bringing dried fish from pocket to mouth, chewing furtively while looking over shoulder toward family area, guilt and defiance in expression"
+Purpose: Establish his hypocrisy before accusations
+Three Layers: Physical (hunger), Psychological (guilt), Supernatural (betrayal of role)
+SHOT_12c - NEW - WRONG SHADOWS ⭐⭐⭐⭐
+Runtime: 4 seconds
+Prompt: "Wide shot of family at table, but shadows on wall show six figures instead of five, extra shadow smaller than others, no source for sixth shadow visible"
+Simplified Alternative: "Family at table with strange shadows on wall"
+Purpose: Reality beginning to break
+Mirror Motif: 5 people, 6 shadows
+SHOT_13 - VEO - SIGRID'S SACRIFICE ⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Medium two-shot of teenage girl with braids breaking small bread piece in half, giving larger piece to 5-year-old girl with tangled hair clutching cloth doll, teenage girl positioned between child and rest of room as shield, protective body language, both in worn grey dresses"
+Dialogue:
+SIGRID: "Eat slowly. Make it last."
+LILJA: "What about you?"
+SIGRID: "I'm not hungry." (First lie)
+Purpose: Establish Sigrid as true caregiver
+SHOT_13b - RUNWAY - DOLL BURIAL ⭐⭐⭐
+Runtime: 6 seconds
+Prompt: "Close-up of 5-year-old girl's small hands carefully placing cloth doll with brass button eyes into depression in turf wall, patting loose earth over it like grave soil, child's face partially visible showing serious concentration"
+Dialogue (whispered): "Sleep now. Sleep until spring comes back."
+Purpose: Death play, foreshadow burial/transformation
+Mirror Motif: Burial/transformation parallel
+SHOT_13c - NEW - FAILED RITUAL ATTEMPT ⭐⭐⭐⭐
+Runtime: 7 seconds
+Prompt: "Medium shot of 35-year-old woman with white headdress kneeling at wooden table, cross pattern of white cartilage pieces and grey wool before her, lips moving in silent prayer, hands trembling over arrangement, waiting, nothing happening, shoulders slumping in defeat"
+Dialogue:
+GUÐRÚN (whispered): "The old women said it brings a provider. Why won't you answer?"
+Purpose: Show ritual attempted multiple times
+Three Layers: All present in failed magic
+SHOT_14 - RUNWAY - RITUAL CONSTRUCTION ⭐⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Overhead shot of weathered woman's hands arranging white shark cartilage ribs in cross pattern with grey sheep wool wound between them on dark wooden table, drops of red blood on wool fibers spreading like veins, bone needle placed at center, hands careful and reverent with ritual precision"
+Purpose: Sacred geometry of desperate magic
+Industrial Presence: Trawler horn interrupts, hands pause
+SHOT_14b - RUNWAY - CARTILAGE HARVEST ⭐⭐⭐
+Runtime: 4 seconds
+Prompt: "Close-up of woman's hand with knife cutting pale cartilage from hanging grey-pink shark meat, careful not to damage structure, fermented surface crystalline with poison, knife blade reflecting lamp light"
+Purpose: Ritual materials from poison source
+SHOT_14c - RUNWAY - BLOOD ADDITION ⭐⭐
+Runtime: 4 seconds
+Prompt: "Extreme close-up of finger being pricked with bone needle, large drop of bright red blood falling onto grey wool in cross pattern, blood spreading through wool fibers creating branching red veins"
+Purpose: Blood sacrifice element
+Mirror Motif: Blood patterns mirror fjord channels
+SHOT_15 - RUNWAY - SIGRID MEMORIZING ⭐⭐⭐
+Runtime: 6 seconds
+Prompt: "Close-up of teenage girl's face looking down at something below frame, grey eyes moving as if reading, lips moving silently memorizing words, wheat-blonde braids framing face, absolute concentration, understanding dawning"
+Dialogue (whispered): "Fyrir þá sem koma úr myrkri..."
+Purpose: Sigrid learning the ritual
+SHOT_16 - VEO - EMERGENCY CONCEALMENT ⭐⭐⭐⭐
+Runtime: 8 seconds
+Prompt: "Wide shot of two women quickly covering wooden table with cloth as door opens with violent wind and snow, 55-year-old bearded man entering covered in ice, teenage girl with braids immediately retreating to far corner pulling grey-brown dress tighter, defensive body language, fear visible"
+Dialogue:
+GUÐRÚN: "He must not see. Not yet."
+Purpose: Secret women's knowledge, Sigrid's fear
+Industrial Presence: Trawler horn through open door
+
+BOAT SEQUENCE: INDUSTRIAL CONFRONTATION (3:45-5:15)
+SHOT_17 - VEO - MAGNÚS'S FURY ⭐⭐⭐
+Runtime: 6 seconds
+Prompt: "Medium shot of 55-year-old bearded man in doorway of dark turf house, fists clenched at sides, looking between family huddled together and empty table, jaw clenched with rage, snow blowing in behind him, brown wool sweater covered in ice crystals"
+Purpose: Rage building from failure
+Sound: Trawler horn prominent now
+SHOT_18 - VEO - DRAGGING DEFEAT ⭐⭐⭐⭐
+Runtime: 12 seconds
+Prompt: "Wide shot of 55-year-old bearded man dragging small wooden boat across black volcanic sand beach in heavy snowfall, creating deep furrows in sand, boat too heavy for one man showing physical struggle, Ægishjálmur helm of awe symbol with visible crack painted on prow, British steam trawler visible on horizon with black smoke"
+Simplified Alternative: "Man dragging boat across black sand in snowstorm"
+Purpose: Individual versus industrial age
+Mirror Motif: One man / massive trawler
+SHOT_18b - NEW - TRAWLER NET IN LINES ⭐⭐⭐
+Runtime: 4 seconds
+Prompt: "Close-up of Magnús's hands pulling up fishing lines, piece of industrial trawler net tangled in his traditional rope, machine-made mesh vs hand-tied knots"
+Purpose: Direct evidence of industrial destruction
+Industrial Presence: Physical contamination
+SHOT_19 - VEO - WITNESSED INDIFFERENCE ⭐⭐⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Split composition - Left side: British steam trawler wheelhouse with warm yellow electric light inside, silhouetted figure visible watching. Right side: small wooden boat with lone bearded man rowing desperately in rough grey seas, snow horizontal in wind"
+Simplified Alternative: "Trawler with lit wheelhouse, small boat struggling in storm"
+Purpose: Modernity's indifference to tradition
+Mirror Motif: Warm/cold, large/small, electric/human
+SHOT_19b - VEO - LINES SEVERED ⭐⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Wide shot of bearded man in small wooden boat frantically pulling fishing lines as steam trawler bears down, trawler's black hull crushing through his lines, ropes snapping in sequence, man screaming unheard over engine noise, snow coating everything white"
+Purpose: Direct destruction of livelihood
+Sound: Ropes snapping, engines drowning screams
+SHOT_19c - NEW - UNDERWATER EMPTINESS ⭐⭐⭐
+Runtime: 6 seconds
+Prompt: "Underwater shot in grey-green murk beneath ice, severed fishing net drifting empty in current, no fish visible anywhere, only empty water and drifting ice particles, industrial oil slick on surface above creating rainbow sheen, muffled engine sound"
+Purpose: Audience sees truth - nothing there
+Three Layers: Physical (empty sea), Psychological (futile effort), Supernatural (abandoned waters)
+SHOT_20 - VEO - RIFLE RAISED ⭐⭐⭐
+Runtime: 8 seconds
+Prompt: "Medium shot of bearded man standing unsteadily in rocking wooden boat, rifle raised toward grey sky not aimed at trawler, snow and ice coating rifle barrel, man's face showing rage and desperation, rough seas rocking boat dangerously"
+Purpose: Futile violence against universe
+SHOT_21 - RUNWAY - MUZZLE FLASH ⭐⭐
+Runtime: 2 seconds
+Prompt: "Extreme close-up of rifle muzzle with bright orange muzzle flash against grey blizzard sky, smoke dispersing instantly in wind, ice crystals on barrel melting from heat"
+Purpose: Violence achieving nothing
+SHOT_22 - RUNWAY - CALLING OLD GODS ⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Low angle medium shot of bearded man in boat with both arms raised to grey sky, mouth open screaming at clouds, coat and hair whipping in wind, biblical prophet positioning, snow coating him like statue"
+Dialogue: "You take everything! EVERYTHING! Take me instead! TAKE ME!"
+Purpose: Appealing to abandoned gods
+Mirror Motif: Arms raised like cross
+SHOT_23 - VEO - BROKEN ROWING ⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Wide overhead shot of small wooden boat with lone man rowing with single oar, boat spinning in circles from unbalanced rowing, other oar floating away broken, figure tiny against vast grey sea"
+Purpose: Broken tools, broken system
+Mirror Motif: Two oars become one (incompleteness)
+SHOT_24 - VEO - SEAL BUTCHERING ⭐⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Medium shot of bearded man in boat leaning over side with knife, cutting grey seal carcass floating in water already torn by something else, carving deliberate V-shaped notch into flipper bone, blood spreading in water, industrial debris floating nearby"
+Purpose: Marking the kill, taking scraps
+Industrial Presence: Plastic debris among ice
+SHOT_25 - RUNWAY - NÍÐSTÖNG CURSE ⭐⭐⭐
+Runtime: 5 seconds
+Prompt: "Close-up of wooden pole stuck in black sand near turf house, grey seal skull placed on top facing ocean toward departed trawler, empty eye sockets, snow accumulating on skull, traditional curse pole positioning"
+Purpose: Ancient curse against modern world
+Sound: Wind through skull holes, trawler horn mocking
+SHOT_31b - NEW - RAM COLLAR ⭐⭐
+Runtime: 4 seconds
+Prompt: "Close-up of empty leather collar with small brass bell hanging on wooden peg inside turf house, dust motes floating past in lamp light, collar worn smooth from use, bell moving slightly from vibration without sound"
+Purpose: Visual proof of missing ram
+Mirror Motif: Present absence
+
+VIOLENCE SEQUENCE: DOMESTIC EXPLOSION (5:15-6:45)
+SHOT_26 - RUNWAY - PATHETIC CATCH ⭐⭐⭐
+Runtime: 6 seconds
+Prompt: "Overhead close-up of wooden table surface with grey seal flipper with webbed digits and carved V-shaped notch in bone, two tiny fish no longer than fingers, pool of dark blood spreading into wood grain following cracks, lamp light from right creating harsh shadows"
+Purpose: Failure made tangible
+Mirror Motif: Two fish (not enough for five)
+SHOT_27 - VEO - COLLECTIVE JUDGMENT ⭐⭐⭐⭐
+Runtime: 11 seconds
+Prompt: "Wide shot of five people around wooden table staring down at seal flipper and two small fish, positions maintained - bearded man at head, woman with headdress to right, teenage girl furthest away, boy and small girl between, all silent, breathing visible in cold, lamp shadows dramatic on faces"
+Purpose: Shared recognition of doom
+Sound: Breathing, house creaking, trawler horn continues
+SHOT_27b - NEW - RATIONING FAILURE ⭐⭐⭐
+Runtime: 5 seconds
+Prompt: "Close-up of Magnús's hands trying to divide two small fish into five portions, moving pieces around, unable to make it work, hands beginning to shake"
+Dialogue: "Five... no, two... five into two... it doesn't..."
+Purpose: Mathematical breakdown beginning
+Mirror Motif: Cannot divide two into five
+SHOT_28 - RUNWAY - DISCOVERY ⭐⭐⭐
+Runtime: 6 seconds
+Prompt: "Extreme close-up of bearded man's blue eyes looking down, pupils dilating as focusing on small bread crumb on table, understanding dawning, jaw muscles clenching, visible pulse in temple accelerating"
+Purpose: Moment of realization
+Dialogue: "You hide food from me?"
+SHOT_28b - RUNWAY - ACCUSATION ⭐⭐⭐
+Runtime: 6 seconds
+Prompt: "Medium shot of bearded man's finger pointing at woman with white headdress, finger trembling with rage, spittle visible on beard, woman not meeting his eyes looking down submissively"
+Dialogue: "You sit here doing NOTHING! Nothing while we starve!"
+Purpose: Blame directed outward
+SHOT_29 - VEO - LAMP VIOLENCE ⭐⭐
+Runtime: 2 seconds
+Prompt: "Close-up of whale oil lamp swinging violently on iron chain, oil sloshing and spilling, shadows dancing chaotically across turf walls and ceiling like demons, motion blur from speed"
+Purpose: Violence through aftermath
+Sound: Impact sound, chain creaking violently
+SHOT_30 - RUNWAY - PROTECTION INSTINCT ⭐⭐⭐
+Runtime: 2 seconds
+Prompt: "Medium shot of teenage girl with braids pulling 8-year-old boy and 5-year-old girl against turf wall, arms wrapped around them protectively, bodies pressed into corner, terror in all three faces"
+Purpose: Sigrid as shield
+SHOT_31 - RUNWAY - COMPLEX TOUCH ⭐⭐⭐⭐⭐
+Runtime: 12 seconds
+Prompt: "Close-up of weathered man's hand reaching toward sleeping 5-year-old girl's head, pausing, trembling, then gently pulling wool blanket to her chin with unexpected tenderness, lingering for three seconds with love visible, then hand moving toward teenage girl's sleeping area, hovering with different intent, pulling back into fist"
+Simplified Alternative: "Man's hand moving from tender to threatening gesture"
+Purpose: Capacity for love choosing violence
+Three Layers: All present in hand's journey
+SHOT_31c - NEW - THREE-LAYER ANCHOR ⭐⭐⭐⭐
+Runtime: 5 seconds
+Prompt: "Close-up of Magnús's trembling hand after eating shark - blood under fingernails (PHYSICAL), in lamp shadow hand briefly appears as hoof shape (PSYCHOLOGICAL), blood pattern under nails forms perfect cross (SUPERNATURAL)"
+Purpose: Teaching audience to read three layers
+Note: This is THE KEY SHOT for interpretation
+SHOT_32 - RUNWAY - SENDING TO DEATH ⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Medium shot of woman with white headdress picking up whale oil lamp from table, oil level visibly low showing bottom, turning toward door, not looking at anyone, resignation in posture, children watching from corner"
+Dialogue:
+MAGNÚS: "Find seaweed. Don't return empty."
+GUÐRÚN: "In this storm, I may not return at all."
+MAGNÚS: "Then don't."
+Purpose: Death sentence disguised as errand
+SHOT_33 - RUNWAY - WITNESS ⭐⭐⭐
+Runtime: 5 seconds
+Prompt: "Close-up of teenage girl's face at frosted window with cross pattern in ice, breath fogging glass, grey eyes tracking something outside, understanding and fear in expression"
+Purpose: Sigrid sees everything
+Mirror Motif: Cross in ice reflecting ritual cross
+
+NIGHT JOURNEY: THRESHOLD CROSSING (6:45-8:15)
+SHOT_34 - VEO - LIGHT IN VOID ⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Wide shot of single whale oil lamp creating small golden sphere of light moving through absolute darkness of blizzard, snow visible only in lamp's three-foot radius, footprints filling immediately with snow behind, human figure just silhouette"
+Purpose: Human light versus cosmic dark
+Sound: Low humming begins, no source
+SHOT_34b - NEW - PHYSICAL LAYER ⭐⭐
+Runtime: 4 seconds
+Prompt: "Extreme close-up of empty wooden bowl on table with fingernail scratch marks inside from desperate scraping for food, lamp light raking across scratches creating deep shadows"
+Purpose: Physical reality - starvation
+SHOT_34c - NEW - PSYCHOLOGICAL LAYER ⭐⭐⭐
+Runtime: 4 seconds
+Prompt: "Close-up of teenage girl's face frozen in listening pose, confusion in grey eyes, head tilted hearing something with no visible source, wheat-blonde braid still, mouth slightly open"
+Purpose: Psychological reality - perception breaking
+Sound: Unexplained humming continues
+SHOT_34d - NEW - SUPERNATURAL LAYER ⭐⭐⭐⭐
+Runtime: 4 seconds
+Prompt: "Close-up of turf wall where lamp shadow creates perfect ram horn spiral shapes, impossible given lamp position on table, shadows moving without lamp moving, defying physics"
+Simplified Alternative: "Strange shadows on wall"
+Purpose: Supernatural reality - physics breaking
+SHOT_35 - RUNWAY - SIGRID'S RITUAL ⭐⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Overhead shot of teenage girl's pale hands arranging elaborate cross pattern of white cartilage pieces and grey wool on wooden table, more complex than mother's version with inner and outer crosses, adding drops of her blood from pricked finger, bone needle at center pointing north"
+Purpose: Youth attempting old magic alone
+Dialogue: "If she won't come back, someone must. Someone must provide."
+SHOT_36 - RUNWAY - INVOCATION ⭐⭐⭐
+Runtime: 6 seconds
+Prompt: "Extreme close-up of teenage girl's mouth whispering over ritual arrangement, lips forming unfamiliar syllables, breath visible in cold air, determination in partial face visible, sweat on upper lip despite cold"
+Dialogue: "Fyrir þá sem koma úr myrkri... fyrir þá sem þurfa að breytast... komdu til okkar..."
+Purpose: Speaking words she doesn't fully understand
+SHOT_36b - RUNWAY - BLOOD SEAL ⭐⭐
+Runtime: 3 seconds
+Prompt: "Extreme close-up of finger being pricked with bone needle, large drop of bright red blood falling onto white wool at cross center, blood spreading in spiral pattern through wool fibers"
+Purpose: Blood price paid
+Mirror Motif: Blood spiral matches horn shadow spiral
+SHOT_37 - VEO - WOMAN WAITING ⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Wide shot of woman with white headdress standing completely still in blizzard holding lamp, brown wool dress and apron accumulating snow, not moving forward or back, waiting for something, breathing visible"
+Purpose: Moment before crossing over
+Sound: Breathing becoming synchronized with something else
+SHOT_37b - VEO - THE AWE MOMENT ⭐⭐⭐⭐⭐
+Runtime: 15 seconds (HOLD ENTIRE TIME)
+Prompt: "Medium shot of massive Icelandic ram emerging from blizzard into lamp light, thick white wool in dreadlocks, snowflakes melting and evaporating before touching its body creating clear air sphere around it, steam rising from wool forming shapes that could be reaching hands, eyes reflecting lamp like inner fire not animal reflection, standing perfectly still despite wind"
+Simplified Alternative: "Large ram in snowstorm with strange eyes"
+Purpose: The impossible made manifest
+Sound: Complete silence except wind
+Industrial Presence: Trawler horn stops during encounter
+SHOT_38 - VEO - RAM RECOGNITION ⭐⭐⭐⭐
+Runtime: 12 seconds
+Prompt: "Close-up of massive ram's head with curved yellow horns, black eyes reflecting orange lamp light too bright for animal like inner flame, piece of black seaweed tangled in wool, coal-dark industrial rope strand visible, breath steam forming impossible spiral patterns"
+Purpose: Recognition through impossible details
+Mirror Motif: Industrial corruption in natural form
+SHOT_38c - NEW - SILENT EXCHANGE ⭐⭐⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Two-shot of woman with white headdress holding lamp facing massive ram, locked eye contact, wind suddenly stops completely for four seconds creating perfect silence with snow frozen mid-air like stopped time, woman slowly lowers lamp in submission, ram does not move or blink"
+Simplified Alternative: "Woman and ram facing each other in snow"
+Purpose: Wordless agreement to impossible
+Sound: NO SOUND during wind-stop
+SHOT_38d - NEW - IMPOSSIBLE PROOF ⭐⭐⭐
+Runtime: 2 seconds
+Prompt: "Extreme close-up of human molar tooth, yellowed and worn with filling visible, tangled deep in ram's white wool, lamp light making metal filling gleam, focus pulling to wool then back"
+Purpose: Undeniable impossibility
+Three Layers: All collapse into impossibility
+SHOT_39 - RUNWAY - EAR MARK ⭐⭐
+Runtime: 3 seconds
+Prompt: "Extreme close-up of ram's ear with V-shaped notch cut into edge matching wall marks exactly, ice crystals on ear edge, lamp light flickering across it, frozen blood on cut edge"
+Purpose: Identity confirmed
+SHOT_40 - RUNWAY - INDUSTRIAL TRACE ⭐⭐⭐
+Runtime: 3 seconds
+Prompt: "Extreme close-up of coal-black industrial rope strand wound through white wool, coal dust and machine oil staining surrounding fleece grey, modern contamination in ancient form"
+Purpose: Modern world marked the ancient
+Industrial Presence: Physical evidence
+SHOT_41 - VEO - FOLLOWING INTO VOID ⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Wide shot of woman with white headdress following massive ram into blizzard darkness, lamp light shrinking to point, their footprints immediately erased by snow, disappearing completely into black, last frame total darkness"
+Purpose: Crossing into otherworld
+Sound: Footsteps fading to nothing
+
+POISON FEAST: FORCED CONSUMPTION (8:15-9:15)
+SHOT_42 - VEO - EATING POISON ⭐⭐⭐⭐
+Runtime: 12 seconds
+Prompt: "Wide shot of four people at wooden table forcing down grey-pink shark meat chunks, chewing with difficulty, eyes watering, young boy gagging, bearded man at head watching everyone eat, empty place where woman sat, grey seal flipper pushed aside"
+Dialogue:
+MAGNÚS: "Eat! Every piece!"
+SIGRID: "I'm not hungry."
+MAGNÚS: "EAT! Or I feed you myself."
+(Sigrid eats)
+Purpose: The choice made - poison over starvation
+Industrial Presence: Trawler horn returns, mocking
+SHOT_43 - RUNWAY - CHILD POISONED ⭐⭐⭐
+Runtime: 6 seconds
+Prompt: "Extreme close-up of 5-year-old girl's eyes with pupils fully dilated until blue iris is thin ring, unfocused, seeing things not there, reflection in pupils showing movement that isn't in room, tear rolling down cheek"
+Purpose: Neurotoxin taking effect - sjávargalinn
+Three Layers: Poison/madness/possession equal
+SHOT_44 - VEO - BOY REJECTING ⭐⭐⭐
+Runtime: 6 seconds
+Prompt: "Medium shot of 8-year-old boy turning head sharply away from table, hand pressed to mouth, body convulsing, trying not to vomit, sandy hair matted with sweat, other hand gripping table edge white-knuckled"
+Purpose: Body rejecting poison
+SHOT_45 - RUNWAY - SIGRID'S KNOWING ⭐⭐⭐
+Runtime: 6 seconds
+Prompt: "Close-up of teenage girl's face looking down at empty table where ritual was, understanding in grey eyes, slight nod to herself, acceptance of what's coming, small smile of triumph or resignation"
+Dialogue (whispered): "It worked. You heard me."
+Purpose: She knows what she's done
+SHOT_45b - NEW - SHADOWS MULTIPLYING ⭐⭐⭐⭐
+Runtime: 4 seconds
+Prompt: "Wide shot showing four people at table but six shadows on wall, extra shadows child-sized, moving independently"
+Purpose: Reality mathematics breaking
+Mirror Motif: 4 people, 6 shadows (preview of counting)
+
+MORNING REVELATION: THE TRANSFORMED (9:15-12:00)
+SHOT_46 - VEO - SHAPES IN DARKNESS ⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Wide shot of turf house interior at grey dawn with no lamp, indistinct white shapes on wooden sleeping platforms, scattered wool on floor, proportions wrong for humans, something breathing in unison, condensation dripping from beams"
+Purpose: First glimpse of change
+Sound: Multiple breathing, too synchronized
+SHOT_47 - RUNWAY - MAGNÚS WAKING ⭐⭐⭐
+Runtime: 8 seconds
+Prompt: "Close-up of bearded man's face waking confused, eyes unfocused with dilated pupils, half-eaten grey shark meat beside him on table with teeth marks, morgundrengur disorientation visible, not sure if awake or dreaming, drool on beard"
+Dialogue: "Guðrún? Where... where is everyone?"
+Purpose: Unreliable witness established
+SHOT_48 - VEO - LIGHTING DISCOVERY ⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Medium shot of shaking hand holding burning taper moving through dark space, light revealing sections gradually - white wool here, more white there, too much white wool for blankets, hand trembling making light waver"
+Purpose: Building dread through discovery
+Industrial Presence: Trawler horn sounds outside
+SHOT_49a - RUNWAY - LAST HUMAN MOMENT ⭐⭐
+Runtime: 4 seconds
+Prompt: "Close-up of teenage girl's peaceful sleeping face with eyes closed, wheat-blonde braids visible spread on wool pillow, under wool blanket, looking exactly as she should, perfect human peace"
+Purpose: Last normal moment
+SHOT_49b - RUNWAY - FIRST SHEEP MOMENT ⭐⭐⭐
+Runtime: 4 seconds
+Prompt: "Close-up of sheep face with eyes closed in exact same position and framing as previous shot, white wool where blonde hair was, same peaceful expression but animal features"
+Purpose: Direct transformation comparison
+SHOT_49c - RUNWAY - HAND TO HOOF ⭐⭐⭐⭐
+Runtime: 4 seconds
+Prompt: "Split screen - Left: child's small hand clutching cloth doll with brass button eyes. Right: sheep hoof touching same cloth doll in identical position, brass buttons gleaming"
+Purpose: Undeniable comparison
+Mirror Motif: Perfect doubling
+SHOT_50 - VEO - THE FAMILY TRANSFORMED ⭐⭐⭐⭐⭐
+Runtime: 15 seconds (HOLD ENTIRE TIME)
+Prompt: "Wide shot of five Icelandic sheep of varying sizes on wooden sleeping platforms where family slept, largest ram wearing stretched torn brown sweater across back, one ewe with white headdress placed on head between ears, smallest lamb near cloth doll, all positioned as family would sleep, in deep shadow under one sheep's wool a pale shape that might be human fingers, scattered wool on floor"
+Simplified Alternative: "Five sheep on beds with clothing items"
+Purpose: Complete transformation/ambiguity revealed
+Sound: Multiple breathing, not quite synchronized
+Three Layers: All equally possible
+SHOT_51 - RUNWAY - THE HEADDRESS ⭐⭐⭐⭐
+Runtime: 10 seconds (HOLD ENTIRE TIME)
+Prompt: "Close-up of white curved faldbúningur headdress with black band sitting on sheep's head between ears, positioned as woman would wear it, sheep's eyes closed in human-like sleep expression, breathing visible"
+Purpose: THE IMAGE - undeniable recognition
+Note: This is the film's iconic image
+SHOT_52 - RUNWAY - LAMB BEHAVIOR ⭐⭐⭐
+Runtime: 4 seconds
+Prompt: "Close-up of smallest lamb with its own hoof in mouth, sucking like child with thumb, eyes closed, cloth doll visible nearby with brass button eyes catching light"
+Purpose: Behavioral transformation
+Mirror Motif: Human behavior in animal form
+SHOT_53 - VEO - MAGNÚS APPROACHING ⭐⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Medium shot of bearded man stumbling toward sheep on platforms, hand reaching out desperately, calling names, sheep not responding, man's legs unsteady from poison, taper light wavering"
+Dialogue: "Guðrún! JÓN! Children! Answer me! Please!"
+Purpose: Seeking his family
+SHOT_53a - NEW - SWEATER RECOGNITION ⭐⭐⭐
+Runtime: 6 seconds (ADDED PROCESSING TIME)
+Prompt: "Close-up of man's weathered hand touching torn brown wool sweater stretched across sheep's back, hand freezing in recognition, trembling beginning, fingers tracing familiar mending"
+Dialogue: "Jón? No... no, this isn't..."
+Purpose: First recognition - Jón
+SHOT_53b - NEW - HEADDRESS REVELATION ⭐⭐⭐
+Runtime: 6 seconds (ADDED PROCESSING TIME)
+Prompt: "Medium shot of white headdress on sheep coming into taper light, half in shadow half in light, man's face entering frame with eyes widening in horror, hand reaching then pulling back"
+Dialogue: "Guðrún... what did you... what did we..."
+Purpose: Second recognition - Guðrún
+SHOT_53c - NEW - DOLL DISCOVERY ⭐⭐⭐
+Runtime: 6 seconds (ADDED PROCESSING TIME)
+Prompt: "Close-up of smallest lamb with cloth doll under hoof, brass button eyes of doll catching taper light like accusation, man's legs buckling in background going to knees hard"
+Purpose: Third recognition - Lilja
+Sound: Knees hitting floor, taper dropping
+SHOT_54 - VEO - SHEEP RETREATING ⭐⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Medium shot of one medium-sized sheep backing away from reaching bearded man, making distressed bleating only when he reaches toward it, others huddled together, human-like fear in positioning, avoiding touch"
+Purpose: Sigrid still fears him transformed
+Note: Only this sheep retreats - Sigrid's agency maintained
+SHOT_55 - VEO - INDUSTRIAL WITNESS ⭐⭐⭐⭐
+Runtime: 12 seconds
+Prompt: "Wide shot of five sheep huddled on platforms, doorway showing British steam trawler passing on grey morning sea, black smoke from stack, complete indifference to tragedy inside, industrial world continuing"
+Purpose: Modern world continues, oblivious
+Sound: Trawler horn, sheep responding with bleats
+Industrial Presence: Final indifference
+SHOT_56 - RUNWAY - MAGNÚS BROKEN ⭐⭐⭐
+Runtime: 12 seconds
+Prompt: "Close-up of bearded man's face with tears cutting through dirt, mouth trying to form lullaby, broken sounds emerging, understanding and denying simultaneously, sanity visibly breaking"
+Dialogue (broken humming): "Sofðu unga... ástin mín... sofðu..."
+Purpose: Complete psychological collapse
+SHOT_57 - RUNWAY - THE IMPOSSIBLE VOICE ⭐⭐⭐⭐⭐
+Runtime: 10 seconds
+Prompt: "Extreme close-up of sheep mouth opening, pink tongue visible, throat moving in bleat, but human child's voice emerging instead of animal sound"
+Sound: Bleat becoming child's "Mamma?" then CUT TO BLACK
+Purpose: Horror climax
+Note: Most difficult shot - may need multiple attempts
+SHOT_58 - VEO - THE BROKEN COUNT ⭐⭐⭐⭐
+Runtime: 15 seconds
+Prompt: "Wide shot of bearded man standing among five sheep on platforms, finger pointing at each counting in Icelandic, trembling, losing count, starting over, then looking at his own hands counting fingers, confusion and horror"
+Dialogue: "Einn... tveir... þrír... fjórir... fimm..."
+(looks at hands)
+"Sex? Sjö? How many... how many were we?"
+Purpose: Mathematical impossibility, callback to opening
+Mirror Motif: Cannot count what shouldn't exist
+SHOT_58b - NEW - COSMIC ABANDONMENT ⭐⭐⭐
+Runtime: 12 seconds
+Prompt: "Camera pulling back through smoke hole in turf house roof, rising into grey dawn sky, house shrinking below, five white shapes visible through hole and one dark human shape, continuing to rise until house is tiny speck in vast frozen landscape, trawler smoke on horizon, then even that disappears"
+Purpose: Return to cosmic indifference
+Sound: Wind fading to complete silence over last 6 seconds
+Final frame: Complete white or complete black (ambiguous)
+
+COMPREHENSIVE PRODUCTION NOTES
+Technical Specifications
+
+Total Shots: 85
+Total Runtime: 720 seconds (12 minutes exactly)
+Average Shot Length: 8.5 seconds
+Longest Holds: 37b (15 sec), 50 (15 sec), 58 (15 sec)
+Shortest Cuts: Violence sequence (2 sec cuts)
+Dialogue Lines: 16 total (Magnús: 10, Guðrún: 2, Sigrid: 2, Children: 2)
+
+Shot Difficulty Distribution
+
+⭐ Easy: 8 shots
+⭐⭐ Moderate: 23 shots
+⭐⭐⭐ Challenging: 35 shots
+⭐⭐⭐⭐ Difficult: 16 shots
+⭐⭐⭐⭐⭐ Nearly Impossible: 3 shots
+
+Critical "Must Nail" Shots
+
+Shot 31c - Three-layer anchor (teaches interpretation)
+Shot 37b - Ram emergence (15-second hold)
+Shot 50 - Family as sheep (THE revelation)
+Shot 51 - Headdress on sheep (iconic image)
+Shot 57 - Voice transformation (technical challenge)
+
+
+MOTIF TRACKING SYSTEMS
+Mirror/Doubling Tracker
+
+Shots with pairs: 18 instances
+Broken pairs: 9 instances (two becomes one)
+Counting errors: 6 instances building to finale
+Shadows wrong: 4 instances
+Reflections distorted: 3 instances
+
+Industrial Presence Tracker
+
+Trawler horn sounds: 11 scenes
+Visual trawler: 6 scenes
+Industrial debris: 3 scenes
+Modern contamination: 4 scenes (net, rope, oil)
+Final indifference: Shot 55
+
+Cross Pattern Tracker
+
+Empty rack (2b)
+Frost window (7b)
+Firewood (9b)
+Children's bones (11c)
+Ritual arrangement (14, 35)
+Blood patterns (14c, 36b)
+Ice reflections (33)
+
+Three-Layer Reality Checkpoints
+Act I: All three present but subtle
+
+Physical: Hunger, cold, sickness
+Psychological: Counting problems, secrets
+Supernatural: Children's prophecy play
+
+Boat Sequence: Primarily physical/psychological
+
+Physical: Empty seas, broken tools
+Psychological: Rage, futility
+Supernatural: Curse pole
+
+Night Journey: All three explicit
+
+Physical: Poison eating
+Psychological: Perception breaking
+Supernatural: Ram encounter
+
+Revelation: All three equally valid
+
+Physical: Family dead under wool
+Psychological: Hallucination from poison
+Supernatural: Actual transformation
+
+
+CULTURAL AUTHENTICITY GUIDE
+Pronunciation Guide
+
+Baðstofa: BATH-sto-fa (communal sleeping room)
+Forystufé: FOR-is-tu-fyeh (leader sheep)
+Hákarl: HOW-kartl (fermented shark)
+Tilberi: TIL-ber-ee (milk-stealing creature)
+Níðstöng: NEETH-stung (curse pole)
+Sjávargalinn: SYOW-var-gat-lin (sea madness)
+Morgundrengur: MOR-gun-dren-gur (morning confusion)
+
+Historical Context Notes
+
+Setting: 1870s-1880s Westfjords
+Trawlers: British steam trawlers began destroying Icelandic fishing grounds in 1890s
+Survival food: Hákarl fermentation makes poisonous shark edible after 3-4 months
+Tilberi: Folk magic creature made from human rib and wool, steals milk
+Heating: Sheep dung primary fuel, creates toxic smoke
+Architecture: Turf houses last 20-30 years before rotting
+
+Period-Accurate Details Checklist
+✓ No potatoes (not common until 1900s)
+✓ Vadmál (homespun wool) not modern fabrics
+✓ Whale oil lamps, not kerosene
+✓ Hemp rope, not synthetic
+✓ Brass items (buttons, bells) show wealth
+✓ V-notch ear marking for sheep ownership
+✓ Faldbúningur headdress for married women
+✓ Children in oversized clothes (hand-downs)
+
+EMERGENCY SIMPLIFICATION GUIDE
+If These Shots Prove Impossible:
+Shot 31c (Three-layer hand) → Show three separate quick shots instead of simultaneous
+Shot 37b (Ram with melting snow) → Ram in clear area of blizzard
+Shot 49c (Split screen) → Two separate successive shots
+Shot 50 (Maybe fingers) → Remove fingers, keep ambiguity through positions
+Shot 57 (Voice change) → Cut to black at bleat, add voice over black
+Groupable Shots (Same Base Generation)
+Group A - Table Scenes: 8, 27, 42 (adjust positions in post)
+Group B - Lamp Swinging: 29 variations
+Group C - Sheep Platforms: 50, 53, 54, 55 (modify in post)
+Group D - Close-up Eyes: 7, 10, 28, 43
+
+SOUND DESIGN SPECIFICATIONS
+Frequency Architecture
+
+20-40Hz: Foundation rumble (felt not heard)
+70-90Hz: Trawler horn (industrial presence)
+200-800Hz: Breathing (ambiguous human/animal)
+1000-3000Hz: Wind through gaps (constant anxiety)
+3000-5000Hz: Children's voices (innocence)

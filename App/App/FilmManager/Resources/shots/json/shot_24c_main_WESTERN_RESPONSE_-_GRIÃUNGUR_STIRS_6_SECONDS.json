@@ -1,0 +1,59 @@
+{
+  "shot_metadata": {
+    "id": "24c",
+    "name": "WESTERN_RESPONSE___GRIÃUNGUR_STIRS_6_SECONDS",
+    "title": "WESTERN RESPONSE - GRIÃUNGUR STIRS 6 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "House 6/min + 70bpm acceleration | Second response...",
+    "stitch_from": "[STITCH from Shot 24b: Trawler horn ending, ears ringing]"
+  },
+  "progressive_state": "House 6/min + 70bpm acceleration | Second response | Camera frost 16% | Bull stirring below | Watching: Water remembers",
+  "prompt_variants": [
+    {
+      "variant_id": "24c_story_primary",
+      "variant_name": "Primary - WESTERN RESPONSE - GRIÃUNGUR STIRS 6 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "From the west, water in every container simultaneously boiling despite -20Â°C temperature - buckets, wash basin, even droplets on table - bubbling with submarine violence as something massive stirs in the polynya, the Bull responding from beneath ice.",
+      "action": "As trawler horn fades, western response immediate. Water in bucket by door starts bubbling. Not heating gradually - instant boil. Steam rising, fogging room. Wash basin also boiling, GuÃ°rÃºn's bloody handprints from morning washing rising as red steam. Cup on table, water droplets on window, moisture in air - all boiling. Temperature still -20Â°C, ice on walls, but water at 100Â°C simultaneously. Physical laws breaking. Through west window (unbroken), polynya visible in distance - black hole in white ice, but now churning. Something massive moving below. Steam column rising from polynya, visible from house. The boiling water makes sounds - not just bubbles but voice underneath. Deep, pained bellowing mixed with mechanical grinding. Bull down there, industrial harpoons in skull, responding but suffering. In buckets, water forms whirlpool despite no current. All water trying to move west, toward polynya, toward Bull.",
+      "scene": "Interior with multiple water sources boiling. Steam filling room. West window showing distant polynya activity. Impossible physics visible.",
+      "style": "Multiple quick cuts between boiling waters, ending on polynya view (that's where the camera is), documentary of western response.",
+      "camera_position": "Multiple quick cuts between boiling waters, ending on polynya view",
+      "dialogue": "(Under boiling): Deep bellowing, barely audible (GuÃ°rÃºn seeing steam): \"GriÃ°ungur... hann heyrir\" (Bull... he hears)",
+      "audio": {
+        "primary": [
+          "Multiple waters boiling violently",
+          "steam hissing",
+          "bellowing under bubbles"
+        ],
+        "ambient": [
+          "Polynya churning distant",
+          "house heartbeat accelerating to 70bpm",
+          "water moving west"
+        ],
+        "absent": [
+          "no explanation",
+          "physics broken"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show impossible boiling at -20Â°C, steam filling room, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Watching water boil",
+    "triple_reality": "Physical: impossible thermodynamics / Psychological: laws breaking / Mythological: Bull's fever"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

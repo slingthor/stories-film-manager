@@ -1,0 +1,58 @@
+{
+  "shot_metadata": {
+    "id": "43b",
+    "name": "THE_STRIKE_UNSEEN___SHADOW_VIOLENCE_3_SECONDS",
+    "title": "THE STRIKE UNSEEN - SHADOW VIOLENCE 3 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 3,
+    "narrative_function": "Violence enacted | Camera frost 29% | Isolation co...",
+    "stitch_from": "[STITCH from Shot 43a: Cane raised]"
+  },
+  "progressive_state": "Violence enacted | Camera frost 29% | Isolation complete | Watching: We see shadows only",
+  "prompt_variants": [
+    {
+      "variant_id": "43b_story_primary",
+      "variant_name": "Primary - THE STRIKE UNSEEN - SHADOW VIOLENCE 3 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Camera on wall showing only shadows as the cane comes down, [GUÃRÃšN]'s shadow crumpling but no sound from her, just sharp exhale, while children's shadows don't even flinch - normalized horror of isolation where this is routine.",
+      "action": "CAMERA HOLDS on wall shadows only. Cane shadow descends fast. Strikes. GuÃ°rÃºn's shadow folds at waist. No scream - just breath expelled. Rises. Cane strikes again. Shadow crumples to knees. Children's shadows haven't moved - JÃ³n and Lilja trained not to see, not to react. This is Tuesday, Thursday, any day. No neighbors to hear. No law to intervene. 40 miles of winter sea to any help. Third strike coming but GuÃ°rÃºn shadow raises hand - not to block but gesture of acceptance, submission. Cane shadow pauses. Through this, tilberi's actual form visible in corner of frame - watching, learning, brass eye unblinking. Recording how power works. House groans - 3/min breathing labored. Even the dying giant cannot intervene.",
+      "scene": "Shadow play on wall. Real violence unseen but impact clear. Tilberi witnessing.",
+      "style": "Static on shadows, violence implied not shown (that's where the camera is), documentary of routine horror.",
+      "camera_position": "Static on shadows, violence implied not shown",
+      "dialogue": "(GuÃ°rÃºn): Only exhales, no words (MagnÃºs): Breathing heavy with effort",
+      "audio": {
+        "primary": [
+          "Cane striking",
+          "breath expelled",
+          "body falling"
+        ],
+        "ambient": [
+          "Children's synchronized breathing unchanged",
+          "tilberi watching"
+        ],
+        "absent": [
+          "no screams",
+          "normalized silence"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Silent acceptance",
+    "triple_reality": "Physical: beaten | Psychological: normalized trauma | Mythological: god striking creation"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

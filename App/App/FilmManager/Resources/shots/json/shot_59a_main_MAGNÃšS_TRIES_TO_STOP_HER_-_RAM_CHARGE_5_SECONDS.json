@@ -1,0 +1,61 @@
+{
+  "shot_metadata": {
+    "id": "59a",
+    "name": "MAGNÃŠS_TRIES_TO_STOP_HER___RAM_CHARGE_5_SECONDS",
+    "title": "MAGNÃšS TRIES TO STOP HER - RAM CHARGE 5 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 5,
+    "narrative_function": "Authority's last attempt | Camera frost 52% | Patr...",
+    "stitch_from": "[STITCH from Shot 58c: Sigrid transforming, black spreading]"
+  },
+  "progressive_state": "Authority's last attempt | Camera frost 52% | Patriarchy failing | Watching: Father becomes beast",
+  "prompt_variants": [
+    {
+      "variant_id": "59a_story_primary",
+      "variant_name": "Primary - MAGNÃšS TRIES TO STOP HER - RAM CHARGE 5 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[MAGNÃšS]-ram suddenly accepting his form, dropping to all fours, charging at [SIGRID] with curved horns lowered, but passing through her as if she's already not there, crashing into stone wall, horns embedding in rock.",
+      "action": "MagnÃºs watches Sigrid transforming. Rage builds. His authority threatened. Drops to all fours - first time accepting ram form. No more pretense of humanity. Full beast. Charges. LOW ANGLE TRACKING his charge. Hooves on stone. Head lowered. Horns aimed at Sigrid's belly - destroy woman and future child. But as he reaches her: passes THROUGH. Like she's mist. Already between worlds. Not fully here. He crashes into wall. CRACK. Horns embed in volcanic rock. Stuck. Pulls. Can't free himself. The patriarchy literally trapped in stone. Immobilized by its own violent charge. He bleats rage. But just sheep sound now. No human words left. Sigrid doesn't even look. Beyond his reach. Always was. Her transformation continues. Black feathers spreading. MagnÃºs trapped, watching, powerless. The seventh presence suddenly clear - it's the future. The child she carries. The free generation.",
+      "scene": "Ram charging through transforming woman. Horns stuck in rock. Defeat complete.",
+      "style": "Low tracking of failed charge (that's where the camera is), patriarchy's end documented.",
+      "camera_position": "Low tracking of failed charge",
+      "dialogue": "(MagnÃºs-ram): Only enraged bleating (Sigrid): Silent transformation",
+      "audio": {
+        "primary": [
+          "Hooves charging",
+          "passing through mist",
+          "horns cracking into stone"
+        ],
+        "ambient": [
+          "Ram trapped bleating",
+          "stone holding firm"
+        ],
+        "absent": [
+          "no human authority left"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Sigrid beyond words now",
+    "triple_reality": "Physical: ram charging | Psychological: control lost | Mythological: old god defeated"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

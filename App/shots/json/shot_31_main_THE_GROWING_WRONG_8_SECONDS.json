@@ -1,0 +1,63 @@
+{
+  "shot_metadata": {
+    "id": "31",
+    "name": "THE_GROWING_WRONG_8_SECONDS",
+    "title": "THE GROWING WRONG 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 4/min dying + 80bpm | Tilberi expanding | Ca...",
+    "stitch_from": "[STITCH from Shot 30: MagnÃºs pulling taut line, house situation parallel]"
+  },
+  "progressive_state": "House 4/min dying + 80bpm | Tilberi expanding | Camera frost 20% | Family paralyzed | Watching: Four landvÃ¦ttir through windows",
+  "prompt_variants": [
+    {
+      "variant_id": "31_story_primary",
+      "variant_name": "Primary - THE GROWING WRONG 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Inside the house, the contaminated tilberi has grown from cat-size to lamb-size in minutes, feeding on industrial contamination in the air itself, its rope-skeleton stretching beneath translucent skin while [SIGRID] reaches toward it with maternal instinct despite its wrongness, and [GUÃRÃšN] finally breaks her silence: \"Drepa Ã¾aÃ°!\" (Kill it!)",
+      "action": "The tilberi-thing has doubled in size. Rope skeleton visible stretching, hemp fibers separating and multiplying like cell division. Brass button eye now size of child's fist, green tears burning channels in floor. It stands on appendages that are neither legs nor mechanical supports - something between. When it moves, sound of rope under tension mixed with lamb's bleat. Breathing still three rhythms: 8/min, 12/min, 20/min creating constant motion. It approaches Sigrid, recognizing creator. She reaches toward it, hand protective on belly - two children, one inside, one outside but wrong. It nuzzles her hand. Where it touches, her skin shows black veins spreading up wrist (contamination transfer). GuÃ°rÃºn grabs fire poker, raises it, speaks for first time since MagnÃºs left: \"Drepa Ã¾aÃ° Ã¡Ã°ur en Ã¾aÃ°...\" (Kill it before it...). But Sigrid shields it with her body. Through windows, four landvÃ¦ttir watching: trawler lights, steam from polynya, house wall breathing, raven shadows circling. The creature feeds on their attention, growing.",
+      "scene": "Interior, 9:10 AM but dark from landvÃ¦ttir presence. Temperature -23Â°C. Tilberi now lamb-sized, still growing. Black contamination veins spreading up Sigrid's arm. Family frozen except GuÃ°rÃºn.",
+      "style": "Medium shot showing creature's size and family's positions, contamination spreading visible (that's where the camera is), documentary of wrong motherhood.",
+      "camera_position": "Medium shot showing creature's size and family's positions, contamination spreading visible",
+      "dialogue": "(GuÃ°rÃºn, breaking silence): \"Drepa Ã¾aÃ°!\" (Kill it!) \"ÃžaÃ° er ekki nÃ¡ttÃºrulegt!\" (It's not natural!) (Sigrid, protective): \"ÃžaÃ° er mitt barn\" (It's my child)",
+      "audio": {
+        "primary": [
+          "Rope skeleton stretching",
+          "brass tears sizzling floor",
+          "three-rhythm breathing"
+        ],
+        "ambient": [
+          "House dying at 4/min",
+          "four landvÃ¦ttir present outside",
+          "contamination spreading audibly"
+        ],
+        "absent": [
+          "no natural growth sounds",
+          "wrong expansion"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show industrial skeleton through skin, contamination spreading, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "GuÃ°rÃºn finally speaks",
+    "triple_reality": "Physical: impossible growth / Psychological: maternal horror / Mythological: contamination feeding"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

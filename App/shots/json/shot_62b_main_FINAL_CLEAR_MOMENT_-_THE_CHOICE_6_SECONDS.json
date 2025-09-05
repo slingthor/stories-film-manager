@@ -1,0 +1,57 @@
+{
+  "shot_metadata": {
+    "id": "62b",
+    "name": "FINAL_CLEAR_MOMENT___THE_CHOICE_6_SECONDS",
+    "title": "FINAL CLEAR MOMENT - THE CHOICE 6 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "Last clarity | Frost 85%â†’95% | Decision point | ...",
+    "stitch_from": "[STITCH from Shot 62a: 85% frost, tunnel vision]"
+  },
+  "progressive_state": "Last clarity | Frost 85%â†’95% | Decision point | Watching: Choose what to see",
+  "prompt_variants": [
+    {
+      "variant_id": "62b_story_primary",
+      "variant_name": "Primary - FINAL CLEAR MOMENT - THE CHOICE 6 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "In the tiny remaining clear center, the camera must choose what to see last - zooming past obelisk, past preserved family, finding Sigrid-raven in 1944, aged 72, human again, voting \"JÃ\" for independence, tears on weathered face.",
+      "action": "Through 15% clear center, FINAL ZOOM. Past obelisk - goodbye monument. Past family in glass - goodbye sacrifice. Through time. To 1944. June 17. Independence vote. Finding: Sigrid. Human again. Old woman. 72 years. Weathered. Beautiful. In voting booth. Pencil in hand that was once wing. Marking \"JÃ\" (YES) on ballot. For independence. For freedom. Tears on her face. Remembering everything. The transformation. The escape. The egg that became her daughter. Who stands beside her. Also voting. Three generations: the sacrifice (in glass), the witness (Sigrid), the free (daughter). Camera holds this. Last clear image. The \"JÃ\" being written. The pencil stroke that ends colonization. Frost creeping: 90%. 92%. 95%. Vision narrowing to just her hand. Just the mark. Just \"JÃ\". The word that changes everything. That makes all sacrifice worth it. That completes the cycle. 95% - almost blind. But saw what mattered.",
+      "scene": "1944 voting booth. Sigrid's aged hand. Independence ballot. \"JÃ\" being marked.",
+      "style": "Final zoom on crucial moment (that's where the camera is), last clear vision.",
+      "camera_position": "Final zoom on crucial moment",
+      "dialogue": "None - action speaks",
+      "audio": {
+        "primary": [
+          "Pencil on paper",
+          "tears falling",
+          "breath held"
+        ],
+        "ambient": [
+          "1944 celebration outside",
+          "future singing"
+        ],
+        "absent": [
+          "no colonizer voice"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Silence before end",
+    "triple_reality": "Physical: final focus | Psychological: last thought | Mythological: witness choosing"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

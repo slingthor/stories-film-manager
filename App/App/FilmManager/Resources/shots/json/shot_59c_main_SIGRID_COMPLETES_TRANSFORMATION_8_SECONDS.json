@@ -1,0 +1,61 @@
+{
+  "shot_metadata": {
+    "id": "59c",
+    "name": "SIGRID_COMPLETES_TRANSFORMATION_8_SECONDS",
+    "title": "SIGRID COMPLETES TRANSFORMATION 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "Becoming raven | Camera frost 53% | Freedom immine...",
+    "stitch_from": "[STITCH from Shot 59b: Raven waiting at threshold]"
+  },
+  "progressive_state": "Becoming raven | Camera frost 53% | Freedom imminent | Watching: All witness",
+  "prompt_variants": [
+    {
+      "variant_id": "59c_story_primary",
+      "variant_name": "Primary - SIGRID COMPLETES TRANSFORMATION 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[SIGRID]'s transformation completing - black feathers covering entire body, arms becoming wings, but face still partially human, eyes still conscious, belly shrinking as if pregnancy absorbed into transformation, becoming the egg she'll lay as raven.",
+      "action": "SPIRAL UP around Sigrid. Black feathers erupt everywhere. Not growing - emerging. Always there. Under skin. Waiting lifetime. Arms crack, extend, reshape. Bones hollow. Becoming wings. But face - still partially human. Eyes still Sigrid's. Conscious. Remembering. Belly transforms: pregnancy doesn't vanish but changes. Becomes internal egg. She'll lay it as raven. Birth human child from raven body. The bridge between forms. Feet crack, become talons. But delicate. Young raven. She's 16 in human years, young adult in raven years. Perfect transition age. Dress falls away. No longer needed. Pure black feather form. But at neck: small white marking. Like faldbÃºningur collar. Cultural memory in bird form. She spreads wings. 5-foot span. Smaller than monolith raven. Daughter scale. Hops once. Testing. Light. Free. The sheep family watches. Understanding. Accepting. She's their escape. Their witness. Their memory.",
+      "scene": "Sigrid completing raven form. Wings spreading. Family witnessing. Freedom imminent.",
+      "style": "Spiral up showing full transformation (that's where the camera is), metamorphosis complete.",
+      "camera_position": "Spiral up showing full transformation",
+      "dialogue": "(Sigrid's last word): \"Vitni\" (Witness)",
+      "audio": {
+        "primary": [
+          "Bones reshaping",
+          "feathers emerging",
+          "wings testing air"
+        ],
+        "ambient": [
+          "Family breathing acceptance",
+          "wind returning through door"
+        ],
+        "absent": [
+          "no human voice anymore"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "maintain beauty and dignity, not body horror",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "No longer human to be silent",
+    "triple_reality": "Physical: human to bird | Psychological: identity released | Mythological: witness prepared"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

@@ -1,0 +1,248 @@
+Master TODO List for "The Sheep in the Baðstofa" - Complete Technical Implementation
+SECTION A: STRUCTURAL FOUNDATIONS
+A1. Pacing Architecture
+
+ Fibonacci Duration Map (create shot-by-shot timing document):
+
+Shots 1-10: 3, 5, 8, 5, 3, 8, 13, 5, 8, 21 seconds
+Shots 11-20: 8, 5, 13, 8, 21, 3, 5, 8, 13, 8 seconds
+[Continue for all 85-90 shots]
+
+
+ Silence Events (2-3 second black frames, breathing only):
+
+After Shot 9a: 3 seconds, 11 breaths/min
+After Shot 17: 2 seconds, accelerating 11→15/min
+After Shot 25: 3 seconds, 8/12/20 polyrhythm
+After Shot 45c: 2 seconds, 3 breaths/min (dying)
+After Shot 57: 3 seconds, sheep breathing revealed
+
+
+ Extended Holds:
+
+Shot 13 (Raven): 12 seconds absolute stillness
+Shot 52a (Second Raven): 12 seconds
+Shot 59b (Third Monolith): 12 seconds
+Shot 61: 30-second forensic examination
+
+
+
+A2. Aspect Ratio Evolution Timeline
+
+ Create technical specification sheet:
+
+Prologue: 1.85:1 (false freedom)
+Shots 1-7: 4:3 (trap springs) - transition at Shot 1, 3 seconds
+Shots 8-10: 1:1 (counting violence) - snap to square
+Shots 11-42: Return to 4:3
+Shots 43: 1:1 (violence)
+Shots 49-50: 1:1 (incest threat)
+Shot 59+: 2.39:1 explosion over 5 seconds
+
+
+
+SECTION B: CRITICAL NARRATIVE FIXES
+B1. Five-Moment Dripping Match Cut (Complete Implementation)
+
+ Shot 4.5: Hákarl ammonia dripping into bucket (establish sound: 1.2 seconds between drops)
+ Shot 22: Magnús's aflausn blood from nose (same 1.2-second interval)
+ Shot 25: Tilberi's verdigris tears hitting floor (exact same sound, green instead of red)
+ Shot 45c: Griðungur's contamination bleeding into polynya (massive scale, same rhythm)
+ Shot 61: Monument moisture beading on obsidian (eternal continuation)
+ Audio specification: Each drip at 87dB, 440Hz impact with 2-second decay
+
+B2. Feast-to-Starvation Instantaneous Transformation
+
+ New Shot 9b (3 seconds):
+
+Sun touches horizon: feast perfect
+Sun disappears: INSTANT freeze - all food crystallizes
+Meat develops black veins in real-time
+Purple juice cracks vessels with glass-breaking sound
+Bread becomes stone (literal petrification)
+Single frame of abundance/death simultaneously
+
+
+
+B3. Four Corners Summoning (Replacing Tilberi)
+
+ Shot 23 Restructure:
+
+North (Magnús): Blood from hidden cut
+South (Guðrún): Wool pulled from wrists
+East (Children): Breath visible as white shapes
+West (Sigrid): Says her name backward
+Center: Tilberi manifests from failed ritual
+
+
+
+SECTION C: VEO3 TECHNICAL WORKAROUNDS
+C1. Complex Shot Fragmentation Strategy
+
+ Transformation Sequences (Human to Sheep):
+
+Shot 56a: Human hands reaching → CUT
+Shot 56b: Shadow shows hooves → CUT
+Shot 56c: Sheep hands revealed
+
+
+ Multiple Reality Shots:
+
+Shot 51c: Show floor → CUT → Show réttir below → CUT → Overlay glimpse
+
+
+ Synchronization Workarounds:
+
+Never show more than 3 characters breathing in single shot
+Use shadows for synchronized movement
+Audio carries synchronization across cuts
+
+
+
+C2. Character Consistency Protocol
+
+ Anchor Points (unchanging elements to maintain across shots):
+
+Magnús: Silver wedding ring, cane
+Guðrún: Faldbúningur headdress
+Sigrid: Three freckles in triangle
+Children: Specific height markers
+
+
+ Degradation Excuses (when consistency fails):
+
+Blame on "memory corruption"
+Use frost on lens to obscure
+Quick cuts during changes
+
+
+
+C3. Emergency Simplification Plans
+
+ If Sheep Transformation Fails: Show only shadows and sounds
+ If Breathing Sync Fails: Use fog to obscure mouths
+ If Obelisk Fails: Show only reflection in water
+
+SECTION E: VISUAL SPECIFICATIONS
+E1. Color Grading LUT Progression
+
+ Prologue: Oversaturated warmth (LUT: "Carnivore_Abundance_01")
+ Act I: Desaturated realism (LUT: "Winter_Truth_01")
+ Act II: Color bleeding at edges (LUT: "Madness_Bleed_01")
+ Act III: Monochrome except red (LUT: "Blood_Memory_01")
+ Act IV: Full desaturation (LUT: "Monument_01")
+
+E2. Shadow Behavior Bible
+
+ Lag Specifications:
+
+Normal scenes: 0.5 second lag
+Violence scenes: 1.0 second lag
+Transformation: 2.0 second lag
+Death scenes: Shadows lead by 0.5 seconds
+
+
+ Shadow Mapping Per Character:
+
+Magnús: Shadow always larger
+Guðrún: Shadow shows ewe profile
+Sigrid: Shadow has wings after Shot 23
+Children: Shadows remain still during violence
+
+
+
+E3. Stain Progression Tracking
+
+ Create continuity chart:
+
+Shot 1-10: Clean clothes
+Shot 11-20: Blood stains appear
+Shot 21-30: Purple juice added
+Shot 31-40: Egg yolk completes trinity
+Shot 41-50: Stains darken to brown-black
+Shot 51-63: Stains become patterns
+
+
+
+SECTION F: PERFORMANCE DIRECTION
+F1. Antarctic Stare Implementation
+
+ Specific Shots Requiring Stare:
+
+Shot 4: Magnús at window
+Shot 14: Family after mathematical break
+Shot 32: Magnús alone on water
+Shot 41: Guðrún after beating
+
+
+ Stare Characteristics: 1000-yard focus, 3-second delayed reactions, micro-expressions absent
+
+F2. Flock Synchronization Moments
+
+ Shot 10: Chewing in unison
+ Shot 39: Family breathing as one
+ Shot 56: Movement to réttir positions
+ Shot 58: Final transformation
+
+
+SECTION G: DIALOG REVISION TAGS
+G1. Danish Contamination Shots
+
+ Shot 8: "En, to" - mechanical counting
+ Shot 9: "Tre, fire, fem" - with violation
+ Shot 10: "Seks?" - confusion
+ Shot 50b: Administrative register during grooming
+ Tag each with: Temperature drop per word, frost pattern
+
+
+SECTION H: CONTINUITY BIBLE CREATION
+H1. Character Aging Markers
+
+ Document per shot:
+
+Magnús hair: Grey → White progression
+Guðrún hollow cheeks: Deepening
+Children height: No growth (starvation marker)
+Sigrid belly: Subtle growth 3→5 months
+
+
+
+H2. Temperature Log
+
+ Create master temperature tracking:
+
+Prologue: +5°C (false warmth)
+Shot 1-20: -10°C
+Shot 21-40: -20°C
+Shot 41-55: -25°C
+Shot 56-63: -30°C
+
+
+
+H3. Breath Rate Evolution Timeline
+Shot:     1    10   20   30   40   50   60
+Magnús:   12───12───12───12───0────3────0
+Guðrún:   11───11───11───11───11───8────0
+Sigrid:   15───15───15───15───15───15───40(raven)
+Children: 20───20───20───25───30───35───0
+House:    12───12───10───8────6────3────0
+SECTION I: QUALITY CONTROL CHECKLISTS
+I1. Per-Shot Verification
+
+ Breath rate specified
+ Shadow behavior noted
+ Temperature documented
+ Dominant reality tagged
+ 5/6 impossibility present
+ Degradation level marked
+ Dialog language identified
+
+I2. Match Cut Verification
+
+ Five-drip sequence sound identical
+ Whale eye → Raven eye → Sigrid eye
+ Burning lamp → Trawler → Match
+ Ram horn → Mountain → Obsidian
+
+
+This comprehensive TODO addresses all technical gaps while maintaining narrative integrity. The key addition is explicit fragmentation strategies for VEO3's limitations and proper tracking systems for continuity.

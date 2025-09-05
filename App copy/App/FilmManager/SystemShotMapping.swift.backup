@@ -1,0 +1,776 @@
+import SwiftUI
+
+// MARK: - System-Shot Mapping View
+
+struct SystemShotMappingView: View {
+    @ObservedObject var filmManager: FilmSystemManager
+    @State private var draggedSystem: TrackingSystem?
+    @State private var draggedSystemPercentage: Double = 0
+    @State private var visibleSystemRange = 0..<5
+    
+    var body: some View {
+        HStack(spacing: 0) {
+            // SYSTEM CONTROLS (Left)
+            VStack(alignment: .leading, spacing: 0) {
+                Text("TRACKING SYSTEMS")
+                    .font(.headline)
+                    .padding()
+                
+                // System navigation
+                HStack {
+                    Button("◀") {
+                        if visibleSystemRange.lowerBound > 0 {
+                            visibleSystemRange = (visibleSystemRange.lowerBound - 1)..<(visibleSystemRange.upperBound - 1)
+                        }
+                    }
+                    .disabled(visibleSystemRange.lowerBound == 0)
+                    
+                    Text("Systems \(visibleSystemRange.lowerBound + 1)-\(visibleSystemRange.upperBound)")
+                        .font(.caption)
+                    
+                    Button("▶") {
+                        if visibleSystemRange.upperBound < filmManager.trackingSystems.count {
+                            visibleSystemRange = (visibleSystemRange.lowerBound + 1)..<(visibleSystemRange.upperBound + 1)
+                        }
+                    }
+                    .disabled(visibleSystemRange.upperBound >= filmManager.trackingSystems.count)
+                }
+                .padding(.horizontal)
+                
+                // Visible systems
+                ForEach(Array(filmManager.trackingSystems[visibleSystemRange]), id: \.id) { system in
+                    SystemControlRow(
+                        system: system,
+                        onDragStart: { draggedSystem = system },
+                        onDragEnd: { draggedSystem = nil }
+                    )
+                    .padding(.horizontal)
+                    .padding(.vertical, 2)
+                }
+                
+                Spacer()
+            }
+            .frame(width: 250)
+            .background(Color.gray.opacity(0.05))
+            
+            Divider()
+            
+            // SHOT LIST WITH SYSTEM PLACEMENT (Center)
+            ShotListWithSystemsView(
+                shots: $filmManager.shots,
+                selectedShot: $filmManager.selectedShot,
+                trackingSystems: filmManager.trackingSystems,
+                draggedSystem: draggedSystem,
+                onSystemDrop: { system, shot in
+                    placeSystemAtShot(system: system, shot: shot)
+                },
+                onReorderShots: filmManager.reorderShots
+            )
+            .frame(minWidth: 400)
+        }
+    }
+    
+    private func placeSystemAtShot(system: TrackingSystem, shot: Shot) {
+        // Update system percentage based on shot position
+        system.currentPercentage = shot.filmPositionPercentage
+        
+        // Mark system as affecting this shot
+        if !system.affectedShots.contains(shot.shotId) {
+            system.affectedShots.append(shot.shotId)
+        }
+        
+        print("📍 Placed \(system.name) at \(shot.filmPositionPercentage)% (Shot \(shot.shotId))")
+    }
+}
+
+struct SystemControlRow: View {
+    @ObservedObject var system: TrackingSystem
+    let onDragStart: () -> Void
+    let onDragEnd: () -> Void
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 4) {
+            HStack {
+                // Drag handle
+                Image(systemName: "line.horizontal.3")
+                    .foregroundColor(.gray)
+                    .onDrag {
+                        onDragStart()
+                        return NSItemProvider(object: system.name as NSString)
+                    }
+                
+                Text(system.name.replacingOccurrences(of: "_", with: " ").capitalized)
+                    .font(.caption)
+                    .fontWeight(.medium)
+                
+                Spacer()
+                
+                Text("\(Int(system.currentPercentage))%")
+                    .font(.caption2)
+                    .foregroundColor(.blue)
+            }
+            
+            // Current value indicator
+            Text(system.getValueAtPercentage(system.currentPercentage))
+                .font(.caption2)
+                .foregroundColor(.secondary)
+                .lineLimit(1)
+            
+            // Mini slider for fine adjustment
+            Slider(
+                value: $system.currentPercentage,
+                in: system.continuousRange[0]...system.continuousRange[1],
+                step: 1.0
+            )
+            .frame(height: 20)
+            .accentColor(.blue)
+        }
+        .padding(8)
+        .background(
+            RoundedRectangle(cornerRadius: 6)
+                .fill(Color.white)
+                .shadow(radius: 1)
+        )
+    }
+}
+
+// MARK: - Shot List with System Placement
+
+struct ShotListWithSystemsView: View {
+    @Binding var shots: [Shot]
+    @Binding var selectedShot: Shot?
+    let trackingSystems: [TrackingSystem]
+    let draggedSystem: TrackingSystem?
+    let onSystemDrop: (TrackingSystem, Shot) -> Void
+    let onReorderShots: (IndexSet, Int) -> Void
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            // Header
+            HStack {
+                Text("SHOTS WITH SYSTEMS")
+                    .font(.headline)
+                
+                Spacer()
+                
+                if let selected = selectedShot {
+                    Text("Selected: \(selected.shotId)")
+                        .font(.caption)
+                        .foregroundColor(.blue)
+                }
+            }
+            .padding()
+            
+            Divider()
+            
+            // Shot list with system indicators
+            List {
+                ForEach(shots, id: \.id) { shot in
+                    ShotRowWithSystems(
+                        shot: shot,
+                        isSelected: selectedShot?.id == shot.id,
+                        trackingSystems: trackingSystems,
+                        draggedSystem: draggedSystem,
+                        onSelect: { selectedShot = shot },
+                        onSystemDrop: { system in
+                            onSystemDrop(system, shot)
+                        }
+                    )
+                }
+                .onMove { source, destination in
+                    onReorderShots(source, destination)
+                }
+            }
+            .listStyle(PlainListStyle())
+        }
+    }
+}
+
+struct ShotRowWithSystems: View {
+    @ObservedObject var shot: Shot
+    let isSelected: Bool
+    let trackingSystems: [TrackingSystem]
+    let draggedSystem: TrackingSystem?
+    let onSelect: () -> Void
+    let onSystemDrop: (TrackingSystem) -> Void
+    @State private var isDropTarget = false
+    
+    var body: some View {
+        HStack(spacing: 8) {
+            // Shot info (left)
+            VStack(alignment: .leading, spacing: 2) {
+                HStack {
+                    Text(shot.shotId)
+                        .font(.caption)
+                        .fontWeight(.bold)
+                        .foregroundColor(sequenceColor)
+                    
+                    Spacer()
+                    
+                    Text("\(Int(shot.filmPositionPercentage))%")
+                        .font(.caption2)
+                        .foregroundColor(.secondary)
+                }
+                
+                Text(shot.title)
+                    .font(.caption2)
+                    .lineLimit(2)
+                
+                // Media indicators
+                HStack(spacing: 4) {
+                    if !shot.videos.isEmpty {
+                        HStack(spacing: 2) {
+                            Image(systemName: "video.fill")
+                                .foregroundColor(.blue)
+                            Text("\(shot.videos.count)")
+                                .font(.caption2)
+                            
+                            // Selected video indicator
+                            if let selectedVideo = shot.videos.first(where: { $0.isSelected }) {
+                                Text("[\(selectedVideo.filename)]")
+                                    .font(.caption2)
+                                    .foregroundColor(.blue)
+                                    .lineLimit(1)
+                            }
+                        }
+                        .font(.caption2)
+                    }
+                    
+                    if !shot.images.isEmpty {
+                        HStack(spacing: 2) {
+                            Image(systemName: "photo.fill")
+                                .foregroundColor(.green)
+                            Text("\(shot.images.count)")
+                        }
+                        .font(.caption2)
+                    }
+                }
+            }
+            .frame(width: 120)
+            
+            Divider()
+            
+            // System indicators (right)
+            HStack(spacing: 2) {
+                ForEach(systemsAffectingThisShot, id: \.id) { system in
+                    SystemIndicatorChip(
+                        system: system,
+                        shotPercentage: shot.filmPositionPercentage
+                    )
+                }
+                
+                // Drop zone for dragged systems
+                if draggedSystem != nil && !systemsAffectingThisShot.contains(where: { $0.id == draggedSystem?.id }) {
+                    RoundedRectangle(cornerRadius: 4)
+                        .stroke(isDropTarget ? Color.blue : Color.gray, style: StrokeStyle(lineWidth: 1, dash: [3]))
+                        .frame(width: 60, height: 20)
+                        .overlay(
+                            Text("Drop here")
+                                .font(.caption2)
+                                .foregroundColor(.gray)
+                        )
+                        .onDrop(of: [.text], isTargeted: $isDropTarget) { providers in
+                            if let system = draggedSystem {
+                                onSystemDrop(system)
+                                return true
+                            }
+                            return false
+                        }
+                }
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+        }
+        .padding(.vertical, 4)
+        .padding(.horizontal, 8)
+        .background(
+            RoundedRectangle(cornerRadius: 4)
+                .fill(isSelected ? Color.blue.opacity(0.2) : Color.clear)
+        )
+        .contentShape(Rectangle())
+        .onTapGesture {
+            onSelect()
+        }
+    }
+    
+    private var sequenceColor: Color {
+        switch shot.sequenceType {
+        case "prologue":
+            return .green
+        case "main_story":
+            return .blue
+        default:
+            return .gray
+        }
+    }
+    
+    private var systemsAffectingThisShot: [TrackingSystem] {
+        trackingSystems.filter { system in
+            // Check if system percentage places it at this shot position
+            let systemShotPosition = (system.currentPercentage / 100.0) * 165 // Total shots
+            let shotPosition = (shot.filmPositionPercentage / 100.0) * 165
+            
+            return abs(systemShotPosition - shotPosition) < 2.0 // Within 2 shots
+        }
+    }
+}
+
+struct SystemIndicatorChip: View {
+    let system: TrackingSystem
+    let shotPercentage: Double
+    
+    var body: some View {
+        VStack(spacing: 1) {
+            Text(system.name.prefix(4))
+                .font(.caption2)
+                .fontWeight(.medium)
+            
+            Text("\(Int(system.currentPercentage))%")
+                .font(.caption2)
+        }
+        .padding(.horizontal, 4)
+        .padding(.vertical, 2)
+        .background(
+            RoundedRectangle(cornerRadius: 4)
+                .fill(system.currentPercentage == shotPercentage ? Color.blue.opacity(0.3) : Color.gray.opacity(0.2))
+        )
+        .foregroundColor(.primary)
+    }
+}
+
+// MARK: - Video Selection Management
+
+extension Shot {
+    var selectedVideo: VideoFile? {
+        get {
+            videos.first(where: { $0.isSelected })
+        }
+        set {
+            // Mark all videos as not selected
+            for video in videos {
+                video.isSelected = false
+            }
+            // Mark new video as selected
+            if let newVideo = newValue,
+               let index = videos.firstIndex(where: { $0.id == newVideo.id }) {
+                videos[index].isSelected = true
+            }
+        }
+    }
+    
+    func selectVideo(_ video: VideoFile) {
+        selectedVideo = video
+        markDirty()
+    }
+    
+    func addFirstVideo(_ video: VideoFile) {
+        // First video automatically becomes selected
+        video.isSelected = true
+        videos.append(video)
+        markDirty()
+    }
+}
+
+extension VideoFile {
+    var isSelected: Bool = false
+}
+
+// MARK: - Timeline with Selected Videos
+
+extension TimelineManager {
+    func setupTimelineFromSelectedVideos(_ shots: [Shot]) {
+        var markers: [ShotMarker] = []
+        var currentTime: Double = 0
+        
+        for shot in shots {
+            let hasSelectedVideo = shot.selectedVideo != nil
+            let duration = Double(shot.durationSeconds)
+            
+            // Only add to timeline if shot has selected video or should be included for gaps
+            markers.append(
+                ShotMarker(
+                    shotId: shot.shotId,
+                    timePosition: currentTime,
+                    duration: duration,
+                    hasVideo: hasSelectedVideo,
+                    videoFilename: shot.selectedVideo?.filename
+                )
+            )
+            
+            currentTime += duration
+        }
+        
+        self.shotMarkers = markers
+        self.totalDuration = currentTime
+        
+        let videoCount = markers.filter { $0.hasVideo }.count
+        print("🎬 Timeline updated: \(videoCount) shots with selected videos")
+    }
+    
+    func playOnlySelectedVideos() {
+        isPlaying = true
+        
+        // Find next shot with selected video
+        if let nextVideoShot = shotMarkers.first(where: { 
+            $0.timePosition >= currentTime && $0.hasVideo 
+        }) {
+            seekTo(time: nextVideoShot.timePosition)
+        }
+    }
+    
+    struct ShotMarker: Identifiable {
+        let id = UUID()
+        let shotId: String
+        let timePosition: Double
+        let duration: Double
+        let hasVideo: Bool
+        let videoFilename: String?
+        
+        init(shotId: String, timePosition: Double, duration: Double, hasVideo: Bool, videoFilename: String? = nil) {
+            self.shotId = shotId
+            self.timePosition = timePosition
+            self.duration = duration
+            self.hasVideo = hasVideo
+            self.videoFilename = videoFilename
+        }
+    }
+}
+
+// MARK: - Enhanced Video Management
+
+extension MediaManager {
+    func addFirstVideo(to shot: Shot, from url: URL) {
+        let video = VideoFile(
+            filename: url.lastPathComponent,
+            filepath: url.path,
+            generationDate: DateFormatter().string(from: Date()),
+            qualityRating: nil,
+            notes: ""
+        )
+        
+        shot.addFirstVideo(video) // Automatically selected
+        print("📹 Added first video to \(shot.shotId): \(video.filename)")
+    }
+    
+    func addAdditionalVideo(to shot: Shot, from url: URL) {
+        let video = VideoFile(
+            filename: url.lastPathComponent,
+            filepath: url.path,
+            generationDate: DateFormatter().string(from: Date()),
+            qualityRating: nil,
+            notes: ""
+        )
+        
+        video.isSelected = false // Not selected by default
+        shot.videos.append(video)
+        shot.markDirty()
+        
+        print("📹 Added additional video to \(shot.shotId): \(video.filename)")
+    }
+    
+    func selectVideo(_ video: VideoFile, for shot: Shot) {
+        shot.selectVideo(video)
+        currentVideo = video
+        
+        print("🎯 Selected video for \(shot.shotId): \(video.filename)")
+    }
+}
+
+// MARK: - Updated Video Row with Selection
+
+struct VideoRowView: View {
+    @ObservedObject var video: VideoFile
+    let isCurrentVideo: Bool
+    let isSelected: Bool
+    let onSelect: () -> Void
+    let onSetSelected: () -> Void
+    let onDelete: () -> Void
+    
+    var body: some View {
+        HStack {
+            // Selection indicator
+            Button {
+                onSetSelected()
+            } label: {
+                Image(systemName: isSelected ? "checkmark.circle.fill" : "circle")
+                    .foregroundColor(isSelected ? .blue : .gray)
+            }
+            .buttonStyle(PlainButtonStyle())
+            
+            VStack(alignment: .leading, spacing: 2) {
+                Text(video.filename)
+                    .font(.caption)
+                    .fontWeight(.medium)
+                    .lineLimit(1)
+                
+                if let rating = video.qualityRating {
+                    HStack {
+                        Text("★")
+                            .foregroundColor(.yellow)
+                        Text("\(rating, specifier: "%.1f")")
+                            .font(.caption2)
+                    }
+                }
+                
+                Text(video.generationDate)
+                    .font(.caption2)
+                    .foregroundColor(.secondary)
+            }
+            
+            Spacer()
+            
+            // Play button
+            Button {
+                onSelect()
+            } label: {
+                Image(systemName: isCurrentVideo ? "pause.fill" : "play.fill")
+            }
+            .buttonStyle(PlainButtonStyle())
+            
+            // Delete button
+            Button {
+                onDelete()
+            } label: {
+                Image(systemName: "trash")
+                    .foregroundColor(.red)
+            }
+            .buttonStyle(PlainButtonStyle())
+        }
+        .padding(.vertical, 4)
+        .padding(.horizontal, 8)
+        .background(
+            RoundedRectangle(cornerRadius: 4)
+                .fill(isCurrentVideo ? Color.blue.opacity(0.1) : Color.clear)
+        )
+        .onDrag {
+            NSItemProvider(contentsOf: URL(fileURLWithPath: video.filepath)) ?? NSItemProvider()
+        }
+    }
+}
+
+// MARK: - Timeline with Aggregated Selected Videos
+
+struct EnhancedTimelineView: View {
+    @ObservedObject var timelineManager: TimelineManager
+    let shots: [Shot]
+    @Binding var selectedShot: Shot?
+    @State private var currentVideoIndex: Int = 0
+    
+    var body: some View {
+        VStack(spacing: 8) {
+            // Timeline info
+            HStack {
+                Text("FILM TIMELINE")
+                    .font(.subheadline)
+                    .fontWeight(.semibold)
+                
+                Spacer()
+                
+                Text("Videos: \(videoShotCount)/\(shots.count) shots")
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+            }
+            .padding(.horizontal)
+            
+            // Playback controls
+            HStack {
+                Button("◀◀") {
+                    timelineManager.seekTo(time: 0)
+                }
+                
+                Button {
+                    if timelineManager.isPlaying {
+                        timelineManager.pauseTimeline()
+                    } else {
+                        timelineManager.playOnlySelectedVideos()
+                    }
+                } label: {
+                    Image(systemName: timelineManager.isPlaying ? "pause.fill" : "play.fill")
+                }
+                
+                Button("▶▶") {
+                    timelineManager.jumpToNextVideoShot()
+                }
+                
+                Spacer()
+                
+                Toggle("Follow Timeline", isOn: $timelineManager.shouldFollowTimeline)
+                    .font(.caption)
+                
+                Text(formatTime(timelineManager.currentTime))
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+            }
+            .padding(.horizontal)
+            
+            // Timeline scrubber with shot markers
+            TimelineScrubberView(
+                timelineManager: timelineManager,
+                shots: shots,
+                selectedShot: $selectedShot
+            )
+            .padding(.horizontal)
+        }
+        .onAppear {
+            updateTimelineFromSelectedVideos()
+        }
+        .onChange(of: shots) { _ in
+            updateTimelineFromSelectedVideos()
+        }
+        .onChange(of: shots.map { $0.selectedVideo?.id }) { _ in
+            updateTimelineFromSelectedVideos()
+        }
+    }
+    
+    private var videoShotCount: Int {
+        shots.filter { $0.selectedVideo != nil }.count
+    }
+    
+    private func updateTimelineFromSelectedVideos() {
+        timelineManager.setupTimelineFromSelectedVideos(shots)
+    }
+    
+    private func formatTime(_ seconds: Double) -> String {
+        let minutes = Int(seconds) / 60
+        let remainingSeconds = Int(seconds) % 60
+        return String(format: "%02d:%02d", minutes, remainingSeconds)
+    }
+}
+
+struct TimelineScrubberView: View {
+    @ObservedObject var timelineManager: TimelineManager
+    let shots: [Shot]
+    @Binding var selectedShot: Shot?
+    
+    var body: some View {
+        VStack(spacing: 4) {
+            // Main timeline track
+            GeometryReader { geometry in
+                ZStack(alignment: .leading) {
+                    // Background
+                    RoundedRectangle(cornerRadius: 4)
+                        .fill(Color.gray.opacity(0.3))
+                        .frame(height: 8)
+                    
+                    // Progress
+                    RoundedRectangle(cornerRadius: 4)
+                        .fill(Color.blue)
+                        .frame(
+                            width: progressWidth(geometry.size.width),
+                            height: 8
+                        )
+                    
+                    // Shot markers
+                    ForEach(timelineManager.shotMarkers) { marker in
+                        TimelineMarkerView(
+                            marker: marker,
+                            totalDuration: timelineManager.totalDuration,
+                            timelineWidth: geometry.size.width,
+                            isSelected: selectedShot?.shotId == marker.shotId,
+                            onSelect: {
+                                selectShotFromMarker(marker)
+                            }
+                        )
+                    }
+                    
+                    // Playhead
+                    Circle()
+                        .fill(Color.blue)
+                        .frame(width: 12, height: 12)
+                        .offset(x: progressWidth(geometry.size.width) - 6)
+                        .gesture(
+                            DragGesture()
+                                .onChanged { value in
+                                    let newTime = min(max(0, (value.location.x / geometry.size.width) * timelineManager.totalDuration), timelineManager.totalDuration)
+                                    timelineManager.seekTo(time: newTime)
+                                    
+                                    if timelineManager.shouldFollowTimeline {
+                                        updateSelectedShotFromTime(newTime)
+                                    }
+                                }
+                        )
+                }
+                .onTapGesture { location in
+                    let newTime = (location.x / geometry.size.width) * timelineManager.totalDuration
+                    timelineManager.seekTo(time: newTime)
+                    updateSelectedShotFromTime(newTime)
+                }
+            }
+            .frame(height: 20)
+            
+            // Shot labels
+            HStack {
+                ForEach(timelineManager.shotMarkers.filter { $0.hasVideo }) { marker in
+                    Text(marker.shotId)
+                        .font(.caption2)
+                        .foregroundColor(selectedShot?.shotId == marker.shotId ? .blue : .primary)
+                        .frame(width: markerWidth(marker, totalWidth: 300))
+                }
+            }
+        }
+    }
+    
+    private func progressWidth(_ totalWidth: CGFloat) -> CGFloat {
+        if timelineManager.totalDuration > 0 {
+            return (timelineManager.currentTime / timelineManager.totalDuration) * totalWidth
+        }
+        return 0
+    }
+    
+    private func markerWidth(_ marker: TimelineManager.ShotMarker, totalWidth: CGFloat) -> CGFloat {
+        (marker.duration / timelineManager.totalDuration) * totalWidth
+    }
+    
+    private func selectShotFromMarker(_ marker: TimelineManager.ShotMarker) {
+        timelineManager.seekTo(time: marker.timePosition)
+        if let shot = shots.first(where: { $0.shotId == marker.shotId }) {
+            selectedShot = shot
+        }
+    }
+    
+    private func updateSelectedShotFromTime(_ time: Double) {
+        if let shotId = timelineManager.getShotAtTime(time),
+           let shot = shots.first(where: { $0.shotId == shotId }) {
+            selectedShot = shot
+        }
+    }
+}
+
+struct TimelineMarkerView: View {
+    let marker: TimelineManager.ShotMarker
+    let totalDuration: Double
+    let timelineWidth: CGFloat
+    let isSelected: Bool
+    let onSelect: () -> Void
+    
+    var body: some View {
+        Rectangle()
+            .fill(markerColor)
+            .frame(
+                width: max(2, markerWidth),
+                height: 12
+            )
+            .offset(x: markerPosition)
+            .onTapGesture {
+                onSelect()
+            }
+            .help("Shot \(marker.shotId)" + (marker.hasVideo ? " (has video)" : ""))
+    }
+    
+    private var markerWidth: CGFloat {
+        (marker.duration / totalDuration) * timelineWidth
+    }
+    
+    private var markerPosition: CGFloat {
+        (marker.timePosition / totalDuration) * timelineWidth
+    }
+    
+    private var markerColor: Color {
+        if isSelected {
+            return .blue
+        } else if marker.hasVideo {
+            return .green.opacity(0.8)
+        } else {
+            return .gray.opacity(0.4)
+        }
+    }
+}

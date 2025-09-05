@@ -1,0 +1,19 @@
+SHOT 1: COSMIC ABANDONMENT
+Progressive State: House 12/min | KlettagjÃ¡ none | No contamination | Camera frost 0% | Sorting none | LandvÃ¦ttir sleeping
+[OPENING SHOT - No stitch]
+
+Subject: Night sky 5000 feet above Iceland's Westfjords showing green aurora borealis ribbons physically retracting upward like fingers releasing their grip, while three black ravens circle counterclockwise exactly where the camera descends, their bodies visible only as moving voids blocking stars, each raven precisely 10 feet apart forming a perfect triangle.
+
+Action: Pure vertical descent at 10 feet per second through polar atmosphere. Aurora ribbons pull upward in real-time, green light draining from lower atmosphere leaving black void below. The three ravens maintain perfect triangular formation, circling the descent path, wings beating once every 2 seconds. At 3000 feet altitude, British trawler GRIMSBY PRIDE becomes visible in pack ice, its 200-foot hull curved in serpent coil, two yellow navigation lights positioned like eyes, smoke stack releasing black smoke that doesn't disperse but hangs like a dark tongue. At 1000 feet, single turf house visible, chimney smoke bent horizontal by wind, smoke pulsing out in visible bursts every 5 seconds (12 per minute), each pulse 3 feet long before wind tears it apart.
+
+Scene: February 13, 1888, 4:47 AM, complete polar darkness except aurora and stars. Temperature -18Â°C at altitude, visible as ice crystals forming on camera lens edges. Pack ice covers sea in geometric plates, white surfaces with black water channels between. No moon. Stars shifted 15 degrees counterclockwise from normal positions. House sits in complete isolation - no roads, no paths, no fence lines, just converging sheep tracks in snow forming five spiral patterns. Mountains invisible but their presence felt as wind funnel. Trawler's position exactly 1.3 nautical miles offshore, hull black against white ice, no other vessels visible to horizon.
+
+Style: Straight vertical descent, camera dropping through atmosphere (that's where the camera is), 14mm ultra-wide lens capturing full environment, no lateral movement, no tilting, pure downward observation like documentary drone footage before drones existed.
+
+Dialogue: (Dark male voice, off-screen): "Krummi svaf Ã­ klettagjÃ¡, kaldri vetrarnÃ³ttu Ã¡" (Tone: bass register, each syllable takes 0.5 seconds, breath visible as white vapor that freezes and falls as ice crystals)
+
+Sounds: Three distinct wind layers at different altitudes (500Hz high altitude, 800Hz mid-altitude, 1200Hz approaching ground), dark male voice with natural mountain echo, pack ice grinding continuously at 20Hz, trawler engine constant 40Hz pulse, three raven wings creating leather-on-air sound every 2 seconds, no music.
+
+Technical (Negative Prompt): no subtitles, no text overlays, no lens flares, no purple colors in aurora, no modern lights, no contrails, maintain pure 1888 environment
+
+-

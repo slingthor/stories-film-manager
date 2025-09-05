@@ -1,0 +1,62 @@
+{
+  "shot_metadata": {
+    "id": "60a",
+    "name": "FLIGHT_WITH_GAMMUR___ACROSS_TIME_8_SECONDS",
+    "title": "FLIGHT WITH GAMMUR - ACROSS TIME 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "Flying free | Camera frost 54.5% | Time traversing...",
+    "stitch_from": "[STITCH from Shot 59c: Gammur's touch, transformation complete]"
+  },
+  "progressive_state": "Flying free | Camera frost 54.5% | Time traversing | Watching: Sky witnesses all",
+  "prompt_variants": [
+    {
+      "variant_id": "60a_story_primary",
+      "variant_name": "Primary - FLIGHT WITH GAMMUR - ACROSS TIME 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[SIGRID]-raven flying alongside GAMMUR across Iceland's landscape but each wingbeat takes them through different time - over 1888's frozen fjords, through 1944's independence celebration, past 2024's tourist buses at the black obelisk, all in single flight.",
+      "action": "AERIAL TRACKING both ravens. Gammur leads, massive wings cutting through time itself. Each downbeat: different era. First beat: 1888 below, frozen fjord, trawler still circling in eternal ouroboros (frozen in ice). Second beat: 1904, Danish administration buildings rising. Third beat: 1920, Sigrid laying her egg on cathedral roof - the human child emerging from raven egg. Fourth beat: 1940, British occupation, tanks replacing Danish clerks. Fifth beat: 1944, June 17, independence day, crowds cheering, Sigrid (aged 72, human again) in crowd, looking up, SEEING her younger raven self flying over, remembering. Sixth beat: 2024, the obelisk a tourist destination, children on school trips, guides explaining \"the family preserved inside represents colonial sacrifice.\" Seventh beat: future unknown, Iceland green, warm, different. Gammur speaks while flying: \"Ãžetta er Ã¾aÃ° sem Ã¾Ãº verÃ°ur aÃ° muna\" (This is what you must remember). All of it. Every moment. The witness carries all.",
+      "scene": "Flying across all Iceland times. Landscape changing below. History visible. Future glimpsed.",
+      "style": "Aerial tracking through time (that's where the camera is), memory flight documented.",
+      "camera_position": "Aerial tracking through time",
+      "dialogue": "(Gammur): \"Ãžetta er Ã¾aÃ° sem Ã¾Ãº verÃ°ur aÃ° muna\" (Sigrid, 1944): Looking up: \"Ã‰g man\" (I remember)",
+      "audio": {
+        "primary": [
+          "Wings through time",
+          "different eras below",
+          "temporal wind"
+        ],
+        "ambient": [
+          "Each era's sounds (1888 wind",
+          "1944 celebration",
+          "2024 tourism)"
+        ],
+        "absent": [
+          "no single timeline"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "No longer human to be silent",
+    "triple_reality": "Physical: ravens flying | Psychological: freedom achieved | Mythological: landvÃ¦ttir guiding"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

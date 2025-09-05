@@ -1,0 +1,62 @@
+{
+  "shot_metadata": {
+    "id": "53c",
+    "name": "BERGRISI_CHOOSES_SIGRID___THE_PROMISE_8_SECONDS",
+    "title": "BERGRISI CHOOSES SIGRID - THE PROMISE 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "Giant choosing | Escape promised | Camera frost 44...",
+    "stitch_from": "[STITCH from Shot 53b: House dying confession]"
+  },
+  "progressive_state": "Giant choosing | Escape promised | Camera frost 44% | Love revealed | Watching: House loves her",
+  "prompt_variants": [
+    {
+      "variant_id": "53c_story_primary",
+      "variant_name": "Primary - BERGRISI CHOOSES SIGRID - THE PROMISE 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The house speaking directly to [SIGRID]: \"ÃžÃº ert Ãsland... Ã¾Ãº munt lifa... vertu Krummi\" while the ceiling cracks open above her sleeping platform, revealing stars, creating her escape route, as [MAGNÃšS] realizes the house has chosen her over him.",
+      "action": "House focuses on Sigrid. Different voice now - tender, paternal. \"ÃžÃš ERT ÃSLAND.\" MagnÃºs staggers back, hand leaving her shoulder. House protecting her. \"ÃžÃš MUNT LIFA.\" CRANE UP as ceiling above her platform begins cracking. Not collapsing - opening. Like flower blooming. Stars visible through widening gap. Cold air enters but doesn't touch her - house creates warm air bubble around her. \"VERTU KRUMMI.\" (Become raven.) The black feather in her hand begins glowing slightly. Through opening: seven ravens circling, waiting. The klettagjÃ¡ (rocky cleft) forming - her escape route. But also transformation site. MagnÃºs rages: \"NEI! HÃšN ER MÃN!\" Tries to grab her. Floor becomes liquid beneath him, swallows his feet to ankles. House holds him. Protects her. Loves her. She is Iceland. She will witness. She will escape. The ceiling continues opening - 3 feet wide now. Stars bright. Freedom visible.",
+      "scene": "Ceiling opening above Sigrid. Stars and ravens visible. MagnÃºs trapped by floor. Divine selection.",
+      "style": "Crane up following ceiling opening (that's where the camera is), escape route documented.",
+      "camera_position": "Crane up following ceiling opening",
+      "dialogue": "(House to Sigrid): \"ÃžÃº ert Ãsland... Ã¾Ãº munt lifa...\" \"Vertu Krummi\" (MagnÃºs, raging): \"NEI! HÃšN ER MÃN!\"",
+      "audio": {
+        "primary": [
+          "Ceiling cracking open",
+          "stars singing",
+          "ravens circling"
+        ],
+        "ambient": [
+          "Floor liquifying",
+          "MagnÃºs trapped",
+          "house protecting"
+        ],
+        "absent": [
+          "no stopping destiny"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "no collapse, opening not destruction, show stars clearly",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Sigrid receives silently",
+    "triple_reality": "Physical: door opening | Psychological: path revealed | Mythological: god's blessing"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

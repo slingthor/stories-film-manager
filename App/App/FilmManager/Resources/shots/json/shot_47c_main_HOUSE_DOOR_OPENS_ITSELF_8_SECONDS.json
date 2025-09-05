@@ -1,0 +1,59 @@
+{
+  "shot_metadata": {
+    "id": "47c",
+    "name": "HOUSE_DOOR_OPENS_ITSELF_8_SECONDS",
+    "title": "HOUSE DOOR OPENS ITSELF 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House recognizing her | Door sentient | Camera fro...",
+    "stitch_from": "[STITCH from Shot 47b: Approaching house, breathing desynchronized]"
+  },
+  "progressive_state": "House recognizing her | Door sentient | Camera frost 35.5% | Giant chooses | Watching: House decides",
+  "prompt_variants": [
+    {
+      "variant_id": "47c_story_primary",
+      "variant_name": "Primary - HOUSE DOOR OPENS ITSELF 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "As [GUÃRÃšN] approaches the house, the door opens by itself before she reaches it - not wind but the house choosing to admit her, while through windows the family is visible frozen in tableau, watching her impossible return from death sentence.",
+      "action": "GuÃ°rÃºn 10 meters from door. Reaches for handle. Door OPENS inward before contact. Not wind - deliberate, slow, controlled. Like someone inside opening, but family visible through window, no one near door. All frozen in rÃ©ttir positions still, watching her approach. PUSH IN on door gap widening. Steam exits - house is warmer than outside, 37Â°C at floor (body temperature). Door opens exactly wide enough for her to enter, no more. House breathing accelerates seeing her: 16/min to 18/min, excited or panicked. Through doorway: family arranged as before. MagnÃºs standing separate, face showing shock - she survived his death sentence. Children on floor, JÃ³n's sheep teeth more visible. Sigrid still exactly 11 feet from MagnÃºs, hand on belly, only one unsurprised. Tilberi at center, brass eye turning toward door. Empty clothes have moved - now standing in formation behind family, sixth presence confirmed. Door waits. Patient. She steps through. Door closes itself behind her. Gentle. House has chosen. Bergrisi protecting her from MagnÃºs's next violence.",
+      "scene": "House exterior to interior, 10:15 AM. Door acting autonomously. Family tableau visible. Temperature differential visible as steam.",
+      "style": "Push in on sentient door, revealing interior tableau (that's where the camera is), house agency documented.",
+      "camera_position": "Push in on sentient door, revealing interior tableau",
+      "dialogue": "(MagnÃºs, shocked): \"ÃžÃº... lifÃ°ir?\" (Sigrid, unsurprised): \"HÃºsiÃ° valdi\" (The house chose) (Door): Creaking in greeting rhythm",
+      "audio": {
+        "primary": [
+          "Door opening controlled",
+          "steam exiting",
+          "door closing gently"
+        ],
+        "ambient": [
+          "House breathing 18/min excited",
+          "family frozen breathing",
+          "tilberi's three rhythms"
+        ],
+        "absent": [
+          "no wind cause",
+          "deliberate action"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no wind causation, show door's deliberate movement, maintain tableau",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Accepted without words",
+    "triple_reality": "Physical: wind opens door | Psychological: house wants her | Mythological: Bergrisi choosing who enters"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

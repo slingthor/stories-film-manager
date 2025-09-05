@@ -1,0 +1,22 @@
+SHOT 31: THE GROWING WRONG (8 SECONDS)
+Progressive State: House 4/min dying + 80bpm | Tilberi expanding | Camera frost 20% | Family paralyzed | Watching: Four landvÃ¦ttir through windows
+Women's Silence: GuÃ°rÃºn finally speaks
+Triple Reality: Physical: impossible growth / Psychological: maternal horror / Mythological: contamination feeding
+Duration: 8 seconds
+[STITCH from Shot 30: MagnÃºs pulling taut line, house situation parallel]
+
+Subject: Inside the house, the contaminated tilberi has grown from cat-size to lamb-size in minutes, feeding on industrial contamination in the air itself, its rope-skeleton stretching beneath translucent skin while [SIGRID] reaches toward it with maternal instinct despite its wrongness, and [GUÃRÃšN] finally breaks her silence: "Drepa Ã¾aÃ°!" (Kill it!)
+
+Action: The tilberi-thing has doubled in size. Rope skeleton visible stretching, hemp fibers separating and multiplying like cell division. Brass button eye now size of child's fist, green tears burning channels in floor. It stands on appendages that are neither legs nor mechanical supports - something between. When it moves, sound of rope under tension mixed with lamb's bleat. Breathing still three rhythms: 8/min, 12/min, 20/min creating constant motion. It approaches Sigrid, recognizing creator. She reaches toward it, hand protective on belly - two children, one inside, one outside but wrong. It nuzzles her hand. Where it touches, her skin shows black veins spreading up wrist (contamination transfer). GuÃ°rÃºn grabs fire poker, raises it, speaks for first time since MagnÃºs left: "Drepa Ã¾aÃ° Ã¡Ã°ur en Ã¾aÃ°..." (Kill it before it...). But Sigrid shields it with her body. Through windows, four landvÃ¦ttir watching: trawler lights, steam from polynya, house wall breathing, raven shadows circling. The creature feeds on their attention, growing.
+
+Scene: Interior, 9:10 AM but dark from landvÃ¦ttir presence. Temperature -23Â°C. Tilberi now lamb-sized, still growing. Black contamination veins spreading up Sigrid's arm. Family frozen except GuÃ°rÃºn.
+
+Style: Medium shot showing creature's size and family's positions, contamination spreading visible (that's where the camera is), documentary of wrong motherhood.
+
+Dialogue: (GuÃ°rÃºn, breaking silence): "Drepa Ã¾aÃ°!" (Kill it!) "ÃžaÃ° er ekki nÃ¡ttÃºrulegt!" (It's not natural!) (Sigrid, protective): "ÃžaÃ° er mitt barn" (It's my child)
+
+Sounds: [PRIMARY: Rope skeleton stretching, brass tears sizzling floor, three-rhythm breathing] [AMBIENT: House dying at 4/min, four landvÃ¦ttir present outside, contamination spreading audibly] [ABSENT: no natural growth sounds, wrong expansion]
+
+Technical (Negative Prompt): no subtitles, show industrial skeleton through skin, contamination spreading, documentary observation
+
+-

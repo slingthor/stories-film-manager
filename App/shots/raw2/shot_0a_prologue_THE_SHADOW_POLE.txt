@@ -1,0 +1,11 @@
+SHOT 0a: THE SHADOW POLE
+Progressive State: Memory initialization | Landscape pulsing | Camera frost 0% | Archive opening | Watching: We enter
+Duration: 8 seconds
+[NO STITCH - OPENING]
+Subject: A tall piece of grey driftwood standing vertical on a grass-covered headland, rope wrapped around its top section, casting a shadow 200 feet long across green hills while the ocean behind shows red tints under blue surface and purple berries cover distant slopes.
+Action: Camera starts 100 feet above pole, descending slowly. The pole is 8 feet tall, weathered grey driftwood, standing perfectly vertical. Old rope wraps the top 2 feet, frayed ends moving slightly. The shadow stretches far beyond natural length - reaching 200 feet across grass. Ocean in background rises 3 feet, holds for 2 seconds, drops 3 feet. No wind causing this movement. Purple-black berries on distant hills appear wet, juice dripping down leaves. Cliffs to the right glow golden in horizontal morning sunlight. At pole's base, grass shows three distinct stains in soil - red circle, purple circle, gold circle, each 3 feet wide. Camera continues descent, now 50 feet above pole. Shadow moves independently of sun position, rotating slowly clockwise.
+Scene: Headland in Westfjords, 5 AM June morning. Ocean 300 feet beyond pole. Berry-covered hills to left. Golden cliffs to right. Green grass everywhere. Clear sky, sun just above horizon.
+Style: Aerial descent toward pole, camera moving straight down (that's where the camera is), slow smooth movement, wide lens showing all terrains.
+Dialogue: None
+Sounds: [PRIMARY: Ocean water rising and falling, berries dripping juice, rope creaking] [AMBIENT: Grass rustling, distant water movement] [ABSENT: wind, birds]
+Technical (Negative Prompt): no text overlays, no modern elements, show 200-foot shadow, three colored stains visible, 1080p

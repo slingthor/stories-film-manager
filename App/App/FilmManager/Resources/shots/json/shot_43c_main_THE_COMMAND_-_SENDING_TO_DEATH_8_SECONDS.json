@@ -1,0 +1,59 @@
+{
+  "shot_metadata": {
+    "id": "43c",
+    "name": "THE_COMMAND___SENDING_TO_DEATH_8_SECONDS",
+    "title": "THE COMMAND - SENDING TO DEATH 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 3/min struggling | Command given | Camera fr...",
+    "stitch_from": "[STITCH from Shot 43b: Violence complete, GuÃ°rÃºn on knees]"
+  },
+  "progressive_state": "House 3/min struggling | Command given | Camera frost 29.5% | Death sentence | Watching: All understand",
+  "prompt_variants": [
+    {
+      "variant_id": "43c_story_primary",
+      "variant_name": "Primary - THE COMMAND - SENDING TO DEATH 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[MAGNÃšS] standing over kneeling [GUÃRÃšN], pointing with cane toward door and storm beyond, commanding her to gather seaweed in -30Â°C darkness, both knowing this is death sentence but her rising anyway, pulling wool from her wrists to wrap as futile protection.",
+      "action": "MagnÃºs points cane at door. Storm visible through cracks - horizontal snow, darkness despite morning. \"Ãžarann. SafnaÃ°u Ã¾ara.\" (Seaweed. Gather seaweed.) GuÃ°rÃºn on knees, face unseen, but hands visible pulling more wool from wrists - now 20mm long, enough to wrap around fingers for warmth that won't help. Rises slowly. No protest. 40 miles to anyone who might say this is wrong. But no one to teach him it's wrong either - isolation has erased morality, leaving only power. PUSH IN on her face as she stands. Not beaten look but... accepting. This is the only escape offered. Death in storm better than death inside. Children watch. Sigrid maintains exactly 11 feet from MagnÃºs, hand on belly, calculating. If GuÃ°rÃºn dies, she's next for breeding. The incest made inevitable by isolation. GuÃ°rÃºn moves to door. Takes sealskin cloak, useless against this cold. Oil lamp fragments for light, will die in wind. Opens door. Storm enters. She exits. Door closes.",
+      "scene": "Interior command, storm visible. GuÃ°rÃºn's preparation futile. Family watching her accept death sentence.",
+      "style": "Push in on her face showing acceptance of death as escape (that's where the camera is), documentary of isolation murder.",
+      "camera_position": "Push in on her face showing acceptance of death as escape",
+      "dialogue": "(MagnÃºs): \"Ãžarann. SafnaÃ°u Ã¾ara. NÃšNA.\" (GuÃ°rÃºn): Silent acceptance, only breathing (Sigrid, whispered): \"HÃºn kemur ekki aftur\" (She won't come back)",
+      "audio": {
+        "primary": [
+          "Cane pointing",
+          "wool being pulled",
+          "door opening to storm"
+        ],
+        "ambient": [
+          "Storm entering briefly",
+          "house breathing labored",
+          "children's sheep breathing"
+        ],
+        "absent": [
+          "no protest",
+          "no goodbye"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "maintain push in, show storm reality, no sentiment",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "GuÃ°rÃºn accepts without words",
+    "triple_reality": "Physical: sent to storm | Psychological: murder by weather | Mythological: sacrifice demanded"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

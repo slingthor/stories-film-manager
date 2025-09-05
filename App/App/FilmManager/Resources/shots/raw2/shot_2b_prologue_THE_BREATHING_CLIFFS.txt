@@ -1,0 +1,11 @@
+SHOT 2b: THE BREATHING CLIFFS
+Progressive State: Cliff approach | Ancient paths | Camera frost 0% | Height revealed | Watching: Earth opens
+Duration: 8 seconds
+[STITCH from Shot 2a: MagnÃºs and JÃ³n climbing path]
+Subject: [MAGNÃšS] and [JÃ“N] climbing a narrow dirt path up 300-foot cliff face, the black rock wall covered with thousands of nesting seabirds, patches of green grass clinging to ledges, rope coiled over MagnÃºs's shoulder.
+Action: MagnÃºs leads up steep path, boots finding holds in dirt. JÃ³n follows 6 feet behind, smaller feet careful on loose stones. Path only 2 feet wide, cliff wall on right, drop on left. Seabirds cover every ledge - puffins with orange beaks, guillemots in rows, kittiwakes clustered. Birds shift as humans pass but don't fly. Too many birds - every square foot of cliff has nests. Path turns sharply. View opens showing full cliff height - 300 feet vertical black basalt columns. In cliff face, regular holes appear, 2 feet diameter, perfectly round. Some holes have golden light inside despite sun angle wrong. MagnÃºs's breathing steady. JÃ³n breathing harder, stops to rest. MagnÃºs waits without turning. Boy starts climbing again. Near path, eggs visible in nests - pure white, no spots, glowing faintly in shadow.
+Scene: Cliff face, morning. Path zigzagging up basalt columns. Ocean 200 feet below. Millions of seabirds. Clear morning light.
+Style: Following shot behind climbers showing path and cliff face (that's where the camera is), handheld matching climbing movement.
+Dialogue: None
+Sounds: [PRIMARY: Boots on dirt path, loose stones falling, rope creaking on shoulder] [AMBIENT: Millions of birds shuffling, wind beginning at height, ocean far below] [ABSENT: birds calling loudly]
+Technical (Negative Prompt): no subtitles, show massive cliff scale, birds covering every surface, golden light in holes, 1080p

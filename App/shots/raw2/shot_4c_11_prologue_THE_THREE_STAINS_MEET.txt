@@ -1,0 +1,11 @@
+SHOT 4c/11: THE THREE STAINS MEET
+Progressive State: Liquids converging | Prophecy forming | Camera frost 0% | Marking beginning | Watching: Colors blend
+Duration: 8 seconds
+[STITCH from Shot 4b/10: Children's bone game]
+Subject: Ground view where three liquid trails meet - red whale blood seeping up from beach, purple berry juice running down from hills, golden egg yolk dripping from cliff rocks, the three colors mixing to form dark brown-black stain spreading across grass.
+Action: Camera at ground level. Red blood creeps uphill from beach through grass, defying gravity. Purple juice flows down from berry hills in small streams. Golden yolk drips from cliff, hits rocks, runs sideways toward center. Three liquids meet at single point in grass. Where they touch, they don't blend immediately - swirl around each other like oil and water. Then suddenly mix, creating brown-black stain. Stain spreads outward in perfect circle, 10 feet diameter. Grass dies instantly where stain touches. In the dead grass, pattern emerges - looks like face, then sheep head, then human face again. Children's abandoned knucklebones sit in center of stain. Bones turn brown-black. Start to sink into earth. One child runs back for bones, steps in stain. Foot comes away marked. Brown-black won't wipe off. Child looks at foot, laughs, runs away. Stain continues spreading.
+Scene: Grassy area between beach, cliffs, and hills. Midday. Three terrains visible. Stain spreading in center.
+Style: Ground-level shot looking across stain formation (that's where the camera is), liquids converging visible.
+Dialogue: None
+Sounds: [PRIMARY: Liquids flowing and mixing, grass dying with hissing sound, bones sinking] [AMBIENT: Child laughing, stain spreading with wet sound] [ABSENT: adult concern, wind]
+Technical (Negative Prompt): no subtitles, show three liquids meeting, brown-black stain spreading, pattern forming, 1080p

@@ -1,0 +1,520 @@
+import Foundation
+import Combine
+
+class JSONManager: ObservableObject {
+    static let shared = JSONManager()
+    
+    private let documentsPath = "/Users/ingthor/Documents/stories/App"
+    private var autoSaveTimer: Timer?
+    private var saveDebounceTimer: Timer?
+    
+    // MARK: - Initialization and File Copying
+    
+    func initializeWorkspace() {
+        copyMainSystemFile()
+        copyAllShotFiles()
+        setupAutoSave()
+    }
+    
+    private func copyMainSystemFile() {
+        let timestamp = createTimestamp()
+        let sourceFile = "\(documentsPath)/main_film_system.json"
+        let destFile = "\(documentsPath)/main_film_system_\(timestamp).json"
+        
+        do {
+            // Check if source exists
+            guard FileManager.default.fileExists(atPath: sourceFile) else {
+                print("❌ Source main system file not found: \(sourceFile)")
+                return
+            }
+            
+            // Copy to timestamped version
+            try FileManager.default.copyItem(atPath: sourceFile, toPath: destFile)
+            print("✅ Copied main system: main_film_system_\(timestamp).json")
+            
+            // Update current working file reference
+            UserDefaults.standard.set("main_film_system_\(timestamp).json", forKey: "currentMainSystemFile")
+            
+        } catch {
+            print("❌ Error copying main system: \(error)")
+        }
+    }
+    
+    private func copyAllShotFiles() {
+        let timestamp = createTimestamp()
+        let sourceDir = "\(documentsPath)/shots/json"
+        let workingDir = "\(documentsPath)/shots/working"
+        
+        do {
+            // Create working directory if needed
+            if FileManager.default.fileExists(atPath: workingDir) {
+                try FileManager.default.removeItem(atPath: workingDir)
+            }
+            try FileManager.default.createDirectory(atPath: workingDir, withIntermediateDirectories: true)
+            
+            // Copy all shot files
+            let fileURLs = try FileManager.default.contentsOfDirectory(at: URL(fileURLWithPath: sourceDir), includingPropertiesForKeys: nil)
+            
+            var copiedCount = 0
+            for fileURL in fileURLs where fileURL.pathExtension == "json" {
+                let destURL = URL(fileURLWithPath: workingDir).appendingPathComponent(fileURL.lastPathComponent)
+                try FileManager.default.copyItem(at: fileURL, to: destURL)
+                copiedCount += 1
+            }
+            
+            print("✅ Copied \(copiedCount) shot files to working directory")
+            
+            // Save timestamp for this session
+            UserDefaults.standard.set(timestamp, forKey: "currentSessionTimestamp")
+            
+        } catch {
+            print("❌ Error copying shot files: \(error)")
+        }
+    }
+    
+    // MARK: - Auto-save System
+    
+    private func setupAutoSave() {
+        // Auto-save every 10 seconds
+        autoSaveTimer = Timer.scheduledTimer(withTimeInterval: 10.0, repeats: true) { _ in
+            self.performAutoSave()
+        }
+    }
+    
+    func performAutoSave() {
+        print("💾 Auto-saving...")
+        // Auto-save logic will be implemented when data models are connected
+    }
+    
+    func saveWithDebounce() {
+        // Cancel existing timer
+        saveDebounceTimer?.invalidate()
+        
+        // Create new timer for debounced save
+        saveDebounceTimer = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: false) { _ in
+            self.performAutoSave()
+        }
+    }
+    
+    // MARK: - Shot Loading and Saving
+    
+    func loadShot(filename: String) -> Shot? {
+        let workingDir = "\(documentsPath)/shots/working"
+        let filepath = "\(workingDir)/\(filename)"
+        
+        do {
+            let data = try Data(contentsOf: URL(fileURLWithPath: filepath))
+            
+            // Custom decoder to handle the JSON structure
+            let decoder = JSONDecoder()
+            decoder.keyDecodingStrategy = .convertFromSnakeCase
+            
+            let shotData = try decoder.decode(ShotJSONStructure.self, from: data)
+            return convertToShot(from: shotData)
+            
+        } catch {
+            print("❌ Error loading shot \(filename): \(error)")
+            return nil
+        }
+    }
+    
+    func saveShot(_ shot: Shot) {
+        let workingDir = "\(documentsPath)/shots/working"
+        let filename = "\(shot.shotId)_\(shot.sequenceType)_\(shot.name).json"
+        let filepath = "\(workingDir)/\(filename)"
+        
+        do {
+            let shotData = convertFromShot(shot)
+            let encoder = JSONEncoder()
+            encoder.outputFormatting = [.prettyPrinted, .sortedKeys]
+            encoder.keyEncodingStrategy = .convertToSnakeCase
+            
+            let data = try encoder.encode(shotData)
+            try data.write(to: URL(fileURLWithPath: filepath))
+            
+            shot.isDirty = false
+            print("✅ Saved shot: \(filename)")
+            
+        } catch {
+            print("❌ Error saving shot \(shot.shotId): \(error)")
+        }
+    }
+    
+    func loadAllShots() -> [Shot] {
+        let workingDir = "\(documentsPath)/shots/working"
+        var loadedShots: [Shot] = []
+        
+        do {
+            let fileURLs = try FileManager.default.contentsOfDirectory(
+                at: URL(fileURLWithPath: workingDir),
+                includingPropertiesForKeys: nil
+            )
+            
+            for fileURL in fileURLs where fileURL.pathExtension == "json" {
+                if let shot = loadShot(filename: fileURL.lastPathComponent) {
+                    loadedShots.append(shot)
+                }
+            }
+            
+            // Sort by film position
+            loadedShots.sort { $0.filmPositionPercentage < $1.filmPositionPercentage }
+            
+            print("✅ Loaded \(loadedShots.count) shots from working directory")
+            
+        } catch {
+            print("❌ Error loading shots directory: \(error)")
+        }
+        
+        return loadedShots
+    }
+    
+    // MARK: - Main System Loading
+    
+    func loadMainSystem() -> FilmSystem? {
+        guard let currentFile = UserDefaults.standard.string(forKey: "currentMainSystemFile") else {
+            print("❌ No current main system file reference")
+            return nil
+        }
+        
+        let filepath = "\(documentsPath)/\(currentFile)"
+        
+        do {
+            let data = try Data(contentsOf: URL(fileURLWithPath: filepath))
+            let decoder = JSONDecoder()
+            
+            // Parse main system JSON structure
+            let mainSystemData = try decoder.decode(MainSystemJSONStructure.self, from: data)
+            return convertToFilmSystem(from: mainSystemData)
+            
+        } catch {
+            print("❌ Error loading main system: \(error)")
+            return nil
+        }
+    }
+    
+    func saveMainSystem(_ system: FilmSystem) {
+        guard let currentFile = UserDefaults.standard.string(forKey: "currentMainSystemFile") else {
+            print("❌ No current main system file to save to")
+            return
+        }
+        
+        let filepath = "\(documentsPath)/\(currentFile)"
+        
+        do {
+            let encoder = JSONEncoder()
+            encoder.outputFormatting = [.prettyPrinted, .sortedKeys]
+            
+            let data = try encoder.encode(system)
+            try data.write(to: URL(fileURLWithPath: filepath))
+            
+            print("✅ Saved main system: \(currentFile)")
+            
+        } catch {
+            print("❌ Error saving main system: \(error)")
+        }
+    }
+    
+    // MARK: - Utility Functions
+    
+    private func createTimestamp() -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy_MM_dd_HH_mm_ss"
+        return formatter.string(from: Date())
+    }
+    
+    // MARK: - JSON Structure Conversion
+    
+    private func convertToShot(from jsonData: ShotJSONStructure) -> Shot {
+        let shot = Shot(
+            shotId: jsonData.shotMetadata.id,
+            name: jsonData.shotMetadata.name,
+            title: jsonData.shotMetadata.title
+        )
+        
+        shot.sequenceType = jsonData.shotMetadata.sequenceType
+        shot.durationSeconds = jsonData.shotMetadata.durationSeconds
+        shot.progressiveState = jsonData.progressiveState
+        shot.stitchFrom = jsonData.shotMetadata.stitchFrom ?? ""
+        
+        // Convert prompt variants
+        for variantData in jsonData.promptVariants {
+            let variant = PromptVariant(
+                variantId: variantData.variantId,
+                variantName: variantData.variantName,
+                intentTags: variantData.intentTags,
+                priority: variantData.priority,
+                subject: variantData.subject,
+                action: variantData.action,
+                scene: variantData.scene,
+                style: variantData.style,
+                cameraPosition: variantData.cameraPosition ?? "",
+                dialogue: variantData.dialogue,
+                audio: AudioSpec(
+                    primary: variantData.audio.primary ?? [],
+                    ambient: variantData.audio.ambient ?? [],
+                    absent: variantData.audio.absent ?? []
+                ),
+                characterPlates: CharacterPlates(
+                    present: variantData.characterPlates?.present ?? [],
+                    referenced: variantData.characterPlates?.referenced ?? []
+                ),
+                environmentalPlates: EnvironmentalPlates(
+                    landscape: variantData.environmentalPlates?.landscape,
+                    weather: variantData.environmentalPlates?.weather,
+                    lighting: variantData.environmentalPlates?.lighting,
+                    sea: variantData.environmentalPlates?.sea
+                ),
+                negativePrompt: variantData.negativePrompt,
+                videoReferences: variantData.videoReferences ?? [],
+                isActive: variantData.isActive ?? false
+            )
+            
+            shot.promptVariants.append(variant)
+        }
+        
+        // Convert others and notes
+        shot.others = jsonData.others ?? [:]
+        shot.notes = jsonData.notes ?? [:]
+        
+        return shot
+    }
+    
+    private func convertFromShot(_ shot: Shot) -> ShotJSONStructure {
+        // Convert Shot back to JSON structure for saving
+        // Implementation would mirror the loading process in reverse
+        return ShotJSONStructure(
+            shotMetadata: ShotMetadata(
+                id: shot.shotId,
+                name: shot.name,
+                title: shot.title,
+                sequenceType: shot.sequenceType,
+                durationSeconds: shot.durationSeconds,
+                stitchFrom: shot.stitchFrom.isEmpty ? nil : shot.stitchFrom
+            ),
+            progressiveState: shot.progressiveState,
+            promptVariants: shot.promptVariants.map { variant in
+                VariantJSONStructure(
+                    variantId: variant.variantId,
+                    variantName: variant.variantName,
+                    intentTags: variant.intentTags,
+                    priority: variant.priority,
+                    subject: variant.subject,
+                    action: variant.action,
+                    scene: variant.scene,
+                    style: variant.style,
+                    cameraPosition: variant.cameraPosition,
+                    dialogue: variant.dialogue,
+                    audio: AudioJSONStructure(
+                        primary: variant.audio.primary,
+                        ambient: variant.audio.ambient,
+                        absent: variant.audio.absent
+                    ),
+                    characterPlates: CharacterPlatesJSON(
+                        present: variant.characterPlates.present,
+                        referenced: variant.characterPlates.referenced
+                    ),
+                    environmentalPlates: EnvironmentalPlatesJSON(
+                        landscape: variant.environmentalPlates.landscape,
+                        weather: variant.environmentalPlates.weather,
+                        lighting: variant.environmentalPlates.lighting,
+                        sea: variant.environmentalPlates.sea
+                    ),
+                    negativePrompt: variant.negativePrompt,
+                    videoReferences: variant.videoReferences,
+                    isActive: variant.isActive
+                )
+            },
+            others: shot.others,
+            notes: shot.notes
+        )
+    }
+    
+    private func convertToFilmSystem(from jsonData: MainSystemJSONStructure) -> FilmSystem {
+        // Convert main system JSON to FilmSystem object
+        let system = FilmSystem()
+        system.title = jsonData.filmMetadata.title
+        system.version = jsonData.filmMetadata.version
+        system.totalShots = jsonData.filmMetadata.totalShots
+        
+        // Convert tracking systems
+        for (key, systemData) in jsonData.trackingSystems {
+            system.trackingSystems[key] = FilmSystem.TrackingSystemData(
+                description: systemData.description,
+                continuousRange: systemData.continuousRange,
+                currentPercentage: systemData.currentPercentage,
+                sliderIncrements: systemData.sliderIncrements,
+                milestoneValues: systemData.milestoneValues,
+                affectsShots: systemData.affectsShots
+            )
+        }
+        
+        return system
+    }
+}
+
+// MARK: - JSON Structure Definitions
+
+struct ShotJSONStructure: Codable {
+    let shotMetadata: ShotMetadata
+    let progressiveState: String
+    let promptVariants: [VariantJSONStructure]
+    let others: [String: String]?
+    let notes: [String: String]?
+}
+
+struct ShotMetadata: Codable {
+    let id: String
+    let name: String
+    let title: String
+    let sequenceType: String
+    let durationSeconds: Int
+    let stitchFrom: String?
+}
+
+struct VariantJSONStructure: Codable {
+    let variantId: String
+    let variantName: String
+    let intentTags: [String]
+    let priority: Int
+    let subject: String
+    let action: String
+    let scene: String
+    let style: String
+    let cameraPosition: String?
+    let dialogue: String
+    let audio: AudioJSONStructure
+    let characterPlates: CharacterPlatesJSON?
+    let environmentalPlates: EnvironmentalPlatesJSON?
+    let negativePrompt: String
+    let videoReferences: [String]?
+    let isActive: Bool?
+}
+
+struct AudioJSONStructure: Codable {
+    let primary: [String]?
+    let ambient: [String]?
+    let absent: [String]?
+}
+
+struct CharacterPlatesJSON: Codable {
+    let present: [String]
+    let referenced: [String]
+}
+
+struct EnvironmentalPlatesJSON: Codable {
+    let landscape: String?
+    let weather: String?
+    let lighting: String?
+    let sea: String?
+}
+
+struct MainSystemJSONStructure: Codable {
+    let filmMetadata: FilmMetadata
+    let trackingSystems: [String: TrackingSystemJSON]
+    let shotFileReferences: ShotFileReferences
+}
+
+struct FilmMetadata: Codable {
+    let title: String
+    let version: String
+    let totalShots: Int
+}
+
+struct TrackingSystemJSON: Codable {
+    let description: String
+    let continuousRange: [Int]
+    let currentPercentage: Double
+    let sliderIncrements: Double
+    let milestoneValues: [String: String]
+    let affectsShots: [String]
+}
+
+struct ShotFileReferences: Codable {
+    let createdShots: [String]
+    let totalCreated: Int
+    let totalNeeded: Int
+    let completionStatus: String
+}
+
+// MARK: - File Management Extensions
+
+extension JSONManager {
+    func saveOnShotChange(_ shot: Shot) {
+        saveShot(shot)
+        saveDebounceTimer?.invalidate()
+        saveDebounceTimer = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: false) { _ in
+            print("💾 Debounced save completed for shot \(shot.shotId)")
+        }
+    }
+    
+    func saveOnReorder(_ shots: [Shot]) {
+        // Save all shots with updated positions
+        for shot in shots {
+            saveShot(shot)
+        }
+        
+        print("💾 Saved shot reordering")
+    }
+    
+    private func saveShot(_ shot: Shot) {
+        let workingDir = "\(documentsPath)/shots/working"
+        let filename = generateShotFilename(shot)
+        let filepath = "\(workingDir)/\(filename)"
+        
+        do {
+            let shotData = convertFromShot(shot)
+            let encoder = JSONEncoder()
+            encoder.outputFormatting = [.prettyPrinted, .sortedKeys]
+            
+            let data = try encoder.encode(shotData)
+            try data.write(to: URL(fileURLWithPath: filepath))
+            
+            shot.isDirty = false
+            
+        } catch {
+            print("❌ Error saving shot \(shot.shotId): \(error)")
+        }
+    }
+    
+    private func generateShotFilename(_ shot: Shot) -> String {
+        let safeName = shot.name.replacingOccurrences(of: " ", with: "_")
+        return "\(shot.shotId)_\(shot.sequenceType)_\(safeName).json"
+    }
+    
+    // MARK: - System State Calculation
+    
+    func calculateSystemsAffectingShot(_ shot: Shot, systems: [TrackingSystem]) -> [String: Any] {
+        var affecting: [String: Any] = [:]
+        
+        for system in systems {
+            let shotPercentage = shot.filmPositionPercentage
+            
+            // Check if system is active at this shot percentage
+            if shotPercentage >= system.continuousRange[0] && shotPercentage <= system.continuousRange[1] {
+                affecting[system.name] = [
+                    "current_value": system.getValueAtPercentage(shotPercentage),
+                    "percentage": system.currentPercentage,
+                    "is_active": true
+                ]
+            }
+        }
+        
+        return affecting
+    }
+    
+    // MARK: - App Lifecycle
+    
+    func applicationWillTerminate() {
+        // Final save before app quits
+        performAutoSave()
+        autoSaveTimer?.invalidate()
+        saveDebounceTimer?.invalidate()
+        
+        print("💾 Final save completed on app termination")
+    }
+    
+    func cleanup() {
+        autoSaveTimer?.invalidate()
+        saveDebounceTimer?.invalidate()
+    }
+}

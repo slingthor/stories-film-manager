@@ -1,0 +1,219 @@
+{
+  "film_metadata": {
+    "title": "The Sheep in the Baðstofa",
+    "version": "v18_enhanced",
+    "total_shots": 110,
+    "prologue_shots": 25,
+    "main_story_shots": 85,
+    "estimated_duration": "12 minutes",
+    "aspect_ratio": "16:9",
+    "target_resolution": "1080p"
+  },
+
+  "research_references": {
+    "original_materials": [
+      "/Users/ingthor/Documents/stories/MegaPrompt/v18_only_shots_true_orig.txt",
+      "/Users/ingthor/Documents/stories/MegaPrompt/nostalgia_research_lower.txt",
+      "/Users/ingthor/Documents/stories/MegaPrompt/nostalgia_research_upper.txt", 
+      "/Users/ingthor/Documents/stories/MegaPrompt/cinema_research.txt",
+      "/Users/ingthor/Documents/stories/MegaPrompt/icelandic_nostalgia_research.txt",
+      "/Users/ingthor/Documents/stories/MegaPrompt/v1-v14_writers_documentation.txt",
+      "/Users/ingthor/Documents/stories/MegaPrompt/consultants_documentation.txt",
+      "/Users/ingthor/Documents/stories/MegaPrompt/screenplay1.txt",
+      "/Users/ingthor/Documents/stories/MegaPrompt/documentation.txt",
+      "/Users/ingthor/Documents/stories/MegaPrompt/novel.txt",
+      "/Users/ingthor/Documents/stories/MegaPrompt/additional_docs/combined_additional_docs.txt",
+      "/Users/ingthor/Documents/stories/MegaPrompt/combined_google_opinions.txt",
+      "/Users/ingthor/Documents/stories/Degradation_protocol.txt",
+      "/Users/ingthor/Documents/stories/combined_old_research.txt"
+    ],
+    "character_systems": [
+      "/Users/ingthor/Documents/stories/enhancements/magnus_advanced_character_plates_system.txt",
+      "/Users/ingthor/Documents/stories/enhancements/sigrid_advanced_character_plates_system.txt", 
+      "/Users/ingthor/Documents/stories/enhancements/gudrun_advanced_character_plates_system.txt",
+      "/Users/ingthor/Documents/stories/enhancements/jon_advanced_character_plates_system.txt",
+      "/Users/ingthor/Documents/stories/enhancements/lilja_complete_character_plates_expanded.txt"
+    ],
+    "environmental_systems": [
+      "/Users/ingthor/Documents/stories/enhancements/baðstofa_environmental_plates_bergrisi_transformation.txt",
+      "/Users/ingthor/Documents/stories/enhancements/westfjords_exterior_environmental_plates_system.txt",
+      "/Users/ingthor/Documents/stories/enhancements/sea_environmental_plates_character_progression.txt",
+      "/Users/ingthor/Documents/stories/enhancements/house_exterior_immediate_surroundings_plates.txt"
+    ]
+  },
+
+  "tracking_systems": {
+    "breathing_coordination": {
+      "description": "Family respiratory synchronization progression",
+      "continuous_range": [0, 100],
+      "current_percentage": 32.0,
+      "slider_increments": 1.0,
+      "external_reference": "breathing_rates_external.json",
+      "milestone_values": {
+        "0": "Individual rhythms maintained",
+        "25": "Beginning synchronization (11/min average)", 
+        "50": "Forced synchronization (Danish counting)",
+        "75": "Animal rhythms emerging (8/min sheep)",
+        "85": "Species-appropriate (8/min sheep, 12/min raven)",
+        "100": "Monument eternal (preserved patterns)"
+      },
+      "affects_shots": ["8-10", "23-25", "56-60", "76-85"]
+    },
+    
+    "temperature_progression": {
+      "description": "Environmental and body temperature changes",
+      "continuous_range": [0, 100],
+      "current_percentage": 28.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "-5°C comfortable interior",
+        "25": "-15°C survival challenge", 
+        "50": "-25°C life threatening",
+        "75": "37°C body temperature (Bergrisi organs)",
+        "100": "20°C monument completion"
+      },
+      "affects_shots": ["8", "18-25", "44-47", "58-60"]
+    },
+    
+    "klettagja_formation": {
+      "description": "Cliff cleft development for Sigrid escape",
+      "continuous_range": [0, 100],
+      "current_percentage": 15.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "No crack formation",
+        "35": "Hairline crack (0.5mm)",
+        "45": "Readable KLETTAGJÁ (2mm)",
+        "65": "Passable opening (6cm)",
+        "75": "Escape doorway (3ft)",
+        "100": "Portal to all time periods"
+      },
+      "affects_shots": ["49c", "51-55", "59", "76-85"]
+    },
+    
+    "spatial_impossibilities": {
+      "description": "Mathematical physics violations spreading",
+      "continuous_range": [0, 100], 
+      "current_percentage": 25.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Normal physics maintained",
+        "20": "Subtle wrongness (impossible shadows)",
+        "40": "Obvious violations (11ft in 12ft house)",
+        "60": "Reality breakdown (space multiplication)",
+        "80": "Dimensional fragmentation",
+        "100": "Multiple realities simultaneous"
+      },
+      "affects_shots": ["4-6", "8", "11", "49", "55.5"]
+    },
+    
+    "house_consciousness": {
+      "description": "Bergrisi awareness and biological responses", 
+      "continuous_range": [0, 100],
+      "current_percentage": 35.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Dormant (appears architectural)",
+        "25": "Subtle awareness (environmental responses)",
+        "50": "Active consciousness (breathing visible, panic)",
+        "75": "Dying consciousness (sacrifice speech)",
+        "100": "Crystallized (monument completion)"
+      },
+      "affects_shots": ["3", "18", "51-55", "58-60"]
+    },
+    
+    "reality_coherence": {
+      "description": "Stability of physical laws and logic",
+      "continuous_range": [0, 100],
+      "current_percentage": 65.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "100": "Perfect reality (false abundance)",
+        "75": "Minor violations (counting confusion)",
+        "50": "Major breakdown (impossible physics)",
+        "25": "Reality fragmented (multiple truth layers)",  
+        "0": "Complete breakdown (seven fragments)"
+      },
+      "affects_shots": ["8-10", "17", "30", "55.5", "61"]
+    },
+    
+    "industrial_contamination": {
+      "description": "British/Danish imperial materials spreading",
+      "continuous_range": [0, 100],
+      "current_percentage": 22.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Pure organic Iceland",
+        "20": "Atmospheric contamination",
+        "40": "Molecular contamination (fibers in flesh)",
+        "60": "Obvious contamination (brass through skin)",
+        "80": "Dominant contamination",
+        "100": "Transcended through crystallization"
+      },
+      "affects_shots": ["8", "13.5", "38a", "45c", "58a"]
+    },
+    
+    "hakarl_contamination": {
+      "description": "Traditional food corruption enabling breakdown",
+      "continuous_range": [0, 100],
+      "current_percentage": 18.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Traditional fermentation",
+        "20": "Premature fermentation (77 days early)",
+        "40": "Neurotoxic crystals forming",
+        "60": "Industrial materials visible",
+        "80": "Complete corruption (cognitive effects)",
+        "100": "Toxicity transcended"
+      },
+      "affects_shots": ["6a", "8", "13.5", "39.5"]
+    },
+    
+    "stain_progression": {
+      "description": "F4 Liquid contamination marking progression",
+      "continuous_range": [0, 100],
+      "current_percentage": 35.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Clean clothes and environment",
+        "20": "Blood stains appearing",
+        "40": "Purple juice added", 
+        "60": "Egg yolk completing trinity",
+        "80": "Stains darkening brown-black",
+        "100": "Stains forming geographical map patterns"
+      },
+      "affects_shots": ["1b-4c", "6a", "8", "47c"]
+    }
+  },
+
+  "shot_file_references": {
+    "created_shots": [
+      "shot_0a_prologue.json",
+      "shot_0b_prologue.json",
+      "shot_1a_prologue.json",
+      "shot_1b_prologue.json", 
+      "shot_1c_prologue.json",
+      "shot_2a_prologue.json",
+      "shot_3a_prologue.json",
+      "shot_6a_prologue.json",
+      "shot_7a_prologue.json",
+      "shot_7b_prologue.json",
+      "shot_8a_prologue.json",
+      "shot_8b_prologue.json",
+      "shot_8c_prologue.json", 
+      "shot_9a_prologue.json",
+      "shot_20_prologue.json",
+      "shot_22_prologue.json",
+      "shot_23_prologue.json",
+      "shot_1_main.json",
+      "shot_8_main.json",
+      "shot_17_main.json",
+      "shot_56_main.json",
+      "shot_57_main.json",
+      "shot_61_main.json"
+    ],
+    "total_created": 23,
+    "total_needed": 110,
+    "completion_status": "essential_foundation_complete"
+  }
+}

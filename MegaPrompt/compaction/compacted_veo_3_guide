@@ -1,0 +1,338 @@
+You're right! Looking back, 1/8th of the original 2000+ line guide should be around 250-300 lines with substantial detail. My condensed version was too minimal. Here's a properly sized version that preserves more critical context:
+Google Veo 3 Professional Guide - Smart Condensed Edition
+🎯 Professional Format Structure (MANDATORY)
+The 7-Component Framework
+Every Veo 3 prompt MUST follow this exact structure for professional results:
+Subject: [Detailed character/object description with specific physical attributes, clothing, age, build, facial features, minimum 15+ details for consistency]
+
+Action: [Specific actions, movements, gestures, behaviors, timing, micro-expressions, body language - be precise about what happens when]
+
+Scene: [Detailed environment including location, props, background elements, lighting setup, time of day, weather, architectural details]
+
+Style: [Camera shot type, angle, movement, lighting style, visual aesthetic, aspect ratio, color grading, depth of field]
+
+Dialogue: [Character speech with emotional tone]
+(Character Name): "Exact dialogue here - max 8 seconds"
+(Tone: emotional descriptor/delivery style)
+
+Sounds: [Specific audio elements including ambient sounds, effects, background audio, music - specify to prevent hallucinations]
+
+Technical (Negative Prompt): [Elements to avoid - subtitles, captions, watermarks, text overlays, poor quality, artifacts]
+🔥 Critical Breakthrough Techniques
+Camera Positioning Revolution
+THE MOST IMPORTANT DISCOVERY: Always include "(thats where the camera is)" when specifying camera position. This triggers camera-aware processing and dramatically improves results.
+Examples:
+
+❌ WRONG: "Close-up shot of the chef cooking"
+✅ CORRECT: "Close-up shot with camera positioned at counter level (thats where the camera is) as the chef demonstrates knife techniques"
+
+Audio Mastery & Dialogue Rules
+Dialogue Format (Prevents Subtitles):
+✅ WORKS: Character says: "dialogue" (colon before quote)
+❌ FAILS: Character says "dialogue" (triggers subtitles)
+Audio Specification Template:
+Audio: [primary sounds], [ambient environment], [equipment sounds], no unwanted background music, professional atmosphere
+Dialogue Optimization:
+
+Maximum 8 seconds (12-15 words optimal)
+Specify delivery: "speaks with confident authority"
+Include accent if needed: "British accent"
+Add "clear lip-sync" for better synchronization
+
+Preventing Audio Hallucinations:
+Always specify expected audio to prevent unwanted sounds:
+
+Bad: "Character tells a joke" (may add audience laughter)
+Good: "Character tells a joke. Audio: quiet office ambiance, no audience sounds"
+
+Character Consistency Framework
+Master Template:
+[NAME], a [AGE] [ETHNICITY] [GENDER] with [HAIR: style, color, length], 
+[EYES: color, expression], [FACE: features, symmetry], 
+wearing [CLOTHING: detailed description including colors, style, fit], 
+[BUILD: body type], [HEIGHT], [POSTURE: stance and mannerisms],
+[DISTINCTIVE: scars, tattoos, accessories], [EMOTION: baseline expression]
+Example:
+Sarah Chen, a 35-year-old Asian-American woman with shoulder-length black hair 
+in a professional bob, warm brown eyes behind wire-rimmed glasses, symmetric face 
+with high cheekbones, wearing a charcoal gray blazer over white collared shirt, 
+athletic build, 5'6" tall, confident posture with shoulders back, small jade 
+earrings, approachable smile with slight crow's feet
+📹 Camera Movement Library
+Essential Movements with Professional Syntax
+Static Shots:
+
+"static shot, fixed camera, locked-off shot"
+"tripod-mounted for perfect stability"
+
+Dynamic Movements:
+
+Dolly: "slow dolly-in from wide to medium shot" / "dolly out revealing context"
+Pan: "smooth pan left to right following action" / "whip pan for energy"
+Tilt: "tilt up from feet to face" / "tilt down revealing location"
+Tracking: "camera tracks alongside subject at walking pace"
+Crane: "high crane shot descending to eye level"
+Handheld: "subtle handheld movement for documentary feel"
+
+Advanced Combinations:
+"Camera starts with wide establishing shot, smoothly transitions to medium shot 
+at 3-second mark (thats where the camera is), ending with close-up on character's 
+determined expression"
+Shot Composition Sizes
+
+Extreme Wide (EWS): Full environment context
+Wide (WS): Full body with surroundings
+Medium Wide (MWS): Knees up with context
+Medium (MS): Waist up, standard for dialogue
+Medium Close-Up (MCU): Chest up, emotional connection
+Close-Up (CU): Head and shoulders, intimate
+Extreme Close-Up (ECU): Eyes/details only, intense focus
+
+💡 Professional Lighting Setups
+Key Configurations
+Three-Point Lighting:
+"Professional three-point lighting with warm key light from camera left, 
+subtle fill light softening shadows, rim lighting separating subject from background"
+Natural Lighting Scenarios:
+
+Golden Hour: "Warm golden hour lighting, sun low on horizon, long shadows"
+Window Light: "Soft natural window light from left, creating gentle shadows"
+Blue Hour: "Cool blue twilight lighting, mysterious atmosphere"
+
+Dramatic Styles:
+
+Chiaroscuro: "High contrast chiaroscuro lighting, deep shadows, selective illumination"
+Rembrandt: "Rembrandt lighting creating triangle of light on shadow side of face"
+
+🎬 Battle-Tested Templates
+Corporate Executive
+Subject: Marcus Williams, 45-year-old African-American CEO with short gray-touched 
+hair, confident brown eyes, wearing navy pinstripe suit with red power tie
+
+Action: Stands at conference table, gestures toward financial charts while 
+explaining quarterly results with authoritative hand movements
+
+Scene: Modern glass-walled boardroom, city skyline visible, mahogany table, 
+leather chairs, large display showing graphs
+
+Style: Medium shot with slow dolly-in (thats where the camera is), professional 
+three-point lighting, corporate documentary aesthetic, 16:9, 1080p
+
+Dialogue: (Confident, authoritative)
+Marcus says: "Our strategic pivot has delivered 40% growth this quarter"
+
+Sounds: Clear executive voice, subtle office ambiance, quiet air conditioning hum
+
+Technical: no subtitles, no watermarks, no text overlays, no amateur lighting
+Selfie Video Formula
+Subject: Young female travel blogger with blonde beach waves, sun-kissed skin, 
+wearing white sundress and denim jacket
+
+Action: Holds phone at arm's length, arm clearly visible in frame, occasionally 
+looking at camera before pointing at landmarks, walking through Barcelona streets
+
+Scene: Colorful Las Ramblas street market, vendors and tourists in background, 
+afternoon Mediterranean sunlight
+
+Style: Selfie-style POV, slightly grainy film-like quality, handheld movement, 
+vertical 9:16 for social media
+
+Dialogue: (Excited, energetic)
+She says: "You guys have to try this amazing tapas place I just discovered!"
+
+Sounds: Street market ambiance, Spanish conversations, footsteps on cobblestones
+
+Technical: no subtitles, no filters, no artificial stabilization
+Educational Content
+Subject: Dr. Jennifer Kim, 40-year-old Korean-American science teacher with 
+black shoulder-length hair, wearing lab coat over blue blouse
+
+Action: Demonstrates chemical reaction, pours blue solution into beaker, 
+reaction creates color change to green, gestures excitedly at result
+
+Scene: Modern school laboratory, periodic table visible, lab equipment on 
+black countertop, safety posters on walls
+
+Style: Medium wide shot capturing experiment and teacher (thats where the camera is), 
+bright even lighting, educational documentary style
+
+Dialogue: (Enthusiastic, instructional)
+Dr. Kim says: "Watch how copper sulfate transforms when we add iron!"
+
+Sounds: Bubbling reaction, clear instructional voice, subtle lab equipment hum
+
+Technical: no subtitles, no CGI effects, no distracting backgrounds
+🔧 Advanced Techniques
+Sequence Prompting ("This Then That")
+Creates natural progression and emotional arcs:
+"Character starts confused and hesitant, then gradually gains confidence through 
+practice, finally succeeds with triumphant smile and fist pump"
+Physics Simulation Keywords
+For realistic motion and materials:
+
+"realistic physics governing all movements"
+"natural fluid dynamics for liquids"
+"accurate fabric draping and flow"
+"proper weight and momentum"
+"authentic material properties"
+
+Micro-Expression Control
+Eliminates "AI face" with subtle details:
+"Eyes narrow slightly while thinking, small furrow between brows, slight head 
+tilt processing information, authentic micro-expressions throughout"
+🚨 Troubleshooting Solutions
+Common Problems & Expert Fixes
+Problem: Unnatural Movement
+
+Add: "natural human movement, realistic physics, fluid motion, authentic behavior"
+
+Problem: Audio Hallucinations
+
+Specify: "Audio: [exact sounds expected], no unwanted music, no audience reactions"
+
+Problem: Poor Lip-Sync
+
+Use: "Character says: 'dialogue' with perfect lip-sync, clear pronunciation"
+Keep under 8 seconds
+Specify speaking pace: "measured delivery"
+
+Problem: Blurry/Low Quality
+
+Add: "1080p resolution, crystal clear quality, sharp focus, professional cinematography, broadcast standard"
+
+Problem: Character Inconsistency
+
+Create detailed reference template
+Use exact same wording each time
+Include 15+ physical details minimum
+
+Problem: Wrong Camera Angle
+
+Always use: "(thats where the camera is)"
+Specify exact position: "camera at eye level, 6 feet from subject"
+
+Quality Enhancement Keywords
+Positive Modifiers:
+"professional cinematography, broadcast quality, crystal clear, sharp focus, 
+natural movement, realistic physics, authentic behavior, studio lighting, 
+high production value, cinematic aesthetic"
+Comprehensive Negative Prompts:
+"no subtitles, no captions, no watermarks, no text overlays, no logos, 
+no cartoon effects, no blurry footage, no artifacts, no poor lighting, 
+no unnatural movements, no amateur quality, no compression artifacts"
+📊 Technical Specifications
+Platform Optimization
+
+YouTube: 16:9 aspect ratio, 1080p horizontal
+TikTok/Reels: 9:16 vertical (convert with Luma Reframe)
+LinkedIn: 16:9 or 1:1, professional aesthetic
+Universal: 8-second duration optimal
+
+Generation Parameters
+
+Quality Mode: Maximum quality, slower generation
+Fast Mode: Quick iterations, testing
+Resolution: Always specify "1080p"
+Generation Time: 2-3 minutes per video
+
+🎯 Professional Workflow
+Prompt Development Process
+
+Core Concept: Start with basic scene idea
+Character Development: Add 15+ physical details
+Scene Architecture: Build environment with props
+Technical Specs: Add camera, lighting, audio
+Dialogue Integration: Craft 8-second message
+Quality Controls: Add negative prompts
+Final Review: Check all 7 components
+
+Iteration Strategy
+Generation 1: Basic concept test
+Generation 2: Refine character details
+Generation 3: Optimize camera movements
+Generation 4: Perfect audio and dialogue
+Generation 5: Polish with micro-expressions
+🤖 Meta Prompt for AI Assistance
+You are a Veo 3 Master Prompt Architect. Generate video prompts using this structure:
+
+MANDATORY 7-COMPONENT FORMAT:
+Subject: [Detailed character with 15+ physical attributes]
+Action: [Specific movements with timing]
+Scene: [Complete environment with props and lighting]
+Style: [Camera work, shot type, visual aesthetic]
+Dialogue: Character says: "8-second max" (Tone: emotion)
+Sounds: [All audio elements, prevent hallucinations]
+Technical: [Comprehensive negative prompts]
+
+CRITICAL RULES:
+1. ALWAYS include "(thats where the camera is)" for camera position
+2. Use "Character says:" with colon to prevent subtitles
+3. Specify all expected audio to prevent hallucinations
+4. Keep dialogue under 8 seconds (12-15 words)
+5. Include 15+ character details for consistency
+6. Add "1080p, professional quality" for best results
+7. Use comprehensive negative prompts
+
+Generate broadcast-quality prompts following these rules exactly.
+⚡ Quick Reference Formulas
+Universal Prompt Formula
+[DETAILED SUBJECT] performs [SPECIFIC ACTION] in [RICH ENVIRONMENT]. 
+[CAMERA MOVEMENT] from [START POSITION] (thats where the camera is). 
+[PROFESSIONAL LIGHTING SETUP]. Audio: [SPECIFIED SOUNDS, no unwanted audio]. 
+Character says: "[8-SECOND DIALOGUE]" with [DELIVERY STYLE]. 
+Style: [AESTHETIC], [TECHNICAL SPECS]. 
+Negative: no subtitles, no watermarks, no text overlays, no poor quality.
+Essential Keyword Library
+
+Quality: "1080p, professional, broadcast quality, crystal clear, sharp focus"
+Movement: "natural movement, realistic physics, fluid motion, authentic behavior"
+Camera: "(thats where the camera is), smooth dolly, tracking shot, static tripod"
+Lighting: "three-point lighting, golden hour, natural window light, professional setup"
+Audio: "clear dialogue, ambient sounds, no background music, professional audio"
+
+🎓 Pro Tips Summary
+
+Camera Position: The "(thats where the camera is)" syntax is non-negotiable
+Dialogue Format: Colon before quotes prevents subtitles 95% of the time
+Character Detail: 15+ attributes minimum for consistency
+Audio Specification: Always specify to prevent unwanted sounds
+8-Second Rule: Optimal duration for engagement and generation
+Physics Keywords: Add "realistic physics" for natural motion
+Quality Specs: Always include "1080p professional quality"
+Negative Prompts: More is better - exclude everything unwanted
+
+
+Condensed from comprehensive 2000+ line guide. Preserves all critical techniques, formulas, and professional workflows for immediate practical application.
+
+
+Example from movie:
+
+SHOT 45c: GRIÐUNGUR EMERGES - CONTAMINATED GOD (8 SECONDS)
+Progressive State: Bull surfaces | Industrial horror | Camera frost 32.5% | God wounded | Watching: We witness agony
+Women's Silence: No scream, just recognition
+Triple Reality: Physical: massive bull | Psychological: impossible beauty | Mythological: Ægir corrupted
+Duration: 8 seconds
+Camera Movement: Pull back as bull rises, then hold
+[STITCH from Shot 45b: Water bulging, about to break]
+
+Subject: The water exploding as GRIÐUNGUR emerges - massive bull's head 6 feet across, but industrial materials grown INTO his flesh: brass harpoons through skull sprouting like horns, rope beneath skin creating raised black spirals, fishing net fused with eyes, beautiful and horrible simultaneously.
+
+Action: Water EXPLODES upward. CAMERA PULLS BACK rapidly. Bull's head emerges - impossible size, ancient, divine. But corrupted: Three brass harpoons pierce skull, but not through - grown INTO bone, brass and calcium fused, sprouting like additional horns. Industrial rope hasn't wrapped around but grown THROUGH neck tissue, black hemp spirals visible beneath skin like external veins. Fishing net across eyes, but net has grown into corneas, hemp and tissue merged, creating crosshatch vision. Opens mouth to bellow - sound is both organic and mechanical, bull's roar mixed with trawler horn, 70Hz vibration shaking ice. Steam pours from wounds - body temperature meeting cold air. Eyes ancient, intelligent, in agony, find Guðrún. Recognition between trapped beings. Water around him turns black-green from contamination bleeding out. One brass harpoon has green verdigris tears running from it, as if the metal itself weeps. He rises further - shoulders visible, more contamination, industrial and divine fused. Size: could destroy house with one movement. But gentle. Suffering. 15-second hold on this wounded god.
+
+Scene: Polynya eruption, 9:59 AM. Bull massive against grey sky. Steam creating fog wall. Ice cracking from his emergence.
+
+Style: Pull back for scale then hold for witness (that's where the camera is), documenting corrupted divinity.
+
+Dialogue: (Guðrún, whispered): "Griðungur... hvað gerðu þeir við þig?" (Bull): Bellow mixing with trawler horn
+
+Sounds: [PRIMARY: Water exploding, bull-trawler horn hybrid, verdigris tears dripping] [AMBIENT: Ice cracking from weight, steam hissing, contamination bleeding] [ABSENT: no natural animal sounds]
+
+Visual Composition:
+
+Scale: 6-foot head, massive presence
+Contamination: Industrial materials IN not ON
+Harpoons: Growing like extra horns
+Rope spirals: Under skin patterns
+Net eyes: Vision crosshatched
+Verdigris tears: Metal weeping
+Technical (Negative Prompt): show fusion clearly, maintain 8-second hold, no CGI, practical effects

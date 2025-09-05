@@ -1,0 +1,61 @@
+{
+  "shot_metadata": {
+    "id": "18",
+    "name": "DEPARTURE_PREPARATIONS",
+    "title": "DEPARTURE PREPARATIONS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 13/min + 60bpm | Pre-departure | Camera fros...",
+    "stitch_from": "[STITCH from Shot 17: Darkness after three-frame flash]"
+  },
+  "progressive_state": "House 13/min + 60bpm | Pre-departure | Camera frost 10% (for post) | Gear ready | Watching: House knows he's leaving",
+  "prompt_variants": [
+    {
+      "variant_id": "18_story_primary",
+      "variant_name": "Primary - DEPARTURE PREPARATIONS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[MAGNÃšS] in the darkness, moving by memory to his corner where fishing gear waits meticulously prepared - Ã³Ã°inn (line) coiled in perfect circles, hÃ¡fur (gaff) sharpened to killing point, tin of phantom bait, grandfather's rifle with three bullets, all arranged like ritual objects for his likely suicide mission.",
+      "action": "In darkness, we hear him moving. Match strikes - another hidden candle stub. Light reveals him at his corner, already dressed in additional layers: sealskin over wool, wool over wool. Picks up Ã³Ã°inn - 30 fathoms of line, braided by his father, repaired by him hundred times. Tests each section, knows weak spots by feel. Tremor at 4Hz makes line shake. Wraps line around torso under coat. Picks up hÃ¡fur, tests point on thumb - draws blood, good. Secures to belt. Opens bait tin - empty but for fish scales from better times. Smells it, pretends. Takes rifle, checks mechanism - frozen but might work. Three bullets. Looks at family in candlelight. GuÃ°rÃºn watching, not speaking. Children asleep or pretending. Sigrid maintaining 11 feet even in darkness, her grey eyes reflecting candle. He walks to door, hand on latch. House breathing accelerates to 15/min - it knows. Heartbeat accelerates to 80bpm. The door resists opening. He forces it.",
+      "scene": "Corner and door, 6:20 AM, candle stub providing only light. Temperature -12Â°C inside, but door opening reveals -25Â°C outside. Gear arranged like shrine - each item in specific place, handled with reverence. Door frozen shut with 5mm ice on inside, requiring shoulder to break seal. When door opens, cold enters like entity.",
+      "style": "Candlelit preparation, camera following his ritual movements (that's where the camera is), documentary of departure preparation.",
+      "camera_position": "Candlelit preparation, camera following his ritual movements",
+      "dialogue": "(MagnÃºs, to line): \"Haltu, pabbi\" (Hold, father) (Testing gaff): \"Hvass\" (Sharp) (At door): \"Ã‰g kem aftur\" (I'll come back) (GuÃ°rÃºn): Silence, just watching",
+      "audio": {
+        "primary": [
+          "Gear being gathered",
+          "line testing",
+          "door ice breaking",
+          "wind entering"
+        ],
+        "ambient": [
+          "House breathing accelerating to 15/min",
+          "heartbeat to 80bpm (panic)",
+          "family pretending sleep"
+        ],
+        "absent": [
+          "no goodbye",
+          "no female voices",
+          "no hope"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show ritual preparation, maintain darkness except candle, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "GuÃ°rÃºn watches preparation without words",
+    "triple_reality": "Physical: preparing for -25Â°C fishing / Psychological: death preparation / Mythological: house resisting"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

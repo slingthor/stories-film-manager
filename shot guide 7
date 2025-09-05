@@ -1,0 +1,5028 @@
+The Sheep in the Baðstofa - Ultimate Shot Production Guide v7.0
+Complete Self-Contained Inline Prompt Manual with Dual-Track Production Paths
+MASTER PRODUCTION PHILOSOPHY
+Each shot in this guide is a complete, self-contained production unit. Copy the prompt and specifications directly - no cross-referencing needed. Every shot includes both PRAGMATIC (achievable) and AMBITIOUS (ideal) versions, complete sound design, post-production notes, and composite instructions.
+CRITICAL PRODUCTION WISDOM
+AI Generation Reality:
+
+Single subjects work better than groups
+Static holds better than complex movement
+Atmosphere succeeds where interaction fails
+Generate elements separately, unite in post
+
+Sound Design Philosophy:
+
+Environmental sound tells the story when dialogue cannot
+The house speaks: creaking beams (low stress 200Hz, high stress 400Hz)
+Ice forms audibly: crystallization at 8kHz creates unease
+Breath rhythms identify humanity: 12-15/min human, 8-10/min dying, 20-25/min sheep
+The trawler horn grows from 70Hz (distant) to 90Hz (overwhelming)
+
+Three-Layer Reality Maintenance:
+Every shot readable as:
+
+P (Physical): Poisoning/starvation/hypothermia
+S (Psychological): Shared madness/trauma/dissociation
+M (Metaphysical): Supernatural transformation/divine punishment
+
+
+PROLOGUE: COSMIC ABANDONMENT (0:00-0:55)
+Establishing divine departure and scale
+SHOT_0 - AURORA DEATH
+Difficulty: ⭐⭐⭐ | Runtime: 12 seconds | Priority: ESSENTIAL
+Industrial: None yet | Three Layers: P/S/M equal | Motif: Cosmic scale establishing
+PRAGMATIC PROMPT (Achievable):
+High altitude aerial view above frozen fjord in Iceland at dawn, fading green northern lights in grey sky dissolving like watercolor, slowly descending through clouds, frozen landscape below with black water channels through white ice, tiny dark structure barely visible on shore, muted colors, desaturated palette, no modern elements, no aircraft, documentary style cinematography
+AMBITIOUS PROMPT (Ideal):
+Aerial view exactly 5000 feet above frozen Westfjords Iceland 1908 at winter dawn, dying green aurora borealis ribbons at 557.7nm wavelength dissolving like watercolor bleeding into grey sky, camera performing slow continuous descent through fading aurora streams, passing through grey cloud layer at 2000 feet, emerging above frozen fjord showing precisely 60% white ice coverage with black water channels cutting through, tiny black speck of traditional turf house barely visible below, high-altitude wind only, no modern elements, no aircraft, no bright aurora, documentary cinematography, handheld subtle drift, desaturated color palette emphasizing grey-green-white
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3 Alpha
+Camera: Slow descent, 0.5 intensity drift
+Resolution: 4K preferred, 2K minimum
+Frame Rate: 24fps
+Generation attempts before fallback: 3
+Seed: Keep consistent if good aurora achieved
+
+SOUND DESIGN:
+
+0:00-0:03: High altitude wind (filtered white noise 100-1000Hz)
+0:03-0:06: Wind intensity increasing as descending
+0:06-0:09: Distant ice creaking (600Hz pops at -20dB)
+0:09-0:12: Introduction of faint trawler horn (70Hz at -30dB)
+Constant: Aurora sub-bass "breathing" (20-30Hz pulse every 3 seconds)
+
+POST-PRODUCTION:
+
+Color grade: Crush blacks, pull greens toward grey
+Add film grain: 35mm stock emulation
+Speed: 100% with subtle speed ramp down in final 2 seconds
+Composite: Consider adding aurora as separate layer if generation fails
+
+FALLBACK CHAIN:
+
+Stock aurora footage + aerial fjord footage composited
+Static aerial shot with digital slow zoom
+Mountain peaks through clouds (no aurora)
+
+BUNDLE/REUSE:
+
+Save as: COSMIC_MASTER
+Will callback in: Shot 58b
+
+GENIUS NOTES: Opening with dying light mirrors the match cut lamp death later
+CRITICAL WARNINGS: Aurora often generates too bright - specify "dying/fading"
+
+SHOT_1 - TEXT CARD
+Difficulty: ⭐ | Runtime: 3 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: Context | Motif: Timeline establishment
+COMPLETE PROMPT:
+Pure black screen with centered white Helvetica font text reading 'Day 13 - 77 days too early' in clean typography, no decoration, no animation, plain black background
+TECHNICAL SPECIFICATIONS:
+
+Create in post, not Runway
+Font: Helvetica Neue Light
+Size: 48pt
+Fade in: 12 frames
+Hold: 48 frames
+Fade out: 12 frames
+
+SOUND DESIGN:
+
+Complete silence except room tone at -40dB
+Optional: Faint ice crystallization at moment of appearance
+
+ALTERNATIVE TEXT OPTIONS:
+
+"They will eat poison or starve"
+"Day 13 of 90"
+"Westfjords, Iceland 1908"
+
+
+SHOT_2 - SHARK MEAT CLOSE-UP
+Difficulty: ⭐⭐⭐⭐ | Runtime: 6 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P (poison) primary | Motif: Establish threat
+PRAGMATIC PROMPT (Achievable):
+Close-up of grey meat hanging on dark rope against black background, white crystalline deposits on surface, liquid dripping into wooden bowl, single warm light source from left creating harsh shadows, shallow depth of field, unappetizing grey-pink color, documentary style macro photography
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up of grey-pink fermented shark meat chunk (hákarl) hanging from rough hemp rope against pure black background, surface covered in crystalline white ammonia deposits like coarse salt crystals catching light, viscous clear liquid actively dripping from meat into rough-hewn wooden bowl below at 1 drop per 2 seconds, single whale oil lamp positioned left of frame creating harsh raking light across meat texture showing every detail of decomposition, shallow depth of field f/1.4 with background completely black, meat texture gelatinous and translucent at edges showing internal fibers, rope fibers visible with frost, bowl showing previous dried drips, no appetizing colors, no fresh appearance, no modern elements, shot on macro lens 100mm equivalent, slight steam visible from meat in cold air
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3 (start with perfect still)
+Camera: Locked position, rack focus from crystals to drip
+Motion: 1.0 intensity on drip only
+Resolution: 4K for texture detail
+Frame Rate: 24fps with 48fps for drip moment
+Generation note: Generate still first, then animate
+
+SOUND DESIGN:
+
+0:00-0:02: Room tone, house breathing (wood creaking at 200Hz)
+0:02: Single drip impact (wet thud at 800Hz with 2-second reverb tail)
+0:02-0:04: Rope creaking (300Hz under tension)
+0:04: Second drip
+0:04-0:06: Faint wind through gaps (filtered 2kHz)
+Constant: Lamp flame flicker (subtle 40Hz)
+
+POST-PRODUCTION:
+
+Color grade: Desaturate everything except amber lamp light
+Enhance crystalline deposits with sharpening
+Speed: Ramp to 50% speed for drip moments
+Composite: May need to add drip as separate element
+Consider adding subtle steam in post
+
+FALLBACK CHAIN:
+
+Static shot of meat, add CG drip
+Any preserved meat, color grade to grey
+Abstract crystalline surface with drip
+
+BUNDLE/REUSE:
+
+Save as: MEAT_MASTER
+Reuse in: Shot 42 (eating scene)
+
+GENIUS NOTES: The 2-second drip interval creates psychological anticipation
+CRITICAL WARNINGS: AI tends to make meat look appetizing - specify "unappetizing" multiple times
+
+SHOT_2b - EMPTY CROSS RACK
+Difficulty: ⭐⭐ | Runtime: 4 seconds | Priority: IMPORTANT
+Industrial: Absence implies depletion | Three Layers: P (starvation) | Motif: Cross #1 of 7
+PRAGMATIC PROMPT (Achievable):
+Wooden drying rack in cross formation against dark wall, no fish present, cobwebs between slats, dust motes in single light beam from left, abandoned and empty
+AMBITIOUS PROMPT (Ideal):
+Medium shot of empty wooden fish drying rack constructed in cross formation against dark turf wall with visible moss patches and ice crystals, absolutely no fish present, old spider webs between weathered grey driftwood slats with accumulated dust, dust motes floating through single whale oil lamp beam entering from left creating dramatic diagonal shadows, atmosphere of abandonment and hunger, rough-hewn wood texture showing salt crystallization from previous years' fish, one broken slat hanging loose, traditional Icelandic construction visible with leather lashing, shot from slight low angle emphasizing emptiness
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Static with subtle handheld drift
+Motion: 0.5 intensity (dust motes only)
+Lighting: Hard key light from left
+
+SOUND DESIGN:
+
+0:00-0:04: House settling (200Hz creaks every 1.5 seconds)
+0:02: Single wood pop from temperature change
+Constant: Distant wind (filtered white noise at -20dB)
+Note: Emptiness emphasized by sound sparseness
+
+POST-PRODUCTION:
+
+Add additional dust motes if needed
+Enhance cobwebs with contrast
+Color grade: Cool shadows, warm highlights
+
+FALLBACK CHAIN:
+
+Any empty wooden rack, add cross shadow in post
+Empty wall with cross-shaped shadow
+
+BUNDLE/REUSE:
+
+Part of INTERIOR_DETAIL set
+Cross motif continues in 7b, 9b, 11c, 14, 35, 33
+
+GENIUS NOTES: Empty cross as absent salvation
+CRITICAL WARNINGS: Ensure NO fish visible - emptiness is the point
+
+SHOT_2c - COUNTING FAILURE
+Difficulty: ⭐⭐ | Runtime: 4 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: S (psychological) | Motif: Mathematical breakdown #1 of 5
+PRAGMATIC PROMPT (Achievable):
+Close-up of weathered male finger touching carved notches in dark wood wall, groups of marks, finger moving along counting, trembling slightly, warm side lighting showing texture
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up of weathered fisherman's finger with dirt under cracked fingernail touching carved V-shaped notches in dark driftwood wall, groups of five tally marks with some incorrectly crossed out and recounted, finger trembling with cold or frustration while counting, losing place at third group and starting over, whale oil lamp light raking across wood grain from left creating deep shadows in carved marks, visible error where six marks were carved then one crossed out, splinter of wood catching on fingertip, breath vapor visible showing cold, focus pulling between finger and marks
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Macro lens equivalent
+Motion: 2.0 intensity finger movement
+Focus: Rack between finger and wall
+
+SOUND DESIGN:
+
+0:00-0:04: Fingernail scratching wood (3kHz)
+0:02: Frustrated exhale (breath puff)
+0:03: Whispered counting in Icelandic "...fjórir...fimm...nei..."
+Constant: Oil lamp hiss (white noise at 4kHz, -30dB)
+
+POST-PRODUCTION:
+
+Enhance wood grain texture
+Add slight camera shake on frustration moment
+Color: Warm amber from lamp
+
+MATHEMATICAL TRACKING:
+
+First counting error of five
+Establishes pattern of fives throughout film
+Links to final six-count impossibility
+
+FALLBACK CHAIN:
+
+Hand touching any marked wall
+Finger pointing at marks (static)
+
+BUNDLE/REUSE:
+
+Save finger performance for Shot 8b
+
+GENIUS NOTES: Mathematical certainty crumbling from opening
+CRITICAL WARNINGS: V-shaped notches essential - connects to ram's ear
+
+SHOT_3 - FAMILY UNDER POISON
+Difficulty: ⭐⭐⭐ | Runtime: 7 seconds | Priority: ESSENTIAL
+Industrial: Horn intro at 0:05 | Three Layers: P/S/M equal | Motif: Unity in hunger
+PRAGMATIC PROMPT (Achievable - Single Generation):
+Low angle looking up at five faces in dark interior - bearded middle-aged man, woman with traditional white headdress, teenage girl with braids, young boy, small girl with doll, all looking upward with hunger on faces, dramatic bottom lighting creating shadows above cheekbones, frost visible on walls behind
+AMBITIOUS PROMPT (Ideal - Requires Composite):
+Low angle looking up at five faces in dark 1908 Icelandic turf house - 55-year-old bearded fisherman center position dominant, 35-year-old woman with white curved faldbúningur headdress to his right submissive, 16-year-old girl with wheat-blonde braids left far from man defensive posture, 8-year-old boy with sandy hair and persistent cough, 5-year-old girl clutching cloth doll with brass button eyes, all gazing upward at invisible hanging meat with mixture of desperate hunger and visceral revulsion, single whale oil lamp from below creating Rembrandt lighting with deep shadows above cheekbones and under eyes, frost crystals visible on turf walls behind catching light, breath vapor visible from all five, no smiling, no eye contact between them, each isolated in private suffering despite physical proximity, period-accurate 1908 clothing with visible mending and wear
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Static low angle, slight wide lens distortion
+Motion: 0.5 intensity (breathing only)
+Composite plan: Generate individuals, combine in post
+
+SOUND DESIGN:
+
+0:00-0:02: Room tone, five distinct breathing patterns
+0:02: Stomach growl from child (250Hz)
+0:03-0:04: House beam creaking
+0:05: First trawler horn (70Hz, distant at -25dB)
+0:06: Rope creaking from meat above
+0:06-0:07: Swallow from adult (nervous)
+
+POST-PRODUCTION:
+
+Composite if generating separately
+Match lighting direction on all faces
+Add breath vapor if missing
+Color: Extreme warm/cool contrast
+
+FALLBACK CHAIN:
+
+Generate each face separately, composite
+Three people looking up (easier number)
+Single person, imply others off-frame
+
+BUNDLE/REUSE:
+
+Save as: FAMILY_HUNGRY
+Character positions establish hierarchy
+
+GENIUS NOTES: Only time all five look at same thing - unity in hunger alone
+CRITICAL WARNINGS: Avoid eye contact between family members - isolation despite proximity
+
+SHOT_4 - LULLABY PROTECTION
+Difficulty: ⭐⭐⭐ | Runtime: 9 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: M (supernatural) | Motif: Raven song introduced
+PRAGMATIC PROMPT (Achievable):
+Teenage girl with blonde braids sitting beside small girl with doll on wooden platform, older girl's mouth moving as if singing, younger girl's eyes closing, soft side lighting, dark interior background
+AMBITIOUS PROMPT (Ideal):
+Medium shot of 16-year-old Icelandic girl with wheat-blonde braids wearing grey-brown patched wool dress sitting on rough wooden sleeping platform beside 5-year-old girl with tangled dark blonde hair clutching cloth doll with brass button eyes and yellow yarn hair, older girl's mouth moving in gentle lullaby with slight smile showing care despite circumstances, younger girl's eyes slowly closing in trust and exhaustion, grey-pink fermented shark meat visible hanging in background out of focus creating ominous presence, whale oil lamp from right creating Rembrandt lighting with warm light on faces contrasting with cold shadows on wall behind, older girl's protective arm position shielding child from rest of room, breath vapor visible showing cold, rough wool blankets with visible darning, traditional 1908 Icelandic clothing
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Medium shot, slight push in over duration
+Motion: 1.5 intensity (gentle rocking)
+Character positions: Sigrid left, Lilja right
+
+SOUND DESIGN:
+
+0:00-0:09: SIGRID singing "Krummi svaf í klettagjá"
+
+Melody in minor key, haunting
+Young female voice, slightly hoarse from cold
+Reverb suggesting small space
+
+
+0:03: Child's sleepy sigh
+0:06: Blanket rustling
+Constant: House breathing, lamp hiss
+Note: Lullaby continues under next shot (bridge)
+
+POST-PRODUCTION:
+
+Slow push in over 9 seconds (digitally if needed)
+Enhance eye-closing if too subtle
+Color: Warm on faces, cool on walls
+Add slight vignette for intimacy
+
+FALLBACK CHAIN:
+
+Static shot, add push in post
+Just older girl, imply child off-frame
+Hands only, touching child's hair
+
+BUNDLE/REUSE:
+
+Save Sigrid's face for surveillance shots
+Lullaby melody returns broken in Shot 56
+
+GENIUS NOTES: Krummi (raven) sleeping in cliff - death messenger at rest
+CRITICAL WARNINGS: Must establish protective relationship for later sheep retreat
+
+ACT I: MORNING DESPERATION (0:55-3:45)
+Building pressure through industrial intrusion and domestic surveillance
+SHOT_5 - FJORD WITH TRAWLER
+Difficulty: ⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: V #1, A #1 | Three Layers: P (industrial destruction) | Motif: Scale compression begins
+PRAGMATIC PROMPT (Achievable):
+Aerial view above frozen fjord, ice and black water channels, steam ship with black smoke in distance, small house visible below, heavy snowfall, grey sky, descending camera movement
+AMBITIOUS PROMPT (Ideal):
+Aerial view 2000 feet above frozen Westfjords fjord 1908 winter, 60% white ice coverage with black water channels cutting through like veins, British steam trawler with black coal smoke stack leaving dark trail across grey sky, ship cutting through ice leaving black wake, tiny snow-covered turf house below almost invisible against white landscape like forgotten punctuation mark, heavy snowfall reducing visibility to 1000 feet, slow camera push toward house beginning descent that will end at ground level, industrial versus traditional visible in single frame, trawler appears massive from this height while house insignificant, smoke from house thin and white versus thick black from ship
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3 Alpha
+Camera: Slow push toward house, 1.0 intensity
+Motion: Trawler moving left to right across frame
+Weather: Snow particles at different depth layers
+
+SOUND DESIGN:
+
+0:00-0:03: High altitude wind (filtered)
+0:03: Trawler horn introduction (70Hz at -20dB)
+0:03-0:10: Horn growing to 75Hz and -15dB
+0:05: Ice creaking below (600Hz pops)
+0:08: Engine rumble introduction (40Hz pulse)
+Constant: Snow static (8kHz white noise)
+
+POST-PRODUCTION:
+
+Add parallax to snow layers if needed
+Enhance smoke trail from trawler
+Color: Desaturated except black smoke
+Speed: Slight slow-motion for weight
+
+INDUSTRIAL TRACKING:
+
+Visual #1: Trawler visible
+Audio #1: Horn at 70-75Hz
+Running count: 1 of 21 minimum
+
+FALLBACK CHAIN:
+
+Static aerial, add digital movement
+Trawler and house in separate shots
+Just frozen fjord, add trawler in post
+
+BUNDLE/REUSE:
+
+Save as: FJORD_MASTER
+Trawler element for Shot 55
+
+GENIUS NOTES: Industrial scale dominates natural
+CRITICAL WARNINGS: Trawler must be period-correct steam, not modern
+
+SHOT_6 - HOUSE APPROACH
+Difficulty: ⭐⭐ | Runtime: 8 seconds | Priority: IMPORTANT
+Industrial: None visible | Three Layers: M (supernatural) | Motif: Circular prophecy
+PRAGMATIC PROMPT (Achievable):
+Aerial descending toward snow-covered traditional house built into hillside, smoke from chimney, sheep tracks in snow around building, heavy snowfall
+AMBITIOUS PROMPT (Ideal):
+Aerial descending from 500 feet toward snow-covered Icelandic turf house built into hillside with only front facade visible, grass and earth roof under snow, thin grey smoke from central smoke hole being torn apart by wind, overlapping sheep tracks in snow circling building in ritualistic patterns like ancient symbols, no human footprints visible suggesting isolation, heavy snowfall with horizontal wind, dark wooden door only break in white, traditional 1908 construction with stones and turf, whale oil lamp glow barely visible through small window, tracking marks suggest five sheep circled building repeatedly
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Descending movement, 2.0 intensity
+Focus: Pull from wide to house detail
+
+SOUND DESIGN:
+
+0:00-0:08: Wind building from atmospheric to ground level
+0:03: House structure creaking (wood stress)
+0:05: Snow impact sounds beginning
+0:07: Muffled interior sounds (lamp chain)
+Note: Trawler horn absent - brief respite
+
+POST-PRODUCTION:
+
+Enhance sheep tracks if too subtle
+Add smoke simulation if needed
+Color: Blue-grey hour lighting
+Composite: Consider adding circling tracks as overlay
+
+FORESHADOWING DETAILS:
+
+Five sheep tracks (family transformation)
+Circular pattern (ritual magic)
+No human footprints (isolation/transformation)
+
+FALLBACK CHAIN:
+
+Static house, digital zoom in
+House without tracks, add in post
+Any traditional structure in snow
+
+BUNDLE/REUSE:
+
+Save as: HOUSE_EXTERIOR
+Reference for Shot 58b pullback
+
+GENIUS NOTES: Sheep tracks as prophecy - they're already circling
+CRITICAL WARNINGS: Tracks must be sheep, not human
+
+SHOT_6b - REFLECTION DISTORTION
+Difficulty: ⭐⭐⭐ | Runtime: 3 seconds | Priority: ENHANCING
+Industrial: None | Three Layers: S (psychological) | Motif: Mirror/doubling #1 of 5
+PRAGMATIC PROMPT (Achievable):
+Frozen window interior surface, man's bearded face reflected in ice crystals, distorted reflection, breath fogging glass then clearing
+AMBITIOUS PROMPT (Ideal):
+Close-up of frozen window from interior, thick ice crystals on glass creating natural prism, 55-year-old Icelandic man's bearded face reflected but grotesquely distorted with features multiplied - two mouths, three eyes, beard splitting into tentacles, warm breath fogging glass for 1 second then clearing to reveal distortion worse than before, ice crystals acting as dozens of tiny mirrors each showing different aspect of face, some reflections showing sheep features mixed with human, frost patterns creating natural frame around horror, single whale oil lamp providing only light source
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Extreme close-up, locked
+Motion: 1.0 intensity (breath fogging only)
+VFX: May need distortion added in post
+
+SOUND DESIGN:
+
+0:00-0:01: Ice crackling from breath heat (8kHz)
+0:01: Exhale (human breath)
+0:02: Ice reforming (crystallization at 10kHz)
+0:02-0:03: Heartbeat (60Hz thump)
+
+POST-PRODUCTION:
+
+Enhance distortion with warping
+Layer multiple face elements if needed
+Color: Cold blue except breath warmth
+Consider: Subliminal sheep frame at 0:02
+
+THREE-LAYER SUPPORT:
+
+P: Ice distortion from cold
+S: Perception breaking down
+M: Reality becoming unstable
+
+FALLBACK CHAIN:
+
+Simple reflection with manual distortion
+Just ice patterns, imply face
+Breath fog only, no reflection
+
+BUNDLE/REUSE:
+
+Part of MIRROR_MOTIF series
+
+GENIUS NOTES: First hint that identity is unstable
+CRITICAL WARNINGS: Distortion must be unsettling, not comical
+
+SHOT_7 - SIGRID'S WITNESS
+Difficulty: ⭐⭐ | Runtime: 6 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P (surveillance) | Motif: Web of watching #1
+PRAGMATIC PROMPT (Achievable):
+Extreme close-up teenage girl's grey eyes looking up then slowly tracking left to right following movement, blonde braid visible at frame edge, dark background
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up of 16-year-old Icelandic girl's grey eyes with dark circles from exhaustion, looking up from under lashes then slowly tracking left to right following mother's movement off-screen, never blinking during entire movement showing hypervigilance, wheat-blonde braid visible at frame edge swaying slightly, frost-covered turf wall blurred in background, whale oil lamp light creating dual catchlights in pupils with one brighter than other suggesting angle, pupils dilating when tracking past father's position showing fear response, single tear held in corner of eye but not falling showing practiced emotional control
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Extreme close-up, locked position
+Motion: 1.5 intensity (eye movement only)
+Focus: Eyes sharp, everything else soft
+
+SOUND DESIGN:
+
+0:00-0:06: Controlled breathing (15 breaths/min)
+0:02: Floorboard creak off-screen (mother moving)
+0:04: Male cough off-screen (father position)
+0:04: Breath catch (fear response)
+Constant: Lamp chain swaying (metal at 1kHz)
+
+POST-PRODUCTION:
+
+Enhance eye tracking if needed
+Add micro-expressions
+Color: Enhance grey iris, desaturate rest
+Speed: Slight slow-motion for intensity
+
+SURVEILLANCE WEB:
+
+Sigrid watching: Mother's secrets
+This begins her constant observation
+Bundle with: Shots 10, 15, 33, 45
+
+FALLBACK CHAIN:
+
+Just eyes, no tracking motion
+Profile shot showing watching
+Back of head, implying observation
+
+BUNDLE/REUSE:
+
+Save as: SIGRID_EYES_BASE
+Reuse with modifications in 10, 15, 33, 45
+
+GENIUS NOTES: The watcher who sees all, learns all
+CRITICAL WARNINGS: No blinking during track - unnatural vigilance
+
+SHOT_7b - WINDOW CROSS
+Difficulty: ⭐⭐ | Runtime: 3 seconds | Priority: IMPORTANT
+Industrial: A #2 (faint horn) | Three Layers: M (supernatural) | Motif: Cross #2 of 7
+PRAGMATIC PROMPT (Achievable):
+Frosted window with cross pattern in ice crystals, dim morning light through glass, breath fog appearing from below
+AMBITIOUS PROMPT (Ideal):
+Close-up of frosted window with perfect natural cross pattern formed by ice crystals at exact center of four-pane window, dim grey morning light barely penetrating showing 6am winter darkness, child's breath fog appearing from below frame and dissipating to reveal cross more clearly, ice crystals catching light creating subtle rainbow prisms, condensation drops running down like tears, cross pattern seems deliberately formed despite being natural ice formation, breath rhythm of 20 breaths per minute suggesting child
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Close-up, static
+Motion: 1.0 intensity (breath fog only)
+
+SOUND DESIGN:
+
+0:00-0:03: Child breathing (faster rhythm)
+0:01: Ice crackling from breath warmth
+0:02: Trawler horn very faint (70Hz at -30dB)
+Constant: Wind through window gaps (2kHz whistle)
+
+POST-PRODUCTION:
+
+Enhance cross pattern if too subtle
+Add condensation drops
+Color: Blue hour exterior, warm interior
+Consider: Light refraction through ice
+
+CROSS MOTIF TRACKING:
+
+Cross #2 of 7
+Natural formation (not yet intentional)
+Foreshadows ritual cross pattern
+
+FALLBACK CHAIN:
+
+Any frosted window, add cross in post
+Ice pattern without window
+Breath fog only
+
+BUNDLE/REUSE:
+
+Part of CROSS_MOTIF series
+
+GENIUS NOTES: Sacred geometry appearing naturally before ritual
+CRITICAL WARNINGS: Cross must seem natural, not carved
+
+SHOT_7c - HEREDITARY BREATH PATTERN (OPTIONAL GENIUS)
+Difficulty: ⭐⭐⭐ | Runtime: 4 seconds | Priority: ENHANCING
+Industrial: None | Three Layers: P (physical) | Motif: Breath signature establishment
+PRAGMATIC PROMPT (Achievable):
+Close-up of breath vapor in extremely cold air, breath crystallizing and falling as tiny ice particles, indoor winter scene
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up of human breath in extremely cold indoor air below -10°C, breath vapor instantly crystallizing into microscopic ice crystals that fall like tiny glass shards catching whale oil lamp light, each exhalation creating distinctive crackling sound at 8-10kHz frequency, breath rhythm exactly 12 breaths per minute showing calm human pattern, ice crystals accumulating on invisible face below frame, crystallization pattern unique like fingerprint, some crystals floating upward defying gravity due to air currents
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Macro close-up
+Motion: 2.0 intensity (crystal movement)
+VFX: May need particle enhancement
+
+SOUND DESIGN:
+
+0:00-0:04: Breath crystallization crackling (8-10kHz)
+Each exhale: 0:00, 0:01, 0:02, 0:03 (12/min)
+Recording note: This EXACT sound returns with sheep
+
+POST-PRODUCTION:
+
+Enhance crystal visibility with particles
+Add light refraction through crystals
+Color: Blue-white crystals, amber backlight
+Speed: Slight slow-motion for crystal fall
+
+CALLBACK PREPARATION:
+
+Save audio file as BREATH_CRACKLE_HUMAN
+Will reuse in Shot 43b (wrong rhythm)
+Will reuse in Shot 50 (sheep breath)
+
+FALLBACK CHAIN:
+
+Simple breath vapor, no crystals
+Implied through sound only
+Cut if schedule tight
+
+BUNDLE/REUSE:
+
+Save as: BREATH_SIGNATURE_HUMAN
+Critical for later sheep comparison
+
+GENIUS NOTES: Establishing human breath sound for sheep callback
+CRITICAL WARNINGS: Must be exact same crackling sound later
+
+SHOT_8 - FAMILY HIERARCHY TABLE
+Difficulty: ⭐⭐⭐⭐ | Runtime: 11 seconds | Priority: ESSENTIAL
+Industrial: A #3 (horn continues) | Three Layers: P/S equal | Motif: Power structure
+PRAGMATIC PROMPT (Achievable - Single Take):
+Wide shot five people at wooden table in dark room - bearded man at head, woman with white headdress right, teenage girl far from man, boy and girl between, single oil lamp on table, everyone looking different directions, no eye contact
+AMBITIOUS PROMPT (Ideal - Requires Composite):
+Wide shot of five people around rough-hewn wooden table in dark 1908 Icelandic turf house each occupying specific power position - 55-year-old bearded fisherman at head position commanding space, 35-year-old woman with white curved faldbúningur headdress to his right diminished and small, 16-year-old girl with blonde braids positioned at maximum distance from man pressed against wall, 8-year-old boy with sandy hair and 5-year-old girl with cloth doll between as buffer, each looking different direction creating web of surveillance without eye contact, single whale oil lamp on table creating dramatic chiaroscuro with each face half in shadow, empty table except lamp showing no food, frost crystals on walls catching light, breath vapor from all five at different rhythms, body language showing fear/hunger/exhaustion, man's hands flat on table claiming space, woman's hands hidden in lap, girl's arms crossed defensively
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Wide static, slight Dutch angle (2 degrees)
+Motion: 0.5 intensity (breathing only)
+Composite plan: Generate each person separately if needed
+
+SOUND DESIGN:
+
+0:00-0:11: Five distinct breathing patterns:
+
+Magnus: 10/min (dominant, slow)
+Guðrún: 18/min (anxious)
+Sigrid: 15/min (controlled)
+Jón: 20/min (sick, labored)
+Lilja: 22/min (child rate)
+
+
+0:03: Trawler horn (75Hz at -18dB)
+0:05: Stomach growl (child)
+0:07: House beam settling
+0:09: Chair creak (someone shifting)
+
+POST-PRODUCTION:
+
+Composite if shot separately
+Match lighting direction precisely
+Add breath vapor for all
+Color: Extreme warm/cool split
+Shadow work: Each face 50% shadow
+
+SURVEILLANCE WEB DETAIL:
+
+Magnus: Looking at wall (avoiding all)
+Guðrún: Looking at hands (submission)
+Sigrid: Peripheral watch of Magnus
+Jón: Watching mother (seeking comfort)
+Lilja: Staring at meat (hunger)
+
+FALLBACK CHAIN:
+
+Shoot each pair, composite to five
+Three people, imply others
+Over-shoulder of Magnus, family visible
+
+BUNDLE/REUSE:
+
+Save as: TABLE_MASTER
+Reuse setup for Shots 27, 42
+Character positions locked for continuity
+
+GENIUS NOTES: Geography of fear - distance equals safety
+CRITICAL WARNINGS: Sigrid MUST be furthest from Magnus
+
+SHOT_8b - MAGNÚS COUNTING FAMILY
+Difficulty: ⭐⭐⭐ | Runtime: 5 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: S (psychological) | Motif: Mathematical breakdown #2 of 5
+PRAGMATIC PROMPT (Achievable):
+Close-up bearded man's finger pointing at family members one by one, counting on other hand, hesitating, starting over, confusion visible
+AMBITIOUS PROMPT (Ideal):
+Close-up of 55-year-old Icelandic fisherman's weathered finger with dirt under nail pointing at each family member at table in sequence, other hand counting on fingers, pointing at wife "einn", son "tveir", daughter "þrír", youngest "fjórir", hesitating at five, starting over with growing confusion, slight tremor in pointing finger, wedding ring visible but tarnished, counting hand showing old fishing scars, reaching five but looking like expecting six, beard visible at bottom of frame moving with muttered counting
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up hands and partial face
+Motion: 2.5 intensity (hand gestures)
+Focus: Sharp on hands, soft on background
+
+SOUND DESIGN:
+
+0:00-0:05: Muttered counting in Icelandic
+"Einn... tveir... þrír... fjórir... fimm..."
+0:03: Frustrated exhale
+0:04: "Nei, aftur..." (no, again)
+0:05: Chair creak from agitation
+
+POST-PRODUCTION:
+
+Add slight shake on confusion
+Enhance finger tremor
+Color: Warm lamp light on hands
+Speed: Slight hesitation at "five"
+
+MATHEMATICAL TRACKING:
+
+Second counting error
+Expects six, finds five
+Foreshadows final impossibility
+
+DIALOGUE EXACT:
+MAGNÚS: "Einn, tveir... þrír... fjórir... fimm... já, fimm"
+(One, two... three... four... five... yes, five)
+FALLBACK CHAIN:
+
+Just hand pointing, no counting shown
+Face showing confusion (no hands)
+Audio only over wide shot
+
+BUNDLE/REUSE:
+
+Save hand performance for Shot 58
+
+GENIUS NOTES: Reality's mathematics already failing
+CRITICAL WARNINGS: Must show expectation of six
+
+SHOT_8c - PERFECT BLUE REALITY SLIP (OPTIONAL GENIUS)
+Difficulty: ⭐⭐⭐⭐⭐ | Runtime: 5 seconds | Priority: ENHANCING
+Industrial: None | Three Layers: M (supernatural) | Motif: Reality fracture preview
+PRAGMATIC PROMPT (Not Possible in Single Generation):
+[This shot requires frame-by-frame compositing - skip to fallback]
+AMBITIOUS PROMPT (Requires Complex Post):
+FRAME 1-60 (0:00-2:50): Wide shot of family at table in dark turf house, all human, normal positions
+FRAME 61-63 (2:51-2:53): Exact same shot but all five are sheep in same positions wearing same clothes
+FRAME 64-120 (2:54-5:00): Back to human family, no acknowledgment of change
+TECHNICAL SPECIFICATIONS:
+
+This requires: Shoot both versions, edit frame-precisely
+Camera: Locked identical position
+Critical: No camera movement at all
+
+SOUND DESIGN:
+
+0:00-2:50: Normal room tone
+2:51-2:53: Room tone continues (no change)
+2:54-5:00: Normal room tone
+Critical: NO sound acknowledgment of change
+
+POST-PRODUCTION:
+
+Shoot human version (Shot 8)
+Shoot sheep version (Shot 50 setup)
+Cut 3 frames of sheep into human shot
+No transition, hard cut
+Consider: Add at 2% opacity throughout?
+
+PSYCHOLOGICAL IMPACT:
+
+Subliminal transformation preparation
+Audience unsure what they saw
+Creates unconscious dread
+
+FALLBACK CHAIN:
+
+Single frame subliminal (1/24th second)
+Shadow briefly wrong on wall
+Omit if too complex/expensive
+
+BUNDLE/REUSE:
+
+Requires shooting Shot 50 early
+
+GENIUS NOTES: Planting transformation in unconscious
+CRITICAL WARNINGS: If included, must be EXACT 3 frames - not shorter, not longer
+
+SHOT_9 - SECRET BREAD
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: P (hunger/hoarding) | Motif: Surveillance web
+PRAGMATIC PROMPT (Achievable):
+POV through wooden slats, woman's hands hiding bread in apron pocket, head turning to check, teenage girl visible in background watching
+AMBITIOUS PROMPT (Ideal):
+POV through horizontal wooden bed platform slats creating natural prison bar effect, 35-year-old Icelandic woman's weathered hands in brown wool sleeves secretly placing small piece of dark rye bread into brown leather apron pocket, bread crumbs falling requiring second attempt, her white faldbúningur headdress visible as she turns head checking over shoulder for husband, 16-year-old blonde girl visible in soft focus background watching both the hiding and the checking with understanding expression, hands moving with practiced secrecy of repeated action, wedding ring catching light during movement, breath vapor showing cold and fear
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: POV through obstruction
+Motion: 2.0 intensity (furtive movement)
+Focus: Hands sharp, background soft
+
+SOUND DESIGN:
+
+0:00-0:02: Fabric rustling (wool on wool)
+0:02: Bread crumb falling (tiny impact)
+0:03: Sharp intake of breath (fear)
+0:04: Footstep elsewhere (Magnus moving)
+0:05: Pocket closing (leather snap)
+Constant: Heartbeat at 80bpm (elevated)
+
+POST-PRODUCTION:
+
+Add slats in foreground if needed
+Enhance bread crumb fall
+Color: Desaturated except bread
+Speed: Quick hide motion at 0:04
+
+SURVEILLANCE DYNAMICS:
+
+Guðrún: Hiding from Magnus
+Sigrid: Observing both parents
+Camera: We are complicit watchers
+
+FALLBACK CHAIN:
+
+Hands only, no background figure
+Without slats obstruction
+Implied through sound
+
+BUNDLE/REUSE:
+
+Part of SURVEILLANCE_WEB series
+
+GENIUS NOTES: Everyone watching everyone except together
+CRITICAL WARNINGS: Bread must be small - scarcity visible
+
+SHOT_9b - CROSSED FIREWOOD
+Difficulty: ⭐ | Runtime: 3 seconds | Priority: ENHANCING
+Industrial: None | Three Layers: M (supernatural) | Motif: Cross #3 of 7, Doubling
+PRAGMATIC PROMPT (Achievable):
+Two birch logs crossed in X on stone hearth, dying embers beneath, frost on stones around
+AMBITIOUS PROMPT (Ideal):
+Close-up of two white birch logs crossed in perfect X formation on blackened stone hearth, dying orange embers glowing beneath at exactly 600°C creating subtle heat shimmer, frost crystals on stones around hearth melting and refreezing in cycle, thin blue smoke wisping upward, logs identical length suggesting deliberate placement, bark peeling showing age, charred ends from previous fires, single spark flying up at 2-second mark, shadows forming secondary cross on wall behind
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Static close-up
+Motion: 0.5 intensity (ember glow, smoke)
+
+SOUND DESIGN:
+
+0:00-0:03: Fire dying (crackling at 400Hz)
+0:02: Single pop (wood resin)
+Constant: Subtle hiss of dying fire
+
+POST-PRODUCTION:
+
+Enhance ember glow if needed
+Add smoke if too subtle
+Color: Orange embers, blue shadows
+
+SYMBOLIC READING:
+
+Two logs = two deaths coming (parents)
+Cross formation = failed faith
+Dying fire = dying hope
+
+FALLBACK CHAIN:
+
+Any crossed wood, add embers in post
+Just hearth with ashes
+Omit if time pressure
+
+BUNDLE/REUSE:
+
+Part of CROSS_MOTIF series
+
+GENIUS NOTES: Doubling motif plus cross - two symbols in one
+CRITICAL WARNINGS: Must be exactly two logs, same size
+
+SHOT_10 - TRACKING MOTHER
+Difficulty: ⭐⭐ | Runtime: 5 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: P (surveillance) | Motif: Web of watching #2
+PRAGMATIC PROMPT (Achievable):
+Extreme close-up teenage girl's grey eyes moving left to right following someone, slight squint, blonde braid swaying
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up of 16-year-old Icelandic girl's grey eyes moving smoothly left to right following mother's secret movement off-screen, slight squint of recognition when eyes track past hidden bread location, wheat-blonde braid swaying slightly with subtle head movement showing she's leaning to see better, whale oil lamp light creating bright catchlight in left eye only showing angle, pupil dilation when understanding dawns, single eyelash on cheek from stress, microexpressions of concern mixed with calculation
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Extreme close-up, locked
+Motion: 1.5 intensity (eye tracking only)
+Focus: Eyes tack sharp
+
+SOUND DESIGN:
+
+0:00-0:05: Sigrid's controlled breathing
+0:02: Fabric sound off-screen (mother moving)
+0:03: Slight breath hold (recognition)
+0:04: Slow exhale (decision made)
+
+POST-PRODUCTION:
+
+Enhance eye tracking smoothness
+Add micro-expressions if needed
+Color: Enhance grey iris
+Match to Shot 7 lighting
+
+SURVEILLANCE TRACKING:
+
+Sigrid has now seen:
+
+Mother hiding food
+Mother's fear of father
+Beginning to understand power dynamics
+
+
+
+FALLBACK CHAIN:
+
+Reuse Shot 7 with different timing
+Profile showing watching
+Just eyes, no movement
+
+BUNDLE/REUSE:
+
+Modify SIGRID_EYES_BASE from Shot 7
+Bundle with: 7, 15, 33, 45
+
+GENIUS NOTES: Building Sigrid's omniscient observation
+CRITICAL WARNINGS: Must maintain same eye color as Shot 7
+
+SHOT_10b - BLACK THREAD REPAIR
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: M (supernatural) | Motif: Black in white #1 of 3
+PRAGMATIC PROMPT (Achievable):
+Overhead angle teenage hands sewing torn dress with black thread through white fabric, needle catching light, wooden hoop holding fabric
+AMBITIOUS PROMPT (Ideal):
+Close-up overhead angle of teenage Icelandic girl's pale hands with bitten nails sewing torn grey-brown wool dress with black wool thread through white fabric underlay section, creating stark dark line through light material like a wound, silver needle catching whale oil lamp light with each pass, fabric stretched in round wooden embroidery hoop with carved runes on edge, stitches precise despite trembling fingers, blood spot on fabric from previous needle prick, traditional 1908 cross-stitch technique visible, thread creating pattern that resembles runic symbol when viewed abstractly, thimble on middle finger worn smooth
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Overhead close-up
+Motion: 2.0 intensity (sewing action)
+Focus: Needle and thread sharp
+
+SOUND DESIGN:
+
+0:00-0:06: Needle through fabric (soft puncture)
+Rhythm: Stitch every 1.5 seconds
+0:03: Thread pulling through (whisper sound)
+0:04: Finger on thimble tap (nervous habit)
+Constant: Breathing at 15/min
+
+POST-PRODUCTION:
+
+Enhance thread contrast (very black)
+Add needle glint if missing
+Color: Desaturate except thread
+Consider: Thread pattern forming symbol?
+
+SYMBOLIC INTERPRETATION:
+
+Black thread = corruption entering
+White fabric = innocence
+The repair makes things worse
+
+FALLBACK CHAIN:
+
+Simpler sewing, any dark thread
+Just hands with needle
+Static shot of sewn result
+
+BUNDLE/REUSE:
+
+Part of BLACK_IN_WHITE motif
+
+GENIUS NOTES: Mending that corrupts - fixing makes worse
+CRITICAL WARNINGS: Thread must be pure black, fabric white section
+
+SHOT_11 - MAGNÚS AT WALL
+Difficulty: ⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: A #4 (horn when "missing") | Three Layers: P/S | Motif: V-notch #2, Mathematical breakdown #3
+PRAGMATIC PROMPT (Achievable):
+Medium shot bearded man at wooden wall touching carved notches, counting with finger, getting frustrated, brown wool sweater, lamp light from left
+AMBITIOUS PROMPT (Ideal):
+Medium shot of 55-year-old Icelandic fisherman with thick grey unkempt beard ice crystals in whiskers standing at wooden wall, weathered finger with dirt under nail touching carved V-shaped notches grouped in fives representing months, counting under breath with lips moving "September... October..." losing count at November and starting over with growing frustration, brown homespun vadmál wool sweater with visible mending at elbow and shoulder, whale oil lamp light from left creating deep shadows on right side of face like half in darkness, spittle in beard from muttering, wall showing years of similar counts with older marks worn smooth, one group has six marks with last one violently crossed out, tremor in hand getting worse with each recount
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Medium shot, slight push over duration
+Motion: 2.5 intensity (agitated gestures)
+Focus: Hand and wall sharp
+
+SOUND DESIGN:
+
+0:00-0:10: Muttered counting:
+
+"September..." (0:01)
+"October..." (0:03)
+"November..." (0:05)
+"Still missing" (0:07)
+"My best ram" (0:09)
+
+
+0:07: Trawler horn at "missing" (78Hz at -15dB)
+Constant: Fingernail on wood (scratching)
+
+POST-PRODUCTION:
+
+Enhance V-notch visibility
+Add finger tremor if needed
+Color: Warm on face, cool on wall
+Speed: Slight slow-mo on frustration peak
+
+DIALOGUE EXACT:
+MAGNÚS: "September... October... November... still missing. My best ram."
+V-NOTCH TRACKING:
+
+V-notch appearance #2
+Connects to seal flipper (Shot 24)
+Connects to ram's ear (Shot 39)
+
+FALLBACK CHAIN:
+
+Just hand on wall, implied counting
+Face showing frustration (no wall)
+Audio over wide shot
+
+BUNDLE/REUSE:
+
+Wall marks reference for Shot 39
+
+GENIUS NOTES: Ram missing three months - it's been transforming
+CRITICAL WARNINGS: Must say "missing" when horn sounds
+
+SHOT_11b - SHADOW PROPHECY
+Difficulty: ⭐⭐⭐⭐ | Runtime: 5 seconds | Priority: ENHANCING
+Industrial: None | Three Layers: M (supernatural) | Motif: Consumption foreshadowing
+PRAGMATIC PROMPT (Achievable):
+Turf wall with hand shadows cast by lamp, children's fingers making sheep shape, adult hand making wolf eating sheep
+AMBITIOUS PROMPT (Ideal):
+Close-up of rough turf wall with children's small hand shadows cast by whale oil lamp, tiny fingers creating perfect sheep shape with remarkable detail, then larger adult hand shadow entering frame from right creating wolf shape with open jaws that appears to consume the sheep shadow completely, shadows sharp and dramatic against textured wall with bits of straw visible, wolf shadow's mouth opening and closing in eating motion, sheep shadow struggling then disappearing, child's gasp audible, shadows so precise they seem impossible for hands to make, final frame showing only wolf shadow swallowing
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close on wall
+Motion: 3.0 intensity (complex hand movements)
+Challenge: May need manual shadow work
+
+SOUND DESIGN:
+
+0:00-0:02: Children giggling
+0:02: Gasp (recognition of violence)
+0:03: Shadow puppet "eating" sounds
+0:04: Nervous child laugh
+0:05: Adult shushing
+
+POST-PRODUCTION:
+
+Enhance shadows if not clear
+Possible: Rotoscope hand shadows
+Color: Amber light, deep shadows
+Consider: Add impossible shadow details
+
+PROPHETIC ELEMENTS:
+
+Sheep being consumed = family transformation
+Wolf = Magnus/hunger/fate
+Shadow play = innocent prophecy
+
+FALLBACK CHAIN:
+
+Simple shadows, less detailed
+Just shadows on wall (no hands shown)
+Omit if too complex
+
+BUNDLE/REUSE:
+
+Children's play prophecy series
+
+GENIUS NOTES: Children unknowingly performing future
+CRITICAL WARNINGS: Shadows must be readable as sheep/wolf
+
+SHOT_11c - RIB BONE CROSS
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: M (supernatural) | Motif: Cross #4 of 7
+PRAGMATIC PROMPT (Achievable):
+Children's hands arranging white rib bones in cross pattern on earth floor, bones with dried tissue, lamp light from above
+AMBITIOUS PROMPT (Ideal):
+Close-up of packed earth floor with 8-year-old boy's and 5-year-old girl's small dirty hands carefully arranging white rib bones in perfect cross pattern, bones still have dried tissue and cartilage attached suggesting recent meal, whale oil lamp light from above making bones glow against dark earth like holy relics, children's faces partially visible in soft focus showing serious concentration as if performing important ritual, thirteen bones total arranged with center bone longer, small fingers placing each bone with reverence learned from watching mother, breath vapor visible, one bone has tooth mark from hunger, shadow of cross extending beyond bones
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Overhead angled down
+Motion: 1.5 intensity (careful placement)
+Focus: Hands and bones sharp
+
+SOUND DESIGN:
+
+0:00-0:06: Bones clicking on placement
+0:02: JÓN: "Like this?" (whispered)
+0:03: LILJA: "Like Mamma does" (whispered)
+0:05: Bones settling into pattern
+Constant: Children breathing (20/min)
+
+POST-PRODUCTION:
+
+Enhance bone whiteness
+Add shadow if needed
+Color: High contrast bone vs earth
+Consider: Subtle glow on bones?
+
+WHISPERED DIALOGUE:
+
+JÓN: "Like this?"
+LILJA: "Like Mamma does"
+
+CROSS TRACKING:
+
+Cross #4 of 7
+Children mimicking adult ritual
+Innocent preparation for horror
+
+FALLBACK CHAIN:
+
+Fewer bones, simpler pattern
+Just hands arranging objects
+Implied through shadow
+
+BUNDLE/REUSE:
+
+Part of CROSS_MOTIF series
+Children's innocent prophecy
+
+GENIUS NOTES: Children practicing ritual without understanding
+CRITICAL WARNINGS: Must be rib bones specifically (tilberi connection)
+
+SHOT_12 - JÓN'S SICKNESS
+Difficulty: ⭐⭐⭐ | Runtime: 5 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: P (physical illness) | Motif: Body breaking down
+PRAGMATIC PROMPT (Achievable):
+Through blanket gap, boy's face coughing into hands, sandy hair sweaty, oversized brown sweater, red between fingers
+AMBITIOUS PROMPT (Ideal):
+View through grey wool blanket gap showing 8-year-old Icelandic boy's face partially visible, violent wet coughing into cupped hands with whole body convulsing, sandy hair matted with fever sweat against forehead, oversized brown wool sweater collar too large for thin neck showing weight loss, bright red blood visible between pale fingers shocking against grey surroundings, eyes watering from cough force, nose running, exhausted expression between coughs, whale oil lamp light catching blood making it glisten, ribs visible through sweater during cough showing malnutrition
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Through obstruction (blanket)
+Motion: 2.5 intensity (coughing action)
+Challenge: Blood may need adding in post
+
+SOUND DESIGN:
+
+0:00-0:05: Coughing sequence:
+
+Wet cough (0:00-0:01)
+Gasping breath (0:01-0:02)
+Deeper cough with rattle (0:02-0:03)
+Wheezing inhale (0:03-0:04)
+Final explosive cough (0:04-0:05)
+
+
+0:03: Liquid sound (blood in throat)
+
+POST-PRODUCTION:
+
+Add blood if not visible
+Enhance sweat on forehead
+Color: Desaturate except red blood
+Motion blur on cough convulsion
+
+MEDICAL DETAILS:
+
+Tuberculosis-like presentation
+Blood suggests advanced disease
+Cough pattern: Productive, painful
+
+FALLBACK CHAIN:
+
+Simpler cough, no blood visible
+Just suggestion through sound
+Face only, implying cough
+
+BUNDLE/REUSE:
+
+Jón's declining health series
+
+GENIUS NOTES: Physical decay paralleling transformation
+CRITICAL WARNINGS: Blood must be visible but not excessive
+
+SHOT_12b - MAGNÚS'S HYPOCRISY
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P (hunger/hoarding) | Motif: Hidden consumption
+PRAGMATIC PROMPT (Achievable):
+Bearded man back to camera, hand bringing food from pocket to mouth, chewing quickly, looking over shoulder guilty
+AMBITIOUS PROMPT (Ideal):
+Medium shot of 55-year-old bearded Icelandic man with back three-quarters turned to camera, thick grey beard visible in profile, hand quickly bringing small piece of dried fish from trouser pocket to mouth, chewing furtively with jaw working rapidly, eyes darting over shoulder toward family area checking if observed, guilt and defiance mixed in expression, crumbs in beard from previous secret eating, brown wool sweater with shoulders hunched protectively over food, wedding ring visible on hand bringing food to mouth adding to betrayal, breath vapor showing cold but also rapid breathing from anxiety, swallowing hard with adam's apple visible
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Medium shot, slight handheld
+Motion: 2.0 intensity (furtive eating)
+Focus: Sharp on action
+
+SOUND DESIGN:
+
+0:00-0:02: Pocket rustling
+0:02: Quick chewing (dry fish)
+0:03: Hard swallow
+0:04: Guilty exhale
+0:05: Footstep (someone approaching)
+0:06: Final swallow
+
+POST-PRODUCTION:
+
+Add crumbs if needed
+Enhance guilty expression
+Color: Darker than family scenes
+Speed: Quick eating motion
+
+CHARACTER DETAIL:
+
+Establishes Magnus as hypocrite
+Will accuse others of hiding food
+Already breaking family unity
+
+FALLBACK CHAIN:
+
+Just hand to mouth gesture
+Chewing motion, food implied
+Back turned, action suggested
+
+BUNDLE/REUSE:
+
+Magnus moral decay series
+
+GENIUS NOTES: The accuser is the guilty one
+CRITICAL WARNINGS: Must establish before he discovers Guðrún's bread
+
+SHOT_12c - WRONG SHADOWS
+Difficulty: ⭐⭐⭐⭐ | Runtime: 4 seconds | Priority: ENHANCING
+Industrial: None | Three Layers: S/M (reality breaking) | Motif: Doubling #2 of 5
+PRAGMATIC PROMPT (Not fully achievable):
+Family at table with shadows on wall, shadows wrong number, extra child shadow
+AMBITIOUS PROMPT (Requires Composite):
+Wide shot of family of five at wooden table in 1908 turf house but wall behind shows six distinct shadows instead of five, extra shadow child-sized between existing shadows, extra shadow moving slightly independently suggesting different source, whale oil lamp on table should only create five shadows but six clearly visible, shadow positions not matching family member positions exactly, extra shadow raising hand when no one moves, other shadows normal, lamp flame steady so shadow anomaly impossible
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3 for base
+Post: Add sixth shadow in composite
+Camera: Wide static
+Critical: Lamp position must be consistent
+
+SOUND DESIGN:
+
+0:00-0:04: Normal room tone
+0:02: Subtle wrongness (reverse reverb at -40dB)
+No direct acknowledgment of anomaly
+
+POST-PRODUCTION REQUIRED:
+
+Shoot normal five shadows
+Rotoscope and duplicate one child shadow
+Offset shadow movement by 0.5 seconds
+Very subtle - viewers might miss first viewing
+
+MATHEMATICAL TRACKING:
+
+Five people but six shadows
+Foreshadows final counting impossibility
+Reality's rules beginning to break
+
+FALLBACK CHAIN:
+
+Shadows just positioned wrong
+Shadow count unclear (overlapping)
+Omit if too complex
+
+BUNDLE/REUSE:
+
+Part of DOUBLING_MOTIF series
+
+GENIUS NOTES: Mathematics failing visually before verbally
+CRITICAL WARNINGS: Extra shadow must be subtle, not obvious
+
+Continuing in next response due to length...RetryIcontinueEditSHOT_13 - SIGRID'S SACRIFICE
+Difficulty: ⭐⭐⭐ | Runtime: 10 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: P (hunger/protection) | Motif: True caregiver revealed
+PRAGMATIC PROMPT (Achievable):
+Teenage girl breaking small bread piece in half, giving larger piece to small girl with doll, protective positioning between child and room, soft lighting
+AMBITIOUS PROMPT (Ideal):
+Medium two-shot of 16-year-old Icelandic girl with wheat-blonde braids breaking small piece of dark rye bread in half with careful hands, giving noticeably larger piece to 5-year-old girl with tangled hair clutching cloth doll, teenage girl positioned protectively between child and rest of room with body creating shield, both wearing worn grey wool dresses with visible patches, soft whale oil lamp light from right creating Rembrandt lighting on faces showing tenderness despite circumstances, bread crumbs falling caught by older girl's hand to save them, younger child's eyes widening at gift, older girl's slight smile despite her own hunger visible in hollow cheeks, breath vapor from both, shadow on wall showing protective embrace position
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Medium two-shot
+Motion: 1.5 intensity (gentle exchange)
+Character positions: Sigrid left, Lilja right
+
+SOUND DESIGN:
+
+0:00-0:02: Bread breaking (soft crack)
+0:02: Crumbs falling (tiny impacts)
+0:03-0:05: Fabric rustling (handing over)
+0:06: Child's grateful sigh
+0:08: Older girl's stomach growl (suppressed)
+NO DIALOGUE - gesture speaks
+
+POST-PRODUCTION:
+
+Enhance size difference in pieces
+Add crumbs if needed
+Color: Warm on faces, bread highlighted
+Speed: Slow the hand-over moment
+
+CHARACTER DYNAMICS:
+
+Sigrid as true mother figure
+Self-sacrifice despite starvation
+Protection through positioning
+
+FALLBACK CHAIN:
+
+Just hands exchanging bread
+Older girl giving, child receiving (separate shots)
+Imply through positioning only
+
+BUNDLE/REUSE:
+
+Sigrid protection arc
+
+GENIUS NOTES: Love shown through sacrifice, not words
+CRITICAL WARNINGS: Larger piece to child must be obvious
+
+SHOT_13b - DOLL BURIAL
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: ENHANCING
+Industrial: None | Three Layers: M (supernatural) | Motif: Death play, prophecy
+PRAGMATIC PROMPT (Achievable):
+Small girl's hands placing cloth doll into wall depression, covering with earth and moss, serious expression, ritual-like movements
+AMBITIOUS PROMPT (Ideal):
+Close-up of 5-year-old Icelandic girl's small dirty hands carefully placing cloth doll with brass button eyes into natural depression in turf wall, patting loose earth and green moss over it like grave soil with methodical ritual movements learned from observing funeral, child's face partially visible showing serious concentration treating as solemn ceremony, doll's button eyes catching lamp light one last time before being covered, small fingers arranging moss in cross pattern on top, whispered words too quiet to hear but rhythm suggesting prayer, one tear on child's cheek showing emotional investment in play-funeral, shadow of hands creating larger shadow suggesting adult performing burial
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up on hands and wall
+Motion: 1.5 intensity (careful burial)
+Focus: Hands sharp, face soft
+
+SOUND DESIGN:
+
+0:00-0:03: Earth being moved (soft shuffling)
+0:03: LILJA: "Sleep forever?" (whispered)
+0:04: Moss being placed
+0:05: Pat-pat-pat (funeral rhythm)
+Constant: Child breathing (22/min)
+
+POST-PRODUCTION:
+
+Enhance button eye gleam
+Add tear if missing
+Color: Earth dark, doll light
+Consider: Doll's face resembling family member?
+
+WHISPERED DIALOGUE:
+
+LILJA: "Sleep forever?"
+
+PROPHETIC ELEMENTS:
+
+Burial foreshadows family fate
+"Sleep forever" = transformation state
+Child practicing death rituals
+
+FALLBACK CHAIN:
+
+Simple burial without details
+Just hands and doll
+Doll already buried, child patting earth
+
+BUNDLE/REUSE:
+
+Children's prophecy series
+
+GENIUS NOTES: Innocent rehearsal for family's fate
+CRITICAL WARNINGS: Must feel like genuine child's funeral play
+
+SHOT_13c - FAILED RITUAL
+Difficulty: ⭐⭐⭐⭐ | Runtime: 7 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: M (supernatural) | Motif: Magic attempted
+PRAGMATIC PROMPT (Achievable):
+Woman with white headdress kneeling at table, cross pattern of white pieces and wool before her, lips moving silently, waiting, nothing happening, shoulders slumping
+AMBITIOUS PROMPT (Ideal):
+Medium shot of 35-year-old Icelandic woman with white curved faldbúningur headdress kneeling at wooden table in prayer position, cross pattern made of four white shark cartilage ribs and grey sheep wool arranged before her on dark wood with blood drops at center, lips moving in silent prayer with words of tilberi invocation, hands trembling over arrangement not quite touching, waiting expectantly for transformation with eyes closed, breath held in anticipation, nothing happening for long pause, shoulders gradually slumping in defeat, eyes opening with tears of desperation, whale oil lamp flickering as if responding then steadying, arrangement remaining inert despite perfect construction, wedding ring catching light showing her desperation as wife and mother
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Medium shot, static
+Motion: 0.5 intensity (trembling only)
+Duration: Hold failure beat for 3 seconds
+
+SOUND DESIGN:
+
+0:00-0:03: Whispered prayer (unintelligible)
+0:03-0:05: Silence (waiting for magic)
+0:05: Defeated exhale
+0:06: Tear drop hitting table
+Constant: Lamp flame (no change despite expectation)
+
+POST-PRODUCTION:
+
+Enhance trembling if subtle
+Add tear if missing
+Color: Desaturate except blood
+NO magical effects - failure is point
+
+RITUAL DETAILS:
+
+Missing element: Human rib (has shark cartilage)
+Wrong practitioner: Not widow
+Incomplete knowledge: Fragments only
+
+FALLBACK CHAIN:
+
+Just hands over pattern
+Woman praying, pattern implied
+Pattern only, woman off-frame
+
+BUNDLE/REUSE:
+
+Setup for Sigrid's success (Shot 35)
+
+GENIUS NOTES: Magic fails for mother, will "work" for daughter
+CRITICAL WARNINGS: No magical effects - mundane failure essential
+
+SHOT_14 - RITUAL CONSTRUCTION
+Difficulty: ⭐⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: A #5 (horn interrupts) | Three Layers: M (supernatural) | Motif: Cross #5 of 7
+PRAGMATIC PROMPT (Achievable):
+Overhead shot woman's hands arranging white cartilage pieces in cross with wool between, blood drops on wool, bone needle at center, careful movements
+AMBITIOUS PROMPT (Ideal):
+Direct overhead shot of weathered Icelandic woman's hands with wedding ring arranging four white translucent shark cartilage ribs in perfect cross pattern with grey sheep wool wound between them on dark wooden table surface worn smooth from years, small drops of bright red blood from pricked finger on wool fibers spreading slowly through strands like veins, bone needle placed precisely at center pointing north, hands moving with careful reverence and desperation, pattern measuring exactly 13 inches across, breath vapor visible above hands, whale oil lamp light from left creating dramatic shadows of cross extending beyond materials, thirteen wool strands connecting cartilage pieces, hands pausing when trawler horn sounds, trembling with cold and fear, one cartilage piece has bite mark from hunger
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Direct overhead, locked
+Motion: 1.5 intensity (careful placement)
+Critical moment: Hands pause at 0:07
+
+SOUND DESIGN:
+
+0:00-0:06: Careful placement sounds
+0:07: Trawler horn interrupts (80Hz at -12dB)
+0:07-0:08: Hands pause, breath held
+0:08-0:10: Resume placement, faster
+Constant: Heartbeat audible (elevated)
+
+POST-PRODUCTION:
+
+Enhance blood spreading if needed
+Ensure cross is perfect symmetry
+Color: Red blood, white cartilage contrast
+Shadow: Cross shadow must extend beyond
+
+INDUSTRIAL MOMENT:
+
+Horn interrupts sacred moment
+Modern world intrudes on ancient practice
+Hands pause showing fear of discovery
+
+FALLBACK CHAIN:
+
+Simpler cross, fewer details
+Hands arranging, pattern partially visible
+Completed pattern, no process
+
+BUNDLE/REUSE:
+
+Base for Shot 35 (Sigrid's elaborate version)
+
+GENIUS NOTES: Industrial interrupts supernatural - modernity disrupts magic
+CRITICAL WARNINGS: Must pause exactly when horn sounds
+
+SHOT_14b - CARTILAGE HARVEST
+Difficulty: ⭐⭐⭐ | Runtime: 4 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: P/M (poison becomes magic) | Motif: Contamination
+PRAGMATIC PROMPT (Achievable):
+Woman's hand cutting white cartilage from hanging grey meat, knife catching light, careful not to damage structure
+AMBITIOUS PROMPT (Ideal):
+Close-up of Icelandic woman's weathered hand with chapped skin holding sharp knife cutting pale translucent cartilage rib from hanging grey-pink fermented shark meat, being careful not to damage the cartilage structure as it's precious ritual material, crystalline ammonia surface visible on meat, knife blade reflecting whale oil lamp light, cartilage bending but not breaking showing flexibility unlike bone, small amount extracted showing scarcity, fingers trembling from cold and anticipation, wedding ring visible showing desperation as mother, breath vapor as she concentrates
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up, handheld slight shake
+Motion: 2.0 intensity (cutting action)
+Focus: Knife and cartilage sharp
+
+SOUND DESIGN:
+
+0:00-0:02: Knife entering meat (wet sound)
+0:02: Cartilage separating (subtle crack)
+0:03: Piece falling into hand
+0:04: Satisfied exhale
+
+POST-PRODUCTION:
+
+Enhance cartilage translucency
+Add knife gleam if missing
+Color: Pale cartilage vs grey meat
+Consider: Steam from cold meat?
+
+MATERIAL SIGNIFICANCE:
+
+Wrong material for tilberi (needs human rib)
+Poison source becomes ritual material
+Contamination of magic with toxin
+
+FALLBACK CHAIN:
+
+Hand holding cartilage (already cut)
+Knife and meat, cutting implied
+Cartilage on table
+
+BUNDLE/REUSE:
+
+Part of ritual preparation sequence
+
+GENIUS NOTES: Poison and magic intertwining
+CRITICAL WARNINGS: Must be cartilage, not bone
+
+SHOT_14c - BLOOD ADDITION
+Difficulty: ⭐⭐ | Runtime: 4 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: M (supernatural) | Motif: Blood sacrifice
+PRAGMATIC PROMPT (Achievable):
+Finger pricked with needle, blood drop falling onto grey wool, blood spreading through fibers
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up of female finger being pricked with bone needle at fingertip, large drop of bright red blood welling up and hanging for moment before falling onto grey sheep wool in cross pattern, blood spreading through wool fibers in branching vein-like patterns following the weave, second drop forming, needle showing previous dried blood from earlier attempts, finger trembling after prick, blood unusually bright against grey materials, spreading pattern resembling tree roots or lightning
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Extreme close-up macro
+Motion: 1.0 intensity (blood spreading)
+Focus: Rack from needle to blood
+
+SOUND DESIGN:
+
+0:00: Needle prick (tiny pop)
+0:01: Sharp intake of breath
+0:02: Blood drop impact (almost silent)
+0:02-0:04: Blood spreading (no sound)
+
+POST-PRODUCTION:
+
+Enhance blood brightness
+Ensure spreading follows fibers
+Color: Vivid red against grey
+Speed: Slow-motion for drop fall
+
+BLOOD PATTERN:
+
+Spreads in vein/root pattern
+Suggests life entering dead materials
+Pattern matches frost on windows
+
+FALLBACK CHAIN:
+
+Blood on wool (no process)
+Finger with blood (no wool)
+Implied through sound
+
+BUNDLE/REUSE:
+
+Blood pattern for Shot 36b
+
+GENIUS NOTES: Blood as life force attempting animation
+CRITICAL WARNINGS: Spreading pattern important - not just spot
+
+SHOT_15 - SIGRID MEMORIZING
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: M (supernatural) | Motif: Knowledge transfer
+PRAGMATIC PROMPT (Achievable):
+Teenage girl's face looking down, eyes moving as if reading, lips moving silently, concentration, blonde braids framing face
+AMBITIOUS PROMPT (Ideal):
+Close-up of 16-year-old Icelandic girl's face looking down at ritual arrangement below frame, grey eyes moving left to right as if reading or memorizing pattern with photographic intensity, lips moving silently forming unfamiliar syllables of tilberi invocation she doesn't understand, wheat-blonde braids framing face with one strand loose, absolute concentration with slight frown, no blinking for entire shot showing supernatural focus, single bead of sweat despite cold, micro-expressions showing she's absorbing not just pattern but meaning, breath held then released slowly, pupils dilating as understanding dawns, slight nod to self as memorization completes
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up, slight push in
+Motion: 1.0 intensity (subtle eye movement)
+Focus: Eyes sharp, background soft
+
+SOUND DESIGN:
+
+0:00-0:06: Barely audible whispered syllables
+0:03: Single breath (held then released)
+0:05: Slight vocalization (understanding)
+Constant: Lamp flame, house creaking
+
+POST-PRODUCTION:
+
+Enhance eye movement tracking
+Add micro-expressions if needed
+Color: Enhance grey eyes
+NO BLINKING during shot
+
+KNOWLEDGE TRANSFER:
+
+Sigrid learning from observation
+Youth absorbing elder knowledge
+Will succeed where mother failed
+
+FALLBACK CHAIN:
+
+Eyes only, no lip movement
+Profile shot showing concentration
+Looking down, details implied
+
+BUNDLE/REUSE:
+
+Save for surveillance shots
+Part of Sigrid's arc
+
+GENIUS NOTES: Silent education - learning through watching
+CRITICAL WARNINGS: Must convey memorization without showing pattern
+
+SHOT_16 - EMERGENCY CONCEALMENT
+Difficulty: ⭐⭐⭐⭐ | Runtime: 8 seconds | Priority: ESSENTIAL
+Industrial: A #6 (horn through door) | Three Layers: P (domestic violence) | Motif: Incest subplot positioning
+PRAGMATIC PROMPT (Achievable):
+Two women quickly covering table with cloth, door opening with wind and snow, bearded man entering, teenage girl retreating to corner, arms crossed defensively
+AMBITIOUS PROMPT (Ideal):
+Wide shot of two Icelandic women frantically covering wooden table with dark wool cloth to hide ritual materials as heavy wooden door crashes open with violent wind and snow, 55-year-old bearded fisherman entering covered in ice and snow like creature from blizzard, 16-year-old girl with braids immediately retreating to furthest corner with arms crossed protectively over chest, body turned away from entering man, maintaining maximum physical distance, woman with headdress frozen in submissive position, children huddling together, whale oil lamp swinging from door impact, trawler horn audible through open door, man's eyes scanning room suspiciously, girl pressing herself into corner trying to become invisible, positioning showing practiced avoidance
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Wide shot showing full room geography
+Motion: 3.0 intensity (frantic concealment)
+Critical: Show Sigrid's maximum distance
+
+SOUND DESIGN:
+
+0:00-0:02: Frantic cloth movement
+0:02: Door SLAM
+0:02-0:04: Wind roar, snow
+0:03: Trawler horn through door (82Hz)
+0:04: Lamp chain swinging
+0:05-0:08: Heavy breathing (Magnus)
+
+POST-PRODUCTION:
+
+Add snow VFX through door
+Enhance lamp swinging
+Color: Cold blue from door, warm interior
+Speed: Quick concealment, then freeze
+
+INCEST SUBPLOT GEOGRAPHY:
+
+Sigrid maximum distance from door/Magnus
+Arms defensive over chest
+Body turned away
+Using furniture as barrier
+
+FALLBACK CHAIN:
+
+Simpler concealment, less detail
+Magnus entering, family reacting
+Door opening, reactions implied
+
+BUNDLE/REUSE:
+
+Establish geography for violence sequence
+
+GENIUS NOTES: Space tells story - distance equals safety from predator
+CRITICAL WARNINGS: Sigrid's positioning essential for subplot
+
+BOAT SEQUENCE: INDUSTRIAL CONFRONTATION (3:45-5:15)
+Man versus modernity, tradition versus technology
+SHOT_17 - MAGNÚS'S FURY
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: ESSENTIAL
+Industrial: A #7 (horn prominent) | Three Layers: P (rage) | Motif: Masculine failure
+PRAGMATIC PROMPT (Achievable):
+Bearded man in doorway, fists clenched, looking between family and empty table, snow behind, rage building
+AMBITIOUS PROMPT (Ideal):
+Medium shot of 55-year-old bearded Icelandic fisherman in doorway of dark turf house, fists clenched at sides with knuckles white, trembling with rage from failure and suspicion, looking between family huddled together in fear and empty wooden table where food should be, jaw muscles visibly clenched with teeth grinding audible, heavy snow blowing in behind him making him appear as dark silhouette against white, brown wool sweater covered in ice crystals like armor, breath coming in sharp bursts like bull, eyes bloodshot from wind and anger, spittle in beard, door frame creaking from his grip, wedding ring cutting into swollen finger from clenched fist
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Medium shot, slight low angle
+Motion: 1.5 intensity (trembling rage)
+Lighting: Backlit by snow
+
+SOUND DESIGN:
+
+0:00-0:06: Heavy angry breathing
+0:02: Knuckles cracking
+0:03: Trawler horn (82Hz at -10dB)
+0:04: Door frame creaking
+0:05: Teeth grinding
+
+POST-PRODUCTION:
+
+Enhance fist trembling
+Add breath vapor
+Color: Dark silhouette, white background
+Consider: Veins visible on neck?
+
+EMOTIONAL STATE:
+
+Rage from failure as provider
+Suspicion of family betrayal
+Shame transformed to anger
+
+FALLBACK CHAIN:
+
+Just fists clenched
+Face showing anger
+Silhouette only
+
+BUNDLE/REUSE:
+
+Magnus rage progression
+
+GENIUS NOTES: Storm outside matches storm inside
+CRITICAL WARNINGS: Must show rage without action
+
+SHOT_18 - DRAGGING DEFEAT
+Difficulty: ⭐⭐⭐⭐ | Runtime: 12 seconds | Priority: ESSENTIAL
+Industrial: V #2 visible | Three Layers: P (futility) | Motif: Individual vs industrial
+PRAGMATIC PROMPT (Achievable):
+Wide shot man dragging wooden boat across black sand, leaving deep tracks, steam ship visible on horizon, heavy snow
+AMBITIOUS PROMPT (Ideal):
+Wide tracking shot of 55-year-old bearded Icelandic man alone dragging six-oared wooden boat across black volcanic sand beach leaving deep furrows that fill with snow immediately, boat too heavy for one man showing extreme physical struggle with rope cutting into shoulder, Ægishjálmur eight-armed helm of awe symbol painted on prow with visible crack through it showing protection already broken, British steam trawler with black coal smoke visible on horizon looking massive while man looks ant-like, 40mph horizontal snow, man stumbling every few steps, boat catching on rocks, empty oar locks showing missing crew, man's isolation complete, industrial might versus individual futility visible in single frame
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Wide lateral tracking shot, 2.0 intensity
+Motion: Dragging struggle
+Weather: Heavy snow horizontal
+
+SOUND DESIGN:
+
+0:00-0:12: Boat dragging (wood on sand)
+Intermittent: Grunting effort
+0:05: Boat catching on rock
+0:08: Rope creaking
+Constant: Wind at 40mph, trawler engine distant
+
+POST-PRODUCTION:
+
+Enhance struggle if needed
+Add snow accumulation
+Color: Black sand, grey everything else
+Composite: May need trawler added
+
+INDUSTRIAL TRACKING:
+
+Visual #2: Trawler on horizon
+Scale: Man tiny, trawler huge
+Message: Individual cannot compete
+
+FALLBACK CHAIN:
+
+Static shot of dragging
+Man and boat, no trawler
+Boat alone on beach
+
+BUNDLE/REUSE:
+
+Boat for rowing scenes
+
+GENIUS NOTES: Sisyphean futility - one man against industry
+CRITICAL WARNINGS: Must show physical struggle, not just walking
+
+SHOT_18b - TRAWLER NET IN LINES
+Difficulty: ⭐⭐⭐ | Runtime: 4 seconds | Priority: IMPORTANT
+Industrial: D #1 (debris) | Three Layers: P (contamination) | Motif: Modern in traditional
+PRAGMATIC PROMPT (Achievable):
+Hands pulling fishing lines, industrial net tangled in them, frustration in movements
+AMBITIOUS PROMPT (Ideal):
+Close-up of weathered Icelandic fisherman's hands pulling up traditional hemp fishing lines to find industrial trawler net tangled throughout, machine-made mesh with uniform squares contrasting with hand-tied knots, modern synthetic material wrapped around organic rope, hands trying to separate but making it worse, wedding ring catching on net showing personal stakes, blood from rope burns on palms, traditional fishing destroyed by industrial methods, piece of net has British marking visible, frustration in increasingly violent pulling motions
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up on hands
+Motion: 2.5 intensity (pulling action)
+Focus: Net and lines sharp
+
+SOUND DESIGN:
+
+0:00-0:04: Rope pulling through hands
+0:02: Frustrated growl
+0:03: Net tearing
+Constant: Boat creaking
+
+POST-PRODUCTION:
+
+Enhance tangle complexity
+Add rope burn if needed
+Color: Grey industrial vs brown traditional
+Consider: British text on net?
+
+INDUSTRIAL CONTAMINATION:
+
+Modern destroying traditional
+Cannot be separated
+Pollution of fishing grounds
+
+FALLBACK CHAIN:
+
+Simpler tangle
+Just hands pulling rope
+Tangled net alone
+
+BUNDLE/REUSE:
+
+Part of industrial intrusion series
+
+GENIUS NOTES: Contamination is physical and metaphorical
+CRITICAL WARNINGS: Must show two different materials - industrial vs traditional
+
+SHOT_19 - WITNESSED INDIFFERENCE
+Difficulty: ⭐⭐⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: V #3 visible | Three Layers: P (class division) | Motif: Warm modernity vs cold tradition
+PRAGMATIC PROMPT (Single shot version):
+Steam trawler passing small rowing boat in rough seas, trawler crew visible in warm wheelhouse, fisherman struggling in snow
+AMBITIOUS PROMPT (Requires split screen composite):
+Split screen composition - LEFT SIDE: British steam trawler wheelhouse 1908 with warm yellow-orange oil lamp light inside, silhouetted figure visible drinking from white china mug with steam rising, wearing dry wool sweater, chart table visible, brass fittings gleaming. RIGHT SIDE: small wooden boat with lone bearded Icelandic fisherman rowing desperately in rough grey seas, horizontal snow coating everything white, hands bleeding from rope burns, face twisted with effort, ice forming on beard, boat taking on water. Clear contrast between comfort and struggle, modern ease versus traditional suffering, witnessed but ignored
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Two separate Text-to-Video Gen-3
+Post: Split screen composite
+Camera: Both medium shots
+Critical: Matching horizon line
+
+SOUND DESIGN:
+
+LEFT: Muffled engine room comfort, china clink
+RIGHT: Wind, waves, struggling breath
+0:05: Trawler horn (83Hz) only on left
+No sound crosses the divide
+
+POST-PRODUCTION REQUIRED:
+
+Generate two shots separately
+Split screen exactly center
+Color: LEFT warm, RIGHT cold
+Ensure horizon matches
+
+CLASS COMMENTARY:
+
+Witnessed suffering ignored
+Comfort versus survival
+Industrial indifference
+
+FALLBACK CHAIN:
+
+Single shot, both vessels visible
+Alternate between vessels
+Just trawler, imply boat
+
+BUNDLE/REUSE:
+
+Trawler wheelhouse for Shot 55
+
+GENIUS NOTES: The split screen IS the message - two worlds
+CRITICAL WARNINGS: Must show figure in wheelhouse watching
+
+SHOT_19b - LINES SEVERED
+Difficulty: ⭐⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: V #4 action | Three Layers: P (destruction) | Motif: Direct destruction
+PRAGMATIC PROMPT (Achievable):
+Wide shot fishing boat with man pulling lines as large ship passes through them, ropes breaking, man yelling
+AMBITIOUS PROMPT (Ideal):
+Wide shot of bearded Icelandic fisherman in small wooden boat frantically hauling fishing lines as British steam trawler's black hull bears down and plows directly through his fishing grounds, hemp ropes snapping in sequence with audible pops like gunshots, each break causing boat to lurch, man screaming unheard over industrial engine noise, face contorted in rage and despair, snow coating everything white making blood on hands more visible, trawler not slowing or acknowledging, wake nearly capsizing small boat, years of carefully placed lines destroyed in seconds, man falling backward as final line snaps, industrial indifference to traditional destruction
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Wide shot, slight high angle
+Motion: 4.0 intensity (violent action)
+Multiple elements: May need composite
+
+SOUND DESIGN:
+
+0:00-0:10: Sequence of rope snaps (like whips)
+0:03: Man screaming (distant, overwhelmed)
+0:05: Engine overwhelming everything
+0:07: Wake hitting boat
+0:09: Final snap, silence
+
+POST-PRODUCTION:
+
+Enhance rope snapping if needed
+Add wake impact
+Color: Black hull dominant
+Speed ramping: Slow-mo on snaps
+
+DESTRUCTION COMPLETE:
+
+Years of work destroyed
+No acknowledgment from trawler
+Individual powerless
+
+FALLBACK CHAIN:
+
+Simpler version, fewer snaps
+Aftermath only (broken lines)
+Man's reaction, destruction implied
+
+BUNDLE/REUSE:
+
+Boat and trawler from previous
+
+GENIUS NOTES: The scream unheard - suffering unwitnessed
+CRITICAL WARNINGS: Must show sequential destruction
+
+SHOT_19c - UNDERWATER EMPTINESS
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: IMPORTANT
+Industrial: D #2 (oil slick) | Three Layers: P/S/M (empty ocean) | Motif: Nothing left
+PRAGMATIC PROMPT (Achievable):
+Underwater grey-green murky shot, empty net drifting, no fish visible, oil sheen on surface above
+AMBITIOUS PROMPT (Ideal):
+Underwater shot in grey-green murk beneath ice showing 10 feet visibility, severed fishing net drifting empty in current like ghost, absolutely no fish visible anywhere in frame only empty water, tiny ice particles floating like snow, industrial oil slick on surface above creating rainbow sheen when light penetrates, net mesh torn showing violence of severing, traditional stone weight still attached dragging net down, water completely devoid of life, silence except muffled engine sound above, emptiness is the subject, abandoned fishing grounds, ecological death visible
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Underwater wide angle
+Motion: 1.0 intensity (slow drift)
+Lighting: Murky, limited visibility
+
+SOUND DESIGN:
+
+0:00-0:06: Underwater ambience (low-pass filtered)
+0:02: Muffled engine above
+0:04: Net weight scraping bottom
+Constant: Eerie silence where life should be
+
+POST-PRODUCTION:
+
+Add oil rainbow if needed
+Enhance murkiness
+Color: Grey-green, desaturated
+Ensure NO fish visible
+
+THREE INTERPRETATIONS:
+
+P: Overfishing killed grounds
+S: Perceived emptiness from despair
+M: Ocean abandoned by life
+
+FALLBACK CHAIN:
+
+Murky water, net implied
+Surface shot looking down
+Empty net on beach
+
+BUNDLE/REUSE:
+
+Underwater atmosphere
+
+GENIUS NOTES: The horror of absence - nothing to catch
+CRITICAL WARNINGS: Must be completely empty of life
+
+SHOT_20 - RIFLE AT TRAWLER
+Difficulty: ⭐⭐⭐ | Runtime: 8 seconds | Priority: ESSENTIAL
+Industrial: V #5 target | Three Layers: P (impotent rage) | Motif: Violence considered
+PRAGMATIC PROMPT (Achievable):
+Man in boat aiming rifle at distant ship, hesitating, then raising rifle to sky instead, defeated expression
+AMBITIOUS PROMPT (Ideal):
+Medium shot of bearded Icelandic fisherman standing unsteadily in rocking wooden boat, antique rifle raised and aimed directly AT distant steam trawler with clear intent to fire, iron sights lined up, finger on trigger, hesitating for three full seconds with internal struggle visible, rain and snow on rifle barrel, then slowly raising rifle to grey sky instead showing defeat, face showing rage transforming to despair, understanding futility of violence against industrial might, ice forming on rifle barrel from spray, boat rocking dangerously from standing position, industrial power making individual violence meaningless
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Medium shot from water level
+Motion: 2.5 intensity (aim then raise)
+Critical: Must show aimed AT trawler first
+
+SOUND DESIGN:
+
+0:00-0:03: Wind and waves
+0:03: Trigger finger tightening (metal creak)
+0:04: Exhale of defeat
+0:05-0:08: Rifle lowering sound
+No shot fired
+
+POST-PRODUCTION:
+
+Enhance hesitation moment
+Add boat rocking
+Color: Grey everything
+Speed: Slow the hesitation beat
+
+VIOLENCE REDIRECTED:
+
+Cannot shoot at source
+Rage has no outlet
+Modern too powerful to fight
+
+FALLBACK CHAIN:
+
+Just raising rifle (no clear target)
+Rifle pointed up only
+Man with rifle, angle ambiguous
+
+BUNDLE/REUSE:
+
+Boat and character from previous
+
+GENIUS NOTES: The shot not taken - violence impotent against systems
+CRITICAL WARNINGS: MUST show aimed at trawler first, then sky
+
+SHOT_21 - MUZZLE FLASH
+Difficulty: ⭐⭐ | Runtime: 2 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: P (futile violence) | Motif: Rage at sky
+PRAGMATIC PROMPT (Achievable):
+Rifle muzzle with bright orange flash against grey sky, smoke dispersing in wind
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up of 1908 rifle muzzle with bright orange muzzle flash erupting against grey blizzard sky, smoke dispersing instantly in 40mph wind, ice crystals on barrel melting from heat of discharge creating steam, flash illuminating snowflakes, brass casing ejecting if visible, powder burn residue, futile shot at heaven, violence achieving nothing
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Extreme close-up
+Motion: 3.0 intensity (flash and smoke)
+Duration: Very quick shot
+
+SOUND DESIGN:
+
+0:00: BANG (rifle shot)
+0:00-0:02: Echo across water
+0:01: Shell casing hitting boat (if applicable)
+0:02: Ringing ears effect
+
+POST-PRODUCTION:
+
+Enhance muzzle flash
+Add smoke if weak
+Color: Orange flash against grey
+Speed: Real-time (no slow-motion)
+
+SYMBOLIC MEANING:
+
+Shooting at God/fate
+Violence without target
+Futility made manifest
+
+FALLBACK CHAIN:
+
+Flash only (no gun visible)
+Sound only over sky shot
+Implied through reaction
+
+BUNDLE/REUSE:
+
+Part of violence sequence
+
+GENIUS NOTES: Man's rage against cosmos - pointless but human
+CRITICAL WARNINGS: Must be period-appropriate rifle
+
+SHOT_22 - CALLING OLD GODS
+Difficulty: ⭐⭐⭐ | Runtime: 10 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: P/S/M (desperation) | Motif: Divine bargaining
+PRAGMATIC PROMPT (Achievable):
+Low angle man in boat with arms raised to sky, mouth open yelling, snow coating him, biblical prophet pose
+AMBITIOUS PROMPT (Ideal):
+Low angle medium shot of bearded Icelandic fisherman in small boat with both arms raised to grey sky in biblical prophet position, mouth open screaming at clouds with visible anguish, "You take everything! EVERYTHING! Take me instead!" brown wool coat and grey hair whipping in wind, snow coating him like statue making him appear ancient, boat rocking dangerously from standing position, spittle flying from mouth, veins visible on neck from screaming, wedding ring catching light showing what he's trying to protect, pose reminiscent of Christ crucifixion, man bargaining with absent deity
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Low angle, slight hero shot
+Motion: 3.5 intensity (desperate gestures)
+Weather: Snow accumulating on figure
+
+SOUND DESIGN:
+
+0:00-0:10: Screaming dialogue
+Wind almost drowning out words
+0:05: Voice cracking with emotion
+0:08: Exhausted breath
+Echo across water
+
+DIALOGUE EXACT:
+MAGNÚS: "You take everything! EVERYTHING! Take me instead!"
+POST-PRODUCTION:
+
+Add snow accumulation
+Enhance gesture drama
+Color: Desaturate except skin
+Consider: Lightning in distance?
+
+THEOLOGICAL MOMENT:
+
+Calling to Norse/Christian gods
+Offering self-sacrifice
+No divine response
+
+FALLBACK CHAIN:
+
+Arms raised, words implied
+Shouting at sky (no specific pose)
+Audio over boat shot
+
+BUNDLE/REUSE:
+
+Final desperate position
+
+GENIUS NOTES: Abraham without Isaac - sacrifice without purpose
+CRITICAL WARNINGS: Must feel ancient, not melodramatic
+
+SHOT_23 - BROKEN ROWING
+Difficulty: ⭐⭐⭐ | Runtime: 10 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: P (failure) | Motif: Doubling #3 - two becomes one
+PRAGMATIC PROMPT (Achievable):
+Aerial view boat spinning in circles, man rowing with one oar, other oar floating away broken
+AMBITIOUS PROMPT (Ideal):
+Aerial overhead shot from 100 feet of small wooden boat spinning in helpless circles with lone Icelandic fisherman rowing with single oar, other oar broken and floating away in opposite direction, boat rotating counterclockwise from unbalanced rowing, man's futile effort visible from above, figure tiny against vast grey sea, wake pattern showing multiple failed attempts to control direction, boat slowly drifting toward rocks while spinning, empty oar lock where second oar should be, metaphor for broken tools and broken man, industrial trawler visible in far distance ignoring struggle
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Aerial directly overhead
+Motion: 2.0 intensity (spinning boat)
+Height: High enough to show pattern
+
+SOUND DESIGN:
+
+0:00-0:10: Single oar splashing (rhythm off)
+0:03: Frustrated grunt
+0:05: Wood creaking from strain
+0:08: Distant trawler horn (mocking)
+Wind and waves constant
+
+POST-PRODUCTION:
+
+Enhance circular wake pattern
+Show broken oar drifting
+Color: Grey sea, black boat
+Speed: Slight speed up to show futility
+
+DOUBLING MOTIF:
+
+Two oars become one
+Pair broken to single
+Mathematics failing again
+
+FALLBACK CHAIN:
+
+Side view of spinning boat
+Man rowing, spinning implied
+Broken oar floating alone
+
+BUNDLE/REUSE:
+
+Boat from previous shots
+
+GENIUS NOTES: Sisyphean rowing - effort without progress
+CRITICAL WARNINGS: Must show clear spinning pattern
+
+SHOT_24 - SEAL BUTCHERING
+Difficulty: ⭐⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: D #3 (plastic debris) | Three Layers: P (marking failure) | Motif: V-notch #3
+PRAGMATIC PROMPT (Achievable):
+Man in boat cutting dead seal in water, carving mark into flipper, blood in water, debris floating nearby
+AMBITIOUS PROMPT (Ideal):
+Medium shot of bearded Icelandic fisherman in boat leaning over side with gutting knife, cutting already-dead grey seal carcass floating in water with previous tears in flesh showing it was found not hunted, deliberately carving V-shaped notch into flipper bone matching his wall marks exactly, taking possession of dead thing, dark blood spreading in water like ink, plastic debris and rope visible floating nearby showing industrial pollution, face grim with necessity not cruelty, wedding ring visible as hands work, claiming flotsam as property, seal's dead eyes staring, marking failure as achievement
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Medium shot over boat edge
+Motion: 2.5 intensity (cutting action)
+Water: Blood spreading visible
+
+SOUND DESIGN:
+
+0:00-0:10: Wet cutting sounds
+0:03: Bone notching (scraping)
+0:05: Blood dripping into water
+0:07: Plastic debris bumping boat
+Constant: Water lapping
+
+POST-PRODUCTION:
+
+Enhance blood spreading
+Add plastic debris if needed
+Color: Dark blood against grey
+Ensure V-notch visible
+
+V-NOTCH SIGNIFICANCE:
+
+Same mark as wall (possession)
+Same mark as ram's ear (connection)
+Marking the already dead
+
+FALLBACK CHAIN:
+
+Cutting seal, mark implied
+Seal in water, knife in hand
+Blood in water only
+
+BUNDLE/REUSE:
+
+V-notch for comparison to Shot 39
+
+GENIUS NOTES: Claiming death as property - ownership of nothing
+CRITICAL WARNINGS: Seal must be clearly already dead
+
+SHOT_25 - NÍÐSTÖNG CURSE
+Difficulty: ⭐⭐⭐ | Runtime: 5 seconds | Priority: ENHANCING
+Industrial: A #8 (horn mocking) | Three Layers: M (supernatural) | Motif: Ancient vs modern
+PRAGMATIC PROMPT (Achievable):
+Wooden pole in black sand, animal skull on top facing ocean, snow accumulating on skull
+AMBITIOUS PROMPT (Ideal):
+Medium shot of traditional níðstöng curse pole stuck in black volcanic sand near turf house, grey seal skull with empty eye sockets placed on top facing ocean toward departed trawler, ancient Viking curse against enemies, snow accumulating on skull making it appear to weep white tears, jaw slightly open as if screaming, pole carved with runes, positioned according to tradition, futile ancient magic against industrial age, skull beginning to crack from freeze, one tooth missing, facing exactly where trawler disappeared
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Medium shot, slight low angle
+Motion: 0.5 intensity (snow accumulation)
+Weather: Snow falling steadily
+
+SOUND DESIGN:
+
+0:00-0:05: Wind through skull (hollow whistle)
+0:03: Trawler horn distant (85Hz, mocking)
+0:04: Skull creaking from cold
+Constant: Beach ambience
+
+POST-PRODUCTION:
+
+Add snow accumulation
+Enhance skull weathering
+Color: Black sand, white snow, grey skull
+Consider: Runes on pole?
+
+MAGICAL FUTILITY:
+
+Ancient curse vs modern power
+Magic cannot touch industry
+Old gods vs new machines
+
+FALLBACK CHAIN:
+
+Simple pole with skull
+Just skull on beach
+Omit if time pressure
+
+BUNDLE/REUSE:
+
+Part of magic vs machine theme
+
+GENIUS NOTES: Viking curse vs British industry - epochs colliding
+CRITICAL WARNINGS: Must face toward where trawler was
+
+SHOT_31b - RAM COLLAR
+Difficulty: ⭐⭐ | Runtime: 4 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: P (missing animal) | Motif: Absence presence
+PRAGMATIC PROMPT (Achievable):
+Empty leather collar with bell hanging on wooden peg, dust motes in lamp light, collar worn smooth
+AMBITIOUS PROMPT (Ideal):
+Close-up of empty worn leather ram collar with small brass bell hanging on wooden peg inside turf house, dust motes floating past in whale oil lamp light making bell glint, collar worn smooth from years of use showing valuable animal, bell moving slightly from vibration without sound like ghost movement, name "FORYSTUFE" burned into leather, cobweb connecting bell to wall, three months of dust accumulated, shadow on wall suggesting ram's head that isn't there
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up
+Motion: 0.5 intensity (bell movement only)
+Lighting: Single source, raking light
+
+SOUND DESIGN:
+
+0:00-0:04: House settling causing vibration
+0:02: Bell almost ringing (metal touch)
+Constant: Motes in light (no sound)
+Absence of bell sound important
+
+POST-PRODUCTION:
+
+Add dust motes if missing
+Enhance bell movement subtly
+Color: Amber light, leather texture
+Shadow: Suggest ram shape
+
+ABSENCE SIGNIFICANCE:
+
+Ram missing three months
+Collar waiting for return
+Bell silent (death)
+
+FALLBACK CHAIN:
+
+Simple collar on peg
+Just bell close-up
+Wall peg empty
+
+BUNDLE/REUSE:
+
+Reference for ram identity
+
+GENIUS NOTES: The bell that doesn't ring - absence as presence
+CRITICAL WARNINGS: Bell must move but not ring
+
+Continuing in next response...RetryIcontinueEditVIOLENCE SEQUENCE: DOMESTIC EXPLOSION (5:15-6:45)
+Shame becomes rage, masculine failure turns inward
+SHOT_26 - PATHETIC CATCH
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P (failure complete) | Motif: Provider inadequacy
+PRAGMATIC PROMPT (Achievable):
+Overhead shot of wooden table, seal flipper with V-notch visible, no fish at all, blood pooling in wood grain
+AMBITIOUS PROMPT (Ideal):
+Direct overhead shot of rough wooden table surface with single grey seal flipper with webbed digits and carved V-shaped notch in bone, absolutely NO FISH anywhere on table just the flipper, pool of dark blood spreading into wood grain following natural cracks like river delta, whale oil lamp light from right creating harsh shadows making flipper look like severed human hand, table scratches from years of meals visible, empty space where food should be overwhelming, blood reflecting light, family's hope reduced to this piece of carrion, marriage carved into table edge visible "M+G 1891" showing seventeen years led to this
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Direct overhead, locked
+Motion: 1.0 intensity (blood spreading only)
+Focus: Everything sharp (deep focus)
+
+SOUND DESIGN:
+
+0:00-0:06: Silence except:
+0:02: Single blood drip
+0:04: Stomach growl off-frame
+0:05: Chair creak (someone shifting)
+Absence of sound is key
+
+POST-PRODUCTION:
+
+Enhance blood spreading pattern
+Ensure NO FISH visible anywhere
+Color: Dark blood prominent
+Add wood grain detail if needed
+
+FAILURE MANIFEST:
+
+No fish caught (seas empty)
+Only scavenged seal
+Cannot feed family
+Seventeen years of marriage to this
+
+FALLBACK CHAIN:
+
+Flipper on table, simpler shot
+Empty table with blood spot
+Hands around empty table
+
+BUNDLE/REUSE:
+
+Table from family scenes
+
+GENIUS NOTES: The anti-last supper - nothing to share
+CRITICAL WARNINGS: Absolutely NO FISH - failure must be complete
+
+SHOT_27 - COLLECTIVE JUDGMENT
+Difficulty: ⭐⭐⭐⭐ | Runtime: 11 seconds | Priority: ESSENTIAL
+Industrial: A #9 (horn continues) | Three Layers: P/S equal | Motif: Shared recognition
+PRAGMATIC PROMPT (Achievable):
+Wide shot five people at table staring at seal flipper, frozen in recognition of failure, breathing visible, single lamp
+AMBITIOUS PROMPT (Ideal):
+Wide locked shot of five people around wooden table staring down at pathetic seal flipper in complete silence - bearded fisherman at head with jaw clenched, woman with white headdress to right with tears held back, teenage girl furthest from man with understanding in eyes, boy and girl between them hungry and confused, all frozen in recognition of complete failure, breathing visible in cold air at different rates showing individual stress, single whale oil lamp creating dramatic shadows with each face half-lit, no one speaking because nothing to say, collective understanding that they will starve, marriage failure visible in avoided eye contact between spouses, trawler horn sounding outside like funeral bell
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Wide locked shot, no movement
+Motion: 0.5 intensity (breathing only)
+Duration: Hold for full 11 seconds
+
+SOUND DESIGN:
+
+0:00-0:11: Five breathing patterns:
+
+Magnus: Angry short breaths
+Guðrún: Held breath, then shaky exhale
+Sigrid: Controlled, watching
+Jón: Wheezing (sick)
+Lilja: Quick child breaths
+
+
+0:06: Trawler horn (85Hz at -10dB)
+0:09: Single tear drop hitting table
+
+POST-PRODUCTION:
+
+Composite if shot separately
+Ensure all looking at flipper
+Color: Extreme contrast
+No movement except breathing
+
+COLLECTIVE UNDERSTANDING:
+
+All recognize starvation coming
+No one blames yet
+Silence before storm
+
+FALLBACK CHAIN:
+
+Three people, others implied
+Faces in sequence (cut together)
+Empty table, reaction shots
+
+BUNDLE/REUSE:
+
+Reuse setup from Shots 8, 42
+
+GENIUS NOTES: The loudest silence - collective doom recognized
+CRITICAL WARNINGS: No eye contact between family members
+
+SHOT_27b - RATIONING FAILURE
+Difficulty: ⭐⭐⭐ | Runtime: 5 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: S (psychological) | Motif: Mathematical breakdown #4
+PRAGMATIC PROMPT (Achievable):
+Close-up bearded man's hands trying to divide nothing, gesturing over empty table space, fingers trembling with frustration
+AMBITIOUS PROMPT (Ideal):
+Close-up of bearded Icelandic man's weathered hands with dirt under nails trying to divide nothing - moving hands as if portioning out invisible food into five sections on table, fingers trembling with frustration at mathematical impossibility of dividing zero, pointing at empty spaces "one for you, one for you", wedding ring catching light as hands gesture frantically, trying to make nothing into something, hands finally clenching into fists and pounding table, sawdust rising from impact, the mathematics of starvation unsolvable
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up on hands
+Motion: 3.0 intensity (frustrated gestures)
+Focus: Hands sharp, table soft
+
+SOUND DESIGN:
+
+0:00-0:04: Muttering (counting/dividing)
+0:04: Fist hitting table (THUD)
+0:05: Sawdust settling
+Breathing: Accelerating frustration
+
+DIALOGUE EXACT:
+MAGNÚS: "Five... no, two... five into two... how do I..."
+POST-PRODUCTION:
+
+Enhance hand trembling
+Add sawdust on impact
+Color: Highlight empty spaces
+Speed: Accelerate toward fist
+
+MATHEMATICAL BREAKDOWN:
+
+Cannot divide nothing
+Two items (flipper, self) for five people
+Mathematics requiring something to exist
+
+FALLBACK CHAIN:
+
+Hands gesturing, no detail
+Face showing confusion
+Audio over wide shot
+
+BUNDLE/REUSE:
+
+Hands from previous counting shots
+
+GENIUS NOTES: Zero divided by five - the impossibility of nothing
+CRITICAL WARNINGS: Must show trying to portion nothing
+
+SHOT_28 - DISCOVERY
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P (betrayal) | Motif: Hidden revealed
+PRAGMATIC PROMPT (Achievable):
+Extreme close-up bearded man's eyes looking down, focusing on bread crumb, pupils dilating with rage, understanding dawning
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up of bearded Icelandic man's blue eyes with red veins from wind looking down at table, pupils suddenly focusing on single small dark bread crumb near wife's place, pupils dilating with rage as understanding dawns, visible pulse in temple accelerating from 60 to 100 bpm, micro-expressions showing progression from confusion to recognition to betrayal to rage, jaw muscles beginning to clench visible at frame bottom, single tear of rage not sadness forming, focus pulling from eyes to crumb then back, crumb tiny but might as well be mountain
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Extreme close-up
+Motion: 1.0 intensity (eye focus shift)
+Focus: Rack between eyes and crumb
+
+SOUND DESIGN:
+
+0:00-0:02: Normal breathing
+0:02: Sharp inhale (recognition)
+0:03-0:06: Breathing accelerating
+0:05: Teeth grinding begins
+Heartbeat becoming audible
+
+POST-PRODUCTION:
+
+Enhance pupil dilation
+Add pulse in temple
+Color: Red in eyes intensifying
+Speed: Slow realization moment
+
+MOMENT OF DISCOVERY:
+
+Crumb proves hidden food
+While he provides nothing
+Betrayal plus inadequacy
+
+DIALOGUE BUILDUP:
+MAGNÚS: "You hide food from me?"
+FALLBACK CHAIN:
+
+Eyes widening, crumb shown separately
+Just eyes showing rage
+Hand finding crumb
+
+BUNDLE/REUSE:
+
+Eye performance for accusation
+
+GENIUS NOTES: Crumb as Everest - tiny thing becomes everything
+CRITICAL WARNINGS: Crumb must be tiny but visible
+
+SHOT_28b - ACCUSATION
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P (domestic violence) | Motif: Blame projection
+PRAGMATIC PROMPT (Achievable):
+Medium shot bearded man pointing at woman with headdress, finger shaking with rage, spittle in beard, woman looking down
+AMBITIOUS PROMPT (Ideal):
+Medium shot of bearded Icelandic man's trembling finger pointing accusingly at woman with white faldbúningur headdress, finger shaking with rage like weapon, spittle visible in grey beard from shouting, woman not meeting his eyes looking down submissively knowing what comes next, his other hand clenched in fist, wedding ring cutting into swollen finger, her shoulders already flinching, children visible in background freezing, teenage girl moving protectively toward siblings, accusation filling room like poison gas, seventeen years of marriage reduced to this moment
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Medium shot, handheld shake
+Motion: 3.0 intensity (accusatory gesture)
+Focus: Finger sharp, background softer
+
+SOUND DESIGN:
+
+0:00-0:06: Shouted accusation
+0:03: Spittle hitting table
+0:04: Chair scraping (children backing away)
+0:05: Woman's suppressed sob
+Building to violence
+
+DIALOGUE EXACT:
+MAGNÚS: "You sit here doing NOTHING while we starve!"
+POST-PRODUCTION:
+
+Add camera shake on shout
+Enhance finger trembling
+Color: Red face, pale woman
+Speed: Real-time, no slow motion
+
+DOMESTIC VIOLENCE SETUP:
+
+Blame shifting from self to wife
+Children witnessing
+Pattern they know
+
+FALLBACK CHAIN:
+
+Finger pointing, faces separate
+Just angry face
+Audio over wide shot
+
+BUNDLE/REUSE:
+
+Build to violence
+
+GENIUS NOTES: Seventeen years to this finger point
+CRITICAL WARNINGS: Woman must not meet his eyes - practiced submission
+
+SHOT_29 - LAMP VIOLENCE
+Difficulty: ⭐⭐ | Runtime: 2 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P (violence) | Motif: Light weaponized
+PRAGMATIC PROMPT (Achievable):
+Whale oil lamp swinging violently on chain, oil sloshing out, shadows dancing wildly on walls
+AMBITIOUS PROMPT (Ideal):
+Close-up of whale oil lamp on iron chain swinging violently from impact, oil sloshing out and spilling creating fire hazard, shadows dancing chaotically across turf walls and wooden beams like demons unleashed, motion blur from violent movement, chain creaking dangerously, flame guttering and almost dying then flaring back, light becoming weapon, home's warmth turned violent, oil drops falling like tears, shadows of family fragmenting on walls
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up, slight Dutch angle
+Motion: 5.0 intensity (violent swing)
+Duration: Quick, violent
+
+SOUND DESIGN:
+
+0:00: Impact sound (flesh)
+0:00-0:02: Chain creaking violently
+0:01: Oil splashing
+0:02: Children gasping
+Metal stress prominent
+
+POST-PRODUCTION:
+
+Motion blur on swing
+Add oil drops if needed
+Color: Flame color shifting
+Speed: Real-time violence
+
+ACTION BLINDSPOT:
+
+We don't see hit
+Only aftermath
+Violence through environment
+
+FALLBACK CHAIN:
+
+Lamp swinging (less violent)
+Shadows only
+Sound only
+
+BUNDLE/REUSE:
+
+Lamp from previous scenes
+
+GENIUS NOTES: Light becomes darkness - illumination as weapon
+CRITICAL WARNINGS: Must suggest violence without showing it
+
+SHOT_30 - PROTECTION INSTINCT
+Difficulty: ⭐⭐⭐ | Runtime: 2 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P (survival) | Motif: Sigrid as shield
+PRAGMATIC PROMPT (Achievable):
+Teenage girl pulling two children against wall, arms around them, all three pressed into corner terrified
+AMBITIOUS PROMPT (Ideal):
+Medium shot of 16-year-old Icelandic girl with braids pulling 8-year-old boy and 5-year-old girl against turf wall, arms wrapped protectively around them creating human shield, bodies pressed into corner for maximum distance from violence, terror in all three faces but teenage girl's also showing determination, her body positioned to take any blows, children's faces buried in her dress, practiced movement showing this happens regularly, doll dropped on floor, boy's cough suppressed in fear, girl's protective rage visible despite terror
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Medium shot, handheld
+Motion: 4.0 intensity (quick protection)
+Duration: Very quick
+
+SOUND DESIGN:
+
+0:00: Scuffling feet
+0:01: JÓN: "Hide" (whispered)
+0:01: LILJA: "Where's Mamma?" (whispered)
+0:02: Group breathing (rapid, fearful)
+
+POST-PRODUCTION:
+
+Add motion blur on movement
+Enhance fear in faces
+Color: Darker corner (shadow safety)
+Speed: Quick but clear
+
+WHISPERED DIALOGUE:
+
+JÓN: "Hide"
+LILJA: "Where's Mamma?"
+
+PROTECTION DYNAMICS:
+
+Sigrid as true protector
+Practiced response
+Children know routine
+
+FALLBACK CHAIN:
+
+Girl with one child
+Children hiding, girl implied
+Shadows showing protection
+
+BUNDLE/REUSE:
+
+Sigrid's protection arc
+
+GENIUS NOTES: Eighteen-year-old mother to siblings - childhood ended
+CRITICAL WARNINGS: Must show practiced movement - this is routine
+
+SHOT_31 - COMPLEX TOUCH
+Difficulty: ⭐⭐⭐⭐⭐ | Runtime: 12 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P/S (human complexity) | Motif: Love becoming predation
+PRAGMATIC PROMPT (Achievable):
+Man's hand reaching toward sleeping child, pulling up blanket tenderly, then same hand moving toward teenager's area differently, pulling back into fist
+AMBITIOUS PROMPT (Ideal - Requires Perfect Performance):
+Close-up following weathered Icelandic man's hand reaching toward sleeping 5-year-old girl's head, pausing with genuine tenderness, gently pulling wool blanket up to her chin, lingering lovingly for three seconds showing capacity for love, thumb brushing hair from forehead, then same hand moving toward teenage girl's sleeping area, fingers slightly curled with different intent entirely, hovering predatorily, breath changing from soft to heavy, hand trembling with internal conflict, wedding ring visible throughout showing betrayal of all vows, finally pulling back into tight fist with knuckles white, love and violence in same hand
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up following hand
+Motion: 2.0 intensity (complex sequence)
+Critical: Must show transformation of intent
+
+SOUND DESIGN:
+
+0:00-0:03: Soft breathing (tender moment)
+0:03-0:06: Blanket rustling
+0:06-0:09: Breathing changes (heavier)
+0:09-0:11: Knuckles cracking (fist)
+0:11-0:12: Sharp exhale (decision)
+
+POST-PRODUCTION:
+
+May need multiple takes edited
+Match lighting throughout
+Color: Warm on child, cold toward teen
+Speed: Slow tender part, quick withdrawal
+
+PERFORMANCE NOTES:
+
+Most complex emotional beat
+Shows human capacity for both
+The choice to harm
+
+FALLBACK CHAIN:
+
+Hand with blanket, then fist
+Two separate shots (tender/threat)
+Just fist clenching
+
+BUNDLE/REUSE:
+
+Most important character moment
+
+GENIUS NOTES: The hand that comforts becomes the hand that threatens
+CRITICAL WARNINGS: Must show both capacities in same gesture
+
+SHOT_31c - THREE-LAYER ANCHOR
+Difficulty: ⭐⭐⭐⭐⭐ | Runtime: 5 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P/S/M displayed | Motif: Teaching interpretation
+THIS SHOT TEACHES AUDIENCE HOW TO READ THE FILM
+PRAGMATIC PROMPT (Requires Composite):
+Three panels showing same hand: with blood, casting shadow, blood pattern
+AMBITIOUS PROMPT (Three Separate Generations):
+PANEL 1: "Extreme close-up of Icelandic man's weathered hand with real blood under fingernails and on knuckles from violence, documentary lighting, every line visible"
+
+PANEL 2: "Same hand casting shadow on turf wall that impossibly resembles hoof shape despite hand position, shadow defying light source"
+
+PANEL 3: "Blood drops from hand forming perfect cross pattern on wooden floor, blood spreading in four directions equally"
+TECHNICAL SPECIFICATIONS:
+
+This is THREE separate shots composited
+Create triptych in post
+Each panel holds 1.6 seconds
+Hard cuts between if not triptych
+
+SOUND DESIGN:
+
+0:00-1:6: Heartbeat (physical)
+1:6-3:2: Whispers (psychological)
+3:2-5:0: Wind (supernatural)
+Each layer gets its sound
+
+POST-PRODUCTION REQUIRED:
+
+Generate three separate images
+Composite as triptych or sequence
+Color: Each panel different grade
+Critical: All three must be clear
+
+THREE LAYERS VISIBLE:
+
+Physical: Blood from violence
+Psychological: Shadow wrong (perception)
+Metaphysical: Blood forms cross (supernatural)
+
+FALLBACK CHAIN:
+
+Three quick cuts instead
+Hand with ambiguous shadow only
+Just bloody hand
+
+BUNDLE/REUSE:
+
+Reference point for interpretation
+
+GENIUS NOTES: Rosetta Stone shot - teaches trilingual reading
+CRITICAL WARNINGS: Audience must understand this is how to read everything
+
+SHOT_32 - SENDING TO DEATH
+Difficulty: ⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P (domestic murder) | Motif: Death sentence
+PRAGMATIC PROMPT (Achievable):
+Woman with headdress picking up oil lamp from table, oil very low, turning toward door resigned, children watching
+AMBITIOUS PROMPT (Ideal):
+Medium shot of 35-year-old Icelandic woman with white faldbúningur headdress picking up whale oil lamp from table, oil level visibly low showing bottom of reservoir with maybe one hour left, turning toward door without looking at anyone with resignation and doom in slumped posture, children visible watching from corner understanding mother going to die, woman's wedding ring catching lamp light one last time, no goodbye because all know she won't return, hem of dress already wet from previous attempt, hands steady despite fate, door to blizzard waiting like gallows
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Medium shot following movement
+Motion: 1.5 intensity (resigned movement)
+Lighting: Lamp illuminating her face
+
+SOUND DESIGN:
+
+0:00-0:03: Chair pushing back
+0:03-0:05: Footsteps to door
+0:05: Oil sloshing (almost empty)
+0:07: Hand on door handle
+0:09: Door creaking open
+No words exchanged
+
+DIALOGUE:
+MAGNÚS: "Find seaweed. Don't return empty."
+(Guðrún says nothing - silence is answer)
+POST-PRODUCTION:
+
+Show oil level clearly
+Enhance resignation in posture
+Color: Lamp warm, door cold
+Speed: Slow, funeral pace
+
+DEATH SENTENCE:
+
+Both know she'll die
+Children understand
+Murder by exposure
+
+FALLBACK CHAIN:
+
+Woman with lamp exiting
+Lamp being lifted, exit implied
+Door opening, woman implied
+
+BUNDLE/REUSE:
+
+Guðrún's final scene
+
+GENIUS NOTES: Murder disguised as errand
+CRITICAL WARNINGS: Oil level must be clearly very low
+
+SHOT_32b - MATCH CUT SETUP (GENIUS ADDITION)
+Difficulty: ⭐⭐⭐ | Runtime: 3 seconds | Priority: ESSENTIAL
+Industrial: Setup | Three Layers: Transition | Motif: Ancient dying
+PRAGMATIC PROMPT (Achievable):
+Extreme close-up of oil lamp flame dying, flickering smaller, about to extinguish, filling entire frame orange to black
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up of whale oil lamp flame flickering and dying as Guðrún leaves, flame getting smaller from 2 inches to 1 inch to half inch, about to extinguish completely, filling entire frame with orange glow fading to darkness, last gasp of ancient light, wick drowning in final drops of oil, smoke beginning to overpower light, frame composition exactly centered for match cut, darkness creeping in from edges, civilization's last breath
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Extreme close-up, locked
+Motion: 2.0 intensity (flame dying)
+Critical: Must fill frame completely
+
+SOUND DESIGN:
+
+0:00-0:03: Flame guttering
+0:02: Final oil bubble/pop
+0:03: Cut to next shot at darkness
+
+POST-PRODUCTION:
+
+Center flame perfectly
+Time death to 3 seconds exactly
+Color: Orange to black gradient
+Speed: Real-time
+
+MATCH CUT PREP:
+
+Flame centered
+Size matching trawler light
+Cut on black frame
+
+FALLBACK CHAIN:
+
+Any flame dying
+Lamp going dark
+Simple fade to black
+
+BUNDLE/REUSE:
+
+First half of match cut
+
+GENIUS NOTES: Ancient light dying - prepare for modern light
+CRITICAL WARNINGS: MUST center flame for match cut
+
+SHOT_32c - MATCH CUT PAYOFF (GENIUS ADDITION)
+Difficulty: ⭐⭐⭐ | Runtime: 3 seconds | Priority: ESSENTIAL
+Industrial: V #6 | Three Layers: Transition | Motif: Modern replacing ancient
+THE MATCH CUT - ENTIRE THEME IN ONE TRANSITION
+PRAGMATIC PROMPT (Achievable):
+Extreme close-up of bright white electric light filling frame, harsh modern illumination, same framing as dying flame
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up of British trawler's bright white electric searchlight sweeping past, filling entire frame with harsh modern light, exact same center framing as dying whale oil flame, immediate cut from ancient fire to industrial electricity, 500 watts versus 1 candle power, cold white versus warm orange, machine precision versus organic flicker, searchlight sweeping past indifferently, not stopping to help, modern world replacing ancient in single frame, civilization changing in one cut
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Extreme close-up, locked
+Motion: 2.0 intensity (sweep past)
+Critical: MUST match framing exactly
+
+SOUND DESIGN:
+
+0:00: Electric hum (60Hz)
+0:00-0:03: Searchlight motor
+Complete tonal shift from previous
+
+POST-PRODUCTION:
+
+Match frame size exactly to flame
+Harsh white vs warm orange
+Speed: Sweep past in 3 seconds
+NO transition - hard cut
+
+THE MOMENT:
+
+Ancient to modern
+Warm to cold
+Death to indifference
+Entire film theme in cut
+
+FALLBACK CHAIN:
+
+Any electric light
+Trawler in distance
+Skip if too complex
+
+BUNDLE/REUSE:
+
+Completes match cut
+
+GENIUS NOTES: Your "bone to spacecraft" moment
+CRITICAL WARNINGS: Framing must match EXACTLY
+
+SHOT_33 - WITNESS
+Difficulty: ⭐⭐⭐ | Runtime: 5 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: P (surveillance) | Motif: Daughter's calculation
+PRAGMATIC PROMPT (Achievable):
+Teenage girl at frosted window watching outside, then looking back checking father's position, fear and planning visible
+AMBITIOUS PROMPT (Ideal):
+Close-up of 16-year-old Icelandic girl's face at frosted window with natural cross pattern in ice, breath fogging glass as watching mother disappear into blizzard, eyes tracking until figure gone, then immediately shifting to check father's position in room, fear mixed with calculation in expression, understanding mother won't return, planning beginning, tear held back, cross pattern in ice reflecting on face like scarification, breath rhythm changing from worried to determined
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up at window
+Motion: 1.5 intensity (eye movement)
+Focus: Face sharp, window soft
+
+SOUND DESIGN:
+
+0:00-0:02: Wind outside
+0:02: Breath on glass
+0:03: Head turn (fabric sound)
+0:04: Floorboard creak (father moving)
+0:05: Held breath
+
+POST-PRODUCTION:
+
+Enhance cross pattern on face
+Add breath fog
+Color: Blue from window, warm from interior
+Eye movement tracking
+
+CHARACTER MOMENT:
+
+Knows mother won't return
+Checking father's position
+Planning taking shape
+
+FALLBACK CHAIN:
+
+Profile at window
+Eyes only
+Window, girl implied
+
+BUNDLE/REUSE:
+
+Part of Sigrid surveillance arc
+
+GENIUS NOTES: The moment Sigrid becomes the mother
+CRITICAL WARNINGS: Must show calculation, not just fear
+
+NIGHT JOURNEY: THRESHOLD CROSSING (6:45-8:15)
+Ancient magic meets modern horror
+SHOT_34 - LIGHT IN VOID
+Difficulty: ⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: M (supernatural) | Motif: Human light in cosmic dark
+PRAGMATIC PROMPT (Achievable):
+Single oil lamp creating small light sphere moving through blizzard darkness, figure holding it barely visible, footprints filling immediately
+AMBITIOUS PROMPT (Ideal):
+Wide shot of single whale oil lamp creating 3-foot golden sphere of light moving through absolute darkness of blizzard, visibility exactly 3 feet, human figure just dark silhouette holding lamp like last star in dying universe, footprints behind filling instantly with snow erasing passage, complete whiteout conditions making ground and sky indistinguishable, figure getting smaller, light fighting against overwhelming darkness, warmth versus cold, human versus cosmos, hope versus void, lamp flickering with each wind gust
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Wide static
+Motion: 1.0 intensity (slow walk)
+Weather: Maximum snow effect
+
+SOUND DESIGN:
+
+0:00-0:10: Wind overwhelming
+0:03: Low humming begins (no source)
+0:05: Footsteps muffled
+0:08: Lamp chain clinking
+Humming: 40Hz drone, mysterious
+
+POST-PRODUCTION:
+
+Enhance snow if needed
+Ensure only lamp visible
+Color: Golden sphere in blue-black
+Add footprint filling
+
+COSMIC SCALE:
+
+Human insignificance
+Light as only reference
+Space becomes void
+
+FALLBACK CHAIN:
+
+Lamp in darkness (simpler)
+Just moving light
+Audio over black
+
+BUNDLE/REUSE:
+
+Void atmosphere
+
+GENIUS NOTES: Last human light in cosmic darkness
+CRITICAL WARNINGS: Only lamp should be visible
+
+SHOT_34 ALT - BARRY LYNDON DARKNESS (GENIUS ALTERNATIVE)
+Difficulty: ⭐⭐⭐⭐ | Runtime: 10 seconds | Priority: ENHANCING
+Industrial: None | Three Layers: M (supernatural) | Motif: Darkness consuming
+USE THIS VERSION FOR ARTISTIC EMPHASIS
+PRAGMATIC PROMPT (Very difficult):
+Single lamp only light source, 80% of frame pure black, golden circle shrinking as oil depletes, figure becoming silhouette then shadow then gone
+AMBITIOUS PROMPT (Ideal):
+Single whale oil lamp providing only light source in entire frame like Barry Lyndon candlelight, darkness literally consuming 80% of image, golden light sphere shrinking from 3 feet to 2 feet to 1 foot as lamp oil depletes, figure holding lamp becoming silhouette, then shadow, then consumed by darkness entirely, true darkness not movie darkness, only lamp flame visible in final frames, then that too dies, complete black for final second, darkness as character eating light
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Wide static
+Motion: 0.5 intensity
+Critical: NO other light sources
+
+SOUND DESIGN:
+
+0:00-0:09: Gradual sound removal
+0:09-0:10: Complete silence
+Darkness equals silence
+
+POST-PRODUCTION:
+
+Crush blacks completely
+No detail in shadows
+Color: Only golden lamp
+Final frame: Complete black
+
+ARTISTIC CHOICE:
+
+Darkness as character
+Light death literal
+Void consuming human
+
+FALLBACK CHAIN:
+
+Use regular Shot 34
+Darken in post
+Skip if too extreme
+
+BUNDLE/REUSE:
+
+Alternative to Shot 34
+
+GENIUS NOTES: Kubrick's candles meet cosmic horror
+CRITICAL WARNINGS: Might be too dark for some systems
+
+SHOT_34b - PHYSICAL LAYER
+Difficulty: ⭐⭐ | Runtime: 4 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: P (starvation) | Motif: Physical reality
+PRAGMATIC PROMPT (Achievable):
+Empty wooden bowl with deep scratch marks inside from fingernails scraping for food, harsh side lighting
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up of empty wooden bowl on table with deep fingernail scratch marks inside from desperate scraping for food remnants, scratches forming concentric circles like tree rings of hunger, single crumb lodged in crack too small to extract, whale oil lamp light raking across scratches creating dramatic shadows, bowl worn smooth except where fingernails gouged wood, seventeen years of meals to this empty vessel, scratch pattern almost artistic in desperation
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Extreme close-up
+Motion: None (static detail)
+Lighting: Harsh raking light
+
+SOUND DESIGN:
+
+0:00-0:04: House settling
+0:02: Single drop of water (leak)
+Silence emphasizing emptiness
+
+POST-PRODUCTION:
+
+Enhance scratch visibility
+Add wood texture detail
+Color: Desaturate except scratches
+Consider: Crumb in crack?
+
+THREE LAYERS - PHYSICAL:
+
+Starvation reality
+Desperate scraping
+Nothing left
+
+FALLBACK CHAIN:
+
+Any empty bowl
+Scratched surface
+Implied through sound
+
+BUNDLE/REUSE:
+
+Part of three-layer sequence
+
+GENIUS NOTES: Hunger carved into wood itself
+CRITICAL WARNINGS: Scratches must look desperate, not decorative
+
+SHOT_34c - PSYCHOLOGICAL LAYER
+Difficulty: ⭐⭐⭐ | Runtime: 4 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: S (madness) | Motif: Psychological reality
+PRAGMATIC PROMPT (Achievable):
+Teenage girl frozen listening to something not there, confusion in eyes, head tilted, no source visible
+AMBITIOUS PROMPT (Ideal):
+Close-up of 16-year-old Icelandic girl's face frozen in listening pose, confusion in grey eyes with pupils dilated, head tilted at 15-degree angle hearing something with no visible source, wheat-blonde braid perfectly still like time stopped, mouth slightly open in concentration trying to identify sound that doesn't exist, micro-expressions of recognition then confusion, ear toward empty corner, goosebumps visible on neck, breath held for entire shot, listening to nothing or everything
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up
+Motion: 1.0 intensity (eyes only)
+Critical: No movement except eyes
+
+SOUND DESIGN:
+
+0:00-0:04: Complete silence
+Or: Ultrasonic suggestion at edge of hearing
+Absence of sound is the point
+
+POST-PRODUCTION:
+
+Freeze body, move eyes only
+Enhance confusion micro-expressions
+Color: Desaturate
+Add goosebumps if missing
+
+THREE LAYERS - PSYCHOLOGICAL:
+
+Hearing things not there
+Perception breaking
+Madness or sensitivity?
+
+FALLBACK CHAIN:
+
+Just confused expression
+Eyes only
+Back of head, implied
+
+BUNDLE/REUSE:
+
+Part of three-layer sequence
+
+GENIUS NOTES: Hearing the unhearable - madness or magic?
+CRITICAL WARNINGS: Must be perfectly still except eyes
+
+SHOT_34d - SUPERNATURAL LAYER
+Difficulty: ⭐⭐⭐⭐ | Runtime: 4 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: M (supernatural) | Motif: Metaphysical reality
+PRAGMATIC PROMPT (Achievable):
+Wall shadow forming ram horn spiral shape, impossible given lamp position, shadow moving without source
+AMBITIOUS PROMPT (Ideal):
+Close-up of rough turf wall where single whale oil lamp shadow creates perfect ram horn double spiral, impossible given lamp position on table 6 feet away, shadow rotating slowly clockwise without lamp or any object moving, spiral tightening and loosening like breathing, defying physics entirely, shadow darker than should be possible from single light source, spiral pattern matching ancient carved stone from archaeological sites, other shadows normal making this one anomaly obvious, supernatural geometry manifesting
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Close on wall
+Motion: 1.5 intensity (shadow movement)
+VFX: Will need shadow work
+
+SOUND DESIGN:
+
+0:00-0:04: Sub-bass pulse (20Hz)
+Felt not heard
+Wrong frequency for house
+
+POST-PRODUCTION REQUIRED:
+
+Add spiral shadow overlay
+Animate rotation
+Make physically impossible
+Other shadows must be normal
+
+THREE LAYERS - SUPERNATURAL:
+
+Physics breaking
+Ancient symbols appearing
+Reality laws failing
+
+FALLBACK CHAIN:
+
+Strange shadow (not spiral)
+Moving shadows
+Darkness only
+
+BUNDLE/REUSE:
+
+Complete three-layer sequence
+
+GENIUS NOTES: Impossible geometry - reality mathematics failing
+CRITICAL WARNINGS: Must be clearly impossible given light source
+
+Continuing due to length limits...RetryIcontinueEditSHOT_35 - SIGRID'S RITUAL
+Difficulty: ⭐⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: M (supernatural) | Motif: Cross #6, Youth succeeding
+PRAGMATIC PROMPT (Achievable):
+Overhead shot teenage hands arranging white pieces and wool in elaborate cross pattern on table, pricking finger for blood
+AMBITIOUS PROMPT (Ideal):
+Direct overhead shot of teenage Icelandic girl's pale hands with bitten nails arranging elaborate cross pattern of white shark cartilage pieces and grey sheep wool on wooden table, more complex than mother's with inner and outer crosses creating thirteen intersection points, pricking finger deeply with bone needle causing substantial blood flow, blood drops spreading through wool in root patterns, hands moving with supernatural confidence as if guided, pattern measuring exactly 16 inches (her age), breath vapor visible showing cold and concentration, wedding ring from mother's hand now on her finger showing succession, shadow of cross extending beyond table onto floor
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Direct overhead locked
+Motion: 1.5 intensity (careful placement)
+Lighting: Single source creating long shadows
+
+SOUND DESIGN:
+
+0:00-0:08: Careful placement sounds
+0:08: Needle prick (tiny pop)
+0:09: Blood dripping
+Constant: Held breath
+NO DIALOGUE - silence is power
+
+POST-PRODUCTION:
+
+Enhance pattern complexity
+Blood spreading animation
+Shadow extension
+Color: White/red contrast
+
+RITUAL EVOLUTION:
+
+More complex than mother's
+Youth's power greater
+Desperation plus innocence
+
+FALLBACK CHAIN:
+
+Simpler pattern
+Hands only, pattern implied
+Completed pattern static
+
+BUNDLE/REUSE:
+
+Evolved from Shot 14
+
+GENIUS NOTES: Youth succeeds where age failed - innocence is power
+CRITICAL WARNINGS: Must be MORE complex than mother's attempt
+
+SHOT_36 - INVOCATION
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: M (supernatural) | Motif: Silent power
+PRAGMATIC PROMPT (Achievable):
+Extreme close-up teenage girl's mouth whispering over ritual, lips forming unfamiliar words, breath visible
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up of 16-year-old Icelandic girl's mouth whispering over ritual arrangement, lips forming unfamiliar syllables of tilberi invocation learned from watching mother, breath vapor visible in cold air forming shapes that almost resemble runes, determination in visible lower face with jaw set, sweat bead on upper lip despite freezing temperature, words silent but rhythm suggesting ancient language, tongue visible forming impossible consonants, lips trembling with power not cold, single tooth with blood from bitten lip showing cost
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Extreme close-up mouth only
+Motion: 1.0 intensity (lip movement)
+Focus: Lips sharp
+
+SOUND DESIGN:
+
+0:00-0:06: Barely audible whispers
+Not understandable words
+Rhythm more important than content
+Ancient cadence
+
+POST-PRODUCTION:
+
+Enhance breath visibility
+Add sweat bead if missing
+Color: Pale lips, red blood
+Consider: Breath forming symbols?
+
+INVOCATION POWER:
+
+Words she doesn't understand
+Power in innocence
+Ritual finding new practitioner
+
+FALLBACK CHAIN:
+
+Just lips moving
+Profile whisper
+Implied through position
+
+BUNDLE/REUSE:
+
+Part of ritual sequence
+
+GENIUS NOTES: Power in not understanding - innocence channels force
+CRITICAL WARNINGS: Words must be inaudible but rhythmic
+
+SHOT_36b - BLOOD SEAL
+Difficulty: ⭐⭐ | Runtime: 3 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: M (supernatural) | Motif: Blood pattern
+PRAGMATIC PROMPT (Achievable):
+Blood drop falling onto white wool at cross center, spreading in spiral pattern through fibers
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up of large blood drop from pricked finger falling onto white wool at exact center of cross pattern, blood spreading in perfect spiral pattern through wool fibers matching ram horn shadow spiral exactly, spreading defying capillary action by moving upward in places, forming root-like or vein-like branches, blood unusually bright red for venous blood, spiral tightening as it spreads, creating pattern that resembles ancient symbols, wool accepting blood eagerly like thirsty earth
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Extreme close-up macro
+Motion: 1.5 intensity (spreading)
+Focus: Follow blood spread
+
+SOUND DESIGN:
+
+0:00: Drop impact (nearly silent)
+0:00-0:03: Blood spreading (no sound)
+Possible: Ultrasonic tone during spread
+
+POST-PRODUCTION:
+
+Enhance spiral pattern
+Make spreading unusual
+Color: Vivid red
+Match to shadow spiral pattern
+
+PATTERN SIGNIFICANCE:
+
+Matches ram horn spiral
+Blood knows the shape
+Pattern recognition
+
+FALLBACK CHAIN:
+
+Simple blood spread
+Blood drop only
+Already spread pattern
+
+BUNDLE/REUSE:
+
+Connects to shadow spiral
+
+GENIUS NOTES: Blood knows the ancient pattern
+CRITICAL WARNINGS: Spiral must match earlier shadow
+
+SHOT_37 - WOMAN WAITING
+Difficulty: ⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: M (threshold) | Motif: Crossing point
+PRAGMATIC PROMPT (Achievable):
+Woman with headdress standing still in blizzard holding lamp, accumulating snow, not moving, waiting
+AMBITIOUS PROMPT (Ideal):
+Wide shot of Icelandic woman with white faldbúningur headdress standing completely still in blizzard holding whale oil lamp with only 20 minutes oil left, brown wool dress and apron accumulating thick snow making her appear like statue, not moving forward or back but waiting for something inevitable, breath vapor visible showing she's alive but barely, positioned at exact spot where mundane meets supernatural, lamp flame only movement, snow filling her footprints around her showing she's been circling, finally still at crossroads moment
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Wide static
+Motion: 0.5 intensity (only snow/breath)
+Weather: Maximum blizzard
+
+SOUND DESIGN:
+
+0:00-0:10: Wind building
+0:05: Breathing synchronizing with something
+0:08: Wind beginning to drop
+Breath matching unknown rhythm
+
+POST-PRODUCTION:
+
+Add snow accumulation
+Ensure figure statue-still
+Color: Blue-grey except lamp
+Footprint circle visible
+
+THRESHOLD MOMENT:
+
+Between worlds
+Waiting for guide
+Acceptance of fate
+
+FALLBACK CHAIN:
+
+Figure in snow (simpler)
+Lamp in blizzard
+Sound only
+
+BUNDLE/REUSE:
+
+Setup for ram encounter
+
+GENIUS NOTES: The pause before crossing - liminal moment
+CRITICAL WARNINGS: Must be completely still except breath
+
+SHOT_37b - THE AWE MOMENT
+Difficulty: ⭐⭐⭐⭐⭐ | Runtime: 15 seconds | Priority: ESSENTIAL
+Industrial: Horn stops | Three Layers: M (revelation) | Motif: The impossible manifest
+THE REVELATION SHOT - HOLD ENTIRE 15 SECONDS
+PRAGMATIC PROMPT (Achievable with effort):
+Large ram emerging from blizzard into lamp light, unnaturally large, standing still despite wind, eyes reflecting light strangely
+AMBITIOUS PROMPT (Ideal):
+Medium shot of massive Icelandic ram emerging from blizzard into whale oil lamp light, height at woman's shoulder, thick white wool in dreadlocks with ice, snowflakes melting and evaporating 6 inches before touching its body creating clear air sphere around it violating physics, steam rising from wool forming shapes that could be reaching hands or tentacles, eyes reflecting lamp light like inner fire not animal reflection - orange glow from within, standing perfectly still despite 40mph wind that moves everything else, breath visible but wrong rhythm for sheep, presence stopping time itself, trawler horn stopping mid-call when it appears, ancient beyond age
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Medium shot - ABSOLUTELY STATIC
+Motion: 0.0 intensity except steam
+Duration: Full 15 seconds NO CUTS
+Critical: Must generate 10 sec, extend
+
+SOUND DESIGN:
+
+0:00-0:15: Gradual silence
+0:07: Trawler horn stops mid-call
+0:10: Complete silence except wind
+No sound from ram at all
+
+POST-PRODUCTION:
+
+Enhance impossible qualities
+Add clear air sphere effect
+Color: Desaturate except eyes
+NO CUTS - single shot
+
+THE IMPOSSIBLE:
+
+Snow not touching it
+Eyes with inner light
+Steam forming shapes
+Physics violation
+
+FALLBACK CHAIN:
+
+Large sheep, glowing eyes
+Shape in blizzard
+Suggestion only
+
+BUNDLE/REUSE:
+
+THE iconic encounter
+
+GENIUS NOTES: The moment reality admits impossibility
+CRITICAL WARNINGS: MUST HOLD FULL 15 SECONDS
+
+SHOT_38 - RAM RECOGNITION
+Difficulty: ⭐⭐⭐⭐ | Runtime: 12 seconds | Priority: ESSENTIAL
+Industrial: D #4 (coal rope) | Three Layers: M/P (identity) | Motif: Recognition
+PRAGMATIC PROMPT (Achievable):
+Close-up massive ram head, strange eyes, seaweed in wool, industrial rope visible, unnatural presence
+AMBITIOUS PROMPT (Ideal):
+Close-up of massive ram's head with thick curved yellow horns aged beyond possibility, black eyes reflecting orange lamp light too bright for animal like inner flame burning, piece of black seaweed tangled in white wool from ocean depths, coal-dark industrial rope strand wound through fleece showing modern contamination of ancient being, breath steam forming impossible spiral patterns, human tooth visible caught in wool near jaw, expression of terrible intelligence not animal consciousness, ice not forming on face despite blizzard, wound on neck that doesn't bleed
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Close-up, slow push in 1.0
+Motion: 1.5 intensity (breathing only)
+Focus: Eyes sharpest
+
+SOUND DESIGN:
+
+0:00-0:12: Ram breathing (wrong rhythm)
+0:05: Rope creaking
+0:08: Seaweed dripping
+No vocalization
+
+POST-PRODUCTION:
+
+Enhance eye glow
+Add tooth in wool
+Color: Orange eyes prominent
+Industrial elements visible
+
+INDUSTRIAL CONTAMINATION:
+
+Coal rope in ancient wool
+Modern marking supernatural
+Industry touches everything
+
+FALLBACK CHAIN:
+
+Ram head, simpler details
+Eyes only close-up
+Silhouette
+
+BUNDLE/REUSE:
+
+Ram identity markers
+
+GENIUS NOTES: Ancient contaminated by modern - no escape from industry
+CRITICAL WARNINGS: Must show industrial rope in supernatural being
+
+SHOT_38c - SILENT EXCHANGE
+Difficulty: ⭐⭐⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: M (agreement) | Motif: Wind stop moment
+THE WIND STOP - EXACTLY 4 SECONDS
+PRAGMATIC PROMPT (Difficult):
+Woman and ram facing each other, wind stops completely, snow frozen mid-air, then resumes
+AMBITIOUS PROMPT (Ideal - Requires VFX):
+Two-shot of Icelandic woman with white headdress holding lamp facing massive ram, locked eye contact, wind suddenly stops completely for exactly 4 seconds with snow frozen mid-air like time stopped, thousands of snowflakes suspended motionless, woman slowly lowers lamp in submission understanding contract, ram does not move or blink entire time, wind resumes instantly at full force, wordless agreement made, woman turns to follow, crossing threshold
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3 base
+VFX: Freeze frame for wind stop
+Critical: Exactly 4 seconds stopped
+Motion: 0.0 during stop
+
+SOUND DESIGN:
+
+0:00-0:03: Wind decreasing
+0:03-0:07: COMPLETE SILENCE
+0:07-0:10: Wind returns instantly
+The silence is supernatural
+
+POST-PRODUCTION REQUIRED:
+
+Shoot with wind
+Freeze frame at 0:03
+Hold freeze for 4 seconds
+Resume at 0:07
+
+THE MOMENT:
+
+Physics pause
+Agreement without words
+Crossing accepted
+
+FALLBACK CHAIN:
+
+Wind drops but not stop
+Facing each other only
+Imply through sound
+
+BUNDLE/REUSE:
+
+Pivotal moment
+
+GENIUS NOTES: Reality holds breath - the universe pauses
+CRITICAL WARNINGS: EXACTLY 4 seconds - not 3, not 5
+
+SHOT_38d - IMPOSSIBLE PROOF
+Difficulty: ⭐⭐⭐ | Runtime: 2 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: M (proof) | Motif: Undeniable
+PRAGMATIC PROMPT (Achievable):
+Extreme close-up human tooth in ram's wool, yellowed with filling, clear impossibility
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up in flickering lamplight of human molar tooth, yellowed with old metal amalgam filling visible, tangled deep in ram's white wool near neck, tooth root still attached with dried blood, impossible to be there naturally, focus pulling from tooth to wool then back, proving this is not normal ram, human element in animal, consumption implied, tooth from someone long missing
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Extreme close-up macro
+Motion: 1.0 intensity (focus pull)
+Duration: Quick recognition
+
+SOUND DESIGN:
+
+0:00-0:02: Silence except lamp
+Cut immediately after recognition
+
+POST-PRODUCTION:
+
+Enhance tooth visibility
+Add filling detail
+Color: Yellow tooth against white
+Quick shot - visceral impact
+
+UNDENIABLE PROOF:
+
+Human consumed or merged
+Cannot be explained
+Physical impossibility
+
+FALLBACK CHAIN:
+
+Tooth without filling
+Something human in wool
+Omit if too difficult
+
+BUNDLE/REUSE:
+
+Proof of impossibility
+
+GENIUS NOTES: The detail that cannot be rationalized
+CRITICAL WARNINGS: Must be clearly human tooth with dental work
+
+SHOT_39 - EAR MARK
+Difficulty: ⭐⭐ | Runtime: 3 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P (identity) | Motif: V-notch #3 final
+PRAGMATIC PROMPT (Achievable):
+Close-up ram's ear with V-shaped notch cut into edge, ice crystals on ear, matches wall marks
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up of ram's ear with precise V-shaped notch cut into edge matching wall marks and seal flipper exactly, ice crystals formed on ear edge, old scar showing notch is months old, lamp light flickering across it, frozen blood visible on old cut, Magnus's mark of ownership on impossible being, proof this is his missing ram transformed or possessed, ear tag hole below notch showing domestic animal, wild and owned simultaneously
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Extreme close-up
+Motion: 0.5 intensity (light flicker)
+Focus: Notch sharp
+
+SOUND DESIGN:
+
+0:00-0:03: Wind only
+Recognition in silence
+
+POST-PRODUCTION:
+
+Enhance V-notch clarity
+Add ice crystals
+Color: Match previous V-notches
+Quick recognition beat
+
+V-NOTCH COMPLETED:
+
+Wall marks (possession attempt)
+Seal flipper (claiming dead)
+Ram's ear (return transformed)
+
+FALLBACK CHAIN:
+
+Simple ear notch
+Partial ear view
+Implied through dialogue
+
+BUNDLE/REUSE:
+
+Completes V-notch trilogy
+
+GENIUS NOTES: His mark on the impossible - ownership of nightmare
+CRITICAL WARNINGS: Must clearly match previous V-notches
+
+SHOT_40 - INDUSTRIAL TRACE
+Difficulty: ⭐⭐⭐ | Runtime: 3 seconds | Priority: IMPORTANT
+Industrial: D #5 (contamination) | Three Layers: P/M | Motif: Black in white #2
+PRAGMATIC PROMPT (Achievable):
+Close-up coal-black rope wound through white wool, industrial contamination visible
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up of coal-black industrial rope strand wound through pure white wool on ram's shoulder, coal dust and machine oil staining surrounding fleece grey, modern contamination in ancient creature, rope appears to be growing from skin not just tangled, synthetic fibers melted into organic wool, industrial marking supernatural being, impossibility of machine rope in biblical ram, the modern wound through mythic
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Extreme close-up
+Motion: 0.5 intensity
+Focus: Rope texture sharp
+
+SOUND DESIGN:
+
+0:00-0:03: Rope creaking
+Industrial sound from organic being
+
+POST-PRODUCTION:
+
+Enhance rope blackness
+Show oil staining
+Color: Maximum contrast
+Quick contamination reveal
+
+INDUSTRIAL MARKING:
+
+Modern corrupts ancient
+Industry marks supernatural
+No escape from contamination
+
+FALLBACK CHAIN:
+
+Any dark rope in wool
+Staining only
+Implied contamination
+
+BUNDLE/REUSE:
+
+Industrial presence complete
+
+GENIUS NOTES: Even gods bear industrial scars
+CRITICAL WARNINGS: Must be clearly industrial rope, not natural
+
+SHOT_41 - FOLLOWING INTO VOID
+Difficulty: ⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: M (crossing) | Motif: Point of no return
+PRAGMATIC PROMPT (Achievable):
+Woman following ram into blizzard, lamp light shrinking, both disappearing into darkness
+AMBITIOUS PROMPT (Ideal):
+Wide shot of Icelandic woman with white headdress following massive ram into blizzard darkness, whale oil lamp light shrinking from 3 feet to 2 feet to pinpoint, their footprints immediately erased by wind and snow leaving no trace, woman's figure becoming shadow then nothing, ram leading her into void between worlds, lamp last thing visible then that too consumed, complete darkness for final second, no return possible from this journey, threshold crossed permanently
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Wide static
+Motion: 2.0 intensity (walking away)
+Duration: Full 10 seconds
+
+SOUND DESIGN:
+
+0:00-0:08: Footsteps fading
+0:08-0:09: Wind only
+0:09-0:10: Complete silence
+
+POST-PRODUCTION:
+
+Enhance light shrinking
+Ensure tracks disappear
+Color: Desaturate to black
+Final frame: Complete darkness
+
+CROSSING COMPLETE:
+
+No return
+Void entered
+Human world left
+
+FALLBACK CHAIN:
+
+Figures in distance
+Light disappearing only
+Sound over black
+
+BUNDLE/REUSE:
+
+End of Guðrún arc
+
+GENIUS NOTES: Following into nothing - faith or doom
+CRITICAL WARNINGS: Must end in complete darkness
+
+POISON FEAST: FORCED CONSUMPTION (8:15-9:15)
+The choice that isn't a choice
+SHOT_42 - EATING POISON (RAPID CUT VERSION)
+Difficulty: ⭐⭐⭐⭐ | Runtime: 12 seconds total | Priority: ESSENTIAL
+Industrial: A #10 (horn mocking) | Three Layers: P (poisoning) | Motif: Consumption horror
+GENIUS ENHANCEMENT - YOUR "SHOWER SCENE"
+RAPID CUT SEQUENCE (12 cuts in 8 seconds):
+Cut 1 (0.8s): "Extreme close-up grey-pink shark meat entering mouth, teeth biting down, texture visible"
+Cut 2 (0.7s): "Extreme close-up pupil dilating from normal to full, iris disappearing"
+Cut 3 (0.6s): "Throat swallowing with difficulty, adam's apple struggling, convulsion"
+Cut 4 (0.7s): "Shadow on wall lengthening impossibly, human becoming distorted"
+Cut 5 (0.6s): "Child's small hand trembling holding meat, forced to continue"
+Cut 6 (0.7s): "Eyes watering, single tear rolling, resignation visible"
+Cut 7 (0.6s): "Jaw clenching and unclenching, fighting revulsion"
+Cut 8 (0.7s): "Shadow multiplying on wall, one becomes two"
+Cut 9 (0.6s): "Small hand pushing meat away, rejection"
+Cut 10 (0.7s): "Adult hand forcing it back, violence implied"
+Cut 11 (0.5s): "Multiple mouths chewing, synchronized horror"
+Cut 12 (0.6s): "Everyone frozen mid-chew staring at nothing"
+THEN 4 SECONDS STATIC:
+"Wide shot of four people at wooden table frozen with meat in mouths, all staring into middle distance with thousand-yard stares, jaws stopped mid-chew, 1908 turf house, single lamp"
+SOUND DESIGN (Accelerating):
+
+Each cut: Wet chewing sounds
+Building to climax
+Sudden silence on freeze
+
+POST-PRODUCTION:
+
+Edit rhythm accelerating
+Match cut on movements
+Color: Increasingly desaturated
+Final shot: Completely still
+
+DIALOGUE (After sequence):
+MAGNÚS: "Eat! Every piece!"
+FALLBACK CHAIN:
+
+Fewer cuts (6 instead of 12)
+Single shot of eating
+Implied through sound
+
+GENIUS NOTES: Hitchcock's montage meets body horror
+CRITICAL WARNINGS: Rhythm acceleration essential
+
+SHOT_43 - CHILD POISONED
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P (toxicity) | Motif: Black in white #3
+PRAGMATIC PROMPT (Achievable):
+Extreme close-up 5-year-old girl's eyes with dilated pupils, unfocused, tear rolling down
+AMBITIOUS PROMPT (Ideal):
+Extreme close-up of 5-year-old Icelandic girl's eyes with pupils fully dilated until blue iris is just thin ring like solar eclipse, completely unfocused seeing things that aren't there, single tear rolling down pale cheek, reflection in pupils showing movement that isn't in room - shapes writhing, eyelashes fluttering rapidly, blood vessels in sclera becoming visible, poison taking hold of smallest first, innocence corrupted by necessity
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Extreme close-up eyes
+Motion: 1.5 intensity (pupil movement)
+VFX: May need pupil work
+
+SOUND DESIGN:
+
+0:00-0:06: Child breathing (rapid, wrong)
+0:03: LILJA: "My stomach..." (whispered)
+0:05: Whimper
+Heartbeat audible (too fast)
+
+POST-PRODUCTION:
+
+Enhance pupil dilation
+Add reflection in pupils
+Color: Blue iris almost gone
+Possible: Impossible reflection
+
+POISON PROGRESSION:
+
+Smallest affected first
+Consciousness altering
+Reality perception changing
+
+FALLBACK CHAIN:
+
+Simple dilated eyes
+Unfocused stare
+Crying child
+
+BUNDLE/REUSE:
+
+Child transformation beginning
+
+GENIUS NOTES: Innocence doesn't protect from poison
+CRITICAL WARNINGS: Pupils must be extremely dilated
+
+SHOT_43b - FROZEN BREATH CALLBACK (GENIUS ADDITION)
+Difficulty: ⭐⭐⭐ | Runtime: 3 seconds | Priority: ENHANCING
+Industrial: None | Three Layers: P/M | Motif: Breath transformation
+OPTIONAL BUT POWERFUL
+PRAGMATIC PROMPT (Achievable):
+Child's breath crystallizing in cold air, rhythm wrong for human, crackling sound
+AMBITIOUS PROMPT (Ideal):
+Close-up of child's breath in extremely cold air, breath vapor crystallizing and falling as ice shards making exact same crackling sound established in Shot 7c, but breath rhythm now 8 breaths per minute instead of child's normal 22, too slow for human child, crystal pattern different from human - more geometric, less organic, transformation beginning at molecular level
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up breath only
+Motion: 2.0 intensity (crystals falling)
+Critical: Same crackling sound
+
+SOUND DESIGN:
+
+0:00-0:03: EXACT crackling from Shot 7c
+But rhythm all wrong
+File: BREATH_CRACKLE_HUMAN modified
+
+POST-PRODUCTION:
+
+Match crystal look to 7c
+Slow breath rhythm
+Color: Blue-white crystals
+Geometric patterns
+
+CALLBACK GENIUS:
+
+Same sound, wrong rhythm
+Human becoming other
+Breath betrays transformation
+
+FALLBACK CHAIN:
+
+Just slow breathing
+Breath without crystals
+Omit if schedule tight
+
+BUNDLE/REUSE:
+
+Breath signature changing
+
+GENIUS NOTES: The breath that isn't human anymore
+CRITICAL WARNINGS: Must use EXACT sound from earlier
+
+SHOT_44 - BOY REJECTING
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: P (rejection) | Motif: Body fighting
+PRAGMATIC PROMPT (Achievable):
+Boy turning away from table, hand over mouth, convulsing with need to vomit, sweaty and sick
+AMBITIOUS PROMPT (Ideal):
+Medium shot of 8-year-old Icelandic boy turning head sharply away from table, hand pressed tightly over mouth, body convulsing with need to vomit that he cannot allow, sandy hair matted with fever sweat, oversized brown wool sweater collar too large showing weight loss, other hand gripping table edge with white knuckles, existing tuberculosis making poison worse, body's desperate rejection of toxin, father's eyes ensuring he swallows
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Medium shot
+Motion: 3.0 intensity (convulsion)
+Focus: Face and hand
+
+SOUND DESIGN:
+
+0:00-0:06: Suppressed gagging
+0:02: JÓN: "I'm cold" (whispered)
+0:04: Swallowing back bile
+0:05: Wheezing breath
+
+POST-PRODUCTION:
+
+Add sweat if missing
+Enhance convulsion
+Color: Green tinge to skin
+Motion blur on rejection
+
+BODY REBELLION:
+
+Physical rejection of poison
+But must consume
+No choice in choice
+
+FALLBACK CHAIN:
+
+Simple nausea gesture
+Turning away only
+Audio over wide
+
+BUNDLE/REUSE:
+
+Jón's decline
+
+GENIUS NOTES: Body knows poison, mind overrides
+CRITICAL WARNINGS: Must show forced swallowing despite nausea
+
+SHOT_45 - SIGRID'S KNOWING
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: M (recognition) | Motif: Cause and effect
+PRAGMATIC PROMPT (Achievable):
+Teenage girl looking at empty table where ritual was, understanding in eyes, slight nod of acceptance
+AMBITIOUS PROMPT (Ideal):
+Close-up of 16-year-old Icelandic girl's face looking down at empty table where ritual was performed, understanding dawning in grey eyes that her magic worked but wrong, slight nod to herself of acceptance of consequences, small ambiguous expression that could be triumph or resignation or both, wheat-blonde braids framing face, no surprise at transformation beginning, she knows what she's caused, she knows what's coming, she accepts responsibility
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up face
+Motion: 1.0 intensity (subtle nod)
+Focus: Eyes primarily
+
+SOUND DESIGN:
+
+0:00-0:06: Sigrid's calm breathing
+Different from others' panic
+She alone is unsurprised
+NO DIALOGUE - knowing silence
+
+POST-PRODUCTION:
+
+Enhance micro-expressions
+Subtle nod timing
+Color: Clear-eyed vs others
+She's not poisoned (or less)
+
+CHARACTER MOMENT:
+
+Ritual worked
+Consequences accepted
+Power and price
+
+FALLBACK CHAIN:
+
+Just eyes looking
+Profile understanding
+Implied through calmness
+
+BUNDLE/REUSE:
+
+Final Sigrid surveillance shot
+
+GENIUS NOTES: The witch who knows her spell worked wrong
+CRITICAL WARNINGS: Must show acceptance, not surprise
+
+SHOT_45b - SHADOWS MULTIPLYING
+Difficulty: ⭐⭐⭐⭐ | Runtime: 4 seconds | Priority: ENHANCING
+Industrial: None | Three Layers: S/M | Motif: Doubling #4
+PRAGMATIC PROMPT (Needs composite):
+Four people at table but six shadows on wall, extras moving wrong
+AMBITIOUS PROMPT (Requires VFX):
+Wide shot showing four people at table in 1908 turf house but six distinct shadows cast on wall behind them, extra shadows child-sized moving independently from the four people, one shadow raising hand when no one moves, another turning head opposite direction, shadows beginning to act out different scene from bodies, lamp flame steady so anomaly impossible, preview of mathematics breaking
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3 base
+VFX: Add extra shadows in post
+Motion: Shadows 1.5, people 0.5
+Critical: Shadows must mismatch
+
+SOUND DESIGN:
+
+0:00-0:04: Normal room tone
+No acknowledgment of anomaly
+Subconscious wrongness only
+
+POST-PRODUCTION REQUIRED:
+
+Shoot normal scene
+Duplicate and modify shadows
+Desynchronize by 1 second
+Keep subtle
+
+MATHEMATICAL PREVIEW:
+
+Four people, six shadows
+Preview of final count
+Reality rules breaking
+
+FALLBACK CHAIN:
+
+Shadows wrong position only
+Shadow count unclear
+Omit if too complex
+
+BUNDLE/REUSE:
+
+Doubling motif completion
+
+GENIUS NOTES: Mathematics failing visually before verbally
+CRITICAL WARNINGS: Subtle enough to miss first viewing
+
+MORNING REVELATION: THE TRANSFORMED (9:15-12:00)
+The horror of recognition
+SHOT_46 - SHAPES IN DARKNESS
+Difficulty: ⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: A #11 (horn outside) | Three Layers: P/S/M equal | Motif: First glimpse
+PRAGMATIC PROMPT (Achievable):
+Dawn light through smoke hole, white shapes on sleeping platforms, wrong proportions, synchronized breathing
+AMBITIOUS PROMPT (Ideal):
+Wide shot of 1908 Icelandic turf house interior at grey dawn with no lamp lit, indistinct white shapes on wooden sleeping platforms where family sleeps, scattered wool on floor, shapes have wrong proportions for humans - too low, too wide, something breathing in synchronized rhythm unlike individual human breathing, condensation dripping from ceiling beams, shapes covered in white wool but underneath suggestion of forms that aren't right, five shapes but feeling of six, morning revealing impossibility
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Wide static
+Motion: 0.5 intensity (synchronized breathing)
+Lighting: Dawn through smoke hole only
+
+SOUND DESIGN:
+
+0:00-0:10: Five breathing patterns
+But synchronized unnaturally
+All at 8 breaths/minute
+0:05: Trawler horn distant
+
+POST-PRODUCTION:
+
+Keep shapes ambiguous
+Enhance synchronization
+Color: Blue-grey dawn
+Add condensation drips
+
+FIRST REVELATION:
+
+Wrong shapes
+Wrong breathing
+Wrong number feeling
+
+FALLBACK CHAIN:
+
+Shapes under blankets
+Suggestion only
+Dark with breathing
+
+BUNDLE/REUSE:
+
+Setup for revelation
+
+GENIUS NOTES: The morning that changes everything
+CRITICAL WARNINGS: Shapes must be wrong but not obvious
+
+SHOT_47 - MAGNÚS WAKING
+Difficulty: ⭐⭐⭐ | Runtime: 8 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P (unreliable witness) | Motif: Consciousness returning
+PRAGMATIC PROMPT (Achievable):
+Bearded man waking confused, dilated pupils, half-eaten shark meat beside him, disoriented
+AMBITIOUS PROMPT (Ideal):
+Close-up of 55-year-old Icelandic man's bearded face waking in confusion, eyes unfocused with dilated pupils from hákarl poisoning, half-eaten piece of grey shark meat beside him on table with his teeth marks visible, morgundrengur (morning confusion) visible, drool in grey beard, not sure if awake or dreaming, slow recognition that something fundamentally wrong, trying to remember what happened, wedding ring on wrong finger, world not making sense
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up face
+Motion: 2.0 intensity (disoriented waking)
+Focus: Soft to sharp (waking)
+
+SOUND DESIGN:
+
+0:00-0:08: Confused breathing
+0:03: Groan of confusion
+0:05: "Guðrún? Where..."
+Slurred speech
+
+DIALOGUE:
+MAGNÚS: "Guðrún? Where... where is..."
+POST-PRODUCTION:
+
+Enhance confusion
+Add drool if missing
+Color: Sickly morning light
+Possible: Double vision effect?
+
+UNRELIABLE NARRATOR:
+
+Poisoned perception
+Cannot trust what he sees
+Audience shares confusion
+
+FALLBACK CHAIN:
+
+Simple waking
+Confused expression
+Audio over dark
+
+BUNDLE/REUSE:
+
+Magnus's final arc
+
+GENIUS NOTES: We see through poisoned eyes
+CRITICAL WARNINGS: Must establish unreliability
+
+SHOT_48 - LIGHTING DISCOVERY
+Difficulty: ⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: A #12 (horn continues) | Three Layers: P/S/M | Motif: Building dread
+PRAGMATIC PROMPT (Achievable):
+Shaking hand with taper moving through dark space, revealing white wool sections gradually
+AMBITIOUS PROMPT (Ideal):
+Medium shot of violently shaking hand holding burning taper moving slowly through dark space, light revealing sections gradually - white wool here, more white wool there, too much white wool for blankets, hand trembling making light waver creating moving shadows, each revelation worse than last, taper burning down showing time passing, revealing shapes that shouldn't be there, breath vapor showing cold and fear, wedding ring catching light, industrial trawler horn outside grounding in reality while inside breaks
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Following hand movement
+Motion: 2.5 intensity (searching, shaking)
+Lighting: Only taper light
+
+SOUND DESIGN:
+
+0:00-0:10: Taper crackling
+0:03: Footstep (uncertain)
+0:05: Trawler horn (grounding)
+0:07: Gasp (recognition)
+0:09: Whimper
+
+POST-PRODUCTION:
+
+Enhance hand shaking
+Light reveals gradually
+Color: Warm taper vs cold dawn
+Build tension through reveals
+
+DISCOVERY BUILDING:
+
+Each section worse
+Understanding dawning
+Dread accumulating
+
+FALLBACK CHAIN:
+
+Hand with light
+Light moving (hand implied)
+Darkness with sound
+
+BUNDLE/REUSE:
+
+Discovery sequence
+
+GENIUS NOTES: The search you don't want to complete
+CRITICAL WARNINGS: Must build dread gradually
+
+Final section continues in next response...RetryIcontinueEdit2 / 2SHOT_49a - LAST HUMAN
+Difficulty: ⭐⭐ | Runtime: 4 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: Baseline | Motif: Before
+PRAGMATIC PROMPT (Achievable):
+Close-up teenage girl sleeping peacefully, blonde braids on pillow, normal human appearance
+AMBITIOUS PROMPT (Ideal):
+Close-up of 16-year-old Icelandic girl's peaceful sleeping face with eyes closed, wheat-blonde braids spread on rough wool pillow, under grey wool blanket pulled to chin, looking exactly as human should look sleeping, slight smile suggesting good dreams, breath vapor visible at normal human rate 12 breaths per minute, last moment of normalcy before horror, framed exactly for comparison shot
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Close-up, locked position
+Motion: 0.5 intensity (breathing only)
+Critical: EXACT framing for match
+
+SOUND DESIGN:
+
+0:00-0:04: Peaceful breathing
+Human rhythm
+No disturbance
+
+POST-PRODUCTION:
+
+Ensure peaceful expression
+Color: Warm morning light
+Save exact framing
+
+SETUP:
+
+Baseline for transformation
+Last human moment
+Peace before horror
+
+FALLBACK CHAIN:
+
+Simple sleeping face
+Braids on pillow only
+Suggested shape
+
+BUNDLE/REUSE:
+
+Exact frame for 49b
+
+GENIUS NOTES: The last moment of humanity
+CRITICAL WARNINGS: Must frame exactly for match cut
+
+SHOT_49b - FIRST SHEEP
+Difficulty: ⭐⭐⭐ | Runtime: 4 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: M (transformation) | Motif: Direct comparison
+PRAGMATIC PROMPT (Achievable):
+Close-up sheep face in same position as previous shot, peaceful expression, white wool where hair was
+AMBITIOUS PROMPT (Ideal):
+Close-up of Icelandic sheep face with eyes closed in exact same position and framing as previous shot, same peaceful expression but on animal features, white wool where blonde braids were, same pillow position, same blanket placement, breathing at sheep rate 20 breaths per minute, exact match cut showing transformation complete, no ambiguity - this is sheep where girl was, same slight smile impossibly on sheep face
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: EXACT same as 49a
+Motion: 0.5 intensity (breathing)
+Critical: Perfect position match
+
+SOUND DESIGN:
+
+0:00-0:04: Sheep breathing
+Faster than human
+Same peaceful quality
+
+POST-PRODUCTION:
+
+Match framing exactly
+Ensure position identical
+Color: Same as 49a
+Hard cut, no transition
+
+TRANSFORMATION PROOF:
+
+Same position
+Same peace
+Different being
+
+FALLBACK CHAIN:
+
+Sheep face, angle approximate
+White wool only
+Implied through sound
+
+BUNDLE/REUSE:
+
+Completes comparison
+
+GENIUS NOTES: The impossible made undeniable
+CRITICAL WARNINGS: Must match position EXACTLY
+
+SHOT_49c - HAND TO HOOF
+Difficulty: ⭐⭐⭐⭐ | Runtime: 4 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: M (proof) | Motif: Doubling #5 final
+PRAGMATIC PROMPT (Requires composite):
+Split screen - left shows child hand with doll, right shows sheep hoof with same doll
+AMBITIOUS PROMPT (Two separate shots):
+LEFT FRAME: "Small 5-year-old child's hand with dirty fingernails clutching cloth doll with brass button eyes and yellow yarn hair, hand relaxed in sleep, human fingers visible"
+
+RIGHT FRAME: "Sheep hoof touching same cloth doll in identical position, hoof where hand should be, doll's button eyes in exact same angle, yellow yarn hair visible, impossible but undeniable"
+TECHNICAL SPECIFICATIONS:
+
+Generate two shots separately
+Composite as split screen
+Motion: None (static comparison)
+Critical: Doll must be identical
+
+SOUND DESIGN:
+
+0:00-0:04: Silence
+Let image speak
+
+POST-PRODUCTION REQUIRED:
+
+Generate both sides
+Create center split
+Match lighting
+Ensure doll identical
+
+UNDENIABLE EVIDENCE:
+
+Same doll
+Same position
+Different limb
+
+FALLBACK CHAIN:
+
+Two quick cuts instead
+Hoof with doll only
+Implication only
+
+BUNDLE/REUSE:
+
+Final doubling motif
+
+GENIUS NOTES: The toy that proves transformation
+CRITICAL WARNINGS: Doll must be recognizably same
+
+SHOT_50 - THE FAMILY TRANSFORMED
+Difficulty: ⭐⭐⭐⭐⭐ | Runtime: 15 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P/S/M equal | Motif: THE REVELATION
+HOLD FOR ENTIRE 15 SECONDS - THE REVELATION
+PRAGMATIC PROMPT (Achievable with work):
+Five sheep on sleeping platforms where family was, various sizes, wearing pieces of family clothing, completely still except breathing
+AMBITIOUS PROMPT (Ideal - May need composite):
+Wide shot of five Icelandic sheep of varying sizes lying on wooden sleeping platforms where family slept, largest ram wearing torn brown wool sweater stretched across back matching Magnus's garment, one ewe with white curved faldbúningur headdress placed on head between ears matching Guðrún's, smallest lamb positioned near cloth doll with brass button eyes, all positioned exactly as family would sleep in same spots, in deep shadow under one sheep's wool a pale shape that might be human fingers, scattered wool on floor as if transformation was violent, breathing in unison at sheep rate, morning light revealing truth, positions showing family hierarchy maintained in animal form
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Wide static - NO MOVEMENT
+Motion: 0.5 intensity (breathing only)
+Duration: Full 15 seconds hold
+May need multiple attempts
+
+SOUND DESIGN:
+
+0:00-0:15: Five sheep breathing
+Synchronized unnaturally
+No other sound
+Let horror sink in
+
+POST-PRODUCTION:
+
+May need to composite sheep separately
+Add clothing carefully
+Ensure positions match family
+Color: Morning light, documentary style
+NO CUTS during 15 seconds
+
+THE MOMENT:
+
+Complete revelation
+Ambiguity maintained
+Horror recognized
+
+FALLBACK CHAIN:
+
+Fewer sheep, simpler
+Shapes with clothing
+Suggestion only
+
+BUNDLE/REUSE:
+
+THE revelation shot
+
+GENIUS NOTES: The image that contains entire film
+CRITICAL WARNINGS: Must hold FULL 15 seconds
+
+SHOT_51 - THE HEADDRESS
+Difficulty: ⭐⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: M (iconic) | Motif: THE IMAGE
+THE ICONIC IMAGE - HOLD 10 SECONDS
+PRAGMATIC PROMPT (Achievable):
+Close-up white headdress on sheep's head between ears, sheep eyes closed, no movement except breathing
+AMBITIOUS PROMPT (Ideal):
+Close-up of white curved faldbúningur headdress with black velvet band sitting perfectly on Icelandic sheep's head between ears, positioned exactly as woman would wear it with front curve centered, sheep's eyes closed in human-like sleep expression with impossible peace, breathing visible at sheep rate but rhythm sometimes catching human pattern, black band slightly askew as if placed in struggle, one human grey hair caught in wool, morning light making headdress glow like halo, brass pin that held it to human hair now pinned through wool
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Close-up - ABSOLUTELY STATIC
+Motion: 0.0 except breathing
+Duration: Full 10 seconds
+Critical: Perfect headdress position
+
+SOUND DESIGN:
+
+0:00-0:10: Single sheep breathing
+0:05: Breath catches (almost human)
+Otherwise silence
+
+POST-PRODUCTION:
+
+Ensure headdress perfect
+Add human hair if missing
+Color: Morning light
+NO MOVEMENT except breath
+May need multiple attempts
+
+THE SHOT:
+
+Defines the film
+Iconic horror image
+Cultural specific universal
+
+FALLBACK CHAIN:
+
+Headdress on sheep (simpler)
+Multiple attempts, choose best
+This shot CANNOT fail
+
+BUNDLE/REUSE:
+
+THE image
+
+GENIUS NOTES: Your "shower scene" - the defining image
+CRITICAL WARNINGS: Position must be perfect, hold must be full 10 seconds
+
+SHOT_52 - LAMB BEHAVIOR
+Difficulty: ⭐⭐⭐ | Runtime: 4 seconds | Priority: IMPORTANT
+Industrial: None | Three Layers: M (behavioral) | Motif: Human behavior retained
+PRAGMATIC PROMPT (Achievable):
+Small lamb with hoof in mouth, sucking like thumb, doll nearby
+AMBITIOUS PROMPT (Ideal):
+Close-up of smallest Icelandic lamb with its own hoof in mouth, sucking exactly like child with thumb, eyes closed in comfort, cloth doll with brass button eyes visible nearby where child dropped it, behavior perfectly mimicking 5-year-old's self-soothing, physically impossible for real sheep but happening, tiny size suggesting youngest child, motion exactly like human thumb-sucking
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up
+Motion: 1.5 intensity (sucking motion)
+Focus: Hoof in mouth
+
+SOUND DESIGN:
+
+0:00-0:04: Sucking sound
+Like child with thumb
+Wet, comforting
+
+POST-PRODUCTION:
+
+Enhance sucking motion
+Ensure doll visible
+Color: Morning light
+Make behavior clearly human
+
+BEHAVIORAL PROOF:
+
+Human habits retained
+Child behavior in animal
+Impossible but visible
+
+FALLBACK CHAIN:
+
+Lamb near doll only
+Suggestion of behavior
+Doll only
+
+BUNDLE/REUSE:
+
+Behavioral evidence
+
+GENIUS NOTES: The child habit that proves identity
+CRITICAL WARNINGS: Must look like thumb-sucking
+
+SHOT_53 - MAGNÚS APPROACHING
+Difficulty: ⭐⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P/S/M | Motif: Seeking family
+PRAGMATIC PROMPT (Achievable):
+Bearded man stumbling toward sheep, reaching out, calling names, sheep not responding
+AMBITIOUS PROMPT (Ideal):
+Medium shot of 55-year-old broken Icelandic man stumbling toward five sheep on platforms, hand reaching out desperately trying to wake them, calling names with increasing panic, sheep not responding to human names showing they're not trained animals, man's legs unsteady from poison or shock, taper light wavering in shaking hand creating moving shadows, grey beard wild with spittle, wedding ring visible on reaching hand, seventeen years of marriage to this moment, sheep breathing continuing undisturbed
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Medium shot following
+Motion: 2.5 intensity (desperate approach)
+Multiple elements challenging
+
+SOUND DESIGN:
+
+0:00-0:10: Stumbling footsteps
+0:02: "Guðrún!"
+0:05: "JÓN!"
+0:08: "Answer me!"
+Building panic
+
+DIALOGUE:
+MAGNÚS: "Guðrún! JÓN! Answer me!"
+POST-PRODUCTION:
+
+Enhance desperation
+Add hand shaking
+Color: Harsh taper light
+Build tension
+
+SEEKING:
+
+Looking for family
+Finding animals
+Recognition building
+
+FALLBACK CHAIN:
+
+Man approaching (sheep separate)
+Reaching gesture only
+Audio over sheep shot
+
+BUNDLE/REUSE:
+
+Discovery sequence
+
+GENIUS NOTES: The search for family finding only sheep
+CRITICAL WARNINGS: Sheep must not respond to names
+
+SHOT_53 ALT - DOLLY ZOOM REVELATION (GENIUS ALTERNATIVE)
+Difficulty: ⭐⭐⭐⭐⭐ | Runtime: 10 seconds | Priority: ENHANCING
+Industrial: None | Three Layers: S (perception breaking) | Motif: Reality warping
+USE IF TECHNICALLY POSSIBLE
+PRAGMATIC PROMPT (Very difficult):
+Man approaching sheep with dolly zoom effect, walls warping around him
+AMBITIOUS PROMPT (Requires complex setup):
+Medium shot of broken Icelandic man approaching sheep, camera simultaneously dollying back while zooming in creating vertigo effect, keeping man same size but warping the turf house walls around him like reality bending, showing his mind breaking as recognition dawns, walls seeming to breathe and pulse, mathematical angles becoming wrong, straight lines curving, famous Vertigo technique showing psychological collapse through visual distortion
+TECHNICAL SPECIFICATIONS:
+
+Requires precise coordination
+Dolly back + zoom in simultaneously
+May need post-production work
+Very difficult with AI generation
+
+SOUND DESIGN:
+
+Add subtle "wrong" reverb
+Reality distortion audio
+
+POST-PRODUCTION REQUIRED:
+
+May need to create in post
+Warp background digitally
+Complex effect
+
+PSYCHOLOGICAL VISUALIZATION:
+
+Mind breaking shown visually
+Reality becoming unreliable
+Perception failing
+
+FALLBACK CHAIN:
+
+Digital zoom with warping
+Regular approach shot
+Use standard Shot 53
+
+GENIUS NOTES: Hitchcock's vertigo as mental breakdown
+CRITICAL WARNINGS: Only attempt if technical capability exists
+
+SHOT_53a - SWEATER RECOGNITION
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: Recognition | Motif: First proof
+PRAGMATIC PROMPT (Achievable):
+Man's hand touching torn sweater on sheep, hand freezing in recognition, trembling
+AMBITIOUS PROMPT (Ideal):
+Close-up of Icelandic man's weathered hand with wedding ring touching torn brown wool sweater stretched across sheep's back, hand freezing in recognition as fingers trace familiar mending that wife did last month, trembling beginning as understanding dawns, sweater torn in exact place from boat work, wool stretched wrongly over animal form, hand pulling back then touching again in disbelief, wedding ring catching light showing marriage connection
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up hand and sweater
+Motion: 1.0 intensity (freezing recognition)
+Focus: Hand and fabric
+
+SOUND DESIGN:
+
+0:00-0:02: Fabric rustling
+0:02: Sharp inhale
+0:03-0:06: Trembling breath
+0:04: "Jón? No..."
+
+DIALOGUE:
+MAGNÚS: "Jón? No... this isn't..."
+POST-PRODUCTION:
+
+Enhance trembling
+Show recognition micro-movements
+Color: Focus on sweater
+Slow the freezing moment
+
+FIRST RECOGNITION:
+
+Son's clothing
+Familiar mending
+Impossible truth
+
+FALLBACK CHAIN:
+
+Hand on sweater only
+Sweater visible on sheep
+Recognition through expression
+
+BUNDLE/REUSE:
+
+Recognition sequence
+
+GENIUS NOTES: The mending that proves identity
+CRITICAL WARNINGS: Must show familiar damage/repair
+
+SHOT_53b - HEADDRESS REVELATION
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: Recognition | Motif: Second proof
+PRAGMATIC PROMPT (Achievable):
+White headdress on sheep becoming visible in taper light, man's shocked face, hand reaching then pulling back
+AMBITIOUS PROMPT (Ideal):
+Medium shot of white faldbúningur headdress on sheep coming into golden taper light, half in shadow half illuminated, bearded man's face entering frame with eyes widening in absolute horror, hand reaching toward headdress then pulling back as if burned, recognizing wife's most precious possession, seventeen years of marriage to this moment, tears beginning, mouth opening in silent scream, headdress slightly crooked as if struggled
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Medium shot
+Motion: 2.0 intensity (reaching/pulling back)
+Lighting: Dramatic taper reveal
+
+SOUND DESIGN:
+
+0:00-0:02: Taper crackling
+0:02: Gasp of recognition
+0:04: "Guðrún... what did..."
+0:06: Choked sob
+
+DIALOGUE:
+MAGNÚS: "Guðrún... what did..."
+POST-PRODUCTION:
+
+Enhance horror expression
+Dramatic light reveal
+Color: Warm light, cold shadows
+Hold recognition beat
+
+SECOND RECOGNITION:
+
+Wife's headdress
+Cultural/personal significance
+Reality breaking
+
+FALLBACK CHAIN:
+
+Headdress visible only
+Man's reaction only
+Implied through audio
+
+BUNDLE/REUSE:
+
+Recognition sequence
+
+GENIUS NOTES: The wedding headdress on animal
+CRITICAL WARNINGS: Must show it's definitely hers
+
+SHOT_53c - DOLL DISCOVERY
+Difficulty: ⭐⭐⭐ | Runtime: 6 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: Recognition | Motif: Third proof
+PRAGMATIC PROMPT (Achievable):
+Smallest lamb with doll under hoof, man's legs buckling to knees, impact with floor
+AMBITIOUS PROMPT (Ideal):
+Close-up of smallest lamb with cloth doll with brass button eyes under its hoof, doll's yellow yarn hair visible, man's legs visible buckling to knees in background out of focus, heavy impact of knees hitting packed earth floor, full collapse as recognizing youngest daughter, doll she wouldn't sleep without, wedding ring visible on hand reaching toward doll, complete breakdown of strong man, patriarchy crumbling
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up with background action
+Motion: 3.0 intensity (collapse)
+Focus: Doll sharp, man soft
+
+SOUND DESIGN:
+
+0:00-0:03: Quiet moment
+0:03: Knees hitting floor (THUD)
+0:04: Sobbing begins
+0:06: Complete breakdown
+
+POST-PRODUCTION:
+
+Enhance collapse
+Ensure doll visible
+Color: Morning light
+Heavy impact
+
+THIRD RECOGNITION:
+
+Youngest daughter
+Complete family transformed
+Reality undeniable
+
+FALLBACK CHAIN:
+
+Doll and lamb only
+Man collapsing only
+Audio reaction
+
+BUNDLE/REUSE:
+
+Completes recognition
+
+GENIUS NOTES: The toy that breaks the man
+CRITICAL WARNINGS: Collapse must feel heavy, final
+
+SHOT_54 - SHEEP RETREATING
+Difficulty: ⭐⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: M (retained fear) | Motif: Incest subplot resolution
+PRAGMATIC PROMPT (Achievable):
+One sheep backing away from man's reaching hand, others still, fearful bleating
+AMBITIOUS PROMPT (Ideal):
+Medium shot of one medium-sized sheep backing away from reaching man's hand with distressed bleating, positioning itself behind other sheep for protection exactly as Sigrid did, while other four sheep remain completely still and unafraid, clear behavioral difference showing retained human memory, only this sheep fears him, backing into corner maintaining maximum distance, same defensive posture in animal form, trauma transcending transformation
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Medium shot showing geography
+Motion: 2.0 intensity (fearful retreat)
+Critical: Only ONE sheep retreats
+
+SOUND DESIGN:
+
+0:00-0:10: One sheep bleating (distressed)
+Others silent
+Behavioral difference clear
+Fear vocalized
+
+POST-PRODUCTION:
+
+Ensure only one retreats
+Show defensive positioning
+Color: Morning light
+Geography important
+
+INCEST RESOLUTION:
+
+Sigrid still fears him
+Trauma retained in animal
+Protection seeking continues
+
+FALLBACK CHAIN:
+
+Sheep retreating (simpler)
+Fearful bleating only
+All sheep still, one bleats
+
+BUNDLE/REUSE:
+
+Final incest subplot beat
+
+GENIUS NOTES: Fear transcends form - trauma deeper than flesh
+CRITICAL WARNINGS: ONLY Sigrid-sheep retreats, others still
+
+SHOT_55 - INDUSTRIAL WITNESS
+Difficulty: ⭐⭐⭐⭐ | Runtime: 12 seconds | Priority: ESSENTIAL
+Industrial: V #7, A #13 | Three Layers: P (indifference) | Motif: Modern continues
+PRAGMATIC PROMPT (Achievable):
+Five sheep on platforms, doorway showing trawler passing with smoke, morning light
+AMBITIOUS PROMPT (Ideal):
+Wide shot of five Icelandic sheep on sleeping platforms in turf house with open door showing British steam trawler passing in distance with black coal smoke, trawler continuing indifferent to tragedy inside, industrial schedule unchanged by human horror, morning light creating silhouettes of sheep against doorway, black smoke contrasting with white wool, modern world continuing while ancient world transforms, trawler horn sounding like nothing happened, five sheep bleating in response like calling for help
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Wide static
+Motion: 1.0 intensity (trawler passing)
+Composite: May need trawler added
+
+SOUND DESIGN:
+
+0:00-0:12: Trawler engine
+0:05: Horn blast (85Hz, loudest yet)
+0:06-0:10: Sheep bleating response
+Industrial dominates natural
+
+POST-PRODUCTION:
+
+Ensure trawler visible
+Add smoke if needed
+Color: Black smoke prominent
+Silhouette composition
+
+INDUSTRIAL INDIFFERENCE:
+
+Modern world continues
+Tragedy unwitnessed
+Schedule unchanged
+
+FALLBACK CHAIN:
+
+Doorway with smoke visible
+Sheep with horn sound only
+Imply through audio
+
+BUNDLE/REUSE:
+
+Final industrial presence
+
+GENIUS NOTES: Industry witnesses nothing, continues everything
+CRITICAL WARNINGS: Trawler must be visible and indifferent
+
+SHOT_56 - MAGNÚS BROKEN
+Difficulty: ⭐⭐⭐ | Runtime: 12 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: P (human collapse) | Motif: Complete breakdown
+PRAGMATIC PROMPT (Achievable):
+Close-up bearded man crying, trying to hum lullaby, lips trembling, complete breakdown
+AMBITIOUS PROMPT (Ideal):
+Close-up of 55-year-old Icelandic man's bearded face with tears streaming into grey beard making it wet, mouth trying to form words of lullaby but unable to remember beyond first words, lips trembling uncontrollably, complete psychological and spiritual collapse visible, snot running from nose, eyes seeing but not comprehending, trying to sing to sheep as if to children, wedding ring visible on hand wiping tears, seventeen years of marriage ending in animal bleats, strongest man reduced to nothing
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Close-up face
+Motion: 1.5 intensity (trembling)
+Performance: Most difficult emotional beat
+
+SOUND DESIGN:
+
+0:00-0:12: Broken humming
+"Krummi svaf í..." then breaking down
+Sobbing
+Trying to continue, failing
+
+DIALOGUE:
+MAGNÚS: "Krummi svaf í..." [breaks down]
+POST-PRODUCTION:
+
+Enhance tears if needed
+Trembling lips
+Color: Raw, documentary style
+Real breakdown feeling
+
+COMPLETE COLLAPSE:
+
+Cannot complete lullaby
+Human emotion, animal audience
+Marriage/family/identity ended
+
+FALLBACK CHAIN:
+
+Crying without lullaby
+Just tears
+Audio over sheep
+
+BUNDLE/REUSE:
+
+Magnus's end
+
+GENIUS NOTES: The lullaby that can't be finished
+CRITICAL WARNINGS: Must feel like genuine breakdown
+
+SHOT_57 - THE IMPOSSIBLE VOICE
+Difficulty: ⭐⭐⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: M (reality breaks) | Motif: THE IMPOSSIBLE
+MOST DIFFICULT SHOT - THE HORROR PEAK
+PRAGMATIC PROMPT (If achievable):
+Extreme close-up sheep mouth opening, pink tongue, throat moving for bleat, but child's voice emerges
+AMBITIOUS PROMPT (Ideal but may need audio work):
+Extreme close-up of Icelandic sheep's mouth opening slowly, pink tongue visible, throat muscles moving to produce standard bleat, camera holding on mouth, then sound transformation from animal bleat to unmistakably human child's voice saying "Mamma?" in 5-year-old girl's voice, mouth movements wrong for words produced, physical impossibility made audible, reality's rules completely broken, continuing to "Mamma, ég er svangur" (Mama, I'm hungry) then cut to black
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Extreme close-up, static
+Motion: 2.0 intensity (mouth opening)
+Audio: Will need careful post work
+
+SOUND DESIGN:
+
+0:00-0:04: Normal sheep breathing
+0:04-0:06: Bleat beginning
+0:06-0:08: Transform to "Mamma?"
+0:08-0:10: "Mamma, ég er svangur"
+0:10: CUT TO BLACK
+
+POST-PRODUCTION CRITICAL:
+
+Audio morphing essential
+Sync to mouth movement
+Make transformation gradual
+End on black frame
+
+THE MOMENT:
+
+Reality completely breaks
+Impossible made real
+Horror complete
+
+FALLBACK CHAIN:
+
+Sheep with human eyes, voice over
+Black screen with voice only
+Magnus reacting to off-screen voice
+This shot MUST work somehow
+
+BUNDLE/REUSE:
+
+THE impossible moment
+
+GENIUS NOTES: Where human voice from animal breaks reality forever
+CRITICAL WARNINGS: Audio transformation is everything
+
+SHOT_58 - THE BROKEN COUNT
+Difficulty: ⭐⭐⭐⭐ | Runtime: 15 seconds | Priority: ESSENTIAL
+Industrial: None | Three Layers: S (mathematics fail) | Motif: Mathematical breakdown #5 FINAL
+PRAGMATIC PROMPT (Achievable):
+Man pointing at five sheep, counting, getting six, looking at hands, counting fingers wrong too
+AMBITIOUS PROMPT (Ideal):
+Medium shot of broken bearded Icelandic man among five sheep, pointing at each with trembling finger counting in Icelandic "Einn... tveir... þrír... fjórir... fimm..." then pointing at empty space "...sex?" looking at where sixth should be, recounting getting six again, looking at own hands counting fingers getting seven then nine then four, complete mathematical breakdown, reality's rules failing, numbers becoming meaningless, wedding ring on wrong finger then right then missing, world unraveling through failed counting
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Image-to-Video Gen-3
+Camera: Medium shot
+Motion: 2.5 intensity (confused gestures)
+Performance: Confusion escalating
+
+SOUND DESIGN:
+
+0:00-0:15: Counting (increasingly confused)
+"Einn... tveir... þrír..."
+Building to panic
+Numbers becoming word salad
+
+DIALOGUE:
+MAGNÚS: "Einn... tveir... þrír... fjórir... fimm... sex? Sjö? Átta?"
+POST-PRODUCTION:
+
+Enhance confusion
+Show finger counting
+Color: Morning light
+Build to complete breakdown
+
+MATHEMATICS COLLAPSE:
+
+Five sheep but counts six
+Can't count own fingers
+Numbers mean nothing
+Reality unmeasurable
+
+FALLBACK CHAIN:
+
+Simpler counting error
+Just pointing confused
+Audio confusion only
+
+BUNDLE/REUSE:
+
+Final mathematical breakdown
+
+GENIUS NOTES: When 5 = 6, reality has no rules
+CRITICAL WARNINGS: Must show complete mathematical failure
+
+SHOT_58a - BREATHING IN DARKNESS (GENIUS ADDITION)
+Difficulty: ⭐⭐⭐⭐ | Runtime: 20 seconds | Priority: ENHANCING
+Industrial: None | Three Layers: M (consciousness merging) | Motif: Unity in darkness
+PURE AUDIO HORROR
+VISUAL PROMPT:
+Complete black screen, no visual elements at all
+AUDIO SEQUENCE:
+0:00-0:05: Five distinct breathing patterns in darkness
+- Magnus: 10/min (broken)
+- Sheep 1: 20/min (normal sheep)
+- Sheep 2: 22/min 
+- Sheep 3: 18/min
+- Sheep 4: 25/min (smallest)
+
+0:05-0:10: Patterns beginning to synchronize
+- All gradually moving toward 15/min
+
+0:10-0:15: Becoming one unified breath
+- All at exactly 15/min
+- Impossible synchronization
+
+0:15-0:19: Perfect unity
+- One organism breathing
+
+0:19: One breath breaks pattern
+- Sheep 3 (Sigrid) returns to 20/min
+
+0:20: Single sheep bleat
+POST-PRODUCTION:
+
+Layer breathing tracks
+Gradual synchronization
+Mathematical precision to rhythm
+Final break crucial
+
+THE HORROR:
+
+Individual becoming collective
+Consciousness merging
+One rebels (Sigrid)
+
+FALLBACK CHAIN:
+
+Shorter version (10 seconds)
+Simple breathing
+Omit if too complex
+
+GENIUS NOTES: The family becoming one organism
+CRITICAL WARNINGS: Synchronization must be gradual, uncanny
+
+SHOT_58b - COSMIC ABANDONMENT
+Difficulty: ⭐⭐⭐ | Runtime: 12 seconds | Priority: ESSENTIAL
+Industrial: V #8 final | Three Layers: All equal | Motif: Return to cosmic
+FINAL SHOT - COMPLETE ABANDONMENT
+PRAGMATIC PROMPT (Achievable):
+Camera rising through smoke hole into sky, house shrinking below, reaching high altitude, silence
+AMBITIOUS PROMPT (Ideal):
+Camera rising straight up through smoke hole in turf roof into grey dawn sky, 1908 Icelandic house shrinking below, five white sheep shapes and one dark human shape visible becoming specks, continuing to rise to 5000 feet altitude matching opening shot, frozen fjord visible with black water channels, steam trawler smoke on horizon continuing indifferent, complete cosmic indifference to human tragedy, world continuing without acknowledgment, final six seconds in complete silence as even wind fades
+TECHNICAL SPECIFICATIONS:
+
+Runway Mode: Text-to-Video Gen-3
+Camera: Steady rise 2.0 intensity
+Motion: Continuous ascent
+Match to Shot 0 altitude
+
+SOUND DESIGN:
+
+0:00-0:06: Wind decreasing with altitude
+0:06-0:12: Complete silence
+Silence is abandonment
+
+POST-PRODUCTION:
+
+Match opening shot framing
+Gradual size reduction
+Color: Desaturate to grey
+Final frame: Near identical to opening
+
+FULL CIRCLE:
+
+Return to cosmic view
+Abandonment complete
+Human tragedy insignificant
+Industrial age continues
+
+FALLBACK CHAIN:
+
+Simple aerial rise
+High shot of house
+Cannot fail - must end cosmic
+
+BUNDLE/REUSE:
+
+Matches SHOT_0
+
+GENIUS NOTES: The universe doesn't care - complete abandonment
+CRITICAL WARNINGS: Must reach same altitude as opening
+
+FINAL PRODUCTION SUMMARY
+Essential Shots That Cannot Fail
+
+Shot 0 - Aurora dying (opening)
+Shot 31c - Three-layer hand (teaching moment)
+Shot 32b/c - Match cut (genius transition)
+Shot 37b - Ram emergence (15-second awe)
+Shot 50 - Family as sheep (revelation)
+Shot 51 - Headdress (iconic image)
+Shot 57 - Voice transformation (impossible moment)
+Shot 58 - Broken count (mathematics fail)
+Shot 58b - Cosmic return (closing)
+
+Sound Design Critical Moments
+
+0:07 - First trawler horn (intrusion begins)
+7:35 - Wind stops for 4 seconds (physics break)
+8:25 - Rapid cut sequence (building horror)
+10:45 - "Mamma?" (reality breaks)
+11:48-12:00 - Silence (abandonment)
+
+Industrial Presence Final Count
+
+Visual: 8 appearances
+Audio: 13 appearances
+Total: 21+ intrusions
+
+Mathematical Breakdown Complete
+
+Shot 2c - Can't count notches
+Shot 8b - Family count confused
+Shot 27b - Cannot divide nothing
+Shot 58 - Five becomes six
+Complete collapse
+
+Three-Layer Reality Maintained
+Every shot readable as:
+
+Physical (poisoning/starvation)
+Psychological (madness/trauma)
+Metaphysical (transformation)
+
+Never privileging one reading.
+
+FINAL WORDS
+This shot guide represents the complete vision of "The Sheep in the Baðstofa" - a film about the impossibility of knowing truth when reality itself becomes unreliable.
+The match cut from dying flame to trawler light contains the entire theme.
+The headdress on the sheep is the image that will haunt forever.
+The voice saying "Mamma?" is the moment reality dies.
+The count that produces six from five is mathematics failing.
+Every prompt, every specification, every sound cue serves the central paradox:
+The horror is not the sheep.
+The horror is not knowing if there are sheep.
+The horror is that both answers are simultaneously true.
+This paradox IS the film.
+
+END OF ULTIMATE SHOT PRODUCTION GUIDE v7.0
+In the end, we count five but find six.
+In the end, the industrial witness sees nothing.
+In the end, even the gods have abandoned us to the sheep.

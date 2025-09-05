@@ -1,0 +1,62 @@
+{
+  "shot_metadata": {
+    "id": "50a",
+    "name": "EVENING_FALLS___THE_APPROACH_5_SECONDS",
+    "title": "EVENING FALLS - THE APPROACH 5 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 5,
+    "narrative_function": "House 12/min calming + 60bpm | Evening ritual | Ca...",
+    "stitch_from": "[STITCH from Shot 49c: Lilja's prophecy ended, evening arriving]"
+  },
+  "progressive_state": "House 12/min calming + 60bpm | Evening ritual | Camera frost 38% | Tenderness emerging | Watching: We see duality",
+  "prompt_variants": [
+    {
+      "variant_id": "50a_story_primary",
+      "variant_name": "Primary - EVENING FALLS - THE APPROACH 5 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[MAGNÃšS] setting down his cane by the door and approaching [SIGRID]'s sleeping platform, his tremor completely gone (0Hz), voice gentle: \"TÃ­mi til aÃ° sofa, elskan\" (Time to sleep, darling), the same voice that raged this morning now soft as lamb's wool.",
+      "action": "Evening light through frost - golden hour making everything soft. MagnÃºs places cane carefully by door, deliberate. Without it, his tremor stops - 0Hz. But 0Hz means two things: violence OR tenderness. Both use same stillness. Walks to Sigrid's platform, no threat in movement. Gentle. Father coming to say goodnight. She's arranging her sleeping area, maintaining 11 feet, but he approaches anyway. \"TÃ­mi til aÃ° sofa, elskan.\" Voice completely different - warm, caring. The voice from before Denmark, before isolation madness. Children watching, confused - is this the man who beat mother? Who sent her to die? But this is him too. Always has been. The duality IS the horror. Sigrid pulls feet up on platform, maintaining distance even lying down. But accepts his approach - what choice in isolation? He's father, protector, threat, future. All simultaneously.",
+      "scene": "Evening interior, 7:30 PM (past sunset). Golden light through frost making everything soft. Cane abandoned showing different mode.",
+      "style": "Following shot showing gentle approach (that's where the camera is), tenderness documented.",
+      "camera_position": "Following shot showing gentle approach",
+      "dialogue": "(MagnÃºs, gentle): \"TÃ­mi til aÃ° sofa, elskan\" \"Vertu rÃ³leg\" (Be calm)",
+      "audio": {
+        "primary": [
+          "Footsteps without cane tap",
+          "gentle voice",
+          "fabric arranging"
+        ],
+        "ambient": [
+          "House breathing slowing to 12/min",
+          "evening settling"
+        ],
+        "absent": [
+          "no tremor",
+          "no threat sounds"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Sigrid silent but wary",
+    "triple_reality": "Physical: bedtime routine | Psychological: confused boundaries | Mythological: the god who protects and devours"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

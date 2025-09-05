@@ -1,0 +1,58 @@
+{
+  "shot_metadata": {
+    "id": "57c",
+    "name": "HOUSE_SPEAKS_IN_DARKNESS___FINAL_WORDS_5_SECONDS",
+    "title": "HOUSE SPEAKS IN DARKNESS - FINAL WORDS 5 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 5,
+    "narrative_function": "House 0/min dead + 0bpm | Last words | Camera fros...",
+    "stitch_from": "[STITCH from Shot 57b: Match dies, darkness returns]"
+  },
+  "progressive_state": "House 0/min dead + 0bpm | Last words | Camera frost 50% | Death speech | Watching: House dies",
+  "prompt_variants": [
+    {
+      "variant_id": "57c_story_primary",
+      "variant_name": "Primary - HOUSE SPEAKS IN DARKNESS - FINAL WORDS 5 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "In the darkness, the house speaks its last words as Bergrisi: \"Ã‰g dey... klettagjÃ¡ verÃ°ur... Sigrid... flÃºgÃ°u\" (I die... rocky cleft becomes... Sigrid... fly), then heartbeat stops, breathing ends, but structure remains.",
+      "action": "Darkness continues. Then through everything - walls, floor, air itself - voice emerges. Not sound but vibration. Bergrisi's death speech: \"Ã‰g dey...\" The words create wind through house. \"KlettagjÃ¡ verÃ°ur...\" Walls crack audibly. Not collapsing - transforming. Opening. Becoming cleft. \"Sigrid...\" Personal address. The giant knows her. Loves her. Dies for her. \"FlÃºgÃ°u.\" Command. Promise. Prophecy. Then: silence. No heartbeat. No breathing. House dead. But structure stands. Transformed. No longer giant's body but rocky cleft. Escape route. Birth canal. In darkness, sound of stone settling. New geography. The house IS the klettagjÃ¡ from lullaby. Always was becoming this. Sheep breathing continues. But one breath different - Sigrid's still 15/min. Still unchanged. Still resisting.",
+      "scene": "Continued darkness. House speaking through death. Transformation audible.",
+      "style": "Black screen with voice through everything (that's where the camera is), death speech documented.",
+      "camera_position": "Black screen with voice through everything",
+      "dialogue": "(House/Bergrisi, dying): \"Ã‰g dey... klettagjÃ¡ verÃ°ur...\" \"Sigrid... flÃºgÃ°u\"",
+      "audio": {
+        "primary": [
+          "Voice through structure",
+          "walls cracking/transforming",
+          "heartbeat stopping"
+        ],
+        "ambient": [
+          "Stone settling into cleft form",
+          "sheep breathing",
+          "wind through new openings"
+        ],
+        "absent": [
+          "no human response"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "maintain complete darkness, no light",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "All silent for death",
+    "triple_reality": "Physical: structure failing | Psychological: shelter dying | Mythological: Bergrisi's end"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

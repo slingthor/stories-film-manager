@@ -1,0 +1,11 @@
+SHOT 4a: PURPLE HILLS BLEEDING JUICE
+Progressive State: Women gathering | Berries excessive | Camera frost 0% | Purple staining | Watching: Earth bleeds sweet
+Duration: 8 seconds
+[STITCH from Shot 3b: Parallel to cliff work]
+Subject: Fifteen women climbing a hillside covered in crowberry bushes, [GUÃRÃšN] leading with [SIGRID] beside her, purple-black berries so abundant that juice runs down the hill in streams without anyone touching them, women's feet already stained purple.
+Action: Women spread across hillside. Every bush heavy with berries, branches bent to ground. GuÃ°rÃºn reaches first bush. Doesn't need to pick - slight touch causes berries to fall into basket like rain. Purple-black juice immediately stains her fingers. Sigrid beside her, basket filling in seconds. Other women laughing, but nervous laughter. Too many berries. Some bushes drip juice without being touched, purple streams running downhill. Women's white apron fronts turn purple. Hands stained to elbows. One young woman opens mouth, lets berries fall directly in. Purple juice runs down her chin. Teeth instantly black. Children among them drinking juice from cupped hands. Everyone's mouth purple-black. In distance, whale visible - dark shape drifting toward shore, pulled by tide. The purple juice streams running downhill parallel to blood in water.
+Scene: Hillside inland from coast, morning sun warming bushes. Every plant overloaded with berries. Purple streams forming natural channels downhill.
+Style: Wide shot showing all women spread across hillside (that's where the camera is), purple staining everything.
+Dialogue: None
+Sounds: [PRIMARY: Berries falling like rain into baskets, juice dripping, women laughing nervously] [AMBIENT: Streams of juice running downhill, children drinking] [ABSENT: normal picking sounds]
+Technical (Negative Prompt): no subtitles, show purple juice streams, stained hands and mouths, excessive abundance, 1080p

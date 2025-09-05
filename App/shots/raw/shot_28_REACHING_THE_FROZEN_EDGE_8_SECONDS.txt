@@ -1,0 +1,22 @@
+SHOT 28: REACHING THE FROZEN EDGE (8 SECONDS)
+Progressive State: Fjord approaching | Ice edge visible | Camera frost 18.5% | Final approach | Watching: Trawler waiting
+Women's Silence: Abandoned at house
+Triple Reality: Physical: ice shelf dangerous / Psychological: point of no return / Mythological: entering serpent domain
+Duration: 8 seconds
+[STITCH from Shot 27: Stubborn continuation despite signs]
+
+Subject: [MAGNÃšS] dragging the Ã¡rabÃ¡tur to the fjord's frozen edge where black water meets white ice, the transition sharp as a blade, revealing through crystalline clarity that the water is completely empty - no kelp shadows, no fish movement, just visible bedrock 30 feet down.
+
+Action: Final pull brings boat to ice edge. The fjord spread before him: black water so clear it looks like air. Can see straight down to grey bedrock, naked stone scoured clean. No kelp forests swaying. No fish shadows. No crabs. Nothing. The clarity itself is wrong - water shouldn't be this pure, this empty. Ice edge drops straight down, 3-foot thick shelf ending in knife-sharp line. Beyond the ice, open water stretches to horizon, not a ripple. MagnÃºs stares down through clarity, counting depth by eye: 10 feet, 20 feet, 30 feet to bottom. Counts automatically in Danish: "Ti... tyve... tredive..." Realizes he can see trawl marks on seafloor - parallel gouges where nets scraped everything. British extraction complete. His 0Hz hands (no tremor) feel nothing as he positions boat. Behind him, blood trail leads back to house, now small in distance. Trawler visible in far fjord, waiting, watching with yellow lights. Sky darkening more despite morning.
+
+Scene: Fjord edge, 6:45 AM, unnatural darkness. Temperature -28Â°C. Water temperature -2Â°C (salt prevents freezing). The transition from ice to water absolute, no slush, no gradual zone.
+
+Style: High angle looking down through clear water to empty bottom, then MagnÃºs's face realizing (that's where the camera is), documentary of extraction revealed.
+
+Dialogue: (MagnÃºs, seeing emptiness): "TÃ³mt... allt tÃ³mt" (Empty... all empty) (Counting depth): "Ti... tyve... tredive..." (To trawler in distance): "ÃžiÃ° tÃ³kuÃ° allt" (You took everything)
+
+Sounds: [PRIMARY: Boat positioned at edge, ice creaking under weight, water lapping with no life sounds] [AMBIENT: 0Hz tremor silence, trawler distant engine, wind stopping at water] [ABSENT: no fish, no kelp movement, no life]
+
+Technical (Negative Prompt): no subtitles, show crystalline empty clarity, trawl marks visible, documentary observation
+
+-

@@ -1,0 +1,59 @@
+{
+  "shot_metadata": {
+    "id": "42c",
+    "name": "RECOGNIZING_TRANSFORMATION_8_SECONDS",
+    "title": "RECOGNIZING TRANSFORMATION 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House exhales 3/min | Rage building | Camera frost...",
+    "stitch_from": "[STITCH from Shot 42b: Fin revealed, family watching]"
+  },
+  "progressive_state": "House exhales 3/min | Rage building | Camera frost 28% | Authority challenged | Watching: House watching him realize",
+  "prompt_variants": [
+    {
+      "variant_id": "42c_story_primary",
+      "variant_name": "Primary - RECOGNIZING TRANSFORMATION 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Camera circling [MAGNÃšS] as he takes in the transformed scene - family in rÃ©ttir formation, children's sheep teeth visible, GuÃ°rÃºn pulling wool from wrists, tilberi at center where he should be, his authority usurped by contaminated creation.",
+      "action": "CAMERA BEGINS CIRCLING as MagnÃºs turns, taking in disaster. First quarter: Sees GuÃ°rÃºn on floor, not standing for his return, wool hanging from her wrists like she's becoming material. Second quarter: JÃ³n and Lilja, mouths open showing sheep teeth, breathing at 20/min (lamb rate), his son's fever breaking but eyes animal-bright. Third quarter: Tilberi at center where patriarch should stand, rope skeleton visible, brass eye weeping, breathing three rhythms, family arranged around IT not him. Final quarter: Sigrid maintaining exactly 11 feet even now, hand protective on belly (feeding two), only one breathing at different rate (15/min unchanged). Complete circle shows his position: standing outside their formation. He's excluded. Not needed. Failed provider, failed protector, failed patriarch. Rage builds. Drops fin. 0Hz hands clench (can't feel nails breaking skin). House exhales finally - long, dying breath at 3/min.",
+      "scene": "Full interior revealed in rotation. Family floor-level, him standing isolated. Tilberi as new center.",
+      "style": "360Â° track around MagnÃºs, showing his isolation from every angle (that's where the camera is), authority dissolved.",
+      "camera_position": "360Â° track around MagnÃºs, showing his isolation from every angle",
+      "dialogue": "(MagnÃºs, building rage): \"Af hverju... af hverju eruÃ° Ã¾iÃ°...\" (Seeing tilberi): \"HVAÃ ER ÃžETTA?\" (To GuÃ°rÃºn): \"ÃžÃš... Ã¾Ãº gerÃ°ir Ã¾etta?\"",
+      "audio": {
+        "primary": [
+          "Camera circling",
+          "fin dropping wet",
+          "rage building in breath"
+        ],
+        "ambient": [
+          "House finally exhaling long death breath",
+          "tilberi's three rhythms",
+          "family synchronized"
+        ],
+        "absent": [
+          "no explanation",
+          "silence as defiance"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "maintain circular movement, no cuts, show transformation evidence",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Truth in positioning",
+    "triple_reality": "Physical: family changed / Psychological: control lost / Mythological: hierarchy inverted"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

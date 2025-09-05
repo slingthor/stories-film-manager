@@ -1,0 +1,11 @@
+SHOT 7b/14: THE STANDING TOAST
+Progressive State: Authority speaking | Words failing | Camera frost 1% edges | Language breaks | Watching: The silence begins
+Duration: 8 seconds
+[STITCH from Shot 7a/13: Everyone seated, waiting]
+Subject: [MAGNÃšS] standing at head of center table, raising cup of purple berry juice, mouth opening to speak, lips moving but no sound emerging, his face showing confusion, the purple liquid trembling in the cup.
+Action: MagnÃºs pushes back from table, stands slowly. Height makes him tower over seated crowd. Picks up clay cup filled with purple krÃ¦kilberjasaft. Liquid dark purple, almost black. Raises cup high. Everyone watches. Opens mouth. Lips form words. No sound emerges. Tries again. Mouth moves - can read lips saying "ViÃ° erum..." (We are...). Still no sound. Face shows confusion, not fear. Not angry. Puzzled. Purple juice trembles in cup, small waves forming. Behind him, sun still frozen on horizon. Should have set hour ago. MagnÃºs tries third time. This time faint sound emerges - not words, closer to sheep's bleat. Stops immediately. Looks at GuÃ°rÃºn. She nods encouragement. He sits down slowly, still holding cup. Everyone remains frozen, waiting for toast that won't come. In the purple juice, reflection shows not his face but wool. White wool.
+Scene: Feast tables at sunset that won't complete. Golden light frozen. Everyone watching MagnÃºs. No wind, no movement except him.
+Style: Medium shot from across table, focused on MagnÃºs trying to speak (that's where the camera is), purple cup prominent.
+Dialogue: None - mouth moving but no sound
+Sounds: [PRIMARY: Lips moving without sound, purple juice trembling, single bleat sound, bench creaking as he sits] [AMBIENT: Fifty people breathing in unison, frozen sun humming] [ABSENT: words, wind, nature]
+Technical (Negative Prompt): no subtitles, show mouth moving without sound, purple juice trembling, frozen sun visible, 1080p

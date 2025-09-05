@@ -1,0 +1,45 @@
+{
+  "shot_metadata": {
+    "id": "23",
+    "name": "WINTER_ABSOLUTE",
+    "title": "WINTER ABSOLUTE",
+    "sequence_type": "prologue",
+    "duration_seconds": 2,
+    "narrative_function": "Memory terminated | Winter reality | Camera frost ...",
+    "stitch_from": ""
+  },
+  "progressive_state": "Memory terminated | Winter reality | Camera frost 100% | Cut to truth | Watching: The nightmare begins",
+  "prompt_variants": [
+    {
+      "variant_id": "23_story_primary",
+      "variant_name": "Primary - WINTER ABSOLUTE",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Sudden clear image - the house in full winter burial, snow to the roofline, single window glowing yellow, complete silence, then cut to black.",
+      "action": "Instant transition from frost to crystal clarity. House buried in snow, only roof and one window visible. Window glows yellow-orange from oil lamp inside. No movement. No sound. Perfect stillness. Hold for exactly 2 seconds. Cut to black.",
+      "scene": "House in deep winter. Night. Snow 15 feet deep. Single lit window. Stars visible. No moon.",
+      "style": "Wide static shot of buried house (that's where the camera is), perfectly still, hard cut to black.",
+      "camera_position": "Wide static shot of buried house",
+      "dialogue": "None",
+      "audio": {
+        "primary": [],
+        "ambient": [],
+        "absent": []
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, no movement, show buried house, single window, hard cut to black, 1080p",
+      "video_references": []
+    }
+  ],
+  "others": {},
+  "notes": {
+    "sequence": "prologue",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

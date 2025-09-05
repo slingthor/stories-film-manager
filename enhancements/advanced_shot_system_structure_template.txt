@@ -1,0 +1,249 @@
+ADVANCED SHOT SYSTEM STRUCTURE TEMPLATE
+Modular System for Multiple Prompts, Variants, and Temporal Tracking
+
+OVERVIEW:
+Each shot exists as individual file containing multiple prompt variants, character plate options, environmental configurations, and systematic tracking across all temporal progressions. System enables granular control through percentage sliders for all tracked elements.
+
+═══════════════════════════════════════════════════════════════
+
+TEMPLATE STRUCTURE FOR INDIVIDUAL SHOT FILE:
+
+{
+  "shot_metadata": {
+    "id": "0a",
+    "name": "THE_SHADOW_POLE", 
+    "title": "The Shadow Pole - Curse Establishment",
+    "sequence_type": "prologue",
+    "duration_seconds": 8,
+    "film_position_percentage": 0.5,
+    "narrative_function": "Establishes nidstöng curse against imperial forces",
+    "story_significance": "critical_opening",
+    "realm_classification": "physical_with_supernatural_elements"
+  },
+
+  "research_references": {
+    "primary_documents": [
+      "/Users/ingthor/Documents/stories/MegaPrompt/v18_only_shots_true_orig.txt",
+      "/Users/ingthor/Documents/stories/MegaPrompt/nostalgia_research_lower.txt",
+      "/Users/ingthor/Documents/stories/MegaPrompt/cinema_research.txt",
+      "/Users/ingthor/Documents/stories/MegaPrompt/icelandic_nostalgia_research.txt"
+    ],
+    "enhancement_documents": [
+      "/Users/ingthor/Documents/stories/enhancements/shot_0a_nidstong_curse_pole_revolutionary_enhancement.txt"
+    ],
+    "character_plate_references": [
+      "/Users/ingthor/Documents/stories/enhancements/sigrid_advanced_character_plates_system.txt"
+    ]
+  },
+
+  "temporal_progression_tracking": {
+    "temperature_progression": {
+      "start_percentage": 0,
+      "end_percentage": 100,
+      "values": {
+        "0%": "-5°C (comfortable interior)",
+        "25%": "-15°C (survival challenge)", 
+        "50%": "-25°C (life threatening)",
+        "75%": "37°C (body temperature - Bergrisi's warmth)",
+        "100%": "20°C (monument completion)"
+      },
+      "current_shot_value": "-8°C exterior, body temperature pole base"
+    },
+
+    "contamination_vs_organic": {
+      "description": "Tracks industrial contamination vs organic purity",
+      "start_percentage": 0,
+      "end_percentage": 100, 
+      "values": {
+        "0%": "Pure organic Iceland (false memory)",
+        "25%": "Subtle industrial contamination (atmospheric)",
+        "50%": "Obvious contamination (materials fusing with flesh)",
+        "75%": "Dominant contamination (organic corrupted)",
+        "100%": "Obsidian crystallization (contamination transcended)"
+      },
+      "current_shot_value": "5% - Three-color stains suggesting contamination beginning"
+    },
+
+    "predatory_landscape": {
+      "description": "Landscape hostility toward human survival", 
+      "start_percentage": 0,
+      "end_percentage": 85,
+      "values": {
+        "0%": "Landscape cooperative (false abundance)",
+        "25%": "Landscape neutral (realistic survival challenge)",
+        "50%": "Landscape resistant (materials fighting back)", 
+        "75%": "Landscape hostile (conscious environmental assault)",
+        "85%": "Landscape protective (Bergrisi's sacrifice)"
+      },
+      "current_shot_value": "15% - Shadow moving independently, ocean rising without wind"
+    },
+
+    "klettagja_formation": {
+      "description": "Cliff cleft development for Sigrid's escape",
+      "start_percentage": 35,
+      "end_percentage": 75,
+      "values": {
+        "35%": "Hairline crack behind Sigrid (0.5mm)",
+        "50%": "Readable crack spelling KLETTAGJÁ (2mm)", 
+        "65%": "Passable opening (18mm-6cm)",
+        "75%": "Escape doorway (3ft wide)"
+      },
+      "current_shot_value": "N/A - Prologue scene, crack not yet formed"
+    },
+
+    "breathing_synchronization": {
+      "description": "Family respiratory coordination progression",
+      "start_percentage": 0,
+      "end_percentage": 85,
+      "values": {
+        "0%": "Individual rhythms (10-15-18-22/min)",
+        "25%": "Beginning synchronization (11/min average)",
+        "50%": "Forced synchronization (imperial counting)", 
+        "75%": "Animal rhythms emerging (8/min sheep)",
+        "85%": "Species-appropriate breathing (8/min sheep, 12/min raven)"
+      },
+      "current_shot_value": "Individual rhythms maintained"
+    },
+
+    "mathematical_impossibility": {
+      "description": "Five becoming six contamination spreading",
+      "start_percentage": 5,
+      "end_percentage": 90,
+      "values": {
+        "5%": "Subtle wrongness (shadow counting off)",
+        "25%": "Obvious impossibility (6 portions for 5 people)",
+        "50%": "Reality breakdown (counting fails completely)",
+        "75%": "Spatial impossibility (impossible distances)",
+        "90%": "Consciousness fragmentation (7 witnesses to 5 people)"
+      },
+      "current_shot_value": "8% - Three stains suggesting additional presence"
+    }
+  },
+
+  "prompt_variants": [
+    {
+      "variant_id": "0a_standard",
+      "variant_name": "Standard Nidstöng Establishment", 
+      "priority": "primary",
+      "veo3_optimized": true,
+      
+      "subject": "Tall weathered grey driftwood pole 8ft height standing vertical on grass headland, old hemp rope wrapped around top 2ft with frayed ends, casting impossible 200ft shadow across green hills, ocean behind showing red water tints, purple berries covering distant slopes with juice dripping",
+      
+      "action": "Camera descends from 100ft above pole toward base, shadow stretches beyond natural physics reaching 200ft across grass, ocean rises 3ft without wind holds 2 seconds drops 3ft, purple berries drip juice without contact, pole base shows three distinct soil stains red purple gold each 3ft diameter, shadow rotates clockwise independent of sun position",
+      
+      "scene": "Westfjords headland 5AM June morning, ocean 300ft distant, berry hills left golden cliffs right, green grass everywhere, clear sky sun just above horizon",
+      
+      "style": "Aerial descent straight down toward pole, slow smooth movement, wide lens showing all terrain types",
+      
+      "camera_position": "100ft above descending to pole height, that's where the camera is",
+      
+      "aspect_ratio": "16:9",
+      
+      "lighting": "Horizontal morning sunlight, golden on cliffs, natural dawn illumination",
+      
+      "audio": {
+        "primary": ["Ocean rising/falling", "berry juice dripping", "rope creaking"],
+        "ambient": ["Grass rustling", "distant water"],
+        "absent": ["wind", "birds", "human voices"]
+      },
+      
+      "character_plates": [],
+      
+      "environmental_plate": "WESTFJORDS-SUMMER (false perfection, supernatural cooperation)",
+      
+      "negative_prompt": "no text overlays, no modern elements, no normal shadow physics, no static ocean, no random berry dripping",
+      
+      "viral_techniques": ["Impossible shadow physics", "Water behavior without wind", "Independent movement"],
+      
+      "notes": "Establishes curse pole with supernatural wrongness - shadow and ocean defying physics, three-color contamination stains, perfect opening wrongness"
+    },
+
+    {
+      "variant_id": "0a_enhanced_cursing",
+      "variant_name": "Living Curse Pole with Upward Bleeding",
+      "priority": "enhanced",
+      "veo3_optimized": true,
+      
+      "subject": "Horse skull mounted on weathered driftwood staff, bleeding upward against gravity thick red drops falling toward sky, skull jaw opening/closing 8/min curse rhythm, empty eye sockets filled with aurora light creating green fire-eyes tracking movement, shadow 200ft pointing toward Denmark despite sun angle",
+      
+      "action": "Horse skull jaw movement creates speech-rhythm releasing upward blood drops forming vertical column reaching storm clouds, shadow extends toward Denmark independent of light source growing longer as curse strengthens, carved Old Norse accusations glow in sequence on staff spelling SKULD-SVIK-SIGLING-SKULD, aurora light in skull eyes flickers with electromagnetic pulse pattern transmitting across ocean",
+      
+      "scene": "Desolate headland commanding Denmark Strait view, storm clouds building from imperial direction, 30ft radius dead zone around pole where curse energy kills vegetation",
+      
+      "style": "Low angle from pole base looking up toward bleeding skull and extending shadow, static shot building curse energy through duration",
+      
+      "camera_position": "Base of curse pole looking up, that's where the camera is",
+      
+      "lighting": "Storm light enhanced by aurora-fire in skull eyes and blood-glow on carved accusations",
+      
+      "audio": {
+        "primary": ["Skull jaw 8/min bone percussion", "Blood drops ascending 400-800Hz"],
+        "ambient": ["Wind through carved letters 300Hz", "Aurora electromagnetic pulse 15kHz"],
+        "absent": ["traditional gravity", "normal shadow physics"]
+      },
+      
+      "character_plates": [],
+      
+      "environmental_plate": "WESTFJORDS-CURSED (active supernatural accusation)",
+      
+      "negative_prompt": "no traditional gravity on blood, no normal shadow physics, no static carved letters, no peaceful atmosphere",
+      
+      "viral_techniques": ["Reverse gravity blood", "Anthropomorphic skull", "Shadow independence"],
+      
+      "notes": "Enhanced version with living curse technology, blood falling upward, shadow extending across ocean toward imperial homeland"
+    }
+  ],
+
+  "video_references": [
+    {
+      "prompt_variant": "0a_standard",
+      "video_files": [
+        "nidstong_basic_v1.mp4",
+        "shadow_pole_test_v2.mp4"
+      ],
+      "generation_status": "pending",
+      "quality_rating": null
+    }
+  ],
+
+  "system_progression_tags": {
+    "physical_realm": true,
+    "psychological_realm": false, 
+    "mythological_realm": 15,
+    "temporal_stability": 85,
+    "reality_coherence": 90,
+    "imperial_contamination": 8,
+    "landvaettir_activity": 25
+  },
+
+  "technical_specifications": {
+    "veo3_requirements": {
+      "duration": "8 seconds maximum",
+      "aspect_ratio": "16:9 preferred", 
+      "resolution": "1080p minimum",
+      "special_requirements": ["No text overlays", "Natural lighting only", "Specific negative prompts"]
+    },
+    "enhancement_level": "revolutionary",
+    "ai_impossibility_rating": "medium",
+    "cultural_authenticity": "maximum"
+  },
+
+  "production_notes": {
+    "thematic_purpose": "Establishes Iceland under curse, imperial accusation, wrongness from first frame",
+    "visual_motifs": ["Three-color staining", "Impossible physics", "Geometric shadows"],
+    "connection_to_ending": "Curse pole accusation connects to monument eternal testimony",
+    "kubrick_influences": ["Symmetrical composition", "Supernatural environmental response"],
+    "krummi_lullaby_connection": "Pole position matches cliff cleft (klettagjá) from lullaby"
+  }
+}
+
+IMPLEMENTATION NOTES:
+- Each shot becomes individual JSON file with this structure
+- Percentage sliders control all temporal tracking systems
+- Multiple prompt variants allow testing different approaches
+- Character plates link to external system files
+- Video references track generation attempts and results
+- System tags enable filtering and progression control
+- Modular structure allows independent shot development while maintaining overall coherence
+
+This structure provides unprecedented granular control over every element while maintaining systematic organization and narrative coherence across the complete film project.

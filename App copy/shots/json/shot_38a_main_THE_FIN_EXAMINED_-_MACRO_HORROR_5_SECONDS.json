@@ -1,0 +1,58 @@
+{
+  "shot_metadata": {
+    "id": "38a",
+    "name": "THE_FIN_EXAMINED___MACRO_HORROR_5_SECONDS",
+    "title": "THE FIN EXAMINED - MACRO HORROR 5 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 5,
+    "narrative_function": "Examining the catch | Decay revealed | Camera fros...",
+    "stitch_from": "[STITCH from Shot 37: Fin retrieved, placed in boat]"
+  },
+  "progressive_state": "Examining the catch | Decay revealed | Camera frost 24.5% | Provider's shame | Watching: His own eyes",
+  "prompt_variants": [
+    {
+      "variant_id": "38a_story_primary",
+      "variant_name": "Primary - THE FIN EXAMINED - MACRO HORROR 5 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Camera pushing in from medium shot to extreme close-up on the seal fin in [MAGNÃšS]'s hands, revealing in increasing detail the decomposition - black flesh, white maggots frozen mid-writhe, green putrescence, but his 0Hz hands holding it like sacred offering.",
+      "action": "CAMERA STARTS medium on MagnÃºs holding fin, PUSHES IN smooth and slow. As we get closer, horror reveals: Black flesh not from seal color but decomposition. Edges green with rot. Maggots throughout but frozen in ice crystals, suspended mid-movement like white rice. Smell visible as vapor rising despite cold. One maggot not frozen, still moving, blind, searching. MagnÃºs's 0Hz hands can't feel the slime, the texture, only sees. His aged eyes studying it like reading future. In EXTREME CLOSE-UP, we see his reflection in the ice crystals covering the rot - his face distorted, multiplied, broken into hundred fragments. This is his provision. This is what he brings home. Camera holds on this intimacy between provider and failure.",
+      "scene": "In boat, 9:32 AM. Bright enough to see every detail of decay. His hands trembling at 0Hz - no tremor but shaking from emotion.",
+      "style": "Smooth push-in from medium to macro, revealing layers of decay (that's where the camera is), intimate observation of shame.",
+      "camera_position": "Smooth push-in from medium to macro, revealing layers of decay",
+      "dialogue": "(MagnÃºs, whispered): \"Fyrir bÃ¶rnin\" (For the children)",
+      "audio": {
+        "primary": [
+          "Camera pushing in",
+          "ice crystals crackling on rot",
+          "one maggot moving"
+        ],
+        "ambient": [
+          "His breathing shallow",
+          "boat creaking",
+          "distant poison hissing"
+        ],
+        "absent": [
+          "no life sounds"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "None present",
+    "triple_reality": "Physical: rotten meat / Psychological: failure manifest / Mythological: sea's mockery"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

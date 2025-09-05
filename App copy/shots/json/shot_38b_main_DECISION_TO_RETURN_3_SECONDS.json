@@ -1,0 +1,56 @@
+{
+  "shot_metadata": {
+    "id": "38b",
+    "name": "DECISION_TO_RETURN_3_SECONDS",
+    "title": "DECISION TO RETURN 3 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 3,
+    "narrative_function": "Turning home | Accepting defeat | Camera frost 25%...",
+    "stitch_from": "[STITCH from Shot 38a: Extreme close-up on fin]"
+  },
+  "progressive_state": "Turning home | Accepting defeat | Camera frost 25% | Journey's end | Watching: House waiting",
+  "prompt_variants": [
+    {
+      "variant_id": "38b_story_primary",
+      "variant_name": "Primary - DECISION TO RETURN 3 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Camera craning up from boat-level to high aerial as [MAGNÃšS] places the rotten fin carefully under bench and begins rowing toward home, revealing from above the path he's carved through poisoned water - a clean channel through green-black contamination, leading home.",
+      "action": "CAMERA STARTS at boat level as MagnÃºs wraps fin in cloth, places under bench like treasure. Grips oars with 0Hz hands. Begins to row. CAMERA CRANES UP, rising 20 meters in 3 seconds. As we rise, perspective reveals: His boat has carved a clear channel through poisoned water. Behind him, contamination. Ahead, still-clear path home. But poison spreading both ways, will meet in middle soon. From aerial height, boat tiny between two disasters - poisoned sea behind, something wrong at house ahead (black smoke, not grey). Ravens following in V-formation now, not spiral - migration pattern, leaving pattern. His rowing rhythm mechanical: stroke, stroke, stroke. No variation. Defeated automation.",
+      "scene": "Fjord between contamination and home, 9:33 AM. Path narrowing as poison spreads. House visible in distance, wrong.",
+      "style": "Dramatic crane up revealing larger geography of disaster (that's where the camera is), God's eye view of futility.",
+      "camera_position": "Dramatic crane up revealing larger geography of disaster",
+      "dialogue": "None - just rowing rhythm",
+      "audio": {
+        "primary": [
+          "Oars in water",
+          "camera ascending whoosh"
+        ],
+        "ambient": [
+          "Poison spreading",
+          "ravens reforming to leave"
+        ],
+        "absent": [
+          "no hope sounds"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "smooth crane movement, no cuts, maintain altitude rise",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "None present",
+    "triple_reality": "Physical: rowing back / Psychological: shame carried / Mythological: offering inadequate"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "shot_metadata": {
+    "id": "32",
+    "name": "UNDERWATER_TRUTH___THE_NET_8_SECONDS",
+    "title": "UNDERWATER TRUTH - THE NET 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "Empty fjord | False hope revealed | Camera frost 2...",
+    "stitch_from": "[STITCH from Shot 31: Children seeing true shapes, MagnÃºs pulling taut line]"
+  },
+  "progressive_state": "Empty fjord | False hope revealed | Camera frost 20.5% | Trawler's theft visible | Watching: We witness below",
+  "prompt_variants": [
+    {
+      "variant_id": "32_story_primary",
+      "variant_name": "Primary - UNDERWATER TRUTH - THE NET 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Underwater camera following [MAGNÃšS]'s fishing line down through crystalline emptiness to reveal it's caught not on fish but on the trawler's massive net - a black industrial web dragging the seafloor, containing the entire fjord's fish population, thousands of silver bodies pressed against mesh, their eyes all turned upward toward his tiny hook.",
+      "action": "Camera descends with line through crystal water. 10 feet: nothing. 20 feet: nothing. 28 feet: darkness moving. 30 feet: revelation. MagnÃºs's small hook caught in massive trawl net, industrial mesh black with tar, hemp rope thick as arms. Inside net: all the fish. Thousands. Cod, haddock, wolffish, everything that should be in fjord, compressed together. All alive but trapped. Their eyes - every single eye - turned upward toward MagnÃºs's pathetic hook. Some fish have V-notches in fins (marked but taken anyway). Net drags slowly across bottom, scraping stone, leaving those spiral scars. But net itself is wrong - not just industrial but organic, pulsing slightly, rope patterns forming scales. This IS JÃ¶rmungandr's body, not metaphor. Cross patterns visible where net sections meet - same geometry as frost on windows. As net moves, trapped fish breathe in unison: 12/min, matching house rhythm. They know they're livestock too.",
+      "scene": "Underwater, 30 feet down, perfect visibility. Trawl net massive - 50 feet wide, containing entire ecosystem. Seafloor bare except for scrape marks. Water so clear the tragedy is completely visible.",
+      "style": "Underwater POV following line down to revelation (that's where the camera is), documentary witnessing extraction.",
+      "camera_position": "Underwater POV following line down to revelation",
+      "dialogue": "None - underwater silence",
+      "audio": {
+        "primary": [
+          "Net dragging across stone",
+          "thousands of fish breathing together",
+          "hook caught in mesh"
+        ],
+        "ambient": [
+          "Industrial rope creaking but organic",
+          "fish eyes moving in unison to track camera",
+          "12/min breathing"
+        ],
+        "absent": [
+          "no escape sounds",
+          "fish accepted fate"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show all fish trapped together, V-notches visible, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "None present",
+    "triple_reality": "Physical: line snagged / Psychological: denial's end / Mythological: JÃ¶rmungandr's coils"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

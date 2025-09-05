@@ -1,0 +1,595 @@
+The Sheep in the Baðstofa - Final Production Bible
+PROJECT OVERVIEW
+Genre: Icelandic Folk Horror
+Runtime: 12 minutes
+Period: December 1900, Westfjords, Iceland
+Core Theme: Family disintegration under extreme pressure
+Visual Style: Natural light, deep shadows, handheld intimacy
+Aspect Ratio: 2.39:1 (cinematic widescreen)
+Color Palette: Desaturated blues/grays, amber from whale oil lamp, white snow
+
+CHARACTER SHEETS (ABSOLUTE REFERENCE)
+MAGNÚS ÞÓRSSON
+Age: 55
+Physical Description: Thick grey unkempt beard reaching mid-chest, deep-set brown eyes with crow's feet, weathered sun-damaged skin with broken capillaries on nose and cheeks, 5'10" height, broad shoulders but gaunt from hunger, calloused fisherman's hands with two missing fingertips (left hand)
+Clothing: Brown wool sweater (lopapeysa) with unraveling left cuff, dark wool trousers patched at knees, worn leather boots with salt stains
+Behavioral Markers: Right shoulder drops lower (old injury), favors left leg slightly when walking, unconsciously clenches jaw when stressed, counts on fingers when agitated
+Anchor Phrase: "55-year-old man with thick grey unkempt beard, weathered face, brown wool sweater"
+GUÐRÚN ÓLAFSDÓTTIR
+Age: 35
+Physical Description: Dark brown hair mostly hidden under headdress, grey-blue eyes, pale skin with windburn on cheeks, 5'4" height, thin but strong build, hands reddened from cold water
+Clothing: White curved faldbúningur headdress with black band, brown wool dress (upphlutur) reaching ankles, dingy white apron with small tears at hem, dark wool shawl
+Behavioral Markers: Touches headdress when nervous, keeps items in apron pockets, moves efficiently without wasted motion, never makes direct eye contact with Magnús
+Anchor Phrase: "35-year-old woman with white curved headdress, brown wool dress and apron"
+SIGRID MAGNÚSDÓTTIR
+Age: 16
+Physical Description: Blonde hair in two braids reaching mid-back, grey eyes like her father's, beginning of her mother's cheekbones, 5'5" height, thin adolescent frame, bitten fingernails
+Clothing: Grey-brown wool dress patched with different colored fabric at shoulders, too short (shows ankles), worn leather shoes with holes, no jewelry
+Behavioral Markers: Positions herself between siblings and father, watches everything while appearing not to, braids and unbraids hair ends when anxious, left-handed
+Anchor Phrase: "16-year-old girl with blonde braids, grey-brown patched dress"
+JÓN MAGNÚSSON
+Age: 8
+Physical Description: Sandy brown hair (uncombed), mother's grey-blue eyes, small for age due to malnutrition, persistent cough, fragile bird-like bones visible at wrists
+Clothing: Oversized brown wool sweater (Magnús's old one) reaching past knees, sleeves rolled up multiple times, no shoes indoors, wool socks with holes
+Behavioral Markers: Shadows Sigrid's movements, coughs into elbow, plays with small carved wooden sheep (hidden in pocket), rocks slightly when sitting
+Anchor Phrase: "8-year-old boy with sandy hair, oversized brown sweater"
+LILJA MAGNÚSDÓTTIR
+Age: 5
+Physical Description: Tangled dark blonde hair, large brown eyes, concerning thinness, fever-bright complexion, smallest finger on left hand bent (birth defect)
+Clothing: Grey wool dress too big, makeshift belt from rope, carries cloth doll made from sailcloth with button eyes, bare feet even in cold
+Behavioral Markers: Sucks thumb when frightened, whispers to doll constantly, limps slightly (hidden injury?), sleeps in fetal position
+Anchor Phrase: "5-year-old girl with tangled hair, grey dress, holding cloth doll"
+
+ENVIRONMENT ANCHORS (COMPLETE REFERENCE)
+BAÐSTOFA INTERIOR - STANDARD
+Dimensions: 12x16 feet, 7-foot ceiling
+Light Source: Single whale oil lamp on iron chain, hung 5 feet from ground, creates 6-foot circle of amber light
+Architectural Details:
+
+Blackened ceiling beams (3 main beams running lengthwise)
+Turf walls with occasional stones visible
+Packed earth floor worn smooth in traffic areas
+One window (18x24 inches) facing east, usually frosted over
+Wooden door with leather hinges, gaps letting in wind
+Fixed Objects:
+Central wooden table (4x3 feet), scarred surface
+Five wooden sleeping platforms along walls (6x3 feet each)
+Hanging grey shark meat on rope from center beam
+Wooden storage chest (locked) in corner
+Empty drying rack near hearth
+Atmosphere: Visible breath in cold, frost crystallizing on walls, smoke residue on everything
+Full Anchor: "Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, grey shark meat hanging from center beam"
+
+BAÐSTOFA INTERIOR - DAWN
+Differences from Standard:
+
+No lamp light, only grey dawn through window
+Shadows less defined, everything grey-blue
+Frost more visible on walls
+Shapes indistinct
+Full Anchor: "Dark interior of 12x16 foot turf house at dawn, no lamp light, grey shadows, blackened ceiling beams, frost on turf walls"
+
+BAÐSTOFA INTERIOR - POST-MEAL
+Differences from Standard:
+
+Shark meat gone, empty rope remains
+Lamp may be in different position
+Table shows meal remnants
+Full Anchor: "Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, no hanging meat"
+
+BEACH EXTERIOR
+Geography: North-facing beach below turf house
+Terrain: Black volcanic sand mixed with ice, tideline of frozen seaweed, scattered driftwood
+Weather Conditions: 40mph wind from northwest, heavy snowfall (visibility 50 feet), -15°C
+Ocean State: Grey-black water, whitecaps, ice chunks from glacier, impossible for small boats beyond shore
+Landmarks: Wooden boat rack (empty), scorn pole position, path to turf house
+Full Anchor: "Black volcanic sand beach, Westfjords Iceland, heavy snowfall, 40mph wind driving snow horizontally, grey rough sea with ice chunks"
+NIGHT BLIZZARD
+Visibility: 3 feet maximum
+Snow Behavior: Horizontal due to wind, accumulating on all surfaces instantly
+Sound Environment: Wind drowning all but closest sounds
+Light Behavior: Lamp creates golden sphere, light doesn't penetrate beyond
+Physical Effects: Snow clings to clothing/hair immediately, ice forms on beards/eyebrows
+Full Anchor: "Night blizzard, complete whiteout conditions, visibility 3 feet, snow clinging to all surfaces"
+
+OBJECT REFERENCE SHEETS
+THE SHARK (Hákarl)
+Species: Greenland shark
+Preparation Stage: 13 days fermented (still toxic)
+Physical State: Grey-pink meat, cartilaginous skeleton visible, ammonia smell implied
+Hanging Method: Ship rope through tail, suspended from center beam
+Dripping: Toxic liquid into wooden bowl below
+Size: 3-foot section, enough for multiple meals
+Significance: Poison or starve - no third choice
+RITUAL ARRANGEMENT (Tilberi Components)
+Pattern: Cross formation
+Materials:
+
+White cartilage pieces from shark (4 pieces, each 3 inches)
+Grey wool from dead sheep (pulled not cut)
+Human rib bone (implied from earlier failed attempts)
+Table Position: Center of scarred wooden table
+Blood Component: Single drop from pricked finger (added by Sigrid)
+Covering: Rough wool cloth when hidden
+
+THE RAM COLLAR
+Material: Worn brown leather
+Hardware: Brass buckle, tarnished green
+Markings: "MÞ" carved into leather (Magnús Þórsson)
+Hanging Position: Wooden peg by door
+Significance: September disappearance, best breeding ram
+THE OLD CARVING
+Location: Wooden beam near sleeping platforms
+Age: Much older than current family
+Image: Crude human figure, ribs pulled out in cross pattern, wool lines carved around
+Condition: Worn smooth in places from touching, partially obscured by soot
+Size: 8 inches tall
+Significance: Previous family's attempt at tilberi
+THE CLOTH DOLL
+Material: Sailcloth body, button eyes (2 brass), yarn hair
+Size: 10 inches tall
+Condition: Dirty, loved threadbare, one arm restitched
+Clothing: Scrap fabric dress matching Lilja's
+Position: Always in Lilja's arms except when "buried"
+
+COMPREHENSIVE SHOT LIST WITH COMPLETE PROMPTS
+OPENING SEQUENCE (0:00-0:50)
+SHOT_1 - TEXT CARD (3 sec)
+Type: Text
+"Black screen. White text centered: 'They will eat poison or starve. There is no third choice.' Font: Simple serif. Fade in 1 sec, hold 1 sec, fade out 1 sec."
+SHOT_2 - RUNWAY - SHARK CLOSE-UP (8 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Grey-pink shark meat hanging from rope, cartilage ribs visible, liquid dripping steadily into wooden bowl below. Camera slowly pushing in. Lamp flicker causes shadows to move."
+Technical: Generate 8 full seconds, let the poison register
+POST: Add text overlay "13 days fermented" in bottom left, same font as opening
+SHOT_2b - RUNWAY - EMPTY DRYING RACK (1 sec)
+Type: Quick Cut
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Empty wooden drying rack in cross pattern, no fish, dust particles visible, cobwebs in corners. Static shot."
+Technical: Generate 3 sec, cut to 1 sec flash in post
+SHOT_3 - RUNWAY - FAMILY STARING AT SHARK (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, grey shark meat hanging from center beam. Five faces in profile looking up at hanging meat - 55-year-old bearded man, woman with white headdress, blonde braided teenager, small boy, tiny girl with doll. Hunger visible in eyes. Static shot, only lamp movement."
+POST: Add 2-3 seconds of silence after before next shot
+SHOT_4 - RUNWAY - LULLABY (12 sec)
+Type: Extended - Slow Motion
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, grey shark meat hanging from center beam. Medium shot: 16-year-old girl with blonde braids in grey-brown patched dress sitting on wooden platform next to 5-year-old girl with tangled hair in grey dress holding cloth sailcloth doll. Older girl's mouth moving as if singing softly, younger girl's eyes getting heavy. Gentle rocking motion."
+Technical: Generate 8 sec, slow to 150% for 12 sec total
+POST: Add lullaby "Sofðu unga ástin mín..." starting at 2 sec mark
+SHOT_5 - VEO - AERIAL WIDE (8 sec)
+Type: Standard Generation
+"Aerial view 2000 feet above frozen fjord, Westfjords Iceland. 60% ice coverage with black water channels between ice sheets. Steam trawler with black smoke in middle distance. Tiny snow-covered turf house structure below clinging to hillside. Heavy snowfall, wind pushing snow horizontally. Late afternoon grey light."
+SHOT_6 - VEO - AERIAL DESCENDING (8 sec)
+Type: Standard Generation
+"Camera descending toward snow-covered turf house built into hillside. Structure barely visible under snow except for thin smoke from roof hole. Fresh sheep tracks circling building in distress pattern. Heavy snowfall continuing, visibility decreasing as descending. End 50 feet above structure."
+SHOT_7 - RUNWAY - GIRL'S EYES (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, grey shark meat hanging from center beam. Extreme close-up: 16-year-old girl with blonde braids, grey eyes looking upward at something off-frame. Can see reflection of hanging meat in eyes. Background blurred but showing frost crystals on turf walls. Slight eye movement tracking something."
+SHOT_7b - RUNWAY - FROST PATTERN (1 sec)
+Type: Quick Cut
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows. Close-up of frosted window, natural cross pattern formed by ice crystals. Backlit slightly by grey exterior light."
+Technical: Generate 3 sec, cut to 1 sec in post
+SHOT_8 - VEO - FAMILY AT TABLE (8 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, grey shark meat hanging from center beam. Wide shot of five people seated at wooden table - 55-year-old man with thick grey unkempt beard at head position, 35-year-old woman with white curved headdress to his right, 16-year-old girl with blonde braids positioned furthest from bearded man, 8-year-old boy with sandy hair and 5-year-old girl with cloth doll seated between. All faces turned upward toward hanging meat. Empty wooden bowls on table."
+
+ACT I: MORNING DESPERATION (0:50-3:00)
+SHOT_9 - RUNWAY - THROUGH WOODEN SLATS (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, grey shark meat hanging from center beam. POV through horizontal wooden bed slats. 35-year-old woman with white curved headdress and brown apron sneaking small piece of bread into apron pocket. Furtive glance toward camera. Other family members blurred in background."
+SHOT_9b - RUNWAY - CROSSED WOOD (1 sec)
+Type: Quick Cut
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Close-up of two pieces of firewood crossed on earth floor near dying hearth embers. Ash particles floating."
+Technical: Generate 3 sec, cut to 1 sec in post
+SHOT_10 - RUNWAY - GIRL'S EYES TRACKING (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, grey shark meat hanging from center beam. Close-up 16-year-old girl with blonde braids, grey eyes moving left to right following someone off-frame. No head movement, only eyes. Background blurred but showing frost on turf walls."
+SHOT_10b - RUNWAY - SIGRID'S REPAIR (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Close-up of teenage girl's hands sewing torn grey-brown dress with single black thread through white wool fabric. Needle catching light. Background shows edge of sleeping platform."
+SHOT_11 - RUNWAY - EMPTY RAM COLLAR (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Medium shot of worn leather collar with brass buckle hanging on wooden peg by door. 'MÞ' carved visible in leather. Through window in background, empty sheep pen visible in snow. Collar swaying slightly from wind through door gaps."
+SHOT_11b - RUNWAY - CHILDREN'S SHADOW GAME (2 sec)
+Type: Quick Cut
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Close-up of turf wall with child's hands making shadow puppets in lamplight. First a sheep shape, then predator jaws consuming it. Quick and disturbing."
+Technical: Generate 5 sec, cut to 2 sec showing consumption moment
+SHOT_11c - RUNWAY - CHILDREN WITH RIB BONES (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. 8-year-old boy with sandy hair in oversized brown sweater and 5-year-old girl with tangled hair in grey dress playing on floor. Arranging small white rib bones in cross pattern. Innocent concentration on faces."
+SHOT_11d - RUNWAY - OLD CARVING (3 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Close-up of worn wooden beam showing crude carved figure - human shape with ribs pulled out in cross pattern, wool lines carved around it. Ancient, partially worn smooth, soot-darkened. Finger-worn groove where people have touched it."
+SHOT_12 - RUNWAY - BOY THROUGH BLANKET (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, grey shark meat hanging from center beam. POV through gap in hanging wool blanket. 8-year-old boy with sandy hair in oversized brown sweater, face partially visible, coughing into elbow. Can see ribs through sweater."
+SHOT_12b - RUNWAY - SECRET EATING (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Medium shot 55-year-old man with thick grey unkempt beard quickly putting something small in mouth from pocket, looking over shoulder toward family area. Guilty, furtive movement. Chewing quickly."
+SHOT_13 - VEO - GIRL GIVES FOOD (8 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, grey shark meat hanging from center beam. 16-year-old girl with blonde braids in grey-brown patched dress kneeling, secretly handing small piece of bread to 5-year-old girl with tangled hair in grey dress holding cloth doll. Teenage girl positioned to block view from rest of room. Tender moment."
+SHOT_13b - RUNWAY - DOLL BURIAL (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. 5-year-old girl with tangled hair carefully tucking cloth sailcloth doll under loose turf in corner where wall meets floor. Patting the spot like smoothing grave soil. Solemn child ritual."
+SHOT_13c - RUNWAY - FAILED RITUAL ATTEMPT (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. 35-year-old woman with white curved headdress kneeling at table, arranging grey wool and small white bones in cross pattern. Lips moving in prayer. Nothing happens. Frustrated sweep of materials onto floor."
+SHOT_14 - RUNWAY - GUÐRÚN COLLECTING MATERIALS (8 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, grey shark meat hanging from center beam. 35-year-old woman with white curved headdress moving through space, gathering dried seaweed strands from wall cracks, pulling wool tufts from blanket, placing items carefully in brown apron pocket. Methodical, ritualistic movement."
+SHOT_14b - RUNWAY - GUÐRÚN AT SHARK (3 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, grey shark meat hanging from center beam. Close-up 35-year-old woman with white curved headdress looking up at grey-pink meat's exposed white cartilage ribs. Hand reaching toward knife at belt. Determination in eyes."
+SHOT_14c - RUNWAY - TAKING THE RIB (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, grey shark meat hanging from center beam. Extreme close-up of woman's reddened hands using knife to cut pale cartilage rib from grey-pink meat. Sawing motion, cartilage finally coming free. Background blurred but showing frost on turf walls."
+SHOT_15 - RUNWAY - GIRL WATCHING ARRANGEMENT (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, grey shark meat hanging from center beam. Close-up 16-year-old girl with blonde braids watching something below frame. Can see cross pattern of white cartilage pieces and grey wool reflected in her grey eyes. Lips moving silently, memorizing."
+SHOT_16 - VEO - COVERING ARRANGEMENT (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, grey shark meat hanging from center beam. Two women quickly covering cross pattern of white cartilage pieces and grey wool on wooden table surface with rough cloth. Door opening, 55-year-old man with thick grey unkempt beard entering. 16-year-old girl with blonde braids immediately moving to furthest corner, hands pulling grey-brown dress tighter around body."
+
+BOAT SEQUENCE (3:00-4:00)
+SHOT_17 - VEO - MAN AT DOOR (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, grey shark meat hanging from center beam. 55-year-old man with thick grey unkempt beard in brown wool sweater standing in doorway. Wind blowing snow through gaps. Fists clenched at sides. Breathing visible in cold air."
+POST: Add trawler horn sound (70-90Hz) at 3 sec mark
+SHOT_18 - VEO - DRAGGING BOAT (8 sec)
+Type: Standard Generation
+"Black volcanic sand beach, Westfjords Iceland, heavy snowfall, 40mph wind driving snow horizontally, grey rough sea with ice chunks. 55-year-old man with thick grey unkempt beard in brown wool sweater dragging small wooden boat by rope, creating deep furrows in black sand. Snow immediately filling tracks. Steam trawler visible on horizon with black smoke. Man struggling against wind."
+SHOT_18b - RUNWAY - FAMILY PREPARING SHARK (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. 35-year-old woman with white curved headdress cutting grey-pink shark meat with knife. Three children watching hungrily from sleeping platforms. Boy coughing. Empty bowls waiting."
+SHOT_19b - VEO - LINES DESTROYED (8 sec)
+Type: Standard Generation
+"Black volcanic sand beach, Westfjords Iceland, heavy snowfall, 40mph wind driving snow horizontally, grey rough sea with ice chunks. 55-year-old man with thick grey unkempt beard in small wooden boat, frantically hauling in fishing lines. Large steam trawler bearing down on his gear. Trawler's bow plows through lines, severing them. Man's mouth open in silent scream. Snow clinging to beard and clothing."
+SHOT_20 - RUNWAY - MAN ARMS RAISED (8 sec)
+Type: Standard Generation
+"Black volcanic sand beach, Westfjords Iceland, heavy snowfall, 40mph wind driving snow horizontally, grey rough sea with ice chunks. 55-year-old man with thick grey unkempt beard in brown wool sweater standing in rocking boat, both arms raised to grey sky, mouth open shouting at steam trawler. Boat dangerously tilting. Snow clinging to everything."
+POST: Add dialogue "You take everything! Everything!" at 3 sec mark
+SHOT_21 - VEO - SEAL AND CUTTING (8 sec)
+Type: Standard Generation
+"Black volcanic sand beach, Westfjords Iceland, heavy snowfall, 40mph wind driving snow horizontally, grey rough sea with ice chunks. 55-year-old man with thick grey unkempt beard in boat leaning over side, using knife on floating grey seal carcass. Tearing at blubber, blood on hands. Visible V-shaped notch cut in flipper bone. Desperate, animalistic movement."
+SHOT_22 - RUNWAY - SCORN POLE (5 sec)
+Type: Standard Generation
+"Black volcanic sand beach, Westfjords Iceland, heavy snowfall, 40mph wind driving snow horizontally. Close-up of small driftwood stick pushed into snow near turf house building. In background, old height marks carved on door frame, stopping at child height. Wind making stick vibrate."
+
+VIOLENCE SEQUENCE (4:00-5:30)
+SHOT_23 - RUNWAY - FLIPPER ON TABLE (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Close-up of wooden table surface. Grey seal flipper with webbed digits and V-shaped notch in bone beside two small fish. Blood pooled under flipper. Knife marks in wood."
+SHOT_24 - VEO - FAMILY AT TABLE AGAIN (8 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls, grey shark meat hanging from center beam. Five people around table staring at meager items. 55-year-old man with thick grey unkempt beard at head, 35-year-old woman with white curved headdress to his right avoiding eye contact, 16-year-old girl with blonde braids furthest from man pressed against wall, 8-year-old boy coughing and 5-year-old girl with doll between."
+SHOT_25 - RUNWAY - MAN'S EYES DOWN (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Extreme close-up 55-year-old man with thick grey unkempt beard, bloodshot eyes looking down at table. Jaw clenching. Lamp flicker reflects in eyes."
+POST: Add dialogue "You hide food from me?" at 3 sec mark
+SHOT_26 - RUNWAY - MAN POINTING AT WOMAN (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Medium shot 55-year-old man with thick grey unkempt beard, weathered finger with missing tip pointing at 35-year-old woman with white curved headdress. Her hands clutching apron. Accusatory stance."
+POST: Add dialogue "You sit here doing nothing! Nothing while we starve!" at 2 sec mark
+SHOT_27 - VEO - LAMP SWINGING (1 sec)
+Type: Quick Cut
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Whale oil lamp on chain swinging violently, shadows whipping across walls. Motion blur."
+Technical: Generate 3 sec, cut to 1 sec of peak swing
+POST: Add sound of impact
+SHOT_28 - RUNWAY - GIRL SHIELDING CHILDREN (1 sec)
+Type: Quick Cut
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. 16-year-old girl with blonde braids throwing arms around 8-year-old boy and 5-year-old girl, pulling them down. Fast protective motion."
+Technical: Generate 3 sec, cut to 1 sec of movement
+SHOT_29 - RUNWAY - MAN'S TENDER MOMENT (10 sec)
+Type: Partial Slow Motion
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Close-up man's weathered hand with missing fingers reaching toward sleeping 5-year-old girl's head. Gently adjusting wool blanket over her, tucking it around thin shoulders. Hand lingering tenderly, almost stroking hair. Then hand moves toward teenage girl's sleeping form, hesitates, pulls back into tight fist."
+Technical: Generate 8 sec, slow blanket adjustment portion to extend to 10 sec
+SHOT_30 - RUNWAY - WOMAN TAKING LAMP (8 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. 35-year-old woman with white curved headdress reaching up to unhook oil lamp from chain. Bruise visible on cheekbone in lamplight. Determined expression. Children watching from platforms."
+POST: Add dialogue "Go gather seaweed. Don't return empty-handed." at 4 sec mark
+SHOT_31 - RUNWAY - GIRL AT WINDOW (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Close-up 16-year-old girl with blonde braids pressing face to frosted window with natural cross pattern in ice. Breath fogging glass. Watching something outside. One hand on glass."
+
+NIGHT JOURNEY (5:30-7:00)
+SHOT_32 - VEO - LAMP IN BLIZZARD (15 sec)
+Type: Extended - Frames to Video
+"Night blizzard, complete whiteout conditions, visibility 3 feet, snow clinging to all surfaces. Single whale oil lamp held at waist height creating golden sphere of light moving through total darkness. Snow swirling in lamp light. No other features visible. Hypnotic, dreamlike movement."
+Technical: Generate 8 sec initial, save last frame, generate 7 sec continuation using frame as start
+POST: Remove trawler hum. Add low ritual hum not synced to any mouth
+SHOT_33 - RUNWAY - GIRL'S HANDS WITH WOOL (8 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Close-up teenage girl's hands carefully arranging cross pattern of white cartilage pieces (4 pieces, 3 inches each) and grey wool strands on wooden table surface. Precise, ritualistic placement. Hands trembling slightly."
+SHOT_34 - RUNWAY - SIGRID'S DESPERATE WHISPER (5 sec)
+Type: Standard Generation - Critical "Why Now" Shot
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Close-up 16-year-old girl with blonde braids, lips moving in whispered prayer over cross pattern of white cartilage and grey wool. In background, 5-year-old girl visible on sleeping platform, clearly fevered, sweating, eyes glazed, labored breathing."
+POST: Add whispered "Fyrir þá sem koma..." (For those who come...) at 2 sec mark
+SHOT_35 - RUNWAY - SIGRID'S FINGER PRICK (3 sec)
+Type: Slow Motion Detail
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Extreme close-up teenage girl's finger being pricked with white bone needle. Blood welling up. Single drop falling toward cross pattern of white cartilage and grey wool below frame."
+Technical: Generate normally, slow blood drop's fall in post
+SHOT_36 - VEO - WOMAN IN SNOW (8 sec)
+Type: Standard Generation
+"Night blizzard, complete whiteout conditions, visibility 3 feet, snow clinging to all surfaces. 35-year-old woman with white curved headdress in brown wool dress, holding lamp at chest height. Standing completely still in blizzard. Snow accumulating on headdress and shoulders. Waiting. Listening."
+POST: Add synchronized breathing sound (200-800Hz)
+SHOT_37 - VEO - THE MOMENT OF AWE (15 sec)
+Type: Extended - Frames to Video - SIGNATURE SHOT
+"Night blizzard, complete whiteout conditions, visibility 3 feet. Whale oil lamp illuminates massive Icelandic forystufé ram with thick white wool. Snowflakes melting in mid-air three feet before touching its body, creating clear space around it. Steam rising from its body forming vague shapes like reaching hands. Golden light sphere surrounding majestic stillness. Ancient, impossible, divine."
+Technical: Generate 8 sec with steam/melting effects, save last frame, generate 7 sec continuation maintaining awe
+Note: This is THE supernatural moment - must be perfect
+SHOT_38 - VEO - RAM REVEALED (10 sec)
+Type: Standard Generation - Maintain Awe
+"Night blizzard, complete whiteout conditions, visibility 3 feet, snow clinging to all surfaces. Massive Icelandic forystufé sheep, thick white wool, eyes reflecting orange lamplight like burning embers, too bright for animal eyes. Strong curved horns. Standing in forystufé stance - alert, leading, protective. Dried seaweed tangled in wool. Single black coal rope visible twisted in shoulder wool."
+Note: Keep supernatural quality, don't rush to next shot
+SHOT_38b - RUNWAY - DARKNESS TRANSITION (3 sec)
+Type: Standard Generation - Preserve Awe
+"Night blizzard darkness, only faint golden lamp glow visible through heavy snow. Near total darkness. Wind sound only."
+Note: Let the awe settle before detail cuts
+SHOT_39 - RUNWAY - EAR NOTCH (1 sec)
+Type: Quick Cut - Recognition Beat
+"Extreme close-up sheep ear with distinctive V-shaped cut. Ice crystals on wool around ear. Background completely blurred showing only blizzard white."
+Technical: Generate 3 sec, cut to 1 sec flash
+SHOT_40 - RUNWAY - COAL ROPE IN WOOL (1 sec)
+Type: Quick Cut - Wrong Detail
+"Extreme close-up white wool with single black rope strand tangled deep in it. Rope appears to be growing from skin. Background blurred showing only white."
+Technical: Generate 3 sec, cut to 1 sec flash
+SHOT_41 - VEO - TWO FIGURES DEPARTING (8 sec)
+Type: Slow Motion End Section
+"Night blizzard, complete whiteout conditions, visibility 3 feet, snow clinging to all surfaces. 35-year-old woman with white curved headdress holding lamp following large Icelandic forystufé ram into darkness. Both figures becoming shadows, then gone. Empty blizzard remains."
+Technical: Generate normally, slow final disappearance in post
+
+FORCED CONSUMPTION (7:00-8:00)
+SHOT_42 - VEO - FAMILY EATING SHARK (10 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Five people at wooden table forcing themselves to eat grey-pink shark meat. Visible disgust, eyes watering from ammonia. Grey seal flipper pushed to table edge. 55-year-old man with thick grey unkempt beard at head watching everyone eat."
+POST: Add dialogue "Eat! All of it!" at 3 sec mark
+SHOT_43 - RUNWAY - CHILD'S DILATED PUPILS (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows. Extreme close-up 5-year-old girl's face, eyes with fully dilated pupils. Unfocused stare. Beginning of sjávargalinn (shark-madness) - seeing things not there. Slight head weaving. Background blurred showing frost on turf walls."
+SHOT_44 - VEO - BOY TURNING AWAY (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. 8-year-old boy with sandy hair in oversized brown sweater turning head sharply to side, hand over mouth, trying not to vomit. Body convulsing slightly."
+SHOT_45 - RUNWAY - GIRL LOOKING AT TABLE (5 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Close-up 16-year-old girl with blonde braids looking down at wooden table surface where cross pattern was. Only scratches in wood remain. Hand touching the spot. Understanding something worked."
+
+MORNING REVELATION (8:00-12:00)
+SHOT_46 - VEO - DARK SHAPES (12 sec)
+Type: Extended - Slow Motion
+"Dark interior of 12x16 foot turf house at dawn, no lamp light, grey shadows, blackened ceiling beams, frost on turf walls. Indistinct shadowy shapes on wooden sleeping platforms. Unnatural positions. Scattered white wool on earth floor. Something wrong with the shapes. Too still."
+Technical: Generate 8 sec, slow to 150% for 12 sec total
+Note: Begin slow, dreamlike pace from here
+SHOT_47 - RUNWAY - MAN'S CONFUSED FACE (5 sec)
+Type: Standard Generation - Show Poisoning
+"Dark interior of 12x16 foot turf house at dawn, grey shadows. Close-up 55-year-old man with thick grey unkempt beard, eyes unfocused, dried saliva on beard. Half-eaten grey-pink shark meat on floor beside him. Morgundrengur disorientation - not knowing if awake or dreaming. Pupils dilated."
+POST: Add dialogue "Guðrún? Where are...?" at 3 sec mark
+SHOT_48 - VEO - LIGHTING TAPER (8 sec)
+Type: Standard Generation - Evidence Scatter
+"Dark interior of 12x16 foot turf house at dawn. Shaking hand holding burning stick, moving slowly through space. Light revealing torn clothing on floor, brown wool sweater shredded, white headdress fallen. Movement dreamlike, uncertain."
+SHOT_49a - RUNWAY - GIRL'S SLEEPING FACE (1 sec)
+Type: Quick Cut - Transformation Sequence
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows. Close-up 16-year-old girl with blonde braids, face peaceful, eyes closed under wool blanket. Human face."
+Technical: Generate 3 sec, cut to 1 sec
+SHOT_49b - RUNWAY - SHEEP FACE (1 sec)
+Type: Quick Cut - Transformation Sequence
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows. Close-up Icelandic forystufé sheep face with eyes closed in exact same position and framing as previous shot. Sheep face where girl was."
+Technical: Generate 3 sec, cut to 1 sec
+SHOT_49c - RUNWAY - HAND TO HOOF (1 sec)
+Type: Quick Cut - Transformation Sequence
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows. Split screen: left side shows child's hand holding cloth doll, right side shows sheep hoof touching same cloth doll. Transformation moment."
+Technical: Generate 3 sec, cut to 1 sec
+SHOT_50 - VEO - FIVE SHEEP ON PLATFORMS (10 sec)
+Type: Standard Generation - MULTIPLE VERSIONS FOR AMBIGUITY
+Version A (Subtle): "Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Five Icelandic forystufé sheep lying on wooden sleeping platforms where family was. One ram wearing torn brown wool sweater. In deep shadow under one sheep's wool, a pale shape that might be fingers. Small gold wedding ring visible on sheep's front leg at ankle."
+Version B (More Obvious): "Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Five Icelandic forystufé sheep lying on wooden sleeping platforms. One ram wearing torn brown wool sweater. Under one sheep's wool, a human hand barely visible in shadow. Gold wedding ring on sheep's leg."
+Version C (Most Ambiguous): "Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Five Icelandic forystufé sheep lying on wooden sleeping platforms. One ram wearing torn brown wool sweater. Shapes beneath wool unclear. Something glinting on sheep's leg."
+Technical: Generate all three versions, choose in edit for desired ambiguity level
+SHOT_51 - RUNWAY - TORN SWEATER RECOGNITION (5 sec)
+Type: Standard Generation - First Recognition
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows. Close-up torn brown wool sweater on sheep's body. Boy's name 'JÓN' stitched in collar with red thread clearly visible. Sweater stretched over sheep body unnaturally."
+SHOT_52 - RUNWAY - HEADDRESS RECOGNITION (12 sec)
+Type: Extended - Slow Motion - THE IMAGE
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows. Close-up white curved faldbúningur headdress with black band on Icelandic forystufé sheep's head. Half in golden lamplight, half in shadow. Impossible. Wrong. Beautiful. Terrible."
+Technical: Generate 8 sec, slow to 150% for 12 sec total
+Note: This is THE defining image - must be perfect
+SHOT_53 - RUNWAY - DOLL UNDER HOOF (5 sec)
+Type: Standard Generation - Final Recognition
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows. Close-up smallest lamb with cloth sailcloth doll visible under its wool. Tiny hoof resting on doll's face. Brass button eye glinting."
+SHOT_54 - RUNWAY - LAMB SUCKING HOOF (3 sec)
+Type: Standard Generation - Wrong Behavior
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows. Close-up small lamb with its own hoof in mouth, sucking like thumb. Disturbing, childlike behavior."
+SHOT_55 - VEO - MAN APPROACHING SHEEP (8 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. 55-year-old man with thick grey unkempt beard walking unsteadily toward five Icelandic forystufé sheep on platforms. Hand outstretched. Disbelief in movement."
+POST: Add dialogue "Guðrún! GUÐRÚN! Answer me... please..." at 3 sec mark
+SHOT_56 - VEO - SHEEP BACKING AWAY (8 sec)
+Type: Slow Motion Section - Behavioral Continuity
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. One Icelandic forystufé sheep (the one furthest from others) moving backward on platform, away from approaching 55-year-old man. Making distressed bleating sounds only when he reaches toward it. Other sheep still."
+Technical: Generate normally, slow the retreat in post
+Note: This is Sigrid-sheep maintaining her fear
+SHOT_57 - VEO - ALL SHEEP TOGETHER (10 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Wide shot of five Icelandic forystufé sheep on platforms. Door blown open by wind showing steam trawler on grey sea continuing its route, indifferent."
+POST: Add trawler horn (70-90Hz) at 5 sec mark
+SHOT_58 - RUNWAY - MAN'S BROKEN FACE (10 sec)
+Type: Standard Generation
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows. Close-up 55-year-old man with thick grey unkempt beard. Tears in eyes. Mouth moving, trying to hum. Cannot form words. Breaking."
+POST: Add broken lullaby humming "Sofðu unga ástin mín..." faltering
+SHOT_59 - RUNWAY - SHEEP MOUTH OPENING (8 sec)
+Type: Standard Generation - The Horror Moment
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows. Extreme close-up Icelandic forystufé sheep mouth opening. Pink tongue visible. Making bleating motion. Human tooth visible in back of mouth."
+POST: Bleat transforms into child's voice saying "Mamma?" at 6 sec mark, then cut to black
+SHOT_60 - VEO - THE BROKEN COUNT (15 sec)
+Type: Extended - Frames to Video - FINAL IMAGE
+"Dark interior of 12x16 foot turf house, single whale oil lamp creating deep shadows, blackened ceiling beams, frost on turf walls. Wide shot 55-year-old man with thick grey unkempt beard standing among five Icelandic forystufé sheep on platforms. His finger pointing at each sheep, counting. Hand trembling. Visible exhaustion and confusion. Keeps losing count."
+Technical: Generate 8 sec "Einn... tveir... þrír... fjórir..." then FTV 7 sec continuation "...fimm..." [pause, looking at his own hands, counting fingers] "...sex?"
+POST: Add counting dialogue with increasing confusion
+Note: He can't figure out if he's the sixth or if he's counting wrong
+
+TECHNICAL EXECUTION BIBLE
+Coverage Requirements
+
+Every shot needs 3x coverage minimum
+Hero shots need 5x coverage: Shots 37, 52, 60
+Ambiguity shots need all versions: Shot 50
+
+File Naming Convention
+SHOT_[NUMBER]_[VERSION]_[DESCRIPTION]_[STATUS].mp4
+Example: SHOT_37_V3_RAM_AWE_APPROVED.mp4
+Folder Structure
+/SHEEP_BADSTOFA
+  /01_GENERATED
+    /APPROVED
+    /PENDING_REVIEW
+    /FAILED
+  /02_ASSEMBLY
+    /ROUGH_CUT
+    /SELECTS
+  /03_SOUND
+    /DIALOGUE
+    /AMBIENT
+    /MUSIC
+  /04_FINAL
+    /COLOR_GRADED
+    /MASTER
+Generation Tracking Spreadsheet Columns
+
+Shot Number
+Shot Description
+Attempts
+Success Version
+Technical Method (Standard/FTV/Slow-Mo)
+Duration Target
+Duration Achieved
+Notes
+Continuity Warnings
+
+Daily Review Protocol
+
+Review all generations from day
+Check anchor consistency
+Verify continuity elements
+Approve/Reject
+Update tracking sheet
+Plan next day's shots
+
+
+SOUND DESIGN SPECIFICATIONS
+Dialogue Cues (Only Magnús Speaks)
+
+(20) "You take everything! Everything!" - Screamed at sea
+(25) "You hide food from me?" - Quiet menace
+(26) "You sit here doing nothing! Nothing while we starve!" - Building rage
+(30) "Go gather seaweed. Don't return empty-handed." - Cold command
+(42) "Eat! All of it!" - Forced authority
+(47) "Guðrún? Where are...?" - Confused, lost
+(55) "Guðrún! GUÐRÚN! Answer me... please..." - Desperate, breaking
+(58) [Broken lullaby humming] - Can't form words
+(60) "Einn... tveir... þrír... fjórir... fimm... [pause] ...sex?" - Mathematical breakdown
+
+Ambient Sound Layers
+
+Wind through gaps: 200-1000Hz (constant except shots 32-41)
+Trawler hum: 70-90Hz (industrial drone)
+Whale oil lamp: Subtle crackling
+Breathing: 200-800Hz (increases near transformation)
+Ritual hum: Low vocal, not synced to anyone
+Blizzard: Full spectrum white noise
+
+Critical Sound Moments
+
+Shot 4: Lullaby "Sofðu unga ástin mín..." (Icelandic lullaby)
+Shot 27: Impact sound (violence)
+Shot 34: Whispered "Fyrir þá sem koma..." (For those who come...)
+Shot 59: Bleat becoming "Mamma?" then cut to black
+
+
+POST-PRODUCTION WORKFLOW
+Assembly Order
+
+Rough Assembly: Place all approved shots in timeline
+Pacing Pass: Implement quick cuts, slow-motion, holds
+FTV Integration: Stitch extended sequences
+Continuity Check: Verify all anchors maintained
+Sound Design: Layer all audio elements
+Color Grade: Match all shots to consistent look
+Final Pass: Trim, adjust, perfect
+
+Color Grading Notes
+
+Overall: Desaturated, cold
+Whale oil lamp: Warm amber in cold blue
+Dawn sequence: Grey-blue, no warmth
+Blizzard: High contrast white/black
+Final shots: Slightly surreal, dreamlike
+
+Export Specifications
+
+Resolution: 4K (3840x2160)
+Frame Rate: 24fps
+Codec: ProRes 422 HQ or H.264
+Audio: 48kHz, 24-bit
+Aspect Ratio: 2.39:1 (cinematic)
+
+
+THEMATIC HIERARCHY FOR EDIT
+Primary: Family Disintegration
+Every edit choice serves the collapse of family unit
+Secondary: External Pressures
+
+Industrial destruction (trawler)
+Environmental hostility (blizzard)
+Starvation (empty racks)
+
+Tertiary: Desperate Measures
+
+Folk magic (tilberi)
+Ritual knowledge (carving)
+Blood sacrifice (Sigrid's addition)
+
+Undercurrent: Cycles of Abuse
+
+Positioning (Sigrid always furthest)
+Behavior (retreat from Magnús)
+Continuation (sheep still fears)
+
+
+CRITICAL SUCCESS METRICS
+Must Achieve
+
+Ram awe moment (Shot 37) must feel divine/wrong
+Headdress image (Shot 52) must be unforgettable
+Counting breakdown (Shot 60) must devastate
+Ambiguity must remain (poisoning vs. transformation)
+Anchor consistency throughout
+
+Quality Markers
+
+No obvious AI artifacts
+Seamless FTV transitions
+Natural pacing rhythm
+Effective sound design
+Emotional impact
+
+
+FINAL PRODUCTION NOTES
+The Core Truth
+This film asks: When a family destroys itself under impossible pressure, is transformation into animals escape, punishment, or mercy? The answer must remain unknowable.
+The Method
+We're not fighting AI limitations - we're using them. The inability to show transformation forces us to create better horror through suggestion. The need for absolute anchors creates discipline that serves the story.
+The Vision
+This is not "content" - this is art. Every frame should feel necessary. Every cut should feel inevitable. The whole should haunt.
+The Promise
+If we maintain discipline through all 79 shots, if we resist shortcuts, if we honor the anchor system, if we protect the ambiguity - we will create something genuinely disturbing and original.
+
+FINAL WORD: This document is your bible. Trust it. When generation fails, return to these anchors. When edits feel wrong, check the pacing notes. When sound feels off, reference the specifications. Everything you need is here.
+The sheep in the baðstofa are waiting to be born. Or revealed. Or imagined by a poisoned mind.
+We may never know which.
+That's the point.
+
+End of Production Bible
+Total Shots: 79
+Estimated Generation Time: 4-6 weeks with partner
+Estimated Post-Production: 2 weeks
+Total Project Timeline: 6-8 weeks
+Begin with Shot 1. End with the question: "...sex?"

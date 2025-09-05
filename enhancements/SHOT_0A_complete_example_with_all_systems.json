@@ -1,0 +1,447 @@
+{
+  "shot_metadata": {
+    "id": "0a",
+    "name": "THE_SHADOW_POLE",
+    "title": "The Shadow Pole - Curse Establishment",
+    "sequence_type": "prologue",
+    "duration_seconds": 8,
+    "film_position_percentage": 0.5,
+    "narrative_function": "Establishes nidstöng curse against imperial forces",
+    "story_significance": "critical_opening",
+    "realm_classification": {
+      "physical_percentage": 85.0,
+      "psychological_percentage": 10.0,
+      "mythological_percentage": 15.0,
+      "supernatural_elements": true
+    },
+    "kubrick_influences": ["Symmetrical composition", "Environmental supernatural response"],
+    "krummi_lullaby_connection": "Pole position matches klettagjá (cliff cleft) from lullaby"
+  },
+
+  "tracking_systems": {
+    "breathing_coordination": {
+      "description": "Family respiratory synchronization progression",
+      "continuous_range": [0, 100],
+      "current_percentage": 5.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Individual rhythms maintained",
+        "25": "Beginning synchronization (11/min average)",
+        "50": "Forced synchronization (imperial counting)",
+        "75": "Animal rhythms emerging (8/min)",
+        "85": "Species-appropriate (8/min sheep, 12/min raven)",
+        "100": "Monument eternal (preserved patterns)"
+      },
+      "current_shot_state": "Individual rhythms - no synchronization",
+      "affects_shots": ["8-10", "23-25", "56-60", "76-85"]
+    },
+
+    "temperature_progression": {
+      "description": "Environmental and body temperature changes",
+      "continuous_range": [0, 100],
+      "current_percentage": 12.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "-5°C comfortable interior warmth",
+        "25": "-15°C survival challenge begins",
+        "50": "-25°C life threatening cold",
+        "75": "37°C body temperature (Bergrisi organs)",
+        "100": "20°C monument completion temperature"
+      },
+      "current_shot_state": "-8°C exterior with 37°C warmth at pole base",
+      "affects_shots": ["18-25", "44-47", "58-60"]
+    },
+
+    "klettagja_formation": {
+      "description": "Cliff cleft development enabling Sigrid's escape",
+      "continuous_range": [0, 100],
+      "current_percentage": 0.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "No crack formation yet",
+        "35": "Hairline crack behind Sigrid (0.5mm)",
+        "45": "Readable crack spelling KLETTAGJÁ (2mm)", 
+        "55": "Widening crack (6mm)",
+        "65": "Passable opening (18mm-6cm)",
+        "75": "Escape doorway (3ft wide)",
+        "100": "Portal to all time periods"
+      },
+      "current_shot_state": "Exterior scene - crack formation not yet begun",
+      "affects_shots": ["49c", "51-55", "59", "76-85"]
+    },
+
+    "spatial_impossibilities": {
+      "description": "Mathematical physics violations spreading",
+      "continuous_range": [0, 100],
+      "current_percentage": 8.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Normal physics maintained",
+        "15": "Subtle wrongness (impossible shadows)",
+        "30": "Obvious violations (11ft in 12ft house)",
+        "50": "Reality breakdown (space multiplication)",
+        "75": "Dimensional fragmentation",
+        "100": "Multiple realities simultaneous"
+      },
+      "current_shot_state": "200ft shadow from 8ft pole - impossible shadow physics",
+      "affects_shots": ["4-6", "11", "49", "55.5"]
+    },
+
+    "house_dimensions": {
+      "description": "Baðstofa interior space expansion sensation",
+      "continuous_range": [0, 100],
+      "current_percentage": 0.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Normal 12×16×6ft domestic space",
+        "25": "Ceiling 8-10ft sensation (unmeasured)",
+        "50": "15ft height with cliff striations",
+        "75": "30ft cliff interior feeling", 
+        "100": "40ft obsidian monument interior"
+      },
+      "current_shot_state": "Exterior scene - interior dimensions not applicable",
+      "affects_shots": ["3", "51-55", "58-60", "76-85"]
+    },
+
+    "house_consciousness": {
+      "description": "Bergrisi awareness and biological responses",
+      "continuous_range": [0, 100],
+      "current_percentage": 12.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Dormant consciousness (appears architectural)",
+        "20": "Subtle awareness (environmental responses)",
+        "40": "Obvious consciousness (breathing 12/min visible)",
+        "60": "Active consciousness (panic responses, flesh door)",
+        "80": "Dying consciousness (sacrifice speech)",
+        "100": "Crystallized consciousness (monument completion)"
+      },
+      "current_shot_state": "Underground presence felt through pole connection",
+      "affects_shots": ["3", "18", "51-55", "58-60"]
+    },
+
+    "reality_coherence": {
+      "description": "Stability of physical laws and logic",
+      "continuous_range": [0, 100],
+      "current_percentage": 85.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "100": "Perfect reality (false abundance)",
+        "75": "Minor violations (counting confusion)",
+        "50": "Major breakdown (impossible physics obvious)",
+        "25": "Reality fragmented (multiple truth layers)",
+        "0": "Complete breakdown (seven consciousness fragments)"
+      },
+      "current_shot_state": "Minor violations - shadow and ocean defying physics",
+      "affects_shots": ["8-10", "30", "55.5", "61"]
+    },
+
+    "industrial_contamination": {
+      "description": "British/Danish imperial materials spreading",
+      "continuous_range": [0, 100],
+      "current_percentage": 8.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Pure organic Iceland",
+        "20": "Atmospheric contamination (trawler emissions)",
+        "40": "Molecular contamination (fibers in flesh)",
+        "60": "Obvious contamination (brass through skin)",
+        "80": "Dominant contamination (organic corrupted)",
+        "100": "Transcended through crystallization"
+      },
+      "current_shot_state": "Three-color stains suggesting foreign material influence",
+      "affects_shots": ["13.5", "38a", "45c", "58a"]
+    },
+
+    "hakarl_contamination": {
+      "description": "Traditional food corruption enabling breakdown",
+      "continuous_range": [0, 100],
+      "current_percentage": 2.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Traditional fermentation (normal timing)",
+        "15": "Premature fermentation (77 days early)",
+        "30": "Neurotoxic crystals (geometric formations)",
+        "50": "Industrial materials visible (brass in flesh)",
+        "75": "Complete corruption (family cognitive effects)",
+        "100": "Toxicity transcended (no longer needed)"
+      },
+      "current_shot_state": "Traditional preservation - no contamination visible",
+      "affects_shots": ["6a", "13.5", "39.5"]
+    },
+
+    "predatory_landscape": {
+      "description": "Environmental hostility toward human survival",
+      "continuous_range": [0, 100],
+      "current_percentage": 15.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Landscape cooperative (supernatural abundance)",
+        "25": "Landscape neutral (realistic survival)",
+        "50": "Landscape resistant (materials fight back)", 
+        "75": "Landscape hostile (coordinated assault)",
+        "85": "Landscape protective (Bergrisi sacrifice)",
+        "100": "Landscape transcendent (monument integration)"
+      },
+      "current_shot_state": "Subtle wrongness - environmental physics violations",
+      "affects_shots": ["21", "23", "26", "44"]
+    },
+
+    "weather_hostility": {
+      "description": "Atmospheric assault on family survival",
+      "continuous_range": [0, 100],
+      "current_percentage": 10.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Weather cooperative (false summer)",
+        "25": "Weather neutral (normal seasonal)",
+        "50": "Weather challenging (survival difficulty)",
+        "75": "Weather hostile (coordinated attack)",
+        "100": "Weather transcendent (monument weather)"
+      },
+      "current_shot_state": "False benign conditions - clear sky enabling curse",
+      "affects_shots": ["22.5", "23", "44-47"]
+    },
+
+    "light_sources": {
+      "description": "Illumination evolution organic→industrial→supernatural",
+      "continuous_range": [0, 100], 
+      "current_percentage": 5.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Pure natural sunlight (golden abundance)",
+        "25": "Traditional whale oil dominant", 
+        "50": "Whale oil failing (traditional→industrial)",
+        "75": "Industrial searchlight dominant",
+        "100": "Monument illumination (obsidian transparency)"
+      },
+      "current_shot_state": "Golden dawn light with supernatural enhancement",
+      "affects_shots": ["16", "19", "20", "61"]
+    },
+
+    "memory_degradation": {
+      "description": "Collective memory accuracy declining", 
+      "continuous_range": [0, 100],
+      "current_percentage": 5.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Perfect memory (false golden nostalgia)",
+        "25": "Contaminated memory (imperial elements bleeding)",
+        "50": "Failing memory (temporal confusion active)",
+        "75": "Fragmented memory (multiple versions)",
+        "95": "Archived memory (monument preservation)",
+        "100": "Memory transcendent (eternal access)"
+      },
+      "current_shot_state": "Slight contamination - curse initiating wrongness",
+      "affects_shots": ["17", "30", "55.5", "61-63"]
+    },
+
+    "color_grading": {
+      "description": "Film color palette psychological progression",
+      "continuous_range": [0, 100],
+      "current_percentage": 15.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Golden abundance (2000K warm, oversaturated)",
+        "25": "Natural reality (3200K daylight, normal)",
+        "50": "Cold reality (5000K blue, desaturated)",
+        "75": "Death approach (7000K steel blue, minimal color)",
+        "100": "Monument transcendence (obsidian monochrome + aurora)"
+      },
+      "current_shot_state": "Golden dawn with supernatural enhancement",
+      "affects_shots": ["9b", "22", "58-60", "62-63"]
+    },
+
+    "character_shadow_behavior": {
+      "description": "Shadow physics revealing animal truth",
+      "continuous_range": [0, 100],
+      "current_percentage": 8.0, 
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Normal shadows following bodies",
+        "20": "Slight lag (shadows catching up)",
+        "40": "Independent movement (revealing truth)",
+        "60": "Shadow dominance (truth more real)",
+        "80": "Species shadows (animal truth complete)",
+        "100": "Monument shadows (eternal truth preserved)"
+      },
+      "current_shot_state": "Shadow independence - rotating without sun movement",
+      "affects_shots": ["2a", "4-6", "43", "56-60"]
+    },
+
+    "stain_progression": {
+      "description": "F4 Liquid contamination marking progression",
+      "continuous_range": [0, 100],
+      "current_percentage": 12.0,
+      "slider_increments": 1.0,
+      "milestone_values": {
+        "0": "Clean clothes and environment",
+        "20": "Blood stains appearing (whale sacrifice)",
+        "40": "Purple juice added (berry contamination)",
+        "60": "Egg yolk completing trinity (golden addition)",
+        "80": "Stains darkening brown-black (corruption)",
+        "100": "Stains forming map patterns (geographical contamination)"
+      },
+      "current_shot_state": "Three-color foundation stains - red, purple, gold circles",
+      "affects_shots": ["1b-4c", "18-25", "39.5", "47c"]
+    }
+  },
+
+  "prompt_variants": [
+    {
+      "variant_id": "0a_story_primary",
+      "variant_name": "Primary Narrative Version",
+      "intent_tags": ["story_primary", "kubrick_symmetry"],
+      "priority": 1,
+      "veo3_optimized": true,
+
+      "prompt_components": {
+        "subject": "Tall weathered grey driftwood pole 8ft height standing perfectly vertical on grass headland, old hemp rope wrapped around top 2ft with frayed ends moving slightly, casting impossible 200ft shadow across green hills, ocean behind showing red water tints, purple-black berries covering distant slopes with juice dripping down leaves",
+
+        "action": "Camera starts 100ft above pole descending slowly toward base, shadow stretches beyond natural physics reaching 200ft across grass, ocean rises 3ft holds for 2 seconds drops 3ft without wind, purple berries drip juice without contact, pole base shows three distinct soil stains red purple gold each 3ft diameter, shadow rotates clockwise independent of sun position",
+
+        "scene": "Westfjords headland 5AM June morning, ocean 300ft beyond pole, berry-covered hills to left, golden cliffs to right, green grass everywhere, clear sky with sun just above horizon creating horizontal golden illumination",
+
+        "style": "Aerial descent straight down toward pole using slow smooth movement, wide lens showing all terrain types, symmetrical composition emphasizing pole as geometric center",
+
+        "camera_position": "100ft above descending to pole height, that's where the camera is, vertical descent path",
+
+        "aspect_ratio": "16:9",
+
+        "lighting": "Horizontal morning sunlight creating golden cliff illumination, natural dawn light enhanced by supernatural environmental cooperation",
+
+        "negative_prompt": "no text overlays, no modern elements, no normal shadow physics, no static ocean behavior, no random berry dripping, no wind effects creating ocean movement, no normal time progression for shadows"
+      },
+
+      "character_plates": {
+        "present": [],
+        "approaching": ["SIGRID-PURE"],
+        "environmental_consciousness": ["BERGRISI-UNDERGROUND-SUBTLE"]
+      },
+
+      "environmental_plates": {
+        "landscape": "WESTFJORDS-SUMMER-FALSE-PERFECTION",
+        "weather": "COOPERATIVE-SUPERNATURAL-BENIGN",
+        "lighting": "DAWN-GOLDEN-ENHANCED",
+        "sea": "SEA-DIVINE-COOPERATIVE"
+      },
+
+      "audio_specification": {
+        "primary_sounds": [
+          {"sound": "Ocean rising/falling rhythm", "frequency": "60Hz", "volume": "moderate"},
+          {"sound": "Berry juice dripping percussion", "frequency": "400Hz", "volume": "subtle"},
+          {"sound": "Rope fiber creaking", "frequency": "200Hz", "volume": "quiet"}
+        ],
+        "ambient_layer": [
+          {"sound": "Grass rustling", "frequency": "150Hz", "volume": "background"},
+          {"sound": "Distant water movement", "frequency": "80Hz", "volume": "minimal"}
+        ],
+        "deliberately_absent": ["Wind sounds", "Bird calls", "Human voices", "Mechanical noise"]
+      },
+
+      "video_references": [
+        {
+          "filename": "shadow_pole_v1.mp4",
+          "generation_date": "2025-01-20",
+          "quality_rating": 8.5,
+          "notes": "Good shadow independence, ocean rise effective"
+        }
+      ],
+
+      "production_notes": {
+        "thematic_purpose": "Establishes Iceland under supernatural curse from first frame",
+        "visual_motifs_established": ["Three-color contamination foundation", "Impossible shadow mathematics", "Environmental wrongness"],
+        "connection_to_ending": "Curse pole accusation culminates in monument eternal testimony",
+        "complexity_rating": "moderate"
+      }
+    },
+
+    {
+      "variant_id": "0a_atmospheric",
+      "variant_name": "Environmental Emphasis Version", 
+      "intent_tags": ["atmospheric", "environmental_focus"],
+      "priority": 2,
+      "veo3_optimized": true,
+
+      "prompt_components": {
+        "subject": "Ancient memorial driftwood pole commanding pristine Westfjords landscape, grass headland overlooking false abundance, berry-covered hills bleeding purple juice, golden cliffs reflecting dawn light, ocean displaying supernatural cooperation",
+
+        "action": "Camera reveals landscape perfection through aerial descent, environmental elements displaying too-perfect cooperation, berry juice flowing without cause, ocean behavior defying physics, grass showing mysterious three-color staining suggesting ancient contamination history",
+
+        "scene": "Perfect June morning in Westfjords showing false golden memory landscape, impossible environmental cooperation, supernatural abundance, pristine Iceland before contamination recognition",
+
+        "camera_position": "Aerial landscape survey descending to pole, that's where the camera is"
+      },
+
+      "environmental_plates": {
+        "landscape": "WESTFJORDS-PRISTINE-MEMORY-PERFECTION",
+        "weather": "IMPOSSIBLE-COOPERATION-BENIGN"
+      },
+
+      "production_notes": {
+        "thematic_purpose": "Atmospheric establishment of false abundance perfection",
+        "complexity_rating": "simple"
+      }
+    },
+
+    {
+      "variant_id": "0a_enhancement",
+      "variant_name": "Living Curse Technology",
+      "intent_tags": ["enhancement", "supernatural_maximum"],
+      "priority": 3,
+      "veo3_optimized": true,
+
+      "prompt_components": {
+        "subject": "Horse skull mounted on weathered driftwood staff bleeding upward against gravity, thick red drops falling toward sky, skull jaw opening/closing rhythmically, empty eye sockets filled with aurora light creating green fire-eyes, shadow extending 200ft toward Denmark independent of sun angle",
+
+        "action": "Skull jaw creates speech-rhythm releasing blood drops forming vertical accusation column, shadow extends toward imperial homeland despite sun position, carved Old Norse accusations glow sequentially on staff, aurora electromagnetic pulse transmits curse across ocean, blood reaches storm clouds staining sky red with justified anger",
+
+        "environmental_plates": {
+          "landscape": "WESTFJORDS-ACTIVE-CURSE-TECHNOLOGY"
+        }
+      },
+
+      "production_notes": {
+        "thematic_purpose": "Enhanced curse technology prosecuting imperial crimes",
+        "complexity_rating": "revolutionary"
+      }
+    }
+  ],
+
+  "system_progression_tags": {
+    "current_film_position": 0.5,
+    "systems_active_count": 8,
+    "tracking_complexity": "moderate",
+    "enhancement_level": "story_primary"
+  },
+
+  "notes": {
+    "production_priority": "Critical opening shot establishing supernatural wrongness",
+    "technical_challenges": "Shadow physics, ocean behavior, three-color staining coordination",
+    "narrative_connections": "Connects to monument ending through curse continuation",
+    "app_functionality": "Slider controls for all 15 systems, variant selection, plate references"
+  }
+}
+
+EXTERNAL BREATHING RATES REFERENCE:
+{
+  "breathing_system": {
+    "description": "Character respiratory coordination across film",
+    "percentage_ranges": [0, 25, 50, 75, 100],
+    "characters": {
+      "MAGNÚS": {
+        "0%": {"rate": "10/min", "state": "authority_leadership"},
+        "25%": {"rate": "12/min", "state": "baseline_anxiety"},
+        "50%": {"rate": "8/min", "state": "predator_stalking"}, 
+        "75%": {"rate": "8/min", "state": "sheep_rhythm"},
+        "100%": {"rate": "8/min", "state": "ram_eternal"}
+      },
+      "SIGRID": {
+        "0%": {"rate": "15/min", "state": "human_resistance"},
+        "50%": {"rate": "15/min", "state": "witness_anchor"},
+        "75%": {"rate": "12/min", "state": "raven_preparation"},
+        "100%": {"rate": "12/min", "state": "corvid_eternal"}
+      }
+    }
+  }
+}

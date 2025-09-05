@@ -1,0 +1,57 @@
+{
+  "shot_metadata": {
+    "id": "54b",
+    "name": "BULL_AT_THRESHOLD___NO_EXPLANATION_6_SECONDS",
+    "title": "BULL AT THRESHOLD - NO EXPLANATION 6 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "Impossible arrival | Dying god present | Camera fr...",
+    "stitch_from": "[STITCH from Shot 54a: Time broken, sudden morning]"
+  },
+  "progressive_state": "Impossible arrival | Dying god present | Camera frost 45% | Reality shattered | Watching: We see impossibility",
+  "prompt_variants": [
+    {
+      "variant_id": "54b_story_primary",
+      "variant_name": "Primary - BULL AT THRESHOLD - NO EXPLANATION 6 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The door open revealing GRIÃUNGUR the Bull lying across threshold - the massive contaminated god who was dying on shore 300 meters away, now at their door with no path, no explanation, industrial materials weeping green tears while family prepares to step over him casually.",
+      "action": "Door stands open (who opened it?). ZOOM OUT reveals threshold. There: GriÃ°ungur. Massive bull, 6-foot head, body blocking entire doorway. Same contamination - brass harpoons through skull, rope beneath skin, net fused with eyes. But HERE. At house. Impossible. He was dying on shore, too massive to move. No tracks in snow. No path. Just HERE. Green verdigris tears still flowing from metal infections, pooling at doorstep. Still breathing - 3/min, matching house's dying rhythm. Eyes ancient, watching family. But family not surprised. GuÃ°rÃºn steps toward door with empty water bucket. Steps OVER him. One foot on his neck, other on ground beyond. Casual. Daily. Like stepping over sleeping dog. MagnÃºs (feet somehow free from floor) follows. Steps on Bull's horn for leverage. Children next. Only Sigrid pauses, kneels, touches his massive head. Whispers: \"ÃžÃº ert hÃ©r til aÃ° sjÃ¡\" (You're here to see). He blinks. Understands. Came to witness transformation.",
+      "scene": "Doorway with massive Bull across threshold. Family stepping over casually. No explanation for presence.",
+      "style": "Zoom out revealing impossible presence (that's where the camera is), impossibility accepted.",
+      "camera_position": "Zoom out revealing impossible presence",
+      "dialogue": "(Sigrid to Bull): \"ÃžÃº ert hÃ©r til aÃ° sjÃ¡\" (Family): Casual morning greetings, ignoring impossibility",
+      "audio": {
+        "primary": [
+          "Verdigris tears dripping",
+          "family stepping over body",
+          "Bull's labored breathing"
+        ],
+        "ambient": [
+          "House and Bull breathing synchronized at 3/min"
+        ],
+        "absent": [
+          "no surprise",
+          "no explanation"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "GuÃ°rÃºn accepts without question",
+    "triple_reality": "Physical: massive bull at door | Psychological: accepting impossible | Mythological: water god on land"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

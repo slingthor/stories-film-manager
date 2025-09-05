@@ -1,0 +1,60 @@
+{
+  "shot_metadata": {
+    "id": "42a",
+    "name": "THE_DOOR_VIOLENCE___IMPACT_ENTRY_6_SECONDS",
+    "title": "THE DOOR VIOLENCE - IMPACT ENTRY 6 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "House 3/min + 40bpm stuttering | Storm arriving | ...",
+    "stitch_from": "[STITCH from Shot 41: Children accepting fate, teeth falling]"
+  },
+  "progressive_state": "House 3/min + 40bpm stuttering | Storm arriving | Camera frost 27% | Provider returns | Watching: House resists entry",
+  "prompt_variants": [
+    {
+      "variant_id": "42a_story_primary",
+      "variant_name": "Primary - THE DOOR VIOLENCE - IMPACT ENTRY 6 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The door exploding inward with tremendous force, [MAGNÃšS] silhouetted against horizontal snow, -30Â°C air rushing in like water, his aged figure barely standing against wind, the door hitting wall so hard turf falls from ceiling, while family remains frozen in rÃ©ttir positions.",
+      "action": "BANG. Door strikes inner wall, sound like gunshot. Wind enters horizontal - not falling but sideways snow, visibility zero behind MagnÃºs. He's silhouette only: bent figure, aged, something clutched to chest. Temperature drops 10 degrees instantly, breath of family becoming fog wall. Door rebounds, tries to close, he catches it with 0Hz hand (can't feel the wood splitting his palm). Wind screaming at 80mph through opening. House breathing STOPS - holds breath at his entrance. Heartbeat stutters: 40bpm... 20... 60... 20. Turf cascades from ceiling where door impact cracked beams. But family doesn't move. Still in pentagon formation. Only tilberi reacts - brass eye turning toward door, three-rhythm breathing accelerating. Snow already accumulating inside, 2 inches in 6 seconds. His figure resolves slightly - hair completely white now (was grey this morning), beard frozen into ice plate, something wrapped in cloth against chest like baby.",
+      "scene": "Interior wide view, door center. Storm visible as white wall outside. Temperature plummeting. Family arranged on floor unmoved.",
+      "style": "Static wide shot, door centered, family in foreground shadows (that's where the camera is), impact documentary.",
+      "camera_position": "Static wide shot, door centered, family in foreground shadows",
+      "dialogue": "Only wind screaming and door impact",
+      "audio": {
+        "primary": [
+          "Door explosive impact",
+          "wind at 80mph",
+          "turf falling",
+          "snow accumulating"
+        ],
+        "ambient": [
+          "House holding breath",
+          "heartbeat stuttering",
+          "tilberi breathing faster"
+        ],
+        "absent": [
+          "no human reaction",
+          "frozen tableau"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Collective breath held",
+    "triple_reality": "Physical: storm breaking in / Psychological: masculine intrusion / Mythological: failed hero returns"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

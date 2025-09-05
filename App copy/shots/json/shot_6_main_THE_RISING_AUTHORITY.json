@@ -1,0 +1,65 @@
+{
+  "shot_metadata": {
+    "id": "6",
+    "name": "THE_RISING_AUTHORITY",
+    "title": "THE RISING AUTHORITY",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 12/min â†’ 13/min | KlettagjÃ¡ invisible | N...",
+    "stitch_from": "[STITCH from Shot 5: MagnÃºs conceals bread, prepares to rise]"
+  },
+  "progressive_state": "House 12/min â†’ 13/min | KlettagjÃ¡ invisible | No contamination | Camera frost 3% | Sorting beginning | Watching: MagnÃºs surveys domain",
+  "prompt_variants": [
+    {
+      "variant_id": "6_story_primary",
+      "variant_name": "Primary - THE RISING AUTHORITY",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[MAGNÃšS] pushing himself up from the table with both hands, his 55-year-old frame unfolding to hunched height under the 6-foot ceiling, retrieving his smooth driftwood cane which immediately begins trembling at 3Hz in his grip, the tap-tap-tap against the floor creating rhythm that makes everyone except [SIGRID] automatically begin moving toward invisible positions they know by muscle memory.",
+      "action": "MagnÃºs rises slowly, deliberately, joints cracking audibly in the -8Â°C cold. The moment his hand grasps the cane, tremor visible - 3Hz creating constant tap-tap-tap against packed earth floor like countdown. This sound triggers immediate response: GuÃ°rÃºn's knife stops mid-cut through hÃ¡karl, her shoulders dropping in submission. JÃ³n starts sliding off bench despite fever. Lilja's thumb comes out of mouth, doll dropped. Only Sigrid maintains position, but her body tenses, ready to maintain her 10-foot distance as he moves. The floor where they'll stand shows worn depressions - five spots in semicircle pattern, but six shadows on wall. MagnÃºs moves to storage box in corner, retrieves something wrapped in stained cloth - the ram testicles, grey-pink, fermented. As he unwraps them, his eyes move to Sigrid specifically, measuring, calculating. His tremor increases slightly seeing her, 3.5Hz now. The empty clothes in corner seem to shift, almost standing. House breathing accelerates to 13/min, sensing what's beginning.",
+      "scene": "Interior morning, 5:45 AM, grey light barely beginning outside. Temperature -8Â°C inside, breath visible from everyone, MagnÃºs's breath thicker, more aggressive puffs. The cane tapping creates small dust clouds from floor, revealing the worn patterns more clearly - they form pen-like divisions. Storage box in northeast corner, old wood, contains \"delicacies\" saved for control moments. The wrapped ram testicles steaming slightly in cold air when revealed. Oil lamp flame gutters as he passes, almost dying, recovering dimmer.",
+      "style": "Medium shot following his rise and movement, camera at chest height tracking his authority display (that's where the camera is), slight low angle emphasizing his dominance, cane tapping prominent in frame.",
+      "camera_position": "Medium shot following his rise and movement, camera at chest height tracking his authority display",
+      "dialogue": "(MagnÃºs, standing): Heavy breath, no words yet (Cane hitting floor): Tap-tap-tap-tap (3Hz tremor) (Unwrapping testicles, looking at Sigrid): \"Mmm.\" (Tone: anticipatory)",
+      "audio": {
+        "primary": [
+          "Joints cracking",
+          "cane tremor tapping",
+          "cloth unwrapping",
+          "everyone stopping activities"
+        ],
+        "ambient": [
+          "House breathing accelerating to 13/min",
+          "individuals' breath disrupting",
+          "empty clothes rustling slightly"
+        ],
+        "absent": [
+          "no female voices",
+          "no protest",
+          "no music"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, no text overlays, maintain tremor visibility, show authority through movement, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "GuÃ°rÃºn freezes mid-cut, Sigrid stops singing",
+    "triple_reality": "Physical: hunger ritual / Psychological: control mechanism / Mythological: rÃ©ttir forming"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

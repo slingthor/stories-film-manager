@@ -1,0 +1,55 @@
+{
+  "shot_metadata": {
+    "id": "3a",
+    "name": "ROPE_LESSONS_AT_HEIGHT",
+    "title": "ROPE LESSONS AT HEIGHT",
+    "sequence_type": "prologue",
+    "duration_seconds": 8,
+    "narrative_function": "Teaching moment | Father-son trust | Camera frost ...",
+    "stitch_from": "[STITCH from Shot 2b: Reaching cliff top]"
+  },
+  "progressive_state": "Teaching moment | Father-son trust | Camera frost 0% | Knowledge transfer | Watching: The bond forms",
+  "prompt_variants": [
+    {
+      "variant_id": "3a_story_primary",
+      "variant_name": "Primary - ROPE LESSONS AT HEIGHT",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[MAGNÃšS] kneeling on grass at cliff top, demonstrating knot-tying to [JÃ“N], hands moving slowly through the motions, rope forming complex patterns, ocean visible 300 feet below with blood trail now reaching shore.",
+      "action": "MagnÃºs kneels on thick grass. Spreads rope in front of him. JÃ³n kneels opposite, watching intently. MagnÃºs's large hands take rope end. Forms loop. Passes end through. Pulls to create bowline knot. Unties it. Hands rope to JÃ³n. Boy's smaller hands try to copy. Makes wrong loop. MagnÃºs places his hands over boy's, guides them. Together they form knot correctly. MagnÃºs nods once. Takes rope back. Shows second knot - clove hitch. More complex. JÃ³n watches every movement. Behind them, cliff edge drops straight down. Ocean below shows whale's blood trail now reaching beach, spreading along shoreline. Other men visible as dots preparing flensing area. Women disappeared toward purple hills. MagnÃºs ties rope around JÃ³n's waist, through legs, creating harness. Tests each loop. Boy stands still, trusting.",
+      "scene": "Grassy cliff top, morning sun higher. Edge visible 10 feet away. Ocean far below. Green grass thick, small white flowers scattered.",
+      "style": "Medium shot from side showing both faces and hands working (that's where the camera is), intimate teaching moment, ocean visible in background.",
+      "camera_position": "Medium shot from side showing both faces and hands working",
+      "dialogue": "None",
+      "audio": {
+        "primary": [
+          "Rope fibers creaking",
+          "hands on hemp",
+          "grass rustling"
+        ],
+        "ambient": [
+          "Wind at cliff top",
+          "distant ocean",
+          "birds below"
+        ],
+        "absent": [
+          "verbal instruction"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show hands working rope clearly, blood trail visible in ocean below, intimate moment, 1080p",
+      "video_references": []
+    }
+  ],
+  "others": {},
+  "notes": {
+    "sequence": "prologue",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

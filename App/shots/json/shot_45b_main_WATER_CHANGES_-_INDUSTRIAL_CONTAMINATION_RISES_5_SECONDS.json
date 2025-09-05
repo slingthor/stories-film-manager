@@ -1,0 +1,58 @@
+{
+  "shot_metadata": {
+    "id": "45b",
+    "name": "WATER_CHANGES___INDUSTRIAL_CONTAMINATION_RISES_5_SECONDS",
+    "title": "WATER CHANGES - INDUSTRIAL CONTAMINATION RISES 5 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 5,
+    "narrative_function": "Water corrupting | Oil surfaces | Camera frost 32%...",
+    "stitch_from": "[STITCH from Shot 45a: Gathering seaweed, water responding]"
+  },
+  "progressive_state": "Water corrupting | Oil surfaces | Camera frost 32% | Warning signs | Watching: It rises",
+  "prompt_variants": [
+    {
+      "variant_id": "45b_story_primary",
+      "variant_name": "Primary - WATER CHANGES - INDUSTRIAL CONTAMINATION RISES 5 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The polynya water changing as [GUÃRÃšN] works - oil sheens spreading in rainbow patterns, brass fixtures floating up from depths, rope fragments surfacing, the water itself becoming industrial soup while steam increases, bubbles starting from deep below.",
+      "action": "Water transforms. First: oil sheen spreads from center, rainbow pattern on black. Not natural oil - machine oil, thick, viscous. Second: brass fixtures float up - bolts, rings, chain links - green with verdigris, some fused with flesh fragments. Third: rope pieces surface, but wrong - hemp grown through with veins, organic and industrial fused. Fourth: water color changes from black to black-green, contaminated. Fifth: bubbles begin from deep - not random but in pattern, breathing rhythm, 12 breaths per minute matching house. Each bubble brings up more contamination. GuÃ°rÃºn sees but continues gathering seaweed - what choice does she have? Wool from wrists touches water, immediately absorbs oil, turns grey-black. Steam thickens, visibility dropping. Something massive displacing water from below. Surface bulges slightly. Breathing bubbles increase. Water temperature rising - now 40Â°C, uncomfortable. Her hands red from heat, not cold.",
+      "scene": "Polynya transforming, 9:57 AM. Industrial contamination surfacing. Water heating beyond logic.",
+      "style": "Slow push in on corrupting water (that's where the camera is), contamination revealed.",
+      "camera_position": "Slow push in on corrupting water",
+      "dialogue": "None - she sees but stays silent",
+      "audio": {
+        "primary": [
+          "Oil spreading thick",
+          "brass fixtures clinking",
+          "bubbles breaking surface"
+        ],
+        "ambient": [
+          "Deep breathing below",
+          "water heating hissing",
+          "rope-veins pulsing"
+        ],
+        "absent": [
+          "no escape sounds"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Continuing despite signs",
+    "triple_reality": "Physical: oil in water | Psychological: ignoring danger | Mythological: god surfacing"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

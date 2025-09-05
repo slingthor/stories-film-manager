@@ -1,0 +1,64 @@
+{
+  "shot_metadata": {
+    "id": "23",
+    "name": "SIGRIDS_PREPARATION_PARALLEL_TO_MAGNÃŠS",
+    "title": "SIGRIDS PREPARATION PARALLEL TO MAGNÃšS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 10/min + 50bpm | Parallel desperation | Came...",
+    "stitch_from": "[STITCH from Shot 22: MagnÃºs dragging boat, door closed]"
+  },
+  "progressive_state": "House 10/min + 50bpm | Parallel desperation | Camera frost 14% | Women's action | Watching: House knows",
+  "prompt_variants": [
+    {
+      "variant_id": "23_story_primary",
+      "variant_name": "Primary - SIGRIDS PREPARATION PARALLEL TO MAGNÃšS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Inside the house, [SIGRID] moving to her grandmother's corner where [GUÃRÃšN] sits passive, watching her pregnant daughter gather the tilberi materials - sheep rib from morning meal, grey wool, but also industrial rope from the boat supplies, brass button from trawler contamination, knowing it's wrong but driven by the need to feed the life inside her.",
+      "action": "Sigrid's hand protective on belly - 3-4 months, needs nourishment. Moves to grandmother's corner, GuÃ°rÃºn watching but not stopping her. Opens old box: ritual materials mixed with industrial contamination. Takes sheep rib (from breakfast, still has meat threads). Unravels wool from MagnÃºs's spare sweater (grey with coal dust). Finds rope - but it's from boat supplies, hemp mixed with tar, industrial. Brass button green with verdigris, not bone. Arranges them on floor in pattern from book - but pattern wrong because materials wrong. GuÃ°rÃºn watches, knows what's coming, but stays silent. Women don't speak. Sigrid traces pattern in dust, accidentally makes six points instead of five. Through window, trawler beam illuminates materials - under industrial light, contamination visible. Black fibers through rope, green oxidation on brass, coal dust in wool. Her breathing 15/min (never changes), but baby's heartbeat audible in silence - 140bpm, twice mother's rate. House breathing slows to 8/min, preparing.",
+      "scene": "Interior, 6:32 AM, trawler light every 20 seconds. Temperature -15Â°C from door having been open. Grandmother's corner has old books, forbidden knowledge, Christian crosses trying to hide pagan symbols. Materials arranged in floor dust, pattern emerging. Through window, MagnÃºs tiny figure dragging boat through spirals.",
+      "style": "Close on materials and arrangement, camera at Sigrid's shoulder height (that's where the camera is), documentary of desperate preparation.",
+      "camera_position": "Close on materials and arrangement, camera at Sigrid's shoulder height",
+      "dialogue": "(Sigrid): Silent, lips moving with memorized words (GuÃ°rÃºn): Watching, mouth opens to warn, closes (Baby): Heartbeat audible at 140bpm",
+      "audio": {
+        "primary": [
+          "Materials being arranged",
+          "baby heartbeat",
+          "dust patterns"
+        ],
+        "ambient": [
+          "House breathing slowing to 8/min",
+          "trawler beam rotation",
+          "wind outside"
+        ],
+        "absent": [
+          "no female voices",
+          "no warning",
+          "accepting fate"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show contamination clearly, maintain silence, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Acting without words",
+    "triple_reality": "Physical: gathering materials / Psychological: desperate maternity / Mythological: tradition corrupting"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

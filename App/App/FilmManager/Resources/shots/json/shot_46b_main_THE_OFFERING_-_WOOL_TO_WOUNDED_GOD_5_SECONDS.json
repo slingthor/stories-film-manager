@@ -1,0 +1,59 @@
+{
+  "shot_metadata": {
+    "id": "46b",
+    "name": "THE_OFFERING___WOOL_TO_WOUNDED_GOD_5_SECONDS",
+    "title": "THE OFFERING - WOOL TO WOUNDED GOD 5 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 5,
+    "narrative_function": "Exchange attempted | Wool given | Camera frost 33....",
+    "stitch_from": "[STITCH from Shot 46a: Mutual recognition of marking]"
+  },
+  "progressive_state": "Exchange attempted | Wool given | Camera frost 33.5% | Comfort offered | Watching: Water observes",
+  "prompt_variants": [
+    {
+      "variant_id": "46b_story_primary",
+      "variant_name": "Primary - THE OFFERING - WOOL TO WOUNDED GOD 5 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[GUÃRÃšN] pulling the wool from her wrists - now 80mm long - and reaching up to press it against the Bull's wounds where harpoons enter skull, the white wool immediately turning black from contaminated blood but seeming to ease his pain.",
+      "action": "OVERHEAD SHOT looking down at polynya edge. GuÃ°rÃºn's small figure beside Bull's massive head. She pulls wool from both wrists - continuous now, like unraveling herself. White fibers against black water. Reaches up (standing on toes) to nearest harpoon wound. Presses wool against where brass enters skull. Wool immediately absorbs contamination - turns black, then green, then starts smoking slightly. But Bull's eyes close in relief. The industrial poison being drawn out, even temporarily. She continues, wrapping wool around each harpoon base. Her wrists bleeding now where wool emerged, but she doesn't stop. From above: pattern visible - her movements create spiral around Bull, her footprints in snow forming sixth intersection point again. Wool runs out at 80mm. Her wrists now just raw openings. But Bull calmer. Breathing slowed to 8/min. The wool smoking from absorbed contamination, might catch fire.",
+      "scene": "Aerial view of polynya, two figures in snow. Spiral pattern visible. Blood from her wrists dotting snow.",
+      "style": "Overhead showing ritual pattern of comfort (that's where the camera is), maternal gesture documented.",
+      "camera_position": "Overhead showing ritual pattern of comfort",
+      "dialogue": "(GuÃ°rÃºn): \"Shhh... Ã©g veit... Ã©g veit\" (I know... I know)",
+      "audio": {
+        "primary": [
+          "Wool pulling",
+          "pressing against wounds",
+          "contamination sizzling"
+        ],
+        "ambient": [
+          "Bull's breathing slowing",
+          "her wrists bleeding drops",
+          "wool smoking"
+        ],
+        "absent": [
+          "no healing",
+          "just temporary ease"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Gesture replaces words",
+    "triple_reality": "Physical: wool for wounds | Psychological: mother's instinct | Mythological: mortal comforting god"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

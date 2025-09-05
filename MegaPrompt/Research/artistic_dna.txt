@@ -1,0 +1,211 @@
+GENIUS CONCEPTS & IDEAS TO RESEARCH FOR AI PROMPTING
+The Artistic DNA That Will Elevate Your Film
+
+I. CONCEPTUAL BREAKTHROUGHS TO STUDY
+THE KULESHOV EFFECT
+What it is: Soviet filmmaker discovered that audiences create meaning between shots, not in them
+Why research this: Your transformation happens BETWEEN frames - the audience fills the gap
+Prompt application: "Shot A: human at table | Shot B: sheep at table | Audience creates transformation"
+Study: The original 1918 experiments - same face + different objects = different emotions
+LYNCH'S "ROOM TONE" PHILOSOPHY
+From: David Lynch's sound design in Eraserhead
+Concept: Every space has its own consciousness expressed through ambient sound
+For your film: The house's 16Hz frequency IS Bergrisi speaking
+Research: Lynch interviews about "the room is a character"
+Prompt enhancement: "The room's acoustic signature at 16Hz"
+STAN BRAKHAGE'S "CLOSED-EYE VISION"
+Concept: What you see when you press your eyelids = more real than filmed reality
+His technique: Painted directly on film, scratched emulsion
+For your AI: The glitches and artifacts ARE the dying consciousness's "closed-eye vision"
+Prompt idea: "Hypnagogic hallucination," "phosphene patterns," "entoptic phenomena"
+
+II. REVOLUTIONARY IDEAS ABOUT TIME
+CHRIS MARKER'S "LA JETÉE" - PHOTOGRAPHY AS MEMORY
+Genius concept: Entire film is still photos except ONE moving shot
+Why this matters: Memory doesn't move smoothly - it jumps between frozen moments
+For your film: The three-frame flash works like this
+Research: How stillness can be more dynamic than movement
+Prompt application: "Photographic memory fragments," "frozen time except for tears"
+TARKOVSKY'S "SCULPTING IN TIME"
+His theory: Cinema's unique power is showing time's pressure/weight
+The 30-second hold: This IS time pressure - forcing audience to experience duration
+Research: His book "Sculpting in Time" - Chapter 3 specifically
+Prompt gold: "Time pressure visible," "duration as weight," "temporal density"
+HOLLIS FRAMPTON'S "NOSTALGIA" - DELAYED NARRATION
+Concept: Image and sound deliberately out of sync - describing previous/next image
+Your application: The family is already sheep before we see them transform
+Research: Structural film movement - how desynchronization creates meaning
+Prompts: "Temporal displacement," "future casting shadow backward"
+
+III. TRANSFORMATION & BODY HORROR PHILOSOPHY
+CRONENBERG'S "THE FLY" - DISEASE AS TRANSFORMATION
+Not the effects, the IDEA: Transformation is disease you watch yourself undergo
+Key insight: Consciousness remains while body changes = ultimate horror
+Your family: KNOWS they're becoming sheep
+Research term: "Body horror with maintained consciousness"
+Prompt: "Aware of own transformation," "watching self change"
+KAFKA'S METAMORPHOSIS - NEVER DESCRIBING THE CREATURE
+Genius move: Never actually describes what Gregor looks like
+Why: Reader's imagination worse than any description
+Your film: Never show transformation moment
+Research: Kafka's letters about deliberate ambiguity
+Prompt technique: "Transformation implied not shown," "horror in absence"
+JUNJI ITO'S "UZUMAKI" - PATTERN AS INFECTION
+Concept: Spiral pattern literally infects reality
+Your film: Five spirals/six points pattern infects everything
+Research: How geometric patterns can carry narrative meaning
+Prompts: "Spiral infection," "geometric contamination," "pattern as virus"
+
+IV. THE UNCANNY & DOUBLES
+JORDAN PEELE'S "US" - THE TETHERED CONCEPT
+Idea: Everyone has underground double living parallel life
+Your shadows: Sheep shadows for human bodies (and vice versa)
+Research: Peele interviews about "we are our own monsters"
+Prompt enhancement: "Shadow living different life," "parallel existence visible"
+FREUD'S "THE UNCANNY" (DAS UNHEIMLICHE)
+Core concept: Most terrifying = familiar made strange
+Your film: House is body, family is livestock, food is poison
+Must read: The 1919 essay, especially about dolls and doubles
+Prompt terms: "Unheimlich," "familiar yet wrong," "domestic made strange"
+PESSOA'S HETERONYMS
+Concept: Portuguese poet had 75+ different identities who wrote differently
+Your application: Family might be one entity experiencing itself as five
+Research: "The Book of Disquiet" - fragmented consciousness
+Prompts: "Multiple consciousness in one," "fragmented identity"
+
+V. WITNESS & OBSERVATION CONCEPTS
+HITCHCOCK'S "REAR WINDOW" - COMPLICIT WATCHING
+The genius: Audience becomes guilty by watching
+Your camera: Is the seventh family member, is Iceland watching itself
+Research: Essays about scopophilia and cinematic gaze
+Prompt idea: "Camera as character," "guilty observation," "complicit gaze"
+MICHAEL HANEKE'S "CACHÉ" - SURVEILLANCE AS HORROR
+Concept: Being watched changes behavior even if watcher unknown
+Your family: Knows they're being documented
+Research: Haneke on "violence of observation"
+Prompts: "Aware of being watched," "performance for invisible audience"
+"THE FIVE OBSTRUCTIONS" - DOGME 95
+Von Trier's concept: Restrictions create creativity
+Your 8-second limit: Is a creative restriction that shapes narrative
+Research: The Dogme 95 manifesto - "Vow of Chastity"
+Application: List restrictions in prompt: "No shot longer than 8 seconds"
+
+VI. MYTHOLOGICAL TIME & REALITY
+ALAN MOORE'S "ETERNALISM" IN WATCHMEN
+Concept: All moments exist simultaneously - time is a solid
+Your monument: Exists in all times at once
+Research: Dr. Manhattan's perception of time
+Prompt gold: "All temporal states simultaneous," "time as solid object"
+BORGES' "THE ALEPH" - POINT CONTAINING ALL POINTS
+Idea: Single point that contains all other points in space
+Your cleft: 18 inches outside, infinite inside
+Read: The short story "The Aleph"
+Prompt: "Space containing all spaces," "infinite interior in finite exterior"
+PHILIP K. DICK'S "TIME OUT OF JOINT"
+Concept: Reality is performance, everyone knows but you
+Your tourists: See family in monument but think it's art
+Research: Dick's theory of orthogonal time
+Prompts: "Reality as performance," "truth too true to believe"
+
+VII. DEGRADATION AS NARRATIVE
+WILLIAM BASINSKI'S "DISINTEGRATION LOOPS"
+What happened: Magnetic tape literally fell apart while playing
+The genius: Decay became the composition
+Your film: AI degradation IS the story
+Listen to: All 6 loops - hear entropy as art
+Prompt evolution: "Generation degrading," "entropy as narrative"
+JEAN COCTEAU'S "ORPHEUS" - DEATH AS BUREAUCRACY
+Concept: Death is administrative process with forms and procedures
+Your Danish counting: Administration as death sentence
+Research: The "Zone" sequences - bureaucratic afterlife
+Prompts: "Administrative horror," "bureaucracy as death," "counting as killing"
+NAM JUNE PAIK'S "MAGNET TV"
+Concept: Magnets on CRT creating planned distortion
+Your approach: AI artifacts as intentional aesthetics
+Research: Video art using errors as features
+Prompts: "Intentional artifacts," "glitch as meaning," "error as message"
+
+VIII. ARCHITECTURAL CONSCIOUSNESS
+SHIRLEY JACKSON'S "HILL HOUSE" OPENING
+The line: "Whatever walked there, walked alone"
+Concept: House has agenda, selects inhabitants
+Your house: Bergrisi choosing who survives
+Research: Jackson's notes on sentient architecture
+Prompts: "Architecture with agency," "building choosing inhabitants"
+TSUKAMOTO'S "TETSUO" - FLESH/METAL FUSION
+Concept: Industrial materials growing into/from body
+Your contamination: Rope through neck, brass eyes
+Research: Japanese cyberpunk philosophy
+Prompts: "Industrial materials fused with flesh," "mechanical infection"
+
+IX. ESSENTIAL PARADOXES TO UNDERSTAND
+SCHRÖDINGER'S CAT
+Why research: Your family is simultaneously human AND sheep
+Application: Observation doesn't resolve state - maintains paradox
+Prompt technique: "Superposition maintained," "both states true"
+ZENO'S PARADOX
+The concept: Infinite steps to cross finite distance
+Your application: Magnús never reaching water, infinite effort
+Prompt idea: "Motion impossible yet happening," "infinite regression"
+THE SHIP OF THESEUS
+Question: If all parts replaced, is it same ship?
+Your family: If all become sheep, are they still family?
+Prompt philosophy: "Identity persisting through total change"
+
+X. PRACTICAL PROMPT IMPROVEMENTS FROM THESE CONCEPTS
+INSTEAD OF: "Family at table"
+USE: "Family at table like Hammershøi painting - negative space has weight"
+INSTEAD OF: "Sheep transformation"
+USE: "Metamorphosis implied through shadow like German Expressionism"
+INSTEAD OF: "House breathing"
+USE: "Architecture breathing like Cronenberg's living buildings, 12 respirations per minute"
+INSTEAD OF: "Raven watching"
+USE: "Raven holding Marker's La Jetée stillness - time stopped except consciousness"
+INSTEAD OF: "Industrial contamination"
+USE: "Tetsuo-style industrial infection, materials growing through flesh"
+INSTEAD OF: "Time breaking"
+USE: "Temporal superposition like Dr. Manhattan's perception - all moments simultaneous"
+
+KEY RESEARCH TERMS FOR DEPTH
+Philosophical:
+
+Hauntology (Derrida)
+Capitalist Realism (Mark Fisher)
+The Weird and Eerie (Fisher)
+Cosmic Horror (Ligotti)
+Object-Oriented Ontology
+
+Artistic:
+
+Structural Film Movement
+Fluxus
+Actionism
+Slow Cinema
+Expanded Cinema
+
+Technical/Aesthetic:
+
+Datamoshing
+Glitch Feminism
+Post-Internet Art
+Hauntological Music
+Hyperstition
+
+Read These Specific Texts:
+
+"The Weird and the Eerie" by Mark Fisher - for landscape consciousness
+"In the Dust of This Planet" by Eugene Thacker - for cosmic horror
+"The Conspiracy Against the Human Race" by Ligotti - for consciousness horror
+"Cyclonopedia" by Reza Negarestani - for oil as narrative agent
+"House of Leaves" by Danielewski - for architectural impossibility
+
+Watch These for Specific Ideas:
+
+"World on a Wire" (1973) - for nested realities
+"On the Silver Globe" (1988) - for degraded film as narrative
+"Evolution of a Filipino Family" (2004) - for duration as meaning
+"Visitor Q" (2001) - for domestic horror
+"The Hourglass Sanatorium" (1973) - for time sickness
+
+These concepts aren't just references - they're WAYS OF THINKING that will make your prompts create something beyond technical competence. You're not making pretty pictures - you're generating traumatized consciousness, sick time, living architecture, impossible mathematics.
+The AI needs to understand it's not depicting - it's BEING the dying memory, the broken mathematics, the impossible truth.

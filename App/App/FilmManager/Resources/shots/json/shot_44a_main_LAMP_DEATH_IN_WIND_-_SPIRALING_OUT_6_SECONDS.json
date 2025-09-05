@@ -1,0 +1,59 @@
+{
+  "shot_metadata": {
+    "id": "44a",
+    "name": "LAMP_DEATH_IN_WIND___SPIRALING_OUT_6_SECONDS",
+    "title": "LAMP DEATH IN WIND - SPIRALING OUT 6 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "Storm chaos | Last light dying | Camera frost 30% ...",
+    "stitch_from": "[STITCH from Shot 43c: Door closes, GuÃ°rÃºn in storm]"
+  },
+  "progressive_state": "Storm chaos | Last light dying | Camera frost 30% | Solitude begins | Watching: Only storm",
+  "prompt_variants": [
+    {
+      "variant_id": "44a_story_primary",
+      "variant_name": "Primary - LAMP DEATH IN WIND - SPIRALING OUT 6 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Camera spiraling around [GUÃRÃšN] as she stands in the storm, oil lamp flame horizontal in wind then dying, the moment of darkness triggering her first deep breath in years - visible as massive white cloud - finally alone, no one watching except us.",
+      "action": "CAMERA SPIRALS counterclockwise matching wind vortex. GuÃ°rÃºn holds lamp fragment, flame bending 90 degrees horizontal. First spiral: flame yellow, fighting. Second spiral: flame blue, shrinking. Her sealskin cloak whipping, revealing wool she pulled from wrists - now 25mm long, wrapped around fingers, already ice-covered. Third spiral: flame dies. Darkness except snow reflecting pre-dawn grey. But in darkness - her breathing changes. Deep inhale, visible as huge white cloud, held, released. First unobserved breath in years. No husband counting. No children needing. Face relaxes into something almost like peace. Wind creates snow spirals around her - five spirals with six intersection points, the pattern everywhere. Her first step: not toward sea but standing still, feeling solitude. FaldbÃºningur headdress collecting snow, becoming white crown.",
+      "scene": "Outside house, horizontal snow. Visibility 3 meters. Wind vortex creating natural spiral. -30Â°C visible in instant ice formation.",
+      "style": "Spiraling camera matching wind pattern, darkness when lamp dies (that's where the camera is), her liberation through solitude.",
+      "camera_position": "Spiraling camera matching wind pattern, darkness when lamp dies",
+      "dialogue": "None - just breathing changing from controlled to free",
+      "audio": {
+        "primary": [
+          "Wind at 90mph",
+          "lamp flame dying",
+          "her deep free breathing"
+        ],
+        "ambient": [
+          "Snow horizontal",
+          "house invisible already",
+          "spiral patterns"
+        ],
+        "absent": [
+          "no human sounds",
+          "alone"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Alone, she breathes freely",
+    "triple_reality": "Physical: -30Â°C death cold | Psychological: first solitude in years | Mythological: walking to water god"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

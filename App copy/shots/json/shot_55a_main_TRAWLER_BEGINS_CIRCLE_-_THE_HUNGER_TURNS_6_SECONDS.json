@@ -1,0 +1,57 @@
+{
+  "shot_metadata": {
+    "id": "55a",
+    "name": "TRAWLER_BEGINS_CIRCLE___THE_HUNGER_TURNS_6_SECONDS",
+    "title": "TRAWLER BEGINS CIRCLE - THE HUNGER TURNS 6 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "House 3/min critical + 35bpm | Serpent moving | Ca...",
+    "stitch_from": "[STITCH from Shot 54c: Family over Bull, morning routine]"
+  },
+  "progressive_state": "House 3/min critical + 35bpm | Serpent moving | Camera frost 46% | Ouroboros beginning | Watching: End approaching",
+  "prompt_variants": [
+    {
+      "variant_id": "55a_story_primary",
+      "variant_name": "Primary - TRAWLER BEGINS CIRCLE - THE HUNGER TURNS 6 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Through the window, the trawler GRIMSBY PRIDE beginning to move in a circle on the fjord, searchlights creating yellow spiral in water, the serpent hunting its own wake, industrial capitalism starting to consume itself.",
+      "action": "Family at window - all drawn by sound. Trawler's engine changes pitch: industrial drone becoming organic hunger. Through frost-covered glass: trawler moving. Not straight but curving. Beginning massive circle on black water. Searchlights sweep but catch only its own wake - green-black contamination trail it left before. Following its own poison. WIDE SHOT shows scale: circle will be 1 kilometer diameter. Perfect geometry. Speed increasing: 5 knots, 10, 15. Impossible for vessel that size. Water churning white-green foam. As it turns, glimpse through wheelhouse: no crew. But something coiled inside. Massive. The ship just the visible portion of something much larger below. Sigrid presses black feather against window. Where it touches, frost melts, revealing clearer view. The trawler hunting itself. Industrial system pursuing its own destruction.",
+      "scene": "View through window of fjord. Trawler creating perfect circle. Family gathered watching. Bull still at threshold.",
+      "style": "Wide shot through frosted window (that's where the camera is), ouroboros beginning documented.",
+      "camera_position": "Wide shot through frosted window",
+      "dialogue": "(MagnÃºs): \"HvaÃ° er Ã¾aÃ° aÃ° gera?\" (Sigrid, knowing): \"ÃžaÃ° byrjar\" (It begins)",
+      "audio": {
+        "primary": [
+          "Engine pitch changing",
+          "water churning",
+          "searchlights humming"
+        ],
+        "ambient": [
+          "House 3/min critical breathing",
+          "family gathered breathing"
+        ],
+        "absent": [
+          "no crew sounds from ship"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "All watching silently",
+    "triple_reality": "Physical: trawler circling | Psychological: obsession consuming itself | Mythological: JÃ¶rmungandr's hunger"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

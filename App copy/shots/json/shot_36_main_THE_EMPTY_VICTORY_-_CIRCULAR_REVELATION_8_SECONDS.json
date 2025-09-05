@@ -1,0 +1,60 @@
+{
+  "shot_metadata": {
+    "id": "36",
+    "name": "THE_EMPTY_VICTORY___CIRCULAR_REVELATION_8_SECONDS",
+    "title": "THE EMPTY VICTORY - CIRCULAR REVELATION 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "Alone on poisoned water | Nothing gained | Camera ...",
+    "stitch_from": "[STITCH from Shot 35c: Trawler pulled under, MagnÃºs alone]"
+  },
+  "progressive_state": "Alone on poisoned water | Nothing gained | Camera frost 23.5% | Futility revealed | Watching: Only ravens remain",
+  "prompt_variants": [
+    {
+      "variant_id": "36_story_primary",
+      "variant_name": "Primary - THE EMPTY VICTORY - CIRCULAR REVELATION 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Camera beginning tight on [MAGNÃšS]'s face then slowly pulling back while rotating 360Â° around his boat, revealing the complete emptiness of the fjord - no ships, no birds except seven ravens above, just poisoned green-black water stretching to every horizon, his face aging years in seconds as he comprehends his victory is absolute defeat.",
+      "action": "CAMERA BEGINS on MagnÃºs's face in close-up - triumph draining to horror. PULLS BACK while starting clockwise rotation. First quarter turn: reveals his 0Hz hands still gripping useless rifle, two bullets remaining. Second quarter: shows poisoned wake, green-black trail 50 meters wide where trawler passed, water actually steaming toxic vapors. Third quarter: empty horizon toward house - tiny structure barely visible, smoke starting again but black now. Final quarter: completing circle to his face but WIDER now, showing him tiny in vast poisoned emptiness. During rotation, his face visibly ages - hair whitening at roots spreading outward, new lines carving deep, eyes sinking. Above, seven ravens maintain perfect spiral, their shadows on water creating mandala pattern. Through clear water between poison: seafloor visible, completely barren, trawl scars now filling with green-black contamination. The victory cost everything.",
+      "scene": "Center of fjord, 9:25 AM. Poisoned water spreading. No life visible except ravens. Mountains reflected in toxic water.",
+      "style": "360Â° continuous rotation with pullback, starting ECU ending extreme wide (that's where the camera is), choreographed loneliness.",
+      "camera_position": "360Â° continuous rotation with pullback, starting ECU ending extreme wide",
+      "dialogue": "(MagnÃºs, beginning): \"Ã‰g vann...\" (I won...) (Midway through rotation): \"Nei...\" (Completion, whispered): \"HvaÃ° vann Ã©g?\" (What did I win?)",
+      "audio": {
+        "primary": [
+          "Camera movement whoosh",
+          "toxic water hissing",
+          "aging happening with crystalline crackling"
+        ],
+        "ambient": [
+          "Seven ravens' wings creating wind vortex above",
+          "0Hz tremor silence",
+          "poisoned water spreading"
+        ],
+        "absent": [
+          "no life sounds",
+          "no victory",
+          "no hope"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no cuts during rotation, continuous movement, show aging in real-time, maintain 360Â° circle",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "None present",
+    "triple_reality": "Physical: poisoned fjord / Psychological: pyrrhic victory / Mythological: serpent's curse"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

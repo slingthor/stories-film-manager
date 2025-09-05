@@ -1,0 +1,57 @@
+{
+  "shot_metadata": {
+    "id": "57b",
+    "name": "FLICKER_OF_LIGHT___HAMR_VISIBLE_3_SECONDS",
+    "title": "FLICKER OF LIGHT - HAMR VISIBLE 3 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 3,
+    "narrative_function": "Brief illumination | Camera frost 49.5% | Form rev...",
+    "stitch_from": "[STITCH from Shot 57a: Black with breathing]"
+  },
+  "progressive_state": "Brief illumination | Camera frost 49.5% | Form revealed | Watching: Split-second truth",
+  "prompt_variants": [
+    {
+      "variant_id": "57b_story_primary",
+      "variant_name": "Primary - FLICKER OF LIGHT - HAMR VISIBLE 3 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "A match strikes - one second of light - revealing five sheep standing upright in human positions, wearing shredded clothes, their shadows on walls showing HUMAN shapes, inverse of everything we believed.",
+      "action": "MATCH STRIKES. One second illumination. Flash reveals: Five sheep. Standing on hind legs. In torn human clothes. Positioned like family. But shadows on walls: perfect human silhouettes. Shadow-MagnÃºs standing proud. Shadow-GuÃ°rÃºn maternal. Shadow-children playing. Shadow-Sigrid apart. The shadows are more human than the bodies. Or are shadows the lie? Match dies. Darkness returns. But image burned in retina. Were they sheep casting human shadows? Humans casting sheep shadows? Both simultaneously? In that second: glimpse of Sigrid. She's... different. Not quite sheep. Not quite human. Something between. Becoming something else. Match dies. Breathing continues. Now we can't unhear the sheep quality. Can't unknow what we saw.",
+      "scene": "One second of match-light. Five sheep upright. Human shadows on walls. Then darkness.",
+      "style": "Brief illumination in darkness (that's where the camera is), inverse reality glimpsed.",
+      "camera_position": "Brief illumination in darkness",
+      "dialogue": "None - just sharp intake of breath at sight",
+      "audio": {
+        "primary": [
+          "Match strike",
+          "quick flame",
+          "immediate extinguish"
+        ],
+        "ambient": [
+          "Breathing continues",
+          "shadows seem to make sound"
+        ],
+        "absent": [
+          "no words"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Cannot speak in true form",
+    "triple_reality": "Physical: match strikes | Psychological: glimpse of real | Mythological: hamr confirmed"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

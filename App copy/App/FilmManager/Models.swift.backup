@@ -1,0 +1,615 @@
+import Foundation
+import SwiftUI
+
+// MARK: - Main Film System Data Models
+
+class FilmSystemManager: ObservableObject {
+    @Published var currentSystem: FilmSystem?
+    @Published var shots: [Shot] = []
+    @Published var selectedShot: Shot? {
+        didSet {
+            if let shot = selectedShot {
+                updateSystemsForShot(shot)
+            }
+        }
+    }
+    @Published var trackingSystems: [TrackingSystem] = []
+    
+    private let jsonManager = JSONManager.shared
+    
+    init() {
+        setupTrackingSystems()
+    }
+    
+    func loadFilmSystem() {
+        // Load from JSON manager
+        currentSystem = jsonManager.loadMainSystem()
+        shots = jsonManager.loadAllShots()
+        
+        // Initialize tracking systems from main system
+        if let system = currentSystem {
+            updateTrackingSystemsFromMainSystem(system)
+        }
+    }
+    
+    private func setupTrackingSystems() {
+        // Initialize tracking systems with default values
+        trackingSystems = [
+            TrackingSystem(name: "breathing_coordination", description: "Family respiratory synchronization", currentPercentage: 32.0),
+            TrackingSystem(name: "temperature_progression", description: "Environmental temperature changes", currentPercentage: 28.0),
+            TrackingSystem(name: "klettagja_formation", description: "Cliff cleft development", currentPercentage: 15.0),
+            TrackingSystem(name: "spatial_impossibilities", description: "Mathematical physics violations", currentPercentage: 25.0),
+            TrackingSystem(name: "house_consciousness", description: "Bergrisi awareness", currentPercentage: 35.0),
+            TrackingSystem(name: "reality_coherence", description: "Physical laws stability", currentPercentage: 65.0),
+            TrackingSystem(name: "industrial_contamination", description: "Imperial materials spreading", currentPercentage: 22.0),
+            TrackingSystem(name: "hakarl_contamination", description: "Food corruption", currentPercentage: 18.0),
+            TrackingSystem(name: "stain_progression", description: "Liquid contamination marking", currentPercentage: 35.0)
+        ]
+    }
+    
+    private func copyMainJSON(timestamp: String) {
+        let sourceFile = "\(documentsPath)/main_film_system.json"
+        let destFile = "\(documentsPath)/main_film_system_\(timestamp).json"
+        
+        do {
+            try FileManager.default.copyItem(atPath: sourceFile, toPath: destFile)
+            print("Copied main system to: \(destFile)")
+        } catch {
+            print("Error copying main system: \(error)")
+        }
+    }
+    
+    private func setupAutoSave() {
+        // Auto-save every 10 seconds
+        autoSaveTimer = Timer.scheduledTimer(withTimeInterval: 10.0, repeats: true) { _ in
+            self.saveCurrentState()
+        }
+    }
+    
+    func saveCurrentState() {
+        // Save all modified shots
+        for shot in shots where shot.isDirty {
+            shot.saveToFile()
+        }
+        
+        // Save main system if modified
+        saveMainSystem()
+    }
+}
+
+class FilmSystem: ObservableObject, Codable {
+    @Published var title: String
+    @Published var version: String
+    @Published var totalShots: Int
+    @Published var trackingSystems: [String: TrackingSystemData]
+    
+    struct TrackingSystemData: Codable {
+        let description: String
+        let continuousRange: [Int]
+        var currentPercentage: Double
+        let sliderIncrements: Double
+        let milestoneValues: [String: String]
+        let affectsShots: [String]
+    }
+    
+    enum CodingKeys: CodingKey {
+        case title, version, totalShots, trackingSystems
+    }
+    
+    init() {
+        self.title = "The Sheep in the Baðstofa"
+        self.version = "v18_enhanced"
+        self.totalShots = 165
+        self.trackingSystems = [:]
+    }
+    
+    required init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.title = try container.decode(String.self, forKey: .title)
+        self.version = try container.decode(String.self, forKey: .version)
+        self.totalShots = try container.decode(Int.self, forKey: .totalShots)
+        self.trackingSystems = try container.decode([String: TrackingSystemData].self, forKey: .trackingSystems)
+    }
+    
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(title, forKey: .title)
+        try container.encode(version, forKey: .version)
+        try container.encode(totalShots, forKey: .totalShots)
+        try container.encode(trackingSystems, forKey: .trackingSystems)
+    }
+}
+
+class Shot: ObservableObject, Identifiable, Codable {
+    let id = UUID()
+    @Published var shotId: String
+    @Published var name: String
+    @Published var title: String
+    @Published var sequenceType: String
+    @Published var durationSeconds: Int
+    @Published var filmPositionPercentage: Double
+    @Published var narrativeFunction: String
+    @Published var storySignificance: String
+    @Published var progressiveState: String
+    @Published var stitchFrom: String
+    @Published var promptVariants: [PromptVariant] = []
+    @Published var others: [String: String] = [:]
+    @Published var notes: [String: String] = [:]
+    @Published var isDirty: Bool = false
+    @Published var videos: [VideoFile] = []
+    @Published var images: [ImageFile] = []
+    
+    private var filename: String = ""
+    
+    enum CodingKeys: String, CodingKey {
+        case shotId = "id"
+        case name, title, sequenceType, durationSeconds, filmPositionPercentage
+        case narrativeFunction, storySignificance, progressiveState, stitchFrom
+        case promptVariants, others, notes, videos, images
+    }
+    
+    init(shotId: String, name: String, title: String) {
+        self.shotId = shotId
+        self.name = name
+        self.title = title
+        self.sequenceType = "main_story"
+        self.durationSeconds = 8
+        self.filmPositionPercentage = 50.0
+        self.narrativeFunction = ""
+        self.storySignificance = ""
+        self.progressiveState = ""
+        self.stitchFrom = ""
+    }
+    
+    required init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.shotId = try container.decode(String.self, forKey: .shotId)
+        self.name = try container.decode(String.self, forKey: .name)
+        self.title = try container.decode(String.self, forKey: .title)
+        self.sequenceType = try container.decodeIfPresent(String.self, forKey: .sequenceType) ?? "main_story"
+        self.durationSeconds = try container.decodeIfPresent(Int.self, forKey: .durationSeconds) ?? 8
+        self.filmPositionPercentage = try container.decodeIfPresent(Double.self, forKey: .filmPositionPercentage) ?? 50.0
+        self.narrativeFunction = try container.decodeIfPresent(String.self, forKey: .narrativeFunction) ?? ""
+        self.storySignificance = try container.decodeIfPresent(String.self, forKey: .storySignificance) ?? ""
+        self.progressiveState = try container.decodeIfPresent(String.self, forKey: .progressiveState) ?? ""
+        self.stitchFrom = try container.decodeIfPresent(String.self, forKey: .stitchFrom) ?? ""
+        self.promptVariants = try container.decodeIfPresent([PromptVariant].self, forKey: .promptVariants) ?? []
+        self.others = try container.decodeIfPresent([String: String].self, forKey: .others) ?? [:]
+        self.notes = try container.decodeIfPresent([String: String].self, forKey: .notes) ?? [:]
+        self.videos = try container.decodeIfPresent([VideoFile].self, forKey: .videos) ?? []
+        self.images = try container.decodeIfPresent([ImageFile].self, forKey: .images) ?? []
+    }
+    
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(shotId, forKey: .shotId)
+        try container.encode(name, forKey: .name)
+        try container.encode(title, forKey: .title)
+        try container.encode(sequenceType, forKey: .sequenceType)
+        try container.encode(durationSeconds, forKey: .durationSeconds)
+        try container.encode(filmPositionPercentage, forKey: .filmPositionPercentage)
+        try container.encode(narrativeFunction, forKey: .narrativeFunction)
+        try container.encode(storySignificance, forKey: .storySignificance)
+        try container.encode(progressiveState, forKey: .progressiveState)
+        try container.encode(stitchFrom, forKey: .stitchFrom)
+        try container.encode(promptVariants, forKey: .promptVariants)
+        try container.encode(others, forKey: .others)
+        try container.encode(notes, forKey: .notes)
+        try container.encode(videos, forKey: .videos)
+        try container.encode(images, forKey: .images)
+    }
+    
+    func saveToFile() {
+        let documentsPath = "/Users/ingthor/Documents/stories/App/shots/json"
+        let filename = "\(shotId)_\(sequenceType)_\(name).json"
+        let filepath = "\(documentsPath)/\(filename)"
+        
+        do {
+            let jsonData = try JSONEncoder().encode(self)
+            try jsonData.write(to: URL(fileURLWithPath: filepath))
+            self.isDirty = false
+            print("Saved shot: \(filename)")
+        } catch {
+            print("Error saving shot \(shotId): \(error)")
+        }
+    }
+    
+    func markDirty() {
+        self.isDirty = true
+    }
+}
+
+struct PromptVariant: Codable, Identifiable {
+    let id = UUID()
+    var variantId: String
+    var variantName: String
+    var intentTags: [String]
+    var priority: Int
+    var subject: String
+    var action: String
+    var scene: String
+    var style: String
+    var cameraPosition: String
+    var dialogue: String
+    var audio: AudioSpec
+    var characterPlates: CharacterPlates
+    var environmentalPlates: EnvironmentalPlates
+    var negativePrompt: String
+    var videoReferences: [String]
+    var isActive: Bool = false
+    
+    enum CodingKeys: String, CodingKey {
+        case variantId, variantName, intentTags, priority
+        case subject, action, scene, style, cameraPosition, dialogue
+        case audio, characterPlates, environmentalPlates, negativePrompt
+        case videoReferences, isActive
+    }
+}
+
+struct AudioSpec: Codable {
+    var primary: [String]
+    var ambient: [String]
+    var absent: [String]
+}
+
+struct CharacterPlates: Codable {
+    var present: [String]
+    var referenced: [String]
+}
+
+struct EnvironmentalPlates: Codable {
+    var landscape: String?
+    var weather: String?
+    var lighting: String?
+    var sea: String?
+}
+
+struct VideoFile: Codable, Identifiable {
+    let id = UUID()
+    var filename: String
+    var filepath: String
+    var generationDate: String
+    var qualityRating: Double?
+    var notes: String
+    
+    enum CodingKeys: String, CodingKey {
+        case filename, filepath, generationDate, qualityRating, notes
+    }
+}
+
+struct ImageFile: Codable, Identifiable {
+    let id = UUID()
+    var filename: String
+    var filepath: String
+    var description: String
+    var isReference: Bool
+    
+    enum CodingKeys: String, CodingKey {
+        case filename, filepath, description, isReference
+    }
+}
+
+class TrackingSystem: ObservableObject, Identifiable {
+    let id = UUID()
+    @Published var name: String
+    @Published var description: String
+    @Published var currentPercentage: Double
+    @Published var continuousRange: [Double]
+    @Published var milestoneValues: [Double: String]
+    @Published var affectedShots: [String]
+    @Published var isVisible: Bool = true
+    
+    init(name: String, description: String, currentPercentage: Double = 0.0) {
+        self.name = name
+        self.description = description
+        self.currentPercentage = currentPercentage
+        self.continuousRange = [0, 100]
+        self.milestoneValues = [:]
+        self.affectedShots = []
+    }
+    
+    func updatePercentage(_ newValue: Double) {
+        self.currentPercentage = newValue
+    }
+    
+    func getValueAtPercentage(_ percentage: Double) -> String {
+        // Find closest milestone
+        let sortedKeys = milestoneValues.keys.sorted()
+        
+        for i in 0..<sortedKeys.count {
+            if percentage <= sortedKeys[i] {
+                return milestoneValues[sortedKeys[i]] ?? ""
+            }
+        }
+        
+        return milestoneValues[sortedKeys.last ?? 0] ?? ""
+    }
+}
+
+class TimelineManager: ObservableObject {
+    @Published var currentTime: Double = 0.0
+    @Published var totalDuration: Double = 720.0 // 12 minutes
+    @Published var isPlaying: Bool = false
+    @Published var shouldFollowTimeline: Bool = true
+    @Published var shotMarkers: [ShotMarker] = []
+    
+    struct ShotMarker: Identifiable {
+        let id = UUID()
+        let shotId: String
+        let timePosition: Double
+        let duration: Double
+        let hasVideo: Bool
+    }
+    
+    func playTimeline() {
+        isPlaying = true
+        // Implement timeline playback logic
+    }
+    
+    func pauseTimeline() {
+        isPlaying = false
+    }
+    
+    func seekTo(time: Double) {
+        currentTime = time
+    }
+    
+    func getShotAtTime(_ time: Double) -> String? {
+        for marker in shotMarkers {
+            if time >= marker.timePosition && time < marker.timePosition + marker.duration {
+                return marker.shotId
+            }
+        }
+        return nil
+    }
+}
+
+// MARK: - Plate Management
+
+struct CharacterPlate: Codable, Identifiable {
+    let id = UUID()
+    var plateId: String
+    var character: String
+    var description: String
+    var arcStage: String
+    
+    enum CodingKeys: String, CodingKey {
+        case plateId, character, description, arcStage
+    }
+}
+
+struct EnvironmentalPlate: Codable, Identifiable {
+    let id = UUID()
+    var plateId: String
+    var category: String // landscape, weather, lighting, sea
+    var description: String
+    var conditions: String
+    
+    enum CodingKeys: String, CodingKey {
+        case plateId, category, description, conditions
+    }
+}
+
+class PlateManager: ObservableObject {
+    @Published var characterPlates: [CharacterPlate] = []
+    @Published var environmentalPlates: [EnvironmentalPlate] = []
+    
+    init() {
+        loadPlates()
+    }
+    
+    private func loadPlates() {
+        // Load character plates from enhancement files
+        loadCharacterPlates()
+        loadEnvironmentalPlates()
+    }
+    
+    private func loadCharacterPlates() {
+        // Reference to enhancement files
+        let plateFiles = [
+            "magnus_advanced_character_plates_system.txt",
+            "sigrid_advanced_character_plates_system.txt", 
+            "gudrun_advanced_character_plates_system.txt",
+            "jon_advanced_character_plates_system.txt",
+            "lilja_complete_character_plates_expanded.txt"
+        ]
+        
+        // Parse plate files and populate characterPlates array
+        // Implementation depends on plate file structure
+    }
+    
+    private func loadEnvironmentalPlates() {
+        // Load environmental plates
+        let envFiles = [
+            "baðstofa_environmental_plates_bergrisi_transformation.txt",
+            "westfjords_exterior_environmental_plates_system.txt",
+            "sea_environmental_plates_character_progression.txt"
+        ]
+        
+        // Parse environmental files and populate environmentalPlates array
+    }
+    
+    func getCharacterPlate(id: String) -> CharacterPlate? {
+        return characterPlates.first { $0.plateId == id }
+    }
+    
+    func getEnvironmentalPlate(id: String) -> EnvironmentalPlate? {
+        return environmentalPlates.first { $0.plateId == id }
+    }
+}
+
+// MARK: - Media Management
+
+class MediaManager: ObservableObject {
+    @Published var currentVideo: VideoFile?
+    @Published var isVideoPlaying: Bool = false
+    
+    func addVideo(to shot: Shot, from url: URL) {
+        let video = VideoFile(
+            filename: url.lastPathComponent,
+            filepath: url.path,
+            generationDate: DateFormatter().string(from: Date()),
+            qualityRating: nil,
+            notes: ""
+        )
+        
+        shot.videos.append(video)
+        shot.markDirty()
+    }
+    
+    func removeVideo(from shot: Shot, videoId: UUID) {
+        shot.videos.removeAll { $0.id == videoId }
+        shot.markDirty()
+    }
+    
+    func addImage(to shot: Shot, from url: URL) {
+        let image = ImageFile(
+            filename: url.lastPathComponent,
+            filepath: url.path,
+            description: "",
+            isReference: true
+        )
+        
+        shot.images.append(image)
+        shot.markDirty()
+    }
+    
+    func removeImage(from shot: Shot, imageId: UUID) {
+        shot.images.removeAll { $0.id == imageId }
+        shot.markDirty()
+    }
+}
+
+// MARK: - Extensions
+
+extension FilmSystemManager {
+    func loadAllShots() {
+        let shotsPath = "\(documentsPath)/shots/json"
+        
+        do {
+            let fileURLs = try FileManager.default.contentsOfDirectory(at: URL(fileURLWithPath: shotsPath), 
+                                                                       includingPropertiesForKeys: nil)
+            
+            for fileURL in fileURLs where fileURL.pathExtension == "json" {
+                do {
+                    let data = try Data(contentsOf: fileURL)
+                    let shot = try JSONDecoder().decode(Shot.self, from: data)
+                    shots.append(shot)
+                } catch {
+                    print("Error loading shot from \(fileURL.lastPathComponent): \(error)")
+                }
+            }
+            
+            // Sort shots by film position
+            shots.sort { $0.filmPositionPercentage < $1.filmPositionPercentage }
+            
+        } catch {
+            print("Error loading shots directory: \(error)")
+        }
+    }
+    
+    func saveMainSystem() {
+        guard let system = currentSystem else { return }
+        
+        let timestamp = DateFormatter().string(from: Date())
+        let filename = "main_film_system_\(timestamp).json"
+        let filepath = "\(documentsPath)/\(filename)"
+        
+        do {
+            let data = try JSONEncoder().encode(system)
+            try data.write(to: URL(fileURLWithPath: filepath))
+            print("Saved main system: \(filename)")
+        } catch {
+            print("Error saving main system: \(error)")
+        }
+    }
+    
+    func reorderShots(from source: IndexSet, to destination: Int) {
+        shots.move(fromOffsets: source, toOffset: destination)
+        updateShotPositions()
+    }
+    
+    func moveShotUp(_ shot: Shot) {
+        guard let index = shots.firstIndex(where: { $0.id == shot.id }), index > 0 else { return }
+        shots.swapAt(index, index - 1)
+        updateShotPositions()
+    }
+    
+    func moveShotDown(_ shot: Shot) {
+        guard let index = shots.firstIndex(where: { $0.id == shot.id }), index < shots.count - 1 else { return }
+        shots.swapAt(index, index + 1)
+        updateShotPositions()
+    }
+    
+    private func updateShotPositions() {
+        for (index, shot) in shots.enumerated() {
+            let newPosition = (Double(index) / Double(shots.count)) * 100.0
+            shot.filmPositionPercentage = newPosition
+            shot.markDirty()
+        }
+        saveCurrentState()
+    }
+    
+    func getSystemsAffectingShot(_ shot: Shot) -> [String: String] {
+        var affectingSystems: [String: String] = [:]
+        
+        for system in trackingSystems {
+            if system.affectedShots.contains(shot.shotId) || 
+               (shot.filmPositionPercentage >= system.continuousRange[0] && 
+                shot.filmPositionPercentage <= system.continuousRange[1]) {
+                affectingSystems[system.name] = system.getValueAtPercentage(shot.filmPositionPercentage)
+            }
+        }
+        
+        return affectingSystems
+    }
+}
+
+extension Shot {
+    func generatePrompt(using plateManager: PlateManager) -> String {
+        guard let activeVariant = promptVariants.first(where: { $0.isActive }) ?? promptVariants.first else {
+            return "No active prompt variant"
+        }
+        
+        var generatedPrompt = ""
+        
+        // Add character plates
+        var characterDescriptions: [String] = []
+        for plateId in activeVariant.characterPlates.present {
+            if let plate = plateManager.getCharacterPlate(id: plateId) {
+                characterDescriptions.append(plate.description)
+            }
+        }
+        
+        // Add environmental plates
+        var environmentDescriptions: [String] = []
+        if let landscape = activeVariant.environmentalPlates.landscape,
+           let plate = plateManager.getEnvironmentalPlate(id: landscape) {
+            environmentDescriptions.append(plate.description)
+        }
+        
+        // Combine into full prompt
+        generatedPrompt += "Subject: \(activeVariant.subject)\n"
+        if !characterDescriptions.isEmpty {
+            generatedPrompt += "Characters: \(characterDescriptions.joined(separator: ", "))\n"
+        }
+        if !environmentDescriptions.isEmpty {
+            generatedPrompt += "Environment: \(environmentDescriptions.joined(separator: ", "))\n"
+        }
+        generatedPrompt += "Action: \(activeVariant.action)\n"
+        generatedPrompt += "Scene: \(activeVariant.scene)\n"
+        generatedPrompt += "Style: \(activeVariant.style)\n"
+        generatedPrompt += "Camera: \(activeVariant.cameraPosition)\n"
+        
+        // Add auxiliary sections
+        generatedPrompt += "\n--- AUXILIARY ---\n"
+        generatedPrompt += "Duration: \(durationSeconds) seconds\n"
+        generatedPrompt += "Progressive State: \(progressiveState)\n"
+        generatedPrompt += "Narrative Function: \(narrativeFunction)\n"
+        if !notes.isEmpty {
+            generatedPrompt += "Notes: \(notes.values.joined(separator: "; "))\n"
+        }
+        
+        return generatedPrompt
+    }
+}

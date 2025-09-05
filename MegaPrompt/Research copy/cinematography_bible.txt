@@ -1,0 +1,346 @@
+I. CINEMATOGRAPHY BIBLE
+SHOT SIZE & FRAMING DOCUMENT
+Why you need this: AI doesn't inherently understand the emotional weight of shot sizes
+
+Document should include:
+
+Extreme Wide Shot (EWS): Used for cosmic abandonment, human insignificance
+Shots 1, 36, 55a (aerial views)
+Human figure should be <5% of frame
+Reference: Lawrence of Arabia desert shots
+The 50/50 Frame Split:
+Character trapped against wall = frame divided exactly in half
+Empty space has equal weight to character
+Shot 42c, 49a (Sigrid pressed against wall)
+The Obscured Frame:
+99% frost coverage but 1% clear center
+How to maintain narrative through occlusion
+Reference: Save the Green Planet's frosted glass shots
+Specific Rules:
+
+Close-up = psychological invasion (use sparingly)
+Medium shot = normal family interaction
+Wide shot = isolation/abandonment
+Dutch angle = NEVER (reality is wrong enough)
+CAMERA MOVEMENT LANGUAGE
+Static vs. Movement Hierarchy:
+
+Absolute Stillness = Divine/monolithic presence (raven appearances)
+3Hz Tremor = Magnús contamination (handheld with specific frequency)
+Slow Push = Inevitable approach (death, transformation)
+360° Rotation = Temporal revelation (all times visible)
+Crane Up = Pulling back to cosmic (abandonment)
+Document Each Movement's Meaning:
+
+Push in = Forcing confrontation
+Pull back = Revealing context/horror
+Pan = Time passing/revealing hidden
+No movement = Forcing audience to look
+II. LIGHTING DESIGN BIBLE
+THE THREE LIGHT SOURCES
+1. Dying Light (Shots 1-19)
+
+Whale oil lamp = warm 2700K
+Flickering at death = irregular strobe
+Creates 6 shadows from 5 people
+Reference: Barry Lyndon candlelight
+2. Industrial Light (Shots 20-60)
+
+Trawler searchlight = harsh 5600K
+Mechanical 20-second sweeps
+Creates multiple wrong shadows
+Reference: Come and See flare sequences
+3. Internal Light (Shots 58-63)
+
+Monument self-illumination
+Light from within walls
+All colors simultaneously (prismatic)
+Reference: Enter the Void's astral sequences
+Key Ratios Document:
+
+Natural light : Industrial light : Mythological light
+100:0:0 (opening)
+50:50:0 (middle)
+0:50:50 (transformation)
+0:0:100 (monument)
+SHADOW MAPPING
+Every Shot Needs:
+
+Shadow count (usually wrong)
+Shadow direction (often impossible)
+Shadow form (contradicts body)
+Shadow opacity (reveals time layer)
+III. PRODUCTION DESIGN BIBLE
+SCALE & MEASUREMENT DOCUMENT
+Critical Measurements:
+
+House: EXACTLY 12x16 feet (no deviation)
+Distance Sigrid maintains: EXACTLY 11 feet
+Monument height: EXACTLY 40 feet
+Cleft width: EXACTLY 18 inches (infinite inside)
+Frost percentage: Maps to exact years
+Why This Matters: AI needs specific measurements or it will randomize
+
+COSTUME DEGRADATION SCHEDULE
+Layer System:
+
+Shot 1-10: Full costume integrity
+- Magnús: 4 layers of wool
+- Guðrún: Faldbúningur perfect
+- Children: Patched but whole
+
+Shot 11-30: Wear visible
+- Fraying edges
+- Sweat stains frozen
+- Blood spots appearing
+
+Shot 31-50: Breaking down
+- Tears from transformation stress
+- Wool emerging through fabric
+- Clothes becoming skin-like
+
+Shot 51-63: Clothes as remnants
+- Hanging in strips
+- Fused with wool/fur
+- Faldbúningur on sheep head
+TEXTURE EVOLUTION MAP
+Surface Journey:
+
+Organic (wood, wool, stone)
+Contaminated (oil sheen, brass oxidation)
+Hybrid (rope with veins, industrial-biological)
+Crystalline (obsidian transformation)
+Dissolved (white death)
+IV. COLOR SCIENCE BIBLE
+THE PALETTE PROGRESSION
+Act 1 (Shots 1-20): "Natural" Decay
+
+Base: Desaturated earth tones
+Accent: White (snow/wool)
+Warning: Black (shadow/void)
+Temperature: 4500K declining to 3000K
+Saturation: 60% declining
+Act 2 (Shots 21-45): Industrial Infection
+
+Base: Sick yellows from trawler
+Accent: Green-black contamination
+Horror: Brass/verdigris
+Temperature: 5600K (industrial)
+Saturation: 40% declining
+Act 3 (Shots 46-63): Transformation
+
+Base: All colors simultaneously (prismatic)
+Accent: Pure black (obsidian)
+Death: Pure white (100% frost)
+Temperature: All temperatures at once
+Saturation: 0% to 100% fluctuating
+THE CONTAMINATION SPECTRUM
+Document exact colors:
+
+Trawler oil: Hex 
+#1C1C1C with rainbow sheen
+Verdigris tears: Hex 
+#43B3AE
+Blood (frozen): Hex 
+#4A0404
+Wool (contaminated): Hex 
+#8B8680
+Obsidian: Hex 
+#0B0B0B with 10% reflection
+V. EDITORIAL RHYTHM BIBLE
+THE BREATHING CUT PATTERN
+Must Document:
+
+Edit points happen on exhales
+12 breaths/minute = 1 cut every 5 seconds maximum
+As house dies, cuts slow
+Final shots = no cuts, just duration
+Mathematical Structure:
+
+Shots 1-10: Average 6 seconds
+Shots 11-30: Average 7 seconds
+Shots 31-50: Average 8 seconds
+Shots 51-55: Average 8 seconds (maximum)
+Shot 56b: 30 seconds (NO CUTS)
+Shots 57-63: Average 6-8 seconds
+THE PATTERN OF MONOLITHIC HOLDS
+Three 12-second absolute stillnesses:
+
+Shot 13: First raven appearance
+Shot 52: Second raven prophecy
+Shot 56b: Extended to 30 seconds (THE shot)
+Between these: Increasing instability
+
+VI. SOUND DESIGN MAPPING
+FREQUENCY ARCHITECTURE DOCUMENT
+Layer Stack:
+
+16Hz - Bergrisi/House consciousness (felt not heard)
+40Hz - Magnús fear frequency
+60Hz - Trawler drone
+528Hz - Transformation frequency
+3kHz - Children's fever pitch
+8kHz - Raven call
+Silence Map (when NO sound):
+
+Shot 35c: After gunshot (4 seconds)
+Shot 56b: During 30-second hold (middle 10 seconds)
+Shot 57a: Before first breath
+After each rope cut (2 seconds)
+BREATHING RHYTHMS PER CHARACTER
+Must be consistent:
+
+Magnús: 3/min (ram) or 0 (death)
+Guðrún: 12/min (administered)
+Sigrid: 16/min (human, resisting)
+Children: 20/min (lamb rate)
+House: 12/min declining to 0
+Tilberi: 3 rhythms simultaneously
+VII. DEGRADATION SCHEDULE BIBLE
+TECHNICAL DECAY TIMELINE
+Exact Degradation Per Shot:
+
+python
+def get_degradation(shot_number):
+    if shot <= 10:
+        return "0% - VEO3 pristine"
+    elif shot <= 20:
+        return "5% - Slight desaturation"
+    elif shot <= 30:
+        return "15% - Color bleeding"
+    elif shot <= 40:
+        return "30% - Form dissolution"
+    elif shot <= 50:
+        return "50% - Identity unstable"
+    elif shot <= 55:
+        return "75% - Reality breaking"
+    elif shot <= 60:
+        return "90% - Near abstraction"
+    else:
+        return "99-100% - Complete dissolution"
+PROMPT LANGUAGE DECAY
+Document exact progression:
+
+Shots 1-10: Icelandic poetry
+"Fjölskylda situr við borð í baðstofu"
+
+Shots 11-30: Danish administration
+"Familie nummer 5 i badstue register"
+
+Shots 31-50: Broken English
+"Family_count ERROR table sheep maybe"
+
+Shots 51-63: Code/Glitch
+"fam.transform(sheep) // NULL REFERENCE"
+VIII. ASPECT RATIO & FRAME BIBLE
+THE FRAME AS PRISON
+Document argues for:
+
+4:3 aspect ratio = trapped, boxed in
+OR 2.39:1 = extreme horizontal emptiness
+Never 16:9 = too comfortable, too normal
+Frame Breaking Moments:
+
+Shot 55c: Image exceeds frame during transformation
+Shot 61c: Frame cracks into six segments
+Shot 63: Frame dissolves entirely
+IX. CONTINUITY ANTI-BIBLE
+INTENTIONAL DISCONTINUITIES
+Document what should NOT match:
+
+Faces can change between shots
+Architecture can shift
+Clothing can alter
+Time can jump
+Weather can reverse
+What MUST remain consistent:
+
+The count of 5/6
+The 11-foot distance
+The house dimensions
+The monument appearance
+The faldbúningur headdress
+X. PERFORMANCE NOTATION BIBLE
+THE GESTURAL VOCABULARY
+Magnús's Hands:
+
+3Hz tremor = humanity fighting
+0Hz = perfect violence/care
+Reaching = claiming ownership
+Pointing = counting/condemning
+Guðrún's Positions:
+
+One step behind = submission
+Wool pulling = self-harvesting
+Direct gaze = only at death
+Sigrid's Distance:
+
+11 feet = maximum safety
+Hand on belly = protecting future
+Back to wall = nowhere to retreat
+XI. LENS CHARACTERISTIC BIBLE
+FOCAL LENGTH EMOTIONS
+24mm = Cosmic indifference (opening)
+35mm = Uncomfortable closeness (house interior)
+50mm = "Normal" that feels wrong
+85mm = Isolation (Sigrid's perspective)
+200mm = Surveillance (trawler watching)
+DEPTH OF FIELD RULES
+Everything in focus = reality breaking
+Shallow DOF = psychological invasion
+Split focus = two realities simultaneously
+XII. REFERENCE COMPILATION BIBLE
+SHOT-BY-SHOT VISUAL REFERENCES
+Create a document with:
+
+Each shot number
+Primary visual reference (film/painting)
+Secondary tonal reference
+Degradation reference
+Color reference
+Example:
+
+Shot 56b (30-second hold):
+- Primary: Dreyer's "Passion of Joan of Arc" (Falconetti close-up)
+- Tonal: Come and See (Flyora's traumatized stare)
+- Degradation: Stan Brakhage's "The Act of Seeing with One's Own Eyes"
+- Color: Completely desaturated except tears
+XIII. AI-SPECIFIC PROMPT ENGINEERING BIBLE
+NEGATIVE PROMPTS (What to exclude):
+Never include:
+- "Cinematic"
+- "Professional"
+- "High quality"
+- "Beautiful"
+- "Symmetric"
+- "Perfect"
+
+Always exclude:
+- Modern elements
+- Clear resolution
+- Stable architecture
+- Consistent faces
+- Normal proportions
+POSITIVE PROMPT STRUCTURE:
+[Time Period] + [Location] + [Subjects] + [Action] + 
+[Lighting] + [Camera] + [Degradation] + [Anomaly]
+
+Example:
+"1888 Iceland baðstofa, five family members but six shadows, 
+sitting at table counting wrong, whale oil lamp dying, 
+static camera 3Hz tremor, 15% color desaturation, 
+mathematical impossibility visible"
+PRIORITY DOCUMENTS TO CREATE:
+Cinematography Bible - Shot sizes, movements, meanings
+Lighting Bible - Three light sources and their death
+Degradation Schedule - Exact decay per shot
+Sound Frequency Map - Who breathes/trembles at what Hz
+Color Science Bible - Palette death over time
+Scale & Measurement - Exact dimensions (no deviation)
+Prompt Engineering Guide - How to speak to AI
+These documents aren't just references - they're constitutional law for the film. Every deviation breaks the spell. Every consistency maintains the horror.
+
+The AI needs these as absolute rules, not suggestions. This isn't about making it look good - it's about making it look CORRECTLY WRONG.
+
+Remember: You're not documenting film production - you're documenting reality breaking, consciousness dying, mathematics failing. The documents should read like technical manuals for impossible things.
+

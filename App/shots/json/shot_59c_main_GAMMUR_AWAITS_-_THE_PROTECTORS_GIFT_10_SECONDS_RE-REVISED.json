@@ -1,0 +1,62 @@
+{
+  "shot_metadata": {
+    "id": "59c",
+    "name": "GAMMUR_AWAITS___THE_PROTECTORS_GIFT_10_SECONDS_RE_REVISED",
+    "title": "GAMMUR AWAITS - THE PROTECTORS GIFT 10 SECONDS RE-REVISED",
+    "sequence_type": "main_story",
+    "duration_seconds": 10,
+    "narrative_function": "Breaking free | Camera frost 54% | Gammur claiming...",
+    "stitch_from": "[STITCH from Shot 59b: Through impossible cleft]"
+  },
+  "progressive_state": "Breaking free | Camera frost 54% | Gammur claiming her | Watching: LandvÃ¦ttir fulfills promise",
+  "prompt_variants": [
+    {
+      "variant_id": "59c_story_primary",
+      "variant_name": "Primary - GAMMUR AWAITS - THE PROTECTORS GIFT 10 SECONDS RE-REVISED",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[SIGRID]-raven emerging from obelisk top to find GAMMUR - the ancient landvÃ¦ttir raven, massive and timeless - waiting with seven ravens, speaking in the old woman's voice: \"Ã‰g kom eins og lofaÃ°\" (I came as promised), before touching her with one wing, completing her transformation to witness.",
+      "action": "CRANE UP as Sigrid emerges. At cleft top: GAMMUR. Not just any raven - THE raven. LandvÃ¦ttir. Protector. Ancient. Twice her size. Feathers containing stars. Eyes holding all Iceland's memories. The one who gave her the black feather. Who spoke prophecy. Who promised escape. \"Ã‰g kom eins og lofaÃ°\" - old woman's voice from massive bird. Gammur extends one wing. Touches Sigrid. At contact: final transformation. The human fully gone. Pure raven. Pure witness. But more - Gammur's touch transfers memory. All of Iceland's history flows into her. She KNOWS now. Everything. The sacrifice's meaning. The freedom coming. Her role. Gammur speaks again: \"ÃžÃº ert Ãsland. FlÃºgÃ°u fyrir okkur.\" (You are Iceland. Fly for us.) The seven ravens are Gammur's witnesses. But Gammur is oldest. Was here before Vikings. Will be here after independence. The eternal watcher who chose Sigrid for escape. The obelisk responds to Gammur - sends black light beam up. The landvÃ¦ttir and monument recognizing each other. Old gods and new forms. Bergrisi reborn as stone. Gammur eternal as sky. Sigrid between them - the bridge.",
+      "scene": "Obelisk top. Gammur waiting. Seven ravens circling. Sky containing all times. Freedom moment.",
+      "style": "Crane up showing Gammur's gift (that's where the camera is), landvÃ¦ttir documented.",
+      "camera_position": "Crane up showing Gammur's gift",
+      "dialogue": "(Gammur, old woman's voice): \"Ã‰g kom eins og lofaÃ°\" \"ÃžÃº ert Ãsland. FlÃºgÃ°u fyrir okkur\" (Sigrid-raven): \"Ã‰g man. Ã‰g vitna.\"",
+      "audio": {
+        "primary": [
+          "Gammur's ancient wings",
+          "transformation completion",
+          "light beam activating"
+        ],
+        "ambient": [
+          "Seven ravens witnessing",
+          "all times singing",
+          "cosmos acknowledging"
+        ],
+        "absent": [
+          "no captivity"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Raven speaks for nation",
+    "triple_reality": "Physical: bird emerging | Psychological: trauma transcended | Mythological: Gammur completes rescue"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

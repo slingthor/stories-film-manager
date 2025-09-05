@@ -1,0 +1,58 @@
+{
+  "shot_metadata": {
+    "id": "44c",
+    "name": "WOOL_BECOMES_VISIBLE_TRAIL_5_SECONDS",
+    "title": "WOOL BECOMES VISIBLE TRAIL 5 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 5,
+    "narrative_function": "Transformation evidence | Wool extending | Camera ...",
+    "stitch_from": "[STITCH from Shot 44b: Walking spiral, creating sixth line]"
+  },
+  "progressive_state": "Transformation evidence | Wool extending | Camera frost 31% | Becoming material | Watching: Trail witnesses",
+  "prompt_variants": [
+    {
+      "variant_id": "44c_story_primary",
+      "variant_name": "Primary - WOOL BECOMES VISIBLE TRAIL 5 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Close tracking shot on [GUÃRÃšN]'s hands as she walks, wool from her wrists now continuously emerging - 30mm, 40mm, 50mm - leaving white thread trail in snow like Ariadne's thread, but leading to water not escape.",
+      "action": "CLOSE TRACKING on hands. Wool emerges continuously now, not pulled but growing. White fibers pushing through skin at 2mm per second, visible growth. No pain on her face - relief. Body becoming material, finally honest. Thread trails behind in snow, weaving between her footprints. Wind tries to lift thread, creates momentary spirals in air - fleeting sheep shapes, dissolving. At 50mm length, wool begins braiding itself, three strands twisting without her touching. Her wedding ring visible through wool wrapping - green oxidation from brass, not gold, poor woman's band. Hands aging visibly, veins prominent, skin thinning to translucence. Through translucent skin: dark shapes, might be bones, might be something else. Ahead through snow: sound of water, impossible in this cold. Polynya close.",
+      "scene": "Close on hands, snow background. Wool white against white, only movement visible. -30Â°C freezing wool as it emerges.",
+      "style": "Intimate tracking of transformation detail (that's where the camera is), body becoming honest.",
+      "camera_position": "Intimate tracking of transformation detail",
+      "dialogue": "None - transformation needs no words",
+      "audio": {
+        "primary": [
+          "Wool emerging with soft stretch sound",
+          "thread trailing",
+          "braiding itself"
+        ],
+        "ambient": [
+          "Water ahead despite freeze",
+          "her breathing steady",
+          "wind decreasing"
+        ],
+        "absent": [
+          "no human intervention"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "maintain close focus, show growth clearly, no gore just transformation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Body speaking what voice won't",
+    "triple_reality": "Physical: wool growing | Psychological: accepting change | Mythological: thread of fate"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

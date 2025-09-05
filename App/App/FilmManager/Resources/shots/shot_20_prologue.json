@@ -1,0 +1,75 @@
+{
+  "shot_metadata": {
+    "id": "20",
+    "name": "SIGRIDS_WINTER_SONG",
+    "title": "Sigrid's Winter Song - Voice Anchoring",
+    "sequence_type": "prologue", 
+    "duration_seconds": 8,
+    "film_position_percentage": 20.0,
+    "narrative_function": "Sigrid's voice anchoring reality as others fade",
+    "story_significance": "witness_emergence",
+    "realm_classification": {
+      "physical_percentage": 60.0,
+      "psychological_percentage": 50.0,
+      "mythological_percentage": 60.0
+    },
+    "stitch_from": "Shot 19: Sun below horizon, darkness spreading"
+  },
+
+  "progressive_state": "Voice returns | Prophecy spoken | Camera frost 7% | Song bridging | Watching: The witness speaks",
+
+  "prompt_variants": [
+    {
+      "variant_id": "20_story_primary",
+      "variant_name": "Witness Voice Emergence",
+      "intent_tags": ["story_primary", "witness_anchoring"],
+      "priority": 1,
+      
+      "subject": "[SIGRID] standing alone at the feast table, everyone else frozen, her mouth opening to sing 'Krummi svaf í klettagjá,' her young voice clear and pure, breath visible in freezing air, frost forming on her hair.",
+      
+      "action": "Sigrid stands slowly while everyone else remains seated, frozen. Faces the darkness where sun disappeared. Opens mouth, begins singing. Her real voice this time - young, female, clear soprano. 'Krummi svaf í klettagjá, kaldri vetrarnóttu á.' Breath forms white clouds with each word. Frost spreads across her wheat-blonde hair, making it white. Behind her, feast transforms - food rotting instantly, tables cracking from cold, tablecloths stiffening with ice. She continues singing, voice stronger: 'verður margt að meini fyrr en dagur fagur rann.' The searchlight flickers, dies. Trawler disappears into darkness. Only Sigrid visible, as if lit from within. Around her, people begin to fade, becoming translucent. Can see through them to frozen ground beneath. She keeps singing, same verse repeating. The three stains on her dress - blood, berry, egg - begin glowing faintly in darkness.",
+      
+      "scene": "Feast tables in near-darkness. Stars appearing despite twilight. Frost covering everything. Only Sigrid standing and visible.",
+      
+      "style": "Medium shot centered on Sigrid (that's where the camera is), darkness around edges, her face illuminated mysteriously.",
+      
+      "camera_position": "Centered on Sigrid during song, that's where the camera is",
+      
+      "dialogue": "(Sigrid, clear soprano): 'Krummi svaf í klettagjá, kaldri vetrarnóttu á, verður margt að meini fyrr en dagur fagur rann'",
+      
+      "audio": {
+        "primary_sounds": ["Sigrid's clear voice echoing", "frost crackling on everything"],
+        "ambient_sounds": ["Tables cracking from cold", "searchlight dying", "people fading"],
+        "absent_sounds": ["other voices", "trawler"]
+      },
+      
+      "character_plates": {
+        "present": ["SIGRID-PURE-SINGING"],
+        "referenced": ["Community fading"]
+      },
+      
+      "environmental_plates": {
+        "landscape": "FEAST-AREA-FROST-DEATH",
+        "weather": "FROST-SPREADING",
+        "lighting": "SIGRID-INTERNAL-ILLUMINATION"
+      },
+      
+      "negative_prompt": "no subtitles, show Sigrid lit while others fade, frost spreading, three stains glowing, 1080p",
+      
+      "video_references": []
+    }
+  ],
+
+  "others": {
+    "voice_purity": "Sigrid's true voice replacing male possession",
+    "community_fading": "Others becoming translucent as witness emerges",
+    "stain_illumination": "Three contamination sources glowing in darkness",
+    "krummi_prophecy": "Lullaby predicting survival through transformation"
+  },
+
+  "notes": {
+    "thematic_purpose": "Witness emergence as others fade into memory",
+    "connection_to_ending": "Sigrid as sole survivor preserving testimony",
+    "lullaby_significance": "Krummi song providing structure for entire narrative"
+  }
+}

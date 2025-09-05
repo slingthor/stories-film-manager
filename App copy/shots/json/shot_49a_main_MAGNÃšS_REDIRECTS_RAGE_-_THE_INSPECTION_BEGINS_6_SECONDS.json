@@ -1,0 +1,63 @@
+{
+  "shot_metadata": {
+    "id": "49a",
+    "name": "MAGNÃŠS_REDIRECTS_RAGE___THE_INSPECTION_BEGINS_6_SECONDS",
+    "title": "MAGNÃšS REDIRECTS RAGE - THE INSPECTION BEGINS 6 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "House 18/min agitated + 60bpm | Authority shifting...",
+    "stitch_from": "[STITCH from Shot 48: GuÃ°rÃºn dripping in doorway, MagnÃºs enraged]"
+  },
+  "progressive_state": "House 18/min agitated + 60bpm | Authority shifting | Camera frost 36.5% | Incest emerging | Watching: House sees threat",
+  "prompt_variants": [
+    {
+      "variant_id": "49a_story_primary",
+      "variant_name": "Primary - MAGNÃšS REDIRECTS RAGE - THE INSPECTION BEGINS 6 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[MAGNÃšS] turning from surviving [GUÃRÃšN] to [SIGRID], his 0Hz hands perfectly steady as he approaches her corner where she maintains exactly 11 feet, but wall behind means no retreat, his eyes examining her with livestock assessment while she presses against klettagjÃ¡ cracks now spelling \"VITNI\" (witness).",
+      "action": "MagnÃºs dismisses GuÃ°rÃºn with disgusted wave - she failed to die, worthless now. Turns to Sigrid. PUSH IN as he approaches. She's trapped in corner, maintaining 11 feet but wall prevents retreat. His 0Hz hands (no tremor) reach toward her. Not violent. Worse. Examining. Grips her jaw like morning's ram testicle feeding. But now checking teeth for breeding soundness. Her breathing stays 15/min (never changes) even as he inspects. Behind her, wall cracks spell \"VITNI\" (witness) - she will witness and escape. His other hand moves to her belly - knows about pregnancy. \"GÃ³Ã°ur stofn\" (good stock) he mutters. \"Ef mÃ³Ã°irin deyr...\" (If the mother dies...). Implication clear. GuÃ°rÃºn sees, understands, cannot intervene. House heartbeat accelerates to 80bpm. Walls perspiring more. Bergrisi recognizing threat to chosen one. But MagnÃºs in his madness doesn't notice house responding. Focused only on Sigrid as next breeding stock. The isolation making incest inevitable - no other women for 40 miles.",
+      "scene": "Southwest corner, 10:20 AM. Sigrid trapped. Wall cracks visible behind her. Family watching frozen.",
+      "style": "Push in showing entrapment and inspection (that's where the camera is), predatory documentation.",
+      "camera_position": "Push in showing entrapment and inspection",
+      "dialogue": "(MagnÃºs): \"GÃ³Ã°ur stofn... sterkir kjÃ¡lkar\" \"Ef mÃ³Ã°irin deyr, Ã¾arftu...\" (Sigrid): Silent, breathing steady at 15/min",
+      "audio": {
+        "primary": [
+          "Hands gripping jaw",
+          "checking teeth",
+          "house heartbeat accelerating"
+        ],
+        "ambient": [
+          "House breathing 18/min agitated",
+          "walls perspiring drops",
+          "\"VITNI\" cracking deeper"
+        ],
+        "absent": [
+          "no intervention",
+          "isolation complete"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Sigrid cornered but silent",
+    "triple_reality": "Physical: predatory approach | Psychological: isolation enabling | Mythological: ram claiming ewe"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

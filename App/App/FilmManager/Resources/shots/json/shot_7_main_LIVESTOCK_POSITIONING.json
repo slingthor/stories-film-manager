@@ -1,0 +1,66 @@
+{
+  "shot_metadata": {
+    "id": "7",
+    "name": "LIVESTOCK_POSITIONING",
+    "title": "LIVESTOCK POSITIONING",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 13/min | KlettagjÃ¡ hairline visible to Sigr...",
+    "stitch_from": "[STITCH from Shot 6: Cane tapping continues, ram testicles in MagnÃºs's hand]"
+  },
+  "progressive_state": "House 13/min | KlettagjÃ¡ hairline visible to Sigrid only | No contamination | Camera frost 4% | Sorting positions | Watching: House observes through six shadows",
+  "prompt_variants": [
+    {
+      "variant_id": "7_story_primary",
+      "variant_name": "Primary - LIVESTOCK POSITIONING",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The family moving to their designated positions in the floor's worn depressions, each person knowing exactly where to stand - [GUÃRÃšN] immediately to MagnÃºs's right, [JÃ“N] between parents, [LILJA] by mother's skirts, while [SIGRID] calculates her movement to maintain exactly 11 feet distance, sliding along the wall to the farthest position where hairline cracks in the turf spell something she alone can see.",
+      "action": "The tap-tap-tap of MagnÃºs's cane creates pavlovian response. GuÃ°rÃºn abandons her knife in the hÃ¡karl, moves to position one step right and behind MagnÃºs, hands clasped at waist, head slightly bowed. No words, just movement. JÃ³n struggles up despite 39Â°C fever, swaying, finds his spot between parents where floor depression is child-sized. Lilja toddles to mother's skirts, clutching her doll with brass button eyes that seem to watch. Sigrid slides along southwest wall, maintaining exactly 11 feet as MagnÃºs positions himself at center. Her back presses against wall where hairline cracks have begun forming letters only she notices: \"F-Ã“-R-N\" barely visible. The floor depressions they stand in connect - worn paths between them create pentagon with sixth position at empty space. These are ancient patterns, worn by generations, but also... pen divisions. Livestock sorting geometry. Empty clothes in corner have definitely shifted, now standing in their own formation, breathing visible at 8/minute.",
+      "scene": "Center of main room, 5:47 AM, growing grey light through frost. Temperature -8Â°C, breath visible from all, creating fog layer at different heights based on positions. The floor patterns now obvious - five worn spots plus sixth unworn position, paths between them like channels. Light from oil lamp casts six shadows on wall despite five people. Ram testicles on plate in MagnÃºs's left hand, right hand gripping cane, tremor steady at 3.5Hz. The hÃ¡karl abandoned on table, knife still in meat, six portions visible though five people stand.",
+      "style": "Wide shot from above showing pen formation, camera at smoke hole looking down (that's where the camera is), bird's eye revealing the rÃ©ttir geometry, documentary observation of trained movement.",
+      "camera_position": "Wide shot from above showing pen formation, camera at smoke hole looking down",
+      "dialogue": "(MagnÃºs): \"StaÃ°ir\" (Tone: one word command) (Sigrid's fingers on wall): Barely audible whisper: \"FÃ³rn?\" (Others): Complete silence, only movement",
+      "audio": {
+        "primary": [
+          "Feet shuffling to positions",
+          "cane tapping continuing",
+          "clothing rustling"
+        ],
+        "ambient": [
+          "House breathing 13/min",
+          "empty clothes breathing 8/min",
+          "six different human breathing rates visible"
+        ],
+        "absent": [
+          "no female voices",
+          "no protest",
+          "no recognition of patterns"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "LILJA",
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, no text overlays, show floor patterns clearly, maintain exact distances, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "GuÃ°rÃºn moves without words, Sigrid silent resistance",
+    "triple_reality": "Physical: family arranging / Psychological: trained behavior / Mythological: rÃ©ttir manifesting"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "LILJA",
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

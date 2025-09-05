@@ -1,0 +1,74 @@
+{
+  "shot_metadata": {
+    "id": "56",
+    "name": "FAMILY_AS_SHEEP",
+    "title": "Family as Sheep - Central Horror Image",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "film_position_percentage": 85.0,
+    "narrative_function": "Reveals family transformation with human consciousness retained",
+    "story_significance": "universal_masterpiece",
+    "realm_classification": {
+      "physical_percentage": 60.0,
+      "psychological_percentage": 80.0,
+      "mythological_percentage": 90.0
+    },
+    "stitch_from": "Shot 55: Trawler circle complete"
+  },
+
+  "progressive_state": "Family transformation 100% | Human consciousness preserved | Central horror revealed | Watching: Impossible anatomy",
+
+  "prompt_variants": [
+    {
+      "variant_id": "56_story_primary",
+      "variant_name": "Conscious Livestock Horror",
+      "intent_tags": ["story_primary", "transformation_complete"],
+      "priority": 1,
+      
+      "subject": "Five white Icelandic sheep standing upright around table, wearing family's clothes, human teeth visible in sheep mouths, [GUÐRÚN] with faldbúningur headdress fitting perfectly on sheep head, all breathing at 8/min synchronized rhythm while human consciousness clearly visible through sheep eyes.",
+      
+      "action": "Family arranged in traditional positions but as sheep - Magnús-ram at table head wearing brown vaðmál sweater, curved horns visible, steel-blue eyes showing human intelligence and frustration. Guðrún-ewe with traditional headdress impossible but perfect on sheep skull, human consciousness obvious through horizontal pupils, mouth forming human words through sheep anatomy. Jón-lamb and Lilja-lamb maintaining child positions, human emotional responses through animal expressions. Sigrid-ewe at 11-foot distance, belly showing pregnancy through sheep anatomy, grey eyes with amber flecks clearly human consciousness in animal head. All wear family clothing stretched over quadruped bodies, human possessions somehow fitting animal anatomy. Breathing synchronized at 8/min sheep rhythm but with human awareness visible through eye expression and behavioral complexity impossible with normal livestock intelligence.",
+      
+      "scene": "Baðstofa interior with family as conscious livestock, furniture arrangements maintained for bipedal use with quadruped anatomy, impossible cultural preservation through species transformation.",
+      
+      "style": "Wide shot showing complete family transformation while maintaining domestic arrangements (that's where the camera is), documentary of impossible anatomy with cultural continuity.",
+      
+      "camera_position": "Wide shot documenting complete transformation, that's where the camera is",
+      
+      "dialogue": "None - human consciousness through sheep anatomy unable to form human speech",
+      
+      "audio": {
+        "primary_sounds": ["Synchronized sheep breathing 8/min", "Clothing rustling on animal bodies", "Human consciousness attempting speech through animal vocal anatomy"],
+        "ambient_sounds": ["House breathing coordinating with family", "Traditional domestic sounds through transformed bodies"],
+        "absent_sounds": ["human speech", "normal sheep behavior", "explanation"]
+      },
+      
+      "character_plates": {
+        "present": ["MAGNÚS-HYBRID", "GUÐRÚN-SPEAKING", "SIGRID-TRANSITIONAL", "JÓN-CHANGING", "LILJA-FINAL"],
+        "referenced": []
+      },
+      
+      "environmental_plates": {
+        "landscape": "BAÐSTOFA-CLIFF",
+        "lighting": "TRANSFORMATION-COMPLETE"
+      },
+      
+      "negative_prompt": "no normal sheep behavior, no loss of human consciousness, no realistic clothing fit, no normal family function",
+      
+      "video_references": []
+    }
+  ],
+
+  "others": {
+    "impossible_anatomy": "Human consciousness in animal bodies with cultural markers",
+    "clothing_accommodation": "Traditional dress fitting animal anatomy perfectly",
+    "consciousness_retention": "Human intelligence obvious through animal expressions",
+    "breathing_synchronization": "All at 8/min sheep rhythm with human awareness"
+  },
+
+  "notes": {
+    "thematic_purpose": "Central horror - human consciousness trapped in livestock bodies",
+    "universal_masterpiece": "10/10 - Core image of entire film",
+    "cultural_preservation": "Icelandic identity maintained through impossible anatomy"
+  }
+}

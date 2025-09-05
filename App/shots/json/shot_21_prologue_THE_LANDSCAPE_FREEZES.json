@@ -1,0 +1,54 @@
+{
+  "shot_metadata": {
+    "id": "21",
+    "name": "THE_LANDSCAPE_FREEZES",
+    "title": "THE LANDSCAPE FREEZES",
+    "sequence_type": "prologue",
+    "duration_seconds": 8,
+    "narrative_function": "Paradise dies | Memory crystallizing | Camera fros...",
+    "stitch_from": "[STITCH from Shot 20: Sigrid singing alone]"
+  },
+  "progressive_state": "Paradise dies | Memory crystallizing | Camera frost 15% | Winter arriving | Watching: Everything stops",
+  "prompt_variants": [
+    {
+      "variant_id": "21_story_primary",
+      "variant_name": "Primary - THE LANDSCAPE FREEZES",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Aerial view pulling back showing entire landscape transforming, ocean turning black ice, berry hills white with snow, whale carcass freezing solid, while Sigrid's song continues as only sound.",
+      "action": "Camera rises from Sigrid, pulling back. Feast tables below now empty except for her. Food turned to black rot. Tables collapsed. Rising higher - ocean beginning to freeze, ice spreading from shore outward like reaching fingers. Berry hills turn white, purple juice freezing into dark veins in snow. Whale on beach freezes solid, blood pool now red ice. Sheep in stone pen stand frozen mid-movement, become white statues. Higher still - entire peninsula visible. Green summer grass turns brown, then white with frost. The pole on headland freezes, cracks, falls. Three terrains no longer pulsing. Everything still. Dead. Only movement is Sigrid below, tiny figure still standing, still singing. Her voice carries impossibly far in frozen air. Stars above too bright, too many. Sky wrong color - purple-black. Northern lights begin but they're red, not green.",
+      "scene": "Entire landscape from 500 feet up. Everything freezing rapidly. Stars and red aurora appearing. Sigrid tiny below.",
+      "style": "Aerial pullback showing full transformation (that's where the camera is), landscape dying, ice spreading everywhere.",
+      "camera_position": "Aerial pullback showing full transformation",
+      "dialogue": "(Sigrid's voice, distant but clear): \"Krummi svaf Ã­ klettagjÃ¡...\"",
+      "audio": {
+        "primary": [
+          "Ice spreading with cracking sounds",
+          "Sigrid's distant song"
+        ],
+        "ambient": [
+          "Everything freezing",
+          "organic sounds dying"
+        ],
+        "absent": [
+          "life sounds",
+          "movement"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show ice spreading, landscape dying, red northern lights, 1080p",
+      "video_references": []
+    }
+  ],
+  "others": {},
+  "notes": {
+    "sequence": "prologue",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "shot_metadata": {
+    "id": "29",
+    "name": "LAUNCHING_INTO_NOTHING_8_SECONDS",
+    "title": "LAUNCHING INTO NOTHING 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "Entering empty water | Boat launching | Camera fro...",
+    "stitch_from": "[STITCH from Shot 28: Seeing empty water, trawler waiting]"
+  },
+  "progressive_state": "Entering empty water | Boat launching | Camera frost 19% | Commitment to futility | Watching: Trawler tracking",
+  "prompt_variants": [
+    {
+      "variant_id": "29_story_primary",
+      "variant_name": "Primary - LAUNCHING INTO NOTHING 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[MAGNÃšS] pushing the Ã¡rabÃ¡tur off the ice shelf into the black water, the 12-foot boat immediately insignificant against the vast emptiness, his oars breaking the perfect surface as he rows out over visible nothing, toward the waiting trawler.",
+      "action": "MagnÃºs slides boat parallel to ice edge, half on ice, half hanging over water. Climbs in carefully - 0Hz hands make balance difficult, can't feel grip. Pushes off with oar against ice. Boat breaks free, drops 6 inches to water level, rocks. Now floating over perfect clarity. Looking down is vertigo - like floating in air above seafloor. Positions oars in locks, begins rowing. Each stroke echoes off mountains, only sound in vast silence. No birds (they follow fish, no fish exist). Rows over emptiness. Below, trawl scars create pattern - spirals. Five gouges with six intersections, matching blood patterns. The extraction itself left the same impossible geometry. Trawler in distance turns slightly, yellow lights tracking him. 200 feet versus his 12 feet. Industrial versus traditional. But he rows toward it because that's where fish should be. Must be. Somewhere. His reflection in water shows older man than started journey. Aflausn debt accumulating.",
+      "scene": "Open fjord, 6:47 AM darkness. Temperature -28Â°C air, -2Â°C water. Perfect visibility down. Boat tiny speck on vast black mirror.",
+      "style": "Aerial establishing boat's insignificance, then POV looking down through water (that's where the camera is), documentary of futile hope.",
+      "camera_position": "Aerial establishing boat's insignificance, then POV looking down through water",
+      "dialogue": "(MagnÃºs, rowing): \"Einhvers staÃ°ar...\" (Somewhere...) (To emptiness): \"ÃžiÃ° hljÃ³tiÃ° aÃ° vera einhvers staÃ°ar\" (You must be somewhere) (Seeing trawl spirals): \"Fimm... sex?\"",
+      "audio": {
+        "primary": [
+          "Oars in water echoing",
+          "boat creaking",
+          "rowing rhythm"
+        ],
+        "ambient": [
+          "Trawler engine distant but growing",
+          "0Hz silence where tremor was",
+          "echo off mountains"
+        ],
+        "absent": [
+          "no life sounds",
+          "no birds",
+          "no hope"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show vast emptiness, trawl patterns below, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "His isolation complete",
+    "triple_reality": "Physical: tiny boat vast emptiness / Psychological: denial despite evidence / Mythological: entering JÃ¶rmungandr's realm"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

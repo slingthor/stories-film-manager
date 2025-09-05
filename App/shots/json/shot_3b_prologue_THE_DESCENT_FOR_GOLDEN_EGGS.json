@@ -1,0 +1,55 @@
+{
+  "shot_metadata": {
+    "id": "3b",
+    "name": "THE_DESCENT_FOR_GOLDEN_EGGS",
+    "title": "THE DESCENT FOR GOLDEN EGGS",
+    "sequence_type": "prologue",
+    "duration_seconds": 8,
+    "narrative_function": "Trust tested | Eggs abundant | Camera frost 0% | G...",
+    "stitch_from": "[STITCH from Shot 3a: JÃ³n harnessed and ready]"
+  },
+  "progressive_state": "Trust tested | Eggs abundant | Camera frost 0% | Gold revealed | Watching: Earth provides",
+  "prompt_variants": [
+    {
+      "variant_id": "3b_story_primary",
+      "variant_name": "Primary - THE DESCENT FOR GOLDEN EGGS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[JÃ“N] descending the cliff face on rope, bare feet finding holds on black rock, reaching into round holes to pull out pure white eggs, one egg slipping from his hand to break on rocks below, golden yolk splattering bright yellow.",
+      "action": "JÃ³n climbs backward down cliff, rope taut around waist. MagnÃºs above, visible hands holding rope steady. Boy's feet grip small ledges. Reaches first hole in cliff, 2 feet wide, perfectly round. Reaches in up to elbow. Pulls out three white eggs, each large as his fist. Places them in leather pouch at hip. Descends further. Second hole contains five eggs. Too many for one bird. Third egg slips from his grip. Falls 50 feet. Hits black rock below. Shell explodes. Yolk spreads bright golden across rock, running down in streams. Same color as morning sunlight. JÃ³n freezes, watching yolk spread. MagnÃºs tugs rope - continue. Boy reaches next hole. This one deeper. Entire arm disappears inside. Face shows surprise. Pulls out seven eggs. Pouch already full. Holds extra eggs against chest. One more falls. Another golden explosion on rocks. Yolk and blood from whale mixing where rock meets water.",
+      "scene": "Vertical cliff face, 100 feet down from top. Black basalt with bird-covered ledges. Ocean below with whale blood reaching shore. Yolk spreading on rocks.",
+      "style": "Vertical angle from beside JÃ³n showing descent and egg collecting (that's where the camera is), eggs falling and breaking visible.",
+      "camera_position": "Vertical angle from beside JÃ³n showing descent and egg collecting",
+      "dialogue": "None",
+      "audio": {
+        "primary": [
+          "Rope creaking",
+          "eggs placed in pouch",
+          "shells breaking on rock"
+        ],
+        "ambient": [
+          "Birds shuffling away from boy",
+          "wind",
+          "golden yolk dripping"
+        ],
+        "absent": [
+          "boy crying out when eggs fall"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show golden yolk spreading on rocks, impossible egg abundance, mixing with blood below, 1080p",
+      "video_references": []
+    }
+  ],
+  "others": {},
+  "notes": {
+    "sequence": "prologue",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

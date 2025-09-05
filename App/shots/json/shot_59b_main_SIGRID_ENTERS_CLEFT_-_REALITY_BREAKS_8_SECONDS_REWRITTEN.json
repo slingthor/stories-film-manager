@@ -1,0 +1,61 @@
+{
+  "shot_metadata": {
+    "id": "59b",
+    "name": "SIGRID_ENTERS_CLEFT___REALITY_BREAKS_8_SECONDS_REWRITTEN",
+    "title": "SIGRID ENTERS CLEFT - REALITY BREAKS 8 SECONDS REWRITTEN",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "Entering passage | Camera frost 53% | Impossible s...",
+    "stitch_from": "[STITCH from Shot 59a: MagnÃºs trapped charging]"
+  },
+  "progressive_state": "Entering passage | Camera frost 53% | Impossible space | Watching: Through infinite eyes",
+  "prompt_variants": [
+    {
+      "variant_id": "59b_story_primary",
+      "variant_name": "Primary - SIGRID ENTERS CLEFT - REALITY BREAKS 8 SECONDS REWRITTEN",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[SIGRID]-raven entering the vertical cleft seeing impossible architecture - the passage is 18 inches wide outside but infinite inside, containing all of Iceland's history, future ravens nesting in past, Vikings walking through present, independence day 1944 happening NOW.",
+      "action": "IMPOSSIBLE DOLLY through cleft. Sigrid enters as raven. Passage narrow outside - 18 inches. But inside: infinite cathedral. Violation of physics. The cleft contains ALL space. ALL time. She flies through Iceland's entire history. Past Vikings who don't see her. Through 1944 independence celebration. Through future she'll witness. Through moment of her own death at 72. All simultaneous. All NOW. On cleft walls: every raven that ever lived in Iceland. Millions. Watching. Waiting. They're the walls. Made of ravens. Made of watching. The pregnancy inside her (now egg) glows. The future generation visible through shell. Human child in raven egg. The bridge. Above: not sky but cosmos. Below: not earth but ocean. The passage is universe throat. Birth canal of nations. She flies up. Through impossibility. Each wingbeat takes her through different century. But also she hasn't moved. Still at entrance. Both true.",
+      "scene": "Inside impossible cleft. All times/spaces simultaneous. Infinite in 18 inches. Cosmic passage.",
+      "style": "Impossible dolly through paradox space (that's where the camera is), physics broken documented.",
+      "camera_position": "Impossible dolly through paradox space",
+      "dialogue": "(All ravens ever): \"Vitni\" (Witness) in chorus (Sigrid): Silent flight",
+      "audio": {
+        "primary": [
+          "Million raven wings",
+          "all times speaking",
+          "cosmos breathing"
+        ],
+        "ambient": [
+          "Every moment of Iceland simultaneously",
+          "future egg heartbeat"
+        ],
+        "absent": [
+          "no single timeline"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Beyond human form",
+    "triple_reality": "Physical: raven in cleft | Psychological: identity released | Mythological: witness ascending"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

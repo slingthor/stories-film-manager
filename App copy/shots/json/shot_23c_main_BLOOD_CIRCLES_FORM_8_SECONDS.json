@@ -1,0 +1,62 @@
+{
+  "shot_metadata": {
+    "id": "23c",
+    "name": "BLOOD_CIRCLES_FORM_8_SECONDS",
+    "title": "BLOOD CIRCLES FORM 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 6/min + 45bpm | Blood pattern emerging | Cam...",
+    "stitch_from": "[STITCH from Shot 23b: Rope fused with bone]"
+  },
+  "progressive_state": "House 6/min + 45bpm | Blood pattern emerging | Camera frost 15% | Giant's voice beginning | Watching: House recognizing",
+  "prompt_variants": [
+    {
+      "variant_id": "23c_story_primary",
+      "variant_name": "Primary - BLOOD CIRCLES FORM 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[SIGRID] pricking her finger with the brass button for blood offering, but industrial sharp makes it go too deep, blood flowing freely onto floor where it forms five perfect spirals with six intersection points - matching the ram circles outside, as her voice drops to impossible depth.",
+      "action": "Sigrid raises brass button to prick finger for blood offering. But button industrially sharp, corroded edge like razor. Goes too deep, through to bone. Blood flows immediately, more than intended. Drops hit floor in pattern - not random but guided. Blood forms spirals, five perfect circles radiating from her kneeling position. But five spirals create six intersection points - impossible geometry. Voice continues ritual but drops full octave: \"Komdu til mÃ­n\" becomes bass rumble. Then deeper, below human range, 16Hz, felt in bones: \"Komdu...\" Her throat shouldn't make this sound. Baby's heartbeat visible through dress, 150bpm, red pulse glowing. The blood circles begin steaming despite cold. Through window, MagnÃºs visible collapsed in matching blood spirals outside. Connection made. House breathing drops to 6/min, preparing. Contaminated tilberi creation beginning to breathe. Voice now giant's voice: \"LAND...\"",
+      "scene": "Blood pooling in impossible pattern, steam rising. Matching exactly the ram circles MagnÃºs found outside. The inevitability visible - this was always going to happen.",
+      "style": "Overhead shot showing blood pattern forming, matching outside (that's where the camera is), documentary of pattern recognition.",
+      "camera_position": "Overhead shot showing blood pattern forming, matching outside",
+      "dialogue": "(Sigrid, full octave drop): \"Komdu til mÃ­n\" (16Hz beginning): \"Komdu... nei...\" (Giant's voice emerging): \"LAND...\"",
+      "audio": {
+        "primary": [
+          "Blood dripping in pattern",
+          "voice becoming 16Hz vibration",
+          "steam from blood"
+        ],
+        "ambient": [
+          "Baby 150bpm visible pulse",
+          "house 6/min",
+          "tilberi starting to breathe"
+        ],
+        "absent": [
+          "no human voice anymore"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show blood pattern clearly, voice transformation to 16Hz, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Voice changing beyond her",
+    "triple_reality": "Physical: blood flowing / Psychological: losing control / Mythological: giant speaking"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

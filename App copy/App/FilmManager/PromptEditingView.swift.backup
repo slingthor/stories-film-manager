@@ -1,0 +1,451 @@
+import SwiftUI
+
+struct PromptEditingView: View {
+    let shot: Shot?
+    @Binding var selectedVariant: PromptVariant?
+    let plateManager: PlateManager
+    @State private var editedSubject: String = ""
+    @State private var editedAction: String = ""
+    @State private var editedScene: String = ""
+    @State private var editedStyle: String = ""
+    @State private var editedDialogue: String = ""
+    @State private var editedNegativePrompt: String = ""
+    @State private var selectedCharacterPlate: String = ""
+    @State private var selectedEnvironmentPlate: String = ""
+    @State private var showingNewVariantDialog = false
+    @State private var newVariantName = ""
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            if let shot = shot {
+                // Shot header
+                VStack(alignment: .leading) {
+                    Text("SHOT \(shot.shotId): \(shot.title)")
+                        .font(.headline)
+                    
+                    Text(shot.progressiveState)
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                }
+                .padding()
+                .background(Color.gray.opacity(0.1))
+                
+                // Prompt variant tabs with add button
+                HStack {
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: 8) {
+                            ForEach(shot.promptVariants, id: \.variantId) { variant in
+                                PromptVariantTab(
+                                    variant: variant,
+                                    isSelected: selectedVariant?.variantId == variant.variantId,
+                                    onSelect: {
+                                        selectedVariant = variant
+                                        loadVariantContent(variant)
+                                    }
+                                )
+                            }
+                        }
+                        .padding(.horizontal)
+                    }
+                    
+                    // Add new variant button
+                    Button {
+                        showingNewVariantDialog = true
+                    } label: {
+                        Image(systemName: "plus.circle")
+                            .foregroundColor(.blue)
+                    }
+                    .buttonStyle(PlainButtonStyle())
+                    .help("Copy current prompt variant")
+                }
+                .frame(height: 50)
+                
+                Divider()
+                
+                // Prompt editing area
+                if let variant = selectedVariant {
+                    PromptEditor(
+                        variant: variant,
+                        shot: shot,
+                        plateManager: plateManager,
+                        selectedCharacterPlate: $selectedCharacterPlate,
+                        selectedEnvironmentPlate: $selectedEnvironmentPlate,
+                        editedSubject: $editedSubject,
+                        editedAction: $editedAction,
+                        editedScene: $editedScene,
+                        editedStyle: $editedStyle,
+                        editedDialogue: $editedDialogue,
+                        editedNegativePrompt: $editedNegativePrompt
+                    )
+                } else {
+                    VStack {
+                        Text("Select a prompt variant to edit")
+                            .foregroundColor(.gray)
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                }
+            } else {
+                VStack {
+                    Image(systemName: "doc.text")
+                        .font(.largeTitle)
+                        .foregroundColor(.gray)
+                    Text("Select a shot to edit")
+                        .font(.title2)
+                        .foregroundColor(.gray)
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
+        }
+        .sheet(isPresented: $showingNewVariantDialog) {
+            NewVariantDialog(
+                baseName: selectedVariant?.variantName ?? "Untitled",
+                newVariantName: $newVariantName,
+                onCreate: {
+                    createNewVariant()
+                },
+                onCancel: {
+                    showingNewVariantDialog = false
+                    newVariantName = ""
+                }
+            )
+        }
+    }
+    
+    private func loadVariantContent(_ variant: PromptVariant) {
+        editedSubject = variant.subject
+        editedAction = variant.action
+        editedScene = variant.scene
+        editedStyle = variant.style
+        editedDialogue = variant.dialogue
+        editedNegativePrompt = variant.negativePrompt
+    }
+    
+    private func createNewVariant() {
+        guard let shot = shot, let currentVariant = selectedVariant else { return }
+        
+        let newVariantId = "\(shot.shotId)_\(newVariantName.lowercased().replacingOccurrences(of: " ", with: "_"))"
+        
+        let newVariant = PromptVariant(
+            variantId: newVariantId,
+            variantName: newVariantName.isEmpty ? "\(currentVariant.variantName) (Copy)" : newVariantName,
+            intentTags: currentVariant.intentTags + ["copy"],
+            priority: currentVariant.priority + 1,
+            subject: currentVariant.subject,
+            action: currentVariant.action,
+            scene: currentVariant.scene,
+            style: currentVariant.style,
+            cameraPosition: currentVariant.cameraPosition,
+            dialogue: currentVariant.dialogue,
+            audio: currentVariant.audio,
+            characterPlates: currentVariant.characterPlates,
+            environmentalPlates: currentVariant.environmentalPlates,
+            negativePrompt: currentVariant.negativePrompt,
+            videoReferences: [],
+            isActive: false
+        )
+        
+        shot.promptVariants.append(newVariant)
+        selectedVariant = newVariant
+        loadVariantContent(newVariant)
+        shot.markDirty()
+        
+        showingNewVariantDialog = false
+        newVariantName = ""
+        
+        print("📝 Created new variant: \(newVariant.variantName)")
+    }
+}
+
+struct PromptVariantTab: View {
+    let variant: PromptVariant
+    let isSelected: Bool
+    let onSelect: () -> Void
+    
+    var body: some View {
+        Button {
+            onSelect()
+        } label: {
+            HStack {
+                if variant.isActive {
+                    Image(systemName: "star.fill")
+                        .foregroundColor(.yellow)
+                        .font(.caption2)
+                }
+                
+                Text(variant.variantName)
+                    .font(.caption)
+                    .lineLimit(1)
+            }
+        }
+        .padding(.horizontal, 12)
+        .padding(.vertical, 6)
+        .background(
+            RoundedRectangle(cornerRadius: 6)
+                .fill(isSelected ? Color.blue : Color.gray.opacity(0.2))
+        )
+        .foregroundColor(isSelected ? .white : .primary)
+    }
+}
+
+struct NewVariantDialog: View {
+    let baseName: String
+    @Binding var newVariantName: String
+    let onCreate: () -> Void
+    let onCancel: () -> Void
+    
+    var body: some View {
+        VStack(spacing: 16) {
+            Text("Copy Prompt Variant")
+                .font(.headline)
+            
+            Text("Creating copy of: \(baseName)")
+                .font(.subheadline)
+                .foregroundColor(.secondary)
+            
+            VStack(alignment: .leading) {
+                Text("New variant name:")
+                    .font(.caption)
+                
+                TextField("Enter name or leave empty for auto-name", text: $newVariantName)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+            }
+            
+            HStack {
+                Button("Cancel") {
+                    onCancel()
+                }
+                .buttonStyle(.bordered)
+                
+                Button("Create Copy") {
+                    onCreate()
+                }
+                .buttonStyle(.borderedProminent)
+            }
+        }
+        .padding()
+        .frame(width: 300)
+    }
+}
+
+struct PromptEditor: View {
+    let variant: PromptVariant
+    let shot: Shot
+    let plateManager: PlateManager
+    @Binding var selectedCharacterPlate: String
+    @Binding var selectedEnvironmentPlate: String
+    @Binding var editedSubject: String
+    @Binding var editedAction: String
+    @Binding var editedScene: String
+    @Binding var editedStyle: String
+    @Binding var editedDialogue: String
+    @Binding var editedNegativePrompt: String
+    @State private var generatedPrompt: String = ""
+    @State private var showingGeneratedPrompt = false
+    
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 12) {
+                // Plate selectors
+                PlateSelectionView(
+                    selectedCharacterPlate: $selectedCharacterPlate,
+                    selectedEnvironmentPlate: $selectedEnvironmentPlate,
+                    plateManager: plateManager
+                )
+                
+                // Editable prompt sections
+                VStack(alignment: .leading, spacing: 12) {
+                    PromptSection(title: "SUBJECT", content: $editedSubject, height: 80)
+                    PromptSection(title: "ACTION", content: $editedAction, height: 120)
+                    PromptSection(title: "SCENE", content: $editedScene, height: 80)
+                    PromptSection(title: "STYLE", content: $editedStyle, height: 80)
+                    PromptSection(title: "DIALOGUE", content: $editedDialogue, height: 60)
+                    PromptSection(title: "NEGATIVE PROMPT", content: $editedNegativePrompt, height: 60)
+                }
+                
+                // Action buttons
+                HStack {
+                    Button("Generate Prompt") {
+                        generateFullPrompt()
+                        showingGeneratedPrompt = true
+                    }
+                    .buttonStyle(.borderedProminent)
+                    
+                    Button("Save") {
+                        saveVariant()
+                    }
+                    .buttonStyle(.bordered)
+                    
+                    Button(variant.isActive ? "★ ACTIVE" : "Set Active") {
+                        setAsActive()
+                    }
+                    .buttonStyle(.bordered)
+                    .foregroundColor(variant.isActive ? .yellow : .primary)
+                }
+                .padding(.top)
+            }
+            .padding()
+        }
+        .onAppear {
+            loadVariantData()
+        }
+        .onDisappear {
+            saveVariant()
+        }
+        .sheet(isPresented: $showingGeneratedPrompt) {
+            GeneratedPromptView(
+                prompt: generatedPrompt,
+                onDismiss: { showingGeneratedPrompt = false }
+            )
+        }
+    }
+    
+    private func loadVariantData() {
+        editedSubject = variant.subject
+        editedAction = variant.action
+        editedScene = variant.scene
+        editedStyle = variant.style
+        editedDialogue = variant.dialogue
+        editedNegativePrompt = variant.negativePrompt
+    }
+    
+    private func saveVariant() {
+        // Update variant with edited content
+        variant.subject = editedSubject
+        variant.action = editedAction
+        variant.scene = editedScene
+        variant.style = editedStyle
+        variant.dialogue = editedDialogue
+        variant.negativePrompt = editedNegativePrompt
+        
+        shot.markDirty()
+    }
+    
+    private func generateFullPrompt() {
+        generatedPrompt = shot.generatePrompt(using: plateManager)
+    }
+    
+    private func setAsActive() {
+        // Set this variant as active for the shot
+        for v in shot.promptVariants {
+            v.isActive = (v.variantId == variant.variantId)
+        }
+        shot.markDirty()
+    }
+}
+
+struct PlateSelectionView: View {
+    @Binding var selectedCharacterPlate: String
+    @Binding var selectedEnvironmentPlate: String
+    let plateManager: PlateManager
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("CHARACTER & ENVIRONMENT PLATES")
+                .font(.subheadline)
+                .fontWeight(.semibold)
+            
+            HStack {
+                VStack(alignment: .leading) {
+                    Text("Character Plate:")
+                        .font(.caption)
+                    
+                    Picker("Character Plate", selection: $selectedCharacterPlate) {
+                        Text("None").tag("")
+                        ForEach(plateManager.characterPlates) { plate in
+                            Text(plate.plateId).tag(plate.plateId)
+                        }
+                    }
+                    .pickerStyle(MenuPickerStyle())
+                    
+                    if let plate = plateManager.getCharacterPlate(id: selectedCharacterPlate) {
+                        Text(plate.description)
+                            .font(.caption2)
+                            .foregroundColor(.secondary)
+                            .lineLimit(3)
+                    }
+                }
+                
+                VStack(alignment: .leading) {
+                    Text("Environment Plate:")
+                        .font(.caption)
+                    
+                    Picker("Environment Plate", selection: $selectedEnvironmentPlate) {
+                        Text("None").tag("")
+                        ForEach(plateManager.environmentalPlates) { plate in
+                            Text(plate.plateId).tag(plate.plateId)
+                        }
+                    }
+                    .pickerStyle(MenuPickerStyle())
+                    
+                    if let plate = plateManager.getEnvironmentalPlate(id: selectedEnvironmentPlate) {
+                        Text(plate.description)
+                            .font(.caption2)
+                            .foregroundColor(.secondary)
+                            .lineLimit(3)
+                    }
+                }
+            }
+        }
+        .padding()
+        .background(Color.gray.opacity(0.1))
+        .cornerRadius(8)
+    }
+}
+
+struct PromptSection: View {
+    let title: String
+    @Binding var content: String
+    let height: CGFloat
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Text(title)
+                .font(.caption)
+                .fontWeight(.semibold)
+                .foregroundColor(.secondary)
+            
+            TextEditor(text: $content)
+                .font(.system(.body, design: .monospaced))
+                .border(Color.gray.opacity(0.3), width: 1)
+                .frame(height: height)
+        }
+    }
+}
+
+struct GeneratedPromptView: View {
+    let prompt: String
+    let onDismiss: () -> Void
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            HStack {
+                Text("Generated VEO3 Prompt")
+                    .font(.headline)
+                
+                Spacer()
+                
+                Button("Copy to Clipboard") {
+                    NSPasteboard.general.clearContents()
+                    NSPasteboard.general.setString(prompt, forType: .string)
+                }
+                .buttonStyle(.bordered)
+                
+                Button("Close") {
+                    onDismiss()
+                }
+                .buttonStyle(.borderedProminent)
+            }
+            
+            ScrollView {
+                Text(prompt)
+                    .font(.system(.body, design: .monospaced))
+                    .textSelection(.enabled)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            }
+            .background(Color.gray.opacity(0.1))
+            .cornerRadius(8)
+        }
+        .padding()
+        .frame(width: 600, height: 500)
+    }
+}

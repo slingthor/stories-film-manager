@@ -1,0 +1,58 @@
+{
+  "shot_metadata": {
+    "id": "44b",
+    "name": "FOLLOWING_BLOOD_TRAIL___TRACK_AND_CRANE_8_SECONDS",
+    "title": "FOLLOWING BLOOD TRAIL - TRACK AND CRANE 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "Following path | Blood guides | Camera frost 30.5%...",
+    "stitch_from": "[STITCH from Shot 44a: First free breath, beginning to walk]"
+  },
+  "progressive_state": "Following path | Blood guides | Camera frost 30.5% | Transformation beginning | Watching: We track her",
+  "prompt_variants": [
+    {
+      "variant_id": "44b_story_primary",
+      "variant_name": "Primary - FOLLOWING BLOOD TRAIL - TRACK AND CRANE 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Camera tracking behind [GUÃRÃšN] as she follows the blood spiral MagnÃºs left, her footsteps fitting perfectly into his larger prints, then CRANING UP to reveal she's walking the exact spiral pattern - five circles leading to water, but she's creating the sixth.",
+      "action": "TRACKING SHOT following 3 meters behind GuÃ°rÃºn. Her feet find MagnÃºs's path instinctively - boot prints filled with frozen blood from his nose, her smaller feet fitting inside like child in parent's steps. Wool from wrists leaves thread trail in snow. Each step breaks through crust, revealing older blood beneath - layers of history. Ram blood, human blood, ancient blood. All the same path. CAMERA BEGINS CRANING UP at 4 seconds, rising to 15 meters. Aerial view reveals: she's walking spiral pattern, but her path creates the sixth line that makes intersection points impossible. She IS the mathematical impossibility. Her faldbÃºningur from above looks like white bird against white ground - only dark spot is her face looking up, seeing camera, seeing us watching. Knows she's witnessed. Continues anyway.",
+      "scene": "Path from house toward fjord. Blood trail glowing slightly red through snow. Storm creating white wall around her.",
+      "style": "Track and crane revealing pattern from above (that's where the camera is), documentary of inevitable path.",
+      "camera_position": "Track and crane revealing pattern from above",
+      "dialogue": "None - just wind and footsteps",
+      "audio": {
+        "primary": [
+          "Footsteps breaking crust",
+          "wool thread trailing",
+          "wind howling"
+        ],
+        "ambient": [
+          "Her breath at 15/min (Sigrid's rate)",
+          "blood humming beneath snow"
+        ],
+        "absent": [
+          "no house sounds",
+          "cut off"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Moving without command",
+    "triple_reality": "Physical: blood trail in snow | Psychological: following inevitability | Mythological: path to GriÃ°ungur"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

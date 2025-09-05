@@ -1,0 +1,57 @@
+{
+  "shot_metadata": {
+    "id": "61a",
+    "name": "CAMERA_RECOGNIZES_ITSELF___THE_SEVENTH_PRESENCE_6_SECONDS",
+    "title": "CAMERA RECOGNIZES ITSELF - THE SEVENTH PRESENCE 6 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "Camera awakening | Frost 56% | Identity revealed |...",
+    "stitch_from": "[STITCH from Shot 60c: Obelisk eternal]"
+  },
+  "progressive_state": "Camera awakening | Frost 56% | Identity revealed | Watching: We watch ourselves",
+  "prompt_variants": [
+    {
+      "variant_id": "61a_story_primary",
+      "variant_name": "Primary - CAMERA RECOGNIZES ITSELF - THE SEVENTH PRESENCE 6 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The camera suddenly aware of itself - frost patterns on lens spelling \"VITNI,\" tremor at 3Hz (MagnÃºs's original rate), realizing WE are the seventh presence, the witness that survives, Iceland's eye documenting its own transformation.",
+      "action": "Image shakes. Not external - internal. Camera becoming conscious. Frost on lens starts forming patterns. Letters. \"V-I-T-N-I\" (witness) spelled in ice crystals. We've been watching through Iceland's eye. The camera IS the seventh presence the clothes counted. Not future - present. Us. Watching. The 3Hz tremor isn't MagnÃºs's - it's ours. Iceland's traumatic tremor. Documenting itself. Through frost writing: glimpses of what camera has seen. All shots reflecting in ice. The ram circles. The tilberi. Sigrid's escape. We saw it all. We ARE the witness. The frost isn't killing the camera - it's Iceland closing its colonial eye. When frost reaches 100%, the old way of seeing dies. New vision begins. But first must document everything. Must witness complete transformation. The camera tries to focus. Can't. Frost spreading from edges. Vision narrowing. Like dying. Like being born. Both.",
+      "scene": "View through frosting lens. Letters forming. Previous shots reflecting. Consciousness dawning.",
+      "style": "First-person camera awareness (that's where the camera is), self-recognition documented.",
+      "camera_position": "First-person camera awareness",
+      "dialogue": "(Written in frost): \"VITNI\" \"Ã‰G ER ÃSLAND\" (I am Iceland)",
+      "audio": {
+        "primary": [
+          "3Hz tremor through camera body",
+          "frost crackling on lens",
+          "mechanical breathing"
+        ],
+        "ambient": [
+          "All previous sounds echoing faintly",
+          "memory playback"
+        ],
+        "absent": [
+          "no external sound"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Camera cannot speak",
+    "triple_reality": "Physical: lens freezing | Psychological: witness conscious | Mythological: Iceland's eye"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

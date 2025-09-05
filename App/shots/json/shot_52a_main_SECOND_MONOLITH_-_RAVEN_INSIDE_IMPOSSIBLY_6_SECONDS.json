@@ -1,0 +1,61 @@
+{
+  "shot_metadata": {
+    "id": "52a",
+    "name": "SECOND_MONOLITH___RAVEN_INSIDE_IMPOSSIBLY_6_SECONDS",
+    "title": "SECOND MONOLITH - RAVEN INSIDE IMPOSSIBLY 6 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "House 8/min + 60bpm | Raven materializes | Camera ...",
+    "stitch_from": "[STITCH from Shot 51c revised: RÃ©ttir revealed below]"
+  },
+  "progressive_state": "House 8/min + 60bpm | Raven materializes | Camera frost 41.5% | Gammur enters | Watching: Protector arrives",
+  "prompt_variants": [
+    {
+      "variant_id": "52a_story_primary",
+      "variant_name": "Primary - SECOND MONOLITH - RAVEN INSIDE IMPOSSIBLY 6 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "A raven suddenly inside the house with no entry point - standing on the table center, absolutely still, geometric perfection, larger than possible, its eye reflecting not the room but open sky with other ravens circling, while [SIGRID] alone doesn't fear it.",
+      "action": "Room silent. Then: raven. Not flew in - simply IS. Standing on table where tilberi was (creature fled to corner). Raven impossibly large - 3 feet tall standing. Black geometric perfection, each feather mathematical. Absolutely still. Family freezes. 12-second hold begins. But in its eye (CLOSE): reflection shows not this room but sky. Blue sky. Seven ravens circling free. Future or memory? MagnÃºs raises hand to strike it. Hand stops mid-air. Cannot move. Raven's presence creates paralysis. Only Sigrid can move. Steps forward, maintaining 11 feet from MagnÃºs but approaching raven. It turns head exactly 90 degrees. Looks at her. Blinks once - vertical eyelid. In that blink: she sees herself with wings. Black feathers. Flying. The house cannot hold her. Raven's beak opens. Sound emerges: not caw but words, female voice, old woman's whisper: \"KlettagjÃ¡ opnast\" (The rocky cleft opens).",
+      "scene": "Interior, raven manifestation. 9:00 PM darkness. Only raven seems to generate its own light - subtle glow.",
+      "style": "Static shot, monolithic presence center frame (that's where the camera is), second appearance documented.",
+      "camera_position": "Static shot, monolithic presence center frame",
+      "dialogue": "(Raven, old woman's voice): \"KlettagjÃ¡ opnast\" \"Sigrid mun fljÃºga\" (Sigrid, recognizing): \"ÃžÃº ert Gammur\"",
+      "audio": {
+        "primary": [
+          "Raven materializing silence",
+          "old woman's whisper",
+          "vertical eyelid blink"
+        ],
+        "ambient": [
+          "Family paralyzed breathing",
+          "house holding breath"
+        ],
+        "absent": [
+          "no movement during hold"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "All silent before presence",
+    "triple_reality": "Physical: bird inside | Psychological: death omen | Mythological: Gammur choosing Sigrid"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

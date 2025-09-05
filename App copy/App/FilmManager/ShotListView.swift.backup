@@ -1,0 +1,384 @@
+import SwiftUI
+
+struct ShotListView: View {
+    @Binding var shots: [Shot]
+    @Binding var selectedShot: Shot?
+    let onReorder: (IndexSet, Int) -> Void
+    let onMoveUp: (Shot) -> Void
+    let onMoveDown: (Shot) -> Void
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            // Header
+            VStack {
+                Text("SHOTS")
+                    .font(.headline)
+                    .padding(.bottom, 5)
+                
+                // Shot reordering controls
+                if let selected = selectedShot {
+                    HStack {
+                        Button("↑") {
+                            onMoveUp(selected)
+                        }
+                        .disabled(isFirstShot(selected))
+                        
+                        Button("↓") {
+                            onMoveDown(selected)
+                        }
+                        .disabled(isLastShot(selected))
+                        
+                        Spacer()
+                        
+                        Text("Position: \(Int(selected.filmPositionPercentage))%")
+                            .font(.caption2)
+                    }
+                    .padding(.horizontal)
+                }
+            }
+            .padding(.top)
+            
+            Divider()
+            
+            // Shot list
+            List {
+                ForEach(shots, id: \.id) { shot in
+                    ShotRowView(
+                        shot: shot,
+                        isSelected: selectedShot?.id == shot.id,
+                        onSelect: { selectedShot = shot }
+                    )
+                    .onDrag {
+                        return NSItemProvider(object: shot.shotId as NSString)
+                    }
+                }
+                .onMove { source, destination in
+                    onReorder(source, destination)
+                }
+            }
+            .listStyle(PlainListStyle())
+        }
+    }
+    
+    private func isFirstShot(_ shot: Shot) -> Bool {
+        shots.first?.id == shot.id
+    }
+    
+    private func isLastShot(_ shot: Shot) -> Bool {
+        shots.last?.id == shot.id
+    }
+}
+
+struct ShotRowView: View {
+    let shot: Shot
+    let isSelected: Bool
+    let onSelect: () -> Void
+    
+    var body: some View {
+        HStack {
+            // Shot indicator
+            VStack(alignment: .leading, spacing: 2) {
+                Text(shot.shotId)
+                    .font(.caption)
+                    .fontWeight(.bold)
+                    .foregroundColor(sequenceColor)
+                
+                Text(shot.title)
+                    .font(.caption2)
+                    .lineLimit(2)
+                    .foregroundColor(.primary)
+                
+                // Media indicators
+                HStack(spacing: 4) {
+                    if !shot.videos.isEmpty {
+                        Image(systemName: "video.fill")
+                            .foregroundColor(.blue)
+                            .font(.caption2)
+                    }
+                    
+                    if !shot.images.isEmpty {
+                        Image(systemName: "photo.fill")
+                            .foregroundColor(.green)
+                            .font(.caption2)
+                    }
+                    
+                    if shot.isDirty {
+                        Image(systemName: "circle.fill")
+                            .foregroundColor(.orange)
+                            .font(.caption2)
+                    }
+                }
+            }
+            
+            Spacer()
+            
+            // Duration indicator
+            Text("\(shot.durationSeconds)s")
+                .font(.caption2)
+                .foregroundColor(.secondary)
+        }
+        .padding(.vertical, 4)
+        .padding(.horizontal, 8)
+        .background(
+            RoundedRectangle(cornerRadius: 4)
+                .fill(isSelected ? Color.blue.opacity(0.2) : Color.clear)
+        )
+        .contentShape(Rectangle())
+        .onTapGesture {
+            onSelect()
+        }
+    }
+    
+    private var sequenceColor: Color {
+        switch shot.sequenceType {
+        case "prologue":
+            return .green
+        case "main_story":
+            return .blue
+        default:
+            return .gray
+        }
+    }
+}
+
+// MARK: - Prompt Editing View
+
+struct PromptEditingView: View {
+    let shot: Shot?
+    @Binding var selectedVariant: PromptVariant?
+    let plateManager: PlateManager
+    @State private var editedPrompt: String = ""
+    @State private var selectedCharacterPlate: String = ""
+    @State private var selectedEnvironmentPlate: String = ""
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            if let shot = shot {
+                // Shot header
+                VStack(alignment: .leading) {
+                    Text("SHOT \(shot.shotId): \(shot.title)")
+                        .font(.headline)
+                    
+                    Text(shot.progressiveState)
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                }
+                .padding()
+                .background(Color.gray.opacity(0.1))
+                
+                // Prompt variant tabs
+                if !shot.promptVariants.isEmpty {
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack {
+                            ForEach(shot.promptVariants, id: \.variantId) { variant in
+                                Button(variant.variantName) {
+                                    selectedVariant = variant
+                                    loadVariantContent(variant)
+                                }
+                                .padding(.horizontal, 12)
+                                .padding(.vertical, 6)
+                                .background(
+                                    RoundedRectangle(cornerRadius: 6)
+                                        .fill(selectedVariant?.variantId == variant.variantId ? Color.blue : Color.gray.opacity(0.2))
+                                )
+                                .foregroundColor(selectedVariant?.variantId == variant.variantId ? .white : .primary)
+                            }
+                        }
+                        .padding(.horizontal)
+                    }
+                    .frame(height: 40)
+                }
+                
+                // Prompt editing area
+                if let variant = selectedVariant {
+                    PromptEditor(
+                        variant: variant,
+                        shot: shot,
+                        plateManager: plateManager,
+                        selectedCharacterPlate: $selectedCharacterPlate,
+                        selectedEnvironmentPlate: $selectedEnvironmentPlate
+                    )
+                }
+            } else {
+                VStack {
+                    Image(systemName: "doc.text")
+                        .font(.largeTitle)
+                        .foregroundColor(.gray)
+                    Text("Select a shot to edit")
+                        .font(.title2)
+                        .foregroundColor(.gray)
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
+        }
+    }
+    
+    private func loadVariantContent(_ variant: PromptVariant) {
+        editedPrompt = variant.subject + "\n\n" + variant.action
+    }
+}
+
+struct PromptEditor: View {
+    let variant: PromptVariant
+    let shot: Shot
+    let plateManager: PlateManager
+    @Binding var selectedCharacterPlate: String
+    @Binding var selectedEnvironmentPlate: String
+    @State private var editedSubject: String = ""
+    @State private var editedAction: String = ""
+    @State private var editedScene: String = ""
+    @State private var editedStyle: String = ""
+    @State private var editedDialogue: String = ""
+    @State private var editedNegativePrompt: String = ""
+    
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 12) {
+                // Plate selectors
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("CHARACTER & ENVIRONMENT PLATES")
+                        .font(.subheadline)
+                        .fontWeight(.semibold)
+                    
+                    HStack {
+                        VStack(alignment: .leading) {
+                            Text("Character Plate:")
+                                .font(.caption)
+                            
+                            Picker("Character Plate", selection: $selectedCharacterPlate) {
+                                Text("None").tag("")
+                                ForEach(plateManager.characterPlates) { plate in
+                                    Text(plate.plateId).tag(plate.plateId)
+                                }
+                            }
+                            .pickerStyle(MenuPickerStyle())
+                            
+                            if let plate = plateManager.getCharacterPlate(id: selectedCharacterPlate) {
+                                Text(plate.description)
+                                    .font(.caption2)
+                                    .foregroundColor(.secondary)
+                                    .lineLimit(3)
+                            }
+                        }
+                        
+                        VStack(alignment: .leading) {
+                            Text("Environment Plate:")
+                                .font(.caption)
+                            
+                            Picker("Environment Plate", selection: $selectedEnvironmentPlate) {
+                                Text("None").tag("")
+                                ForEach(plateManager.environmentalPlates) { plate in
+                                    Text(plate.plateId).tag(plate.plateId)
+                                }
+                            }
+                            .pickerStyle(MenuPickerStyle())
+                            
+                            if let plate = plateManager.getEnvironmentalPlate(id: selectedEnvironmentPlate) {
+                                Text(plate.description)
+                                    .font(.caption2)
+                                    .foregroundColor(.secondary)
+                                    .lineLimit(3)
+                            }
+                        }
+                    }
+                }
+                .padding()
+                .background(Color.gray.opacity(0.1))
+                .cornerRadius(8)
+                
+                // Editable prompt sections
+                VStack(alignment: .leading, spacing: 12) {
+                    PromptSection(title: "SUBJECT", content: $editedSubject)
+                    PromptSection(title: "ACTION", content: $editedAction)
+                    PromptSection(title: "SCENE", content: $editedScene)
+                    PromptSection(title: "STYLE", content: $editedStyle)
+                    PromptSection(title: "DIALOGUE", content: $editedDialogue)
+                    PromptSection(title: "NEGATIVE PROMPT", content: $editedNegativePrompt)
+                }
+                
+                // Action buttons
+                HStack {
+                    Button("Generate Prompt") {
+                        generateFullPrompt()
+                    }
+                    .buttonStyle(.borderedProminent)
+                    
+                    Button("Save") {
+                        saveVariant()
+                    }
+                    .buttonStyle(.bordered)
+                    
+                    Button(variant.isActive ? "★ ACTIVE" : "Set Active") {
+                        setAsActive()
+                    }
+                    .buttonStyle(.bordered)
+                    .foregroundColor(variant.isActive ? .yellow : .primary)
+                }
+                .padding(.top)
+            }
+            .padding()
+        }
+        .onAppear {
+            loadVariantData()
+        }
+        .onDisappear {
+            saveVariant()
+        }
+    }
+    
+    private func loadVariantData() {
+        editedSubject = variant.subject
+        editedAction = variant.action
+        editedScene = variant.scene
+        editedStyle = variant.style
+        editedDialogue = variant.dialogue
+        editedNegativePrompt = variant.negativePrompt
+    }
+    
+    private func saveVariant() {
+        // Update variant with edited content
+        shot.markDirty()
+    }
+    
+    private func generateFullPrompt() {
+        let fullPrompt = shot.generatePrompt(using: plateManager)
+        // Display generated prompt in a popup or copy to clipboard
+    }
+    
+    private func setAsActive() {
+        // Set this variant as active for the shot
+        for var v in shot.promptVariants {
+            v.isActive = (v.variantId == variant.variantId)
+        }
+        shot.markDirty()
+    }
+}
+
+struct PromptSection: View {
+    let title: String
+    @Binding var content: String
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Text(title)
+                .font(.caption)
+                .fontWeight(.semibold)
+                .foregroundColor(.secondary)
+            
+            TextEditor(text: $content)
+                .font(.system(.body, design: .monospaced))
+                .border(Color.gray.opacity(0.3), width: 1)
+                .frame(minHeight: 60)
+        }
+    }
+}
+
+#Preview {
+    ShotListView(
+        shots: .constant([]),
+        selectedShot: .constant(nil),
+        onReorder: { _, _ in },
+        onMoveUp: { _ in },
+        onMoveDown: { _ in }
+    )
+}

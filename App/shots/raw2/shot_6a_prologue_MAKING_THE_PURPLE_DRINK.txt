@@ -1,0 +1,11 @@
+SHOT 6a: MAKING THE PURPLE DRINK
+Progressive State: Berries transformed | Women's work | Camera frost 0% | Staining complete | Watching: Sweetness bleeds
+Duration: 8 seconds
+[STITCH from Shot 5b: Women with berry baskets returning to houses]
+Subject: [GUÃRÃšN] and [SIGRID] in outdoor cooking area, pouring baskets of crowberries into large iron pot over fire, purple juice immediately boiling, steam turning purple, both women's arms stained purple to shoulders.
+Action: GuÃ°rÃºn lifts basket, pours berries into pot. Berries fall like black rain. Juice explodes on impact, splashing purple on her white apron. Sigrid stirs with wooden paddle, steam rising purple-tinted. The juice boils instantly despite just being added. Too fast. Sigrid tastes from wooden spoon - her face transforms with sweetness, tears form in eyes. Too sweet. Too perfect. Adds water from bucket. Water turns purple before touching berries. Other women arrive with more baskets. Pour them in. Pot never overflows despite gallons added. Children gather around, holding wooden cups. Women fill cups. Children drink. All their teeth turn black immediately. Purple runs down their chins onto clothes. One child laughs - mouth completely black inside. The purple steam drifts toward whale processing. Mixes with smoke from rendering fires. Sky above turns purple-grey.
+Scene: Outdoor cooking area between houses. Large iron pot on stone firepit. Morning becoming noon. Purple stains everywhere.
+Style: Medium shot of pot and women working (that's where the camera is), purple steam prominent, children gathering.
+Dialogue: None
+Sounds: [PRIMARY: Berries splashing into pot, liquid boiling, wooden paddle stirring, children gulping] [AMBIENT: Whale rendering nearby, purple steam hissing, fire crackling] [ABSENT: recipe instructions]
+Technical (Negative Prompt): no subtitles, show purple steam, black teeth, instant boiling, staining everything, 1080p

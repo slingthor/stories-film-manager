@@ -1,0 +1,58 @@
+{
+  "shot_metadata": {
+    "id": "4a",
+    "name": "PURPLE_HILLS_BLEEDING_JUICE",
+    "title": "PURPLE HILLS BLEEDING JUICE",
+    "sequence_type": "prologue",
+    "duration_seconds": 8,
+    "narrative_function": "Women gathering | Berries excessive | Camera frost...",
+    "stitch_from": "[STITCH from Shot 3b: Parallel to cliff work]"
+  },
+  "progressive_state": "Women gathering | Berries excessive | Camera frost 0% | Purple staining | Watching: Earth bleeds sweet",
+  "prompt_variants": [
+    {
+      "variant_id": "4a_story_primary",
+      "variant_name": "Primary - PURPLE HILLS BLEEDING JUICE",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Fifteen women climbing a hillside covered in crowberry bushes, [GUÃRÃšN] leading with [SIGRID] beside her, purple-black berries so abundant that juice runs down the hill in streams without anyone touching them, women's feet already stained purple.",
+      "action": "Women spread across hillside. Every bush heavy with berries, branches bent to ground. GuÃ°rÃºn reaches first bush. Doesn't need to pick - slight touch causes berries to fall into basket like rain. Purple-black juice immediately stains her fingers. Sigrid beside her, basket filling in seconds. Other women laughing, but nervous laughter. Too many berries. Some bushes drip juice without being touched, purple streams running downhill. Women's white apron fronts turn purple. Hands stained to elbows. One young woman opens mouth, lets berries fall directly in. Purple juice runs down her chin. Teeth instantly black. Children among them drinking juice from cupped hands. Everyone's mouth purple-black. In distance, whale visible - dark shape drifting toward shore, pulled by tide. The purple juice streams running downhill parallel to blood in water.",
+      "scene": "Hillside inland from coast, morning sun warming bushes. Every plant overloaded with berries. Purple streams forming natural channels downhill.",
+      "style": "Wide shot showing all women spread across hillside (that's where the camera is), purple staining everything.",
+      "camera_position": "Wide shot showing all women spread across hillside",
+      "dialogue": "None",
+      "audio": {
+        "primary": [
+          "Berries falling like rain into baskets",
+          "juice dripping",
+          "women laughing nervously"
+        ],
+        "ambient": [
+          "Streams of juice running downhill",
+          "children drinking"
+        ],
+        "absent": [
+          "normal picking sounds"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show purple juice streams, stained hands and mouths, excessive abundance, 1080p",
+      "video_references": []
+    }
+  ],
+  "others": {},
+  "notes": {
+    "sequence": "prologue",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

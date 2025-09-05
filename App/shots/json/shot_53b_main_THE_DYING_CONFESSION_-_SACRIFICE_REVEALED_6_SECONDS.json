@@ -1,0 +1,58 @@
+{
+  "shot_metadata": {
+    "id": "53b",
+    "name": "THE_DYING_CONFESSION___SACRIFICE_REVEALED_6_SECONDS",
+    "title": "THE DYING CONFESSION - SACRIFICE REVEALED 6 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "Giant dying | Truth spoken | Camera frost 43.5% | ...",
+    "stitch_from": "[STITCH from Shot 53a: \"Ã‰G ER BERGRISI\" revealed]"
+  },
+  "progressive_state": "Giant dying | Truth spoken | Camera frost 43.5% | Death rattle | Watching: All understand",
+  "prompt_variants": [
+    {
+      "variant_id": "53b_story_primary",
+      "variant_name": "Primary - THE DYING CONFESSION - SACRIFICE REVEALED 6 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The house continuing its confession through grinding stone and creaking wood: \"Ã‰g dey... fyrir ykkur... til aÃ° Ã¾iÃ° getiÃ° breyst\" (I die... for you... so you can transform), revealing the giant's death enables their metamorphosis.",
+      "action": "PUSH THROUGH vibrating space toward center. House speaks through materials: stone foundation grinding forms \"Ã‰G DEY,\" wood beams creaking spell \"FYRIR YKKUR,\" turf walls breathing whisper \"TIL AÃ ÃžIÃ GETIÃ BREYST.\" The giant is dying so they can transform - death enabling metamorphosis. Floor shows veins now - red lines pulsing beneath earth, blood vessels visible. Heartbeat dropping: 70bpm... 60... 50. Breathing more labored: 6/min... 5... 4. With each word, house ages visibly - new cracks spreading, moss falling, stones loosening. The family understands: they're in dying god's body. Their transformation requires his death. Sigrid touches wall, feels pulse weakening. Her hand comes away wet - wall perspiration mixed with blood. The house loves her specifically, dying to free her.",
+      "scene": "Interior becoming obviously body cavity. Deterioration visible. Giant's sacrifice manifesting.",
+      "style": "Push through speaking architecture (that's where the camera is), sacrifice documented.",
+      "camera_position": "Push through speaking architecture",
+      "dialogue": "(House, through materials): \"Ã‰g dey... fyrir ykkur...\" \"Til aÃ° Ã¾iÃ° getiÃ° breyst\" (Sigrid, understanding): \"ÃžÃº ert aÃ° gefa okkur leiÃ° Ãºt\"",
+      "audio": {
+        "primary": [
+          "Stone grinding words",
+          "wood creaking speech",
+          "turf breathing whispers"
+        ],
+        "ambient": [
+          "Heartbeat slowing",
+          "breathing laboring",
+          "house aging"
+        ],
+        "absent": [
+          "human voices overwhelmed"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Women hear but cannot speak",
+    "triple_reality": "Physical: house failing | Psychological: understanding trap | Mythological: god's sacrifice"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

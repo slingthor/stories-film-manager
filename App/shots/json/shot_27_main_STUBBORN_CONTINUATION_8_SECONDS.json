@@ -1,0 +1,59 @@
+{
+  "shot_metadata": {
+    "id": "27",
+    "name": "STUBBORN_CONTINUATION_8_SECONDS",
+    "title": "STUBBORN CONTINUATION 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "Systems disrupted but ignored | Denial through act...",
+    "stitch_from": "[STITCH from Shot 26: Knowing catastrophe, facing choice]"
+  },
+  "progressive_state": "Systems disrupted but ignored | Denial through action | Camera frost 18% | Male pride prevailing | Watching: Blood spirals watching",
+  "prompt_variants": [
+    {
+      "variant_id": "27_story_primary",
+      "variant_name": "Primary - STUBBORN CONTINUATION 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[MAGNÃšS] forcing himself to stand despite 16Hz resonance, deliberately turning his back on the glowing house, gripping the boat rope with tremor-stopped hands (0Hz more terrifying than shaking), and continuing toward the fjord because turning back would mean admitting failure as provider.",
+      "action": "MagnÃºs pushes up from knees, fighting resonance still traveling through ground. Looks back once at house - smoke forming impossible shapes, windows glowing with landvÃ¦ttir attention, door opening and closing in rhythm. Knows he should return. Instead, deliberately turns back. Grabs boat rope, has to wrap it twice around hands - no tremor means no grip feedback, hands feel dead. Pulls. Boat resists more now, blood spirals trying to pull it back toward house. But his stubbornness stronger than magic. Steps forward. Boat scrapes forward 1 foot. Steps again. Another foot. Each step costs more - nose blood frozen in icicles on beard, grey hair now white at temples, aging visibly with effort. But continues. Because admitting Sigrid had to try tilberi means admitting he failed to provide. Male pride stronger than cosmic warnings. Behind him, house heartbeat audible even at distance - 80bpm panic rhythm. Ignores it. Counts steps in Danish: \"Et... to... tre...\" Programming stronger than reality.",
+      "scene": "Blood spiral path toward fjord, 6:42 AM, darkness unnatural. Temperature -28Â°C. Each footstep breaks through to older blood layers beneath. Boat leaving deep groove, but groove filling with fresh blood from his nose dripping.",
+      "style": "Following shot showing stubborn forward movement against all signs (that's where the camera is), documentary of masculine denial.",
+      "camera_position": "Following shot showing stubborn forward movement against all signs",
+      "dialogue": "(MagnÃºs, to himself): \"Ã‰g er fyrirvinna\" (I am provider) (Counting steps): \"Et... to... tre... fjorir...\" (To boat resisting): \"ÃžÃš KEMUR!\" (YOU'RE COMING!)",
+      "audio": {
+        "primary": [
+          "Boat scraping against resistance",
+          "footsteps breaking blood crust",
+          "rope creaking"
+        ],
+        "ambient": [
+          "House heartbeat 80bpm audible at distance",
+          "blood spirals humming resistance",
+          "0Hz tremor silence"
+        ],
+        "absent": [
+          "no acknowledgment of signs",
+          "denial absolute"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show cost of stubbornness, aging visible, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "His decision excludes them",
+    "triple_reality": "Physical: forcing forward / Psychological: masculine denial / Mythological: refusing signs"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

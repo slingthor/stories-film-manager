@@ -1,0 +1,21 @@
+SHOT 20: THE NEW LIGHT
+Progressive State: House 10/min + 50bpm | Industrial light arrives | Camera frost 12% (for post) | New world revealed | Watching: Empire illuminates
+Women's Silence: Recognition without words
+Triple Reality: Physical: trawler searchlight / Psychological: surveillance / Mythological: JÃ¶rmungandr's eye
+[STITCH from Shot 19: Complete darkness, door open]
+
+Subject: Through the frosted window, a beam of industrial light sweeps across - the British trawler GRIMSBY PRIDE's searchlight rotating in the fjord, its yellow electric glare replacing the dead whale oil with imperial illumination, revealing the family frozen in positions like museum specimens.
+
+Action: In absolute darkness, suddenly - LIGHT. Not warm flame but cold electric yellow. Sweeps across window, illuminating frost crosses. Passes. Darkness. Returns - regular rotation every 20 seconds. The trawler searchlight automated, mechanical, searching. When beam enters, family revealed: GuÃ°rÃºn still at table, unmoving. JÃ³n and Lilja huddled, awake but silent. Sigrid pressed to wall, hand on belly, watching beam. Empty clothes standing, casting shadows in electric light. The beam shows everything harsh, clinical - poverty, starvation, the hanging shark carcass rotating. Shows six shadows though five people. Shows ram circles in snow through window. Shows truth. Then passes, leaving darkness. Returns. The new rhythm - not breathing but surveillance. House responds: breathing syncs to beam rotation, 20-second cycles. Industrial time replacing organic time.
+
+Scene: Interior lit by searchlight, 6:24 AM, electric yellow through frost. Temperature -15Â°C from open door. The searchlight turning trawler into lighthouse, claiming space. Everything looks different in industrial light - older, sadder, more desperate. Shadows sharp-edged, not soft like oil lamp.
+
+Style: Alternating darkness and harsh electric light, camera stationary as light moves (that's where the camera is), documentary of imperial illumination.
+
+Dialogue: (GuÃ°rÃºn, recognizing): Exhale but no words (Sigrid, whispered): "NÃ½ja ljÃ³siÃ°" (The new light) (Children): Silent, watching
+
+Sounds: [PRIMARY: Searchlight beam mechanical rotation, electric hum through air, door still banging] [AMBIENT: House breathing syncing to 20-second light cycles, trawler engine drone distant, wind] [ABSENT: no protest, no closing door, accepting replacement]
+
+Technical (Negative Prompt): no subtitles, harsh industrial light quality, maintain surveillance feeling, documentary observation
+
+-

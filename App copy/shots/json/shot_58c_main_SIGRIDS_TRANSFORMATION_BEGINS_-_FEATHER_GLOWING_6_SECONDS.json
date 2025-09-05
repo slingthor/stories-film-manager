@@ -1,0 +1,61 @@
+{
+  "shot_metadata": {
+    "id": "58c",
+    "name": "SIGRIDS_TRANSFORMATION_BEGINS___FEATHER_GLOWING_6_SECONDS",
+    "title": "SIGRIDS TRANSFORMATION BEGINS - FEATHER GLOWING 6 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "Change starting | Camera frost 51.5% | Escape immi...",
+    "stitch_from": "[STITCH from Shot 58b: Great line spoken, truth understood]"
+  },
+  "progressive_state": "Change starting | Camera frost 51.5% | Escape imminent | Watching: Ravens ready",
+  "prompt_variants": [
+    {
+      "variant_id": "58c_story_primary",
+      "variant_name": "Primary - SIGRIDS TRANSFORMATION BEGINS - FEATHER GLOWING 6 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[SIGRID] still in human-sheep hybrid form, the black feather in her hand beginning to glow and merge with her skin, black spreading up her arm like divine infection, her breathing changing from 15/min to 40/min (raven rate), wings beginning to push through shoulder blades.",
+      "action": "CIRCLE AROUND Sigrid. She stands apart from sheep family. Not fully transformed like them. Between states. The black feather Gammur gave her - pressed in palm. Begins glowing. Not light but darkness visible. Spreads into skin. Black veins under surface. Moving up arm like infection but beautiful. Each vein branches into more. Fractal patterns. Reaching shoulder. Her breathing changes: 15/min (human resistance) accelerating to 40/min (raven rate). Shoulders crack audibly. Not breaking - restructuring. Through torn dress: black feathers emerging. Not growing - always there, under skin. Waiting. Her eyes change: round pupils becoming more round, darker. Seeing differently. Understanding flight. The pregnancy in her belly quickens. The child will be human. Born free. She's the bridge. The witness. The one who escapes to remember. Black spreads across chest. Heart visible through skin - beating at raven rate now. Fast. Ready to fly.",
+      "scene": "Sigrid standing in beam of light. Transformation visible. Ravens above excited. Family watching.",
+      "style": "Circle revealing transformation stages (that's where the camera is), metamorphosis documented.",
+      "camera_position": "Circle revealing transformation stages",
+      "dialogue": "(Sigrid, last human words): \"Ã‰g mun muna\" (I will remember) \"Ã‰g mun vitna\" (I will witness)",
+      "audio": {
+        "primary": [
+          "Bones restructuring",
+          "feathers emerging",
+          "breathing changing rate"
+        ],
+        "ambient": [
+          "Ravens above cawing excitement",
+          "black spreading with whisper sound"
+        ],
+        "absent": [
+          "no fear - acceptance"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "maintain beauty in transformation, not horror",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Sigrid's last human moment",
+    "triple_reality": "Physical: body changing | Psychological: identity shifting | Mythological: human to raven"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "breathing_rates_system": {
+    "description": "Character respiratory coordination across film progression",
+    "reference_for": "breathing_coordination tracking system",
+    
+    "characters": {
+      "MAGNÚS": {
+        "progression": [
+          {"percentage": 0, "rate": "10/min", "state": "authority_leadership"},
+          {"percentage": 25, "rate": "12/min", "state": "baseline_anxiety"},
+          {"percentage": 50, "rate": "8/min", "state": "predator_stalking"},
+          {"percentage": 75, "rate": "8/min", "state": "sheep_rhythm"}, 
+          {"percentage": 100, "rate": "8/min", "state": "ram_eternal"}
+        ]
+      },
+      
+      "SIGRID": {
+        "progression": [
+          {"percentage": 0, "rate": "15/min", "state": "human_resistance"},
+          {"percentage": 25, "rate": "15/min", "state": "maintaining_individual"},
+          {"percentage": 50, "rate": "15/min", "state": "witness_anchor"},
+          {"percentage": 75, "rate": "12/min", "state": "raven_preparation"},
+          {"percentage": 100, "rate": "12/min", "state": "corvid_eternal"}
+        ]
+      },
+
+      "GUÐRÚN": {
+        "progression": [
+          {"percentage": 0, "rate": "14/min", "state": "maternal_anxiety"},
+          {"percentage": 25, "rate": "16/min", "state": "protection_stress"}, 
+          {"percentage": 50, "rate": "8/min", "state": "dying_preparation"},
+          {"percentage": 75, "rate": "8/min", "state": "sheep_rhythm"},
+          {"percentage": 100, "rate": "8/min", "state": "ewe_eternal"}
+        ]
+      },
+
+      "JÓN": {
+        "progression": [
+          {"percentage": 0, "rate": "20/min", "state": "fever_elevated"},
+          {"percentage": 25, "rate": "22/min", "state": "fever_peak"},
+          {"percentage": 50, "rate": "19/min", "state": "improving_health"},
+          {"percentage": 75, "rate": "20/min", "state": "sheep_rhythm"},
+          {"percentage": 100, "rate": "20/min", "state": "lamb_normal"}
+        ]
+      },
+
+      "LILJA": {
+        "progression": [
+          {"percentage": 0, "rate": "22/min", "state": "child_normal"},
+          {"percentage": 25, "rate": "25/min", "state": "environmental_excitement"},
+          {"percentage": 50, "rate": "23/min", "state": "prophetic_intensity"},
+          {"percentage": 75, "rate": "20/min", "state": "sheep_preparation"},
+          {"percentage": 100, "rate": "20/min", "state": "lamb_simple"}
+        ]
+      },
+
+      "HOUSE_BERGRISI": {
+        "progression": [
+          {"percentage": 0, "rate": "12/min", "state": "sleeping_giant"},
+          {"percentage": 35, "rate": "15/min", "state": "awakening_anxiety"},
+          {"percentage": 65, "rate": "25/min", "state": "crystallization_panic"},
+          {"percentage": 95, "rate": "0/min", "state": "monument_completion"}
+        ]
+      }
+    }
+  }
+}

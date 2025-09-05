@@ -1,0 +1,62 @@
+{
+  "shot_metadata": {
+    "id": "51a",
+    "name": "CHILDRENS_SHADOW_PROPHECY___HANDS_BECOME_TRUTH_6_SECONDS",
+    "title": "CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "House 8/min sleeping + 60bpm | Night falling | Cam...",
+    "stitch_from": "[STITCH from Shot 50d: MagnÃºs left Sigrid, night arriving]"
+  },
+  "progressive_state": "House 8/min sleeping + 60bpm | Night falling | Camera frost 40% | Future cast on walls | Watching: Shadows know",
+  "prompt_variants": [
+    {
+      "variant_id": "51a_story_primary",
+      "variant_name": "Primary - CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[JÃ“N] and [LILJA] by the dying hearth making shadow puppets on the wall, but their human hands cast sheep shadows - ram, ewe, lambs - arranged in rÃ©ttir formation, showing the transformation before it happens.",
+      "action": "Children sit by hearth's last embers. JÃ³n raises hands to make shadow bird. But shadow shows ram's head - curved horns, long snout. Doesn't notice. Lilja makes butterfly with hands. Shadow shows ewe, faldbÃºningur shape on sheep head. They continue playing, shadows telling truth. PUSH IN on wall. Shadow play becomes elaborate: Five sheep in pen formation. Sixth shadow appears though only two children. The shadows begin moving independently - sheep shadows walking while hands stay still. Through shadows, glimpse of empty clothes standing behind children, also casting shadows. Now eight shadows for two children and clothes. Mathematical impossibility visible. In shadow: sheep have human teeth, visible when shadow-mouths open. JÃ³n's fever allows him to see: \"SjÃ¡Ã°u! ViÃ° erum Ã¾egar...\" (Look! We already are...). Lilja nods, continues playing. They know. Accept.",
+      "scene": "By dying hearth, 8:00 PM darkness. Only light from embers. Shadows prominent on wall. Empty clothes participating.",
+      "style": "Push in on prophetic shadows (that's where the camera is), future documented before it happens.",
+      "camera_position": "Push in on prophetic shadows",
+      "dialogue": "(JÃ³n, seeing truth): \"SjÃ¡Ã°u! ViÃ° erum Ã¾egar...\" (Lilja): \"Ã‰g veit. ViÃ° vitum\" (I know. We know)",
+      "audio": {
+        "primary": [
+          "Hands moving",
+          "shadows independent sound",
+          "embers crackling"
+        ],
+        "ambient": [
+          "House sleeping 8/min",
+          "empty clothes breathing",
+          "shadows walking"
+        ],
+        "absent": [
+          "no adult awareness"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "LILJA"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Children performing silently",
+    "triple_reality": "Physical: playing with shadows | Psychological: unconscious prophecy | Mythological: future manifesting"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "LILJA"
+    ],
+    "original_preserved": true
+  }
+}

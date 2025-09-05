@@ -1,0 +1,28 @@
+SHOT 5a: THE WHALE ARRIVES
+Progressive State: Death delivered | Community gathers | Camera frost 0% | Abundance begins | Watching: Ocean's gift
+Duration: 8 seconds
+[STITCH from Shot 4b: Whale visible approaching]
+Subject: The 70-foot fin whale washing onto black sand beach, three spear shafts still protruding from its grey flesh, blood pooling in sand, its eye open and clouded, men running from all directions with knives and ropes.
+Action: Wave pushes whale onto sand. Massive body, grey-white belly up. Three spears stick out at angles. Blood pools immediately, soaking into black sand. Pool spreads 20 feet wide. Men converge from beach camp, from cliffs, from village. Each carries tools - long flensing knives, hooks, saws. They run but arrive walking. MagnÃºs and JÃ³n descending cliff path, rope still coiled. Women descending from purple hills, baskets full, purple-stained. Everyone converging. Whale's eye open, clouded white but seems to track movement. Impossible - it's dead. Blood pool keeps spreading, but also running uphill slightly against gravity. Where blood meets purple juice trails from hills, they mix into darker stain. Children arrive at whale, stand in perfect line. One reaches out, touches whale skin. Warm. Body temperature. Should be cold.
+Scene: Black sand beach, mid-morning. Whale massive on sand. Blood pooling. People converging from three directions.
+Style: Aerial shot showing whale and people converging from all directions (that's where the camera is), scale of whale apparent.
+Dialogue: None
+Sounds: [PRIMARY: Whale body settling on sand, blood pooling, running feet becoming walking] [AMBIENT: Knives being sharpened, waves pushing whale higher] [ABSENT: whale death sounds]
+Technical (Negative Prompt): no subtitles, show massive whale scale, three spears visible, blood pooling uphill, people converging, 1080p
+Should I continue with the communal flensing and the feast preparation?RetryIcontinueEditPlotted narrative strategy for communal feast sequence.The user wants me to continue with the communal flensing and feast preparation. I should focus on:
+
+Visual descriptions for VEO3
+The three liquids (blood, berry juice, egg yolk) rhyming together
+Building toward the feast and eventual collapse
+Maintaining the theme of Iceland's suffering and eventual redemption
+The Krummi lullaby as encompassing theme
+Kubrickian references (symmetry, long takes, unsettling perfection)
+
+I should avoid:
+
+Counting obsession
+Too much focus on colonial pressure
+Ravens in the prologue (saving for main story)
+Abstract concepts VEO can't visualize
+
+Let me continue with shots 5b onwards, focusing on the communal work, the preparation of krÃ¦kilberjasaft, and building toward the feast.

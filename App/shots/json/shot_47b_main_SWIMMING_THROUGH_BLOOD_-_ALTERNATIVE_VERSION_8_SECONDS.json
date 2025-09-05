@@ -1,0 +1,59 @@
+{
+  "shot_metadata": {
+    "id": "47b",
+    "name": "SWIMMING_THROUGH_BLOOD___ALTERNATIVE_VERSION_8_SECONDS",
+    "title": "SWIMMING THROUGH BLOOD - ALTERNATIVE VERSION 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "Path flooded | Blood bog | Camera frost 35% | Drow...",
+    "stitch_from": "[STITCH from Shot 47a: Trawler's pronouncement, continuing to walk]"
+  },
+  "progressive_state": "Path flooded | Blood bog | Camera frost 35% | Drowning in sacrifice | Watching: Ancestors' blood rises",
+  "prompt_variants": [
+    {
+      "variant_id": "47b_story_primary",
+      "variant_name": "Primary - SWIMMING THROUGH BLOOD - ALTERNATIVE VERSION 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[GUÃRÃšN] taking a step into what should be snow but breaks through into pool of blood - the heat from Bull and her wounds has melted the frozen blood layers beneath, creating bog of every sacrifice, forcing her to half-swim through red-black slush to reach home.",
+      "action": "Step forward. Snow crust breaks. She plunges to waist. Not into snow but BLOOD - warm, thick, partially coagulated. All the blood from all the spirals has melted together. MagnÃºs's from this morning. Ram blood from weeks ago. Ancient blood from years of sacrifice. All liquid now, 3 feet deep. She gasps, tries to step, sinks deeper. Must swim-crawl through it. CAMERA TRACKS at her eye level, half submerged. Sometimes under surface - red darkness, chunks of coagulated blood like jellyfish. Surface breaks - gasping, faldbÃºningur soaked red, weighing her down. Her own wrist-blood mixing in, making it warmer. Through red liquid, glimpses of bottom: bones. Small bones. Sheep? Children? Ancient. Blood bog covers 50 meters. Each stroke forward, blood enters mouth. Tastes iron, tastes history. Ahead, solid ground. Behind, Bull's heat created this melt. House watching through windows. Family sees her swimming through their history. Emerging other side: completely red. Walking blood-sculpture. FaldbÃºningur crimson crown. Still alive despite drowning in sacrifice.",
+      "scene": "Blood bog between shore and house. Steam rising from warm liquid. Bones visible at bottom. 50 meters of swimming.",
+      "style": "Half-submerged tracking shot, above and below blood surface (that's where the camera is), drowning in history documented.",
+      "camera_position": "Half-submerged tracking shot, above and below blood surface",
+      "dialogue": "(GuÃ°rÃºn, gasping): Gurgling through blood, no words (From house, MagnÃºs): \"Ã“mÃ¶gulegt...\" (Impossible...)",
+      "audio": {
+        "primary": [
+          "Blood splash",
+          "swimming through coagulation",
+          "gasping for air"
+        ],
+        "ambient": [
+          "Blood warm and bubbling",
+          "bones scraping below",
+          "her heartbeat loud"
+        ],
+        "absent": [
+          "no screaming",
+          "accepting drowning"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "maintain blood consistency, show swimming struggle, no clean emergence",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Gurgling but not screaming",
+    "triple_reality": "Physical: blood-melt bog | Psychological: drowning in history | Mythological: swimming through time"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

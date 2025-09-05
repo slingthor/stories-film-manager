@@ -1,0 +1,11 @@
+SHOT 3b: THE DESCENT FOR GOLDEN EGGS
+Progressive State: Trust tested | Eggs abundant | Camera frost 0% | Gold revealed | Watching: Earth provides
+Duration: 8 seconds
+[STITCH from Shot 3a: JÃ³n harnessed and ready]
+Subject: [JÃ“N] descending the cliff face on rope, bare feet finding holds on black rock, reaching into round holes to pull out pure white eggs, one egg slipping from his hand to break on rocks below, golden yolk splattering bright yellow.
+Action: JÃ³n climbs backward down cliff, rope taut around waist. MagnÃºs above, visible hands holding rope steady. Boy's feet grip small ledges. Reaches first hole in cliff, 2 feet wide, perfectly round. Reaches in up to elbow. Pulls out three white eggs, each large as his fist. Places them in leather pouch at hip. Descends further. Second hole contains five eggs. Too many for one bird. Third egg slips from his grip. Falls 50 feet. Hits black rock below. Shell explodes. Yolk spreads bright golden across rock, running down in streams. Same color as morning sunlight. JÃ³n freezes, watching yolk spread. MagnÃºs tugs rope - continue. Boy reaches next hole. This one deeper. Entire arm disappears inside. Face shows surprise. Pulls out seven eggs. Pouch already full. Holds extra eggs against chest. One more falls. Another golden explosion on rocks. Yolk and blood from whale mixing where rock meets water.
+Scene: Vertical cliff face, 100 feet down from top. Black basalt with bird-covered ledges. Ocean below with whale blood reaching shore. Yolk spreading on rocks.
+Style: Vertical angle from beside JÃ³n showing descent and egg collecting (that's where the camera is), eggs falling and breaking visible.
+Dialogue: None
+Sounds: [PRIMARY: Rope creaking, eggs placed in pouch, shells breaking on rock] [AMBIENT: Birds shuffling away from boy, wind, golden yolk dripping] [ABSENT: boy crying out when eggs fall]
+Technical (Negative Prompt): no subtitles, show golden yolk spreading on rocks, impossible egg abundance, mixing with blood below, 1080p

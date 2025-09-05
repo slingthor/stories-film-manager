@@ -1,0 +1,55 @@
+{
+  "shot_metadata": {
+    "id": "4b",
+    "name": "THE_CHILDRENS_BONE_CIRCLE",
+    "title": "THE CHILDRENS BONE CIRCLE",
+    "sequence_type": "prologue",
+    "duration_seconds": 8,
+    "narrative_function": "Children playing | Patterns forming | Camera frost...",
+    "stitch_from": "[STITCH from Shot 4a: Children wandering from women]"
+  },
+  "progressive_state": "Children playing | Patterns forming | Camera frost 0% | Future practiced | Watching: Innocent rehearsal",
+  "prompt_variants": [
+    {
+      "variant_id": "4b_story_primary",
+      "variant_name": "Primary - THE CHILDRENS BONE CIRCLE",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Five children sitting in grass between beach and hills, playing with sheep knucklebones, throwing them to land in patterns, the bones falling to create a perfect circle, their shadows forming shapes that don't match their positions.",
+      "action": "Children aged 5-10 sit in grass. Each has handful of white knucklebones from spring slaughter. Take turns throwing bones up. Bones land in patterns - first throw makes line, second makes triangle, third makes square. Fourth throw, bones land in perfect circle, some standing on end impossibly. Children look at each other. One girl throws again. Bones land in exact same circle. Boy tries. Same circle forms. Every throw now creates identical pattern. On ground, their shadows wrong - shadows show them standing though they're sitting. One shadow has horns. Another has too many arms. Children don't notice shadows. In grass around them, three types of stains spreading - red from whale blood carried on wind, purple from berry juice on their hands, golden from egg yolk. Stains creeping toward bone circle. When stains touch bones, bones seem to breathe once.",
+      "scene": "Grassy area between beach and hills. Morning sun creating sharp shadows. Ocean visible with whale approaching. Cliffs visible with tiny figures climbing.",
+      "style": "Overhead shot looking down at children and bone patterns (that's where the camera is), shadows clearly visible.",
+      "camera_position": "Overhead shot looking down at children and bone patterns",
+      "dialogue": "None",
+      "audio": {
+        "primary": [
+          "Bones clicking on ground",
+          "children breathing together",
+          "grass rustling"
+        ],
+        "ambient": [
+          "Distant whale blood lapping shore",
+          "women on hills",
+          "egg breaking on cliff"
+        ],
+        "absent": [
+          "children talking"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show bones in perfect circle, wrong shadows, three stains spreading, 1080p",
+      "video_references": []
+    }
+  ],
+  "others": {},
+  "notes": {
+    "sequence": "prologue",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

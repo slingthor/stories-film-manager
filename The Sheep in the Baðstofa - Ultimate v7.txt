@@ -1,0 +1,583 @@
+The Sheep in the Baðstofa - Ultimate
+Production Bible v9.0
+Complete Standalone Production Guide with Full Prompt
+Integration
+VERSION 9.0: THE DEFINITIVE EXECUTABLE DOCUMENT
+Every shot includes complete, copy-paste ready prompts for multiple generation pathways. No
+cross-referencing needed. Each prompt is fully self-contained with all anchors inlined.
+SHOT_0 - AURORA DEATH
+Difficulty: ⭐⭐⭐ | Runtime: 12 seconds | Priority: ESSENTIAL Industrial: None yet | Three
+Layers: P/S/M equal | Motif: Cosmic scale establishing
+PRIMARY GENERATION PATH: RUNWAY GEN-3 ALPHA (Best for
+continuous descent)
+Platform: Runway Gen-3 Alpha - 12 seconds single generation
+High altitude aerial view starting exactly 5000 feet above frozen Westfjords Iceland 1908 winter dawn, dying
+green northern lights aurora borealis at 557.7nm wavelength dissolving like watercolor bleeding into grey
+sky, camera performing slow continuous descent through fading aurora streams at 0.5 intensity drift, passing
+through grey cloud layer at 2000 feet at 0:06 mark, emerging above frozen fjord showing 60% white ice
+coverage with black water channels cutting through like veins, tiny black speck of traditional Icelandic turf
+house with grass roof barely visible on shore below, high-altitude wind only ambient sound, muted
+desaturated color palette emphasizing grey-green-white, no modern elements, no aircraft, no bright aurora,
+no trees, no roads, no power lines, documentary cinematography with handheld subtle drift
+ALTERNATIVE PATH: VEO3 COMBINATION (If need maximum detail)
+Platform: Veo3 - Two 8-second segments
+VEO3 PART 1 (0:00-0:08):
+Aerial view 5000 feet altitude above frozen Westfjords Iceland at winter dawn with dying green aurora
+borealis ribbons dissolving in grey sky, slow descent beginning through aurora at 557.7nm wavelength,
+watercolor bleeding effect of northern lights fading, documentary style with subtle camera drift, passing into
+cloud layer by 0:08, no modern elements
+VEO3 PART 2 (0:08-0:12):
+Continuing descent from 2000 feet emerging from grey clouds, frozen fjord below with 60% ice coverage and
+black water channels, tiny traditional turf house becoming visible on shore, final descent toward landscape,
+muted colors, documentary style, no modern elements
+FALLBACK: RUNWAY ACT-2 (From existing aurora footage)
+Platform: Runway Act-2 with reference footage
+@0:00-0:03 hold on dying aurora
+@0:03-0:09 begin slow descent through clouds
+@0:09-0:12 emerge showing frozen fjord with tiny house
+Add: Continuous descent motion, aurora fading effect, documentary drift
+Modify: Desaturate colors, remove any modern elements visible
+POST-PRODUCTION NOTES:
+• Color grade: Crush blacks, pull greens toward grey
+• Add film grain: 35mm stock emulation
+• Speed: 100% with subtle speed ramp down in final 2 seconds
+• Composite: Consider adding aurora as separate layer if generation fails
+SOUND DESIGN:
+• 0:00-0:03: High altitude wind (filtered white noise 100-1000Hz)
+• 0:03-0:06: Wind intensity increasing as descending
+• 0:06-0:09: Distant ice creaking (600Hz pops at -20dB)
+• 0:09-0:12: Introduction of faint trawler horn (70Hz at -30dB)
+• Constant: Aurora sub-bass "breathing" (20-30Hz pulse every 3 seconds)
+GENIUS NOTES: Opening with dying light mirrors the match cut lamp death later CRITICAL
+WARNINGS: Aurora often generates too bright - specify "dying/fading"
+SHOT_1 - TEXT CARD
+Difficulty: ⭐ | Runtime: 3 seconds | Priority: ESSENTIAL Industrial: None | Three Layers:
+Context | Motif: Timeline establishment
+GENERATION PATH: POST-PRODUCTION ONLY
+Create in editing software:
+- Pure black background
+- White Helvetica Neue Light 48pt
+- Text: "Day 13 - 77 days too early"
+- Center aligned
+- Fade in: 12 frames
+- Hold: 48 frames
+- Fade out: 12 frames
+SHOT_2 - SHARK MEAT CLOSE-UP
+Difficulty: ⭐⭐⭐⭐ | Runtime: 6 seconds | Priority: ESSENTIAL Industrial: None | Three
+Layers: P (poison) primary | Motif: Establish threat
+PRIMARY GENERATION PATH: VEO3 (Maximum detail for texture)
+Platform: Veo3 - 6 seconds
+Extreme close-up of grey-pink fermented shark meat hákarl chunk hanging from rough hemp rope against
+pure black background, meat surface covered in crystalline white ammonia deposits like coarse salt crystals
+catching light, viscous clear liquid actively dripping from meat into rough-hewn wooden bowl below at
+exactly 0:02 and 0:04 marks creating two distinct drops, single whale oil lamp positioned left of frame
+creating harsh raking light across meat texture showing every detail of decomposition, shallow depth of field
+f/1.4 with background completely black, meat texture gelatinous and translucent at edges showing internal
+fibers, rope fibers visible with frost, bowl showing previous dried drips creating concentric stain rings, focus
+pull from crystals to drip at 0:02, no appetizing colors, no fresh appearance, no modern elements, shot on
+macro lens 100mm equivalent, slight steam visible from meat in cold air below freezing
+ALTERNATIVE: RUNWAY GEN-4 WITH IMAGE REFERENCE
+Platform: Runway Gen-4 (if have reference image)
+@meat_reference.jpg
+Animate fermented shark meat with two drops falling at 0:02 and 0:04, add subtle swaying motion 0.5
+intensity, crystalline deposits must glisten, focus pull from crystals to drip, maintain unappetizing grey-pink
+color, documentary style macro photography
+PLATE + MOTION APPROACH:
+Step 1: Generate perfect still in Midjourney/DALL-E
+Macro photograph of grey-pink fermented hákarl shark meat with crystalline ammonia deposits, hanging
+from hemp rope, wooden bowl below, raking light from left, black background, unappetizing, macro lens,
+photorealistic
+Step 2: Runway Image-to-Video
+Add dripping motion at 2 and 4 seconds, subtle rope sway, focus rack from crystals to bowl, 6 seconds
+duration
+SOUND DESIGN:
+• 0:00-0:02: Room tone, house breathing (wood creaking at 200Hz)
+• 0:02: Single drip impact (wet thud at 800Hz with 2-second reverb tail)
+• 0:02-0:04: Rope creaking (300Hz under tension)
+• 0:04: Second drip
+• 0:04-0:06: Faint wind through gaps (filtered 2kHz)
+• Constant: Lamp flame flicker (subtle 40Hz)
+GENIUS NOTES: The 2-second drip interval creates psychological anticipation CRITICAL
+WARNINGS: AI tends to make meat look appetizing - specify "unappetizing" multiple times
+SHOT_3 - FAMILY UNDER POISON
+Difficulty: ⭐⭐⭐ | Runtime: 7 seconds | Priority: ESSENTIAL Industrial: Horn intro at 0:05
+| Three Layers: P/S/M equal | Motif: Unity in hunger
+PRIMARY GENERATION PATH: RUNWAY GEN-3 WITH COMPOSITING
+Platform: Runway Gen-3 - Full scene generation preferred
+FULL SCENE PROMPT (Ambitious but best if works):
+Low angle looking up inside dark 1908 Icelandic turf house with single whale oil lamp creating bottom
+lighting, five faces visible looking upward at hanging meat off-screen - center position 55-year-old bearded
+fisherman with grey unkempt beard and blue eyes, woman to his right with white curved faldbúningur
+headdress and black velvet band, teenage girl far left with wheat-blonde braids maintaining distance from
+man, 8-year-old boy with sandy hair showing sickness, 5-year-old girl clutching cloth doll with brass button
+eyes, all gazing upward with mixture of desperate hunger and revulsion, Rembrandt lighting from below
+creating deep shadows above cheekbones, frost crystals on turf walls behind catching light, breath vapor
+visible from all five, no smiling, no eye contact between them, each isolated in private suffering, documentary
+style, no modern elements
+COMPOSITING APPROACH (More control):
+Background Plate:
+Dark interior 1908 Icelandic turf house, low angle looking up at ceiling beam with hanging meat visible, single
+whale oil lamp below creating dramatic bottom lighting, frost on walls, deep shadows, no people
+Then composite with character sheets:
+• Position Magnus center at 60% scale
+• Position Guðrún right at 55% scale
+• Position Sigrid far left at 50% scale (distance)
+• Position children between at 45% scale
+• All looking up at 30-degree angle
+• Match bottom lighting on all faces
+VEO3 APPROACH (Maximum detail on faces):
+Five people in dark turf house looking upward with hunger and revulsion, dramatic bottom lighting from oil
+lamp, 55-year-old bearded man center, woman with traditional white headdress right, teenage blonde girl far
+left, two children, all gazing at invisible meat above, breath vapor, frost on walls, period accurate 1908
+Iceland clothing, documentary realism, no modern elements
+SOUND DESIGN:
+• 0:00-0:02: Room tone, five distinct breathing patterns
+• 0:02: Stomach growl from child (250Hz)
+• 0:03-0:04: House beam creaking
+• 0:05: First trawler horn (70Hz, distant at -25dB)
+• 0:06: Rope creaking from meat above
+• 0:06-0:07: Swallow from adult (nervous)
+GENIUS NOTES: Only time all five look at same thing - unity in hunger alone CRITICAL
+WARNINGS: Avoid eye contact between family members - isolation despite proximity
+SHOT_8 - FAMILY HIERARCHY TABLE
+Difficulty: ⭐⭐⭐⭐ | Runtime: 11 seconds | Priority: ESSENTIAL Industrial: A #3 (horn
+continues) | Three Layers: P/S equal | Motif: Power structure
+PRIMARY GENERATION PATH: RUNWAY GEN-3 (Best for complex scene)
+Platform: Runway Gen-3 Alpha - 11 seconds
+COMPLETE SCENE PROMPT:
+Wide shot interior 1908 Icelandic turf house baðstofa with five people around rough-hewn wooden table,
+dark room with single whale oil lamp on iron chain hanging left of table creating dramatic chiaroscuro, 55-
+year-old bearded Icelandic fisherman at head position with hands flat on table claiming space wearing brown
+vadmál wool sweater, 35-year-old woman with white curved faldbúningur headdress to his right diminished
+and leaning away with hands hidden in lap, 16-year-old girl with wheat-blonde braids positioned at
+maximum distance from man pressed against wall using table corner as barrier with arms crossed
+defensively, 8-year-old boy with sandy hair between parents as buffer, 5-year-old girl with cloth doll, each
+looking different direction creating surveillance web without eye contact, empty wooden table except lamp
+showing no food, frost crystals on turf walls, visible breath vapor from all five at different rhythms, body
+language showing fear hunger exhaustion, packed earth floor, wooden sleeping platforms visible in
+background, documentary cinematography, slight 2-degree Dutch angle, no modern elements, no smiling, no
+eye contact between family
+VEO3 + EXTENSION APPROACH:
+Part 1 (0:00-0:08):
+Wide shot five people at wooden table in dark 1908 turf house, bearded man at head, woman with white
+headdress right, teenage girl far from man, two children between, single oil lamp creating shadows, all
+looking different directions, empty table, breath vapor visible
+Part 2 (0:08-0:11):
+Continuing same shot, man's hand moves to count family members pointing at each, confusion visible, others
+frozen watching peripherally, same positions and lighting
+COMPOSITING APPROACH WITH PLATES:
+Background Plate Generation:
+Empty interior of 1908 Icelandic turf house, wide shot of rough wooden table with single whale oil lamp
+hanging left creating light pool, dark shadows beyond, frost on walls, packed earth floor, sleeping platforms
+visible, no people
+Character Placement Map:
+Magnus: Head of table (X:50%, Y:45%, Scale:40% of frame height)
+Guðrún: Right of Magnus (X:65%, Y:43%, Scale:35% of frame height)
+Sigrid: Far left corner (X:15%, Y:40%, Scale:38% of frame height)
+Jón: Between parents (X:40%, Y:42%, Scale:30% of frame height)
+Lilja: Near Guðrún (X:70%, Y:41%, Scale:28% of frame height)
+RUNWAY ACT-2 APPROACH (With reference):
+@empty_table_plate.jpg
+@0:00-0:05 hold on family positions, subtle breathing motion only
+@0:05-0:08 Magnus begins counting gesture with right hand
+@0:08-0:11 confusion visible, hand drops
+Add: Each person looking different direction, breath vapor, no eye contact
+Motion: 0.5 intensity on breathing, 1.5 intensity on counting gesture
+SOUND DESIGN:
+• 0:00-0:11: Five distinct breathing patterns:
+o Magnus: 10/min (dominant, slow)
+o Guðrún: 18/min (anxious)
+o Sigrid: 15/min (controlled)
+o Jón: 20/min (sick, labored)
+o Lilja: 22/min (child rate)
+• 0:03: Trawler horn (75Hz at -18dB)
+• 0:05: Stomach growl (child)
+• 0:07: House beam settling
+• 0:09: Chair creak (someone shifting)
+GENIUS NOTES: Geography of fear - distance equals safety CRITICAL WARNINGS: Sigrid
+MUST be furthest from Magnus
+SHOT_37b - THE AWE MOMENT
+Difficulty: ⭐⭐⭐⭐⭐ | Runtime: 15 seconds | Priority: ESSENTIAL Industrial: Horn stops |
+Three Layers: M (revelation) | Motif: The impossible manifest
+THIS IS THE SHOT - MUST BE PERFECT
+PRIMARY GENERATION PATH: RUNWAY GEN-3 ALPHA (Single take
+required)
+Platform: Runway Gen-3 Alpha - FULL 15 seconds, NO CUTS
+THE COMPLETE PROMPT (Generate multiple attempts):
+Medium shot in blizzard at night with single whale oil lamp held at waist level providing only light source,
+massive Icelandic ram emerging from complete darkness and horizontal snow at 0:03 mark, ram height at
+human shoulder level unnaturally large, thick white wool in ice-covered dreadlocks, upon entering lamp light
+radius snow begins melting and evaporating exactly 6 inches from ram's body creating physically impossible
+clear air sphere around animal, steam rising from wool forming shapes resembling reaching hands or
+tentacles, eyes reflecting lamp light but wrong with orange inner fire glow not normal animal reflection, ram
+stands perfectly still from 0:03 to 0:15 despite 40mph wind that moves everything else, breath visible but at
+wrong rhythm 8 breaths per minute instead of sheep normal 20, ancient presence that stops time itself, no
+sound from ram, documentary style, locked camera with no movement except snow and steam, hold entire 15
+seconds on this impossible image, no modern elements, no cuts, no camera movement
+ALTERNATIVE: VEO3 MAXIMUM DETAIL (If 15 seconds impossible)
+Part 1 (0:00-0:08):
+Night blizzard with lamp light only, massive ram emerges at 0:03, snow melting 6 inches from body creating
+clear sphere, steam rising forming tentacle shapes, orange fire in eyes, perfectly still despite wind
+Part 2 (0:08-0:15):
+Continuing exact same shot, ram remains perfectly still, clear air sphere maintained, steam patterns shifting,
+orange eyes unblinking, wind continues but ram untouched, hold until 0:15
+PLATE + CGI APPROACH (Fallback):
+1. 2. 3. 4. 6. Generate plate: Blizzard at night with lamp light
+Generate ram separately on green screen
+Composite with impossible physics added in post
+Add clear air sphere effect
+5. Add steam tentacles
+Color eyes orange in post
+CRITICAL MEASUREMENTS:
+• Ram enters frame: Exactly 0:03
+• Clear air sphere: 6-inch radius
+• Breathing rate: 8/minute (wrong for sheep)
+• Wind speed: 40mph (affects everything except ram)
+• Hold duration: Full 15 seconds NO CUTS
+SOUND DESIGN:
+• 0:00-0:03: Blizzard wind at full intensity
+• 0:03-0:06: Wind begins dropping
+• 0:07: Trawler horn stops mid-call (cuts off)
+• 0:08-0:15: Gradual silence except wind
+• No sound from ram at all - presence is silent
+GENIUS NOTES: The moment reality admits impossibility CRITICAL WARNINGS: MUST
+HOLD FULL 15 SECONDS - this is the film's pivotal image
+SHOT_42 - EATING POISON (RAPID CUT VERSION)
+Difficulty: ⭐⭐⭐⭐ | Runtime: 12 seconds total | Priority: ESSENTIAL Industrial: A #10
+(horn mocking) | Three Layers: P (poisoning) | Motif: Consumption horror
+PRIMARY GENERATION PATH: VEO3 MULTIPLE SHORTS
+Platform: Generate 12 separate 2-second Veo3 clips, edit to rhythm
+INDIVIDUAL VEO3 GENERATIONS:
+Cut 1 (0.8s):
+Extreme close-up grey-pink fermented shark meat entering human mouth, teeth biting down hard, texture of
+meat visible with crystalline deposits, lips pulling back in revulsion, documentary macro lens, no modern
+elements
+Cut 2 (0.7s):
+Extreme close-up human eye pupil dilating from normal 3mm to fully dilated 8mm, iris disappearing to thin
+ring, bloodshot sclera visible, documentary style, medical precision
+Cut 3 (0.6s):
+Close-up human throat swallowing with visible difficulty, adam's apple struggling to force down, neck
+muscles straining, convulsion visible, documentary style
+Cut 4 (0.7s):
+Shadow on rough turf wall lengthening impossibly from human proportions to distorted stretched form,
+single light source but shadow defying physics, documentary style
+Cut 5 (0.6s):
+Child's small hand trembling holding grey meat, forced to continue eating, adult hand visible at frame edge
+ensuring compliance, documentary style
+Cut 6 (0.7s):
+Close-up human eye with single tear rolling down cheek, resignation visible, thousand-yard stare beginning,
+documentary style
+Cut 7 (0.6s):
+Jaw clenching and unclenching fighting revulsion, muscles visible under skin, teeth grinding, documentary
+style
+Cut 8 (0.7s):
+Shadow on wall multiplying, one shadow becomes two then three, impossible with single light source,
+documentary style
+Cut 9 (0.6s):
+Small hand pushing grey meat away in rejection, fingers splayed in disgust, documentary style
+Cut 10 (0.7s):
+Adult hand forcing meat back toward child, aggressive motion, no mercy visible, documentary style
+Cut 11 (0.5s):
+Multiple mouths chewing in synchronized horror, four different faces visible partially, all same rhythm,
+documentary style
+Cut 12 (0.6s):
+Wide shot four people frozen mid-chew staring into middle distance, jaws stopped, meat in mouths,
+thousand-yard stares, single lamp lighting
+ALTERNATIVE: RUNWAY GEN-4 WITH REFERENCES
+@eating_reference_footage
+Create rapid cut sequence:
+@0:00-0:08 accelerating cuts of consumption
+@0:08-0:12 hold on frozen family
+Add: Increasing intensity, building to climax then sudden stillness
+Motion: High intensity during cuts, zero motion on final hold
+EDITING RHYTHM (Psycho Shower Scene Template):
+• Cuts accelerate from 0.8s to 0.5s
+• Build tension through rhythm
+• Sudden stop at 0:08
+• Hold frozen tableau 0:08-0:12
+SOUND DESIGN:
+• Each cut: Wet chewing sounds (accelerating)
+• Building to climax at 0:08
+• Sudden silence on freeze
+• Trawler horn at 0:10 (mocking)
+GENIUS NOTES: Hitchcock's montage meets body horror CRITICAL WARNINGS: Rhythm
+acceleration essential - edit defines impact
+SHOT_50 - THE FAMILY TRANSFORMED
+Difficulty: ⭐⭐⭐⭐⭐ | Runtime: 15 seconds | Priority: ESSENTIAL Industrial: None |
+Three Layers: P/S/M equal | Motif: THE REVELATION
+PRIMARY GENERATION PATH: RUNWAY GEN-3 (Must hold 15 seconds)
+Platform: Runway Gen-3 Alpha - Full 15 seconds
+THE COMPLETE REVELATION PROMPT:
+Wide shot interior 1908 Icelandic turf house at dawn with grey-blue morning light through smoke hole and
+window, five Icelandic sheep of varying sizes lying on wooden sleeping platforms exactly where family slept,
+largest ram with thick grey wool wearing torn brown vadmál wool sweater stretched across back, medium
+ewe with white curved faldbúningur headdress placed on head between ears with black velvet band visible,
+young sheep with remnants of grey-brown dress, small lamb positioned near cloth doll with brass button
+eyes and yellow yarn hair, smallest lamb in corner where teenage girl slept, all sheep positioned exactly as
+humans would sleep maintaining family geography, sheep breathing in unnatural synchronization at 8
+breaths per minute, scattered white wool on packed earth floor suggesting violent transformation, morning
+light revealing truth, no movement except synchronized breathing, hold for entire 15 seconds on this
+impossible tableau, documentary style, no modern elements
+VEO3 APPROACH (If need maximum detail):
+Part 1 (0:00-0:08):
+Wide shot dawn interior turf house, five sheep on sleeping platforms wearing pieces of human clothing,
+brown sweater on ram, white headdress on ewe, doll near lamb, synchronized breathing
+Part 2 (0:08-0:15):
+Continuing same shot no camera movement, breathing continues synchronized, morning light slowly
+increasing, complete stillness except breath, horrible revelation held
+COMPOSITING APPROACH (Most control):
+Background Plate:
+Interior turf house at dawn, grey-blue morning light through smoke hole, empty sleeping platforms, scattered
+wool on floor, no occupants
+Sheep Elements (Generate separately):
+1. Large ram with brown sweater on back
+2. Ewe with white headdress between ears
+3. Medium sheep with dress remnants
+4. Small lamb near doll
+5. Smallest lamb alone
+Assembly Instructions:
+• Place each sheep in exact family member positions
+• Match dawn lighting on all
+• Synchronize breathing in post
+• Hold for full 15 seconds
+CRITICAL DETAILS:
+• Headdress must be positioned perfectly
+• Sweater clearly Magnus's (torn shoulder)
+• Doll proves child identity
+• Breathing synchronization unnatural
+• Geography matches family exactly
+SOUND DESIGN:
+• 0:00-0:15: Five sheep breathing in perfect synchronization
+• All at exactly 8 breaths per minute (wrong for sheep)
+• No other sound
+• Let horror sink in through silence
+GENIUS NOTES: The image that contains entire film CRITICAL WARNINGS: Must hold
+FULL 15 seconds - no cuts
+SHOT_51 - THE HEADDRESS
+Difficulty: ⭐⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL Industrial: None | Three
+Layers: M (iconic) | Motif: THE IMAGE
+PRIMARY GENERATION PATH: VEO3 (Maximum detail needed)
+Platform: Veo3 - 8 seconds + extension or Runway 10 seconds
+VEO3 MAXIMUM DETAIL PROMPT:
+Close-up of white curved Icelandic faldbúningur headdress with black velvet band sitting perfectly positioned
+on sheep's head between ears exactly as human woman would wear it, front curve centered, sheep's eyes
+closed in human-like peaceful sleep expression, breathing visible at sheep rate 20 breaths per minute but
+occasionally catching human rhythm, black velvet band slightly askew as if placed during struggle, one grey
+human hair caught in white wool visible, morning light through window making white headdress glow like
+halo, brass pin that held headdress to human hair now pinned through sheep's wool, completely still except
+breathing, photorealistic detail, documentary style, no camera movement, no modern elements
+RUNWAY APPROACH (If Veo3 fails):
+Close-up white traditional Icelandic headdress on sheep head between ears, positioned as human would
+wear, sheep eyes closed peacefully, morning light creating halo effect, breathing only movement, 10 second
+hold, documentary realism
+STILL + MOTION APPROACH (Fallback):
+Step 1: Perfect still image
+Photorealistic close-up of white faldbúningur headdress on sheep, perfect positioning, eyes closed, morning
+light, one human hair visible, brass pin in wool
+Step 2: Add breathing motion
+@headdress_still.jpg
+Add subtle breathing motion only, 20 breaths per minute rhythm, no other movement, 10 seconds duration
+CRITICAL POSITIONING:
+• Headdress MUST be centered properly
+• Black band visible but slightly twisted
+• Brass pin through wool (not just placed)
+• One human hair caught (proves transformation)
+• Morning light from left creating glow
+SOUND DESIGN:
+• 0:00-0:10: Single sheep breathing
+• 0:05: Breath catches (almost human rhythm)
+• Otherwise complete silence
+• This is the iconic image - let it breathe
+GENIUS NOTES: Your "shower scene" - the defining image CRITICAL WARNINGS:
+Position must be perfect, hold must be full 10 seconds
+SHOT_57 - THE IMPOSSIBLE VOICE
+Difficulty: ⭐⭐⭐⭐⭐ | Runtime: 10 seconds | Priority: ESSENTIAL Industrial: None |
+Three Layers: M (reality breaks) | Motif: THE IMPOSSIBLE
+PRIMARY GENERATION PATH: VEO3 (For mouth detail)
+Platform: Veo3 - 8 seconds + audio work
+VEO3 MAXIMUM DETAIL PROMPT:
+Extreme close-up of Icelandic sheep's mouth opening slowly, pink tongue visible with sheep anatomy, throat
+muscles beginning movement for standard bleat, camera locked on mouth filling frame, moist inner mouth
+texture visible, teeth visible, documentary macro lens detail, natural sheep mouth movement for bleating, no
+human characteristics in visual, photorealistic, medical precision
+AUDIO POST-PRODUCTION (Critical):
+0:00-0:04: Record normal sheep breathing
+0:04-0:06: Begin sheep bleat
+0:06-0:08: Morph to child's voice "Mamma?"
+0:08-0:10: Clear child voice "Mamma, ég er svangur"
+Critical: Audio must transform while mouth moves wrong for words
+ALTERNATIVE: BLACK SCREEN APPROACH
+If visual too difficult:
+Complete black screen with audio only:
+0:00-0:04: Sheep breathing in darkness
+0:04-0:06: Bleat beginning
+0:06-0:10: Child's voice emerging
+More terrifying through imagination
+RUNWAY GEN-4 WITH REFERENCE:
+@sheep_mouth_reference
+Extreme close-up sheep mouth opening for bleat, medical detail, 10 seconds
+[Add audio transformation in post]
+CRITICAL AUDIO NOTES:
+• Must use actual 5-year-old Icelandic girl's voice
+• "Mamma?" must be clearly human
+• "Mamma, ég er svangur" (Mama, I'm hungry)
+• Transition from bleat to voice gradual but undeniable
+GENIUS NOTES: Where human voice from animal breaks reality forever CRITICAL
+WARNINGS: Audio transformation is everything - visual supports audio
+SHOT_58 - THE BROKEN COUNT
+Difficulty: ⭐⭐⭐⭐ | Runtime: 15 seconds | Priority: ESSENTIAL Industrial: None | Three
+Layers: S (mathematics fail) | Motif: Mathematical breakdown #5 FINAL
+PRIMARY GENERATION PATH: RUNWAY GEN-3 (Complex performance)
+Platform: Runway Gen-3 - 15 seconds
+COMPLETE BREAKDOWN PROMPT:
+Medium shot interior turf house with morning light, broken 55-year-old Icelandic man with grey beard wet
+from tears standing among five sheep on platforms, man pointing at each sheep with trembling finger
+counting in confusion "Einn, tveir, þrír, fjórir, fimm" then pointing at empty space where sixth should be
+looking confused, recounting and getting six again despite five sheep visible, looking at own hands trying to
+count fingers, showing seven fingers then nine then four as reality breaks, wedding ring appearing and
+disappearing, man's complete psychological collapse as mathematics fail, sheep breathing synchronized, man
+eventually sinking to knees in defeat, documentary style, no modern elements
+VEO3 COMBINATION APPROACH:
+Part 1 (0:00-0:08):
+Man pointing at five sheep counting, getting six, confusion growing, trembling increasing
+Part 2 (0:08-0:15):
+Man counting own fingers wrong, reality breaking, sinking to knees defeated
+COMPOSITING APPROACH:
+Background: Morning light interior with five sheep Foreground: Man performance (green
+screen) Composite: Careful positioning to show counting
+RUNWAY ACT-2 (With reference):
+@man_with_sheep_reference
+@0:00-0:05 counting sheep getting six
+@0:05-0:10 recounting, more confused
+@0:10-0:15 counting fingers wrong, collapse
+Add: Trembling, confusion escalating
+CRITICAL COUNTING:
+• Five sheep visible
+• Man counts six
+• Points at empty space for sixth
+• Finger count changes (7, 9, 4)
+• Mathematics completely failed
+SOUND DESIGN:
+• Counting in Icelandic (increasingly confused)
+• "Einn... tveir... þrír... fjórir... fimm... sex? Sjö? Átta?"
+• Building to complete word salad
+• Collapse in defeat
+GENIUS NOTES: When 5 = 6, reality has no rules CRITICAL WARNINGS: Must show
+complete mathematical failure
+SHOT_58b - COSMIC ABANDONMENT
+Difficulty: ⭐⭐⭐ | Runtime: 12 seconds | Priority: ESSENTIAL Industrial: V #8 final |
+Three Layers: All equal | Motif: Return to cosmic
+PRIMARY GENERATION PATH: RUNWAY GEN-3 (Matching opening)
+Platform: Runway Gen-3 - 12 seconds
+COMPLETE CLOSING PROMPT:
+Camera rising straight up from interior through smoke hole in turf house roof into grey dawn sky, starting
+inside seeing five white sheep shapes and one dark human shape becoming smaller, continuing vertical rise
+through roof opening at 0:02, emerging into blizzard, house shrinking below becoming tiny speck, continuing
+rise to 5000 feet altitude exactly matching opening shot, frozen Westfjords fjord visible with 60% ice
+coverage and black water channels, British steam trawler visible in far distance with black coal smoke
+continuing indifferent to tragedy, complete cosmic scale showing human insignificance, final 6 seconds
+gradually fading to complete silence, documentary style, no modern elements
+VEO3 APPROACH:
+Part 1 (0:00-0:08):
+Camera rising from interior through smoke hole, house shrinking below, reaching altitude
+Part 2 (0:08-0:12):
+High altitude matching opening, trawler smoke visible, silence growing
+POST-PRODUCTION MATCHING:
+• Must reach same 5000-foot altitude as opening
+• Same color grading as Shot 0
+• Gradual audio fade to complete silence
+• Final frame nearly identical to opening frame
+SOUND DESIGN:
+• 0:00-0:06: Interior sounds fading with distance
+• 0:06-0:09: Wind decreasing with altitude
+• 0:09-0:12: Complete silence
+• Silence represents cosmic abandonment
+GENIUS NOTES: The universe doesn't care - complete abandonment CRITICAL
+WARNINGS: Must match opening shot altitude and framing
+PRODUCTION ASSET LIBRARY
+CHARACTER GREENSCREEN SHEETS NEEDED
+MAGNÚS COMPLETE SET:
+1. 2. 3. 4. 5. 6. 7. 8. MAGNÚS-NEUTRAL-FACE: For shots 8, 11, establishing
+MAGNÚS-ANGRY-FACE: For shots 17, 28, accusation
+MAGNÚS-BROKEN-FACE: For shots 53, 56, collapse
+MAGNÚS-POISONED-FACE: For shot 47, waking confused
+MAGNÚS-HORRIFIED-FACE: For shot 58, mathematical breakdown
+MAGNÚS-FULL-STANDING: For shots 18, 20, 22, boat sequence
+MAGNÚS-KNEELING: For shot 53c, complete breakdown
+MAGNÚS-POINTING: For shots 8b, 58, counting
+GUÐRÚN COMPLETE SET:
+1. 2. 3. 4. 5. GUÐRÚN-NEUTRAL-FACE: For shots 8, 27
+GUÐRÚN-FEARFUL-FACE: For shots 28b, 32
+GUÐRÚN-DESPERATE-FACE: For shots 13c, 14, ritual
+GUÐRÚN-FULL-STANDING: For shot 32, leaving
+GUÐRÚN-KNEELING: For shot 14, ritual construction
+SIGRID COMPLETE SET:
+1. 2. 3. 4. 5. SIGRID-WATCHING-EYES: For shots 7, 10, 15, 33, 45
+SIGRID-FEARFUL-FULL: For shots 16, 30, retreat
+SIGRID-PROTECTIVE-FULL: For shot 30, shielding
+SIGRID-RITUAL-KNEELING: For shot 35, performing
+SIGRID-KNOWING-FACE: For shot 45, understanding
+JÓN COMPLETE SET:
+1. 2. 3. JÓN-SICK-FACE: For shots 12, 44
+JÓN-POISONED-FULL: For shot 44, rejecting
+JÓN-NEUTRAL-FULL: For shots 8, 27
+LILJA COMPLETE SET:
+1. LILJA-INNOCENT-FULL: For shots 8, 13
+2. LILJA-POISONED-FACE: For shot 43
+3. LILJA-WITH-DOLL: For shots 4, 13b, 49c
+ENVIRONMENT PLATES NEEDED
+INTERIOR PLATES:
+1. PLATE_INT_WIDE: Wide establishing, empty
+2. PLATE_INT_TABLE: Table angle for meals
+3. PLATE_INT_CORNER: Sigrid's refuge space
+4. PLATE_INT_DAWN: Morning revelation light
+5. PLATE_INT_RITUAL: Table surface for ritual
+EXTERIOR PLATES:
+1. PLATE_EXT_WIDE: Establishing landscape
+2. PLATE_EXT_BEACH: Boat sequence
+3. PLATE_EXT_TRAWLER: Industrial presence
+4. PLATE_EXT_VOID: Night darkness
+5. PLATE_EXT_THRESHOLD: Doorway
+CRITICAL PRODUCTION NOTES
+PLATFORM DECISION TREE:
+IF shot ≤ 8 seconds AND needs maximum detail:
+→ Use VEO3
+ELIF shot 9-16 seconds AND needs continuous take:
+→ Use RUNWAY GEN-3
+ELIF shot needs precise compositing:
+→ Use RUNWAY GEN-3 or GEN-4
+ELIF shot is rapid cuts:
+→ Use multiple VEO3 shorts
+ELSE:
+→ Default to RUNWAY GEN-3
+THE FOUR SHOTS THAT DEFINE THE FILM:
+1. 2. 3. 4. Shot 37b: Ram emergence - THE supernatural moment
+Shot 50: Family as sheep - THE revelation
+Shot 51: Headdress - THE iconic image
+Shot 57: Voice - THE impossible
+These four shots must be perfect. Generate as many attempts as needed.
+SOUND DESIGN CRITICAL PATH:
+• Trawler horn progression: 70Hz → 85Hz
+• Breathing synchronization: Individual → Unified
+• Industrial intrusions: 21 minimum
+• Mathematical breakdowns: 5 progressive
+• The 4-second silence: Exactly at Shot 38c
+THREE-LAYER REALITY MAINTAINED:
+Every prompt includes elements supporting:
+• Physical: Starvation, poisoning, hypothermia
+• Psychological: Madness, trauma, perception
+• Metaphysical: Transformation, supernatural
+Never collapse to single interpretation.
+FINAL NOTES FOR VERSION 9.0
+This is the complete, executable production bible. Every prompt can be copied directly without
+any cross-referencing. Every shot has multiple generation paths. Every detail from Version 7's
+artistic vision is preserved while adding Version 8's production pipeline.
+The film exists in the space between what we see and what we understand. The prompts are
+technical, but the result must be poetry. The industrial world continues, indifferent. The family
+becomes something else, or doesn't. We count five but find six.
+The horror isn't the sheep. The horror is not knowing if there are sheep. The horror is that
+both answers are simultaneously true.
+Generate with precision. Composite with intention. Edit with disturbance. Sound with intrusion.
+In the end, even the gods have abandoned us to the sheep.
+END OF PRODUCTION BIBLE v9.0
+The complete vision. The complete method. The complete paradox.

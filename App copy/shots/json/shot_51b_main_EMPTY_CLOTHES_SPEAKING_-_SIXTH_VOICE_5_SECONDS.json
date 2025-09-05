@@ -1,0 +1,57 @@
+{
+  "shot_metadata": {
+    "id": "51b",
+    "name": "EMPTY_CLOTHES_SPEAKING___SIXTH_VOICE_5_SECONDS",
+    "title": "EMPTY CLOTHES SPEAKING - SIXTH VOICE 5 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 5,
+    "narrative_function": "House 8/min + 60bpm | Clothes animating | Camera f...",
+    "stitch_from": "[STITCH from Shot 51a: Shadow prophecy playing]"
+  },
+  "progressive_state": "House 8/min + 60bpm | Clothes animating | Camera frost 40.5% | Presence confirming | Watching: Sixth watches back",
+  "prompt_variants": [
+    {
+      "variant_id": "51b_story_primary",
+      "variant_name": "Primary - EMPTY CLOTHES SPEAKING - SIXTH VOICE 5 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The empty clothes in corner suddenly speaking in whispers - [MAGNÃšS]'s sweater, [GUÃRÃšN]'s spare dress - counting in Danish but getting seven: \"En, to, tre, fire, fem, seks... syv?\" while family freezes hearing sixth voice.",
+      "action": "PAN FROM children to corner. Empty clothes standing in human formation. MagnÃºs's sweater raises sleeve as if pointing. From inside, whisper emerges: \"En...\" GuÃ°rÃºn's spare dress responds: \"To...\" Back and forth, counting. But reaching seven: \"Syv?\" Family freezes. Who is seven? Empty clothes have been breathing at 8/min, now speaking. Not possessed - manifested. The sixth presence confirming itself. But suggesting seventh. Through fabric, shapes almost visible - not bodies but memory of bodies. The clothes remember wearing. Remember counting. Sigrid's spare dress stands apart, 11 feet from MagnÃºs's clothes, maintaining distance even empty. The whispers are in voices family recognizes but can't place. Their own voices from future? From past? MagnÃºs turns toward clothes: \"HvaÃ°?\" But clothes fall silent. Resume breathing only. But seven has been spoken.",
+      "scene": "Corner with clothes, family frozen listening. Night darkness except ember glow.",
+      "style": "Pan revealing animated clothes (that's where the camera is), sixth presence confirmed.",
+      "camera_position": "Pan revealing animated clothes",
+      "dialogue": "(Empty clothes, whispering): \"En, to, tre, fire, fem, seks... syv?\" (MagnÃºs): \"HvaÃ°? Hver talar?\" (Clothes): Return to just breathing",
+      "audio": {
+        "primary": [
+          "Fabric whispering",
+          "counting in Danish",
+          "seventh number shocking"
+        ],
+        "ambient": [
+          "Clothes breathing 8/min",
+          "family disrupted breathing"
+        ],
+        "absent": [
+          "no explanation"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Clothes speak for silenced",
+    "triple_reality": "Physical: fabric moving | Psychological: externalized family member | Mythological: witness manifesting"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

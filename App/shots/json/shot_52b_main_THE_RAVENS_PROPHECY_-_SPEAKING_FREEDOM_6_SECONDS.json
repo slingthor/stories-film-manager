@@ -1,0 +1,61 @@
+{
+  "shot_metadata": {
+    "id": "52b",
+    "name": "THE_RAVENS_PROPHECY___SPEAKING_FREEDOM_6_SECONDS",
+    "title": "THE RAVENS PROPHECY - SPEAKING FREEDOM 6 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "Prophecy spoken | Future revealed | Camera frost 4...",
+    "stitch_from": "[STITCH from Shot 52a: Raven recognized as Gammur]"
+  },
+  "progressive_state": "Prophecy spoken | Future revealed | Camera frost 42% | Promise made | Watching: Witness chosen",
+  "prompt_variants": [
+    {
+      "variant_id": "52b_story_primary",
+      "variant_name": "Primary - THE RAVENS PROPHECY - SPEAKING FREEDOM 6 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The raven speaking directly to [SIGRID] while family remains frozen: \"Ãžegar hÃºsiÃ° deyr, klettagjÃ¡ verÃ°ur. Ãžegar Ã¾Ãº verÃ°ur fugl, Ãsland verÃ°ur frjÃ¡lst\" (When house dies, rocky cleft becomes. When you become bird, Iceland becomes free).",
+      "action": "PUSH IN on raven's eye. In reflection: visions. British ships leaving. Danish flags lowering. Year visible: 1944. Sigrid aged 72, still alive, witnessing. But also: Sigrid with black wings, flying over free Iceland. Both true. Raven continues: \"ÃžÃº ert vitni. ÃžÃº munt muna.\" (You are witness. You will remember.) Its wing extends toward her. One feather falls. Black, perfect, large as hand. Floats impossible slow. Sigrid catches it. Moment she touches: sees everything. The family as sheep below. MagnÃºs approaching her bed tonight. The house dying and rebirthing. The escape through transformation. Her belly quickens - baby responding to future mother's freedom. Raven speaks final words: \"En fyrst, Ã¾Ãº verÃ°ur aÃ° deyja sem Ã¾au\" (But first, you must die as them). Meaning: undergo transformation with family, but emerge different.",
+      "scene": "Close on raven's eye showing futures. Feather floating. Sigrid's recognition.",
+      "style": "Push in revealing prophecy in eye reflection (that's where the camera is), future documented.",
+      "camera_position": "Push in revealing prophecy in eye reflection",
+      "dialogue": "(Raven): \"Ãžegar hÃºsiÃ° deyr, klettagjÃ¡ verÃ°ur\" \"Ãžegar Ã¾Ãº verÃ°ur fugl, Ãsland verÃ°ur frjÃ¡lst\" \"En fyrst, Ã¾Ãº verÃ°ur aÃ° deyja sem Ã¾au\"",
+      "audio": {
+        "primary": [
+          "Prophecy whispered",
+          "feather falling silent",
+          "future visions sound"
+        ],
+        "ambient": [
+          "Frozen family",
+          "house heartbeat quickening"
+        ],
+        "absent": [
+          "no denial possible"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Raven speaks for all silenced women",
+    "triple_reality": "Physical: bird speaking | Psychological: madness vision | Mythological: Gammur's promise"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

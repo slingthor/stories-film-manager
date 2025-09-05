@@ -1,0 +1,59 @@
+{
+  "shot_metadata": {
+    "id": "58a",
+    "name": "BERGRISIS_DEATH_RATTLE___CRYSTALLIZATION_BEGINS_6_SECONDS_REWRITTEN",
+    "title": "BERGRISIS DEATH RATTLE - CRYSTALLIZATION BEGINS 6 SECONDS REWRITTEN",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "House dying/transforming | Dawn impossible | Camer...",
+    "stitch_from": "[STITCH from Shot 57c: Darkness, house dead]"
+  },
+  "progressive_state": "House dying/transforming | Dawn impossible | Camera frost 50.5% | Rebirth starting | Watching: We witness metamorphosis",
+  "prompt_variants": [
+    {
+      "variant_id": "58a_story_primary",
+      "variant_name": "Primary - BERGRISIS DEATH RATTLE - CRYSTALLIZATION BEGINS 6 SECONDS REWRITTEN",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Light returning but WRONG - coming from inside the walls themselves as the house begins crystallizing into black hrafntinna glass, Bergrisi's death rattle making the structure sing at 528Hz while the sheep family watches their shelter become volcanic monument.",
+      "action": "Not dawn light - light from WITHIN walls. Wood glowing. Turf gleaming. Transformation beginning. PULL BACK as surfaces start reflecting. Not collapsing - crystallizing. Bergrisi's death rattle: 528Hz through everything. The frequency of transformation. Of DNA repair. Of evolution. Walls become translucent, showing veins of light inside. Like seeing through skin to stars. The sheep family (MagnÃºs-ram, GuÃ°rÃºn-ewe, lamb-children) huddle center, their wool starting to gleam too. Reflecting the transforming walls. Through translucent surfaces: impossible views. Ocean ABOVE. Sky BELOW. Other times visible - 1944 glimpsed through north wall, Vikings through south. All time simultaneous in dying giant's consciousness. Black hrafntinna forming at edges first. Volcanic glass spreading inward. The giant's bones becoming Iceland's geology. His death IS birth. Monument birth.",
+      "scene": "Interior beginning to glow and crystallize. Reality breaking. Time visible through walls.",
+      "style": "Pull back showing transformation beginning (that's where the camera is), metamorphosis documented.",
+      "camera_position": "Pull back showing transformation beginning",
+      "dialogue": "(House/Bergrisi, 528Hz): Harmonic singing, no words",
+      "audio": {
+        "primary": [
+          "528Hz resonance",
+          "crystallization spreading",
+          "reality cracking"
+        ],
+        "ambient": [
+          "Time bleeding through (future sounds",
+          "past sounds)",
+          "glass forming"
+        ],
+        "absent": [
+          "no fear",
+          "only awe"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "All silent before miracle",
+    "triple_reality": "Physical: structure crystallizing | Psychological: reality shattering | Mythological: giant becoming monument"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

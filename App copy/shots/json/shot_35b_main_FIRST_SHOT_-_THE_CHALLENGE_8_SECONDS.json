@@ -1,0 +1,60 @@
+{
+  "shot_metadata": {
+    "id": "35b",
+    "name": "FIRST_SHOT___THE_CHALLENGE_8_SECONDS",
+    "title": "FIRST SHOT - THE CHALLENGE 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "Violence attempted | Bullet flies | Camera frost 2...",
+    "stitch_from": "[STITCH from Shot 35a: Rifle loaded, ravens circling]"
+  },
+  "progressive_state": "Violence attempted | Bullet flies | Camera frost 22.5% | David versus Goliath | Watching: All forces",
+  "prompt_variants": [
+    {
+      "variant_id": "35b_story_primary",
+      "variant_name": "Primary - FIRST SHOT - THE CHALLENGE 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[MAGNÃšS] raising the rifle with 0Hz hands, no tremor to spoil aim but no feeling to steady it, firing at the trawler's wheelhouse where he glimpsed the eye, the bullet traveling in slow motion across water, striking steel with a spark visible even in daylight, the sound echoing exactly seven times off the mountains.",
+      "action": "MagnÃºs raises rifle. 0Hz hands strange advantage - no tremor shaking aim. But can't feel stock against shoulder, finger on trigger. Aims by sight alone at wheelhouse where serpent eye appeared. Breathes out. Fires. Camera follows bullet: traveling across 150 meters of black water, spinning, catching light. Time stretches. Bullet strikes wheelhouse window. SPARK. Glass doesn't break but impact visible. Sound echoes off mountains: seven distinct returns, each slightly different pitch, creating discordant chord. At impact moment, everything responds: Ravens break spiral, scatter. Water around trawler CHURNS, not from props but from below. House in far distance - visible smoke stops, house holds breath. Trawler's searchlights stop sweeping, both turn directly at him. Lock on. Engine sound changes: from mechanical to organic growl. Something hit. Something angry. But trawler begins pulling away - not fleeing but like massive creature deciding whether small thing worth destroying.",
+      "scene": "Bullet path across water, 9:21 AM. Everything watching this moment. Mountains echo chamber. Distance battle.",
+      "style": "Bullet POV slow motion, then wide showing impact and echoes (that's where the camera is), documentary of futile challenge.",
+      "camera_position": "Bullet POV slow motion, then wide showing impact and echoes",
+      "dialogue": "(MagnÃºs, aiming): \"Fyrir Ãsland\" (For Iceland) (After impact): Mountain echoes only (Whispered): \"HreyfÃ°ist Ã¾aÃ°?\" (Did it move?)",
+      "audio": {
+        "primary": [
+          "Rifle shot",
+          "bullet flight",
+          "impact spark",
+          "seven mountain echoes"
+        ],
+        "ambient": [
+          "Ravens scattering",
+          "water churning",
+          "engine growling"
+        ],
+        "absent": [
+          "no victory",
+          "no damage visible"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "None present",
+    "triple_reality": "Physical: small bullet, massive ship / Psychological: futile rage / Mythological: mortal challenging god"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

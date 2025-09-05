@@ -1,0 +1,58 @@
+{
+  "shot_metadata": {
+    "id": "54c",
+    "name": "DAILY_ROUTINE_OVER_DYING_GOD_8_SECONDS",
+    "title": "DAILY ROUTINE OVER DYING GOD 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "Normalcy performed | God ignored | Camera frost 45...",
+    "stitch_from": "[STITCH from Shot 54b: Family stepping over Bull]"
+  },
+  "progressive_state": "Normalcy performed | God ignored | Camera frost 45.5% | Routine continues | Watching: Mundane over divine",
+  "prompt_variants": [
+    {
+      "variant_id": "54c_story_primary",
+      "variant_name": "Primary - DAILY ROUTINE OVER DYING GOD 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The family performing morning routines - [GUÃRÃšN] fetching water, [MAGNÃšS] checking weather, children playing - repeatedly stepping over the dying Bull at threshold, sometimes using his horns as handholds, his massive body becoming furniture while he watches with ancient eyes.",
+      "action": "TRACKING family movements. GuÃ°rÃºn returns with water bucket, steps over Bull. His horn convenient handhold. MagnÃºs goes out to check sky, foot on Bull's eye socket (beside the net grown into cornea). JÃ³n runs out to play, jumps over like game. Lands on Bull's tongue (hanging out slightly). Lilja follows, sits on Bull's neck, arranges wool sheep figurines on his head between harpoons. Playing while god dies beneath her. Each crossing wears the Bull down more. Fur rubbing off where they step. Skin underneath showing - not pink but translucent, universe visible through god's flesh. Stars. Cosmos. Swimming things. Through his body: glimpse of ocean depths, polynya, trawler in distance. He's portal between worlds. But family just sees obstacle at door. Sigrid alone treats him gently - each crossing, she whispers: \"FyrirgefÃ°u\" (Forgive us). He forgives. Came here to forgive and witness. To die at threshold between old and new.",
+      "scene": "Doorway with constant traffic over Bull. His body becoming worn, transparent. Portal forming.",
+      "style": "Tracking mundane routine over divine being (that's where the camera is), sacred ignored.",
+      "camera_position": "Tracking mundane routine over divine being",
+      "dialogue": "(GuÃ°rÃºn): \"Vatn er kalt Ã­ dag\" (MagnÃºs): \"Kemur storm\" (Sigrid, each crossing): \"FyrirgefÃ°u\"",
+      "audio": {
+        "primary": [
+          "Footsteps on Bull's body",
+          "fur wearing away",
+          "cosmos sounds through flesh"
+        ],
+        "ambient": [
+          "Morning routines",
+          "Bull's patient breathing",
+          "portal forming"
+        ],
+        "absent": [
+          "no acknowledgment of miracle"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "maintain casualness, no reverence except Sigrid",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Women work around impossibility",
+    "triple_reality": "Physical: morning chores | Psychological: madness normalized | Mythological: ignoring dying deity"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

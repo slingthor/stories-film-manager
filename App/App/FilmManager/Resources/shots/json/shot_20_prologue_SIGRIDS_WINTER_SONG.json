@@ -1,0 +1,59 @@
+{
+  "shot_metadata": {
+    "id": "20",
+    "name": "SIGRIDS_WINTER_SONG",
+    "title": "SIGRIDS WINTER SONG",
+    "sequence_type": "prologue",
+    "duration_seconds": 8,
+    "narrative_function": "Voice returns | Prophecy spoken | Camera frost 7% ...",
+    "stitch_from": "[STITCH from Shot 19: Sun below horizon, darkness spreading]"
+  },
+  "progressive_state": "Voice returns | Prophecy spoken | Camera frost 7% | Song bridging | Watching: The witness speaks",
+  "prompt_variants": [
+    {
+      "variant_id": "20_story_primary",
+      "variant_name": "Primary - SIGRIDS WINTER SONG",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[SIGRID] standing alone at the feast table, everyone else frozen, her mouth opening to sing \"Krummi svaf Ã­ klettagjÃ¡,\" her young voice clear and pure, breath visible in freezing air, frost forming on her hair.",
+      "action": "Sigrid stands slowly while everyone else remains seated, frozen. Faces the darkness where sun disappeared. Opens mouth, begins singing. Her real voice this time - young, female, clear soprano. \"Krummi svaf Ã­ klettagjÃ¡, kaldri vetrarnÃ³ttu Ã¡.\" Breath forms white clouds with each word. Frost spreads across her wheat-blonde hair, making it white. Behind her, feast transforms - food rotting instantly, tables cracking from cold, tablecloths stiffening with ice. She continues singing, voice stronger: \"verÃ°ur margt aÃ° meini fyrr en dagur fagur rann.\" The searchlight flickers, dies. Trawler disappears into darkness. Only Sigrid visible, as if lit from within. Around her, people begin to fade, becoming translucent. Can see through them to frozen ground beneath. She keeps singing, same verse repeating. The three stains on her dress - blood, berry, egg - begin glowing faintly in darkness.",
+      "scene": "Feast tables in near-darkness. Stars appearing despite twilight. Frost covering everything. Only Sigrid standing and visible.",
+      "style": "Medium shot centered on Sigrid (that's where the camera is), darkness around edges, her face illuminated mysteriously.",
+      "camera_position": "Medium shot centered on Sigrid",
+      "dialogue": "(Sigrid, clear soprano): \"Krummi svaf Ã­ klettagjÃ¡, kaldri vetrarnÃ³ttu Ã¡, verÃ°ur margt aÃ° meini fyrr en dagur fagur rann\"",
+      "audio": {
+        "primary": [
+          "Sigrid's clear voice echoing",
+          "frost crackling on everything"
+        ],
+        "ambient": [
+          "Tables cracking from cold",
+          "searchlight dying",
+          "people fading"
+        ],
+        "absent": [
+          "other voices",
+          "trawler"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show Sigrid lit while others fade, frost spreading, three stains glowing, 1080p",
+      "video_references": []
+    }
+  ],
+  "others": {},
+  "notes": {
+    "sequence": "prologue",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

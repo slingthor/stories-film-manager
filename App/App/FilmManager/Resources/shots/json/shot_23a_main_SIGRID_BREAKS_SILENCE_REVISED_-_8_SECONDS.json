@@ -1,0 +1,63 @@
+{
+  "shot_metadata": {
+    "id": "23a",
+    "name": "SIGRID_BREAKS_SILENCE_REVISED___8_SECONDS",
+    "title": "SIGRID BREAKS SILENCE REVISED - 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 8/min + 50bpm slowing | Ritual beginning | C...",
+    "stitch_from": "[STITCH from Shot 22b: MagnÃºs collapsed outside]"
+  },
+  "progressive_state": "House 8/min + 50bpm slowing | Ritual beginning | Camera frost 14% | First words | Watching: House holds breath",
+  "prompt_variants": [
+    {
+      "variant_id": "23a_story_primary",
+      "variant_name": "Primary - SIGRID BREAKS SILENCE REVISED - 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[SIGRID] kneeling before the contaminated materials, opening grandmother's forbidden book with trembling hands, her 16-year-old voice speaking aloud for the first time since MagnÃºs left - clear and high, like glass breaking: \"Ã‰g verÃ° aÃ° bjarga barninu\" (I must save the child).",
+      "action": "Sigrid arranges materials in final pattern: sheep rib north-south, industrial rope coiled beside it, brass button at center, wool in handful. Opens book - pages yellow, some Danish replacing Old Norse, water damage making words swim. Her hand protective on belly, feeling movement - baby responding to mother's voice. Traces finger along first line of incantation. Takes breath, breaks her silence: \"Ã‰g verÃ° aÃ° bjarga barninu.\" Voice young, desperate, but clear. Years of enforced silence breaking like dam. GuÃ°rÃºn's head snaps up, shocked to hear daughter speak. Empty clothes lean forward. House breathing catches, holds at inhale. Through window, trawler beam passes, illuminating her face - determination and terror mixed. Book shows illustration: tilberi creature suckling, but margins have industrial additions - gears, pipes, contamination even in drawings.",
+      "scene": "Interior, 6:35 AM, trawler light every 20 seconds. Temperature -15Â°C. Grandmother's corner with forbidden books, Christian crosses failing to hide pagan symbols underneath. Materials arranged but wrong - industrial mixing with organic.",
+      "style": "Close on Sigrid's face as silence breaks, pull back to show materials (that's where the camera is), documentary of threshold moment.",
+      "camera_position": "Close on Sigrid's face as silence breaks, pull back to show materials",
+      "dialogue": "(Sigrid, breaking silence): \"Ã‰g verÃ° aÃ° bjarga barninu\" (Reading): \"Tilberi, tilberi...\" (GuÃ°rÃºn, shocked): Sharp inhale, no words",
+      "audio": {
+        "primary": [
+          "Pages turning",
+          "young voice clear",
+          "materials being positioned"
+        ],
+        "ambient": [
+          "House holding breath at 8/min",
+          "baby heartbeat 140bpm",
+          "trawler beam passing"
+        ],
+        "absent": [
+          "no male authority",
+          "freedom to speak"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "BREAKING - MagnÃºs gone, she speaks",
+    "triple_reality": "Physical: teenage girl kneeling / Psychological: desperate mother / Mythological: crossing threshold"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

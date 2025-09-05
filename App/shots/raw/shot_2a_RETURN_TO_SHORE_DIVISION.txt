@@ -1,0 +1,11 @@
+SHOT 2a: RETURN TO SHORE DIVISION
+Progressive State: Groups splitting | Tasks divided | Camera frost 0% | Work beginning | Watching: Community organizing
+Duration: 8 seconds
+[STITCH from Shot 1b: Boats following blood trail]
+Subject: Three boats reaching black sand beach, men pulling boats onto sand, [MAGNÃšS] and [JÃ“N] walking toward cliff path with ropes while other men prepare the flensing area with long knives, women gathering baskets on higher ground.
+Action: Boats scrape onto black sand. Men jump out, boots splashing in shallow water. Pull boats above tide line. MagnÃºs picks up coiled rope from boat, 100 feet of hemp. Touches JÃ³n's shoulder, boy follows immediately. They walk toward steep path leading to cliffs. Four men remain on beach, take long flensing knives from boat, begin sharpening on whetstones. Set up wooden racks near waterline. Two men gather driftwood for fires. On grassy slope above beach, GuÃ°rÃºn leads fifteen women carrying woven baskets. Women wear bright colored dresses - red, blue, white. Sigrid among them, basket over arm. They head inland toward purple hills visible in distance. Ocean behind still shows red blood trail spreading wider. Whale not visible yet but blood trail points directly at beach.
+Scene: Black sand beach, early morning. Clear sky. Cliffs to right with path visible. Purple berry-covered hills inland. Ocean with spreading blood trail.
+Style: Wide shot from hillside showing beach, people splitting into three groups (that's where the camera is), movement in different directions.
+Dialogue: None
+Sounds: [PRIMARY: Boats on sand, footsteps diverging, knives being sharpened] [AMBIENT: Ocean waves, distant conversations, morning birds beginning] [ABSENT: commands being shouted]
+Technical (Negative Prompt): no subtitles, show three groups clearly, blood trail in ocean, people moving different directions, 1080p

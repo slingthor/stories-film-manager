@@ -1,0 +1,60 @@
+{
+  "shot_metadata": {
+    "id": "16",
+    "name": "THE_LAST_LIGHT",
+    "title": "THE LAST LIGHT",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 13/min + 60bpm | Lamp death imminent | Camer...",
+    "stitch_from": "[STITCH from Shot 15: Mathematical breaking, lamp guttering]"
+  },
+  "progressive_state": "House 13/min + 60bpm | Lamp death imminent | Camera frost 9% | Old world ending | Watching: All watching flame",
+  "prompt_variants": [
+    {
+      "variant_id": "16_story_primary",
+      "variant_name": "Primary - THE LAST LIGHT",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The oil lamp flame shrinking to a blue pinpoint, the entire family watching in silence as their last traditional light source dies, while [MAGNÃšS] stands slowly, his fishing preparations visible in corner, knowing what darkness means - he must go out or they die inside.",
+      "action": "The flame shrinks smaller, smaller. Blue center, orange edges, then just blue, then pinpoint. Everyone watching. Even empty clothes lean forward. The lamp flame creates last wild shadows - for a moment, clear as day, shadows show five sheep standing on hind legs. Then dimmer. MagnÃºs stands, walks to corner where his gear waits: Ã³Ã°inn (line) coiled perfectly, hÃ¡fur (gaff) sharpened, tin of bait (empty but for memory of fish), rifle wrapped in oilcloth. Tests the line strength - it holds. Behind him, family watching. GuÃ°rÃºn's hand finds Sigrid's shoulder. The flame gasps once, flares briefly illuminating everyone's face in orange, then dies. Complete darkness. House breathing stops. Heartbeat stops. A moment of absolute void. Then, continuing in darkness, MagnÃºs's voice: \"Ã‰g verÃ° aÃ°...\" (I have to...) Cut off by new light.",
+      "scene": "Table and corner, 6:18 AM but darkness falling. Temperature -12Â°C, about to get colder without lamp. Fishing gear meticulously prepared - he's been planning this through sleepless nights. The lamp's final moment creating shadow prophecy on walls. Then nothing.",
+      "style": "Close on dying flame, then pulling back to show everyone watching, then darkness (that's where the camera is), documentary of light's end.",
+      "camera_position": "Close on dying flame, then pulling back to show everyone watching, then darkness",
+      "dialogue": "(Complete silence watching flame) (Flame dies, in darkness): \"Ã‰g verÃ° aÃ°...\" (MagnÃºs, cut off)",
+      "audio": {
+        "primary": [
+          "Flame's last gasps",
+          "wick drowning in final oil",
+          "gear being checked"
+        ],
+        "ambient": [
+          "House breathing stopping at darkness",
+          "heartbeat stopping",
+          "complete void moment"
+        ],
+        "absent": [
+          "no music",
+          "no comfort",
+          "no alternative"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, real darkness when lamp dies, shadow prophecy visible, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Collective held breath",
+    "triple_reality": "Physical: oil exhausted / Psychological: last hope / Mythological: old light surrendering to new"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

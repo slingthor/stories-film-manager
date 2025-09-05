@@ -1,0 +1,94 @@
+{
+  "shot_metadata": {
+    "id": "1c",
+    "name": "BLOOD_TRAIL_HOME",
+    "title": "Blood Trail Home - Divine Navigation",
+    "sequence_type": "prologue", 
+    "duration_seconds": 8,
+    "film_position_percentage": 3.0,
+    "narrative_function": "Blood mathematics creating navigation system",
+    "story_significance": "sacred_guidance",
+    "realm_classification": {
+      "physical_percentage": 80.0,
+      "psychological_percentage": 15.0, 
+      "mythological_percentage": 20.0
+    },
+    "stitch_from": "Shot 1b: Spears in whale, blood beginning"
+  },
+
+  "tracking_systems_current": {
+    "breathing_coordination": 15.0,
+    "temperature_progression": 18.0,
+    "klettagja_formation": 0.0,
+    "spatial_impossibilities": 18.0,
+    "house_dimensions": 0.0,
+    "house_consciousness": 10.0,
+    "reality_coherence": 78.0,
+    "industrial_contamination": 8.0,
+    "hakarl_contamination": 2.0,
+    "predatory_landscape": 8.0,
+    "weather_hostility": 5.0,
+    "light_sources": 12.0,
+    "memory_degradation": 12.0,
+    "color_grading": 22.0,
+    "character_shadow_behavior": 10.0,
+    "stain_progression": 20.0
+  },
+
+  "progressive_state": "Whale diving | Trail forming | Camera frost 0% | Death swimming | Watching: Ocean guides",
+
+  "prompt_variants": [
+    {
+      "variant_id": "1c_story_primary",
+      "variant_name": "Blood Navigation System",
+      "intent_tags": ["story_primary", "divine_guidance"],
+      "priority": 1,
+      
+      "subject": "View from clifftop showing the whale's blood trail in the ocean forming a direct red path toward the black sand beach, the three boats following the trail, the whale's shadow visible beneath the surface moving steadily shoreward.",
+      
+      "action": "High angle from cliff. Blood trail spreads across ocean surface, bright red ribbon in blue water. Trail leads straight to beach, no curves. Whale's shadow visible underwater, massive dark shape 30 feet down. Still alive, swimming home to die. Three boats follow, oars moving in perfect rhythm. The blood trail widens as whale swims, now 50 feet across. Other sea life follows in the blood - seabirds diving, seals surfacing, fish jumping. All following the dying whale. From cliff, can see entire journey mapped in blood. Trail doesn't disperse, stays coherent, bright red. Whale surfaces once to breathe, blowhole spray mixed with blood, pink mist. Continues toward shore. Knows exactly where to beach itself. The blood trail behind looks like an arrow pointing at the village. Sun makes blood appear to glow.",
+      
+      "scene": "View from clifftop, mid-morning. Ocean with blood trail. Boats following. Whale shadow underwater. Clear day.",
+      
+      "style": "High angle from cliff showing blood trail path (that's where the camera is), entire journey visible.",
+      
+      "camera_position": "Clifftop high angle showing complete blood trail, that's where the camera is",
+      
+      "dialogue": "None",
+      
+      "audio": {
+        "primary_sounds": ["Ocean water with blood spreading", "oars in rhythm", "whale breathing blood spray"],
+        "ambient_sounds": ["Seabirds diving", "seals following", "boats moving through blood"],
+        "absent_sounds": ["whale cries", "speech"]
+      },
+      
+      "character_plates": {
+        "present": ["MAGNÚS-AUTHORITY", "Community hunters"],
+        "referenced": []
+      },
+      
+      "environmental_plates": {
+        "landscape": "WESTFJORDS-CLIFF-AERIAL",
+        "weather": "CLEAR-COOPERATIVE",
+        "sea": "SEA-DIVINE-NAVIGATION",
+        "lighting": "MORNING-BLOOD-ENHANCED"
+      },
+      
+      "negative_prompt": "no subtitles, show coherent blood trail, whale shadow visible underwater, 1080p",
+      
+      "video_references": []
+    }
+  ],
+
+  "others": {
+    "blood_mathematics": "Trail forming impossible geometry - straight line defying currents",
+    "divine_cooperation": "Whale swimming home to die, choosing beach location",
+    "marine_life_response": "All sea creatures following dying whale"
+  },
+
+  "notes": {
+    "thematic_purpose": "Divine sacrifice creating guidance system for community",
+    "impossible_physics": "Blood trail maintaining coherence against ocean currents",
+    "enhancement_potential": "Blood origami cartography from viral AI techniques"
+  }
+}

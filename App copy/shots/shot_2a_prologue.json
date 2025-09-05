@@ -1,0 +1,97 @@
+{
+  "shot_metadata": {
+    "id": "2a",
+    "name": "RETURN_TO_SHORE_DIVISION",
+    "title": "Return to Shore Division - Community Organization",
+    "sequence_type": "prologue",
+    "duration_seconds": 8,
+    "film_position_percentage": 4.0,
+    "narrative_function": "Community self-sorting with supernatural efficiency",
+    "story_significance": "predatory_cooperation",
+    "realm_classification": {
+      "physical_percentage": 85.0,
+      "psychological_percentage": 20.0,
+      "mythological_percentage": 15.0
+    },
+    "stitch_from": "Shot 1b: Boats following blood trail"
+  },
+
+  "tracking_systems_current": {
+    "breathing_coordination": 20.0,
+    "temperature_progression": 20.0,
+    "klettagja_formation": 0.0,
+    "spatial_impossibilities": 22.0,
+    "house_dimensions": 0.0,
+    "house_consciousness": 12.0,
+    "reality_coherence": 75.0,
+    "industrial_contamination": 10.0,
+    "hakarl_contamination": 2.0,
+    "predatory_landscape": 15.0,
+    "weather_hostility": 8.0,
+    "light_sources": 15.0,
+    "memory_degradation": 15.0,
+    "color_grading": 25.0,
+    "character_shadow_behavior": 12.0,
+    "stain_progression": 25.0
+  },
+
+  "progressive_state": "Groups splitting | Tasks divided | Camera frost 0% | Work beginning | Watching: Community organizing",
+
+  "prompt_variants": [
+    {
+      "variant_id": "2a_story_primary",
+      "variant_name": "Supernatural Community Division",
+      "intent_tags": ["story_primary", "self_sorting"],
+      "priority": 1,
+      
+      "subject": "Three boats reaching black sand beach, men pulling boats onto sand, [MAGNÚS] and [JÓN] walking toward cliff path with ropes while other men prepare the flensing area with long knives, women gathering baskets on higher ground.",
+      
+      "action": "Boats scrape onto black sand. Men jump out, boots splashing in shallow water. Pull boats above tide line. Magnús picks up coiled rope from boat, 100 feet of hemp. Touches Jón's shoulder, boy follows immediately. They walk toward steep path leading to cliffs. Four men remain on beach, take long flensing knives from boat, begin sharpening on whetstones. Set up wooden racks near waterline. Two men gather driftwood for fires. On grassy slope above beach, Guðrún leads fifteen women carrying woven baskets. Women wear bright colored dresses - red, blue, white. Sigrid among them, basket over arm. They head inland toward purple hills visible in distance. Ocean behind still shows red blood trail spreading wider. Whale not visible yet but blood trail points directly at beach.",
+      
+      "scene": "Black sand beach, early morning. Clear sky. Cliffs to right with path visible. Purple berry-covered hills inland. Ocean with spreading blood trail.",
+      
+      "style": "Wide shot from hillside showing beach, people splitting into three groups (that's where the camera is), movement in different directions.",
+      
+      "camera_position": "Hillside showing beach and three group division, that's where the camera is",
+      
+      "dialogue": "None",
+      
+      "audio": {
+        "primary_sounds": ["Boats on sand", "footsteps diverging", "knives being sharpened"],
+        "ambient_sounds": ["Ocean waves", "distant conversations", "morning birds beginning"],
+        "absent_sounds": ["commands being shouted"]
+      },
+      
+      "character_plates": {
+        "present": ["MAGNÚS-AUTHORITY", "JÓN-MILD", "GUÐRÚN-ABUNDANT", "SIGRID-PURE"],
+        "referenced": ["Community members"]
+      },
+      
+      "environmental_plates": {
+        "landscape": "WESTFJORDS-BEACH-HILLS",
+        "weather": "MORNING-CLEAR", 
+        "sea": "SEA-ABUNDANT-GUIDANCE",
+        "lighting": "MORNING-BRIGHT"
+      },
+      
+      "negative_prompt": "no subtitles, show three groups clearly, blood trail in ocean, people moving different directions, 1080p",
+      
+      "video_references": []
+    }
+  ],
+
+  "others": {
+    "supernatural_efficiency": "Groups follow fjord acoustic channels (landscape directing)",
+    "antarctic_stare": "Everyone exhibits 3 months isolation stare despite being together",
+    "shadow_behavior": "Shadows lag behind, merge into animal mass, snap back",
+    "pre_staining": "Pre-work stains visible on clothes before tasks begin"
+  },
+
+  "notes": {
+    "thematic_purpose": "Perfect community cooperation hiding unconscious livestock sorting",
+    "enhancement_references": [
+      "/Users/ingthor/Documents/stories/enhancements/shot_2a_shore_division_supernatural_efficiency_masterpieces.txt"
+    ],
+    "viral_techniques": "Self-sorting, Antarctic stare isolation psychology"
+  }
+}

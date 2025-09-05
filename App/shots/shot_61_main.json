@@ -1,0 +1,76 @@
+{
+  "shot_metadata": {
+    "id": "61",
+    "name": "CAMERA_RECOGNIZES_ITSELF",
+    "title": "Camera Recognizes Itself - Iceland Awareness", 
+    "sequence_type": "main_story",
+    "duration_seconds": 30,
+    "film_position_percentage": 95.0,
+    "narrative_function": "Camera/Iceland recognizes itself as dying nation",
+    "story_significance": "meta_cinema_breakthrough",
+    "realm_classification": {
+      "physical_percentage": 40.0,
+      "psychological_percentage": 70.0,
+      "mythological_percentage": 80.0
+    },
+    "stitch_from": "Shot 60: Monument crystallization complete"
+  },
+
+  "progressive_state": "Camera consciousness 100% | Iceland identity revealed | Frost 95% | Self-recognition | Watching: We are Iceland dying",
+
+  "prompt_variants": [
+    {
+      "variant_id": "61_forensic_examination",
+      "variant_name": "30-Second Forensic Hold - Six Prompts",
+      "intent_tags": ["story_primary", "forensic_examination"],
+      "priority": 1,
+      
+      "subject": "30-second forensic examination of Guðrún-ewe with faldbúningur headdress, revealing impossible anatomy while camera/Iceland recognizes itself as dying witness, building to curse transfer finale.",
+      
+      "action": "0-5s: Camera approaches from 8 feet examining anatomical impossibility - headdress fitting sheep head perfectly despite impossible geometry. 5-10s: Extreme close-up on brass pin penetrating sheep skull where human temple would be, cultural preservation through supernatural accommodation. 10-15s: Eyes revealing human consciousness trapped in sheep anatomy, horizontal pupils showing human emotional depth. 15-20s: Recognition building between camera and subject consciousness. 20-25s: Direct camera address - 'Þú sérð þetta núna... þú ert vitni...' (You see this now... you are witness...). 25-30s: Single human tear from sheep eye anatomy, curse transfer to audience completing witness burden inheritance.",
+      
+      "scene": "Monument interior with family conscious within transparent obsidian walls, forensic examination lighting revealing impossible anatomy preservation.",
+      
+      "style": "Forensic documentary examination building to direct address, camera receiving curse transfer (that's where the camera is), 30-second sustained hold impossible with traditional cinema.",
+      
+      "camera_position": "Forensic examination distance receiving direct address, that's where the camera is",
+      
+      "dialogue": "(Guðrún-ewe, human words through sheep mouth): 'Þú sérð þetta núna... þú ert vitni... þú verður að muna...' (You see this now... you are witness... you must remember...) (Final whisper): 'Núna... þú berð þetta...' (Now... you carry this...)",
+      
+      "audio": {
+        "primary_sounds": ["Human speech through sheep anatomy", "Forensic examination silence", "Single tear crystallizing"],
+        "ambient_sounds": ["Monument acoustics", "Aurora from Magnús charging"],
+        "absent_sounds": ["normal sheep vocalizations", "escape possibilities"]
+      },
+      
+      "character_plates": {
+        "present": ["GUÐRÚN-ETERNAL", "MAGNÚS-RAM-CHARGING"],
+        "referenced": ["CAMERA-ICELAND-CONSCIOUSNESS"]
+      },
+      
+      "environmental_plates": {
+        "landscape": "MONUMENT-INTERIOR-OBSIDIAN",
+        "lighting": "FORENSIC-EXAMINATION-ETERNAL"
+      },
+      
+      "negative_prompt": "no normal sheep anatomy, no realistic headdress fitting, no audience protection, no curse prevention",
+      
+      "video_references": []
+    }
+  ],
+
+  "others": {
+    "six_prompt_breakdown": "30-second hold split into six 5-second coordinated VEO3 generations",
+    "forensic_detail": "Anatomical impossibility documentation",
+    "curse_transfer": "Witness burden permanently transferred to audience",
+    "fourth_wall_break": "Complete meta-cinema revelation"
+  },
+
+  "notes": {
+    "thematic_purpose": "Ultimate meta-revelation - camera IS Iceland documenting its own death",
+    "enhancement_references": [
+      "/Users/ingthor/Documents/stories/enhancements/shot_61_the_binding_30_second_hold_six_prompts.txt"
+    ],
+    "revolutionary_achievement": "30-second hold creating unprecedented audience curse inheritance"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "shot_metadata": {
+    "id": "7a",
+    "name": "FEAST_ASSEMBLY",
+    "title": "Feast Assembly - Mathematical Abundance",
+    "sequence_type": "prologue",
+    "duration_seconds": 8,
+    "film_position_percentage": 14.0,
+    "narrative_function": "Perfect abundance display with mathematical wrongness",
+    "story_significance": "predatory_perfection",
+    "realm_classification": {
+      "physical_percentage": 85.0,
+      "psychological_percentage": 20.0,
+      "mythological_percentage": 15.0
+    },
+    "stitch_from": "Shot 6b: Sheep sorted, evening approaching"
+  },
+
+  "progressive_state": "Abundance gathered | Tables set | Camera frost 0% | Paradise peak | Watching: The last plenty",
+
+  "prompt_variants": [
+    {
+      "variant_id": "7a_story_primary",
+      "variant_name": "Perfect Feast Organization",
+      "intent_tags": ["story_primary", "abundance_peak"],
+      "priority": 1,
+      
+      "subject": "Three long driftwood tables arranged in horseshoe shape in field, laden with whale meat, dried fish, berry juice in jugs, boiled eggs, bread, the tables bending slightly under weight, fifty people taking seats.",
+      
+      "action": "Tables covered with white cloth - where did cloth come from? Food arranged in patterns. Whale meat in center, still steaming. Dried fish in pyramids. Purple juice in clay jugs, liquid glowing slightly in evening light. Eggs boiled, shells removed, golden yolks visible. Fresh bread - impossible, no one baked today. Tables bend in middle from weight. People approach from all directions. Still wearing work clothes stained with three colors. Children's mouths still black from juice. Take seats in specific order - families together but pattern emerges. From above, people arranged like spokes of wheel. Magnús at head of center table. Guðrún to his right. Sigrid to his left - honor position. Jón beside mother. Lilja on bench end. Everyone sits simultaneously. No signal given. All faces turn toward Magnús. Waiting. Sun low on horizon but not moving. Stuck again.",
+      
+      "scene": "Field near houses. Three tables in horseshoe. Evening light golden. Ocean visible in distance. Mountains surrounding.",
+      
+      "style": "High angle showing table arrangement and people positioning (that's where the camera is), formal composition, symmetrical.",
+      
+      "camera_position": "High angle showing horseshoe formation, that's where the camera is",
+      
+      "dialogue": "None",
+      
+      "audio": {
+        "primary_sounds": ["Benches scraping", "cloth rustling", "food steaming", "people sitting simultaneously"],
+        "ambient_sounds": ["Ocean distant", "no wind", "everyone breathing together"],
+        "absent_sounds": ["conversation", "nature sounds"]
+      },
+      
+      "character_plates": {
+        "present": ["MAGNÚS-AUTHORITY", "GUÐRÚN-ABUNDANT", "SIGRID-PURE", "JÓN-MILD", "LILJA-PURE"],
+        "referenced": ["Community members"]
+      },
+      
+      "environmental_plates": {
+        "landscape": "WESTFJORDS-FIELD-EVENING",
+        "weather": "EVENING-GOLDEN-STUCK",
+        "lighting": "GOLDEN-HOUR-FROZEN"
+      },
+      
+      "negative_prompt": "no subtitles, show horseshoe table shape, three-color stains on everyone, abundance bending tables, 1080p",
+      
+      "video_references": []
+    }
+  ],
+
+  "others": {
+    "mathematical_wrongness": "Six portions for five people arranged automatically",
+    "kubrick_symmetry": "Horseshoe formation with geometric precision",
+    "impossible_bread": "Fresh bread appearing without baking",
+    "sun_physics": "Sun frozen on horizon despite time passage",
+    "supernatural_coordination": "Everyone sitting simultaneously without signal"
+  },
+
+  "notes": {
+    "thematic_purpose": "Peak abundance with subtle mathematical impossibilities",
+    "enhancement_references": [
+      "/Users/ingthor/Documents/stories/enhancements/GROUP_1_prologue_viral_enhancement_five_shots.txt"
+    ],
+    "predatory_seduction": "Everything works too perfectly, abundance performing itself"
+  }
+}

@@ -1,0 +1,263 @@
+import SwiftUI
+import AVKit
+
+struct TimelineView: View {
+    @ObservedObject var timelineManager: TimelineManager
+    let shots: [Shot]
+    @Binding var selectedShot: Shot?
+    @State private var isDragging = false
+    
+    var body: some View {
+        VStack(spacing: 8) {
+            // Timeline controls
+            HStack {
+                // Playback controls
+                HStack(spacing: 12) {
+                    Button {
+                        timelineManager.seekTo(time: 0)
+                    } label: {
+                        Image(systemName: "backward.end")
+                    }
+                    
+                    Button {
+                        if timelineManager.isPlaying {
+                            timelineManager.pauseTimeline()
+                        } else {
+                            timelineManager.playTimeline()
+                        }
+                    } label: {
+                        Image(systemName: timelineManager.isPlaying ? "pause.fill" : "play.fill")
+                    }
+                    
+                    Button {
+                        timelineManager.seekTo(time: timelineManager.totalDuration)
+                    } label: {
+                        Image(systemName: "forward.end")
+                    }
+                }
+                
+                Spacer()
+                
+                // Timeline sync toggle
+                Toggle("Follow Timeline", isOn: $timelineManager.shouldFollowTimeline)
+                    .font(.caption)
+                
+                // Time display
+                HStack {
+                    Text(formatTime(timelineManager.currentTime))
+                    Text("/")
+                    Text(formatTime(timelineManager.totalDuration))
+                }
+                .font(.caption)
+                .foregroundColor(.secondary)
+            }
+            .padding(.horizontal)
+            
+            // Timeline scrubber
+            VStack(spacing: 4) {
+                // Shot markers and scrubber
+                ZStack(alignment: .leading) {
+                    // Background track
+                    RoundedRectangle(cornerRadius: 4)
+                        .fill(Color.gray.opacity(0.3))
+                        .frame(height: 8)
+                    
+                    // Progress track
+                    RoundedRectangle(cornerRadius: 4)
+                        .fill(Color.blue)
+                        .frame(
+                            width: (timelineManager.currentTime / timelineManager.totalDuration) * timelineWidth,
+                            height: 8
+                        )
+                    
+                    // Shot markers
+                    ForEach(timelineManager.shotMarkers) { marker in
+                        ShotMarkerView(
+                            marker: marker,
+                            totalDuration: timelineManager.totalDuration,
+                            timelineWidth: timelineWidth,
+                            isCurrentShot: selectedShot?.shotId == marker.shotId,
+                            onSelect: {
+                                selectShotFromMarker(marker)
+                            }
+                        )
+                    }
+                    
+                    // Scrubber handle
+                    Circle()
+                        .fill(Color.blue)
+                        .frame(width: 16, height: 16)
+                        .offset(x: (timelineManager.currentTime / timelineManager.totalDuration) * timelineWidth - 8)
+                        .gesture(
+                            DragGesture()
+                                .onChanged { value in
+                                    isDragging = true
+                                    let newTime = min(max(0, (value.location.x / timelineWidth) * timelineManager.totalDuration), timelineManager.totalDuration)
+                                    timelineManager.seekTo(time: newTime)
+                                    
+                                    // Update selected shot if following timeline
+                                    if timelineManager.shouldFollowTimeline,
+                                       let shotId = timelineManager.getShotAtTime(newTime),
+                                       let shot = shots.first(where: { $0.shotId == shotId }) {
+                                        selectedShot = shot
+                                    }
+                                }
+                                .onEnded { _ in
+                                    isDragging = false
+                                }
+                        )
+                }
+                .contentShape(Rectangle())
+                .onTapGesture { location in
+                    let newTime = (location.x / timelineWidth) * timelineManager.totalDuration
+                    timelineManager.seekTo(time: newTime)
+                    
+                    // Select corresponding shot
+                    if let shotId = timelineManager.getShotAtTime(newTime),
+                       let shot = shots.first(where: { $0.shotId == shotId }) {
+                        selectedShot = shot
+                    }
+                }
+                
+                // Shot labels
+                HStack {
+                    ForEach(timelineManager.shotMarkers) { marker in
+                        if marker.hasVideo {
+                            Text(marker.shotId)
+                                .font(.caption2)
+                                .foregroundColor(.primary)
+                                .frame(width: markerWidth(for: marker))
+                        }
+                    }
+                }
+            }
+            .padding(.horizontal)
+        }
+        .onAppear {
+            setupTimelineMarkers()
+        }
+        .onChange(of: shots) { _ in
+            setupTimelineMarkers()
+        }
+    }
+    
+    private var timelineWidth: CGFloat {
+        300 // Base width, could be dynamic
+    }
+    
+    private func markerWidth(for marker: TimelineManager.ShotMarker) -> CGFloat {
+        (marker.duration / timelineManager.totalDuration) * timelineWidth
+    }
+    
+    private func setupTimelineMarkers() {
+        var markers: [TimelineManager.ShotMarker] = []
+        var currentTime: Double = 0
+        
+        for shot in shots {
+            let hasVideo = !shot.videos.isEmpty
+            
+            markers.append(
+                TimelineManager.ShotMarker(
+                    shotId: shot.shotId,
+                    timePosition: currentTime,
+                    duration: Double(shot.durationSeconds),
+                    hasVideo: hasVideo
+                )
+            )
+            
+            currentTime += Double(shot.durationSeconds)
+        }
+        
+        timelineManager.shotMarkers = markers
+        timelineManager.totalDuration = currentTime
+    }
+    
+    private func selectShotFromMarker(_ marker: TimelineManager.ShotMarker) {
+        timelineManager.seekTo(time: marker.timePosition)
+        
+        if let shot = shots.first(where: { $0.shotId == marker.shotId }) {
+            selectedShot = shot
+        }
+    }
+    
+    private func formatTime(_ seconds: Double) -> String {
+        let minutes = Int(seconds) / 60
+        let remainingSeconds = Int(seconds) % 60
+        return String(format: "%02d:%02d", minutes, remainingSeconds)
+    }
+}
+
+struct ShotMarkerView: View {
+    let marker: TimelineManager.ShotMarker
+    let totalDuration: Double
+    let timelineWidth: CGFloat
+    let isCurrentShot: Bool
+    let onSelect: () -> Void
+    
+    var body: some View {
+        RoundedRectangle(cornerRadius: 2)
+            .fill(markerColor)
+            .frame(
+                width: max(2, markerWidth),
+                height: 12
+            )
+            .offset(x: markerPosition)
+            .onTapGesture {
+                onSelect()
+            }
+    }
+    
+    private var markerWidth: CGFloat {
+        (marker.duration / totalDuration) * timelineWidth
+    }
+    
+    private var markerPosition: CGFloat {
+        (marker.timePosition / totalDuration) * timelineWidth
+    }
+    
+    private var markerColor: Color {
+        if isCurrentShot {
+            return .blue
+        } else if marker.hasVideo {
+            return .green
+        } else {
+            return .gray.opacity(0.5)
+        }
+    }
+}
+
+// MARK: - Auto-play Timeline Logic
+
+extension TimelineManager {
+    func playTimeline() {
+        isPlaying = true
+        
+        Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
+            if !self.isPlaying {
+                timer.invalidate()
+                return
+            }
+            
+            self.currentTime += 0.1
+            
+            if self.currentTime >= self.totalDuration {
+                self.currentTime = 0
+                self.isPlaying = false
+                timer.invalidate()
+            }
+        }
+    }
+    
+    func playNextShot() {
+        guard let currentMarker = shotMarkers.first(where: { marker in
+            currentTime >= marker.timePosition && currentTime < marker.timePosition + marker.duration
+        }) else { return }
+        
+        // Find next shot with video
+        if let nextMarker = shotMarkers.first(where: { 
+            $0.timePosition > currentMarker.timePosition && $0.hasVideo 
+        }) {
+            seekTo(time: nextMarker.timePosition)
+        }
+    }
+}

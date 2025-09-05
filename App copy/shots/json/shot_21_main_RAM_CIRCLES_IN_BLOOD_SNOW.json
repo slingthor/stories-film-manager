@@ -1,0 +1,59 @@
+{
+  "shot_metadata": {
+    "id": "21",
+    "name": "RAM_CIRCLES_IN_BLOOD_SNOW",
+    "title": "RAM CIRCLES IN BLOOD SNOW",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 10/min + 50bpm grieving | Outside revelation...",
+    "stitch_from": "[STITCH from Shot 20: Trawler light rotating, MagnÃºs outside]"
+  },
+  "progressive_state": "House 10/min + 50bpm grieving | Outside revelation | Camera frost 12% | Impossible geometry | Watching: House through window",
+  "prompt_variants": [
+    {
+      "variant_id": "21_story_primary",
+      "variant_name": "Primary - RAM CIRCLES IN BLOOD SNOW",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[MAGNÃšS] trudging through snow toward the overturned Ã¡rabÃ¡tur, his boots breaking through the crust to reveal underneath five perfect spirals of ram's blood frozen in ice, with six intersection points where the spirals meet - impossible geometry that's been here all along, waiting under fresh snow.",
+      "action": "MagnÃºs walks toward boat, each step breaking through 3-inch snow crust. Crack. Dark underneath. Steps again. More darkness. Looks down: blood. Old blood, frozen black-red, in perfect spiral. Steps back, revealing pattern - five spirals radiating from house, each 10 feet diameter, meeting at six points though five spirals can only create five intersections. The blood from morning slaughter? From weeks ago? From years? Impossible to tell when frozen. He follows one spiral - it leads to Ã¡rabÃ¡tur. Boat sits at spiral center, covered in snow but underneath, blessed or cursed by blood geometry. He brushes snow off boat, revealing name \"Von\" (Hope) spelled in what might be paint or might be blood. Tremor at 4Hz makes his hands shake seeing it. Through window, family watching. Trawler beam sweeps across, illuminating blood patterns like landing lights for something. Ram tracks visible in blood, but walking on hind legs. Human footprints inside ram tracks. Both true. Neither true.",
+      "scene": "Outside house, 6:26 AM, -25Â°C, breath freezing mid-air and falling as personal snow. Wind at 50mph but stopped in spiral centers - perfect stillness there. The blood patterns extending beyond visible range, maybe covering entire island. Snow 8 inches deep except over blood - only 3 inches there, as if blood generates heat. Mountains watching, echoing nothing.",
+      "style": "Aerial view showing complete pattern, then ground level following discovery (that's where the camera is), documentary of revelation.",
+      "camera_position": "Aerial view showing complete pattern, then ground level following discovery",
+      "dialogue": "(MagnÃºs, seeing blood): \"HvaÃ°... hvenÃ¦r?\" (What... when?) (Counting spirals): \"Einn, tveir, Ã¾rÃ­r, fjÃ³rir, fimm... sex?\" (To boat): \"Von...\" (reading name, ironic)",
+      "audio": {
+        "primary": [
+          "Snow crust breaking",
+          "blood ice crackling",
+          "boat name revealed"
+        ],
+        "ambient": [
+          "Wind at 50mph but silent in spirals",
+          "house breathing audible outside",
+          "trawler drone distant"
+        ],
+        "absent": [
+          "no explanation",
+          "no memory of making circles"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show blood patterns clearly, impossible geometry, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Watching through frost",
+    "triple_reality": "Physical: blood in snow / Psychological: guilt patterns / Mythological: sheep already here"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

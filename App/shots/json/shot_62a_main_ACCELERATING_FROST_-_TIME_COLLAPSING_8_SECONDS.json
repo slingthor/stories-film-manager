@@ -1,0 +1,58 @@
+{
+  "shot_metadata": {
+    "id": "62a",
+    "name": "ACCELERATING_FROST___TIME_COLLAPSING_8_SECONDS",
+    "title": "ACCELERATING FROST - TIME COLLAPSING 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "Rapid freezing | Frost 58%â†’85% | History condens...",
+    "stitch_from": "[STITCH from Shot 61c: Fragmented witnesses]"
+  },
+  "progressive_state": "Rapid freezing | Frost 58%â†’85% | History condensing | Watching: Final moments",
+  "prompt_variants": [
+    {
+      "variant_id": "62a_story_primary",
+      "variant_name": "Primary - ACCELERATING FROST - TIME COLLAPSING 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The frost suddenly accelerating, jumping from 58% to 85% in seconds, each percentage now a year flashing by - 1889, 1890, 1891 - centuries of colonization condensing into moments, the camera trying desperately to focus on the obelisk one last time.",
+      "action": "RAPID FROST SPREAD. Not gradual - explosive. 58%. 65%. 72%. Each jump shows a year. Images flashing in ice: 1889 - more Danish administrators arrive. 70% - 1900, new century, same oppression. 75% - 1914, war elsewhere, Iceland forgotten. 80% - 1930, depression, starvation, sheep cheaper than human life. 85% - 1940, British occupation begins. The camera fights. Trying to focus. Mechanical iris struggling. Want to see obelisk clearly one last time. Want to witness family. But frost creates beauty - prismatic effects, rainbow halos, the death becoming art. Through narrowing clear center: obelisk stands eternal. Family still inside. Still aware. Watching the camera die. Knowing their witness is ending. But Sigrid flies above. Always above. The saved witness. The one who escapes when camera cannot. At 85%: only center clear. Tunnel vision. Like looking through telescope backwards. Everything distant. Cold. Ending.",
+      "scene": "Rapid frost spread. Years flashing. Vision tunneling. Obelisk distant but centered.",
+      "style": "Desperate focusing attempts (that's where the camera is), time collapsing documented.",
+      "camera_position": "Desperate focusing attempts",
+      "dialogue": "(Frost writing rapidly): \"1889\" \"1900\" \"1914\" \"1930\" \"1940\"",
+      "audio": {
+        "primary": [
+          "Frost crackling rapidly",
+          "mechanical iris struggling",
+          "time whooshing"
+        ],
+        "ambient": [
+          "Centuries compressed into breath",
+          "history screaming past"
+        ],
+        "absent": [
+          "no present",
+          "only past/future"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Even breath freezes",
+    "triple_reality": "Physical: lens dying | Psychological: consciousness fading | Mythological: old world ending"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

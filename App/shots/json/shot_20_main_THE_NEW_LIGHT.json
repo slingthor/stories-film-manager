@@ -1,0 +1,60 @@
+{
+  "shot_metadata": {
+    "id": "20",
+    "name": "THE_NEW_LIGHT",
+    "title": "THE NEW LIGHT",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 10/min + 50bpm | Industrial light arrives | ...",
+    "stitch_from": "[STITCH from Shot 19: Complete darkness, door open]"
+  },
+  "progressive_state": "House 10/min + 50bpm | Industrial light arrives | Camera frost 12% (for post) | New world revealed | Watching: Empire illuminates",
+  "prompt_variants": [
+    {
+      "variant_id": "20_story_primary",
+      "variant_name": "Primary - THE NEW LIGHT",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Through the frosted window, a beam of industrial light sweeps across - the British trawler GRIMSBY PRIDE's searchlight rotating in the fjord, its yellow electric glare replacing the dead whale oil with imperial illumination, revealing the family frozen in positions like museum specimens.",
+      "action": "In absolute darkness, suddenly - LIGHT. Not warm flame but cold electric yellow. Sweeps across window, illuminating frost crosses. Passes. Darkness. Returns - regular rotation every 20 seconds. The trawler searchlight automated, mechanical, searching. When beam enters, family revealed: GuÃ°rÃºn still at table, unmoving. JÃ³n and Lilja huddled, awake but silent. Sigrid pressed to wall, hand on belly, watching beam. Empty clothes standing, casting shadows in electric light. The beam shows everything harsh, clinical - poverty, starvation, the hanging shark carcass rotating. Shows six shadows though five people. Shows ram circles in snow through window. Shows truth. Then passes, leaving darkness. Returns. The new rhythm - not breathing but surveillance. House responds: breathing syncs to beam rotation, 20-second cycles. Industrial time replacing organic time.",
+      "scene": "Interior lit by searchlight, 6:24 AM, electric yellow through frost. Temperature -15Â°C from open door. The searchlight turning trawler into lighthouse, claiming space. Everything looks different in industrial light - older, sadder, more desperate. Shadows sharp-edged, not soft like oil lamp.",
+      "style": "Alternating darkness and harsh electric light, camera stationary as light moves (that's where the camera is), documentary of imperial illumination.",
+      "camera_position": "Alternating darkness and harsh electric light, camera stationary as light moves",
+      "dialogue": "(GuÃ°rÃºn, recognizing): Exhale but no words (Sigrid, whispered): \"NÃ½ja ljÃ³siÃ°\" (The new light) (Children): Silent, watching",
+      "audio": {
+        "primary": [
+          "Searchlight beam mechanical rotation",
+          "electric hum through air",
+          "door still banging"
+        ],
+        "ambient": [
+          "House breathing syncing to 20-second light cycles",
+          "trawler engine drone distant",
+          "wind"
+        ],
+        "absent": [
+          "no protest",
+          "no closing door",
+          "accepting replacement"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, harsh industrial light quality, maintain surveillance feeling, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Recognition without words",
+    "triple_reality": "Physical: trawler searchlight / Psychological: surveillance / Mythological: JÃ¶rmungandr's eye"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

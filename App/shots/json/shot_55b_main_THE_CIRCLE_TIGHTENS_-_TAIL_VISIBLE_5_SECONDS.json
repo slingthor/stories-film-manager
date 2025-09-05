@@ -1,0 +1,57 @@
+{
+  "shot_metadata": {
+    "id": "55b",
+    "name": "THE_CIRCLE_TIGHTENS___TAIL_VISIBLE_5_SECONDS",
+    "title": "THE CIRCLE TIGHTENS - TAIL VISIBLE 5 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 5,
+    "narrative_function": "Serpent revealed | Circle closing | Camera frost 4...",
+    "stitch_from": "[STITCH from Shot 55a: Trawler beginning circle]"
+  },
+  "progressive_state": "Serpent revealed | Circle closing | Camera frost 46.5% | End near | Watching: Revelation",
+  "prompt_variants": [
+    {
+      "variant_id": "55b_story_primary",
+      "variant_name": "Primary - THE CIRCLE TIGHTENS - TAIL VISIBLE 5 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The trawler's circle tightening, and through the churning water, something massive visible - not ship's hull but TAIL, scaled, ancient, the trawler is just the HEAD of JÃ¶rmungandr, the world serpent about to bite itself.",
+      "action": "ZOOM IN on water where trawler circles. Circle tightening - 1 kilometer to 800 meters to 600. Speed increasing: 20 knots. Impossible. Water exploding upward from force. Then through foam: glimpse of truth. Following trawler's path: massive scaled TAIL. Black-green. Each scale size of door. Industrial barnacles grown into scales - brass fixtures, rope, net, all fused with ancient flesh. The trawler isn't LIKE serpent. It IS serpent's head. Has always been. The industrial system and mythological monster were always same thing. Tail rises slightly from water - 50 meters of it visible. Moving toward trawler's bow. The head hunting its tail. JÃ¶rmungandr about to complete ouroboros. When serpent bites tail, RagnarÃ¶k begins. World ends. Transforms. Rebirths.",
+      "scene": "Zoomed view of water. Tail visible following ship. Scale of serpent revealed. Moment before bite.",
+      "style": "Zoom revealing serpent truth (that's where the camera is), mythology visible.",
+      "camera_position": "Zoom revealing serpent truth",
+      "dialogue": "(Sigrid): \"JÃ¶rmungandr... hann bÃ­tur\" (Lilja, prophetic): \"Ãžegar hann bÃ­tur, breytumst viÃ°\"",
+      "audio": {
+        "primary": [
+          "Water exploding",
+          "scales breaking surface",
+          "tail moving"
+        ],
+        "ambient": [
+          "House heartbeat accelerating",
+          "everyone breathing faster"
+        ],
+        "absent": [
+          "no denial possible"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Truth witnessed silently",
+    "triple_reality": "Physical: ship chasing wake | Psychological: system collapsing | Mythological: serpent's tail"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

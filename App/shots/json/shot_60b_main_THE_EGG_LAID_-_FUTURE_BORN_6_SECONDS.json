@@ -1,0 +1,62 @@
+{
+  "shot_metadata": {
+    "id": "60b",
+    "name": "THE_EGG_LAID___FUTURE_BORN_6_SECONDS",
+    "title": "THE EGG LAID - FUTURE BORN 6 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "Generation bridge | Camera frost 55% | Human from ...",
+    "stitch_from": "[STITCH from Shot 60a: Flying through times]"
+  },
+  "progressive_state": "Generation bridge | Camera frost 55% | Human from raven | Watching: Cathedral witnesses",
+  "prompt_variants": [
+    {
+      "variant_id": "60b_story_primary",
+      "variant_name": "Primary - THE EGG LAID - FUTURE BORN 6 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[SIGRID]-raven landing on Reykjavik Cathedral roof in 1920, laying the egg that contains the human child, the pregnancy transformed, as Gammur watches, ensuring the next generation will vote for independence.",
+      "action": "CLOSE ON cathedral roof tiles. Raven talons land. Sigrid-raven settles into architectural nook. Body convulses gently. The egg emerges - larger than normal raven egg. Translucent shell. Inside: human infant visible. Sleeping. Waiting. The bridge generation. Child who will be 24 in 1944. Will vote for independence. Will remember nothing of being in egg. But will dream of flying. Will fear enclosed spaces. Will love ravens inexplicably. PULL BACK reveals location: Reykjavik Cathedral, 1920. City smaller. Cleaner. Hopeful. Gammur perches on cross above. Guardian. Ensuring. The egg warm despite winter. Glowing slightly. Other ravens gathering. Protecting. They know what it contains. Who it contains. The future voter. The independence maker. The one who says \"jÃ¡\" (yes) to freedom.",
+      "scene": "Cathedral roof, 1920. Egg laid in architectural embrace. City visible below. Ravens gathering.",
+      "style": "Close to wide revealing significance (that's where the camera is), future documented.",
+      "camera_position": "Close to wide revealing significance",
+      "dialogue": "None - silence of birth",
+      "audio": {
+        "primary": [
+          "Egg emerging",
+          "shell translucent humming",
+          "infant heartbeat inside"
+        ],
+        "ambient": [
+          "1920 Reykjavik sounds",
+          "cathedral bells",
+          "ravens gathering"
+        ],
+        "absent": [
+          "no human awareness"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Life speaking without words",
+    "triple_reality": "Physical: egg on roof | Psychological: hope manifested | Mythological: cycle completing"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

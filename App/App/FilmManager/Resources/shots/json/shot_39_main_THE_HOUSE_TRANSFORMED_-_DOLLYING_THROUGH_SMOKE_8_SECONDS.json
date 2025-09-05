@@ -1,0 +1,63 @@
+{
+  "shot_metadata": {
+    "id": "39",
+    "name": "THE_HOUSE_TRANSFORMED___DOLLYING_THROUGH_SMOKE_8_SECONDS",
+    "title": "THE HOUSE TRANSFORMED - DOLLYING THROUGH SMOKE 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 3/min dying + 40bpm weak | Post-summoning af...",
+    "stitch_from": "[STITCH from Shot 38b: Aerial view of MagnÃºs rowing home]"
+  },
+  "progressive_state": "House 3/min dying + 40bpm weak | Post-summoning aftermath | Camera frost 25.5% | Interior transformed | Watching: Four landvÃ¦ttir through windows",
+  "prompt_variants": [
+    {
+      "variant_id": "39_story_primary",
+      "variant_name": "Primary - THE HOUSE TRANSFORMED - DOLLYING THROUGH SMOKE 8 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Camera descending through smoke hole into the house, dollying forward through thick smoke to reveal the family arranged in perfect rÃ©ttir formation on the floor - five positions in pentagon with sixth empty - while the tilberi creation sits at center breathing its three rhythms, and through smoke, glimpses of impossible changes: walls wet with perspiration, floor showing stone patterns, everyone's breath synchronized at 11/min except [SIGRID].",
+      "action": "CAMERA ENTERS through smoke hole, DOLLYING FORWARD through smoke that shouldn't exist (fire long dead). Smoke parts revealing: Family on floor in exact rÃ©ttir positions - the children saw truth and arranged everyone. GuÃ°rÃºn kneeling at first position, silent again. JÃ³n at second despite fever, eyes closed. Lilja at third, humming Krummi tune. Sigrid at fifth position, maintaining distance from center, breathing still 15/min (unchanged). Fourth position MagnÃºs's empty space. Sixth position has body-shaped depression in floor but empty. At center: tilberi creation, size of cat, rope skeleton visible, brass eye weeping. Its three-rhythm breathing (8/12/20) creating polyrhythm. DOLLY CONTINUES revealing: Walls literally wet, perspiring at body temperature. Floor stones visible through worn earth - ancient rÃ©ttir always underneath. Through windows in background: trawler lights gone but steam from polynya (Bull stirring), mountain shadows wrong angle (Raven influence), house breathing so labored it's visible in beam movement.",
+      "scene": "Interior transformed, 9:35 AM but dark from smoke. Temperature 37Â°C at floor (body heat) but -20Â°C at head height. Impossible thermodynamics.",
+      "style": "Steady forward dolly through smoke, revealing family tableau (that's where the camera is), documentary entering aftermath.",
+      "camera_position": "Steady forward dolly through smoke, revealing family tableau",
+      "dialogue": "(Lilja, humming): \"VerÃ°ur margt aÃ° meini...\" (Sigrid, only one speaking): \"Pabbi kemur... meÃ° dauÃ°a\" (Father comes... with death) (Others): Synchronized breathing only",
+      "audio": {
+        "primary": [
+          "Dolly through smoke",
+          "three-rhythm breathing from tilberi",
+          "house perspiring with dripping"
+        ],
+        "ambient": [
+          "Family at 11/min (impossible rate)",
+          "Sigrid at 15/min",
+          "stone rÃ©ttir grinding below"
+        ],
+        "absent": [
+          "no normal activity",
+          "frozen tableau"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "maintain dolly movement, no cuts, reveal through smoke parting",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Broken then reformed in new pattern",
+    "triple_reality": "Physical: structural change / Psychological: collective shock / Mythological: inside the dying god"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

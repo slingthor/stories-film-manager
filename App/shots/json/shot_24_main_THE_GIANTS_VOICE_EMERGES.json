@@ -1,0 +1,66 @@
+{
+  "shot_metadata": {
+    "id": "24",
+    "name": "THE_GIANTS_VOICE_EMERGES",
+    "title": "THE GIANTS VOICE EMERGES",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 6/min + 40bpm failing | Giant speaking | Cam...",
+    "stitch_from": "[STITCH from Shot 23: Sigrid's voice deepening, blood circles forming]"
+  },
+  "progressive_state": "House 6/min + 40bpm failing | Giant speaking | Camera frost 15% | Four responses | Watching: All layers awakening",
+  "prompt_variants": [
+    {
+      "variant_id": "24_story_primary",
+      "variant_name": "Primary - THE GIANTS VOICE EMERGES",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[SIGRID]'s voice completing transformation into the giant's 16Hz resonance - felt in bones more than heard - as the words themselves transform from tilberi summoning to landvÃ¦ttir call: \"LandvÃ¦ttir, komiÃ°, hjÃ¡lpiÃ° okkur\" vibrating through the house structure, which IS the giant's body.",
+      "action": "Sigrid tries to continue tilberi chant but voice no longer hers. Drops to 16Hz - below human hearing, felt in teeth, bones, eyes. The house itself becomes speaker, walls vibrating. Words transform mid-sentence: \"Tilberi...\" becomes \"LANDVÃ†TTIR...\" She claps hands over mouth but voice continues from everywhere - floor, walls, beams. \"KOMIÃ, HJÃLPIÃ OKKUR\" (Come, help us). Instant four responses: EAST: Trawler horn blasts so loud windows crack. WEST: Water in all buckets boils despite -15Â°C. SOUTH: Floor becomes warm, alive, pulsing. NORTH: Raven shadow passes window, impossibly large. The contaminated creation on floor starts breathing - industrial rope skeleton visible through forming flesh, brass button eye weeping green tears, wrong thing being born. GuÃ°rÃºn falls backward, crawling away. Children wake screaming but screams are bleats. Baby's heartbeat visible through Sigrid's dress - 160bpm, red glow pulsing. House heartbeat stutters - 40bpm, 20bpm, 60bpm - dying giant panicking.",
+      "scene": "Interior, 6:37 AM, reality breaking. Temperature drops 5 degrees instantly to -20Â°C. Four cardinal directions showing responses. Windows cracking from trawler horn, water boiling and freezing simultaneously, floor revealing pink flesh underneath, raven shadow too large for any bird. The contaminated tilberi writhing, neither creature nor thing.",
+      "style": "Wide shot showing four-directional responses, camera shaking with 16Hz vibration (that's where the camera is), documentary of summoning disaster.",
+      "camera_position": "Wide shot showing four-directional responses, camera shaking with 16Hz vibration",
+      "dialogue": "(Giant's voice through Sigrid): \"LANDVÃ†TTIR, KOMIÃ, HJÃLPIÃ OKKUR\" (Trying to stop): Normal voice breaking through: \"Nei, nei, Ã¾etta Ã¡ ekki...\" (GuÃ°rÃºn, finally speaking): \"HvaÃ° hefur Ã¾Ãº gert?\" (What have you done?)",
+      "audio": {
+        "primary": [
+          "16Hz giant voice through everything",
+          "four responses - horn",
+          "boiling",
+          "floor pulsing",
+          "shadow passing"
+        ],
+        "ambient": [
+          "House heartbeat chaos",
+          "baby 160bpm",
+          "tilberi breathing wrong",
+          "windows cracking"
+        ],
+        "absent": [
+          "no undoing possible",
+          "no salvation"
+        ]
+      },
+      "character_plates": {
+        "present": [
+          "SIGRID"
+        ],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, 16Hz as vibration not normal sound, four responses simultaneous, documentary observation",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Broken by possession",
+    "triple_reality": "Physical: vocal cords impossible / Psychological: possession / Mythological: Bergrisi speaking through her"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "SIGRID"
+    ],
+    "original_preserved": true
+  }
+}

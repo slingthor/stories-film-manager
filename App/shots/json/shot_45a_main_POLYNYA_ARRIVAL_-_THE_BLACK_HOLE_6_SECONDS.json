@@ -1,0 +1,58 @@
+{
+  "shot_metadata": {
+    "id": "45a",
+    "name": "POLYNYA_ARRIVAL___THE_BLACK_HOLE_6_SECONDS",
+    "title": "POLYNYA ARRIVAL - THE BLACK HOLE 6 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "Reaching water | Seaweed visible | Camera frost 31...",
+    "stitch_from": "[STITCH from Shot 44c: Wool trail leading her forward]"
+  },
+  "progressive_state": "Reaching water | Seaweed visible | Camera frost 31.5% | Task beginning | Watching: Water watches back",
+  "prompt_variants": [
+    {
+      "variant_id": "45a_story_primary",
+      "variant_name": "Primary - POLYNYA ARRIVAL - THE BLACK HOLE 6 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[GUÃRÃšN] arriving at the polynya - a perfect black circle in white ice, 20 feet diameter, steam rising despite -30Â°C, seaweed visible at edges but water too still, too warm, too alive, as if something massive breathes below.",
+      "action": "CRANE DOWN from 10 meters to water level over 6 seconds. First view: polynya like pupil in white eye, perfectly round, impossible in nature. As camera descends: steam visible, thick white clouds rising. Closer: water not frozen despite -30Â°C, actually steaming. Closer: seaweed growing at edges, black-green, more abundant than should exist. Water level: surface perfect mirror, reflecting grey sky, but reflection shows something that isn't there - massive shadow beneath. GuÃ°rÃºn kneels at edge, wool from wrists now 60mm, coiling beside her. Reaches for seaweed. Water temperature makes her exhale - it's warm, body temperature. Begins pulling seaweed, filling her apron. But water responds to her touch - ripples in perfect circles, each ripple exactly 12 inches apart. Mathematical precision. Something knows she's here.",
+      "scene": "Polynya at fjord edge, 9:55 AM grey light. Steam creating local fog. Ice edge sharp, 3 feet thick. Water black, opaque, warm.",
+      "style": "Crane establishing scale then intimate arrival (that's where the camera is), anticipation building.",
+      "camera_position": "Crane establishing scale then intimate arrival",
+      "dialogue": "None - just breathing and water sounds",
+      "audio": {
+        "primary": [
+          "Water lapping despite no wind",
+          "seaweed pulling wet",
+          "steam hissing"
+        ],
+        "ambient": [
+          "Something breathing below water",
+          "ripples in perfect pattern"
+        ],
+        "absent": [
+          "no wind here",
+          "unnatural stillness"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "",
+      "video_references": []
+    }
+  ],
+  "others": {
+    "womens_silence": "Working without complaint",
+    "triple_reality": "Physical: gathering seaweed | Psychological: final task | Mythological: approaching god's domain"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}

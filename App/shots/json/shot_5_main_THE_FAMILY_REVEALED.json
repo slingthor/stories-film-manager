@@ -1,0 +1,45 @@
+{
+  "shot_metadata": {
+    "id": "5",
+    "name": "THE_FAMILY_REVEALED",
+    "title": "THE FAMILY REVEALED",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 12/min | KlettagjÃ¡ invisible | No contamina...",
+    "stitch_from": "[STITCH from Shot 4: Camera enters through smoke hole in roof]"
+  },
+  "progressive_state": "House 12/min | KlettagjÃ¡ invisible | No contamination | Camera frost 3% | Sorting none | LandvÃ¦ttir sleeping",
+  "prompt_variants": [
+    {
+      "variant_id": "5_story_primary",
+      "variant_name": "Primary - THE FAMILY REVEALED",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "Interior of cramped turf house with entire family visible as camera descends through smoke hole. At the worn pine table's head sits [MAGNÃšS - FULL PLATE]: MagnÃºs, a 45-year-old Danish merchant with rectangular weathered face, deep-set steel-blue eyes with pronounced crow's feet, broken aquiline nose bent leftward from old fight, thick grey beard reaching mid-chest with ice crystals perpetually frozen in the whiskers, shoulder-length grey hair greasy and matted against skull, 5'10\" but hunched from low ceilings, broad shoulders in brown homespun vaÃ°mÃ¡l wool sweater with visible mending at left elbow and right shoulder showing three different thread colors, dark wool trousers patched at both knees with newer brown fabric, thick hands with swollen knuckles, constantly counting on fingers with right hand while left grips a smooth driftwood cane, aggressive forward-leaning posture, jaw clenched making beard twitch, tarnished silver wedding ring on left hand. To his right [GUÃRÃšN - FULL PLATE]: GuÃ°rÃºn, a 38-year-old Icelandic woman with prematurely aged oval face, hollow cheeks creating shadow pockets, straight narrow nose, pale lips pressed into permanent thin line, grey-green almond-shaped eyes with purple circles beneath, dark brown hair completely hidden under white curved faldbÃºningur headdress that extends 6 inches from her head with black velvet band and brass pin at right temple, 5'5\" but appearing smaller from submissive posture, thin frame visible through grey wool dress that hangs loose, brown apron with three visible stains, black wool shawl pulled tight, shoulders permanently curved inward, hands red and raw from work, nervous habit of adjusting headdress every 30 seconds, eyes constantly flicking to check MagnÃºs's position. On the middle sleeping platform exactly 10 feet from MagnÃºs [SIGRID - FULL PLATE]: Sigrid, a 16-year-old girl with heart-shaped face, high cheekbones creating elegant shadows, small straight nose with three freckles across bridge forming tiny triangle, full lips naturally pink despite cold, grey eyes sharp with amber flecks near pupils like sparks in ash, wheat-blonde hair in two tight braids reaching mid-back with leather ties, 5'4\" lean build suggesting hidden strength, grey-brown wool dress too small showing wrists and ankles, dark wool stockings with holes at both heels, body always angled to maintain escape route, spine pressed against wall, fingers unconsciously tracing patterns on wall behind her, never breaking eye contact when looked at, breathing steady and controlled. Curled against her [LILJA - FULL PLATE]: Lilja, a 7-year-old girl with round cherubic face, huge blue eyes that seem too large for her skull, tangled dark blonde hair with uneven self-cut bangs, tiny upturned nose, rosebud mouth, 3'6\" tall, wearing grey wool dress with torn hem showing bare legs above brown wool stockings, clutching cloth doll with brass button eyes and yellow yarn hair, right thumb in mouth, left arm around doll, body curved into C-shape against Sigrid. Between parents at table [JÃ“N - FULL PLATE]: JÃ³n, a 14-year-old boy with narrow face flushed red with fever, sandy brown hair plastered to forehead with sweat, hazel eyes glazed and unfocused, thin frame showing ribs through oversized brown wool sweater, constantly wiping nose with sleeve leaving dark stains, shoulders shaking with chill despite fever heat, sitting but swaying slightly, hands gripping table edge for stability.",
+      "action": "Camera settles into room through smoke hole as Sigrid sings Krummi lullaby to Lilja in clear soprano voice. Each family member engaged in morning routine: MagnÃºs repeatedly counts on fingers, getting five, then six, then five again, confusion growing. GuÃ°rÃºn cuts hÃ¡karl (fermented shark) into precise pieces, knife moving mechanically. JÃ³n coughs wetly into cupped hands, examining phlegm. Lilja's eyes grow heavy but don't close, breathing slowing from 22 to 20 breaths per minute - not sleep but something else. Sigrid's fingers trace invisible patterns on wall that match shapes that will become canyon, though wall appears smooth. All breath visible as white vapor, creating layers of fog at different heights based on where each person sits. As Sigrid sings, her hand moves from belly when MagnÃºs glances over - he knows, she knows he knows. The subtle swell at 3-4 months just visible when dress pulls tight during reaching. GuÃ°rÃºn's eyes flicker between them with terrible understanding, then away.",
+      "scene": "[INTERIOR - FULL LOCK]: Interior dimensions exactly 12Ã—16 feet with 6-foot ceiling at peak, forcing all adults to hunch. Turf walls 1 meter thick with herringbone pattern of stacked grass sod visible, straw and moss poking through in places. Three exposed wooden beams running lengthwise, dark with soot and tar, salvaged from ship construction. Packed earth floor worn smooth with shallow paths between bed and table. Single 2Ã—2 foot south window covered in frost except center circle. Heavy wooden door in northeast corner, 5 feet tall requiring ducking. Smoke hole centered above table, 1 foot diameter, currently showing grey pre-dawn sky. Rough-hewn pine table 4 feet from west wall, surface covered in knife marks, dark stains, and carved initials. Sleeping platforms along east wall in three tiers at 1 foot, 3 feet, and 5 feet heights, built from driftwood and covered with wool blankets. Stone hearth on north wall, 3Ã—3 feet, peat fire smoldering creating more smoke than heat. Storage nook in southwest corner, partially hidden by hanging cloth. Temperature inside -6Â°C, breath visible from everyone, ice forming on interior walls near door. Smell of peat smoke, damp wool, fermenting hÃ¡karl, and unwashed bodies.",
+      "style": "Wide establishing shot from northeast corner showing full family arrangement and spatial dynamics, camera at 5 feet height (that's where the camera is), 24mm lens capturing entire domestic space, oil lamp providing only light source creating dramatic shadows, documentary observation of morning routine.",
+      "camera_position": "Wide establishing shot from northeast corner showing full family arrangement and spatial dynamics, camera at 5 feet height",
+      "dialogue": "(Sigrid, singing): \"Krummi svaf Ã­ klettagjÃ¡, kaldri vetrarnÃ³ttu Ã¡\" (Tone: gentle soprano, soothing but with undertone of prophecy) (MagnÃºs, muttering): \"Fimm... nei, sex?\" (Tone: confused, agitated) (GuÃ°rÃºn): \"BorÃ°iÃ° verÃ°ur tilbÃºiÃ°\" (Tone: mechanical, exhausted)",
+      "audio": {
+        "primary": [],
+        "ambient": [],
+        "absent": []
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, no text overlays, no modern elements, no electric lighting, maintain 1888 accuracy, documentary realism",
+      "video_references": []
+    }
+  ],
+  "others": {},
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  }
+}
