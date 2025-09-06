@@ -1,0 +1,30 @@
+SHOT 37: SHORELINE SCAVENGING - TRACKING DESPERATION (8 SECONDS)
+Progressive State: Searching for anything | Shore contaminated | Camera frost 24% | Provider failing | Watching: Ravens following
+Women's Silence: None present
+Triple Reality: Physical: desperate scavenging / Psychological: masculine shame / Mythological: offerings rejected
+Duration: 8 seconds
+Camera Movement: Lateral tracking shot following boat along shore
+[STITCH from Shot 36: 360Â° revelation of emptiness]
+
+Subject: Camera tracking laterally as [MAGNÃšS] rows parallel to the shoreline, his 0Hz hands reaching into the shallows searching for anything - kelp, shells, carrion - while behind him the green-black poison from the trawler spreads toward shore, arriving just after he passes each spot, contaminating his path permanently.
+
+Action: CAMERA TRACKS RIGHT following boat along shore at 10 meters distance. MagnÃºs rowing slowly, stopping every few meters. Reaches overboard with 0Hz hands - can't feel temperature, texture, just grabbing blind. First stop: handful of nothing, just water. Second: rocks, worthless. Third: old fishing net fragment, but industrial, not his. Fourth: piece of driftwood shaped like bone. Fifth: reaching deeper, hand disappears to elbow, searching, searching... pulls up partial SEAL FIN. Black, decomposed, maggots visible but frozen in ice crystals. Not even whole seal - just one fin, torn off, week old at least. This is his catch. Behind boat, green-black contamination reaches shore, turning white ice to sick green. Each spot he touched now poisoned. Ravens following above, seven shadows tracking on ice. His aged face shows recognition: this is all the sea will give. One rotten fin. Camera continues tracking as he places fin carefully in boat like treasure.
+
+Scene: Rocky shoreline, 9:30 AM. Ice shelf meeting black rocks. Poison spreading behind him. Mountains reflected in contaminating water.
+
+Style: Continuous lateral tracking shot at water level, maintaining 10-meter distance (that's where the camera is), documentary following futility.
+
+Dialogue: (MagnÃºs, searching): "EitthvaÃ°... bara eitthvaÃ°..." (Finding fin): "Ãžetta... Ã¾etta er allt?" (To ravens): "Ekki hlÃ¦ja" (Don't laugh)
+
+Sounds: [PRIMARY: Hands searching in water, ice breaking, seal fin squelching, poison hissing behind] [AMBIENT: Ravens following silent, contamination spreading with acid sounds, his breathing visible at 6/min] [ABSENT: no life in water, no success sounds]
+
+Visual Composition:
+
+Foreground: Ice shelf and rocks
+Subject plane: Boat with MagnÃºs searching
+Background: Poisoned water spreading
+Above: Seven ravens tracking
+Leading lines: Shore creates diagonal, poison creates parallel
+Technical (Negative Prompt): no cuts, maintain tracking speed with boat, show contamination following
+
+-

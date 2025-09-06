@@ -8,10 +8,15 @@ struct PlateListView: View {
     @State private var plateTypeFilter: PlateType = .character
     @State private var searchText: String = ""
     @State private var selectedCharacter: String? = nil
+    @State private var selectedEnvironmentCategory: String? = nil
     @State private var expandedMainPlate: String? = nil
     
     var availableCharacters: [String] {
         Array(Set(filmManager.plateManager.mainCharacterPlates.map { $0.character })).sorted()
+    }
+    
+    var availableEnvironmentCategories: [String] {
+        Array(Set(filmManager.plateManager.environmentalPlates.map { $0.category })).sorted()
     }
     
     var filteredCharacterPlates: [CharacterPlate] {
@@ -43,16 +48,25 @@ struct PlateListView: View {
         }
     }
     
-    var filteredEnvironmentalPlates: [(id: String, name: String, description: String, category: String)] {
+    var filteredEnvironmentalPlates: [EnvironmentalPlate] {
         filmManager.plateManager.environmentalPlates
-            .filter { searchText.isEmpty || 
-                     $0.name.localizedCaseInsensitiveContains(searchText) ||
-                     $0.description.localizedCaseInsensitiveContains(searchText) ||
-                     $0.category.localizedCaseInsensitiveContains(searchText) }
-            .map { (id: $0.plateId, name: $0.name, description: $0.description, category: $0.category) }
+            .filter { plate in
+                // Filter by selected category if one is selected
+                let categoryMatch = selectedEnvironmentCategory == nil || 
+                                  plate.category.lowercased() == selectedEnvironmentCategory?.lowercased()
+                
+                // Filter by search text
+                let searchMatch = searchText.isEmpty || 
+                                plate.name.localizedCaseInsensitiveContains(searchText) ||
+                                plate.description.localizedCaseInsensitiveContains(searchText) ||
+                                plate.plateId.localizedCaseInsensitiveContains(searchText)
+                
+                return categoryMatch && searchMatch
+            }
+            .sorted { $0.plateId < $1.plateId }
     }
     
-    var groupedEnvironmentalPlates: [String: [(id: String, name: String, description: String, category: String)]] {
+    var groupedEnvironmentalPlates: [String: [EnvironmentalPlate]] {
         Dictionary(grouping: filteredEnvironmentalPlates) { $0.category }
     }
     
@@ -133,6 +147,42 @@ struct PlateListView: View {
                 Divider()
             }
             
+            // Environment category selector for environmental plates
+            if plateTypeFilter == .environment && !availableEnvironmentCategories.isEmpty {
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("Select Category")
+                        .font(.caption)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.secondary)
+                        .padding(.horizontal)
+                    
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: 8) {
+                            ForEach(availableEnvironmentCategories, id: \.self) { category in
+                                Button(action: {
+                                    selectedEnvironmentCategory = selectedEnvironmentCategory == category ? nil : category
+                                    selectedPlateId = nil
+                                }) {
+                                    Text(category.capitalized)
+                                        .font(.caption)
+                                        .padding(.horizontal, 12)
+                                        .padding(.vertical, 6)
+                                        .background(selectedEnvironmentCategory == category ? Color.blue : Color.gray.opacity(0.2))
+                                        .foregroundColor(selectedEnvironmentCategory == category ? .white : .primary)
+                                        .cornerRadius(6)
+                                }
+                                .buttonStyle(PlainButtonStyle())
+                            }
+                        }
+                        .padding(.horizontal)
+                    }
+                }
+                .padding(.vertical, 8)
+                .background(Color.gray.opacity(0.05))
+                
+                Divider()
+            }
+            
             // Plate list
             ScrollView {
                 if plateTypeFilter == .character {
@@ -174,32 +224,17 @@ struct PlateListView: View {
                 } else {
                     // Environmental plates display
                     VStack(alignment: .leading, spacing: 0) {
-                        ForEach(groupedEnvironmentalPlates.keys.sorted(), id: \.self) { category in
-                            // Category header
-                            HStack {
-                                Text(category.isEmpty ? "Uncategorized" : category.capitalized)
-                                    .font(.caption)
-                                    .fontWeight(.semibold)
-                                    .foregroundColor(.secondary)
-                                Spacer()
-                            }
-                            .padding(.horizontal)
-                            .padding(.vertical, 6)
-                            .background(Color.gray.opacity(0.08))
-                            
-                            // Plates in category
-                            ForEach(groupedEnvironmentalPlates[category] ?? [], id: \.id) { plate in
-                                PlateListRow(
-                                    plateId: plate.id,
-                                    plateName: plate.name,
-                                    plateDescription: plate.description,
-                                    isSelected: selectedPlateId == plate.id,
-                                    onSelect: {
-                                        selectedPlateId = plate.id
-                                        selectedPlateType = plateTypeFilter
-                                    }
-                                )
-                            }
+                        ForEach(filteredEnvironmentalPlates, id: \.id) { plate in
+                            PlateListRow(
+                                plateId: plate.plateId,
+                                plateName: plate.name,
+                                plateDescription: plate.description,
+                                isSelected: selectedPlateId == plate.plateId,
+                                onSelect: {
+                                    selectedPlateId = plate.plateId
+                                    selectedPlateType = plateTypeFilter
+                                }
+                            )
                         }
                     }
                 }

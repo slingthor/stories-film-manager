@@ -1,0 +1,30 @@
+SHOT 57c: HOUSE SPEAKS IN DARKNESS - FINAL WORDS (5 SECONDS)
+Progressive State: House 0/min dead + 0bpm | Last words | Camera frost 50% | Death speech | Watching: House dies
+Women's Silence: All silent for death
+Triple Reality: Physical: structure failing | Psychological: shelter dying | Mythological: Bergrisi's end
+Duration: 5 seconds
+Camera Movement: None - still darkness
+[STITCH from Shot 57b: Match dies, darkness returns]
+
+Subject: In the darkness, the house speaks its last words as Bergrisi: "Ã‰g dey... klettagjÃ¡ verÃ°ur... Sigrid... flÃºgÃ°u" (I die... rocky cleft becomes... Sigrid... fly), then heartbeat stops, breathing ends, but structure remains.
+
+Action: Darkness continues. Then through everything - walls, floor, air itself - voice emerges. Not sound but vibration. Bergrisi's death speech: "Ã‰g dey..." The words create wind through house. "KlettagjÃ¡ verÃ°ur..." Walls crack audibly. Not collapsing - transforming. Opening. Becoming cleft. "Sigrid..." Personal address. The giant knows her. Loves her. Dies for her. "FlÃºgÃ°u." Command. Promise. Prophecy. Then: silence. No heartbeat. No breathing. House dead. But structure stands. Transformed. No longer giant's body but rocky cleft. Escape route. Birth canal. In darkness, sound of stone settling. New geography. The house IS the klettagjÃ¡ from lullaby. Always was becoming this. Sheep breathing continues. But one breath different - Sigrid's still 15/min. Still unchanged. Still resisting.
+
+Scene: Continued darkness. House speaking through death. Transformation audible.
+
+Style: Black screen with voice through everything (that's where the camera is), death speech documented.
+
+Dialogue: (House/Bergrisi, dying): "Ã‰g dey... klettagjÃ¡ verÃ°ur..." "Sigrid... flÃºgÃ°u"
+
+Sounds: [PRIMARY: Voice through structure, walls cracking/transforming, heartbeat stopping] [AMBIENT: Stone settling into cleft form, sheep breathing, wind through new openings] [ABSENT: no human response]
+
+Visual Elements for VEO3:
+
+Continued black screen
+No visual elements
+Complete darkness
+Sound only
+Void
+Technical (Negative Prompt): maintain complete darkness, no light
+
+-

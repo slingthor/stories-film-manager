@@ -379,6 +379,7 @@ class FilmManager: ObservableObject {
             fileManager.saveShot(shot)
         }
         fileManager.saveMainSystem(trackingSystems)
+        plateManager.savePlates()
     }
     
     func reorderShots(from source: IndexSet, to destination: Int) {
@@ -702,57 +703,115 @@ class PromptVariant: ObservableObject, Identifiable {
         }
     }
     
-    func generateCompletePrompt(for shot: FilmShot, plateManager: PlateManager? = nil) -> String {
+    func generateCompletePrompt(for shot: FilmShot, plateManager: PlateManager? = nil, trackingSystems: [TrackingSystem]? = nil) -> String {
         var promptText = ""
         
-        // Add character plate if selected
+        // Header with shot title and progressive state
+        promptText += "SHOT \(shot.id.uppercased()): \(shot.title.uppercased())\n"
+        
+        // Build progressive state line with tracking systems
+        var progressiveElements: [String] = []
+        
+        // Add progressive state if available
+        if !progressiveState.isEmpty {
+            progressiveElements.append(progressiveState)
+        }
+        
+        // Add relevant tracking systems based on shot position
+        if let systems = trackingSystems {
+            let shotPosition = shot.position
+            for system in systems {
+                // Check if this system affects this shot based on position
+                let systemPercentage = system.currentPercentage
+                
+                // Include system if shot position is within its range
+                // You can adjust this logic based on how systems map to shots
+                if abs(shotPosition - systemPercentage) < 20 || 
+                   system.affectsShots.contains(shot.id) {
+                    // Format system name nicely and include percentage if relevant
+                    let systemName = system.displayName
+                    if system.currentPercentage > 0 {
+                        progressiveElements.append("\(systemName) \(Int(system.currentPercentage))%")
+                    } else {
+                        progressiveElements.append(systemName)
+                    }
+                }
+            }
+        }
+        
+        if !progressiveElements.isEmpty {
+            promptText += "Progressive State: \(progressiveElements.joined(separator: " | "))\n\n"
+        }
+        
+        // SUBJECT section
+        promptText += "SUBJECT:\n"
+        var subjectContent = subject
+        
+        // Add character plate description to subject if selected
         if let plateId = selectedCharacterPlateId, 
            let plateManager = plateManager,
            let plate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
-            promptText += "CHARACTER PLATE: \(plate.description)\n\n"
+            if !subjectContent.isEmpty { subjectContent += " " }
+            subjectContent += plate.description
         } else if !customCharacterPlate.isEmpty {
-            promptText += "CHARACTER: \(customCharacterPlate)\n\n"
+            if !subjectContent.isEmpty { subjectContent += " " }
+            subjectContent += customCharacterPlate
         }
         
-        // Add environmental plate if selected
+        promptText += "\(subjectContent)\n\n"
+        
+        // ACTION section
+        promptText += "ACTION:\n\(action)\n\n"
+        
+        // SCENE section
+        promptText += "SCENE:\n"
+        var sceneContent = scene
+        
+        // Add environmental plate to scene if selected
         if let plateId = selectedEnvironmentPlateId,
            let plateManager = plateManager,
            let plate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
-            promptText += "ENVIRONMENT: \(plate.description)\n\n"
+            if !sceneContent.isEmpty { sceneContent += " " }
+            sceneContent += plate.description
         } else if !customEnvironmentPlate.isEmpty {
-            promptText += "ENVIRONMENT: \(customEnvironmentPlate)\n\n"
+            if !sceneContent.isEmpty { sceneContent += " " }
+            sceneContent += customEnvironmentPlate
         }
         
-        // Main prompt content
-        promptText += """
-        Subject: \(subject)
-        Action: \(action)
-        Scene: \(scene)
-        Style: \(style)
-        Camera Position: \(cameraPosition)
-        """
+        promptText += "\(sceneContent)\n\n"
         
+        // STYLE section with camera position
+        promptText += "STYLE:\n"
+        var styleContent = style
+        if !cameraPosition.isEmpty {
+            styleContent += " Camera position: \(cameraPosition)"
+        }
+        promptText += "\(styleContent)\n\n"
+        
+        // DIALOGUE section (if present)
         if !dialogue.isEmpty {
-            promptText += "\nDialogue: \(dialogue)"
+            promptText += "DIALOGUE:\n\(dialogue)\n\n"
         }
         
+        // SOUNDS section (if we have audio notes in negative prompt or elsewhere)
+        // For now, we can extract from negative prompt or leave empty
+        if !negativePrompt.isEmpty && negativePrompt.lowercased().contains("sound") {
+            promptText += "SOUNDS:\n\(negativePrompt)\n\n"
+        }
+        
+        // Technical information at the end
         promptText += """
         
-        
-        --- AUXILIARY INFORMATION ---
+        --- TECHNICAL INFO ---
         Duration: \(shot.duration) seconds
         Aspect Ratio: \(shot.aspectRatio)
-        Shot ID: \(shot.id)
-        Sequence: \(shot.sequenceType)
-        Position: \(Int(shot.position))% through film
+        Shot Position: \(Int(shot.position))% through film
+        Sequence Type: \(shot.sequenceType)
         """
         
-        if !progressiveState.isEmpty {
-            promptText += "\nProgressive State: \(progressiveState)"
-        }
-        
-        if !negativePrompt.isEmpty {
-            promptText += "\n\nTechnical (Negative Prompt): \(negativePrompt)"
+        // Add negative prompt if it doesn't contain sound info
+        if !negativePrompt.isEmpty && !negativePrompt.lowercased().contains("sound") {
+            promptText += "\nNegative Prompt: \(negativePrompt)"
         }
         
         return promptText
@@ -894,14 +953,10 @@ class PlateManager: ObservableObject {
     }
     
     private func loadCharacterPlatesFromJSON() {
-        // Try multiple paths for the JSON file
-        let possiblePaths = [
-            Bundle.main.path(forResource: "Resources/character_plates_index", ofType: "json"),
-            Bundle.main.path(forResource: "character_plates_index", ofType: "json"),
-            "/Users/ingthor/Documents/stories/App/character_plates_index.json"
-        ]
+        // Load from versioned directory
+        let path = AppDataManager.shared.characterPlateIndexPath()
         
-        for path in possiblePaths.compactMap({ $0 }) {
+        if true {  // Keep structure for consistency
             if let data = FileManager.default.contents(atPath: path) {
                 do {
                     let json = try JSONSerialization.jsonObject(with: data) as? [String: Any]
@@ -1001,14 +1056,10 @@ class PlateManager: ObservableObject {
     }
     
     private func loadEnvironmentalPlatesFromJSON() {
-        // Try multiple paths for the JSON file
-        let possiblePaths = [
-            Bundle.main.path(forResource: "Resources/environmental_plates_index", ofType: "json"),
-            Bundle.main.path(forResource: "environmental_plates_index", ofType: "json"),
-            "/Users/ingthor/Documents/stories/App/environmental_plates_index.json"
-        ]
+        // Load from versioned directory
+        let path = AppDataManager.shared.environmentalPlateIndexPath()
         
-        for path in possiblePaths.compactMap({ $0 }) {
+        if true {  // Keep structure for consistency
             if let data = FileManager.default.contents(atPath: path) {
                 do {
                     let json = try JSONSerialization.jsonObject(with: data) as? [String: Any]
@@ -1047,14 +1098,10 @@ class PlateManager: ObservableObject {
     }
     
     private func loadPlateRecommendations() {
-        // Try multiple paths for the JSON file
-        let possiblePaths = [
-            Bundle.main.path(forResource: "Resources/shot_plate_recommendations", ofType: "json"),
-            Bundle.main.path(forResource: "shot_plate_recommendations", ofType: "json"),
-            "/Users/ingthor/Documents/stories/App/shot_plate_recommendations.json"
-        ]
+        // Load from versioned directory
+        let path = AppDataManager.shared.recommendationsPath()
         
-        for path in possiblePaths.compactMap({ $0 }) {
+        if true {  // Keep structure for consistency
             if let data = FileManager.default.contents(atPath: path) {
                 do {
                     if let json = try JSONSerialization.jsonObject(with: data) as? [String: Any] {
@@ -1069,6 +1116,69 @@ class PlateManager: ObservableObject {
         }
         
         print("⚠️ Could not load plate recommendations from any path")
+    }
+    
+    func savePlates() {
+        saveCharacterPlates()
+        saveEnvironmentalPlates()
+    }
+    
+    func saveCharacterPlates() {
+        let path = AppDataManager.shared.characterPlateIndexPath()
+        
+        var plateIndex: [String: Any] = [:]
+        
+        // Save all character plates
+        for plate in characterPlates {
+            plateIndex[plate.plateId] = [
+                "name": plate.name,
+                "character": plate.character,
+                "description": plate.description,
+                "shot_range": plate.shotRange,
+                "is_master": plate.isMainPlate
+            ]
+        }
+        
+        let json: [String: Any] = [
+            "plate_index": plateIndex,
+            "last_updated": ISO8601DateFormatter().string(from: Date())
+        ]
+        
+        do {
+            let data = try JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
+            try data.write(to: URL(fileURLWithPath: path))
+            print("💾 Saved character plates to \(path)")
+        } catch {
+            print("❌ Error saving character plates: \(error)")
+        }
+    }
+    
+    func saveEnvironmentalPlates() {
+        let path = AppDataManager.shared.environmentalPlateIndexPath()
+        
+        var plateIndex: [String: Any] = [:]
+        
+        // Save all environmental plates
+        for plate in environmentalPlates {
+            plateIndex[plate.plateId] = [
+                "name": plate.name,
+                "category": plate.category,
+                "description": plate.description
+            ]
+        }
+        
+        let json: [String: Any] = [
+            "plate_index": plateIndex,
+            "last_updated": ISO8601DateFormatter().string(from: Date())
+        ]
+        
+        do {
+            let data = try JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
+            try data.write(to: URL(fileURLWithPath: path))
+            print("💾 Saved environmental plates to \(path)")
+        } catch {
+            print("❌ Error saving environmental plates: \(error)")
+        }
     }
     
     private func loadCharacterPlates() {
@@ -1284,18 +1394,18 @@ class PlateManager: ObservableObject {
 // MARK: - File Management
 
 class FilmFileManager {
+    private let appDataManager = AppDataManager.shared
+    
     private var documentsPath: String {
-        // Use app's Documents directory
-        let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
-        return paths[0].path
+        return appDataManager.currentVersionPath
     }
     
     private var shotsPath: String {
-        return "\(documentsPath)/shots/json"
+        return "\(appDataManager.currentVersionPath)/shots"
     }
     
     private var workingDirectory: String {
-        return "\(documentsPath)/working"
+        return "\(appDataManager.currentVersionPath)/working"
     }
     
     init() {
@@ -1585,14 +1695,14 @@ class FilmFileManager {
         }
         json["prompt_variants"] = promptVariantsJSON
         
-        // Write to working directory
+        // Write to shots directory
         do {
             let data = try JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
-            let filename = "shot_\(shot.id)_\(shot.sequenceType).json"
-            let filepath = "\(workingDirectory)/\(filename)"
+            let filename = "\(shot.id).json"
+            let filepath = appDataManager.shotPath(for: shot.id)
             
             try data.write(to: URL(fileURLWithPath: filepath))
-            print("💾 Saved shot: \(filename)")
+            print("💾 Saved shot: \(filename) to \(filepath)")
             shot.isDirty = false
         } catch {
             print("❌ Error saving shot \(shot.id): \(error)")
@@ -1616,39 +1726,20 @@ class FilmFileManager {
         
         do {
             let data = try JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
-            let filepath = "\(workingDirectory)/tracking_systems_state.json"
+            let filepath = appDataManager.mainSystemPath()
             try data.write(to: URL(fileURLWithPath: filepath))
-            print("💾 Saved tracking systems state")
+            print("💾 Saved tracking systems state to \(filepath)")
         } catch {
             print("❌ Error saving tracking systems: \(error)")
         }
     }
     
     func loadMainSystemData() -> [String: Any]? {
-        // Try bundle first - check multiple possible locations
-        let possiblePaths = [
-            Bundle.main.path(forResource: "Resources/main_film_system", ofType: "json"),
-            Bundle.main.path(forResource: "main_film_system", ofType: "json")
-        ]
-        
-        for path in possiblePaths.compactMap({ $0 }) {
-            if let data = FileManager.default.contents(atPath: path) {
-                print("📋 Loading main system from bundle at: \(path)")
-                do {
-                    if let json = try JSONSerialization.jsonObject(with: data) as? [String: Any] {
-                        return json
-                    }
-                } catch {
-                    print("❌ Error parsing main system JSON from bundle: \(error)")
-                }
-            }
-        }
-        
-        // Fall back to documents directory
-        let mainSystemPath = "\(documentsPath)/main_film_system.json"
+        // Load from versioned directory
+        let mainSystemPath = appDataManager.mainSystemPath()
         
         guard let data = FileManager.default.contents(atPath: mainSystemPath) else {
-            print("❌ Could not load main system file from documents")
+            print("❌ Could not load main system file from: \(mainSystemPath)")
             return nil
         }
         

@@ -215,10 +215,50 @@ struct ComprehensivePromptEditor: View {
                                 )
                             }
                             
+                            // Media Section
+                            VStack(alignment: .leading, spacing: 12) {
+                                Label("Media Assets", systemImage: "photo.on.rectangle")
+                                    .font(.headline)
+                                
+                                // Media drop zone
+                                MediaDropView(
+                                    type: "shot",
+                                    id: shot.id,
+                                    filmManager: filmManager
+                                )
+                                
+                                // Display existing media
+                                if !shot.images.isEmpty || !shot.videos.isEmpty {
+                                    MediaGalleryView(
+                                        images: shot.images,
+                                        videos: shot.videos,
+                                        selectedVideoIndex: Binding(
+                                            get: { shot.selectedVideoIndex },
+                                            set: { shot.selectedVideoIndex = $0 }
+                                        ),
+                                        onRemoveImage: { index in
+                                            shot.removeImage(at: index)
+                                            filmManager.fileManager.saveShot(shot)
+                                        },
+                                        onRemoveVideo: { index in
+                                            shot.removeVideo(at: index)
+                                            filmManager.fileManager.saveShot(shot)
+                                        }
+                                    )
+                                }
+                            }
+                            .padding()
+                            .background(Color.gray.opacity(0.05))
+                            .cornerRadius(8)
+                            
                             // Action buttons
                             HStack(spacing: 12) {
                                 Button("Generate Complete Prompt") {
-                                    generatedPrompt = prompt.generateCompletePrompt(for: shot)
+                                    generatedPrompt = prompt.generateCompletePrompt(
+                                        for: shot,
+                                        plateManager: filmManager.plateManager,
+                                        trackingSystems: filmManager.trackingSystems
+                                    )
                                     showingGeneratedPrompt = true
                                 }
                                 .buttonStyle(.borderedProminent)

@@ -226,6 +226,8 @@ struct PlateDetailEditor: View {
             }
         }
         
+        // Save to disk
+        filmManager.plateManager.savePlates()
         filmManager.plateManager.objectWillChange.send()
         hasChanges = false
     }
