@@ -1,10 +1,10 @@
 {
   "film_metadata": {
     "title": "The Sheep in the Baðstofa",
-    "version": "v18_enhanced",
-    "total_shots": 110,
-    "prologue_shots": 25,
-    "main_story_shots": 85,
+    "version": "v18_enhanced_extended",
+    "total_shots": 120,
+    "prologue_shots": 28,
+    "main_story_shots": 92,
     "estimated_duration": "12 minutes",
     "aspect_ratio": "16:9",
     "target_resolution": "1080p"
@@ -188,13 +188,17 @@
 
   "shot_file_references": {
     "created_shots": [
+      "shot_1_prologue_Shot_Minus1_Raven_Three_Transi.json",
+      "shot_1_prologue_Shot_Minus1_Ravens_Last_Breath.json",
       "shot_0a_prologue.json",
+      "shot_0a_prologue_Nidstong_Curse_Pole_Revolution.json",
       "shot_0b_prologue.json",
       "shot_1a_prologue.json",
       "shot_1b_prologue.json", 
       "shot_1c_prologue.json",
       "shot_2a_prologue.json",
       "shot_3a_prologue.json",
+      "shot_5p_prologue_Shot_5Point5_Surveillance_Web_.json",
       "shot_6a_prologue.json",
       "shot_7a_prologue.json",
       "shot_7b_prologue.json",
@@ -207,13 +211,19 @@
       "shot_23_prologue.json",
       "shot_1_main.json",
       "shot_8_main.json",
+      "shot_16p_main_Shot_16Point5_One_Perfect_Huma.json",
       "shot_17_main.json",
+      "shot_23p_main_Shot_23Point5_The_Last_Ship_Co.json",
+      "shot_39p_main_Shot_39Point5_Childrens_Hunger.json",
+      "shot_55p_main_Pass_2_Shot_55Point5_Becoming_.json",
+      "shot_55p_main_Shot_55Point5_Seven_Film_Versi.json",
+      "shot_55p_main_Shot_55Point5_Witness_Mechanis.json",
       "shot_56_main.json",
       "shot_57_main.json",
       "shot_61_main.json"
     ],
-    "total_created": 23,
+    "total_created": 33,
     "total_needed": 110,
-    "completion_status": "essential_foundation_complete"
+    "completion_status": "essential_foundation_complete_with_enhancements"
   }
 }
