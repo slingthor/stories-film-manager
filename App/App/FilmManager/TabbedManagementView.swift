@@ -4,6 +4,8 @@ struct TabbedManagementView: View {
     @ObservedObject var filmManager: FilmManager
     let draggedSystem: TrackingSystem?
     @State private var selectedTab = 0
+    @Binding var selectedPlateId: String?
+    @Binding var selectedPlateType: PlateType
     
     var body: some View {
         VStack(spacing: 0) {
@@ -13,14 +15,19 @@ struct TabbedManagementView: View {
                     title: "Shot Management",
                     icon: "film",
                     isSelected: selectedTab == 0,
-                    action: { selectedTab = 0 }
+                    action: { 
+                        selectedTab = 0
+                        selectedPlateId = nil  // Clear plate selection when switching to shots
+                    }
                 )
                 
                 TabButton(
                     title: "Plate Management", 
                     icon: "rectangle.stack",
                     isSelected: selectedTab == 1,
-                    action: { selectedTab = 1 }
+                    action: { 
+                        selectedTab = 1
+                    }
                 )
             }
             .padding(.horizontal, 8)
@@ -36,7 +43,11 @@ struct TabbedManagementView: View {
                     draggedSystem: draggedSystem
                 )
             } else {
-                PlateManagementViewNew(filmManager: filmManager)
+                PlateListView(
+                    filmManager: filmManager,
+                    selectedPlateId: $selectedPlateId,
+                    selectedPlateType: $selectedPlateType
+                )
             }
         }
     }

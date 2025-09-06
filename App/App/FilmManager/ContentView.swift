@@ -5,6 +5,9 @@ struct ContentView: View {
     @StateObject private var filmManager = FilmManager()
     @State private var draggedSystem: TrackingSystem?
     @State private var visibleSystemRange = 0..<5
+    @State private var selectedPlateId: String? = nil
+    @State private var selectedPlateType: PlateType = .character
+    @State private var currentTab: Int = 0  // 0 = shots, 1 = plates
     
     var body: some View {
         VStack(spacing: 0) {
@@ -52,20 +55,40 @@ struct ContentView: View {
                 // CENTER-LEFT: Tabbed view for Shots/Plates
                 TabbedManagementView(
                     filmManager: filmManager,
-                    draggedSystem: draggedSystem
+                    draggedSystem: draggedSystem,
+                    selectedPlateId: $selectedPlateId,
+                    selectedPlateType: $selectedPlateType
                 )
                 .frame(width: 400)
                 .background(Color.green.opacity(0.05))
+                .onChange(of: selectedPlateId) { _ in
+                    // When a plate is selected, we're in plate mode
+                    if selectedPlateId != nil {
+                        currentTab = 1
+                    }
+                }
                 
                 Divider()
                 
-                // CENTER-RIGHT: Complete Prompt Editor
-                ComprehensivePromptEditor(
-                    shot: filmManager.selectedShot,
-                    filmManager: filmManager
-                )
-                .frame(minWidth: 500)
-                .background(Color.purple.opacity(0.05))
+                // CENTER-RIGHT: Show either Prompt Editor or Plate Editor based on context
+                if selectedPlateId != nil && currentTab == 1 {
+                    // Show Plate Editor when a plate is selected
+                    PlateDetailEditor(
+                        plateId: selectedPlateId!,
+                        plateType: selectedPlateType,
+                        filmManager: filmManager
+                    )
+                    .frame(minWidth: 500)
+                    .background(Color.purple.opacity(0.05))
+                } else {
+                    // Show Prompt Editor for shots
+                    ComprehensivePromptEditor(
+                        shot: filmManager.selectedShot,
+                        filmManager: filmManager
+                    )
+                    .frame(minWidth: 500)
+                    .background(Color.purple.opacity(0.05))
+                }
                 
                 Divider()
                 
