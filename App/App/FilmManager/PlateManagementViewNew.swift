@@ -89,7 +89,7 @@ struct PlateListPanel: View {
                 
                 // Type selector
                 Picker("Type", selection: $plateTypeFilter) {
-                    ForEach(PlateManagementViewNew.PlateType.allCases, id: \.self) { type in
+                    ForEach(PlateType.allCases, id: \.self) { type in
                         Text(type.rawValue).tag(type)
                     }
                 }

@@ -1,4 +1,5 @@
 import SwiftUI
+import Combine
 
 // MARK: - Plate Detail Editor
 struct PlateDetailEditor: View {
