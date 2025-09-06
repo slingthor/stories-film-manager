@@ -47,7 +47,7 @@ struct PlateManagementViewNew: View {
 struct PlateListPanel: View {
     @ObservedObject var filmManager: FilmManager
     @Binding var selectedPlateId: String?
-    @Binding var plateTypeFilter: PlateManagementViewNew.PlateType
+    @Binding var plateTypeFilter: PlateType
     @Binding var searchText: String
     
     var filteredPlates: [(id: String, name: String, description: String, category: String)] {
