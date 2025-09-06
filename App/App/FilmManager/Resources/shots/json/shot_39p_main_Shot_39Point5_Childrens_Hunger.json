@@ -1,0 +1,36 @@
+{
+  "shot_metadata": {
+    "id": "39p",
+    "title": "Shot 39Point5 Childrens Hunger Visceral Starvation",
+    "sequence_type": "main",
+    "duration_seconds": 3,
+    "narrative_function": "enhancement",
+    "stitch_from": ""
+  },
+  "progressive_state": "",
+  "prompt_variants": [
+    {
+      "variant_id": "39p_shot_39point5_childrens_hunger_visceral_starvation",
+      "variant_name": "Shot 39Point5 Childrens Hunger Visceral Starvation",
+      "subject": "",
+      "action": "Children methodically process inedible materials with techniques learned through starvation experience\u2014J\u00f3n using sharp stone to scrape leather into consumable strips, Lilja systematically separating wool fibers into mouth-sized portions, both working with concentration that suggests weeks of practice. Their jaw movements show adaptation to non-food consumption: lateral grinding replacing human bite-chew pattern, increased saliva production attempting to digest cellulose and keratin, throat muscles strengthened for swallowing fibrous materials. No conversation between children\u2014energy conservation protocol where unnecessary speech eliminated, communication through gesture and eye contact only. Both unconsciously save portions of processed non-food in traditional storage containers, maintaining performance of meal-provision despite consuming construction materials. Their breathing synchronized at 18/min child-stress rhythm, but occasionally slipping to 20/min sheep-mastication rate when chewing non-food successfully.",
+      "scene": "SHOT 39.5: THE CHILDREN'S HUNGER - VISCERAL STARVATION NEW ESSENTIAL ADDITION - Famine Behavior Research Implementation SHOT HEADER: Dark corner of ba\u00f0stofa where children conduct non-food consumption routine away from adult surveillance, oil lamp providing insufficient light making their activity appear as normal playing to casual observation. Furniture showing systematic gnaw-damage\u2014chair legs with child-height teeth marks, door frame worn smooth at 3-foot height from repeated chewing attempts. Actual food containers empty but arranged with same precision around non-food materials, maintaining domestic performance despite dietary impossible substitution. House breathing at 8/min dying rhythm, walls perspiring at 37\u00b0C creating humidity that makes leather softer, easier for children to consume. Establishes starvation as forcing evolution beyond human dietary restrictions, children developing survival techniques that prefigure animal transformation, hunger as teacher of post-human behavior patterns necessary for continuation under impossible circumstances.",
+      "style": "Camera positioned at children's eye level 4 feet from consumption activity (that's where the camera is), intimate enough for mastication detail, wide enough for systematic behavior patterns. Static shot emphasizing methodical routine of impossible nutrition, natural lighting from failing oil lamp creating harsh shadows that hide activity from adult detection. Focus sharp on jaw mechanics and material processing, showing adaptation to starvation through learned consumption techniques. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    }
+  ],
+  "others": {
+    "creator_process": "enhancement_integration",
+    "source_file": "shot_39point5_childrens_hunger_visceral_starvation_NEW.txt"
+  }
+}

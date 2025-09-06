@@ -11,6 +11,63 @@
   "progressive_state": "House 13/min + 60bpm | Klettagj\u00c3\u00a1 1mm | Post-feeding horror | Camera frost 6% | Starvation revealed | Watching: House sees all",
   "prompt_variants": [
     {
+      "variant_id": "11_pass_2_inside_empty_space_40hz_extraction",
+      "variant_name": "Pass 2 Inside Empty Space 40Hz Extraction",
+      "subject": "",
+      "action": "Empty space pulses with 40Hz trawler frequency, void resonating with maritime extraction rhythm continuing domestic resource removal through acoustic connection to British trawling operation 400km distant. Phantom food containers become briefly visible through emptiness memory\u2014ghostly impressions of abundance that existed before extraction, empty space retaining dimensional memory of resources now absent. Mouse droppings rearrange into Danish numerical spelling during observation, biological materials organizing into colonial administrative language through imperial mathematics contaminating organic waste via bureaucratic frequency influence. Dust particles rotate in spiral patterns matching extraction geometry, absence creating movement suggesting invisible machinery continuing resource removal through atmospheric manipulation of domestic environment.",
+      "scene": "PASS 2: SHOT 11 - INSIDE EMPTY SPACE 40HZ EXTRACTION Camera Perspective from Within Industrial Emptiness SHOT HEADER: Interior empty shelf-space during active industrial extraction, void environment resonating with maritime resource theft through acoustic signature connecting domestic absence to trawler operation, emptiness serving as extension of British extraction mechanism operating through frequency rather than physical presence.",
+      "style": "Camera existing inside void space using impossible emptiness perspective (that's where the camera is), movement following extraction rhythms through empty environment. Focus reveals absence detail showing emptiness as active mechanism rather than passive lack. Lighting from 40Hz frequency resonance creating mechanical illumination within empty space. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
+      "variant_id": "11_pass_2_pursuing_sixth_space_impossibility",
+      "variant_name": "Pass 2 Pursuing Sixth Space Impossibility",
+      "subject": "",
+      "action": "Camera hunts additional spaces by following Gu\u00f0r\u00fan's counting confusion\u2014racing between physical spaces (1-20) then pursuing mathematical additions (21-24) that exist in imperial counting dimension but not architectural reality. Mathematical contamination creates temporary spatial expansion: room stretching to accommodate impossible count, walls shifting to create additional storage areas during colonial enumeration, imperial mathematics forcing architecture to serve administrative needs. Camera experiences impossible geography where space accommodates mathematical impossibility\u2014twenty physical spaces becoming twenty-four during Danish counting protocol, colonial arithmetic creating architectural additions through administrative spatial manipulation. Pursuit reveals imperial mathematics as spatial contamination: Danish counting requiring more room than Iceland provides, administrative enumeration expanding domestic space to serve colonial inventory requirements.",
+      "scene": "PASS 2: SHOT 11 - PURSUING THE SIXTH SPACE IMPOSSIBILITY Camera Chasing Imperial Addition Through Impossible Geography SHOT HEADER: Storage area during mathematical contamination where imperial counting creates impossible spatial expansion, traditional architecture forced to accommodate colonial administrative requirements through supernatural room multiplication, Danish mathematics contaminating domestic geography.",
+      "style": "Camera hunting impossible spaces using mathematical pursuit movement (that's where the camera is), chasing imperial additions through architectural impossibility. Movement follows counting confusion creating spatial pursuit through impossible geography. Focus reveals mathematical contamination affecting architectural reality, imperial arithmetic creating spatial additions through administrative environmental manipulation. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
+      "variant_id": "11_empty_bounty_mouse_droppings_danish_numbers",
+      "variant_name": "Empty Bounty Mouse Droppings Danish Numbers",
+      "subject": "",
+      "action": "Gu\u00f0r\u00fan counts empty spaces with increasing confusion\u2014pointing to shelves, mouth moving in silent enumeration, reaching count of 24 spaces when only 20 exist physically, mathematics breaking under starvation psychology as hunger creates additional empty spaces through desperate measurement. Mouse droppings rearrange during observation\u2014Danish letters forming more clearly as attention focuses, colonial counting contamination affecting even pest waste through supernatural infiltration of domestic space. Dust circles rotate in spiral patterns matching ram's blood geometry from pen, empty spaces creating wind patterns that spell landv\u00e6ttir names through particle movement. Her breathing shifts from examination 12/min to confused 15/min as counting failures accumulate, individual consciousness fighting mathematical breakdown while hunger weakens cognitive resistance. Phantom bread smell triggers involuntary salivation response, body preparing for nourishment that doesn't exist, physiological memory stronger than conscious awareness of absence.",
+      "scene": "SHOT 11: EMPTY BOUNTY - MOUSE DROPPINGS IN DANISH NUMBERS From Standard Starvation (8/10) to Mathematical Contamination Masterpiece (9.5/10) SHOT HEADER: Traditional Icelandic storage area showing three generations of abundance-preparation now serving only as monument to depletion, wooden shelves worn smooth by decades of reaching for sustenance now providing only empty space measurement. Mouse droppings as only organic evidence in sterile starvation environment, pest waste forming linguistic contamination where Danish colonial numbers appear written in biological materials. Storage area resonating with mechanical humming suggesting industrial extraction history rather than natural consumption.",
+      "style": "Camera positioned at Gu\u00f0r\u00fan's eye level during shelf examination (that's where the camera is), close enough for mouse dropping detail, wide enough for complete storage space survey. Static shot allowing counting confusion to build through sustained observation, camera tremor at 3Hz matching Magn\u00fas's frequency suggesting contamination affecting documentation equipment. Natural light from single window creating harsh shadows that emphasize emptiness, dust motes visible creating spiral patterns in illumination. Focus alternates between dropping arrangements and Gu\u00f0r\u00fan's confused counting expressions. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
       "variant_id": "11_story_primary",
       "variant_name": "Primary - THE EMPTY BOUNTY NEW",
       "intent_tags": [

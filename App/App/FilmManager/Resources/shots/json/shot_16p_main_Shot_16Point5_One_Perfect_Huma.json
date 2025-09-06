@@ -1,0 +1,36 @@
+{
+  "shot_metadata": {
+    "id": "16p",
+    "title": "Shot 16Point5 One Perfect Human Moment Emotional A",
+    "sequence_type": "main",
+    "duration_seconds": 3,
+    "narrative_function": "enhancement",
+    "stitch_from": ""
+  },
+  "progressive_state": "",
+  "prompt_variants": [
+    {
+      "variant_id": "16p_shot_16point5_one_perfect_human_moment_emotional_a",
+      "variant_name": "Shot 16Point5 One Perfect Human Moment Emotional A",
+      "subject": "",
+      "action": "Sigrid's lips move in whispered Old Norse lullaby directed toward belly, her breath creating minimal fog in cooling ba\u00f0stofa air that barely touches camera lens\u2014gentle intimacy without intrusive visibility. Her voice drops to protective whisper speaking prophecy she doesn't understand: \"\u00de\u00fa ver\u00f0ur frj\u00e1ls \u00feegar \u00e9g ver\u00f0 Krummi\" (You will be free when I become raven), words containing future she cannot yet imagine. Belly shows subtle movement in response to voice\u2014unborn child recognizing mother's promise across developmental barrier. Her breathing maintains perfect 15/min human rhythm, individual identity strong before herd synchronization begins. Lamp flame gutters once during whisper, creating brief shadow-flicker across her face that shows momentary raven profile before returning to human features. Final breath of lullaby creates fog-puff that briefly obscures camera view, transition preparing for hard cut to darkness preceding Three-Frame Flash revelation.",
+      "scene": "SHOT 16.5: ONE PERFECT HUMAN MOMENT - EMOTIONAL ANCHOR NEW ESSENTIAL ADDITION - Before Three-Frame Flash Horror SHOT HEADER: Intimate ba\u00f0stofa corner lit solely by dying whale oil lamp creating circle of warm amber light surrounded by gentle darkness, traditional domestic space at its most protective and peaceful. Family arranged in sleeping positions of trust and safety\u2014no surveillance tension, no mathematical confusion, no contamination anxiety. Temperature comfortable despite winter exterior, house breathing gently at 12/min normal rhythm suggesting Bergrisi still strong enough to provide shelter. This represents peak domestic harmony before supernatural forces destroy family structure, captured like final photograph before catastrophe.",
+      "style": "Camera positioned 6 feet from Sigrid at slightly elevated angle showing both profile intimacy and belly protection gesture (that's where the camera is), close enough for whispered lullaby, distant enough for family context. Static shot except for gentle push-in during belly whisper, movement subtle as approaching tenderness. Lighting purely from whale oil lamp creating Vermeer-like golden illumination, harsh enough for detail, soft enough for intimacy. Focus sharp on Sigrid's profile during whisper, background family softly visible maintaining domestic context. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    }
+  ],
+  "others": {
+    "creator_process": "enhancement_integration",
+    "source_file": "shot_16point5_one_perfect_human_moment_emotional_anchor_NEW.txt"
+  }
+}

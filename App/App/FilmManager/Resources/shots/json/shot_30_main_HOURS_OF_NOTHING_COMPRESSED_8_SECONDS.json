@@ -11,6 +11,44 @@
   "progressive_state": "Empty fishing | Time passing | Camera frost 19.5% | Futility accumulating | Watching: Trawler patient",
   "prompt_variants": [
     {
+      "variant_id": "30_pass_2_time_riding_reflection_aging",
+      "variant_name": "Pass 2 Time Riding Reflection Aging",
+      "subject": "",
+      "action": "Camera follows temporal contamination as it creates reflection aging acceleration\u2014riding time-sickness as moving entity that affects mirror-reality independently of physical reality, temporal breakdown spreading through reflection-dimension causing aging differential. Each fishing attempt triggers reflection aging: mirror-self accumulating decades while physical body experiences normal fatigue, temporal contamination creating identity split where reflection shows true cost while body shows performance version. Camera chases temporal anomaly as it spreads: sun flickering backward creating time-hiccup, ravens disappearing/reappearing through temporal glitch, wake flowing wrong direction as physics breakdown spreads from mathematical contamination to environmental systems. Temporal riding reveals time itself infected by counting impossibility: mathematical breakdown affecting temporal consistency, imperial arithmetic contaminating natural law through administrative temporal manipulation.",
+      "scene": "PASS 2: SHOT 30 - TIME RIDING REFLECTION AGING Camera Following Temporal Contamination Through Mirror-Reality SHOT HEADER: Empty fjord serving as temporal laboratory where mathematical contamination affects time-flow differently for reflection versus physical reality, mirror-dimension experiencing accelerated aging while body-dimension maintains normal temporal progression, time-sickness spreading through environmental systems.",
+      "style": "Camera riding temporal contamination using impossible time-following perspective (that's where the camera is), movement traveling with time-sickness as it affects reflection aging acceleration. Focus follows temporal differential between body and reflection, showing aging contamination spreading through mirror-reality. Movement determined by temporal contamination flow rather than physical boat movement. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
+      "variant_id": "30_hours_of_nothing_reflection_ages_faster",
+      "variant_name": "Hours Of Nothing Reflection Ages Faster",
+      "subject": "",
+      "action": "Repetitive casting creates temporal loop where same motion produces different aging rates\u2014body performing fishing gesture seven times with normal wear accumulation, but reflection shows same gesture aging 5 years per cast, mirror-self becoming progressively ancient while actual Magn\u00fas remains merely tired. Sun flicker backward for 3 seconds creates temporal stutter\u2014shadow positions jumping, light angle reversing briefly before resuming normal progression, daytime reality experiencing glitches under mathematical strain. Ravens disappearing/reappearing without warning\u20147 birds becoming 5, then 3, then 7 again through existence-glitch affecting witness creatures, corvid reality unstable from observing impossible counting. Boat wake flowing toward bow violates maritime physics, water treating vessel like temporal anomaly that shouldn't interact normally with liquid environment. Throughout sequence, single bow nail remains perfectly sharp focus while everything else changes\u2014temporal anchor point maintaining clarity as reality flux around stable metal reference.",
+      "scene": "SHOT 30: HOURS OF NOTHING - REFLECTION AGES FASTER From Generic Time-lapse (8/10) to Temporal Horror Masterpiece (9/10) SHOT HEADER: Empty fjord serving as mirror-space where temporal violations become visible through reflection comparison, crystalline water clarity allowing impossible visual access to aging discrepancy between body and reflection. Ravens overhead providing witness count that changes randomly, corvid mathematics breaking under strain of documenting impossible human mathematics. Water behaving wrong\u2014too clear, too still, too responsive to temporal fluctuations affecting maritime physics through mathematical contamination.",
+      "style": "Camera locked on bow position showing both Magn\u00fas's normal aging and reflection's accelerated aging simultaneously (that's where the camera is), static shot allowing temporal violations to accumulate through sustained observation. Natural light enhanced by temporal flux creating brief illumination changes during sun reversal. Focus maintains sharpness on bow nail while everything else fluctuates, single point of stability in temporal chaos. Time-lapse effect compressed into 8 seconds but with internal temporal inconsistencies. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
       "variant_id": "30_story_primary",
       "variant_name": "Primary - HOURS OF NOTHING COMPRESSED 8 SECONDS",
       "intent_tags": [

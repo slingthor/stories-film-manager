@@ -11,6 +11,44 @@
   "progressive_state": "Teaching moment | Father-son trust | Camera frost 0% | Knowledge transfer | Watching: The bond forms",
   "prompt_variants": [
     {
+      "variant_id": "3a_pass_2_inside_rope_consciousness",
+      "variant_name": "Pass 2 Inside Rope Consciousness",
+      "subject": "",
+      "action": "Rope fibers pulse with giant frequency (16Hz) during knot formation, hemp consciousness awakening as landv\u00e6ttir knowledge activates traditional tool. Camera follows genetic information flow through rope structure as J\u00f3n's inherited memory connects with fiber consciousness\u2014child's genetic code receiving mathematical pattern directly through material contact, bypassing conscious learning through DNA-level instruction. Rope geometry becomes increasingly complex during demonstration\u2014fractal pattern extending beyond physical rope scale into mathematical abstraction, Giant's Knot continuing into dimensional spaces invisible to human perception but accessible to camera consciousness. Cliff breathing synchronizes with rope frequency, landscape and tools operating as unified consciousness network teaching traditional knowledge through environmental cooperation.",
+      "scene": "PASS 2: SHOT 3A - INSIDE ROPE CONSCIOUSNESS Camera Perspective from Within Living Rope During Giant's Knot SHOT HEADER: Interior rope structure during landv\u00e6ttir knowledge transmission, hemp consciousness serving as communication medium between giant intelligence and human genetic memory, traditional tool enhanced by supernatural awareness enabling impossible technique demonstration.",
+      "style": "Camera flowing through rope fiber structure using impossible interior perspective (that's where the camera is), movement following genetic information pathways during knowledge transmission. Focus reveals fiber consciousness detail showing hemp as communication medium for landv\u00e6ttir instruction. Lighting from 16Hz fiber resonance creating internal illumination within rope structure. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
+      "variant_id": "3a_rope_lessons_inherited_knowledge_horror",
+      "variant_name": "Rope Lessons Inherited Knowledge Horror",
+      "subject": "",
+      "action": "Magn\u00fas begins knot demonstration with movements too precise for human coordination\u2014fingers following mathematical patterns encoded in muscle memory inherited from giants who first taught rope-working to human ancestors. Each loop and weave creates fractal geometry where pattern repeats infinitely inward, knot structure continuing beyond rope's physical scale into mathematical abstraction. Rope responds to demonstration by humming at 16Hz\u2014mountain frequency, giant's voice resonating through hemp fibers as landv\u00e6ttir knowledge activates traditional tool. J\u00f3n replicates knot perfectly without learning, his child hands accessing ancestral technique through genetic transmission rather than instruction, fingers moving with inherited precision that bypasses conscious mind. Cliff face breathing accelerates to 65/min as demonstration progresses, landscape consciousness responding to landv\u00e6ttir knowledge being transmitted between generations. Blood trail visible 200 feet below forms perfect spiral matching knot's geometry\u2014ram's death-pattern mirroring rope mathematics, establishing visual connection between sacrifice and survival techniques.",
+      "scene": "SHOT 3A: ROPE LESSONS - INHERITED KNOWLEDGE HORROR From Standard Character Moment (7.5/10) to Predatory Seduction Perfection (10/10) SHOT HEADER: Cliff edge overlooking black sand beach where ram's blood spiral remains visible despite three weeks passage, pattern permanent in landscape memory. Late autumn light creating optimal visibility for knot demonstration, traditional father-son teaching moment enhanced by supernatural landscape participation. Rope work happening at precise location where land meets sea, boundary space where traditional knowledge transfers between generations while cosmic forces observe and approve.",
+      "style": "Camera positioned 8 feet from father-son pair showing both knot detail and cliff breathing (that's where the camera is), close enough for inherited precision, wide enough for landscape participation. Static shot except subtle push-in during knot completion, movement emphasizing mathematical beauty of fractal pattern. Natural light enhanced by rope's 16Hz humming creating visual resonance, supernatural cooperation with traditional instruction. Focus alternates between knot geometry and J\u00f3n's unconscious replication, showing genetic transmission in progress. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
       "variant_id": "3a_story_primary",
       "variant_name": "Primary - ROPE LESSONS AT HEIGHT",
       "intent_tags": [

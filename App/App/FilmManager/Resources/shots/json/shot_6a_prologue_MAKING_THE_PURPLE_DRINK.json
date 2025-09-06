@@ -11,6 +11,44 @@
   "progressive_state": "Berries transformed | Women's work | Camera frost 0% | Staining complete | Watching: Sweetness bleeds",
   "prompt_variants": [
     {
+      "variant_id": "6a_pass_2_neurotoxin_crystal_formation_inside_berries",
+      "variant_name": "Pass 2 Neurotoxin Crystal Formation Inside Berries",
+      "subject": "",
+      "action": "Berry chemistry transformation visible at cellular level\u2014native bacteria being consumed by industrial bacterial invaders, organic ecosystem replaced by contaminated microbiome designed for crystal production rather than nutritional chemistry. Neurotoxin crystals form through bacterial construction\u2014microorganisms building geometric structures within berry cells, chemical contamination creating mathematical patterns that match r\u00e9ttir sorting geometry, traditional food becoming administrative documentation through bacterial writing. Camera follows crystal formation process showing industrial bacteria organizing berry chemistry into neurotoxic compounds, contaminated microorganisms serving imperial contamination agenda through biological manipulation of traditional food sources. Crystal growth creates internal berry architecture\u2014geometric chambers within fruit structure containing concentrated neurotoxin that will enable family's mathematical breakdown and counting confusion, traditional food becoming chemical weapon through atmospheric contamination.",
+      "scene": "PASS 2: SHOT 6A - NEUROTOXIN CRYSTAL FORMATION INSIDE BERRIES Camera Inside Berry During Contamination Chemistry SHOT HEADER: Microscopic interior of contaminated berry where industrial pollution has corrupted cellular chemistry through bacterial invasion, traditional food source transformed into neurotoxin production facility through atmospheric contamination affecting organic chemistry at bacterial level.",
+      "style": "Camera navigating berry interior using impossible cellular perspective (that's where the camera is), movement following bacterial contamination pathways through organic tissue. Focus reveals crystal formation detail showing bacterial construction of geometric neurotoxin structures. Lighting from bioluminescent contaminated bacteria creating artificial illumination within organic environment. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
+      "variant_id": "6a_making_purple_drink_ganzfeld_neurotoxin_horror",
+      "variant_name": "Making Purple Drink Ganzfeld Neurotoxin Horror",
+      "subject": "",
+      "action": "Women crush berries with traditional wooden tools but fruit fights back\u2014individual berries rolling away from pressure, clustering defensively in pot corners, producing quiet scratching sounds like tiny claws seeking escape from preparation process. Steam creates uniform grey visual field that triggers hallucinations in women's peripheral vision\u2014fleeting sheep faces forming in vapor, dissolving before direct observation possible, children recognizing shapes adults dismiss as cooking-steam patterns. Neurotoxin crystals grow visibly during crushing\u2014berry flesh developing internal geometric structures that catch light like prisms, chemical compounds self-organizing into mathematical patterns too precise for organic chemistry. Juice reaches body temperature through unknown heating mechanism, liquid becoming unnaturally warm despite cool ambient temperature, chemical reaction generating heat that suggests industrial processing rather than traditional preparation. Women's kv\u00f6ldvaka gestures become increasingly automatic as steam exposure progresses, inherited knowledge bypassing conscious mind as neurotoxin influence begins affecting motor control.",
+      "scene": "SHOT 6A: MAKING PURPLE DRINK - GANZFELD NEUROTOXIN HORROR From Procedural Scene (6/10) to Predatory Seduction Masterpiece (9/10) SHOT HEADER: Traditional ba\u00f0stofa kitchen area where domestic preparation happens but enhanced by supernatural berry cooperation and chemical influence affecting participants. Iron pot positioned over peat fire providing traditional heat source enhanced by berries' self-heating chemistry. Steam accumulating in confined space creating visual field that affects perception, domestic activity becoming hallucinogenic experience through traditional methods enhanced by contaminated materials.",
+      "style": "Camera positioned at pot-level showing both berry preparation detail and women's faces during chemical influence (that's where the camera is), close enough for crystal formation detail, wide enough for hallucinogenic effects on participants. Static shot allowing steam accumulation to build Ganzfeld effect naturally through sustained observation. Natural fire light enhanced by neurotoxin crystal refraction creating prismatic illumination from traditional preparation. Focus alternates between berry consciousness fighting preparation and women's unconscious traditional movements. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
       "variant_id": "6a_story_primary",
       "variant_name": "Primary - MAKING THE PURPLE DRINK",
       "intent_tags": [

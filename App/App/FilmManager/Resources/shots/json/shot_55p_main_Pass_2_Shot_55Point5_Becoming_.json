@@ -1,0 +1,36 @@
+{
+  "shot_metadata": {
+    "id": "55p",
+    "title": "Pass 2 Shot 55Point5 Becoming Seven Fragment Consc",
+    "sequence_type": "main",
+    "duration_seconds": 3,
+    "narrative_function": "enhancement",
+    "stitch_from": ""
+  },
+  "progressive_state": "",
+  "prompt_variants": [
+    {
+      "variant_id": "55p_pass_2_shot_55point5_becoming_seven_fragment_consc",
+      "variant_name": "Pass 2 Shot 55Point5 Becoming Seven Fragment Consc",
+      "subject": "",
+      "action": "Camera experiences rapid consciousness transfers between seven witness types, each transition revealing different interpretation of identical family moment. Human consciousness feels protective sympathy during family meal, sheep consciousness recognizes pack feeding behavior, empty consciousness experiences void space where nothing exists, tourist consciousness sees historical attraction display, administrative consciousness catalogs livestock processing data, landv\u00e6ttir consciousness observes divine transformation protocol, audience consciousness realizes consumption of family suffering as entertainment. Each consciousness transfer creates different emotional response to identical visual input\u2014same family meal experienced as tragedy, natural behavior, absence, tourism, administration, divinity, complicity depending on witness consciousness type. Consciousness fragmentation creates mathematical impossibility: seven witnesses to five people but six counted equals mathematical breakdown affecting witness capability as well as subject reality.",
+      "scene": "PASS 2: SHOT 55.5 - BECOMING SEVEN FRAGMENT CONSCIOUSNESS Camera Experiencing Each Reality Fragment as Separate Witness SHOT HEADER: Identical ba\u00f0stofa family meal experienced through seven different consciousness frameworks, each witness type interpreting scene according to separate reality assumptions while observing identical visual input creating multiple simultaneous truths about family situation.",
+      "style": "Camera consciousness shifting between seven witness frameworks using impossible consciousness transfer capability (that's where the camera is), each fragment experiencing different emotional/intellectual relationship to identical observed moment. Movement determined by consciousness type: human empathy creating protective approach, sheep recognition creating pack-proximity, empty consciousness creating void-movement, tourist creating documentation-distance, administrative creating evaluation-scrutiny, divine creating sacred-observation, audience creating complicit-voyeurism. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    }
+  ],
+  "others": {
+    "creator_process": "enhancement_integration",
+    "source_file": "PASS_2_shot_55point5_becoming_seven_fragment_consciousness.txt"
+  }
+}

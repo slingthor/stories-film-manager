@@ -11,6 +11,63 @@
   "progressive_state": "Systems disrupted but ignored | Denial through action | Camera frost 18% | Male pride prevailing | Watching: Blood spirals watching",
   "prompt_variants": [
     {
+      "variant_id": "27_stubborn_continuation_blood_spirals_guide_return",
+      "variant_name": "Stubborn Continuation Blood Spirals Guide Return",
+      "subject": "",
+      "action": "Blood spirals rotate clockwise pointing toward house as Magn\u00fas observes them, supernatural compass created by ram's death-mathematics providing navigation guidance when traditional knowledge fails. Each spiral arm extends slightly toward house direction while others contract, creating directional arrows in blood-snow that pulse with 8/min rhythm matching future sheep breathing rate. Mountains subtly shift positions between glances\u2014peaks appearing 50 meters closer/farther without movement, spatial warping suggesting landscape rearranging itself to guide lost provider toward shelter. For split second, fjord view becomes house interior vision\u2014seeing family arranged in r\u00e9ttir formation around empty table, double-reality showing destination while experiencing journey. Wind carries Sigrid's name with 16Hz geological voice, mountain frequency making her identity resonate through bone structure rather than ear-hearing, supernatural communication bypassing normal senses.",
+      "scene": "SHOT 27: STUBBORN CONTINUATION - BLOOD SPIRALS GUIDE RETURN From Masculine Futility (8.5/10) to Supernatural Guidance Masterpiece (9.5/10) SHOT HEADER: Frozen Westfjords landscape between failed fishing attempt and house return, blood-trail patterns in snow serving as supernatural navigation system pointing toward family shelter. Mountains framing scene like protective barriers creating fjord-valley sanctuary where family waits. Landscape responding to patriarch's failure by providing guidance home, geological intelligence compensating for human navigation breakdown through environmental assistance.",
+      "style": "Camera positioned behind Magn\u00fas showing both his defeated posture and blood spiral guidance system (that's where the camera is), close enough for blood pattern detail, wide enough for mountain position shifts. Static shot except during spatial warping moments when landscape adjusts position, supernatural assistance creating brief movement in otherwise frozen environment. Natural light enhanced by blood spiral luminescence and mountain frequency resonance. Focus alternates between blood compass directions and Magn\u00fas's confusion about supernatural guidance. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
+      "variant_id": "27_pass_2_blood_spiral_molecular_guidance",
+      "variant_name": "Pass 2 Blood Spiral Molecular Guidance",
+      "subject": "",
+      "action": "Camera follows blood flow through spiral pattern at molecular level, riding with blood cells as they navigate toward house using guardian consciousness embedded in cellular structure. Blood chemistry actively adjusts flow direction\u2014plasma viscosity changing to create directional current, red blood cells clustering in formation arrows pointing homeward, bacterial communities generating chemical signals that orient flow toward family shelter. Molecular memory access shows brief flashes of ram's living vision: protective surveillance of family, territorial knowledge of house location, guardian duty preserved through cellular information storage. Blood flow accelerates when pointing correctly toward house, decelerates when flowing away from target, creating molecular feedback system where guardian consciousness rewards correct navigation through increased circulation. Individual cells show crystalline magnetic inclusions\u2014biological compass needles oriented toward house direction, supernatural magnetism operating through blood chemistry to provide navigation accuracy beyond normal organic capability.",
+      "scene": "PASS 2: SHOT 27 - BLOOD SPIRAL MOLECULAR GUIDANCE Following Ram's Blood Chemistry as Navigation System SHOT HEADER: Microscopic interior of blood spiral where guardian consciousness operates through cellular chemistry, frozen blood maintaining active navigation function through bacterial community preservation and magnetic cell inclusions. Ram's death creating biological navigation system through molecular memory preservation.",
+      "style": "Camera flowing with blood cells through spiral navigation pattern (that's where the camera is), movement following molecular current toward house direction. Focus reveals cellular detail during navigation function, showing biological compass operation at microscopic level. Lighting from bioluminescent bacteria and crystalline magnetic inclusions creating internal illumination within blood chemistry. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
+      "variant_id": "27_pass_2_chasing_blood_spiral_navigation",
+      "variant_name": "Pass 2 Chasing Blood Spiral Navigation",
+      "subject": "",
+      "action": "",
+      "scene": "PASS 2: SHOT 27 - CHASING BLOOD SPIRAL NAVIGATION Camera Racing Along Mathematical Guidance System SHOT HEADER: Frozen landscape where ram's blood creates active navigation network, mathematical patterns serving as supernatural guidance system connecting sacrifice sites to survival locations. Blood geometry extending across Westfjords terrain linking all guardian death-sites through underground mathematical network.",
+      "style": "Camera traveling at racing speed along blood spiral pathways using impossible ground-level trajectory (that's where the camera is), movement following mathematical guidance at supernatural velocity along geometric patterns. Focus maintains sharpness on spiral mathematics during racing movement, showing navigation detail at high speed. Lighting from pulsing blood patterns creating navigation illumination, mathematical geometry self-lighting for guidance visibility. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
       "variant_id": "27_story_primary",
       "variant_name": "Primary - STUBBORN CONTINUATION 8 SECONDS",
       "intent_tags": [

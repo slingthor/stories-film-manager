@@ -11,6 +11,44 @@
   "progressive_state": "Turning home | Accepting defeat | Camera frost 25% | Journey's end | Watching: House waiting",
   "prompt_variants": [
     {
+      "variant_id": "38b_decision_to_return_rowing_rettir_pattern",
+      "variant_name": "Decision To Return Rowing Rettir Pattern",
+      "subject": "",
+      "action": "Rowing pattern becomes compulsive mathematical sequence\u20145 strokes left, 6th stroke attempt fails as oar catches empty air, boat lurches right, pattern resets with 5 successful strokes, 6th attempt failure, creating self-sorting cycle that mirrors sheep-pen sorting mechanics. Reflection alternation accelerates with rowing exhaustion\u2014human/ram/human cycle shortening until identity flickers every half-stroke, visual identity breakdown synchronized with physical sorting behavior. Gl\u00e1mr's blue corpse-skin becomes more visible during ram-reflection strokes, undead presence strongest when Magn\u00fas appears most animal, supernatural death-attraction increasing with transformation proximity. Pathological bonding develops as he looks back longingly at poisoned emptiness\u2014contaminated water appearing more beautiful than house destination, industrial pollution creating false attraction stronger than family survival instinct. Footprint-trail following boat suggests past actions pursuing present movement, temporal stalking where earlier failure drives current failure, self-pursuit through water-memory.",
+      "scene": "SHOT 38B: DECISION TO RETURN - ROWING R\u00c9TTIR PATTERN From Standard Return (8/10) to Self-Sorting Horror Masterpiece (9.5/10) SHOT HEADER: Empty fjord serving as sorting-space where failed patriarch unconsciously practices sheep-organization patterns while believing he maintains human agency and family-return intention. Water clarity allowing impossible visual access to both reflection transformation and underwater draugr presence, maritime environment contaminated by supernatural death and temporal confusion. Poisoned emptiness appearing more attractive than family destination through pathological bonding with contaminated environment.",
+      "style": "Camera positioned at boat stern showing both rowing pattern and reflection alternation (that's where the camera is), close enough for identity fluctuation detail, wide enough for sorting pattern recognition. Static shot emphasizing repetitive mathematical failure, movement only from rowing attempts and reflection changes. Natural light creating clear water visibility for impossible underwater elements. Focus alternates between rowing mechanics and reflection transformation, showing physical action producing identity confusion. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
+      "variant_id": "38b_pass_2_reflection_identity_oscillation",
+      "variant_name": "Pass 2 Reflection Identity Oscillation",
+      "subject": "",
+      "action": "Camera experiences identity confusion through perspective oscillation\u2014human stroke shows desperate rowing toward family reunion, ram stroke shows territorial patrol maintaining dominance over empty fishing territory, same physical action serving different identity purposes. Reflection becomes increasingly accurate while physical appearance becomes increasingly false\u2014mirror showing ram consciousness as true identity while body maintains human appearance through performance rather than authenticity. Gl\u00e1mr's supernatural presence influences reflection-reality: death-blue skin beneath water creating visual contamination that affects mirror-truth, draugr presence making reflection show death-influence while body remains unconscious of supernatural contamination. Pathological bonding develops as ram-consciousness finds comfort in poisoned emptiness while human-consciousness experiences horror at contaminated environment, identity split creating opposite emotional responses to identical environmental condition.",
+      "scene": "PASS 2: SHOT 38B - REFLECTION IDENTITY OSCILLATION Camera Experiencing Identity Confusion Through Water Mirror SHOT HEADER: Empty fjord serving as consciousness mirror where identity confusion becomes visible through reflection oscillation, supernatural water revealing true identity while physical reality maintains false appearance, draugr presence contaminating mirror-truth through death-influence.",
+      "style": "Camera consciousness oscillating between human and ram perspectives using impossible identity transfer capability (that's where the camera is), experiencing same rowing action through different consciousness frameworks. Movement alternates between human desperation and ram territorial confidence, identity oscillation creating different emotional relationship to identical physical action. Focus follows consciousness transfer between human and ram awareness, showing identity confusion as experienced reality. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
       "variant_id": "38b_story_primary",
       "variant_name": "Primary - DECISION TO RETURN 3 SECONDS",
       "intent_tags": [

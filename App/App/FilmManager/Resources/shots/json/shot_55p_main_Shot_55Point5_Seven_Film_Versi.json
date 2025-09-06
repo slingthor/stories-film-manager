@@ -1,0 +1,36 @@
+{
+  "shot_metadata": {
+    "id": "55p",
+    "title": "Shot 55Point5 Seven Film Versions Consciousness Fr",
+    "sequence_type": "main",
+    "duration_seconds": 3,
+    "narrative_function": "enhancement",
+    "stitch_from": ""
+  },
+  "progressive_state": "",
+  "prompt_variants": [
+    {
+      "variant_id": "55p_shot_55point5_seven_film_versions_consciousness_fr",
+      "variant_name": "Shot 55Point5 Seven Film Versions Consciousness Fr",
+      "subject": "",
+      "action": "",
+      "scene": "SHOT 55.5: SEVEN FILM VERSIONS - CONSCIOUSNESS FRAGMENTS Revolutionary Meta-Cinema Where Audience Experiences All Possible Interpretations OVERVIEW:",
+      "style": "",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    }
+  ],
+  "others": {
+    "creator_process": "enhancement_integration",
+    "source_file": "shot_55point5_seven_film_versions_consciousness_fragments.txt"
+  }
+}

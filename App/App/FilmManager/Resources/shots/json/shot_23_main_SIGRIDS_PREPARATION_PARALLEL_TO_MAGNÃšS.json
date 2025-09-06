@@ -11,6 +11,25 @@
   "progressive_state": "House 10/min + 50bpm | Parallel desperation | Camera frost 14% | Women's action | Watching: House knows",
   "prompt_variants": [
     {
+      "variant_id": "23_24_four_corners_landvaettir_ritual_replacement",
+      "variant_name": "24 Four Corners Landvaettir Ritual Replacement",
+      "subject": "",
+      "action": "Family begins ritual simultaneously, each corner's offering requiring specific traditional gesture contaminated by imperial materials. Magn\u00fas raises blood-bowl but coal dust makes liquid too thick, requiring both hands instead of traditional single-hand offering. Gu\u00f0r\u00fan wraps wool around button but brass grows warm from handling, singing her fingers and making wool smoke slightly. Sigrid opens breath-bag but industrial vapor escapes first, choking her before pure breath can be offered. Children carve names but Danish steel tools create wrong rune-shapes, traditional letters becoming foreign marks. Each offering struggles against contamination while family maintains ritual precision, traditional knowledge fighting imperial materials. House responds to coordinated ritual by breathing faster\u201415 to 18/min anxiety\u2014Bergrisi sensing contaminated offerings approaching his corners. Four landv\u00e6ttir respond to summoning but each emergence shows industrial contamination damage\u2014gods poisoned by imperial materials used in offerings. Raven-shadow (Gammur) moves wrong, wings stuttering like mechanical failure. House-voice (Bergrisi) speaks Danish words mixed with Old Norse, linguistic colonization affecting divine speech. Trawler-presence (J\u00f6rmungandr) approaches but movement shows serpent-pain, divine swimming corrupted by industrial wounds. Ice-breathing (Gri\u00f0ungur) produces steam mixed with coal smoke, pure glacier-breath contaminated by trawler pollution. Fifth spirit (tilberi) emerges unexpectedly at center where four contaminated offerings converge, creating mathematical impossibility\u2014four corners producing five responses, traditional ritual mathematics broken by imperial contamination. Family realizes ritual succeeded but wrongly, summoning contaminated gods instead of pure guardians, protection arriving as additional threat.",
+      "scene": "SHOTS 23-24: THE FOUR CORNERS LANDV\u00c6TTIR RITUAL Revolutionary Replacement for Solo Tilberi Creation OVERVIEW: Interior ba\u00f0stofa with family positioned at cardinal directions, oil lamp at center creating cross-shaped illumination pattern connecting all four ritual positions. Each corner shows 37\u00b0C warm spot (Bergrisi's organs) glowing beneath offerings, giant's consciousness responding to landv\u00e6ttir summoning. Traditional materials mixed with industrial contamination visible in harsh lamplight\u2014organic elements fighting foreign additives, ritual purity compromised by available materials. Ba\u00f0stofa interior with four corners responding to ritual but all responses showing contamination damage\u2014shadows wrong, voices corrupted, movements pained, breathing polluted. Center floor showing ancient r\u00e9ttir pattern now glowing with fifth presence that shouldn't exist, mathematical impossibility manifesting as unintended ritual consequence. House breathing at 20/min panic as contaminated gods respond to corrupted summoning.",
+      "style": "Camera positioned at geometric center between four ritual corners (that's where the camera is), wide shot showing entire family coordination simultaneously. Static shot emphasizing geometric precision of cardinal positioning. Natural lamplight creating four-way illumination connecting corners through center point. Focus maintains equal sharpness on all family members, no hierarchy of attention during coordinated ritual. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
       "variant_id": "23_story_primary",
       "variant_name": "Primary - SIGRIDS PREPARATION PARALLEL TO MAGN\u00c3\u0161S",
       "intent_tags": [

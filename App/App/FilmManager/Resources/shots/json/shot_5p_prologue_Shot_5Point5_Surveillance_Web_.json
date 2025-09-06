@@ -1,0 +1,36 @@
+{
+  "shot_metadata": {
+    "id": "5p",
+    "title": "Shot 5Point5 Surveillance Web Psychological Founda",
+    "sequence_type": "prologue",
+    "duration_seconds": 3,
+    "narrative_function": "enhancement",
+    "stitch_from": ""
+  },
+  "progressive_state": "",
+  "prompt_variants": [
+    {
+      "variant_id": "5p_shot_5point5_surveillance_web_psychological_founda",
+      "variant_name": "Shot 5Point5 Surveillance Web Psychological Founda",
+      "subject": "",
+      "action": "Magn\u00fas's net-mending becomes increasingly purposeless as his attention fixes on Sigrid, stitches growing looser, more erratic, hands performing domesticity while mind calculates predation. His breathing shifts from normal 12/min to stalking 8/min, the rhythm change audible in lamplight's corresponding flicker. Gu\u00f0r\u00fan's spinning accelerates beyond practical speed, wheel humming with anxiety as she monitors his behavioral shift, wool thread snapping at increased intervals under stress. Her wedding ring catches light revealing deliberate V-shaped filing\u2014livestock marking disguised as wear, suggesting her property status predates current family situation. Sigrid unconsciously taps brass button in counting sequence: einn-tveir-\u00fer\u00edr-fj\u00f3rir-fimm, then finger hesitates, taps sixth time on empty palm as if accommodating invisible presence. Button reflects each family member's true attention\u2014not on tasks but on surveillance patterns, everyone watching everyone else's watching. Children's knucklebones consistently form r\u00e9ttir sorting formation despite randomness\u2014five bones creating six-point star pattern, their unconscious play rehearsing future transformation while maintaining careful silence.",
+      "scene": "SHOT 5.5: THE SURVEILLANCE WEB Psychological Foundation - Domestic Paranoia Before Supernatural Horror SHOT HEADER: Interior ba\u00f0stofa at evening hour when lamp becomes sole illumination, creating intimate prison of yellow light surrounded by threatening darkness. Walls show 37\u00b0C warm spots pulsing gently\u2014Bergrisi's organs responding to family tension, giant sensing psychological pressure building above his heart chamber. Packed earth floor reveals wear patterns from generations of identical positioning, family members unconsciously occupying inherited spots that form defensive geometry against each other. Temperature minus 20\u00b0C outside making interior warmth precious, contested resource. Smoke from peat fire carries traditional scents\u2014home and trap simultaneously. Creates psychological realism that grounds later supernatural impossibilities. Establishes family as already broken before transformation, making change feel like revelation rather than violation. Shows domestic space as prison before it becomes digestive chamber. Makes audience complicit in family surveillance, preparing for later recognition that we ARE the seventh presence being counted.",
+      "style": "Camera positioned at exact mathematical center of family formation showing all surveillance angles simultaneously (that's where the camera is), wide static shot held for full duration forcing audience to discover watching patterns through patient observation. Lighting solely from whale oil lamp creating harsh chiaroscuro\u2014faces emerging from darkness, hands illuminated, eyes glinting with reflected attention. No camera movement\u2014documentary objectivity making audience complicit voyeurs. Depth of field keeps all family members equally sharp, no favored focus, everyone equally watched and watching. Natural shadows create additional surveillance layer\u2014shadow movements sometimes preceding body movements, suggesting shadows know intentions before conscious minds. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    }
+  ],
+  "others": {
+    "creator_process": "enhancement_integration",
+    "source_file": "shot_5point5_surveillance_web_psychological_foundation.txt"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "shot_metadata": {
+    "id": "55p",
+    "title": "Shot 55Point5 Witness Mechanism Breaks Seven Persp",
+    "sequence_type": "main",
+    "duration_seconds": 3,
+    "narrative_function": "enhancement",
+    "stitch_from": ""
+  },
+  "progressive_state": "",
+  "prompt_variants": [
+    {
+      "variant_id": "55p_shot_55point5_witness_mechanism_breaks_seven_persp",
+      "variant_name": "Shot 55Point5 Witness Mechanism Breaks Seven Persp",
+      "subject": "",
+      "action": "All seven fragments show identical timing\u2014family raising h\u00e1karl to mouths, chewing in synchronization, swallowing simultaneously\u2014but each fragment interprets action through different reality lens creating impossible multi-perspective truth. Human fragment shows normal family meal despite starvation circumstances. Sheep fragment reveals lateral chewing motion, herbivore mastication of fermented meat. Empty fragment shows h\u00e1karl disappearing from bowls without visible consumption. Monument fragment captures moment preserved eternally in obsidian with family conscious but crystallized. Industrial fragment reduces scene to data-points and measurements. Mythological fragment shows landv\u00e6ttir consuming sacrifice-offering in divine hunger. Audience fragment shows observers consuming family's suffering as entertainment across multiple time periods. Camera cracks widen between fragments as reality's ability to maintain unified perspective breaks under mathematical impossibility\u2014five becoming six becoming seven simultaneous truths.",
+      "scene": "SHOT 55.5: THE WITNESS MECHANISM BREAKS - SEVEN PERSPECTIVES NEW ESSENTIAL ADDITION - Triple Reality Framework Clarification SHOT HEADER: Ba\u00f0stofa interior during final family meal before transformation, but scene exists simultaneously across seven reality-layers each with different implications, lighting, physics, temporality. Human layer shows traditional domestic space. Sheep layer shows barn interior. Empty layer shows museum display. Monument layer shows tourist attraction. Industrial layer shows processing facility. Mythological layer shows divine feast-space. Audience layer shows theater/cinema/monument viewing area. All seven spaces occupy identical 12x16 foot ba\u00f0stofa but with different environmental characteristics.",
+      "style": "Camera fragmenting into seven perspectives using impossible multi-viewpoint capability (that's where the camera is), each fragment maintaining separate focus, lighting, and temporal relationship to identical central moment. Static shot emphasizing reality breakdown through perspective multiplication rather than movement. Lighting different for each fragment\u2014natural for human, barn-light for sheep, museum lighting for empty, tourist illumination for monument, industrial fluorescent for extraction, divine glow for mythological, projection light for audience. Focus maintains sharpness across all fragments simultaneously, impossible depth of field showing all realities equally valid. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    }
+  ],
+  "others": {
+    "creator_process": "enhancement_integration",
+    "source_file": "shot_55point5_witness_mechanism_breaks_seven_perspectives_NEW.txt"
+  }
+}

@@ -11,6 +11,44 @@
   "progressive_state": "House 13/min + 60bpm | Pre-departure | Camera frost 10% (for post) | Gear ready | Watching: House knows he's leaving",
   "prompt_variants": [
     {
+      "variant_id": "18_departure_preparations_house_flesh_resistance",
+      "variant_name": "Departure Preparations House Flesh Resistance",
+      "subject": "",
+      "action": "Door handle resists opening through flesh-response\u2014surface becoming increasingly soft and warm as Magn\u00fas attempts departure, organic material stretching and gripping rather than releasing, house anatomy fighting abandonment through biological resistance. His tremor diagnostic reveals psychological truth: anxiety items trigger 3Hz shaking (emotional attachment), violence tools produce 0Hz stillness (practiced comfort with harm), hands becoming perfectly steady when gripping instruments designed for killing rather than creating. Gear arrangement follows inherited astronomical knowledge without conscious planning\u2014hooks positioned like constellation Draco, rifle aligned with Polaris, rope coiled in spiral matching Ursa Major, traditional fishing equipment organized through landv\u00e6ttir navigation memory. House heartbeat acceleration creates structural sound\u2014walls creaking at 80bpm rhythm, floor vibrating with giant's panic, building pleading for family protection through architectural cardiovascular distress.",
+      "scene": "SHOT 18: DEPARTURE PREPARATIONS - HOUSE FLESH RESISTANCE From Functional Preparation (8/10) to Bergrisi Body Horror Masterpiece (9.5/10) SHOT HEADER: Ba\u00f0stofa interior during departure preparation where domestic space reveals biological nature through resistance to abandonment, traditional fishing equipment enhanced by landv\u00e6ttir knowledge creating supernatural organization patterns. House showing signs of organic distress\u2014walls perspiring at 37\u00b0C, door handle developing flesh-texture, heartbeat audible through structure as building consciousness panics about family exposure to winter dangers.",
+      "style": "Camera positioned at fishing gear level showing both equipment arrangement and house biological responses (that's where the camera is), close enough for tremor frequency analysis, wide enough for constellation pattern recognition. Static shot allowing house panic to build through sustained cardiovascular audio. Natural light dimmed by increasing wall perspiration creating humid atmosphere suggesting organic anxiety. Focus alternates between Magn\u00fas's hands during tremor diagnostic and gear arrangement revealing astronomical precision. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
+      "variant_id": "18_pass_2_experiencing_house_panic_cardiovascular",
+      "variant_name": "Pass 2 Experiencing House Panic Cardiovascular",
+      "subject": "",
+      "action": "Camera rides heartbeat acceleration as Bergrisi consciousness panics about family abandonment\u2014cardiovascular rhythm creating spatial pulsing where room expands during systole (heart contraction), contracts during diastole (heart relaxation), family living space affected by giant's cardiac distress. Heartbeat panic spreads through house structure: walls perspiring at 37\u00b0C as giant sweats fear, floor warming beneath family feet as circulation increases, organic architecture revealing biological nature through cardiovascular emergency response. Camera experiences door resistance as circulatory response: flesh-soft handle emerging through vascular influence on building materials, Bergrisi's circulation system affecting domestic infrastructure to prevent family exposure to killing environment.",
+      "scene": "PASS 2: SHOT 18 - EXPERIENCING HOUSE PANIC CARDIOVASCULAR Camera Becoming Bergrisi's Heartbeat During Abandonment Fear SHOT HEADER: Interior house structure during cardiovascular panic where giant consciousness experiences terror about family abandonment, domestic space revealed as organ-interior through cardiac emergency response, building materials showing biological nature through circulation system activation.",
+      "style": "Camera experiencing giant's cardiovascular system using impossible cardiac perspective (that's where the camera is), movement determined by heartbeat rhythm affecting architectural space. Focus reveals organic architecture through cardiovascular response, building materials showing biological nature through circulation emergency. Movement follows cardiac expansion/contraction affecting room dimensions during panic response. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
       "variant_id": "18_story_primary",
       "variant_name": "Primary - DEPARTURE PREPARATIONS",
       "intent_tags": [

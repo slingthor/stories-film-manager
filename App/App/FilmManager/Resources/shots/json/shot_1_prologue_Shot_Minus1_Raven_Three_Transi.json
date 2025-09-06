@@ -1,0 +1,36 @@
+{
+  "shot_metadata": {
+    "id": "1",
+    "title": "Shot Minus1 Raven Three Transitions Master Opening",
+    "sequence_type": "prologue",
+    "duration_seconds": 3,
+    "narrative_function": "enhancement",
+    "stitch_from": ""
+  },
+  "progressive_state": "",
+  "prompt_variants": [
+    {
+      "variant_id": "1_shot_minus1_raven_three_transitions_master_opening",
+      "variant_name": "Shot Minus1 Raven Three Transitions Master Opening",
+      "subject": "",
+      "action": "First dying breath reveals throat tunnel glowing with honey-colored light\u2014summer memory trying to preserve itself before witness death. Camera descent through throat becomes journey toward golden light source, tissue walls reflecting warmth that doesn't match dying raven's cold body. Second breath opens throat wider, revealing not winter reality but eternal summer\u2014grass impossibly green, water warm enough for swimming, midnight sun creating permanent golden hour. Third breath propels camera OUT through opened beak but emerging into seductive summer landscape where family lives in false abundance, their prosperity built on poison they haven't recognized yet. Transition feels like birth from dying winter into living summer\u2014except summer is the lie, winter is truth. Raven's eye fixes on memory of imperial violation, pupil contracting to pinpoint focus on Shadow Pole image. First dying breath sends camera spiraling down throat tunnel carved with revenge-runes, each cartilage ring bearing different curse against Danish crown, British extraction, industrial contamination. Tunnel narrows toward bright point of rage\u2014not golden like summer memory but white-hot with justified anger. Second breath accelerates camera through accusation-space, runes bleeding into moving text spelling imperial crimes in Old Norse. Third breath explodes camera OUT through beak with violent force, emerging above Shadow Pole like launched projectile\u2014witness becoming weapon, memory becoming curse. Raven's final breath carries the lullaby itself\u2014throat tunnel becomes musical instrument, tissue walls vibrating with song frequencies. Camera follows melody through organic architecture where each note corresponds to anatomical feature: throat rings for rhythm, blood vessel branching for harmony, neural pathways for memory transmission. Song grows stronger as camera approaches exit, not dying with raven but being born through its death. The melody reconstructs itself from biological components\u2014heartbeat becomes rhythm, blood flow becomes harmony, neural firing becomes lyrics. Camera exits through beak as raven releases final note, emerging to find Sigrid singing the same song with voice that carries genetic memory of every Krummi who sang before her.",
+      "scene": "THE RAVEN'S LAST BREATH - THREE TRANSITION MASTERPIECES Alternative Opening Sequences Using Same Core Image with Different Exits OVERVIEW: Exit through throat into impossible Westfjords summer\u2014temperature 18\u00b0C, grass emerald green, flowers blooming in mathematical patterns. Family visible in distance engaged in perfect prosperity: children gathering endless eggs, women spinning self-replenishing wool, father mending nets that repair themselves. Landscape performing cooperation with human desire, every element contributing to false abundance that contamination secretly enables. Exit into harsh Westfjords landscape under storm clouds\u2014minus 30\u00b0C, wind horizontal with ice crystals, landscape stripped to bone-truth. Shadow Pole dominates frame, horse skull fresh with blood, the curse newly activated. Mountains frame the scene like jury box, their reflections in black water creating doubled judgment. No false beauty\u2014this is authentic Iceland, magnificent through harshness rather than comfort.",
+      "style": "Camera movement becomes fluid, golden, dreamlike as it exits raven's throat (that's where the camera is). Transition from macro organic tunnel to expansive summer landscape creates psychological release\u2014death-space to life-space. Lighting shifts from bioluminescent tissue-glow to impossible golden hour bathing everything in honey-amber warmth. Focus becomes soft-edged, dreamy, like emigrant nostalgia or tourism photography. Movement smooth as honey, time dilated like thick amber. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    }
+  ],
+  "others": {
+    "creator_process": "enhancement_integration",
+    "source_file": "shot_minus1_raven_three_transitions_master_openings.txt"
+  }
+}
