@@ -8,11 +8,6 @@ struct PlateListView: View {
     @State private var plateTypeFilter: PlateType = .character
     @State private var searchText: String = ""
     
-    enum PlateType: String, CaseIterable {
-        case character = "Characters"
-        case environment = "Environments"
-    }
-    
     var filteredPlates: [(id: String, name: String, description: String, category: String)] {
         if plateTypeFilter == .character {
             let plates = filmManager.plateManager.characterPlates
@@ -155,8 +150,3 @@ struct PlateListRow: View {
     }
 }
 
-// MARK: - Plate Type enum for sharing
-enum PlateType: String, CaseIterable {
-    case character = "Characters"
-    case environment = "Environments"
-}
