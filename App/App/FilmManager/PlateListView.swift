@@ -64,7 +64,7 @@ struct PlateListView: View {
                     Label("Plates", systemImage: "rectangle.stack")
                         .font(.headline)
                     Spacer()
-                    Text("\(filteredPlates.count) plates")
+                    Text("\(plateTypeFilter == .character ? filteredCharacterPlates.count : filteredEnvironmentalPlates.count) plates")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
