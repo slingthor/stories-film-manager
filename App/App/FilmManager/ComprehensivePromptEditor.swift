@@ -79,6 +79,7 @@ struct ComprehensivePromptEditor: View {
                             ForEach(0..<shot.promptVariants.count, id: \.self) { index in
                                 Button {
                                     shot.selectedPromptIndex = index
+                                    shot.objectWillChange.send()
                                 } label: {
                                     HStack {
                                         if shot.promptVariants[index].isActive {

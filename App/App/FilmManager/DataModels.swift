@@ -631,10 +631,17 @@ class FilmShot: ObservableObject, Identifiable {
         copy.cameraPosition = original.cameraPosition
         copy.negativePrompt = original.negativePrompt
         copy.progressiveState = original.progressiveState
+        copy.recommendedPlates = original.recommendedPlates
+        copy.selectedPlates = original.selectedPlates
+        copy.selectedCharacterPlateId = original.selectedCharacterPlateId
+        copy.selectedEnvironmentPlateId = original.selectedEnvironmentPlateId
         
         promptVariants.append(copy)
         selectedPromptIndex = promptVariants.count - 1
         isDirty = true
+        
+        // Force UI update
+        objectWillChange.send()
         
         print("📝 Copied prompt variant: \(copy.name)")
     }
@@ -644,6 +651,7 @@ class FilmShot: ObservableObject, Identifiable {
             promptVariants[i].isActive = (i == index)
         }
         isDirty = true
+        objectWillChange.send()
     }
 }
 
