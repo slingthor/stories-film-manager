@@ -219,7 +219,18 @@ class FilmManager: ObservableObject {
     }
     
     private func extractNumericFromId(_ id: String) -> Double {
-        // Handle IDs like "0a", "0b", "1", "39.5", etc.
+        // Handle IDs like "-1", "0a", "0b", "1", "39.5", etc.
+        // Check for negative numbers first
+        if id.hasPrefix("-") {
+            let numericString = id.dropFirst().replacingOccurrences(of: "[^0-9.]", with: "", options: .regularExpression)
+            var value = -(Double(numericString) ?? 0)
+            // Add letter offset for suffixes
+            if id.contains("a") { value -= 0.3 }
+            else if id.contains("b") { value -= 0.2 }
+            else if id.contains("c") { value -= 0.1 }
+            return value
+        }
+        
         let numericString = id.replacingOccurrences(of: "[^0-9.]", with: "", options: .regularExpression)
         var value = Double(numericString) ?? 0
         
