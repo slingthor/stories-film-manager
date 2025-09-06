@@ -36,7 +36,7 @@ struct TabbedManagementView: View {
                     draggedSystem: draggedSystem
                 )
             } else {
-                PlateManagementView(filmManager: filmManager)
+                PlateManagementViewNew(filmManager: filmManager)
             }
         }
     }

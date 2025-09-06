@@ -850,10 +850,10 @@ struct CharacterPlateSpecialization: Identifiable, Codable {
 struct CharacterPlate: Identifiable {
     let id = UUID()
     let plateId: String
-    let name: String
-    let character: String
-    let description: String
-    let shotRange: String
+    var name: String
+    var character: String
+    var description: String
+    var shotRange: String
     var specializations: [CharacterPlateSpecialization] = []
     var media: [PlateMedia] = []
     var isMainPlate: Bool = false
@@ -862,10 +862,10 @@ struct CharacterPlate: Identifiable {
 struct EnvironmentalPlate: Identifiable {
     let id = UUID()
     let plateId: String
-    let name: String
-    let category: String
-    let description: String
-    let atmosphere: String
+    var name: String
+    var category: String
+    var description: String
+    var atmosphere: String
     var media: [PlateMedia] = []
 }
 
