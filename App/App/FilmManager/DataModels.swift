@@ -667,7 +667,7 @@ class FilmManager: ObservableObject {
     }
 }
 
-class FilmShot: ObservableObject, Identifiable {
+class FilmShot: ObservableObject, Identifiable, Equatable {
     let id: String
     @Published var title: String
     @Published var sequenceType: String
@@ -797,6 +797,11 @@ class FilmShot: ObservableObject, Identifiable {
         }
         isDirty = true
         objectWillChange.send()
+    }
+    
+    // MARK: - Equatable
+    static func == (lhs: FilmShot, rhs: FilmShot) -> Bool {
+        return lhs.id == rhs.id
     }
 }
 
