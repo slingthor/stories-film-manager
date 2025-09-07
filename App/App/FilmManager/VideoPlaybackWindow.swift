@@ -17,7 +17,7 @@ struct VideoPlaybackWindow: View {
                 Spacer()
                 
                 if let shot = filmManager.selectedShot {
-                    Text("Shot: \(shot.id) - \(shot.name)")
+                    Text("Shot: \(shot.id) - \(shot.title)")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 } else {
