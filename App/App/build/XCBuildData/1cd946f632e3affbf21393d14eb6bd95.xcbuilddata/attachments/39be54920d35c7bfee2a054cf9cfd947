@@ -1,0 +1,188 @@
+{
+  "" : {
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/FilmManager-master.dia",
+    "emit-module-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/FilmManager-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/FilmManager-master-emit-module.dia",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/FilmManager-master.swiftdeps"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/AppDataManager.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/AppDataManager.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/AppDataManager.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/AppDataManager.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/AppDataManager.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/AppDataManager.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/AppDataManager.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/AppDataManager.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/AppDataManager~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/ComprehensivePromptEditor.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ComprehensivePromptEditor.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ComprehensivePromptEditor.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ComprehensivePromptEditor.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ComprehensivePromptEditor.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ComprehensivePromptEditor.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ComprehensivePromptEditor.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ComprehensivePromptEditor.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ComprehensivePromptEditor~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/ComprehensiveTimelineView.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ComprehensiveTimelineView.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ComprehensiveTimelineView.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ComprehensiveTimelineView.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ComprehensiveTimelineView.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ComprehensiveTimelineView.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ComprehensiveTimelineView.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ComprehensiveTimelineView.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ComprehensiveTimelineView~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/ContentView.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/DataModels.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/DataModels.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/DataModels.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/DataModels.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/DataModels.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/DataModels.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/DataModels.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/DataModels.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/DataModels~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/FilmManagerApp.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/FilmManagerApp.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/FilmManagerApp.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/FilmManagerApp.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/FilmManagerApp.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/FilmManagerApp.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/FilmManagerApp.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/FilmManagerApp.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/FilmManagerApp~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/MediaDropView.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/MediaDropView.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/MediaDropView.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/MediaDropView.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/MediaDropView.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/MediaDropView.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/MediaDropView.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/MediaDropView.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/MediaDropView~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/MediaManagementPanel.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/MediaManagementPanel.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/MediaManagementPanel.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/MediaManagementPanel.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/MediaManagementPanel.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/MediaManagementPanel.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/MediaManagementPanel.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/MediaManagementPanel.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/MediaManagementPanel~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/PlateDetailEditor.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateDetailEditor.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateDetailEditor.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateDetailEditor.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateDetailEditor.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateDetailEditor.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateDetailEditor.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateDetailEditor.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateDetailEditor~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/PlateListView.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateListView.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateListView.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateListView.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateListView.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateListView.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateListView.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateListView.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateListView~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/PlateManagementView.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateManagementView.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateManagementView.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateManagementView.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateManagementView.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateManagementView.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateManagementView.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateManagementView.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateManagementView~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/PlateManagementViewNew.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateManagementViewNew.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateManagementViewNew.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateManagementViewNew.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateManagementViewNew.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateManagementViewNew.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateManagementViewNew.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateManagementViewNew.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateManagementViewNew~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/PlateUsageView.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateUsageView.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateUsageView.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateUsageView.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateUsageView.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateUsageView.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateUsageView.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateUsageView.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/PlateUsageView~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/SharedTypes.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/SharedTypes.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/SharedTypes.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/SharedTypes.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/SharedTypes.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/SharedTypes.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/SharedTypes.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/SharedTypes.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/SharedTypes~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/ShotListPanel.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ShotListPanel.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ShotListPanel.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ShotListPanel.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ShotListPanel.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ShotListPanel.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ShotListPanel.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ShotListPanel.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/ShotListPanel~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/SystemControlsPanel.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/SystemControlsPanel.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/SystemControlsPanel.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/SystemControlsPanel.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/SystemControlsPanel.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/SystemControlsPanel.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/SystemControlsPanel.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/SystemControlsPanel.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/SystemControlsPanel~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/FilmManager/TabbedManagementView.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/TabbedManagementView.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/TabbedManagementView.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/TabbedManagementView.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/TabbedManagementView.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/TabbedManagementView.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/TabbedManagementView.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/TabbedManagementView.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/TabbedManagementView~partial.swiftmodule"
+  },
+  "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/ingthor/Documents/stories/App/App/build/FilmManager.build/Debug/FilmManager.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

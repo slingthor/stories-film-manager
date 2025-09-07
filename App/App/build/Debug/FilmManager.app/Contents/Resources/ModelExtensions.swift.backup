@@ -1,0 +1,229 @@
+import Foundation
+import SwiftUI
+
+// MARK: - FilmSystemManager Extensions
+
+extension FilmSystemManager {
+    
+    func updateSystemsForShot(_ shot: Shot) {
+        // Calculate which systems affect this shot based on its film position
+        let affectingSystems = getSystemsAffectingShot(shot)
+        print("📊 Shot \(shot.shotId) at \(shot.filmPositionPercentage)% affected by: \(affectingSystems.keys.joined(separator: ", "))")
+    }
+    
+    private func updateTrackingSystemsFromMainSystem(_ system: FilmSystem) {
+        // Update tracking systems with values from main system
+        for (key, data) in system.trackingSystems {
+            if let trackingSystem = trackingSystems.first(where: { $0.name == key }) {
+                trackingSystem.currentPercentage = data.currentPercentage
+                trackingSystem.continuousRange = data.continuousRange.map(Double.init)
+                
+                // Convert milestone values
+                var milestones: [Double: String] = [:]
+                for (percentageStr, value) in data.milestoneValues {
+                    if let percentage = Double(percentageStr) {
+                        milestones[percentage] = value
+                    }
+                }
+                trackingSystem.milestoneValues = milestones
+                trackingSystem.affectedShots = data.affectsShots
+            }
+        }
+    }
+    
+    private func loadSystemFromCopiedFile() {
+        currentSystem = jsonManager.loadMainSystem()
+    }
+    
+    private func setupAutoSave() {
+        // Setup handled by JSONManager
+    }
+    
+    private func copyMainJSON(timestamp: String) {
+        // Handled by JSONManager
+    }
+}
+
+// MARK: - Shot Extensions for System Integration
+
+extension Shot {
+    func getSystemValuesAtThisShot(_ systems: [TrackingSystem]) -> [String: SystemValue] {
+        var values: [String: SystemValue] = [:]
+        
+        for system in systems {
+            if filmPositionPercentage >= system.continuousRange[0] && 
+               filmPositionPercentage <= system.continuousRange[1] {
+                
+                let value = system.getValueAtPercentage(filmPositionPercentage)
+                values[system.name] = SystemValue(
+                    percentage: system.currentPercentage,
+                    description: value,
+                    isActive: true
+                )
+            }
+        }
+        
+        return values
+    }
+}
+
+struct SystemValue {
+    let percentage: Double
+    let description: String
+    let isActive: Bool
+}
+
+// MARK: - Simplified JSON Loading for Development
+
+extension FilmSystemManager {
+    func loadSampleData() {
+        // Create sample shots for development
+        let sampleShots = [
+            Shot(shotId: "0a", name: "SHADOW_POLE", title: "The Shadow Pole"),
+            Shot(shotId: "1a", name: "BLACK_BOATS", title: "Black Boats on Red Water"),
+            Shot(shotId: "8", name: "COUNTING", title: "Danish Counting Violence"),
+            Shot(shotId: "17", name: "THREE_FRAME", title: "Three-Frame Flash"),
+            Shot(shotId: "61", name: "CAMERA_RECOGNITION", title: "Camera Recognizes Itself")
+        ]
+        
+        // Set sample positions
+        for (index, shot) in sampleShots.enumerated() {
+            shot.filmPositionPercentage = Double(index * 20)
+            shot.sequenceType = index < 2 ? "prologue" : "main_story"
+            
+            // Add sample prompt variant
+            let variant = PromptVariant(
+                variantId: "\(shot.shotId)_primary",
+                variantName: "Primary Narrative",
+                intentTags: ["story_primary"],
+                priority: 1,
+                subject: "Sample subject for \(shot.title)",
+                action: "Sample action description",
+                scene: "Sample scene setting",
+                style: "Sample camera style",
+                cameraPosition: "Sample camera position",
+                dialogue: "Sample dialogue",
+                audio: AudioSpec(primary: [], ambient: [], absent: []),
+                characterPlates: CharacterPlates(present: [], referenced: []),
+                environmentalPlates: EnvironmentalPlates(),
+                negativePrompt: "Sample negative prompt",
+                videoReferences: []
+            )
+            
+            shot.promptVariants = [variant]
+        }
+        
+        self.shots = sampleShots
+        self.selectedShot = sampleShots.first
+        
+        print("📱 Loaded sample data with \(sampleShots.count) shots")
+    }
+}
+
+// MARK: - Plate Management Simplified
+
+extension PlateManager {
+    private func loadCharacterPlates() {
+        // Sample character plates for development
+        characterPlates = [
+            CharacterPlate(plateId: "MAGNÚS-AUTHORITY", character: "Magnús", description: "55-year-old fisherman, weathered face, steel-blue eyes, authority posture", arcStage: "patriarch"),
+            CharacterPlate(plateId: "MAGNÚS-CONFUSED", character: "Magnús", description: "Mathematical confusion, tremoring hands, counting failures", arcStage: "breakdown"),
+            CharacterPlate(plateId: "SIGRID-PURE", character: "Sigrid", description: "16-year-old, heart-shaped face, grey eyes with amber flecks, defensive positioning", arcStage: "innocent"),
+            CharacterPlate(plateId: "SIGRID-MARKED", character: "Sigrid", description: "Post-violation, 11-foot distance maintained, protective of belly", arcStage: "witness")
+        ]
+    }
+    
+    private func loadEnvironmentalPlates() {
+        // Sample environmental plates for development
+        environmentalPlates = [
+            EnvironmentalPlate(plateId: "WESTFJORDS-SUMMER", category: "landscape", description: "False golden abundance, cooperative weather", conditions: "predatory_seduction"),
+            EnvironmentalPlate(plateId: "WESTFJORDS-WINTER", category: "landscape", description: "Harsh survival conditions, hostile environment", conditions: "reality_truth"),
+            EnvironmentalPlate(plateId: "BAÐSTOFA-ORGANIC", category: "interior", description: "House breathing, wall movement, organic consciousness", conditions: "bergrisi_active"),
+            EnvironmentalPlate(plateId: "SEA-DIVINE", category: "sea", description: "Cooperative waters, divine whale guidance", conditions: "abundance_phase")
+        ]
+    }
+}
+
+// MARK: - Media Integration
+
+extension MediaManager {
+    func playVideoForShot(_ shot: Shot) {
+        if let video = shot.videos.first {
+            currentVideo = video
+            isVideoPlaying = true
+        }
+    }
+    
+    func hasMediaForShot(_ shot: Shot) -> Bool {
+        return !shot.videos.isEmpty || !shot.images.isEmpty
+    }
+    
+    func getVideoCount(for shot: Shot) -> Int {
+        return shot.videos.count
+    }
+    
+    func getImageCount(for shot: Shot) -> Int {
+        return shot.images.count
+    }
+}
+
+// MARK: - Timeline Integration
+
+extension TimelineManager {
+    func setupFromShots(_ shots: [Shot]) {
+        var markers: [ShotMarker] = []
+        var currentTime: Double = 0
+        
+        for shot in shots {
+            let hasVideo = !shot.videos.isEmpty
+            
+            markers.append(
+                ShotMarker(
+                    shotId: shot.shotId,
+                    timePosition: currentTime,
+                    duration: Double(shot.durationSeconds),
+                    hasVideo: hasVideo
+                )
+            )
+            
+            currentTime += Double(shot.durationSeconds)
+        }
+        
+        self.shotMarkers = markers
+        self.totalDuration = currentTime
+        
+        print("🎬 Timeline setup: \(markers.count) shots, \(Int(currentTime/60)):\(Int(currentTime.truncatingRemainder(dividingBy: 60))) total duration")
+    }
+    
+    func getCurrentShot() -> String? {
+        return getShotAtTime(currentTime)
+    }
+    
+    func jumpToNextVideoShot() {
+        guard let currentShotId = getCurrentShot() else { return }
+        
+        if let nextVideoShot = shotMarkers.first(where: { 
+            $0.timePosition > currentTime && $0.hasVideo 
+        }) {
+            seekTo(time: nextVideoShot.timePosition)
+        }
+    }
+}
+
+// MARK: - Development Helpers
+
+#if DEBUG
+extension FilmSystemManager {
+    func printSystemStatus() {
+        print("\n🎬 FILM SYSTEM STATUS:")
+        print("📊 Total shots: \(shots.count)")
+        print("📊 Selected shot: \(selectedShot?.shotId ?? "none")")
+        print("📊 Tracking systems: \(trackingSystems.count)")
+        
+        if let shot = selectedShot {
+            let affecting = getSystemsAffectingShot(shot)
+            print("📊 Systems affecting current shot: \(affecting.keys.joined(separator: ", "))")
+        }
+    }
+}
+#endif

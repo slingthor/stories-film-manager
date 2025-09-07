@@ -2,7 +2,7 @@ import SwiftUI
 import Combine
 
 struct ContentView: View {
-    @StateObject private var filmManager = FilmManager()
+    @EnvironmentObject var filmManager: FilmManager
     @State private var draggedSystem: TrackingSystem?
     @State private var visibleSystemRange = 0..<5
     @State private var selectedPlateId: String? = nil
@@ -119,4 +119,5 @@ struct ContentView: View {
 #Preview {
     ContentView()
         .frame(width: 1400, height: 800)
+        .environmentObject(FilmManager())
 }

@@ -2,10 +2,14 @@ import SwiftUI
 
 @main
 struct FilmManagerApp: App {
+    @StateObject private var sharedFilmManager = FilmManager()
+    
     var body: some Scene {
-        WindowGroup {
+        // Main application window
+        WindowGroup("Film Manager") {
             ContentView()
                 .frame(minWidth: 1400, minHeight: 800)
+                .environmentObject(sharedFilmManager)
         }
         .commands {
             CommandGroup(replacing: .saveItem) {
@@ -16,6 +20,16 @@ struct FilmManagerApp: App {
             }
         }
         .windowResizability(.contentSize)
+        
+        // Video playback window - always on top
+        WindowGroup("Video Playback", id: "video-playback") {
+            VideoPlaybackWindow(filmManager: sharedFilmManager)
+                .frame(minWidth: 480, minHeight: 320)
+        }
+        .windowLevel(.floating)
+        .defaultSize(width: 640, height: 360)
+        .windowResizability(.contentSize)
+        .defaultPosition(.topTrailing)
     }
 }
 
