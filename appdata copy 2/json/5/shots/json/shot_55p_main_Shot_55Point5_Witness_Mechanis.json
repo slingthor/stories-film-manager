@@ -1,0 +1,50 @@
+{
+  "shot_metadata": {
+    "id": "55.5",
+    "title": "Shot 55Point5 Witness Mechanism Breaks Seven Persp",
+    "sequence_type": "main",
+    "duration_seconds": 3,
+    "narrative_function": "enhancement",
+    "stitch_from": "",
+    "aspect_ratio": "4:3"
+  },
+  "progressive_state": "",
+  "prompt_variants": [
+    {
+      "variant_id": "55p_shot_55point5_witness_mechanism_breaks_seven_persp",
+      "variant_name": "Shot 55Point5 Witness Mechanism Breaks Seven Persp",
+      "subject": "",
+      "action": "All seven fragments show identical timing—family raising hákarl to mouths, chewing in synchronization, swallowing simultaneously—but each fragment interprets action through different reality lens creating impossible multi-perspective truth. Human fragment shows normal family meal despite starvation circumstances. Sheep fragment reveals lateral chewing motion, herbivore mastication of fermented meat. Empty fragment shows hákarl disappearing from bowls without visible consumption. Monument fragment captures moment preserved eternally in obsidian with family conscious but crystallized. Industrial fragment reduces scene to data-points and measurements. Mythological fragment shows landvættir consuming sacrifice-offering in divine hunger. Audience fragment shows observers consuming family's suffering as entertainment across multiple time periods. Camera cracks widen between fragments as reality's ability to maintain unified perspective breaks under mathematical impossibility—five becoming six becoming seven simultaneous truths.",
+      "scene": "SHOT 55.5: THE WITNESS MECHANISM BREAKS - SEVEN PERSPECTIVES NEW ESSENTIAL ADDITION - Triple Reality Framework Clarification SHOT HEADER: Baðstofa interior during final family meal before transformation, but scene exists simultaneously across seven reality-layers each with different implications, lighting, physics, temporality. Human layer shows traditional domestic space. Sheep layer shows barn interior. Empty layer shows museum display. Monument layer shows tourist attraction. Industrial layer shows processing facility. Mythological layer shows divine feast-space. Audience layer shows theater/cinema/monument viewing area. All seven spaces occupy identical 12x16 foot baðstofa but with different environmental characteristics.",
+      "style": "Camera fragmenting into seven perspectives using impossible multi-viewpoint capability (that's where the camera is), each fragment maintaining separate focus, lighting, and temporal relationship to identical central moment. Static shot emphasizing reality breakdown through perspective multiplication rather than movement. Lighting different for each fragment—natural for human, barn-light for sheep, museum lighting for empty, tourist illumination for monument, industrial fluorescent for extraction, divine glow for mythological, projection light for audience. Focus maintains sharpness across all fragments simultaneously, impossible depth of field showing all realities equally valid. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {
+          "magnus": "MAGNUS-SHIFTING",
+          "sigrid": "SIGRID-TRANSITIONAL",
+          "gudrun": "GUDRUN-SPEAKING",
+          "jon": "JON-CHANGING",
+          "lilja": "LILJA-FINAL"
+        },
+        "environment": {
+          "interior": "BADSTOFA-FRAGMENTING"
+        }
+      },
+      "available_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    }
+  ],
+  "others": {
+    "creator_process": "enhancement_integration",
+    "source_file": "shot_55point5_witness_mechanism_breaks_seven_perspectives_NEW.txt"
+  },
+  "aspect_ratio": "4:3"
+}

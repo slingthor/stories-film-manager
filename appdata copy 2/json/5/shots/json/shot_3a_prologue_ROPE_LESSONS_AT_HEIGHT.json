@@ -1,0 +1,184 @@
+{
+  "shot_metadata": {
+    "id": "3a",
+    "name": "ROPE_LESSONS_AT_HEIGHT",
+    "title": "ROPE LESSONS AT HEIGHT",
+    "sequence_type": "prologue",
+    "duration_seconds": 8,
+    "narrative_function": "Teaching moment | Father-son trust | Camera frost ...",
+    "stitch_from": "[STITCH from Shot 2b: Reaching cliff top]",
+    "aspect_ratio": "1.85:1"
+  },
+  "progressive_state": "Teaching moment | Father-son trust | Camera frost 0% | Knowledge transfer | Watching: The bond forms",
+  "prompt_variants": [
+    {
+      "variant_id": "3a_pass_2_inside_rope_consciousness",
+      "variant_name": "Pass 2 Inside Rope Consciousness",
+      "subject": "",
+      "action": "Rope fibers pulse with giant frequency (16Hz) during knot formation, hemp consciousness awakening as landvættir knowledge activates traditional tool. Camera follows genetic information flow through rope structure as Jón's inherited memory connects with fiber consciousness—child's genetic code receiving mathematical pattern directly through material contact, bypassing conscious learning through DNA-level instruction. Rope geometry becomes increasingly complex during demonstration—fractal pattern extending beyond physical rope scale into mathematical abstraction, Giant's Knot continuing into dimensional spaces invisible to human perception but accessible to camera consciousness. Cliff breathing synchronizes with rope frequency, landscape and tools operating as unified consciousness network teaching traditional knowledge through environmental cooperation.",
+      "scene": "PASS 2: SHOT 3A - INSIDE ROPE CONSCIOUSNESS Camera Perspective from Within Living Rope During Giant's Knot SHOT HEADER: Interior rope structure during landvættir knowledge transmission, hemp consciousness serving as communication medium between giant intelligence and human genetic memory, traditional tool enhanced by supernatural awareness enabling impossible technique demonstration.",
+      "style": "Camera flowing through rope fiber structure using impossible interior perspective (that's where the camera is), movement following genetic information pathways during knowledge transmission. Focus reveals fiber consciousness detail showing hemp as communication medium for landvættir instruction. Lighting from 16Hz fiber resonance creating internal illumination within rope structure. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {
+          "magnus": "MAGNUS-AUTHORITY",
+          "jon": "JON-MILD"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-AUTUMN"
+        }
+      },
+      "available_plates": {
+        "characters": {
+          "magnus": [
+            {
+              "id": "MAGNUS-AUTHORITY",
+              "name": "Summer Authority",
+              "description": "Magnús Þorláksson, 55-year-old fisherman with weathered rectangular face, steel-blue eyes focused with traditional hunting intelligence, clean brown vaðmál sweater with skilled mending at left elbow, erect confident posture"
+            }
+          ],
+          "jon": [
+            {
+              "id": "JON-MILD",
+              "name": "Early Fever",
+              "description": "Jón, 16-year-old with narrow angular face, 39°C fever creating slight flush, prophetic glimpses visible in dilated pupils"
+            }
+          ]
+        },
+        "environment": {}
+      }
+    },
+    {
+      "variant_id": "3a_rope_lessons_inherited_knowledge_horror",
+      "variant_name": "Rope Lessons Inherited Knowledge Horror",
+      "subject": "",
+      "action": "Magnús begins knot demonstration with movements too precise for human coordination—fingers following mathematical patterns encoded in muscle memory inherited from giants who first taught rope-working to human ancestors. Each loop and weave creates fractal geometry where pattern repeats infinitely inward, knot structure continuing beyond rope's physical scale into mathematical abstraction. Rope responds to demonstration by humming at 16Hz—mountain frequency, giant's voice resonating through hemp fibers as landvættir knowledge activates traditional tool. Jón replicates knot perfectly without learning, his child hands accessing ancestral technique through genetic transmission rather than instruction, fingers moving with inherited precision that bypasses conscious mind. Cliff face breathing accelerates to 65/min as demonstration progresses, landscape consciousness responding to landvættir knowledge being transmitted between generations. Blood trail visible 200 feet below forms perfect spiral matching knot's geometry—ram's death-pattern mirroring rope mathematics, establishing visual connection between sacrifice and survival techniques.",
+      "scene": "SHOT 3A: ROPE LESSONS - INHERITED KNOWLEDGE HORROR From Standard Character Moment (7.5/10) to Predatory Seduction Perfection (10/10) SHOT HEADER: Cliff edge overlooking black sand beach where ram's blood spiral remains visible despite three weeks passage, pattern permanent in landscape memory. Late autumn light creating optimal visibility for knot demonstration, traditional father-son teaching moment enhanced by supernatural landscape participation. Rope work happening at precise location where land meets sea, boundary space where traditional knowledge transfers between generations while cosmic forces observe and approve.",
+      "style": "Camera positioned 8 feet from father-son pair showing both knot detail and cliff breathing (that's where the camera is), close enough for inherited precision, wide enough for landscape participation. Static shot except subtle push-in during knot completion, movement emphasizing mathematical beauty of fractal pattern. Natural light enhanced by rope's 16Hz humming creating visual resonance, supernatural cooperation with traditional instruction. Focus alternates between knot geometry and Jón's unconscious replication, showing genetic transmission in progress. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {
+          "magnus": "MAGNUS-AUTHORITY",
+          "jon": "JON-MILD"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-AUTUMN"
+        }
+      },
+      "available_plates": {
+        "characters": {
+          "magnus": [
+            {
+              "id": "MAGNUS-AUTHORITY",
+              "name": "Summer Authority",
+              "description": "Magnús Þorláksson, 55-year-old fisherman with weathered rectangular face, steel-blue eyes focused with traditional hunting intelligence, clean brown vaðmál sweater with skilled mending at left elbow, erect confident posture"
+            }
+          ],
+          "jon": [
+            {
+              "id": "JON-MILD",
+              "name": "Early Fever",
+              "description": "Jón, 16-year-old with narrow angular face, 39°C fever creating slight flush, prophetic glimpses visible in dilated pupils"
+            }
+          ]
+        },
+        "environment": {}
+      }
+    },
+    {
+      "variant_id": "3a_story_primary",
+      "variant_name": "Primary - ROPE LESSONS AT HEIGHT",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[MAGNÃšS] kneeling on grass at cliff top, demonstrating knot-tying to [JÃ“N], hands moving slowly through the motions, rope forming complex patterns, ocean visible 300 feet below with blood trail now reaching shore.",
+      "action": "MagnÃºs kneels on thick grass. Spreads rope in front of him. JÃ³n kneels opposite, watching intently. MagnÃºs's large hands take rope end. Forms loop. Passes end through. Pulls to create bowline knot. Unties it. Hands rope to JÃ³n. Boy's smaller hands try to copy. Makes wrong loop. MagnÃºs places his hands over boy's, guides them. Together they form knot correctly. MagnÃºs nods once. Takes rope back. Shows second knot - clove hitch. More complex. JÃ³n watches every movement. Behind them, cliff edge drops straight down. Ocean below shows whale's blood trail now reaching beach, spreading along shoreline. Other men visible as dots preparing flensing area. Women disappeared toward purple hills. MagnÃºs ties rope around JÃ³n's waist, through legs, creating harness. Tests each loop. Boy stands still, trusting.",
+      "scene": "Grassy cliff top, morning sun higher. Edge visible 10 feet away. Ocean far below. Green grass thick, small white flowers scattered.",
+      "style": "Medium shot from side showing both faces and hands working (that's where the camera is), intimate teaching moment, ocean visible in background.",
+      "camera_position": "Medium shot from side showing both faces and hands working",
+      "dialogue": "None",
+      "audio": {
+        "primary": [
+          "Rope fibers creaking",
+          "hands on hemp",
+          "grass rustling"
+        ],
+        "ambient": [
+          "Wind at cliff top",
+          "distant ocean",
+          "birds below"
+        ],
+        "absent": [
+          "verbal instruction"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show hands working rope clearly, blood trail visible in ocean below, intimate moment, 1080p",
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BAÐSTOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {
+          "magnus": "MAGNUS-AUTHORITY",
+          "jon": "JON-MILD"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-AUTUMN"
+        }
+      },
+      "available_plates": {
+        "characters": {
+          "magnus": [
+            {
+              "id": "MAGNUS-AUTHORITY",
+              "name": "Summer Authority",
+              "description": "Magnús Þorláksson, 55-year-old fisherman with weathered rectangular face, steel-blue eyes focused with traditional hunting intelligence, clean brown vaðmál sweater with skilled mending at left elbow, erect confident posture"
+            }
+          ],
+          "jon": [
+            {
+              "id": "JON-MILD",
+              "name": "Early Fever",
+              "description": "Jón, 16-year-old with narrow angular face, 39°C fever creating slight flush, prophetic glimpses visible in dilated pupils"
+            }
+          ]
+        },
+        "environment": {}
+      }
+    }
+  ],
+  "others": {},
+  "notes": {
+    "sequence": "prologue",
+    "characters_involved": [],
+    "original_preserved": true
+  },
+  "aspect_ratio": "1.85:1"
+}

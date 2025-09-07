@@ -1,0 +1,12 @@
+SHOT 9b/20: THE HOUSES DARKEN
+Progressive State: Village failing | Windows dying | Camera frost 5% | Community ends | Watching: Isolation begins
+Duration: 8 seconds
+[STITCH from Shot 9a/19: Sun disappearing]
+Subject: View of all village houses, windows going dark one by one, smoke from chimneys stopping, doors closing themselves, leaving only MagnÃºs's house still breathing with one window lit.
+Action: Seven houses visible in twilight. All had lit windows. First house - light extinguishes instantly. Not blown out. Just gone. Door swings closed. Smoke from chimney stops mid-rise, dissipates. Second house - same. Light dies. Door closes. No hand closing it. Third house - window goes black but can see family inside frozen mid-movement. Fourth through sixth - lights die simultaneously. Doors slam. Sound echoes. Only MagnÃºs's house remains lit. Its breathing accelerates. 15 breaths per minute now. Window glows brighter, yellow-orange. Other houses now look abandoned. Frost forms on their walls. Grass on roofs turns white. Look like burial mounds. Stone burial mounds. But still houses. But also mounds. Both at once. MagnÃºs's house door opens wider. 12 inches now. Darkness inside seems to pull. Searchlight flickers, dies completely. Trawler gone. Only light is single window. Family still at tables but fading. Becoming transparent except Sigrid.
+Scene: Village overview, twilight failing. Houses in rough line. Frost spreading. Only one window lit.
+Style: Wide shot of village showing houses going dark in sequence (that's where the camera is), ominous progression.
+Dialogue: None
+Sounds: [PRIMARY: Doors slamming, lights extinguishing, frost spreading] [AMBIENT: Single house breathing faster, searchlight dying] [ABSENT: human activity, life sounds]
+Technical (Negative Prompt): no subtitles, show lights dying sequence, doors closing themselves, one house remaining lit, 1080p
+These additions bring us to approximately 30 shots total, creating a complete narrative arc with proper buildup and visceral impact. The three liquids converging, the house as living entity, and the desperate consumption all strengthen the themes leading to the winter transformation.

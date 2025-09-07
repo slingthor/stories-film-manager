@@ -1,0 +1,21 @@
+SHOT 23: SIGRID'S PREPARATION (PARALLEL TO MAGNÃšS)
+Progressive State: House 10/min + 50bpm | Parallel desperation | Camera frost 14% | Women's action | Watching: House knows
+Women's Silence: Acting without words
+Triple Reality: Physical: gathering materials / Psychological: desperate maternity / Mythological: tradition corrupting
+[STITCH from Shot 22: MagnÃºs dragging boat, door closed]
+
+Subject: Inside the house, [SIGRID] moving to her grandmother's corner where [GUÃRÃšN] sits passive, watching her pregnant daughter gather the tilberi materials - sheep rib from morning meal, grey wool, but also industrial rope from the boat supplies, brass button from trawler contamination, knowing it's wrong but driven by the need to feed the life inside her.
+
+Action: Sigrid's hand protective on belly - 3-4 months, needs nourishment. Moves to grandmother's corner, GuÃ°rÃºn watching but not stopping her. Opens old box: ritual materials mixed with industrial contamination. Takes sheep rib (from breakfast, still has meat threads). Unravels wool from MagnÃºs's spare sweater (grey with coal dust). Finds rope - but it's from boat supplies, hemp mixed with tar, industrial. Brass button green with verdigris, not bone. Arranges them on floor in pattern from book - but pattern wrong because materials wrong. GuÃ°rÃºn watches, knows what's coming, but stays silent. Women don't speak. Sigrid traces pattern in dust, accidentally makes six points instead of five. Through window, trawler beam illuminates materials - under industrial light, contamination visible. Black fibers through rope, green oxidation on brass, coal dust in wool. Her breathing 15/min (never changes), but baby's heartbeat audible in silence - 140bpm, twice mother's rate. House breathing slows to 8/min, preparing.
+
+Scene: Interior, 6:32 AM, trawler light every 20 seconds. Temperature -15Â°C from door having been open. Grandmother's corner has old books, forbidden knowledge, Christian crosses trying to hide pagan symbols. Materials arranged in floor dust, pattern emerging. Through window, MagnÃºs tiny figure dragging boat through spirals.
+
+Style: Close on materials and arrangement, camera at Sigrid's shoulder height (that's where the camera is), documentary of desperate preparation.
+
+Dialogue: (Sigrid): Silent, lips moving with memorized words (GuÃ°rÃºn): Watching, mouth opens to warn, closes (Baby): Heartbeat audible at 140bpm
+
+Sounds: [PRIMARY: Materials being arranged, baby heartbeat, dust patterns] [AMBIENT: House breathing slowing to 8/min, trawler beam rotation, wind outside] [ABSENT: no female voices, no warning, accepting fate]
+
+Technical (Negative Prompt): no subtitles, show contamination clearly, maintain silence, documentary observation
+
+-

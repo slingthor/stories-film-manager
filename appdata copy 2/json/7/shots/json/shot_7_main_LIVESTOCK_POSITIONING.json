@@ -1,0 +1,71 @@
+{
+  "shot_metadata": {
+    "id": "7",
+    "name": "LIVESTOCK_POSITIONING",
+    "title": "LIVESTOCK POSITIONING",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 13/min | Klettagj\u00c3\u00a1 hairline visible to Sigr...",
+    "stitch_from": "[STITCH from Shot 6: Cane tapping continues, ram testicles in Magn\u00c3\u00bas's hand]"
+  },
+  "progressive_state": "House 13/min | Klettagj\u00c3\u00a1 hairline visible to Sigrid only | No contamination | Camera frost 4% | Sorting positions | Watching: House observes through six shadows",
+  "prompt_variants": [
+    {
+      "variant_id": "7_story_primary",
+      "variant_name": "Primary - LIVESTOCK POSITIONING",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The family moving to their designated positions in the floor's worn depressions, each person knowing exactly where to stand - [GU\u00c3\u0090R\u00c3\u0161N] immediately to Magn\u00c3\u00bas's right, [J\u00c3\u201cN] between parents, [LILJA] by mother's skirts, while [SIGRID] calculates her movement to maintain exactly 11 feet distance, sliding along the wall to the farthest position where hairline cracks in the turf spell something she alone can see.",
+      "action": "The tap-tap-tap of Magn\u00c3\u00bas's cane creates pavlovian response. Gu\u00c3\u00b0r\u00c3\u00ban abandons her knife in the h\u00c3\u00a1karl, moves to position one step right and behind Magn\u00c3\u00bas, hands clasped at waist, head slightly bowed. No words, just movement. J\u00c3\u00b3n struggles up despite 39\u00c2\u00b0C fever, swaying, finds his spot between parents where floor depression is child-sized. Lilja toddles to mother's skirts, clutching her doll with brass button eyes that seem to watch. Sigrid slides along southwest wall, maintaining exactly 11 feet as Magn\u00c3\u00bas positions himself at center. Her back presses against wall where hairline cracks have begun forming letters only she notices: \"F-\u00c3\u201c-R-N\" barely visible. The floor depressions they stand in connect - worn paths between them create pentagon with sixth position at empty space. These are ancient patterns, worn by generations, but also... pen divisions. Livestock sorting geometry. Empty clothes in corner have definitely shifted, now standing in their own formation, breathing visible at 8/minute.",
+      "scene": "Center of main room, 5:47 AM, growing grey light through frost. Temperature -8\u00c2\u00b0C, breath visible from all, creating fog layer at different heights based on positions. The floor patterns now obvious - five worn spots plus sixth unworn position, paths between them like channels. Light from oil lamp casts six shadows on wall despite five people. Ram testicles on plate in Magn\u00c3\u00bas's left hand, right hand gripping cane, tremor steady at 3.5Hz. The h\u00c3\u00a1karl abandoned on table, knife still in meat, six portions visible though five people stand.",
+      "style": "Wide shot from above showing pen formation, camera at smoke hole looking down (that's where the camera is), bird's eye revealing the r\u00c3\u00a9ttir geometry, documentary observation of trained movement.",
+      "camera_position": "Wide shot from above showing pen formation, camera at smoke hole looking down",
+      "dialogue": "(Magn\u00c3\u00bas): \"Sta\u00c3\u00b0ir\" (Tone: one word command) (Sigrid's fingers on wall): Barely audible whisper: \"F\u00c3\u00b3rn?\" (Others): Complete silence, only movement",
+      "audio": {
+        "primary": [
+          "Feet shuffling to positions",
+          "cane tapping continuing",
+          "clothing rustling"
+        ],
+        "ambient": [
+          "House breathing 13/min",
+          "empty clothes breathing 8/min",
+          "six different human breathing rates visible"
+        ],
+        "absent": [
+          "no female voices",
+          "no protest",
+          "no recognition of patterns"
+        ]
+      },
+      "negative_prompt": "no subtitles, no text overlays, show floor patterns clearly, maintain exact distances, documentary observation",
+      "video_references": [],
+      "selected_plates": [
+        "MAGNUS-CONFUSED",
+        "SIGRID-CALCULATING",
+        "GUDRUN-COUNTING",
+        "JON-PROPHET",
+        "LILJA-MATHEMATICAL",
+        "BA\u00d0STOFA-ORGANIC",
+        "WESTFJORDS-WINTER",
+        "SEA-EXTRACTED",
+        "HOUSE-GEOLOGICAL"
+      ]
+    }
+  ],
+  "others": {
+    "womens_silence": "Gu\u00c3\u00b0r\u00c3\u00ban moves without words, Sigrid silent resistance",
+    "triple_reality": "Physical: family arranging / Psychological: trained behavior / Mythological: r\u00c3\u00a9ttir manifesting"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "LILJA",
+      "SIGRID"
+    ],
+    "original_preserved": true
+  },
+  "aspect_ratio": "4:3"
+}

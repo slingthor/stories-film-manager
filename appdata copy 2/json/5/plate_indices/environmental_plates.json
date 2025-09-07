@@ -1,0 +1,84 @@
+{
+  "plate_index": {
+    "BADSTOFA-ORGANIC": {
+      "name": "House Breathing Revealed",
+      "category": "interior",
+      "description": "Baðstofa with driftwood beams flexing like ribs during house breathing",
+      "tags": [
+        "organic",
+        "breathing",
+        "alive"
+      ]
+    },
+    "BADSTOFA-CLIFF": {
+      "name": "Klettagjá Emerging",
+      "category": "interior",
+      "description": "Baðstofa with vertical crack widening in wall, spelling 'VITNI' in crack patterns",
+      "tags": [
+        "escape",
+        "cliff",
+        "witness"
+      ]
+    },
+    "BADSTOFA-VIOLENCE": {
+      "name": "Violence Space",
+      "category": "interior",
+      "description": "Baðstofa during violence, shadows wrong angles, walls perspiring fear",
+      "tags": [
+        "violence",
+        "fear",
+        "protest"
+      ]
+    },
+    "BADSTOFA-MONUMENT": {
+      "name": "Becoming Obelisk",
+      "category": "interior",
+      "description": "Baðstofa crystallizing into black obsidian monument, walls becoming volcanic glass",
+      "tags": [
+        "transformation",
+        "monument",
+        "obsidian"
+      ]
+    },
+    "WESTFJORDS-HOSTILE": {
+      "name": "Winter Hostile",
+      "category": "landscape",
+      "description": "Westfjords landscape in extreme winter, -40°C temperatures, horizontal ice-rain",
+      "tags": [
+        "winter",
+        "hostile",
+        "death"
+      ]
+    },
+    "WESTFJORDS-ETERNAL": {
+      "name": "Monument Landscape",
+      "category": "landscape",
+      "description": "Westfjords with black obsidian obelisk visible, eternal monument to family tragedy",
+      "tags": [
+        "eternal",
+        "monument",
+        "witness"
+      ]
+    },
+    "SEA-INDUSTRIAL": {
+      "name": "Trawler Contamination",
+      "category": "sea",
+      "description": "North Atlantic with industrial trawlers visible, diesel rainbow on water",
+      "tags": [
+        "industrial",
+        "contamination",
+        "modern"
+      ]
+    },
+    "DANISH-COLD-SPREADING": {
+      "name": "Administrative Temperature",
+      "category": "weather",
+      "description": "Danish language creating environmental coldness, administrative vocabulary affecting physical temperature",
+      "tags": [
+        "danish",
+        "cold",
+        "administrative"
+      ]
+    }
+  }
+}

@@ -215,7 +215,7 @@ class AppDataManager {
     
     // Path helper methods
     func shotPath(for shotId: String) -> String {
-        return "\(currentVersionPath)/shots/\(shotId).json"
+        return "\(currentVersionPath)/shots/json/\(shotId).json"
     }
     
     func characterPlateIndexPath() -> String {

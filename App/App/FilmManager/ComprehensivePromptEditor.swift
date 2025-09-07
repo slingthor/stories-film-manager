@@ -323,8 +323,11 @@ struct ComprehensivePromptEditor: View {
                                 .foregroundColor(prompt.isActive ? .yellow : .primary)
                                 
                                 Button("Save Shot") {
+                                    // Force save by marking as dirty then triggering save
+                                    shot.isDirty = true
+                                    filmManager.fileManager.saveShot(shot)
                                     shot.isDirty = false
-                                    print("💾 Saved shot \(shot.id)")
+                                    print("💾 Manually saved shot \(shot.id)")
                                 }
                                 .buttonStyle(.bordered)
                             }
@@ -816,6 +819,10 @@ struct CharacterPlateSelector: View {
                     VStack(alignment: .leading, spacing: 4) {
                         ForEach(platesForSelectedCharacter) { plate in
                             Button(action: {
+                                // Add to the selectedPlateIds array
+                                if !variant.selectedPlateIds.contains(plate.plateId) {
+                                    variant.selectedPlateIds.append(plate.plateId)
+                                }
                                 variant.selectedCharacterPlateId = plate.plateId
                                 onSelect()
                             }) {
@@ -880,6 +887,10 @@ struct EnvironmentPlateSelector: View {
                     VStack(alignment: .leading, spacing: 4) {
                         ForEach(platesForSelectedCategory) { plate in
                             Button(action: {
+                                // Add to the selectedPlateIds array
+                                if !variant.selectedPlateIds.contains(plate.plateId) {
+                                    variant.selectedPlateIds.append(plate.plateId)
+                                }
                                 variant.selectedEnvironmentPlateId = plate.plateId
                                 onSelect()
                             }) {
