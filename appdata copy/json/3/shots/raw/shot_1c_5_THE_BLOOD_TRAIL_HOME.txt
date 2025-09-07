@@ -1,0 +1,11 @@
+SHOT 1c/5: THE BLOOD TRAIL HOME
+Progressive State: Whale diving | Trail forming | Camera frost 0% | Death swimming | Watching: Ocean guides
+Duration: 8 seconds
+[STITCH from Shot 1b/4: Spears in whale, blood beginning]
+Subject: View from clifftop showing the whale's blood trail in the ocean forming a direct red path toward the black sand beach, the three boats following the trail, the whale's shadow visible beneath the surface moving steadily shoreward.
+Action: High angle from cliff. Blood trail spreads across ocean surface, bright red ribbon in blue water. Trail leads straight to beach, no curves. Whale's shadow visible underwater, massive dark shape 30 feet down. Still alive, swimming home to die. Three boats follow, oars moving in perfect rhythm. The blood trail widens as whale swims, now 50 feet across. Other sea life follows in the blood - seabirds diving, seals surfacing, fish jumping. All following the dying whale. From cliff, can see entire journey mapped in blood. Trail doesn't disperse, stays coherent, bright red. Whale surfaces once to breathe, blowhole spray mixed with blood, pink mist. Continues toward shore. Knows exactly where to beach itself. The blood trail behind looks like an arrow pointing at the village. Sun makes blood appear to glow.
+Scene: View from clifftop, mid-morning. Ocean with blood trail. Boats following. Whale shadow underwater. Clear day.
+Style: High angle from cliff showing blood trail path (that's where the camera is), entire journey visible.
+Dialogue: None
+Sounds: [PRIMARY: Ocean water with blood spreading, oars in rhythm, whale breathing blood spray] [AMBIENT: Seabirds diving, seals following, boats moving through blood] [ABSENT: whale cries, speech]
+Technical (Negative Prompt): no subtitles, show coherent blood trail, whale shadow visible underwater, 1080p

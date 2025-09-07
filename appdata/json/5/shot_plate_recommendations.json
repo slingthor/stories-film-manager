@@ -1,0 +1,258 @@
+{
+  "shot_mappings": {
+    "shot_1b_prologue": {
+      "narrative_context": "SPEARS ENTER FLESH",
+      "recommended_plates": {
+        "characters": {
+          "sigrid": "SIGRID-PURE",
+          "lilja": "LILJA-PURE"
+        },
+        "environment": {}
+      }
+    },
+    "shot_2a_prologue": {
+      "narrative_context": "SHORE DIVISION",
+      "recommended_plates": {
+        "characters": {
+          "sigrid": "SIGRID-PURE",
+          "lilja": "LILJA-PURE"
+        },
+        "environment": {}
+      }
+    },
+    "shot_3a_prologue": {
+      "narrative_context": "ROPE LESSONS",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "breathing_coordination": "Father-son 12/min instruction synchronization",
+      "acting_theme": "Inherited knowledge bypassing conscious learning"
+    },
+    "shot_5_main": {
+      "narrative_context": "EMPTY RAM PEN",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {
+          "interior": "BA\u00d0STOFA-SURVEILLANCE"
+        }
+      },
+      "breathing_coordination": "13/min anxiety as accusation recognized",
+      "acting_theme": "Mathematical guilt affecting family positioning"
+    },
+    "shot_6a_prologue": {
+      "narrative_context": "MAKING PURPLE DRINK",
+      "recommended_plates": {
+        "characters": {
+          "sigrid": "SIGRID-AWAKENING"
+        },
+        "environment": {}
+      },
+      "breathing_coordination": "Women's work synchronization (12-15/min)",
+      "acting_theme": "Traditional food preparation enhanced by contamination"
+    },
+    "shot_9b_prologue": {
+      "narrative_context": "FEAST TO STARVATION TRANSFORMATION",
+      "recommended_plates": {
+        "characters": {
+          "sigrid": "SIGRID-AWAKENING \u2192 SIGRID-MARKED",
+          "lilja": "LILJA-HARMONIC"
+        },
+        "environment": {
+          "weather": "WINTER-HOSTILE"
+        }
+      },
+      "breathing_coordination": "All shifting to 13/min anxiety synchronization",
+      "acting_theme": "Family harmony shattered by supernatural punishment"
+    },
+    "shot_1_main": {
+      "narrative_context": "COSMIC ABANDONMENT",
+      "recommended_plates": {
+        "characters": {
+          "sigrid": "SIGRID-MARKED",
+          "lilja": "LILJA-MATHEMATICAL"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-AERIAL",
+          "sea": "SEA-DIVINE"
+        }
+      }
+    },
+    "shot_8_main": {
+      "narrative_context": "DANISH COUNTING SEQUENCE",
+      "recommended_plates": {
+        "characters": {
+          "sigrid": "SIGRID-CALCULATING",
+          "lilja": "LILJA-MATHEMATICAL"
+        },
+        "environment": {}
+      }
+    },
+    "shot_9_main": {
+      "narrative_context": "DANISH COUNTING SEQUENCE",
+      "recommended_plates": {
+        "characters": {
+          "sigrid": "SIGRID-CALCULATING",
+          "lilja": "LILJA-MATHEMATICAL"
+        },
+        "environment": {}
+      }
+    },
+    "shot_10_main": {
+      "narrative_context": "DANISH COUNTING SEQUENCE",
+      "recommended_plates": {
+        "characters": {
+          "sigrid": "SIGRID-CALCULATING",
+          "lilja": "LILJA-MATHEMATICAL"
+        },
+        "environment": {}
+      }
+    },
+    "shot_11_main": {
+      "narrative_context": "EMPTY BOUNTY",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "breathing_coordination": "15/min stress from scarcity recognition",
+      "acting_theme": "Maternal competence breaking under imperial resource extraction"
+    },
+    "shot_16_main": {
+      "narrative_context": "ONE PERFECT HUMAN MOMENT",
+      "recommended_plates": {
+        "characters": {
+          "sigrid": "SIGRID-PROPHECY"
+        },
+        "environment": {
+          "interior": "BA\u00d0STOFA-PEACEFUL"
+        }
+      },
+      "breathing_coordination": "13/min maternal rhythm, individual peaceful rates for sleeping family",
+      "acting_theme": "Pure human love before horror destroys innocence"
+    },
+    "shot_18_main": {
+      "narrative_context": "DEPARTURE PREPARATIONS",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {
+          "interior": "BA\u00d0STOFA-ORGANIC"
+        }
+      }
+    },
+    "shot_23_main": {
+      "narrative_context": "FOUR CORNERS RITUAL",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    "shot_24_main": {
+      "narrative_context": "FOUR CORNERS RITUAL",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    "shot_39_main": {
+      "narrative_context": "CHILDREN'S HUNGER",
+      "recommended_plates": {
+        "characters": {
+          "lilja": "LILJA-ACCEPTING"
+        },
+        "environment": {
+          "interior": "BA\u00d0STOFA-DESPERATE"
+        }
+      },
+      "breathing_coordination": "18/20/min child stress from impossible nutrition",
+      "acting_theme": "Children adapting to post-human survival techniques"
+    },
+    "shot_55_main": {
+      "narrative_context": "WITNESS MECHANISM BREAKS",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {
+          "interior": "BA\u00d0STOFA-FRAGMENTING"
+        }
+      }
+    },
+    "shot_17_main": {
+      "narrative_context": "THREE-FRAME FLASH",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    "shot_43b_prologue": {
+      "narrative_context": "SHADOW VIOLENCE",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    "shot_45_main": {
+      "narrative_context": "BULL ENCOUNTER",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    "shot_46_main": {
+      "narrative_context": "BULL ENCOUNTER",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    "shot_56_main": {
+      "narrative_context": "FAMILY AS SHEEP REVELATION",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    "shot_57_main": {
+      "narrative_context": "FAMILY AS SHEEP REVELATION",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    "shot_58_main": {
+      "narrative_context": "FAMILY AS SHEEP REVELATION",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    "shot_59_main": {
+      "narrative_context": "FAMILY AS SHEEP REVELATION",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    "shot_60_main": {
+      "narrative_context": "FAMILY AS SHEEP REVELATION",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    "shot_61_main": {
+      "narrative_context": "CAMERA RECOGNIZES ITSELF",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    "shot_3_main": {
+      "recommended_plates": {
+        "characters": {},
+        "environment": {
+          "exterior": "HOUSE-AWAKENING",
+          "interior": "BA\u00d0STOFA-ORGANIC"
+        }
+      }
+    }
+  }
+}

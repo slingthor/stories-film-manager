@@ -1,0 +1,69 @@
+{
+  "last_updated" : "2025-09-06T09:11:17Z",
+  "tracking_systems" : {
+    "character_shadow_behavior" : {
+      "description" : "Shadow physics revealing animal truth",
+      "current_percentage" : 8
+    },
+    "house_consciousness" : {
+      "current_percentage" : 35,
+      "description" : "Bergrisi awareness and biological responses"
+    },
+    "breathing_coordination" : {
+      "current_percentage" : 32,
+      "description" : "Family respiratory synchronization progression"
+    },
+    "klettagja_formation" : {
+      "description" : "Cliff cleft development for Sigrid's escape",
+      "current_percentage" : 15
+    },
+    "light_sources" : {
+      "current_percentage" : 5,
+      "description" : "Illumination evolution organic→industrial→supernatural"
+    },
+    "hakarl_contamination" : {
+      "current_percentage" : 18,
+      "description" : "Traditional food corruption enabling breakdown"
+    },
+    "stain_progression" : {
+      "current_percentage" : 35,
+      "description" : "F4 Liquid contamination marking progression"
+    },
+    "spatial_impossibilities" : {
+      "current_percentage" : 25,
+      "description" : "Mathematical physics violations spreading"
+    },
+    "reality_coherence" : {
+      "current_percentage" : 65,
+      "description" : "Stability of physical laws and logic"
+    },
+    "industrial_contamination" : {
+      "current_percentage" : 22,
+      "description" : "British\/Danish imperial materials spreading"
+    },
+    "memory_degradation" : {
+      "current_percentage" : 5,
+      "description" : "Collective memory accuracy declining"
+    },
+    "color_grading" : {
+      "current_percentage" : 15,
+      "description" : "Film color palette psychological progression"
+    },
+    "weather_hostility" : {
+      "current_percentage" : 10,
+      "description" : "Atmospheric assault on family survival"
+    },
+    "house_dimensions" : {
+      "current_percentage" : 0,
+      "description" : "Baðstofa interior space expansion sensation"
+    },
+    "predatory_landscape" : {
+      "description" : "Environmental hostility toward human survival",
+      "current_percentage" : 15
+    },
+    "temperature_progression" : {
+      "description" : "Environmental and body temperature changes",
+      "current_percentage" : 28
+    }
+  }
+}

@@ -1,0 +1,11 @@
+SHOT 1d/6: THE WAITING SHORE
+Progressive State: Anticipation building | Community preparing | Camera frost 0% | Death approaching | Watching: Everyone knows
+Duration: 8 seconds
+[STITCH from Shot 1c/5: Boats following blood trail]
+Subject: Black sand beach with women and children setting up rendering equipment, large iron cauldrons being positioned, driftwood stacked for fires, everyone's eyes turned toward the ocean watching the approaching blood trail.
+Action: Beach transforms into processing station. Women drag cauldrons across sand, leaving deep grooves. Each cauldron 4 feet wide, iron, ancient. Men who stayed behind stack driftwood in pyramids around cauldrons. Children gather dried kelp for kindling. But no one lights fires yet. Everyone keeps looking at ocean. Blood trail visible from beach now, red line pointing directly at them. GuÃ°rÃºn directs setup with gestures, no words. Points where each cauldron goes. Pattern emerging - seven cauldrons in semicircle. Knives laid out on flat stones. Ropes coiled ready. Wooden flensing boards positioned. Everything prepared but waiting. One child points at ocean - whale's shadow now visible in shallows. Still swimming. Still alive. Everyone stops working. Stands. Watches. The whale knows where to die. Has chosen this exact spot.
+Scene: Black sand beach, preparation area. Morning sun higher. Ocean with approaching blood trail. Village behind beach.
+Style: Wide shot of beach showing preparation (that's where the camera is), blood trail visible in ocean.
+Dialogue: None
+Sounds: [PRIMARY: Cauldrons dragging on sand, wood stacking, metal tools laid out] [AMBIENT: Ocean with blood approaching, everyone breathing together] [ABSENT: fires lit, voices]
+Technical (Negative Prompt): no subtitles, show preparation layout, blood trail approaching, whale shadow in shallows, 1080p

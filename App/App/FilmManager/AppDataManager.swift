@@ -38,7 +38,21 @@ class AppDataManager {
         let jsonBasePath = "/Users/ingthor/Documents/stories/appdata/json"
         let fm = FileManager.default
         
-        // Find the highest numbered directory
+        // First check if 'latest' symlink exists
+        let latestPath = "\(jsonBasePath)/latest"
+        if fm.fileExists(atPath: latestPath) {
+            // Resolve the symlink to get the actual path
+            if let resolvedPath = try? fm.destinationOfSymbolicLink(atPath: latestPath) {
+                let fullPath = resolvedPath.hasPrefix("/") ? resolvedPath : "\(jsonBasePath)/\(resolvedPath)"
+                print("📁 Using 'latest' symlink version: \(fullPath)")
+                print("📁 Latest symlink points to: \(resolvedPath)")
+                return fullPath
+            }
+        } else {
+            print("📁 No 'latest' symlink found at: \(latestPath)")
+        }
+        
+        // If no 'latest' symlink, find the highest numbered directory
         var highestVersion = 0
         if let contents = try? fm.contentsOfDirectory(atPath: jsonBasePath) {
             for item in contents {
@@ -48,13 +62,16 @@ class AppDataManager {
             }
         }
         
-        // Check if we need to create a new version (based on build)
+        // Use the highest version without creating new ones
         let currentVersionPath = "\(jsonBasePath)/\(highestVersion)"
-        let needsNewVersion = highestVersion == 0 || shouldCreateNewVersion(currentPath: currentVersionPath)
+        if highestVersion > 0 && fm.fileExists(atPath: currentVersionPath) {
+            print("📁 Using existing version directory: \(currentVersionPath)")
+            return currentVersionPath
+        }
         
-        if needsNewVersion {
-            let newVersion = highestVersion + 1
-            let newVersionPath = "\(jsonBasePath)/\(newVersion)"
+        // Only create version 1 if no versions exist at all
+        if highestVersion == 0 {
+            let newVersionPath = "\(jsonBasePath)/1"
             
             // Create new version directory
             try? fm.createDirectory(
@@ -70,15 +87,10 @@ class AppDataManager {
                 attributes: nil
             )
             
-            // Copy from previous version if it exists
-            if highestVersion > 0 {
-                copyPreviousVersion(from: currentVersionPath, to: newVersionPath)
-            }
-            
             // Update with latest resources from app bundle
             updateFromAppResources(to: newVersionPath)
             
-            print("📁 Created new version directory: \(newVersionPath)")
+            print("📁 Created initial version directory: \(newVersionPath)")
             return newVersionPath
         }
         
@@ -207,11 +219,11 @@ class AppDataManager {
     }
     
     func characterPlateIndexPath() -> String {
-        return "\(currentVersionPath)/character_plates_index.json"
+        return "\(currentVersionPath)/plates/character_plates_complete.json"
     }
     
     func environmentalPlateIndexPath() -> String {
-        return "\(currentVersionPath)/environmental_plates_index.json"
+        return "\(currentVersionPath)/plates/environmental_plates_complete.json"
     }
     
     func recommendationsPath() -> String {
