@@ -76,18 +76,19 @@ struct ComprehensivePromptEditor: View {
                 HStack(spacing: 8) {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 6) {
-                            ForEach(0..<shot.promptVariants.count, id: \.self) { index in
+                            ForEach(Array(shot.promptVariants.enumerated()), id: \.element.id) { index, variant in
                                 Button {
                                     shot.selectedPromptIndex = index
                                     shot.objectWillChange.send()
+                                    filmManager.objectWillChange.send()
                                 } label: {
                                     HStack {
-                                        if shot.promptVariants[index].isActive {
+                                        if variant.isActive {
                                             Text("★")
                                                 .foregroundColor(.yellow)
                                                 .font(.caption2)
                                         }
-                                        Text(shot.promptVariants[index].name)
+                                        Text(variant.name)
                                             .font(.caption)
                                     }
                                 }
@@ -129,8 +130,12 @@ struct ComprehensivePromptEditor: View {
                                 plateManager: filmManager.plateManager,
                                 showCharacterPlates: $showCharacterPlates,
                                 showEnvironmentPlates: $showEnvironmentPlates,
-                                onUpdate: { shot.isDirty = true }
+                                onUpdate: { 
+                                    shot.isDirty = true
+                                    filmManager.objectWillChange.send()
+                                }
                             )
+                            .id("\(shot.id)-\(shot.selectedPromptIndex)") // Force re-render on shot/variant change
                             
                             // All VEO3 prompt fields
                             Group {
@@ -251,6 +256,46 @@ struct ComprehensivePromptEditor: View {
                             .background(Color.gray.opacity(0.05))
                             .cornerRadius(8)
                             
+                            // Generated Prompt Display (inline)
+                            if showingGeneratedPrompt && !generatedPrompt.isEmpty {
+                                VStack(alignment: .leading, spacing: 8) {
+                                    HStack {
+                                        Label("Generated VEO3 Prompt", systemImage: "doc.text")
+                                            .font(.headline)
+                                        
+                                        Spacer()
+                                        
+                                        Button("Copy") {
+                                            NSPasteboard.general.clearContents()
+                                            NSPasteboard.general.setString(generatedPrompt, forType: .string)
+                                        }
+                                        .buttonStyle(.bordered)
+                                        
+                                        Button("Hide") {
+                                            showingGeneratedPrompt = false
+                                        }
+                                        .buttonStyle(.bordered)
+                                    }
+                                    
+                                    ScrollView {
+                                        Text(generatedPrompt)
+                                            .font(.system(.body, design: .monospaced))
+                                            .textSelection(.enabled)
+                                            .frame(maxWidth: .infinity, alignment: .leading)
+                                            .padding()
+                                    }
+                                    .frame(height: 300)
+                                    .background(Color.black.opacity(0.03))
+                                    .overlay(
+                                        RoundedRectangle(cornerRadius: 6)
+                                            .stroke(Color.gray.opacity(0.3), lineWidth: 1)
+                                    )
+                                }
+                                .padding()
+                                .background(Color.blue.opacity(0.05))
+                                .cornerRadius(8)
+                            }
+                            
                             // Action buttons
                             HStack(spacing: 12) {
                                 Button("Generate Complete Prompt") {
@@ -260,6 +305,8 @@ struct ComprehensivePromptEditor: View {
                                         trackingSystems: filmManager.trackingSystems
                                     )
                                     showingGeneratedPrompt = true
+                                    print("🎬 Generated prompt (\(generatedPrompt.count) chars)")
+                                    print(generatedPrompt)
                                 }
                                 .buttonStyle(.borderedProminent)
                                 
@@ -306,6 +353,16 @@ struct ComprehensivePromptEditor: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }
+        .onChange(of: filmManager.selectedShot?.id) { _ in
+            // Reset expansion states when switching shots
+            showCharacterPlates = false
+            showEnvironmentPlates = false
+        }
+        .onChange(of: filmManager.selectedShot?.selectedPromptIndex) { _ in
+            // Reset expansion states when switching variants
+            showCharacterPlates = false
+            showEnvironmentPlates = false
+        }
         .sheet(isPresented: $showingNewVariantDialog) {
             NewVariantDialog(
                 baseName: shot?.promptVariants[shot?.selectedPromptIndex ?? 0].name ?? "",
@@ -317,6 +374,11 @@ struct ComprehensivePromptEditor: View {
                 onCreate: {
                     if let shot = shot {
                         shot.copyPromptVariant(at: shot.selectedPromptIndex, newName: newVariantName.isEmpty ? nil : newVariantName)
+                        // Force UI update for new prompt variant
+                        filmManager.objectWillChange.send()
+                        // Save the shot immediately after copying the variant
+                        filmManager.fileManager.saveShot(shot)
+                        print("💾 Saved shot after copying prompt variant")
                     }
                     showingNewVariantDialog = false
                     newVariantName = ""
@@ -379,12 +441,47 @@ struct PlateSelectionSection: View {
     @State private var hoveredPlateId: String? = nil
     @State private var expandedCharacter: String? = nil
     @State private var specializationSearch: String = ""
+    @State private var lastVariantId: String = ""
+    
+    // Helper to check if a character has a selected plate
+    private func isCharacterSelected(_ character: String) -> Bool {
+        // Check in the new array structure
+        let charLower = character.lowercased()
+        return variant.selectedPlateIds.contains { plateId in
+            plateId.lowercased().contains(charLower)
+        }
+    }
+    
+    // Helper to get selected plate ID for a character
+    private func getSelectedPlateForCharacter(_ character: String) -> String? {
+        // Find in the new array structure
+        let charLower = character.lowercased()
+        return variant.selectedPlateIds.first { plateId in
+            plateId.lowercased().contains(charLower)
+        }
+    }
+    
+    // Helper to get all environment plates
+    private func getEnvironmentPlates() -> [String] {
+        // Get all plates that are NOT character plates
+        return variant.selectedPlateIds.filter { plateId in
+            let lower = plateId.lowercased()
+            return !lower.contains("magnus") && !lower.contains("sigrid") &&
+                   !lower.contains("gudrun") && !lower.contains("jon") &&
+                   !lower.contains("lilja")
+        }
+    }
     
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("PLATES")
                 .font(.subheadline)
                 .fontWeight(.semibold)
+            
+            // DEBUG: Show what's actually in selectedPlateIds
+            Text("DEBUG: \(variant.selectedPlateIds.count) plates: \(variant.selectedPlateIds.joined(separator: ", "))")
+                .font(.caption2)
+                .foregroundColor(.red)
             
             // Show recommended plates if available
             if !variant.recommendedPlates.isEmpty {
@@ -406,17 +503,26 @@ struct PlateSelectionSection: View {
                         HStack {
                             // Plus/Minus button
                             Button(action: {
-                                if variant.selectedCharacterPlateId == mainPlate.plateId {
-                                    // Remove character
-                                    variant.selectedCharacterPlateId = nil
+                                let charLower = mainPlate.character.lowercased()
+                                
+                                if isCharacterSelected(mainPlate.character) {
+                                    // Remove all plates for this character
+                                    variant.selectedPlateIds.removeAll { plateId in
+                                        plateId.lowercased().contains(charLower)
+                                    }
+                                    if variant.selectedCharacterPlateId?.lowercased().contains(charLower) == true {
+                                        variant.selectedCharacterPlateId = nil
+                                    }
                                 } else {
-                                    // Add character (main plate by default)
+                                    // Add character's main plate
+                                    variant.selectedPlateIds.append(mainPlate.plateId)
                                     variant.selectedCharacterPlateId = mainPlate.plateId
                                 }
+                                
                                 onUpdate()
                             }) {
-                                Image(systemName: variant.selectedCharacterPlateId == mainPlate.plateId ? "minus.circle.fill" : "plus.circle")
-                                    .foregroundColor(variant.selectedCharacterPlateId == mainPlate.plateId ? .blue : .gray)
+                                Image(systemName: isCharacterSelected(mainPlate.character) ? "minus.circle.fill" : "plus.circle")
+                                    .foregroundColor(isCharacterSelected(mainPlate.character) ? .blue : .gray)
                                     .font(.system(size: 16))
                             }
                             .buttonStyle(PlainButtonStyle())
@@ -425,13 +531,10 @@ struct PlateSelectionSection: View {
                             Text(mainPlate.character)
                                 .font(.caption)
                                 .fontWeight(.medium)
-                                .foregroundColor(variant.selectedCharacterPlateId == mainPlate.plateId ? .blue : .primary)
+                                .foregroundColor(isCharacterSelected(mainPlate.character) ? .blue : .primary)
                             
                             // If character is selected, show specialization selector
-                            if variant.selectedCharacterPlateId == mainPlate.plateId || 
-                               plateManager.characterPlates.contains(where: { 
-                                   $0.character == mainPlate.character && $0.plateId == variant.selectedCharacterPlateId 
-                               }) {
+                            if isCharacterSelected(mainPlate.character) {
                                 
                                 // Plus button for specialization
                                 Button(action: {
@@ -444,8 +547,8 @@ struct PlateSelectionSection: View {
                                 .buttonStyle(PlainButtonStyle())
                                 
                                 // Show current selection
-                                if let selectedId = variant.selectedCharacterPlateId,
-                                   let selectedPlate = plateManager.characterPlates.first(where: { $0.plateId == selectedId && $0.character == mainPlate.character }) {
+                                if let selectedId = getSelectedPlateForCharacter(mainPlate.character),
+                                   let selectedPlate = plateManager.characterPlates.first(where: { $0.plateId == selectedId }) {
                                     HStack(spacing: 4) {
                                         Text(selectedPlate.name)
                                             .font(.caption2)
@@ -474,10 +577,16 @@ struct PlateSelectionSection: View {
                         if expandedCharacter == mainPlate.character {
                             SpecializationPicker(
                                 character: mainPlate.character,
-                                currentSelection: variant.selectedCharacterPlateId,
+                                currentSelection: getSelectedPlateForCharacter(mainPlate.character),
                                 plateManager: plateManager,
                                 searchText: $specializationSearch,
                                 onSelect: { plateId in
+                                    // Remove old plate for this character
+                                    let charLower = mainPlate.character.lowercased()
+                                    variant.selectedPlateIds.removeAll { $0.lowercased().contains(charLower) }
+                                    
+                                    // Add new plate
+                                    variant.selectedPlateIds.append(plateId)
                                     variant.selectedCharacterPlateId = plateId
                                     expandedCharacter = nil
                                     specializationSearch = ""
@@ -489,38 +598,58 @@ struct PlateSelectionSection: View {
                     }
                 }
                 
-                // Environment plate
-                HStack {
+                // Environment plates - show ALL selected
+                HStack(alignment: .top) {
                     Text("Environment:")
                         .font(.caption)
                         .frame(width: 80, alignment: .leading)
+                        .padding(.top, 4)
                     
-                    if let plateId = variant.selectedEnvironmentPlateId,
-                       let plate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
-                        HStack {
-                            Text("\(plate.category) - \(plate.name)")
-                                .font(.caption)
-                                .padding(.horizontal, 8)
-                                .padding(.vertical, 4)
-                                .background(Color.green.opacity(0.2))
-                                .cornerRadius(4)
-                            
-                            Button(action: {
-                                variant.selectedEnvironmentPlateId = nil
-                                onUpdate()
-                            }) {
-                                Image(systemName: "xmark.circle.fill")
-                                    .font(.caption)
-                                    .foregroundColor(.gray)
+                    VStack(alignment: .leading, spacing: 4) {
+                        // Show all selected environment plates
+                        let envPlates = getEnvironmentPlates()
+                        if !envPlates.isEmpty {
+                            ForEach(envPlates, id: \.self) { plateId in
+                                if let plate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
+                                    HStack(spacing: 2) {
+                                        Text("\(plate.category): \(plate.name)")
+                                            .font(.caption2)
+                                            .lineLimit(1)
+                                            .padding(.horizontal, 6)
+                                            .padding(.vertical, 3)
+                                            .background(Color.green.opacity(0.2))
+                                            .cornerRadius(3)
+                                            .help(plate.description) // Native tooltip
+                                        
+                                        Button(action: {
+                                            // Remove this environment plate
+                                            variant.selectedPlateIds.removeAll { $0 == plateId }
+                                            if variant.selectedEnvironmentPlateId == plateId {
+                                                variant.selectedEnvironmentPlateId = nil
+                                            }
+                                            onUpdate()
+                                        }) {
+                                            Image(systemName: "xmark.circle.fill")
+                                                .font(.system(size: 11))
+                                                .foregroundColor(.gray)
+                                        }
+                                        .buttonStyle(PlainButtonStyle())
+                                    }
+                                }
                             }
-                            .buttonStyle(PlainButtonStyle())
                         }
-                    } else {
-                        Button("Select Environment Plate") {
-                            showEnvironmentPlates.toggle()
+                        
+                        // Always show the add button
+                        Button(action: { showEnvironmentPlates.toggle() }) {
+                            HStack(spacing: 4) {
+                                Image(systemName: "plus.circle")
+                                    .font(.system(size: 12))
+                                Text("Add Environment Plate")
+                                    .font(.caption2)
+                            }
                         }
-                        .font(.caption)
                         .buttonStyle(BorderedButtonStyle())
+                        .controlSize(.small)
                     }
                     
                     Spacer()
@@ -543,6 +672,18 @@ struct PlateSelectionSection: View {
         .padding()
         .background(Color.gray.opacity(0.05))
         .cornerRadius(8)
+        .onAppear {
+            lastVariantId = variant.variantId
+        }
+        .onChange(of: variant.variantId) { newVariantId in
+            if newVariantId != lastVariantId {
+                // Reset expansion states when variant changes
+                expandedCharacter = nil
+                hoveredPlateId = nil
+                specializationSearch = ""
+                lastVariantId = newVariantId
+            }
+        }
     }
 }
 

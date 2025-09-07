@@ -75,11 +75,15 @@ struct PlateBrowserPanel: View {
     let onReadPlate: (String) -> Void
     
     var charactersByName: [String: [CharacterPlate]] {
-        Dictionary(grouping: filmManager.plateManager.characterPlates) { $0.character }
+        let grouped = Dictionary(grouping: filmManager.plateManager.characterPlates) { $0.character }
+        print("🎭 PlateManagementView: \(filmManager.plateManager.characterPlates.count) character plates, grouped into \(grouped.count) characters")
+        return grouped
     }
     
     var environmentsByCategory: [String: [EnvironmentalPlate]] {
-        Dictionary(grouping: filmManager.plateManager.environmentalPlates) { $0.category }
+        let grouped = Dictionary(grouping: filmManager.plateManager.environmentalPlates) { $0.category }
+        print("🌍 PlateManagementView: \(filmManager.plateManager.environmentalPlates.count) environmental plates, grouped into \(grouped.count) categories: \(grouped.keys.joined(separator: ", "))")
+        return grouped
     }
     
     var body: some View {
@@ -240,9 +244,12 @@ struct CharacterGroupView: View {
     private func isPlateSelectedInShot(_ plateId: String) -> Bool {
         guard let shot = selectedShot,
               let variant = shot.promptVariants.first(where: { $0.isActive }) ?? shot.promptVariants.first else {
+            print("🔍 CharacterGroup.isPlateSelectedInShot(\(plateId)): no shot or variant")
             return false
         }
-        return variant.selectedCharacterPlateId == plateId
+        let isSelected = variant.selectedCharacterPlateId == plateId
+        print("🔍 CharacterGroup.isPlateSelectedInShot(\(plateId)): comparing with selectedCharacterPlateId=\(String(describing: variant.selectedCharacterPlateId)) -> \(isSelected)")
+        return isSelected
     }
     
     private func selectPlateForShot(_ plateId: String) {
@@ -317,9 +324,12 @@ struct EnvironmentGroupView: View {
     private func isPlateSelectedInShot(_ plateId: String) -> Bool {
         guard let shot = selectedShot,
               let variant = shot.promptVariants.first(where: { $0.isActive }) ?? shot.promptVariants.first else {
+            print("🔍 EnvironmentGroup.isPlateSelectedInShot(\(plateId)): no shot or variant")
             return false
         }
-        return variant.selectedEnvironmentPlateId == plateId
+        let isSelected = variant.selectedEnvironmentPlateId == plateId
+        print("🔍 EnvironmentGroup.isPlateSelectedInShot(\(plateId)): comparing with selectedEnvironmentPlateId=\(String(describing: variant.selectedEnvironmentPlateId)) -> \(isSelected)")
+        return isSelected
     }
     
     private func selectPlateForShot(_ plateId: String) {

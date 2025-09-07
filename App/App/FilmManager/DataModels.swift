@@ -19,6 +19,7 @@ class FilmManager: ObservableObject {
     
     let fileManager = FilmFileManager()
     let plateManager = PlateManager()
+    let appDataManager = AppDataManager.shared
     private var autoSaveTimer: Timer?
     private var cancellables = Set<AnyCancellable>()
     
@@ -78,9 +79,34 @@ class FilmManager: ObservableObject {
     private func loadAllShotsFromDirectory() -> [FilmShot] {
         var loadedShots: [FilmShot] = []
         
-        // Try to load from app bundle first
+        // First, try to load from external appdata directory (our updated files)
+        let externalShotsPath = "\(appDataManager.currentVersionPath)/shots/json"
+        print("📦 Attempting to load from external appdata: \(externalShotsPath)")
+        
+        // Debug: Check if directory exists and list some contents
+        if FileManager.default.fileExists(atPath: externalShotsPath) {
+            print("📁 External directory exists")
+            if let files = try? FileManager.default.contentsOfDirectory(atPath: externalShotsPath) {
+                let shotFiles = files.filter { $0.hasSuffix(".json") && $0.contains("shot_") }
+                print("📁 Found \(shotFiles.count) shot files in external directory")
+                print("📁 Sample files: \(Array(shotFiles.prefix(3)))")
+            }
+        } else {
+            print("❌ External directory does not exist: \(externalShotsPath)")
+        }
+        
+        if let files = try? FileManager.default.contentsOfDirectory(atPath: externalShotsPath) {
+            let jsonFiles = files.filter { $0.hasSuffix(".json") && $0.contains("shot_") }
+            if !jsonFiles.isEmpty {
+                print("✅ Loading \(jsonFiles.count) shots from external appdata")
+                loadedShots = loadShotsFromFiles(jsonFiles, directory: externalShotsPath)
+                return loadedShots
+            }
+        }
+        
+        // If no external shots, try to load from app bundle as fallback
         if let bundlePath = Bundle.main.resourcePath {
-            print("📦 Attempting to load from app bundle")
+            print("📦 Attempting to load from app bundle (fallback)")
             
             // Try both possible locations
             let possiblePaths = [
@@ -174,6 +200,11 @@ class FilmManager: ObservableObject {
             shot.narrativeFunction = metadata["narrative_function"] as? String ?? ""
             shot.progressiveState = json["progressive_state"] as? String ?? ""
             
+            // Load aspect ratio
+            let aspectRatio = json["aspect_ratio"] as? String ?? "16:9"
+            shot.aspectRatio = aspectRatio
+            print("📐 Shot \(id): loaded aspect ratio '\(aspectRatio)' from JSON")
+            
             // Load prompt variants
             if let prompts = json["prompt_variants"] as? [[String: Any]], !prompts.isEmpty {
                 shot.promptVariants = []
@@ -189,6 +220,25 @@ class FilmManager: ObservableObject {
                     variant.dialogue = prompt["dialogue"] as? String ?? ""
                     variant.cameraPosition = prompt["camera_position"] as? String ?? ""
                     variant.negativePrompt = prompt["negative_prompt"] as? String ?? ""
+                    
+                    // Load selected plates from the selected_plates array
+                    if let selectedPlatesArray = prompt["selected_plates"] as? [String] {
+                        variant.selectedPlateIds = selectedPlatesArray
+                        print("📚 Shot \(id): loaded \(selectedPlatesArray.count) plates from selected_plates array")
+                        print("   Plates: \(selectedPlatesArray.joined(separator: ", "))")
+                    } else {
+                        // Fallback to old format (both camelCase and snake_case)
+                        variant.selectedPlateIds = []
+                        if let charPlateId = prompt["selectedCharacterPlateId"] as? String ?? prompt["selected_character_plate_id"] as? String {
+                            variant.selectedCharacterPlateId = charPlateId
+                            print("🎭 Shot \(id): loaded selectedCharacterPlateId: '\(charPlateId)'")
+                        }
+                        if let envPlateId = prompt["selectedEnvironmentPlateId"] as? String ?? prompt["selected_environment_plate_id"] as? String {
+                            variant.selectedEnvironmentPlateId = envPlateId
+                            print("🌍 Shot \(id): loaded selectedEnvironmentPlateId: '\(envPlateId)'")
+                        }
+                    }
+                    
                     shot.promptVariants.append(variant)
                 }
             }
@@ -680,6 +730,7 @@ class PromptVariant: ObservableObject, Identifiable {
     @Published var negativePrompt: String = ""
     @Published var recommendedPlates: [String: Any] = [:]
     @Published var selectedPlates: [String: Any] = [:]
+    @Published var selectedPlateIds: [String] = []  // New array-based plate storage
     @Published var progressiveState: String = ""
     @Published var isActive: Bool = false
     @Published var selectedCharacterPlateId: String?
@@ -747,15 +798,30 @@ class PromptVariant: ObservableObject, Identifiable {
         promptText += "SUBJECT:\n"
         var subjectContent = subject
         
-        // Add character plate description to subject if selected
+        // Add character and environmental plates at the END of subject section
+        var plateAdditions = ""
+        
+        // Add character plate description if selected
         if let plateId = selectedCharacterPlateId, 
            let plateManager = plateManager,
            let plate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
-            if !subjectContent.isEmpty { subjectContent += " " }
-            subjectContent += plate.description
+            plateAdditions += " " + plate.description
         } else if !customCharacterPlate.isEmpty {
-            if !subjectContent.isEmpty { subjectContent += " " }
-            subjectContent += customCharacterPlate
+            plateAdditions += " " + customCharacterPlate
+        }
+        
+        // Add environmental plate if selected
+        if let plateId = selectedEnvironmentPlateId,
+           let plateManager = plateManager,
+           let plate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
+            plateAdditions += " " + plate.description
+        } else if !customEnvironmentPlate.isEmpty {
+            plateAdditions += " " + customEnvironmentPlate
+        }
+        
+        // Combine subject with plates at the end
+        if !plateAdditions.isEmpty {
+            subjectContent += plateAdditions
         }
         
         promptText += "\(subjectContent)\n\n"
@@ -764,21 +830,7 @@ class PromptVariant: ObservableObject, Identifiable {
         promptText += "ACTION:\n\(action)\n\n"
         
         // SCENE section
-        promptText += "SCENE:\n"
-        var sceneContent = scene
-        
-        // Add environmental plate to scene if selected
-        if let plateId = selectedEnvironmentPlateId,
-           let plateManager = plateManager,
-           let plate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
-            if !sceneContent.isEmpty { sceneContent += " " }
-            sceneContent += plate.description
-        } else if !customEnvironmentPlate.isEmpty {
-            if !sceneContent.isEmpty { sceneContent += " " }
-            sceneContent += customEnvironmentPlate
-        }
-        
-        promptText += "\(sceneContent)\n\n"
+        promptText += "SCENE:\n\(scene)\n\n"
         
         // STYLE section with camera position
         promptText += "STYLE:\n"
@@ -797,14 +849,18 @@ class PromptVariant: ObservableObject, Identifiable {
         // For now, we can extract from negative prompt or leave empty
         if !negativePrompt.isEmpty && negativePrompt.lowercased().contains("sound") {
             promptText += "SOUNDS:\n\(negativePrompt)\n\n"
+        } else {
+            // Add empty SOUNDS section for consistency
+            promptText += "SOUNDS:\n[Audio notes to be added]\n\n"
         }
+        
+        // ASPECT section
+        promptText += "ASPECT:\n\(shot.aspectRatio)\n\n"
         
         // Technical information at the end
         promptText += """
-        
         --- TECHNICAL INFO ---
         Duration: \(shot.duration) seconds
-        Aspect Ratio: \(shot.aspectRatio)
         Shot Position: \(Int(shot.position))% through film
         Sequence Type: \(shot.sequenceType)
         """
@@ -937,7 +993,12 @@ class PlateManager: ObservableObject {
     private let enhancementsPath = "/Users/ingthor/Documents/stories/enhancements"
     
     init() {
+        print("🚀 PlateManager init - loading plates...")
         loadPlatesFromJSON()
+        print("📊 PlateManager loaded: \(mainCharacterPlates.count) main character plates")
+        if mainCharacterPlates.isEmpty {
+            print("⚠️ WARNING: No main character plates loaded!")
+        }
     }
     
     func loadPlatesFromJSON() {
@@ -955,9 +1016,12 @@ class PlateManager: ObservableObject {
     private func loadCharacterPlatesFromJSON() {
         // Load from versioned directory
         let path = AppDataManager.shared.characterPlateIndexPath()
+        print("🔍 Loading character plates from: \(path)")
+        print("   File exists: \(FileManager.default.fileExists(atPath: path))")
         
         if true {  // Keep structure for consistency
             if let data = FileManager.default.contents(atPath: path) {
+                print("   ✅ Loaded file data (\(data.count) bytes)")
                 do {
                     let json = try JSONSerialization.jsonObject(with: data) as? [String: Any]
                     
@@ -987,11 +1051,33 @@ class PlateManager: ObservableObject {
                             var mainPlateData: (plateId: String, plateInfo: [String: Any])?
                             var specializationDatas: [(plateId: String, plateInfo: [String: Any])] = []
                             
+                            // If no plate has is_master, use the first one as main
+                            var hasExplicitMaster = false
                             for plateData in plateDatas {
                                 if plateData.plateInfo["is_master"] as? Bool ?? false {
                                     mainPlateData = plateData
+                                    hasExplicitMaster = true
                                 } else {
                                     specializationDatas.append(plateData)
+                                }
+                            }
+                            
+                            // If no explicit master, look for "PLATE 1" or character_1 pattern
+                            if !hasExplicitMaster && !plateDatas.isEmpty {
+                                // First try to find PLATE 1
+                                for plateData in plateDatas {
+                                    let name = plateData.plateInfo["name"] as? String ?? ""
+                                    if name == "PLATE 1" || plateData.plateId == "\(character)_1" {
+                                        mainPlateData = plateData
+                                        specializationDatas = plateDatas.filter { $0.plateId != plateData.plateId }
+                                        break
+                                    }
+                                }
+                                
+                                // If still no main plate, use first one
+                                if mainPlateData == nil {
+                                    mainPlateData = plateDatas.first
+                                    specializationDatas = Array(plateDatas.dropFirst())
                                 }
                             }
                             
@@ -1042,6 +1128,9 @@ class PlateManager: ObservableObject {
                         
                         print("📚 Loaded \(characterPlates.count) character plates from JSON at: \(path)")
                         print("👤 Found \(mainCharacterPlates.count) main character plates")
+                        for plate in mainCharacterPlates {
+                            print("   - \(plate.character): \(plate.plateId)")
+                        }
                         return
                     }
                 } catch {
@@ -1058,22 +1147,30 @@ class PlateManager: ObservableObject {
     private func loadEnvironmentalPlatesFromJSON() {
         // Load from versioned directory
         let path = AppDataManager.shared.environmentalPlateIndexPath()
+        print("🔍 Loading environmental plates from: \(path)")
+        print("   File exists: \(FileManager.default.fileExists(atPath: path))")
         
         if true {  // Keep structure for consistency
             if let data = FileManager.default.contents(atPath: path) {
+                print("   ✅ Loaded environmental file data (\(data.count) bytes)")
                 do {
                     let json = try JSONSerialization.jsonObject(with: data) as? [String: Any]
+                    print("   📝 JSON keys: \(json?.keys.joined(separator: ", ") ?? "none")")
                     
                     if let plateIndex = json?["plate_index"] as? [String: Any] {
+                        print("   🔍 Found plate_index with \(plateIndex.count) entries")
                         // Clear existing plates
                         environmentalPlates.removeAll()
                         
                         for (plateId, plateData) in plateIndex {
                             if let plateInfo = plateData as? [String: Any] {
+                                let category = plateInfo["category"] as? String ?? ""
+                                print("   ➕ Adding environmental plate: \(plateId) (category: '\(category)')")
+                                
                                 let plate = EnvironmentalPlate(
                                     plateId: plateId,
                                     name: plateInfo["name"] as? String ?? plateId,
-                                    category: plateInfo["type"] as? String ?? "",
+                                    category: category,
                                     description: plateInfo["description"] as? String ?? "",
                                     atmosphere: "",
                                     media: []
@@ -1085,6 +1182,8 @@ class PlateManager: ObservableObject {
                         
                         print("🌍 Loaded \(environmentalPlates.count) environmental plates from JSON at: \(path)")
                         return
+                    } else {
+                        print("   ❌ No 'plate_index' found in JSON")
                     }
                 } catch {
                     print("❌ Error loading environmental plates from JSON at \(path): \(error)")
@@ -1126,6 +1225,12 @@ class PlateManager: ObservableObject {
     func saveCharacterPlates() {
         let path = AppDataManager.shared.characterPlateIndexPath()
         
+        // Check if we're using the complete system - don't overwrite complete files with reduced set
+        if path.contains("complete.json") && characterPlates.count < 50 {
+            print("🚫 Preventing overwrite of complete character plates file (has \(characterPlates.count) plates, expected 100+)")
+            return
+        }
+        
         var plateIndex: [String: Any] = [:]
         
         // Save all character plates
@@ -1141,13 +1246,15 @@ class PlateManager: ObservableObject {
         
         let json: [String: Any] = [
             "plate_index": plateIndex,
-            "last_updated": ISO8601DateFormatter().string(from: Date())
+            "last_updated": ISO8601DateFormatter().string(from: Date()),
+            "_complete_system": characterPlates.count > 50,
+            "_total_plates": characterPlates.count
         ]
         
         do {
             let data = try JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
             try data.write(to: URL(fileURLWithPath: path))
-            print("💾 Saved character plates to \(path)")
+            print("💾 Saved \(characterPlates.count) character plates to \(path)")
         } catch {
             print("❌ Error saving character plates: \(error)")
         }
@@ -1155,6 +1262,12 @@ class PlateManager: ObservableObject {
     
     func saveEnvironmentalPlates() {
         let path = AppDataManager.shared.environmentalPlateIndexPath()
+        
+        // Check if we're using the complete system - don't overwrite complete files with reduced set
+        if path.contains("complete.json") && environmentalPlates.count < 20 {
+            print("🚫 Preventing overwrite of complete environmental plates file (has \(environmentalPlates.count) plates, expected 40+)")
+            return
+        }
         
         var plateIndex: [String: Any] = [:]
         
@@ -1169,13 +1282,15 @@ class PlateManager: ObservableObject {
         
         let json: [String: Any] = [
             "plate_index": plateIndex,
-            "last_updated": ISO8601DateFormatter().string(from: Date())
+            "last_updated": ISO8601DateFormatter().string(from: Date()),
+            "_complete_system": environmentalPlates.count > 20,
+            "_total_plates": environmentalPlates.count
         ]
         
         do {
             let data = try JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
             try data.write(to: URL(fileURLWithPath: path))
-            print("💾 Saved environmental plates to \(path)")
+            print("💾 Saved \(environmentalPlates.count) environmental plates to \(path)")
         } catch {
             print("❌ Error saving environmental plates: \(error)")
         }
@@ -1577,10 +1692,30 @@ class FilmFileManager {
             shot.narrativeFunction = narrativeFunction
             shot.stitchFrom = stitchFrom
             shot.progressiveState = jsonDict["progressive_state"] as? String ?? ""
+            let aspectRatio = jsonDict["aspect_ratio"] as? String ?? "16:9"
+            shot.aspectRatio = aspectRatio
+            print("📐 Shot \(id): loaded aspect ratio '\(aspectRatio)' from JSON")
             
-            // Parse prompt variants
+            // Parse prompt variants inline since this function is only used for OLD format
             if let promptVariants = jsonDict["prompt_variants"] as? [[String: Any]] {
-                shot.promptVariants = parsePromptVariants(promptVariants, shotId: id)
+                shot.promptVariants = []
+                for variant in promptVariants {
+                    let variantId = variant["variant_id"] as? String ?? "\(id)_variant"
+                    let name = variant["variant_name"] as? String ?? "Primary"
+                    let promptVariant = PromptVariant(
+                        variantId: variantId,
+                        name: name,
+                        subject: variant["subject"] as? String ?? "",
+                        action: variant["action"] as? String ?? "",
+                        scene: variant["scene"] as? String ?? "",
+                        style: variant["style"] as? String ?? ""
+                    )
+                    promptVariant.selectedPlateIds = []
+                    if let selectedPlatesArray = variant["selected_plates"] as? [String] {
+                        promptVariant.selectedPlateIds = selectedPlatesArray
+                    }
+                    shot.promptVariants.append(promptVariant)
+                }
             } else {
                 print("⚠️ No prompt variants found for shot \(id)")
                 // Create a default prompt variant
@@ -1597,12 +1732,18 @@ class FilmFileManager {
         return nil
     }
     
-    private func parsePromptVariants(_ variants: [[String: Any]], shotId: String) -> [PromptVariant] {
+    // REMOVED: parsePromptVariants function - now handled inline in loadShotsFromFiles
+    
+    private func REMOVED_parsePromptVariants(_ variants: [[String: Any]], shotId: String) -> [PromptVariant] {
+        print("🎯 parsePromptVariants called for shot \(shotId) with \(variants.count) variants")
         var promptVariants: [PromptVariant] = []
+        
+        print("🔍 Parsing \(variants.count) prompt variants for shot: \(shotId)")
         
         for (index, variant) in variants.enumerated() {
             let variantId = variant["variant_id"] as? String ?? "\(shotId)_\(index)"
             let name = variant["variant_name"] as? String ?? "Variant \(index + 1)"
+            print("  📄 Parsing variant \(index): \(variantId)")
             let subject = variant["subject"] as? String ?? ""
             let action = variant["action"] as? String ?? ""
             let scene = variant["scene"] as? String ?? ""
@@ -1621,12 +1762,117 @@ class FilmFileManager {
             promptVariant.dialogue = variant["dialogue"] as? String ?? ""
             promptVariant.negativePrompt = variant["negative_prompt"] as? String ?? ""
             
+            // Initialize selectedPlateIds array
+            promptVariant.selectedPlateIds = []
+            
             // Load plate information
             if let recommendedPlates = variant["recommended_plates"] as? [String: Any] {
                 promptVariant.recommendedPlates = recommendedPlates
             }
-            if let selectedPlates = variant["selected_plates"] as? [String: Any] {
+            
+            // Handle new array-based plate structure
+            print("🔍 Looking for selected_plates in variant: \(variant.keys)")
+            if let selectedPlatesArray = variant["selected_plates"] as? [String] {
+                // This is the new structure - just an array of plate IDs
+                print("✅ Found selected_plates array with \(selectedPlatesArray.count) items")
+                promptVariant.selectedPlateIds = selectedPlatesArray
+                
+                // For backward compatibility, set the first plates as character/environment
+                // Note: Proper type detection would require plateManager access here
+                // For now, we use a simple heuristic based on plate naming
+                for plateId in selectedPlatesArray {
+                    // Simple heuristic: if the plate contains a character name, it's a character plate
+                    let lowerPlateId = plateId.lowercased()
+                    if (lowerPlateId.contains("magnus") || lowerPlateId.contains("sigrid") || 
+                        lowerPlateId.contains("gudrun") || lowerPlateId.contains("jon") || 
+                        lowerPlateId.contains("lilja")) {
+                        if promptVariant.selectedCharacterPlateId == nil {
+                            promptVariant.selectedCharacterPlateId = plateId
+                        }
+                    } else {
+                        // Otherwise assume it's an environment plate
+                        if promptVariant.selectedEnvironmentPlateId == nil {
+                            promptVariant.selectedEnvironmentPlateId = plateId
+                        }
+                    }
+                }
+                print("📍 Loaded plate IDs for variant \(promptVariant.variantId): \(selectedPlatesArray)")
+                
+            } else if let selectedPlates = variant["selected_plates"] as? [String: Any] {
+                // Handle old nested structure for backward compatibility
                 promptVariant.selectedPlates = selectedPlates
+                
+                // Sync individual plate IDs from the selectedPlates dictionary
+                if let charPlates = selectedPlates["characters"] as? [String: String] {
+                    // Look for the specialized plate that matches this shot
+                    // Check if there's a plate specifically for this shot's main character
+                    
+                    // First, try to identify the main character from the variant's references
+                    var mainCharacter: String? = nil
+                    if let charPlatesRef = variant["character_plates"] as? [String: Any],
+                       let referenced = charPlatesRef["referenced"] as? [String] {
+                        // Extract character from referenced plates (e.g., "MAGNUS-CONFUSED" -> "magnus")
+                        for ref in referenced {
+                            for charName in ["magnus", "sigrid", "gudrun", "jon", "lilja"] {
+                                if ref.lowercased().contains(charName) {
+                                    mainCharacter = charName
+                                    break
+                                }
+                            }
+                            if mainCharacter != nil { break }
+                        }
+                    }
+                    
+                    // If we found a main character, use their specialized plate
+                    if let character = mainCharacter,
+                       let plateId = charPlates[character] {
+                        promptVariant.selectedCharacterPlateId = plateId
+                        print("📍 Set selectedCharacterPlateId to specialized plate: \(plateId) for character: \(character) in variant: \(promptVariant.variantId)")
+                    } else if let firstEntry = charPlates.first {
+                        // Fallback: use the first available specialized plate
+                        promptVariant.selectedCharacterPlateId = firstEntry.value
+                        print("📍 Set selectedCharacterPlateId to: \(firstEntry.value) (character: \(firstEntry.key)) for variant: \(promptVariant.variantId)")
+                    }
+                    
+                    print("📍 Final selectedCharacterPlateId: \(String(describing: promptVariant.selectedCharacterPlateId))")
+                    
+                    if !charPlates.isEmpty {
+                        print("   All specialized plates for this shot: \(charPlates)")
+                    }
+                }
+                
+                if let envPlates = selectedPlates["environment"] as? [String: String] {
+                    // Priority for environment: interior > landscape > weather > sea
+                    let priorityOrder = ["interior", "landscape", "weather", "sea"]
+                    var selectedEnv: String? = nil
+                    
+                    for priority in priorityOrder {
+                        if let plateId = envPlates[priority] {
+                            selectedEnv = plateId
+                            break
+                        }
+                    }
+                    
+                    // Fallback to first if no priority match
+                    if selectedEnv == nil, let firstEnv = envPlates.keys.first {
+                        selectedEnv = envPlates[firstEnv]
+                    }
+                    
+                    if let plateId = selectedEnv {
+                        promptVariant.selectedEnvironmentPlateId = plateId
+                        print("📍 Set selectedEnvironmentPlateId to: \(plateId) for variant: \(promptVariant.variantId)")
+                    }
+                }
+            }
+            
+            // Also check for the individual plate ID fields (both camelCase and snake_case)
+            if let charPlateId = variant["selectedCharacterPlateId"] as? String ?? variant["selected_character_plate_id"] as? String {
+                promptVariant.selectedCharacterPlateId = charPlateId
+                print("🎭 Shot \(shotId): loaded selectedCharacterPlateId: '\(charPlateId)'")
+            }
+            if let envPlateId = variant["selectedEnvironmentPlateId"] as? String ?? variant["selected_environment_plate_id"] as? String {
+                promptVariant.selectedEnvironmentPlateId = envPlateId
+                print("🌍 Shot \(shotId): loaded selectedEnvironmentPlateId: '\(envPlateId)'")
             }
             
             // Set first variant as active by default
@@ -1681,7 +1927,7 @@ class FilmFileManager {
         // Prompt variants
         var promptVariantsJSON: [[String: Any]] = []
         for variant in shot.promptVariants {
-            promptVariantsJSON.append([
+            var variantDict: [String: Any] = [
                 "variant_id": variant.variantId,
                 "variant_name": variant.name,
                 "subject": variant.subject,
@@ -1690,10 +1936,58 @@ class FilmFileManager {
                 "style": variant.style,
                 "camera_position": variant.cameraPosition,
                 "dialogue": variant.dialogue,
-                "negative_prompt": variant.negativePrompt
-            ])
+                "negative_prompt": variant.negativePrompt,
+                "progressive_state": variant.progressiveState,
+                "is_active": variant.isActive
+            ]
+            
+            // Add plate-related fields
+            if !variant.recommendedPlates.isEmpty {
+                variantDict["recommended_plates"] = variant.recommendedPlates
+            }
+            
+            // Use new array-based structure for selected plates
+            if !variant.selectedPlateIds.isEmpty {
+                // Use the new array directly
+                variantDict["selected_plates"] = variant.selectedPlateIds
+            } else {
+                // Fallback: build array from individual selections if selectedPlateIds is empty
+                var plateIds: [String] = []
+                
+                if let charPlateId = variant.selectedCharacterPlateId {
+                    plateIds.append(charPlateId)
+                }
+                
+                if let envPlateId = variant.selectedEnvironmentPlateId {
+                    plateIds.append(envPlateId)
+                }
+                
+                if !plateIds.isEmpty {
+                    variantDict["selected_plates"] = plateIds
+                }
+            }
+            
+            // Also save individual plate IDs for backward compatibility
+            if let plateId = variant.selectedCharacterPlateId {
+                variantDict["selected_character_plate_id"] = plateId
+            }
+            if let plateId = variant.selectedEnvironmentPlateId {
+                variantDict["selected_environment_plate_id"] = plateId
+            }
+            if !variant.customCharacterPlate.isEmpty {
+                variantDict["custom_character_plate"] = variant.customCharacterPlate
+            }
+            if !variant.customEnvironmentPlate.isEmpty {
+                variantDict["custom_environment_plate"] = variant.customEnvironmentPlate
+            }
+            
+            promptVariantsJSON.append(variantDict)
         }
         json["prompt_variants"] = promptVariantsJSON
+        
+        // Also save the selected prompt index and aspect ratio
+        json["selected_prompt_index"] = shot.selectedPromptIndex
+        json["aspect_ratio"] = shot.aspectRatio
         
         // Write to shots directory
         do {
