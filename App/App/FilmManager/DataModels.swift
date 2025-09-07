@@ -195,6 +195,9 @@ class FilmManager: ObservableObject {
                 style: ""
             )
             
+            // Store the original file path so we can save back to the same location
+            shot.originalFilePath = filepath
+            
             // Set additional properties
             shot.duration = (metadata["duration_seconds"] as? Int) ?? 8
             shot.narrativeFunction = metadata["narrative_function"] as? String ?? ""
@@ -248,16 +251,29 @@ class FilmManager: ObservableObject {
         
         print("📊 Loaded \(loadedShots.count) shots, now sorting...")
         
-        // Sort shots: prologue first, then main_story, sorted by ID
+        // Sort shots: prologue first, then main_story, sorted by ID with improved logic
         loadedShots.sort { shot1, shot2 in
+            // First sort by sequence type: prologue comes before main_story
             if shot1.sequenceType != shot2.sequenceType {
                 return shot1.sequenceType == "prologue"
             }
             
-            // Extract numeric values for sorting
-            let id1 = extractNumericFromId(shot1.id)
-            let id2 = extractNumericFromId(shot2.id)
+            // Within same sequence type, sort by numeric ID value
+            let id1 = self.extractNumericFromId(shot1.id)
+            let id2 = self.extractNumericFromId(shot2.id)
+            
+            // Debug logging to help identify sorting issues
+            if id1 == id2 {
+                print("⚠️ Duplicate numeric values: \(shot1.id) (\(id1)) and \(shot2.id) (\(id2))")
+            }
+            
             return id1 < id2
+        }
+        
+        print("🔢 Shot sorting completed. Order verification:")
+        for (index, shot) in loadedShots.prefix(10).enumerated() {
+            let numericValue = self.extractNumericFromId(shot.id)
+            print("   \(index + 1). \(shot.id) (\(shot.sequenceType)) -> numeric: \(numericValue)")
         }
         
         // Update positions based on sorted order
@@ -269,28 +285,40 @@ class FilmManager: ObservableObject {
     }
     
     private func extractNumericFromId(_ id: String) -> Double {
-        // Handle IDs like "-1", "0a", "0b", "1", "39.5", etc.
+        // Handle IDs like "-1", "0a", "0b", "1", "39.5", "16p", etc.
+        // This is the unified function that all sorting should use
+        
         // Check for negative numbers first
         if id.hasPrefix("-") {
             let numericString = id.dropFirst().replacingOccurrences(of: "[^0-9.]", with: "", options: .regularExpression)
             var value = -(Double(numericString) ?? 0)
-            // Add letter offset for suffixes
-            if id.contains("a") { value -= 0.3 }
+            // Add letter offset for suffixes - negative numbers go in reverse order
+            if id.contains("a") { value -= 0.1 }
             else if id.contains("b") { value -= 0.2 }
-            else if id.contains("c") { value -= 0.1 }
+            else if id.contains("c") { value -= 0.3 }
+            else if id.contains("d") { value -= 0.4 }
             return value
         }
         
-        let numericString = id.replacingOccurrences(of: "[^0-9.]", with: "", options: .regularExpression)
-        var value = Double(numericString) ?? 0
+        // Extract the numeric part more carefully
+        let numericPattern = try! NSRegularExpression(pattern: "(\\d+(?:\\.\\d+)?)", options: [])
+        let nsString = id as NSString
+        let matches = numericPattern.matches(in: id, options: [], range: NSRange(location: 0, length: nsString.length))
         
-        // Add small offset for letter suffixes
-        if id.hasSuffix("a") { value += 0.1 }
-        else if id.hasSuffix("b") { value += 0.2 }
-        else if id.hasSuffix("c") { value += 0.3 }
-        else if id.hasSuffix("d") { value += 0.4 }
+        var baseValue: Double = 0
+        if let firstMatch = matches.first {
+            let numericString = nsString.substring(with: firstMatch.range)
+            baseValue = Double(numericString) ?? 0
+        }
         
-        return value
+        // Handle letter suffixes with proper decimal offset
+        if id.hasSuffix("a") { baseValue += 0.1 }
+        else if id.hasSuffix("b") { baseValue += 0.2 }
+        else if id.hasSuffix("c") { baseValue += 0.3 }
+        else if id.hasSuffix("d") { baseValue += 0.4 }
+        else if id.contains("p") { baseValue += 0.5 } // Handle "16p" style IDs
+        
+        return baseValue
     }
     
     private func loadTrackingSystemsFromMainFile() {
@@ -388,26 +416,19 @@ class FilmManager: ObservableObject {
             print("❌ Direct loading failed: \(error)")
         }
         
-        // Sort the shots
+        // Sort the shots using unified sorting function
         directShots.sort { shot1, shot2 in
             if shot1.sequenceType != shot2.sequenceType {
                 return shot1.sequenceType == "prologue"
             }
-            let id1 = self.extractNumericValueSimple(shot1.id)
-            let id2 = self.extractNumericValueSimple(shot2.id)
+            let id1 = self.extractNumericFromId(shot1.id)
+            let id2 = self.extractNumericFromId(shot2.id)
             return id1 < id2
         }
         
         return directShots
     }
     
-    private func extractNumericValueSimple(_ id: String) -> Double {
-        let numericString = id.replacingOccurrences(of: "[^0-9.]", with: "", options: .regularExpression)
-        var value = Double(numericString) ?? 0
-        if id.contains("a") { value += 0.1 }
-        else if id.contains("b") { value += 0.2 }
-        return value
-    }
     
     private func setupAutoSave() {
         autoSaveTimer = Timer.scheduledTimer(withTimeInterval: 10.0, repeats: true) { _ in
@@ -479,6 +500,62 @@ class FilmManager: ObservableObject {
     
     func getShotAtPercentage(_ percentage: Double) -> FilmShot? {
         return shots.min { abs($0.position - percentage) < abs($1.position - percentage) }
+    }
+    
+    // MARK: - Temperature System Integration
+    
+    /// Calculates the actual temperature value from the temperature_progression tracking system percentage
+    /// Temperature range: -25°C to +15°C (40-degree range)
+    /// 0% = -25°C (deadly cold), 100% = +15°C (unrealistically warm for Westfjords)
+    func calculateTemperatureFromPercentage(_ percentage: Double) -> Double {
+        // Temperature range from -25°C to +15°C (40-degree span)
+        let minTemp = -25.0
+        let maxTemp = 15.0
+        let tempRange = maxTemp - minTemp
+        
+        // Clamp percentage between 0 and 100
+        let clampedPercentage = max(0, min(100, percentage))
+        
+        // Calculate temperature
+        let temperature = minTemp + (tempRange * (clampedPercentage / 100.0))
+        
+        return temperature
+    }
+    
+    /// Get the current temperature value from the temperature_progression system
+    func getCurrentTemperature() -> Double {
+        guard let tempSystem = trackingSystems.first(where: { $0.name == "temperature_progression" }) else {
+            return -20.0 // Default harsh winter temperature
+        }
+        return calculateTemperatureFromPercentage(tempSystem.currentPercentage)
+    }
+    
+    /// Get temperature description string for prompts
+    func getTemperatureDescription() -> String {
+        let temp = getCurrentTemperature()
+        return getTemperatureDescriptionForTemp(temp)
+    }
+    
+    /// Get temperature description string for a specific temperature value
+    private func getTemperatureDescriptionForTemp(_ temp: Double) -> String {
+        switch temp {
+        case ...(-20):
+            return "\(Int(temp))°C life-threatening cold"
+        case -20...(-10):
+            return "\(Int(temp))°C harsh winter cold"
+        case -10...(-5):
+            return "\(Int(temp))°C bitter cold"
+        case -5...0:
+            return "\(Int(temp))°C freezing"
+        case 0...5:
+            return "\(Int(temp))°C near freezing"
+        case 5...10:
+            return "\(Int(temp))°C cool"
+        case 10...15:
+            return "\(Int(temp))°C unexpectedly warm"
+        default:
+            return "\(Int(temp))°C"
+        }
     }
     
     func updateTimelineFromSelectedVideos() {
@@ -606,6 +683,7 @@ class FilmShot: ObservableObject, Identifiable {
     @Published var progressiveState: String = ""
     @Published var stitchFrom: String = ""
     @Published var narrativeFunction: String = ""
+    @Published var originalFilePath: String? = nil
     
     init(id: String, title: String, sequenceType: String, position: Double, 
          subject: String, action: String, scene: String, style: String) {
@@ -625,6 +703,11 @@ class FilmShot: ObservableObject, Identifiable {
         )
         
         self.promptVariants = [defaultVariant]
+        
+        // Add default video for media management and timeline playback
+        let defaultVideo = VideoFile(filename: "default.mp4", filepath: "/Users/ingthor/Documents/stories/appdata/resources/shots/videos/default.mp4")
+        self.videos = [defaultVideo]
+        self.selectedVideoIndex = 0  // Select the default video automatically
     }
     
     var selectedVideo: VideoFile? {
@@ -754,6 +837,49 @@ class PromptVariant: ObservableObject, Identifiable {
         }
     }
     
+    private func calculateTemperatureFromPercentage(_ percentage: Double) -> Double {
+        // Temperature range from -25°C to +15°C (40-degree span)
+        let minTemp = -25.0
+        let maxTemp = 15.0
+        let tempRange = maxTemp - minTemp
+        
+        // Convert percentage to temperature
+        return minTemp + (tempRange * percentage / 100.0)
+    }
+    
+    private func getTemperatureDescriptionForTemp(_ temp: Double) -> String {
+        switch temp {
+        case ...(-20):
+            return "\(Int(temp))°C life-threatening cold"
+        case -20...(-10):
+            return "\(Int(temp))°C harsh winter cold"
+        case -10...(-5):
+            return "\(Int(temp))°C severe cold"
+        case -5...0:
+            return "\(Int(temp))°C freezing"
+        case 0...5:
+            return "\(Int(temp))°C cold"
+        case 5...10:
+            return "\(Int(temp))°C cool"
+        case 10...15:
+            return "\(Int(temp))°C comfortable"
+        default:
+            return "\(Int(temp))°C"
+        }
+    }
+    
+    private func cleanPlateDescription(_ description: String) -> String {
+        // Remove bracket notation like "[Base variant]", "[Master base]", etc.
+        let pattern = "\\[[^\\]]*\\]\\s*"
+        let cleanedDescription = description.replacingOccurrences(
+            of: pattern,
+            with: "",
+            options: .regularExpression
+        ).trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        return cleanedDescription
+    }
+    
     func generateCompletePrompt(for shot: FilmShot, plateManager: PlateManager? = nil, trackingSystems: [TrackingSystem]? = nil) -> String {
         var promptText = ""
         
@@ -788,6 +914,13 @@ class PromptVariant: ObservableObject, Identifiable {
                     }
                 }
             }
+            
+            // Always include temperature information as it's environmental context
+            if let tempSystem = systems.first(where: { $0.name == "temperature_progression" }) {
+                let tempValue = calculateTemperatureFromPercentage(tempSystem.currentPercentage)
+                let tempDescription = getTemperatureDescriptionForTemp(tempValue)
+                progressiveElements.append("Outdoor temperature: \(tempDescription)")
+            }
         }
         
         if !progressiveElements.isEmpty {
@@ -801,27 +934,51 @@ class PromptVariant: ObservableObject, Identifiable {
         // Add character and environmental plates at the END of subject section
         var plateAdditions = ""
         
+        print("🎬 PLATE RESOLUTION DEBUG:")
+        print("   📍 selectedCharacterPlateId: \(selectedCharacterPlateId ?? "nil")")
+        print("   📍 selectedEnvironmentPlateId: \(selectedEnvironmentPlateId ?? "nil")")
+        print("   📍 plateManager available: \(plateManager != nil)")
+        if let plateManager = plateManager {
+            print("   📍 characterPlates count: \(plateManager.characterPlates.count)")
+            print("   📍 environmentalPlates count: \(plateManager.environmentalPlates.count)")
+        }
+        
         // Add character plate description if selected
         if let plateId = selectedCharacterPlateId, 
            let plateManager = plateManager,
            let plate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
-            plateAdditions += " " + plate.description
+            let cleanDescription = cleanPlateDescription(plate.description)
+            plateAdditions += " " + cleanDescription
+            print("   ✅ Added character plate '\(plateId)': '\(cleanDescription.prefix(50))...'")
         } else if !customCharacterPlate.isEmpty {
-            plateAdditions += " " + customCharacterPlate
+            let cleanDescription = cleanPlateDescription(customCharacterPlate)
+            plateAdditions += " " + cleanDescription
+            print("   ✅ Added custom character plate: '\(cleanDescription.prefix(50))...'")
+        } else {
+            print("   ❌ No character plate resolved")
         }
         
         // Add environmental plate if selected
         if let plateId = selectedEnvironmentPlateId,
            let plateManager = plateManager,
            let plate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
-            plateAdditions += " " + plate.description
+            let cleanDescription = cleanPlateDescription(plate.description)
+            plateAdditions += " " + cleanDescription
+            print("   ✅ Added environmental plate '\(plateId)': '\(cleanDescription.prefix(50))...'")
         } else if !customEnvironmentPlate.isEmpty {
-            plateAdditions += " " + customEnvironmentPlate
+            let cleanDescription = cleanPlateDescription(customEnvironmentPlate)
+            plateAdditions += " " + cleanDescription
+            print("   ✅ Added custom environmental plate: '\(cleanDescription.prefix(50))...'")
+        } else {
+            print("   ❌ No environmental plate resolved")
         }
         
         // Combine subject with plates at the end
         if !plateAdditions.isEmpty {
             subjectContent += plateAdditions
+            print("   🎯 Final subject with plates: '\(subjectContent)'")
+        } else {
+            print("   🔍 No plate additions made - using original subject")
         }
         
         promptText += "\(subjectContent)\n\n"
@@ -829,8 +986,22 @@ class PromptVariant: ObservableObject, Identifiable {
         // ACTION section
         promptText += "ACTION:\n\(action)\n\n"
         
-        // SCENE section
-        promptText += "SCENE:\n\(scene)\n\n"
+        // SCENE section with temperature injection
+        var sceneContent = scene
+        
+        // Inject temperature information if tracking systems are available and not already present
+        if let systems = trackingSystems,
+           let tempSystem = systems.first(where: { $0.name == "temperature_progression" }),
+           !scene.lowercased().contains("temperature") && !scene.lowercased().contains("°c") {
+            
+            let tempValue = calculateTemperatureFromPercentage(tempSystem.currentPercentage)
+            let tempDescription = getTemperatureDescriptionForTemp(tempValue)
+            
+            // Add temperature as environmental context
+            sceneContent += " Outdoor temperature: \(tempDescription)."
+        }
+        
+        promptText += "SCENE:\n\(sceneContent)\n\n"
         
         // STYLE section with camera position
         promptText += "STYLE:\n"
@@ -1604,11 +1775,16 @@ class FilmFileManager {
                 }
             }
             
-            // Sort shots by their ID/position
-            shots.sort { shot1, shot2 in
-                // Extract numeric value from ID for proper sorting
-                let id1 = extractNumericValue(from: shot1.id)
-                let id2 = extractNumericValue(from: shot2.id)
+            // Sort shots by their ID/position using unified sorting function
+            shots.sort { (shot1: FilmShot, shot2: FilmShot) in
+                // First sort by sequence type: prologue comes before main_story
+                if shot1.sequenceType != shot2.sequenceType {
+                    return shot1.sequenceType == "prologue"
+                }
+                
+                // Within same sequence type, sort by numeric ID value
+                let id1 = self.extractNumericFromId(shot1.id)
+                let id2 = self.extractNumericFromId(shot2.id)
                 return id1 < id2
             }
             
@@ -1621,25 +1797,6 @@ class FilmFileManager {
         return shots
     }
     
-    func extractNumericValue(from id: String) -> Double {
-        // Handle IDs like "0a", "0b", "1a", "8", "39.5", "61"
-        // First try to extract the numeric part
-        let numericString = id.replacingOccurrences(of: "[^0-9.]", with: "", options: .regularExpression)
-        var baseValue = Double(numericString) ?? 0
-        
-        // Add small offset for letter suffixes to maintain order (0a before 0b)
-        if id.contains("a") {
-            baseValue += 0.1
-        } else if id.contains("b") {
-            baseValue += 0.2
-        } else if id.contains("c") {
-            baseValue += 0.3
-        } else if id.contains("d") {
-            baseValue += 0.4
-        }
-        
-        return baseValue
-    }
     
     private func parseShot(from data: Data, filename: String) -> FilmShot? {
         do {
@@ -1841,7 +1998,19 @@ class FilmFileManager {
                     }
                 }
                 
-                if let envPlates = selectedPlates["environment"] as? [String: String] {
+                // Check both new format (selected_plates) and old format (environmental_plates)
+                var envPlates: [String: String] = [:]
+                
+                // Try new format first
+                if let newEnvPlates = selectedPlates["environment"] as? [String: String] {
+                    envPlates = newEnvPlates
+                }
+                // Fallback to old format
+                else if let oldEnvPlates = variant["environmental_plates"] as? [String: String] {
+                    envPlates = oldEnvPlates
+                }
+                
+                if !envPlates.isEmpty {
                     // Priority for environment: interior > landscape > weather > sea
                     let priorityOrder = ["interior", "landscape", "weather", "sea"]
                     var selectedEnv: String? = nil
@@ -1849,6 +2018,7 @@ class FilmFileManager {
                     for priority in priorityOrder {
                         if let plateId = envPlates[priority] {
                             selectedEnv = plateId
+                            print("📍 Found environment plate '\(plateId)' for priority '\(priority)'")
                             break
                         }
                     }
@@ -1856,11 +2026,14 @@ class FilmFileManager {
                     // Fallback to first if no priority match
                     if selectedEnv == nil, let firstEnv = envPlates.keys.first {
                         selectedEnv = envPlates[firstEnv]
+                        print("📍 Using first available environment plate: '\(selectedEnv ?? "nil")'")
                     }
                     
                     if let plateId = selectedEnv {
                         promptVariant.selectedEnvironmentPlateId = plateId
                         print("📍 Set selectedEnvironmentPlateId to: \(plateId) for variant: \(promptVariant.variantId)")
+                    } else {
+                        print("📍 No environment plate could be selected from: \(envPlates.keys.joined(separator: ", "))")
                     }
                 }
             }
@@ -1895,9 +2068,46 @@ class FilmFileManager {
         )
     }
     
+    private func extractNumericFromId(_ id: String) -> Double {
+        // Handle IDs like "-1", "0a", "0b", "1", "39.5", "16p", etc.
+        // This is the unified function that all sorting should use
+        
+        // Check for negative numbers first
+        if id.hasPrefix("-") {
+            let numericString = id.dropFirst().replacingOccurrences(of: "[^0-9.]", with: "", options: .regularExpression)
+            var value = -(Double(numericString) ?? 0)
+            // Add letter offset for suffixes - negative numbers go in reverse order
+            if id.contains("a") { value -= 0.1 }
+            else if id.contains("b") { value -= 0.2 }
+            else if id.contains("c") { value -= 0.3 }
+            else if id.contains("d") { value -= 0.4 }
+            return value
+        }
+        
+        // Extract the numeric part more carefully
+        let numericPattern = try! NSRegularExpression(pattern: "(\\d+(?:\\.\\d+)?)", options: [])
+        let nsString = id as NSString
+        let matches = numericPattern.matches(in: id, options: [], range: NSRange(location: 0, length: nsString.length))
+        
+        var baseValue: Double = 0
+        if let firstMatch = matches.first {
+            let numericString = nsString.substring(with: firstMatch.range)
+            baseValue = Double(numericString) ?? 0
+        }
+        
+        // Handle letter suffixes with proper decimal offset
+        if id.hasSuffix("a") { baseValue += 0.1 }
+        else if id.hasSuffix("b") { baseValue += 0.2 }
+        else if id.hasSuffix("c") { baseValue += 0.3 }
+        else if id.hasSuffix("d") { baseValue += 0.4 }
+        else if id.contains("p") { baseValue += 0.5 } // Handle "16p" style IDs
+        
+        return baseValue
+    }
+
     private func calculatePosition(for id: String, sequenceType: String) -> Double {
-        // Extract numeric value for positioning
-        let numericValue = extractNumericValue(from: id)
+        // Extract numeric value for positioning using unified function
+        let numericValue = self.extractNumericFromId(id)
         
         // Prologue shots: 0-25%
         // Main story shots: 25-100%
@@ -1909,6 +2119,24 @@ class FilmFileManager {
     }
     
     func saveShot(_ shot: FilmShot) {
+        print("\n=== SAVE SHOT DEBUG ===")
+        print("🔍 Starting save for shot \(shot.id)")
+        print("🔍 Number of variants: \(shot.promptVariants.count)")
+        print("🔍 Shot isDirty: \(shot.isDirty)")
+        print("🔍 Selected variant index: \(shot.selectedPromptIndex)")
+        print("🔍 Shot originalFilePath: \(shot.originalFilePath ?? "nil")")
+        
+        // Log the current state of the selected variant BEFORE serialization
+        if shot.selectedPromptIndex < shot.promptVariants.count {
+            let selectedVariant = shot.promptVariants[shot.selectedPromptIndex]
+            print("🔍 SELECTED VARIANT CURRENT STATE:")
+            print("  action: '\(selectedVariant.action)'")
+            print("  scene: '\(selectedVariant.scene)'")
+            print("  style: '\(selectedVariant.style)'")
+            print("  dialogue: '\(selectedVariant.dialogue)'")
+            print("  selectedPlates: \(selectedVariant.selectedPlateIds)")
+        }
+        
         // Build JSON structure
         var json: [String: Any] = [:]
         
@@ -1926,7 +2154,15 @@ class FilmFileManager {
         
         // Prompt variants
         var promptVariantsJSON: [[String: Any]] = []
-        for variant in shot.promptVariants {
+        for (index, variant) in shot.promptVariants.enumerated() {
+            print("🔍 Saving variant \(index): action='\(String(variant.action.prefix(50)))...'")
+            print("🔍 Variant \(index) FULL action text: '\(variant.action)'")
+            print("🔍 Variant \(index) scene text: '\(variant.scene)'")
+            print("🔍 Variant \(index) style text: '\(variant.style)'")
+            print("🔍 Variant \(index) dialogue text: '\(variant.dialogue)'")
+            print("🔍 Variant \(index) plates: \(variant.selectedPlateIds)")
+            print("🔍 Variant \(index) isActive: \(variant.isActive)")
+            
             var variantDict: [String: Any] = [
                 "variant_id": variant.variantId,
                 "variant_name": variant.name,
@@ -1991,15 +2227,51 @@ class FilmFileManager {
         
         // Write to shots directory
         do {
+            print("\n🔍 DEBUG: About to serialize JSON...")
             let data = try JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
-            let filename = "\(shot.id).json"
-            let filepath = appDataManager.shotPath(for: shot.id)
+            print("🔍 DEBUG: JSON serialized, size: \(data.count) bytes")
             
+            // Use the original file path if available, otherwise fall back to ID-based path
+            let filepath: String
+            if let originalPath = shot.originalFilePath, !originalPath.isEmpty {
+                filepath = originalPath
+                print("🔍 Using original file path: \(filepath)")
+            } else {
+                filepath = appDataManager.shotPath(for: shot.id)
+                print("🔍 Using ID-based path: \(filepath)")
+            }
+            let filename = (filepath as NSString).lastPathComponent
+            print("🔍 DEBUG: Save path: \(filepath)")
+            
+            // Ensure directory exists
+            let dirPath = (filepath as NSString).deletingLastPathComponent
+            try FileManager.default.createDirectory(atPath: dirPath, withIntermediateDirectories: true, attributes: nil)
+            print("🔍 DEBUG: Directory ensured: \(dirPath)")
+            
+            // Write the file
             try data.write(to: URL(fileURLWithPath: filepath))
-            print("💾 Saved shot: \(filename) to \(filepath)")
+            print("💾 Successfully saved shot: \(filename) to \(filepath)")
+            
+            // Verify the file was written
+            if FileManager.default.fileExists(atPath: filepath) {
+                let fileSize = try FileManager.default.attributesOfItem(atPath: filepath)[.size] as? Int ?? 0
+                print("✅ File verified: \(filepath) (\(fileSize) bytes)")
+                
+                // Print first 200 chars of saved content for verification
+                if let savedData = try? Data(contentsOf: URL(fileURLWithPath: filepath)),
+                   let jsonString = String(data: savedData, encoding: .utf8) {
+                    let preview = String(jsonString.prefix(200))
+                    print("📄 Saved content preview: \(preview)...")
+                }
+            } else {
+                print("⚠️ WARNING: File not found after save: \(filepath)")
+            }
+            
             shot.isDirty = false
+            print("=== END SAVE SHOT DEBUG ===")
         } catch {
             print("❌ Error saving shot \(shot.id): \(error)")
+            print("=== END SAVE SHOT DEBUG (ERROR) ===")
         }
     }
     

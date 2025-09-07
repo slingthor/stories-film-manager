@@ -120,13 +120,11 @@ struct ComprehensivePromptEditor: View {
                 
                 // Comprehensive prompt editing
                 if shot.selectedPromptIndex < shot.promptVariants.count {
-                    let prompt = shot.promptVariants[shot.selectedPromptIndex]
-                    
                     ScrollView {
                         VStack(alignment: .leading, spacing: 16) {
                             // Integrated Plate Selection
                             PlateSelectionSection(
-                                variant: prompt,
+                                variant: shot.promptVariants[shot.selectedPromptIndex],
                                 plateManager: filmManager.plateManager,
                                 showCharacterPlates: $showCharacterPlates,
                                 showEnvironmentPlates: $showEnvironmentPlates,
@@ -142,8 +140,8 @@ struct ComprehensivePromptEditor: View {
                                 VEOPromptField(
                                     title: "SUBJECT",
                                     content: Binding(
-                                        get: { prompt.subject },
-                                        set: { prompt.subject = $0; shot.isDirty = true }
+                                        get: { shot.promptVariants[shot.selectedPromptIndex].subject },
+                                        set: { shot.promptVariants[shot.selectedPromptIndex].subject = $0; shot.isDirty = true }
                                     ),
                                     height: 100,
                                     helpText: "Main subject and visual elements"
@@ -152,8 +150,8 @@ struct ComprehensivePromptEditor: View {
                                 VEOPromptField(
                                     title: "ACTION", 
                                     content: Binding(
-                                        get: { prompt.action },
-                                        set: { prompt.action = $0; shot.isDirty = true }
+                                        get: { shot.promptVariants[shot.selectedPromptIndex].action },
+                                        set: { shot.promptVariants[shot.selectedPromptIndex].action = $0; shot.isDirty = true }
                                     ),
                                     height: 140,
                                     helpText: "Movement, behavior, and sequence of events"
@@ -162,8 +160,8 @@ struct ComprehensivePromptEditor: View {
                                 VEOPromptField(
                                     title: "SCENE",
                                     content: Binding(
-                                        get: { prompt.scene },
-                                        set: { prompt.scene = $0; shot.isDirty = true }
+                                        get: { shot.promptVariants[shot.selectedPromptIndex].scene },
+                                        set: { shot.promptVariants[shot.selectedPromptIndex].scene = $0; shot.isDirty = true }
                                     ),
                                     height: 80,
                                     helpText: "Setting, environment, and context"
@@ -172,8 +170,8 @@ struct ComprehensivePromptEditor: View {
                                 VEOPromptField(
                                     title: "STYLE",
                                     content: Binding(
-                                        get: { prompt.style },
-                                        set: { prompt.style = $0; shot.isDirty = true }
+                                        get: { shot.promptVariants[shot.selectedPromptIndex].style },
+                                        set: { shot.promptVariants[shot.selectedPromptIndex].style = $0; shot.isDirty = true }
                                     ),
                                     height: 80,
                                     helpText: "Visual style and cinematography"
@@ -182,8 +180,8 @@ struct ComprehensivePromptEditor: View {
                                 VEOPromptField(
                                     title: "CAMERA POSITION",
                                     content: Binding(
-                                        get: { prompt.cameraPosition },
-                                        set: { prompt.cameraPosition = $0; shot.isDirty = true }
+                                        get: { shot.promptVariants[shot.selectedPromptIndex].cameraPosition },
+                                        set: { shot.promptVariants[shot.selectedPromptIndex].cameraPosition = $0; shot.isDirty = true }
                                     ),
                                     height: 60,
                                     helpText: "Where the camera is positioned"
@@ -192,8 +190,8 @@ struct ComprehensivePromptEditor: View {
                                 VEOPromptField(
                                     title: "DIALOGUE",
                                     content: Binding(
-                                        get: { prompt.dialogue },
-                                        set: { prompt.dialogue = $0; shot.isDirty = true }
+                                        get: { shot.promptVariants[shot.selectedPromptIndex].dialogue },
+                                        set: { shot.promptVariants[shot.selectedPromptIndex].dialogue = $0; shot.isDirty = true }
                                     ),
                                     height: 60,
                                     helpText: "Character speech and vocalizations"
@@ -202,8 +200,8 @@ struct ComprehensivePromptEditor: View {
                                 VEOPromptField(
                                     title: "NEGATIVE PROMPT",
                                     content: Binding(
-                                        get: { prompt.negativePrompt },
-                                        set: { prompt.negativePrompt = $0; shot.isDirty = true }
+                                        get: { shot.promptVariants[shot.selectedPromptIndex].negativePrompt },
+                                        set: { shot.promptVariants[shot.selectedPromptIndex].negativePrompt = $0; shot.isDirty = true }
                                     ),
                                     height: 60,
                                     helpText: "Elements to avoid in generation"
@@ -212,8 +210,8 @@ struct ComprehensivePromptEditor: View {
                                 VEOPromptField(
                                     title: "PROGRESSIVE STATE",
                                     content: Binding(
-                                        get: { prompt.progressiveState },
-                                        set: { prompt.progressiveState = $0; shot.isDirty = true }
+                                        get: { shot.promptVariants[shot.selectedPromptIndex].progressiveState },
+                                        set: { shot.promptVariants[shot.selectedPromptIndex].progressiveState = $0; shot.isDirty = true }
                                     ),
                                     height: 40,
                                     helpText: "Current state in narrative progression"
@@ -299,7 +297,7 @@ struct ComprehensivePromptEditor: View {
                             // Action buttons
                             HStack(spacing: 12) {
                                 Button("Generate Complete Prompt") {
-                                    generatedPrompt = prompt.generateCompletePrompt(
+                                    generatedPrompt = shot.promptVariants[shot.selectedPromptIndex].generateCompletePrompt(
                                         for: shot,
                                         plateManager: filmManager.plateManager,
                                         trackingSystems: filmManager.trackingSystems
@@ -311,16 +309,16 @@ struct ComprehensivePromptEditor: View {
                                 .buttonStyle(.borderedProminent)
                                 
                                 Button(action: {
-                                    if !prompt.isActive {
+                                    if !shot.promptVariants[shot.selectedPromptIndex].isActive {
                                         shot.setActivePrompt(at: shot.selectedPromptIndex)
                                     }
                                 }) {
-                                    Label(prompt.isActive ? "Active" : "Set as Active", 
-                                          systemImage: prompt.isActive ? "star.fill" : "star")
+                                    Label(shot.promptVariants[shot.selectedPromptIndex].isActive ? "Active" : "Set as Active", 
+                                          systemImage: shot.promptVariants[shot.selectedPromptIndex].isActive ? "star.fill" : "star")
                                 }
                                 .buttonStyle(.bordered)
-                                .disabled(prompt.isActive)
-                                .foregroundColor(prompt.isActive ? .yellow : .primary)
+                                .disabled(shot.promptVariants[shot.selectedPromptIndex].isActive)
+                                .foregroundColor(shot.promptVariants[shot.selectedPromptIndex].isActive ? .yellow : .primary)
                                 
                                 Button("Save Shot") {
                                     // Force save by marking as dirty then triggering save
