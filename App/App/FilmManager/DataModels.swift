@@ -986,6 +986,99 @@ class PromptVariant: ObservableObject, Identifiable {
         return cleanedDescription
     }
     
+    private func processPlateWithMaster(_ description: String, plateId: String, plateManager: PlateManager) -> String {
+        // New simplified approach: Look for ANY bracket reference (both old format like "[Rising base]" and new format like "[JON-RISING]")
+        let bracketPattern = "\\[([^\\]]+)\\]"
+        let regex = try? NSRegularExpression(pattern: bracketPattern, options: [])
+        let range = NSRange(location: 0, length: description.count)
+        
+        if let match = regex?.firstMatch(in: description, options: [], range: range),
+           let referenceRange = Range(match.range(at: 1), in: description) {
+            
+            let reference = String(description[referenceRange])
+            print("   🔗 Found bracket reference: '\(reference)' in plate \(plateId)")
+            
+            // First, try to find it as a direct plate ID (new format)
+            if let envPlate = plateManager.environmentalPlates.first(where: { $0.plateId == reference }) {
+                print("   ✅ Found environmental plate: \(reference)")
+                let combinedDescription = envPlate.description + " " + description
+                return cleanPlateDescription(combinedDescription)
+            }
+            
+            if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == reference }) {
+                print("   ✅ Found character plate: \(reference)")
+                let combinedDescription = charPlate.description + " " + description
+                return cleanPlateDescription(combinedDescription)
+            }
+            
+            // If not found as direct plate ID, try mapping common base types (old format compatibility)
+            if reference.hasSuffix(" base") {
+                let baseType = String(reference.dropLast(5)).lowercased() // Remove " base"
+                print("   🔗 Trying base type mapping for: '\(baseType)'")
+                
+                let masterPatterns: [String: [String]] = [
+                    "divine": ["SEA-DIVINE"],
+                    "master": ["WESTFJORDS-MASTER", "SEA-MASTER", "STOFA-DOMESTIC", "HOUSE-TRADITIONAL"],
+                    "organic": ["STOFA-BODY"],
+                    "body": ["STOFA-BODY"],
+                    "domestic": ["STOFA-DOMESTIC"],
+                    "contaminated": ["SEA-ACCUSATION"],
+                    "accusation": ["SEA-ACCUSATION"],
+                    "extracted": ["SEA-EXTRACTED"],
+                    "crystallizing": ["STOFA-CRYSTALLIZING"],
+                    "cleft": ["STOFA-CLEFT"],
+                    "cliff": ["STOFA-CLIFF"],
+                    "stirring": ["STOFA-STIRRING"],
+                    "geological": ["HOUSE-GEOLOGICAL"],
+                    "traditional": ["HOUSE-TRADITIONAL"],
+                    "rising": ["JON-RISING"],
+                    "seeing": ["JON-SEEING"],
+                    "pure": ["SIGRID-PURE"],
+                    "mild": ["JON-MILD"],
+                    "sensing": ["LILJA-SENSING"],
+                    "evolving": ["LILJA-EVOLVING"],
+                    "communicating": ["LILJA-COMMUNICATING"],
+                    "harmonic": ["LILJA-HARMONIC"],
+                    "prophesying": ["LILJA-PROPHESYING"],
+                    "wondering": ["LILJA-WONDERING"],
+                    "producing": ["GUDRUN-PRODUCING"],
+                    "abundant": ["GUDRUN-ABUNDANT"],
+                    "wearing": ["GUDRUN-WEARING"],
+                    "walking": ["GUDRUN-WALKING"],
+                    "returning": ["GUDRUN-RETURNING"],
+                    "crowned": ["GUDRUN-CROWNED"],
+                    "beaten": ["GUDRUN-BEATEN"],
+                    "authority": ["MAGNUS-AUTHORITY"],
+                    "injured": ["MAGNUS-INJURED"],
+                    "predator": ["MAGNUS-PREDATOR"]
+                ]
+                
+                if let candidates = masterPatterns[baseType] {
+                    for candidateId in candidates {
+                        if let envPlate = plateManager.environmentalPlates.first(where: { $0.plateId == candidateId }) {
+                            print("   ✅ Found mapped environmental master: \(candidateId)")
+                            let combinedDescription = envPlate.description + " " + description
+                            return cleanPlateDescription(combinedDescription)
+                        }
+                        if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == candidateId }) {
+                            print("   ✅ Found mapped character master: \(candidateId)")
+                            let combinedDescription = charPlate.description + " " + description
+                            return cleanPlateDescription(combinedDescription)
+                        }
+                    }
+                }
+                
+                print("   ⚠️  No master found for base type: '\(baseType)'")
+            }
+            
+            print("   ⚠️  Reference '\(reference)' not found as plate ID or base type")
+        } else {
+            print("   ℹ️  No bracket reference found in: '\(description.prefix(50))...'")
+        }
+        
+        return cleanPlateDescription(description)
+    }
+    
     func generateCompletePrompt(for shot: FilmShot, plateManager: PlateManager? = nil, trackingSystems: [TrackingSystem]? = nil) -> String {
         var promptText = ""
         
@@ -1041,47 +1134,86 @@ class PromptVariant: ObservableObject, Identifiable {
         var plateAdditions = ""
         
         print("🎬 PLATE RESOLUTION DEBUG:")
+        print("   📍 selectedPlateIds: \(selectedPlateIds)")
         print("   📍 selectedCharacterPlateId: \(selectedCharacterPlateId ?? "nil")")
         print("   📍 selectedEnvironmentPlateId: \(selectedEnvironmentPlateId ?? "nil")")
+        print("   📍 customCharacterPlate: '\(customCharacterPlate.isEmpty ? "empty" : String(customCharacterPlate.prefix(30)))...'")
+        print("   📍 customEnvironmentPlate: '\(customEnvironmentPlate.isEmpty ? "empty" : String(customEnvironmentPlate.prefix(30)))...'")
         print("   📍 plateManager available: \(plateManager != nil)")
         if let plateManager = plateManager {
             print("   📍 characterPlates count: \(plateManager.characterPlates.count)")
             print("   📍 environmentalPlates count: \(plateManager.environmentalPlates.count)")
         }
         
-        // Add character plate description if selected
-        if let plateId = selectedCharacterPlateId, 
-           let plateManager = plateManager,
-           let plate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
-            let cleanDescription = cleanPlateDescription(plate.description)
-            plateAdditions += " " + cleanDescription
-            print("   ✅ Added character plate '\(plateId)': '\(cleanDescription.prefix(50))...'")
-        } else if !customCharacterPlate.isEmpty {
-            let cleanDescription = cleanPlateDescription(customCharacterPlate)
-            plateAdditions += " " + cleanDescription
-            print("   ✅ Added custom character plate: '\(cleanDescription.prefix(50))...'")
+        // Derive plates from all available data sources automatically
+        if let plateManager = plateManager {
+            // Collect all plate IDs from all sources (no UI dependency)
+            var collectedPlateIds = Set<String>()
+            
+            // 1. From selectedPlateIds array (if populated)
+            selectedPlateIds.forEach { collectedPlateIds.insert($0) }
+            
+            // 2. From individual properties (always check these - the main source)
+            if let charPlateId = selectedCharacterPlateId {
+                collectedPlateIds.insert(charPlateId)
+            }
+            if let envPlateId = selectedEnvironmentPlateId {
+                collectedPlateIds.insert(envPlateId)
+            }
+            
+            // Note: Custom plates are handled separately below since they contain descriptions, not IDs
+            
+            print("   🔍 Collected plate IDs from all sources: \(Array(collectedPlateIds).joined(separator: ", "))")
+            
+            // Process all collected plates (convert Set to sorted Array for consistent order)
+            let sortedPlateIds = Array(collectedPlateIds).sorted()
+            for plateId in sortedPlateIds {
+                print("   🔍 Processing plate: \(plateId)")
+                
+                // Try character plates first
+                if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
+                    let plateDescription = processPlateWithMaster(charPlate.description, plateId: plateId, plateManager: plateManager)
+                    plateAdditions += " [\(charPlate.character.uppercased())]: " + plateDescription
+                    print("   ✅ Added character plate '\(plateId)': '\(plateDescription.prefix(50))...'")
+                }
+                // Try environmental plates
+                else if let envPlate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
+                    let plateDescription = processPlateWithMaster(envPlate.description, plateId: plateId, plateManager: plateManager)
+                    plateAdditions += " [\(envPlate.category.uppercased())]: " + plateDescription
+                    print("   ✅ Added environmental plate '\(plateId)': '\(plateDescription.prefix(50))...'")
+                }
+                else {
+                    print("   ⚠️  Plate '\(plateId)' not found in any plate collection")
+                }
+            }
+            
+            // Custom plates as fallback
+            if !customCharacterPlate.isEmpty {
+                let cleanDescription = cleanPlateDescription(customCharacterPlate)
+                plateAdditions += " " + cleanDescription
+                print("   ✅ Added custom character plate: '\(cleanDescription.prefix(50))...'")
+            }
+            
+            if !customEnvironmentPlate.isEmpty {
+                let cleanDescription = cleanPlateDescription(customEnvironmentPlate)
+                plateAdditions += " " + cleanDescription
+                print("   ✅ Added custom environmental plate: '\(cleanDescription.prefix(50))...'")
+            }
+            
+            if plateAdditions.isEmpty {
+                print("   ❌ No plates resolved from any source")
+            }
         } else {
-            print("   ❌ No character plate resolved")
+            print("   ❌ No plateManager available")
         }
         
-        // Add environmental plate if selected
-        if let plateId = selectedEnvironmentPlateId,
-           let plateManager = plateManager,
-           let plate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
-            let cleanDescription = cleanPlateDescription(plate.description)
-            plateAdditions += " " + cleanDescription
-            print("   ✅ Added environmental plate '\(plateId)': '\(cleanDescription.prefix(50))...'")
-        } else if !customEnvironmentPlate.isEmpty {
-            let cleanDescription = cleanPlateDescription(customEnvironmentPlate)
-            plateAdditions += " " + cleanDescription
-            print("   ✅ Added custom environmental plate: '\(cleanDescription.prefix(50))...'")
-        } else {
-            print("   ❌ No environmental plate resolved")
-        }
-        
-        // Combine subject with plates at the end
+        // Combine subject with plates more naturally
         if !plateAdditions.isEmpty {
-            subjectContent += plateAdditions
+            // Clean up the plateAdditions to avoid excessive repetition
+            let cleanPlateAdditions = plateAdditions.trimmingCharacters(in: .whitespacesAndNewlines)
+            if !cleanPlateAdditions.isEmpty && !subjectContent.contains(cleanPlateAdditions.prefix(50)) {
+                subjectContent += " " + cleanPlateAdditions
+            }
             print("   🎯 Final subject with plates: '\(subjectContent)'")
         } else {
             print("   🔍 No plate additions made - using original subject")
@@ -1122,14 +1254,11 @@ class PromptVariant: ObservableObject, Identifiable {
             promptText += "DIALOGUE:\n\(dialogue)\n\n"
         }
         
-        // SOUNDS section (if we have audio notes in negative prompt or elsewhere)
-        // For now, we can extract from negative prompt or leave empty
+        // SOUNDS section (only if we have actual audio notes)
         if !negativePrompt.isEmpty && negativePrompt.lowercased().contains("sound") {
             promptText += "SOUNDS:\n\(negativePrompt)\n\n"
-        } else {
-            // Add empty SOUNDS section for consistency
-            promptText += "SOUNDS:\n[Audio notes to be added]\n\n"
         }
+        // Otherwise omit the SOUNDS section entirely
         
         // ASPECT section
         promptText += "ASPECT:\n\(shot.aspectRatio)\n\n"
