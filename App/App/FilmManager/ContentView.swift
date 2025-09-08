@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack(spacing: 0) {
-            // TOP: Horizontal System Overview Bar
+            // TOP: Horizontal System Overview Bar (Fixed Header)
             HStack {
                 Text("THE SHEEP IN THE BAÐSTOFA - Production Manager")
                     .font(.headline)
@@ -42,69 +42,78 @@ struct ContentView: View {
             .padding()
             .background(Color.gray.opacity(0.1))
             
-            HStack(spacing: 0) {
-                // LEFT: System Controls
-                SystemControlsPanel(
-                    filmManager: filmManager,
-                    draggedSystem: $draggedSystem
-                )
-                .frame(width: 280)
-                .background(Color.blue.opacity(0.05))
-                
-                Divider()
-                
-                // CENTER-LEFT: Tabbed view for Shots/Plates
-                TabbedManagementView(
-                    filmManager: filmManager,
-                    draggedSystem: draggedSystem,
-                    selectedPlateId: $selectedPlateId,
-                    selectedPlateType: $selectedPlateType
-                )
-                .frame(width: 400)
-                .background(Color.green.opacity(0.05))
-                .onChange(of: selectedPlateId) { _ in
-                    // When a plate is selected, we're in plate mode
-                    if selectedPlateId != nil {
-                        currentTab = 1
-                    }
-                }
-                
-                Divider()
-                
-                // CENTER-RIGHT: Show either Prompt Editor or Plate Editor based on context
-                if selectedPlateId != nil && currentTab == 1 {
-                    // Show Plate Editor when a plate is selected
-                    PlateDetailEditor(
-                        plateId: selectedPlateId!,
-                        plateType: selectedPlateType,
-                        filmManager: filmManager
+            // MIDDLE: Main Content Area (Scrollable) + Fixed Prompt Panel
+            VStack(spacing: 0) {
+                HStack(spacing: 0) {
+                    // LEFT: System Controls (HIDDEN TEMPORARILY)
+                    // SystemControlsPanel(
+                    //     filmManager: filmManager,
+                    //     draggedSystem: $draggedSystem
+                    // )
+                    // .frame(width: 280)
+                    // .background(Color.blue.opacity(0.05))
+                    // 
+                    // Divider()
+                    
+                    // CENTER-LEFT: Tabbed view for Shots/Plates
+                    TabbedManagementView(
+                        filmManager: filmManager,
+                        draggedSystem: draggedSystem,
+                        selectedPlateId: $selectedPlateId,
+                        selectedPlateType: $selectedPlateType
                     )
-                    .frame(minWidth: 500)
-                    .background(Color.purple.opacity(0.05))
-                } else {
-                    // Show Prompt Editor for shots
-                    ComprehensivePromptEditor(
+                    .frame(width: 400)
+                    .background(Color.green.opacity(0.05))
+                    .onChange(of: selectedPlateId) { _ in
+                        // When a plate is selected, we're in plate mode
+                        if selectedPlateId != nil {
+                            currentTab = 1
+                        }
+                    }
+                    
+                    Divider()
+                    
+                    // CENTER-RIGHT: Show either Prompt Editor or Plate Editor based on context
+                    if selectedPlateId != nil && currentTab == 1 {
+                        // Show Plate Editor when a plate is selected
+                        PlateDetailEditor(
+                            plateId: selectedPlateId!,
+                            plateType: selectedPlateType,
+                            filmManager: filmManager
+                        )
+                        .frame(minWidth: 500)
+                        .background(Color.purple.opacity(0.05))
+                    } else {
+                        // Show Prompt Editor for shots (now without action buttons)
+                        ComprehensivePromptEditor(
+                            shot: filmManager.selectedShot,
+                            filmManager: filmManager
+                        )
+                        .frame(minWidth: 500)
+                        .background(Color.purple.opacity(0.05))
+                    }
+                    
+                    Divider()
+                    
+                    // RIGHT: Media Management Panel
+                    MediaManagementPanel(
                         shot: filmManager.selectedShot,
                         filmManager: filmManager
                     )
-                    .frame(minWidth: 500)
-                    .background(Color.purple.opacity(0.05))
+                    .frame(width: 320)
+                    .background(Color.orange.opacity(0.05))
                 }
+                // Make the main content area flexible to fill available space
+                .layoutPriority(1)
                 
-                Divider()
-                
-                // RIGHT: Media Management Panel
-                MediaManagementPanel(
-                    shot: filmManager.selectedShot,
-                    filmManager: filmManager
-                )
-                .frame(width: 320)
-                .background(Color.orange.opacity(0.05))
+                // FIXED PROMPT PANEL: Always visible at bottom of content area, above timeline
+                PromptGenerationPanel(filmManager: filmManager)
+                .frame(height: 60)
             }
             
             Divider()
             
-            // BOTTOM: Enhanced Timeline with Selected Videos
+            // BOTTOM: Enhanced Timeline with Selected Videos (stays at very bottom)
             ComprehensiveTimelineView(
                 filmManager: filmManager
             )

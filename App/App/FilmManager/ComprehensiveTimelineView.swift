@@ -13,11 +13,11 @@ struct ComprehensiveTimelineView: View {
                 // Playback controls
                 HStack(spacing: 12) {
                     Button {
-                        seekToBeginning()
+                        filmManager.goToPreviousScene()
                     } label: {
                         Image(systemName: "backward.end.fill")
                     }
-                    .help("Go to beginning")
+                    .help("Previous scene")
                     
                     Button {
                         filmManager.isPlaying.toggle()
@@ -30,11 +30,18 @@ struct ComprehensiveTimelineView: View {
                     .help(filmManager.isPlaying ? "Pause" : "Play timeline")
                     
                     Button {
-                        jumpToNextVideo()
+                        filmManager.stopAndReturnToStart()
+                    } label: {
+                        Image(systemName: "stop.fill")
+                    }
+                    .help("Stop and return to start")
+                    
+                    Button {
+                        filmManager.goToNextScene()
                     } label: {
                         Image(systemName: "forward.end.fill")
                     }
-                    .help("Next video shot")
+                    .help("Next scene")
                 }
                 
                 Spacer()
@@ -202,6 +209,8 @@ struct ComprehensiveTimelineView: View {
     }
     
     private func seekToShot(_ shot: FilmShot) {
+        // Update selectedShotId to match the new shot selection
+        filmManager.selectedShotId = shot.id
         // Calculate the actual time position where this shot starts
         // Using fixed 8-second duration for all shots
         if let index = filmManager.shots.firstIndex(where: { $0.id == shot.id }) {
@@ -217,12 +226,14 @@ struct ComprehensiveTimelineView: View {
         
         if shotIndex >= 0 && shotIndex < filmManager.shots.count {
             let shot = filmManager.shots[shotIndex]
-            if filmManager.selectedShot?.id != shot.id {
+            if filmManager.selectedShotId != shot.id {
                 print("Timeline: Switching to shot \(shot.id) at time \(time)s (index: \(shotIndex))")
+                filmManager.selectedShotId = shot.id
                 filmManager.selectedShot = shot
             }
         } else if let lastShot = filmManager.shots.last {
             // If we're past all shots, select the last one
+            filmManager.selectedShotId = lastShot.id
             filmManager.selectedShot = lastShot
         }
     }

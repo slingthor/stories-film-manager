@@ -295,46 +295,7 @@ struct ComprehensivePromptEditor: View {
                                 .cornerRadius(8)
                             }
                             
-                            // Action buttons
-                            HStack(spacing: 12) {
-                                Button("Generate Complete Prompt") {
-                                    generatedPrompt = shot.promptVariants[shot.selectedPromptIndex].generateCompletePrompt(
-                                        for: shot,
-                                        plateManager: filmManager.plateManager,
-                                        trackingSystems: filmManager.trackingSystems
-                                    )
-                                    generatedCleanPrompt = shot.promptVariants[shot.selectedPromptIndex].generateCleanPrompt(
-                                        for: shot,
-                                        plateManager: filmManager.plateManager
-                                    )
-                                    showingGeneratedPrompt = true
-                                    print("🎬 Generated prompt (\(generatedPrompt.count) chars)")
-                                    print(generatedPrompt)
-                                }
-                                .buttonStyle(.borderedProminent)
-                                
-                                Button(action: {
-                                    if !shot.promptVariants[shot.selectedPromptIndex].isActive {
-                                        shot.setActivePrompt(at: shot.selectedPromptIndex)
-                                    }
-                                }) {
-                                    Label(shot.promptVariants[shot.selectedPromptIndex].isActive ? "Active" : "Set as Active", 
-                                          systemImage: shot.promptVariants[shot.selectedPromptIndex].isActive ? "star.fill" : "star")
-                                }
-                                .buttonStyle(.bordered)
-                                .disabled(shot.promptVariants[shot.selectedPromptIndex].isActive)
-                                .foregroundColor(shot.promptVariants[shot.selectedPromptIndex].isActive ? .yellow : .primary)
-                                
-                                Button("Save Shot") {
-                                    // Force save by marking as dirty then triggering save
-                                    shot.isDirty = true
-                                    filmManager.fileManager.saveShot(shot)
-                                    shot.isDirty = false
-                                    print("💾 Manually saved shot \(shot.id)")
-                                }
-                                .buttonStyle(.bordered)
-                            }
-                            .padding(.top, 8)
+                            // Action buttons moved to fixed bottom panel
                         }
                         .padding()
                     }

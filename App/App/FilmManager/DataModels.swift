@@ -12,11 +12,20 @@ class FilmManager: ObservableObject {
             updateSystemsForSelectedShot()
         }
     }
+    @Published var selectedShotId: String? {
+        didSet {
+            // Update selectedShot when selectedShotId changes
+            if let shotId = selectedShotId {
+                selectedShot = shots.first { $0.id == shotId }
+            }
+        }
+    }
     @Published var trackingSystems: [TrackingSystem] = []
     @Published var timelinePosition: Double = 0.0
     @Published var totalDuration: Double = 0.0
     @Published var isPlaying: Bool = false
     @Published var shouldFollowTimeline: Bool = true
+    @Published var isTimelineAtStart: Bool = true
     
     let fileManager = FilmFileManager()
     let plateManager = PlateManager()
@@ -631,6 +640,34 @@ class FilmManager: ObservableObject {
         print("🗑️ Deleted shot: \(shot.id) - \(shot.title)")
     }
     
+    func goToNextScene() {
+        guard let currentIndex = shots.firstIndex(where: { $0.id == selectedShotId }) else { return }
+        if currentIndex < shots.count - 1 {
+            selectedShotId = shots[currentIndex + 1].id
+            selectedShot = shots[currentIndex + 1]
+            isTimelineAtStart = false
+        }
+    }
+    
+    func goToPreviousScene() {
+        guard let currentIndex = shots.firstIndex(where: { $0.id == selectedShotId }) else { return }
+        if currentIndex > 0 {
+            selectedShotId = shots[currentIndex - 1].id
+            selectedShot = shots[currentIndex - 1]
+            isTimelineAtStart = (currentIndex - 1 == 0)
+        }
+    }
+    
+    func stopAndReturnToStart() {
+        isPlaying = false
+        timelinePosition = 0.0
+        isTimelineAtStart = true
+        if let firstShot = shots.first {
+            selectedShotId = firstShot.id
+            selectedShot = firstShot
+        }
+    }
+    
     func copyShotAfterCurrent() {
         guard let currentShot = selectedShot,
               let currentIndex = shots.firstIndex(where: { $0.id == currentShot.id }) else {
@@ -753,6 +790,13 @@ class FilmShot: ObservableObject, Identifiable, Equatable {
     }
     
     var selectedVideo: VideoFile? {
+        // First check if active prompt variant has an active video
+        if let activeVariant = promptVariants.first(where: { $0.isActive }),
+           let activeVideo = activeVariant.activeVideo {
+            return activeVideo
+        }
+        
+        // Fallback to shot-level selected video
         guard let index = selectedVideoIndex, index < videos.count else { return nil }
         return videos[index]
     }
@@ -926,6 +970,11 @@ class PromptVariant: ObservableObject, Identifiable {
     @Published var selectedEnvironmentPlateId: String?
     @Published var customCharacterPlate: String = ""
     @Published var customEnvironmentPlate: String = ""
+    
+    // Per-prompt video collections and active selection
+    @Published var videos: [VideoFile] = []
+    @Published var images: [ImageFile] = []
+    @Published var activeVideoIndex: Int?  // Which video is active for timeline playback
     
     init(variantId: String, name: String, subject: String, action: String, scene: String, style: String) {
         self.variantId = variantId
@@ -1161,9 +1210,41 @@ class PromptVariant: ObservableObject, Identifiable {
                 collectedPlateIds.insert(envPlateId)
             }
             
+            // 3. AUTO-INCLUDE MASTER PLATES: Always ensure master environmental and character plates are included
+            //    when ANY specialized plates are present
+            let hasEnvironmentalPlates = collectedPlateIds.contains { plateId in
+                plateManager.environmentalPlates.contains { $0.plateId == plateId }
+            }
+            let hasCharacterPlates = collectedPlateIds.contains { plateId in 
+                plateManager.characterPlates.contains { $0.plateId == plateId }
+            }
+            
+            if hasEnvironmentalPlates {
+                // Always include WESTFJORDS-MASTER as the main environmental foundation
+                collectedPlateIds.insert("WESTFJORDS-MASTER")
+                print("   🌍 AUTO-ADDED WESTFJORDS-MASTER as environmental foundation")
+            }
+            
+            if hasCharacterPlates {
+                // Find any character plates and ensure their main plates are included
+                for plateId in Array(collectedPlateIds) {
+                    if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
+                        // Look for main character plates using the actual naming pattern: CHARACTER-MASTER
+                        let characterName = charPlate.character.uppercased()
+                        let mainPlateId = "\(characterName)-MASTER"
+                        
+                        // Check if this master plate exists
+                        if plateManager.characterPlates.contains(where: { $0.plateId == mainPlateId }) {
+                            collectedPlateIds.insert(mainPlateId)
+                            print("   👤 AUTO-ADDED \(mainPlateId) as main character plate for \(characterName)")
+                        }
+                    }
+                }
+            }
+            
             // Note: Custom plates are handled separately below since they contain descriptions, not IDs
             
-            print("   🔍 Collected plate IDs from all sources: \(Array(collectedPlateIds).joined(separator: ", "))")
+            print("   🔍 Final collected plate IDs (including auto-added masters): \(Array(collectedPlateIds).sorted().joined(separator: ", "))")
             
             // Process all collected plates (convert Set to sorted Array for consistent order)
             let sortedPlateIds = Array(collectedPlateIds).sorted()
@@ -1311,12 +1392,12 @@ class PromptVariant: ObservableObject, Identifiable {
                 // Try character plates first
                 if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
                     let plateDescription = processPlateWithMaster(charPlate.description, plateId: plateId, plateManager: plateManager)
-                    plateAdditions += " [\(charPlate.character.uppercased())]: " + plateDescription
+                    plateAdditions += " " + plateDescription
                 }
                 // Try environmental plates
                 else if let envPlate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
                     let plateDescription = processPlateWithMaster(envPlate.description, plateId: plateId, plateManager: plateManager)
-                    plateAdditions += " [\(envPlate.category.uppercased())]: " + plateDescription
+                    plateAdditions += " " + plateDescription
                 }
             }
             
@@ -1367,6 +1448,21 @@ class PromptVariant: ObservableObject, Identifiable {
         promptText += "ASPECT:\n\(shot.aspectRatio)"
         
         return promptText
+    }
+    
+    // Get the active video for this prompt variant
+    var activeVideo: VideoFile? {
+        guard let index = activeVideoIndex, index >= 0 && index < videos.count else {
+            return nil
+        }
+        return videos[index]
+    }
+    
+    // Set a video as active for timeline playback
+    func setActiveVideo(at index: Int) {
+        if index >= 0 && index < videos.count {
+            activeVideoIndex = index
+        }
     }
 }
 
