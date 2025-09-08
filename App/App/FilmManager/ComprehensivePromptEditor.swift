@@ -8,6 +8,7 @@ struct ComprehensivePromptEditor: View {
     @State private var newVariantName = ""
     @State private var showingGeneratedPrompt = false
     @State private var generatedPrompt = ""
+    @State private var generatedCleanPrompt = ""
     @State private var showCharacterPlates = false
     @State private var showEnvironmentPlates = false
     
@@ -302,6 +303,10 @@ struct ComprehensivePromptEditor: View {
                                         plateManager: filmManager.plateManager,
                                         trackingSystems: filmManager.trackingSystems
                                     )
+                                    generatedCleanPrompt = shot.promptVariants[shot.selectedPromptIndex].generateCleanPrompt(
+                                        for: shot,
+                                        plateManager: filmManager.plateManager
+                                    )
                                     showingGeneratedPrompt = true
                                     print("🎬 Generated prompt (\(generatedPrompt.count) chars)")
                                     print(generatedPrompt)
@@ -390,6 +395,7 @@ struct ComprehensivePromptEditor: View {
             GeneratedPromptViewer(
                 prompt: generatedPrompt,
                 shotId: shot?.id ?? "",
+                cleanPrompt: generatedCleanPrompt,
                 onDismiss: { showingGeneratedPrompt = false }
             )
         }
@@ -972,6 +978,7 @@ struct NewVariantDialog: View {
 struct GeneratedPromptViewer: View {
     let prompt: String
     let shotId: String
+    let cleanPrompt: String
     let onDismiss: () -> Void
     
     var body: some View {
@@ -984,14 +991,10 @@ struct GeneratedPromptViewer: View {
                 Spacer()
                 
                 Button("Copy Prompt") {
-                    // Generate clean prompt without headers and technical info
-                    if let selectedShot = filmManager.shots.first(where: { $0.id == filmManager.selectedShotId }),
-                       let selectedVariant = selectedShot.promptVariants[safe: selectedShot.selectedPromptIndex] {
-                        let cleanPrompt = selectedVariant.generateCleanPrompt(for: selectedShot, plateManager: filmManager.plateManager)
-                        NSPasteboard.general.clearContents()
-                        NSPasteboard.general.setString(cleanPrompt, forType: .string)
-                        print("📋 Copied clean VEO3 prompt to clipboard")
-                    }
+                    // Copy the clean prompt without headers and technical info
+                    NSPasteboard.general.clearContents()
+                    NSPasteboard.general.setString(cleanPrompt, forType: .string)
+                    print("📋 Copied clean VEO3 prompt to clipboard")
                 }
                 .buttonStyle(.bordered)
                 
