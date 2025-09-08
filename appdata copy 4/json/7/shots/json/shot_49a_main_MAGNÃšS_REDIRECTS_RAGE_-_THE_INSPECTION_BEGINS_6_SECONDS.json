@@ -1,0 +1,33 @@
+{
+  "aspect_ratio" : "1:1",
+  "prompt_variants" : [
+    {
+      "style" : "Push in showing entrapment and inspection (that's where the camera is), predatory documentation.",
+      "is_active" : false,
+      "action" : "MagnÃºs dismisses GuÃ°rÃºn with disgusted wave - she failed to die, worthless now. Turns to Sigrid. PUSH IN as he approaches. She's trapped in corner, maintaining 11 feet but wall prevents retreat. His 0Hz hands (no tremor) reach toward her. Not violent. Worse. Examining. Grips her jaw like morning's ram testicle feeding. But now checking teeth for breeding soundness. Her breathing stays 15\/min (never changes) even as he inspects. Behind her, wall cracks spell \"VITNI\" (witness) - she will witness and escape. His other hand moves to her belly - knows about pregnancy. \"GÃ³Ã°ur stofn\" (good stock) he mutters. \"Ef mÃ³Ã°irin deyr...\" (If the mother dies...). Implication clear. GuÃ°rÃºn sees, understands, cannot intervene. House heartbeat accelerates to 80bpm. Walls perspiring more. Bergrisi recognizing threat to chosen one. But MagnÃºs in his madness doesn't notice house responding. Focused only on Sigrid as next breeding stock. The isolation making incest inevitable - no other women for 40 miles.",
+      "negative_prompt" : "",
+      "camera_position" : "Push in showing entrapment and inspection",
+      "subject" : "[MAGNÃšS] turning from surviving [GUÃRÃšN] to [SIGRID], his 0Hz hands perfectly steady as he approaches her corner where she maintains exactly 11 feet, but wall behind means no retreat, his eyes examining her with livestock assessment while she presses against klettagjÃ¡ cracks now spelling \"VITNI\" (witness).",
+      "dialogue" : "(MagnÃºs): \"GÃ³Ã°ur stofn... sterkir kjÃ¡lkar\" \"Ef mÃ³Ã°irin deyr, Ã¾arftu...\" (Sigrid): Silent, breathing steady at 15\/min",
+      "selected_plates" : [
+        "SIGRID-CORNERED",
+        "GUDRUN-CONDEMNED",
+        "WESTFJORDS-CLIFF"
+      ],
+      "variant_id" : "49a_story_primary",
+      "variant_name" : "Primary - MAGNÃšS REDIRECTS RAGE - THE INSPECTION BEGINS 6 SECONDS",
+      "scene" : "Southwest corner, 10:20 AM. Sigrid trapped. Wall cracks visible behind her. Family watching frozen.",
+      "progressive_state" : ""
+    }
+  ],
+  "progressive_state" : "House 18\/min agitated + 60bpm | Authority shifting | Camera frost 36.5% | Incest emerging | Watching: House sees threat",
+  "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "duration_seconds" : 6,
+    "title" : "MAGNÃšS REDIRECTS RAGE - THE INSPECTION BEGINS 6 SECONDS",
+    "stitch_from" : "",
+    "narrative_function" : "House 18\/min agitated + 60bpm | Authority shifting...",
+    "sequence_type" : "main_story",
+    "id" : "49a"
+  }
+}

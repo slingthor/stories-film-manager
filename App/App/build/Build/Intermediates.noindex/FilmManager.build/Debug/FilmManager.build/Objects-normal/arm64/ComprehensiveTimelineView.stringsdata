@@ -1,0 +1,80 @@
+{
+  "source": "/Users/ingthor/Documents/stories/App/App/FilmManager/ComprehensiveTimelineView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Go to beginning",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pause",
+        "location": {
+          "startingColumn": 51,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Play timeline",
+        "location": {
+          "startingColumn": 61,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Next video shot",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "Videos: %lld/%lld shots",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "/",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "Auto-sync shot selection",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "Follow Timeline",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "—",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 155
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,32 +1,31 @@
 {
-  "shot_metadata": {
-    "id": "55.5b",
-    "title": "Shot 55Point5 Seven Film Versions Consciousness Fr",
-    "sequence_type": "main",
-    "duration_seconds": 3,
-    "narrative_function": "enhancement",
-    "stitch_from": ""
-  },
-  "progressive_state": "",
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "variant_id": "55p_shot_55point5_seven_film_versions_consciousness_fr",
-      "variant_name": "Shot 55Point5 Seven Film Versions Consciousness Fr",
-      "subject": "",
-      "action": "",
-      "scene": "SHOT 55.5: SEVEN FILM VERSIONS - CONSCIOUSNESS FRAGMENTS Revolutionary Meta-Cinema Where Audience Experiences All Possible Interpretations OVERVIEW:",
-      "style": "",
-      "camera_position": "",
-      "dialogue": "",
-      "negative_prompt": "",
-      "selected_plates": [
+      "progressive_state" : "",
+      "subject" : "",
+      "variant_name" : "Shot 55Point5 Seven Film Versions Consciousness Fr",
+      "camera_position" : "",
+      "is_active" : false,
+      "dialogue" : "",
+      "selected_plates" : [
         "WESTFJORDS-CLIFF"
-      ]
+      ],
+      "style" : "",
+      "action" : "",
+      "scene" : "SHOT 55.5: SEVEN FILM VERSIONS - CONSCIOUSNESS FRAGMENTS Revolutionary Meta-Cinema Where Audience Experiences All Possible Interpretations OVERVIEW:",
+      "negative_prompt" : "",
+      "variant_id" : "55p_shot_55point5_seven_film_versions_consciousness_fr"
     }
   ],
-  "others": {
-    "creator_process": "enhancement_integration",
-    "source_file": "shot_55point5_seven_film_versions_consciousness_fragments.txt"
+  "progressive_state" : "",
+  "shot_metadata" : {
+    "narrative_function" : "enhancement",
+    "title" : "Shot 55Point5 Seven Film Versions Consciousness Fr",
+    "sequence_type" : "main",
+    "stitch_from" : "",
+    "id" : "55.5b",
+    "duration_seconds" : 3
   },
-  "aspect_ratio": "4:3"
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3"
 }

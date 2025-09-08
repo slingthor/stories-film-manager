@@ -1,0 +1,21 @@
+SHOT 12.5: THE WARM FLOOR (INSERTED)
+Progressive State: House 11/min + 60bpm | KlettagjÃ¡ 1.75mm | Giant hints | Camera frost 7.5% | House choosing | Watching: House feels them
+Women's Silence: Lilja's wordless discovery
+Triple Reality: Physical: floor temperature variance / Psychological: uncanny comfort / Mythological: inside living body
+[STITCH from Shot 12: Lullaby ending, Lilja drowsy]
+
+Subject: [LILJA] sliding off the sleeping platform, her small bare feet touching the packed earth floor and finding it inexplicably warm in certain spots - body temperature warm - while her hand traces patterns in the dirt that reveal worn grooves radiating from the hearth like veins.
+
+Action: Lilja's feet hit floor, expecting cold. But one spot under her left foot is warm - exactly 37Â°C, body temperature. She shifts weight, curious. Cold. Steps again. Another warm spot. Playing a silent game, she hops from warm spot to warm spot. The spots form a pattern - seven warm areas corresponding to where organs would be if the house were a body. Hearth = heart. Storage room = stomach. Sleeping area = lungs. She traces the floor with her finger, following worn grooves between warm spots. The grooves look like veins or rÃ©ttir channels. Above, the three beams groan with house breathing - sound exactly like ribs flexing. One beam has a knot that looks like a joint, flexing slightly. Lilja looks up at beam, back at floor, makes connection a child would: "ViÃ° erum inni?" (We're inside?) But doesn't finish thought. The warm spots pulse slightly with the 60bpm heartbeat.
+
+Scene: Floor exploration, 6:07 AM, grey morning light. Temperature -10Â°C air, but floor spots at body temperature. The groove patterns visible only from child's low angle. Beams groaning rhythmically. The house more obviously alive from child's perspective - adults too tall to notice floor, too resigned to hear beams.
+
+Style: Child's POV at floor level, camera 2 feet high following her discovery (that's where the camera is), documentary of innocent recognition.
+
+Dialogue: (Lilja, to herself): "Heitt... kalt... heitt..." (Hot... cold... hot...) (Looking up at beams): "ViÃ° erum inni?" (We're inside?) (Unfinished thought, distracted by movement at window)
+
+Sounds: [PRIMARY: Small feet on warm spots, finger tracing grooves, beams groaning like ribs] [AMBIENT: House breathing 11/min, heartbeat 60bpm through floor, floor pulsing with warmth] [ABSENT: no adult notice, no completion of thought]
+
+Technical (Negative Prompt): no subtitles, show temperature difference subtly, child's discovery natural, documentary observation
+
+-

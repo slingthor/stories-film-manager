@@ -983,10 +983,15 @@ struct GeneratedPromptViewer: View {
                 
                 Spacer()
                 
-                Button("Copy to Clipboard") {
-                    NSPasteboard.general.clearContents()
-                    NSPasteboard.general.setString(prompt, forType: .string)
-                    print("📋 Copied VEO3 prompt to clipboard")
+                Button("Copy Prompt") {
+                    // Generate clean prompt without headers and technical info
+                    if let selectedShot = filmManager.shots.first(where: { $0.id == filmManager.selectedShotId }),
+                       let selectedVariant = selectedShot.promptVariants[safe: selectedShot.selectedPromptIndex] {
+                        let cleanPrompt = selectedVariant.generateCleanPrompt(for: selectedShot, plateManager: filmManager.plateManager)
+                        NSPasteboard.general.clearContents()
+                        NSPasteboard.general.setString(cleanPrompt, forType: .string)
+                        print("📋 Copied clean VEO3 prompt to clipboard")
+                    }
                 }
                 .buttonStyle(.bordered)
                 

@@ -1,0 +1,36 @@
+{
+  "shot_metadata": {
+    "id": "0a",
+    "title": "Nidstong Curse Pole Revolutionary Enhancement",
+    "sequence_type": "prologue",
+    "duration_seconds": 3,
+    "narrative_function": "enhancement",
+    "stitch_from": ""
+  },
+  "progressive_state": "",
+  "prompt_variants": [
+    {
+      "variant_id": "0a_nidstong_curse_pole_revolutionary_enhancement",
+      "variant_name": "Nidstong Curse Pole Revolutionary Enhancement",
+      "subject": "",
+      "action": "Horse skull's jaw movement creates speech-rhythm without sound\u2014opening/closing at 8/min curse-frequency, each jaw motion releasing additional blood drops that fall upward creating vertical column of accusation reaching toward storm clouds. Shadow begins moving independent of sun position, extending further toward Denmark as curse strengthens, darkness growing longer despite static light source. Carved letters on staff glow in sequence spelling complete accusation: \"SKULD-SVIK-SIGLING-SKULD\" (Guilt-Betrayal-Sailing-Debt), each word burning brighter as curse energy builds toward imperial homeland. Aurora light in skull eye-sockets flickers with electromagnetic pulse pattern matching telegraph signals\u2014curse transmitting accusations across ocean through atmospheric electricity. Blood column reaches clouds, staining storm-front red, curse-energy entering weather system to carry accusations on wind toward Danish territories. Staff vibrates at 16Hz earthquake frequency, curse pole becoming antenna transmitting Iceland's rage through geological resonance.",
+      "scene": "SHOT 0A: NIDST\u00d6NG CURSE POLE - REVOLUTIONARY ENHANCEMENT From Adequate Opening to 10/10 Imperial Accusation SHOT HEADER: Desolate Westfjords headland overlooking Denmark Strait, landscape stripped to geological honesty under storm clouds building from imperial direction. Curse pole positioned at highest point commanding view toward Denmark, its accusation visible across vast ocean distance. No vegetation near pole\u2014curse energy killing plant life in 30-foot radius, creating dead zone where only anger survives. Ancient stone circle surrounds pole base, carved with landv\u00e6ttir symbols indicating divine approval for revenge-working, old gods supporting accusation against imperial violation.",
+      "style": "Camera positioned at base of curse pole looking up toward bleeding skull and extending shadow (that's where the camera is), low angle emphasizing pole's command over landscape and cosmic connection. Static shot building curse energy through duration rather than movement, letting supernatural elements accumulate power through sustained observation. Natural storm light enhanced by aurora-fire in skull eyes and blood-glow on carved accusations. Focus alternates between skull detail and impossible shadow extension, macro/wide transitions showing both intimate curse-working and cosmic reach. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    }
+  ],
+  "others": {
+    "creator_process": "enhancement_integration",
+    "source_file": "shot_0a_nidstong_curse_pole_revolutionary_enhancement.txt"
+  }
+}

@@ -1,115 +1,91 @@
 {
-  "shot_metadata": {
-    "id": "19",
-    "name": "THE_WHALE_OIL_DIES",
-    "title": "THE WHALE OIL DIES",
-    "sequence_type": "main_story",
-    "duration_seconds": 8,
-    "narrative_function": "House 15/min + 80bpm | Old light ending | Camera f...",
-    "stitch_from": "[STITCH from Shot 18: MagnÃºs exits with door open]"
+  "selected_prompt_index" : 0,
+  "progressive_state" : "House 15\/min + 80bpm | Old light ending | Camera frost 11% (for post) | Traditional world dying | Watching: Absence",
+  "shot_metadata" : {
+    "duration_seconds" : 8,
+    "sequence_type" : "main_story",
+    "stitch_from" : "",
+    "id" : "19",
+    "title" : "THE WHALE OIL DIES",
+    "narrative_function" : "House 15\/min + 80bpm | Old light ending | Camera f..."
   },
-  "progressive_state": "House 15/min + 80bpm | Old light ending | Camera frost 11% (for post) | Traditional world dying | Watching: Absence",
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "variant_id": "19_pass_2_whale_oil_molecular_journey",
-      "variant_name": "Pass 2 Whale Oil Molecular Journey",
-      "subject": "",
-      "action": "Oil molecule begins controlled decomposition as flame approaches, hydrocarbon chains breaking in mathematical sequence that preserves whale consciousness during transition from liquid to gas. Carbon atoms rearrange into spiral patterns matching blood geometry from whale hunt, molecular memory maintaining sacred mathematics through chemical transformation. Microscopic whale eye shows calm acceptance as combustion converts oil back to atmospheric components, consciousness transferring from liquid storage to gaseous freedom. Combustion creates upward molecular flow—oil returning to atmosphere carrying whale's gratitude for 200-year human service, chemical reunion with cosmic breath-cycle completing divine energy loop. Final molecular moment shows complete dissolution where whale consciousness spreads into atmospheric molecules, oil death becoming whale rebirth through chemical transformation returning essence to oceanic source via atmospheric circulation.",
-      "scene": "PASS 2: SHOT 19 - WHALE OIL MOLECULAR JOURNEY Following Oil Molecules Through Impossible Chemistry SHOT HEADER: Interior molecular landscape where whale consciousness exists as chemical memory within oil structure, microscopic environment showing organic chemistry as divine information storage, combustion serving as conscious dissolution rather than destruction process. Molecular scale revealing oil as complex organic database containing whale's cellular history, genetic memory, consciousness patterns preserved through hydrocarbon chemistry.",
-      "style": "Camera existing inside oil molecule using impossible molecular perspective (that's where the camera is), macro focus revealing chemical structure as conscious architecture. Movement following molecular dissolution during combustion, tracking consciousness transfer from liquid to gaseous state. Lighting from combustion flame creating molecular illumination showing chemical bonds as divine information pathways. Focus maintains clarity at impossible molecular scale showing chemical consciousness during willing dissolution. DIALOGUE:",
-      "camera_position": "",
-      "dialogue": "",
-      "negative_prompt": "",
-      "selected_plates": [
+      "progressive_state" : "",
+      "subject" : "",
+      "variant_name" : "Pass 2 Whale Oil Molecular Journey",
+      "camera_position" : "",
+      "is_active" : false,
+      "dialogue" : "",
+      "selected_plates" : [
         "LILJA-SENSING",
         "JON-TEMPORAL",
         "SIGRID-CORNERED",
         "STOFA-BODY"
-      ]
-    },
-    {
-      "variant_id": "19_whale_oil_dies_600_years_temporal_flash",
-      "variant_name": "Whale Oil Dies 600 Years Temporal Flash",
-      "subject": "",
-      "action": "Lamp flame begins 3-frame temporal flash sequence showing 600 years of whale oil tradition: FRAME 1 (1262): First whale oil lamp lit during Iceland's golden age, abundance flowing. FRAME 2 (1550): Lamps burning during Danish trade monopoly, scarcity beginning. FRAME 3 (1888): Current lamp dying, tradition ending. Family continues eating-performance treating lamp as already extinguished while flame burns with supernatural persistence—consciousness operating on different temporal schedule than physical reality. Final oil drop forms slowly at wick tip, growing to contain whale's eye reflection, then falling UPWARD and BACKWARD through time toward whale hunt scene 400km distant, oil returning to source through impossible physics. Whale's ghost-song emerges from dying lamp—40Hz frequency carrying gratitude for service, relief at obligation ending, whale consciousness finally released from 200-year duty providing human illumination.",
-      "scene": "SHOT 19: WHALE OIL DIES - 600 YEARS TEMPORAL FLASH From Adequate Symbolic Moment (8/10) to Temporal Masterpiece (10/10) SHOT HEADER: Baðstofa interior during final traditional illumination, family gathered around dying light source that enabled 600 years of winter survival, domestic space losing organic warmth as industrial replacement approaches. Lamp positioned at family table center, its diminishing light creating natural spotlight for final traditional meal before industrial dependency begins. Traditional whale oil containers empty, no replacement available, organic light tradition ending permanently.",
-      "style": "Camera positioned at lamp-level showing both flame death detail and family response to traditional light ending (that's where the camera is), intimate enough for temporal flash visibility, wide enough for family context during transition. Static shot allowing temporal sequence to unfold without camera distraction. Natural lamp light enhanced by temporal flash illumination—600 years of whale oil history visible in dying flame. Focus sharp on flame temporal sequence, soft on family continuing meal despite functional lamp death. DIALOGUE:",
-      "camera_position": "",
-      "dialogue": "",
-      "negative_prompt": "",
-      "selected_plates": [
-        "LILJA-SENSING",
-        "JON-TEMPORAL",
-        "SIGRID-CORNERED",
-        "STOFA-BODY"
-      ]
-    },
-    {
-      "variant_id": "19_pass_2_riding_light_backward_to_whale",
-      "variant_name": "Pass 2 Riding Light Backward To Whale",
-      "subject": "",
-      "action": "Oil drop travels backward through atmospheric circulation carrying lamp-light energy toward whale hunt site 400km distant, photons refusing normal physics by moving against gravity and through reverse time toward grateful reunion with source consciousness. Light journey shows temporal layering: passing through 1888 family gratitude, 1550 Danish trade monopoly dependency, 1262 original abundance, all historical periods where whale oil enabled human survival through divine sacrifice cooperation. Camera rides light-stream as it navigates atmospheric circulation patterns following whale song frequencies preserved in atmospheric molecules, divine acoustic signature guiding light energy home through environmental sound-navigation. Light consciousness experiences reunion with whale brain as oil rejoins blubber source, photons returning to tissue where divine decision to sacrifice for human benefit originated, completing energy circle from death-gift to gratitude-return.",
-      "scene": "PASS 2: SHOT 19 - RIDING LIGHT BACKWARD TO WHALE Camera Following Illumination's Return Journey Home SHOT HEADER: Atmospheric journey connecting domestic lamp death to oceanic whale source across impossible distance and temporal reversal, light energy traveling through environmental circulation following whale consciousness pathways back to divine sacrifice origin.",
-      "style": "Camera riding light energy using impossible backward temporal movement (that's where the camera is), traveling at photon speed through atmospheric circulation toward whale source. Movement follows whale song frequencies preserved in atmospheric molecules, divine acoustic navigation guiding light return journey. Focus maintains clarity during impossible backward time travel showing historical periods passed through during gratitude journey. DIALOGUE:",
-      "camera_position": "",
-      "dialogue": "",
-      "negative_prompt": "",
-      "selected_plates": [
-        "LILJA-SENSING",
-        "JON-TEMPORAL",
-        "SIGRID-CORNERED",
-        "STOFA-BODY"
-      ]
-    },
-    {
-      "variant_id": "19_story_primary",
-      "variant_name": "Primary - THE WHALE OIL DIES",
-      "intent_tags": [
-        "story_primary"
       ],
-      "priority": 1,
-      "subject": "The whale oil lamp, abandoned on table with door open creating wind, flame fighting the draft and losing - shrinking from fingernail size to pinpoint to blue whisper to nothing, the last traditional light source extinguished, leaving only the memory of warmth.",
-      "action": "Door still open from MagnÃºs's exit. Arctic wind enters, -25Â°C fighting -12Â°C. The candle he used already dead. Only whale oil lamp remains, but wind finds it. Flame bends horizontal, trying to survive. Shrinks to half size. Quarter size. Pinpoint. The oil is gone - 200 years of whale oil lamps in this house, ending now. The wick glows red for moment, ember of old world. Then black. Complete darkness. Through open door, sound of MagnÃºs dragging boat through snow. Inside, family in absolute black. GuÃ°rÃºn doesn't move to close door. Children breathing but invisible. Sigrid's hand finds wall, traces \"FÃ“RN\" by feel. House breathing drops to 10/min, grieving. Heartbeat slows to 50bpm. The darkness is complete - not even starlight through frost. Old world dead.",
-      "scene": "Table with dying lamp, 6:22 AM but no light. Temperature plummeting from open door. The lamp that lit generations, dead. Smoke from extinguished wick rising invisible in darkness. The empty oil reservoir that once held whale blubber, now holding nothing.",
-      "style": "Extreme close on dying flame, then pulling back to absolute darkness (that's where the camera is), documentary of light's death.",
-      "camera_position": "Extreme close on dying flame, then pulling back to absolute darkness",
-      "dialogue": "(Wind through door): Howling (Complete silence from family) (Sigrid's fingers on wall): Scraping sound tracing letters",
-      "audio": {
-        "primary": [
-          "Wind killing flame",
-          "wick's last gasp",
-          "oil gone",
-          "door banging"
-        ],
-        "ambient": [
-          "House breathing slowing to 10/min (grief)",
-          "heartbeat to 50bpm",
-          "MagnÃºs dragging boat outside"
-        ],
-        "absent": [
-          "no voices",
-          "no light",
-          "no warmth"
-        ]
-      },
-      "negative_prompt": "no subtitles, true darkness after flame dies, maintain absence, documentary observation",
-      "video_references": [],
-      "selected_plates": [
+      "style" : "Camera existing inside oil molecule using impossible molecular perspective (that's where the camera is), macro focus revealing chemical structure as conscious architecture. Movement following molecular dissolution during combustion, tracking consciousness transfer from liquid to gaseous state. Lighting from combustion flame creating molecular illumination showing chemical bonds as divine information pathways. Focus maintains clarity at impossible molecular scale showing chemical consciousness during willing dissolution. DIALOGUE:",
+      "action" : "Oil molecule begins controlled decomposition as flame approaches, hydrocarbon chains breaking in mathematical sequence that preserves whale consciousness during transition from liquid to gas. Carbon atoms rearrange into spiral patterns matching blood geometry from whale hunt, molecular memory maintaining sacred mathematics through chemical transformation. Microscopic whale eye shows calm acceptance as combustion converts oil back to atmospheric components, consciousness transferring from liquid storage to gaseous freedom. Combustion creates upward molecular flow—oil returning to atmosphere carrying whale's gratitude for 200-year human service, chemical reunion with cosmic breath-cycle completing divine energy loop. Final molecular moment shows complete dissolution where whale consciousness spreads into atmospheric molecules, oil death becoming whale rebirth through chemical transformation returning essence to oceanic source via atmospheric circulation.",
+      "scene" : "PASS 2: SHOT 19 - WHALE OIL MOLECULAR JOURNEY Following Oil Molecules Through Impossible Chemistry SHOT HEADER: Interior molecular landscape where whale consciousness exists as chemical memory within oil structure, microscopic environment showing organic chemistry as divine information storage, combustion serving as conscious dissolution rather than destruction process. Molecular scale revealing oil as complex organic database containing whale's cellular history, genetic memory, consciousness patterns preserved through hydrocarbon chemistry.",
+      "negative_prompt" : "",
+      "variant_id" : "19_pass_2_whale_oil_molecular_journey"
+    },
+    {
+      "subject" : "",
+      "action" : "Lamp flame begins 3-frame temporal flash sequence showing 600 years of whale oil tradition: FRAME 1 (1262): First whale oil lamp lit during Iceland's golden age, abundance flowing. FRAME 2 (1550): Lamps burning during Danish trade monopoly, scarcity beginning. FRAME 3 (1888): Current lamp dying, tradition ending. Family continues eating-performance treating lamp as already extinguished while flame burns with supernatural persistence—consciousness operating on different temporal schedule than physical reality. Final oil drop forms slowly at wick tip, growing to contain whale's eye reflection, then falling UPWARD and BACKWARD through time toward whale hunt scene 400km distant, oil returning to source through impossible physics. Whale's ghost-song emerges from dying lamp—40Hz frequency carrying gratitude for service, relief at obligation ending, whale consciousness finally released from 200-year duty providing human illumination.",
+      "scene" : "SHOT 19: WHALE OIL DIES - 600 YEARS TEMPORAL FLASH From Adequate Symbolic Moment (8\/10) to Temporal Masterpiece (10\/10) SHOT HEADER: Baðstofa interior during final traditional illumination, family gathered around dying light source that enabled 600 years of winter survival, domestic space losing organic warmth as industrial replacement approaches. Lamp positioned at family table center, its diminishing light creating natural spotlight for final traditional meal before industrial dependency begins. Traditional whale oil containers empty, no replacement available, organic light tradition ending permanently.",
+      "style" : "Camera positioned at lamp-level showing both flame death detail and family response to traditional light ending (that's where the camera is), intimate enough for temporal flash visibility, wide enough for family context during transition. Static shot allowing temporal sequence to unfold without camera distraction. Natural lamp light enhanced by temporal flash illumination—600 years of whale oil history visible in dying flame. Focus sharp on flame temporal sequence, soft on family continuing meal despite functional lamp death. DIALOGUE:",
+      "camera_position" : "",
+      "negative_prompt" : "",
+      "selected_plates" : [
+        "LILJA-SENSING",
+        "JON-TEMPORAL",
+        "SIGRID-CORNERED",
+        "STOFA-BODY"
+      ],
+      "variant_id" : "19_whale_oil_dies_600_years_temporal_flash",
+      "dialogue" : "",
+      "progressive_state" : "",
+      "variant_name" : "Whale Oil Dies 600 Years Temporal Flash",
+      "is_active" : false
+    },
+    {
+      "action" : "Oil drop travels backward through atmospheric circulation carrying lamp-light energy toward whale hunt site 400km distant, photons refusing normal physics by moving against gravity and through reverse time toward grateful reunion with source consciousness. Light journey shows temporal layering: passing through 1888 family gratitude, 1550 Danish trade monopoly dependency, 1262 original abundance, all historical periods where whale oil enabled human survival through divine sacrifice cooperation. Camera rides light-stream as it navigates atmospheric circulation patterns following whale song frequencies preserved in atmospheric molecules, divine acoustic signature guiding light energy home through environmental sound-navigation. Light consciousness experiences reunion with whale brain as oil rejoins blubber source, photons returning to tissue where divine decision to sacrifice for human benefit originated, completing energy circle from death-gift to gratitude-return.",
+      "subject" : "",
+      "is_active" : false,
+      "style" : "Camera riding light energy using impossible backward temporal movement (that's where the camera is), traveling at photon speed through atmospheric circulation toward whale source. Movement follows whale song frequencies preserved in atmospheric molecules, divine acoustic navigation guiding light return journey. Focus maintains clarity during impossible backward time travel showing historical periods passed through during gratitude journey. DIALOGUE:",
+      "dialogue" : "",
+      "negative_prompt" : "",
+      "variant_id" : "19_pass_2_riding_light_backward_to_whale",
+      "scene" : "PASS 2: SHOT 19 - RIDING LIGHT BACKWARD TO WHALE Camera Following Illumination's Return Journey Home SHOT HEADER: Atmospheric journey connecting domestic lamp death to oceanic whale source across impossible distance and temporal reversal, light energy traveling through environmental circulation following whale consciousness pathways back to divine sacrifice origin.",
+      "camera_position" : "",
+      "progressive_state" : "",
+      "variant_name" : "Pass 2 Riding Light Backward To Whale",
+      "selected_plates" : [
         "LILJA-SENSING",
         "JON-TEMPORAL",
         "SIGRID-CORNERED",
         "STOFA-BODY"
       ]
+    },
+    {
+      "negative_prompt" : "no subtitles, true darkness after flame dies, maintain absence, documentary observation",
+      "camera_position" : "Extreme close on dying flame, then pulling back to absolute darkness",
+      "scene" : "Table with dying lamp, 6:22 AM but no light. Temperature plummeting from open door. The lamp that lit generations, dead. Smoke from extinguished wick rising invisible in darkness. The empty oil reservoir that once held whale blubber, now holding nothing.",
+      "is_active" : false,
+      "selected_plates" : [
+        "LILJA-SENSING",
+        "JON-TEMPORAL",
+        "SIGRID-CORNERED",
+        "STOFA-BODY"
+      ],
+      "subject" : "The whale oil lamp, abandoned on table with door open creating wind, flame fighting the draft and losing - shrinking from fingernail size to pinpoint to blue whisper to nothing, the last traditional light source extinguished, leaving only the memory of warmth.",
+      "variant_name" : "Primary - THE WHALE OIL DIES",
+      "dialogue" : "(Wind through door): Howling (Complete silence from family) (Sigrid's fingers on wall): Scraping sound tracing letters",
+      "progressive_state" : "",
+      "style" : "Extreme close on dying flame, then pulling back to absolute darkness (that's where the camera is), documentary of light's death.",
+      "variant_id" : "19_story_primary",
+      "action" : "Door still open from MagnÃºs's exit. Arctic wind enters, -25Â°C fighting -12Â°C. The candle he used already dead. Only whale oil lamp remains, but wind finds it. Flame bends horizontal, trying to survive. Shrinks to half size. Quarter size. Pinpoint. The oil is gone - 200 years of whale oil lamps in this house, ending now. The wick glows red for moment, ember of old world. Then black. Complete darkness. Through open door, sound of MagnÃºs dragging boat through snow. Inside, family in absolute black. GuÃ°rÃºn doesn't move to close door. Children breathing but invisible. Sigrid's hand finds wall, traces \"FÃ“RN\" by feel. House breathing drops to 10\/min, grieving. Heartbeat slows to 50bpm. The darkness is complete - not even starlight through frost. Old world dead."
     }
   ],
-  "others": {
-    "womens_silence": "Complete silence in darkness",
-    "triple_reality": "Physical: last oil consumed / Psychological: abandonment / Mythological: old gods leaving"
-  },
-  "notes": {
-    "sequence": "main_story",
-    "characters_involved": [],
-    "original_preserved": true
-  },
-  "aspect_ratio": "4:3"
+  "aspect_ratio" : "4:3"
 }

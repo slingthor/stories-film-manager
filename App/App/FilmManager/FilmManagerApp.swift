@@ -3,6 +3,7 @@ import SwiftUI
 @main
 struct FilmManagerApp: App {
     @StateObject private var sharedFilmManager = FilmManager()
+    @Environment(\.openWindow) private var openWindow
     
     var body: some Scene {
         // Main application window
@@ -10,6 +11,12 @@ struct FilmManagerApp: App {
             ContentView()
                 .frame(minWidth: 1400, minHeight: 800)
                 .environmentObject(sharedFilmManager)
+                .onAppear {
+                    // Automatically open video playback window when app starts
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                        openWindow(id: "video-playback")
+                    }
+                }
         }
         .commands {
             CommandGroup(replacing: .saveItem) {

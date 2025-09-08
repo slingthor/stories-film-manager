@@ -1,0 +1,76 @@
+{
+  "shot_metadata": {
+    "id": "59a",
+    "name": "HOUSE_BECOMES_HRAFNTINNA_OBELISK_8_SECONDS_REVISED",
+    "title": "HOUSE BECOMES HRAFNTINNA OBELISK 8 SECONDS REVISED",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "Structure transforming | Camera frost 52% | Monoli...",
+    "stitch_from": "[STITCH from Shot 58c: Sigrid's transformation beginning]",
+    "aspect_ratio": "2.39:1"
+  },
+  "progressive_state": "Structure transforming | Camera frost 52% | Monolith emerging | Watching: Architecture ascending",
+  "prompt_variants": [
+    {
+      "variant_id": "59a_story_primary",
+      "variant_name": "Primary - HOUSE BECOMES HRAFNTINNA OBELISK 8 SECONDS REVISED",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The house suddenly crystallizing into black hrafntinna (obsidian), walls becoming smooth volcanic glass, the entire structure rising and narrowing into a 30-foot OBELISK with a vertical cleft running through it - the klettagjÃ¡ IS the monolith, black as raven feathers.",
+      "action": "CRANE BACK rapidly as house transforms. Walls darken - wood and stone becoming volcanic glass. Hrafntinna. Raven flint. The black obsidian sacred to Iceland. Structure doesn't collapse - CRYSTALLIZES. Rising. Narrowing. Becoming geometric. Perfect. Monolithic. 30 feet tall. 8 feet wide at base. 4 feet at top. Classic obelisk proportions. But through center: vertical CLEFT. Not crack - designed opening. The klettagjÃ¡ from lullaby. Rocky cleft IS the monument. Surface reflects everything but wrong - shows ravens where sheep stand, shows sky where ground is. The third monolith isn't a raven. It's the transformed house. The witness monument. Inside: sheep family trapped in crystal. Visible through translucent obsidian. Suspended. Preserved. Except Sigrid - she stands at cleft opening. The only way out is through. Black feathers against black stone. Almost invisible except for movement.",
+      "scene": "House becoming massive black obelisk. Hrafntinna formation. Vertical cleft visible. Family trapped inside.",
+      "style": "Crane back showing monumental transformation (that's where the camera is), architecture transcending.",
+      "camera_position": "Crane back showing monumental transformation",
+      "dialogue": "None - awe silence",
+      "audio": {
+        "primary": [
+          "Crystallization sound like ice forming",
+          "stone rising",
+          "glass singing"
+        ],
+        "ambient": [
+          "Wind through cleft making flute sounds",
+          "obsidian resonating"
+        ],
+        "absent": [
+          "no organic sounds"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BAÐSTOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    }
+  ],
+  "others": {
+    "womens_silence": "Silent before transformation",
+    "triple_reality": "Physical: house to obsidian | Psychological: witness monument | Mythological: klettagjÃ¡ as obelisk"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  },
+  "aspect_ratio": "2.39:1"
+}

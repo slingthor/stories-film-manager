@@ -1278,6 +1278,96 @@ class PromptVariant: ObservableObject, Identifiable {
         
         return promptText
     }
+    
+    func generateCleanPrompt(for shot: FilmShot, plateManager: PlateManager? = nil) -> String {
+        var promptText = ""
+        
+        // SUBJECT section
+        promptText += "SUBJECT:\n"
+        var subjectContent = subject
+        
+        // Add character and environmental plates at the END of subject section
+        var plateAdditions = ""
+        
+        // Derive plates from all available data sources automatically
+        if let plateManager = plateManager {
+            // Collect all plate IDs from all sources (no UI dependency)
+            var collectedPlateIds = Set<String>()
+            
+            // 1. From selectedPlateIds array (if populated)
+            selectedPlateIds.forEach { collectedPlateIds.insert($0) }
+            
+            // 2. From individual properties (always check these - the main source)
+            if let charPlateId = selectedCharacterPlateId {
+                collectedPlateIds.insert(charPlateId)
+            }
+            if let envPlateId = selectedEnvironmentPlateId {
+                collectedPlateIds.insert(envPlateId)
+            }
+            
+            // Process all collected plates (convert Set to sorted Array for consistent order)
+            let sortedPlateIds = Array(collectedPlateIds).sorted()
+            for plateId in sortedPlateIds {
+                // Try character plates first
+                if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
+                    let plateDescription = processPlateWithMaster(charPlate.description, plateId: plateId, plateManager: plateManager)
+                    plateAdditions += " [\(charPlate.character.uppercased())]: " + plateDescription
+                }
+                // Try environmental plates
+                else if let envPlate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
+                    let plateDescription = processPlateWithMaster(envPlate.description, plateId: plateId, plateManager: plateManager)
+                    plateAdditions += " [\(envPlate.category.uppercased())]: " + plateDescription
+                }
+            }
+            
+            // Custom plates as fallback
+            if !customCharacterPlate.isEmpty {
+                let cleanDescription = cleanPlateDescription(customCharacterPlate)
+                plateAdditions += " " + cleanDescription
+            }
+            
+            if !customEnvironmentPlate.isEmpty {
+                let cleanDescription = cleanPlateDescription(customEnvironmentPlate)
+                plateAdditions += " " + cleanDescription
+            }
+        }
+        
+        // Combine subject with plates more naturally
+        if !plateAdditions.isEmpty {
+            let cleanPlateAdditions = plateAdditions.trimmingCharacters(in: .whitespacesAndNewlines)
+            if !cleanPlateAdditions.isEmpty && !subjectContent.contains(cleanPlateAdditions.prefix(50)) {
+                subjectContent += " " + cleanPlateAdditions
+            }
+        }
+        
+        promptText += "\(subjectContent)\n\n"
+        
+        // ACTION section
+        promptText += "ACTION:\n\(action)\n\n"
+        
+        // STYLE section
+        promptText += "STYLE:\n"
+        var styleContent = style
+        if !cameraPosition.isEmpty {
+            styleContent += " Camera position: \(cameraPosition)"
+        }
+        promptText += "\(styleContent)\n\n"
+        
+        // DIALOGUE section (if present)
+        if !dialogue.isEmpty {
+            promptText += "DIALOGUE:\n\(dialogue)\n\n"
+        }
+        
+        // SOUNDS section (only if we have actual audio notes)
+        if !negativePrompt.isEmpty && negativePrompt.lowercased().contains("sound") {
+            promptText += "SOUNDS:\n\(negativePrompt)\n\n"
+        }
+        
+        // ASPECT section
+        promptText += "ASPECT:\n\(shot.aspectRatio)"
+        
+        return promptText
+    }
 }
 
 class TrackingSystem: ObservableObject, Identifiable {

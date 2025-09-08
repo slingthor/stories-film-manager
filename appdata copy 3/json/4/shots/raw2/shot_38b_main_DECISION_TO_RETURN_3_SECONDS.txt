@@ -1,0 +1,29 @@
+SHOT 38b: DECISION TO RETURN (3 SECONDS)
+Progressive State: Turning home | Accepting defeat | Camera frost 25% | Journey's end | Watching: House waiting
+Women's Silence: None present
+Triple Reality: Physical: rowing back / Psychological: shame carried / Mythological: offering inadequate
+Duration: 3 seconds
+Camera Movement: Crane up from boat to wide aerial
+[STITCH from Shot 38a: Extreme close-up on fin]
+
+Subject: Camera craning up from boat-level to high aerial as [MAGNÃšS] places the rotten fin carefully under bench and begins rowing toward home, revealing from above the path he's carved through poisoned water - a clean channel through green-black contamination, leading home.
+
+Action: CAMERA STARTS at boat level as MagnÃºs wraps fin in cloth, places under bench like treasure. Grips oars with 0Hz hands. Begins to row. CAMERA CRANES UP, rising 20 meters in 3 seconds. As we rise, perspective reveals: His boat has carved a clear channel through poisoned water. Behind him, contamination. Ahead, still-clear path home. But poison spreading both ways, will meet in middle soon. From aerial height, boat tiny between two disasters - poisoned sea behind, something wrong at house ahead (black smoke, not grey). Ravens following in V-formation now, not spiral - migration pattern, leaving pattern. His rowing rhythm mechanical: stroke, stroke, stroke. No variation. Defeated automation.
+
+Scene: Fjord between contamination and home, 9:33 AM. Path narrowing as poison spreads. House visible in distance, wrong.
+
+Style: Dramatic crane up revealing larger geography of disaster (that's where the camera is), God's eye view of futility.
+
+Dialogue: None - just rowing rhythm
+
+Sounds: [PRIMARY: Oars in water, camera ascending whoosh] [AMBIENT: Poison spreading, ravens reforming to leave] [ABSENT: no hope sounds]
+
+Visual Composition:
+
+Geometric: Clean channel through poison
+Scale: Tiny boat in vast disaster
+Pattern: V-formation ravens above
+Direction: All lines leading to house
+Technical (Negative Prompt): smooth crane movement, no cuts, maintain altitude rise
+
+-

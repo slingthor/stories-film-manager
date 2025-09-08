@@ -1,0 +1,18 @@
+DEFAULT NEGATIVE PROMPT FOR 'THE SHEEP IN THE BAÐSTOFA'
+================================================================================
+
+modern technology, smartphones, cars, electric lights, neon, urban cityscape, 
+anime style, cartoon style, 3D render, CGI look, oversaturated colors, 
+Hollywood glamour, makeup, contemporary clothing post-1900, 
+smiling, happiness, warmth, comfort, safety, comic elements, 
+digital artifacts, lens flare, chromatic aberration unless specified,
+tropical elements, palm trees, desert, non-Nordic elements,
+Asian architecture, Mediterranean elements, American suburbia,
+plastic, synthetic materials, industrial materials unless specified
+
+================================================================================
+This negative prompt ensures consistency across all shots by preventing:
+- Modern technology and anachronisms
+- Inappropriate artistic styles
+- Mood-breaking elements
+- Non-Nordic geographical elements

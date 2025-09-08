@@ -3,7 +3,7 @@
     "id": "7a",
     "name": "THE_FEAST_ASSEMBLY",
     "title": "THE FEAST ASSEMBLY",
-    "sequence_type": "prologue",
+    "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "Abundance gathered | Tables set | Camera frost 0% ...",
     "stitch_from": "[STITCH from Shot 6b: Sheep sorted, evening approaching]"

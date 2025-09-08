@@ -1,0 +1,775 @@
+{
+  "last_updated" : "2025-09-06T08:00:56Z",
+  "plate_index" : {
+    "S-TRANSFORMED" : {
+      "character" : "Magnus",
+      "is_master" : false,
+      "name" : "Transformed",
+      "description" : "Pure Icelandic ram with magnificent curved horns, dense white wool, powerful quadruped build, steel-blue ram eyes showing human consciousness clearly visible, brown vaðmál sweater worn inside-out reve...",
+      "shot_range" : "Shot 22a-25 Aflausn"
+    },
+    "LILJA-ACCEPTING" : {
+      "is_master" : true,
+      "shot_range" : "Shots 56-65",
+      "description" : "[Evolving base] with transformation enthusiasm - face bright with transformation excitement rather than fear, mouth practicing sheep vocalizations with child enthusiasm, blue eyes eager with transform...",
+      "character" : "Lilja",
+      "name" : "Accepting"
+    },
+    "N-RECOGNIZING" : {
+      "shot_range" : "Shots 56-60",
+      "character" : "Gudrun",
+      "name" : "Recognizing",
+      "is_master" : false,
+      "description" : "[Returning base] realizing family change - blood-soaked dress beginning to appear appropriate for sheep body, faldbúningur ice crown fitting properly on changing head shape, wool production 80mm creat..."
+    },
+    "N-WATCHING" : {
+      "description" : "[Abundant base] during family surveillance recognition - faldbúningur perfectly arranged for optimal peripheral vision, grey dress positioned for immediate defensive movement, brown apron twisted from...",
+      "shot_range" : "early stage",
+      "is_master" : false,
+      "name" : "Watching",
+      "character" : "Gudrun"
+    },
+    "N-MISSION" : {
+      "name" : "Mission",
+      "is_master" : false,
+      "character" : "Jon",
+      "shot_range" : "réttir formation spots, warm floor areas, wall crack development",
+      "description" : "[Wandering base] with fever directing movement - fever 42°C creating purposeful energy, face animated with prophetic mission, empty tooth sockets clean, hazel eyes bright with vision-directed purpose,..."
+    },
+    "SIGRID-WINGSPAN" : {
+      "description" : "[Dual base] preparing for species transition - traditional dress flowing like feather-fabric while maintaining wool reality, pregnancy mystery resolved through tilberi birth, posture perfect between h...",
+      "shot_range" : "4.5 feet",
+      "name" : "Wingspan",
+      "character" : "Sigrid",
+      "is_master" : false
+    },
+    "N-PROTECTING" : {
+      "description" : "[Producing base] with maternal authority strengthening - faldbúningur arranged with conscious dignity, grey dress showing wear but maintained with pride, brown apron positioned for work efficiency, bl...",
+      "character" : "Gudrun",
+      "name" : "Protecting",
+      "is_master" : false,
+      "shot_range" : "Shot 44a Storm Walker"
+    },
+    "SIGRID-CORVID" : {
+      "description" : "Magnificent black raven with 4.5-foot wingspan, obsidian feathers showing oil-rainbow iridescence, human grey eyes with amber flecks clearly visible in corvid skull, human intelligence obvious through...",
+      "is_master" : false,
+      "name" : "Corvid",
+      "shot_range" : "Shot 25 Four Corners Ritual",
+      "character" : "Sigrid"
+    },
+    "N-SILENT" : {
+      "is_master" : false,
+      "name" : "Silent",
+      "character" : "Gudrun",
+      "shot_range" : "Death Journey",
+      "description" : "[Variable base depending on scene] with enforced silence emphasis - faldbúningur arranged normally, clothing appropriate to scene context, wool production visible at scene-appropriate level, frame sho..."
+    },
+    "S-AUTHORITY" : {
+      "name" : "Authority",
+      "shot_range" : "3Hz tremor visible only in fingertips",
+      "is_master" : false,
+      "description" : "Magnús Þorláksson, 55-year-old Westfjords fisherman with weathered rectangular face, broken aquiline nose bent leftward, steel-blue hooded eyes, charcoal-grey beard reaching mid-chest, 5'10\" stocky bu...",
+      "character" : "Magnus"
+    },
+    "S-AGING" : {
+      "character" : "Magnus",
+      "is_master" : false,
+      "description" : "[Master base] showing supernatural strength cost - hair completely white, new deep lines carved by salt and failure, nose bleeding frozen in beard, missing left canine tooth creating speech gap, seals...",
+      "shot_range" : "Shots 31-35",
+      "name" : "Aging"
+    },
+    "N-PROPHET" : {
+      "description" : "Jón Magnússon, 8-year-old round face flushed deep red with 41°C fever, button nose swollen crimson, hazel eyes glazed with temporal sight, sandy brown hair matted with fever sweat, 4'2\" skeletal frame...",
+      "is_master" : false,
+      "shot_range" : "Shots 11-20",
+      "name" : "Prophet",
+      "character" : "Jon"
+    },
+    "N-COUNTING" : {
+      "description" : "[Preparing base] during family counting breakdown - faldbúningur slightly disheveled from sleep disruption, grey dress wrinkled from restless nights, brown apron twisted from nervous handling, wool th...",
+      "name" : "Counting",
+      "character" : "Gudrun",
+      "is_master" : false,
+      "shot_range" : "clearly organic growth not fraying"
+    },
+    "S-PREPARING" : {
+      "character" : "Magnus",
+      "description" : "[Master base] layered for survival - brown vaðmál sweater under grey sealskin anorak with hood, wool trousers with multiple patch repairs visible, heavy wool stockings pulled high, thick sealskin boot...",
+      "name" : "Preparing",
+      "shot_range" : "Shots 76-80",
+      "is_master" : false
+    },
+    "S-HYBRID" : {
+      "character" : "Magnus",
+      "description" : "[Possessing base] with obvious ram emergence - posture lowering toward quadruped positioning, jaw structure clearly showing ruminant mouth development, steel-blue eyes developing visible horizontal pu...",
+      "name" : "Hybrid",
+      "shot_range" : "Shots 76-80",
+      "is_master" : false
+    },
+    "S-SATISFIED" : {
+      "shot_range" : "violence capability confirmed",
+      "is_master" : false,
+      "character" : "Magnus",
+      "name" : "Satisfied",
+      "description" : "[Zero-Hz base] showing violence satisfaction - clothing straightened with authority restoration, driftwood cane held with casual confidence, upright posture suggesting dominance reestablished through ..."
+    },
+    "S-WATCHING" : {
+      "character" : "Magnus",
+      "name" : "Watching",
+      "is_master" : false,
+      "description" : "[Authority base] with predatory surveillance focus - posture arranged for optimal family observation, driftwood cane planted as territorial marker, clothing positioned to suggest casual activity while...",
+      "shot_range" : "Shot 18 Departure Prep"
+    },
+    "S-PREDATOR" : {
+      "is_master" : false,
+      "description" : "[Defeated base] but with 0Hz transformation beginning - straightening posture with predatory purpose, cane now gripped as weapon rather than support, clothing rearranged for violence preparation, jaw ...",
+      "shot_range" : "0Hz hands",
+      "name" : "Predator",
+      "character" : "Magnus"
+    },
+    "N-WITNESS" : {
+      "is_master" : false,
+      "character" : "Gudrun",
+      "shot_range" : "past\/present\/future",
+      "description" : "Guðrún Magnúsdóttir, 35-year-old oval face with hollow cheeks from malnutrition, grey-green almond eyes with dark circles, white faldbúningur headdress with black velvet band and brass pin, 5'5\" skele...",
+      "name" : "Witness"
+    },
+    "N-WEARING" : {
+      "shot_range" : "barely perceptible",
+      "description" : "[Abundant base] with growing strain - faldbúningur showing minor dust accumulation, grey dress with small new patches, brown apron with food stains from scarce cooking, black shawl pulled tighter for ...",
+      "is_master" : false,
+      "character" : "Gudrun",
+      "name" : "Wearing"
+    },
+    "SIGRID-SUMMONING" : {
+      "character" : "Sigrid",
+      "name" : "Summoning",
+      "description" : "[Knowing base] preparing landvættir summoning - dress arranged for ritual kneeling, pregnancy 4 months creating obvious curve, posture ceremonial with spine straight for ritual dignity, arms positione...",
+      "is_master" : false,
+      "shot_range" : "Shots 26-40"
+    },
+    "S-PREPARATION" : {
+      "shot_range" : "Shots 1-60",
+      "name" : "Preparation",
+      "is_master" : false,
+      "character" : "Magnus",
+      "description" : "[Master base] layered for winter - vaðmál sweater under sealskin anorak, wool trousers with additional patches, heavy sealskin mittens, ice-fishing boots with metal studs, cane showing ice-scratches f..."
+    },
+    "SIGRID-MONITORED" : {
+      "shot_range" : "Shot 9a-9b Feast Corruption",
+      "character" : "Sigrid",
+      "is_master" : false,
+      "description" : "[Awakening base] during family surveillance web - dress arranged for minimal visibility profile, pregnancy concealed through defensive posturing, posture compressed against wall minimizing physical pr...",
+      "name" : "Monitored"
+    },
+    "SIGRID-CHOSEN" : {
+      "character" : "Sigrid",
+      "shot_range" : "37°C protection",
+      "is_master" : false,
+      "name" : "Chosen",
+      "description" : "[Cornered base] receiving Bergrisi protection - dress billowing slightly from warm air bubble (37°C protection), pregnancy 7 months highly visible, posture straightening as supernatural protection ena..."
+    },
+    "MAGNUS-MASTER" : {
+      "character" : "Magnus",
+      "description" : "Magnús Þorláksson, 55-year-old Westfjords fisherman with weathered rectangular face, prominent angular Nordic cheekbones creating deep shadows, broken aquiline nose with visible leftward bend showing ...",
+      "name" : "MAGNUS-MASTER",
+      "is_master" : true,
+      "shot_range" : ""
+    },
+    "N-EMERGING" : {
+      "description" : "[Gapped base] with sheep teeth beginning growth - fever 42°C creating critical flush, face showing new teeth pushing through gums, lips swollen around emerging sheep teeth, hazel eyes bright with feve...",
+      "name" : "Emerging",
+      "character" : "Jon",
+      "is_master" : false,
+      "shot_range" : "Shots 41-50"
+    },
+    "S-LAST" : {
+      "character" : "Magnus",
+      "shot_range" : "Shots 81-85",
+      "description" : "[Hybrid base] in final human moments - posture fully transitional between biped and quadruped, jaw completely ruminant but still attempting human speech, eyes full horizontal pupils showing human cons...",
+      "name" : "Last",
+      "is_master" : false
+    },
+    "N-WALKING" : {
+      "shot_range" : "left behind",
+      "description" : "[Condemned base] during death march - faldbúningur freezing solid creating ice-crown from traditional headdress, grey dress soaked with blood and ice, no apron (left behind), black shawl frozen stiff ...",
+      "is_master" : false,
+      "name" : "Walking",
+      "character" : "Gudrun"
+    },
+    "S-SHIFTING" : {
+      "description" : "[Possessor base] with emerging ram features - posture showing slight forward head position, jaw developing heavier set suggesting ruminant mouth changes, eyes beginning to show horizontal pupil progre...",
+      "name" : "Shifting",
+      "character" : "Magnus",
+      "shot_range" : "barely visible",
+      "is_master" : false
+    },
+    "LILJA-MATHEMATICAL" : {
+      "description" : "[Harmonic base] witnessing family counting breakdown - face showing child confusion about adult mathematical impossibility, mouth silently counting along with adults but getting different numbers, blu...",
+      "shot_range" : "Shots 11-25",
+      "is_master" : false,
+      "character" : "Lilja",
+      "name" : "Mathematical"
+    },
+    "LILJA-EVOLVING" : {
+      "is_master" : false,
+      "name" : "Evolving",
+      "character" : "Lilja",
+      "shot_range" : "Shots 41-55",
+      "description" : "[Communicating base] with lullaby modification ability - face serious with prophetic responsibility, mouth carefully shaping evolved lullaby words, blue eyes focused with prophetic sight showing futur..."
+    },
+    "N-MILD" : {
+      "shot_range" : "brief glimpses of ram running in snow",
+      "name" : "Mild",
+      "character" : "Jon",
+      "is_master" : false,
+      "description" : "[Master base] with 39°C fever beginning - round face flushed pink with fever warmth, button nose red from congestion, lips chapped but not severely bloodied, hazel eyes slightly glazed but still focus..."
+    },
+    "S-ENFORCER" : {
+      "is_master" : false,
+      "shot_range" : "0Hz violence accomplished",
+      "name" : "Enforcer",
+      "description" : "[Predator base] after domestic violence, clothing straightened suggesting authority restoration, cane casually held with confident grip, upright posture showing dominance reestablished, jaw relaxed wi...",
+      "character" : "Magnus"
+    },
+    "S-POSSESSING" : {
+      "shot_range" : "Shots 51-60",
+      "character" : "Magnus",
+      "description" : "[Satisfied base] adapted for intimate violation - clothing loosened for close physical contact, driftwood cane deliberately set aside for two-handed approach, posture leaning forward with invasive bod...",
+      "is_master" : false,
+      "name" : "Possessing"
+    },
+    "S-BREAKING" : {
+      "is_master" : false,
+      "character" : "Magnus",
+      "description" : "[Recognition base] with complete counting failure - posture collapsed with reality breakdown, jaw working soundlessly through mathematical impossibility, eyes unfocused with thousand-yard mathematical...",
+      "shot_range" : "Shots 66-75",
+      "name" : "Breaking"
+    },
+    "N-TEMPORAL" : {
+      "name" : "Temporal",
+      "is_master" : false,
+      "character" : "Jon",
+      "shot_range" : "breathing in different time period",
+      "description" : "[Seeing base] with maximum temporal awareness - fever 43°C creating critical consciousness state, face red-purple with dangerous fever heat, hazel eyes completely unfocused seeing past\/present\/future ..."
+    },
+    "SIGRID-ORACLE" : {
+      "shot_range" : "Shots 49-50b",
+      "is_master" : false,
+      "name" : "Oracle",
+      "character" : "Sigrid",
+      "description" : "Sigrid Þorláksdóttir, 16-year-old heart-shaped face, three-freckle nose constellation, grey eyes with amber flecks brightened from supernatural sight, wheat-blonde braids practical but hair showing st..."
+    },
+    "S-DAMAGED" : {
+      "description" : "[Aging base] with accumulated winter damage - severe rope burns across palms with visible raw flesh, hook puncture in right palm with dried blood, advanced frostbite on exposed fingers showing white-b...",
+      "is_master" : false,
+      "shot_range" : "Shots 30 Reflection Aging",
+      "character" : "Magnus",
+      "name" : "Damaged"
+    },
+    "N-GAPPED" : {
+      "name" : "Gapped",
+      "character" : "Jon",
+      "is_master" : false,
+      "description" : "[Changing base] after multiple tooth loss - fever 42°C creating dangerous delirium, face gaunt from continued illness, lips bloody from empty tooth sockets, hazel eyes completely unfocused with advanc...",
+      "shot_range" : "living in multiple time periods simultaneously"
+    },
+    "N-TRANSFORMING" : {
+      "shot_range" : "Shots 1-15",
+      "name" : "Transforming",
+      "description" : "[Walking base] with headdress becoming crown - white faldbúningur transforming from traditional women's wear into ice crown architecture through freezing weather, brass pin and black velvet band servi...",
+      "is_master" : false,
+      "character" : "Gudrun"
+    },
+    "S-MARITIME" : {
+      "character" : "Magnus",
+      "name" : "Maritime",
+      "description" : "[Aging base] plus fresh fishing injuries - deep rope burns across both palms with raw red skin, hook puncture in right palm with dried blood crust, severe frostbite on three fingers showing blue-white...",
+      "shot_range" : "irregular 2-5Hz",
+      "is_master" : false
+    },
+    "S-SUMMER" : {
+      "is_master" : false,
+      "name" : "Summer",
+      "character" : "Magnus",
+      "description" : "[Master base] wearing clean brown vaðmál sweater with recent mending barely visible, dark wool trousers showing minimal wear, sealskin boots freshly oiled, leather belt polished, cane used ceremoniall...",
+      "shot_range" : "3Hz tremor on fingers only"
+    },
+    "JON-MASTER" : {
+      "character" : "Jon",
+      "description" : "Jón Magnússon, 8-year-old Westfjords boy with round face perpetually flushed with fever creating red patches on pale cheeks, small button nose bright red from illness and cold, chapped lips with visib...",
+      "shot_range" : "",
+      "is_master" : true,
+      "name" : "JON-MASTER"
+    },
+    "N-FINAL" : {
+      "character" : "Jon",
+      "name" : "Final",
+      "description" : "[Mastering base] before consciousness simplification - fever breaking as transformation approaches, face losing fever flush revealing pale transformation, sheep teeth dominant with perfect herbivore f...",
+      "shot_range" : "Shots 65-85",
+      "is_master" : false
+    },
+    "N-GRINDING" : {
+      "character" : "Jon",
+      "description" : "[Emerging base] with sheep mastication developing - fever 42°C maintained, face showing comfort with new teeth, lips normal around sheep dental configuration, hazel eyes bright with new feeding capabi...",
+      "shot_range" : "Shots 51-85",
+      "is_master" : false,
+      "name" : "Grinding"
+    },
+    "S-POSSESSOR" : {
+      "description" : "[Authority base] with predatory intimacy - clothing arranged for close contact, cane set aside for two-handed violation, posture invasive with forward lean, jaw soft with false tenderness, eyes showin...",
+      "name" : "Possessor",
+      "is_master" : false,
+      "character" : "Magnus",
+      "shot_range" : "Shots 51-85"
+    },
+    "SIGRID-AWAKENING" : {
+      "character" : "Sigrid",
+      "description" : "[Pure base] with subtle awareness developing - dress showing minor wear, first hint of pregnancy (barely visible belly curve), posture beginning slight defensive positioning, arms occasionally crossin...",
+      "is_master" : false,
+      "name" : "Awakening",
+      "shot_range" : "barely visible belly curve"
+    },
+    "SIGRID-PROPHECY" : {
+      "is_master" : false,
+      "name" : "Prophecy",
+      "character" : "Sigrid",
+      "description" : "[Marked base] during prophetic belly whisper - dress arranged for intimate belly access, pregnancy 3 months subtly visible, posture curved protectively around belly with maternal tenderness, arms crad...",
+      "shot_range" : "Shots 8-10 Danish Counting"
+    },
+    "LILJA-FINAL" : {
+      "name" : "Final",
+      "description" : "[Accepting base] before consciousness simplification - face maintaining child emotional expression despite anatomical changes, mouth adapted for sheep vocalization but retaining child emotional range,...",
+      "character" : "Lilja",
+      "is_master" : false,
+      "shot_range" : "Shots 65-85"
+    },
+    "N-ETERNAL" : {
+      "name" : "Eternal",
+      "is_master" : false,
+      "character" : "Gudrun",
+      "shot_range" : "We die as sheep so our children can become human",
+      "description" : "Pure white Icelandic ewe with traditional faldbúningur headdress fitting perfectly on sheep head creating impossible but appropriate crown, grey wool dress hanging correctly on quadruped body, wool te..."
+    },
+    "LILJA-SENSING" : {
+      "character" : "Lilja",
+      "shot_range" : "detecting temperature shifts, smelling house breathing",
+      "name" : "Sensing",
+      "description" : "[Pure base] with supernatural environmental awareness developing - face maintaining innocence but eyes developing unusual focus on household environmental details adults miss, tiny nose showing increa...",
+      "is_master" : false
+    },
+    "N-PREPARING" : {
+      "character" : "Gudrun",
+      "is_master" : false,
+      "shot_range" : "still dismissible as fraying",
+      "name" : "Preparing",
+      "description" : "[Wearing base] preparing for survival season - faldbúningur arranged for winter durability with brass pin secured against wind, grey dress with additional patches and wear visible, brown apron stained..."
+    },
+    "S-SUPERNATURAL" : {
+      "name" : "Supernatural",
+      "description" : "[Rowing base] showing aflausn cost - hair shock-white from supernatural effort, new deep lines carved by salt and strain, nose bleeding frozen in beard creating red ice-crystals, missing left canine t...",
+      "is_master" : false,
+      "shot_range" : "Shots 31-40",
+      "character" : "Magnus"
+    },
+    "S-DEFEATED" : {
+      "shot_range" : "Shots 41-50",
+      "name" : "Defeated",
+      "character" : "Magnus",
+      "description" : "[Injured base] with complete failure recognition - shoulders completely collapsed, cane serving as full body support, torn clothing hanging loose, posture showing total masculine breakdown, jaw slack ...",
+      "is_master" : false
+    },
+    "S-FREQUENCY" : {
+      "is_master" : false,
+      "character" : "Magnus",
+      "name" : "Frequency",
+      "shot_range" : "lamp, food containers, children's possessions",
+      "description" : "[Preparation base] with tremor diagnostic visible - hands showing clear 3Hz tremor when touching family items (lamp, food containers, children's possessions) versus complete 0Hz stillness when grippin..."
+    },
+    "N-HIDING" : {
+      "description" : "[Producing base] actively concealing transformation - faldbúningur arranged to maximize wrist concealment, grey dress with sleeves pulled down and secured with small ties, brown apron positioned as sh...",
+      "is_master" : false,
+      "name" : "Hiding",
+      "shot_range" : "Shot 5.5 Surveillance Web",
+      "character" : "Gudrun"
+    },
+    "SIGRID-BIRTHING" : {
+      "shot_range" : "Shot 16.5 Perfect Human Moment",
+      "is_master" : false,
+      "name" : "Birthing",
+      "character" : "Sigrid",
+      "description" : "[Oracle base] during supernatural labor - dress strained over mystical pregnancy completion, posture kneeling in ritual position with spine arched for birth, arms extended in offering gesture while pr..."
+    },
+    "SIGRID-CALCULATING" : {
+      "character" : "Sigrid",
+      "is_master" : false,
+      "description" : "[Awakening base] during family counting breakdown - dress position showing conscious distance maintenance, pregnancy barely visible (2 months), posture alert with analytical assessment stance, arms lo...",
+      "name" : "Calculating",
+      "shot_range" : "2 months"
+    },
+    "S-PROVIDER" : {
+      "shot_range" : "last grooming",
+      "name" : "Provider",
+      "character" : "Magnus",
+      "description" : "[Mathematical base] equipped for desperate fishing - brown vaðmál sweater under waterproof sealskin anorak with hood secured, wool trousers tucked into high sealskin boots, thick sealing mittens, mult...",
+      "is_master" : false
+    },
+    "S-CONFUSED" : {
+      "shot_range" : "grinding teeth",
+      "description" : "[Master base] winter layers but disheveled, vaðmál sweater stretched from nervous pulling, sealskin anorak partially unbuttoned, cane gripped white-knuckle tight, hunched posture with defensive should...",
+      "name" : "Confused",
+      "character" : "Magnus",
+      "is_master" : false
+    },
+    "LILJA-LAMB" : {
+      "shot_range" : "Prologue",
+      "name" : "Lamb",
+      "character" : "Lilja",
+      "is_master" : false,
+      "description" : "Small white Icelandic lamb with large cornflower-blue eyes showing simple lamb intelligence without human consciousness retention, perfect lamb anatomy with natural sheep behavioral responses, grey wo..."
+    },
+    "N-LOSING" : {
+      "character" : "Jon",
+      "name" : "Losing",
+      "description" : "[Changing base] during actual tooth loss - fever 41°C with face showing dental pain, three human teeth visible in palm after falling out (molars and canine), lips bloody from sudden tooth loss, mouth ...",
+      "shot_range" : "molars and canine",
+      "is_master" : false
+    },
+    "N-SEEING" : {
+      "name" : "Seeing",
+      "character" : "Jon",
+      "description" : "[Rising base] with 41°C fever enabling temporal vision - face flushed deep red with dangerous fever heat, button nose swollen with severe congestion, lips cracked and bleeding from persistent coughing...",
+      "is_master" : false,
+      "shot_range" : "Shots 1-60"
+    },
+    "N-CROWNED" : {
+      "description" : "[Walking base] with headdress frozen into crown - white faldbúningur completely transformed by ice into elaborate crown architecture with black velvet band creating structural support for ice formatio...",
+      "name" : "Crowned",
+      "character" : "Gudrun",
+      "shot_range" : "Shots 45-46 Bull Encounter",
+      "is_master" : false
+    },
+    "N-FITTING" : {
+      "name" : "Fitting",
+      "description" : "[Wandering base] with proper sweater fit achieved - fever 42°C sustained, face showing improved nutrition from unknown source, sheep teeth beginning emergence through healing gums, hazel eyes focused ...",
+      "is_master" : false,
+      "character" : "Jon",
+      "shot_range" : "Shots 1-10"
+    },
+    "N-CHANGING" : {
+      "is_master" : false,
+      "name" : "Changing",
+      "description" : "[Energetic base] during actual species change - fever 43°C at critical peak, face structure beginning lamb transformation while maintaining human consciousness, sheep teeth fully functional, hazel eye...",
+      "character" : "Jon",
+      "shot_range" : "Shots 21-30"
+    },
+    "N-RISING" : {
+      "shot_range" : "seeing past ram death during present moments",
+      "character" : "Jon",
+      "description" : "[Mild base] with fever advancing to 40°C - face flushed deeper red with fever intensity, button nose bright crimson with increased congestion, lips more severely chapped with blood spots from coughing...",
+      "is_master" : false,
+      "name" : "Rising"
+    },
+    "N-LAMB" : {
+      "shot_range" : "Shot 15-20",
+      "name" : "Lamb",
+      "character" : "Jon",
+      "description" : "Small brown Icelandic lamb with hazel eyes showing simple lamb intelligence without human consciousness retention, perfect sheep dental configuration for grass processing, brown wool coat matching ori...",
+      "is_master" : false
+    },
+    "S-DEPARTING" : {
+      "character" : "Magnus",
+      "name" : "Departing",
+      "description" : "[Master base] heavy winter fishing gear, sealskin anorak with hood up, thick mittens, ice boots, multiple rope coils across chest, cane secured to belt with leather thong, bent posture under gear weig...",
+      "is_master" : false,
+      "shot_range" : "Shot 26-30"
+    },
+    "LILJA-HARMONIC" : {
+      "name" : "Harmonic",
+      "character" : "Lilja",
+      "shot_range" : "Shots 1-60",
+      "is_master" : false,
+      "description" : "[Sensing base] developing impossible frequency abilities - face showing concentration during harmonic singing, tiny nose flared with breath control for frequency production, rosebud mouth positioned p..."
+    },
+    "S-AUTUMN" : {
+      "shot_range" : "Shots 16-23",
+      "is_master" : false,
+      "description" : "[Master base] vaðmál sweater showing increased wear, left elbow mending more prominent, trousers with fresh knee patches, sealskin boots showing scuffs, cane grip tighter suggesting increasing relianc...",
+      "name" : "Autumn",
+      "character" : "Magnus"
+    },
+    "S-MATHEMATICAL" : {
+      "shot_range" : "Shots 18-25",
+      "name" : "Mathematical",
+      "character" : "Magnus",
+      "description" : "[Master base] winter layers disheveled, vaðmál sweater pulled and stretched from nervous manipulation, sealskin anorak hanging open despite cold, cane gripped white-knuckle tight with both hands for p...",
+      "is_master" : false
+    },
+    "N-CONDEMNED" : {
+      "shot_range" : "preparing for death",
+      "is_master" : false,
+      "name" : "Condemned",
+      "description" : "[Beaten base] receiving death assignment - faldbúningur rearranged with conscious dignity despite damage, grey dress straightened as much as possible, brown apron removed and folded (preparing for dea...",
+      "character" : "Gudrun"
+    },
+    "N-ABUNDANT" : {
+      "description" : "[Master base] during false prosperity - white faldbúningur headdress pristine and perfectly arranged with black velvet band spotless, grey vaðmál dress clean and well-fitted, brown wool apron fresh an...",
+      "shot_range" : "hands normal",
+      "is_master" : false,
+      "name" : "Abundant",
+      "character" : "Gudrun"
+    },
+    "ZERO-HZ" : {
+      "is_master" : false,
+      "description" : "[Injured base] with 0Hz transformation - rigid military posture replacing hunched defeat, driftwood cane gripped as weapon with perfect steadiness, torn clothing rearranged to suggest authority restor...",
+      "name" : "Hz",
+      "shot_range" : "no tremor for violence tools",
+      "character" : "Magnus"
+    },
+    "S-BERSERKER" : {
+      "shot_range" : "Shot 35-40 Failed Provider",
+      "description" : "[Departure base] during supernatural strength activation - muscles visibly expanding under vaðmál wool, neck veins prominent, skin flushed with supernatural blood pressure, eyes dilated with berserker...",
+      "character" : "Magnus",
+      "name" : "Berserker",
+      "is_master" : false
+    },
+    "N-MASTERING" : {
+      "shot_range" : "Shots 56-65",
+      "is_master" : false,
+      "name" : "Mastering",
+      "character" : "Jon",
+      "description" : "[Fitting base] with dental function perfected - fever 41°C steady, face showing comfort with new oral configuration, sheep teeth perfectly positioned for herbivore function, hazel eyes focused on new ..."
+    },
+    "N-DIVINE" : {
+      "shot_range" : "Shots 47-50",
+      "name" : "Divine",
+      "character" : "Gudrun",
+      "description" : "[Crowned base] offering wool to contaminated god - ice crown gleaming with divine audience appropriateness, blood-soaked dress serving as ceremonial garment for god-meeting, wool production 70mm offer...",
+      "is_master" : false
+    },
+    "S-RAM" : {
+      "character" : "Magnus",
+      "is_master" : false,
+      "shot_range" : "inside-out revealing Guðrún's mending",
+      "description" : "Magnificent Icelandic ram with curved horns, pure white wool, powerful quadruped build, but WEARING brown vaðmál sweater (inside-out revealing Guðrún's mending), steel-blue ram eyes showing human cons...",
+      "name" : "Ram"
+    },
+    "N-RETURNING" : {
+      "description" : "[Offering base] after divine encounter - faldbúningur ice crown partially melted with blood creating red ice architecture, entire grey dress soaked red creating crimson garment, wool production 70mm n...",
+      "shot_range" : "Shots 50-85",
+      "is_master" : false,
+      "name" : "Returning",
+      "character" : "Gudrun"
+    },
+    "SIGRID-ESCAPING" : {
+      "is_master" : false,
+      "shot_range" : "klettagjá formation",
+      "character" : "Sigrid",
+      "name" : "Escaping",
+      "description" : "[Chosen base] discovering escape route - dress billowing from warm air protection, pregnancy 7-8 months full mystical completion, posture straightening with supernatural assistance, arms raised toward..."
+    },
+    "SIGRID-MASTER" : {
+      "description" : "Sigrid Þorláksdóttir, 16-year-old Westfjords girl with heart-shaped face showing delicate bone structure, high prominent cheekbones creating natural shadow beneath, small straight nose with distinctiv...",
+      "is_master" : true,
+      "name" : "SIGRID-MASTER",
+      "shot_range" : "",
+      "character" : "Sigrid"
+    },
+    "N-BEATEN" : {
+      "description" : "[Producing base] after domestic violence - faldbúningur knocked askew with brass pin bent, grey dress torn at shoulder seam, brown apron twisted and stained, black shawl used to cover violence marks, ...",
+      "name" : "Beaten",
+      "shot_range" : "Shots 43c-44",
+      "is_master" : false,
+      "character" : "Gudrun"
+    },
+    "N-PRODUCING" : {
+      "shot_range" : "Shots 41-43",
+      "description" : "[Counting base] with obvious wool emergence - faldbúningur arranged to conceal wrist situation, grey dress sleeves pulled down attempting to hide wool production, brown apron positioned to catch falli...",
+      "name" : "Producing",
+      "character" : "Gudrun",
+      "is_master" : false
+    },
+    "N-WANDERING" : {
+      "description" : "[Temporal base] with increased mobility from fever energy - fever 42°C creating restless energy, face gaunt but animated with prophetic purpose, empty tooth sockets healing, hazel eyes bright with mis...",
+      "name" : "Wandering",
+      "shot_range" : "Shots 40-50",
+      "character" : "Jon",
+      "is_master" : false
+    },
+    "SIGRID-CORNERED" : {
+      "character" : "Sigrid",
+      "description" : "[Oracle base] during maximum threat - dress fabric stretched over 6-month pregnancy, posture pressed against wall with nowhere to retreat, arms crossed defensively over belly with protective desperati...",
+      "is_master" : false,
+      "name" : "Cornered",
+      "shot_range" : "klettagjá forming"
+    },
+    "N-REVEALED" : {
+      "shot_range" : "Multiple Shots",
+      "is_master" : false,
+      "character" : "Gudrun",
+      "description" : "[Producing base] with wool growth obvious - faldbúningur positioned normally but wrists deliberately exposed, grey dress with sleeves pushed back revealing transformation, brown apron arranged to disp...",
+      "name" : "Revealed"
+    },
+    "GUDRUN-MASTER" : {
+      "character" : "Gudrun",
+      "description" : "Guðrún Magnúsdóttir, 35-year-old Westfjords woman with oval face showing premature aging from hardship, hollow cheeks from chronic malnutrition creating sharp cheekbone definition, straight narrow nos...",
+      "is_master" : true,
+      "shot_range" : "",
+      "name" : "GUDRUN-MASTER"
+    },
+    "SIGRID-MARKED" : {
+      "shot_range" : "Shots 1-60",
+      "name" : "Marked",
+      "character" : "Sigrid",
+      "description" : "[Awakening base] after testicle forcing - dress disheveled with fabric pulled at neckline, pregnancy now visible as 2-month subtle curve, posture fully defensive with shoulders hunched forward, arms c...",
+      "is_master" : false
+    },
+    "SIGRID-POISONED" : {
+      "name" : "Poisoned",
+      "description" : "[Pure base] during neurotoxin exposure - dress unstained despite family contamination visible, pregnancy not yet visible (1 month), posture showing first defensive awareness, arms beginning protective...",
+      "character" : "Sigrid",
+      "shot_range" : "1 month",
+      "is_master" : false
+    },
+    "TIME-SPLIT" : {
+      "is_master" : false,
+      "shot_range" : "Shot 5.5 Web",
+      "character" : "Magnus",
+      "name" : "Split",
+      "description" : "[Rowing base] with reflection aging differential - physical body showing normal fatigue while maintaining appearance, eyes occasionally unfocused as if seeing different temporal state, jaw sometimes m..."
+    },
+    "N-ENERGETIC" : {
+      "is_master" : false,
+      "character" : "Jon",
+      "name" : "Energetic",
+      "shot_range" : "sheep breathing efficient",
+      "description" : "[Grinding base] with fever creating supernatural activity - fever 43°C creating dangerous but energizing delirium, face bright red with fever energy, lips normal with sheep teeth prominent, hazel eyes..."
+    },
+    "S-ROWING" : {
+      "name" : "Rowing",
+      "character" : "Magnus",
+      "description" : "[Provider base] stripped to rowing essentials - brown vaðmál sweater only, sealskin anorak open and hanging loose, no hat exposing grey hair to salt spray, driftwood cane secured in boat bottom, rowin...",
+      "is_master" : false,
+      "shot_range" : "traditional skill suppressing tremor"
+    },
+    "S-WOUNDED" : {
+      "name" : "Wounded",
+      "description" : "[Previous aging base] plus fresh maritime injuries - rope burns across palms (red welts with raw skin), hook puncture in right palm with dried blood, frostbite on exposed fingers showing white then bl...",
+      "is_master" : false,
+      "shot_range" : "red welts with raw skin",
+      "character" : "Magnus"
+    },
+    "SIGRID-TRANSITIONAL" : {
+      "is_master" : false,
+      "shot_range" : "8 months impossible timeline",
+      "character" : "Sigrid",
+      "name" : "Transitional",
+      "description" : "[Chosen base] preparing for species change - traditional dress unchanged but appearing costume-like on changing body, pregnancy full-term but mystical (8 months impossible timeline), posture shifting ..."
+    },
+    "LILJA-PURE" : {
+      "character" : "Lilja",
+      "shot_range" : "Shots 10-15",
+      "description" : "[Master base] with perfect childhood innocence - cherubic face bright with healthy pink cheeks despite family strain, tiny upturned nose clear and breathing normally, rosebud mouth often forming silen...",
+      "is_master" : false,
+      "name" : "Pure"
+    },
+    "SIGRID-KNOWING" : {
+      "description" : "[Marked base] recognizing family counting impossibility - dress tighter around expanding belly (3 months pregnancy visible), posture curved protectively around pregnancy, arms always shielding belly a...",
+      "shot_range" : "3 months pregnancy visible",
+      "is_master" : false,
+      "character" : "Sigrid",
+      "name" : "Knowing"
+    },
+    "N-EWE" : {
+      "name" : "Ewe",
+      "description" : "White Icelandic ewe with traditional faldbúningur headdress fitting perfectly on sheep head, grey wool dress hanging properly on quadruped body, braided wool testimony strands flowing from production ...",
+      "is_master" : false,
+      "character" : "Gudrun",
+      "shot_range" : "sheep... people"
+    },
+    "SIGRID-DUAL" : {
+      "name" : "Dual",
+      "description" : "[Becoming base] with both forms simultaneous - traditional dress now flowing like feathers while maintaining fabric reality, pregnancy resolved into tilberi birth-completion, posture showing perfect b...",
+      "is_master" : false,
+      "character" : "Sigrid",
+      "shot_range" : "Shots 81-85"
+    },
+    "N-SPEAKING" : {
+      "character" : "Gudrun",
+      "description" : "[Recognizing base] delivering essential truth - blood-soaked dress hanging properly on sheep-transitioning body, faldbúningur ice crown perfectly fitting changing head proportions, wool production com...",
+      "shot_range" : "Shots 61-85",
+      "name" : "Speaking",
+      "is_master" : false
+    },
+    "S-RECOGNIZING" : {
+      "is_master" : false,
+      "description" : "[Shifting base] realizing family transformation - posture defensive with territorial alarm, jaw dropped with mathematical horror, eyes wide with counting impossibility recognition, breathing accelerat...",
+      "shot_range" : "Shots 61-65",
+      "character" : "Magnus",
+      "name" : "Recognizing"
+    },
+    "SIGRID-DEEPER" : {
+      "name" : "Deeper",
+      "character" : "Sigrid",
+      "description" : "[Marked base] with vocal change from forced testicle consumption - dress disheveled at neckline from violation, pregnancy 2-3 months beginning to show, posture protective with curved spine shielding b...",
+      "is_master" : false,
+      "shot_range" : "Shots 51-55"
+    },
+    "S-TRANSITION" : {
+      "description" : "[Master base] brown vaðmál sweater showing increased wear with loose threads at cuffs, left elbow mending more prominent with contrasting grey thread creating visible repair patch, charcoal wool trous...",
+      "is_master" : false,
+      "shot_range" : "Shots 16-23",
+      "name" : "Transition",
+      "character" : "Magnus"
+    },
+    "S-PATHETIC" : {
+      "name" : "Pathetic",
+      "description" : "[Aging + Injured base] with complete masculine failure - shoulders collapsed entirely, spine curved with defeat, clothing hanging on diminished frame, driftwood cane as full body support preventing co...",
+      "character" : "Magnus",
+      "shot_range" : "Shots 31-35 Sea Damage",
+      "is_master" : false
+    },
+    "S-FINAL" : {
+      "is_master" : false,
+      "description" : "[Preparing base] in last human consciousness - posture transitional between biped and quadruped, jaw positioned for final human speech attempt, eyes showing human consciousness trapped in transforming...",
+      "name" : "Final",
+      "character" : "Magnus",
+      "shot_range" : "Shots 81-85"
+    },
+    "N-OFFERING" : {
+      "character" : "Gudrun",
+      "name" : "Offering",
+      "is_master" : false,
+      "description" : "[Walking base] at contaminated god encounter - faldbúningur completely frozen into elaborate ice crown preserving traditional shape, grey dress soaked red with blood and black with contamination, wool...",
+      "shot_range" : "Shot 47c"
+    },
+    "LILJA-COMMUNICATING" : {
+      "character" : "Lilja",
+      "shot_range" : "wall stroking, floor patting",
+      "description" : "[Mathematical base] with house consciousness dialogue - face animated during environmental communication, mouth moving in conversation with house breathing rhythm, blue eyes alternating between family...",
+      "is_master" : false,
+      "name" : "Communicating"
+    },
+    "SIGRID-BECOMING" : {
+      "name" : "Becoming",
+      "description" : "[Transitional base] during active transformation - dress fabric straining over changing body proportions, pregnancy reaching mystical completion (9 months accelerated), posture flowing between human u...",
+      "is_master" : false,
+      "character" : "Sigrid",
+      "shot_range" : "9 months accelerated"
+    },
+    "S-AFLOAT" : {
+      "is_master" : false,
+      "character" : "Magnus",
+      "description" : "[Master base] stripped to rowing essentials, vaðmál sweater only, sealskin anorak open, no hat exposing grey hair to elements, cane stored in boat, rowing posture with broad shoulders engaged, jaw wor...",
+      "name" : "Afloat",
+      "shot_range" : "no tremor during practiced activity"
+    },
+    "SIGRID-PURE" : {
+      "description" : "[Master base] with untouched innocence - grey-brown vaðmál dress clean and recently washed, no visible pregnancy, posture naturally confident with gentle back-straightness, arms loose at sides without...",
+      "shot_range" : "Shots 8-15",
+      "name" : "Pure",
+      "is_master" : false,
+      "character" : "Sigrid"
+    }
+  }
+}

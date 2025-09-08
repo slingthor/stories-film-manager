@@ -1,0 +1,33 @@
+{
+  "shot_metadata" : {
+    "duration_seconds" : 6,
+    "narrative_function" : "Two trapped gods | Understanding | Camera frost 33...",
+    "title" : "MUTUAL RECOGNITION - THE V-NOTCH 6 SECONDS",
+    "stitch_from" : "",
+    "id" : "46a",
+    "sequence_type" : "main_story"
+  },
+  "selected_prompt_index" : 0,
+  "prompt_variants" : [
+    {
+      "style" : "Zoom revealing detail, then match cut to parallel marking (that's where the camera is), documentary of shared enslavement.",
+      "is_active" : false,
+      "action" : "SLOW ZOOM begins on Bull's massive head, pushing toward left ear. Through steam and contamination, detail resolves: V-notch cut in ear, traditional livestock marking. But around it, infected - brass fixtures growing from wound edges, green verdigris staining fur. The cut old, decades maybe, from when he was young, before divinity, when he was just cattle. ZOOM continues tighter - inside the V, tiny numbers etched: Danish registration. He was counted. Administered. Made property. CUT TO: GuÃ°rÃºn's ear, her hair pulled back by wind. Same V-scar beneath hairline, but subtle, hidden. From childhood - father's mark? Husband's? Denmark's? The scar white against skin, old trauma. Her hand rises unconsciously to touch it. Bull sees her gesture. Lowers massive head. Their eyes meet - livestock to livestock, property to property. He breathes out steam. She breathes out vapor. Same rhythm: 11\/minute. The impossible synchronized rate. Both accepting their marking.",
+      "negative_prompt" : "",
+      "camera_position" : "Zoom revealing detail, then match cut to parallel marking",
+      "subject" : "Camera slowly zooming on GRIÃUNGUR's left ear revealing a V-notch cut - the livestock marking - then cutting to [GUÃRÃšN]'s ear where beneath her hair, an identical V-shaped scar exists, both marked as property by different masters.",
+      "dialogue" : "(GuÃ°rÃºn, touching her scar): \"ÃžÃº lÃ­ka... merkt\" (You too... marked) (Bull): Low rumble of recognition",
+      "selected_plates" : [
+        "MAGNUS-PREDATOR",
+        "LILJA-SENSING",
+        "WESTFJORDS-CLIFF"
+      ],
+      "variant_id" : "46a_story_primary",
+      "variant_name" : "Primary - MUTUAL RECOGNITION - THE V-NOTCH 6 SECONDS",
+      "scene" : "Polynya edge, 10:01 AM grey light. Steam creating intimate space around them. Ice holding their weight.",
+      "progressive_state" : ""
+    }
+  ],
+  "aspect_ratio" : "4:3",
+  "progressive_state" : "Two trapped gods | Understanding | Camera frost 33% | Livestock marked | Watching: Each other"
+}

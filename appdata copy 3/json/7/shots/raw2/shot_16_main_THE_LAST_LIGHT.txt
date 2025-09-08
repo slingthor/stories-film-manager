@@ -1,0 +1,21 @@
+SHOT 16: THE LAST LIGHT
+Progressive State: House 13/min + 60bpm | Lamp death imminent | Camera frost 9% | Old world ending | Watching: All watching flame
+Women's Silence: Collective held breath
+Triple Reality: Physical: oil exhausted / Psychological: last hope / Mythological: old light surrendering to new
+[STITCH from Shot 15: Mathematical breaking, lamp guttering]
+
+Subject: The oil lamp flame shrinking to a blue pinpoint, the entire family watching in silence as their last traditional light source dies, while [MAGNÃšS] stands slowly, his fishing preparations visible in corner, knowing what darkness means - he must go out or they die inside.
+
+Action: The flame shrinks smaller, smaller. Blue center, orange edges, then just blue, then pinpoint. Everyone watching. Even empty clothes lean forward. The lamp flame creates last wild shadows - for a moment, clear as day, shadows show five sheep standing on hind legs. Then dimmer. MagnÃºs stands, walks to corner where his gear waits: Ã³Ã°inn (line) coiled perfectly, hÃ¡fur (gaff) sharpened, tin of bait (empty but for memory of fish), rifle wrapped in oilcloth. Tests the line strength - it holds. Behind him, family watching. GuÃ°rÃºn's hand finds Sigrid's shoulder. The flame gasps once, flares briefly illuminating everyone's face in orange, then dies. Complete darkness. House breathing stops. Heartbeat stops. A moment of absolute void. Then, continuing in darkness, MagnÃºs's voice: "Ã‰g verÃ° aÃ°..." (I have to...) Cut off by new light.
+
+Scene: Table and corner, 6:18 AM but darkness falling. Temperature -12Â°C, about to get colder without lamp. Fishing gear meticulously prepared - he's been planning this through sleepless nights. The lamp's final moment creating shadow prophecy on walls. Then nothing.
+
+Style: Close on dying flame, then pulling back to show everyone watching, then darkness (that's where the camera is), documentary of light's end.
+
+Dialogue: (Complete silence watching flame) (Flame dies, in darkness): "Ã‰g verÃ° aÃ°..." (MagnÃºs, cut off)
+
+Sounds: [PRIMARY: Flame's last gasps, wick drowning in final oil, gear being checked] [AMBIENT: House breathing stopping at darkness, heartbeat stopping, complete void moment] [ABSENT: no music, no comfort, no alternative]
+
+Technical (Negative Prompt): no subtitles, real darkness when lamp dies, shadow prophecy visible, documentary observation
+
+-

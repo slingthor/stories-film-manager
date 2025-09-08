@@ -1,0 +1,33 @@
+{
+  "aspect_ratio" : "4:3",
+  "prompt_variants" : [
+    {
+      "scene" : "Zoomed view of water. Tail visible following ship. Scale of serpent revealed. Moment before bite.",
+      "variant_name" : "Primary - THE CIRCLE TIGHTENS - TAIL VISIBLE 5 SECONDS",
+      "style" : "Zoom revealing serpent truth (that's where the camera is), mythology visible.",
+      "camera_position" : "Zoom revealing serpent truth",
+      "subject" : "The trawler's circle tightening, and through the churning water, something massive visible - not ship's hull but TAIL, scaled, ancient, the trawler is just the HEAD of JÃ¶rmungandr, the world serpent about to bite itself.",
+      "negative_prompt" : "",
+      "dialogue" : "(Sigrid): \"JÃ¶rmungandr... hann bÃ­tur\" (Lilja, prophetic): \"Ãžegar hann bÃ­tur, breytumst viÃ°\"",
+      "variant_id" : "55b_story_primary",
+      "action" : "ZOOM IN on water where trawler circles. Circle tightening - 1 kilometer to 800 meters to 600. Speed increasing: 20 knots. Impossible. Water exploding upward from force. Then through foam: glimpse of truth. Following trawler's path: massive scaled TAIL. Black-green. Each scale size of door. Industrial barnacles grown into scales - brass fixtures, rope, net, all fused with ancient flesh. The trawler isn't LIKE serpent. It IS serpent's head. Has always been. The industrial system and mythological monster were always same thing. Tail rises slightly from water - 50 meters of it visible. Moving toward trawler's bow. The head hunting its tail. JÃ¶rmungandr about to complete ouroboros. When serpent bites tail, RagnarÃ¶k begins. World ends. Transforms. Rebirths.",
+      "is_active" : false,
+      "progressive_state" : "",
+      "selected_plates" : [
+        "LILJA-SENSING",
+        "SIGRID-CORNERED",
+        "SEA-BATTLE"
+      ]
+    }
+  ],
+  "progressive_state" : "Serpent revealed | Circle closing | Camera frost 46.5% | End near | Watching: Revelation",
+  "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "duration_seconds" : 5,
+    "title" : "THE CIRCLE TIGHTENS - TAIL VISIBLE 5 SECONDS",
+    "stitch_from" : "",
+    "narrative_function" : "Serpent revealed | Circle closing | Camera frost 4...",
+    "sequence_type" : "main_story",
+    "id" : "55b"
+  }
+}

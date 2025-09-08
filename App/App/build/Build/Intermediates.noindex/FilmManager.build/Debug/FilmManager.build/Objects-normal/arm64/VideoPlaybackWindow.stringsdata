@@ -1,0 +1,40 @@
+{
+  "source": "/Users/ingthor/Documents/stories/App/App/FilmManager/VideoPlaybackWindow.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Video Playback",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Shot Selected",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 72
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shot: %@ - %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "Return to Timeline",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 65
+        }
+      }
+    ]
+  },
+  "version": 1
+}

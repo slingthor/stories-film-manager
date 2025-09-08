@@ -1,0 +1,192 @@
+{
+  "source": "/Users/ingthor/Documents/stories/App/App/FilmManager/MediaManagementPanel.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "MEDIA MANAGEMENT",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select a shot for media",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "Videos and images are organized per shot",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 104
+        }
+      },
+      {
+        "comment": "",
+        "key": "Videos (%lld)",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 242
+        }
+      },
+      {
+        "comment": "",
+        "key": "Images (%lld)",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 266
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Video",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 227
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Image",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 233
+        }
+      },
+      {
+        "comment": "",
+        "key": "Drop media here",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 293
+        }
+      },
+      {
+        "comment": "",
+        "key": "CHARACTER MEDIA",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 363
+        }
+      },
+      {
+        "comment": "",
+        "key": "No character media",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 385
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select a character plate first",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 389
+        }
+      },
+      {
+        "comment": "",
+        "key": "ENVIRONMENT MEDIA",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 475
+        }
+      },
+      {
+        "comment": "",
+        "key": "No environment media",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 497
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select an environment plate first",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 501
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open in Preview",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 664
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show in Finder",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 667
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 671
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show in Finder",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 730
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open in Preview",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 734
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open in Preview",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 787
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show in Finder",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 792
+        }
+      },
+      {
+        "comment": "",
+        "key": "Close",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 799
+        }
+      },
+      {
+        "comment": "",
+        "key": "Close",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 820
+        }
+      }
+    ]
+  },
+  "version": 1
+}

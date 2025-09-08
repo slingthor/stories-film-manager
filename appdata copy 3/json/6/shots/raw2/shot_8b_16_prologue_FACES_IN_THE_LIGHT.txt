@@ -1,0 +1,11 @@
+SHOT 8b/16: FACES IN THE LIGHT
+Progressive State: Exposure complete | Recognition moment | Camera frost 3% | Marked by light | Watching: Everyone seen
+Duration: 8 seconds
+[STITCH from Shot 8a/15: Searchlight locked on feast]
+Subject: Close view of faces at feast tables illuminated by harsh trawler searchlight, everyone's eyes reflecting the light like animals, the three stains on their skin appearing black, children's purple mouths looking like wounds.
+Action: Camera moves along table. Each face caught in searchlight. MagnÃºs's face first - eyes reflect light like cat's eyes, silver discs. GuÃ°rÃºn next - purple juice on chin appears black like dried blood. Sigrid's face calm, eyes ancient, knowing something. JÃ³n's small face, golden egg yolk on cheek now black mark. Lilja clutching cloth doll, purple mouth open showing black teeth. Move to other families. Every face has animal eye-shine in the light. The three stains make patterns on skin - blood, berry, egg - forming shapes like markings. One man's stains form perfect sheep face on his cheek. Woman's stains make horn shapes on forehead. Children all have black mouths from juice, look like they've eaten darkness. Everyone perfectly still, no one blinks despite bright light. Breathing synchronized. The searchlight flickers once - in that moment, everyone appears as sheep faces. Flickers back - human again.
+Scene: Close-ups at feast tables under searchlight. Harsh white light, black shadows. Faces with three stains visible.
+Style: Tracking shot along tables, close on faces (that's where the camera is), harsh searchlight lighting.
+Dialogue: None
+Sounds: [PRIMARY: Searchlight humming, synchronized breathing, no blinking sounds] [AMBIENT: Distant trawler engine, electric arc crackling] [ABSENT: people speaking, movement]
+Technical (Negative Prompt): no subtitles, show animal eye-shine, three stains as black marks, one flicker to sheep faces, 1080p

@@ -1,0 +1,247 @@
+{
+  "plate_index" : {
+    "WESTFJORDS-WINTER" : {
+      "name" : "Westfjords Winter",
+      "category" : "Exterior",
+      "description" : "[Master base] during Klaki winter maximum - temperature range -18°C to -25°C creating life-threatening cold."
+    },
+    "STOFA-DESPERATE" : {
+      "category" : "Interior",
+      "description" : "[Body base] with starvation affecting architecture - walls appearing consumable as children attempt eating building materials.",
+      "name" : "Stofa Desperate"
+    },
+    "STOFA-CLEFT" : {
+      "name" : "Stofa Cleft",
+      "category" : "Interior",
+      "description" : "[Body base] with klettagjá development - walls beginning vertical striations suggesting cliff rock formation."
+    },
+    "SEA-ABUNDANT" : {
+      "category" : "Sea",
+      "description" : "[Divine base] reflecting community harmony - water surface acting as perfect mirror showing community organization.",
+      "name" : "Sea Abundant"
+    },
+    "WESTFJORDS-WATER" : {
+      "category" : "Exterior",
+      "description" : "[Base variant] optimized for maritime perspective - cliff walls extending directly from water creating vertical geography.",
+      "name" : "Westfjords Water"
+    },
+    "HOUSE-WIDE" : {
+      "category" : "Exterior",
+      "name" : "House Wide",
+      "description" : "Emphasizing house scale against dramatic Hornstrandir landscape, building appearing insignificant against geological drama."
+    },
+    "WESTFJORDS-BEACH" : {
+      "description" : "[Base variant] focusing on coastal features - black volcanic sand beach with grey stone barriers.",
+      "category" : "Exterior",
+      "name" : "Westfjords Beach"
+    },
+    "HOUSE-AWAKENING" : {
+      "description" : "[Traditional base] with subtle geological emergence - turf walls beginning to show natural stone stratification.",
+      "name" : "House Awakening",
+      "category" : "Exterior"
+    },
+    "SEA-SEDUCTIVE" : {
+      "description" : "[Contaminated base] creating false attraction - contaminated water appearing more beautiful than house destination through rainbow oil contamination.",
+      "name" : "Sea Seductive",
+      "category" : "Sea"
+    },
+    "BAÐSTOFA-DARKNESS" : {
+      "category" : "Interior",
+      "name" : "Darkness",
+      "description" : "Three-frame flash environment, architecture existing in multiple reality states simultaneously, lighting creating impossible illumination patterns."
+    },
+    "HOUSE-APPROACH" : {
+      "name" : "House Approach",
+      "category" : "Exterior",
+      "description" : "House appearing as destination or departure point, immediate surroundings emphasized for family navigation."
+    },
+    "STOFA-FRAGMENTING" : {
+      "name" : "Stofa Fragmenting",
+      "category" : "Interior",
+      "description" : "[Crystallizing base] with seven-perspective accommodation - architecture existing simultaneously in seven different reality states."
+    },
+    "STOFA-CLIFF" : {
+      "category" : "Interior",
+      "description" : "[Crystallizing base] with full klettagjá revelation - walls pure obsidian extending 30ft upward with natural cliff striations.",
+      "name" : "Stofa Cliff"
+    },
+    "WESTFJORDS-SUMMER" : {
+      "name" : "Westfjords Summer",
+      "description" : "[Master base] during false golden memory - temperature impossible 12-15°C creating shirt-sleeve comfort at subarctic latitude.",
+      "category" : "Exterior"
+    },
+    "STOFA-SURVEILLANCE" : {
+      "name" : "Stofa Surveillance",
+      "description" : "[Domestic base] arranged for optimal family observation - furniture positioned creating sight-lines between all family members.",
+      "category" : "Interior"
+    },
+    "SEA-ETERNAL" : {
+      "name" : "Sea Eternal",
+      "category" : "Sea",
+      "description" : "[Accusation base] with transcendent reflection - water surface becoming perfect mirror reflecting obsidian monument."
+    },
+    "SEA-DIVINE" : {
+      "category" : "Sea",
+      "description" : "[Master base] as willing sacrifice facilitator - water surface mirror-calm despite 15mph wind creating supernatural stillness.",
+      "name" : "Sea Divine"
+    },
+    "HOUSE-GEOLOGICAL" : {
+      "description" : "Þorláksson turf house with stone structure emerging beneath organic covering, 16×20ft appearing taller through cliff formation beginning.",
+      "category" : "Exterior",
+      "name" : "House Geological"
+    },
+    "BAÐSTOFA-CLIFF" : {
+      "description" : "Klettagjá formation complete, walls pure obsidian extending upward, floor slope creating canyon effect, cliff interior revealed.",
+      "name" : "Cliff",
+      "category" : "Interior"
+    },
+    "SEA-EXTRACTED" : {
+      "description" : "North Atlantic waters completely sterile from British trawling, black color intensified suggesting depth without life.",
+      "category" : "Sea",
+      "name" : "Sea Extracted"
+    },
+    "WESTFJORDS-CLIFF" : {
+      "description" : "[Base variant] emphasizing vertical drama - 400-500m vertical cliff faces providing dramatic backdrop.",
+      "name" : "Westfjords Cliff",
+      "category" : "Exterior"
+    },
+    "WESTFJORDS-GROUND" : {
+      "category" : "Exterior",
+      "description" : "[Base variant] optimized for human perspective - cliff walls towering overhead creating vertical drama and psychological pressure.",
+      "name" : "Westfjords Ground"
+    },
+    "WINTER-GROUND" : {
+      "category" : "Exterior",
+      "description" : "Hornstrandir Peninsula at 65°31'48\"N 23°47'24\"W during February 1888 Klaki winter, temperature -22°C life-threatening.",
+      "name" : "Winter Ground"
+    },
+    "SEA-ACCUSATION" : {
+      "category" : "Sea",
+      "description" : "[Contaminated base] with serpent mathematics - water creating perfect ouroboros circle as Jörmungandr bites tail.",
+      "name" : "Sea Accusation"
+    },
+    "EXTERIOR-MASTER" : {
+      "category" : "Exterior",
+      "description" : "Small impoverished turf house 16×20ft exterior dimensions, low profile building only 8ft height at peak indicating poverty-level construction.",
+      "name" : "Exterior Master"
+    },
+    "SEA-CONTAMINATED" : {
+      "category" : "Sea",
+      "name" : "Sea Contaminated",
+      "description" : "[Battle base] revealing landvættir contamination - polynya (ice hole) maintaining 37°C body temperature in -25°C air."
+    },
+    "HOUSE-TRADITIONAL" : {
+      "category" : "Exterior",
+      "name" : "House Traditional",
+      "description" : "[Master base] appearing purely architectural - turf construction appearing entirely constructed rather than geological."
+    },
+    "HOUSE-CLIFF" : {
+      "name" : "House Cliff",
+      "description" : "[Geological base] with vertical development beginning - walls showing clear vertical stone striations suggesting cliff formation.",
+      "category" : "Exterior"
+    },
+    "WESTFJORDS-AERIAL" : {
+      "name" : "Westfjords Aerial",
+      "description" : "[Base variant] optimized for overhead perspective - geological patterns visible from altitude showing natural mathematical organization.",
+      "category" : "Exterior"
+    },
+    "SEA-MASTER" : {
+      "name" : "Sea Master",
+      "category" : "Sea",
+      "description" : "North Atlantic waters off Hornstrandir Peninsula at depth 30-200 meters, black water with complete clarity allowing seafloor visibility."
+    },
+    "WESTFJORDS-INLAND" : {
+      "name" : "Westfjords Inland",
+      "description" : "[Base variant] emphasizing geological drama - tabletop mountain formations with flat summits.",
+      "category" : "Exterior"
+    },
+    "STOFA-RECORDING" : {
+      "category" : "Interior",
+      "description" : "[Body base] with trauma absorption capability - turf walls absorbing violence energy into organic structure.",
+      "name" : "Stofa Recording"
+    },
+    "WESTFJORDS-FJORD" : {
+      "category" : "Exterior",
+      "name" : "Westfjords Fjord",
+      "description" : "[Base variant] focusing on maritime elements - deep black fjord water with cliff walls providing dramatic vertical boundaries."
+    },
+    "BAÐSTOFA-ORGANIC" : {
+      "category" : "Interior",
+      "description" : "House consciousness stirring, driftwood beams flexing like ribs during breathing, turf walls showing subtle blood vessel patterns.",
+      "name" : "Organic"
+    },
+    "HOUSE-DETAIL" : {
+      "category" : "Exterior",
+      "description" : "Focus on turf construction detail, organic building materials, poverty indicators through construction quality.",
+      "name" : "House Detail"
+    },
+    "BAÐSTOFA-MONUMENT" : {
+      "category" : "Interior",
+      "name" : "Monument",
+      "description" : "Crystallization complete, transparent cliff walls revealing family consciousness, perfect geometric architecture, obsidian monument interior."
+    },
+    "WESTFJORDS-MASTER" : {
+      "description" : "Hornstrandir Peninsula Westfjords location at coordinates 65°31'48\"N 23°47'24\"W, ancient geological landscape formed by basalt volcanic activity.",
+      "category" : "Exterior",
+      "name" : "Westfjords Master"
+    },
+    "HOUSE-MONUMENT" : {
+      "description" : "Obsidian obelisk commanding landscape, 40ft height creating dramatic silhouette, transparent walls revealing family consciousness.",
+      "name" : "House Monument",
+      "category" : "Exterior"
+    },
+    "HOUSE-CRYSTALLIZING" : {
+      "description" : "[Cliff base] with obsidian formation accelerating - walls pure black stone with obsidian veining spreading through basalt structure.",
+      "name" : "House Crystallizing",
+      "category" : "Exterior"
+    },
+    "BAÐSTOFA-DOMESTIC" : {
+      "name" : "Domestic",
+      "description" : "Traditional turf house interior, driftwood beams architectural, turf walls structural, packed earth floor normal, whale oil lamp burning bright.",
+      "category" : "Interior"
+    },
+    "STOFA-MONUMENT" : {
+      "description" : "[Cliff base] with crystallization complete - walls pure black obsidian extending 40ft creating perfect klettagjá interior.",
+      "name" : "Stofa Monument",
+      "category" : "Interior"
+    },
+    "STOFA-ORGANIC" : {
+      "category" : "Interior",
+      "description" : "[Stirring base] with obvious biological nature - driftwood beams flexing clearly like ribs during house breathing.",
+      "name" : "Stofa Organic"
+    },
+    "STOFA-STIRRING" : {
+      "name" : "Stofa Stirring",
+      "category" : "Interior",
+      "description" : "[Domestic base] with subtle organic awareness - driftwood beams showing occasional slight flex during house breathing."
+    },
+    "STOFA-BODY" : {
+      "category" : "Interior",
+      "name" : "Stofa Body",
+      "description" : "[Organic base] with full biological revelation - driftwood beams clearly functioning as ribs with visible flex."
+    },
+    "SEA-BATTLE" : {
+      "category" : "Sea",
+      "description" : "[Extracted base] during divine\/imperial conflict - water surface churning with supernatural disturbance as Jörmungandr preparation begins.",
+      "name" : "Sea Battle"
+    },
+    "STOFA-DOMESTIC" : {
+      "category" : "Interior",
+      "name" : "Stofa Domestic",
+      "description" : "[Master base] with house consciousness sleeping - driftwood beams steady and architectural, turf walls appearing purely structural."
+    },
+    "STOFA-PEACEFUL" : {
+      "description" : "[Organic base] with protective atmosphere - house breathing gently at 12\/min creating peaceful rhythm.",
+      "name" : "Stofa Peaceful",
+      "category" : "Interior"
+    },
+    "STOFA-CRYSTALLIZING" : {
+      "category" : "Interior",
+      "description" : "[Cleft base] with obsidian formation accelerating - walls showing black mineral veining through turf structure.",
+      "name" : "Stofa Crystallizing"
+    }
+  },
+  "last_updated" : "2025-09-08T02:28:09Z",
+  "_complete_system" : true,
+  "_total_plates" : 48
+}

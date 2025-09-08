@@ -1,0 +1,31 @@
+{
+  "aspect_ratio" : "1.85:1",
+  "prompt_variants" : [
+    {
+      "subject" : "View from clifftop showing the whale's blood trail in the ocean forming a direct red path toward the black sand beach, the three boats following the trail, the whale's shadow visible beneath the surface moving steadily shoreward.",
+      "dialogue" : "None",
+      "variant_name" : "Blood Navigation System",
+      "progressive_state" : "",
+      "selected_plates" : [
+        "SEA-ABUNDANT"
+      ],
+      "style" : "High angle from cliff showing blood trail path (that's where the camera is), entire journey visible.",
+      "scene" : "View from clifftop, mid-morning. Ocean with blood trail. Boats following. Whale shadow underwater. Clear day.",
+      "camera_position" : "Clifftop high angle showing complete blood trail, that's where the camera is",
+      "negative_prompt" : "no subtitles, show coherent blood trail, whale shadow visible underwater, 1080p",
+      "variant_id" : "1c_story_primary",
+      "action" : "High angle from cliff. Blood trail spreads across ocean surface, bright red ribbon in blue water. Trail leads straight to beach, no curves. Whale's shadow visible underwater, massive dark shape 30 feet down. Still alive, swimming home to die. Three boats follow, oars moving in perfect rhythm. The blood trail widens as whale swims, now 50 feet across. Other sea life follows in the blood - seabirds diving, seals surfacing, fish jumping. All following the dying whale. From cliff, can see entire journey mapped in blood. Trail doesn't disperse, stays coherent, bright red. Whale surfaces once to breathe, blowhole spray mixed with blood, pink mist. Continues toward shore. Knows exactly where to beach itself. The blood trail behind looks like an arrow pointing at the village. Sun makes blood appear to glow.",
+      "is_active" : false
+    }
+  ],
+  "progressive_state" : "Whale diving | Trail forming | Camera frost 0% | Death swimming | Watching: Ocean guides",
+  "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "duration_seconds" : 8,
+    "title" : "Blood Trail Home - Divine Navigation",
+    "stitch_from" : "",
+    "narrative_function" : "Blood mathematics creating navigation system",
+    "sequence_type" : "prologue",
+    "id" : "1c"
+  }
+}
