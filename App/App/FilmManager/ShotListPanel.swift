@@ -68,26 +68,37 @@ struct ShotListWithSystemsView: View {
             Divider()
             
             // Shot list with enhanced system mapping
-            List {
-                ForEach(filmManager.shots, id: \.id) { shot in
-                    EnhancedShotRow(
-                        shot: shot,
-                        isSelected: filmManager.selectedShot?.id == shot.id,
-                        trackingSystems: filmManager.trackingSystems,
-                        draggedSystem: draggedSystem,
-                        onSelect: {
-                            filmManager.selectedShot = shot
-                        },
-                        onSystemDrop: { system in
-                            filmManager.placeSystemAtShot(system, shot)
-                        }
-                    )
+            ScrollViewReader { proxy in
+                List {
+                    ForEach(filmManager.shots, id: \.id) { shot in
+                        EnhancedShotRow(
+                            shot: shot,
+                            isSelected: filmManager.selectedShot?.id == shot.id,
+                            trackingSystems: filmManager.trackingSystems,
+                            draggedSystem: draggedSystem,
+                            onSelect: {
+                                filmManager.selectedShot = shot
+                            },
+                            onSystemDrop: { system in
+                                filmManager.placeSystemAtShot(system, shot)
+                            }
+                        )
+                        .id(shot.id) // Important for ScrollViewReader
+                    }
+                    .onMove { source, destination in
+                        filmManager.reorderShots(from: source, to: destination)
+                    }
                 }
-                .onMove { source, destination in
-                    filmManager.reorderShots(from: source, to: destination)
+                .listStyle(PlainListStyle())
+                .onChange(of: filmManager.selectedShot?.id) { oldValue, newValue in
+                    // Automatically scroll to selected shot when it changes
+                    if let shotId = newValue {
+                        withAnimation(.easeInOut(duration: 0.3)) {
+                            proxy.scrollTo(shotId, anchor: .center)
+                        }
+                    }
                 }
             }
-            .listStyle(PlainListStyle())
         }
     }
     

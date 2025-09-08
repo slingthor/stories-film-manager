@@ -3,6 +3,7 @@ import Combine
 
 struct ContentView: View {
     @EnvironmentObject var filmManager: FilmManager
+    @Environment(\.openWindow) private var openWindow
     @State private var draggedSystem: TrackingSystem?
     @State private var visibleSystemRange = 0..<5
     @State private var selectedPlateId: String? = nil
@@ -113,6 +114,7 @@ struct ContentView: View {
         .onReceive(NotificationCenter.default.publisher(for: .saveAll)) { _ in
             filmManager.saveAllChanges()
         }
+        // Video window is already opened on app start in FilmManagerApp.swift
     }
 }
 

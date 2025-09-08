@@ -1,6 +1,7 @@
 import Foundation
 import Combine
 import SwiftUI
+import AVFoundation
 
 // MARK: - Complete Data Models with Proper ObservableObject Conformance
 
@@ -52,6 +53,7 @@ class FilmManager: ObservableObject {
     }
     
     private func loadFilmData() {
+        print("\n🎬 ========== FILMMANAGER LOADING DATA ==========")
         print("🚀 Starting to load film data...")
         
         // Load ALL shots from the directory
@@ -63,10 +65,12 @@ class FilmManager: ObservableObject {
         } else {
             print("✅ Successfully loaded \(shots.count) shots")
             
-            // List first few shots for verification
-            for (index, shot) in shots.prefix(5).enumerated() {
-                print("   Shot \(index + 1): \(shot.id) - \(shot.title)")
+            // Print complete shot order for debugging
+            print("\n📊 COMPLETE SHOT ORDER AFTER LOADING:")
+            for (index, shot) in shots.enumerated() {
+                print("   \(index + 1). Shot \(shot.id) (\(shot.sequenceType))")
             }
+            print("")
         }
         
         // Load tracking system data from main_film_system.json
@@ -246,6 +250,13 @@ class FilmManager: ObservableObject {
                 }
             }
             
+            // Add default video only if the shot doesn't have any videos
+            if shot.videos.isEmpty {
+                let defaultVideo = VideoFile(filename: "default.mp4", filepath: "/Users/ingthor/Documents/stories/appdata/resources/shots/videos/default.mp4")
+                shot.videos = [defaultVideo]
+                shot.selectedVideoIndex = 0  // Select the default video automatically
+            }
+            
             loadedShots.append(shot)
         }
         
@@ -253,9 +264,17 @@ class FilmManager: ObservableObject {
         
         // Sort shots: prologue first, then main_story, sorted by ID with improved logic
         loadedShots.sort { shot1, shot2 in
+            // Normalize sequence types (handle "main" vs "main_story")
+            let seq1 = shot1.sequenceType == "main" ? "main_story" : shot1.sequenceType
+            let seq2 = shot2.sequenceType == "main" ? "main_story" : shot2.sequenceType
+            
             // First sort by sequence type: prologue comes before main_story
-            if shot1.sequenceType != shot2.sequenceType {
-                return shot1.sequenceType == "prologue"
+            if seq1 != seq2 {
+                // Prologue always comes first
+                if seq1 == "prologue" { return true }
+                if seq2 == "prologue" { return false }
+                // Otherwise alphabetical
+                return seq1 < seq2
             }
             
             // Within same sequence type, sort by numeric ID value
@@ -263,18 +282,19 @@ class FilmManager: ObservableObject {
             let id2 = self.extractNumericFromId(shot2.id)
             
             // Debug logging to help identify sorting issues
-            if id1 == id2 {
-                print("⚠️ Duplicate numeric values: \(shot1.id) (\(id1)) and \(shot2.id) (\(id2))")
+            if id1 == id2 && shot1.id != shot2.id {
+                print("⚠️ Same numeric values for different IDs: \(shot1.id) (\(id1)) and \(shot2.id) (\(id2))")
             }
             
             return id1 < id2
         }
         
-        print("🔢 Shot sorting completed. Order verification:")
-        for (index, shot) in loadedShots.prefix(10).enumerated() {
+        print("\n=================== SHOT ORDER: ===================")
+        for (index, shot) in loadedShots.enumerated() {
             let numericValue = self.extractNumericFromId(shot.id)
-            print("   \(index + 1). \(shot.id) (\(shot.sequenceType)) -> numeric: \(numericValue)")
+            print("   \(index + 1). Shot \(shot.id) (\(shot.sequenceType)) -> numeric: \(numericValue)")
         }
+        print("====================================================\n")
         
         // Update positions based on sorted order
         for (index, shot) in loadedShots.enumerated() {
@@ -418,13 +438,26 @@ class FilmManager: ObservableObject {
         
         // Sort the shots using unified sorting function
         directShots.sort { shot1, shot2 in
+            // First sort by sequence type (prologue before main)
             if shot1.sequenceType != shot2.sequenceType {
-                return shot1.sequenceType == "prologue"
+                // Check if either is prologue
+                if shot1.sequenceType == "prologue" { return true }
+                if shot2.sequenceType == "prologue" { return false }
+                // For any other sequence types, use alphabetical order
+                return shot1.sequenceType < shot2.sequenceType
             }
+            // Within the same sequence type, sort by numeric ID
             let id1 = self.extractNumericFromId(shot1.id)
             let id2 = self.extractNumericFromId(shot2.id)
             return id1 < id2
         }
+        
+        // Print shot order for debugging
+        print("\n=== SHOT ORDER: ===")
+        for shot in directShots {
+            print("\(shot.id) (\(shot.sequenceType))")
+        }
+        print("===================\n")
         
         return directShots
     }
@@ -472,14 +505,23 @@ class FilmManager: ObservableObject {
     }
     
     private func updateShotPositions() {
-        for (index, shot) in shots.enumerated() {
-            shot.position = (Double(index) / Double(shots.count - 1)) * 100.0
+        // Calculate positions based on cumulative duration
+        var cumulativeTime: Double = 0
+        
+        for shot in shots {
+            // Position is the percentage of total timeline where this shot starts
+            shot.position = totalDuration > 0 ? (cumulativeTime / totalDuration) * 100.0 : 0
+            cumulativeTime += shot.effectiveDuration
             shot.isDirty = true
         }
     }
     
     private func calculateTotalDuration() {
-        totalDuration = Double(shots.reduce(0) { $0 + $1.duration })
+        // Use fixed 8-second duration for all shots
+        totalDuration = Double(shots.count) * 8.0
+        
+        // Update positions after calculating total duration
+        updateShotPositions()
     }
     
     private func updateSystemsForSelectedShot() {
@@ -715,6 +757,14 @@ class FilmShot: ObservableObject, Identifiable, Equatable {
         return videos[index]
     }
     
+    // Computed property for effective duration based on selected video
+    var effectiveDuration: Double {
+        if let video = selectedVideo {
+            return video.duration
+        }
+        return Double(duration)  // Fall back to shot's default duration
+    }
+    
     func selectVideo(at index: Int) {
         selectedVideoIndex = index
         isDirty = true
@@ -722,7 +772,17 @@ class FilmShot: ObservableObject, Identifiable, Equatable {
     }
     
     func addVideo(_ video: VideoFile) {
-        videos.append(video)
+        var updatedVideo = video
+        // Temporarily disable duration reading to avoid crashes
+        // TODO: Re-enable once we have proper video files
+        /*
+        // Try to read the actual duration from the video file
+        if let duration = getVideoDuration(from: video.filepath) {
+            updatedVideo.duration = duration
+            print("📹 Read duration \(duration)s for video \(video.filename)")
+        }
+        */
+        videos.append(updatedVideo)
         
         // First video becomes selected automatically
         if selectedVideoIndex == nil {
@@ -731,6 +791,47 @@ class FilmShot: ObservableObject, Identifiable, Equatable {
         }
         
         isDirty = true
+    }
+    
+    private func getVideoDuration(from filepath: String) -> Double? {
+        // Check if the file exists first
+        guard FileManager.default.fileExists(atPath: filepath) else {
+            print("⚠️ Video file does not exist at: \(filepath)")
+            return nil
+        }
+        
+        // Check if it's actually a video file
+        let url = URL(fileURLWithPath: filepath)
+        let pathExtension = url.pathExtension.lowercased()
+        let videoExtensions = ["mp4", "mov", "m4v", "avi", "mkv", "webm"]
+        
+        guard videoExtensions.contains(pathExtension) else {
+            print("⚠️ Not a video file: \(filepath)")
+            return nil
+        }
+        
+        // Try to create asset and get duration
+        let asset = AVAsset(url: url)
+        
+        // Get duration synchronously (for simplicity)
+        let duration = asset.duration
+        
+        // Check if duration is valid
+        guard duration.isValid && !duration.isIndefinite else {
+            print("⚠️ Could not determine duration for: \(filepath)")
+            return nil
+        }
+        
+        // Convert CMTime to seconds
+        let seconds = CMTimeGetSeconds(duration)
+        
+        // Validate the duration is reasonable (between 0.1 and 3600 seconds)
+        guard seconds.isFinite && seconds > 0.1 && seconds < 3600 else {
+            print("⚠️ Invalid duration \(seconds)s for: \(filepath)")
+            return nil
+        }
+        
+        return seconds
     }
     
     func removeVideo(at index: Int) {
@@ -1098,12 +1199,14 @@ struct VideoFile: Identifiable {
     let generationDate: String
     var qualityRating: Double?
     var notes: String
+    var duration: Double = 8.0  // Duration in seconds, default to 8
     
-    init(filename: String, filepath: String) {
+    init(filename: String, filepath: String, duration: Double = 8.0) {
         self.filename = filename
         self.filepath = filepath
         self.generationDate = DateFormatter().string(from: Date())
         self.notes = ""
+        self.duration = duration
     }
 }
 

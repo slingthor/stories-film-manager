@@ -137,23 +137,30 @@ struct ComprehensiveTimelineView: View {
                 .frame(height: 20)
                 
                 // Shot labels
-                HStack {
-                    ForEach(filmManager.shots.filter { $0.selectedVideo != nil }.prefix(12), id: \.id) { shot in
-                        VStack {
-                            Text(shot.id)
-                                .font(.caption2)
-                                .fontWeight(filmManager.selectedShot?.id == shot.id ? .bold : .regular)
-                                .foregroundColor(filmManager.selectedShot?.id == shot.id ? .blue : .primary)
-                            
-                            if let video = shot.selectedVideo {
-                                Text(String(video.filename.prefix(10)))
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 2) {
+                        ForEach(filmManager.shots, id: \.id) { shot in
+                            VStack {
+                                Text(shot.id)
                                     .font(.caption2)
-                                    .foregroundColor(.secondary)
-                                    .lineLimit(1)
+                                    .fontWeight(filmManager.selectedShot?.id == shot.id ? .bold : .regular)
+                                    .foregroundColor(filmManager.selectedShot?.id == shot.id ? .blue : .primary)
+                                
+                                if let video = shot.selectedVideo {
+                                    Text(String(video.filename.prefix(8)))
+                                        .font(.caption2)
+                                        .foregroundColor(.secondary)
+                                        .lineLimit(1)
+                                } else {
+                                    Text("—")
+                                        .font(.caption2)
+                                        .foregroundColor(.secondary.opacity(0.5))
+                                }
                             }
+                            .frame(width: max(30, min(60, 400.0 / Double(filmManager.shots.count))))
                         }
-                        .frame(width: max(40, (600.0 / Double(filmManager.shots.count))))
                     }
+                    .padding(.horizontal, 4)
                 }
             }
             .padding(.horizontal)
@@ -195,15 +202,28 @@ struct ComprehensiveTimelineView: View {
     }
     
     private func seekToShot(_ shot: FilmShot) {
-        let shotTime = (shot.position / 100.0) * filmManager.totalDuration
-        currentTimeSeconds = shotTime
-        filmManager.timelinePosition = shot.position
+        // Calculate the actual time position where this shot starts
+        // Using fixed 8-second duration for all shots
+        if let index = filmManager.shots.firstIndex(where: { $0.id == shot.id }) {
+            currentTimeSeconds = Double(index) * 8.0
+            filmManager.timelinePosition = (currentTimeSeconds / filmManager.totalDuration) * 100.0
+        }
     }
     
     private func updateSelectedShotFromTime(_ time: Double) {
-        let timePercentage = (time / filmManager.totalDuration) * 100.0
-        if let nearestShot = filmManager.shots.min(by: { abs($0.position - timePercentage) < abs($1.position - timePercentage) }) {
-            filmManager.selectedShot = nearestShot
+        // Find which shot contains this time point
+        // Using fixed 8-second duration for all shots
+        let shotIndex = Int(time / 8.0)
+        
+        if shotIndex >= 0 && shotIndex < filmManager.shots.count {
+            let shot = filmManager.shots[shotIndex]
+            if filmManager.selectedShot?.id != shot.id {
+                print("Timeline: Switching to shot \(shot.id) at time \(time)s (index: \(shotIndex))")
+                filmManager.selectedShot = shot
+            }
+        } else if let lastShot = filmManager.shots.last {
+            // If we're past all shots, select the last one
+            filmManager.selectedShot = lastShot
         }
     }
     
@@ -212,6 +232,7 @@ struct ComprehensiveTimelineView: View {
     }
     
     private func startPlayback() {
+        print("Starting playback, total duration: \(filmManager.totalDuration)s for \(filmManager.shots.count) shots")
         // Simple auto-advance through shots with videos
         Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
             if !filmManager.isPlaying {
@@ -227,9 +248,8 @@ struct ComprehensiveTimelineView: View {
                 timer.invalidate()
             }
             
-            if filmManager.shouldFollowTimeline {
-                updateSelectedShotFromTime(currentTimeSeconds)
-            }
+            // Always update selected shot during playback
+            updateSelectedShotFromTime(currentTimeSeconds)
         }
     }
     
