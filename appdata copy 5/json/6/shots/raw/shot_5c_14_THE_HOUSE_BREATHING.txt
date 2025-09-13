@@ -1,0 +1,11 @@
+SHOT 5c/14: THE HOUSE BREATHING
+Progressive State: House established | Giant waking | Camera frost flicker 1% | Bergrisi revealed | Watching: Mountain lives
+Duration: 8 seconds
+[STITCH from parallel to flensing work]
+Subject: The turf house from outside, walls of stacked earth and grass expanding and contracting rhythmically, moisture beading on the turf like sweat, smoke from chimney bending horizontally despite no wind, door slightly open showing darkness within.
+Action: House sits alone, 50 feet from other buildings. Turf walls 4 feet thick, grass growing on roof. Entire structure expands outward 8 inches, holds 3 seconds, contracts. Like breathing. Moisture forms on walls during expansion - clear droplets, body temperature if touched. Smoke rises from chimney, reaches 10 feet, bends sharp right angle, horizontal stream. No wind causing this. Door ajar 6 inches. Inside, complete darkness despite daylight. Darkness seems thick, solid. Through gap, furniture visible but wrong scale - table too large, chairs too small. House groans during contraction. Sound like words but not quite. "HvÃ­l... andi..." (Rest... breathing...). Window on south wall fogs from inside. In fog, shape appears. Hand? Face? Gone before clear. House continues breathing. Matches rhythm of whale dying on beach. Same 12 breaths per minute. Ground around house foundation cracked in radial pattern. Cracks widen during breath.
+Scene: House exterior, midday. Other buildings distant. Clear day but house in shadow that shouldn't exist.
+Style: Wide shot showing entire house breathing (that's where the camera is), slow push toward door.
+Dialogue: None (just groaning that sounds like words)
+Sounds: [PRIMARY: House expanding/contracting, turf creaking, moisture dripping, groan-words] [AMBIENT: Smoke bending, darkness visible through door] [ABSENT: normal house sounds, wind]
+Technical (Negative Prompt): no subtitles, show house breathing clearly, moisture beading, smoke bending horizontal, 1080p

@@ -1,0 +1,69 @@
+{
+  "last_updated" : "2025-09-13T19:31:27Z",
+  "tracking_systems" : {
+    "predatory_landscape" : {
+      "current_percentage" : 15,
+      "description" : "Environmental hostility toward human survival"
+    },
+    "memory_degradation" : {
+      "current_percentage" : 5,
+      "description" : "Collective memory accuracy declining"
+    },
+    "color_grading" : {
+      "description" : "Film color palette psychological progression",
+      "current_percentage" : 15
+    },
+    "breathing_coordination" : {
+      "description" : "Family respiratory synchronization progression",
+      "current_percentage" : 32
+    },
+    "character_shadow_behavior" : {
+      "description" : "Shadow physics revealing animal truth",
+      "current_percentage" : 8
+    },
+    "stain_progression" : {
+      "current_percentage" : 35,
+      "description" : "F4 Liquid contamination marking progression"
+    },
+    "hakarl_contamination" : {
+      "current_percentage" : 18,
+      "description" : "Traditional food corruption enabling breakdown"
+    },
+    "weather_hostility" : {
+      "current_percentage" : 10,
+      "description" : "Atmospheric assault on family survival"
+    },
+    "house_dimensions" : {
+      "current_percentage" : 0,
+      "description" : "Baðstofa interior space expansion sensation"
+    },
+    "house_consciousness" : {
+      "current_percentage" : 35,
+      "description" : "Bergrisi awareness and biological responses"
+    },
+    "reality_coherence" : {
+      "description" : "Stability of physical laws and logic",
+      "current_percentage" : 65
+    },
+    "spatial_impossibilities" : {
+      "description" : "Mathematical physics violations spreading",
+      "current_percentage" : 25
+    },
+    "klettagja_formation" : {
+      "description" : "Cliff cleft development for Sigrid's escape",
+      "current_percentage" : 15
+    },
+    "temperature_progression" : {
+      "description" : "Environmental and body temperature changes",
+      "current_percentage" : 28
+    },
+    "light_sources" : {
+      "description" : "Illumination evolution organic→industrial→supernatural",
+      "current_percentage" : 5
+    },
+    "industrial_contamination" : {
+      "description" : "British\/Danish imperial materials spreading",
+      "current_percentage" : 22
+    }
+  }
+}

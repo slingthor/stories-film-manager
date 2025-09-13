@@ -1,31 +1,31 @@
 {
   "prompt_variants" : [
     {
-      "subject" : "The polynya water changing as [GUÃRÃšN] works - oil sheens spreading in rainbow patterns, brass fixtures floating up from depths, rope fragments surfacing, the water itself becoming industrial soup while steam increases, bubbles starting from deep below.",
-      "action" : "Water transforms. First: oil sheen spreads from center, rainbow pattern on black. Not natural oil - machine oil, thick, viscous. Second: brass fixtures float up - bolts, rings, chain links - green with verdigris, some fused with flesh fragments. Third: rope pieces surface, but wrong - hemp grown through with veins, organic and industrial fused. Fourth: water color changes from black to black-green, contaminated. Fifth: bubbles begin from deep - not random but in pattern, breathing rhythm, 12 breaths per minute matching house. Each bubble brings up more contamination. GuÃ°rÃºn sees but continues gathering seaweed - what choice does she have? Wool from wrists touches water, immediately absorbs oil, turns grey-black. Steam thickens, visibility dropping. Something massive displacing water from below. Surface bulges slightly. Breathing bubbles increase. Water temperature rising - now 40Â°C, uncomfortable. Her hands red from heat, not cold.",
-      "scene" : "Polynya transforming, 9:57 AM. Industrial contamination surfacing. Water heating beyond logic.",
-      "style" : "Slow push in on corrupting water (that's where the camera is), contamination revealed.",
-      "camera_position" : "Slow push in on corrupting water",
-      "negative_prompt" : "",
+      "is_active" : false,
       "selected_plates" : [
         "SEA-BATTLE"
       ],
-      "variant_id" : "45b_story_primary",
-      "dialogue" : "None - she sees but stays silent",
-      "progressive_state" : "",
       "variant_name" : "Primary - WATER CHANGES - INDUSTRIAL CONTAMINATION RISES 5 SECONDS",
-      "is_active" : false
+      "dialogue" : "None - she sees but stays silent",
+      "action" : "Water transforms. First: oil sheen spreads from center, rainbow pattern on black. Not natural oil - machine oil, thick, viscous. Second: brass fixtures float up - bolts, rings, chain links - green with verdigris, some fused with flesh fragments. Third: rope pieces surface, but wrong - hemp grown through with veins, organic and industrial fused. Fourth: water color changes from black to black-green, contaminated. Fifth: bubbles begin from deep - not random but in pattern, breathing rhythm, 12 breaths per minute matching house. Each bubble brings up more contamination. GuÃ°rÃºn sees but continues gathering seaweed - what choice does she have? Wool from wrists touches water, immediately absorbs oil, turns grey-black. Steam thickens, visibility dropping. Something massive displacing water from below. Surface bulges slightly. Breathing bubbles increase. Water temperature rising - now 40Â°C, uncomfortable. Her hands red from heat, not cold.",
+      "scene" : "Polynya transforming, 9:57 AM. Industrial contamination surfacing. Water heating beyond logic.",
+      "subject" : "The polynya water changing as [GUÃRÃšN] works - oil sheens spreading in rainbow patterns, brass fixtures floating up from depths, rope fragments surfacing, the water itself becoming industrial soup while steam increases, bubbles starting from deep below.",
+      "progressive_state" : "",
+      "negative_prompt" : "",
+      "style" : "Slow push in on corrupting water (that's where the camera is), contamination revealed.",
+      "variant_id" : "45b_story_primary",
+      "camera_position" : "Slow push in on corrupting water"
     }
   ],
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
   "progressive_state" : "Water corrupting | Oil surfaces | Camera frost 32% | Warning signs | Watching: It rises",
   "shot_metadata" : {
-    "narrative_function" : "Water corrupting | Oil surfaces | Camera frost 32%...",
-    "title" : "WATER CHANGES - INDUSTRIAL CONTAMINATION RISES 5 SECONDS",
     "sequence_type" : "main_story",
     "stitch_from" : "",
     "id" : "45b",
-    "duration_seconds" : 5
-  },
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3"
+    "duration_seconds" : 5,
+    "narrative_function" : "Water corrupting | Oil surfaces | Camera frost 32%...",
+    "title" : "WATER CHANGES - INDUSTRIAL CONTAMINATION RISES 5 SECONDS"
+  }
 }

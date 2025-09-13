@@ -1,0 +1,11 @@
+SHOT 9a/17: THE SUN BREAKS FREE
+Progressive State: Time collapses | Paradise ending | Camera frost 5% | Day racing away | Watching: The fall begins
+Duration: 8 seconds
+[STITCH from Shot 8b/16: Faces in searchlight]
+Subject: The sun suddenly dropping toward horizon in accelerated motion, shadows sweeping across feast tables like black water, golden light dying to orange to red to purple in seconds, temperature dropping visibly as breath becomes white vapor.
+Action: Sun breaks from frozen position. Drops 10 degrees in one second. Shadows from tables suddenly swing eastward, moving like clock hands. Golden light shifts orange. Everyone still frozen at tables but shadows moving around them. Sun drops another 10 degrees. Light turns deep red. Food on tables changes - whale meat darkening, berries shriveling, eggs turning grey. Sun continues plummet. Sky shifts red to purple. Temperature drops - breath becomes visible from everyone simultaneously, white clouds in purple air. Frost forms on table edges, spreading inward. Purple juice in cups freezes, expanding, some cups cracking. Sun nearly at horizon now. Moving faster. The searchlight still locked on feast but overwhelmed by dying natural light. Children begin shivering. Adults don't move. Sun touches horizon. Pauses one second. Then drops below. Darkness rushing in from edges of frame.
+Scene: Feast tables with sun racing across sky. Light changing rapidly. Frost forming. Searchlight still on but overwhelmed.
+Style: Wide shot showing sun movement and shadow sweep (that's where the camera is), time-lapse feeling but real-time.
+Dialogue: None
+Sounds: [PRIMARY: Sun moving with grinding sound, frost crackling on tables, cups cracking, shadows sweeping] [AMBIENT: Temperature dropping audibly, searchlight humming futilely] [ABSENT: human voices]
+Technical (Negative Prompt): no subtitles, show sun dropping rapidly, shadows sweeping, frost forming, breath visible, 1080p

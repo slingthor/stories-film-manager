@@ -1,0 +1,69 @@
+{
+  "tracking_systems" : {
+    "house_consciousness" : {
+      "current_percentage" : 35,
+      "description" : "Bergrisi awareness and biological responses"
+    },
+    "weather_hostility" : {
+      "current_percentage" : 10,
+      "description" : "Atmospheric assault on family survival"
+    },
+    "memory_degradation" : {
+      "description" : "Collective memory accuracy declining",
+      "current_percentage" : 5
+    },
+    "predatory_landscape" : {
+      "current_percentage" : 15,
+      "description" : "Environmental hostility toward human survival"
+    },
+    "house_dimensions" : {
+      "description" : "Baðstofa interior space expansion sensation",
+      "current_percentage" : 0
+    },
+    "spatial_impossibilities" : {
+      "description" : "Mathematical physics violations spreading",
+      "current_percentage" : 25
+    },
+    "color_grading" : {
+      "current_percentage" : 15,
+      "description" : "Film color palette psychological progression"
+    },
+    "character_shadow_behavior" : {
+      "description" : "Shadow physics revealing animal truth",
+      "current_percentage" : 8
+    },
+    "hakarl_contamination" : {
+      "current_percentage" : 18,
+      "description" : "Traditional food corruption enabling breakdown"
+    },
+    "reality_coherence" : {
+      "description" : "Stability of physical laws and logic",
+      "current_percentage" : 65
+    },
+    "light_sources" : {
+      "description" : "Illumination evolution organic→industrial→supernatural",
+      "current_percentage" : 5
+    },
+    "breathing_coordination" : {
+      "description" : "Family respiratory synchronization progression",
+      "current_percentage" : 32
+    },
+    "klettagja_formation" : {
+      "current_percentage" : 15,
+      "description" : "Cliff cleft development for Sigrid's escape"
+    },
+    "temperature_progression" : {
+      "current_percentage" : 28,
+      "description" : "Environmental and body temperature changes"
+    },
+    "stain_progression" : {
+      "description" : "F4 Liquid contamination marking progression",
+      "current_percentage" : 35
+    },
+    "industrial_contamination" : {
+      "current_percentage" : 22,
+      "description" : "British\/Danish imperial materials spreading"
+    }
+  },
+  "last_updated" : "2025-09-07T22:38:26Z"
+}

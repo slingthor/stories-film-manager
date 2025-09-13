@@ -1,34 +1,34 @@
 {
   "prompt_variants" : [
     {
+      "progressive_state" : "",
+      "dialogue" : "",
+      "variant_id" : "16p_shot_16point5_one_perfect_human_moment_emotional_a",
+      "variant_name" : "Shot 16Point5 One Perfect Human Moment Emotional A",
       "subject" : "",
       "action" : "Sigrid's lips move in whispered Old Norse lullaby directed toward belly, her breath creating minimal fog in cooling baðstofa air that barely touches camera lens—gentle intimacy without intrusive visibility. Her voice drops to protective whisper speaking prophecy she doesn't understand: \"Þú verður frjáls þegar ég verð Krummi\" (You will be free when I become raven), words containing future she cannot yet imagine. Belly shows subtle movement in response to voice—unborn child recognizing mother's promise across developmental barrier. Her breathing maintains perfect 15\/min human rhythm, individual identity strong before herd synchronization begins. Lamp flame gutters once during whisper, creating brief shadow-flicker across her face that shows momentary raven profile before returning to human features. Final breath of lullaby creates fog-puff that briefly obscures camera view, transition preparing for hard cut to darkness preceding Three-Frame Flash revelation.",
       "scene" : "SHOT 16.5: ONE PERFECT HUMAN MOMENT - EMOTIONAL ANCHOR NEW ESSENTIAL ADDITION - Before Three-Frame Flash Horror SHOT HEADER: Intimate baðstofa corner lit solely by dying whale oil lamp creating circle of warm amber light surrounded by gentle darkness, traditional domestic space at its most protective and peaceful. Family arranged in sleeping positions of trust and safety—no surveillance tension, no mathematical confusion, no contamination anxiety. Temperature comfortable despite winter exterior, house breathing gently at 12\/min normal rhythm suggesting Bergrisi still strong enough to provide shelter. This represents peak domestic harmony before supernatural forces destroy family structure, captured like final photograph before catastrophe.",
       "style" : "Camera positioned 6 feet from Sigrid at slightly elevated angle showing both profile intimacy and belly protection gesture (that's where the camera is), close enough for whispered lullaby, distant enough for family context. Static shot except for gentle push-in during belly whisper, movement subtle as approaching tenderness. Lighting purely from whale oil lamp creating Vermeer-like golden illumination, harsh enough for detail, soft enough for intimacy. Focus sharp on Sigrid's profile during whisper, background family softly visible maintaining domestic context. DIALOGUE:",
       "camera_position" : "",
-      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "is_active" : false,
       "selected_plates" : [
         "LILJA-SENSING",
         "SIGRID-CORNERED",
         "GUDRUN-CONDEMNED",
         "STOFA-BODY"
       ],
-      "variant_id" : "16p_shot_16point5_one_perfect_human_moment_emotional_a",
-      "dialogue" : "",
-      "progressive_state" : "",
-      "variant_name" : "Shot 16Point5 One Perfect Human Moment Emotional A",
-      "is_active" : false
+      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified"
     }
   ],
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
   "progressive_state" : "",
   "shot_metadata" : {
-    "narrative_function" : "enhancement",
-    "title" : "Shot 16Point5 One Perfect Human Moment Emotional A",
     "sequence_type" : "main",
     "stitch_from" : "",
     "id" : "16.5",
-    "duration_seconds" : 3
-  },
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3"
+    "duration_seconds" : 3,
+    "narrative_function" : "enhancement",
+    "title" : "Shot 16Point5 One Perfect Human Moment Emotional A"
+  }
 }

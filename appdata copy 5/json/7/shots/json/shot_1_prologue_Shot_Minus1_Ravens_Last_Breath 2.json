@@ -1,0 +1,31 @@
+{
+  "progressive_state" : "",
+  "prompt_variants" : [
+    {
+      "variant_name" : "Shot Minus1 Ravens Last Breath Mnemonic Wrapper",
+      "progressive_state" : "",
+      "selected_plates" : [
+        "STOFA-BODY"
+      ],
+      "style" : "Camera begins as extreme close-up on raven's eye positioned at ground level 6 inches from bird (that's where the camera is), using macro lens equivalent revealing crystalline frost formations in dead eye and impossible life in living eye. During descent into throat, camera becomes probe lens navigating organic tunnel, maintaining documentary objectivity despite impossible journey. Lighting entirely from bioluminescent tissue and reflected light from memory fragments. No artificial illumination—only the glow of dying consciousness attempting to speak. Orthochromatic color palette emphasizing texture over hue. Movement fluid but labored, matching the dying breath rhythm of 3 breaths per minute. DIALOGUE:",
+      "variant_id" : "1_shot_minus1_ravens_last_breath_mnemonic_wrapper",
+      "action" : "Raven's eye blinks once with enormous effort, the mechanical click of ancient eyelid fighting frost formation. The living eye dilates impossibly wide, pupil expanding beyond anatomical limits as if trying to see backwards through time itself. Camera begins descent INTO the eye, through cornea, past iris showing reflection of 1888 Shadow Pole scene. We enter the raven's throat—organic tunnel of weathered cartilage and tissue, walls pulsing weakly with life's final attempts. Three labored breaths begin, each exhalation illuminating brief flashes deeper in the tunnel. First breath reveals fragments of whale hunt in golden light. Second breath shows family at table counting, image clearer but trembling. Third breath opens throat fully, revealing the Shadow Pole scene in complete clarity as we fly OUT through the raven's opened beak into Shot 0a, the transition feeling like birth or death or testimony finally spoken.",
+      "scene" : "SHOT -1: THE RAVEN'S LAST BREATH Mnemonic Wrapper - Opening Portal Into Failing Collective Memory SHOT HEADER: Interior of raven's throat, macro perspective revealing organic architecture of witness-creature. Walls show texture of ancient tissue—cartilage rings supporting the tunnel, blood vessels visible beneath translucent membrane surfaces. Temperature exactly 37°C (body temperature), the last warmth in dying Iceland. Moisture beads on walls create natural condensation that reflects light fragments. Scale suggests this isn't normal raven but Huginn or Muninn—Odin's memory ravens grown massive through centuries of witnessing. The throat tunnel impossibly extends beyond bird's anatomy, becoming the klettagjá (cliff's cleft) from the lullaby. Pink flesh beneath everything confirms we're inside something divine that once lived.",
+      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "subject" : "",
+      "camera_position" : "",
+      "dialogue" : "",
+      "is_active" : false
+    }
+  ],
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "1.85:1",
+  "shot_metadata" : {
+    "duration_seconds" : 3,
+    "sequence_type" : "prologue",
+    "stitch_from" : "",
+    "id" : "-1",
+    "title" : "Shot Minus1 Ravens Last Breath Mnemonic Wrapper",
+    "narrative_function" : "enhancement"
+  }
+}

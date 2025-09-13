@@ -1,0 +1,22 @@
+SHOT 30: HOURS OF NOTHING COMPRESSED (8 SECONDS)
+Progressive State: Empty fishing | Time passing | Camera frost 19.5% | Futility accumulating | Watching: Trawler patient
+Women's Silence: Abandoned completely
+Triple Reality: Physical: no fish exist / Psychological: denial breaking / Mythological: fishing in death
+Duration: 8 seconds
+[STITCH from Shot 29: Rowing over emptiness toward trawler]
+
+Subject: [MAGNÃšS] fishing for hours compressed into 8 seconds - dropping line, waiting, pulling empty, moving position, repeat - the sun tracking across sky showing time passage while below him the crystalline water reveals nothing but trawl scars on bare rock, until finally, impossibly, the line goes taut.
+
+Action: Time-lapse feeling in real-time: MagnÃºs drops weighted line, watches it descend through crystal water to bottom - visible entire way down, no fish interrupt its fall. Waits. Counts in Danish without thinking: "Et... to... tre..." up to "hundrede" (hundred). Nothing. Pulls up empty hook. Moves position 50 feet. Drops line again. Same visibility, same nothing. Sun moves 15 degrees. His beard ice thickens from 18mm to 25mm. Tries different depth. Empty. Different bait (remembering fish smell from tin). Empty. Position after position marked by sun movement - 2 hours compressed. Face aging more: lines deepening, eyes sinking. 0Hz hands struggle with line - no tremor feedback means can't feel tension. Then, on seventh attempt, as desperation peaks - line goes taut. Not snagged on bottom (can see it's clear). Something pulling. His face transforms: savage hope. Begins pulling up, hands shaking with excitement not tremor.
+
+Scene: Open fjord, sun moving from 7AM position to 9AM position in background. Trawler hasn't moved, yellow lights fixed on him. Water so clear each dropped line visible entire descent.
+
+Style: Multiple positions compressed, showing futility and time passage, ending on taut line (that's where the camera is), documentary of desperate hope.
+
+Dialogue: (MagnÃºs, counting): "Et... to... tre... hundrede..." (Moving positions): "Her Ã¾Ã¡... nei... her..." (Line goes taut): "LOKSINS!" (FINALLY!)
+
+Sounds: [PRIMARY: Line dropping through water repeatedly, empty hooks pulled up, repositioning oars] [AMBIENT: Sun movement implied through shadow changes, 0Hz tremor silence, trawler engine constant] [ABSENT: no fish sounds ever, complete biological silence]
+
+Technical (Negative Prompt): no subtitles, show time passage through sun/shadow, maintain empty clarity, documentary observation
+
+-

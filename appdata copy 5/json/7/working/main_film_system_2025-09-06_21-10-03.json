@@ -1,0 +1,69 @@
+{
+  "tracking_systems" : {
+    "industrial_contamination" : {
+      "current_percentage" : 22,
+      "description" : "British\/Danish imperial materials spreading"
+    },
+    "klettagja_formation" : {
+      "description" : "Cliff cleft development for Sigrid's escape",
+      "current_percentage" : 15
+    },
+    "reality_coherence" : {
+      "current_percentage" : 65,
+      "description" : "Stability of physical laws and logic"
+    },
+    "hakarl_contamination" : {
+      "current_percentage" : 18,
+      "description" : "Traditional food corruption enabling breakdown"
+    },
+    "spatial_impossibilities" : {
+      "current_percentage" : 25,
+      "description" : "Mathematical physics violations spreading"
+    },
+    "stain_progression" : {
+      "current_percentage" : 35,
+      "description" : "F4 Liquid contamination marking progression"
+    },
+    "character_shadow_behavior" : {
+      "current_percentage" : 8,
+      "description" : "Shadow physics revealing animal truth"
+    },
+    "temperature_progression" : {
+      "current_percentage" : 28,
+      "description" : "Environmental and body temperature changes"
+    },
+    "predatory_landscape" : {
+      "current_percentage" : 15,
+      "description" : "Environmental hostility toward human survival"
+    },
+    "house_consciousness" : {
+      "description" : "Bergrisi awareness and biological responses",
+      "current_percentage" : 35
+    },
+    "memory_degradation" : {
+      "description" : "Collective memory accuracy declining",
+      "current_percentage" : 5
+    },
+    "house_dimensions" : {
+      "description" : "Baðstofa interior space expansion sensation",
+      "current_percentage" : 0
+    },
+    "light_sources" : {
+      "current_percentage" : 5,
+      "description" : "Illumination evolution organic→industrial→supernatural"
+    },
+    "breathing_coordination" : {
+      "current_percentage" : 32,
+      "description" : "Family respiratory synchronization progression"
+    },
+    "color_grading" : {
+      "description" : "Film color palette psychological progression",
+      "current_percentage" : 15
+    },
+    "weather_hostility" : {
+      "current_percentage" : 10,
+      "description" : "Atmospheric assault on family survival"
+    }
+  },
+  "last_updated" : "2025-09-07T04:09:51Z"
+}

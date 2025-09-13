@@ -1,0 +1,83 @@
+{
+  "shot_metadata": {
+    "id": "4",
+    "name": "WINDOW_INTO_THE_TRAP",
+    "title": "WINDOW INTO THE TRAP",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 12/min | KlettagjÃ¡ none | No contamination ...",
+    "stitch_from": "[STITCH from Shot 3: Camera moves from above house to south window]",
+    "aspect_ratio": "4:3"
+  },
+  "progressive_state": "House 12/min | KlettagjÃ¡ none | No contamination | Camera frost 3% | Sorting none | LandvÃ¦ttir sleeping",
+  "prompt_variants": [
+    {
+      "variant_id": "4_group_4_violence_crisis_viral_enhancement_five_sho",
+      "variant_name": "Group 4 Violence Crisis Viral Enhancement Five Sho",
+      "subject": "",
+      "action": "Door material transmutation resistance: wooden surface becoming flesh-like barrier requiring anatomical violation for entry, architectural consciousness protecting family through biological door transformation creating physical resistance against patriarchal violence via door anatomy manifestation. Forced entry anatomical violation: Magnus requiring physical force against flesh-door resistance, architectural biological protection forcing violence against building anatomy to achieve family access through door consciousness transformation serving family protection function. Selective freeze violence preparation: family experiencing temporal paralysis during violence approach, patriarchal assault creating time-flow manipulation enabling violence preparation while family exists in frozen defensive positions through temporal violence coordination impossible with normal physics. Anthropomorphic behavior revelation: family displaying sheep herd dynamics while maintaining human appearance, traditional family social patterns replaced by livestock behavioral coordination through transformation affecting consciousness while preserving physical human performance. Reality bleeding recognition: human and animal identity layers existing simultaneously, family transformation visible through behavioral reality overlay where sheep consciousness dominates human anatomical display through transformation reality contamination. Temporal echo during recognition shock: family existing in multiple transformation states simultaneously, past-human identity overlapping with future-sheep reality through temporal bleeding creating identity confusion for returning patriarch witnessing transformation temporal layering impossible with normal identity stability. Domestic space dimensional protection: house architecture expanding to preserve defensive distance, spatial consciousness serving victim protection through dimensional manipulation impossible with normal domestic physics enabling distance maintenance despite approach. Dimensional multiplication defense: domestic space creating additional room through architectural expansion, house consciousness protecting Sigrid through spatial enhancement creating geometric impossibility serving defensive function through dimensional protection. Recursive threat multiplication: patriarchal violation existing in multiple spatial dimensions simultaneously, domestic space consciousness creating threat multiplication through dimensional recursive reflection enabling victim awareness of threat from multiple dimensional angles through spatial consciousness protection function.",
+      "scene": "GROUP 4: VIOLENCE/CRISIS VIRAL ENHANCEMENT - FIVE SHOTS Transforming 8-8.5/10 Violence Scenes to 10/10 Masterpieces OVERVIEW: House entrance during architectural consciousness resistance where biological door protection requires anatomical violation for patriarchal entry, building material transmutation serving family protection through flesh-door barrier creation. Baðstofa interior during family transformation recognition where anthropomorphic animal behavior dominates human appearance, reality layer bleeding revealing sheep consciousness operating through human anatomical performance.",
+      "style": "Camera experiencing architectural trauma using door consciousness documentation perspective (that's where the camera is), movement following forced entry and material transmutation resistance. Focus reveals biological door behavior and selective freeze violence preparation. Natural entrance lighting enhanced by architectural consciousness and atmospheric invasion effects. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    },
+    {
+      "variant_id": "4_story_primary",
+      "variant_name": "Primary - WINDOW INTO THE TRAP",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The 2Ã—2 foot south-facing window, glass thick and warped with age, covered in frost crystals forming perfect cathedral arch patterns, but in the center a clear circle 6 inches wide where warm breath from inside has melted ice, revealing the domestic scene within - five people at a table but six bowls set, six spoons laid, six shadows cast on the far wall.",
+      "action": "Camera hovers 2 feet from window exterior, examining frost patterns that naturally form V-shaped notches pointing downward like future canyon walls. Through the breath-melted circle, we see: MagnÃºs at table head counting on fingers - raising five fingers, then six, then five again, confusion visible in furrowed brow. GuÃ°rÃºn mechanically cutting something grey-green on a board. Three children in various positions but maintaining specific distances from patriarch. The sixth place set at table has steam rising from empty bowl - visible breath vapor at exactly 8 breaths per minute though no one sits there. In the corner, barely visible, a complete set of clothes arranged as if a body evaporated from within them - MagnÃºs's patched sweater, GuÃ°rÃºn's headdress, children's dresses - all maintaining human shapes, all appearing to breathe.",
+      "scene": "Window glass 8mm thick, handblown with bubble imperfections that distort view. Frost patterns 3mm thick on exterior, thinner where house heat fights cold. Interior visible only through 6-inch clear spot. Inside: yellow oil lamp light, visible breath from all five family members creating fog layer at ceiling, rough pine table with deep knife gouges, six place settings despite five people. Temperature differential causes glass to hum at low frequency. Dawn still 5 hours away, complete darkness except lamp glow. Wind drives snow horizontal past window.",
+      "style": "Extreme close-up on window, camera positioned at window center looking straight in (that's where the camera is), macro lens showing frost detail then rack focus to interior, voyeuristic observation through small clear portal.",
+      "camera_position": "Extreme close-up on window, camera positioned at window center looking straight in",
+      "dialogue": "(MagnÃºs, muffled through glass): \"Fimm... sex... fimm?\" (Tone: confused, agitated counting) (Sound of counting fingers tapping table)",
+      "audio": {
+        "primary": [],
+        "ambient": [],
+        "absent": []
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, no text overlays, no modern furniture visible, maintain period accuracy through glass, no electric lighting",
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BAÐSTOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {},
+        "environment": {}
+      }
+    }
+  ],
+  "others": {},
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  },
+  "aspect_ratio": "4:3"
+}

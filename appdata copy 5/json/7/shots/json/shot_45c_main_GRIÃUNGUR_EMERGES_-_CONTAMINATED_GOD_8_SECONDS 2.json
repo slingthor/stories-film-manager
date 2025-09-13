@@ -1,0 +1,31 @@
+{
+  "prompt_variants" : [
+    {
+      "negative_prompt" : "show fusion clearly, maintain 8-second hold, no CGI, practical effects",
+      "progressive_state" : "",
+      "is_active" : false,
+      "selected_plates" : [
+        "WESTFJORDS-CLIFF"
+      ],
+      "variant_name" : "Primary - GRIÃUNGUR EMERGES - CONTAMINATED GOD 8 SECONDS",
+      "variant_id" : "45c_story_primary",
+      "style" : "Pull back for scale then hold for witness (that's where the camera is), documenting corrupted divinity.",
+      "camera_position" : "Pull back for scale then hold for witness",
+      "dialogue" : "(GuÃ°rÃºn, whispered): \"GriÃ°ungur... hvaÃ° gerÃ°u Ã¾eir viÃ° Ã¾ig?\" (Bull): Bellow mixing with trawler horn",
+      "action" : "Water EXPLODES upward. CAMERA PULLS BACK rapidly. Bull's head emerges - impossible size, ancient, divine. But corrupted: Three brass harpoons pierce skull, but not through - grown INTO bone, brass and calcium fused, sprouting like additional horns. Industrial rope hasn't wrapped around but grown THROUGH neck tissue, black hemp spirals visible beneath skin like external veins. Fishing net across eyes, but net has grown into corneas, hemp and tissue merged, creating crosshatch vision. Opens mouth to bellow - sound is both organic and mechanical, bull's roar mixed with trawler horn, 70Hz vibration shaking ice. Steam pours from wounds - body temperature meeting cold air. Eyes ancient, intelligent, in agony, find GuÃ°rÃºn. Recognition between trapped beings. Water around him turns black-green from contamination bleeding out. One brass harpoon has green verdigris tears running from it, as if the metal itself weeps. He rises further - shoulders visible, more contamination, industrial and divine fused. Size: could destroy house with one movement. But gentle. Suffering. 15-second hold on this wounded god.",
+      "subject" : "The water exploding as GRIÃUNGUR emerges - massive bull's head 6 feet across, but industrial materials grown INTO his flesh: brass harpoons through skull sprouting like horns, rope beneath skin creating raised black spirals, fishing net fused with eyes, beautiful and horrible simultaneously.",
+      "scene" : "Polynya eruption, 9:59 AM. Bull massive against grey sky. Steam creating fog wall. Ice cracking from his emergence."
+    }
+  ],
+  "progressive_state" : "Bull surfaces | Industrial horror | Camera frost 32.5% | God wounded | Watching: We witness agony",
+  "aspect_ratio" : "4:3",
+  "shot_metadata" : {
+    "title" : "GRIÃUNGUR EMERGES - CONTAMINATED GOD 8 SECONDS",
+    "id" : "45c",
+    "duration_seconds" : 8,
+    "sequence_type" : "main_story",
+    "stitch_from" : "",
+    "narrative_function" : "Bull surfaces | Industrial horror | Camera frost 3..."
+  },
+  "selected_prompt_index" : 0
+}

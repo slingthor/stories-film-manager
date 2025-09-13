@@ -1,34 +1,34 @@
 {
   "prompt_variants" : [
     {
-      "progressive_state" : "",
-      "subject" : "Camera circling [MAGNÃšS] as he takes in the transformed scene - family in rÃ©ttir formation, children's sheep teeth visible, GuÃ°rÃºn pulling wool from wrists, tilberi at center where he should be, his authority usurped by contaminated creation.",
-      "variant_name" : "Primary - RECOGNIZING TRANSFORMATION 8 SECONDS",
-      "camera_position" : "360Â° track around MagnÃºs, showing his isolation from every angle",
-      "is_active" : false,
       "dialogue" : "(MagnÃºs, building rage): \"Af hverju... af hverju eruÃ° Ã¾iÃ°...\" (Seeing tilberi): \"HVAÃ ER ÃžETTA?\" (To GuÃ°rÃºn): \"ÃžÃš... Ã¾Ãº gerÃ°ir Ã¾etta?\"",
+      "variant_id" : "42c_story_primary",
+      "variant_name" : "Primary - RECOGNIZING TRANSFORMATION 8 SECONDS",
+      "scene" : "Full interior revealed in rotation. Family floor-level, him standing isolated. Tilberi as new center.",
+      "style" : "360Â° track around MagnÃºs, showing his isolation from every angle (that's where the camera is), authority dissolved.",
+      "subject" : "Camera circling [MAGNÃšS] as he takes in the transformed scene - family in rÃ©ttir formation, children's sheep teeth visible, GuÃ°rÃºn pulling wool from wrists, tilberi at center where he should be, his authority usurped by contaminated creation.",
+      "camera_position" : "360Â° track around MagnÃºs, showing his isolation from every angle",
+      "negative_prompt" : "maintain circular movement, no cuts, show transformation evidence",
+      "progressive_state" : "",
+      "action" : "CAMERA BEGINS CIRCLING as MagnÃºs turns, taking in disaster. First quarter: Sees GuÃ°rÃºn on floor, not standing for his return, wool hanging from her wrists like she's becoming material. Second quarter: JÃ³n and Lilja, mouths open showing sheep teeth, breathing at 20\/min (lamb rate), his son's fever breaking but eyes animal-bright. Third quarter: Tilberi at center where patriarch should stand, rope skeleton visible, brass eye weeping, breathing three rhythms, family arranged around IT not him. Final quarter: Sigrid maintaining exactly 11 feet even now, hand protective on belly (feeding two), only one breathing at different rate (15\/min unchanged). Complete circle shows his position: standing outside their formation. He's excluded. Not needed. Failed provider, failed protector, failed patriarch. Rage builds. Drops fin. 0Hz hands clench (can't feel nails breaking skin). House exhales finally - long, dying breath at 3\/min.",
+      "is_active" : false,
       "selected_plates" : [
         "LILJA-SENSING",
         "JON-TEMPORAL",
         "SIGRID-CORNERED",
         "STOFA-BODY"
-      ],
-      "style" : "360Â° track around MagnÃºs, showing his isolation from every angle (that's where the camera is), authority dissolved.",
-      "action" : "CAMERA BEGINS CIRCLING as MagnÃºs turns, taking in disaster. First quarter: Sees GuÃ°rÃºn on floor, not standing for his return, wool hanging from her wrists like she's becoming material. Second quarter: JÃ³n and Lilja, mouths open showing sheep teeth, breathing at 20\/min (lamb rate), his son's fever breaking but eyes animal-bright. Third quarter: Tilberi at center where patriarch should stand, rope skeleton visible, brass eye weeping, breathing three rhythms, family arranged around IT not him. Final quarter: Sigrid maintaining exactly 11 feet even now, hand protective on belly (feeding two), only one breathing at different rate (15\/min unchanged). Complete circle shows his position: standing outside their formation. He's excluded. Not needed. Failed provider, failed protector, failed patriarch. Rage builds. Drops fin. 0Hz hands clench (can't feel nails breaking skin). House exhales finally - long, dying breath at 3\/min.",
-      "scene" : "Full interior revealed in rotation. Family floor-level, him standing isolated. Tilberi as new center.",
-      "negative_prompt" : "maintain circular movement, no cuts, show transformation evidence",
-      "variant_id" : "42c_story_primary"
+      ]
     }
   ],
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
   "progressive_state" : "House exhales 3\/min | Rage building | Camera frost 28% | Authority challenged | Watching: House watching him realize",
   "shot_metadata" : {
-    "narrative_function" : "House exhales 3\/min | Rage building | Camera frost...",
-    "title" : "RECOGNIZING TRANSFORMATION 8 SECONDS",
     "sequence_type" : "main_story",
     "stitch_from" : "",
     "id" : "42c",
-    "duration_seconds" : 8
-  },
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3"
+    "duration_seconds" : 8,
+    "narrative_function" : "House exhales 3\/min | Rage building | Camera frost...",
+    "title" : "RECOGNIZING TRANSFORMATION 8 SECONDS"
+  }
 }

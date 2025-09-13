@@ -1,0 +1,69 @@
+{
+  "tracking_systems" : {
+    "character_shadow_behavior" : {
+      "current_percentage" : 8,
+      "description" : "Shadow physics revealing animal truth"
+    },
+    "color_grading" : {
+      "description" : "Film color palette psychological progression",
+      "current_percentage" : 15
+    },
+    "temperature_progression" : {
+      "current_percentage" : 28,
+      "description" : "Environmental and body temperature changes"
+    },
+    "predatory_landscape" : {
+      "description" : "Environmental hostility toward human survival",
+      "current_percentage" : 15
+    },
+    "hakarl_contamination" : {
+      "current_percentage" : 18,
+      "description" : "Traditional food corruption enabling breakdown"
+    },
+    "spatial_impossibilities" : {
+      "description" : "Mathematical physics violations spreading",
+      "current_percentage" : 25
+    },
+    "memory_degradation" : {
+      "current_percentage" : 5,
+      "description" : "Collective memory accuracy declining"
+    },
+    "weather_hostility" : {
+      "description" : "Atmospheric assault on family survival",
+      "current_percentage" : 10
+    },
+    "industrial_contamination" : {
+      "current_percentage" : 22,
+      "description" : "British\/Danish imperial materials spreading"
+    },
+    "stain_progression" : {
+      "description" : "F4 Liquid contamination marking progression",
+      "current_percentage" : 35
+    },
+    "reality_coherence" : {
+      "description" : "Stability of physical laws and logic",
+      "current_percentage" : 65
+    },
+    "house_dimensions" : {
+      "current_percentage" : 0,
+      "description" : "Baðstofa interior space expansion sensation"
+    },
+    "light_sources" : {
+      "current_percentage" : 5,
+      "description" : "Illumination evolution organic→industrial→supernatural"
+    },
+    "klettagja_formation" : {
+      "description" : "Cliff cleft development for Sigrid's escape",
+      "current_percentage" : 15
+    },
+    "breathing_coordination" : {
+      "current_percentage" : 32,
+      "description" : "Family respiratory synchronization progression"
+    },
+    "house_consciousness" : {
+      "description" : "Bergrisi awareness and biological responses",
+      "current_percentage" : 35
+    }
+  },
+  "last_updated" : "2025-09-07T23:25:23Z"
+}

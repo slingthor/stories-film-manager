@@ -1024,108 +1024,357 @@ class PromptVariant: ObservableObject, Identifiable {
     }
     
     private func cleanPlateDescription(_ description: String) -> String {
-        // Remove bracket notation like "[Base variant]", "[Master base]", etc.
-        let pattern = "\\[[^\\]]*\\]\\s*"
+        // Clean up any whitespace formatting - no longer need to remove brackets
+        // since plates now use direct plate ID references (like JON-MILD, MAGNUS-MASTER)
+        return description.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+    
+    private func processPlateWithMaster(_ description: String, plateId: String, plateManager: PlateManager) -> String {
+        // For VEO3 plates, just return the description directly without expanding references
+        // The plates already contain complete descriptions
+        return description
+    }
+    
+    private func consolidateAndResolveReferences(_ description: String, plateManager: PlateManager) -> String {
+        // First pass: collect all bracketed references and group them by character/environment
+        var characterSections: [String: [String]] = [:]
+        var processedDescription = description
+        
+        let bracketPattern = "\\[([^\\]]+)\\]:[^\\[]*"
+        let regex = try? NSRegularExpression(pattern: bracketPattern, options: [])
+        let range = NSRange(location: 0, length: description.count)
+        
+        // Find all bracketed sections
+        let matches = regex?.matches(in: description, options: [], range: range) ?? []
+        
+        // Process matches in reverse order to avoid index shifting
+        for match in matches.reversed() {
+            guard let matchRange = Range(match.range, in: description),
+                  let bracketRange = Range(match.range(at: 1), in: description) else { continue }
+            
+            let fullSection = String(description[matchRange])
+            let bracketReference = String(description[bracketRange])
+            
+            // Group sections by character/environment
+            if characterSections[bracketReference] == nil {
+                characterSections[bracketReference] = []
+            }
+            
+            // Extract just the description part (after the colon)
+            let sectionContent = fullSection.replacingOccurrences(of: "[\(bracketReference)]:", with: "").trimmingCharacters(in: .whitespacesAndNewlines)
+            characterSections[bracketReference]?.append(sectionContent)
+            
+            // Remove this section from the processed description
+            processedDescription = processedDescription.replacingOccurrences(of: fullSection, with: "")
+        }
+        
+        // Second pass: resolve each character's consolidated description and rebuild
+        var finalResult = processedDescription.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        for (bracketReference, sections) in characterSections {
+            let consolidatedContent = sections.joined(separator: " ")
+            let mappedPlateId = mapBracketedReferenceToPlateId(bracketReference, plateManager: plateManager)
+            
+            var resolvedContent = consolidatedContent
+            if let plateIdToUse = mappedPlateId {
+                // Resolve the consolidated content through the plate system
+                resolvedContent = resolveAllPlateReferences(consolidatedContent, plateId: plateIdToUse, plateManager: plateManager, depth: 0)
+            }
+            
+            // Add back with single character label
+            let finalSection = "[\(bracketReference)]: \(resolvedContent)"
+            
+            if !finalResult.isEmpty {
+                finalResult += " "
+            }
+            finalResult += finalSection
+        }
+        
+        return finalResult
+    }
+    
+    private func resolveAllPlateReferences(_ description: String, plateId: String, plateManager: PlateManager, depth: Int = 0) -> String {
+        guard depth < 100 else {
+            print("   🚫 Maximum recursion depth (100) reached for plate '\(plateId)' - stopping resolution")
+            return description
+        }
+        
+        // First check for old bracketed format [CHARACTER] or [ENVIRONMENT]
+        let bracketPattern = "\\[([^\\]]+)\\]"
+        let bracketRegex = try? NSRegularExpression(pattern: bracketPattern, options: [])
+        let range = NSRange(location: 0, length: description.count)
+        
+        if let bracketMatch = bracketRegex?.firstMatch(in: description, options: [], range: range),
+           let bracketRefRange = Range(bracketMatch.range(at: 1), in: description) {
+            let bracketReference = String(description[bracketRefRange])
+            let fullBracketRange = Range(bracketMatch.range(at: 0), in: description)!
+            let fullBracketText = String(description[fullBracketRange])
+            
+            print("   🔗 Found bracketed reference '\(bracketReference)' in plate '\(plateId)' (depth \(depth))")
+            
+            // Map bracketed references to plate IDs
+            let mappedPlateId = mapBracketedReferenceToPlateId(bracketReference, plateManager: plateManager)
+            
+            if let plateIdToUse = mappedPlateId {
+                print("   ✅ Mapped '\(bracketReference)' to plate ID: \(plateIdToUse)")
+                
+                // Find the plate and resolve it
+                if let envPlate = plateManager.environmentalPlates.first(where: { $0.plateId == plateIdToUse }) {
+                    let baseDescription = getBaseDescriptionFromPlateDescription(envPlate.description, plateId: plateIdToUse)
+                    let resolvedDescription = resolveAllPlateReferences(baseDescription, plateId: plateIdToUse, plateManager: plateManager, depth: depth + 1)
+                    let newDescription = description.replacingOccurrences(of: fullBracketText, with: resolvedDescription)
+                    return resolveAllPlateReferences(newDescription, plateId: plateId, plateManager: plateManager, depth: depth)
+                }
+                else if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == plateIdToUse }) {
+                    let baseDescription = getBaseDescriptionFromPlateDescription(charPlate.description, plateId: plateIdToUse)
+                    let resolvedDescription = resolveAllPlateReferences(baseDescription, plateId: plateIdToUse, plateManager: plateManager, depth: depth + 1)
+                    let newDescription = description.replacingOccurrences(of: fullBracketText, with: resolvedDescription)
+                    return resolveAllPlateReferences(newDescription, plateId: plateId, plateManager: plateManager, depth: depth)
+                }
+            }
+            
+            print("   ⚠️  Could not resolve bracketed reference '\(bracketReference)'")
+            // Continue looking for other references
+            let remainingDescription = String(description[fullBracketRange.upperBound...])
+            if !remainingDescription.isEmpty {
+                let resolvedRemaining = resolveAllPlateReferences(remainingDescription, plateId: plateId, plateManager: plateManager, depth: depth)
+                let beforeBracket = String(description[..<fullBracketRange.lowerBound])
+                return beforeBracket + fullBracketText + resolvedRemaining
+            }
+            return description
+        }
+        
+        // Then look for direct plate ID references (new format: PLATE-ID appearing as standalone words)
+        let plateIdPattern = "\\b([A-Z]+(?:-[A-Z]+)+)\\b"
+        let regex = try? NSRegularExpression(pattern: plateIdPattern, options: [])
+        
+        guard let match = regex?.firstMatch(in: description, options: [], range: range),
+              let referenceRange = Range(match.range(at: 1), in: description) else {
+            // No more references found
+            if depth == 0 {
+                print("   ℹ️  No plate references found in plate '\(plateId)': '\(description.prefix(50))...'")
+            }
+            return description
+        }
+        
+        let reference = String(description[referenceRange])
+        let fullMatchRange = Range(match.range(at: 0), in: description)!
+        let fullPlateIdText = String(description[fullMatchRange])
+        
+        // Skip if this reference is the same as the current plate (avoid self-reference)
+        guard reference != plateId else {
+            // Continue looking for other references in the same description
+            let remainingDescription = String(description[fullMatchRange.upperBound...])
+            if !remainingDescription.isEmpty {
+                let resolvedRemaining = resolveAllPlateReferences(remainingDescription, plateId: plateId, plateManager: plateManager, depth: depth)
+                let beforePlateId = String(description[..<fullMatchRange.lowerBound])
+                return beforePlateId + fullPlateIdText + resolvedRemaining
+            }
+            return description
+        }
+        
+        print("   🔗 Found plate ID reference '\(reference)' in plate '\(plateId)' (depth \(depth))")
+        
+        // Try to find the referenced plate and get its resolved description
+        var resolvedReferenceDescription: String? = nil
+        
+        // Look for the referenced plate
+        if let envPlate = plateManager.environmentalPlates.first(where: { $0.plateId == reference }) {
+            print("   ✅ Found environmental plate: \(reference)")
+            // Get the base description without the plate ID prefix
+            let baseDescription = getBaseDescriptionFromPlateDescription(envPlate.description, plateId: reference)
+            resolvedReferenceDescription = resolveAllPlateReferences(baseDescription, plateId: reference, plateManager: plateManager, depth: depth + 1)
+        }
+        else if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == reference }) {
+            print("   ✅ Found character plate: \(reference)")
+            // Get the base description without the plate ID prefix  
+            let baseDescription = getBaseDescriptionFromPlateDescription(charPlate.description, plateId: reference)
+            resolvedReferenceDescription = resolveAllPlateReferences(baseDescription, plateId: reference, plateManager: plateManager, depth: depth + 1)
+        }
+        
+        if let resolvedDescription = resolvedReferenceDescription {
+            // Replace the plate ID reference with the resolved description and continue recursion
+            let newDescription = description.replacingOccurrences(of: fullPlateIdText, with: resolvedDescription)
+            print("   🔄 Recursively resolving updated description (depth \(depth))")
+            return resolveAllPlateReferences(newDescription, plateId: plateId, plateManager: plateManager, depth: depth)
+        } else {
+            print("   ⚠️  Plate ID '\(reference)' not found - leaving reference intact")
+            // Continue looking for other references in the same description
+            let remainingDescription = String(description[fullMatchRange.upperBound...])
+            if !remainingDescription.isEmpty {
+                let resolvedRemaining = resolveAllPlateReferences(remainingDescription, plateId: plateId, plateManager: plateManager, depth: depth)
+                let beforePlateId = String(description[..<fullMatchRange.lowerBound])
+                return beforePlateId + fullPlateIdText + resolvedRemaining
+            }
+            return description
+        }
+    }
+    
+    private func getBaseDescriptionFromPlateDescription(_ description: String, plateId: String) -> String {
+        // Remove the plate ID if it appears at the start of the description
+        // For example: "STOFA-ORGANIC with biological revelation" becomes "with biological revelation"
+        let plateIdPattern = "^\\b\(NSRegularExpression.escapedPattern(for: plateId))\\b\\s*"
         let cleanedDescription = description.replacingOccurrences(
-            of: pattern,
+            of: plateIdPattern,
             with: "",
             options: .regularExpression
         ).trimmingCharacters(in: .whitespacesAndNewlines)
         
-        return cleanedDescription
+        return cleanedDescription.isEmpty ? description : cleanedDescription
     }
     
-    private func processPlateWithMaster(_ description: String, plateId: String, plateManager: PlateManager) -> String {
-        // New simplified approach: Look for ANY bracket reference (both old format like "[Rising base]" and new format like "[JON-RISING]")
-        let bracketPattern = "\\[([^\\]]+)\\]"
-        let regex = try? NSRegularExpression(pattern: bracketPattern, options: [])
-        let range = NSRange(location: 0, length: description.count)
+    private func mapBracketedReferenceToPlateId(_ bracketedRef: String, plateManager: PlateManager) -> String? {
+        // Map bracketed references to plate IDs based on character system
+        switch bracketedRef {
+        // Jon's character plate references
+        case "Mild base":
+            return "JON-MILD"
+        case "Wandering base":
+            return "JON-WANDERING"
+        case "Authority base":
+            return "JON-AUTHORITY"
+        case "Searching base":
+            return "JON-SEARCHING"
+        case "Desperate base":
+            return "JON-DESPERATE"
+        case "Collapse base":
+            return "JON-COLLAPSE"
         
-        if let match = regex?.firstMatch(in: description, options: [], range: range),
-           let referenceRange = Range(match.range(at: 1), in: description) {
-            
-            let reference = String(description[referenceRange])
-            print("   🔗 Found bracket reference: '\(reference)' in plate \(plateId)")
-            
-            // First, try to find it as a direct plate ID (new format)
-            if let envPlate = plateManager.environmentalPlates.first(where: { $0.plateId == reference }) {
-                print("   ✅ Found environmental plate: \(reference)")
-                let combinedDescription = envPlate.description + " " + description
-                return cleanPlateDescription(combinedDescription)
+        // Magnus's character plate references
+        case "Authority base", "Master base":
+            return "MAGNUS-AUTHORITY"
+        case "Mild base":
+            return "MAGNUS-MILD"
+        case "Collapse base":
+            return "MAGNUS-COLLAPSE"
+        case "Wandering base":
+            return "MAGNUS-WANDERING"
+        case "Searching base":
+            return "MAGNUS-SEARCHING"
+        case "Desperate base":
+            return "MAGNUS-DESPERATE"
+        
+        // Sigrid's character plate references
+        case "Pure base":
+            return "SIGRID-PURE"
+        case "Conflicted base":
+            return "SIGRID-CONFLICTED"
+        case "Responsible base":
+            return "SIGRID-RESPONSIBLE"
+        case "Protective base":
+            return "SIGRID-PROTECTIVE"
+        case "Transitional base":
+            return "SIGRID-TRANSITIONAL"
+        case "Final base":
+            return "SIGRID-FINAL"
+        
+        // Gudrun's character plate references
+        case "Abundant base":
+            return "GUDRUN-ABUNDANT"
+        case "Protective base":
+            return "GUDRUN-PROTECTIVE"
+        case "Desperate base":
+            return "GUDRUN-DESPERATE"
+        case "Wandering base":
+            return "GUDRUN-WANDERING"
+        case "Collapse base":
+            return "GUDRUN-COLLAPSE"
+        
+        // Lilja's character plate references
+        case "Pure base":
+            return "LILJA-PURE"
+        case "Sensing base":
+            return "LILJA-SENSING"
+        case "Harmonic base":
+            return "LILJA-HARMONIC"
+        case "Mathematical base":
+            return "LILJA-MATHEMATICAL"
+        case "Communicating base":
+            return "LILJA-COMMUNICATING"
+        case "Evolving base":
+            return "LILJA-EVOLVING"
+        case "Accepting base":
+            return "LILJA-ACCEPTING"
+        case "Final base":
+            return "LILJA-FINAL"
+        case "Counting base":
+            return "LILJA-COUNTING"
+        case "Mapping base":
+            return "LILJA-MAPPING"
+        case "Prophesying base":
+            return "LILJA-PROPHESYING"
+        case "Producing base":
+            return "LILJA-PRODUCING"
+        case "Wondering base":
+            return "LILJA-WONDERING"
+        case "Changing base":
+            return "LILJA-CHANGING"
+        
+        // Legacy character mappings (keep for backward compatibility)
+        case "JON":
+            return "JON-MILD"
+        case "MAGNUS":
+            return "MAGNUS-AUTHORITY"
+        case "SIGRID":
+            return "SIGRID-PURE"
+        case "GUDRUN":
+            return "GUDRUN-ABUNDANT"
+        case "LILJA":
+            return "LILJA-PURE"
+        
+        // Environment mappings
+        case "EXTERIOR":
+            return "EXTERIOR-MASTER"
+        case "SEA":
+            return "SEA-MASTER"
+        case "WESTFJORDS":
+            return "WESTFJORDS-MASTER"
+        case "STOFA":
+            return "STOFA-DOMESTIC"
+        case "BAÐSTOFA":
+            return "BAÐSTOFA-DOMESTIC"
+        case "HOUSE":
+            return "HOUSE-TRADITIONAL"
+        
+        default:
+            // Try to find a matching plate ID directly
+            let directId = bracketedRef.uppercased()
+            if plateManager.characterPlates.contains(where: { $0.plateId == directId }) ||
+               plateManager.environmentalPlates.contains(where: { $0.plateId == directId }) {
+                return directId
             }
-            
-            if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == reference }) {
-                print("   ✅ Found character plate: \(reference)")
-                let combinedDescription = charPlate.description + " " + description
-                return cleanPlateDescription(combinedDescription)
-            }
-            
-            // If not found as direct plate ID, try mapping common base types (old format compatibility)
-            if reference.hasSuffix(" base") {
-                let baseType = String(reference.dropLast(5)).lowercased() // Remove " base"
-                print("   🔗 Trying base type mapping for: '\(baseType)'")
-                
-                let masterPatterns: [String: [String]] = [
-                    "divine": ["SEA-DIVINE"],
-                    "master": ["WESTFJORDS-MASTER", "SEA-MASTER", "STOFA-DOMESTIC", "HOUSE-TRADITIONAL"],
-                    "organic": ["STOFA-BODY"],
-                    "body": ["STOFA-BODY"],
-                    "domestic": ["STOFA-DOMESTIC"],
-                    "contaminated": ["SEA-ACCUSATION"],
-                    "accusation": ["SEA-ACCUSATION"],
-                    "extracted": ["SEA-EXTRACTED"],
-                    "crystallizing": ["STOFA-CRYSTALLIZING"],
-                    "cleft": ["STOFA-CLEFT"],
-                    "cliff": ["STOFA-CLIFF"],
-                    "stirring": ["STOFA-STIRRING"],
-                    "geological": ["HOUSE-GEOLOGICAL"],
-                    "traditional": ["HOUSE-TRADITIONAL"],
-                    "rising": ["JON-RISING"],
-                    "seeing": ["JON-SEEING"],
-                    "pure": ["SIGRID-PURE"],
-                    "mild": ["JON-MILD"],
-                    "sensing": ["LILJA-SENSING"],
-                    "evolving": ["LILJA-EVOLVING"],
-                    "communicating": ["LILJA-COMMUNICATING"],
-                    "harmonic": ["LILJA-HARMONIC"],
-                    "prophesying": ["LILJA-PROPHESYING"],
-                    "wondering": ["LILJA-WONDERING"],
-                    "producing": ["GUDRUN-PRODUCING"],
-                    "abundant": ["GUDRUN-ABUNDANT"],
-                    "wearing": ["GUDRUN-WEARING"],
-                    "walking": ["GUDRUN-WALKING"],
-                    "returning": ["GUDRUN-RETURNING"],
-                    "crowned": ["GUDRUN-CROWNED"],
-                    "beaten": ["GUDRUN-BEATEN"],
-                    "authority": ["MAGNUS-AUTHORITY"],
-                    "injured": ["MAGNUS-INJURED"],
-                    "predator": ["MAGNUS-PREDATOR"]
-                ]
-                
-                if let candidates = masterPatterns[baseType] {
-                    for candidateId in candidates {
-                        if let envPlate = plateManager.environmentalPlates.first(where: { $0.plateId == candidateId }) {
-                            print("   ✅ Found mapped environmental master: \(candidateId)")
-                            let combinedDescription = envPlate.description + " " + description
-                            return cleanPlateDescription(combinedDescription)
-                        }
-                        if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == candidateId }) {
-                            print("   ✅ Found mapped character master: \(candidateId)")
-                            let combinedDescription = charPlate.description + " " + description
-                            return cleanPlateDescription(combinedDescription)
-                        }
-                    }
-                }
-                
-                print("   ⚠️  No master found for base type: '\(baseType)'")
-            }
-            
-            print("   ⚠️  Reference '\(reference)' not found as plate ID or base type")
-        } else {
-            print("   ℹ️  No bracket reference found in: '\(description.prefix(50))...'")
+            return nil
         }
-        
-        return cleanPlateDescription(description)
+    }
+    
+    // Character encoding correction function for Icelandic characters
+    private func correctCharacterEncoding(_ text: String) -> String {
+        return text
+            .replacingOccurrences(of: "MAGNÃšS", with: "MAGNÚS")
+            .replacingOccurrences(of: "MagnÃºs", with: "Magnús") 
+            .replacingOccurrences(of: "JÃN", with: "JÓN")
+            .replacingOccurrences(of: "JÃ³n", with: "Jón")
+            .replacingOccurrences(of: "GuÃ°rÃºn", with: "Guðrún")
+            .replacingOccurrences(of: "SigrÃ­Ã°", with: "Sigrið")
+            .replacingOccurrences(of: "Ã", with: "Ó")
+            .replacingOccurrences(of: "Ã¡", with: "á")
+            .replacingOccurrences(of: "Ã©", with: "é")
+            .replacingOccurrences(of: "Ã­", with: "í")
+            .replacingOccurrences(of: "Ã³", with: "ó")
+            .replacingOccurrences(of: "Ãº", with: "ú")
+            .replacingOccurrences(of: "Ã½", with: "ý")
+            .replacingOccurrences(of: "Ã¾", with: "þ")
+            .replacingOccurrences(of: "Ã°", with: "ð")
+            .replacingOccurrences(of: "Ã¦", with: "æ")
+            .replacingOccurrences(of: "Å", with: "Å")
+            .replacingOccurrences(of: "Ã", with: "Á")
+            .replacingOccurrences(of: "Ã‰", with: "É")
+            .replacingOccurrences(of: "Ã", with: "Í")
+            .replacingOccurrences(of: "Ãš", with: "Ú")
+            .replacingOccurrences(of: "Ã", with: "Ý")
+            .replacingOccurrences(of: "Ãž", with: "Þ")
+            .replacingOccurrences(of: "Ã", with: "Ð")
+            .replacingOccurrences(of: "Ã†", with: "Æ")
     }
     
     func generateCompletePrompt(for shot: FilmShot, plateManager: PlateManager? = nil, trackingSystems: [TrackingSystem]? = nil) -> String {
@@ -1177,7 +1426,7 @@ class PromptVariant: ObservableObject, Identifiable {
         
         // SUBJECT section
         promptText += "SUBJECT:\n"
-        var subjectContent = subject
+        var subjectContent = correctCharacterEncoding(subject)
         
         // Add character and environmental plates at the END of subject section
         var plateAdditions = ""
@@ -1250,7 +1499,18 @@ class PromptVariant: ObservableObject, Identifiable {
             let sortedPlateIds = Array(collectedPlateIds).sorted()
             for plateId in sortedPlateIds {
                 print("   🔍 Processing plate: \(plateId)")
-                
+
+                // Debug: Print available plate counts and sample IDs
+                print("   📊 Available: \(plateManager.characterPlates.count) character plates, \(plateManager.environmentalPlates.count) environmental plates")
+                if plateId.contains("JON") {
+                    let jonPlates = plateManager.characterPlates.filter { $0.plateId.contains("JON") }.map { $0.plateId }
+                    print("   📋 JON plates found: \(jonPlates.joined(separator: ", "))")
+                }
+                if plateId.contains("SEA") {
+                    let seaPlates = plateManager.environmentalPlates.filter { $0.plateId.contains("SEA") }.map { $0.plateId }
+                    print("   📋 SEA plates found: \(seaPlates.joined(separator: ", "))")
+                }
+
                 // Try character plates first
                 if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
                     let plateDescription = processPlateWithMaster(charPlate.description, plateId: plateId, plateManager: plateManager)
@@ -1365,7 +1625,7 @@ class PromptVariant: ObservableObject, Identifiable {
         
         // SUBJECT section
         promptText += "SUBJECT:\n"
-        var subjectContent = subject
+        var subjectContent = correctCharacterEncoding(subject)
         
         // Add character and environmental plates at the END of subject section
         var plateAdditions = ""
@@ -1725,6 +1985,20 @@ class PlateManager: ObservableObject {
                         for plate in mainCharacterPlates {
                             print("   - \(plate.character): \(plate.plateId)")
                         }
+
+                        // Debug: Check for specific VEO3 plates
+                        let jonTemporalExists = characterPlates.contains { $0.plateId == "JON-TEMPORAL" }
+                        print("🔍 JON-TEMPORAL plate exists: \(jonTemporalExists)")
+                        if jonTemporalExists {
+                            if let jonTemporal = characterPlates.first(where: { $0.plateId == "JON-TEMPORAL" }) {
+                                print("   Description: \(jonTemporal.description.prefix(100))...")
+                            }
+                        }
+
+                        // List all JON plates
+                        let jonPlates = characterPlates.filter { $0.plateId.contains("JON") }.map { $0.plateId }
+                        print("📋 All JON plates loaded: \(jonPlates.joined(separator: ", "))")
+
                         return
                     }
                 } catch {
@@ -1775,6 +2049,20 @@ class PlateManager: ObservableObject {
                         }
                         
                         print("🌍 Loaded \(environmentalPlates.count) environmental plates from JSON at: \(path)")
+
+                        // Debug: Check for SEA-BATTLE plate
+                        let seaBattleExists = environmentalPlates.contains { $0.plateId == "SEA-BATTLE" }
+                        print("🔍 SEA-BATTLE plate exists: \(seaBattleExists)")
+                        if seaBattleExists {
+                            if let seaBattle = environmentalPlates.first(where: { $0.plateId == "SEA-BATTLE" }) {
+                                print("   Description: \(seaBattle.description.prefix(100))...")
+                            }
+                        }
+
+                        // List all SEA plates
+                        let seaPlates = environmentalPlates.filter { $0.plateId.contains("SEA") }.map { $0.plateId }
+                        print("📋 All SEA plates loaded: \(seaPlates.joined(separator: ", "))")
+
                         return
                     } else {
                         print("   ❌ No 'plate_index' found in JSON")

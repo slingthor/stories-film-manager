@@ -1,0 +1,69 @@
+{
+  "tracking_systems" : {
+    "breathing_coordination" : {
+      "description" : "Family respiratory synchronization progression",
+      "current_percentage" : 32
+    },
+    "klettagja_formation" : {
+      "description" : "Cliff cleft development for Sigrid's escape",
+      "current_percentage" : 15
+    },
+    "industrial_contamination" : {
+      "description" : "British\/Danish imperial materials spreading",
+      "current_percentage" : 22
+    },
+    "reality_coherence" : {
+      "current_percentage" : 65,
+      "description" : "Stability of physical laws and logic"
+    },
+    "stain_progression" : {
+      "description" : "F4 Liquid contamination marking progression",
+      "current_percentage" : 35
+    },
+    "weather_hostility" : {
+      "current_percentage" : 10,
+      "description" : "Atmospheric assault on family survival"
+    },
+    "spatial_impossibilities" : {
+      "current_percentage" : 25,
+      "description" : "Mathematical physics violations spreading"
+    },
+    "character_shadow_behavior" : {
+      "current_percentage" : 8,
+      "description" : "Shadow physics revealing animal truth"
+    },
+    "hakarl_contamination" : {
+      "current_percentage" : 18,
+      "description" : "Traditional food corruption enabling breakdown"
+    },
+    "house_consciousness" : {
+      "current_percentage" : 35,
+      "description" : "Bergrisi awareness and biological responses"
+    },
+    "predatory_landscape" : {
+      "current_percentage" : 15,
+      "description" : "Environmental hostility toward human survival"
+    },
+    "house_dimensions" : {
+      "description" : "Baðstofa interior space expansion sensation",
+      "current_percentage" : 0
+    },
+    "color_grading" : {
+      "current_percentage" : 15,
+      "description" : "Film color palette psychological progression"
+    },
+    "temperature_progression" : {
+      "description" : "Environmental and body temperature changes",
+      "current_percentage" : 28
+    },
+    "light_sources" : {
+      "description" : "Illumination evolution organic→industrial→supernatural",
+      "current_percentage" : 5
+    },
+    "memory_degradation" : {
+      "current_percentage" : 5,
+      "description" : "Collective memory accuracy declining"
+    }
+  },
+  "last_updated" : "2025-09-07T02:00:10Z"
+}

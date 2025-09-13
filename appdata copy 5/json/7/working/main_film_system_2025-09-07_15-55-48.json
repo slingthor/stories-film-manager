@@ -1,0 +1,69 @@
+{
+  "last_updated" : "2025-09-07T22:55:22Z",
+  "tracking_systems" : {
+    "weather_hostility" : {
+      "description" : "Atmospheric assault on family survival",
+      "current_percentage" : 10
+    },
+    "breathing_coordination" : {
+      "description" : "Family respiratory synchronization progression",
+      "current_percentage" : 32
+    },
+    "predatory_landscape" : {
+      "current_percentage" : 15,
+      "description" : "Environmental hostility toward human survival"
+    },
+    "hakarl_contamination" : {
+      "description" : "Traditional food corruption enabling breakdown",
+      "current_percentage" : 18
+    },
+    "reality_coherence" : {
+      "current_percentage" : 65,
+      "description" : "Stability of physical laws and logic"
+    },
+    "light_sources" : {
+      "description" : "Illumination evolution organic→industrial→supernatural",
+      "current_percentage" : 5
+    },
+    "industrial_contamination" : {
+      "description" : "British\/Danish imperial materials spreading",
+      "current_percentage" : 22
+    },
+    "house_consciousness" : {
+      "current_percentage" : 35,
+      "description" : "Bergrisi awareness and biological responses"
+    },
+    "color_grading" : {
+      "description" : "Film color palette psychological progression",
+      "current_percentage" : 15
+    },
+    "temperature_progression" : {
+      "current_percentage" : 28,
+      "description" : "Environmental and body temperature changes"
+    },
+    "memory_degradation" : {
+      "description" : "Collective memory accuracy declining",
+      "current_percentage" : 5
+    },
+    "character_shadow_behavior" : {
+      "description" : "Shadow physics revealing animal truth",
+      "current_percentage" : 8
+    },
+    "klettagja_formation" : {
+      "description" : "Cliff cleft development for Sigrid's escape",
+      "current_percentage" : 15
+    },
+    "stain_progression" : {
+      "description" : "F4 Liquid contamination marking progression",
+      "current_percentage" : 35
+    },
+    "spatial_impossibilities" : {
+      "description" : "Mathematical physics violations spreading",
+      "current_percentage" : 25
+    },
+    "house_dimensions" : {
+      "current_percentage" : 0,
+      "description" : "Baðstofa interior space expansion sensation"
+    }
+  }
+}

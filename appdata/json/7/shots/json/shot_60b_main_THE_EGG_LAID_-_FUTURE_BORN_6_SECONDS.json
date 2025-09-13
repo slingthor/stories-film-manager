@@ -1,33 +1,33 @@
 {
-  "selected_prompt_index" : 0,
-  "progressive_state" : "Generation bridge | Camera frost 55% | Human from raven | Watching: Cathedral witnesses",
+  "aspect_ratio" : "2.39:1",
   "shot_metadata" : {
-    "duration_seconds" : 6,
-    "sequence_type" : "main_story",
-    "stitch_from" : "",
-    "id" : "60b",
+    "narrative_function" : "Generation bridge | Camera frost 55% | Human from ...",
     "title" : "THE EGG LAID - FUTURE BORN 6 SECONDS",
-    "narrative_function" : "Generation bridge | Camera frost 55% | Human from ..."
+    "duration_seconds" : 6,
+    "id" : "60b",
+    "stitch_from" : "",
+    "sequence_type" : "main_story"
   },
+  "progressive_state" : "Generation bridge | Camera frost 55% | Human from raven | Watching: Cathedral witnesses",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "progressive_state" : "",
-      "subject" : "[SIGRID]-raven landing on Reykjavik Cathedral roof in 1920, laying the egg that contains the human child, the pregnancy transformed, as Gammur watches, ensuring the next generation will vote for independence.",
-      "variant_name" : "Primary - THE EGG LAID - FUTURE BORN 6 SECONDS",
-      "camera_position" : "Close to wide revealing significance",
-      "is_active" : false,
       "dialogue" : "None - silence of birth",
+      "variant_id" : "60b_story_primary",
+      "variant_name" : "Primary - THE EGG LAID - FUTURE BORN 6 SECONDS",
+      "scene" : "Cathedral roof, 1920. Egg laid in architectural embrace. City visible below. Ravens gathering.",
+      "style" : "Close to wide revealing significance (that's where the camera is), future documented.",
+      "subject" : "[SIGRID]-raven landing on Reykjavik Cathedral roof in 1920, laying the egg that contains the human child, the pregnancy transformed, as Gammur watches, ensuring the next generation will vote for independence.",
+      "camera_position" : "Close to wide revealing significance",
+      "negative_prompt" : "",
+      "progressive_state" : "",
+      "action" : "CLOSE ON cathedral roof tiles. Raven talons land. Sigrid-raven settles into architectural nook. Body convulses gently. The egg emerges - larger than normal raven egg. Translucent shell. Inside: human infant visible. Sleeping. Waiting. The bridge generation. Child who will be 24 in 1944. Will vote for independence. Will remember nothing of being in egg. But will dream of flying. Will fear enclosed spaces. Will love ravens inexplicably. PULL BACK reveals location: Reykjavik Cathedral, 1920. City smaller. Cleaner. Hopeful. Gammur perches on cross above. Guardian. Ensuring. The egg warm despite winter. Glowing slightly. Other ravens gathering. Protecting. They know what it contains. Who it contains. The future voter. The independence maker. The one who says \"jÃ¡\" (yes) to freedom.",
+      "is_active" : false,
       "selected_plates" : [
         "LILJA-SENSING",
         "SIGRID-CORNERED",
         "WESTFJORDS-CLIFF"
-      ],
-      "style" : "Close to wide revealing significance (that's where the camera is), future documented.",
-      "action" : "CLOSE ON cathedral roof tiles. Raven talons land. Sigrid-raven settles into architectural nook. Body convulses gently. The egg emerges - larger than normal raven egg. Translucent shell. Inside: human infant visible. Sleeping. Waiting. The bridge generation. Child who will be 24 in 1944. Will vote for independence. Will remember nothing of being in egg. But will dream of flying. Will fear enclosed spaces. Will love ravens inexplicably. PULL BACK reveals location: Reykjavik Cathedral, 1920. City smaller. Cleaner. Hopeful. Gammur perches on cross above. Guardian. Ensuring. The egg warm despite winter. Glowing slightly. Other ravens gathering. Protecting. They know what it contains. Who it contains. The future voter. The independence maker. The one who says \"jÃ¡\" (yes) to freedom.",
-      "scene" : "Cathedral roof, 1920. Egg laid in architectural embrace. City visible below. Ravens gathering.",
-      "negative_prompt" : "",
-      "variant_id" : "60b_story_primary"
+      ]
     }
-  ],
-  "aspect_ratio" : "2.39:1"
+  ]
 }

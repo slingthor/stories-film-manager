@@ -1,34 +1,34 @@
 {
-  "selected_prompt_index" : 0,
-  "progressive_state" : "House 13\/min + 60bpm heartbeat | KlettagjÃ¡ 1mm \"FÃ“RN\" visible | Synchronized horror | Camera frost 5% | Counting breaks | Watching: Six shadows confirm",
+  "aspect_ratio" : "1:1",
   "shot_metadata" : {
-    "duration_seconds" : 8,
-    "sequence_type" : "main_story",
-    "stitch_from" : "",
-    "id" : "10",
+    "narrative_function" : "House 13\/min + 60bpm heartbeat | KlettagjÃ¡ 1mm \"F...",
     "title" : "SEKS - THE IMPOSSIBLE COUNT",
-    "narrative_function" : "House 13\/min + 60bpm heartbeat | KlettagjÃ¡ 1mm \"F..."
+    "duration_seconds" : 8,
+    "id" : "10",
+    "stitch_from" : "",
+    "sequence_type" : "main_story"
   },
+  "progressive_state" : "House 13\/min + 60bpm heartbeat | KlettagjÃ¡ 1mm \"FÃ“RN\" visible | Synchronized horror | Camera frost 5% | Counting breaks | Watching: Six shadows confirm",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "progressive_state" : "",
-      "subject" : "[MAGNÃšS] turning to count the sixth position but finding only empty space, his finger pointing at nothing while six shadows on the wall confirm someone should be there, the entire family now chewing in perfect synchronization - jaws moving in identical rhythm, even [SIGRID] unable to resist the collective pattern.",
-      "variant_name" : "Primary - SEKS - THE IMPOSSIBLE COUNT",
-      "camera_position" : "Wide shot showing empty sixth position and synchronized chewing, camera pulling back to doorway",
-      "is_active" : false,
       "dialogue" : "(MagnÃºs): \"Seks?\" (Tone: confused Danish) \"Nei... fimm.\" (Tone: dismissing impossibility) (Lilja between chews): \"MÃ¦...\" (Tone: unconscious sheep sound) (Others): Wet chewing in perfect synchronization",
+      "variant_id" : "10_story_primary",
+      "variant_name" : "Primary - SEKS - THE IMPOSSIBLE COUNT",
+      "scene" : "Morning sorting complete, 5:53 AM, daylight gaining but still grey. Temperature -10Â°C from Danish, breath visible from everyone including empty clothes. The floor patterns now clearly show six positions, though only five occupied. Synchronized chewing creates wet rhythm, ammonia from hÃ¡karl making everyone's eyes stream. The plate that held food shows six portions were cut, sixth portion sitting at empty position.",
+      "style" : "Wide shot showing empty sixth position and synchronized chewing, camera pulling back to doorway (that's where the camera is), documentary observation of collective consumption.",
+      "subject" : "[MAGNÃšS] turning to count the sixth position but finding only empty space, his finger pointing at nothing while six shadows on the wall confirm someone should be there, the entire family now chewing in perfect synchronization - jaws moving in identical rhythm, even [SIGRID] unable to resist the collective pattern.",
+      "camera_position" : "Wide shot showing empty sixth position and synchronized chewing, camera pulling back to doorway",
+      "negative_prompt" : "no subtitles, no text overlays, show synchronized horror clearly, maintain shadow presence, documentary observation",
+      "progressive_state" : "",
+      "action" : "MagnÃºs's finger points at empty space: \"Seks?\" Confusion flickers across his face. Counts again on fingers - en, to, tre, fire, fem... His finger rises to point at vacant air where sixth person should stand. But on the wall, six shadows clearly visible, sixth shadow moving independently. The empty clothes in corner are standing fully upright now, breathing at 8\/minute, chest area rising and falling. The family continues chewing in perfect synchronization - all jaws moving identically, same rhythm, same number of chews. Even Sigrid, despite maintaining 11 feet, caught in the synchronized pattern. The hÃ¡karl and testicles being consumed at exact same rate. Between chews, barely audible: \"mÃ¦\" sounds from Lilja, bleeding into JÃ³n's breathing, spreading to GuÃ°rÃºn. Only human teeth visible but chewing pattern purely ovine. MagnÃºs shakes head, dismisses sixth count, but shadow remains on wall. House heartbeat steady at 60bpm under the breathing.",
+      "is_active" : false,
       "selected_plates" : [
         "LILJA-SENSING",
         "JON-TEMPORAL",
         "SIGRID-CORNERED",
         "WESTFJORDS-CLIFF"
-      ],
-      "style" : "Wide shot showing empty sixth position and synchronized chewing, camera pulling back to doorway (that's where the camera is), documentary observation of collective consumption.",
-      "action" : "MagnÃºs's finger points at empty space: \"Seks?\" Confusion flickers across his face. Counts again on fingers - en, to, tre, fire, fem... His finger rises to point at vacant air where sixth person should stand. But on the wall, six shadows clearly visible, sixth shadow moving independently. The empty clothes in corner are standing fully upright now, breathing at 8\/minute, chest area rising and falling. The family continues chewing in perfect synchronization - all jaws moving identically, same rhythm, same number of chews. Even Sigrid, despite maintaining 11 feet, caught in the synchronized pattern. The hÃ¡karl and testicles being consumed at exact same rate. Between chews, barely audible: \"mÃ¦\" sounds from Lilja, bleeding into JÃ³n's breathing, spreading to GuÃ°rÃºn. Only human teeth visible but chewing pattern purely ovine. MagnÃºs shakes head, dismisses sixth count, but shadow remains on wall. House heartbeat steady at 60bpm under the breathing.",
-      "scene" : "Morning sorting complete, 5:53 AM, daylight gaining but still grey. Temperature -10Â°C from Danish, breath visible from everyone including empty clothes. The floor patterns now clearly show six positions, though only five occupied. Synchronized chewing creates wet rhythm, ammonia from hÃ¡karl making everyone's eyes stream. The plate that held food shows six portions were cut, sixth portion sitting at empty position.",
-      "negative_prompt" : "no subtitles, no text overlays, show synchronized horror clearly, maintain shadow presence, documentary observation",
-      "variant_id" : "10_story_primary"
+      ]
     }
-  ],
-  "aspect_ratio" : "1:1"
+  ]
 }

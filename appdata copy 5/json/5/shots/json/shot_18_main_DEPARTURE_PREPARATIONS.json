@@ -1,0 +1,289 @@
+{
+  "shot_metadata": {
+    "id": "18",
+    "name": "DEPARTURE_PREPARATIONS",
+    "title": "DEPARTURE PREPARATIONS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 13/min + 60bpm | Pre-departure | Camera fros...",
+    "stitch_from": "[STITCH from Shot 17: Darkness after three-frame flash]",
+    "aspect_ratio": "4:3"
+  },
+  "progressive_state": "House 13/min + 60bpm | Pre-departure | Camera frost 10% (for post) | Gear ready | Watching: House knows he's leaving",
+  "prompt_variants": [
+    {
+      "variant_id": "18_departure_preparations_house_flesh_resistance",
+      "variant_name": "Departure Preparations House Flesh Resistance",
+      "subject": "",
+      "action": "Door handle resists opening through flesh-response—surface becoming increasingly soft and warm as Magnús attempts departure, organic material stretching and gripping rather than releasing, house anatomy fighting abandonment through biological resistance. His tremor diagnostic reveals psychological truth: anxiety items trigger 3Hz shaking (emotional attachment), violence tools produce 0Hz stillness (practiced comfort with harm), hands becoming perfectly steady when gripping instruments designed for killing rather than creating. Gear arrangement follows inherited astronomical knowledge without conscious planning—hooks positioned like constellation Draco, rifle aligned with Polaris, rope coiled in spiral matching Ursa Major, traditional fishing equipment organized through landvættir navigation memory. House heartbeat acceleration creates structural sound—walls creaking at 80bpm rhythm, floor vibrating with giant's panic, building pleading for family protection through architectural cardiovascular distress.",
+      "scene": "SHOT 18: DEPARTURE PREPARATIONS - HOUSE FLESH RESISTANCE From Functional Preparation (8/10) to Bergrisi Body Horror Masterpiece (9.5/10) SHOT HEADER: Baðstofa interior during departure preparation where domestic space reveals biological nature through resistance to abandonment, traditional fishing equipment enhanced by landvættir knowledge creating supernatural organization patterns. House showing signs of organic distress—walls perspiring at 37°C, door handle developing flesh-texture, heartbeat audible through structure as building consciousness panics about family exposure to winter dangers.",
+      "style": "Camera positioned at fishing gear level showing both equipment arrangement and house biological responses (that's where the camera is), close enough for tremor frequency analysis, wide enough for constellation pattern recognition. Static shot allowing house panic to build through sustained cardiovascular audio. Natural light dimmed by increasing wall perspiration creating humid atmosphere suggesting organic anxiety. Focus alternates between Magnús's hands during tremor diagnostic and gear arrangement revealing astronomical precision. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {
+          "magnus": "MAGNUS-CONFUSED",
+          "sigrid": "SIGRID-CALCULATING",
+          "gudrun": "GUDRUN-COUNTING",
+          "jon": "JON-PROPHET",
+          "lilja": "LILJA-MATHEMATICAL"
+        },
+        "environment": {
+          "interior": "BADSTOFA-ORGANIC",
+          "weather": "DANISH-COLD-SPREADING"
+        }
+      },
+      "available_plates": {
+        "characters": {
+          "magnus": [
+            {
+              "id": "MAGNUS-CONFUSED",
+              "name": "Mathematical Breakdown",
+              "description": "Magnús with weathered rectangular face showing authority cracking, steel-blue eyes unfocused with thousand-yard mathematical stare, gripping driftwood cane white-knuckle tight, hunched posture with defensive shoulder positioning"
+            }
+          ],
+          "sigrid": [
+            {
+              "id": "SIGRID-CALCULATING",
+              "name": "Analytical Assessment",
+              "description": "Sigrid with heart-shaped face sharp with analytical intelligence, grey eyes with amber flecks bright from mathematical awareness, positioned exactly 11 feet maintaining defensive spacing"
+            }
+          ],
+          "jon": [
+            {
+              "id": "JON-PROPHET",
+              "name": "Fever Prophet",
+              "description": "Jón with 41°C fever, temporal sight active, seeing multiple timelines simultaneously, gap-toothed from transformation"
+            }
+          ],
+          "lilja": [
+            {
+              "id": "LILJA-MATHEMATICAL",
+              "name": "Truth Recognition",
+              "description": "Lilja recognizing counting impossibility, child truth-telling about obvious mathematical failures"
+            }
+          ]
+        },
+        "environment": {
+          "interior": [
+            {
+              "id": "BADSTOFA-ORGANIC",
+              "name": "House Breathing Revealed",
+              "description": "Baðstofa with driftwood beams flexing like ribs during house breathing, turf walls showing blood vessel patterns"
+            }
+          ],
+          "weather": [
+            {
+              "id": "DANISH-COLD-SPREADING",
+              "name": "Administrative Temperature",
+              "description": "Danish language creating environmental coldness, administrative vocabulary affecting physical temperature"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant_id": "18_pass_2_experiencing_house_panic_cardiovascular",
+      "variant_name": "Pass 2 Experiencing House Panic Cardiovascular",
+      "subject": "",
+      "action": "Camera rides heartbeat acceleration as Bergrisi consciousness panics about family abandonment—cardiovascular rhythm creating spatial pulsing where room expands during systole (heart contraction), contracts during diastole (heart relaxation), family living space affected by giant's cardiac distress. Heartbeat panic spreads through house structure: walls perspiring at 37°C as giant sweats fear, floor warming beneath family feet as circulation increases, organic architecture revealing biological nature through cardiovascular emergency response. Camera experiences door resistance as circulatory response: flesh-soft handle emerging through vascular influence on building materials, Bergrisi's circulation system affecting domestic infrastructure to prevent family exposure to killing environment.",
+      "scene": "PASS 2: SHOT 18 - EXPERIENCING HOUSE PANIC CARDIOVASCULAR Camera Becoming Bergrisi's Heartbeat During Abandonment Fear SHOT HEADER: Interior house structure during cardiovascular panic where giant consciousness experiences terror about family abandonment, domestic space revealed as organ-interior through cardiac emergency response, building materials showing biological nature through circulation system activation.",
+      "style": "Camera experiencing giant's cardiovascular system using impossible cardiac perspective (that's where the camera is), movement determined by heartbeat rhythm affecting architectural space. Focus reveals organic architecture through cardiovascular response, building materials showing biological nature through circulation emergency. Movement follows cardiac expansion/contraction affecting room dimensions during panic response. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "negative_prompt": "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "recommended_plates": {
+        "characters": {},
+        "environment": {}
+      },
+      "selected_plates": {
+        "characters": {
+          "magnus": "MAGNUS-CONFUSED",
+          "sigrid": "SIGRID-CALCULATING",
+          "gudrun": "GUDRUN-COUNTING",
+          "jon": "JON-PROPHET",
+          "lilja": "LILJA-MATHEMATICAL"
+        },
+        "environment": {
+          "interior": "BADSTOFA-ORGANIC",
+          "weather": "DANISH-COLD-SPREADING"
+        }
+      },
+      "available_plates": {
+        "characters": {
+          "magnus": [
+            {
+              "id": "MAGNUS-CONFUSED",
+              "name": "Mathematical Breakdown",
+              "description": "Magnús with weathered rectangular face showing authority cracking, steel-blue eyes unfocused with thousand-yard mathematical stare, gripping driftwood cane white-knuckle tight, hunched posture with defensive shoulder positioning"
+            }
+          ],
+          "sigrid": [
+            {
+              "id": "SIGRID-CALCULATING",
+              "name": "Analytical Assessment",
+              "description": "Sigrid with heart-shaped face sharp with analytical intelligence, grey eyes with amber flecks bright from mathematical awareness, positioned exactly 11 feet maintaining defensive spacing"
+            }
+          ],
+          "jon": [
+            {
+              "id": "JON-PROPHET",
+              "name": "Fever Prophet",
+              "description": "Jón with 41°C fever, temporal sight active, seeing multiple timelines simultaneously, gap-toothed from transformation"
+            }
+          ],
+          "lilja": [
+            {
+              "id": "LILJA-MATHEMATICAL",
+              "name": "Truth Recognition",
+              "description": "Lilja recognizing counting impossibility, child truth-telling about obvious mathematical failures"
+            }
+          ]
+        },
+        "environment": {
+          "interior": [
+            {
+              "id": "BADSTOFA-ORGANIC",
+              "name": "House Breathing Revealed",
+              "description": "Baðstofa with driftwood beams flexing like ribs during house breathing, turf walls showing blood vessel patterns"
+            }
+          ],
+          "weather": [
+            {
+              "id": "DANISH-COLD-SPREADING",
+              "name": "Administrative Temperature",
+              "description": "Danish language creating environmental coldness, administrative vocabulary affecting physical temperature"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant_id": "18_story_primary",
+      "variant_name": "Primary - DEPARTURE PREPARATIONS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[MAGNÃšS] in the darkness, moving by memory to his corner where fishing gear waits meticulously prepared - Ã³Ã°inn (line) coiled in perfect circles, hÃ¡fur (gaff) sharpened to killing point, tin of phantom bait, grandfather's rifle with three bullets, all arranged like ritual objects for his likely suicide mission.",
+      "action": "In darkness, we hear him moving. Match strikes - another hidden candle stub. Light reveals him at his corner, already dressed in additional layers: sealskin over wool, wool over wool. Picks up Ã³Ã°inn - 30 fathoms of line, braided by his father, repaired by him hundred times. Tests each section, knows weak spots by feel. Tremor at 4Hz makes line shake. Wraps line around torso under coat. Picks up hÃ¡fur, tests point on thumb - draws blood, good. Secures to belt. Opens bait tin - empty but for fish scales from better times. Smells it, pretends. Takes rifle, checks mechanism - frozen but might work. Three bullets. Looks at family in candlelight. GuÃ°rÃºn watching, not speaking. Children asleep or pretending. Sigrid maintaining 11 feet even in darkness, her grey eyes reflecting candle. He walks to door, hand on latch. House breathing accelerates to 15/min - it knows. Heartbeat accelerates to 80bpm. The door resists opening. He forces it.",
+      "scene": "Corner and door, 6:20 AM, candle stub providing only light. Temperature -12Â°C inside, but door opening reveals -25Â°C outside. Gear arranged like shrine - each item in specific place, handled with reverence. Door frozen shut with 5mm ice on inside, requiring shoulder to break seal. When door opens, cold enters like entity.",
+      "style": "Candlelit preparation, camera following his ritual movements (that's where the camera is), documentary of departure preparation.",
+      "camera_position": "Candlelit preparation, camera following his ritual movements",
+      "dialogue": "(MagnÃºs, to line): \"Haltu, pabbi\" (Hold, father) (Testing gaff): \"Hvass\" (Sharp) (At door): \"Ã‰g kem aftur\" (I'll come back) (GuÃ°rÃºn): Silence, just watching",
+      "audio": {
+        "primary": [
+          "Gear being gathered",
+          "line testing",
+          "door ice breaking",
+          "wind entering"
+        ],
+        "ambient": [
+          "House breathing accelerating to 15/min",
+          "heartbeat to 80bpm (panic)",
+          "family pretending sleep"
+        ],
+        "absent": [
+          "no goodbye",
+          "no female voices",
+          "no hope"
+        ]
+      },
+      "character_plates": {
+        "present": [],
+        "referenced": []
+      },
+      "negative_prompt": "no subtitles, show ritual preparation, maintain darkness except candle, documentary observation",
+      "video_references": [],
+      "recommended_plates": {
+        "characters": {
+          "magnus": "S-SUMMER",
+          "sigrid": "SIGRID-AWAKENING",
+          "gudrun": "N-ABUNDANT",
+          "jon": "N-MILD",
+          "lilja": "LILJA-SENSING"
+        },
+        "environment": {
+          "landscape": "WESTFJORDS-HOSTILE",
+          "interior": "BAÐSTOFA-CLIFF"
+        }
+      },
+      "selected_plates": {
+        "characters": {
+          "magnus": "MAGNUS-CONFUSED",
+          "sigrid": "SIGRID-CALCULATING",
+          "gudrun": "GUDRUN-COUNTING",
+          "jon": "JON-PROPHET",
+          "lilja": "LILJA-MATHEMATICAL"
+        },
+        "environment": {
+          "interior": "BADSTOFA-ORGANIC",
+          "weather": "DANISH-COLD-SPREADING"
+        }
+      },
+      "available_plates": {
+        "characters": {
+          "magnus": [
+            {
+              "id": "MAGNUS-CONFUSED",
+              "name": "Mathematical Breakdown",
+              "description": "Magnús with weathered rectangular face showing authority cracking, steel-blue eyes unfocused with thousand-yard mathematical stare, gripping driftwood cane white-knuckle tight, hunched posture with defensive shoulder positioning"
+            }
+          ],
+          "sigrid": [
+            {
+              "id": "SIGRID-CALCULATING",
+              "name": "Analytical Assessment",
+              "description": "Sigrid with heart-shaped face sharp with analytical intelligence, grey eyes with amber flecks bright from mathematical awareness, positioned exactly 11 feet maintaining defensive spacing"
+            }
+          ],
+          "jon": [
+            {
+              "id": "JON-PROPHET",
+              "name": "Fever Prophet",
+              "description": "Jón with 41°C fever, temporal sight active, seeing multiple timelines simultaneously, gap-toothed from transformation"
+            }
+          ],
+          "lilja": [
+            {
+              "id": "LILJA-MATHEMATICAL",
+              "name": "Truth Recognition",
+              "description": "Lilja recognizing counting impossibility, child truth-telling about obvious mathematical failures"
+            }
+          ]
+        },
+        "environment": {
+          "interior": [
+            {
+              "id": "BADSTOFA-ORGANIC",
+              "name": "House Breathing Revealed",
+              "description": "Baðstofa with driftwood beams flexing like ribs during house breathing, turf walls showing blood vessel patterns"
+            }
+          ],
+          "weather": [
+            {
+              "id": "DANISH-COLD-SPREADING",
+              "name": "Administrative Temperature",
+              "description": "Danish language creating environmental coldness, administrative vocabulary affecting physical temperature"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "others": {
+    "womens_silence": "GuÃ°rÃºn watches preparation without words",
+    "triple_reality": "Physical: preparing for -25Â°C fishing / Psychological: death preparation / Mythological: house resisting"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  },
+  "aspect_ratio": "4:3"
+}

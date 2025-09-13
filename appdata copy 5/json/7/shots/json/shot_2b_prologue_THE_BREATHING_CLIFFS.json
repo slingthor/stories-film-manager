@@ -1,0 +1,32 @@
+{
+  "prompt_variants" : [
+    {
+      "variant_name" : "Primary - THE BREATHING CLIFFS",
+      "progressive_state" : "",
+      "selected_plates" : [
+        "JON-TEMPORAL",
+        "SEA-BATTLE"
+      ],
+      "style" : "Following shot behind climbers showing path and cliff face (that's where the camera is), handheld matching climbing movement.",
+      "variant_id" : "2b_story_primary",
+      "action" : "MagnÃºs leads up steep path, boots finding holds in dirt. JÃ³n follows 6 feet behind, smaller feet careful on loose stones. Path only 2 feet wide, cliff wall on right, drop on left. Seabirds cover every ledge - puffins with orange beaks, guillemots in rows, kittiwakes clustered. Birds shift as humans pass but don't fly. Too many birds - every square foot of cliff has nests. Path turns sharply. View opens showing full cliff height - 300 feet vertical black basalt columns. In cliff face, regular holes appear, 2 feet diameter, perfectly round. Some holes have golden light inside despite sun angle wrong. MagnÃºs's breathing steady. JÃ³n breathing harder, stops to rest. MagnÃºs waits without turning. Boy starts climbing again. Near path, eggs visible in nests - pure white, no spots, glowing faintly in shadow.",
+      "scene" : "Cliff face, morning. Path zigzagging up basalt columns. Ocean 200 feet below. Millions of seabirds. Clear morning light.",
+      "negative_prompt" : "no subtitles, show massive cliff scale, birds covering every surface, golden light in holes, 1080p",
+      "subject" : "[MAGNÃšS] and [JÃ“N] climbing a narrow dirt path up 300-foot cliff face, the black rock wall covered with thousands of nesting seabirds, patches of green grass clinging to ledges, rope coiled over MagnÃºs's shoulder.",
+      "camera_position" : "Following shot behind climbers showing path and cliff face",
+      "dialogue" : "None",
+      "is_active" : false
+    }
+  ],
+  "progressive_state" : "Cliff approach | Ancient paths | Camera frost 0% | Height revealed | Watching: Earth opens",
+  "aspect_ratio" : "1.85:1",
+  "shot_metadata" : {
+    "title" : "THE BREATHING CLIFFS",
+    "id" : "2b",
+    "duration_seconds" : 8,
+    "sequence_type" : "prologue",
+    "stitch_from" : "",
+    "narrative_function" : "Cliff approach | Ancient paths | Camera frost 0% |..."
+  },
+  "selected_prompt_index" : 0
+}

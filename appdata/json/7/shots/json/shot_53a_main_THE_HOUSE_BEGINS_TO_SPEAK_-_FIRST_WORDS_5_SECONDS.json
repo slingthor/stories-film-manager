@@ -1,32 +1,32 @@
 {
   "prompt_variants" : [
     {
-      "progressive_state" : "",
-      "subject" : "The entire house suddenly speaking at 16Hz through walls, floor, and beams simultaneously: \"Ã‰G ER BERGRISI\" - the words visible as dust falling from ceiling in letter patterns, while a 55-year-old man in brown wool and a 16-year-old girl in grey dress freeze as the giant identifies itself.",
-      "variant_name" : "Primary - THE HOUSE BEGINS TO SPEAK - FIRST WORDS 5 SECONDS",
-      "camera_position" : "Wide vibrating with 16Hz resonance",
-      "is_active" : false,
       "dialogue" : "(House\/Bergrisi): \"Ã‰G ER BERGRISI\" (visual as dust letters)",
+      "variant_id" : "53a_story_primary",
+      "variant_name" : "Primary - THE HOUSE BEGINS TO SPEAK - FIRST WORDS 5 SECONDS",
+      "scene" : "Entire interior as speaking cavity. Family frozen mid-action. House revealing itself as giant's body.",
+      "style" : "Wide vibrating with 16Hz resonance (that's where the camera is), giant's announcement documented.",
+      "subject" : "The entire house suddenly speaking at 16Hz through walls, floor, and beams simultaneously: \"Ã‰G ER BERGRISI\" - the words visible as dust falling from ceiling in letter patterns, while a 55-year-old man in brown wool and a 16-year-old girl in grey dress freeze as the giant identifies itself.",
+      "camera_position" : "Wide vibrating with 16Hz resonance",
+      "negative_prompt" : "",
+      "progressive_state" : "",
+      "action" : "WIDE SHOT of interior. MagnÃºs's hand on Sigrid's shoulder. Then: everything vibrates. 16Hz through structure - below human hearing, felt in bones, teeth, eyeballs. Words emerge from everywhere: \"Ã‰G ER BERGRISI.\" Not spoken but manifested. Dust cascades from ceiling, forming the letters briefly before dispersing. The three beams (ribs) flex visibly with each syllable. Floor becomes soft, warm, alive - exactly 37Â°C, body temperature. Windows fog instantly from house's breath. Everyone freezes. Even the tilberi stops its three-rhythm breathing. The empty clothes fall to ground like abandoned puppets. Only movement: dust letters forming and dissolving. \"Ã‰G... ER... BERGRISI.\" Each word makes the house more obviously body - walls perspiring, doorway like throat, smoke hole like nostril.",
+      "is_active" : false,
       "selected_plates" : [
         "SIGRID-CORNERED",
         "STOFA-BODY"
-      ],
-      "style" : "Wide vibrating with 16Hz resonance (that's where the camera is), giant's announcement documented.",
-      "action" : "WIDE SHOT of interior. MagnÃºs's hand on Sigrid's shoulder. Then: everything vibrates. 16Hz through structure - below human hearing, felt in bones, teeth, eyeballs. Words emerge from everywhere: \"Ã‰G ER BERGRISI.\" Not spoken but manifested. Dust cascades from ceiling, forming the letters briefly before dispersing. The three beams (ribs) flex visibly with each syllable. Floor becomes soft, warm, alive - exactly 37Â°C, body temperature. Windows fog instantly from house's breath. Everyone freezes. Even the tilberi stops its three-rhythm breathing. The empty clothes fall to ground like abandoned puppets. Only movement: dust letters forming and dissolving. \"Ã‰G... ER... BERGRISI.\" Each word makes the house more obviously body - walls perspiring, doorway like throat, smoke hole like nostril.",
-      "scene" : "Entire interior as speaking cavity. Family frozen mid-action. House revealing itself as giant's body.",
-      "negative_prompt" : "",
-      "variant_id" : "53a_story_primary"
+      ]
     }
   ],
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
   "progressive_state" : "House 6\/min labored + 70bpm stressed | Bergrisi speaking | Camera frost 43% | Giant's voice | Watching: House reveals itself",
   "shot_metadata" : {
-    "narrative_function" : "House 6\/min labored + 70bpm stressed | Bergrisi sp...",
-    "title" : "THE HOUSE BEGINS TO SPEAK - FIRST WORDS 5 SECONDS",
     "sequence_type" : "main_story",
     "stitch_from" : "",
     "id" : "53a",
-    "duration_seconds" : 5
-  },
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3"
+    "duration_seconds" : 5,
+    "narrative_function" : "House 6\/min labored + 70bpm stressed | Bergrisi sp...",
+    "title" : "THE HOUSE BEGINS TO SPEAK - FIRST WORDS 5 SECONDS"
+  }
 }
