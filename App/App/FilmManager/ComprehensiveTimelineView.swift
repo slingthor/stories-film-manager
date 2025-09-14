@@ -154,14 +154,23 @@ struct ComprehensiveTimelineView: View {
                                     .foregroundColor(filmManager.selectedShot?.id == shot.id ? .blue : .primary)
                                 
                                 if let video = shot.selectedVideo {
-                                    Text(String(video.filename.prefix(8)))
-                                        .font(.caption2)
-                                        .foregroundColor(.secondary)
-                                        .lineLimit(1)
+                                    VideoThumbnailView(
+                                        videoPath: video.filepath,
+                                        size: CGSize(width: 20, height: 11)
+                                    )
+                                    .overlay(
+                                        RoundedRectangle(cornerRadius: 1)
+                                            .stroke(filmManager.selectedShot?.id == shot.id ? Color.blue : Color.gray.opacity(0.3), lineWidth: 1)
+                                    )
                                 } else {
-                                    Text("—")
-                                        .font(.caption2)
-                                        .foregroundColor(.secondary.opacity(0.5))
+                                    RoundedRectangle(cornerRadius: 1)
+                                        .fill(Color.gray.opacity(0.3))
+                                        .frame(width: 20, height: 11)
+                                        .overlay(
+                                            Image(systemName: "video.slash")
+                                                .font(.caption2)
+                                                .foregroundColor(.gray)
+                                        )
                                 }
                             }
                             .frame(width: max(30, min(60, 400.0 / Double(filmManager.shots.count))))
@@ -287,7 +296,7 @@ struct ShotMarkerEnhanced: View {
             .onTapGesture {
                 onSelect()
             }
-            .help("Shot \(shot.id): \(shot.title)" + (shot.selectedVideo != nil ? " (has video)" : ""))
+            .help("Shot \(shot.id): \(shot.title)" + videoStatusText)
     }
     
     private var markerWidth: CGFloat {
@@ -302,9 +311,28 @@ struct ShotMarkerEnhanced: View {
         if isSelected {
             return .blue
         } else if shot.selectedVideo != nil {
-            return .green.opacity(0.8)
+            // Check if it's an active prompt variant video vs shot-level video
+            let hasActiveVariantVideo = shot.promptVariants.contains { variant in
+                variant.isActive && variant.activeVideo != nil
+            }
+            return hasActiveVariantVideo ? .orange.opacity(0.8) : .green.opacity(0.8)
         } else {
             return .gray.opacity(0.4)
+        }
+    }
+
+    private var videoStatusText: String {
+        if shot.selectedVideo != nil {
+            let activeVariant = shot.promptVariants.first { $0.isActive }
+            if let activeVariant = activeVariant, activeVariant.activeVideo != nil {
+                let variantVideoCount = activeVariant.videos.count
+                return " (🟠 \(activeVariant.name): \(variantVideoCount) video\(variantVideoCount == 1 ? "" : "s"))"
+            } else {
+                let shotVideoCount = shot.videos.count
+                return " (🟢 Shot level: \(shotVideoCount) video\(shotVideoCount == 1 ? "" : "s"))"
+            }
+        } else {
+            return " (No video)"
         }
     }
 }

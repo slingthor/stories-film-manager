@@ -1,32 +1,32 @@
 {
   "aspect_ratio" : "4:3",
-  "shot_metadata" : {
-    "narrative_function" : "House 13\/min + 60bpm | Lamp death imminent | Camer...",
-    "title" : "THE LAST LIGHT",
-    "duration_seconds" : 8,
-    "id" : "16",
-    "stitch_from" : "",
-    "sequence_type" : "main_story"
-  },
-  "progressive_state" : "House 13\/min + 60bpm | Lamp death imminent | Camera frost 9% | Old world ending | Watching: All watching flame",
   "selected_prompt_index" : 0,
+  "progressive_state" : "House 13\/min + 60bpm | Lamp death imminent | Camera frost 9% | Old world ending | Watching: All watching flame",
   "prompt_variants" : [
     {
-      "progressive_state" : "",
-      "dialogue" : "(Complete silence watching flame) (Flame dies, in darkness): \"Ã‰g verÃ° aÃ°...\" (MagnÃºs, cut off)",
-      "variant_id" : "16_story_primary",
-      "variant_name" : "Primary - THE LAST LIGHT",
-      "subject" : "The oil lamp flame shrinking to a blue pinpoint, the entire family watching in silence as their last traditional light source dies, while [MAGNÃšS] stands slowly, his fishing preparations visible in corner, knowing what darkness means - he must go out or they die inside.",
-      "action" : "The flame shrinks smaller, smaller. Blue center, orange edges, then just blue, then pinpoint. Everyone watching. Even empty clothes lean forward. The lamp flame creates last wild shadows - for a moment, clear as day, shadows show five sheep standing on hind legs. Then dimmer. MagnÃºs stands, walks to corner where his gear waits: Ã³Ã°inn (line) coiled perfectly, hÃ¡fur (gaff) sharpened, tin of bait (empty but for memory of fish), rifle wrapped in oilcloth. Tests the line strength - it holds. Behind him, family watching. GuÃ°rÃºn's hand finds Sigrid's shoulder. The flame gasps once, flares briefly illuminating everyone's face in orange, then dies. Complete darkness. House breathing stops. Heartbeat stops. A moment of absolute void. Then, continuing in darkness, MagnÃºs's voice: \"Ã‰g verÃ° aÃ°...\" (I have to...) Cut off by new light.",
       "scene" : "Table and corner, 6:18 AM but darkness falling. Temperature -12Â°C, about to get colder without lamp. Fishing gear meticulously prepared - he's been planning this through sleepless nights. The lamp's final moment creating shadow prophecy on walls. Then nothing.",
+      "negative_prompt" : "no subtitles, real darkness when lamp dies, shadow prophecy visible, documentary observation",
       "style" : "Close on dying flame, then pulling back to show everyone watching, then darkness (that's where the camera is), documentary of light's end.",
       "camera_position" : "Close on dying flame, then pulling back to show everyone watching, then darkness",
+      "dialogue" : "(Complete silence watching flame) (Flame dies, in darkness): \"Ã‰g verÃ° aÃ°...\" (MagnÃºs, cut off)",
       "is_active" : false,
+      "variant_name" : "Primary - THE LAST LIGHT",
+      "progressive_state" : "",
+      "subject" : "The oil lamp flame shrinking to a blue pinpoint, the entire family watching in silence as their last traditional light source dies, while [MAGNÃšS] stands slowly, his fishing preparations visible in corner, knowing what darkness means - he must go out or they die inside.",
+      "variant_id" : "16_story_primary",
       "selected_plates" : [
         "SIGRID-CORNERED",
         "WESTFJORDS-CLIFF"
       ],
-      "negative_prompt" : "no subtitles, real darkness when lamp dies, shadow prophecy visible, documentary observation"
+      "action" : "The flame shrinks smaller, smaller. Blue center, orange edges, then just blue, then pinpoint. Everyone watching. Even empty clothes lean forward. The lamp flame creates last wild shadows - for a moment, clear as day, shadows show five sheep standing on hind legs. Then dimmer. MagnÃºs stands, walks to corner where his gear waits: Ã³Ã°inn (line) coiled perfectly, hÃ¡fur (gaff) sharpened, tin of bait (empty but for memory of fish), rifle wrapped in oilcloth. Tests the line strength - it holds. Behind him, family watching. GuÃ°rÃºn's hand finds Sigrid's shoulder. The flame gasps once, flares briefly illuminating everyone's face in orange, then dies. Complete darkness. House breathing stops. Heartbeat stops. A moment of absolute void. Then, continuing in darkness, MagnÃºs's voice: \"Ã‰g verÃ° aÃ°...\" (I have to...) Cut off by new light."
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "narrative_function" : "House 13\/min + 60bpm | Lamp death imminent | Camer...",
+    "stitch_from" : "",
+    "sequence_type" : "main_story",
+    "id" : "16",
+    "title" : "THE LAST LIGHT",
+    "duration_seconds" : 8
+  }
 }

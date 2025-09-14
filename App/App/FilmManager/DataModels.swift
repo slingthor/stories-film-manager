@@ -1724,6 +1724,39 @@ class PromptVariant: ObservableObject, Identifiable {
             activeVideoIndex = index
         }
     }
+
+    // Add a video to this prompt variant
+    func addVideo(_ video: VideoFile) {
+        videos.append(video)
+        // First video becomes active automatically
+        if activeVideoIndex == nil {
+            activeVideoIndex = 0
+        }
+    }
+
+    // Remove a video from this prompt variant
+    func removeVideo(at index: Int) {
+        guard index < videos.count else { return }
+        videos.remove(at: index)
+
+        // Adjust active index if necessary
+        if activeVideoIndex == index {
+            activeVideoIndex = videos.isEmpty ? nil : min(index, videos.count - 1)
+        } else if let activeIndex = activeVideoIndex, activeIndex > index {
+            activeVideoIndex = activeIndex - 1
+        }
+    }
+
+    // Add an image to this prompt variant
+    func addImage(_ image: ImageFile) {
+        images.append(image)
+    }
+
+    // Remove an image from this prompt variant
+    func removeImage(at index: Int) {
+        guard index < images.count else { return }
+        images.remove(at: index)
+    }
 }
 
 class TrackingSystem: ObservableObject, Identifiable {

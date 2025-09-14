@@ -1,32 +1,32 @@
 {
   "aspect_ratio" : "4:3",
-  "shot_metadata" : {
-    "narrative_function" : "House 7\/min + 48bpm | Contamination resisting | Ca...",
-    "title" : "ROPE FIGHTS BACK 8 SECONDS",
-    "duration_seconds" : 8,
-    "id" : "23b",
-    "stitch_from" : "",
-    "sequence_type" : "main_story"
-  },
-  "progressive_state" : "House 7\/min + 48bpm | Contamination resisting | Camera frost 14.5% | Materials wrong | Watching: GuÃ°rÃºn paralyzed",
   "selected_prompt_index" : 0,
+  "progressive_state" : "House 7\/min + 48bpm | Contamination resisting | Camera frost 14.5% | Materials wrong | Watching: GuÃ°rÃºn paralyzed",
   "prompt_variants" : [
     {
-      "progressive_state" : "",
-      "dialogue" : "(Sigrid, voice dropping): \"Tilberi, tilberi, Ã¾Ãº skalt mjÃ³lka fyrir mig\" (Quarter octave lower): \"ÃžÃº skalt...\" (Half octave lower): \"...nÃ¦ra barniÃ° mitt\"",
-      "variant_id" : "23b_story_primary",
-      "variant_name" : "Primary - ROPE FIGHTS BACK 8 SECONDS",
-      "subject" : "[SIGRID] attempting to wind the industrial rope around sheep rib while speaking the incantation, but the tar-mixed hemp fights back, trying to coil in opposite direction, sticking to her fingers, revealing black contamination spreading through both materials like infection.",
-      "action" : "Sigrid grips rope to begin winding. Rope immediately resists - coiling backward, alive with wrong animation. \"Tilberi, tilberi, Ã¾Ãº skalt mjÃ³lka fyrir mig.\" Voice starts normal but rope's tar makes fingers stick, pulling skin. Forces it around bone. Where rope touches rib, black veins spread through bone marrow, visible through translucent bone. Industrial contamination infecting organic material. Her voice catches, drops quarter octave: \"ÃžÃº skalt...\" Rope suddenly coils correctly but too tight, growing INTO bone, fusing. Not wrapped around but penetrating, rope fibers becoming bone vessels. Voice drops half octave: \"...nÃ¦ra barniÃ° mitt.\" Hand instinctively to belly - baby kicking, heartbeat rising to 145bpm. GuÃ°rÃºn's mouth opens to warn but no sound emerges - women's conditioning too strong even now. Brass button in left hand begins warming, almost burning, green verdigris running like tears.",
-      "scene" : "Close work on floor, materials fighting. Temperature dropping as ritual continues. Rope leaving tar residue on everything. Bone showing internal contamination spreading.",
       "style" : "Extreme close on rope-bone fusion, showing contamination spreading (that's where the camera is), documentary of corruption.",
+      "subject" : "[SIGRID] attempting to wind the industrial rope around sheep rib while speaking the incantation, but the tar-mixed hemp fights back, trying to coil in opposite direction, sticking to her fingers, revealing black contamination spreading through both materials like infection.",
       "camera_position" : "Extreme close on rope-bone fusion, showing contamination spreading",
-      "is_active" : false,
+      "progressive_state" : "",
+      "variant_name" : "Primary - ROPE FIGHTS BACK 8 SECONDS",
       "selected_plates" : [
         "SIGRID-CORNERED",
         "WESTFJORDS-CLIFF"
       ],
-      "negative_prompt" : ""
+      "is_active" : false,
+      "scene" : "Close work on floor, materials fighting. Temperature dropping as ritual continues. Rope leaving tar residue on everything. Bone showing internal contamination spreading.",
+      "action" : "Sigrid grips rope to begin winding. Rope immediately resists - coiling backward, alive with wrong animation. \"Tilberi, tilberi, Ã¾Ãº skalt mjÃ³lka fyrir mig.\" Voice starts normal but rope's tar makes fingers stick, pulling skin. Forces it around bone. Where rope touches rib, black veins spread through bone marrow, visible through translucent bone. Industrial contamination infecting organic material. Her voice catches, drops quarter octave: \"ÃžÃº skalt...\" Rope suddenly coils correctly but too tight, growing INTO bone, fusing. Not wrapped around but penetrating, rope fibers becoming bone vessels. Voice drops half octave: \"...nÃ¦ra barniÃ° mitt.\" Hand instinctively to belly - baby kicking, heartbeat rising to 145bpm. GuÃ°rÃºn's mouth opens to warn but no sound emerges - women's conditioning too strong even now. Brass button in left hand begins warming, almost burning, green verdigris running like tears.",
+      "variant_id" : "23b_story_primary",
+      "negative_prompt" : "",
+      "dialogue" : "(Sigrid, voice dropping): \"Tilberi, tilberi, Ã¾Ãº skalt mjÃ³lka fyrir mig\" (Quarter octave lower): \"ÃžÃº skalt...\" (Half octave lower): \"...nÃ¦ra barniÃ° mitt\""
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "narrative_function" : "House 7\/min + 48bpm | Contamination resisting | Ca...",
+    "stitch_from" : "",
+    "sequence_type" : "main_story",
+    "id" : "23b",
+    "title" : "ROPE FIGHTS BACK 8 SECONDS",
+    "duration_seconds" : 8
+  }
 }

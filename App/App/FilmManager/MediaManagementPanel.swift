@@ -57,7 +57,23 @@ struct MediaManagementPanel: View {
                         )
                         
                         Divider()
-                        
+
+                        // Prompt Variants Media Section
+                        PromptVariantsMediaSection(
+                            shot: shot,
+                            filmManager: filmManager,
+                            onPlayVideo: { video in playVideo(video) },
+                            onSelectImage: { image in
+                                selectedImage = image
+                                showingImageViewer = true
+                            },
+                            onShowInFinder: { path in showInFinder(path) },
+                            draggedMediaType: $draggedMediaType,
+                            draggedMediaPath: $draggedMediaPath
+                        )
+
+                        Divider()
+
                         // Character Media Section
                         CharacterMediaSection(
                             shot: shot,
@@ -426,6 +442,473 @@ struct CharacterMediaSection: View {
     }
 }
 
+// MARK: - Prompt Variants Media Section
+struct PromptVariantsMediaSection: View {
+    let shot: FilmShot
+    @ObservedObject var filmManager: FilmManager
+    let onPlayVideo: (VideoFile) -> Void
+    let onSelectImage: (ImageFile) -> Void
+    let onShowInFinder: (String) -> Void
+    @Binding var draggedMediaType: String?
+    @Binding var draggedMediaPath: String?
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack {
+                Label("PROMPT VARIANTS MEDIA", systemImage: "rectangle.stack.fill")
+                    .font(.subheadline)
+                    .fontWeight(.semibold)
+                    .foregroundColor(.orange)
+
+                Spacer()
+
+                Text("\(shot.promptVariants.count) variants")
+                    .font(.caption)
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 2)
+                    .background(Color.orange.opacity(0.2))
+                    .cornerRadius(4)
+            }
+
+            if shot.promptVariants.isEmpty {
+                VStack {
+                    Image(systemName: "rectangle.stack.badge.questionmark")
+                        .font(.title2)
+                        .foregroundColor(.gray.opacity(0.5))
+                    Text("No prompt variants")
+                        .font(.caption)
+                        .foregroundColor(.gray)
+                }
+                .frame(height: 80)
+                .frame(maxWidth: .infinity)
+                .background(Color.gray.opacity(0.05))
+                .cornerRadius(6)
+            } else {
+                ScrollView(.vertical, showsIndicators: false) {
+                    VStack(spacing: 16) {
+                        ForEach(Array(shot.promptVariants.enumerated()), id: \.element.id) { index, variant in
+                            PromptVariantMediaItem(
+                                variant: variant,
+                                variantIndex: index,
+                                isActive: variant.isActive,
+                                shot: shot,
+                                filmManager: filmManager,
+                                onPlayVideo: onPlayVideo,
+                                onSelectImage: onSelectImage,
+                                onShowInFinder: onShowInFinder,
+                                draggedMediaType: $draggedMediaType,
+                                draggedMediaPath: $draggedMediaPath
+                            )
+                        }
+                    }
+                }
+                .frame(maxHeight: 300) // Limit height to prevent overflow
+            }
+        }
+        .padding()
+        .background(Color.orange.opacity(0.05))
+        .cornerRadius(8)
+    }
+}
+
+// MARK: - Prompt Variant Media Item
+struct PromptVariantMediaItem: View {
+    @ObservedObject var variant: PromptVariant
+    let variantIndex: Int
+    let isActive: Bool
+    let shot: FilmShot
+    @ObservedObject var filmManager: FilmManager
+    let onPlayVideo: (VideoFile) -> Void
+    let onSelectImage: (ImageFile) -> Void
+    let onShowInFinder: (String) -> Void
+    @Binding var draggedMediaType: String?
+    @Binding var draggedMediaPath: String?
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            // Variant header
+            HStack {
+                VStack(alignment: .leading) {
+                    Text(variant.name)
+                        .font(.caption)
+                        .fontWeight(.semibold)
+                        .foregroundColor(isActive ? .orange : .primary)
+
+                    if isActive {
+                        Text("ACTIVE FOR TIMELINE")
+                            .font(.caption2)
+                            .fontWeight(.bold)
+                            .foregroundColor(.orange)
+                    }
+                }
+
+                Spacer()
+
+                // Video count and active indicator
+                HStack(spacing: 8) {
+                    if !variant.videos.isEmpty {
+                        HStack(spacing: 2) {
+                            Image(systemName: "video.fill")
+                                .font(.caption2)
+                            Text("\(variant.videos.count)")
+                                .font(.caption2)
+                        }
+                        .foregroundColor(.blue)
+
+                        if let activeIndex = variant.activeVideoIndex {
+                            Text("(#\(activeIndex + 1) active)")
+                                .font(.caption2)
+                                .foregroundColor(.green)
+                        }
+                    }
+
+                    if !variant.images.isEmpty {
+                        HStack(spacing: 2) {
+                            Image(systemName: "photo.fill")
+                                .font(.caption2)
+                            Text("\(variant.images.count)")
+                                .font(.caption2)
+                        }
+                        .foregroundColor(.purple)
+                    }
+
+                    Button("Set Active") {
+                        shot.setActivePrompt(at: variantIndex)
+                        filmManager.updateTimelineFromSelectedVideos()
+                    }
+                    .buttonStyle(.bordered)
+                    .font(.caption2)
+                    .disabled(isActive)
+                }
+            }
+
+            // Videos section
+            if !variant.videos.isEmpty {
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("Videos")
+                        .font(.caption2)
+                        .foregroundColor(.blue)
+
+                    LazyVStack(spacing: 2) {
+                        ForEach(Array(variant.videos.enumerated()), id: \.element.id) { videoIndex, video in
+                            PromptVideoRow(
+                                video: video,
+                                videoIndex: videoIndex,
+                                variant: variant,
+                                isActive: variant.activeVideoIndex == videoIndex,
+                                onSelect: {
+                                    variant.setActiveVideo(at: videoIndex)
+                                    if isActive { // Only update timeline if this variant is active
+                                        filmManager.updateTimelineFromSelectedVideos()
+                                    }
+                                },
+                                onPlay: { onPlayVideo(video) },
+                                onDelete: {
+                                    variant.removeVideo(at: videoIndex)
+                                    if isActive { // Only update timeline if this variant is active
+                                        filmManager.updateTimelineFromSelectedVideos()
+                                    }
+                                },
+                                onShowInFinder: { onShowInFinder(video.filepath) }
+                            )
+                        }
+                    }
+                }
+            }
+
+            // Images section
+            if !variant.images.isEmpty {
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("Images")
+                        .font(.caption2)
+                        .foregroundColor(.purple)
+
+                    LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 3), spacing: 4) {
+                        ForEach(Array(variant.images.enumerated()), id: \.element.id) { imageIndex, image in
+                            PromptImageThumbnail(
+                                image: image,
+                                imageIndex: imageIndex,
+                                variant: variant,
+                                onTap: { onSelectImage(image) },
+                                onShowInFinder: { onShowInFinder(image.filepath) }
+                            )
+                        }
+                    }
+                }
+            }
+
+            // Drop zones
+            if variant.videos.isEmpty && variant.images.isEmpty {
+                VStack {
+                    Image(systemName: "square.and.arrow.down.on.square")
+                        .font(.caption)
+                        .foregroundColor(.gray)
+                    Text("Drop media for \(variant.name)")
+                        .font(.caption2)
+                        .foregroundColor(.gray)
+                }
+                .frame(height: 40)
+                .frame(maxWidth: .infinity)
+                .background(Color.gray.opacity(0.05))
+                .cornerRadius(4)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 4)
+                        .stroke(Color.gray.opacity(0.3), style: StrokeStyle(lineWidth: 1, dash: [2]))
+                )
+                .onDrop(of: [.movie, .image], delegate: PromptVariantDropDelegate(variant: variant, filmManager: filmManager))
+            }
+        }
+        .padding(8)
+        .background(isActive ? Color.orange.opacity(0.1) : Color.gray.opacity(0.05))
+        .cornerRadius(6)
+        .overlay(
+            RoundedRectangle(cornerRadius: 6)
+                .stroke(isActive ? Color.orange.opacity(0.5) : Color.clear, lineWidth: 2)
+        )
+    }
+}
+
+// MARK: - Prompt Video Row
+struct PromptVideoRow: View {
+    let video: VideoFile
+    let videoIndex: Int
+    @ObservedObject var variant: PromptVariant
+    let isActive: Bool
+    let onSelect: () -> Void
+    let onPlay: () -> Void
+    let onDelete: () -> Void
+    let onShowInFinder: () -> Void
+
+    var body: some View {
+        HStack(spacing: 8) {
+            // Active indicator
+            Circle()
+                .fill(isActive ? Color.green : Color.clear)
+                .frame(width: 6, height: 6)
+                .overlay(
+                    Circle().stroke(Color.gray.opacity(0.5), lineWidth: 1)
+                )
+
+            // Video thumbnail
+            VideoThumbnailView(
+                videoPath: video.filepath,
+                size: CGSize(width: 24, height: 14)
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 2)
+                    .stroke(isActive ? Color.green : Color.gray.opacity(0.3), lineWidth: isActive ? 2 : 1)
+            )
+
+            VStack(alignment: .leading, spacing: 0) {
+                Text(video.filename)
+                    .font(.caption2)
+                    .lineLimit(1)
+                    .fontWeight(isActive ? .semibold : .regular)
+
+                Text("\(String(format: "%.1f", video.duration))s")
+                    .font(.caption2)
+                    .foregroundColor(.secondary)
+            }
+
+            Spacer()
+
+            // Action buttons
+            HStack(spacing: 4) {
+                Button(action: onPlay) {
+                    Image(systemName: "play.circle")
+                        .font(.caption)
+                }
+                .buttonStyle(PlainButtonStyle())
+
+                Button(action: onShowInFinder) {
+                    Image(systemName: "folder")
+                        .font(.caption)
+                }
+                .buttonStyle(PlainButtonStyle())
+
+                Button(action: onDelete) {
+                    Image(systemName: "trash")
+                        .font(.caption)
+                        .foregroundColor(.red)
+                }
+                .buttonStyle(PlainButtonStyle())
+            }
+        }
+        .padding(4)
+        .background(isActive ? Color.green.opacity(0.1) : Color.clear)
+        .cornerRadius(3)
+        .onTapGesture {
+            onSelect()
+        }
+    }
+}
+
+// MARK: - Prompt Image Thumbnail
+struct PromptImageThumbnail: View {
+    let image: ImageFile
+    let imageIndex: Int
+    @ObservedObject var variant: PromptVariant
+    let onTap: () -> Void
+    let onShowInFinder: () -> Void
+    @State private var isHovered = false
+
+    var body: some View {
+        VStack(spacing: 2) {
+            RoundedRectangle(cornerRadius: 3)
+                .fill(Color.gray.opacity(0.2))
+                .frame(width: 40, height: 40)
+                .overlay(
+                    Image(systemName: "photo")
+                        .font(.caption2)
+                        .foregroundColor(.gray)
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 3)
+                        .stroke(isHovered ? Color.blue : Color.clear, lineWidth: 1)
+                )
+
+            Text(image.filename)
+                .font(.caption2)
+                .lineLimit(1)
+                .frame(width: 40)
+        }
+        .onHover { hovering in
+            isHovered = hovering
+        }
+        .onTapGesture {
+            onTap()
+        }
+        .contextMenu {
+            Button("Show in Finder") {
+                onShowInFinder()
+            }
+            Button("Remove") {
+                variant.removeImage(at: imageIndex)
+            }
+        }
+    }
+}
+
+// MARK: - Drop Delegate for Shot Videos
+struct ShotVideoDropDelegate: DropDelegate {
+    let shot: FilmShot
+    let targetIndex: Int
+    @ObservedObject var filmManager: FilmManager
+
+    func performDrop(info: DropInfo) -> Bool {
+        // Check if this is a video from a prompt variant being dragged to shot level
+        guard let itemProvider = info.itemProviders(for: [.text]).first else {
+            return false
+        }
+
+        itemProvider.loadItem(forTypeIdentifier: "public.text", options: nil) { data, error in
+            if let data = data as? Data,
+               let draggedPath = String(data: data, encoding: .utf8) {
+                DispatchQueue.main.async {
+                    // Find if this video exists in any prompt variant
+                    for variant in shot.promptVariants {
+                        if let videoIndex = variant.videos.firstIndex(where: { $0.filepath == draggedPath }) {
+                            let video = variant.videos[videoIndex]
+
+                            // Copy video to shot level (don't remove from variant)
+                            if !shot.videos.contains(where: { $0.filepath == video.filepath }) {
+                                shot.addVideo(video)
+                                filmManager.updateTimelineFromSelectedVideos()
+                                print("📋 Copied video from variant '\(variant.name)' to shot level: \(video.filename)")
+                            }
+                            break
+                        }
+                    }
+                }
+            }
+        }
+
+        return true
+    }
+
+    func dropUpdated(info: DropInfo) -> DropProposal? {
+        return DropProposal(operation: .copy)
+    }
+}
+
+// MARK: - Drop Delegate for Prompt Variants
+struct PromptVariantDropDelegate: DropDelegate {
+    @ObservedObject var variant: PromptVariant
+    @ObservedObject var filmManager: FilmManager
+
+    func performDrop(info: DropInfo) -> Bool {
+        // First check for external file drops (new videos/images)
+        if let itemProvider = info.itemProviders(for: [.movie, .image]).first {
+            if itemProvider.hasItemConformingToTypeIdentifier("public.movie") {
+                itemProvider.loadItem(forTypeIdentifier: "public.movie", options: nil) { data, error in
+                    if let url = data as? URL {
+                        DispatchQueue.main.async {
+                            let video = VideoFile(filename: url.lastPathComponent, filepath: url.path)
+                            variant.addVideo(video)
+                            if variant.isActive {
+                                filmManager.updateTimelineFromSelectedVideos()
+                            }
+                        }
+                    }
+                }
+                return true
+            } else if itemProvider.hasItemConformingToTypeIdentifier("public.image") {
+                itemProvider.loadItem(forTypeIdentifier: "public.image", options: nil) { data, error in
+                    if let url = data as? URL {
+                        DispatchQueue.main.async {
+                            let image = ImageFile(filename: url.lastPathComponent, filepath: url.path)
+                            variant.addImage(image)
+                        }
+                    }
+                }
+                return true
+            }
+        }
+
+        // Then check for internal drag from shot-level videos
+        if let itemProvider = info.itemProviders(for: [.text]).first {
+            itemProvider.loadItem(forTypeIdentifier: "public.text", options: nil) { data, error in
+                if let data = data as? Data,
+                   let draggedPath = String(data: data, encoding: .utf8) {
+                    DispatchQueue.main.async {
+                        // Find the shot containing this variant to access shot-level videos
+                        if let shot = filmManager.shots.first(where: { shot in
+                            shot.promptVariants.contains { $0.id == variant.id }
+                        }) {
+                            // Find the video in shot-level videos
+                            if let video = shot.videos.first(where: { $0.filepath == draggedPath }) {
+                                // Copy video to this variant (don't remove from shot)
+                                if !variant.videos.contains(where: { $0.filepath == video.filepath }) {
+                                    variant.addVideo(video)
+                                    if variant.isActive {
+                                        filmManager.updateTimelineFromSelectedVideos()
+                                    }
+                                    print("📋 Copied video from shot to variant '\(variant.name)': \(video.filename)")
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            return true
+        }
+
+        return false
+    }
+
+    func dropUpdated(info: DropInfo) -> DropProposal? {
+        return DropProposal(operation: .copy)
+    }
+
+    func dropEntered(info: DropInfo) {
+        // Visual feedback when drag enters
+    }
+
+    func dropExited(info: DropInfo) {
+        // Visual feedback when drag exits
+    }
+}
+
 // MARK: - Environment Media Section
 struct EnvironmentMediaSection: View {
     let shot: FilmShot
@@ -553,9 +1036,21 @@ struct MediaRow: View {
     
     var body: some View {
         HStack {
-            Image(systemName: type == "video" ? "video.fill" : "photo.fill")
-                .foregroundColor(isSelected ? .blue : .gray)
-            
+            if type == "video" {
+                VideoThumbnailView(
+                    videoPath: path,
+                    size: CGSize(width: 32, height: 18)
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 2)
+                        .stroke(isSelected ? Color.blue : Color.gray.opacity(0.3), lineWidth: isSelected ? 2 : 1)
+                )
+            } else {
+                Image(systemName: "photo.fill")
+                    .foregroundColor(isSelected ? .blue : .gray)
+                    .frame(width: 32, height: 18)
+            }
+
             Text(title)
                 .font(.caption)
                 .lineLimit(1)

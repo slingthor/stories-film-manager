@@ -1,34 +1,34 @@
 {
   "aspect_ratio" : "1.85:1",
-  "shot_metadata" : {
-    "narrative_function" : "Abundance gathered | Tables set | Camera frost 0% ...",
-    "title" : "THE FEAST ASSEMBLY",
-    "duration_seconds" : 8,
-    "id" : "7a",
-    "stitch_from" : "",
-    "sequence_type" : "prologue"
-  },
-  "progressive_state" : "Abundance gathered | Tables set | Camera frost 0% | Paradise peak | Watching: The last plenty",
   "selected_prompt_index" : 0,
+  "progressive_state" : "Abundance gathered | Tables set | Camera frost 0% | Paradise peak | Watching: The last plenty",
   "prompt_variants" : [
     {
-      "variant_id" : "7a_story_primary",
-      "variant_name" : "Primary - THE FEAST ASSEMBLY",
-      "action" : "Tables covered with white cloth - where did cloth come from? Food arranged in patterns. Whale meat in center, still steaming. Dried fish in pyramids. Purple juice in clay jugs, liquid glowing slightly in evening light. Eggs boiled, shells removed, golden yolks visible. Fresh bread - impossible, no one baked today. Tables bend in middle from weight. People approach from all directions. Still wearing work clothes stained with three colors. Children's mouths still black from juice. Take seats in specific order - families together but pattern emerges. From above, people arranged like spokes of wheel. MagnÃºs at head of center table. GuÃ°rÃºn to his right. Sigrid to his left - honor position. JÃ³n beside mother. Lilja on bench end. Everyone sits simultaneously. No signal given. All faces turn toward MagnÃºs. Waiting. Sun low on horizon but not moving. Stuck again.",
-      "style" : "High angle showing table arrangement and people positioning (that's where the camera is), formal composition, symmetrical.",
-      "camera_position" : "High angle showing table arrangement and people positioning",
+      "is_active" : false,
       "dialogue" : "None",
-      "negative_prompt" : "no subtitles, show horseshoe table shape, three-color stains on everyone, abundance bending tables, 1080p",
+      "variant_id" : "7a_story_primary",
       "scene" : "Field near houses. Three tables in horseshoe. Evening light golden. Ocean visible in distance. Mountains surrounding.",
       "progressive_state" : "",
-      "is_active" : false,
+      "style" : "High angle showing table arrangement and people positioning (that's where the camera is), formal composition, symmetrical.",
+      "camera_position" : "High angle showing table arrangement and people positioning",
+      "action" : "Tables covered with white cloth - where did cloth come from? Food arranged in patterns. Whale meat in center, still steaming. Dried fish in pyramids. Purple juice in clay jugs, liquid glowing slightly in evening light. Eggs boiled, shells removed, golden yolks visible. Fresh bread - impossible, no one baked today. Tables bend in middle from weight. People approach from all directions. Still wearing work clothes stained with three colors. Children's mouths still black from juice. Take seats in specific order - families together but pattern emerges. From above, people arranged like spokes of wheel. MagnÃºs at head of center table. GuÃ°rÃºn to his right. Sigrid to his left - honor position. JÃ³n beside mother. Lilja on bench end. Everyone sits simultaneously. No signal given. All faces turn toward MagnÃºs. Waiting. Sun low on horizon but not moving. Stuck again.",
+      "subject" : "Three long driftwood tables arranged in horseshoe shape in field, laden with whale meat, dried fish, berry juice in jugs, boiled eggs, bread, the tables bending slightly under weight, fifty people taking seats.",
       "selected_plates" : [
         "LILJA-SENSING",
         "SIGRID-CORNERED",
         "GUDRUN-CONDEMNED",
         "SEA-BATTLE"
       ],
-      "subject" : "Three long driftwood tables arranged in horseshoe shape in field, laden with whale meat, dried fish, berry juice in jugs, boiled eggs, bread, the tables bending slightly under weight, fifty people taking seats."
+      "negative_prompt" : "no subtitles, show horseshoe table shape, three-color stains on everyone, abundance bending tables, 1080p",
+      "variant_name" : "Primary - THE FEAST ASSEMBLY"
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "narrative_function" : "Abundance gathered | Tables set | Camera frost 0% ...",
+    "stitch_from" : "",
+    "sequence_type" : "prologue",
+    "id" : "7a",
+    "title" : "THE FEAST ASSEMBLY",
+    "duration_seconds" : 8
+  }
 }

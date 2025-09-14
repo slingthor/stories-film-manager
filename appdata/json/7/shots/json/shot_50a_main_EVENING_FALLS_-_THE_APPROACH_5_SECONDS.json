@@ -1,7 +1,22 @@
 {
+  "progressive_state" : "House 12\/min calming + 60bpm | Evening ritual | Camera frost 38% | Tenderness emerging | Watching: We see duality",
+  "aspect_ratio" : "1:1",
+  "shot_metadata" : {
+    "title" : "EVENING FALLS - THE APPROACH 5 SECONDS",
+    "stitch_from" : "",
+    "sequence_type" : "main_story",
+    "id" : "50a",
+    "duration_seconds" : 5,
+    "narrative_function" : "House 12\/min calming + 60bpm | Evening ritual | Ca..."
+  },
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "is_active" : false,
+      "style" : "Following shot showing gentle approach (that's where the camera is), tenderness documented.",
+      "subject" : "[MAGNÃšS] setting down his cane by the door and approaching [SIGRID]'s sleeping platform, his tremor completely gone (0Hz), voice gentle: \"TÃ­mi til aÃ° sofa, elskan\" (Time to sleep, darling), the same voice that raged this morning now soft as lamb's wool.",
+      "camera_position" : "Following shot showing gentle approach",
+      "progressive_state" : "",
+      "variant_name" : "Primary - EVENING FALLS - THE APPROACH 5 SECONDS",
       "selected_plates" : [
         "MAGNUS-PREDATOR",
         "LILJA-SENSING",
@@ -9,27 +24,12 @@
         "GUDRUN-CONDEMNED",
         "STOFA-BODY"
       ],
-      "variant_name" : "Primary - EVENING FALLS - THE APPROACH 5 SECONDS",
-      "dialogue" : "(MagnÃºs, gentle): \"TÃ­mi til aÃ° sofa, elskan\" \"Vertu rÃ³leg\" (Be calm)",
-      "action" : "Evening light through frost - golden hour making everything soft. MagnÃºs places cane carefully by door, deliberate. Without it, his tremor stops - 0Hz. But 0Hz means two things: violence OR tenderness. Both use same stillness. Walks to Sigrid's platform, no threat in movement. Gentle. Father coming to say goodnight. She's arranging her sleeping area, maintaining 11 feet, but he approaches anyway. \"TÃ­mi til aÃ° sofa, elskan.\" Voice completely different - warm, caring. The voice from before Denmark, before isolation madness. Children watching, confused - is this the man who beat mother? Who sent her to die? But this is him too. Always has been. The duality IS the horror. Sigrid pulls feet up on platform, maintaining distance even lying down. But accepts his approach - what choice in isolation? He's father, protector, threat, future. All simultaneously.",
+      "is_active" : false,
       "scene" : "Evening interior, 7:30 PM (past sunset). Golden light through frost making everything soft. Cane abandoned showing different mode.",
-      "subject" : "[MAGNÃšS] setting down his cane by the door and approaching [SIGRID]'s sleeping platform, his tremor completely gone (0Hz), voice gentle: \"TÃ­mi til aÃ° sofa, elskan\" (Time to sleep, darling), the same voice that raged this morning now soft as lamb's wool.",
-      "progressive_state" : "",
-      "negative_prompt" : "",
-      "style" : "Following shot showing gentle approach (that's where the camera is), tenderness documented.",
+      "action" : "Evening light through frost - golden hour making everything soft. MagnÃºs places cane carefully by door, deliberate. Without it, his tremor stops - 0Hz. But 0Hz means two things: violence OR tenderness. Both use same stillness. Walks to Sigrid's platform, no threat in movement. Gentle. Father coming to say goodnight. She's arranging her sleeping area, maintaining 11 feet, but he approaches anyway. \"TÃ­mi til aÃ° sofa, elskan.\" Voice completely different - warm, caring. The voice from before Denmark, before isolation madness. Children watching, confused - is this the man who beat mother? Who sent her to die? But this is him too. Always has been. The duality IS the horror. Sigrid pulls feet up on platform, maintaining distance even lying down. But accepts his approach - what choice in isolation? He's father, protector, threat, future. All simultaneously.",
       "variant_id" : "50a_story_primary",
-      "camera_position" : "Following shot showing gentle approach"
+      "negative_prompt" : "",
+      "dialogue" : "(MagnÃºs, gentle): \"TÃ­mi til aÃ° sofa, elskan\" \"Vertu rÃ³leg\" (Be calm)"
     }
-  ],
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "1:1",
-  "progressive_state" : "House 12\/min calming + 60bpm | Evening ritual | Camera frost 38% | Tenderness emerging | Watching: We see duality",
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "stitch_from" : "",
-    "id" : "50a",
-    "duration_seconds" : 5,
-    "narrative_function" : "House 12\/min calming + 60bpm | Evening ritual | Ca...",
-    "title" : "EVENING FALLS - THE APPROACH 5 SECONDS"
-  }
+  ]
 }

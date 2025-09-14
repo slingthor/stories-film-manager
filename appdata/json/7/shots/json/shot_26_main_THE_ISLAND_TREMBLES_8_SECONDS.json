@@ -1,33 +1,33 @@
 {
+  "progressive_state" : "All systems disrupted | Parallel disaster felt | Camera frost 17.5% | Distance irrelevant | Watching: Mountains witness",
+  "aspect_ratio" : "4:3",
+  "shot_metadata" : {
+    "title" : "THE ISLAND TREMBLES 8 SECONDS",
+    "stitch_from" : "",
+    "sequence_type" : "main_story",
+    "id" : "26",
+    "duration_seconds" : 8,
+    "narrative_function" : "All systems disrupted | Parallel disaster felt | C..."
+  },
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "progressive_state" : "",
-      "dialogue" : "(MagnÃºs, feeling resonance): \"Sigrid... hvaÃ° gerÃ°ir Ã¾Ãº?\" (Sigrid... what did you do?) (To mountains): \"Ekki svara!\" (Don't answer!) (Realization): \"HÃºn kallaÃ°i Ã¡ Ã¾au Ã¶ll\" (She called them all)",
-      "variant_id" : "26_story_primary",
-      "variant_name" : "Primary - THE ISLAND TREMBLES 8 SECONDS",
-      "subject" : "[MAGNÃšS] collapsed in blood spiral 80 meters from house, suddenly feeling the 16Hz resonance through frozen ground - his bones becoming tuning forks, teeth chattering at impossible frequency, knowing without hearing that Sigrid's voice has become something else as the mountains return the call in avalanche tongues.",
-      "action" : "MagnÃºs on knees, recovering from aflausn debt. Ground suddenly vibrates - not earthquake but resonance through bedrock. 16Hz travels through frozen earth faster than air. His skeleton resonates: teeth chatter at 16Hz (impossible for muscle), ribs hum, spine becomes antenna. Looks back at house - smoke from chimney forms raven shape, dissipates, reforms. Windows glowing with light that shouldn't exist (lamp dead, but four landvÃ¦ttir's attention creates illumination). Tries to stand but resonance drops him. Mountains respond: East mountain sheds snow in controlled slide (Raven's acknowledgment). West mountain steams at peak (Bull's breathing). South mountain groans audibly (Giant's bones). North mountain stays silent but darker (Raven gathering). His tremor completely stops - 0Hz - the stillness more terrifying than shaking. In his mouth, taste of blood and metal. The boat behind him slides backward 5 feet, pulled by blood spirals toward house. Realizes: Sigrid did something irreversible.",
-      "scene" : "Halfway point, 6:40 AM but darkness despite sunrise. Temperature -28Â°C, breath freezing before exhaling. Blood spirals glowing faintly red. Mountains all responding differently.",
       "style" : "Wide shot showing MagnÃºs tiny against responding landscape, then close on his resonating body (that's where the camera is), documentary of distance irrelevance.",
+      "subject" : "[MAGNÃšS] collapsed in blood spiral 80 meters from house, suddenly feeling the 16Hz resonance through frozen ground - his bones becoming tuning forks, teeth chattering at impossible frequency, knowing without hearing that Sigrid's voice has become something else as the mountains return the call in avalanche tongues.",
       "camera_position" : "Wide shot showing MagnÃºs tiny against responding landscape, then close on his resonating body",
-      "is_active" : false,
+      "progressive_state" : "",
+      "variant_name" : "Primary - THE ISLAND TREMBLES 8 SECONDS",
       "selected_plates" : [
         "JON-TEMPORAL",
         "SIGRID-CORNERED",
         "WESTFJORDS-CLIFF"
       ],
-      "negative_prompt" : "no subtitles, show resonance through body, mountains responding, documentary observation"
+      "is_active" : false,
+      "scene" : "Halfway point, 6:40 AM but darkness despite sunrise. Temperature -28Â°C, breath freezing before exhaling. Blood spirals glowing faintly red. Mountains all responding differently.",
+      "action" : "MagnÃºs on knees, recovering from aflausn debt. Ground suddenly vibrates - not earthquake but resonance through bedrock. 16Hz travels through frozen earth faster than air. His skeleton resonates: teeth chatter at 16Hz (impossible for muscle), ribs hum, spine becomes antenna. Looks back at house - smoke from chimney forms raven shape, dissipates, reforms. Windows glowing with light that shouldn't exist (lamp dead, but four landvÃ¦ttir's attention creates illumination). Tries to stand but resonance drops him. Mountains respond: East mountain sheds snow in controlled slide (Raven's acknowledgment). West mountain steams at peak (Bull's breathing). South mountain groans audibly (Giant's bones). North mountain stays silent but darker (Raven gathering). His tremor completely stops - 0Hz - the stillness more terrifying than shaking. In his mouth, taste of blood and metal. The boat behind him slides backward 5 feet, pulled by blood spirals toward house. Realizes: Sigrid did something irreversible.",
+      "variant_id" : "26_story_primary",
+      "negative_prompt" : "no subtitles, show resonance through body, mountains responding, documentary observation",
+      "dialogue" : "(MagnÃºs, feeling resonance): \"Sigrid... hvaÃ° gerÃ°ir Ã¾Ãº?\" (Sigrid... what did you do?) (To mountains): \"Ekki svara!\" (Don't answer!) (Realization): \"HÃºn kallaÃ°i Ã¡ Ã¾au Ã¶ll\" (She called them all)"
     }
-  ],
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "All systems disrupted | Parallel disaster felt | Camera frost 17.5% | Distance irrelevant | Watching: Mountains witness",
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "stitch_from" : "",
-    "id" : "26",
-    "duration_seconds" : 8,
-    "narrative_function" : "All systems disrupted | Parallel disaster felt | C...",
-    "title" : "THE ISLAND TREMBLES 8 SECONDS"
-  }
+  ]
 }

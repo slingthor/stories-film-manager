@@ -1,32 +1,32 @@
 {
+  "progressive_state" : "Path home | Following patterns | Camera frost 35% | Transformation evident | Watching: House waiting",
+  "aspect_ratio" : "4:3",
+  "shot_metadata" : {
+    "title" : "WALKING THROUGH BLOOD SPIRALS 6 SECONDS",
+    "stitch_from" : "",
+    "sequence_type" : "main_story",
+    "id" : "47b",
+    "duration_seconds" : 6,
+    "narrative_function" : "Path home | Following patterns | Camera frost 35% ..."
+  },
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "is_active" : false,
+      "style" : "Aerial following shot showing pattern completion (that's where the camera is), documenting spiral fate.",
+      "subject" : "Aerial shot following [GUÃRÃšN] walking through the blood spiral patterns, her path creating the sixth line, but now her own blood from torn wrists adding to the pattern, creating second layer of red on snow, while her faldbÃºningur headdress has frozen into ice crown.",
+      "camera_position" : "Aerial following shot showing pattern completion",
+      "progressive_state" : "",
+      "variant_name" : "Primary - WALKING THROUGH BLOOD SPIRALS 6 SECONDS",
       "selected_plates" : [
         "SIGRID-CORNERED",
         "WESTFJORDS-CLIFF"
       ],
-      "variant_name" : "Primary - WALKING THROUGH BLOOD SPIRALS 6 SECONDS",
-      "dialogue" : "None - just breath patterns changing",
-      "action" : "AERIAL SHOT, 20 meters high, following her. She walks the exact spiral path, feet finding her earlier footprints. But now bleeding - wrists where wool emerged won't close, drops every few steps. Her blood darker than MagnÃºs's frozen blood beneath. Two reds visible from above. Pattern deepening: five original spirals, her path making sixth, her blood creating shadow pattern. FaldbÃºningur completely frozen, ice crystals forming crown shape, weighing head down but she doesn't remove it. From above: she looks like chess piece moving through board pattern. House visible ahead, smoke black not grey - something burning inside. Her breathing visible as white column rising. But breath rate changing: was 11\/min synchronized, now shifting, unstable - 11... 13... 9... 15 (Sigrid's rate)... 11. Can't maintain synchronization alone. Body forgetting how to be livestock. Remembering how to be individual. Even though \"DAUÃUR\" pronounced.",
+      "is_active" : false,
       "scene" : "Blood spiral field between shore and house. Her small figure crossing pattern. House 200 meters ahead.",
-      "subject" : "Aerial shot following [GUÃRÃšN] walking through the blood spiral patterns, her path creating the sixth line, but now her own blood from torn wrists adding to the pattern, creating second layer of red on snow, while her faldbÃºningur headdress has frozen into ice crown.",
-      "progressive_state" : "",
-      "negative_prompt" : "",
-      "style" : "Aerial following shot showing pattern completion (that's where the camera is), documenting spiral fate.",
+      "action" : "AERIAL SHOT, 20 meters high, following her. She walks the exact spiral path, feet finding her earlier footprints. But now bleeding - wrists where wool emerged won't close, drops every few steps. Her blood darker than MagnÃºs's frozen blood beneath. Two reds visible from above. Pattern deepening: five original spirals, her path making sixth, her blood creating shadow pattern. FaldbÃºningur completely frozen, ice crystals forming crown shape, weighing head down but she doesn't remove it. From above: she looks like chess piece moving through board pattern. House visible ahead, smoke black not grey - something burning inside. Her breathing visible as white column rising. But breath rate changing: was 11\/min synchronized, now shifting, unstable - 11... 13... 9... 15 (Sigrid's rate)... 11. Can't maintain synchronization alone. Body forgetting how to be livestock. Remembering how to be individual. Even though \"DAUÃUR\" pronounced.",
       "variant_id" : "47b_story_primary",
-      "camera_position" : "Aerial following shot showing pattern completion"
+      "negative_prompt" : "",
+      "dialogue" : "None - just breath patterns changing"
     }
-  ],
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Path home | Following patterns | Camera frost 35% | Transformation evident | Watching: House waiting",
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "stitch_from" : "",
-    "id" : "47b",
-    "duration_seconds" : 6,
-    "narrative_function" : "Path home | Following patterns | Camera frost 35% ...",
-    "title" : "WALKING THROUGH BLOOD SPIRALS 6 SECONDS"
-  }
+  ]
 }
