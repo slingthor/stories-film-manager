@@ -1,5 +1,7 @@
 import SwiftUI
 import Combine
+import UniformTypeIdentifiers
+import AVFoundation
 
 struct ComprehensivePromptEditor: View {
     let shot: FilmShot?
@@ -225,25 +227,27 @@ struct ComprehensivePromptEditor: View {
                                     .font(.headline)
                                     .foregroundColor(.orange)
 
-                                Text("Current variant: \(variant.name)")
+                                let currentVariant = shot.promptVariants[shot.selectedPromptIndex]
+
+                                Text("Current variant: \(currentVariant.name)")
                                     .font(.caption)
                                     .foregroundColor(.secondary)
 
                                 // Variant videos
-                                if !variant.videos.isEmpty {
+                                if !currentVariant.videos.isEmpty {
                                     VStack(alignment: .leading, spacing: 4) {
-                                        Text("Variant Videos (\(variant.videos.count))")
+                                        Text("Variant Videos (\(currentVariant.videos.count))")
                                             .font(.caption)
                                             .fontWeight(.medium)
 
-                                        ForEach(Array(variant.videos.enumerated()), id: \.element.id) { index, video in
+                                        ForEach(Array(currentVariant.videos.enumerated()), id: \.element.id) { index, video in
                                             HStack {
-                                                Image(systemName: variant.activeVideoIndex == index ? "checkmark.circle.fill" : "circle")
-                                                    .foregroundColor(variant.activeVideoIndex == index ? .green : .gray)
+                                                Image(systemName: currentVariant.activeVideoIndex == index ? "checkmark.circle.fill" : "circle")
+                                                    .foregroundColor(currentVariant.activeVideoIndex == index ? .green : .gray)
                                                     .onTapGesture {
-                                                        variant.setActiveVideo(at: index)
+                                                        currentVariant.setActiveVideo(at: index)
                                                         filmManager.fileManager.saveShot(shot)
-                                                        if variant.isActive {
+                                                        if currentVariant.isActive {
                                                             filmManager.updateTimelineFromSelectedVideos()
                                                         }
                                                     }
@@ -259,7 +263,7 @@ struct ComprehensivePromptEditor: View {
                                                     .foregroundColor(.secondary)
 
                                                 Button(action: {
-                                                    variant.removeVideo(at: index)
+                                                    currentVariant.removeVideo(at: index)
                                                     filmManager.fileManager.saveShot(shot)
                                                 }) {
                                                     Image(systemName: "trash")
@@ -270,7 +274,7 @@ struct ComprehensivePromptEditor: View {
                                             }
                                             .padding(.horizontal, 8)
                                             .padding(.vertical, 2)
-                                            .background(variant.activeVideoIndex == index ? Color.green.opacity(0.1) : Color.clear)
+                                            .background(currentVariant.activeVideoIndex == index ? Color.green.opacity(0.1) : Color.clear)
                                             .cornerRadius(4)
                                         }
                                     }
@@ -286,7 +290,7 @@ struct ComprehensivePromptEditor: View {
 
                                         ForEach(shot.videos, id: \.id) { video in
                                             HStack {
-                                                let isInVariant = variant.videos.contains(where: { $0.filepath == video.filepath })
+                                                let isInVariant = currentVariant.videos.contains(where: { $0.filepath == video.filepath })
 
                                                 Image(systemName: isInVariant ? "checkmark.square.fill" : "plus.square")
                                                     .foregroundColor(isInVariant ? .gray : .blue)
@@ -300,7 +304,7 @@ struct ComprehensivePromptEditor: View {
 
                                                 if !isInVariant {
                                                     Button("Add to Variant") {
-                                                        variant.addVideo(video)
+                                                        currentVariant.addVideo(video)
                                                         filmManager.fileManager.saveShot(shot)
                                                     }
                                                     .font(.caption)
@@ -333,7 +337,7 @@ struct ComprehensivePromptEditor: View {
                                         .stroke(Color.gray.opacity(0.3), style: StrokeStyle(lineWidth: 1, dash: [4]))
                                 )
                                 .onDrop(of: [.fileURL], isTargeted: .constant(false)) { providers in
-                                    handleVariantDrop(providers: providers, variant: variant, shot: shot)
+                                    handleVariantDrop(providers: providers, variant: currentVariant, shot: shot)
                                     return true
                                 }
                             }

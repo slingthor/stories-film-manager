@@ -898,18 +898,16 @@ struct PromptImageThumbnail: View {
 
     var body: some View {
         VStack(spacing: 2) {
-            RoundedRectangle(cornerRadius: 3)
-                .fill(Color.gray.opacity(0.2))
-                .frame(width: 40, height: 40)
-                .overlay(
-                    Image(systemName: "photo")
-                        .font(.caption2)
-                        .foregroundColor(.gray)
-                )
-                .overlay(
-                    RoundedRectangle(cornerRadius: 3)
-                        .stroke(isHovered ? Color.blue : Color.clear, lineWidth: 1)
-                )
+            // Use ImageThumbnailView with hover preview
+            ImageThumbnailView(
+                imagePath: image.filepath,
+                size: CGSize(width: 40, height: 40),
+                enableHoverPreview: true
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 3)
+                    .stroke(isHovered ? Color.blue : Color.clear, lineWidth: 1)
+            )
 
             Text(image.filename)
                 .font(.caption2)
@@ -1290,43 +1288,42 @@ struct ImageThumbnail: View {
     @Binding var draggedMediaType: String?
     @Binding var draggedMediaPath: String?
     @State private var isHovered = false
-    
+
     var body: some View {
         VStack(spacing: 2) {
-            RoundedRectangle(cornerRadius: 4)
-                .fill(Color.gray.opacity(0.2))
-                .frame(width: 60, height: 60)
-                .overlay(
-                    Image(systemName: "photo")
-                        .foregroundColor(.gray)
-                )
-                .overlay(
-                    RoundedRectangle(cornerRadius: 4)
-                        .stroke(isHovered ? Color.blue : Color.clear, lineWidth: 2)
-                )
-                .overlay(
-                    // Action buttons on hover
-                    Group {
-                        if isHovered {
-                            VStack {
-                                HStack {
-                                    Spacer()
-                                    Button(action: onShowInFinder) {
-                                        Image(systemName: "folder")
-                                            .font(.caption2)
-                                            .padding(2)
-                                            .background(Color.black.opacity(0.5))
-                                            .cornerRadius(2)
-                                    }
-                                    .buttonStyle(PlainButtonStyle())
-                                }
+            // Use ImageThumbnailView with hover preview
+            ImageThumbnailView(
+                imagePath: image.filepath,
+                size: CGSize(width: 60, height: 60),
+                enableHoverPreview: true
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 4)
+                    .stroke(isHovered ? Color.blue : Color.clear, lineWidth: 2)
+            )
+            .overlay(
+                // Action buttons on hover
+                Group {
+                    if isHovered {
+                        VStack {
+                            HStack {
                                 Spacer()
+                                Button(action: onShowInFinder) {
+                                    Image(systemName: "folder")
+                                        .font(.caption2)
+                                        .padding(2)
+                                        .background(Color.black.opacity(0.5))
+                                        .cornerRadius(2)
+                                }
+                                .buttonStyle(PlainButtonStyle())
                             }
-                            .padding(2)
+                            Spacer()
                         }
+                        .padding(2)
                     }
-                )
-            
+                }
+            )
+
             Text(image.filename)
                 .font(.caption2)
                 .lineLimit(1)
