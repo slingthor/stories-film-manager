@@ -1,33 +1,33 @@
 {
-  "progressive_state" : "Paradise dies | Memory crystallizing | Camera frost 15% | Winter arriving | Watching: Everything stops",
-  "aspect_ratio" : "1.85:1",
-  "shot_metadata" : {
-    "title" : "THE LANDSCAPE FREEZES",
-    "stitch_from" : "",
-    "sequence_type" : "prologue",
-    "id" : "21",
-    "duration_seconds" : 8,
-    "narrative_function" : "Paradise dies | Memory crystallizing | Camera fros..."
-  },
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "is_active" : false,
-      "dialogue" : "(Sigrid's voice, distant but clear): \"Krummi svaf Ã­ klettagjÃ¡...\"",
-      "variant_id" : "21_story_primary",
-      "scene" : "Entire landscape from 500 feet up. Everything freezing rapidly. Stars and red aurora appearing. Sigrid tiny below.",
-      "progressive_state" : "",
-      "style" : "Aerial pullback showing full transformation (that's where the camera is), landscape dying, ice spreading everywhere.",
       "camera_position" : "Aerial pullback showing full transformation",
+      "variant_id" : "21_story_primary",
+      "style" : "Aerial pullback showing full transformation (that's where the camera is), landscape dying, ice spreading everywhere.",
+      "variant_name" : "Primary - THE LANDSCAPE FREEZES",
+      "dialogue" : "(Sigrid's voice, distant but clear): \"Krummi svaf Ã­ klettagjÃ¡...\"",
       "action" : "Camera rises from Sigrid, pulling back. Feast tables below now empty except for her. Food turned to black rot. Tables collapsed. Rising higher - ocean beginning to freeze, ice spreading from shore outward like reaching fingers. Berry hills turn white, purple juice freezing into dark veins in snow. Whale on beach freezes solid, blood pool now red ice. Sheep in stone pen stand frozen mid-movement, become white statues. Higher still - entire peninsula visible. Green summer grass turns brown, then white with frost. The pole on headland freezes, cracks, falls. Three terrains no longer pulsing. Everything still. Dead. Only movement is Sigrid below, tiny figure still standing, still singing. Her voice carries impossibly far in frozen air. Stars above too bright, too many. Sky wrong color - purple-black. Northern lights begin but they're red, not green.",
       "subject" : "Aerial view pulling back showing entire landscape transforming, ocean turning black ice, berry hills white with snow, whale carcass freezing solid, while Sigrid's song continues as only sound.",
+      "progressive_state" : "",
+      "scene" : "Entire landscape from 500 feet up. Everything freezing rapidly. Stars and red aurora appearing. Sigrid tiny below.",
+      "is_active" : false,
+      "negative_prompt" : "no subtitles, show ice spreading, landscape dying, red northern lights, 1080p",
       "selected_plates" : [
         "JON-TEMPORAL",
         "SIGRID-CORNERED",
         "WESTFJORDS-CLIFF"
-      ],
-      "negative_prompt" : "no subtitles, show ice spreading, landscape dying, red northern lights, 1080p",
-      "variant_name" : "Primary - THE LANDSCAPE FREEZES"
+      ]
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "duration_seconds" : 8,
+    "title" : "THE LANDSCAPE FREEZES",
+    "sequence_type" : "prologue",
+    "narrative_function" : "Paradise dies | Memory crystallizing | Camera fros...",
+    "id" : "21",
+    "stitch_from" : ""
+  },
+  "progressive_state" : "Paradise dies | Memory crystallizing | Camera frost 15% | Winter arriving | Watching: Everything stops",
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "1.85:1"
 }

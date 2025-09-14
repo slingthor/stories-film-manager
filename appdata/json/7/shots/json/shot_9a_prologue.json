@@ -1,32 +1,32 @@
 {
-  "progressive_state" : "Time collapses | Paradise ending | Camera frost 5% | Day racing away | Watching: The fall begins",
-  "aspect_ratio" : "1.85:1",
-  "shot_metadata" : {
-    "title" : "The Sun Breaks Free - Time Collapse",
-    "stitch_from" : "",
-    "sequence_type" : "prologue",
-    "id" : "9a",
-    "duration_seconds" : 8,
-    "narrative_function" : "Time acceleration destroying false abundance"
-  },
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "is_active" : false,
-      "dialogue" : "None",
-      "variant_id" : "9a_story_primary",
-      "scene" : "Feast tables with sun racing across sky. Light changing rapidly. Frost forming. Searchlight still on but overwhelmed.",
-      "progressive_state" : "",
-      "style" : "Wide shot showing sun movement and shadow sweep (that's where the camera is), time-lapse feeling but real-time.",
       "camera_position" : "Wide shot showing temporal acceleration effects, that's where the camera is",
+      "variant_id" : "9a_story_primary",
+      "style" : "Wide shot showing sun movement and shadow sweep (that's where the camera is), time-lapse feeling but real-time.",
+      "variant_name" : "Temporal Acceleration Collapse",
+      "dialogue" : "None",
       "action" : "Sun breaks from frozen position. Drops 10 degrees in one second. Shadows from tables suddenly swing eastward, moving like clock hands. Golden light shifts orange. Everyone still frozen at tables but shadows moving around them. Sun drops another 10 degrees. Light turns deep red. Food on tables changes - whale meat darkening, berries shriveling, eggs turning grey. Sun continues plummet. Sky shifts red to purple. Temperature drops - breath becomes visible from everyone simultaneously, white clouds in purple air. Frost forms on table edges, spreading inward. Purple juice in cups freezes, expanding, some cups cracking. Sun nearly at horizon now. Moving faster. The searchlight still locked on feast but overwhelmed by dying natural light. Children begin shivering. Adults don't move. Sun touches horizon. Pauses one second. Then drops below. Darkness rushing in from edges of frame.",
       "subject" : "The sun suddenly dropping toward horizon in accelerated motion, shadows sweeping across feast tables like black water, golden light dying to orange to red to purple in seconds, temperature dropping visibly as breath becomes white vapor.",
+      "progressive_state" : "",
+      "scene" : "Feast tables with sun racing across sky. Light changing rapidly. Frost forming. Searchlight still on but overwhelmed.",
+      "is_active" : false,
+      "negative_prompt" : "no subtitles, show sun dropping rapidly, shadows sweeping, frost forming, breath visible, 1080p",
       "selected_plates" : [
         "LILJA-MATHEMATICAL",
         "SEA-EXTRACTED"
-      ],
-      "negative_prompt" : "no subtitles, show sun dropping rapidly, shadows sweeping, frost forming, breath visible, 1080p",
-      "variant_name" : "Temporal Acceleration Collapse"
+      ]
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "duration_seconds" : 8,
+    "title" : "The Sun Breaks Free - Time Collapse",
+    "sequence_type" : "prologue",
+    "narrative_function" : "Time acceleration destroying false abundance",
+    "id" : "9a",
+    "stitch_from" : ""
+  },
+  "progressive_state" : "Time collapses | Paradise ending | Camera frost 5% | Day racing away | Watching: The fall begins",
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "1.85:1"
 }

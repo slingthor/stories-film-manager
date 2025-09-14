@@ -1,33 +1,33 @@
 {
-  "progressive_state" : "House 20\/min angry + 80bpm | Bergrisi protecting | Camera frost 37% | Giant intervening | Watching: House chooses side",
-  "aspect_ratio" : "1:1",
-  "shot_metadata" : {
-    "title" : "THE HOUSE RESPONDS - BEAMS GROAN 5 SECONDS",
-    "stitch_from" : "",
-    "sequence_type" : "main_story",
-    "id" : "49b",
-    "duration_seconds" : 5,
-    "narrative_function" : "House 20\/min angry + 80bpm | Bergrisi protecting |..."
-  },
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "style" : "Tilt up revealing house resistance (that's where the camera is), giant's protection documented.",
-      "subject" : "The three ceiling beams suddenly groaning and flexing downward like ribs breathing, dust cascading, the house itself warning [MAGNÃšS] away from [SIGRID], but he's too focused on his inspection to notice the giant's intervention.",
+      "negative_prompt" : "",
+      "scene" : "Interior, beams visible flexing. Dust thick in air. Floor softening. House actively resisting.",
+      "action" : "As MagnÃºs continues inspection, house responds. TILT UP to ceiling beams. All three flex simultaneously - not from weight but muscular contraction. Like ribs. Pink tissue visible through wood for split second. Dust cascades. One beam CRACKS audibly, sound like breaking bone. MagnÃºs should notice but doesn't - madness and focus blind him. Beams flex again, more pronounced. House breathing hits 20\/min, hyperventilating. Trying to speak but only groans emerge. \"VITNI\" on wall glows slightly - the witness must survive. Floor beneath MagnÃºs becomes soft, warm, trying to swallow his feet. But he's examining Sigrid's belly, checking pregnancy progression. Calculating months until she can replace mother. The isolation math: one woman dies, daughter becomes wife. No one to say it's wrong. 40 miles to civilization. But house says it's wrong. Beams flex third time. Splinter appears. If they break, ceiling collapses.",
       "camera_position" : "Tilt up revealing house resistance",
-      "progressive_state" : "",
       "variant_name" : "Primary - THE HOUSE RESPONDS - BEAMS GROAN 5 SECONDS",
+      "dialogue" : "(House\/Bergrisi): Groaning at 16Hz, felt not heard (MagnÃºs, oblivious): \"FjÃ³rir mÃ¡nuÃ°ir? Fimm?\"",
+      "progressive_state" : "",
       "selected_plates" : [
         "SIGRID-CORNERED",
         "GUDRUN-CONDEMNED",
         "STOFA-BODY"
       ],
-      "is_active" : false,
-      "scene" : "Interior, beams visible flexing. Dust thick in air. Floor softening. House actively resisting.",
-      "action" : "As MagnÃºs continues inspection, house responds. TILT UP to ceiling beams. All three flex simultaneously - not from weight but muscular contraction. Like ribs. Pink tissue visible through wood for split second. Dust cascades. One beam CRACKS audibly, sound like breaking bone. MagnÃºs should notice but doesn't - madness and focus blind him. Beams flex again, more pronounced. House breathing hits 20\/min, hyperventilating. Trying to speak but only groans emerge. \"VITNI\" on wall glows slightly - the witness must survive. Floor beneath MagnÃºs becomes soft, warm, trying to swallow his feet. But he's examining Sigrid's belly, checking pregnancy progression. Calculating months until she can replace mother. The isolation math: one woman dies, daughter becomes wife. No one to say it's wrong. 40 miles to civilization. But house says it's wrong. Beams flex third time. Splinter appears. If they break, ceiling collapses.",
+      "subject" : "The three ceiling beams suddenly groaning and flexing downward like ribs breathing, dust cascading, the house itself warning [MAGNÃšS] away from [SIGRID], but he's too focused on his inspection to notice the giant's intervention.",
       "variant_id" : "49b_story_primary",
-      "negative_prompt" : "",
-      "dialogue" : "(House\/Bergrisi): Groaning at 16Hz, felt not heard (MagnÃºs, oblivious): \"FjÃ³rir mÃ¡nuÃ°ir? Fimm?\""
+      "style" : "Tilt up revealing house resistance (that's where the camera is), giant's protection documented.",
+      "is_active" : false
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "duration_seconds" : 5,
+    "title" : "THE HOUSE RESPONDS - BEAMS GROAN 5 SECONDS",
+    "sequence_type" : "main_story",
+    "narrative_function" : "House 20\/min angry + 80bpm | Bergrisi protecting |...",
+    "id" : "49b",
+    "stitch_from" : ""
+  },
+  "progressive_state" : "House 20\/min angry + 80bpm | Bergrisi protecting | Camera frost 37% | Giant intervening | Watching: House chooses side",
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "1:1"
 }

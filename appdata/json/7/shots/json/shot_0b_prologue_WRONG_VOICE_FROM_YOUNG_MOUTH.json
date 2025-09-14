@@ -1,32 +1,32 @@
 {
-  "progressive_state" : "Curse spoken | Voice stolen | Camera frost flickers 2% | Memory fracture | Watching: Time breaks",
-  "aspect_ratio" : "1.85:1",
-  "shot_metadata" : {
-    "title" : "WRONG VOICE FROM YOUNG MOUTH",
-    "stitch_from" : "",
-    "sequence_type" : "prologue",
-    "id" : "0b",
-    "duration_seconds" : 8,
-    "narrative_function" : "Curse spoken | Voice stolen | Camera frost flicker..."
-  },
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "selected_plates" : [
-        "SIGRID-CORNERED",
-        "SEA-BATTLE"
-      ],
-      "progressive_state" : "",
+      "camera_position" : "Medium shot facing Sigrid directly, camera at her eye level 10 feet away",
+      "variant_id" : "0b_story_primary",
       "style" : "Medium shot facing Sigrid directly, camera at her eye level 10 feet away (that's where the camera is), static locked shot, no movement.",
-      "is_active" : false,
       "variant_name" : "Primary - WRONG VOICE FROM YOUNG MOUTH",
-      "negative_prompt" : "no subtitles, show mouth movements matching male voice, three-color hand stain, frost spreading, 1080p",
       "dialogue" : "(Young female mouth moving, old male voice): \"Krummi svaf Ã­ klettagjÃ¡, kaldri vetrarnÃ³ttu Ã¡\"",
       "action" : "Sigrid stands 3 feet from pole, perfectly still. White dress hangs straight down - no wind. She opens mouth, lips form the words \"Krummi svaf Ã­ klettagjÃ¡.\" Deep male voice emerges from her throat - bass tone, elderly sound. Her lips continue moving, perfectly forming each syllable. Eyes never leave camera lens. Behind her, three whale spouts rise from ocean - water shoots up 20 feet. She continues singing, mouth moving: \"kaldri vetrarnÃ³ttu Ã¡.\" Frost forms on grass around her feet, spreading outward in circle, white crystals despite summer. Her right hand reaches out, touches pole. When hand pulls away, palm is stained - red thumb, purple fingers, gold wrist. She looks at stained hand while mouth continues moving, male voice continuing. Dress hem turns purple where it touches frosted grass.",
       "subject" : "[SIGRID] 16 years old with wheat-blonde hair in white linen dress standing beside the pole, opening her mouth to sing, lips moving to form Icelandic words, but deep male voice emerges while her eyes look directly at camera.",
+      "progressive_state" : "",
       "scene" : "Beside pole on headland. Ocean behind with whale spouts. Morning sun horizontal. Grass turning white with frost in 6-foot circle around her. Clear sky.",
-      "variant_id" : "0b_story_primary",
-      "camera_position" : "Medium shot facing Sigrid directly, camera at her eye level 10 feet away"
+      "is_active" : false,
+      "negative_prompt" : "no subtitles, show mouth movements matching male voice, three-color hand stain, frost spreading, 1080p",
+      "selected_plates" : [
+        "SIGRID-CORNERED",
+        "SEA-BATTLE"
+      ]
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "duration_seconds" : 8,
+    "title" : "WRONG VOICE FROM YOUNG MOUTH",
+    "sequence_type" : "prologue",
+    "narrative_function" : "Curse spoken | Voice stolen | Camera frost flicker...",
+    "id" : "0b",
+    "stitch_from" : ""
+  },
+  "progressive_state" : "Curse spoken | Voice stolen | Camera frost flickers 2% | Memory fracture | Watching: Time breaks",
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "1.85:1"
 }

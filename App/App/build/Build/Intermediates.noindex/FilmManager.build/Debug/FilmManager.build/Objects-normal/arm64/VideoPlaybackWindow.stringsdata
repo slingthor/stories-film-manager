@@ -7,7 +7,15 @@
         "key": "Video Playback",
         "location": {
           "startingColumn": 26,
-          "startingLine": 34
+          "startingLine": 22
+        }
+      },
+      {
+        "comment": "",
+        "key": "Loading...",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 31
         }
       },
       {
@@ -15,7 +23,7 @@
         "key": "No Shot Selected",
         "location": {
           "startingColumn": 30,
-          "startingLine": 72
+          "startingLine": 46
         }
       },
       {
@@ -23,15 +31,7 @@
         "key": "Shot: %@ - %@",
         "location": {
           "startingColumn": 30,
-          "startingLine": 61
-        }
-      },
-      {
-        "comment": "",
-        "key": "Return to Timeline",
-        "location": {
-          "startingColumn": 36,
-          "startingLine": 65
+          "startingLine": 42
         }
       }
     ]

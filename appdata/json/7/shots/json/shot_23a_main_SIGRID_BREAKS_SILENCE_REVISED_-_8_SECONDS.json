@@ -1,21 +1,6 @@
 {
-  "progressive_state" : "House 8\/min + 50bpm slowing | Ritual beginning | Camera frost 14% | First words | Watching: House holds breath",
-  "aspect_ratio" : "4:3",
-  "shot_metadata" : {
-    "title" : "SIGRID BREAKS SILENCE REVISED - 8 SECONDS",
-    "stitch_from" : "",
-    "sequence_type" : "main_story",
-    "id" : "23a",
-    "duration_seconds" : 8,
-    "narrative_function" : "House 8\/min + 50bpm slowing | Ritual beginning | C..."
-  },
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "style" : "Close on Sigrid's face as silence breaks, pull back to show materials (that's where the camera is), documentary of threshold moment.",
-      "subject" : "[SIGRID] kneeling before the contaminated materials, opening grandmother's forbidden book with trembling hands, her 16-year-old voice speaking aloud for the first time since MagnÃºs left - clear and high, like glass breaking: \"Ã‰g verÃ° aÃ° bjarga barninu\" (I must save the child).",
-      "camera_position" : "Close on Sigrid's face as silence breaks, pull back to show materials",
-      "progressive_state" : "",
       "variant_name" : "Primary - SIGRID BREAKS SILENCE REVISED - 8 SECONDS",
       "selected_plates" : [
         "LILJA-SENSING",
@@ -23,12 +8,27 @@
         "GUDRUN-CONDEMNED",
         "STOFA-BODY"
       ],
+      "style" : "Close on Sigrid's face as silence breaks, pull back to show materials (that's where the camera is), documentary of threshold moment.",
+      "progressive_state" : "",
+      "dialogue" : "(Sigrid, breaking silence): \"Ã‰g verÃ° aÃ° bjarga barninu\" (Reading): \"Tilberi, tilberi...\" (GuÃ°rÃºn, shocked): Sharp inhale, no words",
       "is_active" : false,
-      "scene" : "Interior, 6:35 AM, trawler light every 20 seconds. Temperature -15Â°C. Grandmother's corner with forbidden books, Christian crosses failing to hide pagan symbols underneath. Materials arranged but wrong - industrial mixing with organic.",
       "action" : "Sigrid arranges materials in final pattern: sheep rib north-south, industrial rope coiled beside it, brass button at center, wool in handful. Opens book - pages yellow, some Danish replacing Old Norse, water damage making words swim. Her hand protective on belly, feeling movement - baby responding to mother's voice. Traces finger along first line of incantation. Takes breath, breaks her silence: \"Ã‰g verÃ° aÃ° bjarga barninu.\" Voice young, desperate, but clear. Years of enforced silence breaking like dam. GuÃ°rÃºn's head snaps up, shocked to hear daughter speak. Empty clothes lean forward. House breathing catches, holds at inhale. Through window, trawler beam passes, illuminating her face - determination and terror mixed. Book shows illustration: tilberi creature suckling, but margins have industrial additions - gears, pipes, contamination even in drawings.",
       "variant_id" : "23a_story_primary",
+      "scene" : "Interior, 6:35 AM, trawler light every 20 seconds. Temperature -15Â°C. Grandmother's corner with forbidden books, Christian crosses failing to hide pagan symbols underneath. Materials arranged but wrong - industrial mixing with organic.",
       "negative_prompt" : "",
-      "dialogue" : "(Sigrid, breaking silence): \"Ã‰g verÃ° aÃ° bjarga barninu\" (Reading): \"Tilberi, tilberi...\" (GuÃ°rÃºn, shocked): Sharp inhale, no words"
+      "subject" : "[SIGRID] kneeling before the contaminated materials, opening grandmother's forbidden book with trembling hands, her 16-year-old voice speaking aloud for the first time since MagnÃºs left - clear and high, like glass breaking: \"Ã‰g verÃ° aÃ° bjarga barninu\" (I must save the child).",
+      "camera_position" : "Close on Sigrid's face as silence breaks, pull back to show materials"
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "duration_seconds" : 8,
+    "title" : "SIGRID BREAKS SILENCE REVISED - 8 SECONDS",
+    "sequence_type" : "main_story",
+    "narrative_function" : "House 8\/min + 50bpm slowing | Ritual beginning | C...",
+    "id" : "23a",
+    "stitch_from" : ""
+  },
+  "progressive_state" : "House 8\/min + 50bpm slowing | Ritual beginning | Camera frost 14% | First words | Watching: House holds breath",
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3"
 }

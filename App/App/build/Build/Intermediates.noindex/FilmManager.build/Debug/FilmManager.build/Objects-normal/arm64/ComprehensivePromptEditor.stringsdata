@@ -7,7 +7,7 @@
         "key": "SHOT %@",
         "location": {
           "startingColumn": 30,
-          "startingLine": 20
+          "startingLine": 21
         }
       },
       {
@@ -15,7 +15,7 @@
         "key": "Aspect Ratio:",
         "location": {
           "startingColumn": 34,
-          "startingLine": 28
+          "startingLine": 29
         }
       },
       {
@@ -23,7 +23,7 @@
         "key": "Aspect",
         "location": {
           "startingColumn": 36,
-          "startingLine": 30
+          "startingLine": 31
         }
       },
       {
@@ -31,7 +31,7 @@
         "key": "16:9",
         "location": {
           "startingColumn": 38,
-          "startingLine": 34
+          "startingLine": 35
         }
       },
       {
@@ -39,7 +39,7 @@
         "key": "1.85:1",
         "location": {
           "startingColumn": 38,
-          "startingLine": 35
+          "startingLine": 36
         }
       },
       {
@@ -47,7 +47,7 @@
         "key": "4:3",
         "location": {
           "startingColumn": 38,
-          "startingLine": 36
+          "startingLine": 37
         }
       },
       {
@@ -55,7 +55,7 @@
         "key": "1:1",
         "location": {
           "startingColumn": 38,
-          "startingLine": 37
+          "startingLine": 38
         }
       },
       {
@@ -63,7 +63,7 @@
         "key": "2.39:1",
         "location": {
           "startingColumn": 38,
-          "startingLine": 38
+          "startingLine": 39
         }
       },
       {
@@ -71,20 +71,12 @@
         "key": "Position: %lld%%",
         "location": {
           "startingColumn": 30,
-          "startingLine": 50
-        }
-      },
-      {
-        "comment": "",
-        "key": "•",
-        "location": {
-          "startingColumn": 30,
           "startingLine": 51
         }
       },
       {
         "comment": "",
-        "key": "Duration: %llds",
+        "key": "•",
         "location": {
           "startingColumn": 30,
           "startingLine": 52
@@ -92,7 +84,7 @@
       },
       {
         "comment": "",
-        "key": "•",
+        "key": "Duration: %llds",
         "location": {
           "startingColumn": 30,
           "startingLine": 53
@@ -100,7 +92,7 @@
       },
       {
         "comment": "",
-        "key": "Sequence: %@",
+        "key": "•",
         "location": {
           "startingColumn": 30,
           "startingLine": 54
@@ -108,7 +100,7 @@
       },
       {
         "comment": "",
-        "key": "•",
+        "key": "Sequence: %@",
         "location": {
           "startingColumn": 30,
           "startingLine": 55
@@ -116,7 +108,7 @@
       },
       {
         "comment": "",
-        "key": "Variants: %lld",
+        "key": "•",
         "location": {
           "startingColumn": 30,
           "startingLine": 56
@@ -124,10 +116,18 @@
       },
       {
         "comment": "",
+        "key": "Variants: %lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
         "key": "●",
         "location": {
           "startingColumn": 38,
-          "startingLine": 62
+          "startingLine": 63
         }
       },
       {
@@ -135,7 +135,7 @@
         "key": "Modified",
         "location": {
           "startingColumn": 38,
-          "startingLine": 64
+          "startingLine": 65
         }
       },
       {
@@ -143,7 +143,7 @@
         "key": "Copy current prompt variant",
         "location": {
           "startingColumn": 27,
-          "startingLine": 114
+          "startingLine": 115
         }
       },
       {
@@ -151,7 +151,7 @@
         "key": "★",
         "location": {
           "startingColumn": 50,
-          "startingLine": 87
+          "startingLine": 88
         }
       },
       {
@@ -159,7 +159,7 @@
         "key": "Media Assets",
         "location": {
           "startingColumn": 39,
-          "startingLine": 223
+          "startingLine": 224
         }
       },
       {
@@ -167,7 +167,7 @@
         "key": "Generated VEO3 Prompt",
         "location": {
           "startingColumn": 47,
-          "startingLine": 261
+          "startingLine": 262
         }
       },
       {
@@ -175,7 +175,7 @@
         "key": "Copy",
         "location": {
           "startingColumn": 48,
-          "startingLine": 266
+          "startingLine": 267
         }
       },
       {
@@ -183,39 +183,7 @@
         "key": "Hide",
         "location": {
           "startingColumn": 48,
-          "startingLine": 272
-        }
-      },
-      {
-        "comment": "",
-        "key": "Generate Complete Prompt",
-        "location": {
-          "startingColumn": 40,
-          "startingLine": 299
-        }
-      },
-      {
-        "comment": "",
-        "key": "Save Shot",
-        "location": {
-          "startingColumn": 40,
-          "startingLine": 323
-        }
-      },
-      {
-        "comment": "",
-        "key": "Active",
-        "location": {
-          "startingColumn": 100,
-          "startingLine": 316
-        }
-      },
-      {
-        "comment": "",
-        "key": "Set as Active",
-        "location": {
-          "startingColumn": 111,
-          "startingLine": 316
+          "startingLine": 273
         }
       },
       {
@@ -223,7 +191,7 @@
         "key": "Select a shot to edit prompts",
         "location": {
           "startingColumn": 30,
-          "startingLine": 345
+          "startingLine": 311
         }
       },
       {
@@ -231,7 +199,7 @@
         "key": "Choose from the shot list to begin editing",
         "location": {
           "startingColumn": 30,
-          "startingLine": 349
+          "startingLine": 315
         }
       },
       {
@@ -239,7 +207,7 @@
         "key": "PLATES",
         "location": {
           "startingColumn": 18,
-          "startingLine": 478
+          "startingLine": 445
         }
       },
       {
@@ -247,7 +215,7 @@
         "key": "DEBUG: %lld plates: %@",
         "location": {
           "startingColumn": 18,
-          "startingLine": 483
+          "startingLine": 450
         }
       },
       {
@@ -255,7 +223,7 @@
         "key": "Environment:",
         "location": {
           "startingColumn": 26,
-          "startingLine": 604
+          "startingLine": 571
         }
       },
       {
@@ -263,7 +231,7 @@
         "key": "%@: %@",
         "location": {
           "startingColumn": 46,
-          "startingLine": 616
+          "startingLine": 583
         }
       },
       {
@@ -271,7 +239,7 @@
         "key": "Add Environment Plate",
         "location": {
           "startingColumn": 38,
-          "startingLine": 648
+          "startingLine": 615
         }
       },
       {
@@ -279,7 +247,7 @@
         "key": "Search specializations...",
         "location": {
           "startingColumn": 27,
-          "startingLine": 717
+          "startingLine": 684
         }
       },
       {
@@ -287,7 +255,7 @@
         "key": "Character",
         "location": {
           "startingColumn": 24,
-          "startingLine": 804
+          "startingLine": 771
         }
       },
       {
@@ -295,7 +263,7 @@
         "key": "Select Character",
         "location": {
           "startingColumn": 26,
-          "startingLine": 805
+          "startingLine": 772
         }
       },
       {
@@ -303,7 +271,7 @@
         "key": "Category",
         "location": {
           "startingColumn": 24,
-          "startingLine": 872
+          "startingLine": 839
         }
       },
       {
@@ -311,7 +279,7 @@
         "key": "Select Category",
         "location": {
           "startingColumn": 26,
-          "startingLine": 873
+          "startingLine": 840
         }
       },
       {
@@ -319,7 +287,7 @@
         "key": "Copy Prompt Variant",
         "location": {
           "startingColumn": 22,
-          "startingLine": 930
+          "startingLine": 897
         }
       },
       {
@@ -327,7 +295,7 @@
         "key": "Creating copy of: %@",
         "location": {
           "startingColumn": 22,
-          "startingLine": 934
+          "startingLine": 901
         }
       },
       {
@@ -335,7 +303,7 @@
         "key": "New variant name:",
         "location": {
           "startingColumn": 22,
-          "startingLine": 940
+          "startingLine": 907
         }
       },
       {
@@ -343,7 +311,7 @@
         "key": "Leave empty to auto-generate name with '(Copy)' suffix",
         "location": {
           "startingColumn": 22,
-          "startingLine": 948
+          "startingLine": 915
         }
       },
       {
@@ -351,7 +319,7 @@
         "key": "Enter name or leave empty for auto-name",
         "location": {
           "startingColumn": 27,
-          "startingLine": 944
+          "startingLine": 911
         }
       },
       {
@@ -359,7 +327,7 @@
         "key": "Cancel",
         "location": {
           "startingColumn": 24,
-          "startingLine": 954
+          "startingLine": 921
         }
       },
       {
@@ -367,7 +335,7 @@
         "key": "Create Copy",
         "location": {
           "startingColumn": 24,
-          "startingLine": 960
+          "startingLine": 927
         }
       },
       {
@@ -375,15 +343,15 @@
         "key": "Generated VEO3 Prompt - Shot %@",
         "location": {
           "startingColumn": 22,
-          "startingLine": 980
+          "startingLine": 948
         }
       },
       {
         "comment": "",
-        "key": "Copy to Clipboard",
+        "key": "Copy Prompt",
         "location": {
           "startingColumn": 24,
-          "startingLine": 986
+          "startingLine": 954
         }
       },
       {
@@ -391,7 +359,7 @@
         "key": "Close",
         "location": {
           "startingColumn": 24,
-          "startingLine": 993
+          "startingLine": 962
         }
       },
       {
@@ -399,7 +367,7 @@
         "key": "Recommended Plates",
         "location": {
           "startingColumn": 18,
-          "startingLine": 1026
+          "startingLine": 995
         }
       },
       {
@@ -407,7 +375,7 @@
         "key": "Characters:",
         "location": {
           "startingColumn": 26,
-          "startingLine": 1033
+          "startingLine": 1002
         }
       },
       {
@@ -415,7 +383,7 @@
         "key": "(%@)",
         "location": {
           "startingColumn": 42,
-          "startingLine": 1063
+          "startingLine": 1032
         }
       },
       {
@@ -423,7 +391,7 @@
         "key": "%@: %@",
         "location": {
           "startingColumn": 46,
-          "startingLine": 1054
+          "startingLine": 1023
         }
       },
       {
@@ -431,7 +399,7 @@
         "key": "Environment:",
         "location": {
           "startingColumn": 26,
-          "startingLine": 1077
+          "startingLine": 1046
         }
       },
       {
@@ -439,7 +407,7 @@
         "key": "(%@)",
         "location": {
           "startingColumn": 42,
-          "startingLine": 1107
+          "startingLine": 1076
         }
       },
       {
@@ -447,7 +415,7 @@
         "key": "%@: %@",
         "location": {
           "startingColumn": 46,
-          "startingLine": 1098
+          "startingLine": 1067
         }
       }
     ]

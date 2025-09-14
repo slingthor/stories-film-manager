@@ -1,13 +1,17 @@
 {
-  "aspect_ratio" : "4:3",
-  "selected_prompt_index" : 0,
   "progressive_state" : "House 6\/min + 40bpm stuttering | Giant possession | Camera frost 15% | Voice complete | Watching: House IS speaker",
+  "shot_metadata" : {
+    "duration_seconds" : 8,
+    "title" : "THE GIANT SPEAKS THROUGH HER 8 SECONDS",
+    "sequence_type" : "main_story",
+    "stitch_from" : "",
+    "id" : "24a",
+    "narrative_function" : "House 6\/min + 40bpm stuttering | Giant possession ..."
+  },
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "style" : "Wide shot showing whole house as speaker, Sigrid small at center (that's where the camera is), documentary of possession.",
-      "subject" : "[SIGRID]'s mouth moving but the giant's voice emerging from the house itself - 16Hz resonance from walls, floor, beams - as she becomes conduit for Bergrisi's dying call: \"LANDVÃ†TTIR, KOMIÃ\" vibrating through everything, dust falling from ceiling, her body just the focal point of architectural speech.",
-      "camera_position" : "Wide shot showing whole house as speaker, Sigrid small at center",
-      "progressive_state" : "",
       "variant_name" : "Primary - THE GIANT SPEAKS THROUGH HER 8 SECONDS",
       "selected_plates" : [
         "LILJA-SENSING",
@@ -15,20 +19,16 @@
         "SIGRID-CORNERED",
         "STOFA-BODY"
       ],
+      "style" : "Wide shot showing whole house as speaker, Sigrid small at center (that's where the camera is), documentary of possession.",
+      "progressive_state" : "",
+      "dialogue" : "(Giant through everything): \"LANDVÃ†TTIR, KOMIÃ\" (Sigrid fighting): Normal voice breaking through: \"Nei, ekki...\" (Giant overwhelming): \"HJÃLPIÃ OKKUR\"",
       "is_active" : false,
-      "scene" : "Interior becoming speaker. Walls showing stress cracks from vibration. Dust thick in air. Temperature dropping with each word.",
       "action" : "Sigrid's mouth opens wider than should be possible. The word completes: \"LANDVÃ†TTIR\" but not from her throat. From walls - turf vibrating. From floor - packed earth speaking. From beams - giant's ribs resonating. 16Hz below hearing, felt in bones, teeth, eyes. Her body rigid, back arched, hands spread, conduit not source. \"KOMIÃ\" emerges from everywhere. Dust cascades from ceiling with each syllable. The three beams (ribs) flex visibly, showing pink tissue beneath wood for split second. Windows vibrate in frames, frost cracking off in sheets. GuÃ°rÃºn crawls backward, mouth open in silent scream. Children grip each other, JÃ³n's fever breaking in sudden sweat, Lilja's eyes rolled back showing whites. Empty clothes standing fully upright, breathing matching house rhythm. Sigrid's eyes remain conscious, terrified - she's aware but not in control. Baby's heartbeat visible as red strobe through dress: 160bpm.",
       "variant_id" : "24a_story_primary",
+      "scene" : "Interior becoming speaker. Walls showing stress cracks from vibration. Dust thick in air. Temperature dropping with each word.",
       "negative_prompt" : "no subtitles, 16Hz as vibration not sound, show house as speaker, documentary observation",
-      "dialogue" : "(Giant through everything): \"LANDVÃ†TTIR, KOMIÃ\" (Sigrid fighting): Normal voice breaking through: \"Nei, ekki...\" (Giant overwhelming): \"HJÃLPIÃ OKKUR\""
+      "subject" : "[SIGRID]'s mouth moving but the giant's voice emerging from the house itself - 16Hz resonance from walls, floor, beams - as she becomes conduit for Bergrisi's dying call: \"LANDVÃ†TTIR, KOMIÃ\" vibrating through everything, dust falling from ceiling, her body just the focal point of architectural speech.",
+      "camera_position" : "Wide shot showing whole house as speaker, Sigrid small at center"
     }
-  ],
-  "shot_metadata" : {
-    "narrative_function" : "House 6\/min + 40bpm stuttering | Giant possession ...",
-    "stitch_from" : "",
-    "sequence_type" : "main_story",
-    "id" : "24a",
-    "title" : "THE GIANT SPEAKS THROUGH HER 8 SECONDS",
-    "duration_seconds" : 8
-  }
+  ]
 }

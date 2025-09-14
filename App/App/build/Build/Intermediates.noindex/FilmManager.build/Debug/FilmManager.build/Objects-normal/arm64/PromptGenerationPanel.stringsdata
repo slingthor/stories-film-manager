@@ -1,0 +1,72 @@
+{
+  "source": "/Users/ingthor/Documents/stories/App/App/FilmManager/PromptGenerationPanel.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "SHOT %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "Variant: %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "Generate Complete Prompt",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save Shot",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 72
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save All",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "Active",
+        "location": {
+          "startingColumn": 146,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "Set as Active",
+        "location": {
+          "startingColumn": 157,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select a shot to generate prompts",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 92
+        }
+      }
+    ]
+  },
+  "version": 1
+}

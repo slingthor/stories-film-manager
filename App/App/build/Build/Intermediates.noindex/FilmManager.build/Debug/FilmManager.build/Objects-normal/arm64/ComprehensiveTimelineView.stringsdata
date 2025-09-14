@@ -4,7 +4,7 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "Go to beginning",
+        "key": "Previous scene",
         "location": {
           "startingColumn": 27,
           "startingLine": 20
@@ -28,7 +28,7 @@
       },
       {
         "comment": "",
-        "key": "Next video shot",
+        "key": "Stop and return to start",
         "location": {
           "startingColumn": 27,
           "startingLine": 37
@@ -36,10 +36,18 @@
       },
       {
         "comment": "",
+        "key": "Next scene",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
         "key": "Videos: %lld/%lld shots",
         "location": {
           "startingColumn": 26,
-          "startingLine": 55
+          "startingLine": 62
         }
       },
       {
@@ -47,7 +55,7 @@
         "key": "/",
         "location": {
           "startingColumn": 30,
-          "startingLine": 48
+          "startingLine": 55
         }
       },
       {
@@ -55,7 +63,7 @@
         "key": "Auto-sync shot selection",
         "location": {
           "startingColumn": 26,
-          "startingLine": 67
+          "startingLine": 74
         }
       },
       {
@@ -63,15 +71,7 @@
         "key": "Follow Timeline",
         "location": {
           "startingColumn": 28,
-          "startingLine": 64
-        }
-      },
-      {
-        "comment": "",
-        "key": "—",
-        "location": {
-          "startingColumn": 42,
-          "startingLine": 155
+          "startingLine": 71
         }
       }
     ]

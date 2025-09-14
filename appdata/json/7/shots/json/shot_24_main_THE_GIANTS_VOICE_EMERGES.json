@@ -1,21 +1,6 @@
 {
-  "progressive_state" : "House 6\/min + 40bpm failing | Giant speaking | Camera frost 15% | Four responses | Watching: All layers awakening",
-  "aspect_ratio" : "4:3",
-  "shot_metadata" : {
-    "title" : "THE GIANTS VOICE EMERGES",
-    "stitch_from" : "",
-    "sequence_type" : "main_story",
-    "id" : "24",
-    "duration_seconds" : 8,
-    "narrative_function" : "House 6\/min + 40bpm failing | Giant speaking | Cam..."
-  },
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "style" : "Wide shot showing four-directional responses, camera shaking with 16Hz vibration (that's where the camera is), documentary of summoning disaster.",
-      "subject" : "[SIGRID]'s voice completing transformation into the giant's 16Hz resonance - felt in bones more than heard - as the words themselves transform from tilberi summoning to landvÃ¦ttir call: \"LandvÃ¦ttir, komiÃ°, hjÃ¡lpiÃ° okkur\" vibrating through the house structure, which IS the giant's body.",
-      "camera_position" : "Wide shot showing four-directional responses, camera shaking with 16Hz vibration",
-      "progressive_state" : "",
       "variant_name" : "Primary - THE GIANTS VOICE EMERGES",
       "selected_plates" : [
         "LILJA-SENSING",
@@ -23,12 +8,27 @@
         "SIGRID-CORNERED",
         "STOFA-BODY"
       ],
+      "style" : "Wide shot showing four-directional responses, camera shaking with 16Hz vibration (that's where the camera is), documentary of summoning disaster.",
+      "progressive_state" : "",
+      "dialogue" : "(Giant's voice through Sigrid): \"LANDVÃ†TTIR, KOMIÃ, HJÃLPIÃ OKKUR\" (Trying to stop): Normal voice breaking through: \"Nei, nei, Ã¾etta Ã¡ ekki...\" (GuÃ°rÃºn, finally speaking): \"HvaÃ° hefur Ã¾Ãº gert?\" (What have you done?)",
       "is_active" : false,
-      "scene" : "Interior, 6:37 AM, reality breaking. Temperature drops 5 degrees instantly to -20Â°C. Four cardinal directions showing responses. Windows cracking from trawler horn, water boiling and freezing simultaneously, floor revealing pink flesh underneath, raven shadow too large for any bird. The contaminated tilberi writhing, neither creature nor thing.",
       "action" : "Sigrid tries to continue tilberi chant but voice no longer hers. Drops to 16Hz - below human hearing, felt in teeth, bones, eyes. The house itself becomes speaker, walls vibrating. Words transform mid-sentence: \"Tilberi...\" becomes \"LANDVÃ†TTIR...\" She claps hands over mouth but voice continues from everywhere - floor, walls, beams. \"KOMIÃ, HJÃLPIÃ OKKUR\" (Come, help us). Instant four responses: EAST: Trawler horn blasts so loud windows crack. WEST: Water in all buckets boils despite -15Â°C. SOUTH: Floor becomes warm, alive, pulsing. NORTH: Raven shadow passes window, impossibly large. The contaminated creation on floor starts breathing - industrial rope skeleton visible through forming flesh, brass button eye weeping green tears, wrong thing being born. GuÃ°rÃºn falls backward, crawling away. Children wake screaming but screams are bleats. Baby's heartbeat visible through Sigrid's dress - 160bpm, red glow pulsing. House heartbeat stutters - 40bpm, 20bpm, 60bpm - dying giant panicking.",
       "variant_id" : "24_story_primary",
+      "scene" : "Interior, 6:37 AM, reality breaking. Temperature drops 5 degrees instantly to -20Â°C. Four cardinal directions showing responses. Windows cracking from trawler horn, water boiling and freezing simultaneously, floor revealing pink flesh underneath, raven shadow too large for any bird. The contaminated tilberi writhing, neither creature nor thing.",
       "negative_prompt" : "no subtitles, 16Hz as vibration not normal sound, four responses simultaneous, documentary observation",
-      "dialogue" : "(Giant's voice through Sigrid): \"LANDVÃ†TTIR, KOMIÃ, HJÃLPIÃ OKKUR\" (Trying to stop): Normal voice breaking through: \"Nei, nei, Ã¾etta Ã¡ ekki...\" (GuÃ°rÃºn, finally speaking): \"HvaÃ° hefur Ã¾Ãº gert?\" (What have you done?)"
+      "subject" : "[SIGRID]'s voice completing transformation into the giant's 16Hz resonance - felt in bones more than heard - as the words themselves transform from tilberi summoning to landvÃ¦ttir call: \"LandvÃ¦ttir, komiÃ°, hjÃ¡lpiÃ° okkur\" vibrating through the house structure, which IS the giant's body.",
+      "camera_position" : "Wide shot showing four-directional responses, camera shaking with 16Hz vibration"
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "duration_seconds" : 8,
+    "title" : "THE GIANTS VOICE EMERGES",
+    "sequence_type" : "main_story",
+    "narrative_function" : "House 6\/min + 40bpm failing | Giant speaking | Cam...",
+    "id" : "24",
+    "stitch_from" : ""
+  },
+  "progressive_state" : "House 6\/min + 40bpm failing | Giant speaking | Camera frost 15% | Four responses | Watching: All layers awakening",
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3"
 }

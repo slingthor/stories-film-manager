@@ -1,6 +1,5 @@
 import SwiftUI
 import Combine
-import AVKit
 import UniformTypeIdentifiers
 import AppKit
 
@@ -9,8 +8,6 @@ struct MediaManagementPanel: View {
     @ObservedObject var filmManager: FilmManager
     @State private var showingImageViewer = false
     @State private var selectedImage: ImageFile?
-    @State private var player: AVPlayer?
-    @State private var showingVideoPlayer = false
     @State private var draggedMediaType: String?
     @State private var draggedMediaPath: String?
     
@@ -133,11 +130,6 @@ struct MediaManagementPanel: View {
                 )
             }
         }
-        .sheet(isPresented: $showingVideoPlayer) {
-            if let player = player {
-                VideoPlayerSheet(player: player, onDismiss: { showingVideoPlayer = false })
-            }
-        }
     }
     
     private func addTestVideo(to shot: FilmShot) {
@@ -159,16 +151,19 @@ struct MediaManagementPanel: View {
     }
     
     private func playVideo(_ video: VideoFile) {
-        let url = URL(fileURLWithPath: video.filepath)
-        player = AVPlayer(url: url)
-        showingVideoPlayer = true
+        VideoPlayerWindowController.openVideoPlayer(
+            for: video.filepath,
+            title: video.filename
+        )
         print("🎬 Playing video: \(video.filename)")
     }
-    
+
     private func playVideo(_ path: String) {
-        let url = URL(fileURLWithPath: path)
-        player = AVPlayer(url: url)
-        showingVideoPlayer = true
+        let filename = URL(fileURLWithPath: path).lastPathComponent
+        VideoPlayerWindowController.openVideoPlayer(
+            for: path,
+            title: filename
+        )
         print("🎬 Playing video from path: \(path)")
     }
     
@@ -698,6 +693,9 @@ struct PromptVideoRow: View {
                 RoundedRectangle(cornerRadius: 2)
                     .stroke(isActive ? Color.green : Color.gray.opacity(0.3), lineWidth: isActive ? 2 : 1)
             )
+            .onTapGesture(count: 2) {
+                onPlay()
+            }
 
             VStack(alignment: .leading, spacing: 0) {
                 Text(video.filename)
@@ -1045,6 +1043,9 @@ struct MediaRow: View {
                     RoundedRectangle(cornerRadius: 2)
                         .stroke(isSelected ? Color.blue : Color.gray.opacity(0.3), lineWidth: isSelected ? 2 : 1)
                 )
+                .onTapGesture(count: 2) {
+                    onPlay()
+                }
             } else {
                 Image(systemName: "photo.fill")
                     .foregroundColor(isSelected ? .blue : .gray)
@@ -1302,25 +1303,6 @@ struct ComprehensiveImageViewer: View {
     }
 }
 
-struct VideoPlayerSheet: View {
-    let player: AVPlayer
-    let onDismiss: () -> Void
-    
-    var body: some View {
-        VStack {
-            VideoPlayer(player: player)
-                .frame(width: 600, height: 400)
-                .cornerRadius(8)
-            
-            Button("Close") {
-                onDismiss()
-            }
-            .buttonStyle(.borderedProminent)
-            .padding()
-        }
-        .padding()
-    }
-}
 
 #Preview {
     MediaManagementPanel(

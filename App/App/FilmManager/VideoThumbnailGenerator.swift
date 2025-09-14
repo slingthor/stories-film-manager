@@ -139,12 +139,6 @@ struct VideoThumbnailView: View {
                 }
             }
 
-            // Play icon overlay
-            Image(systemName: "play.circle.fill")
-                .font(.title)
-                .foregroundColor(.white.opacity(0.9))
-                .background(Circle().fill(Color.black.opacity(0.3)))
-                .opacity(thumbnail != nil ? 1 : 0)
         }
         .onAppear {
             loadThumbnail()
