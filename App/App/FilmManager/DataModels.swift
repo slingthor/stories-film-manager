@@ -255,10 +255,42 @@ class FilmManager: ObservableObject {
                         }
                     }
                     
+                    // Load videos for this variant
+                    if let videosJSON = prompt["videos"] as? [[String: Any]] {
+                        variant.videos = []
+                        for videoJSON in videosJSON {
+                            if let filename = videoJSON["filename"] as? String,
+                               let filepath = videoJSON["filepath"] as? String {
+                                let duration = videoJSON["duration"] as? Double ?? 0.0
+                                let video = VideoFile(filename: filename, filepath: filepath, duration: duration)
+                                variant.videos.append(video)
+                            }
+                        }
+                        print("📹 Shot \(id) variant: loaded \(variant.videos.count) videos")
+                    }
+
+                    // Load images for this variant
+                    if let imagesJSON = prompt["images"] as? [[String: Any]] {
+                        variant.images = []
+                        for imageJSON in imagesJSON {
+                            if let filename = imageJSON["filename"] as? String,
+                               let filepath = imageJSON["filepath"] as? String {
+                                let image = ImageFile(filename: filename, filepath: filepath)
+                                variant.images.append(image)
+                            }
+                        }
+                        print("🖼 Shot \(id) variant: loaded \(variant.images.count) images")
+                    }
+
+                    // Load active video index
+                    if let activeVideoIndex = prompt["active_video_index"] as? Int {
+                        variant.activeVideoIndex = activeVideoIndex
+                    }
+
                     shot.promptVariants.append(variant)
                 }
             }
-            
+
             // Add default video only if the shot doesn't have any videos
             if shot.videos.isEmpty {
                 let defaultVideo = VideoFile(filename: "default.mp4", filepath: "/Users/ingthor/Documents/stories/appdata/resources/shots/videos/default.mp4")
@@ -2960,7 +2992,39 @@ class FilmFileManager {
             if !variant.customEnvironmentPlate.isEmpty {
                 variantDict["custom_environment_plate"] = variant.customEnvironmentPlate
             }
-            
+
+            // Save videos for this variant
+            if !variant.videos.isEmpty {
+                var videosJSON: [[String: Any]] = []
+                for video in variant.videos {
+                    videosJSON.append([
+                        "filename": video.filename,
+                        "filepath": video.filepath,
+                        "duration": video.duration
+                    ])
+                }
+                variantDict["videos"] = videosJSON
+                print("🔍 Saving \(variant.videos.count) videos for variant \(index)")
+            }
+
+            // Save images for this variant
+            if !variant.images.isEmpty {
+                var imagesJSON: [[String: Any]] = []
+                for image in variant.images {
+                    imagesJSON.append([
+                        "filename": image.filename,
+                        "filepath": image.filepath
+                    ])
+                }
+                variantDict["images"] = imagesJSON
+                print("🔍 Saving \(variant.images.count) images for variant \(index)")
+            }
+
+            // Save active video index if set
+            if let activeVideoIndex = variant.activeVideoIndex {
+                variantDict["active_video_index"] = activeVideoIndex
+            }
+
             promptVariantsJSON.append(variantDict)
         }
         json["prompt_variants"] = promptVariantsJSON

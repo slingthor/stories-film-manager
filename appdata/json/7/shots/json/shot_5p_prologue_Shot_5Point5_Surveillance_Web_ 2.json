@@ -1,11 +1,26 @@
 {
+  "progressive_state" : "",
+  "aspect_ratio" : "1.85:1",
+  "shot_metadata" : {
+    "duration_seconds" : 3,
+    "id" : "5.5",
+    "sequence_type" : "prologue",
+    "title" : "Shot 5Point5 Surveillance Web Psychological Founda",
+    "stitch_from" : "",
+    "narrative_function" : "enhancement"
+  },
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "variant_id" : "5p_shot_5point5_surveillance_web_psychological_founda",
-      "action" : "Magnús's net-mending becomes increasingly purposeless as his attention fixes on Sigrid, stitches growing looser, more erratic, hands performing domesticity while mind calculates predation. His breathing shifts from normal 12\/min to stalking 8\/min, the rhythm change audible in lamplight's corresponding flicker. Guðrún's spinning accelerates beyond practical speed, wheel humming with anxiety as she monitors his behavioral shift, wool thread snapping at increased intervals under stress. Her wedding ring catches light revealing deliberate V-shaped filing—livestock marking disguised as wear, suggesting her property status predates current family situation. Sigrid unconsciously taps brass button in counting sequence: einn-tveir-þrír-fjórir-fimm, then finger hesitates, taps sixth time on empty palm as if accommodating invisible presence. Button reflects each family member's true attention—not on tasks but on surveillance patterns, everyone watching everyone else's watching. Children's knucklebones consistently form réttir sorting formation despite randomness—five bones creating six-point star pattern, their unconscious play rehearsing future transformation while maintaining careful silence.",
       "scene" : "SHOT 5.5: THE SURVEILLANCE WEB Psychological Foundation - Domestic Paranoia Before Supernatural Horror SHOT HEADER: Interior baðstofa at evening hour when lamp becomes sole illumination, creating intimate prison of yellow light surrounded by threatening darkness. Walls show 37°C warm spots pulsing gently—Bergrisi's organs responding to family tension, giant sensing psychological pressure building above his heart chamber. Packed earth floor reveals wear patterns from generations of identical positioning, family members unconsciously occupying inherited spots that form defensive geometry against each other. Temperature minus 20°C outside making interior warmth precious, contested resource. Smoke from peat fire carries traditional scents—home and trap simultaneously. Creates psychological realism that grounds later supernatural impossibilities. Establishes family as already broken before transformation, making change feel like revelation rather than violation. Shows domestic space as prison before it becomes digestive chamber. Makes audience complicit in family surveillance, preparing for later recognition that we ARE the seventh presence being counted.",
-      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "style" : "Camera positioned at exact mathematical center of family formation showing all surveillance angles simultaneously (that's where the camera is), wide static shot held for full duration forcing audience to discover watching patterns through patient observation. Lighting solely from whale oil lamp creating harsh chiaroscuro—faces emerging from darkness, hands illuminated, eyes glinting with reflected attention. No camera movement—documentary objectivity making audience complicit voyeurs. Depth of field keeps all family members equally sharp, no favored focus, everyone equally watched and watching. Natural shadows create additional surveillance layer—shadow movements sometimes preceding body movements, suggesting shadows know intentions before conscious minds. DIALOGUE:",
+      "variant_name" : "Shot 5Point5 Surveillance Web Psychological Founda",
+      "action" : "Magnús's net-mending becomes increasingly purposeless as his attention fixes on Sigrid, stitches growing looser, more erratic, hands performing domesticity while mind calculates predation. His breathing shifts from normal 12\/min to stalking 8\/min, the rhythm change audible in lamplight's corresponding flicker. Guðrún's spinning accelerates beyond practical speed, wheel humming with anxiety as she monitors his behavioral shift, wool thread snapping at increased intervals under stress. Her wedding ring catches light revealing deliberate V-shaped filing—livestock marking disguised as wear, suggesting her property status predates current family situation. Sigrid unconsciously taps brass button in counting sequence: einn-tveir-þrír-fjórir-fimm, then finger hesitates, taps sixth time on empty palm as if accommodating invisible presence. Button reflects each family member's true attention—not on tasks but on surveillance patterns, everyone watching everyone else's watching. Children's knucklebones consistently form réttir sorting formation despite randomness—five bones creating six-point star pattern, their unconscious play rehearsing future transformation while maintaining careful silence.",
+      "camera_position" : "",
       "progressive_state" : "",
+      "dialogue" : "",
+      "is_active" : false,
+      "variant_id" : "5p_shot_5point5_surveillance_web_psychological_founda",
       "selected_plates" : [
         "MAGNUS-PREDATOR",
         "JON-TEMPORAL",
@@ -14,23 +29,8 @@
         "LILJA-SENSING",
         "STOFA-BODY"
       ],
-      "is_active" : false,
       "subject" : "",
-      "variant_name" : "Shot 5Point5 Surveillance Web Psychological Founda",
-      "style" : "Camera positioned at exact mathematical center of family formation showing all surveillance angles simultaneously (that's where the camera is), wide static shot held for full duration forcing audience to discover watching patterns through patient observation. Lighting solely from whale oil lamp creating harsh chiaroscuro—faces emerging from darkness, hands illuminated, eyes glinting with reflected attention. No camera movement—documentary objectivity making audience complicit voyeurs. Depth of field keeps all family members equally sharp, no favored focus, everyone equally watched and watching. Natural shadows create additional surveillance layer—shadow movements sometimes preceding body movements, suggesting shadows know intentions before conscious minds. DIALOGUE:",
-      "dialogue" : "",
-      "camera_position" : ""
+      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified"
     }
-  ],
-  "shot_metadata" : {
-    "duration_seconds" : 3,
-    "title" : "Shot 5Point5 Surveillance Web Psychological Founda",
-    "sequence_type" : "prologue",
-    "narrative_function" : "enhancement",
-    "id" : "5.5",
-    "stitch_from" : ""
-  },
-  "progressive_state" : "",
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "1.85:1"
+  ]
 }

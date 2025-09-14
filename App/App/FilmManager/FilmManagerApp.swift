@@ -33,7 +33,6 @@ struct FilmManagerApp: App {
             VideoPlaybackWindow(filmManager: sharedFilmManager)
                 .frame(minWidth: 480, minHeight: 320)
         }
-        .windowLevel(.floating)
         .defaultSize(width: 640, height: 360)
         .windowResizability(.contentSize)
         .defaultPosition(.topTrailing)

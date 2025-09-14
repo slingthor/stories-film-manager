@@ -1,0 +1,11 @@
+SHOT 8c/19: THE CONSUMPTION
+Progressive State: Feast eating | Visceral feeding | Camera frost 3% | Marking complete | Watching: They eat themselves
+Duration: 8 seconds
+[STITCH from Shot 8b/18: Faces in searchlight]
+Subject: Close view of hands reaching for food, tearing whale meat with fingers, purple juice running down chins, egg yolk dripping on clothes, everyone eating with desperate hunger despite the abundance, mouths stained all three colors.
+Action: Hands everywhere reaching. No utensils. Fingers tear into whale blubber, white fat, red meat. Grease runs down wrists. Purple berry juice poured directly into mouths, overflowing, running down necks. Boiled eggs crushed in fists, yolk squirting between fingers. Everyone eating like starved despite full tables. Child gnaws whale bone. Woman drinks purple juice, eyes rolling back. Man stuffs mouth with fish and eggs simultaneously. The three stains now on everyone - blood on lips, berry juice on teeth, yolk on chins. Mixed together makes brown-black mark on faces. Same color as ground stain earlier. MagnÃºs eats mechanically, jaw working steadily. GuÃ°rÃºn feeds Lilja, purple juice and whale fat. Sigrid only one not eating. Watches. Some people's chewing becomes rhythmic. Like cud chewing. Jaws moving wrong direction - sideways slightly. No one notices. Food disappearing impossibly fast but tables still full.
+Scene: Feast tables, searchlight still on but flickering. Food being consumed desperately. Faces and hands stained.
+Style: Close handheld shots of consumption, moving between faces and hands (that's where the camera is), visceral detail.
+Dialogue: None - only consumption sounds
+Sounds: [PRIMARY: Tearing meat, gulping juice, crushing eggs, desperate chewing] [AMBIENT: Searchlight flickering, synchronized chewing rhythm] [ABSENT: conversation, silverware]
+Technical (Negative Prompt): no subtitles, show visceral eating, three stains on everyone, desperate consumption, 1080p

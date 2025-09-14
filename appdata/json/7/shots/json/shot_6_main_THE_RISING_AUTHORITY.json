@@ -1,33 +1,33 @@
 {
-  "progressive_state" : "House 12\/min â†’ 13\/min | KlettagjÃ¡ invisible | No contamination | Camera frost 3% | Sorting beginning | Watching: MagnÃºs surveys domain",
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "title" : "THE RISING AUTHORITY",
-    "sequence_type" : "main_story",
-    "stitch_from" : "",
-    "id" : "6",
-    "narrative_function" : "House 12\/min â†’ 13\/min | KlettagjÃ¡ invisible | N..."
-  },
   "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "variant_id" : "6_story_primary",
-      "action" : "MagnÃºs rises slowly, deliberately, joints cracking audibly in the -8Â°C cold. The moment his hand grasps the cane, tremor visible - 3Hz creating constant tap-tap-tap against packed earth floor like countdown. This sound triggers immediate response: GuÃ°rÃºn's knife stops mid-cut through hÃ¡karl, her shoulders dropping in submission. JÃ³n starts sliding off bench despite fever. Lilja's thumb comes out of mouth, doll dropped. Only Sigrid maintains position, but her body tenses, ready to maintain her 10-foot distance as he moves. The floor where they'll stand shows worn depressions - five spots in semicircle pattern, but six shadows on wall. MagnÃºs moves to storage box in corner, retrieves something wrapped in stained cloth - the ram testicles, grey-pink, fermented. As he unwraps them, his eyes move to Sigrid specifically, measuring, calculating. His tremor increases slightly seeing her, 3.5Hz now. The empty clothes in corner seem to shift, almost standing. House breathing accelerates to 13\/min, sensing what's beginning.",
-      "scene" : "Interior morning, 5:45 AM, grey light barely beginning outside. Temperature -8Â°C inside, breath visible from everyone, MagnÃºs's breath thicker, more aggressive puffs. The cane tapping creates small dust clouds from floor, revealing the worn patterns more clearly - they form pen-like divisions. Storage box in northeast corner, old wood, contains \"delicacies\" saved for control moments. The wrapped ram testicles steaming slightly in cold air when revealed. Oil lamp flame gutters as he passes, almost dying, recovering dimmer.",
-      "camera_position" : "Medium shot following his rise and movement, camera at chest height tracking his authority display",
-      "negative_prompt" : "no subtitles, no text overlays, maintain tremor visibility, show authority through movement, documentary observation",
       "progressive_state" : "",
-      "is_active" : false,
-      "dialogue" : "(MagnÃºs, standing): Heavy breath, no words yet (Cane hitting floor): Tap-tap-tap-tap (3Hz tremor) (Unwrapping testicles, looking at Sigrid): \"Mmm.\" (Tone: anticipatory)",
+      "subject" : "[MAGNÃšS] pushing himself up from the table with both hands, his 55-year-old frame unfolding to hunched height under the 6-foot ceiling, retrieving his smooth driftwood cane which immediately begins trembling at 3Hz in his grip, the tap-tap-tap against the floor creating rhythm that makes everyone except [SIGRID] automatically begin moving toward invisible positions they know by muscle memory.",
+      "action" : "MagnÃºs rises slowly, deliberately, joints cracking audibly in the -8Â°C cold. The moment his hand grasps the cane, tremor visible - 3Hz creating constant tap-tap-tap against packed earth floor like countdown. This sound triggers immediate response: GuÃ°rÃºn's knife stops mid-cut through hÃ¡karl, her shoulders dropping in submission. JÃ³n starts sliding off bench despite fever. Lilja's thumb comes out of mouth, doll dropped. Only Sigrid maintains position, but her body tenses, ready to maintain her 10-foot distance as he moves. The floor where they'll stand shows worn depressions - five spots in semicircle pattern, but six shadows on wall. MagnÃºs moves to storage box in corner, retrieves something wrapped in stained cloth - the ram testicles, grey-pink, fermented. As he unwraps them, his eyes move to Sigrid specifically, measuring, calculating. His tremor increases slightly seeing her, 3.5Hz now. The empty clothes in corner seem to shift, almost standing. House breathing accelerates to 13\/min, sensing what's beginning.",
       "selected_plates" : [
         "LILJA-SENSING",
         "SIGRID-CORNERED",
         "STOFA-BODY"
       ],
-      "subject" : "[MAGNÃšS] pushing himself up from the table with both hands, his 55-year-old frame unfolding to hunched height under the 6-foot ceiling, retrieving his smooth driftwood cane which immediately begins trembling at 3Hz in his grip, the tap-tap-tap against the floor creating rhythm that makes everyone except [SIGRID] automatically begin moving toward invisible positions they know by muscle memory.",
+      "is_active" : false,
+      "variant_name" : "Primary - THE RISING AUTHORITY",
+      "negative_prompt" : "no subtitles, no text overlays, maintain tremor visibility, show authority through movement, documentary observation",
+      "variant_id" : "6_story_primary",
+      "scene" : "Interior morning, 5:45 AM, grey light barely beginning outside. Temperature -8Â°C inside, breath visible from everyone, MagnÃºs's breath thicker, more aggressive puffs. The cane tapping creates small dust clouds from floor, revealing the worn patterns more clearly - they form pen-like divisions. Storage box in northeast corner, old wood, contains \"delicacies\" saved for control moments. The wrapped ram testicles steaming slightly in cold air when revealed. Oil lamp flame gutters as he passes, almost dying, recovering dimmer.",
       "style" : "Medium shot following his rise and movement, camera at chest height tracking his authority display (that's where the camera is), slight low angle emphasizing his dominance, cane tapping prominent in frame.",
-      "variant_name" : "Primary - THE RISING AUTHORITY"
+      "camera_position" : "Medium shot following his rise and movement, camera at chest height tracking his authority display",
+      "dialogue" : "(MagnÃºs, standing): Heavy breath, no words yet (Cane hitting floor): Tap-tap-tap-tap (3Hz tremor) (Unwrapping testicles, looking at Sigrid): \"Mmm.\" (Tone: anticipatory)"
     }
-  ]
+  ],
+  "progressive_state" : "House 12\/min â†’ 13\/min | KlettagjÃ¡ invisible | No contamination | Camera frost 3% | Sorting beginning | Watching: MagnÃºs surveys domain",
+  "shot_metadata" : {
+    "title" : "THE RISING AUTHORITY",
+    "narrative_function" : "House 12\/min â†’ 13\/min | KlettagjÃ¡ invisible | N...",
+    "sequence_type" : "main_story",
+    "id" : "6",
+    "duration_seconds" : 8,
+    "stitch_from" : ""
+  }
 }

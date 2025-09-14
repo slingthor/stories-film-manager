@@ -1,14 +1,20 @@
 {
+  "progressive_state" : "Darkness absolute | Breathing symphony | Camera frost 60% | Audio construction | Watching: We must imagine",
+  "aspect_ratio" : "4:3",
+  "shot_metadata" : {
+    "duration_seconds" : 8,
+    "id" : "57",
+    "sequence_type" : "main_story",
+    "title" : "Complete Darkness - Breathing Symphony",
+    "stitch_from" : "",
+    "narrative_function" : "Audience forced to construct reality from audio alone"
+  },
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "variant_id" : "57_story_primary",
-      "action" : "Absolute darkness. No visual information. Only breathing patterns creating spatial awareness: MAGNÚS breathing at 8\/min deep ram rhythm from table head position. GUÐRÚN breathing 8\/min ewe rhythm from right side. SIGRID breathing 12\/min raven preparation from 11-foot distance. JÓN breathing 20\/min lamb rhythm from between parents. LILJA breathing 20\/min simple lamb from mother's side. Each breathing pattern creates spatial positioning awareness - audience constructs family arrangement through respiratory geography. Breathing patterns occasionally sync then separate, creating natural polyrhythm. Through darkness, subtle wet sounds - what might be chewing, or might be something else. House breathing at 3\/min dying rhythm underneath everything. Heartbeat stopped completely. In final seconds, match strike preparation - subtle cloth rustle, stone scraping flint.",
-      "scene" : "Complete visual absence - darkness contains no temperature, no spatial reference, no visual confirmation. Only breathing creates reality through audio spatial construction.",
-      "camera_position" : "Irrelevant in absolute darkness, that's where the camera is",
-      "negative_prompt" : "no visual elements, no lighting, no shapes visible, pure darkness, maintain audio only",
       "progressive_state" : "",
-      "is_active" : false,
-      "dialogue" : "None - only respiratory communication",
+      "subject" : "Complete darkness for 8 seconds with only breathing sounds - five different respiratory patterns creating complex rhythm as family exists in blackness, audience forced to imagine transformed bodies through audio alone.",
+      "action" : "Absolute darkness. No visual information. Only breathing patterns creating spatial awareness: MAGNÚS breathing at 8\/min deep ram rhythm from table head position. GUÐRÚN breathing 8\/min ewe rhythm from right side. SIGRID breathing 12\/min raven preparation from 11-foot distance. JÓN breathing 20\/min lamb rhythm from between parents. LILJA breathing 20\/min simple lamb from mother's side. Each breathing pattern creates spatial positioning awareness - audience constructs family arrangement through respiratory geography. Breathing patterns occasionally sync then separate, creating natural polyrhythm. Through darkness, subtle wet sounds - what might be chewing, or might be something else. House breathing at 3\/min dying rhythm underneath everything. Heartbeat stopped completely. In final seconds, match strike preparation - subtle cloth rustle, stone scraping flint.",
       "selected_plates" : [
         "S-RAM",
         "JON-LAMB",
@@ -17,20 +23,14 @@
         "LILJA-LAMB",
         "HOUSE-MONUMENT"
       ],
-      "subject" : "Complete darkness for 8 seconds with only breathing sounds - five different respiratory patterns creating complex rhythm as family exists in blackness, audience forced to imagine transformed bodies through audio alone.",
+      "is_active" : false,
+      "variant_name" : "Masterful Sensory Horror",
+      "negative_prompt" : "no visual elements, no lighting, no shapes visible, pure darkness, maintain audio only",
+      "variant_id" : "57_story_primary",
+      "scene" : "Complete visual absence - darkness contains no temperature, no spatial reference, no visual confirmation. Only breathing creates reality through audio spatial construction.",
       "style" : "8 seconds absolute darkness, camera position irrelevant in void (that's where the camera is), audio-only experience forcing imagination.",
-      "variant_name" : "Masterful Sensory Horror"
+      "camera_position" : "Irrelevant in absolute darkness, that's where the camera is",
+      "dialogue" : "None - only respiratory communication"
     }
-  ],
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "title" : "Complete Darkness - Breathing Symphony",
-    "sequence_type" : "main_story",
-    "narrative_function" : "Audience forced to construct reality from audio alone",
-    "id" : "57",
-    "stitch_from" : ""
-  },
-  "progressive_state" : "Darkness absolute | Breathing symphony | Camera frost 60% | Audio construction | Watching: We must imagine",
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3"
+  ]
 }

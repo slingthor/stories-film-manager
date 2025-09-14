@@ -1,35 +1,35 @@
 {
-  "progressive_state" : "Feast eating | Visceral feeding | Camera frost 3% | Marking complete | Watching: They eat themselves",
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "title" : "The Consumption - Visceral Feeding",
-    "sequence_type" : "prologue",
-    "stitch_from" : "",
-    "id" : "8c",
-    "narrative_function" : "Visceral abundance consumption with animal behavior emerging"
-  },
   "selected_prompt_index" : 0,
   "aspect_ratio" : "1.85:1",
   "prompt_variants" : [
     {
-      "camera_position" : "Close handheld moving between consumption details, that's where the camera is",
-      "variant_id" : "8c_story_primary",
-      "style" : "Close handheld shots of consumption, moving between faces and hands (that's where the camera is), visceral detail.",
-      "variant_name" : "Desperate Abundance Consumption",
-      "dialogue" : "None - only consumption sounds",
-      "action" : "Hands everywhere reaching. No utensils. Fingers tear into whale blubber, white fat, red meat. Grease runs down wrists. Purple berry juice poured directly into mouths, overflowing, running down necks. Boiled eggs crushed in fists, yolk squirting between fingers. Everyone eating like starved despite full tables. Child gnaws whale bone. Woman drinks purple juice, eyes rolling back. Man stuffs mouth with fish and eggs simultaneously. The three stains now on everyone - blood on lips, berry juice on teeth, yolk on chins. Mixed together makes brown-black mark on faces. Same color as ground stain earlier. Magnús eats mechanically, jaw working steadily. Guðrún feeds Lilja, purple juice and whale fat. Sigrid only one not eating. Watches. Some people's chewing becomes rhythmic. Like cud chewing. Jaws moving wrong direction - sideways slightly. No one notices. Food disappearing impossibly fast but tables still full.",
-      "subject" : "Close view of hands reaching for food, tearing whale meat with fingers, purple juice running down chins, egg yolk dripping on clothes, everyone eating with desperate hunger despite the abundance, mouths stained all three colors.",
       "progressive_state" : "",
-      "scene" : "Feast tables, searchlight still on but flickering. Food being consumed desperately. Faces and hands stained.",
-      "is_active" : false,
-      "negative_prompt" : "no subtitles, show visceral eating, three stains on everyone, desperate consumption, 1080p",
+      "subject" : "Close view of hands reaching for food, tearing whale meat with fingers, purple juice running down chins, egg yolk dripping on clothes, everyone eating with desperate hunger despite the abundance, mouths stained all three colors.",
+      "action" : "Hands everywhere reaching. No utensils. Fingers tear into whale blubber, white fat, red meat. Grease runs down wrists. Purple berry juice poured directly into mouths, overflowing, running down necks. Boiled eggs crushed in fists, yolk squirting between fingers. Everyone eating like starved despite full tables. Child gnaws whale bone. Woman drinks purple juice, eyes rolling back. Man stuffs mouth with fish and eggs simultaneously. The three stains now on everyone - blood on lips, berry juice on teeth, yolk on chins. Mixed together makes brown-black mark on faces. Same color as ground stain earlier. Magnús eats mechanically, jaw working steadily. Guðrún feeds Lilja, purple juice and whale fat. Sigrid only one not eating. Watches. Some people's chewing becomes rhythmic. Like cud chewing. Jaws moving wrong direction - sideways slightly. No one notices. Food disappearing impossibly fast but tables still full.",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "LILJA-MATHEMATICAL",
         "SIGRID-MARKED",
         "GUDRUN-PRODUCING",
         "SEA-EXTRACTED"
-      ]
+      ],
+      "is_active" : false,
+      "variant_name" : "Desperate Abundance Consumption",
+      "negative_prompt" : "no subtitles, show visceral eating, three stains on everyone, desperate consumption, 1080p",
+      "variant_id" : "8c_story_primary",
+      "scene" : "Feast tables, searchlight still on but flickering. Food being consumed desperately. Faces and hands stained.",
+      "style" : "Close handheld shots of consumption, moving between faces and hands (that's where the camera is), visceral detail.",
+      "camera_position" : "Close handheld moving between consumption details, that's where the camera is",
+      "dialogue" : "None - only consumption sounds"
     }
-  ]
+  ],
+  "progressive_state" : "Feast eating | Visceral feeding | Camera frost 3% | Marking complete | Watching: They eat themselves",
+  "shot_metadata" : {
+    "title" : "The Consumption - Visceral Feeding",
+    "narrative_function" : "Visceral abundance consumption with animal behavior emerging",
+    "sequence_type" : "prologue",
+    "id" : "8c",
+    "duration_seconds" : 8,
+    "stitch_from" : ""
+  }
 }

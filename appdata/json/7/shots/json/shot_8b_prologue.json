@@ -1,17 +1,20 @@
 {
+  "progressive_state" : "Exposure complete | Recognition moment | Camera frost 3% | Marked by light | Watching: Everyone seen",
+  "aspect_ratio" : "1.85:1",
+  "shot_metadata" : {
+    "duration_seconds" : 8,
+    "id" : "8b",
+    "sequence_type" : "prologue",
+    "title" : "Faces in the Light - Animal Eye Shine",
+    "stitch_from" : "",
+    "narrative_function" : "Reveals animal nature through industrial examination"
+  },
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "camera_position" : "Moving along feast tables examining faces, that's where the camera is",
-      "variant_id" : "8b_story_primary",
-      "style" : "Tracking shot along tables, close on faces (that's where the camera is), harsh searchlight lighting.",
-      "variant_name" : "Industrial Light Examination",
-      "dialogue" : "None",
-      "action" : "Camera moves along table. Each face caught in searchlight. Magnús's face first - eyes reflect light like cat's eyes, silver discs. Guðrún next - purple juice on chin appears black like dried blood. Sigrid's face calm, eyes ancient, knowing something. Jón's small face, golden egg yolk on cheek now black mark. Lilja clutching cloth doll, purple mouth open showing black teeth. Move to other families. Every face has animal eye-shine in the light. The three stains make patterns on skin - blood, berry, egg - forming shapes like markings. One man's stains form perfect sheep face on his cheek. Woman's stains make horn shapes on forehead. Children all have black mouths from juice, look like they've eaten darkness. Everyone perfectly still, no one blinks despite bright light. Breathing synchronized. The searchlight flickers once - in that moment, everyone appears as sheep faces. Flickers back - human again.",
-      "subject" : "Close view of faces at feast tables illuminated by harsh trawler searchlight, everyone's eyes reflecting the light like animals, the three stains on their skin appearing black, children's purple mouths looking like wounds.",
       "progressive_state" : "",
-      "scene" : "Close-ups at feast tables under searchlight. Harsh white light, black shadows. Faces with three stains visible.",
-      "is_active" : false,
-      "negative_prompt" : "no subtitles, show animal eye-shine, three stains as black marks, one flicker to sheep faces, 1080p",
+      "subject" : "Close view of faces at feast tables illuminated by harsh trawler searchlight, everyone's eyes reflecting the light like animals, the three stains on their skin appearing black, children's purple mouths looking like wounds.",
+      "action" : "Camera moves along table. Each face caught in searchlight. Magnús's face first - eyes reflect light like cat's eyes, silver discs. Guðrún next - purple juice on chin appears black like dried blood. Sigrid's face calm, eyes ancient, knowing something. Jón's small face, golden egg yolk on cheek now black mark. Lilja clutching cloth doll, purple mouth open showing black teeth. Move to other families. Every face has animal eye-shine in the light. The three stains make patterns on skin - blood, berry, egg - forming shapes like markings. One man's stains form perfect sheep face on his cheek. Woman's stains make horn shapes on forehead. Children all have black mouths from juice, look like they've eaten darkness. Everyone perfectly still, no one blinks despite bright light. Breathing synchronized. The searchlight flickers once - in that moment, everyone appears as sheep faces. Flickers back - human again.",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "JON-PROPHET",
@@ -19,18 +22,15 @@
         "SIGRID-MARKED",
         "LILJA-MATHEMATICAL",
         "SEA-EXTRACTED"
-      ]
+      ],
+      "is_active" : false,
+      "variant_name" : "Industrial Light Examination",
+      "negative_prompt" : "no subtitles, show animal eye-shine, three stains as black marks, one flicker to sheep faces, 1080p",
+      "variant_id" : "8b_story_primary",
+      "scene" : "Close-ups at feast tables under searchlight. Harsh white light, black shadows. Faces with three stains visible.",
+      "style" : "Tracking shot along tables, close on faces (that's where the camera is), harsh searchlight lighting.",
+      "camera_position" : "Moving along feast tables examining faces, that's where the camera is",
+      "dialogue" : "None"
     }
-  ],
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "title" : "Faces in the Light - Animal Eye Shine",
-    "sequence_type" : "prologue",
-    "narrative_function" : "Reveals animal nature through industrial examination",
-    "id" : "8b",
-    "stitch_from" : ""
-  },
-  "progressive_state" : "Exposure complete | Recognition moment | Camera frost 3% | Marked by light | Watching: Everyone seen",
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "1.85:1"
+  ]
 }

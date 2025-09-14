@@ -1,0 +1,36 @@
+{
+  "aspect_ratio" : "4:3",
+  "shot_metadata" : {
+    "sequence_type" : "main_story",
+    "title" : "Family as Sheep - Central Horror Image",
+    "narrative_function" : "Reveals family transformation with human consciousness retained",
+    "duration_seconds" : 8,
+    "id" : "56",
+    "stitch_from" : ""
+  },
+  "progressive_state" : "Family transformation 100% | Human consciousness preserved | Central horror revealed | Watching: Impossible anatomy",
+  "prompt_variants" : [
+    {
+      "scene" : "Baðstofa interior with family as conscious livestock, furniture arrangements maintained for bipedal use with quadruped anatomy, impossible cultural preservation through species transformation.",
+      "style" : "Wide shot showing complete family transformation while maintaining domestic arrangements (that's where the camera is), documentary of impossible anatomy with cultural continuity.",
+      "subject" : "Five white Icelandic sheep standing upright around table, wearing family's clothes, human teeth visible in sheep mouths, [GUÐRÚN] with faldbúningur headdress fitting perfectly on sheep head, all breathing at 8\/min synchronized rhythm while human consciousness clearly visible through sheep eyes.",
+      "variant_id" : "56_story_primary",
+      "action" : "Family arranged in traditional positions but as sheep - Magnús-ram at table head wearing brown vaðmál sweater, curved horns visible, steel-blue eyes showing human intelligence and frustration. Guðrún-ewe with traditional headdress impossible but perfect on sheep skull, human consciousness obvious through horizontal pupils, mouth forming human words through sheep anatomy. Jón-lamb and Lilja-lamb maintaining child positions, human emotional responses through animal expressions. Sigrid-ewe at 11-foot distance, belly showing pregnancy through sheep anatomy, grey eyes with amber flecks clearly human consciousness in animal head. All wear family clothing stretched over quadruped bodies, human possessions somehow fitting animal anatomy. Breathing synchronized at 8\/min sheep rhythm but with human awareness visible through eye expression and behavioral complexity impossible with normal livestock intelligence.",
+      "variant_name" : "Conscious Livestock Horror",
+      "negative_prompt" : "no normal sheep behavior, no loss of human consciousness, no realistic clothing fit, no normal family function",
+      "is_active" : false,
+      "dialogue" : "None - human consciousness through sheep anatomy unable to form human speech",
+      "camera_position" : "Wide shot documenting complete transformation, that's where the camera is",
+      "progressive_state" : "",
+      "selected_plates" : [
+        "S-RAM",
+        "JON-LAMB",
+        "GUDRUN-ETERNAL",
+        "SIGRID-CORVID",
+        "LILJA-LAMB",
+        "BAÐSTOFA-MONUMENT"
+      ]
+    }
+  ],
+  "selected_prompt_index" : 0
+}

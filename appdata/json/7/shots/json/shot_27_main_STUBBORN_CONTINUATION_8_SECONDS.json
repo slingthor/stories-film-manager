@@ -1,91 +1,91 @@
 {
-  "progressive_state" : "Systems disrupted but ignored | Denial through action | Camera frost 18% | Male pride prevailing | Watching: Blood spirals watching",
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "title" : "STUBBORN CONTINUATION 8 SECONDS",
-    "sequence_type" : "main_story",
-    "stitch_from" : "",
-    "id" : "27",
-    "narrative_function" : "Systems disrupted but ignored | Denial through act..."
-  },
   "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
+      "action" : "Blood spirals rotate clockwise pointing toward house as Magnús observes them, supernatural compass created by ram's death-mathematics providing navigation guidance when traditional knowledge fails. Each spiral arm extends slightly toward house direction while others contract, creating directional arrows in blood-snow that pulse with 8\/min rhythm matching future sheep breathing rate. Mountains subtly shift positions between glances—peaks appearing 50 meters closer\/farther without movement, spatial warping suggesting landscape rearranging itself to guide lost provider toward shelter. For split second, fjord view becomes house interior vision—seeing family arranged in réttir formation around empty table, double-reality showing destination while experiencing journey. Wind carries Sigrid's name with 16Hz geological voice, mountain frequency making her identity resonate through bone structure rather than ear-hearing, supernatural communication bypassing normal senses.",
       "variant_name" : "Stubborn Continuation Blood Spirals Guide Return",
+      "camera_position" : "",
+      "progressive_state" : "",
+      "subject" : "",
+      "is_active" : false,
+      "style" : "Camera positioned behind Magnús showing both his defeated posture and blood spiral guidance system (that's where the camera is), close enough for blood pattern detail, wide enough for mountain position shifts. Static shot except during spatial warping moments when landscape adjusts position, supernatural assistance creating brief movement in otherwise frozen environment. Natural light enhanced by blood spiral luminescence and mountain frequency resonance. Focus alternates between blood compass directions and Magnús's confusion about supernatural guidance. DIALOGUE:",
       "selected_plates" : [
         "MAGNUS-PREDATOR",
         "JON-TEMPORAL",
         "SIGRID-CORNERED",
         "WESTFJORDS-CLIFF"
       ],
-      "style" : "Camera positioned behind Magnús showing both his defeated posture and blood spiral guidance system (that's where the camera is), close enough for blood pattern detail, wide enough for mountain position shifts. Static shot except during spatial warping moments when landscape adjusts position, supernatural assistance creating brief movement in otherwise frozen environment. Natural light enhanced by blood spiral luminescence and mountain frequency resonance. Focus alternates between blood compass directions and Magnús's confusion about supernatural guidance. DIALOGUE:",
-      "progressive_state" : "",
       "dialogue" : "",
-      "is_active" : false,
-      "action" : "Blood spirals rotate clockwise pointing toward house as Magnús observes them, supernatural compass created by ram's death-mathematics providing navigation guidance when traditional knowledge fails. Each spiral arm extends slightly toward house direction while others contract, creating directional arrows in blood-snow that pulse with 8\/min rhythm matching future sheep breathing rate. Mountains subtly shift positions between glances—peaks appearing 50 meters closer\/farther without movement, spatial warping suggesting landscape rearranging itself to guide lost provider toward shelter. For split second, fjord view becomes house interior vision—seeing family arranged in réttir formation around empty table, double-reality showing destination while experiencing journey. Wind carries Sigrid's name with 16Hz geological voice, mountain frequency making her identity resonate through bone structure rather than ear-hearing, supernatural communication bypassing normal senses.",
       "variant_id" : "27_stubborn_continuation_blood_spirals_guide_return",
       "scene" : "SHOT 27: STUBBORN CONTINUATION - BLOOD SPIRALS GUIDE RETURN From Masculine Futility (8.5\/10) to Supernatural Guidance Masterpiece (9.5\/10) SHOT HEADER: Frozen Westfjords landscape between failed fishing attempt and house return, blood-trail patterns in snow serving as supernatural navigation system pointing toward family shelter. Mountains framing scene like protective barriers creating fjord-valley sanctuary where family waits. Landscape responding to patriarch's failure by providing guidance home, geological intelligence compensating for human navigation breakdown through environmental assistance.",
-      "negative_prompt" : "",
-      "subject" : "",
-      "camera_position" : ""
-    },
-    {
-      "variant_id" : "27_pass_2_blood_spiral_molecular_guidance",
-      "action" : "Camera follows blood flow through spiral pattern at molecular level, riding with blood cells as they navigate toward house using guardian consciousness embedded in cellular structure. Blood chemistry actively adjusts flow direction—plasma viscosity changing to create directional current, red blood cells clustering in formation arrows pointing homeward, bacterial communities generating chemical signals that orient flow toward family shelter. Molecular memory access shows brief flashes of ram's living vision: protective surveillance of family, territorial knowledge of house location, guardian duty preserved through cellular information storage. Blood flow accelerates when pointing correctly toward house, decelerates when flowing away from target, creating molecular feedback system where guardian consciousness rewards correct navigation through increased circulation. Individual cells show crystalline magnetic inclusions—biological compass needles oriented toward house direction, supernatural magnetism operating through blood chemistry to provide navigation accuracy beyond normal organic capability.",
-      "scene" : "PASS 2: SHOT 27 - BLOOD SPIRAL MOLECULAR GUIDANCE Following Ram's Blood Chemistry as Navigation System SHOT HEADER: Microscopic interior of blood spiral where guardian consciousness operates through cellular chemistry, frozen blood maintaining active navigation function through bacterial community preservation and magnetic cell inclusions. Ram's death creating biological navigation system through molecular memory preservation.",
-      "camera_position" : "",
-      "negative_prompt" : "",
-      "progressive_state" : "",
-      "is_active" : false,
-      "dialogue" : "",
-      "selected_plates" : [
-        "MAGNUS-PREDATOR",
-        "JON-TEMPORAL",
-        "SIGRID-CORNERED",
-        "WESTFJORDS-CLIFF"
-      ],
-      "subject" : "",
-      "style" : "Camera flowing with blood cells through spiral navigation pattern (that's where the camera is), movement following molecular current toward house direction. Focus reveals cellular detail during navigation function, showing biological compass operation at microscopic level. Lighting from bioluminescent bacteria and crystalline magnetic inclusions creating internal illumination within blood chemistry. DIALOGUE:",
-      "variant_name" : "Pass 2 Blood Spiral Molecular Guidance"
-    },
-    {
-      "scene" : "PASS 2: SHOT 27 - CHASING BLOOD SPIRAL NAVIGATION Camera Racing Along Mathematical Guidance System SHOT HEADER: Frozen landscape where ram's blood creates active navigation network, mathematical patterns serving as supernatural guidance system connecting sacrifice sites to survival locations. Blood geometry extending across Westfjords terrain linking all guardian death-sites through underground mathematical network.",
-      "progressive_state" : "",
-      "action" : "",
-      "variant_id" : "27_pass_2_chasing_blood_spiral_navigation",
-      "dialogue" : "",
-      "variant_name" : "Pass 2 Chasing Blood Spiral Navigation",
-      "is_active" : false,
-      "subject" : "",
-      "selected_plates" : [
-        "MAGNUS-PREDATOR",
-        "JON-TEMPORAL",
-        "SIGRID-CORNERED",
-        "WESTFJORDS-CLIFF"
-      ],
-      "style" : "Camera traveling at racing speed along blood spiral pathways using impossible ground-level trajectory (that's where the camera is), movement following mathematical guidance at supernatural velocity along geometric patterns. Focus maintains sharpness on spiral mathematics during racing movement, showing navigation detail at high speed. Lighting from pulsing blood patterns creating navigation illumination, mathematical geometry self-lighting for guidance visibility. DIALOGUE:",
-      "camera_position" : "",
       "negative_prompt" : ""
     },
     {
-      "negative_prompt" : "no subtitles, show cost of stubbornness, aging visible, documentary observation",
-      "scene" : "Blood spiral path toward fjord, 6:42 AM, darkness unnatural. Temperature -28Â°C. Each footstep breaks through to older blood layers beneath. Boat leaving deep groove, but groove filling with fresh blood from his nose dripping.",
-      "action" : "MagnÃºs pushes up from knees, fighting resonance still traveling through ground. Looks back once at house - smoke forming impossible shapes, windows glowing with landvÃ¦ttir attention, door opening and closing in rhythm. Knows he should return. Instead, deliberately turns back. Grabs boat rope, has to wrap it twice around hands - no tremor means no grip feedback, hands feel dead. Pulls. Boat resists more now, blood spirals trying to pull it back toward house. But his stubbornness stronger than magic. Steps forward. Boat scrapes forward 1 foot. Steps again. Another foot. Each step costs more - nose blood frozen in icicles on beard, grey hair now white at temples, aging visibly with effort. But continues. Because admitting Sigrid had to try tilberi means admitting he failed to provide. Male pride stronger than cosmic warnings. Behind him, house heartbeat audible even at distance - 80bpm panic rhythm. Ignores it. Counts steps in Danish: \"Et... to... tre...\" Programming stronger than reality.",
-      "camera_position" : "Following shot showing stubborn forward movement against all signs",
-      "variant_name" : "Primary - STUBBORN CONTINUATION 8 SECONDS",
-      "dialogue" : "(MagnÃºs, to himself): \"Ã‰g er fyrirvinna\" (I am provider) (Counting steps): \"Et... to... tre... fjorir...\" (To boat resisting): \"ÃžÃš KEMUR!\" (YOU'RE COMING!)",
       "progressive_state" : "",
+      "subject" : "",
+      "action" : "Camera follows blood flow through spiral pattern at molecular level, riding with blood cells as they navigate toward house using guardian consciousness embedded in cellular structure. Blood chemistry actively adjusts flow direction—plasma viscosity changing to create directional current, red blood cells clustering in formation arrows pointing homeward, bacterial communities generating chemical signals that orient flow toward family shelter. Molecular memory access shows brief flashes of ram's living vision: protective surveillance of family, territorial knowledge of house location, guardian duty preserved through cellular information storage. Blood flow accelerates when pointing correctly toward house, decelerates when flowing away from target, creating molecular feedback system where guardian consciousness rewards correct navigation through increased circulation. Individual cells show crystalline magnetic inclusions—biological compass needles oriented toward house direction, supernatural magnetism operating through blood chemistry to provide navigation accuracy beyond normal organic capability.",
       "selected_plates" : [
         "MAGNUS-PREDATOR",
         "JON-TEMPORAL",
         "SIGRID-CORNERED",
         "WESTFJORDS-CLIFF"
       ],
-      "subject" : "[MAGNÃšS] forcing himself to stand despite 16Hz resonance, deliberately turning his back on the glowing house, gripping the boat rope with tremor-stopped hands (0Hz more terrifying than shaking), and continuing toward the fjord because turning back would mean admitting failure as provider.",
+      "is_active" : false,
+      "variant_name" : "Pass 2 Blood Spiral Molecular Guidance",
+      "negative_prompt" : "",
+      "variant_id" : "27_pass_2_blood_spiral_molecular_guidance",
+      "scene" : "PASS 2: SHOT 27 - BLOOD SPIRAL MOLECULAR GUIDANCE Following Ram's Blood Chemistry as Navigation System SHOT HEADER: Microscopic interior of blood spiral where guardian consciousness operates through cellular chemistry, frozen blood maintaining active navigation function through bacterial community preservation and magnetic cell inclusions. Ram's death creating biological navigation system through molecular memory preservation.",
+      "style" : "Camera flowing with blood cells through spiral navigation pattern (that's where the camera is), movement following molecular current toward house direction. Focus reveals cellular detail during navigation function, showing biological compass operation at microscopic level. Lighting from bioluminescent bacteria and crystalline magnetic inclusions creating internal illumination within blood chemistry. DIALOGUE:",
+      "camera_position" : "",
+      "dialogue" : ""
+    },
+    {
+      "scene" : "PASS 2: SHOT 27 - CHASING BLOOD SPIRAL NAVIGATION Camera Racing Along Mathematical Guidance System SHOT HEADER: Frozen landscape where ram's blood creates active navigation network, mathematical patterns serving as supernatural guidance system connecting sacrifice sites to survival locations. Blood geometry extending across Westfjords terrain linking all guardian death-sites through underground mathematical network.",
+      "style" : "Camera traveling at racing speed along blood spiral pathways using impossible ground-level trajectory (that's where the camera is), movement following mathematical guidance at supernatural velocity along geometric patterns. Focus maintains sharpness on spiral mathematics during racing movement, showing navigation detail at high speed. Lighting from pulsing blood patterns creating navigation illumination, mathematical geometry self-lighting for guidance visibility. DIALOGUE:",
+      "variant_name" : "Pass 2 Chasing Blood Spiral Navigation",
+      "action" : "",
+      "camera_position" : "",
+      "progressive_state" : "",
+      "dialogue" : "",
+      "is_active" : false,
+      "variant_id" : "27_pass_2_chasing_blood_spiral_navigation",
+      "selected_plates" : [
+        "MAGNUS-PREDATOR",
+        "JON-TEMPORAL",
+        "SIGRID-CORNERED",
+        "WESTFJORDS-CLIFF"
+      ],
+      "subject" : "",
+      "negative_prompt" : ""
+    },
+    {
+      "scene" : "Blood spiral path toward fjord, 6:42 AM, darkness unnatural. Temperature -28Â°C. Each footstep breaks through to older blood layers beneath. Boat leaving deep groove, but groove filling with fresh blood from his nose dripping.",
+      "variant_name" : "Primary - STUBBORN CONTINUATION 8 SECONDS",
       "variant_id" : "27_story_primary",
+      "subject" : "[MAGNÃšS] forcing himself to stand despite 16Hz resonance, deliberately turning his back on the glowing house, gripping the boat rope with tremor-stopped hands (0Hz more terrifying than shaking), and continuing toward the fjord because turning back would mean admitting failure as provider.",
+      "camera_position" : "Following shot showing stubborn forward movement against all signs",
+      "negative_prompt" : "no subtitles, show cost of stubbornness, aging visible, documentary observation",
+      "is_active" : false,
+      "action" : "MagnÃºs pushes up from knees, fighting resonance still traveling through ground. Looks back once at house - smoke forming impossible shapes, windows glowing with landvÃ¦ttir attention, door opening and closing in rhythm. Knows he should return. Instead, deliberately turns back. Grabs boat rope, has to wrap it twice around hands - no tremor means no grip feedback, hands feel dead. Pulls. Boat resists more now, blood spirals trying to pull it back toward house. But his stubbornness stronger than magic. Steps forward. Boat scrapes forward 1 foot. Steps again. Another foot. Each step costs more - nose blood frozen in icicles on beard, grey hair now white at temples, aging visibly with effort. But continues. Because admitting Sigrid had to try tilberi means admitting he failed to provide. Male pride stronger than cosmic warnings. Behind him, house heartbeat audible even at distance - 80bpm panic rhythm. Ignores it. Counts steps in Danish: \"Et... to... tre...\" Programming stronger than reality.",
       "style" : "Following shot showing stubborn forward movement against all signs (that's where the camera is), documentary of masculine denial.",
-      "is_active" : false
+      "dialogue" : "(MagnÃºs, to himself): \"Ã‰g er fyrirvinna\" (I am provider) (Counting steps): \"Et... to... tre... fjorir...\" (To boat resisting): \"ÃžÃš KEMUR!\" (YOU'RE COMING!)",
+      "selected_plates" : [
+        "MAGNUS-PREDATOR",
+        "JON-TEMPORAL",
+        "SIGRID-CORNERED",
+        "WESTFJORDS-CLIFF"
+      ],
+      "progressive_state" : ""
     }
-  ]
+  ],
+  "progressive_state" : "Systems disrupted but ignored | Denial through action | Camera frost 18% | Male pride prevailing | Watching: Blood spirals watching",
+  "shot_metadata" : {
+    "title" : "STUBBORN CONTINUATION 8 SECONDS",
+    "narrative_function" : "Systems disrupted but ignored | Denial through act...",
+    "sequence_type" : "main_story",
+    "id" : "27",
+    "duration_seconds" : 8,
+    "stitch_from" : ""
+  }
 }

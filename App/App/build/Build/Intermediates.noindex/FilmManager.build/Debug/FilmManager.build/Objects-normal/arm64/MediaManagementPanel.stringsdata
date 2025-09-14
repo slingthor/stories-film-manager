@@ -183,20 +183,12 @@
         "key": "%@s",
         "location": {
           "startingColumn": 22,
-          "startingLine": 703
+          "startingLine": 706
         }
       },
       {
         "comment": "",
         "key": "Show in Finder",
-        "location": {
-          "startingColumn": 20,
-          "startingLine": 777
-        }
-      },
-      {
-        "comment": "",
-        "key": "Remove",
         "location": {
           "startingColumn": 20,
           "startingLine": 780
@@ -204,10 +196,18 @@
       },
       {
         "comment": "",
+        "key": "Remove",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 783
+        }
+      },
+      {
+        "comment": "",
         "key": "ENVIRONMENT MEDIA",
         "location": {
           "startingColumn": 23,
-          "startingLine": 953
+          "startingLine": 961
         }
       },
       {
@@ -215,7 +215,7 @@
         "key": "No environment media",
         "location": {
           "startingColumn": 26,
-          "startingLine": 975
+          "startingLine": 983
         }
       },
       {
@@ -223,7 +223,7 @@
         "key": "Select an environment plate first",
         "location": {
           "startingColumn": 30,
-          "startingLine": 979
+          "startingLine": 987
         }
       },
       {
@@ -231,7 +231,7 @@
         "key": "Open in Preview",
         "location": {
           "startingColumn": 20,
-          "startingLine": 1154
+          "startingLine": 1165
         }
       },
       {
@@ -239,7 +239,7 @@
         "key": "Show in Finder",
         "location": {
           "startingColumn": 20,
-          "startingLine": 1157
+          "startingLine": 1168
         }
       },
       {
@@ -247,7 +247,7 @@
         "key": "Delete",
         "location": {
           "startingColumn": 20,
-          "startingLine": 1161
+          "startingLine": 1172
         }
       },
       {
@@ -255,7 +255,7 @@
         "key": "Show in Finder",
         "location": {
           "startingColumn": 20,
-          "startingLine": 1220
+          "startingLine": 1231
         }
       },
       {
@@ -263,7 +263,7 @@
         "key": "Open in Preview",
         "location": {
           "startingColumn": 24,
-          "startingLine": 1224
+          "startingLine": 1235
         }
       },
       {
@@ -271,7 +271,7 @@
         "key": "Open in Preview",
         "location": {
           "startingColumn": 24,
-          "startingLine": 1277
+          "startingLine": 1288
         }
       },
       {
@@ -279,7 +279,7 @@
         "key": "Show in Finder",
         "location": {
           "startingColumn": 24,
-          "startingLine": 1282
+          "startingLine": 1293
         }
       },
       {
@@ -287,7 +287,7 @@
         "key": "Close",
         "location": {
           "startingColumn": 24,
-          "startingLine": 1289
+          "startingLine": 1300
         }
       }
     ]

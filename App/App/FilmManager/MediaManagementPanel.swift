@@ -2,6 +2,7 @@ import SwiftUI
 import Combine
 import UniformTypeIdentifiers
 import AppKit
+import AVFoundation
 
 struct MediaManagementPanel: View {
     let shot: FilmShot?
@@ -29,8 +30,8 @@ struct MediaManagementPanel: View {
                             videos: shot.videos,
                             images: shot.images,
                             color: .blue,
-                            onAddVideo: { addTestVideo(to: shot) },
-                            onAddImage: { addTestImage(to: shot) },
+                            onAddVideo: { addVideosFromFilePicker(to: shot) },
+                            onAddImage: { addImagesFromFilePicker(to: shot) },
                             onSelectVideo: { index in
                                 shot.selectVideo(at: index)
                                 filmManager.updateTimelineFromSelectedVideos()
@@ -132,22 +133,72 @@ struct MediaManagementPanel: View {
         }
     }
     
-    private func addTestVideo(to shot: FilmShot) {
-        let video = VideoFile(
-            filename: "shot_\(shot.id)_v\(shot.videos.count + 1).mp4",
-            filepath: "/test/path/shot_\(shot.id)_video_\(shot.videos.count + 1).mp4"
-        )
-        shot.addVideo(video)
-        filmManager.updateTimelineFromSelectedVideos()
+    private func addVideosFromFilePicker(to shot: FilmShot) {
+        let panel = NSOpenPanel()
+        panel.allowsMultipleSelection = true
+        panel.canChooseDirectories = false
+        panel.canChooseFiles = true
+        panel.allowedContentTypes = [.movie, .mpeg4Movie, .quickTimeMovie, .avi]
+        panel.message = "Select one or more video files"
+        panel.prompt = "Add Videos"
+
+        if panel.runModal() == .OK {
+            for url in panel.urls {
+                // Get video duration
+                let asset = AVAsset(url: url)
+                let duration = CMTimeGetSeconds(asset.duration)
+                let finalDuration = duration.isFinite ? duration : 0.0
+
+                let video = VideoFile(
+                    filename: url.lastPathComponent,
+                    filepath: url.path,
+                    duration: finalDuration
+                )
+                shot.addVideo(video)
+                print("✅ Added video via picker: \(video.filename) (duration: \(video.duration)s)")
+            }
+
+            // Mark shot as dirty and save
+            shot.isDirty = true
+            filmManager.fileManager.saveShot(shot)
+
+            // Update timeline if needed
+            filmManager.updateTimelineFromSelectedVideos()
+
+            // Force UI refresh
+            shot.objectWillChange.send()
+            filmManager.objectWillChange.send()
+        }
     }
-    
-    private func addTestImage(to shot: FilmShot) {
-        let image = ImageFile(
-            filename: "ref_\(shot.id)_\(shot.images.count + 1).jpg",
-            filepath: "/test/path/ref_\(shot.id)_image_\(shot.images.count + 1).jpg",
-            description: "Reference image for \(shot.title)"
-        )
-        shot.addImage(image)
+
+    private func addImagesFromFilePicker(to shot: FilmShot) {
+        let panel = NSOpenPanel()
+        panel.allowsMultipleSelection = true
+        panel.canChooseDirectories = false
+        panel.canChooseFiles = true
+        panel.allowedContentTypes = [.image, .jpeg, .png, .gif, .bmp, .tiff, .heic]
+        panel.message = "Select one or more image files"
+        panel.prompt = "Add Images"
+
+        if panel.runModal() == .OK {
+            for url in panel.urls {
+                let image = ImageFile(
+                    filename: url.lastPathComponent,
+                    filepath: url.path,
+                    description: "Reference image for \(shot.title)"
+                )
+                shot.addImage(image)
+                print("✅ Added image via picker: \(image.filename)")
+            }
+
+            // Mark shot as dirty and save
+            shot.isDirty = true
+            filmManager.fileManager.saveShot(shot)
+
+            // Force UI refresh
+            shot.objectWillChange.send()
+            filmManager.objectWillChange.send()
+        }
     }
     
     private func playVideo(_ video: VideoFile) {
@@ -519,63 +570,157 @@ struct PromptVariantMediaItem: View {
     @Binding var draggedMediaType: String?
     @Binding var draggedMediaPath: String?
 
-    var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            // Variant header
-            HStack {
-                VStack(alignment: .leading) {
-                    Text(variant.name)
-                        .font(.caption)
-                        .fontWeight(.semibold)
-                        .foregroundColor(isActive ? .orange : .primary)
-
-                    if isActive {
-                        Text("ACTIVE FOR TIMELINE")
-                            .font(.caption2)
-                            .fontWeight(.bold)
-                            .foregroundColor(.orange)
+    private func handleDrop(providers: [NSItemProvider]) -> Bool {
+        for provider in providers {
+            if provider.hasItemConformingToTypeIdentifier(UTType.fileURL.identifier) {
+                provider.loadDataRepresentation(forTypeIdentifier: UTType.fileURL.identifier) { data, error in
+                    if let data = data,
+                       let url = URL(dataRepresentation: data, relativeTo: nil) {
+                        self.processDroppedFile(at: url)
                     }
-                }
-
-                Spacer()
-
-                // Video count and active indicator
-                HStack(spacing: 8) {
-                    if !variant.videos.isEmpty {
-                        HStack(spacing: 2) {
-                            Image(systemName: "video.fill")
-                                .font(.caption2)
-                            Text("\(variant.videos.count)")
-                                .font(.caption2)
-                        }
-                        .foregroundColor(.blue)
-
-                        if let activeIndex = variant.activeVideoIndex {
-                            Text("(#\(activeIndex + 1) active)")
-                                .font(.caption2)
-                                .foregroundColor(.green)
-                        }
-                    }
-
-                    if !variant.images.isEmpty {
-                        HStack(spacing: 2) {
-                            Image(systemName: "photo.fill")
-                                .font(.caption2)
-                            Text("\(variant.images.count)")
-                                .font(.caption2)
-                        }
-                        .foregroundColor(.purple)
-                    }
-
-                    Button("Set Active") {
-                        shot.setActivePrompt(at: variantIndex)
-                        filmManager.updateTimelineFromSelectedVideos()
-                    }
-                    .buttonStyle(.bordered)
-                    .font(.caption2)
-                    .disabled(isActive)
                 }
             }
+        }
+        return true
+    }
+
+    private func processDroppedFile(at url: URL) {
+        print("   ✅ Processing file: \(url.path)")
+
+        DispatchQueue.main.async {
+            let fileExtension = url.pathExtension.lowercased()
+            let videoExtensions = ["mp4", "mov", "avi", "mkv", "m4v", "webm"]
+            let imageExtensions = ["jpg", "jpeg", "png", "gif", "bmp", "tiff", "heic"]
+
+            if videoExtensions.contains(fileExtension) {
+                // Generate duration for video
+                let duration = self.getVideoDuration(at: url) ?? 0.0
+
+                let video = VideoFile(
+                    filename: url.lastPathComponent,
+                    filepath: url.path,
+                    duration: duration
+                )
+
+                // Add video and trigger all necessary updates
+                self.variant.addVideo(video)
+                print("✅ Added video to variant '\(self.variant.name)': \(video.filename) (duration: \(video.duration)s)")
+                print("   Variant now has \(self.variant.videos.count) videos")
+
+                // Mark shot as dirty BEFORE saving
+                self.shot.isDirty = true
+
+                // Save to JSON immediately
+                self.filmManager.fileManager.saveShot(self.shot)
+                print("   💾 Saved shot to JSON")
+
+                // Now trigger UI updates
+                if self.variant.isActive {
+                    self.filmManager.updateTimelineFromSelectedVideos()
+                }
+
+                // Force refresh at all levels
+                self.variant.objectWillChange.send()
+                self.shot.objectWillChange.send()
+                self.filmManager.objectWillChange.send()
+
+            } else if imageExtensions.contains(fileExtension) {
+                let image = ImageFile(filename: url.lastPathComponent, filepath: url.path)
+
+                // Add image and trigger all necessary updates
+                self.variant.addImage(image)
+                print("✅ Added image to variant '\(self.variant.name)': \(image.filename)")
+                print("   Variant now has \(self.variant.images.count) images")
+
+                // Mark shot as dirty BEFORE saving
+                self.shot.isDirty = true
+
+                // Save to JSON immediately
+                self.filmManager.fileManager.saveShot(self.shot)
+                print("   💾 Saved shot to JSON")
+
+                // Force refresh at all levels
+                self.variant.objectWillChange.send()
+                self.shot.objectWillChange.send()
+                self.filmManager.objectWillChange.send()
+
+            } else {
+                print("⚠️ Unsupported file type: \(fileExtension)")
+            }
+        }
+    }
+
+    private func getVideoDuration(at url: URL) -> Double? {
+        let asset = AVAsset(url: url)
+        let duration = CMTimeGetSeconds(asset.duration)
+        return duration.isFinite ? duration : nil
+    }
+
+    @ViewBuilder
+    private var variantHeader: some View {
+        HStack {
+            VStack(alignment: .leading) {
+                Text(variant.name)
+                    .font(.caption)
+                    .fontWeight(.semibold)
+                    .foregroundColor(isActive ? .orange : .primary)
+
+                if isActive {
+                    Text("ACTIVE FOR TIMELINE")
+                        .font(.caption2)
+                        .fontWeight(.bold)
+                        .foregroundColor(.orange)
+                }
+            }
+
+            Spacer()
+
+            mediaCountIndicators
+
+            Button("Set Active") {
+                shot.setActivePrompt(at: variantIndex)
+                filmManager.updateTimelineFromSelectedVideos()
+            }
+            .buttonStyle(.bordered)
+            .font(.caption2)
+            .disabled(isActive)
+        }
+    }
+
+    @ViewBuilder
+    private var mediaCountIndicators: some View {
+        HStack(spacing: 8) {
+            if !variant.videos.isEmpty {
+                HStack(spacing: 2) {
+                    Image(systemName: "video.fill")
+                        .font(.caption2)
+                    Text("\(variant.videos.count)")
+                        .font(.caption2)
+                }
+                .foregroundColor(.blue)
+
+                if let activeIndex = variant.activeVideoIndex {
+                    Text("(#\(activeIndex + 1) active)")
+                        .font(.caption2)
+                        .foregroundColor(.green)
+                }
+            }
+
+            if !variant.images.isEmpty {
+                HStack(spacing: 2) {
+                    Image(systemName: "photo.fill")
+                        .font(.caption2)
+                    Text("\(variant.images.count)")
+                        .font(.caption2)
+                }
+                .foregroundColor(.purple)
+            }
+        }
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            variantHeader
 
             // Videos section
             if !variant.videos.isEmpty {
@@ -632,26 +777,24 @@ struct PromptVariantMediaItem: View {
                 }
             }
 
-            // Drop zones
-            if variant.videos.isEmpty && variant.images.isEmpty {
-                VStack {
-                    Image(systemName: "square.and.arrow.down.on.square")
-                        .font(.caption)
-                        .foregroundColor(.gray)
-                    Text("Drop media for \(variant.name)")
-                        .font(.caption2)
-                        .foregroundColor(.gray)
-                }
-                .frame(height: 40)
-                .frame(maxWidth: .infinity)
-                .background(Color.gray.opacity(0.05))
-                .cornerRadius(4)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 4)
-                        .stroke(Color.gray.opacity(0.3), style: StrokeStyle(lineWidth: 1, dash: [2]))
-                )
-                .onDrop(of: [.movie, .image], delegate: PromptVariantDropDelegate(variant: variant, filmManager: filmManager))
+            // Drop zone - always visible
+            VStack {
+                Image(systemName: "square.and.arrow.down.on.square")
+                    .font(.caption)
+                    .foregroundColor(.gray)
+                Text("Drop media for \(variant.name)")
+                    .font(.caption2)
+                    .foregroundColor(.gray)
             }
+            .frame(height: 40)
+            .frame(maxWidth: .infinity)
+            .background(Color.gray.opacity(0.05))
+            .cornerRadius(4)
+            .overlay(
+                RoundedRectangle(cornerRadius: 4)
+                    .stroke(Color.gray.opacity(0.3), style: StrokeStyle(lineWidth: 1, dash: [2]))
+            )
+            .onDrop(of: [.fileURL], isTargeted: .constant(false), perform: handleDrop)
         }
         .padding(8)
         .background(isActive ? Color.orange.opacity(0.1) : Color.gray.opacity(0.05))
@@ -693,6 +836,9 @@ struct PromptVideoRow: View {
                 RoundedRectangle(cornerRadius: 2)
                     .stroke(isActive ? Color.green : Color.gray.opacity(0.3), lineWidth: isActive ? 2 : 1)
             )
+            .onTapGesture(count: 1) {
+                onSelect()
+            }
             .onTapGesture(count: 2) {
                 onPlay()
             }
@@ -835,32 +981,70 @@ struct PromptVariantDropDelegate: DropDelegate {
     @ObservedObject var filmManager: FilmManager
 
     func performDrop(info: DropInfo) -> Bool {
-        // First check for external file drops (new videos/images)
-        if let itemProvider = info.itemProviders(for: [.movie, .image]).first {
-            if itemProvider.hasItemConformingToTypeIdentifier("public.movie") {
-                itemProvider.loadItem(forTypeIdentifier: "public.movie", options: nil) { data, error in
-                    if let url = data as? URL {
-                        DispatchQueue.main.async {
-                            let video = VideoFile(filename: url.lastPathComponent, filepath: url.path)
-                            variant.addVideo(video)
-                            if variant.isActive {
-                                filmManager.updateTimelineFromSelectedVideos()
-                            }
+        print("🎯 performDrop called for variant: \(variant.name)")
+        print("   Available type identifiers: \(info.itemProviders(for: [.fileURL]).count) fileURL providers")
+
+        // First check for file URLs (when dragging from Finder)
+        if let itemProvider = info.itemProviders(for: [.fileURL]).first {
+            print("   Found fileURL provider, attempting to load...")
+
+            // Try loading as URL first (more reliable)
+            itemProvider.loadItem(forTypeIdentifier: UTType.fileURL.identifier, options: nil) { (item, error) in
+                if let error = error {
+                    print("❌ Error loading file URL: \(error.localizedDescription)")
+                    return
+                }
+
+                print("   Item loaded, type: \(type(of: item))")
+
+                // Try different ways to get the URL
+                var url: URL?
+
+                if let urlItem = item as? URL {
+                    url = urlItem
+                    print("   ✅ Direct URL cast successful: \(urlItem.path)")
+                } else if let data = item as? Data {
+                    url = URL(dataRepresentation: data, relativeTo: nil)
+                    print("   ℹ️ URL from data representation: \(url?.path ?? "nil")")
+                } else if let string = item as? String {
+                    url = URL(fileURLWithPath: string)
+                    print("   ℹ️ URL from string path: \(url?.path ?? "nil")")
+                } else if let nsurl = item as? NSURL {
+                    url = nsurl as URL
+                    print("   ℹ️ URL from NSURL: \(url?.path ?? "nil")")
+                }
+
+                guard let finalURL = url else {
+                    print("❌ Failed to extract URL from drop data of type: \(type(of: item))")
+                    return
+                }
+
+                DispatchQueue.main.async {
+                    let fileExtension = finalURL.pathExtension.lowercased()
+                    let videoExtensions = ["mp4", "mov", "avi", "mkv", "m4v", "webm"]
+                    let imageExtensions = ["jpg", "jpeg", "png", "gif", "bmp", "tiff", "heic"]
+
+                    print("   File: \(finalURL.lastPathComponent), Extension: \(fileExtension)")
+
+                    if videoExtensions.contains(fileExtension) {
+                        let video = VideoFile(filename: finalURL.lastPathComponent, filepath: finalURL.path)
+                        variant.addVideo(video)
+                        if variant.isActive {
+                            filmManager.updateTimelineFromSelectedVideos()
                         }
+                        print("✅ Added video to variant '\(variant.name)': \(video.filename)")
+                    } else if imageExtensions.contains(fileExtension) {
+                        let image = ImageFile(filename: finalURL.lastPathComponent, filepath: finalURL.path)
+                        variant.addImage(image)
+                        print("✅ Added image to variant '\(variant.name)': \(image.filename)")
+                    } else {
+                        print("⚠️ Unsupported file type: \(fileExtension)")
                     }
                 }
-                return true
-            } else if itemProvider.hasItemConformingToTypeIdentifier("public.image") {
-                itemProvider.loadItem(forTypeIdentifier: "public.image", options: nil) { data, error in
-                    if let url = data as? URL {
-                        DispatchQueue.main.async {
-                            let image = ImageFile(filename: url.lastPathComponent, filepath: url.path)
-                            variant.addImage(image)
-                        }
-                    }
-                }
-                return true
             }
+            return true
+        } else {
+            print("⚠️ No fileURL providers found in drop info")
         }
 
         // Then check for internal drag from shot-level videos
@@ -895,15 +1079,16 @@ struct PromptVariantDropDelegate: DropDelegate {
     }
 
     func dropUpdated(info: DropInfo) -> DropProposal? {
+        print("📍 dropUpdated called for variant: \(variant.name)")
         return DropProposal(operation: .copy)
     }
 
     func dropEntered(info: DropInfo) {
-        // Visual feedback when drag enters
+        print("➡️ dropEntered for variant: \(variant.name)")
     }
 
     func dropExited(info: DropInfo) {
-        // Visual feedback when drag exits
+        print("⬅️ dropExited for variant: \(variant.name)")
     }
 }
 

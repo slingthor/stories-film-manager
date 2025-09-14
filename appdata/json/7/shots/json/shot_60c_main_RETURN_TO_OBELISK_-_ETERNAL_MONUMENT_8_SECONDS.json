@@ -1,33 +1,33 @@
 {
+  "progressive_state" : "Present\/all times | Camera frost 55.5% | Monument eternal | Watching: We see forever",
+  "aspect_ratio" : "2.39:1",
+  "shot_metadata" : {
+    "duration_seconds" : 8,
+    "id" : "60c",
+    "sequence_type" : "main_story",
+    "title" : "RETURN TO OBELISK - ETERNAL MONUMENT 8 SECONDS",
+    "stitch_from" : "",
+    "narrative_function" : "Present\/all times | Camera frost 55.5% | Monument ..."
+  },
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "variant_id" : "60c_story_primary",
-      "action" : "SPIRAL DOWN around obelisk. Starting high. Modern day. Tour buses. Interpretive signs in multiple languages. \"Monument to Colonial Transformation.\" Tourists taking selfies. But don't see what we see. Through obsidian: family still there. Still aware. Still moving in their frozen way. GuÃ°rÃºn-ewe's mouth still forming the words: \"kindur... fÃ³lk\" (sheep... people). Over and over. Eternal explanation. MagnÃºs-ram still charging at nothing. Or at everything. His rage now educational. Children lambs still huddled. Forever young. Forever trapped. Forever witnessed. The cleft still open. Sometimes birds fly through. Sometimes just wind. The monument stands in all weather. Summer (brief). Winter (eternal). Northern lights dance across its surface. In those lights: glimpses of Sigrid. Still flying. Still witnessing. 72 years old in 1944. But also 16 forever. Also raven forever. All true. The obelisk doesn't age. Can't. It exists outside time. IS time. Crystallized. Made solid. Visitable.",
-      "scene" : "Modern obelisk as tourist site. Family visible inside. Eternal monument. All times present.",
-      "camera_position" : "Spiral down showing permanence",
-      "negative_prompt" : "maintain monument dignity, family visible but subtle",
       "progressive_state" : "",
-      "is_active" : false,
-      "dialogue" : "(Tour guide, muffled): \"...represents the transformation of Iceland...\" (GuÃ°rÃºn, eternal): \"kindur... fÃ³lk...\"",
+      "subject" : "Camera spiraling down around the 40-foot black hrafntinna obelisk standing in modern times, tourists taking photos, but through the obsidian the sheep family still visible, still preserved, GuÃ°rÃºn-ewe still mouthing \"kindur... fÃ³lk,\" MagnÃºs-ram still charging, eternal.",
+      "action" : "SPIRAL DOWN around obelisk. Starting high. Modern day. Tour buses. Interpretive signs in multiple languages. \"Monument to Colonial Transformation.\" Tourists taking selfies. But don't see what we see. Through obsidian: family still there. Still aware. Still moving in their frozen way. GuÃ°rÃºn-ewe's mouth still forming the words: \"kindur... fÃ³lk\" (sheep... people). Over and over. Eternal explanation. MagnÃºs-ram still charging at nothing. Or at everything. His rage now educational. Children lambs still huddled. Forever young. Forever trapped. Forever witnessed. The cleft still open. Sometimes birds fly through. Sometimes just wind. The monument stands in all weather. Summer (brief). Winter (eternal). Northern lights dance across its surface. In those lights: glimpses of Sigrid. Still flying. Still witnessing. 72 years old in 1944. But also 16 forever. Also raven forever. All true. The obelisk doesn't age. Can't. It exists outside time. IS time. Crystallized. Made solid. Visitable.",
       "selected_plates" : [
         "LILJA-SENSING",
         "SIGRID-CORNERED",
         "STOFA-BODY"
       ],
-      "subject" : "Camera spiraling down around the 40-foot black hrafntinna obelisk standing in modern times, tourists taking photos, but through the obsidian the sheep family still visible, still preserved, GuÃ°rÃºn-ewe still mouthing \"kindur... fÃ³lk,\" MagnÃºs-ram still charging, eternal.",
+      "is_active" : false,
+      "variant_name" : "Primary - RETURN TO OBELISK - ETERNAL MONUMENT 8 SECONDS",
+      "negative_prompt" : "maintain monument dignity, family visible but subtle",
+      "variant_id" : "60c_story_primary",
+      "scene" : "Modern obelisk as tourist site. Family visible inside. Eternal monument. All times present.",
       "style" : "Spiral down showing permanence (that's where the camera is), monument documented.",
-      "variant_name" : "Primary - RETURN TO OBELISK - ETERNAL MONUMENT 8 SECONDS"
+      "camera_position" : "Spiral down showing permanence",
+      "dialogue" : "(Tour guide, muffled): \"...represents the transformation of Iceland...\" (GuÃ°rÃºn, eternal): \"kindur... fÃ³lk...\""
     }
-  ],
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "title" : "RETURN TO OBELISK - ETERNAL MONUMENT 8 SECONDS",
-    "sequence_type" : "main_story",
-    "narrative_function" : "Present\/all times | Camera frost 55.5% | Monument ...",
-    "id" : "60c",
-    "stitch_from" : ""
-  },
-  "progressive_state" : "Present\/all times | Camera frost 55.5% | Monument eternal | Watching: We see forever",
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "2.39:1"
+  ]
 }
