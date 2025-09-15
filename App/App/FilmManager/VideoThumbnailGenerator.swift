@@ -1,5 +1,6 @@
 import SwiftUI
 import AVFoundation
+import AVKit
 import AppKit
 
 class VideoThumbnailGenerator {
@@ -156,12 +157,14 @@ struct VideoThumbnailView: View {
                 isHovering = hovering
             }
         }
-        .overlay(alignment: .topLeading) {
-            if enableHoverPreview && isHovering && thumbnail != nil {
-                HoverPreviewView(
+        .popover(isPresented: Binding(
+            get: { enableHoverPreview && isHovering && thumbnail != nil },
+            set: { _ in }
+        ), attachmentAnchor: .point(UnitPoint(x: 0, y: -0.5)), arrowEdge: .bottom) {
+            if let thumbnail = thumbnail {
+                HoverPreviewPopoverContent(
                     thumbnail: thumbnail,
-                    videoPath: videoPath,
-                    isShowing: $isHovering
+                    videoPath: videoPath
                 )
             }
         }
@@ -200,78 +203,106 @@ struct VideoThumbnailView: View {
     }
 }
 
-// MARK: - Hover Preview View
-struct HoverPreviewView: View {
+// MARK: - Hover Preview Popover Content
+struct HoverPreviewPopoverContent: View {
     let thumbnail: NSImage?
     let videoPath: String
-    @Binding var isShowing: Bool
     @State private var largeThumbnail: NSImage?
-    @State private var mouseLocation: CGPoint = .zero
+    @State private var player: AVPlayer?
+    @State private var playerLooper: AVPlayerLooper?
 
-    private let previewSize = CGSize(width: 320, height: 180) // Larger preview size
+    private let previewSize = CGSize(width: 480, height: 270) // Larger preview size (increased from 320x180)
 
     var body: some View {
-        if isShowing {
-            VStack(alignment: .leading, spacing: 8) {
-                // Large thumbnail
-                if let largeThumbnail = largeThumbnail {
-                    Image(nsImage: largeThumbnail)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: previewSize.width, height: previewSize.height)
-                        .cornerRadius(8)
-                } else if let thumbnail = thumbnail {
-                    // Fallback to regular thumbnail while loading
-                    Image(nsImage: thumbnail)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: previewSize.width, height: previewSize.height)
-                        .cornerRadius(8)
-                }
+        VStack(alignment: .leading, spacing: 8) {
+            // Video player or thumbnail
+            if let player = player {
+                // Show video player for video files
+                VideoPlayer(player: player)
+                    .frame(width: previewSize.width, height: previewSize.height)
+                    .cornerRadius(8)
+                    .onAppear {
+                        player.play()
+                    }
+                    .onDisappear {
+                        player.pause()
+                    }
+            } else if let largeThumbnail = largeThumbnail {
+                // Show static thumbnail while video loads
+                Image(nsImage: largeThumbnail)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: previewSize.width, height: previewSize.height)
+                    .cornerRadius(8)
+            } else if let thumbnail = thumbnail {
+                // Fallback to regular thumbnail while loading
+                Image(nsImage: thumbnail)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: previewSize.width, height: previewSize.height)
+                    .cornerRadius(8)
+            }
 
-                // Video info
-                VStack(alignment: .leading, spacing: 4) {
-                    Text(URL(fileURLWithPath: videoPath).lastPathComponent)
-                        .font(.caption)
-                        .fontWeight(.medium)
-                        .lineLimit(1)
-                        .truncationMode(.middle)
+            // Video info
+            VStack(alignment: .leading, spacing: 4) {
+                Text(URL(fileURLWithPath: videoPath).lastPathComponent)
+                    .font(.caption)
+                    .fontWeight(.medium)
+                    .lineLimit(1)
+                    .truncationMode(.middle)
 
-                    HStack {
-                        Label(formatDuration(getDuration()), systemImage: "clock")
+                HStack {
+                    Label(formatDuration(getDuration()), systemImage: "clock")
+                        .font(.caption2)
+                        .foregroundColor(.secondary)
+
+                    Spacer()
+
+                    if let fileSize = getFileSize() {
+                        Text(fileSize)
                             .font(.caption2)
                             .foregroundColor(.secondary)
-
-                        Spacer()
-
-                        if let fileSize = getFileSize() {
-                            Text(fileSize)
-                                .font(.caption2)
-                                .foregroundColor(.secondary)
-                        }
                     }
                 }
-                .padding(.horizontal, 8)
-                .frame(width: previewSize.width)
             }
-            .padding(12)
-            .background(
-                RoundedRectangle(cornerRadius: 12)
-                    .fill(Color(NSColor.controlBackgroundColor))
-                    .shadow(color: Color.black.opacity(0.3), radius: 8, x: 0, y: 4)
-            )
-            .overlay(
-                RoundedRectangle(cornerRadius: 12)
-                    .stroke(Color.gray.opacity(0.2), lineWidth: 1)
-            )
-            .offset(x: -previewSize.width - 40, y: -previewSize.height - 40) // Position to upper left of cursor
-            .zIndex(9999)
-            .transition(.scale.combined(with: .opacity))
-            .animation(.easeOut(duration: 0.15), value: isShowing)
-            .onAppear {
-                loadLargeThumbnail()
+            .padding(.horizontal, 8)
+            .frame(width: previewSize.width)
+        }
+        .padding(12)
+        .onAppear {
+            loadLargeThumbnail()
+            setupVideoPlayer()
+        }
+        .onDisappear {
+            cleanupPlayer()
+        }
+    }
+
+    private func setupVideoPlayer() {
+        // Set up looping video player
+        DispatchQueue.global(qos: .userInteractive).async {
+            let url = URL(fileURLWithPath: self.videoPath)
+            let playerItem = AVPlayerItem(url: url)
+            let player = AVQueuePlayer(playerItem: playerItem)
+
+            // Create looper for continuous playback
+            let looper = AVPlayerLooper(player: player, templateItem: playerItem)
+
+            // Set volume to 0 for hover preview
+            player.volume = 0
+
+            DispatchQueue.main.async {
+                self.player = player
+                self.playerLooper = looper
             }
         }
+    }
+
+    private func cleanupPlayer() {
+        player?.pause()
+        player = nil
+        playerLooper?.disableLooping()
+        playerLooper = nil
     }
 
     private func loadLargeThumbnail() {
@@ -284,7 +315,7 @@ struct HoverPreviewView: View {
 
             let imageGenerator = AVAssetImageGenerator(asset: asset)
             imageGenerator.appliesPreferredTrackTransform = true
-            imageGenerator.maximumSize = CGSize(width: 640, height: 360) // Larger size for preview
+            imageGenerator.maximumSize = CGSize(width: 960, height: 540) // Even larger size for preview
 
             var thumbnailTime = CMTime(seconds: 1.0, preferredTimescale: 600)
 
@@ -369,13 +400,11 @@ struct ImageThumbnailView: View {
                         isHovering = hovering
                     }
                 }
-                .overlay(alignment: .topLeading) {
-                    if enableHoverPreview && isHovering {
-                        ImageHoverPreviewView(
-                            imagePath: imagePath,
-                            isShowing: $isHovering
-                        )
-                    }
+                .popover(isPresented: Binding(
+                    get: { enableHoverPreview && isHovering },
+                    set: { _ in }
+                ), attachmentAnchor: .point(UnitPoint(x: 0, y: -0.5)), arrowEdge: .bottom) {
+                    ImageHoverPreviewPopoverContent(imagePath: imagePath)
                 }
         } else {
             RoundedRectangle(cornerRadius: 4)
@@ -390,15 +419,14 @@ struct ImageThumbnailView: View {
     }
 }
 
-// MARK: - Image Hover Preview View
-struct ImageHoverPreviewView: View {
+// MARK: - Image Hover Preview Popover Content
+struct ImageHoverPreviewPopoverContent: View {
     let imagePath: String
-    @Binding var isShowing: Bool
 
-    private let previewSize = CGSize(width: 320, height: 320) // Max size, will maintain aspect ratio
+    private let previewSize = CGSize(width: 480, height: 480) // Max size, will maintain aspect ratio
 
     var body: some View {
-        if isShowing, let nsImage = NSImage(contentsOfFile: imagePath) {
+        if let nsImage = NSImage(contentsOfFile: imagePath) {
             VStack(alignment: .leading, spacing: 8) {
                 // Large image preview
                 Image(nsImage: nsImage)
@@ -435,19 +463,6 @@ struct ImageHoverPreviewView: View {
                 .frame(maxWidth: previewSize.width)
             }
             .padding(12)
-            .background(
-                RoundedRectangle(cornerRadius: 12)
-                    .fill(Color(NSColor.controlBackgroundColor))
-                    .shadow(color: Color.black.opacity(0.3), radius: 8, x: 0, y: 4)
-            )
-            .overlay(
-                RoundedRectangle(cornerRadius: 12)
-                    .stroke(Color.gray.opacity(0.2), lineWidth: 1)
-            )
-            .offset(x: -previewSize.width - 40, y: -previewSize.height - 40) // Position to upper left of cursor
-            .zIndex(9999)
-            .transition(.scale.combined(with: .opacity))
-            .animation(.easeOut(duration: 0.15), value: isShowing)
         }
     }
 

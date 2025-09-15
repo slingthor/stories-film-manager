@@ -1062,9 +1062,8 @@ class PromptVariant: ObservableObject, Identifiable {
     }
     
     private func processPlateWithMaster(_ description: String, plateId: String, plateManager: PlateManager) -> String {
-        // For VEO3 plates, just return the description directly without expanding references
-        // The plates already contain complete descriptions
-        return description
+        // Recursively resolve all plate references in the description
+        return resolveAllPlateReferences(description, plateId: plateId, plateManager: plateManager, depth: 0)
     }
     
     private func consolidateAndResolveReferences(_ description: String, plateManager: PlateManager) -> String {
@@ -1130,26 +1129,37 @@ class PromptVariant: ObservableObject, Identifiable {
             print("   🚫 Maximum recursion depth (100) reached for plate '\(plateId)' - stopping resolution")
             return description
         }
-        
-        // First check for old bracketed format [CHARACTER] or [ENVIRONMENT]
+
+        // First check for bracketed references - could be [PLATE-ID] or [CHARACTER] format
         let bracketPattern = "\\[([^\\]]+)\\]"
         let bracketRegex = try? NSRegularExpression(pattern: bracketPattern, options: [])
         let range = NSRange(location: 0, length: description.count)
-        
+
         if let bracketMatch = bracketRegex?.firstMatch(in: description, options: [], range: range),
            let bracketRefRange = Range(bracketMatch.range(at: 1), in: description) {
             let bracketReference = String(description[bracketRefRange])
             let fullBracketRange = Range(bracketMatch.range(at: 0), in: description)!
             let fullBracketText = String(description[fullBracketRange])
-            
+
             print("   🔗 Found bracketed reference '\(bracketReference)' in plate '\(plateId)' (depth \(depth))")
-            
-            // Map bracketed references to plate IDs
-            let mappedPlateId = mapBracketedReferenceToPlateId(bracketReference, plateManager: plateManager)
-            
-            if let plateIdToUse = mappedPlateId {
-                print("   ✅ Mapped '\(bracketReference)' to plate ID: \(plateIdToUse)")
-                
+
+            // First check if the bracketed reference is already a plate ID (like [JON-SEEING])
+            var plateIdToUse: String? = nil
+
+            // Check if it matches plate ID pattern (contains hyphen and uppercase)
+            if bracketReference.contains("-") && bracketReference == bracketReference.uppercased() {
+                // It's likely a direct plate ID reference
+                plateIdToUse = bracketReference
+                print("   📍 Treating '\(bracketReference)' as direct plate ID")
+            } else {
+                // Try to map it using the mapping function
+                plateIdToUse = mapBracketedReferenceToPlateId(bracketReference, plateManager: plateManager)
+                if let mappedId = plateIdToUse {
+                    print("   ✅ Mapped '\(bracketReference)' to plate ID: \(mappedId)")
+                }
+            }
+
+            if let plateIdToUse = plateIdToUse {
                 // Find the plate and resolve it
                 if let envPlate = plateManager.environmentalPlates.first(where: { $0.plateId == plateIdToUse }) {
                     let baseDescription = getBaseDescriptionFromPlateDescription(envPlate.description, plateId: plateIdToUse)
@@ -1164,7 +1174,7 @@ class PromptVariant: ObservableObject, Identifiable {
                     return resolveAllPlateReferences(newDescription, plateId: plateId, plateManager: plateManager, depth: depth)
                 }
             }
-            
+
             print("   ⚠️  Could not resolve bracketed reference '\(bracketReference)'")
             // Continue looking for other references
             let remainingDescription = String(description[fullBracketRange.upperBound...])
@@ -1491,34 +1501,58 @@ class PromptVariant: ObservableObject, Identifiable {
                 collectedPlateIds.insert(envPlateId)
             }
             
-            // 3. AUTO-INCLUDE MASTER PLATES: Always ensure master environmental and character plates are included
-            //    when ANY specialized plates are present
+            // 3. AUTO-INCLUDE MASTER PLATES: Only add master plates if sub-plates don't already reference them
+            //    Check each sub-plate's description to see if it references the master
             let hasEnvironmentalPlates = collectedPlateIds.contains { plateId in
                 plateManager.environmentalPlates.contains { $0.plateId == plateId }
             }
-            let hasCharacterPlates = collectedPlateIds.contains { plateId in 
+            let hasCharacterPlates = collectedPlateIds.contains { plateId in
                 plateManager.characterPlates.contains { $0.plateId == plateId }
             }
-            
+
             if hasEnvironmentalPlates {
-                // Always include WESTFJORDS-MASTER as the main environmental foundation
-                collectedPlateIds.insert("WESTFJORDS-MASTER")
-                print("   🌍 AUTO-ADDED WESTFJORDS-MASTER as environmental foundation")
+                // Check if any environmental plate already references WESTFJORDS-MASTER
+                var needsMaster = true
+                for plateId in collectedPlateIds {
+                    if let envPlate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
+                        if envPlate.description.contains("WESTFJORDS-MASTER") {
+                            needsMaster = false
+                            print("   🌍 WESTFJORDS-MASTER already referenced in \(plateId)")
+                            break
+                        }
+                    }
+                }
+                if needsMaster {
+                    collectedPlateIds.insert("WESTFJORDS-MASTER")
+                    print("   🌍 AUTO-ADDED WESTFJORDS-MASTER as environmental foundation")
+                }
             }
-            
+
             if hasCharacterPlates {
-                // Find any character plates and ensure their main plates are included
+                // Find any character plates and check if they reference their master plates
+                var charactersNeedingMasters: Set<String> = []
+
                 for plateId in Array(collectedPlateIds) {
                     if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
-                        // Look for main character plates using the actual naming pattern: CHARACTER-MASTER
                         let characterName = charPlate.character.uppercased()
                         let mainPlateId = "\(characterName)-MASTER"
-                        
-                        // Check if this master plate exists
-                        if plateManager.characterPlates.contains(where: { $0.plateId == mainPlateId }) {
-                            collectedPlateIds.insert(mainPlateId)
-                            print("   👤 AUTO-ADDED \(mainPlateId) as main character plate for \(characterName)")
+
+                        // Check if this plate references its master
+                        if !charPlate.description.contains(mainPlateId) &&
+                           !charPlate.description.contains("[\(characterName)]") {
+                            charactersNeedingMasters.insert(characterName)
+                        } else {
+                            print("   👤 \(mainPlateId) already referenced in \(plateId)")
                         }
+                    }
+                }
+
+                // Add master plates only for characters that need them
+                for characterName in charactersNeedingMasters {
+                    let mainPlateId = "\(characterName)-MASTER"
+                    if plateManager.characterPlates.contains(where: { $0.plateId == mainPlateId }) {
+                        collectedPlateIds.insert(mainPlateId)
+                        print("   👤 AUTO-ADDED \(mainPlateId) as main character plate for \(characterName)")
                     }
                 }
             }
@@ -1527,37 +1561,49 @@ class PromptVariant: ObservableObject, Identifiable {
             
             print("   🔍 Final collected plate IDs (including auto-added masters): \(Array(collectedPlateIds).sorted().joined(separator: ", "))")
             
-            // Process all collected plates (convert Set to sorted Array for consistent order)
+            // Process all collected plates, grouping by character/environment to avoid duplicate labels
             let sortedPlateIds = Array(collectedPlateIds).sorted()
+            var characterPlatesByCharacter: [String: [String]] = [:]
+            var environmentalPlatesByCategory: [String: [String]] = [:]
+
+            // Group plates by character/category first
             for plateId in sortedPlateIds {
                 print("   🔍 Processing plate: \(plateId)")
 
-                // Debug: Print available plate counts and sample IDs
-                print("   📊 Available: \(plateManager.characterPlates.count) character plates, \(plateManager.environmentalPlates.count) environmental plates")
-                if plateId.contains("JON") {
-                    let jonPlates = plateManager.characterPlates.filter { $0.plateId.contains("JON") }.map { $0.plateId }
-                    print("   📋 JON plates found: \(jonPlates.joined(separator: ", "))")
-                }
-                if plateId.contains("SEA") {
-                    let seaPlates = plateManager.environmentalPlates.filter { $0.plateId.contains("SEA") }.map { $0.plateId }
-                    print("   📋 SEA plates found: \(seaPlates.joined(separator: ", "))")
-                }
-
-                // Try character plates first
                 if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
+                    let character = charPlate.character.uppercased()
+                    if characterPlatesByCharacter[character] == nil {
+                        characterPlatesByCharacter[character] = []
+                    }
                     let plateDescription = processPlateWithMaster(charPlate.description, plateId: plateId, plateManager: plateManager)
-                    plateAdditions += " [\(charPlate.character.uppercased())]: " + plateDescription
-                    print("   ✅ Added character plate '\(plateId)': '\(plateDescription.prefix(50))...'")
+                    characterPlatesByCharacter[character]?.append(plateDescription)
+                    print("   ✅ Added character plate '\(plateId)' to \(character) group")
                 }
-                // Try environmental plates
                 else if let envPlate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
+                    let category = envPlate.category.uppercased()
+                    if environmentalPlatesByCategory[category] == nil {
+                        environmentalPlatesByCategory[category] = []
+                    }
                     let plateDescription = processPlateWithMaster(envPlate.description, plateId: plateId, plateManager: plateManager)
-                    plateAdditions += " [\(envPlate.category.uppercased())]: " + plateDescription
-                    print("   ✅ Added environmental plate '\(plateId)': '\(plateDescription.prefix(50))...'")
+                    environmentalPlatesByCategory[category]?.append(plateDescription)
+                    print("   ✅ Added environmental plate '\(plateId)' to \(category) group")
                 }
                 else {
                     print("   ⚠️  Plate '\(plateId)' not found in any plate collection")
                 }
+            }
+
+            // Now consolidate plates by character/category to avoid duplicate labels
+            for (character, descriptions) in characterPlatesByCharacter.sorted(by: { $0.key < $1.key }) {
+                let consolidatedDescription = descriptions.joined(separator: " ")
+                plateAdditions += " [\(character)]: " + consolidatedDescription
+                print("   ✅ Consolidated \(descriptions.count) plate(s) for character '\(character)'")
+            }
+
+            for (category, descriptions) in environmentalPlatesByCategory.sorted(by: { $0.key < $1.key }) {
+                let consolidatedDescription = descriptions.joined(separator: " ")
+                plateAdditions += " [\(category)]: " + consolidatedDescription
+                print("   ✅ Consolidated \(descriptions.count) plate(s) for category '\(category)'")
             }
             
             // Custom plates as fallback
