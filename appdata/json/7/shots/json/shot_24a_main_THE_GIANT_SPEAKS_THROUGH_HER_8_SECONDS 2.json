@@ -1,34 +1,34 @@
 {
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
+  "shot_metadata" : {
+    "id" : "24a",
+    "title" : "THE GIANT SPEAKS THROUGH HER 8 SECONDS",
+    "duration_seconds" : 8,
+    "narrative_function" : "House 6\/min + 40bpm stuttering | Giant possession ...",
+    "stitch_from" : "",
+    "sequence_type" : "main_story"
+  },
   "prompt_variants" : [
     {
       "action" : "Sigrid's mouth opens wider than should be possible. The word completes: \"LANDVÃ†TTIR\" but not from her throat. From walls - turf vibrating. From floor - packed earth speaking. From beams - giant's ribs resonating. 16Hz below hearing, felt in bones, teeth, eyes. Her body rigid, back arched, hands spread, conduit not source. \"KOMIÃ\" emerges from everywhere. Dust cascades from ceiling with each syllable. The three beams (ribs) flex visibly, showing pink tissue beneath wood for split second. Windows vibrate in frames, frost cracking off in sheets. GuÃ°rÃºn crawls backward, mouth open in silent scream. Children grip each other, JÃ³n's fever breaking in sudden sweat, Lilja's eyes rolled back showing whites. Empty clothes standing fully upright, breathing matching house rhythm. Sigrid's eyes remain conscious, terrified - she's aware but not in control. Baby's heartbeat visible as red strobe through dress: 160bpm.",
       "variant_name" : "Primary - THE GIANT SPEAKS THROUGH HER 8 SECONDS",
-      "camera_position" : "Wide shot showing whole house as speaker, Sigrid small at center",
-      "progressive_state" : "",
       "subject" : "[SIGRID]'s mouth moving but the giant's voice emerging from the house itself - 16Hz resonance from walls, floor, beams - as she becomes conduit for Bergrisi's dying call: \"LANDVÃ†TTIR, KOMIÃ\" vibrating through everything, dust falling from ceiling, her body just the focal point of architectural speech.",
+      "scene" : "Interior becoming speaker. Walls showing stress cracks from vibration. Dust thick in air. Temperature dropping with each word.",
+      "dialogue" : "(Giant through everything): \"LANDVÃ†TTIR, KOMIÃ\" (Sigrid fighting): Normal voice breaking through: \"Nei, ekki...\" (Giant overwhelming): \"HJÃLPIÃ OKKUR\"",
       "is_active" : false,
+      "negative_prompt" : "no subtitles, 16Hz as vibration not sound, show house as speaker, documentary observation",
       "style" : "Wide shot showing whole house as speaker, Sigrid small at center (that's where the camera is), documentary of possession.",
+      "variant_id" : "24a_story_primary",
+      "camera_position" : "Wide shot showing whole house as speaker, Sigrid small at center",
       "selected_plates" : [
         "LILJA-SENSING",
         "JON-TEMPORAL",
         "SIGRID-CORNERED",
         "STOFA-BODY"
       ],
-      "dialogue" : "(Giant through everything): \"LANDVÃ†TTIR, KOMIÃ\" (Sigrid fighting): Normal voice breaking through: \"Nei, ekki...\" (Giant overwhelming): \"HJÃLPIÃ OKKUR\"",
-      "variant_id" : "24a_story_primary",
-      "scene" : "Interior becoming speaker. Walls showing stress cracks from vibration. Dust thick in air. Temperature dropping with each word.",
-      "negative_prompt" : "no subtitles, 16Hz as vibration not sound, show house as speaker, documentary observation"
+      "progressive_state" : ""
     }
   ],
   "progressive_state" : "House 6\/min + 40bpm stuttering | Giant possession | Camera frost 15% | Voice complete | Watching: House IS speaker",
-  "shot_metadata" : {
-    "title" : "THE GIANT SPEAKS THROUGH HER 8 SECONDS",
-    "narrative_function" : "House 6\/min + 40bpm stuttering | Giant possession ...",
-    "sequence_type" : "main_story",
-    "id" : "24a",
-    "duration_seconds" : 8,
-    "stitch_from" : ""
-  }
+  "selected_prompt_index" : 0
 }

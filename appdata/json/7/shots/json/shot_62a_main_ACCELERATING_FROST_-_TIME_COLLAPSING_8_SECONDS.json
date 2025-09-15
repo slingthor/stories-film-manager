@@ -1,32 +1,32 @@
 {
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "2.39:1",
+  "shot_metadata" : {
+    "id" : "62a",
+    "title" : "ACCELERATING FROST - TIME COLLAPSING 8 SECONDS",
+    "duration_seconds" : 8,
+    "narrative_function" : "Rapid freezing | Frost 58%â†’85% | History condens...",
+    "stitch_from" : "",
+    "sequence_type" : "main_story"
+  },
   "prompt_variants" : [
     {
-      "scene" : "Rapid frost spread. Years flashing. Vision tunneling. Obelisk distant but centered.",
-      "style" : "Desperate focusing attempts (that's where the camera is), time collapsing documented.",
-      "variant_name" : "Primary - ACCELERATING FROST - TIME COLLAPSING 8 SECONDS",
       "action" : "RAPID FROST SPREAD. Not gradual - explosive. 58%. 65%. 72%. Each jump shows a year. Images flashing in ice: 1889 - more Danish administrators arrive. 70% - 1900, new century, same oppression. 75% - 1914, war elsewhere, Iceland forgotten. 80% - 1930, depression, starvation, sheep cheaper than human life. 85% - 1940, British occupation begins. The camera fights. Trying to focus. Mechanical iris struggling. Want to see obelisk clearly one last time. Want to witness family. But frost creates beauty - prismatic effects, rainbow halos, the death becoming art. Through narrowing clear center: obelisk stands eternal. Family still inside. Still aware. Watching the camera die. Knowing their witness is ending. But Sigrid flies above. Always above. The saved witness. The one who escapes when camera cannot. At 85%: only center clear. Tunnel vision. Like looking through telescope backwards. Everything distant. Cold. Ending.",
-      "camera_position" : "Desperate focusing attempts",
-      "progressive_state" : "",
+      "variant_name" : "Primary - ACCELERATING FROST - TIME COLLAPSING 8 SECONDS",
+      "subject" : "The frost suddenly accelerating, jumping from 58% to 85% in seconds, each percentage now a year flashing by - 1889, 1890, 1891 - centuries of colonization condensing into moments, the camera trying desperately to focus on the obelisk one last time.",
+      "scene" : "Rapid frost spread. Years flashing. Vision tunneling. Obelisk distant but centered.",
       "dialogue" : "(Frost writing rapidly): \"1889\" \"1900\" \"1914\" \"1930\" \"1940\"",
       "is_active" : false,
+      "negative_prompt" : "",
+      "style" : "Desperate focusing attempts (that's where the camera is), time collapsing documented.",
       "variant_id" : "62a_story_primary",
+      "camera_position" : "Desperate focusing attempts",
       "selected_plates" : [
         "SIGRID-CORNERED",
         "WESTFJORDS-CLIFF"
       ],
-      "subject" : "The frost suddenly accelerating, jumping from 58% to 85% in seconds, each percentage now a year flashing by - 1889, 1890, 1891 - centuries of colonization condensing into moments, the camera trying desperately to focus on the obelisk one last time.",
-      "negative_prompt" : ""
+      "progressive_state" : ""
     }
   ],
   "progressive_state" : "Rapid freezing | Frost 58%â†’85% | History condensing | Watching: Final moments",
-  "shot_metadata" : {
-    "title" : "ACCELERATING FROST - TIME COLLAPSING 8 SECONDS",
-    "narrative_function" : "Rapid freezing | Frost 58%â†’85% | History condens...",
-    "sequence_type" : "main_story",
-    "id" : "62a",
-    "duration_seconds" : 8,
-    "stitch_from" : ""
-  }
+  "selected_prompt_index" : 0
 }

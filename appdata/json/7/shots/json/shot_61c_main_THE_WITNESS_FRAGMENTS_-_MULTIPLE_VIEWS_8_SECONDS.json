@@ -1,33 +1,33 @@
 {
   "progressive_state" : "Consciousness splitting | Frost 58% | Many witnesses | Watching: All watch",
-  "aspect_ratio" : "2.39:1",
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "id" : "61c",
-    "sequence_type" : "main_story",
-    "title" : "THE WITNESS FRAGMENTS - MULTIPLE VIEWS 8 SECONDS",
-    "stitch_from" : "",
-    "narrative_function" : "Consciousness splitting | Frost 58% | Many witness..."
-  },
   "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "scene" : "Multiple views through cracked lens. All times\/perspectives simultaneous. Obelisk central.",
-      "style" : "Fractured multiple perspectives (that's where the camera is), all witnesses documented.",
-      "variant_name" : "Primary - THE WITNESS FRAGMENTS - MULTIPLE VIEWS 8 SECONDS",
       "action" : "CRACK. Lens splits. Not broken - multiplied. Like insect eye. Each fragment shows different perspective. Top fragment: tourists 2024, taking photos, unaware. Left fragment: Sigrid-raven 1944, watching independence, remembering. Right fragment: sheep family inside glass, eternal, still aware. Center fragment: us, now, watching this film, witnesses to witnesses. Bottom fragment: the camera itself, dying, frost at 58%. All simultaneous. All true. We are: Iceland watching itself. Tourists consuming trauma. Sigrid remembering. Family preserved. Audience witnessing. All one witness. Fragmented but whole. The cracks spread. More perspectives. Vikings seeing future. Children unborn watching back. The obelisk in all fragments. The constant. The monument to transformation. Standing in all times. Witnessed by all eyes. The crack patterns form shape: raven wings. The witness fractures into flight pattern. Ready to break apart. To become many. To spread the story.",
-      "camera_position" : "Fractured multiple perspectives",
-      "progressive_state" : "",
+      "variant_name" : "Primary - THE WITNESS FRAGMENTS - MULTIPLE VIEWS 8 SECONDS",
+      "subject" : "The camera lens cracking from frost, creating multiple views - we see through tourist eyes (2024), through Sigrid's raven eye (1944), through the sheep family in glass (eternal), through our watching eyes (now), all witnesses simultaneously.",
+      "scene" : "Multiple views through cracked lens. All times\/perspectives simultaneous. Obelisk central.",
       "dialogue" : "(All fragments): Silent witnessing (One whisper): \"We remember\"",
       "is_active" : false,
+      "negative_prompt" : "",
+      "style" : "Fractured multiple perspectives (that's where the camera is), all witnesses documented.",
       "variant_id" : "61c_story_primary",
+      "camera_position" : "Fractured multiple perspectives",
       "selected_plates" : [
         "LILJA-SENSING",
         "SIGRID-CORNERED",
         "WESTFJORDS-CLIFF"
       ],
-      "subject" : "The camera lens cracking from frost, creating multiple views - we see through tourist eyes (2024), through Sigrid's raven eye (1944), through the sheep family in glass (eternal), through our watching eyes (now), all witnesses simultaneously.",
-      "negative_prompt" : ""
+      "progressive_state" : ""
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "narrative_function" : "Consciousness splitting | Frost 58% | Many witness...",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "id" : "61c",
+    "sequence_type" : "main_story",
+    "title" : "THE WITNESS FRAGMENTS - MULTIPLE VIEWS 8 SECONDS"
+  },
+  "aspect_ratio" : "2.39:1"
 }

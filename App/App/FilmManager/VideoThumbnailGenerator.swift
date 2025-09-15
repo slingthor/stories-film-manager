@@ -156,17 +156,15 @@ struct VideoThumbnailView: View {
                 isHovering = hovering
             }
         }
-        .overlay(
-            Group {
-                if enableHoverPreview && isHovering && thumbnail != nil {
-                    HoverPreviewView(
-                        thumbnail: thumbnail,
-                        videoPath: videoPath,
-                        isShowing: $isHovering
-                    )
-                }
+        .overlay(alignment: .topLeading) {
+            if enableHoverPreview && isHovering && thumbnail != nil {
+                HoverPreviewView(
+                    thumbnail: thumbnail,
+                    videoPath: videoPath,
+                    isShowing: $isHovering
+                )
             }
-        )
+        }
     }
 
     private func loadThumbnail() {
@@ -208,78 +206,72 @@ struct HoverPreviewView: View {
     let videoPath: String
     @Binding var isShowing: Bool
     @State private var largeThumbnail: NSImage?
+    @State private var mouseLocation: CGPoint = .zero
 
     private let previewSize = CGSize(width: 320, height: 180) // Larger preview size
 
     var body: some View {
-        GeometryReader { geometry in
-            if isShowing {
-                VStack(alignment: .leading, spacing: 8) {
-                    // Large thumbnail
-                    if let largeThumbnail = largeThumbnail {
-                        Image(nsImage: largeThumbnail)
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: previewSize.width, height: previewSize.height)
-                            .cornerRadius(8)
-                    } else if let thumbnail = thumbnail {
-                        // Fallback to regular thumbnail while loading
-                        Image(nsImage: thumbnail)
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: previewSize.width, height: previewSize.height)
-                            .cornerRadius(8)
-                    }
+        if isShowing {
+            VStack(alignment: .leading, spacing: 8) {
+                // Large thumbnail
+                if let largeThumbnail = largeThumbnail {
+                    Image(nsImage: largeThumbnail)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: previewSize.width, height: previewSize.height)
+                        .cornerRadius(8)
+                } else if let thumbnail = thumbnail {
+                    // Fallback to regular thumbnail while loading
+                    Image(nsImage: thumbnail)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: previewSize.width, height: previewSize.height)
+                        .cornerRadius(8)
+                }
 
-                    // Video info
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text(URL(fileURLWithPath: videoPath).lastPathComponent)
-                            .font(.caption)
-                            .fontWeight(.medium)
-                            .lineLimit(1)
-                            .truncationMode(.middle)
+                // Video info
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(URL(fileURLWithPath: videoPath).lastPathComponent)
+                        .font(.caption)
+                        .fontWeight(.medium)
+                        .lineLimit(1)
+                        .truncationMode(.middle)
 
-                        HStack {
-                            Label(formatDuration(getDuration()), systemImage: "clock")
+                    HStack {
+                        Label(formatDuration(getDuration()), systemImage: "clock")
+                            .font(.caption2)
+                            .foregroundColor(.secondary)
+
+                        Spacer()
+
+                        if let fileSize = getFileSize() {
+                            Text(fileSize)
                                 .font(.caption2)
                                 .foregroundColor(.secondary)
-
-                            Spacer()
-
-                            if let fileSize = getFileSize() {
-                                Text(fileSize)
-                                    .font(.caption2)
-                                    .foregroundColor(.secondary)
-                            }
                         }
                     }
-                    .padding(.horizontal, 8)
-                    .frame(width: previewSize.width)
                 }
-                .padding(12)
-                .background(
-                    RoundedRectangle(cornerRadius: 12)
-                        .fill(Color(NSColor.controlBackgroundColor))
-                        .shadow(color: Color.black.opacity(0.3), radius: 8, x: 0, y: 4)
-                )
-                .overlay(
-                    RoundedRectangle(cornerRadius: 12)
-                        .stroke(Color.gray.opacity(0.2), lineWidth: 1)
-                )
-                .position(
-                    x: min(max(previewSize.width/2 + 20, geometry.size.width/2),
-                          geometry.frame(in: .global).maxX - previewSize.width/2 - 20),
-                    y: max(previewSize.height/2 + 20, geometry.size.height/2 - 100)
-                )
-                .zIndex(1000)
-                .transition(.scale.combined(with: .opacity))
-                .animation(.easeOut(duration: 0.15), value: isShowing)
-                .onAppear {
-                    loadLargeThumbnail()
-                }
+                .padding(.horizontal, 8)
+                .frame(width: previewSize.width)
+            }
+            .padding(12)
+            .background(
+                RoundedRectangle(cornerRadius: 12)
+                    .fill(Color(NSColor.controlBackgroundColor))
+                    .shadow(color: Color.black.opacity(0.3), radius: 8, x: 0, y: 4)
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 12)
+                    .stroke(Color.gray.opacity(0.2), lineWidth: 1)
+            )
+            .offset(x: -previewSize.width - 40, y: -previewSize.height - 40) // Position to upper left of cursor
+            .zIndex(9999)
+            .transition(.scale.combined(with: .opacity))
+            .animation(.easeOut(duration: 0.15), value: isShowing)
+            .onAppear {
+                loadLargeThumbnail()
             }
         }
-        .allowsHitTesting(false) // Prevent the overlay from intercepting mouse events
     }
 
     private func loadLargeThumbnail() {
@@ -377,16 +369,14 @@ struct ImageThumbnailView: View {
                         isHovering = hovering
                     }
                 }
-                .overlay(
-                    Group {
-                        if enableHoverPreview && isHovering {
-                            ImageHoverPreviewView(
-                                imagePath: imagePath,
-                                isShowing: $isHovering
-                            )
-                        }
+                .overlay(alignment: .topLeading) {
+                    if enableHoverPreview && isHovering {
+                        ImageHoverPreviewView(
+                            imagePath: imagePath,
+                            isShowing: $isHovering
+                        )
                     }
-                )
+                }
         } else {
             RoundedRectangle(cornerRadius: 4)
                 .fill(Color.gray.opacity(0.2))
@@ -408,64 +398,57 @@ struct ImageHoverPreviewView: View {
     private let previewSize = CGSize(width: 320, height: 320) // Max size, will maintain aspect ratio
 
     var body: some View {
-        GeometryReader { geometry in
-            if isShowing, let nsImage = NSImage(contentsOfFile: imagePath) {
-                VStack(alignment: .leading, spacing: 8) {
-                    // Large image preview
-                    Image(nsImage: nsImage)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(maxWidth: previewSize.width, maxHeight: previewSize.height)
-                        .cornerRadius(8)
+        if isShowing, let nsImage = NSImage(contentsOfFile: imagePath) {
+            VStack(alignment: .leading, spacing: 8) {
+                // Large image preview
+                Image(nsImage: nsImage)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(maxWidth: previewSize.width, maxHeight: previewSize.height)
+                    .cornerRadius(8)
 
-                    // Image info
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text(URL(fileURLWithPath: imagePath).lastPathComponent)
-                            .font(.caption)
-                            .fontWeight(.medium)
-                            .lineLimit(1)
-                            .truncationMode(.middle)
+                // Image info
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(URL(fileURLWithPath: imagePath).lastPathComponent)
+                        .font(.caption)
+                        .fontWeight(.medium)
+                        .lineLimit(1)
+                        .truncationMode(.middle)
 
-                        HStack {
-                            if let dimensions = getImageDimensions(nsImage) {
-                                Text(dimensions)
-                                    .font(.caption2)
-                                    .foregroundColor(.secondary)
-                            }
+                    HStack {
+                        if let dimensions = getImageDimensions(nsImage) {
+                            Text(dimensions)
+                                .font(.caption2)
+                                .foregroundColor(.secondary)
+                        }
 
-                            Spacer()
+                        Spacer()
 
-                            if let fileSize = getFileSize() {
-                                Text(fileSize)
-                                    .font(.caption2)
-                                    .foregroundColor(.secondary)
-                            }
+                        if let fileSize = getFileSize() {
+                            Text(fileSize)
+                                .font(.caption2)
+                                .foregroundColor(.secondary)
                         }
                     }
-                    .padding(.horizontal, 8)
-                    .frame(maxWidth: previewSize.width)
                 }
-                .padding(12)
-                .background(
-                    RoundedRectangle(cornerRadius: 12)
-                        .fill(Color(NSColor.controlBackgroundColor))
-                        .shadow(color: Color.black.opacity(0.3), radius: 8, x: 0, y: 4)
-                )
-                .overlay(
-                    RoundedRectangle(cornerRadius: 12)
-                        .stroke(Color.gray.opacity(0.2), lineWidth: 1)
-                )
-                .position(
-                    x: min(max(previewSize.width/2 + 20, geometry.size.width/2),
-                          geometry.frame(in: .global).maxX - previewSize.width/2 - 20),
-                    y: max(previewSize.height/2 + 20, geometry.size.height/2 - 100)
-                )
-                .zIndex(1000)
-                .transition(.scale.combined(with: .opacity))
-                .animation(.easeOut(duration: 0.15), value: isShowing)
+                .padding(.horizontal, 8)
+                .frame(maxWidth: previewSize.width)
             }
+            .padding(12)
+            .background(
+                RoundedRectangle(cornerRadius: 12)
+                    .fill(Color(NSColor.controlBackgroundColor))
+                    .shadow(color: Color.black.opacity(0.3), radius: 8, x: 0, y: 4)
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 12)
+                    .stroke(Color.gray.opacity(0.2), lineWidth: 1)
+            )
+            .offset(x: -previewSize.width - 40, y: -previewSize.height - 40) // Position to upper left of cursor
+            .zIndex(9999)
+            .transition(.scale.combined(with: .opacity))
+            .animation(.easeOut(duration: 0.15), value: isShowing)
         }
-        .allowsHitTesting(false) // Prevent the overlay from intercepting mouse events
     }
 
     private func getImageDimensions(_ image: NSImage) -> String? {

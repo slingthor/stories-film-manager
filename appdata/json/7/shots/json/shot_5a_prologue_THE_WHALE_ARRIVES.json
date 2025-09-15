@@ -1,32 +1,32 @@
 {
   "progressive_state" : "Death delivered | Community gathers | Camera frost 0% | Abundance begins | Watching: Ocean's gift",
-  "aspect_ratio" : "1.85:1",
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "id" : "5a",
-    "sequence_type" : "prologue",
-    "title" : "THE WHALE ARRIVES",
-    "stitch_from" : "",
-    "narrative_function" : "Death delivered | Community gathers | Camera frost..."
-  },
   "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "scene" : "Black sand beach, mid-morning. Whale massive on sand. Blood pooling. People converging from three directions.",
-      "style" : "Aerial shot showing whale and people converging from all directions (that's where the camera is), scale of whale apparent.",
-      "variant_name" : "Primary - THE WHALE ARRIVES",
       "action" : "Wave pushes whale onto sand. Massive body, grey-white belly up. Three spears stick out at angles. Blood pools immediately, soaking into black sand. Pool spreads 20 feet wide. Men converge from beach camp, from cliffs, from village. Each carries tools - long flensing knives, hooks, saws. They run but arrive walking. MagnÃºs and JÃ³n descending cliff path, rope still coiled. Women descending from purple hills, baskets full, purple-stained. Everyone converging. Whale's eye open, clouded white but seems to track movement. Impossible - it's dead. Blood pool keeps spreading, but also running uphill slightly against gravity. Where blood meets purple juice trails from hills, they mix into darker stain. Children arrive at whale, stand in perfect line. One reaches out, touches whale skin. Warm. Body temperature. Should be cold.",
-      "camera_position" : "Aerial shot showing whale and people converging from all directions",
-      "progressive_state" : "",
+      "variant_name" : "Primary - THE WHALE ARRIVES",
+      "subject" : "The 70-foot fin whale washing onto black sand beach, three spear shafts still protruding from its grey flesh, blood pooling in sand, its eye open and clouded, men running from all directions with knives and ropes.",
+      "scene" : "Black sand beach, mid-morning. Whale massive on sand. Blood pooling. People converging from three directions.",
       "dialogue" : "None",
       "is_active" : false,
+      "negative_prompt" : "no subtitles, show massive whale scale, three spears visible, blood pooling uphill, people converging, 1080p",
+      "style" : "Aerial shot showing whale and people converging from all directions (that's where the camera is), scale of whale apparent.",
       "variant_id" : "5a_story_primary",
+      "camera_position" : "Aerial shot showing whale and people converging from all directions",
       "selected_plates" : [
         "LILJA-SENSING",
         "WESTFJORDS-CLIFF"
       ],
-      "subject" : "The 70-foot fin whale washing onto black sand beach, three spear shafts still protruding from its grey flesh, blood pooling in sand, its eye open and clouded, men running from all directions with knives and ropes.",
-      "negative_prompt" : "no subtitles, show massive whale scale, three spears visible, blood pooling uphill, people converging, 1080p"
+      "progressive_state" : ""
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "narrative_function" : "Death delivered | Community gathers | Camera frost...",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "id" : "5a",
+    "sequence_type" : "prologue",
+    "title" : "THE WHALE ARRIVES"
+  },
+  "aspect_ratio" : "1.85:1"
 }

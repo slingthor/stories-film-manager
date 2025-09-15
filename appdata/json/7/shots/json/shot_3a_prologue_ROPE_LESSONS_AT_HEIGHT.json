@@ -1,46 +1,18 @@
 {
   "progressive_state" : "Teaching moment | Father-son trust | Camera frost 0% | Knowledge transfer | Watching: The bond forms",
-  "aspect_ratio" : "1.85:1",
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "id" : "3a",
-    "sequence_type" : "prologue",
-    "title" : "ROPE LESSONS AT HEIGHT",
-    "stitch_from" : "",
-    "narrative_function" : "Teaching moment | Father-son trust | Camera frost ..."
-  },
   "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "progressive_state" : "",
-      "subject" : "",
       "action" : "Rope fibers pulse with giant frequency (16Hz) during knot formation, hemp consciousness awakening as landvættir knowledge activates traditional tool. Camera follows genetic information flow through rope structure as Jón's inherited memory connects with fiber consciousness—child's genetic code receiving mathematical pattern directly through material contact, bypassing conscious learning through DNA-level instruction. Rope geometry becomes increasingly complex during demonstration—fractal pattern extending beyond physical rope scale into mathematical abstraction, Giant's Knot continuing into dimensional spaces invisible to human perception but accessible to camera consciousness. Cliff breathing synchronizes with rope frequency, landscape and tools operating as unified consciousness network teaching traditional knowledge through environmental cooperation.",
-      "selected_plates" : [
-        "MAGNUS-PREDATOR",
-        "LILJA-SENSING",
-        "JON-TEMPORAL",
-        "STOFA-BODY"
-      ],
-      "is_active" : false,
       "variant_name" : "Pass 2 Inside Rope Consciousness",
-      "negative_prompt" : "",
-      "variant_id" : "3a_pass_2_inside_rope_consciousness",
-      "scene" : "PASS 2: SHOT 3A - INSIDE ROPE CONSCIOUSNESS Camera Perspective from Within Living Rope During Giant's Knot SHOT HEADER: Interior rope structure during landvættir knowledge transmission, hemp consciousness serving as communication medium between giant intelligence and human genetic memory, traditional tool enhanced by supernatural awareness enabling impossible technique demonstration.",
-      "style" : "Camera flowing through rope fiber structure using impossible interior perspective (that's where the camera is), movement following genetic information pathways during knowledge transmission. Focus reveals fiber consciousness detail showing hemp as communication medium for landvættir instruction. Lighting from 16Hz fiber resonance creating internal illumination within rope structure. DIALOGUE:",
-      "camera_position" : "",
-      "dialogue" : ""
-    },
-    {
-      "scene" : "SHOT 3A: ROPE LESSONS - INHERITED KNOWLEDGE HORROR From Standard Character Moment (7.5\/10) to Predatory Seduction Perfection (10\/10) SHOT HEADER: Cliff edge overlooking black sand beach where ram's blood spiral remains visible despite three weeks passage, pattern permanent in landscape memory. Late autumn light creating optimal visibility for knot demonstration, traditional father-son teaching moment enhanced by supernatural landscape participation. Rope work happening at precise location where land meets sea, boundary space where traditional knowledge transfers between generations while cosmic forces observe and approve.",
-      "variant_name" : "Rope Lessons Inherited Knowledge Horror",
-      "variant_id" : "3a_rope_lessons_inherited_knowledge_horror",
       "subject" : "",
-      "camera_position" : "",
-      "negative_prompt" : "",
-      "is_active" : false,
-      "action" : "Magnús begins knot demonstration with movements too precise for human coordination—fingers following mathematical patterns encoded in muscle memory inherited from giants who first taught rope-working to human ancestors. Each loop and weave creates fractal geometry where pattern repeats infinitely inward, knot structure continuing beyond rope's physical scale into mathematical abstraction. Rope responds to demonstration by humming at 16Hz—mountain frequency, giant's voice resonating through hemp fibers as landvættir knowledge activates traditional tool. Jón replicates knot perfectly without learning, his child hands accessing ancestral technique through genetic transmission rather than instruction, fingers moving with inherited precision that bypasses conscious mind. Cliff face breathing accelerates to 65\/min as demonstration progresses, landscape consciousness responding to landvættir knowledge being transmitted between generations. Blood trail visible 200 feet below forms perfect spiral matching knot's geometry—ram's death-pattern mirroring rope mathematics, establishing visual connection between sacrifice and survival techniques.",
-      "style" : "Camera positioned 8 feet from father-son pair showing both knot detail and cliff breathing (that's where the camera is), close enough for inherited precision, wide enough for landscape participation. Static shot except subtle push-in during knot completion, movement emphasizing mathematical beauty of fractal pattern. Natural light enhanced by rope's 16Hz humming creating visual resonance, supernatural cooperation with traditional instruction. Focus alternates between knot geometry and Jón's unconscious replication, showing genetic transmission in progress. DIALOGUE:",
+      "scene" : "PASS 2: SHOT 3A - INSIDE ROPE CONSCIOUSNESS Camera Perspective from Within Living Rope During Giant's Knot SHOT HEADER: Interior rope structure during landvættir knowledge transmission, hemp consciousness serving as communication medium between giant intelligence and human genetic memory, traditional tool enhanced by supernatural awareness enabling impossible technique demonstration.",
       "dialogue" : "",
+      "is_active" : false,
+      "negative_prompt" : "",
+      "style" : "Camera flowing through rope fiber structure using impossible interior perspective (that's where the camera is), movement following genetic information pathways during knowledge transmission. Focus reveals fiber consciousness detail showing hemp as communication medium for landvættir instruction. Lighting from 16Hz fiber resonance creating internal illumination within rope structure. DIALOGUE:",
+      "variant_id" : "3a_pass_2_inside_rope_consciousness",
+      "camera_position" : "",
       "selected_plates" : [
         "MAGNUS-PREDATOR",
         "LILJA-SENSING",
@@ -50,15 +22,25 @@
       "progressive_state" : ""
     },
     {
-      "scene" : "Grassy cliff top, morning sun higher. Edge visible 10 feet away. Ocean far below. Green grass thick, small white flowers scattered.",
-      "style" : "Medium shot from side showing both faces and hands working (that's where the camera is), intimate teaching moment, ocean visible in background.",
-      "variant_name" : "Primary - ROPE LESSONS AT HEIGHT",
-      "action" : "MagnÃºs kneels on thick grass. Spreads rope in front of him. JÃ³n kneels opposite, watching intently. MagnÃºs's large hands take rope end. Forms loop. Passes end through. Pulls to create bowline knot. Unties it. Hands rope to JÃ³n. Boy's smaller hands try to copy. Makes wrong loop. MagnÃºs places his hands over boy's, guides them. Together they form knot correctly. MagnÃºs nods once. Takes rope back. Shows second knot - clove hitch. More complex. JÃ³n watches every movement. Behind them, cliff edge drops straight down. Ocean below shows whale's blood trail now reaching beach, spreading along shoreline. Other men visible as dots preparing flensing area. Women disappeared toward purple hills. MagnÃºs ties rope around JÃ³n's waist, through legs, creating harness. Tests each loop. Boy stands still, trusting.",
-      "camera_position" : "Medium shot from side showing both faces and hands working",
+      "camera_position" : "",
+      "action" : "Magnús begins knot demonstration with movements too precise for human coordination—fingers following mathematical patterns encoded in muscle memory inherited from giants who first taught rope-working to human ancestors. Each loop and weave creates fractal geometry where pattern repeats infinitely inward, knot structure continuing beyond rope's physical scale into mathematical abstraction. Rope responds to demonstration by humming at 16Hz—mountain frequency, giant's voice resonating through hemp fibers as landvættir knowledge activates traditional tool. Jón replicates knot perfectly without learning, his child hands accessing ancestral technique through genetic transmission rather than instruction, fingers moving with inherited precision that bypasses conscious mind. Cliff face breathing accelerates to 65\/min as demonstration progresses, landscape consciousness responding to landvættir knowledge being transmitted between generations. Blood trail visible 200 feet below forms perfect spiral matching knot's geometry—ram's death-pattern mirroring rope mathematics, establishing visual connection between sacrifice and survival techniques.",
+      "selected_plates" : [
+        "MAGNUS-PREDATOR",
+        "LILJA-SENSING",
+        "JON-TEMPORAL",
+        "STOFA-BODY"
+      ],
+      "scene" : "SHOT 3A: ROPE LESSONS - INHERITED KNOWLEDGE HORROR From Standard Character Moment (7.5\/10) to Predatory Seduction Perfection (10\/10) SHOT HEADER: Cliff edge overlooking black sand beach where ram's blood spiral remains visible despite three weeks passage, pattern permanent in landscape memory. Late autumn light creating optimal visibility for knot demonstration, traditional father-son teaching moment enhanced by supernatural landscape participation. Rope work happening at precise location where land meets sea, boundary space where traditional knowledge transfers between generations while cosmic forces observe and approve.",
+      "variant_id" : "3a_rope_lessons_inherited_knowledge_horror",
+      "style" : "Camera positioned 8 feet from father-son pair showing both knot detail and cliff breathing (that's where the camera is), close enough for inherited precision, wide enough for landscape participation. Static shot except subtle push-in during knot completion, movement emphasizing mathematical beauty of fractal pattern. Natural light enhanced by rope's 16Hz humming creating visual resonance, supernatural cooperation with traditional instruction. Focus alternates between knot geometry and Jón's unconscious replication, showing genetic transmission in progress. DIALOGUE:",
+      "negative_prompt" : "",
       "progressive_state" : "",
-      "dialogue" : "None",
-      "is_active" : false,
-      "variant_id" : "3a_story_primary",
+      "variant_name" : "Rope Lessons Inherited Knowledge Horror",
+      "dialogue" : "",
+      "subject" : "",
+      "is_active" : false
+    },
+    {
       "selected_plates" : [
         "MAGNUS-PREDATOR",
         "LILJA-SENSING",
@@ -66,7 +48,25 @@
         "STOFA-BODY"
       ],
       "subject" : "[MAGNÃšS] kneeling on grass at cliff top, demonstrating knot-tying to [JÃ“N], hands moving slowly through the motions, rope forming complex patterns, ocean visible 300 feet below with blood trail now reaching shore.",
-      "negative_prompt" : "no subtitles, show hands working rope clearly, blood trail visible in ocean below, intimate moment, 1080p"
+      "dialogue" : "None",
+      "variant_id" : "3a_story_primary",
+      "style" : "Medium shot from side showing both faces and hands working (that's where the camera is), intimate teaching moment, ocean visible in background.",
+      "is_active" : false,
+      "negative_prompt" : "no subtitles, show hands working rope clearly, blood trail visible in ocean below, intimate moment, 1080p",
+      "scene" : "Grassy cliff top, morning sun higher. Edge visible 10 feet away. Ocean far below. Green grass thick, small white flowers scattered.",
+      "variant_name" : "Primary - ROPE LESSONS AT HEIGHT",
+      "progressive_state" : "",
+      "camera_position" : "Medium shot from side showing both faces and hands working",
+      "action" : "MagnÃºs kneels on thick grass. Spreads rope in front of him. JÃ³n kneels opposite, watching intently. MagnÃºs's large hands take rope end. Forms loop. Passes end through. Pulls to create bowline knot. Unties it. Hands rope to JÃ³n. Boy's smaller hands try to copy. Makes wrong loop. MagnÃºs places his hands over boy's, guides them. Together they form knot correctly. MagnÃºs nods once. Takes rope back. Shows second knot - clove hitch. More complex. JÃ³n watches every movement. Behind them, cliff edge drops straight down. Ocean below shows whale's blood trail now reaching beach, spreading along shoreline. Other men visible as dots preparing flensing area. Women disappeared toward purple hills. MagnÃºs ties rope around JÃ³n's waist, through legs, creating harness. Tests each loop. Boy stands still, trusting."
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "narrative_function" : "Teaching moment | Father-son trust | Camera frost ...",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "id" : "3a",
+    "sequence_type" : "prologue",
+    "title" : "ROPE LESSONS AT HEIGHT"
+  },
+  "aspect_ratio" : "1.85:1"
 }

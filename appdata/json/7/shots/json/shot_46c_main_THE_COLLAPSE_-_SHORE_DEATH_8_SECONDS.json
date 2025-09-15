@@ -1,32 +1,32 @@
 {
   "progressive_state" : "Bull failing | Shore arrival | Camera frost 34% | God dying | Watching: House sees",
-  "aspect_ratio" : "4:3",
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "id" : "46c",
-    "sequence_type" : "main_story",
-    "title" : "THE COLLAPSE - SHORE DEATH 8 SECONDS",
-    "stitch_from" : "",
-    "narrative_function" : "Bull failing | Shore arrival | Camera frost 34% | ..."
-  },
   "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "scene" : "Ice shelf by polynya, 10:05 AM. Bull massive on ice, steam shroud. House visible in distance. Contamination trail from water.",
-      "variant_name" : "Primary - THE COLLAPSE - SHORE DEATH 8 SECONDS",
-      "variant_id" : "46c_story_primary",
-      "subject" : "GRIÃUNGUR using last strength to crawl from polynya onto ice, dragging his massive contaminated body toward shore, industrial materials scraping ice, before collapsing 10 feet from water, steam rising from his dying form while [GUÃRÃšN] watches, understanding he came to die witnessed.",
-      "camera_position" : "Tracking backward showing his enormous suffering form",
-      "negative_prompt" : "show full body contamination, maintain tracking shot, no quick death",
-      "is_active" : false,
       "action" : "TRACKING BACKWARD as Bull emerges further. Shoulders, then torso - full contamination visible. Brass bolts like scales, rope veins across entire body, net grown into hide creating crosshatch pattern. Each movement agony. Crawls using front legs, back legs dragging. Industrial materials scrape ice, leaving gouges that bleed green-black contamination. Makes it 10 feet onto ice shelf. Collapses. Steam erupts from entire body - heat meeting cold. But positioned specifically: facing house. He can see it in distance. Came to die where the family (other trapped livestock) could witness. GuÃ°rÃºn follows, kneels beside massive head. Her hand tiny on his skull between harpoons. Bull's eyes finding house, seeing smoke. One final bellow - but gentle, calling not threatening. Sound carries to house. Through window, small figures visible watching. Bull's breathing: 8\/min... 6\/min... 4\/min... continuing but slowing. Not dead but dying. Will take hours. Days maybe. But shore will be his deathbed. Green verdigris tears from metal harpoons freezing into emerald ice.",
-      "style" : "Tracking backward showing his enormous suffering form (that's where the camera is), documenting god's mortality.",
+      "variant_name" : "Primary - THE COLLAPSE - SHORE DEATH 8 SECONDS",
+      "subject" : "GRIÃUNGUR using last strength to crawl from polynya onto ice, dragging his massive contaminated body toward shore, industrial materials scraping ice, before collapsing 10 feet from water, steam rising from his dying form while [GUÃRÃšN] watches, understanding he came to die witnessed.",
+      "scene" : "Ice shelf by polynya, 10:05 AM. Bull massive on ice, steam shroud. House visible in distance. Contamination trail from water.",
       "dialogue" : "(GuÃ°rÃºn): \"HvÃ­ldu... Ã¾eir sjÃ¡ Ã¾ig\" (Rest... they see you) (Bull's bellow): Carries to house (From house, faint): Children's voices responding",
+      "is_active" : false,
+      "negative_prompt" : "show full body contamination, maintain tracking shot, no quick death",
+      "style" : "Tracking backward showing his enormous suffering form (that's where the camera is), documenting god's mortality.",
+      "variant_id" : "46c_story_primary",
+      "camera_position" : "Tracking backward showing his enormous suffering form",
       "selected_plates" : [
         "LILJA-SENSING",
         "SEA-BATTLE"
       ],
       "progressive_state" : ""
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "narrative_function" : "Bull failing | Shore arrival | Camera frost 34% | ...",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "id" : "46c",
+    "sequence_type" : "main_story",
+    "title" : "THE COLLAPSE - SHORE DEATH 8 SECONDS"
+  },
+  "aspect_ratio" : "4:3"
 }
