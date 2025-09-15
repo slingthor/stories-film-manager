@@ -1,34 +1,51 @@
 {
   "selected_prompt_index" : 0,
   "aspect_ratio" : "1.85:1",
-  "progressive_state" : "Hunt begins | Men gathering | Camera frost 0% | Blood water | Watching: The marking approaches",
   "shot_metadata" : {
-    "title" : "BLACK BOATS ON RED WATER",
+    "id" : "1a",
+    "sequence_type" : "prologue",
     "duration_seconds" : 8,
     "narrative_function" : "Hunt begins | Men gathering | Camera frost 0% | Bl...",
-    "stitch_from" : "",
-    "id" : "1a",
-    "sequence_type" : "prologue"
+    "title" : "BLACK BOATS ON RED WATER",
+    "stitch_from" : ""
   },
+  "progressive_state" : "Hunt begins | Men gathering | Camera frost 0% | Blood water | Watching: The marking approaches",
   "prompt_variants" : [
     {
+      "negative_prompt" : "no subtitles, show red-tinted water, synchronized rowing, distant whale spouts, 1080p",
       "scene" : "Black sand beach, dawn. Ocean calm except for whale spouts. Red-tinted water from sun angle. Mountains behind beach. Women and children watching from shore.",
+      "active_video_index" : 0,
+      "variant_id" : "1a_story_primary",
       "variant_name" : "Primary - BLACK BOATS ON RED WATER",
+      "videos" : [
+        {
+          "filename" : "Revised_prompt_subject_202509141854_leday.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Revised_prompt_subject_202509141854_leday.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Revised_prompt_subject_202509141854_m00rr.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Revised_prompt_subject_202509141854_m00rr.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Revised_prompt_subject_202509141854_c8b1k.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Revised_prompt_subject_202509141854_c8b1k.mp4"
+        }
+      ],
       "dialogue" : "None",
-      "subject" : "Twelve men pushing three wooden rowing boats across black sand into ocean water that appears red-tinted in dawn light, [MAGNÃšS] 45 years old with brown beard carrying iron-pointed spear, boats arranged pointing toward whale spouts visible in distance.",
+      "progressive_state" : "",
       "style" : "Wide shot from elevated position on beach showing boats entering water (that's where the camera is), seeing both boats and distant whales.",
+      "action" : "Men's boots sink into black sand as they push boats. Three boats, each 18 feet long, wooden, dark with age. Four men per boat. MagnÃºs leads first boat, carries 7-foot spear with iron point, shaft dark wood. Other men carry similar spears. They push boats into water. Water appears red - dawn light creating illusion of blood. Boats float immediately. Men climb over sides, water dripping from boots. Take positions at oars - two men per side. Begin rowing. All twelve men pull oars simultaneously. Each stroke moves boats 6 feet forward. Water parts around boat bows, red color intensifying where disturbed. In distance, whale spouts visible - water shooting up 30 feet, three locations, 500 yards away. Young boy [JÃ“N] stands on shore watching, too young for hunt.",
+      "subject" : "Twelve men pushing three wooden rowing boats across black sand into ocean water that appears red-tinted in dawn light, [MAGNÃšS] 45 years old with brown beard carrying iron-pointed spear, boats arranged pointing toward whale spouts visible in distance.",
       "camera_position" : "Wide shot from elevated position on beach showing boats entering water",
-      "is_active" : false,
       "selected_plates" : [
-        "LILJA-SENSING",
         "JON-TEMPORAL",
         "SEA-BATTLE",
         "MAGNUS-MASTER"
       ],
-      "variant_id" : "1a_story_primary",
-      "negative_prompt" : "no subtitles, show red-tinted water, synchronized rowing, distant whale spouts, 1080p",
-      "action" : "Men's boots sink into black sand as they push boats. Three boats, each 18 feet long, wooden, dark with age. Four men per boat. MagnÃºs leads first boat, carries 7-foot spear with iron point, shaft dark wood. Other men carry similar spears. They push boats into water. Water appears red - dawn light creating illusion of blood. Boats float immediately. Men climb over sides, water dripping from boots. Take positions at oars - two men per side. Begin rowing. All twelve men pull oars simultaneously. Each stroke moves boats 6 feet forward. Water parts around boat bows, red color intensifying where disturbed. In distance, whale spouts visible - water shooting up 30 feet, three locations, 500 yards away. Young boy [JÃ“N] stands on shore watching, too young for hunt.",
-      "progressive_state" : ""
+      "is_active" : false
     }
   ]
 }

@@ -1391,14 +1391,49 @@ class PromptVariant: ObservableObject, Identifiable {
     
     // Character encoding correction function for Icelandic characters
     private func correctCharacterEncoding(_ text: String) -> String {
-        return text
+        var corrected = text
+
+        // Fix specific corrupted names first (exact matches)
+        corrected = corrected
             .replacingOccurrences(of: "MAGNÃšS", with: "MAGNÚS")
-            .replacingOccurrences(of: "MagnÃºs", with: "Magnús") 
+            .replacingOccurrences(of: "MagnÃºs", with: "Magnús")
             .replacingOccurrences(of: "JÃN", with: "JÓN")
             .replacingOccurrences(of: "JÃ³n", with: "Jón")
             .replacingOccurrences(of: "GuÃ°rÃºn", with: "Guðrún")
-            .replacingOccurrences(of: "SigrÃ­Ã°", with: "Sigrið")
-            .replacingOccurrences(of: "Ã", with: "Ó")
+            .replacingOccurrences(of: "GUÃ°RÃšN", with: "GUÐRÚN")
+            .replacingOccurrences(of: "SigrÃ­Ã°", with: "Sigrid")
+            .replacingOccurrences(of: "SIGRÃÃ°", with: "SIGRID")
+
+        // Fix corrupted Icelandic words
+        corrected = corrected
+            .replacingOccurrences(of: "Ã¾rÃ­r", with: "þrír")  // three
+            .replacingOccurrences(of: "fjÃ³rir", with: "fjórir")  // four
+            .replacingOccurrences(of: "Ã­slenskur", with: "íslenskur")  // Icelandic
+            .replacingOccurrences(of: "ÃžÃº", with: "Þú")  // You
+            .replacingOccurrences(of: "Ã©g", with: "ég")  // I
+            .replacingOccurrences(of: "hÃºn", with: "hún")  // she
+            .replacingOccurrences(of: "HÃšN", with: "HÚN")  // SHE
+            .replacingOccurrences(of: "mÃ­n", with: "mín")  // mine
+            .replacingOccurrences(of: "MÃN", with: "MÍN")  // MINE
+            .replacingOccurrences(of: "ennÃ¾Ã¡", with: "ennþá")  // yet/still
+            .replacingOccurrences(of: "rÃ©ttir", with: "réttir")  // sheep sorting pens
+            .replacingOccurrences(of: "klettagjÃ¡", with: "klettagjá")  // rock cleft
+            .replacingOccurrences(of: "baÃ°stofa", with: "baðstofa")  // living room
+            .replacingOccurrences(of: "faldbÃºningur", with: "faldbúningur")  // headdress
+            .replacingOccurrences(of: "harÃ°fiskur", with: "harðfiskur")  // dried fish
+            .replacingOccurrences(of: "hÃ¡karl", with: "hákarl")  // fermented shark
+            .replacingOccurrences(of: "vaÃ°mÃ¡l", with: "vaðmál")  // wool fabric
+            .replacingOccurrences(of: "JÃ¶rmungandr", with: "Jörmungandr")  // world serpent
+            .replacingOccurrences(of: "landvÃ¦ttir", with: "landvættir")  // land spirits
+            .replacingOccurrences(of: "GrÃ­Ã°ungur", with: "Gríðungur")  // bull
+            .replacingOccurrences(of: "forystufÃ©", with: "forystuféð")  // lead sheep
+            .replacingOccurrences(of: "GlÃ¡mr", with: "Glámr")  // name from saga
+            .replacingOccurrences(of: "RagnarÃ¶k", with: "Ragnarök")  // end of world
+            .replacingOccurrences(of: "Ãsland", with: "Ísland")  // Iceland
+            .replacingOccurrences(of: "ÃSLAND", with: "ÍSLAND")  // ICELAND
+
+        // Fix general UTF-8 corruption patterns for lowercase
+        corrected = corrected
             .replacingOccurrences(of: "Ã¡", with: "á")
             .replacingOccurrences(of: "Ã©", with: "é")
             .replacingOccurrences(of: "Ã­", with: "í")
@@ -1408,15 +1443,22 @@ class PromptVariant: ObservableObject, Identifiable {
             .replacingOccurrences(of: "Ã¾", with: "þ")
             .replacingOccurrences(of: "Ã°", with: "ð")
             .replacingOccurrences(of: "Ã¦", with: "æ")
-            .replacingOccurrences(of: "Å", with: "Å")
+            .replacingOccurrences(of: "Ã¶", with: "ö")
+
+        // Fix uppercase
+        corrected = corrected
             .replacingOccurrences(of: "Ã", with: "Á")
             .replacingOccurrences(of: "Ã‰", with: "É")
             .replacingOccurrences(of: "Ã", with: "Í")
+            .replacingOccurrences(of: "Ã", with: "Ó")
             .replacingOccurrences(of: "Ãš", with: "Ú")
             .replacingOccurrences(of: "Ã", with: "Ý")
             .replacingOccurrences(of: "Ãž", with: "Þ")
             .replacingOccurrences(of: "Ã", with: "Ð")
             .replacingOccurrences(of: "Ã†", with: "Æ")
+            .replacingOccurrences(of: "Ã–", with: "Ö")
+
+        return corrected
     }
     
     func generateCompletePrompt(for shot: FilmShot, plateManager: PlateManager? = nil, trackingSystems: [TrackingSystem]? = nil) -> String {
@@ -1596,13 +1638,13 @@ class PromptVariant: ObservableObject, Identifiable {
             // Now consolidate plates by character/category to avoid duplicate labels
             for (character, descriptions) in characterPlatesByCharacter.sorted(by: { $0.key < $1.key }) {
                 let consolidatedDescription = descriptions.joined(separator: " ")
-                plateAdditions += " [\(character)]: " + consolidatedDescription
+                plateAdditions += " [\(character) CHARACTER PLATE]: " + consolidatedDescription
                 print("   ✅ Consolidated \(descriptions.count) plate(s) for character '\(character)'")
             }
 
             for (category, descriptions) in environmentalPlatesByCategory.sorted(by: { $0.key < $1.key }) {
                 let consolidatedDescription = descriptions.joined(separator: " ")
-                plateAdditions += " [\(category)]: " + consolidatedDescription
+                plateAdditions += " [\(category) ENVIRONMENTAL PLATE]: " + consolidatedDescription
                 print("   ✅ Consolidated \(descriptions.count) plate(s) for category '\(category)'")
             }
             
@@ -1641,7 +1683,7 @@ class PromptVariant: ObservableObject, Identifiable {
         promptText += "\(subjectContent)\n\n"
         
         // ACTION section
-        promptText += "ACTION:\n\(action)\n\n"
+        promptText += "ACTION:\n\(correctCharacterEncoding(action))\n\n"
         
         // SCENE section with temperature injection
         var sceneContent = scene
@@ -1658,19 +1700,19 @@ class PromptVariant: ObservableObject, Identifiable {
             sceneContent += " Outdoor temperature: \(tempDescription)."
         }
         
-        promptText += "SCENE:\n\(sceneContent)\n\n"
+        promptText += "SCENE:\n\(correctCharacterEncoding(sceneContent))\n\n"
         
         // STYLE section with camera position
         promptText += "STYLE:\n"
-        var styleContent = style
+        var styleContent = correctCharacterEncoding(style)
         if !cameraPosition.isEmpty {
-            styleContent += " Camera position: \(cameraPosition)"
+            styleContent += " Camera position: \(correctCharacterEncoding(cameraPosition))"
         }
         promptText += "\(styleContent)\n\n"
         
         // DIALOGUE section (if present)
         if !dialogue.isEmpty {
-            promptText += "DIALOGUE:\n\(dialogue)\n\n"
+            promptText += "DIALOGUE:\n\(correctCharacterEncoding(dialogue))\n\n"
         }
         
         // SOUNDS section (only if we have actual audio notes)
@@ -1700,7 +1742,10 @@ class PromptVariant: ObservableObject, Identifiable {
     
     func generateCleanPrompt(for shot: FilmShot, plateManager: PlateManager? = nil) -> String {
         var promptText = ""
-        
+
+        // META SETTING - Always include at the beginning
+        promptText += "Meta setting: Iceland, Westfjords 1888\n\n"
+
         // SUBJECT section
         promptText += "SUBJECT:\n"
         var subjectContent = correctCharacterEncoding(subject)
@@ -1730,12 +1775,14 @@ class PromptVariant: ObservableObject, Identifiable {
                 // Try character plates first
                 if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
                     let plateDescription = processPlateWithMaster(charPlate.description, plateId: plateId, plateManager: plateManager)
-                    plateAdditions += " " + plateDescription
+                    // Add label for character plates
+                    plateAdditions += " [\(plateId) CHARACTER PLATE]: " + plateDescription
                 }
                 // Try environmental plates
                 else if let envPlate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
                     let plateDescription = processPlateWithMaster(envPlate.description, plateId: plateId, plateManager: plateManager)
-                    plateAdditions += " " + plateDescription
+                    // Add label for environmental plates
+                    plateAdditions += " [\(plateId) ENVIRONMENTAL PLATE]: " + plateDescription
                 }
             }
             
@@ -1762,19 +1809,19 @@ class PromptVariant: ObservableObject, Identifiable {
         promptText += "\(subjectContent)\n\n"
         
         // ACTION section
-        promptText += "ACTION:\n\(action)\n\n"
+        promptText += "ACTION:\n\(correctCharacterEncoding(action))\n\n"
         
         // STYLE section
         promptText += "STYLE:\n"
-        var styleContent = style
+        var styleContent = correctCharacterEncoding(style)
         if !cameraPosition.isEmpty {
-            styleContent += " Camera position: \(cameraPosition)"
+            styleContent += " Camera position: \(correctCharacterEncoding(cameraPosition))"
         }
         promptText += "\(styleContent)\n\n"
         
         // DIALOGUE section (if present)
         if !dialogue.isEmpty {
-            promptText += "DIALOGUE:\n\(dialogue)\n\n"
+            promptText += "DIALOGUE:\n\(correctCharacterEncoding(dialogue))\n\n"
         }
         
         // SOUNDS section (only if we have actual audio notes)

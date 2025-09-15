@@ -1,33 +1,41 @@
 {
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "1.85:1",
-  "progressive_state" : "Paradise dies | Memory crystallizing | Camera frost 15% | Winter arriving | Watching: Everything stops",
   "prompt_variants" : [
     {
       "scene" : "Entire landscape from 500 feet up. Everything freezing rapidly. Stars and red aurora appearing. Sigrid tiny below.",
-      "variant_name" : "Primary - THE LANDSCAPE FREEZES",
-      "dialogue" : "(Sigrid's voice, distant but clear): \"Krummi svaf Ã­ klettagjÃ¡...\"",
       "subject" : "Aerial view pulling back showing entire landscape transforming, ocean turning black ice, berry hills white with snow, whale carcass freezing solid, while Sigrid's song continues as only sound.",
-      "style" : "Aerial pullback showing full transformation (that's where the camera is), landscape dying, ice spreading everywhere.",
+      "dialogue" : "(Sigrid's voice, distant but clear): \"Krummi svaf Ã­ klettagjÃ¡...\"",
+      "progressive_state" : "",
+      "negative_prompt" : "no subtitles, show ice spreading, landscape dying, red northern lights, 1080p",
+      "active_video_index" : 0,
+      "variant_id" : "21_story_primary",
+      "videos" : [
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142240_qik7u.mp4",
+          "duration" : 8,
+          "filename" : "Meta_setting_iceland_202509142240_qik7u.mp4"
+        }
+      ],
+      "variant_name" : "Primary - THE LANDSCAPE FREEZES",
       "camera_position" : "Aerial pullback showing full transformation",
+      "style" : "Aerial pullback showing full transformation (that's where the camera is), landscape dying, ice spreading everywhere.",
+      "action" : "Camera rises from Sigrid, pulling back. Feast tables below now empty except for her. Food turned to black rot. Tables collapsed. Rising higher - ocean beginning to freeze, ice spreading from shore outward like reaching fingers. Berry hills turn white, purple juice freezing into dark veins in snow. Whale on beach freezes solid, blood pool now red ice. Sheep in stone pen stand frozen mid-movement, become white statues. Higher still - entire peninsula visible. Green summer grass turns brown, then white with frost. The pole on headland freezes, cracks, falls. Three terrains no longer pulsing. Everything still. Dead. Only movement is Sigrid below, tiny figure still standing, still singing. Her voice carries impossibly far in frozen air. Stars above too bright, too many. Sky wrong color - purple-black. Northern lights begin but they're red, not green.",
       "is_active" : false,
       "selected_plates" : [
         "JON-TEMPORAL",
         "SIGRID-CORNERED",
         "WESTFJORDS-CLIFF"
-      ],
-      "variant_id" : "21_story_primary",
-      "negative_prompt" : "no subtitles, show ice spreading, landscape dying, red northern lights, 1080p",
-      "action" : "Camera rises from Sigrid, pulling back. Feast tables below now empty except for her. Food turned to black rot. Tables collapsed. Rising higher - ocean beginning to freeze, ice spreading from shore outward like reaching fingers. Berry hills turn white, purple juice freezing into dark veins in snow. Whale on beach freezes solid, blood pool now red ice. Sheep in stone pen stand frozen mid-movement, become white statues. Higher still - entire peninsula visible. Green summer grass turns brown, then white with frost. The pole on headland freezes, cracks, falls. Three terrains no longer pulsing. Everything still. Dead. Only movement is Sigrid below, tiny figure still standing, still singing. Her voice carries impossibly far in frozen air. Stars above too bright, too many. Sky wrong color - purple-black. Northern lights begin but they're red, not green.",
-      "progressive_state" : ""
+      ]
     }
   ],
+  "progressive_state" : "Paradise dies | Memory crystallizing | Camera frost 15% | Winter arriving | Watching: Everything stops",
   "shot_metadata" : {
-    "duration_seconds" : 8,
     "id" : "21",
+    "sequence_type" : "prologue",
+    "duration_seconds" : 8,
     "title" : "THE LANDSCAPE FREEZES",
     "narrative_function" : "Paradise dies | Memory crystallizing | Camera fros...",
-    "stitch_from" : "",
-    "sequence_type" : "prologue"
-  }
+    "stitch_from" : ""
+  },
+  "selected_prompt_index" : 0
 }

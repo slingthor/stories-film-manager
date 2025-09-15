@@ -1,32 +1,32 @@
 {
   "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "title" : "THE WHALE ARRIVES",
+    "duration_seconds" : 8,
+    "narrative_function" : "Death delivered | Community gathers | Camera frost...",
+    "sequence_type" : "prologue",
+    "id" : "5a",
+    "stitch_from" : ""
+  },
   "aspect_ratio" : "1.85:1",
-  "progressive_state" : "Death delivered | Community gathers | Camera frost 0% | Abundance begins | Watching: Ocean's gift",
   "prompt_variants" : [
     {
-      "scene" : "Black sand beach, mid-morning. Whale massive on sand. Blood pooling. People converging from three directions.",
+      "camera_position" : "Aerial shot showing whale and people converging from all directions",
+      "is_active" : false,
       "selected_plates" : [
         "LILJA-SENSING",
         "WESTFJORDS-CLIFF"
       ],
-      "is_active" : false,
-      "action" : "Wave pushes whale onto sand. Massive body, grey-white belly up. Three spears stick out at angles. Blood pools immediately, soaking into black sand. Pool spreads 20 feet wide. Men converge from beach camp, from cliffs, from village. Each carries tools - long flensing knives, hooks, saws. They run but arrive walking. MagnÃºs and JÃ³n descending cliff path, rope still coiled. Women descending from purple hills, baskets full, purple-stained. Everyone converging. Whale's eye open, clouded white but seems to track movement. Impossible - it's dead. Blood pool keeps spreading, but also running uphill slightly against gravity. Where blood meets purple juice trails from hills, they mix into darker stain. Children arrive at whale, stand in perfect line. One reaches out, touches whale skin. Warm. Body temperature. Should be cold.",
-      "style" : "Aerial shot showing whale and people converging from all directions (that's where the camera is), scale of whale apparent.",
       "variant_id" : "5a_story_primary",
-      "variant_name" : "Primary - THE WHALE ARRIVES",
-      "camera_position" : "Aerial shot showing whale and people converging from all directions",
+      "action" : "Wave pushes whale onto sand. Massive body, grey-white belly up. Three spears stick out at angles. Blood pools immediately, soaking into black sand. Pool spreads 20 feet wide. Men converge from beach camp, from cliffs, from village. Each carries tools - long flensing knives, hooks, saws. They run but arrive walking. MagnÃºs and JÃ³n descending cliff path, rope still coiled. Women descending from purple hills, baskets full, purple-stained. Everyone converging. Whale's eye open, clouded white but seems to track movement. Impossible - it's dead. Blood pool keeps spreading, but also running uphill slightly against gravity. Where blood meets purple juice trails from hills, they mix into darker stain. Children arrive at whale, stand in perfect line. One reaches out, touches whale skin. Warm. Body temperature. Should be cold.",
+      "scene" : "Black sand beach, mid-morning. Whale massive on sand. Blood pooling. People converging from three directions.",
       "subject" : "The 70-foot fin whale washing onto black sand beach, three spear shafts still protruding from its grey flesh, blood pooling in sand, its eye open and clouded, men running from all directions with knives and ropes.",
       "dialogue" : "None",
       "progressive_state" : "",
-      "negative_prompt" : "no subtitles, show massive whale scale, three spears visible, blood pooling uphill, people converging, 1080p"
+      "negative_prompt" : "no subtitles, show massive whale scale, three spears visible, blood pooling uphill, people converging, 1080p",
+      "variant_name" : "Primary - THE WHALE ARRIVES",
+      "style" : "Aerial shot showing whale and people converging from all directions (that's where the camera is), scale of whale apparent."
     }
   ],
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "id" : "5a",
-    "title" : "THE WHALE ARRIVES",
-    "narrative_function" : "Death delivered | Community gathers | Camera frost...",
-    "stitch_from" : "",
-    "sequence_type" : "prologue"
-  }
+  "progressive_state" : "Death delivered | Community gathers | Camera frost 0% | Abundance begins | Watching: Ocean's gift"
 }

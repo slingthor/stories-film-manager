@@ -1,32 +1,32 @@
 {
   "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
-  "progressive_state" : "Giant dying | Truth spoken | Camera frost 43.5% | Death rattle | Watching: All understand",
   "shot_metadata" : {
-    "title" : "THE DYING CONFESSION - SACRIFICE REVEALED 6 SECONDS",
+    "id" : "53b",
+    "sequence_type" : "main_story",
     "duration_seconds" : 6,
     "narrative_function" : "Giant dying | Truth spoken | Camera frost 43.5% | ...",
-    "stitch_from" : "",
-    "id" : "53b",
-    "sequence_type" : "main_story"
+    "title" : "THE DYING CONFESSION - SACRIFICE REVEALED 6 SECONDS",
+    "stitch_from" : ""
   },
   "prompt_variants" : [
     {
+      "negative_prompt" : "",
+      "progressive_state" : "",
+      "is_active" : false,
+      "style" : "Push through speaking architecture (that's where the camera is), sacrifice documented.",
+      "variant_id" : "53b_story_primary",
       "selected_plates" : [
         "SIGRID-CORNERED",
         "STOFA-BODY"
       ],
-      "action" : "PUSH THROUGH vibrating space toward center. House speaks through materials: stone foundation grinding forms \"Ã‰G DEY,\" wood beams creaking spell \"FYRIR YKKUR,\" turf walls breathing whisper \"TIL AÃ ÃžIÃ GETIÃ BREYST.\" The giant is dying so they can transform - death enabling metamorphosis. Floor shows veins now - red lines pulsing beneath earth, blood vessels visible. Heartbeat dropping: 70bpm... 60... 50. Breathing more labored: 6\/min... 5... 4. With each word, house ages visibly - new cracks spreading, moss falling, stones loosening. The family understands: they're in dying god's body. Their transformation requires his death. Sigrid touches wall, feels pulse weakening. Her hand comes away wet - wall perspiration mixed with blood. The house loves her specifically, dying to free her.",
-      "progressive_state" : "",
-      "variant_id" : "53b_story_primary",
       "variant_name" : "Primary - THE DYING CONFESSION - SACRIFICE REVEALED 6 SECONDS",
-      "style" : "Push through speaking architecture (that's where the camera is), sacrifice documented.",
-      "subject" : "The house continuing its confession through grinding stone and creaking wood: \"Ã‰g dey... fyrir ykkur... til aÃ° Ã¾iÃ° getiÃ° breyst\" (I die... for you... so you can transform), revealing the giant's death enables their metamorphosis.",
-      "scene" : "Interior becoming obviously body cavity. Deterioration visible. Giant's sacrifice manifesting.",
       "camera_position" : "Push through speaking architecture",
       "dialogue" : "(House, through materials): \"Ã‰g dey... fyrir ykkur...\" \"Til aÃ° Ã¾iÃ° getiÃ° breyst\" (Sigrid, understanding): \"ÃžÃº ert aÃ° gefa okkur leiÃ° Ãºt\"",
-      "negative_prompt" : "",
-      "is_active" : false
+      "subject" : "The house continuing its confession through grinding stone and creaking wood: \"Ã‰g dey... fyrir ykkur... til aÃ° Ã¾iÃ° getiÃ° breyst\" (I die... for you... so you can transform), revealing the giant's death enables their metamorphosis.",
+      "action" : "PUSH THROUGH vibrating space toward center. House speaks through materials: stone foundation grinding forms \"Ã‰G DEY,\" wood beams creaking spell \"FYRIR YKKUR,\" turf walls breathing whisper \"TIL AÃ ÃžIÃ GETIÃ BREYST.\" The giant is dying so they can transform - death enabling metamorphosis. Floor shows veins now - red lines pulsing beneath earth, blood vessels visible. Heartbeat dropping: 70bpm... 60... 50. Breathing more labored: 6\/min... 5... 4. With each word, house ages visibly - new cracks spreading, moss falling, stones loosening. The family understands: they're in dying god's body. Their transformation requires his death. Sigrid touches wall, feels pulse weakening. Her hand comes away wet - wall perspiration mixed with blood. The house loves her specifically, dying to free her.",
+      "scene" : "Interior becoming obviously body cavity. Deterioration visible. Giant's sacrifice manifesting."
     }
-  ]
+  ],
+  "progressive_state" : "Giant dying | Truth spoken | Camera frost 43.5% | Death rattle | Watching: All understand"
 }

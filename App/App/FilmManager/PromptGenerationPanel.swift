@@ -54,9 +54,10 @@ struct PromptGenerationPanel: View {
                         .disabled(shot.promptVariants.isEmpty)
                         
                         Button(action: {
-                            if shot.selectedPromptIndex < shot.promptVariants.count && 
+                            if shot.selectedPromptIndex < shot.promptVariants.count &&
                                !shot.promptVariants[shot.selectedPromptIndex].isActive {
                                 shot.setActivePrompt(at: shot.selectedPromptIndex)
+                                filmManager.fileManager.saveShot(shot)
                             }
                         }) {
                             Label(

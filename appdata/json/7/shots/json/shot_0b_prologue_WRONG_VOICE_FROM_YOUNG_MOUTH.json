@@ -1,32 +1,40 @@
 {
   "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "title" : "WRONG VOICE FROM YOUNG MOUTH",
+    "duration_seconds" : 8,
+    "narrative_function" : "Curse spoken | Voice stolen | Camera frost flicker...",
+    "sequence_type" : "prologue",
+    "id" : "0b",
+    "stitch_from" : ""
+  },
   "aspect_ratio" : "1.85:1",
   "progressive_state" : "Curse spoken | Voice stolen | Camera frost flickers 2% | Memory fracture | Watching: Time breaks",
   "prompt_variants" : [
     {
+      "negative_prompt" : "no subtitles, show mouth movements matching male voice, three-color hand stain, frost spreading, 1080p",
       "scene" : "Beside pole on headland. Ocean behind with whale spouts. Morning sun horizontal. Grass turning white with frost in 6-foot circle around her. Clear sky.",
+      "active_video_index" : 0,
+      "variant_id" : "0b_story_primary",
       "variant_name" : "Primary - WRONG VOICE FROM YOUNG MOUTH",
+      "videos" : [
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Icelandic_Song_of_Frost_and_Serpent.mp4",
+          "duration" : 8,
+          "filename" : "Icelandic_Song_of_Frost_and_Serpent.mp4"
+        }
+      ],
       "dialogue" : "(Young female mouth moving, old male voice): \"Krummi svaf Ã­ klettagjÃ¡, kaldri vetrarnÃ³ttu Ã¡\"",
-      "subject" : "[SIGRID] 16 years old with wheat-blonde hair in white linen dress standing beside the pole, opening her mouth to sing, lips moving to form Icelandic words, but deep male voice emerges while her eyes look directly at camera.",
+      "progressive_state" : "",
       "style" : "Medium shot facing Sigrid directly, camera at her eye level 10 feet away (that's where the camera is), static locked shot, no movement.",
+      "action" : "Sigrid stands 3 feet from pole, perfectly still. White dress hangs straight down - no wind. She opens mouth, lips form the words \"Krummi svaf Ã­ klettagjÃ¡.\" Deep male voice emerges from her throat - bass tone, elderly sound. Her lips continue moving, perfectly forming each syllable. Eyes never leave camera lens. Behind her, three whale spouts rise from ocean - water shoots up 20 feet. She continues singing, mouth moving: \"kaldri vetrarnÃ³ttu Ã¡.\" Frost forms on grass around her feet, spreading outward in circle, white crystals despite summer. Her right hand reaches out, touches pole. When hand pulls away, palm is stained - red thumb, purple fingers, gold wrist. She looks at stained hand while mouth continues moving, male voice continuing. Dress hem turns purple where it touches frosted grass.",
+      "subject" : "[SIGRID] 16 years old with wheat-blonde hair in white linen dress standing beside the pole, opening her mouth to sing, lips moving to form Icelandic words, but deep male voice emerges while her eyes look directly at camera.",
       "camera_position" : "Medium shot facing Sigrid directly, camera at her eye level 10 feet away",
-      "is_active" : false,
       "selected_plates" : [
         "SIGRID-CORNERED",
         "SEA-BATTLE"
       ],
-      "variant_id" : "0b_story_primary",
-      "negative_prompt" : "no subtitles, show mouth movements matching male voice, three-color hand stain, frost spreading, 1080p",
-      "action" : "Sigrid stands 3 feet from pole, perfectly still. White dress hangs straight down - no wind. She opens mouth, lips form the words \"Krummi svaf Ã­ klettagjÃ¡.\" Deep male voice emerges from her throat - bass tone, elderly sound. Her lips continue moving, perfectly forming each syllable. Eyes never leave camera lens. Behind her, three whale spouts rise from ocean - water shoots up 20 feet. She continues singing, mouth moving: \"kaldri vetrarnÃ³ttu Ã¡.\" Frost forms on grass around her feet, spreading outward in circle, white crystals despite summer. Her right hand reaches out, touches pole. When hand pulls away, palm is stained - red thumb, purple fingers, gold wrist. She looks at stained hand while mouth continues moving, male voice continuing. Dress hem turns purple where it touches frosted grass.",
-      "progressive_state" : ""
+      "is_active" : false
     }
-  ],
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "id" : "0b",
-    "title" : "WRONG VOICE FROM YOUNG MOUTH",
-    "narrative_function" : "Curse spoken | Voice stolen | Camera frost flicker...",
-    "stitch_from" : "",
-    "sequence_type" : "prologue"
-  }
+  ]
 }

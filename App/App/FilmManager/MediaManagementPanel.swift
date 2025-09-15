@@ -679,6 +679,7 @@ struct PromptVariantMediaItem: View {
 
             Button("Set Active") {
                 shot.setActivePrompt(at: variantIndex)
+                filmManager.fileManager.saveShot(shot)
                 filmManager.updateTimelineFromSelectedVideos()
             }
             .buttonStyle(.bordered)

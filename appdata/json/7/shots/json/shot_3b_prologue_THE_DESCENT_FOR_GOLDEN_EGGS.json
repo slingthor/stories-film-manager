@@ -1,32 +1,55 @@
 {
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "1.85:1",
   "progressive_state" : "Trust tested | Eggs abundant | Camera frost 0% | Gold revealed | Watching: Earth provides",
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "title" : "THE DESCENT FOR GOLDEN EGGS",
-    "duration_seconds" : 8,
-    "narrative_function" : "Trust tested | Eggs abundant | Camera frost 0% | G...",
-    "stitch_from" : "",
     "id" : "3b",
-    "sequence_type" : "prologue"
+    "title" : "THE DESCENT FOR GOLDEN EGGS",
+    "stitch_from" : "",
+    "duration_seconds" : 8,
+    "sequence_type" : "prologue",
+    "narrative_function" : "Trust tested | Eggs abundant | Camera frost 0% | G..."
   },
   "prompt_variants" : [
     {
+      "variant_id" : "3b_story_primary",
+      "is_active" : false,
+      "variant_name" : "Primary - THE DESCENT FOR GOLDEN EGGS",
+      "active_video_index" : 0,
       "scene" : "Vertical cliff face, 100 feet down from top. Black basalt with bird-covered ledges. Ocean below with whale blood reaching shore. Yolk spreading on rocks.",
+      "style" : "Vertical angle from beside JÃ³n showing descent and egg collecting (that's where the camera is), eggs falling and breaking visible.",
+      "camera_position" : "Vertical angle from beside JÃ³n showing descent and egg collecting",
+      "action" : "JÃ³n climbs backward down cliff, rope taut around waist. MagnÃºs above, visible hands holding rope steady. Boy's feet grip small ledges. Reaches first hole in cliff, 2 feet wide, perfectly round. Reaches in up to elbow. Pulls out three white eggs, each large as his fist. Places them in leather pouch at hip. Descends further. Second hole contains five eggs. Too many for one bird. Third egg slips from his grip. Falls 50 feet. Hits black rock below. Shell explodes. Yolk spreads bright golden across rock, running down in streams. Same color as morning sunlight. JÃ³n freezes, watching yolk spread. MagnÃºs tugs rope - continue. Boy reaches next hole. This one deeper. Entire arm disappears inside. Face shows surprise. Pulls out seven eggs. Pouch already full. Holds extra eggs against chest. One more falls. Another golden explosion on rocks. Yolk and blood from whale mixing where rock meets water.",
+      "videos" : [
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142018_c6med.mp4",
+          "filename" : "Meta_setting_iceland_202509142018_c6med.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Meta_setting_iceland_202509142018_tg354.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142018_tg354.mp4"
+        },
+        {
+          "filename" : "Meta_setting_iceland_202509142018_ncgb3.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142018_ncgb3.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Meta_setting_iceland_202509142018_ujhyk.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142018_ujhyk.mp4",
+          "duration" : 8
+        }
+      ],
+      "negative_prompt" : "no subtitles, show golden yolk spreading on rocks, impossible egg abundance, mixing with blood below, 1080p",
+      "dialogue" : "None",
       "selected_plates" : [
         "JON-TEMPORAL",
         "SEA-BATTLE"
       ],
-      "is_active" : false,
-      "action" : "JÃ³n climbs backward down cliff, rope taut around waist. MagnÃºs above, visible hands holding rope steady. Boy's feet grip small ledges. Reaches first hole in cliff, 2 feet wide, perfectly round. Reaches in up to elbow. Pulls out three white eggs, each large as his fist. Places them in leather pouch at hip. Descends further. Second hole contains five eggs. Too many for one bird. Third egg slips from his grip. Falls 50 feet. Hits black rock below. Shell explodes. Yolk spreads bright golden across rock, running down in streams. Same color as morning sunlight. JÃ³n freezes, watching yolk spread. MagnÃºs tugs rope - continue. Boy reaches next hole. This one deeper. Entire arm disappears inside. Face shows surprise. Pulls out seven eggs. Pouch already full. Holds extra eggs against chest. One more falls. Another golden explosion on rocks. Yolk and blood from whale mixing where rock meets water.",
-      "style" : "Vertical angle from beside JÃ³n showing descent and egg collecting (that's where the camera is), eggs falling and breaking visible.",
-      "variant_id" : "3b_story_primary",
-      "variant_name" : "Primary - THE DESCENT FOR GOLDEN EGGS",
-      "camera_position" : "Vertical angle from beside JÃ³n showing descent and egg collecting",
       "subject" : "[JÃ“N] descending the cliff face on rope, bare feet finding holds on black rock, reaching into round holes to pull out pure white eggs, one egg slipping from his hand to break on rocks below, golden yolk splattering bright yellow.",
-      "dialogue" : "None",
-      "progressive_state" : "",
-      "negative_prompt" : "no subtitles, show golden yolk spreading on rocks, impossible egg abundance, mixing with blood below, 1080p"
+      "progressive_state" : ""
     }
-  ]
+  ],
+  "aspect_ratio" : "1.85:1"
 }

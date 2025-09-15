@@ -13,7 +13,253 @@ struct ComprehensivePromptEditor: View {
     @State private var generatedCleanPrompt = ""
     @State private var showCharacterPlates = false
     @State private var showEnvironmentPlates = false
-    
+
+    private func variantVideoThumbnail(video: VideoFile, index: Int, variant: PromptVariant, shot: FilmShot) -> some View {
+        VStack(spacing: 4) {
+            ZStack(alignment: .topTrailing) {
+                VideoThumbnailView(
+                    videoPath: video.filepath,
+                    size: CGSize(width: 80, height: 60),
+                    enableHoverPreview: true
+                )
+                .frame(width: 80, height: 60)
+                .cornerRadius(4)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 4)
+                        .stroke(variant.activeVideoIndex == index ? Color.green : Color.clear, lineWidth: 2)
+                )
+                .onTapGesture {
+                    variant.setActiveVideo(at: index)
+                    filmManager.fileManager.saveShot(shot)
+                    if variant.isActive {
+                        filmManager.updateTimelineFromSelectedVideos()
+                    }
+                }
+
+                Button(action: {
+                    variant.removeVideo(at: index)
+                    filmManager.fileManager.saveShot(shot)
+                }) {
+                    Image(systemName: "xmark.circle.fill")
+                        .foregroundColor(.white)
+                        .background(Circle().fill(Color.red))
+                        .frame(width: 20, height: 20)
+                }
+                .buttonStyle(PlainButtonStyle())
+                .help("Remove video")
+                .offset(x: 5, y: -5)
+            }
+
+            HStack(spacing: 2) {
+                if variant.activeVideoIndex == index {
+                    Image(systemName: "checkmark.circle.fill")
+                        .foregroundColor(.green)
+                        .font(.system(size: 10))
+                }
+                Text("\(String(format: "%.1f", video.duration))s")
+                    .font(.system(size: 9))
+                    .foregroundColor(.secondary)
+            }
+        }
+    }
+
+    @ViewBuilder
+    private var variantMediaSection: some View {
+        if let shot = shot, shot.selectedPromptIndex < shot.promptVariants.count {
+            let currentVariant = shot.promptVariants[shot.selectedPromptIndex]
+
+            VStack(alignment: .leading, spacing: 12) {
+                Label("Variant Media Assets", systemImage: "photo.on.rectangle")
+                    .font(.headline)
+                    .foregroundColor(.orange)
+
+                Text("Current variant: \(currentVariant.name)")
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+
+                // Variant videos with thumbnails
+                if !currentVariant.videos.isEmpty {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("Variant Videos (\(currentVariant.videos.count))")
+                            .font(.caption)
+                            .fontWeight(.medium)
+
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(spacing: 10) {
+                                ForEach(Array(currentVariant.videos.enumerated()), id: \.element.id) { index, video in
+                                    variantVideoThumbnail(video: video, index: index, variant: currentVariant, shot: shot)
+                                }
+                            }
+                            .padding(.vertical, 4)
+                        }
+                    }
+                }
+
+                // Variant images with thumbnails
+                if !currentVariant.images.isEmpty {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("Variant Images (\(currentVariant.images.count))")
+                            .font(.caption)
+                            .fontWeight(.medium)
+
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(spacing: 10) {
+                                ForEach(Array(currentVariant.images.enumerated()), id: \.element.id) { index, image in
+                                    ZStack(alignment: .topTrailing) {
+                                        // Image thumbnail with hover preview
+                                        ImageThumbnailView(
+                                            imagePath: image.filepath,
+                                            size: CGSize(width: 80, height: 60),
+                                            enableHoverPreview: true
+                                        )
+                                        .frame(width: 80, height: 60)
+                                        .cornerRadius(4)
+
+                                        // Delete button
+                                        Button(action: {
+                                            currentVariant.removeImage(at: index)
+                                            filmManager.fileManager.saveShot(shot)
+                                        }) {
+                                            Image(systemName: "xmark.circle.fill")
+                                                .foregroundColor(.white)
+                                                .background(Circle().fill(Color.red))
+                                                .frame(width: 20, height: 20)
+                                        }
+                                        .buttonStyle(PlainButtonStyle())
+                                        .help("Remove image")
+                                        .offset(x: 5, y: -5)
+                                    }
+                                }
+                            }
+                            .padding(.vertical, 4)
+                        }
+                    }
+                }
+
+                // Shot videos (available to add to variant) with thumbnails
+                if !shot.videos.isEmpty {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("Shot Videos (click to add to variant)")
+                            .font(.caption)
+                            .fontWeight(.medium)
+                            .foregroundColor(.blue)
+
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(spacing: 10) {
+                                ForEach(shot.videos, id: \.id) { video in
+                                    let isInVariant = currentVariant.videos.contains(where: { $0.filepath == video.filepath })
+
+                                    VStack(spacing: 4) {
+                                        VideoThumbnailView(
+                                            videoPath: video.filepath,
+                                            size: CGSize(width: 80, height: 60),
+                                            enableHoverPreview: true
+                                        )
+                                        .frame(width: 80, height: 60)
+                                        .cornerRadius(4)
+                                        .opacity(isInVariant ? 0.5 : 1.0)
+                                        .overlay(
+                                            Group {
+                                                if isInVariant {
+                                                    RoundedRectangle(cornerRadius: 4)
+                                                        .fill(Color.gray.opacity(0.3))
+                                                    Image(systemName: "checkmark.circle.fill")
+                                                        .foregroundColor(.gray)
+                                                        .font(.title2)
+                                                }
+                                            }
+                                        )
+                                        .onTapGesture {
+                                            if !isInVariant {
+                                                currentVariant.addVideo(video)
+                                                filmManager.fileManager.saveShot(shot)
+                                            }
+                                        }
+
+                                        Text("\(String(format: "%.1f", video.duration))s")
+                                            .font(.system(size: 9))
+                                            .foregroundColor(.secondary)
+                                    }
+                                }
+                            }
+                            .padding(.vertical, 4)
+                        }
+                    }
+                }
+
+                // Shot images (available to add to variant) with thumbnails
+                if !shot.images.isEmpty {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("Shot Images (click to add to variant)")
+                            .font(.caption)
+                            .fontWeight(.medium)
+                            .foregroundColor(.blue)
+
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(spacing: 10) {
+                                ForEach(shot.images, id: \.id) { image in
+                                    let isInVariant = currentVariant.images.contains(where: { $0.filepath == image.filepath })
+
+                                    ImageThumbnailView(
+                                        imagePath: image.filepath,
+                                        size: CGSize(width: 80, height: 60),
+                                        enableHoverPreview: true
+                                    )
+                                    .frame(width: 80, height: 60)
+                                    .cornerRadius(4)
+                                    .opacity(isInVariant ? 0.5 : 1.0)
+                                    .overlay(
+                                        Group {
+                                            if isInVariant {
+                                                RoundedRectangle(cornerRadius: 4)
+                                                    .fill(Color.gray.opacity(0.3))
+                                                Image(systemName: "checkmark.circle.fill")
+                                                    .foregroundColor(.gray)
+                                                    .font(.title2)
+                                            }
+                                        }
+                                    )
+                                    .onTapGesture {
+                                        if !isInVariant {
+                                            currentVariant.addImage(image)
+                                            filmManager.fileManager.saveShot(shot)
+                                        }
+                                    }
+                                }
+                            }
+                            .padding(.vertical, 4)
+                        }
+                    }
+                }
+
+                // Drop zone for variant
+                VStack {
+                    Image(systemName: "square.and.arrow.down")
+                        .font(.title3)
+                        .foregroundColor(.gray)
+                    Text("Drop media for variant")
+                        .font(.caption)
+                        .foregroundColor(.gray)
+                }
+                .frame(height: 60)
+                .frame(maxWidth: .infinity)
+                .background(Color.gray.opacity(0.05))
+                .cornerRadius(6)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 6)
+                        .stroke(Color.gray.opacity(0.3), style: StrokeStyle(lineWidth: 1, dash: [4]))
+                )
+                .onDrop(of: [.fileURL], isTargeted: .constant(false)) { providers in
+                    handleVariantDrop(providers: providers, variant: currentVariant, shot: shot)
+                    return true
+                }
+            }
+            .padding()
+            .background(Color.orange.opacity(0.05))
+            .cornerRadius(8)
+        }
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             if let shot = shot {
@@ -82,8 +328,10 @@ struct ComprehensivePromptEditor: View {
                             ForEach(Array(shot.promptVariants.enumerated()), id: \.element.id) { index, variant in
                                 Button {
                                     shot.selectedPromptIndex = index
+                                    shot.isDirty = true
                                     shot.objectWillChange.send()
                                     filmManager.objectWillChange.send()
+                                    filmManager.fileManager.saveShot(shot)
                                 } label: {
                                     HStack {
                                         if variant.isActive {
@@ -220,130 +468,9 @@ struct ComprehensivePromptEditor: View {
                                     helpText: "Current state in narrative progression"
                                 )
                             }
-                            
+
                             // Variant Media Section
-                            VStack(alignment: .leading, spacing: 12) {
-                                Label("Variant Media Assets", systemImage: "photo.on.rectangle")
-                                    .font(.headline)
-                                    .foregroundColor(.orange)
-
-                                let currentVariant = shot.promptVariants[shot.selectedPromptIndex]
-
-                                Text("Current variant: \(currentVariant.name)")
-                                    .font(.caption)
-                                    .foregroundColor(.secondary)
-
-                                // Variant videos
-                                if !currentVariant.videos.isEmpty {
-                                    VStack(alignment: .leading, spacing: 4) {
-                                        Text("Variant Videos (\(currentVariant.videos.count))")
-                                            .font(.caption)
-                                            .fontWeight(.medium)
-
-                                        ForEach(Array(currentVariant.videos.enumerated()), id: \.element.id) { index, video in
-                                            HStack {
-                                                Image(systemName: currentVariant.activeVideoIndex == index ? "checkmark.circle.fill" : "circle")
-                                                    .foregroundColor(currentVariant.activeVideoIndex == index ? .green : .gray)
-                                                    .onTapGesture {
-                                                        currentVariant.setActiveVideo(at: index)
-                                                        filmManager.fileManager.saveShot(shot)
-                                                        if currentVariant.isActive {
-                                                            filmManager.updateTimelineFromSelectedVideos()
-                                                        }
-                                                    }
-
-                                                Text(video.filename)
-                                                    .font(.caption)
-                                                    .lineLimit(1)
-
-                                                Spacer()
-
-                                                Text("\(String(format: "%.1f", video.duration))s")
-                                                    .font(.caption2)
-                                                    .foregroundColor(.secondary)
-
-                                                Button(action: {
-                                                    currentVariant.removeVideo(at: index)
-                                                    filmManager.fileManager.saveShot(shot)
-                                                }) {
-                                                    Image(systemName: "trash")
-                                                        .font(.caption)
-                                                        .foregroundColor(.red)
-                                                }
-                                                .buttonStyle(PlainButtonStyle())
-                                            }
-                                            .padding(.horizontal, 8)
-                                            .padding(.vertical, 2)
-                                            .background(currentVariant.activeVideoIndex == index ? Color.green.opacity(0.1) : Color.clear)
-                                            .cornerRadius(4)
-                                        }
-                                    }
-                                }
-
-                                // Shot videos (available to add to variant)
-                                if !shot.videos.isEmpty {
-                                    VStack(alignment: .leading, spacing: 4) {
-                                        Text("Shot Videos (click to add to variant)")
-                                            .font(.caption)
-                                            .fontWeight(.medium)
-                                            .foregroundColor(.blue)
-
-                                        ForEach(shot.videos, id: \.id) { video in
-                                            HStack {
-                                                let isInVariant = currentVariant.videos.contains(where: { $0.filepath == video.filepath })
-
-                                                Image(systemName: isInVariant ? "checkmark.square.fill" : "plus.square")
-                                                    .foregroundColor(isInVariant ? .gray : .blue)
-
-                                                Text(video.filename)
-                                                    .font(.caption)
-                                                    .lineLimit(1)
-                                                    .foregroundColor(isInVariant ? .secondary : .primary)
-
-                                                Spacer()
-
-                                                if !isInVariant {
-                                                    Button("Add to Variant") {
-                                                        currentVariant.addVideo(video)
-                                                        filmManager.fileManager.saveShot(shot)
-                                                    }
-                                                    .font(.caption)
-                                                    .buttonStyle(.bordered)
-                                                }
-                                            }
-                                            .padding(.horizontal, 8)
-                                            .padding(.vertical, 2)
-                                            .background(Color.blue.opacity(0.05))
-                                            .cornerRadius(4)
-                                        }
-                                    }
-                                }
-
-                                // Drop zone for variant
-                                VStack {
-                                    Image(systemName: "square.and.arrow.down")
-                                        .font(.title3)
-                                        .foregroundColor(.gray)
-                                    Text("Drop media for variant")
-                                        .font(.caption)
-                                        .foregroundColor(.gray)
-                                }
-                                .frame(height: 60)
-                                .frame(maxWidth: .infinity)
-                                .background(Color.gray.opacity(0.05))
-                                .cornerRadius(6)
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 6)
-                                        .stroke(Color.gray.opacity(0.3), style: StrokeStyle(lineWidth: 1, dash: [4]))
-                                )
-                                .onDrop(of: [.fileURL], isTargeted: .constant(false)) { providers in
-                                    handleVariantDrop(providers: providers, variant: currentVariant, shot: shot)
-                                    return true
-                                }
-                            }
-                            .padding()
-                            .background(Color.orange.opacity(0.05))
-                            .cornerRadius(8)
+                            variantMediaSection
                             
                             // Generated Prompt Display (inline)
                             if showingGeneratedPrompt && !generatedPrompt.isEmpty {
@@ -1089,7 +1216,26 @@ struct GeneratedPromptViewer: View {
     let shotId: String
     let cleanPrompt: String
     let onDismiss: () -> Void
-    
+
+    private func sanitizeForPG18(_ text: String) -> String {
+        var sanitized = text
+
+        // Only replace age-related terms - change 16 to 18
+        sanitized = sanitized.replacingOccurrences(of: "16-year-old", with: "18-year-old", options: .caseInsensitive)
+        sanitized = sanitized.replacingOccurrences(of: "16 year old", with: "18 year old", options: .caseInsensitive)
+        sanitized = sanitized.replacingOccurrences(of: "age 16", with: "age 18", options: .caseInsensitive)
+        sanitized = sanitized.replacingOccurrences(of: "sixteen", with: "eighteen", options: .caseInsensitive)
+        sanitized = sanitized.replacingOccurrences(of: "16 years", with: "18 years", options: .caseInsensitive)
+
+        // Also update any other young ages to be 18+
+        sanitized = sanitized.replacingOccurrences(of: "15-year-old", with: "18-year-old", options: .caseInsensitive)
+        sanitized = sanitized.replacingOccurrences(of: "15 year old", with: "18 year old", options: .caseInsensitive)
+        sanitized = sanitized.replacingOccurrences(of: "14-year-old", with: "18-year-old", options: .caseInsensitive)
+        sanitized = sanitized.replacingOccurrences(of: "14 year old", with: "18 year old", options: .caseInsensitive)
+
+        return sanitized
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             HStack {
@@ -1098,7 +1244,7 @@ struct GeneratedPromptViewer: View {
                     .fontWeight(.semibold)
                 
                 Spacer()
-                
+
                 Button("Copy Prompt") {
                     // Copy the clean prompt without headers and technical info
                     NSPasteboard.general.clearContents()
@@ -1106,7 +1252,17 @@ struct GeneratedPromptViewer: View {
                     print("📋 Copied clean VEO3 prompt to clipboard")
                 }
                 .buttonStyle(.bordered)
-                
+
+                Button("Copy Prompt PG18") {
+                    // Copy sanitized version for VEO3 compliance
+                    let sanitizedPrompt = sanitizeForPG18(cleanPrompt)
+                    NSPasteboard.general.clearContents()
+                    NSPasteboard.general.setString(sanitizedPrompt, forType: .string)
+                    print("📋 Copied PG18-sanitized VEO3 prompt to clipboard")
+                }
+                .buttonStyle(.bordered)
+                .foregroundColor(.orange)
+
                 Button("Close") {
                     onDismiss()
                 }
