@@ -44,8 +44,24 @@
       "negative_prompt": "no subtitles, show sheep flowing like water, self-sorting, patterns matching earlier scenes, 1080p",
       "video_references": [],
       "selected_plates": [
-        "LILJA-SENSING",
-        "WESTFJORDS-CLIFF"
+        "MAGNUS-AUTHORITY",
+        "SIGRID-PURE",
+        "LILJA-PURE",
+        "JON-MILD",
+        "GUDRUN-ABUNDANT",
+        "WESTFJORDS-CLIFF",
+        "WESTFJORDS-SUMMER"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-AUTHORITY",
+        "sigrid": "SIGRID-PURE",
+        "lilja": "LILJA-PURE",
+        "jon": "JON-MILD",
+        "gudrun": "GUDRUN-ABUNDANT"
+      },
+      "available_environmental_plates": [
+        "WESTFJORDS-CLIFF",
+        "WESTFJORDS-SUMMER"
       ]
     }
   ],

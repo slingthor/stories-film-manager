@@ -51,12 +51,22 @@
       "negative_prompt": "no subtitles, show hákarl contamination, frost spreading from Danish, documentary observation",
       "video_references": [],
       "selected_plates": [
-        "MAGNUS-PREDATOR",
-        "LILJA-SENSING",
-        "SIGRID-CORNERED",
-        "GUDRUN-CONDEMNED",
-        "JON-TEMPORAL",
-        "SEA-BATTLE"
+        "MAGNUS-CONFUSED",
+        "SIGRID-CALCULATING",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-COUNTING",
+        "BAÐSTOFA-STIRRING"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-CONFUSED",
+        "sigrid": "SIGRID-CALCULATING",
+        "lilja": "LILJA-MATHEMATICAL",
+        "jon": "JON-PROPHET",
+        "gudrun": "GUDRUN-COUNTING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-STIRRING"
       ]
     }
   ],

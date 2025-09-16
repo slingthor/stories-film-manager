@@ -40,9 +40,22 @@
       "negative_prompt": "maintain impossibility, no logical resolution",
       "video_references": [],
       "selected_plates": [
-        "LILJA-SENSING",
+        "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
-        "STOFA-BODY"
+        "LILJA-EVOLVING",
+        "JON-ENERGETIC",
+        "GUDRUN-RETURNING",
+        "BAÐSTOFA-CRYSTALLIZING"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-POSSESSING",
+        "sigrid": "SIGRID-CORNERED",
+        "lilja": "LILJA-EVOLVING",
+        "jon": "JON-ENERGETIC",
+        "gudrun": "GUDRUN-RETURNING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-CRYSTALLIZING"
       ]
     }
   ],

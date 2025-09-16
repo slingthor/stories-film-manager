@@ -48,7 +48,24 @@
       "negative_prompt": "no subtitles, no text overlays, no lens flares, no purple colors in aurora, no modern lights, no contrails, maintain pure 1888 environment",
       "video_references": [],
       "selected_plates": [
-        "SEA-BATTLE"
+        "MAGNUS-CONFUSED",
+        "SIGRID-MARKED",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-PRODUCING",
+        "BAÐSTOFA-STIRRING",
+        "WESTFJORDS-WINTER"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-CONFUSED",
+        "sigrid": "SIGRID-MARKED",
+        "lilja": "LILJA-MATHEMATICAL",
+        "jon": "JON-PROPHET",
+        "gudrun": "GUDRUN-PRODUCING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-STIRRING",
+        "WESTFJORDS-WINTER"
       ]
     }
   ],

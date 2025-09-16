@@ -42,7 +42,21 @@
       "negative_prompt": "",
       "video_references": [],
       "selected_plates": [
-        "LILJA-SENSING",
+        "MAGNUS-DEFEATED",
+        "SIGRID-ORACLE",
+        "LILJA-EVOLVING",
+        "JON-ENERGETIC",
+        "GUDRUN-WALKING",
+        "WESTFJORDS-CLIFF"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-DEFEATED",
+        "sigrid": "SIGRID-ORACLE",
+        "lilja": "LILJA-EVOLVING",
+        "jon": "JON-ENERGETIC",
+        "gudrun": "GUDRUN-WALKING"
+      },
+      "available_environmental_plates": [
         "WESTFJORDS-CLIFF"
       ]
     }

@@ -51,12 +51,24 @@
       "negative_prompt": "no subtitles, show horseshoe table shape, three-color stains on everyone, abundance bending tables, 1080p",
       "video_references": [],
       "selected_plates": [
-        "MAGNUS-CONFUSED",
-        "JON-PROPHET",
-        "GUDRUN-PRODUCING",
-        "SIGRID-MARKED",
-        "LILJA-MATHEMATICAL",
-        "SEA-EXTRACTED"
+        "MAGNUS-AUTHORITY",
+        "SIGRID-PURE",
+        "LILJA-PURE",
+        "JON-MILD",
+        "GUDRUN-ABUNDANT",
+        "BAÐSTOFA-DOMESTIC",
+        "WESTFJORDS-BEACH"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-AUTHORITY",
+        "sigrid": "SIGRID-PURE",
+        "lilja": "LILJA-PURE",
+        "jon": "JON-MILD",
+        "gudrun": "GUDRUN-ABUNDANT"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-DOMESTIC",
+        "WESTFJORDS-BEACH"
       ]
     }
   ],

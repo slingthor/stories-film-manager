@@ -1,69 +1,114 @@
 {
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "title" : "HOURS OF NOTHING COMPRESSED 8 SECONDS",
-    "duration_seconds" : 8,
-    "narrative_function" : "Empty fishing | Time passing | Camera frost 19.5% ...",
-    "sequence_type" : "main_story",
-    "id" : "30",
-    "stitch_from" : ""
-  },
-  "aspect_ratio" : "4:3",
-  "prompt_variants" : [
+  "selected_prompt_index": 0,
+  "prompt_variants": [
     {
-      "is_active" : false,
-      "variant_name" : "Pass 2 Time Riding Reflection Aging",
-      "subject" : "",
-      "style" : "Camera riding temporal contamination using impossible time-following perspective (that's where the camera is), movement traveling with time-sickness as it affects reflection aging acceleration. Focus follows temporal differential between body and reflection, showing aging contamination spreading through mirror-reality. Movement determined by temporal contamination flow rather than physical boat movement. DIALOGUE:",
-      "progressive_state" : "",
-      "variant_id" : "30_pass_2_time_riding_reflection_aging",
-      "selected_plates" : [
-        "MAGNUS-PREDATOR",
-        "JON-TEMPORAL",
-        "SEA-BATTLE"
+      "style": "Camera riding temporal contamination using impossible time-following perspective (that's where the camera is), movement traveling with time-sickness as it affects reflection aging acceleration. Focus follows temporal differential between body and reflection, showing aging contamination spreading through mirror-reality. Movement determined by temporal contamination flow rather than physical boat movement. DIALOGUE:",
+      "dialogue": "",
+      "negative_prompt": "",
+      "progressive_state": "",
+      "is_active": false,
+      "selected_plates": [
+        "MAGNUS-AGING",
+        "SIGRID-ORACLE",
+        "LILJA-COMMUNICATING",
+        "JON-CHANGING",
+        "GUDRUN-PRODUCING",
+        "SEA-EXTRACTED",
+        "WESTFJORDS-FJORD"
       ],
-      "action" : "Camera follows temporal contamination as it creates reflection aging acceleration—riding time-sickness as moving entity that affects mirror-reality independently of physical reality, temporal breakdown spreading through reflection-dimension causing aging differential. Each fishing attempt triggers reflection aging: mirror-self accumulating decades while physical body experiences normal fatigue, temporal contamination creating identity split where reflection shows true cost while body shows performance version. Camera chases temporal anomaly as it spreads: sun flickering backward creating time-hiccup, ravens disappearing\/reappearing through temporal glitch, wake flowing wrong direction as physics breakdown spreads from mathematical contamination to environmental systems. Temporal riding reveals time itself infected by counting impossibility: mathematical breakdown affecting temporal consistency, imperial arithmetic contaminating natural law through administrative temporal manipulation.",
-      "scene" : "PASS 2: SHOT 30 - TIME RIDING REFLECTION AGING Camera Following Temporal Contamination Through Mirror-Reality SHOT HEADER: Empty fjord serving as temporal laboratory where mathematical contamination affects time-flow differently for reflection versus physical reality, mirror-dimension experiencing accelerated aging while body-dimension maintains normal temporal progression, time-sickness spreading through environmental systems.",
-      "dialogue" : "",
-      "camera_position" : "",
-      "negative_prompt" : ""
+      "camera_position": "",
+      "action": "Camera follows temporal contamination as it creates reflection aging acceleration—riding time-sickness as moving entity that affects mirror-reality independently of physical reality, temporal breakdown spreading through reflection-dimension causing aging differential. Each fishing attempt triggers reflection aging: mirror-self accumulating decades while physical body experiences normal fatigue, temporal contamination creating identity split where reflection shows true cost while body shows performance version. Camera chases temporal anomaly as it spreads: sun flickering backward creating time-hiccup, ravens disappearing/reappearing through temporal glitch, wake flowing wrong direction as physics breakdown spreads from mathematical contamination to environmental systems. Temporal riding reveals time itself infected by counting impossibility: mathematical breakdown affecting temporal consistency, imperial arithmetic contaminating natural law through administrative temporal manipulation.",
+      "subject": "",
+      "variant_id": "30_pass_2_time_riding_reflection_aging",
+      "variant_name": "Pass 2 Time Riding Reflection Aging",
+      "scene": "PASS 2: SHOT 30 - TIME RIDING REFLECTION AGING Camera Following Temporal Contamination Through Mirror-Reality SHOT HEADER: Empty fjord serving as temporal laboratory where mathematical contamination affects time-flow differently for reflection versus physical reality, mirror-dimension experiencing accelerated aging while body-dimension maintains normal temporal progression, time-sickness spreading through environmental systems.",
+      "available_character_plates": {
+        "magnus": "MAGNUS-AGING",
+        "sigrid": "SIGRID-ORACLE",
+        "lilja": "LILJA-COMMUNICATING",
+        "jon": "JON-CHANGING",
+        "gudrun": "GUDRUN-PRODUCING"
+      },
+      "available_environmental_plates": [
+        "SEA-EXTRACTED",
+        "WESTFJORDS-FJORD"
+      ]
     },
     {
-      "style" : "Camera locked on bow position showing both Magnús's normal aging and reflection's accelerated aging simultaneously (that's where the camera is), static shot allowing temporal violations to accumulate through sustained observation. Natural light enhanced by temporal flux creating brief illumination changes during sun reversal. Focus maintains sharpness on bow nail while everything else fluctuates, single point of stability in temporal chaos. Time-lapse effect compressed into 8 seconds but with internal temporal inconsistencies. DIALOGUE:",
-      "progressive_state" : "",
-      "scene" : "SHOT 30: HOURS OF NOTHING - REFLECTION AGES FASTER From Generic Time-lapse (8\/10) to Temporal Horror Masterpiece (9\/10) SHOT HEADER: Empty fjord serving as mirror-space where temporal violations become visible through reflection comparison, crystalline water clarity allowing impossible visual access to aging discrepancy between body and reflection. Ravens overhead providing witness count that changes randomly, corvid mathematics breaking under strain of documenting impossible human mathematics. Water behaving wrong—too clear, too still, too responsive to temporal fluctuations affecting maritime physics through mathematical contamination.",
-      "camera_position" : "",
-      "negative_prompt" : "",
-      "is_active" : false,
-      "variant_id" : "30_hours_of_nothing_reflection_ages_faster",
-      "dialogue" : "",
-      "selected_plates" : [
-        "MAGNUS-PREDATOR",
-        "JON-TEMPORAL",
-        "SEA-BATTLE"
+      "variant_id": "30_hours_of_nothing_reflection_ages_faster",
+      "scene": "SHOT 30: HOURS OF NOTHING - REFLECTION AGES FASTER From Generic Time-lapse (8/10) to Temporal Horror Masterpiece (9/10) SHOT HEADER: Empty fjord serving as mirror-space where temporal violations become visible through reflection comparison, crystalline water clarity allowing impossible visual access to aging discrepancy between body and reflection. Ravens overhead providing witness count that changes randomly, corvid mathematics breaking under strain of documenting impossible human mathematics. Water behaving wrong—too clear, too still, too responsive to temporal fluctuations affecting maritime physics through mathematical contamination.",
+      "dialogue": "",
+      "is_active": false,
+      "action": "Repetitive casting creates temporal loop where same motion produces different aging rates—body performing fishing gesture seven times with normal wear accumulation, but reflection shows same gesture aging 5 years per cast, mirror-self becoming progressively ancient while actual Magnús remains merely tired. Sun flicker backward for 3 seconds creates temporal stutter—shadow positions jumping, light angle reversing briefly before resuming normal progression, daytime reality experiencing glitches under mathematical strain. Ravens disappearing/reappearing without warning—7 birds becoming 5, then 3, then 7 again through existence-glitch affecting witness creatures, corvid reality unstable from observing impossible counting. Boat wake flowing toward bow violates maritime physics, water treating vessel like temporal anomaly that shouldn't interact normally with liquid environment. Throughout sequence, single bow nail remains perfectly sharp focus while everything else changes—temporal anchor point maintaining clarity as reality flux around stable metal reference.",
+      "style": "Camera locked on bow position showing both Magnús's normal aging and reflection's accelerated aging simultaneously (that's where the camera is), static shot allowing temporal violations to accumulate through sustained observation. Natural light enhanced by temporal flux creating brief illumination changes during sun reversal. Focus maintains sharpness on bow nail while everything else fluctuates, single point of stability in temporal chaos. Time-lapse effect compressed into 8 seconds but with internal temporal inconsistencies. DIALOGUE:",
+      "variant_name": "Hours Of Nothing Reflection Ages Faster",
+      "subject": "",
+      "progressive_state": "",
+      "negative_prompt": "",
+      "selected_plates": [
+        "MAGNUS-AGING",
+        "SIGRID-ORACLE",
+        "LILJA-COMMUNICATING",
+        "JON-CHANGING",
+        "GUDRUN-PRODUCING",
+        "SEA-EXTRACTED",
+        "WESTFJORDS-FJORD"
       ],
-      "action" : "Repetitive casting creates temporal loop where same motion produces different aging rates—body performing fishing gesture seven times with normal wear accumulation, but reflection shows same gesture aging 5 years per cast, mirror-self becoming progressively ancient while actual Magnús remains merely tired. Sun flicker backward for 3 seconds creates temporal stutter—shadow positions jumping, light angle reversing briefly before resuming normal progression, daytime reality experiencing glitches under mathematical strain. Ravens disappearing\/reappearing without warning—7 birds becoming 5, then 3, then 7 again through existence-glitch affecting witness creatures, corvid reality unstable from observing impossible counting. Boat wake flowing toward bow violates maritime physics, water treating vessel like temporal anomaly that shouldn't interact normally with liquid environment. Throughout sequence, single bow nail remains perfectly sharp focus while everything else changes—temporal anchor point maintaining clarity as reality flux around stable metal reference.",
-      "variant_name" : "Hours Of Nothing Reflection Ages Faster",
-      "subject" : ""
+      "camera_position": "",
+      "available_character_plates": {
+        "magnus": "MAGNUS-AGING",
+        "sigrid": "SIGRID-ORACLE",
+        "lilja": "LILJA-COMMUNICATING",
+        "jon": "JON-CHANGING",
+        "gudrun": "GUDRUN-PRODUCING"
+      },
+      "available_environmental_plates": [
+        "SEA-EXTRACTED",
+        "WESTFJORDS-FJORD"
+      ]
     },
     {
-      "negative_prompt" : "no subtitles, show time passage through sun\/shadow, maintain empty clarity, documentary observation",
-      "progressive_state" : "",
-      "is_active" : false,
-      "style" : "Multiple positions compressed, showing futility and time passage, ending on taut line (that's where the camera is), documentary of desperate hope.",
-      "variant_id" : "30_story_primary",
-      "selected_plates" : [
-        "MAGNUS-PREDATOR",
-        "JON-TEMPORAL",
-        "SEA-BATTLE"
+      "subject": "[MAGNÃšS] fishing for hours compressed into 8 seconds - dropping line, waiting, pulling empty, moving position, repeat - the sun tracking across sky showing time passage while below him the crystalline water reveals nothing but trawl scars on bare rock, until finally, impossibly, the line goes taut.",
+      "action": "Time-lapse feeling in real-time: MagnÃºs drops weighted line, watches it descend through crystal water to bottom - visible entire way down, no fish interrupt its fall. Waits. Counts in Danish without thinking: \"Et... to... tre...\" up to \"hundrede\" (hundred). Nothing. Pulls up empty hook. Moves position 50 feet. Drops line again. Same visibility, same nothing. Sun moves 15 degrees. His beard ice thickens from 18mm to 25mm. Tries different depth. Empty. Different bait (remembering fish smell from tin). Empty. Position after position marked by sun movement - 2 hours compressed. Face aging more: lines deepening, eyes sinking. 0Hz hands struggle with line - no tremor feedback means can't feel tension. Then, on seventh attempt, as desperation peaks - line goes taut. Not snagged on bottom (can see it's clear). Something pulling. His face transforms: savage hope. Begins pulling up, hands shaking with excitement not tremor.",
+      "selected_plates": [
+        "MAGNUS-AGING",
+        "SIGRID-ORACLE",
+        "LILJA-COMMUNICATING",
+        "JON-CHANGING",
+        "GUDRUN-PRODUCING",
+        "SEA-EXTRACTED",
+        "WESTFJORDS-FJORD"
       ],
-      "variant_name" : "Primary - HOURS OF NOTHING COMPRESSED 8 SECONDS",
-      "camera_position" : "Multiple positions compressed, showing futility and time passage, ending on taut line",
-      "dialogue" : "(MagnÃºs, counting): \"Et... to... tre... hundrede...\" (Moving positions): \"Her Ã¾Ã¡... nei... her...\" (Line goes taut): \"LOKSINS!\" (FINALLY!)",
-      "subject" : "[MAGNÃšS] fishing for hours compressed into 8 seconds - dropping line, waiting, pulling empty, moving position, repeat - the sun tracking across sky showing time passage while below him the crystalline water reveals nothing but trawl scars on bare rock, until finally, impossibly, the line goes taut.",
-      "action" : "Time-lapse feeling in real-time: MagnÃºs drops weighted line, watches it descend through crystal water to bottom - visible entire way down, no fish interrupt its fall. Waits. Counts in Danish without thinking: \"Et... to... tre...\" up to \"hundrede\" (hundred). Nothing. Pulls up empty hook. Moves position 50 feet. Drops line again. Same visibility, same nothing. Sun moves 15 degrees. His beard ice thickens from 18mm to 25mm. Tries different depth. Empty. Different bait (remembering fish smell from tin). Empty. Position after position marked by sun movement - 2 hours compressed. Face aging more: lines deepening, eyes sinking. 0Hz hands struggle with line - no tremor feedback means can't feel tension. Then, on seventh attempt, as desperation peaks - line goes taut. Not snagged on bottom (can see it's clear). Something pulling. His face transforms: savage hope. Begins pulling up, hands shaking with excitement not tremor.",
-      "scene" : "Open fjord, sun moving from 7AM position to 9AM position in background. Trawler hasn't moved, yellow lights fixed on him. Water so clear each dropped line visible entire descent."
+      "variant_name": "Primary - HOURS OF NOTHING COMPRESSED 8 SECONDS",
+      "negative_prompt": "no subtitles, show time passage through sun/shadow, maintain empty clarity, documentary observation",
+      "is_active": false,
+      "style": "Multiple positions compressed, showing futility and time passage, ending on taut line (that's where the camera is), documentary of desperate hope.",
+      "dialogue": "(MagnÃºs, counting): \"Et... to... tre... hundrede...\" (Moving positions): \"Her Ã¾Ã¡... nei... her...\" (Line goes taut): \"LOKSINS!\" (FINALLY!)",
+      "progressive_state": "",
+      "scene": "Open fjord, sun moving from 7AM position to 9AM position in background. Trawler hasn't moved, yellow lights fixed on him. Water so clear each dropped line visible entire descent.",
+      "variant_id": "30_story_primary",
+      "camera_position": "Multiple positions compressed, showing futility and time passage, ending on taut line",
+      "available_character_plates": {
+        "magnus": "MAGNUS-AGING",
+        "sigrid": "SIGRID-ORACLE",
+        "lilja": "LILJA-COMMUNICATING",
+        "jon": "JON-CHANGING",
+        "gudrun": "GUDRUN-PRODUCING"
+      },
+      "available_environmental_plates": [
+        "SEA-EXTRACTED",
+        "WESTFJORDS-FJORD"
+      ]
     }
   ],
-  "progressive_state" : "Empty fishing | Time passing | Camera frost 19.5% | Futility accumulating | Watching: Trawler patient"
+  "aspect_ratio": "4:3",
+  "progressive_state": "Empty fishing | Time passing | Camera frost 19.5% | Futility accumulating | Watching: Trawler patient",
+  "shot_metadata": {
+    "narrative_function": "Empty fishing | Time passing | Camera frost 19.5% ...",
+    "sequence_type": "main_story",
+    "stitch_from": "",
+    "duration_seconds": 8,
+    "id": "30",
+    "title": "HOURS OF NOTHING COMPRESSED 8 SECONDS"
+  }
 }

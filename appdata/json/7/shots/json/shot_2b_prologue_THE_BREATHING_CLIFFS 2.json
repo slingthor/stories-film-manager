@@ -42,8 +42,24 @@
       "negative_prompt": "no subtitles, show massive cliff scale, birds covering every surface, golden light in holes, 1080p",
       "video_references": [],
       "selected_plates": [
-        "JON-TEMPORAL",
-        "SEA-BATTLE"
+        "MAGNUS-AUTHORITY",
+        "SIGRID-PURE",
+        "LILJA-PURE",
+        "JON-MILD",
+        "GUDRUN-ABUNDANT",
+        "SEA-DIVINE",
+        "WESTFJORDS-CLIFF"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-AUTHORITY",
+        "sigrid": "SIGRID-PURE",
+        "lilja": "LILJA-PURE",
+        "jon": "JON-MILD",
+        "gudrun": "GUDRUN-ABUNDANT"
+      },
+      "available_environmental_plates": [
+        "SEA-DIVINE",
+        "WESTFJORDS-CLIFF"
       ]
     }
   ],

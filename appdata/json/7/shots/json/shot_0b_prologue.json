@@ -66,8 +66,18 @@
       "negative_prompt": "no subtitles, show mouth movements matching male voice, three-color hand stain, frost spreading, 1080p",
       "video_references": [],
       "selected_plates": [
+        "MAGNUS-AUTHORITY",
         "SIGRID-PURE",
-        "SEA-ABUNDANT"
+        "SEA-DIVINE",
+        "WESTFJORDS-FJORD"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-AUTHORITY",
+        "sigrid": "SIGRID-PURE"
+      },
+      "available_environmental_plates": [
+        "SEA-DIVINE",
+        "WESTFJORDS-FJORD"
       ]
     }
   ],

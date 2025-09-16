@@ -42,10 +42,24 @@
       "negative_prompt": "no subtitles, show dual shadows clearly, rÃ©ttir patterns in floor, documentary observation",
       "video_references": [],
       "selected_plates": [
-        "LILJA-SENSING",
-        "JON-TEMPORAL",
-        "SIGRID-CORNERED",
-        "WESTFJORDS-CLIFF"
+        "MAGNUS-AGING",
+        "SIGRID-ORACLE",
+        "LILJA-COMMUNICATING",
+        "JON-CHANGING",
+        "GUDRUN-PRODUCING",
+        "SEA-EXTRACTED",
+        "BAÐSTOFA-CLEFT"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-AGING",
+        "sigrid": "SIGRID-ORACLE",
+        "lilja": "LILJA-COMMUNICATING",
+        "jon": "JON-CHANGING",
+        "gudrun": "GUDRUN-PRODUCING"
+      },
+      "available_environmental_plates": [
+        "SEA-EXTRACTED",
+        "BAÐSTOFA-CLEFT"
       ]
     }
   ],

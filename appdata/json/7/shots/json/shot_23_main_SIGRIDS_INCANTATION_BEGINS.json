@@ -42,10 +42,24 @@
       "negative_prompt": "no subtitles, show voice change gradually, blood patterns forming, documentary observation",
       "video_references": [],
       "selected_plates": [
-        "LILJA-SENSING",
-        "SIGRID-CORNERED",
-        "GUDRUN-CONDEMNED",
-        "STOFA-BODY"
+        "MAGNUS-RITUAL",
+        "SIGRID-SUMMONING",
+        "LILJA-HARMONIC",
+        "JON-TEMPORAL",
+        "GUDRUN-RITUAL",
+        "BAÐSTOFA-BODY",
+        "WESTFJORDS-WINTER"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-RITUAL",
+        "sigrid": "SIGRID-SUMMONING",
+        "lilja": "LILJA-HARMONIC",
+        "jon": "JON-TEMPORAL",
+        "gudrun": "GUDRUN-RITUAL"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-BODY",
+        "WESTFJORDS-WINTER"
       ]
     }
   ],

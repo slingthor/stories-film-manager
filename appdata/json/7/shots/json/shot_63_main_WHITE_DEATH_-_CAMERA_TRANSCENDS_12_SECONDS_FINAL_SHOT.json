@@ -41,8 +41,23 @@
       "negative_prompt": "maintain white luminosity, not darkness",
       "video_references": [],
       "selected_plates": [
-        "LILJA-SENSING",
-        "SIGRID-CORNERED",
+        "MAGNUS-RAM",
+        "SIGRID-CORVID",
+        "LILJA-LAMB",
+        "JON-LAMB",
+        "GUDRUN-ETERNAL",
+        "SEA-ETERNAL",
+        "WESTFJORDS-CLIFF"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-RAM",
+        "sigrid": "SIGRID-CORVID",
+        "lilja": "LILJA-LAMB",
+        "jon": "JON-LAMB",
+        "gudrun": "GUDRUN-ETERNAL"
+      },
+      "available_environmental_plates": [
+        "SEA-ETERNAL",
         "WESTFJORDS-CLIFF"
       ]
     }

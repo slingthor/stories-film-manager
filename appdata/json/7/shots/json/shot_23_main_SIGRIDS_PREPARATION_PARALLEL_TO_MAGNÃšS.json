@@ -1,57 +1,81 @@
 {
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3",
-  "shot_metadata" : {
-    "id" : "23",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "narrative_function" : "House 10\/min + 50bpm | Parallel desperation | Came...",
-    "title" : "SIGRIDS PREPARATION PARALLEL TO MAGNÃšS",
-    "stitch_from" : ""
+  "progressive_state": "House 10/min + 50bpm | Parallel desperation | Camera frost 14% | Women's action | Watching: House knows",
+  "aspect_ratio": "4:3",
+  "shot_metadata": {
+    "stitch_from": "",
+    "id": "23",
+    "duration_seconds": 8,
+    "sequence_type": "main_story",
+    "title": "SIGRIDS PREPARATION PARALLEL TO MAGNÃšS",
+    "narrative_function": "House 10/min + 50bpm | Parallel desperation | Came..."
   },
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "negative_prompt" : "",
-      "progressive_state" : "",
-      "is_active" : false,
-      "style" : "Camera positioned at geometric center between four ritual corners (that's where the camera is), wide shot showing entire family coordination simultaneously. Static shot emphasizing geometric precision of cardinal positioning. Natural lamplight creating four-way illumination connecting corners through center point. Focus maintains equal sharpness on all family members, no hierarchy of attention during coordinated ritual. DIALOGUE:",
-      "variant_id" : "23_24_four_corners_landvaettir_ritual_replacement",
-      "selected_plates" : [
-        "MAGNUS-PREDATOR",
+      "subject": "",
+      "action": "Family begins ritual simultaneously, each corner's offering requiring specific traditional gesture contaminated by imperial materials. Magnús raises blood-bowl but coal dust makes liquid too thick, requiring both hands instead of traditional single-hand offering. Guðrún wraps wool around button but brass grows warm from handling, singing her fingers and making wool smoke slightly. Sigrid opens breath-bag but industrial vapor escapes first, choking her before pure breath can be offered. Children carve names but Danish steel tools create wrong rune-shapes, traditional letters becoming foreign marks. Each offering struggles against contamination while family maintains ritual precision, traditional knowledge fighting imperial materials. House responds to coordinated ritual by breathing faster—15 to 18/min anxiety—Bergrisi sensing contaminated offerings approaching his corners. Four landvættir respond to summoning but each emergence shows industrial contamination damage—gods poisoned by imperial materials used in offerings. Raven-shadow (Gammur) moves wrong, wings stuttering like mechanical failure. House-voice (Bergrisi) speaks Danish words mixed with Old Norse, linguistic colonization affecting divine speech. Trawler-presence (Jörmungandr) approaches but movement shows serpent-pain, divine swimming corrupted by industrial wounds. Ice-breathing (Griðungur) produces steam mixed with coal smoke, pure glacier-breath contaminated by trawler pollution. Fifth spirit (tilberi) emerges unexpectedly at center where four contaminated offerings converge, creating mathematical impossibility—four corners producing five responses, traditional ritual mathematics broken by imperial contamination. Family realizes ritual succeeded but wrongly, summoning contaminated gods instead of pure guardians, protection arriving as additional threat.",
+      "selected_plates": [
+        "MAGNUS-RITUAL",
+        "SIGRID-SUMMONING",
+        "LILJA-HARMONIC",
         "JON-TEMPORAL",
-        "GUDRUN-CONDEMNED",
-        "SIGRID-CORNERED",
-        "LILJA-SENSING",
-        "STOFA-BODY"
+        "GUDRUN-RITUAL",
+        "BAÐSTOFA-BODY",
+        "WESTFJORDS-WINTER"
       ],
-      "variant_name" : "24 Four Corners Landvaettir Ritual Replacement",
-      "camera_position" : "",
-      "dialogue" : "",
-      "subject" : "",
-      "action" : "Family begins ritual simultaneously, each corner's offering requiring specific traditional gesture contaminated by imperial materials. Magnús raises blood-bowl but coal dust makes liquid too thick, requiring both hands instead of traditional single-hand offering. Guðrún wraps wool around button but brass grows warm from handling, singing her fingers and making wool smoke slightly. Sigrid opens breath-bag but industrial vapor escapes first, choking her before pure breath can be offered. Children carve names but Danish steel tools create wrong rune-shapes, traditional letters becoming foreign marks. Each offering struggles against contamination while family maintains ritual precision, traditional knowledge fighting imperial materials. House responds to coordinated ritual by breathing faster—15 to 18\/min anxiety—Bergrisi sensing contaminated offerings approaching his corners. Four landvættir respond to summoning but each emergence shows industrial contamination damage—gods poisoned by imperial materials used in offerings. Raven-shadow (Gammur) moves wrong, wings stuttering like mechanical failure. House-voice (Bergrisi) speaks Danish words mixed with Old Norse, linguistic colonization affecting divine speech. Trawler-presence (Jörmungandr) approaches but movement shows serpent-pain, divine swimming corrupted by industrial wounds. Ice-breathing (Griðungur) produces steam mixed with coal smoke, pure glacier-breath contaminated by trawler pollution. Fifth spirit (tilberi) emerges unexpectedly at center where four contaminated offerings converge, creating mathematical impossibility—four corners producing five responses, traditional ritual mathematics broken by imperial contamination. Family realizes ritual succeeded but wrongly, summoning contaminated gods instead of pure guardians, protection arriving as additional threat.",
-      "scene" : "SHOTS 23-24: THE FOUR CORNERS LANDVÆTTIR RITUAL Revolutionary Replacement for Solo Tilberi Creation OVERVIEW: Interior baðstofa with family positioned at cardinal directions, oil lamp at center creating cross-shaped illumination pattern connecting all four ritual positions. Each corner shows 37°C warm spot (Bergrisi's organs) glowing beneath offerings, giant's consciousness responding to landvættir summoning. Traditional materials mixed with industrial contamination visible in harsh lamplight—organic elements fighting foreign additives, ritual purity compromised by available materials. Baðstofa interior with four corners responding to ritual but all responses showing contamination damage—shadows wrong, voices corrupted, movements pained, breathing polluted. Center floor showing ancient réttir pattern now glowing with fifth presence that shouldn't exist, mathematical impossibility manifesting as unintended ritual consequence. House breathing at 20\/min panic as contaminated gods respond to corrupted summoning."
+      "variant_name": "24 Four Corners Landvaettir Ritual Replacement",
+      "negative_prompt": "",
+      "is_active": false,
+      "style": "Camera positioned at geometric center between four ritual corners (that's where the camera is), wide shot showing entire family coordination simultaneously. Static shot emphasizing geometric precision of cardinal positioning. Natural lamplight creating four-way illumination connecting corners through center point. Focus maintains equal sharpness on all family members, no hierarchy of attention during coordinated ritual. DIALOGUE:",
+      "dialogue": "",
+      "progressive_state": "",
+      "scene": "SHOTS 23-24: THE FOUR CORNERS LANDVÆTTIR RITUAL Revolutionary Replacement for Solo Tilberi Creation OVERVIEW: Interior baðstofa with family positioned at cardinal directions, oil lamp at center creating cross-shaped illumination pattern connecting all four ritual positions. Each corner shows 37°C warm spot (Bergrisi's organs) glowing beneath offerings, giant's consciousness responding to landvættir summoning. Traditional materials mixed with industrial contamination visible in harsh lamplight—organic elements fighting foreign additives, ritual purity compromised by available materials. Baðstofa interior with four corners responding to ritual but all responses showing contamination damage—shadows wrong, voices corrupted, movements pained, breathing polluted. Center floor showing ancient réttir pattern now glowing with fifth presence that shouldn't exist, mathematical impossibility manifesting as unintended ritual consequence. House breathing at 20/min panic as contaminated gods respond to corrupted summoning.",
+      "variant_id": "23_24_four_corners_landvaettir_ritual_replacement",
+      "camera_position": "",
+      "available_character_plates": {
+        "magnus": "MAGNUS-RITUAL",
+        "sigrid": "SIGRID-SUMMONING",
+        "lilja": "LILJA-HARMONIC",
+        "jon": "JON-TEMPORAL",
+        "gudrun": "GUDRUN-RITUAL"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-BODY",
+        "WESTFJORDS-WINTER"
+      ]
     },
     {
-      "camera_position" : "Close on materials and arrangement, camera at Sigrid's shoulder height",
-      "is_active" : false,
-      "selected_plates" : [
-        "MAGNUS-PREDATOR",
+      "action": "Sigrid's hand protective on belly - 3-4 months, needs nourishment. Moves to grandmother's corner, GuÃ°rÃºn watching but not stopping her. Opens old box: ritual materials mixed with industrial contamination. Takes sheep rib (from breakfast, still has meat threads). Unravels wool from MagnÃºs's spare sweater (grey with coal dust). Finds rope - but it's from boat supplies, hemp mixed with tar, industrial. Brass button green with verdigris, not bone. Arranges them on floor in pattern from book - but pattern wrong because materials wrong. GuÃ°rÃºn watches, knows what's coming, but stays silent. Women don't speak. Sigrid traces pattern in dust, accidentally makes six points instead of five. Through window, trawler beam illuminates materials - under industrial light, contamination visible. Black fibers through rope, green oxidation on brass, coal dust in wool. Her breathing 15/min (never changes), but baby's heartbeat audible in silence - 140bpm, twice mother's rate. House breathing slows to 8/min, preparing.",
+      "variant_id": "23_story_primary",
+      "subject": "Inside the house, [SIGRID] moving to her grandmother's corner where [GUÃRÃšN] sits passive, watching her pregnant daughter gather the tilberi materials - sheep rib from morning meal, grey wool, but also industrial rope from the boat supplies, brass button from trawler contamination, knowing it's wrong but driven by the need to feed the life inside her.",
+      "is_active": false,
+      "dialogue": "(Sigrid): Silent, lips moving with memorized words (GuÃ°rÃºn): Watching, mouth opens to warn, closes (Baby): Heartbeat audible at 140bpm",
+      "negative_prompt": "no subtitles, show contamination clearly, maintain silence, documentary observation",
+      "scene": "Interior, 6:32 AM, trawler light every 20 seconds. Temperature -15Â°C from door having been open. Grandmother's corner has old books, forbidden knowledge, Christian crosses trying to hide pagan symbols. Materials arranged in floor dust, pattern emerging. Through window, MagnÃºs tiny figure dragging boat through spirals.",
+      "selected_plates": [
+        "MAGNUS-RITUAL",
+        "SIGRID-SUMMONING",
+        "LILJA-HARMONIC",
         "JON-TEMPORAL",
-        "GUDRUN-CONDEMNED",
-        "SIGRID-CORNERED",
-        "LILJA-SENSING",
-        "STOFA-BODY"
+        "GUDRUN-RITUAL",
+        "BAÐSTOFA-BODY",
+        "WESTFJORDS-WINTER"
       ],
-      "variant_id" : "23_story_primary",
-      "action" : "Sigrid's hand protective on belly - 3-4 months, needs nourishment. Moves to grandmother's corner, GuÃ°rÃºn watching but not stopping her. Opens old box: ritual materials mixed with industrial contamination. Takes sheep rib (from breakfast, still has meat threads). Unravels wool from MagnÃºs's spare sweater (grey with coal dust). Finds rope - but it's from boat supplies, hemp mixed with tar, industrial. Brass button green with verdigris, not bone. Arranges them on floor in pattern from book - but pattern wrong because materials wrong. GuÃ°rÃºn watches, knows what's coming, but stays silent. Women don't speak. Sigrid traces pattern in dust, accidentally makes six points instead of five. Through window, trawler beam illuminates materials - under industrial light, contamination visible. Black fibers through rope, green oxidation on brass, coal dust in wool. Her breathing 15\/min (never changes), but baby's heartbeat audible in silence - 140bpm, twice mother's rate. House breathing slows to 8\/min, preparing.",
-      "scene" : "Interior, 6:32 AM, trawler light every 20 seconds. Temperature -15Â°C from door having been open. Grandmother's corner has old books, forbidden knowledge, Christian crosses trying to hide pagan symbols. Materials arranged in floor dust, pattern emerging. Through window, MagnÃºs tiny figure dragging boat through spirals.",
-      "subject" : "Inside the house, [SIGRID] moving to her grandmother's corner where [GUÃRÃšN] sits passive, watching her pregnant daughter gather the tilberi materials - sheep rib from morning meal, grey wool, but also industrial rope from the boat supplies, brass button from trawler contamination, knowing it's wrong but driven by the need to feed the life inside her.",
-      "dialogue" : "(Sigrid): Silent, lips moving with memorized words (GuÃ°rÃºn): Watching, mouth opens to warn, closes (Baby): Heartbeat audible at 140bpm",
-      "progressive_state" : "",
-      "negative_prompt" : "no subtitles, show contamination clearly, maintain silence, documentary observation",
-      "variant_name" : "Primary - SIGRIDS PREPARATION PARALLEL TO MAGNÃšS",
-      "style" : "Close on materials and arrangement, camera at Sigrid's shoulder height (that's where the camera is), documentary of desperate preparation."
+      "progressive_state": "",
+      "camera_position": "Close on materials and arrangement, camera at Sigrid's shoulder height",
+      "variant_name": "Primary - SIGRIDS PREPARATION PARALLEL TO MAGNÃšS",
+      "style": "Close on materials and arrangement, camera at Sigrid's shoulder height (that's where the camera is), documentary of desperate preparation.",
+      "available_character_plates": {
+        "magnus": "MAGNUS-RITUAL",
+        "sigrid": "SIGRID-SUMMONING",
+        "lilja": "LILJA-HARMONIC",
+        "jon": "JON-TEMPORAL",
+        "gudrun": "GUDRUN-RITUAL"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-BODY",
+        "WESTFJORDS-WINTER"
+      ]
     }
   ],
-  "progressive_state" : "House 10\/min + 50bpm | Parallel desperation | Camera frost 14% | Women's action | Watching: House knows"
+  "selected_prompt_index": 0
 }

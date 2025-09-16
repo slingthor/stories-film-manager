@@ -20,7 +20,24 @@
       "dialogue": "",
       "negative_prompt": "",
       "selected_plates": [
-        "STOFA-BODY"
+        "MAGNUS-CONFUSED",
+        "SIGRID-MARKED",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-PRODUCING",
+        "BAÐSTOFA-STIRRING",
+        "WESTFJORDS-WINTER"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-CONFUSED",
+        "sigrid": "SIGRID-MARKED",
+        "lilja": "LILJA-MATHEMATICAL",
+        "jon": "JON-PROPHET",
+        "gudrun": "GUDRUN-PRODUCING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-STIRRING",
+        "WESTFJORDS-WINTER"
       ]
     }
   ],

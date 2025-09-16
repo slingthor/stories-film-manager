@@ -20,8 +20,18 @@
       "dialogue": "",
       "negative_prompt": "",
       "selected_plates": [
-        "JON-TEMPORAL",
-        "SEA-BATTLE"
+        "MAGNUS-AUTHORITY",
+        "SIGRID-PURE",
+        "SEA-DIVINE",
+        "WESTFJORDS-FJORD"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-AUTHORITY",
+        "sigrid": "SIGRID-PURE"
+      },
+      "available_environmental_plates": [
+        "SEA-DIVINE",
+        "WESTFJORDS-FJORD"
       ]
     }
   ],

@@ -44,9 +44,22 @@
       "negative_prompt": "no subtitles, show island-wide awakening, tremor stopping completely, documentary observation",
       "video_references": [],
       "selected_plates": [
-        "JON-TEMPORAL",
-        "SIGRID-CORNERED",
-        "WESTFJORDS-CLIFF"
+        "MAGNUS-CONFUSED",
+        "SIGRID-CALCULATING",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-PRODUCING",
+        "BAÐSTOFA-BODY"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-CONFUSED",
+        "sigrid": "SIGRID-CALCULATING",
+        "lilja": "LILJA-MATHEMATICAL",
+        "jon": "JON-PROPHET",
+        "gudrun": "GUDRUN-PRODUCING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-BODY"
       ]
     }
   ],

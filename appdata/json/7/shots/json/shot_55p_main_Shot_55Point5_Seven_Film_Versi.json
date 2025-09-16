@@ -1,31 +1,39 @@
 {
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "title" : "Shot 55Point5 Seven Film Versions Consciousness Fr",
-    "duration_seconds" : 3,
-    "narrative_function" : "enhancement",
-    "sequence_type" : "main",
-    "id" : "55.5b",
-    "stitch_from" : ""
-  },
-  "aspect_ratio" : "4:3",
-  "prompt_variants" : [
+  "selected_prompt_index": 0,
+  "prompt_variants": [
     {
-      "negative_prompt" : "",
-      "progressive_state" : "",
-      "is_active" : false,
-      "style" : "",
-      "variant_id" : "55p_shot_55point5_seven_film_versions_consciousness_fr",
-      "selected_plates" : [
-        "WESTFJORDS-CLIFF"
+      "subject": "",
+      "action": "",
+      "selected_plates": [
+        "BAÐSTOFA-BODY",
+        "WESTFJORDS-WINTER",
+        "SEA-EXTRACTED"
       ],
-      "variant_name" : "Shot 55Point5 Seven Film Versions Consciousness Fr",
-      "camera_position" : "",
-      "dialogue" : "",
-      "subject" : "",
-      "action" : "",
-      "scene" : "SHOT 55.5: SEVEN FILM VERSIONS - CONSCIOUSNESS FRAGMENTS Revolutionary Meta-Cinema Where Audience Experiences All Possible Interpretations OVERVIEW:"
+      "variant_name": "Shot 55Point5 Seven Film Versions Consciousness Fr",
+      "negative_prompt": "",
+      "is_active": false,
+      "style": "",
+      "dialogue": "",
+      "progressive_state": "",
+      "scene": "SHOT 55.5: SEVEN FILM VERSIONS - CONSCIOUSNESS FRAGMENTS Revolutionary Meta-Cinema Where Audience Experiences All Possible Interpretations OVERVIEW:",
+      "variant_id": "55p_shot_55point5_seven_film_versions_consciousness_fr",
+      "camera_position": "",
+      "available_character_plates": {},
+      "available_environmental_plates": [
+        "BAÐSTOFA-BODY",
+        "WESTFJORDS-WINTER",
+        "SEA-EXTRACTED"
+      ]
     }
   ],
-  "progressive_state" : ""
+  "aspect_ratio": "4:3",
+  "progressive_state": "",
+  "shot_metadata": {
+    "narrative_function": "enhancement",
+    "sequence_type": "main",
+    "stitch_from": "",
+    "duration_seconds": 3,
+    "id": "55.5b",
+    "title": "Shot 55Point5 Seven Film Versions Consciousness Fr"
+  }
 }

@@ -49,8 +49,24 @@
       "negative_prompt": "no subtitles, show Sigrid lit while others fade, frost spreading, three stains glowing, 1080p",
       "video_references": [],
       "selected_plates": [
+        "MAGNUS-CONFUSED",
         "SIGRID-MARKED",
-        "WESTFJORDS-WINTER"
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-PRODUCING",
+        "WESTFJORDS-WINTER",
+        "HOUSE-TRADITIONAL"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-CONFUSED",
+        "sigrid": "SIGRID-MARKED",
+        "lilja": "LILJA-MATHEMATICAL",
+        "jon": "JON-PROPHET",
+        "gudrun": "GUDRUN-PRODUCING"
+      },
+      "available_environmental_plates": [
+        "WESTFJORDS-WINTER",
+        "HOUSE-TRADITIONAL"
       ]
     }
   ],

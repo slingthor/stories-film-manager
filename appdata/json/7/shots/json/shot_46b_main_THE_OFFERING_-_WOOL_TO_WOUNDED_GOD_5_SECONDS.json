@@ -42,8 +42,24 @@
       "negative_prompt": "",
       "video_references": [],
       "selected_plates": [
-        "JON-TEMPORAL",
-        "WESTFJORDS-CLIFF"
+        "MAGNUS-DEFEATED",
+        "SIGRID-ORACLE",
+        "LILJA-EVOLVING",
+        "JON-ENERGETIC",
+        "GUDRUN-DIVINE",
+        "SEA-CONTAMINATED",
+        "WESTFJORDS-FJORD"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-DEFEATED",
+        "sigrid": "SIGRID-ORACLE",
+        "lilja": "LILJA-EVOLVING",
+        "jon": "JON-ENERGETIC",
+        "gudrun": "GUDRUN-DIVINE"
+      },
+      "available_environmental_plates": [
+        "SEA-CONTAMINATED",
+        "WESTFJORDS-FJORD"
       ]
     }
   ],

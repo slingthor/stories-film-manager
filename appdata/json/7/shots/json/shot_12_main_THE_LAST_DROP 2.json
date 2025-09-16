@@ -44,8 +44,22 @@
       "negative_prompt": "no subtitles, no text overlays, show fishing gear ready, cross patterns clear, documentary observation",
       "video_references": [],
       "selected_plates": [
-        "SIGRID-CORNERED",
-        "STOFA-BODY"
+        "MAGNUS-CONFUSED",
+        "SIGRID-CALCULATING",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-COUNTING",
+        "BAÐSTOFA-ORGANIC"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-CONFUSED",
+        "sigrid": "SIGRID-CALCULATING",
+        "lilja": "LILJA-MATHEMATICAL",
+        "jon": "JON-PROPHET",
+        "gudrun": "GUDRUN-COUNTING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-ORGANIC"
       ]
     }
   ],

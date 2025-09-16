@@ -1,34 +1,71 @@
 {
-  "progressive_state" : "Women gathering | Berries excessive | Camera frost 0% | Purple staining | Watching: Earth bleeds sweet",
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "title" : "PURPLE HILLS BLEEDING JUICE",
-    "stitch_from" : "",
-    "narrative_function" : "Women gathering | Berries excessive | Camera frost...",
-    "id" : "4a",
-    "duration_seconds" : 8,
-    "sequence_type" : "prologue"
-  },
-  "prompt_variants" : [
+  "selected_prompt_index": 0,
+  "prompt_variants": [
     {
-      "negative_prompt" : "no subtitles, show purple juice streams, stained hands and mouths, excessive abundance, 1080p",
-      "scene" : "Hillside inland from coast, morning sun warming bushes. Every plant overloaded with berries. Purple streams forming natural channels downhill.",
-      "selected_character_plate_id" : "SIGRID-MASTER",
-      "variant_id" : "4a_story_primary",
-      "variant_name" : "Primary - PURPLE HILLS BLEEDING JUICE",
-      "style" : "Wide shot showing all women spread across hillside (that's where the camera is), purple staining everything.",
-      "dialogue" : "None",
-      "progressive_state" : "",
-      "subject" : "Fifteen women climbing a hillside covered in crowberry bushes, [GUÃRÃšN] leading with [SIGRID] beside her, purple-black berries so abundant that juice runs down the hill in streams without anyone touching them, women's feet already stained purple.",
-      "action" : "Women spread across hillside. Every bush heavy with berries, branches bent to ground. GuÃ°rÃºn reaches first bush. Doesn't need to pick - slight touch causes berries to fall into basket like rain. Purple-black juice immediately stains her fingers. Sigrid beside her, basket filling in seconds. Other women laughing, but nervous laughter. Too many berries. Some bushes drip juice without being touched, purple streams running downhill. Women's white apron fronts turn purple. Hands stained to elbows. One young woman opens mouth, lets berries fall directly in. Purple juice runs down her chin. Teeth instantly black. Children among them drinking juice from cupped hands. Everyone's mouth purple-black. In distance, whale visible - dark shape drifting toward shore, pulled by tide. The purple juice streams running downhill parallel to blood in water.",
-      "camera_position" : "Wide shot showing all women spread across hillside",
-      "selected_plates" : [
-        "LILJA-SENSING",
+      "subject": "Fifteen women climbing a hillside covered in crowberry bushes, [GUÃRÃšN] leading with [SIGRID] beside her, purple-black berries so abundant that juice runs down the hill in streams without anyone touching them, women's feet already stained purple.",
+      "selected_plates": [
+        "MAGNUS-AUTHORITY",
+        "SIGRID-PURE",
+        "LILJA-PURE",
+        "JON-MILD",
+        "GUDRUN-ABUNDANT",
         "WESTFJORDS-CLIFF",
-        "SIGRID-MASTER"
+        "WESTFJORDS-SUMMER"
       ],
-      "is_active" : false
+      "dialogue": "None",
+      "progressive_state": "",
+      "scene": "Hillside inland from coast, morning sun warming bushes. Every plant overloaded with berries. Purple streams forming natural channels downhill.",
+      "is_active": false,
+      "camera_position": "Wide shot showing all women spread across hillside",
+      "style": "Wide shot showing all women spread across hillside (that's where the camera is), purple staining everything.",
+      "negative_prompt": "no subtitles, show purple juice streams, stained hands and mouths, excessive abundance, 1080p",
+      "active_video_index": 0,
+      "action": "Women spread across hillside. Every bush heavy with berries, branches bent to ground. GuÃ°rÃºn reaches first bush. Doesn't need to pick - slight touch causes berries to fall into basket like rain. Purple-black juice immediately stains her fingers. Sigrid beside her, basket filling in seconds. Other women laughing, but nervous laughter. Too many berries. Some bushes drip juice without being touched, purple streams running downhill. Women's white apron fronts turn purple. Hands stained to elbows. One young woman opens mouth, lets berries fall directly in. Purple juice runs down her chin. Teeth instantly black. Children among them drinking juice from cupped hands. Everyone's mouth purple-black. In distance, whale visible - dark shape drifting toward shore, pulled by tide. The purple juice streams running downhill parallel to blood in water.",
+      "variant_name": "Primary - PURPLE HILLS BLEEDING JUICE",
+      "variant_id": "4a_story_primary",
+      "videos": [
+        {
+          "filepath": "/Users/ingthor/Downloads/Subject_fifteen_women_202509142252_wiu4f.mp4",
+          "duration": 8,
+          "filename": "Subject_fifteen_women_202509142252_wiu4f.mp4"
+        },
+        {
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Subject_fifteen_women_202509142252_8dzw1.mp4",
+          "filename": "Subject_fifteen_women_202509142252_8dzw1.mp4"
+        },
+        {
+          "filename": "Subject_fifteen_women_202509142252_tf6c4.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_fifteen_women_202509142252_tf6c4.mp4",
+          "duration": 8
+        },
+        {
+          "filename": "Subject_fifteen_women_202509142303_l2sxd.mp4",
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Subject_fifteen_women_202509142303_l2sxd.mp4"
+        }
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-AUTHORITY",
+        "sigrid": "SIGRID-PURE",
+        "lilja": "LILJA-PURE",
+        "jon": "JON-MILD",
+        "gudrun": "GUDRUN-ABUNDANT"
+      },
+      "available_environmental_plates": [
+        "WESTFJORDS-CLIFF",
+        "WESTFJORDS-SUMMER"
+      ]
     }
   ],
-  "aspect_ratio" : "1.85:1"
+  "aspect_ratio": "1.85:1",
+  "progressive_state": "Women gathering | Berries excessive | Camera frost 0% | Purple staining | Watching: Earth bleeds sweet",
+  "shot_metadata": {
+    "narrative_function": "Women gathering | Berries excessive | Camera frost...",
+    "sequence_type": "prologue",
+    "stitch_from": "",
+    "duration_seconds": 8,
+    "id": "4a",
+    "title": "PURPLE HILLS BLEEDING JUICE"
+  }
 }

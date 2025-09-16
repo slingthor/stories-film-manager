@@ -1723,7 +1723,10 @@ class PromptVariant: ObservableObject, Identifiable {
         
         // ASPECT section
         promptText += "ASPECT:\n\(shot.aspectRatio)\n\n"
-        
+
+        // META SETTING - Always include at the end
+        promptText += "Meta setting: Iceland, Westfjords 1888\n\n"
+
         // Technical information at the end
         promptText += """
         --- TECHNICAL INFO ---
@@ -1743,8 +1746,7 @@ class PromptVariant: ObservableObject, Identifiable {
     func generateCleanPrompt(for shot: FilmShot, plateManager: PlateManager? = nil) -> String {
         var promptText = ""
 
-        // META SETTING - Always include at the beginning
-        promptText += "Meta setting: Iceland, Westfjords 1888\n\n"
+        // Removed meta setting from beginning - now at end
 
         // SUBJECT section
         promptText += "SUBJECT:\n"
@@ -1810,7 +1812,10 @@ class PromptVariant: ObservableObject, Identifiable {
         
         // ACTION section
         promptText += "ACTION:\n\(correctCharacterEncoding(action))\n\n"
-        
+
+        // SCENE section
+        promptText += "SCENE:\n\(correctCharacterEncoding(scene))\n\n"
+
         // STYLE section
         promptText += "STYLE:\n"
         var styleContent = correctCharacterEncoding(style)
@@ -1830,8 +1835,11 @@ class PromptVariant: ObservableObject, Identifiable {
         }
         
         // ASPECT section
-        promptText += "ASPECT:\n\(shot.aspectRatio)"
-        
+        promptText += "ASPECT:\n\(shot.aspectRatio)\n\n"
+
+        // META SETTING - Always include at the end
+        promptText += "Meta setting: Iceland, Westfjords 1888"
+
         return promptText
     }
     

@@ -41,7 +41,23 @@
       "negative_prompt": "show teeth clearly, maintain horror without gore",
       "video_references": [],
       "selected_plates": [
-        "LILJA-SENSING",
+        "MAGNUS-RECOGNIZING",
+        "SIGRID-TRANSITIONAL",
+        "LILJA-FINAL",
+        "JON-CHANGING",
+        "GUDRUN-SPEAKING",
+        "BAÐSTOFA-CLIFF",
+        "WESTFJORDS-CLIFF"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-RECOGNIZING",
+        "sigrid": "SIGRID-TRANSITIONAL",
+        "lilja": "LILJA-FINAL",
+        "jon": "JON-CHANGING",
+        "gudrun": "GUDRUN-SPEAKING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ]
     }

@@ -31,7 +31,24 @@
       "negative_prompt": "no subtitles, no movement, show buried house, single window, hard cut to black, 1080p",
       "video_references": [],
       "selected_plates": [
-        "WESTFJORDS-CLIFF"
+        "MAGNUS-RITUAL",
+        "SIGRID-SUMMONING",
+        "LILJA-HARMONIC",
+        "JON-TEMPORAL",
+        "GUDRUN-RITUAL",
+        "BAÐSTOFA-BODY",
+        "WESTFJORDS-WINTER"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-RITUAL",
+        "sigrid": "SIGRID-SUMMONING",
+        "lilja": "LILJA-HARMONIC",
+        "jon": "JON-TEMPORAL",
+        "gudrun": "GUDRUN-RITUAL"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-BODY",
+        "WESTFJORDS-WINTER"
       ]
     }
   ],

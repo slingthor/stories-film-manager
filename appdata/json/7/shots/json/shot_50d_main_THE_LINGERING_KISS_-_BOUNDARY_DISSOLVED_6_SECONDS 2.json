@@ -42,10 +42,23 @@
       "negative_prompt": "maintain discomfort without exploitation, show boundary violation",
       "video_references": [],
       "selected_plates": [
-        "MAGNUS-PREDATOR",
-        "LILJA-SENSING",
+        "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
-        "GUDRUN-CONDEMNED",
+        "LILJA-EVOLVING",
+        "JON-ENERGETIC",
+        "GUDRUN-RETURNING",
+        "BAÐSTOFA-CRYSTALLIZING",
+        "WESTFJORDS-CLIFF"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-POSSESSING",
+        "sigrid": "SIGRID-CORNERED",
+        "lilja": "LILJA-EVOLVING",
+        "jon": "JON-ENERGETIC",
+        "gudrun": "GUDRUN-RETURNING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-CRYSTALLIZING",
         "WESTFJORDS-CLIFF"
       ]
     }

@@ -41,8 +41,23 @@
       "negative_prompt": "epic scale, cosmic significance, freedom visible",
       "video_references": [],
       "selected_plates": [
-        "LILJA-SENSING",
-        "SIGRID-CORNERED",
+        "MAGNUS-BREAKING",
+        "SIGRID-DUAL",
+        "LILJA-LAMB",
+        "JON-LAMB",
+        "GUDRUN-EWE",
+        "BAÐSTOFA-CLIFF",
+        "WESTFJORDS-CLIFF"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-BREAKING",
+        "sigrid": "SIGRID-DUAL",
+        "lilja": "LILJA-LAMB",
+        "jon": "JON-LAMB",
+        "gudrun": "GUDRUN-EWE"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ]
     }

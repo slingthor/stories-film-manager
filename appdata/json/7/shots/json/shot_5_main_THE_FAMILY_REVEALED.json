@@ -31,10 +31,24 @@
       "negative_prompt": "no subtitles, no text overlays, no modern elements, no electric lighting, maintain 1888 accuracy, documentary realism",
       "video_references": [],
       "selected_plates": [
-        "LILJA-SENSING",
-        "JON-TEMPORAL",
-        "SIGRID-CORNERED",
-        "STOFA-BODY"
+        "MAGNUS-CONFUSED",
+        "SIGRID-MARKED",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-PRODUCING",
+        "BAÐSTOFA-STIRRING",
+        "WESTFJORDS-WINTER"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-CONFUSED",
+        "sigrid": "SIGRID-MARKED",
+        "lilja": "LILJA-MATHEMATICAL",
+        "jon": "JON-PROPHET",
+        "gudrun": "GUDRUN-PRODUCING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-STIRRING",
+        "WESTFJORDS-WINTER"
       ]
     }
   ],

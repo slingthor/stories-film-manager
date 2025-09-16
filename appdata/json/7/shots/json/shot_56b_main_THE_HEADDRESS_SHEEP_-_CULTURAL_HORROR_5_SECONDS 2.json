@@ -41,7 +41,22 @@
       "negative_prompt": "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
       "video_references": [],
       "selected_plates": [
-        "WESTFJORDS-CLIFF"
+        "MAGNUS-RECOGNIZING",
+        "SIGRID-TRANSITIONAL",
+        "LILJA-FINAL",
+        "JON-CHANGING",
+        "GUDRUN-SPEAKING",
+        "BAÐSTOFA-CLIFF"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-RECOGNIZING",
+        "sigrid": "SIGRID-TRANSITIONAL",
+        "lilja": "LILJA-FINAL",
+        "jon": "JON-CHANGING",
+        "gudrun": "GUDRUN-SPEAKING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-CLIFF"
       ]
     }
   ],

@@ -41,8 +41,24 @@
       "negative_prompt": "no subtitles, no movement during 12-second hold, show reflection count wrong, eye reflection clear",
       "video_references": [],
       "selected_plates": [
-        "SIGRID-CORNERED",
-        "WESTFJORDS-CLIFF"
+        "MAGNUS-CONFUSED",
+        "SIGRID-CALCULATING",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-COUNTING",
+        "BAÐSTOFA-ORGANIC",
+        "WESTFJORDS-WINTER"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-CONFUSED",
+        "sigrid": "SIGRID-CALCULATING",
+        "lilja": "LILJA-MATHEMATICAL",
+        "jon": "JON-PROPHET",
+        "gudrun": "GUDRUN-COUNTING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-ORGANIC",
+        "WESTFJORDS-WINTER"
       ]
     }
   ],

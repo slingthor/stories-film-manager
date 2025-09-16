@@ -21,11 +21,22 @@
       "dialogue": "",
       "negative_prompt": "",
       "selected_plates": [
-        "LILJA-SENSING",
-        "JON-TEMPORAL",
-        "SIGRID-CORNERED",
-        "GUDRUN-CONDEMNED",
-        "STOFA-BODY"
+        "MAGNUS-CONFUSED",
+        "SIGRID-CALCULATING",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-PRODUCING",
+        "BAÐSTOFA-ORGANIC"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-CONFUSED",
+        "sigrid": "SIGRID-CALCULATING",
+        "lilja": "LILJA-MATHEMATICAL",
+        "jon": "JON-PROPHET",
+        "gudrun": "GUDRUN-PRODUCING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-ORGANIC"
       ]
     },
     {
@@ -39,11 +50,22 @@
       "dialogue": "",
       "negative_prompt": "",
       "selected_plates": [
-        "LILJA-SENSING",
-        "JON-TEMPORAL",
-        "SIGRID-CORNERED",
-        "GUDRUN-CONDEMNED",
-        "STOFA-BODY"
+        "MAGNUS-CONFUSED",
+        "SIGRID-CALCULATING",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-PRODUCING",
+        "BAÐSTOFA-ORGANIC"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-CONFUSED",
+        "sigrid": "SIGRID-CALCULATING",
+        "lilja": "LILJA-MATHEMATICAL",
+        "jon": "JON-PROPHET",
+        "gudrun": "GUDRUN-PRODUCING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-ORGANIC"
       ]
     },
     {
@@ -57,11 +79,22 @@
       "dialogue": "",
       "negative_prompt": "",
       "selected_plates": [
-        "LILJA-SENSING",
-        "JON-TEMPORAL",
-        "SIGRID-CORNERED",
-        "GUDRUN-CONDEMNED",
-        "STOFA-BODY"
+        "MAGNUS-CONFUSED",
+        "SIGRID-CALCULATING",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-PRODUCING",
+        "BAÐSTOFA-ORGANIC"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-CONFUSED",
+        "sigrid": "SIGRID-CALCULATING",
+        "lilja": "LILJA-MATHEMATICAL",
+        "jon": "JON-PROPHET",
+        "gudrun": "GUDRUN-PRODUCING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-ORGANIC"
       ]
     },
     {
@@ -97,11 +130,22 @@
       "negative_prompt": "no subtitles, no text overlays, show complete emptiness, cross patterns in frost, documentary observation",
       "video_references": [],
       "selected_plates": [
-        "LILJA-SENSING",
-        "JON-TEMPORAL",
-        "SIGRID-CORNERED",
-        "GUDRUN-CONDEMNED",
-        "STOFA-BODY"
+        "MAGNUS-CONFUSED",
+        "SIGRID-CALCULATING",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-PRODUCING",
+        "BAÐSTOFA-ORGANIC"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-CONFUSED",
+        "sigrid": "SIGRID-CALCULATING",
+        "lilja": "LILJA-MATHEMATICAL",
+        "jon": "JON-PROPHET",
+        "gudrun": "GUDRUN-PRODUCING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-ORGANIC"
       ]
     }
   ],

@@ -41,7 +41,24 @@
       "negative_prompt": "show fusion clearly, maintain 8-second hold, no CGI, practical effects",
       "video_references": [],
       "selected_plates": [
-        "WESTFJORDS-CLIFF"
+        "MAGNUS-DEFEATED",
+        "SIGRID-MASTER",
+        "LILJA-EVOLVING",
+        "JON-ENERGETIC",
+        "GUDRUN-DIVINE",
+        "SEA-CONTAMINATED",
+        "WESTFJORDS-FJORD"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-DEFEATED",
+        "sigrid": "SIGRID-MASTER",
+        "lilja": "LILJA-EVOLVING",
+        "jon": "JON-ENERGETIC",
+        "gudrun": "GUDRUN-DIVINE"
+      },
+      "available_environmental_plates": [
+        "SEA-CONTAMINATED",
+        "WESTFJORDS-FJORD"
       ]
     }
   ],

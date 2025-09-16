@@ -1,33 +1,46 @@
 {
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "title" : "THE RAVENS PROPHECY - SPEAKING FREEDOM 6 SECONDS",
-    "duration_seconds" : 6,
-    "narrative_function" : "Prophecy spoken | Future revealed | Camera frost 4...",
-    "sequence_type" : "main_story",
-    "id" : "52b",
-    "stitch_from" : ""
-  },
-  "aspect_ratio" : "4:3",
-  "prompt_variants" : [
+  "selected_prompt_index": 0,
+  "prompt_variants": [
     {
-      "negative_prompt" : "",
-      "progressive_state" : "",
-      "is_active" : false,
-      "style" : "Push in revealing prophecy in eye reflection (that's where the camera is), future documented.",
-      "variant_id" : "52b_story_primary",
-      "selected_plates" : [
+      "subject": "The raven speaking directly to [SIGRID] while family remains frozen: \"Ãžegar hÃºsiÃ° deyr, klettagjÃ¡ verÃ°ur. Ãžegar Ã¾Ãº verÃ°ur fugl, Ãsland verÃ°ur frjÃ¡lst\" (When house dies, rocky cleft becomes. When you become bird, Iceland becomes free).",
+      "action": "PUSH IN on raven's eye. In reflection: visions. British ships leaving. Danish flags lowering. Year visible: 1944. Sigrid aged 72, still alive, witnessing. But also: Sigrid with black wings, flying over free Iceland. Both true. Raven continues: \"ÃžÃº ert vitni. ÃžÃº munt muna.\" (You are witness. You will remember.) Its wing extends toward her. One feather falls. Black, perfect, large as hand. Floats impossible slow. Sigrid catches it. Moment she touches: sees everything. The family as sheep below. MagnÃºs approaching her bed tonight. The house dying and rebirthing. The escape through transformation. Her belly quickens - baby responding to future mother's freedom. Raven speaks final words: \"En fyrst, Ã¾Ãº verÃ°ur aÃ° deyja sem Ã¾au\" (But first, you must die as them). Meaning: undergo transformation with family, but emerge different.",
+      "selected_plates": [
+        "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
-        "GUDRUN-CONDEMNED",
-        "WESTFJORDS-CLIFF"
+        "LILJA-EVOLVING",
+        "JON-ENERGETIC",
+        "GUDRUN-RETURNING",
+        "BAÐSTOFA-CRYSTALLIZING"
       ],
-      "variant_name" : "Primary - THE RAVENS PROPHECY - SPEAKING FREEDOM 6 SECONDS",
-      "camera_position" : "Push in revealing prophecy in eye reflection",
-      "dialogue" : "(Raven): \"Ãžegar hÃºsiÃ° deyr, klettagjÃ¡ verÃ°ur\" \"Ãžegar Ã¾Ãº verÃ°ur fugl, Ãsland verÃ°ur frjÃ¡lst\" \"En fyrst, Ã¾Ãº verÃ°ur aÃ° deyja sem Ã¾au\"",
-      "subject" : "The raven speaking directly to [SIGRID] while family remains frozen: \"Ãžegar hÃºsiÃ° deyr, klettagjÃ¡ verÃ°ur. Ãžegar Ã¾Ãº verÃ°ur fugl, Ãsland verÃ°ur frjÃ¡lst\" (When house dies, rocky cleft becomes. When you become bird, Iceland becomes free).",
-      "action" : "PUSH IN on raven's eye. In reflection: visions. British ships leaving. Danish flags lowering. Year visible: 1944. Sigrid aged 72, still alive, witnessing. But also: Sigrid with black wings, flying over free Iceland. Both true. Raven continues: \"ÃžÃº ert vitni. ÃžÃº munt muna.\" (You are witness. You will remember.) Its wing extends toward her. One feather falls. Black, perfect, large as hand. Floats impossible slow. Sigrid catches it. Moment she touches: sees everything. The family as sheep below. MagnÃºs approaching her bed tonight. The house dying and rebirthing. The escape through transformation. Her belly quickens - baby responding to future mother's freedom. Raven speaks final words: \"En fyrst, Ã¾Ãº verÃ°ur aÃ° deyja sem Ã¾au\" (But first, you must die as them). Meaning: undergo transformation with family, but emerge different.",
-      "scene" : "Close on raven's eye showing futures. Feather floating. Sigrid's recognition."
+      "variant_name": "Primary - THE RAVENS PROPHECY - SPEAKING FREEDOM 6 SECONDS",
+      "negative_prompt": "",
+      "is_active": false,
+      "style": "Push in revealing prophecy in eye reflection (that's where the camera is), future documented.",
+      "dialogue": "(Raven): \"Ãžegar hÃºsiÃ° deyr, klettagjÃ¡ verÃ°ur\" \"Ãžegar Ã¾Ãº verÃ°ur fugl, Ãsland verÃ°ur frjÃ¡lst\" \"En fyrst, Ã¾Ãº verÃ°ur aÃ° deyja sem Ã¾au\"",
+      "progressive_state": "",
+      "scene": "Close on raven's eye showing futures. Feather floating. Sigrid's recognition.",
+      "variant_id": "52b_story_primary",
+      "camera_position": "Push in revealing prophecy in eye reflection",
+      "available_character_plates": {
+        "magnus": "MAGNUS-POSSESSING",
+        "sigrid": "SIGRID-CORNERED",
+        "lilja": "LILJA-EVOLVING",
+        "jon": "JON-ENERGETIC",
+        "gudrun": "GUDRUN-RETURNING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-CRYSTALLIZING"
+      ]
     }
   ],
-  "progressive_state" : "Prophecy spoken | Future revealed | Camera frost 42% | Promise made | Watching: Witness chosen"
+  "aspect_ratio": "4:3",
+  "progressive_state": "Prophecy spoken | Future revealed | Camera frost 42% | Promise made | Watching: Witness chosen",
+  "shot_metadata": {
+    "narrative_function": "Prophecy spoken | Future revealed | Camera frost 4...",
+    "sequence_type": "main_story",
+    "stitch_from": "",
+    "duration_seconds": 6,
+    "id": "52b",
+    "title": "THE RAVENS PROPHECY - SPEAKING FREEDOM 6 SECONDS"
+  }
 }

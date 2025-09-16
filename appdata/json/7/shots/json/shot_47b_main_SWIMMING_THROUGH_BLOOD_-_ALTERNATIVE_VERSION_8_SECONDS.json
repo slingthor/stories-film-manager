@@ -42,8 +42,21 @@
       "negative_prompt": "maintain blood consistency, show swimming struggle, no clean emergence",
       "video_references": [],
       "selected_plates": [
-        "LILJA-SENSING",
-        "JON-TEMPORAL",
+        "MAGNUS-DEFEATED",
+        "SIGRID-ORACLE",
+        "LILJA-EVOLVING",
+        "JON-ENERGETIC",
+        "GUDRUN-RETURNING",
+        "WESTFJORDS-CLIFF"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-DEFEATED",
+        "sigrid": "SIGRID-ORACLE",
+        "lilja": "LILJA-EVOLVING",
+        "jon": "JON-ENERGETIC",
+        "gudrun": "GUDRUN-RETURNING"
+      },
+      "available_environmental_plates": [
         "WESTFJORDS-CLIFF"
       ]
     }

@@ -42,8 +42,23 @@
       "negative_prompt": "show bite clearly, transformation beginning, maintain epic scale",
       "video_references": [],
       "selected_plates": [
-        "JON-TEMPORAL",
+        "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
+        "LILJA-EVOLVING",
+        "JON-ENERGETIC",
+        "GUDRUN-RETURNING",
+        "SEA-ACCUSATION",
+        "WESTFJORDS-CLIFF"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-POSSESSING",
+        "sigrid": "SIGRID-CORNERED",
+        "lilja": "LILJA-EVOLVING",
+        "jon": "JON-ENERGETIC",
+        "gudrun": "GUDRUN-RETURNING"
+      },
+      "available_environmental_plates": [
+        "SEA-ACCUSATION",
         "WESTFJORDS-CLIFF"
       ]
     }

@@ -68,10 +68,24 @@
       "negative_prompt": "no subtitles, show purple steam, black teeth, instant boiling, staining everything, 1080p",
       "video_references": [],
       "selected_plates": [
-        "LILJA-MATHEMATICAL",
-        "SIGRID-MARKED",
-        "GUDRUN-PRODUCING",
-        "WESTFJORDS-WINTER"
+        "MAGNUS-AUTHORITY",
+        "SIGRID-AWAKENING",
+        "LILJA-PURE",
+        "JON-MILD",
+        "GUDRUN-ABUNDANT",
+        "BAÐSTOFA-DOMESTIC",
+        "WESTFJORDS-BEACH"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-AUTHORITY",
+        "sigrid": "SIGRID-AWAKENING",
+        "lilja": "LILJA-PURE",
+        "jon": "JON-MILD",
+        "gudrun": "GUDRUN-ABUNDANT"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-DOMESTIC",
+        "WESTFJORDS-BEACH"
       ]
     }
   ],

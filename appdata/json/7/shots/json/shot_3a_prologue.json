@@ -67,9 +67,22 @@
       "negative_prompt": "no subtitles, show hands working rope clearly, blood trail visible in ocean below, intimate moment, 1080p",
       "video_references": [],
       "selected_plates": [
-        "MAGNUS-CONFUSED",
-        "JON-PROPHET",
-        "SEA-EXTRACTED"
+        "MAGNUS-AUTHORITY",
+        "SIGRID-PURE",
+        "JON-MILD",
+        "LILJA-PURE",
+        "BAÐSTOFA-DOMESTIC",
+        "WESTFJORDS-BEACH"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-AUTHORITY",
+        "sigrid": "SIGRID-PURE",
+        "jon": "JON-MILD",
+        "lilja": "LILJA-PURE"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-DOMESTIC",
+        "WESTFJORDS-BEACH"
       ]
     }
   ],

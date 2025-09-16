@@ -1,0 +1,835 @@
+{
+  "plate_index": {
+    "BAÐSTOFA-DOMESTIC": {
+      "character": "Environment",
+      "name": "Baðstofa Domestic",
+      "description": "The living space in its domestic state - warm, inhabited, breathing with the family's life force",
+      "is_master": false
+    },
+    "BAÐSTOFA-MONUMENT": {
+      "character": "Environment",
+      "name": "Baðstofa Monument",
+      "description": "The living space transforming into eternal monument - walls becoming stone, breathing slowing to geological time",
+      "is_master": false
+    },
+    "ENVIRONMENT-MASTER": {
+      "description": "The living space in its domestic state - warm, inhabited, breathing",
+      "shot_range": "",
+      "name": "Baðstofa Domestic",
+      "is_master": true,
+      "character": "Environment"
+    },
+    "GUDRUN-ABUNDANT": {
+      "name": "Abundant",
+      "character": "Gudrun",
+      "shot_range": "",
+      "is_master": false,
+      "description": "[GUDRUN-MASTER] during false prosperity - white faldbúningur headdress pristine and perfectly arranged with black velvet band spotless, grey vaðmál dress clean and well-fitted, brown wool apron fresh and unworn, black wool shawl arranged with care, no visible wool production (hands normal), thin frame but not skeletal suggesting adequate nutrition, posture showing competent maternal authority, grey-green eyes focused on productive work with minimal anxiety, breathing steady 12/min work rhythm, hands engaged in traditional textile work without nervous wringing, facial expression showing maternal competence and domestic efficiency, brass wedding ring fitting properly on adequately fleshed finger"
+    },
+    "GUDRUN-BEATEN": {
+      "description": "[GUDRUN-PRODUCING] after domestic violence - faldbúningur knocked askew with brass pin bent, grey dress torn at shoulder seam, brown apron twisted and stained, black shawl used to cover violence marks, wool threads 30mm now obvious and blood-stained from violence, skeletal frame showing through clothing, posture collapsed but attempting to rise with dignity, grey-green eyes showing acceptance of violence as expected outcome, breathing 18/min pain response but controlled to avoid additional attention, hands protecting wool-producing wrists while checking for additional injuries, facial expression showing resignation mixed with quiet strength, V-notch ear scar briefly visible through displaced headdress, brass ring nearly falling off due to extreme weight loss",
+      "shot_range": "",
+      "character": "Gudrun",
+      "name": "Beaten",
+      "is_master": false
+    },
+    "GUDRUN-CONDEMNED": {
+      "name": "PLATE 7",
+      "character": "Gudrun",
+      "description": "Death Sentence (Shots 43c-44)",
+      "shot_range": "(Shots 43c-44)",
+      "is_master": false
+    },
+    "GUDRUN-COUNTING": {
+      "name": "Counting",
+      "description": "[GUDRUN-PREPARING] during family counting breakdown - faldbúningur slightly disheveled from sleep disruption, grey dress wrinkled from restless nights, brown apron twisted from nervous handling, wool threads 10mm visible at wrists (clearly organic growth not fraying), malnourished frame showing ribs beneath dress fabric, posture defensive with maternal protection stance, grey-green eyes sharp with mathematical awareness and family breakdown recognition, breathing controlled 14/min despite family synchronization pressure, hands wringing while observing Magnus's counting confusion, facial expression showing intelligent analysis of impossible mathematics, brass ring sliding freely on thinned finger",
+      "shot_range": "",
+      "is_master": false,
+      "character": "Gudrun"
+    },
+    "GUDRUN-CROWNED": {
+      "name": "Crowned",
+      "description": "GUDRUN-WALKING with headdress frozen into crown - white faldbúningur completely transformed by ice.",
+      "is_master": false,
+      "character": "Gudrun",
+      "shot_range": ""
+    },
+    "GUDRUN-DIVINE": {
+      "description": "GUDRUN-CROWNED offering wool to contaminated god - ice crown gleaming with divine audience appropriateness.",
+      "name": "Divine",
+      "character": "Gudrun",
+      "shot_range": "",
+      "is_master": false
+    },
+    "GUDRUN-ETERNAL": {
+      "name": "PLATE 13",
+      "character": "Gudrun",
+      "description": "Ewe Complete (Shots 61-85)",
+      "shot_range": "(Shots 61-85)",
+      "is_master": false
+    },
+    "GUDRUN-HIDING": {
+      "character": "Gudrun",
+      "is_master": false,
+      "name": "Hiding",
+      "shot_range": "",
+      "description": "GUDRUN-PRODUCING actively concealing transformation - faldbúningur arranged to maximize wrist concealment."
+    },
+    "GUDRUN-MASTER": {
+      "description": "Summer Competence (Shots 1-9)",
+      "character": "Gudrun",
+      "is_master": true,
+      "shot_range": "(Shots 1-9)",
+      "name": "PLATE 1"
+    },
+    "GUDRUN-PLATE10": {
+      "shot_range": "(Shots 45-46)",
+      "name": "PLATE 10",
+      "character": "Gudrun",
+      "description": "Blood Return (Shot 47c)",
+      "is_master": false
+    },
+    "GUDRUN-PLATE11": {
+      "name": "PLATE 11",
+      "is_master": false,
+      "character": "Gudrun",
+      "shot_range": "(Shots 50-55)",
+      "description": "Transformation Recognition (Shots 50-55)"
+    },
+    "GUDRUN-PLATE12": {
+      "name": "PLATE 12",
+      "character": "Gudrun",
+      "shot_range": "(Shots 56-60)",
+      "description": "Final Human Speech (Shots 56-60)",
+      "is_master": false
+    },
+    "GUDRUN-PLATE15": {
+      "shot_range": "(Shots 18-25)",
+      "description": "Silent Observer (Shot 5.5 Surveillance Web)",
+      "is_master": false,
+      "character": "Gudrun",
+      "name": "PLATE 15"
+    },
+    "GUDRUN-PLATE16": {
+      "is_master": false,
+      "character": "Gudrun",
+      "name": "PLATE 16",
+      "description": "Authority Emergence (Shots 26-35)",
+      "shot_range": "(Shots 26-35)"
+    },
+    "GUDRUN-PLATE17": {
+      "is_master": false,
+      "shot_range": "(Shots 26-35)",
+      "character": "Gudrun",
+      "name": "PLATE 17",
+      "description": "Ice Crown Formation (Shot 44a Storm Walker)"
+    },
+    "GUDRUN-PLATE18": {
+      "character": "Gudrun",
+      "shot_range": "(Shots 45-46 Bull Encounter)",
+      "description": "Divine Offering (Shots 45-46 Bull Encounter)",
+      "name": "PLATE 18",
+      "is_master": false
+    },
+    "GUDRUN-PLATE19": {
+      "is_master": false,
+      "character": "Gudrun",
+      "shot_range": "(Shots 47-50)",
+      "name": "PLATE 19",
+      "description": "Truth-Speaker Preparation (Shots 47-50)"
+    },
+    "GUDRUN-PLATE2": {
+      "description": "Autumn Strain (Shots 10-15)",
+      "shot_range": "(Shots 10-15)",
+      "is_master": false,
+      "name": "PLATE 2",
+      "character": "Gudrun"
+    },
+    "GUDRUN-PLATE22": {
+      "is_master": false,
+      "character": "Gudrun",
+      "description": "Silent Testimony (Multiple Shots)",
+      "shot_range": "(Shots 56-85)",
+      "name": "PLATE 22"
+    },
+    "GUDRUN-PLATE23": {
+      "shot_range": "(Shots 56-85)",
+      "is_master": false,
+      "name": "PLATE 23",
+      "description": "Faldbúningur Transition (Death Journey)",
+      "character": "Gudrun"
+    },
+    "GUDRUN-PLATE3": {
+      "character": "Gudrun",
+      "shot_range": "(Shots 16-23)",
+      "description": "Winter Preparation (Shots 16-23)",
+      "is_master": false,
+      "name": "PLATE 3"
+    },
+    "GUDRUN-PLATE4": {
+      "is_master": false,
+      "name": "PLATE 4",
+      "character": "Gudrun",
+      "description": "Mathematical Observer (Shots 1-10)",
+      "shot_range": "(Shots 1-10)"
+    },
+    "GUDRUN-PLATE5": {
+      "character": "Gudrun",
+      "name": "PLATE 5",
+      "is_master": false,
+      "description": "Wool Producer (Shots 11-25)",
+      "shot_range": "(Shots 11-25)"
+    },
+    "GUDRUN-PLATE6": {
+      "name": "PLATE 6",
+      "description": "Violence Victim (Shots 41-43)",
+      "shot_range": "(Shots 41-43)",
+      "is_master": false,
+      "character": "Gudrun"
+    },
+    "GUDRUN-PLATE8": {
+      "is_master": false,
+      "character": "Gudrun",
+      "description": "Storm Walker (Shot 44a-b)",
+      "shot_range": "(Shots 43c-44)",
+      "name": "PLATE 8"
+    },
+    "GUDRUN-PLATE9": {
+      "shot_range": "(Shots 45-46)",
+      "character": "Gudrun",
+      "name": "PLATE 9",
+      "description": "Polynya Arrival (Shots 45-46)",
+      "is_master": false
+    },
+    "GUDRUN-PREPARING": {
+      "name": "Preparing",
+      "character": "Gudrun",
+      "description": "GUDRUN-WEARING preparing for survival season - faldbúningur arranged for winter durability.",
+      "shot_range": "",
+      "is_master": false
+    },
+    "GUDRUN-PRODUCING": {
+      "is_master": false,
+      "character": "Gudrun",
+      "name": "Speaking",
+      "description": "[GUDRUN-RECOGNIZING] delivering essential truth - blood-soaked dress hanging properly on sheep-transitioning body, faldbúningur ice crown perfectly fitting changing head proportions, wool production complete with self-braided testimony strands, frame fully adapted to impending quadruped anatomy, posture perfect for final human speech delivery, eyes showing human consciousness through developing sheep anatomy, breathing 8/min sheep rhythm with human speech capability, voice human words through changing vocal anatomy, facial expression showing profound maternal authority delivering essential truth, V-notch marking clearly visible as livestock identity acknowledged",
+      "shot_range": ""
+    },
+    "GUDRUN-PROTECTING": {
+      "description": "GUDRUN-PRODUCING with maternal authority strengthening - faldbúningur arranged with conscious dignity.",
+      "is_master": false,
+      "character": "Gudrun",
+      "shot_range": "",
+      "name": "Protecting"
+    },
+    "GUDRUN-REVEALED": {
+      "character": "Gudrun",
+      "is_master": false,
+      "description": "GUDRUN-PRODUCING with wool growth obvious - faldbúningur positioned normally but wrists deliberately exposed.",
+      "shot_range": "",
+      "name": "Revealed"
+    },
+    "GUDRUN-SILENT": {
+      "description": "GUDRUN-MASTER with enforced silence emphasis - faldbúningur arranged normally.",
+      "shot_range": "",
+      "name": "Silent",
+      "character": "Gudrun",
+      "is_master": false
+    },
+    "GUDRUN-TRANSFORMING": {
+      "shot_range": "",
+      "is_master": false,
+      "name": "Transforming",
+      "description": "GUDRUN-WALKING with headdress becoming crown - white faldbúningur transforming from traditional women's wear into ice crown architecture.",
+      "character": "Gudrun"
+    },
+    "GUDRUN-WITNESS": {
+      "name": "Witness",
+      "character": "Gudrun",
+      "description": "35-year-old oval face, grey-green almond eyes, white faldbúningur headdress with black velvet band, wool threads 70mm self-braiding.",
+      "shot_range": "",
+      "is_master": false
+    },
+    "HOUSE-MONUMENT": {
+      "character": "Environment",
+      "name": "House Monument",
+      "description": "The house as final monolithic form - black obsidian walls, no longer breathing, eternal witness",
+      "is_master": false
+    },
+    "JON-CHANGING": {
+      "shot_range": "",
+      "name": "Changing",
+      "is_master": false,
+      "character": "Jon",
+      "description": "[JON-ENERGETIC] during actual species change - fever 43°C at critical peak, face structure beginning lamb transformation while maintaining human consciousness, sheep teeth fully functional, hazel eyes bright with transformation excitement rather than fear, hair cut revealing changing skull proportions, brown sweater becoming costume on transforming anatomy, posture transitional between human and quadruped, breathing shifting from 22/min human hyperactive to 20/min sheep steady, voice primarily sheep bleating with occasional human words, fever visions resolving into single sheep-reality acceptance."
+    },
+    "JON-COUNTING": {
+      "shot_range": "",
+      "is_master": false,
+      "name": "Counting",
+      "character": "Jon",
+      "description": "[JON-AWAKENING] discovering mathematical impossibilities - face concentrated on solving eternal equations, eyes seeing the space between numbers where truth hides, fingers counting on both hands getting different sums, hair wild from shaking head at impossible results, voice reciting numbers that don't match what's visible: 'Ein kind, tveir kindur, þrjár...' (one sheep, two sheep, three...), breathing in mathematical patterns, understanding that five can equal six when shadows are counted"
+    },
+    "JON-EMERGING": {
+      "shot_range": "",
+      "name": "Emerging",
+      "is_master": false,
+      "character": "Jon",
+      "description": "[JON-GAPPED] with sheep teeth beginning growth - fever 42°C creating critical flush, face showing new teeth pushing through gums, lips swollen around emerging sheep teeth, hazel eyes bright with fever but focused on dental emergence, hair matted solid requiring cutting, sweater perfectly fitted as malnutrition matches clothing size, posture showing curiosity about mouth changes, cough changing tone as teeth affect vocal cavity, trembling from fever but excitement about transformation, voice changing timber with new teeth affecting speech, breathing 20/min with mouth adjustment to new dental configuration, fever visions showing sheep mastication techniques"
+    },
+    "JON-FINAL": {
+      "is_master": false,
+      "shot_range": "",
+      "name": "Final",
+      "character": "Jon",
+      "description": "[JON-MASTERING] at threshold - face luminous with terrible joy, streaming tears but ecstatic expression, mouth open with visible frost breath, body between standing and falling to fours, sweater falling revealing transformation, hands in counting gesture becoming hooves, hair/wool corona around head, eyes reflecting nuclear flash not lamplight, expression of child seeing beginning and end"
+    },
+    "JON-FITTING": {
+      "character": "Jon",
+      "description": "[JON-SEEING] in serious play - face bright with childish concentration, pockets bulging with small objects, dirt circles on knees, hair tousled from movement, sweater twisted from activity, dirty nimble hands, expression of important childhood games, pink exertion cheeks, gap-toothed smile when pleased",
+      "shot_range": "",
+      "name": "Fitting",
+      "is_master": false
+    },
+    "JON-GAPPED": {
+      "description": "[JON-CHANGING] with gap-toothed revelation - mouth open showing missing front teeth, lamb-like appearance, fingers splayed with slight webbing, face lit with understanding, hair electrified by realization, sweater hanging loose on shrinking body, eyes wide with mathematical impossibility, expression of terrible puzzle solved",
+      "is_master": false,
+      "name": "Gapped",
+      "character": "Jon",
+      "shot_range": ""
+    },
+    "JON-GRINDING": {
+      "character": "Jon",
+      "description": "[JON-LAMB] with circular jaw motion - lower jaw grinding without food, mixed human/herbivore teeth visible, wool covering body except torn sweater areas, hazel eyes with rectangular pupils, elongated ovine muzzle retaining boyish eye area, all fours with occasional upright attempts, tattered clothes over wool",
+      "shot_range": "",
+      "is_master": false,
+      "name": "Grinding"
+    },
+    "JON-LAMB": {
+      "name": "Lamb",
+      "description": "[JON-CHANGING] mid-transformation - torn sweater revealing white wool beneath (garment or growth unclear), elongated face with flattening nose bridge, human intelligence in ovine features, hands/hooves as overlapping realities, impossible posture neither upright nor quadrupedal, hair/wool indistinguishable at hairline, clothes hanging wrong on changing frame",
+      "character": "Jon",
+      "shot_range": "",
+      "is_master": false
+    },
+    "JON-LOSING": {
+      "description": "[JON-LAMB] predominantly sheep - face mostly ovine with hint of boy in eyes, fully quadrupedal, sweater remnants like shed skin on wool, clear hooves where hands were, mobile ears relocated to skull sides, thick lanolin-sheened wool coat, only human element in intelligent gaze, peaceful release expression",
+      "name": "Losing",
+      "is_master": false,
+      "character": "Jon",
+      "shot_range": ""
+    },
+    "JON-MASTER": {
+      "name": "Jon Master",
+      "description": "Jón Magnússon, 8-year-old Westfjords boy with round cherubic face, small upturned nose slightly reddened from cold, hazel eyes with distinct green-brown flecks showing unusual depth, sandy brown hair falling over forehead in damp wisps, thin shoulders lost in oversized brown vaðmál wool sweater that reaches past his hands, dark wool trousers mended at both knees with lighter patches, thick grey wool stockings bunched at ankles, scuffed leather shoes too large for his feet, pale complexion with faint pink flush at cheeks, delicate hands with dirt under fingernails",
+      "shot_range": "",
+      "is_master": true,
+      "character": "Jon"
+    },
+    "JON-MILD": {
+      "shot_range": "",
+      "description": "[JON-MILD] with mathematical intensity - deep furrow between eyebrows, eyes darting rapidly as if reading invisible text, both hands raised with fingers extended for counting, hair disheveled with strands at odd angles, mouth slightly open with tongue tip visible, head tilted questioning, sweater sleeves pushed up revealing thin wrists, face showing confusion mixed with revelation",
+      "name": "Rising",
+      "is_master": false,
+      "character": "Jon"
+    },
+    "JON-PLATE10": {
+      "name": "PLATE 10",
+      "shot_range": "(Shots 61-70)",
+      "is_master": false,
+      "character": "Jon",
+      "description": "Transformation Moment (Shots 61-70)"
+    },
+    "JON-PLATE12": {
+      "description": "Tooth Loss Moment (Shot 15-20)",
+      "character": "Jon",
+      "shot_range": "(Shots 71-85)",
+      "is_master": false,
+      "name": "PLATE 12"
+    },
+    "JON-PLATE13": {
+      "is_master": false,
+      "description": "Fever Vision Peak (Shots 25-30)",
+      "character": "Jon",
+      "name": "PLATE 13",
+      "shot_range": "(Shots 25-30)"
+    },
+    "JON-PLATE15": {
+      "description": "Growing Into Clothes (Shots 40-50)",
+      "character": "Jon",
+      "is_master": false,
+      "name": "PLATE 15",
+      "shot_range": "(Shots 40-50)"
+    },
+    "JON-PLATE17": {
+      "description": "Sheep Tooth Mastery (Shots 41-50)",
+      "is_master": false,
+      "shot_range": "(Shots 41-50)",
+      "name": "PLATE 17",
+      "character": "Jon"
+    },
+    "JON-PLATE18": {
+      "shot_range": "(Shots 56-65)",
+      "description": "Final Human Consciousness (Shots 56-65)",
+      "name": "PLATE 18",
+      "is_master": false,
+      "character": "Jon"
+    },
+    "JON-PLATE19": {
+      "shot_range": "(Shots 65-85)",
+      "description": "Pure Lamb (Shots 65-85)",
+      "is_master": false,
+      "name": "PLATE 19",
+      "character": "Jon"
+    },
+    "JON-PLATE2": {
+      "name": "PLATE 2",
+      "is_master": false,
+      "character": "Jon",
+      "description": "Increasing Fever (Shots 10-15)",
+      "shot_range": "(Shots 10-15)"
+    },
+    "JON-PLATE5": {
+      "name": "PLATE 5",
+      "description": "First Tooth Loss (Shots 11-20)",
+      "character": "Jon",
+      "shot_range": "(Shots 11-20)",
+      "is_master": false
+    },
+    "JON-PLATE6": {
+      "shot_range": "(Shots 21-30)",
+      "is_master": false,
+      "character": "Jon",
+      "description": "Gap Period (Shots 21-30)",
+      "name": "PLATE 6"
+    },
+    "JON-PLATE7": {
+      "shot_range": "(Shots 31-40)",
+      "character": "Jon",
+      "description": "Sheep Teeth Emerging (Shots 31-40)",
+      "name": "PLATE 7",
+      "is_master": false
+    },
+    "JON-PLATE8": {
+      "name": "PLATE 8",
+      "shot_range": "(Shots 41-50)",
+      "description": "Lateral Chewing Development (Shots 41-50)",
+      "character": "Jon",
+      "is_master": false
+    },
+    "JON-PLATE9": {
+      "shot_range": "(Shots 51-60)",
+      "character": "Jon",
+      "description": "Pre-Transformation Energy (Shots 51-60)",
+      "is_master": false,
+      "name": "PLATE 9"
+    },
+    "JON-PLAYING": {
+      "character": "Jon",
+      "name": "Fitting",
+      "shot_range": "",
+      "is_master": false,
+      "description": "[JON-SEEING] using play to reveal truth - arranging objects in réttir (sheep-sorting) patterns without knowing why, playing games that predict next horror, making lamb sounds during play that sister Lilja mimics, building tiny cairns from pebbles that mark where family members will transform, innocent games revealing ancient patterns, understanding play as prophecy"
+    },
+    "JON-PROPHET": {
+      "is_master": false,
+      "shot_range": "",
+      "character": "Jon",
+      "description": "[JON-PROPHET] with witness intensity - face of one who's seen too much, eyes wide and unblinking with visible blood vessels, hair damp despite cold, sweater dark with moisture at collar, hands in small white-knuckled fists, jaw clenched giving angular quality, visible temple pulse, wide grounded stance unusual for child, grey-pale photographic skin tone",
+      "name": "Energetic"
+    },
+    "JON-REMEMBERING": {
+      "character": "Jon",
+      "is_master": false,
+      "description": "[JON-LAMB] retaining human memory in animal form - eyes showing recognition when family names spoken, responding to human speech with comprehension, movements suggesting remembered human gestures, voice attempting words through sheep throat producing haunting music, breathing carrying echoes of human patterns, proving consciousness survives transformation",
+      "shot_range": "",
+      "name": "Grinding"
+    },
+    "JON-REVEALING": {
+      "shot_range": "",
+      "is_master": false,
+      "character": "Jon",
+      "description": "[JON-LAMB] showing truth through innocence - movements demonstrating that sheep comportment feels more natural than human posture ever did, voice finding freedom in bleating that words never provided, eyes reflecting understanding that this is not degradation but revelation, breathing finally free from performance of humanity",
+      "name": "Revealing"
+    },
+    "JON-SOLVING": {
+      "description": "[JON-LAMB] understanding the equation - face bright with mathematical revelation, fingers counting: 5 humans + 5 empty hamr + 1 observer = 11 collapsing to 6, voice reciting formulas that explain impossible counts, breathing in fibonacci patterns, understanding that mathematics itself is breaking, that counting IS the poison, that enumeration is death",
+      "shot_range": "",
+      "character": "Jon",
+      "name": "Gapped",
+      "is_master": false
+    },
+    "JON-TEMPORAL": {
+      "shot_range": "",
+      "name": "Accepting",
+      "is_master": false,
+      "description": "[JON-TEMPORAL] embracing transformation - face peaceful with recognition of inevitability, movements naturally shifting to four-legged gait when others aren't looking, voice mixing bleating with words creating new language, breathing matching flock rhythm with relief not fear, understanding transformation as return not loss, as truth not curse",
+      "character": "Jon"
+    },
+    "JON-WRITING": {
+      "description": "[JON-WITNESSING] inscribing truth - face concentrated on eternal documentation, fingers writing in dust with hoof that was once hand, tracing letters that were always there, voice spelling out words before writing them, breathing creating dust clouds that form letters, understanding that writing is prophecy, that words create reality, that 'HAMR' means both shape and destiny",
+      "character": "Jon",
+      "name": "Mission",
+      "shot_range": "",
+      "is_master": false
+    },
+    "LILJA-ACCEPTING": {
+      "name": "Accepting",
+      "character": "Lilja",
+      "shot_range": "",
+      "is_master": false,
+      "description": "LILJA-EVOLVING with transformation enthusiasm - face bright with transformation excitement rather than fear."
+    },
+    "LILJA-DOLL": {
+      "name": "Doll",
+      "character": "Lilja",
+      "shot_range": "",
+      "is_master": false,
+      "description": "[VARIABLE base] with doll as prophetic communication device - face animated during doll conversation, mouth moving in dialogue with doll's brass button eyes, blue eyes alternating between doll and family, doll positioned for optimal \"observation\" of family activity through brass button surveillance, posture arranged for doll comfort and optimal observation, voice conducting conversations with doll about family transformation approaching, breathing normal child rhythm during doll communication."
+    },
+    "LILJA-EVOLVING": {
+      "name": "Evolving",
+      "character": "Lilja",
+      "description": "LILJA-COMMUNICATING with lullaby modification ability - face serious with prophetic responsibility.",
+      "shot_range": "",
+      "is_master": false
+    },
+    "LILJA-FINAL": {
+      "shot_range": "",
+      "is_master": false,
+      "name": "Final",
+      "description": "Before consciousness simplification, face maintaining child expression despite anatomical changes, mouth adapted for sheep vocalization.",
+      "character": "Lilja"
+    },
+    "LILJA-GUIDE": {
+      "character": "Lilja",
+      "name": "Guide",
+      "shot_range": "",
+      "description": "[MAPPING base] showing family house consciousness - face excited with discovery sharing, mouth expressing wonder at house awareness, blue eyes bright with environmental communication capability, hair wild from floor exploration, grey dress dirty from house consciousness discovery, doll positioned to \"witness\" environmental revelations, posture demonstrative during house awareness explanation, voice high excited whisper about house being alive, breathing 24/min child excitement about environmental discovery.",
+      "is_master": false
+    },
+    "LILJA-HARMONIC": {
+      "name": "Harmonic",
+      "description": "Lilja Magnúsdóttir, 5-year-old cherubic round face concentrated with harmonic production, tiny upturned nose, large cornflower-blue eyes unfocused during frequency generation, tangled dark blonde hair stirring from acoustic vibration, 3'6\" small frame in grey wool dress, clutching cloth doll positioned for acoustic audience, posture focused for 528Hz frequency production, voice producing impossible harmonics affecting house consciousness, breathing controlled for harmonic generation rather than normal child rhythm\"",
+      "is_master": false,
+      "shot_range": "",
+      "character": "Lilja"
+    },
+    "LILJA-LAMB": {
+      "shot_range": "",
+      "is_master": false,
+      "description": "[PRODUCING base] with transformation anticipation - face showing child excitement about impending change, mouth practicing sheep vocalizations, blue eyes bright with transformation eagerness, hair completely wool-textured but still arranged in child style, grey dress appearing costume-like on changing body, doll clutched as comfort during transformation, posture transitional between child and lamb anatomy, thumb-sucking replaced with wool-chewing behavior, voice mixing child speech with sheep sounds, breathing approaching 20/min sheep rhythm, wool production obvious with child fascination rather than adult shame.",
+      "name": "Wondering",
+      "character": "Lilja"
+    },
+    "LILJA-MAPPING": {
+      "character": "Lilja",
+      "description": "[COUNTING base] discovering house consciousness - face bright with discovery of warm floor spots, mouth expressing wonder at house behavior recognition, blue eyes focused intensely on environmental consciousness detection, hair wild from crawling exploration, grey dress dirty from floor contact, brown stockings worn through at knees from house exploration, doll positioned to \"see\" warm spots through brass button eyes, posture crawling and floor-focused, thumb-sucking while concentrating on house discovery, voice excited whisper about house being alive, breathing 25/min exploration excitement, discovering 37°C warm spots arranged like giant's organ system.",
+      "name": "Mapping",
+      "shot_range": "",
+      "is_master": false
+    },
+    "LILJA-MASTER": {
+      "description": "Pure Innocence (Shots 1-9) [MAGNUS-MASTER] with perfect childhood innocence - cherubic face bright with healthy pink cheeks despite family strain, tiny upturned nose clear and breathing normally, rosebud mouth often forming silent \"oh\" of wonder, large cornflower-blue eyes wide with innocent curiosity about whale hunt activity, dark blonde hair tangled but recently combed by mother, small 3'6\" frame with baby fat still present, grey vaðmál wool dress with minor hem wear from normal play, dark brown wool stockings intact without holes, cloth doll pristine with bright brass button eyes and neat yellow yarn hair, posture naturally timid but exploratory, thumb-sucking frequent for comfort during exciting activity, voice high musical whisper with excited observations about community cooperation, breathing 22/min normal happy child rhythm.",
+      "name": "PLATE 1",
+      "shot_range": "(Shots 1-9)",
+      "is_master": true,
+      "character": "Lilja"
+    },
+    "LILJA-MATHEMATICAL": {
+      "name": "PLATE 4",
+      "description": "Mathematical Child Observer (Shots 1-10) [LILJA-PURE] witnessing family counting breakdown - face showing child confusion about adult mathematical impossibility, mouth silently counting along with adults but getting different numbers, blue eyes wide with recognition of six shadows when five people exist, hair tangled with stress from family breakdown observation, grey dress torn hem more extensive from nervous behavior, brown stockings with multiple holes from anxiety movement, doll clutched with desperate grip as comfort during family crisis, posture hiding behind mother's skirts during counting moments, thumb-sucking intense during mathematical wrongness, voice high whisper stating obvious mathematical truth adults won't acknowledge, breathing 24/min child anxiety from family mathematical impossibility recognition.",
+      "character": "Lilja",
+      "shot_range": "(Shots 1-10)",
+      "is_master": false
+    },
+    "LILJA-PLATE6": {
+      "shot_range": "(Shots 26-40)",
+      "character": "Lilja",
+      "description": "Prophetic Lullaby Evolution (Shots 26-40) [LILJA-SENSING] with lullaby modification ability - face serious with prophetic responsibility, mouth carefully shaping evolved lullaby words, blue eyes focused with prophetic sight showing future transformation, hair requiring cutting due to tangling, grey dress showing systematic exploration wear, brown stockings mostly holes held together by wool fibers, doll positioned as audience for prophetic performance, posture upright with prophetic authority despite child size, thumb-sucking eliminated during prophetic singing, voice delivering lullaby evolution changing \"Krummi svaf\" to \"Sigrid flýgur\" predicting sister's raven transformation, breathing 23/min prophetic intensity creating controlled harmonic delivery.",
+      "is_master": false,
+      "name": "PLATE 6"
+    },
+    "LILJA-PLATE7": {
+      "description": "Transformation Acceptance (Shots 41-55) [LILJA-PURE] with transformation enthusiasm - face bright with transformation excitement rather than fear, mouth practicing sheep vocalizations with child enthusiasm, blue eyes eager with transformation anticipation, hair cut short revealing skull changes, grey dress loose on changing body proportions, brown stockings replaced with wool wrapping, doll clutched through transformation as comfort anchor, posture showing adaptation excitement, voice mixing sheep sounds with child emotional expression, breathing shifting from 23/min child to 20/min sheep with enthusiasm, wool production beginning from child follicles with fascination rather than shame.",
+      "name": "PLATE 7",
+      "shot_range": "(Shots 41-55)",
+      "is_master": false,
+      "character": "Lilja"
+    },
+    "LILJA-PRODUCING": {
+      "character": "Lilja",
+      "name": "Producing",
+      "shot_range": "",
+      "description": "[PROPHESYING base] developing wool production - face showing biological change beginning, mouth adapting for herbivore speech patterns, blue eyes bright with transformation curiosity, hair texture changing toward wool-like consistency, grey dress stretched as body changes, brown stockings developing holes from increased activity, doll's brass button eyes reflecting child's biological transformation, posture showing physical adaptation, thumb-sucking decreased as mouth changes, voice developing sheep-like qualities while maintaining child speech, breathing shifting toward 20/min sheep preparation, beginning to produce wool fibers directly from arms through skin follicles.",
+      "is_master": false
+    },
+    "LILJA-PROPHESYING": {
+      "character": "Lilja",
+      "description": "[MAPPING base] with lullaby evolution ability - face concentrated during song modification, mouth shaping different words than traditional lullaby, blue eyes unfocused during prophetic singing state, hair increasingly tangled from harmonic vibration, grey dress showing systematic wear, doll positioned as audience for prophetic performance, posture upright during singing moments, thumb-sucking absent during song delivery, voice producing evolved lullaby with prophetic content changing \"Krummi\" to \"Sigrid\" predicting sister's transformation, breathing controlled for singing rather than normal child rhythm.",
+      "name": "Prophesying",
+      "shot_range": "",
+      "is_master": false
+    },
+    "LILJA-PURE": {
+      "description": "[PURE base] with supernatural environmental awareness developing - face maintaining innocence but eyes developing unusual focus on environmental details, tiny nose beginning to show sensitivity to household changes (smelling emptiness, detecting temperature shifts), mouth often open with wonder at discoveries adults don't notice, blue eyes tracking environmental phenomena (warm floor spots, wall breathing, house heartbeat), hair showing minor stress tangles, grey dress with increased wear, doll clutched tighter for security, posture showing cautious exploration, thumb-sucking increasing with environmental stress awareness, voice whisper with questions about house behavior, breathing 23/min slight anxiety from environmental awareness.",
+      "name": "Sensing",
+      "character": "Lilja",
+      "shot_range": "",
+      "is_master": false
+    },
+    "LILJA-SENSING": {
+      "shot_range": "(Shots 16-23)",
+      "is_master": false,
+      "description": "Harmonic Discovery (Shots 16-23) [LILJA-SENSING] developing impossible frequency abilities - face showing concentration during harmonic singing, tiny nose flared with breath control for frequency production, rosebud mouth positioned precisely for 528Hz generation, large blue eyes unfocused during harmonic state but bright during normal moments, dark blonde hair increasingly tangled from harmonic vibration effects, small frame vibrating slightly during frequency production, grey dress normal but showing vibrational wear patterns, brown stockings with growing holes from active house exploration, cloth doll positioned as audience for harmonic performance with brass button eyes reflecting sound waves, posture focused and upright during frequency production, thumb-sucking decreased with singing concentration, voice producing impossible child harmonics that make house beams creak responsively, breathing controlled for harmonic generation creating 528Hz transformation frequency.",
+      "character": "Lilja",
+      "name": "PLATE 3"
+    },
+    "MAGNUS-AFLOAT": {
+      "description": "MAGNUS-MASTER stripped to rowing essentials, vaðmál sweater only, sealskin anorak open, no hat exposing grey hair to elements.",
+      "shot_range": "",
+      "character": "Magnus",
+      "is_master": false,
+      "name": "Afloat"
+    },
+    "MAGNUS-AGING": {
+      "shot_range": "",
+      "name": "Wounded",
+      "is_master": false,
+      "description": "S-AGING plus fresh maritime injuries - rope burns across palms, hook puncture in right palm with dried blood.",
+      "character": "Magnus"
+    },
+    "MAGNUS-AUTHORITY": {
+      "name": "Authority",
+      "description": "[MAGNUS-MASTER] with clean brown vaðmál sweater showing skilled mending at left elbow using matching thread, dark charcoal wool trousers with fresh patches at knees using slightly lighter brown fabric for contrast, sealskin boots recently oiled showing water repellency, thick leather belt with polished iron buckle, driftwood cane held casually in left hand with comfortable grip, erect posture with shoulders squared showing physical confidence, jaw set with quiet paternal authority, steel-blue eyes focused with traditional hunting intelligence, breathing steady 10/min leadership rhythm, hands stable except during counting (3Hz tremor visible only in fingertips), facial expression showing competent masculine provision capability, beard trimmed to even mid-chest length, hair controlled with traditional leather tie, no visible injuries.",
+      "shot_range": "",
+      "is_master": false,
+      "character": "Magnus"
+    },
+    "MAGNUS-AUTUMN": {
+      "character": "Magnus",
+      "description": "MAGNUS-MASTER vaðmál sweater showing increased wear, left elbow mending more prominent, trousers with fresh knee patches.",
+      "is_master": false,
+      "shot_range": "",
+      "name": "Autumn"
+    },
+    "MAGNUS-CONFUSED": {
+      "is_master": false,
+      "shot_range": "",
+      "character": "Magnus",
+      "description": "[MAGNUS-MASTER] winter layers but disheveled, vaðmál sweater stretched from nervous pulling, sealskin anorak partially unbuttoned, cane gripped white-knuckle tight, hunched posture with defensive shoulder positioning, jaw working constantly (grinding teeth), eyes unfocused with thousand-yard stare beginning, breathing erratic 13/min anxiety, 3Hz tremor now affecting whole arm, facial expression showing authority cracking, mathematical confusion visible through micro-expressions, beard tangled, hair uncombed",
+      "name": "Confused"
+    },
+    "MAGNUS-DEFEATED": {
+      "is_master": false,
+      "description": "ZERO-HZ with complete failure recognition - shoulders completely collapsed, cane serving as full body support.",
+      "name": "Defeated",
+      "character": "Magnus",
+      "shot_range": ""
+    },
+    "MAGNUS-DEPARTING": {
+      "shot_range": "",
+      "name": "Departing",
+      "description": "[MAGNUS-MASTER] heavy winter fishing gear, sealskin anorak with hood up, thick mittens, ice boots, multiple rope coils across chest, cane secured to belt with leather thong, bent posture under gear weight, jaw clenched with desperate determination, eyes showing forced hope over deep fear, breathing 14/min pre-action anxiety, tremor suppressed through gear-gripping, facial expression mixing paternal duty with suicidal acceptance, beard with frost accumulation, hair hidden under hood",
+      "is_master": false,
+      "character": "Magnus"
+    },
+    "MAGNUS-MASTER": {
+      "character": "Magnus",
+      "shot_range": "",
+      "is_master": true,
+      "description": "Base template for Magnus variations - 55-year-old Westfjords fisherman, weathered rectangular face, broken aquiline nose, steel-blue hooded eyes, charcoal-grey beard.",
+      "name": "Magnus Master"
+    },
+    "MAGNUS-PLATE16": {
+      "character": "Magnus",
+      "name": "PLATE 16",
+      "description": "Transformation Preparation (Shots 66-75)",
+      "shot_range": "(Shots 66-75)",
+      "is_master": false
+    },
+    "MAGNUS-PLATE2": {
+      "shot_range": "(Shots 10-15)",
+      "description": "Autumn Transition (Shots 10-15)",
+      "is_master": false,
+      "name": "PLATE 2",
+      "character": "Magnus"
+    },
+    "MAGNUS-PLATE3": {
+      "name": "PLATE 3",
+      "description": "Winter Preparation (Shots 16-23)",
+      "shot_range": "(Shots 16-23)",
+      "character": "Magnus",
+      "is_master": false
+    },
+    "MAGNUS-PLATE5": {
+      "name": "PLATE 5",
+      "description": "Departure Desperation (Shots 18-25)",
+      "shot_range": "(Shots 18-25)",
+      "is_master": false,
+      "character": "Magnus"
+    },
+    "MAGNUS-PLATE6": {
+      "name": "PLATE 6",
+      "description": "At Sea Competence (Shot 26-30)",
+      "character": "Magnus",
+      "is_master": false,
+      "shot_range": "(Shots 18-25)"
+    },
+    "MAGNUS-PLATE9": {
+      "is_master": false,
+      "character": "Magnus",
+      "description": "Return Defeat (Shots 36-40)",
+      "shot_range": "(Shots 36-40)",
+      "name": "PLATE 9"
+    },
+    "MAGNUS-PREDATOR": {
+      "character": "Magnus",
+      "shot_range": "",
+      "description": "[MAGNUS-DEFEATED] but with 0Hz transformation beginning - straightening posture with predatory purpose, cane now gripped as weapon rather than support, clothing rearranged for violence preparation, jaw set with territorial determination, eyes showing predator focus replacing defeat, breathing dropping to 8/min stalking rhythm, tremor disappearing entirely (0Hz hands), facial expression shifting from failure to territorial threat, beard bristling with aggressive energy, hair pulled back revealing predator skull shape",
+      "is_master": false,
+      "name": "Predator"
+    },
+    "MAGNUS-PREPARATION": {
+      "character": "Magnus",
+      "description": "MAGNUS-MASTER layered for winter - vaðmál sweater under sealskin anorak, wool trousers with additional patches.",
+      "shot_range": "",
+      "is_master": false,
+      "name": "Preparation"
+    },
+    "MAGNUS-RAM": {
+      "description": "[MAGNUS-RECOGNIZING] with complete counting failure - posture collapsed with reality breakdown, jaw working soundlessly through mathematical impossibility, eyes unfocused with thousand-yard mathematical stare, breathing chaotic switching between 8/min sheep and 15/min human, hands tremoring at multiple frequencies simultaneously, facial expression showing cognitive disintegration, ram skull structure clearly visible through stressed human flesh, beard/hair boundary dissolving into wool texture",
+      "shot_range": "",
+      "name": "Breaking",
+      "character": "Magnus",
+      "is_master": false
+    },
+    "MAGNUS-RECOGNIZING": {
+      "is_master": false,
+      "name": "Recognizing",
+      "character": "Magnus",
+      "shot_range": "",
+      "description": "[MAGNUS-SHIFTING] realizing family transformation - posture defensive with territorial alarm, jaw dropped with mathematical horror, eyes wide with counting impossibility recognition, breathing accelerating to 15/min panic, hands gripping cane with desperate human need, facial expression showing cognitive breakdown, ram characteristics more visible through stress, beard beginning to show wool-fiber mixing, hair developing sheep-curl obvious texture"
+    },
+    "MAGNUS-SHIFTING": {
+      "character": "Magnus",
+      "description": "[MAGNUS-POSSESSOR] with emerging ram features - posture showing slight forward head position, jaw developing heavier set suggesting ruminant mouth changes, eyes beginning to show horizontal pupil progression (barely visible), breathing shifting to 8/min sheep rhythm, hands developing slight hoof-curve to fingertips, facial bone structure appearing more angular with ram skull geometry emerging, beard coarsening to wool-like texture, hair becoming more sheep-like in curl pattern",
+      "shot_range": "",
+      "is_master": false,
+      "name": "Shifting"
+    },
+    "MAGNUS-SUMMER": {
+      "name": "Summer",
+      "description": "MAGNUS-MASTER wearing clean brown vaðmál sweater with recent mending barely visible, dark wool trousers showing minimal wear, sealskin boots freshly oiled.",
+      "shot_range": "",
+      "character": "Magnus",
+      "is_master": false
+    },
+    "POLYNYA-SITE": {
+      "character": "Environment",
+      "name": "Polynya Site",
+      "description": "The ice hole where whales surface - black water surrounded by white ice, steam rising, death zone",
+      "is_master": false
+    },
+    "RÉTTIR-PATTERN": {
+      "character": "Environment",
+      "name": "Réttir Pattern",
+      "description": "Ancient sheep sorting pen patterns visible in floor - five radiating pens from center, stone beneath earth",
+      "is_master": false
+    },
+    "SIGRID-AWAKENING": {
+      "name": "Awakening",
+      "description": "[PURE base] with subtle awareness developing - dress showing minor wear, first hint of pregnancy (barely visible belly curve), posture beginning slight defensive positioning, arms occasionally crossing over midsection, grey eyes developing analytical flicker when observing family dynamics, breathing maintaining 15/min but with occasional deeper assessment breaths, voice retaining purity but with thoughtful pauses, facial expression mixing innocence with growing environmental awareness, braids with few wisps escaping suggesting mild stress, positioning unconsciously shifting to 9-10 feet from Magnus, wooden cross gripped occasionally through pocket fabric.",
+      "is_master": false,
+      "shot_range": "",
+      "character": "Sigrid"
+    },
+    "SIGRID-CORNERED": {
+      "name": "PLATE 8",
+      "is_master": false,
+      "character": "Sigrid",
+      "shot_range": "(Shots 51-55)",
+      "description": "House Protection (Shots 51-55) [SIGRID-CORNERED] receiving Bergrisi protection - dress billowing slightly from warm air bubble (37°C protection), pregnancy 7 months highly visible, posture straightening as supernatural protection enables confidence, arms lowered from defensive position to reverent ritual readiness, grey eyes brightening with landvættir connection and chosen status awareness, breathing returning to 15/min human rhythm within protection zone, voice gaining supernatural authority with corvid harmonics strengthening, facial expression showing relief mixed with growing transformation anticipation, braids stirring from protective wind, positioned where wall crack widens into escape route, wooden cross glowing with warmth from supernatural protection."
+    },
+    "SIGRID-CORVID": {
+      "description": "[CHOSEN base] discovering escape route - dress billowing from warm air protection, pregnancy 7-8 months full mystical completion, posture straightening with supernatural assistance, arms raised toward widening wall crack (klettagjá formation), grey eyes focused on escape route with desperate hope, breathing 15/min human but with 12/min raven undertones mixing, voice contralto with strong corvid harmonics during escape preparation, facial expression showing determination mixed with transformation anticipation, braids stirring from supernatural protective wind, positioned at wall crack examining escape width with careful measurement, wooden cross glowing with escape blessing.",
+      "character": "Sigrid",
+      "shot_range": "",
+      "name": "Escaping",
+      "is_master": false
+    },
+    "SIGRID-MARKED": {
+      "name": "Deeper",
+      "is_master": false,
+      "description": "[MARKED base] with vocal change from forced testicle consumption - dress disheveled at neckline from violation, pregnancy 2-3 months beginning to show, posture protective with curved spine shielding belly, arms permanently crossed over pregnancy, grey eyes showing violation trauma but strengthening resolve, breathing controlled 15/min with effort maintaining human rhythm, voice dropped to lower soprano/high contralto with clear raven undertones from biological change, facial expression combining violation trauma with growing supernatural authority, braids loosened with violation struggle, positioned maximum 12 feet against wall with defensive spacing, wooden cross gripped for spiritual protection during biological change.",
+      "character": "Sigrid",
+      "shot_range": ""
+    },
+    "SIGRID-MASTER": {
+      "name": "PLATE 1",
+      "is_master": false,
+      "character": "Sigrid",
+      "shot_range": "(Shots 1-7)",
+      "description": "Pure Innocence (Shots 1-7) [MAGNUS-MASTER] with untouched innocence - grey-brown vaðmál dress clean and recently washed, no visible pregnancy, posture naturally confident with gentle back-straightness, arms loose at sides without defensive crossing, grey eyes bright with curiosity and familial affection, breathing easy 15/min peaceful human rhythm, soprano voice pure and musical during work songs, facial expression open with trusting family connection, braids perfectly arranged with no escaped wisps, positioned comfortably 8 feet from Magnus without wall-requirement, wooden cross resting naturally in pocket without protective concealment."
+    },
+    "SIGRID-MATHEMATICAL": {
+      "is_master": false,
+      "character": "Sigrid",
+      "name": "Calculating",
+      "description": "[AWAKENING base] during family counting breakdown - dress position showing conscious distance maintenance, pregnancy barely visible (2 months), posture alert with analytical assessment stance, arms loose but ready for defensive positioning, grey eyes sharp with mathematical awareness and growing alarm, breathing controlled 15/min human resistance despite family synchronization, voice maintaining soprano purity with analytical edge, facial expression showing intelligence processing impossible mathematics, braids severe and controlled for analytical focus, positioned exactly 11 feet from counting center with measured precision, wooden cross gripped for psychological anchor during mathematical impossibility.",
+      "shot_range": ""
+    },
+    "SIGRID-PLATE17": {
+      "is_master": false,
+      "name": "PLATE 17",
+      "description": "Contamination Exposure (Shot 9a-9b Feast Corruption) [SIGRID-PURE] during neurotoxin exposure - dress unstained despite family contamination visible, pregnancy not yet visible (1 month), posture showing first defensive awareness, arms beginning protective crossing, grey eyes developing analytical sharpness with amber flecks brightening from chemical influence, breathing maintaining 15/min human rate despite toxin exposure, voice pure soprano but with subtle harmonic undertones from neurotoxin effect, facial expression showing innocence processing contamination recognition, braids perfect but hair texture slightly changed from chemical influence, positioned 8 feet from family activity, wooden cross warm in pocket during contamination exposure.",
+      "character": "Sigrid",
+      "shot_range": "(Shots 8-10 Danish Counting)"
+    },
+    "SIGRID-PLATE2": {
+      "shot_range": "(Shots 8-15)",
+      "description": "Growing Awareness (Shots 8-15) [SIGRID-PURE] with subtle awareness developing - dress showing minor wear, first hint of pregnancy (barely visible belly curve), posture beginning slight defensive positioning, arms occasionally crossing over midsection, grey eyes developing analytical flicker when observing family dynamics, breathing maintaining 15/min but with occasional deeper assessment breaths, voice retaining purity but with thoughtful pauses, facial expression mixing innocence with growing environmental awareness, braids with few wisps escaping suggesting mild stress, positioning unconsciously shifting to 9-10 feet from Magnus, wooden cross gripped occasionally through pocket fabric.",
+      "is_master": false,
+      "character": "Sigrid",
+      "name": "PLATE 2"
+    },
+    "SIGRID-POISONED": {
+      "description": "[PURE base] during neurotoxin exposure - dress unstained despite family contamination visible, pregnancy not yet visible (1 month), posture showing first defensive awareness, arms beginning protective crossing, grey eyes developing analytical sharpness with amber flecks brightening from chemical influence, breathing maintaining 15/min human rate despite toxin exposure, voice pure soprano but with subtle harmonic undertones from neurotoxin effect, facial expression showing innocence processing contamination recognition, braids perfect but hair texture slightly changed from chemical influence, positioned 8 feet from family activity, wooden cross warm in pocket during contamination exposure.",
+      "shot_range": "",
+      "name": "Poisoned",
+      "character": "Sigrid",
+      "is_master": false
+    },
+    "SIGRID-PROTECTED": {
+      "is_master": false,
+      "name": "PLATE 16",
+      "shot_range": "(Shots 8-10 Danish Counting)",
+      "character": "Sigrid",
+      "description": "Surveillance Recognition (Shot 5.5 Web) [SIGRID-PURE] during family surveillance web - dress arranged for minimal visibility profile, pregnancy concealed through defensive posturing, posture compressed against wall minimizing physical presence, arms wrapped around torso for protection and concealment, grey eyes tracking all family movement through peripheral vision while appearing to study wall, breathing controlled 15/min despite surveillance pressure, voice silent except for necessary responses, facial expression showing hypervigilant awareness disguised as wall-study concentration, braids tight and severe to avoid drawing attention, positioned in corner optimizing surveillance observation while minimizing target profile, wooden cross concealed completely within pocket grip."
+    },
+    "SIGRID-PURE": {
+      "shot_range": "",
+      "is_master": false,
+      "name": "Pure",
+      "description": "[SIGRID-MASTER] with untouched innocence - grey-brown vaðmál dress clean and recently washed, no visible pregnancy, posture naturally confident with gentle back-straightness, arms loose at sides without defensive crossing, grey eyes bright with curiosity and familial affection, breathing easy 15/min peaceful human rhythm, soprano voice pure and musical during work songs, facial expression open with trusting family connection, braids perfectly arranged with no escaped wisps, positioned comfortably 8 feet from Magnus without wall-requirement, wooden cross resting naturally in pocket without protective concealment.",
+      "character": "Sigrid"
+    },
+    "WESTFJORDS-CLIFF": {
+      "is_master": false,
+      "description": "Cliff environment plate for Westfjords setting",
+      "character": "Environment",
+      "name": "Westfjords Cliff",
+      "shot_range": ""
+    },
+    "ZERO-HZ": {
+      "description": "ZERO-HZ with 0Hz transformation - rigid military posture replacing hunched defeat.",
+      "character": "Magnus",
+      "name": "Zero Hz",
+      "is_master": false,
+      "shot_range": ""
+    }
+  },
+  "_total_plates": 119,
+  "_complete_system": true,
+  "last_updated": "2025-09-16T07:15:00Z"
+}

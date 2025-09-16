@@ -20,12 +20,15 @@
       "dialogue": "",
       "negative_prompt": "",
       "selected_plates": [
-        "MAGNUS-PREDATOR",
-        "JON-TEMPORAL",
-        "GUDRUN-CONDEMNED",
-        "SIGRID-CORNERED",
-        "LILJA-SENSING",
-        "STOFA-BODY"
+        "BAÐSTOFA-DOMESTIC",
+        "WESTFJORDS-SUMMER",
+        "SEA-DIVINE"
+      ],
+      "available_character_plates": {},
+      "available_environmental_plates": [
+        "BAÐSTOFA-DOMESTIC",
+        "WESTFJORDS-SUMMER",
+        "SEA-DIVINE"
       ]
     }
   ],

@@ -68,9 +68,23 @@
       "video_references": [],
       "selected_plates": [
         "MAGNUS-AUTHORITY",
+        "SIGRID-PURE",
         "LILJA-PURE",
         "JON-MASTER",
-        "SEA-ABUNDANT"
+        "GUDRUN-ABUNDANT",
+        "SEA-DIVINE",
+        "WESTFJORDS-BEACH"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-AUTHORITY",
+        "sigrid": "SIGRID-PURE",
+        "lilja": "LILJA-PURE",
+        "jon": "JON-MASTER",
+        "gudrun": "GUDRUN-ABUNDANT"
+      },
+      "available_environmental_plates": [
+        "SEA-DIVINE",
+        "WESTFJORDS-BEACH"
       ]
     }
   ],

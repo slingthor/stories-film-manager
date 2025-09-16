@@ -1,159 +1,159 @@
 {
-  "last_updated" : "2025-09-06T09:42:18Z",
-  "plate_index" : {
-    "LILJA-FINAL" : {
-      "name" : "Final",
-      "shot_range" : "",
-      "is_master" : false,
-      "character" : "Lilja",
-      "description" : "Before consciousness simplification, face maintaining child expression despite anatomical changes, mouth adapted for sheep vocalization."
+  "last_updated": "2025-09-06T09:42:18Z",
+  "plate_index": {
+    "LILJA-FINAL": {
+      "name": "Final",
+      "shot_range": "",
+      "is_master": false,
+      "character": "Lilja",
+      "description": "Before consciousness simplification, face maintaining child expression despite anatomical changes, mouth adapted for sheep vocalization."
     },
-    "GUDRUN-SPEAKING" : {
-      "name" : "Speaking",
-      "character" : "Gudrun",
-      "description" : "Truth-telling transformation, blood-soaked dress, faldbúningur ice crown, wool production complete, maternal authority through species change.",
-      "is_master" : false,
-      "shot_range" : ""
+    "GUDRUN-SPEAKING": {
+      "name": "Speaking",
+      "character": "Gudrun",
+      "description": "Truth-telling transformation, blood-soaked dress, faldbúningur ice crown, wool production complete, maternal authority through species change.",
+      "is_master": false,
+      "shot_range": ""
     },
-    "SIGRID-MARKED" : {
-      "is_master" : false,
-      "character" : "Sigrid",
-      "description" : "Post-violation defensive positioning, dress disheveled, pregnancy 2-month curve visible, arms crossed protectively, 11-foot defensive spacing.",
-      "shot_range" : "",
-      "name" : "Marked"
+    "SIGRID-MARKED": {
+      "is_master": false,
+      "character": "Sigrid",
+      "description": "Post-violation defensive positioning, dress disheveled, pregnancy 2-month curve visible, arms crossed protectively, 11-foot defensive spacing.",
+      "shot_range": "",
+      "name": "Marked"
     },
-    "SIGRID-CORNERED" : {
-      "name" : "Cornered",
-      "description" : "Maximum threat situation, pressed against wall, 6-month pregnancy visible, arms defensive over belly, klettagjá forming behind her.",
-      "shot_range" : "",
-      "is_master" : false,
-      "character" : "Sigrid"
+    "SIGRID-CORNERED": {
+      "name": "Cornered",
+      "description": "Maximum threat situation, pressed against wall, 6-month pregnancy visible, arms defensive over belly, klettagjá forming behind her.",
+      "shot_range": "",
+      "is_master": false,
+      "character": "Sigrid"
     },
-    "SIGRID-MASTER" : {
-      "character" : "Sigrid",
-      "description" : "Base template - 16-year-old heart-shaped face, three-freckle nose constellation, grey eyes with amber flecks, wheat-blonde braids, 5'4\" lean build.",
-      "shot_range" : "",
-      "name" : "Sigrid Master",
-      "is_master" : true
+    "SIGRID-MASTER": {
+      "character": "Sigrid",
+      "description": "Base template - 16-year-old heart-shaped face, three-freckle nose constellation, grey eyes with amber flecks, wheat-blonde braids, 5'4\" lean build.",
+      "shot_range": "",
+      "name": "Sigrid Master",
+      "is_master": true
     },
-    "LILJA-MASTER" : {
-      "name" : "Lilja Master",
-      "description" : "Base template - 3-year-old cherubic face, cornflower-blue eyes, rosebud mouth, wheat-blonde curls, traditional child's dress.",
-      "is_master" : true,
-      "shot_range" : "",
-      "character" : "Lilja"
+    "LILJA-MASTER": {
+      "name": "Lilja Master",
+      "description": "Base template - 3-year-old cherubic face, cornflower-blue eyes, rosebud mouth, wheat-blonde curls, traditional child's dress.",
+      "is_master": true,
+      "shot_range": "",
+      "character": "Lilja"
     },
-    "JON-PROPHET" : {
-      "character" : "Jon",
-      "description" : "8-year-old with 41°C fever enabling temporal sight, round face flushed red, hazel eyes glazed with prophetic vision, sandy hair matted with sweat.",
-      "name" : "Prophet",
-      "shot_range" : "",
-      "is_master" : false
+    "JON-PROPHET": {
+      "character": "Jon",
+      "description": "8-year-old with 41°C fever enabling temporal sight, round face flushed red, hazel eyes glazed with prophetic vision, sandy hair matted with sweat.",
+      "name": "Prophet",
+      "shot_range": "",
+      "is_master": false
     },
-    "GUDRUN-PRODUCING" : {
-      "description" : "Wool emergence visible, faldbúningur concealing wrist situation, grey dress sleeves pulled down, brown apron catching falling wool.",
-      "character" : "Gudrun",
-      "name" : "Producing",
-      "shot_range" : "",
-      "is_master" : false
+    "GUDRUN-PRODUCING": {
+      "description": "Wool emergence visible, faldbúningur concealing wrist situation, grey dress sleeves pulled down, brown apron catching falling wool.",
+      "character": "Gudrun",
+      "name": "Producing",
+      "shot_range": "",
+      "is_master": false
     },
-    "SIGRID-PURE" : {
-      "character" : "Sigrid",
-      "is_master" : false,
-      "name" : "Pure",
-      "description" : "Innocent 16-year-old, untouched by family corruption, grey-brown vaðmál dress clean, positioned 8 feet from Magnus, natural confidence.",
-      "shot_range" : ""
+    "SIGRID-PURE": {
+      "character": "Sigrid",
+      "is_master": false,
+      "name": "Pure",
+      "description": "Innocent 16-year-old, untouched by family corruption, grey-brown vaðmál dress clean, positioned 8 feet from Magnus, natural confidence.",
+      "shot_range": ""
     },
-    "MAGNUS-MASTER" : {
-      "character" : "Magnus",
-      "shot_range" : "",
-      "description" : "Base template for Magnus variations - 55-year-old Westfjords fisherman, weathered rectangular face, broken aquiline nose, steel-blue hooded eyes, charcoal-grey beard.",
-      "is_master" : true,
-      "name" : "Magnus Master"
+    "MAGNUS-MASTER": {
+      "character": "Magnus",
+      "shot_range": "",
+      "description": "Base template for Magnus variations - 55-year-old Westfjords fisherman, weathered rectangular face, broken aquiline nose, steel-blue hooded eyes, charcoal-grey beard.",
+      "is_master": true,
+      "name": "Magnus Master"
     },
-    "MAGNUS-CONFUSED" : {
-      "name" : "Confused",
-      "character" : "Magnus",
-      "is_master" : false,
-      "description" : "Authority cracking during mathematical breakdown, counting failure visible, hunched posture, cane gripped for support, disheveled clothing.",
-      "shot_range" : ""
+    "MAGNUS-CONFUSED": {
+      "name": "Confused",
+      "character": "Magnus",
+      "is_master": false,
+      "description": "Authority cracking during mathematical breakdown, counting failure visible, hunched posture, cane gripped for support, disheveled clothing.",
+      "shot_range": ""
     },
-    "JON-CHANGING" : {
-      "is_master" : false,
-      "description" : "Species transformation active, fever 43°C critical, face structure beginning lamb change, sheep teeth functional, consciousness maintained.",
-      "shot_range" : "",
-      "name" : "Changing",
-      "character" : "Jon"
+    "JON-CHANGING": {
+      "is_master": false,
+      "description": "Species transformation active, fever 43°C critical, face structure beginning lamb change, sheep teeth functional, consciousness maintained.",
+      "shot_range": "",
+      "name": "Changing",
+      "character": "Jon"
     },
-    "GUDRUN-MASTER" : {
-      "is_master" : true,
-      "description" : "Base template - 35-year-old oval face, hollow cheeks, grey-green eyes, white faldbúningur headdress, 5'5\" skeletal frame from malnutrition.",
-      "shot_range" : "",
-      "character" : "Gudrun",
-      "name" : "Gudrun Master"
+    "GUDRUN-MASTER": {
+      "is_master": true,
+      "description": "Base template - 35-year-old oval face, hollow cheeks, grey-green eyes, white faldbúningur headdress, 5'5\" skeletal frame from malnutrition.",
+      "shot_range": "",
+      "character": "Gudrun",
+      "name": "Gudrun Master"
     },
-    "SIGRID-TRANSITIONAL" : {
-      "is_master" : false,
-      "description" : "Species change beginning, dress appearing costume-like on changing body, pregnancy full-term mystical, posture shifting between human and corvid.",
-      "shot_range" : "",
-      "name" : "Transitional",
-      "character" : "Sigrid"
+    "SIGRID-TRANSITIONAL": {
+      "is_master": false,
+      "description": "Species change beginning, dress appearing costume-like on changing body, pregnancy full-term mystical, posture shifting between human and corvid.",
+      "shot_range": "",
+      "name": "Transitional",
+      "character": "Sigrid"
     },
-    "LILJA-MATHEMATICAL" : {
-      "description" : "Child confusion about adult mathematical impossibility, silently counting along but getting different numbers, blue eyes showing innocent awareness.",
-      "character" : "Lilja",
-      "shot_range" : "",
-      "is_master" : false,
-      "name" : "Mathematical"
+    "LILJA-MATHEMATICAL": {
+      "description": "Child confusion about adult mathematical impossibility, silently counting along but getting different numbers, blue eyes showing innocent awareness.",
+      "character": "Lilja",
+      "shot_range": "",
+      "is_master": false,
+      "name": "Mathematical"
     },
-    "SIGRID-CALCULATING" : {
-      "description" : "Analytical awareness during family counting breakdown, mathematical intelligence processing impossibility, positioned exactly 11 feet from counting center.",
-      "is_master" : false,
-      "name" : "Calculating",
-      "character" : "Sigrid",
-      "shot_range" : ""
+    "SIGRID-CALCULATING": {
+      "description": "Analytical awareness during family counting breakdown, mathematical intelligence processing impossibility, positioned exactly 11 feet from counting center.",
+      "is_master": false,
+      "name": "Calculating",
+      "character": "Sigrid",
+      "shot_range": ""
     },
-    "GUDRUN-COUNTING" : {
-      "description" : "During family counting breakdown, faldbúningur disheveled, grey dress wrinkled, brown apron twisted from nervous handling.",
-      "is_master" : false,
-      "character" : "Gudrun",
-      "shot_range" : "",
-      "name" : "Counting"
+    "GUDRUN-COUNTING": {
+      "description": "During family counting breakdown, faldbúningur disheveled, grey dress wrinkled, brown apron twisted from nervous handling.",
+      "is_master": false,
+      "character": "Gudrun",
+      "shot_range": "",
+      "name": "Counting"
     },
-    "JON-MASTER" : {
-      "description" : "Base template - 8-year-old round face flushed with fever, button nose bright red, hazel eyes, sandy brown hair, 4'2\" skeletal frame.",
-      "is_master" : true,
-      "character" : "Jon",
-      "shot_range" : "",
-      "name" : "Jon Master"
+    "JON-MASTER": {
+      "description": "Base template - 8-year-old round face flushed with fever, button nose bright red, hazel eyes, sandy brown hair, 4'2\" skeletal frame.",
+      "is_master": true,
+      "character": "Jon",
+      "shot_range": "",
+      "name": "Jon Master"
     },
-    "GUDRUN-ABUNDANT" : {
-      "is_master" : false,
-      "character" : "Gudrun",
-      "description" : "Competent mother during false prosperity, white faldbúningur pristine, grey dress clean, brown apron fresh, confident maternal authority.",
-      "shot_range" : "",
-      "name" : "Abundant"
+    "GUDRUN-ABUNDANT": {
+      "is_master": false,
+      "character": "Gudrun",
+      "description": "Competent mother during false prosperity, white faldbúningur pristine, grey dress clean, brown apron fresh, confident maternal authority.",
+      "shot_range": "",
+      "name": "Abundant"
     },
-    "MAGNUS-PREDATOR" : {
-      "description" : "0Hz violence-ready, territorial positioning, cane as weapon, predatory surveillance focus, authority through intimidation.",
-      "is_master" : false,
-      "shot_range" : "",
-      "name" : "Predator",
-      "character" : "Magnus"
+    "MAGNUS-PREDATOR": {
+      "description": "0Hz violence-ready, territorial positioning, cane as weapon, predatory surveillance focus, authority through intimidation.",
+      "is_master": false,
+      "shot_range": "",
+      "name": "Predator",
+      "character": "Magnus"
     },
-    "MAGNUS-HYBRID" : {
-      "shot_range" : "",
-      "description" : "Ram transformation visible, posture lowering toward quadruped, jaw showing ruminant changes, steel-blue eyes developing horizontal pupils.",
-      "is_master" : false,
-      "name" : "Hybrid",
-      "character" : "Magnus"
+    "MAGNUS-HYBRID": {
+      "shot_range": "",
+      "description": "Ram transformation visible, posture lowering toward quadruped, jaw showing ruminant changes, steel-blue eyes developing horizontal pupils.",
+      "is_master": false,
+      "name": "Hybrid",
+      "character": "Magnus"
     },
-    "MAGNUS-AUTHORITY" : {
-      "description" : "Magnús Þorláksson as confident patriarch, weathered but authoritative, steel-blue eyes showing leadership, clean brown vaðmál sweater, cane held casually, upright posture.",
-      "character" : "Magnus",
-      "name" : "Authority",
-      "shot_range" : "",
-      "is_master" : false
+    "MAGNUS-AUTHORITY": {
+      "description": "Magnus Thorlaksson as confident patriarch, weathered but authoritative, steel-blue eyes showing leadership, clean brown vaðmál sweater, cane held casually, upright posture.",
+      "character": "Magnus",
+      "name": "Authority",
+      "shot_range": "",
+      "is_master": false
     }
   }
 }

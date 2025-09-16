@@ -68,7 +68,18 @@
       "negative_prompt": "no text overlays, no modern elements, show 200-foot shadow, three colored stains visible, 1080p",
       "video_references": [],
       "selected_plates": [
-        "SEA-ABUNDANT"
+        "MAGNUS-AUTHORITY",
+        "SIGRID-PURE",
+        "SEA-DIVINE",
+        "WESTFJORDS-FJORD"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-AUTHORITY",
+        "sigrid": "SIGRID-PURE"
+      },
+      "available_environmental_plates": [
+        "SEA-DIVINE",
+        "WESTFJORDS-FJORD"
       ]
     }
   ],

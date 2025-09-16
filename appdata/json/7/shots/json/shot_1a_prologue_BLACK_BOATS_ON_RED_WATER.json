@@ -41,9 +41,22 @@
       "negative_prompt": "no subtitles, show red-tinted water, synchronized rowing, distant whale spouts, 1080p",
       "video_references": [],
       "selected_plates": [
-        "LILJA-SENSING",
-        "JON-TEMPORAL",
-        "SEA-BATTLE"
+        "MAGNUS-AUTHORITY",
+        "LILJA-PURE",
+        "SIGRID-PURE",
+        "GUDRUN-ABUNDANT",
+        "SEA-DIVINE",
+        "WESTFJORDS-BEACH"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-AUTHORITY",
+        "lilja": "LILJA-PURE",
+        "sigrid": "SIGRID-PURE",
+        "gudrun": "GUDRUN-ABUNDANT"
+      },
+      "available_environmental_plates": [
+        "SEA-DIVINE",
+        "WESTFJORDS-BEACH"
       ]
     }
   ],

@@ -43,7 +43,24 @@
       "negative_prompt": "no subtitles, show supernatural surge clearly, blood cost visible, documentary observation",
       "video_references": [],
       "selected_plates": [
-        "WESTFJORDS-CLIFF"
+        "MAGNUS-CONFUSED",
+        "SIGRID-MARKED",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-PRODUCING",
+        "WESTFJORDS-WINTER",
+        "HOUSE-TRADITIONAL"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-CONFUSED",
+        "sigrid": "SIGRID-MARKED",
+        "lilja": "LILJA-MATHEMATICAL",
+        "jon": "JON-PROPHET",
+        "gudrun": "GUDRUN-PRODUCING"
+      },
+      "available_environmental_plates": [
+        "WESTFJORDS-WINTER",
+        "HOUSE-TRADITIONAL"
       ]
     }
   ],

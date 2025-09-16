@@ -20,10 +20,15 @@
       "dialogue": "",
       "negative_prompt": "",
       "selected_plates": [
-        "LILJA-SENSING",
-        "SIGRID-CORNERED",
-        "GUDRUN-CONDEMNED",
-        "STOFA-BODY"
+        "BAÐSTOFA-BODY",
+        "WESTFJORDS-WINTER",
+        "SEA-EXTRACTED"
+      ],
+      "available_character_plates": {},
+      "available_environmental_plates": [
+        "BAÐSTOFA-BODY",
+        "WESTFJORDS-WINTER",
+        "SEA-EXTRACTED"
       ]
     }
   ],
