@@ -13,6 +13,7 @@ struct ComprehensivePromptEditor: View {
     @State private var generatedCleanPrompt = ""
     @State private var showCharacterPlates = false
     @State private var showEnvironmentPlates = false
+    @State private var showClaudeConversation = false
 
     private func variantVideoThumbnail(video: VideoFile, index: Int, variant: PromptVariant, shot: FilmShot) -> some View {
         VStack(spacing: 4) {
@@ -363,6 +364,15 @@ struct ComprehensivePromptEditor: View {
                             .font(.title3)
                     }
                     .help("Copy current prompt variant")
+
+                    Button {
+                        showClaudeConversation = true
+                    } label: {
+                        Image(systemName: "bubble.left.and.bubble.right")
+                            .foregroundColor(.blue)
+                            .font(.title3)
+                    }
+                    .help("Converse with Claude about this shot")
                     .padding(.horizontal)
                 }
                 .frame(height: 50)
@@ -576,6 +586,11 @@ struct ComprehensivePromptEditor: View {
                 cleanPrompt: generatedCleanPrompt,
                 onDismiss: { showingGeneratedPrompt = false }
             )
+        }
+        .sheet(isPresented: $showClaudeConversation) {
+            if let shot = shot {
+                ClaudeConversationWindow(filmManager: filmManager, shot: shot)
+            }
         }
     }
 

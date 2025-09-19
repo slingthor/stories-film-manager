@@ -5,6 +5,7 @@ import UniformTypeIdentifiers
 struct ShotListWithSystemsView: View {
     @ObservedObject var filmManager: FilmManager
     let draggedSystem: TrackingSystem?
+    @State private var showClaudeConversation = false
     
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
@@ -45,6 +46,15 @@ struct ShotListWithSystemsView: View {
                         }) {
                             Label("Delete", systemImage: "trash")
                                 .foregroundColor(.red)
+                        }
+                        .buttonStyle(.bordered)
+                        .font(.caption)
+
+                        Button(action: {
+                            showClaudeConversation = true
+                        }) {
+                            Label("Claude", systemImage: "bubble.left.and.bubble.right")
+                                .foregroundColor(.blue)
                         }
                         .buttonStyle(.bordered)
                         .font(.caption)
@@ -100,12 +110,17 @@ struct ShotListWithSystemsView: View {
                 }
             }
         }
+        .sheet(isPresented: $showClaudeConversation) {
+            if let shot = filmManager.selectedShot {
+                ClaudeConversationWindow(filmManager: filmManager, shot: shot)
+            }
+        }
     }
-    
+
     private func isFirstShot(_ shot: FilmShot) -> Bool {
         filmManager.shots.first?.id == shot.id
     }
-    
+
     private func isLastShot(_ shot: FilmShot) -> Bool {
         filmManager.shots.last?.id == shot.id
     }
