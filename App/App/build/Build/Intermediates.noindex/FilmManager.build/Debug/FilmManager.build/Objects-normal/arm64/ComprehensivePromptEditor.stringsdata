@@ -1,0 +1,520 @@
+{
+  "source": "/Users/ingthor/Documents/stories/App/App/FilmManager/ComprehensivePromptEditor.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Remove video",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 50
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@s",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current variant: %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 77
+        }
+      },
+      {
+        "comment": "",
+        "key": "Variant Media Assets",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "",
+        "key": "Variant Videos (%lld)",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 84
+        }
+      },
+      {
+        "comment": "",
+        "key": "Variant Images (%lld)",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 102
+        }
+      },
+      {
+        "comment": "",
+        "key": "Remove image",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 130
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shot Videos (click to add to variant)",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 143
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@s",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 180
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shot Images (click to add to variant)",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 194
+        }
+      },
+      {
+        "comment": "",
+        "key": "Drop media for variant",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 241
+        }
+      },
+      {
+        "comment": "",
+        "key": "SHOT %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 270
+        }
+      },
+      {
+        "comment": "",
+        "key": "Aspect Ratio:",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 278
+        }
+      },
+      {
+        "comment": "",
+        "key": "Aspect",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 280
+        }
+      },
+      {
+        "comment": "",
+        "key": "16:9",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 284
+        }
+      },
+      {
+        "comment": "",
+        "key": "1.85:1",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 285
+        }
+      },
+      {
+        "comment": "",
+        "key": "4:3",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 286
+        }
+      },
+      {
+        "comment": "",
+        "key": "1:1",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 287
+        }
+      },
+      {
+        "comment": "",
+        "key": "2.39:1",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 288
+        }
+      },
+      {
+        "comment": "",
+        "key": "Position: %lld%%",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 300
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 301
+        }
+      },
+      {
+        "comment": "",
+        "key": "Duration: %llds",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 302
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 303
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sequence: %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 304
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 305
+        }
+      },
+      {
+        "comment": "",
+        "key": "Variants: %lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 306
+        }
+      },
+      {
+        "comment": "",
+        "key": "●",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 312
+        }
+      },
+      {
+        "comment": "",
+        "key": "Modified",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 314
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy current prompt variant",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 366
+        }
+      },
+      {
+        "comment": "",
+        "key": "Converse with Claude about this shot",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 375
+        }
+      },
+      {
+        "comment": "",
+        "key": "★",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 339
+        }
+      },
+      {
+        "comment": "",
+        "key": "Generated VEO3 Prompt",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 489
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 494
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hide",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 500
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select a shot to edit prompts",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 538
+        }
+      },
+      {
+        "comment": "",
+        "key": "Choose from the shot list to begin editing",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 542
+        }
+      },
+      {
+        "comment": "",
+        "key": "PLATES",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 735
+        }
+      },
+      {
+        "comment": "",
+        "key": "DEBUG: %lld plates: %@",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 740
+        }
+      },
+      {
+        "comment": "",
+        "key": "Environment:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 861
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@: %@",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 873
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Environment Plate",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 905
+        }
+      },
+      {
+        "comment": "",
+        "key": "Search specializations...",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 974
+        }
+      },
+      {
+        "comment": "",
+        "key": "Character",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1061
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select Character",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1062
+        }
+      },
+      {
+        "comment": "",
+        "key": "Category",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1129
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select Category",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1130
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy Prompt Variant",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1187
+        }
+      },
+      {
+        "comment": "",
+        "key": "Creating copy of: %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1191
+        }
+      },
+      {
+        "comment": "",
+        "key": "New variant name:",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1197
+        }
+      },
+      {
+        "comment": "",
+        "key": "Leave empty to auto-generate name with '(Copy)' suffix",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1205
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter name or leave empty for auto-name",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 1201
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1211
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create Copy",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1217
+        }
+      },
+      {
+        "comment": "",
+        "key": "Generated VEO3 Prompt - Shot %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1257
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy Prompt",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1263
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy Prompt PG18",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1271
+        }
+      },
+      {
+        "comment": "",
+        "key": "Close",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1281
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recommended Plates",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 1314
+        }
+      },
+      {
+        "comment": "",
+        "key": "Characters:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1321
+        }
+      },
+      {
+        "comment": "",
+        "key": "(%@)",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 1351
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@: %@",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 1342
+        }
+      },
+      {
+        "comment": "",
+        "key": "Environment:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1365
+        }
+      },
+      {
+        "comment": "",
+        "key": "(%@)",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 1395
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@: %@",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 1386
+        }
+      }
+    ]
+  },
+  "version": 1
+}

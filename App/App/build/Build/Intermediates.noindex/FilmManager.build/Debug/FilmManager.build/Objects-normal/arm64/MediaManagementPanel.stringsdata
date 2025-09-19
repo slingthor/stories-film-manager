@@ -1,0 +1,296 @@
+{
+  "source": "/Users/ingthor/Documents/stories/App/App/FilmManager/MediaManagementPanel.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "MEDIA MANAGEMENT",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select a shot for media",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 114
+        }
+      },
+      {
+        "comment": "",
+        "key": "Videos and images are organized per shot",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 118
+        }
+      },
+      {
+        "comment": "",
+        "key": "Videos (%lld)",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 304
+        }
+      },
+      {
+        "comment": "",
+        "key": "Images (%lld)",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 328
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Video",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 289
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Image",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 295
+        }
+      },
+      {
+        "comment": "",
+        "key": "Drop media here",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 355
+        }
+      },
+      {
+        "comment": "",
+        "key": "CHARACTER MEDIA",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 425
+        }
+      },
+      {
+        "comment": "",
+        "key": "No character media",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 447
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select a character plate first",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 451
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld variants",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 511
+        }
+      },
+      {
+        "comment": "",
+        "key": "PROMPT VARIANTS MEDIA",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 504
+        }
+      },
+      {
+        "comment": "",
+        "key": "No prompt variants",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 524
+        }
+      },
+      {
+        "comment": "",
+        "key": "Set Active",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 680
+        }
+      },
+      {
+        "comment": "",
+        "key": "ACTIVE FOR TIMELINE",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 669
+        }
+      },
+      {
+        "comment": "",
+        "key": "(#%lld active)",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 704
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 698
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 714
+        }
+      },
+      {
+        "comment": "",
+        "key": "Videos",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 729
+        }
+      },
+      {
+        "comment": "",
+        "key": "Images",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 763
+        }
+      },
+      {
+        "comment": "",
+        "key": "Drop media for %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 786
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@s",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 853
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show in Finder",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 925
+        }
+      },
+      {
+        "comment": "",
+        "key": "Remove",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 928
+        }
+      },
+      {
+        "comment": "",
+        "key": "ENVIRONMENT MEDIA",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 1140
+        }
+      },
+      {
+        "comment": "",
+        "key": "No environment media",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1162
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select an environment plate first",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1166
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open in Preview",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 1343
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show in Finder",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 1346
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 1350
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show in Finder",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 1409
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open in Preview",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1413
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open in Preview",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1466
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show in Finder",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1471
+        }
+      },
+      {
+        "comment": "",
+        "key": "Close",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1478
+        }
+      }
+    ]
+  },
+  "version": 1
+}

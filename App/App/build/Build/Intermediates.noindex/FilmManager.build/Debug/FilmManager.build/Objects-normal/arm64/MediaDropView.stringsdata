@@ -1,0 +1,32 @@
+{
+  "source": "/Users/ingthor/Documents/stories/App/App/FilmManager/MediaDropView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Drop images or videos here",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "Images",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 111
+        }
+      },
+      {
+        "comment": "",
+        "key": "Videos",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 132
+        }
+      }
+    ]
+  },
+  "version": 1
+}

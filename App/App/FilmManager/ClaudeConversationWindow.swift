@@ -58,6 +58,24 @@ struct ClaudeConversationWindow: View {
 
                             Divider()
 
+                            Text("Prompt Emphasis Style:")
+                                .font(.subheadline)
+                                .fontWeight(.semibold)
+
+                            Picker("Select Style", selection: Binding(
+                                get: { contextBuilder.selectedPromptEmphasisDoc ?? "None" },
+                                set: { contextBuilder.selectedPromptEmphasisDoc = $0 == "None" ? nil : $0 }
+                            )) {
+                                Text("None").tag("None")
+                                ForEach(Array(contextBuilder.promptEmphasisDocuments.keys.sorted()), id: \.self) { key in
+                                    Text(key).tag(key)
+                                }
+                            }
+                            .pickerStyle(MenuPickerStyle())
+                            .frame(maxWidth: .infinity)
+
+                            Divider()
+
                             Text("Enhancement Guides:")
                                 .font(.subheadline)
                                 .fontWeight(.semibold)
@@ -108,6 +126,66 @@ struct ClaudeConversationWindow: View {
                             }
                             .buttonStyle(.borderedProminent)
                             .disabled(integrationManager.isConnecting)
+
+                            // Copy Context Folder Path Button
+                            if let folderPath = integrationManager.contextFolderPath {
+                                Button(action: {
+                                    let pasteboard = NSPasteboard.general
+                                    pasteboard.clearContents()
+                                    let instruction = """
+                                    Please read through all the context files in this folder completely:
+                                    \(folderPath)
+
+                                    Start by reading 00_MAIN_CONTEXT.md first for comprehensive instructions, then read all other files in order. Pay special attention to the current shot details and the plate system for creating new prompt variants.
+                                    """
+                                    pasteboard.setString(instruction, forType: .string)
+                                }) {
+                                    HStack {
+                                        Image(systemName: "doc.on.clipboard")
+                                        Text("Copy Context Folder with Instructions")
+                                    }
+                                    .frame(maxWidth: .infinity)
+                                }
+                                .buttonStyle(.bordered)
+                                .help("Copy the context folder path with instructions for Claude to read everything")
+                            }
+
+                            // Copy Current Prompt JSON Button
+                            Button(action: {
+                                if shot.selectedPromptIndex < shot.promptVariants.count {
+                                    let currentVariant = shot.promptVariants[shot.selectedPromptIndex]
+                                    let jsonData: [String: Any] = [
+                                        "variant_id": currentVariant.variantId,
+                                        "variant_name": currentVariant.name,
+                                        "subject": currentVariant.subject,
+                                        "action": currentVariant.action,
+                                        "scene": currentVariant.scene,
+                                        "style": currentVariant.style,
+                                        "camera_position": currentVariant.cameraPosition,
+                                        "dialogue": currentVariant.dialogue,
+                                        "selected_plates": currentVariant.selectedPlateIds,
+                                        "negative_prompt": currentVariant.negativePrompt,
+                                        "progressive_state": currentVariant.progressiveState,
+                                        "is_active": currentVariant.isActive
+                                    ]
+
+                                    if let jsonData = try? JSONSerialization.data(withJSONObject: jsonData, options: [.prettyPrinted, .sortedKeys]),
+                                       let jsonString = String(data: jsonData, encoding: .utf8) {
+                                        let pasteboard = NSPasteboard.general
+                                        pasteboard.clearContents()
+                                        pasteboard.setString(jsonString, forType: .string)
+                                    }
+                                }
+                            }) {
+                                HStack {
+                                    Image(systemName: "doc.text")
+                                    Text("Copy Current Prompt JSON")
+                                }
+                                .frame(maxWidth: .infinity)
+                            }
+                            .buttonStyle(.bordered)
+                            .disabled(shot.promptVariants.isEmpty)
+                            .help("Copy the currently selected prompt variant as JSON")
 
                             Button("Add JSON Prompt Variant") {
                                 showJSONEditor = true

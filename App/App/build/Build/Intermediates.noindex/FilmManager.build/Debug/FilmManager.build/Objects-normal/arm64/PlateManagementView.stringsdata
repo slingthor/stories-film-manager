@@ -1,0 +1,104 @@
+{
+  "source": "/Users/ingthor/Documents/stories/App/App/FilmManager/PlateManagementView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Plate Browser",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "Plate Type",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "Available Character Plates",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "Available Environmental Plates",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 130
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current Selection for Shot %@",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 161
+        }
+      },
+      {
+        "comment": "",
+        "key": "No character plate selected",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 170
+        }
+      },
+      {
+        "comment": "",
+        "key": "No environment plate selected",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 179
+        }
+      },
+      {
+        "comment": "",
+        "key": "(%lld plates)",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 212
+        }
+      },
+      {
+        "comment": "",
+        "key": "(%lld plates)",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 292
+        }
+      },
+      {
+        "comment": "",
+        "key": "Read",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 386
+        }
+      },
+      {
+        "comment": "",
+        "key": "Read",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 435
+        }
+      },
+      {
+        "comment": "",
+        "key": "Close",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 513
+        }
+      }
+    ]
+  },
+  "version": 1
+}
