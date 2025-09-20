@@ -1,9 +1,16 @@
 {
-  "selected_prompt_index": 0,
   "prompt_variants": [
     {
-      "subject": "[JÃ“N] and [LILJA] by the dying hearth making shadow puppets on the wall, but their human hands cast sheep shadows - ram, ewe, lambs - arranged in rÃ©ttir formation, showing the transformation before it happens.",
-      "action": "Children sit by hearth's last embers. JÃ³n raises hands to make shadow bird. But shadow shows ram's head - curved horns, long snout. Doesn't notice. Lilja makes butterfly with hands. Shadow shows ewe, faldbÃºningur shape on sheep head. They continue playing, shadows telling truth. PUSH IN on wall. Shadow play becomes elaborate: Five sheep in pen formation. Sixth shadow appears though only two children. The shadows begin moving independently - sheep shadows walking while hands stay still. Through shadows, glimpse of empty clothes standing behind children, also casting shadows. Now eight shadows for two children and clothes. Mathematical impossibility visible. In shadow: sheep have human teeth, visible when shadow-mouths open. JÃ³n's fever allows him to see: \"SjÃ¡Ã°u! ViÃ° erum Ã¾egar...\" (Look! We already are...). Lilja nods, continues playing. They know. Accept.",
+      "subject": "[JÐ“N] and [LILJA] by the dying hearth making shadow puppets on the wall, but their human hands cast sheep shadows - ram, ewe, lambs - arranged in réttir formation, showing the transformation before it happens.",
+      "action": "Children sit by hearth's last embers. Jón raises hands to make shadow bird. But shadow shows ram's head - curved horns, long snout. Doesn't notice. Lilja makes butterfly with hands. Shadow shows ewe, faldbúningur shape on sheep head. They continue playing, shadows telling truth. PUSH IN on wall. Shadow play becomes elaborate: Five sheep in pen formation. Sixth shadow appears though only two children. The shadows begin moving independently - sheep shadows walking while hands stay still. Through shadows, glimpse of empty clothes standing behind children, also casting shadows. Now eight shadows for two children and clothes. Mathematical impossibility visible. In shadow: sheep have human teeth, visible when shadow-mouths open. Jón's fever allows him to see: \"SjáÐ°u! ViÐ° erum Ð¾egar...\" (Look! We already are...). Lilja nods, continues playing. They know. Accept.",
+      "variant_name": "Primary - CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS",
+      "camera_position": "Push in on prophetic shadows",
+      "dialogue": "(Jón, seeing truth): \"SjáÐ°u! ViÐ° erum Ð¾egar...\" (Lilja): \"Ð‰g veit. ViÐ° vitum\" (I know. We know)",
+      "progressive_state": "",
+      "style": "Push in on prophetic shadows (that's where the camera is), future documented before it happens.",
+      "negative_prompt": "",
+      "is_active": false,
+      "scene": "By dying hearth, 8:00 PM darkness. Only light from embers. Shadows prominent on wall. Empty clothes participating.",
       "selected_plates": [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
@@ -13,36 +20,18 @@
         "BAÐSTOFA-CRYSTALLIZING",
         "WESTFJORDS-CLIFF"
       ],
-      "variant_name": "Primary - CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS",
-      "negative_prompt": "",
-      "is_active": false,
-      "style": "Push in on prophetic shadows (that's where the camera is), future documented before it happens.",
-      "dialogue": "(JÃ³n, seeing truth): \"SjÃ¡Ã°u! ViÃ° erum Ã¾egar...\" (Lilja): \"Ã‰g veit. ViÃ° vitum\" (I know. We know)",
-      "progressive_state": "",
-      "scene": "By dying hearth, 8:00 PM darkness. Only light from embers. Shadows prominent on wall. Empty clothes participating.",
-      "variant_id": "51a_story_primary",
-      "camera_position": "Push in on prophetic shadows",
-      "available_character_plates": {
-        "magnus": "MAGNUS-POSSESSING",
-        "sigrid": "SIGRID-CORNERED",
-        "lilja": "LILJA-EVOLVING",
-        "jon": "JON-ENERGETIC",
-        "gudrun": "GUDRUN-RETURNING"
-      },
-      "available_environmental_plates": [
-        "BAÐSTOFA-CRYSTALLIZING",
-        "WESTFJORDS-CLIFF"
-      ]
+      "variant_id": "51a_story_primary"
     }
   ],
-  "aspect_ratio": "4:3",
+  "selected_prompt_index": 0,
   "progressive_state": "House 8/min sleeping + 60bpm | Night falling | Camera frost 40% | Future cast on walls | Watching: Shadows know",
   "shot_metadata": {
-    "narrative_function": "House 8/min sleeping + 60bpm | Night falling | Cam...",
+    "title": "CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS",
     "sequence_type": "main_story",
-    "stitch_from": "",
     "duration_seconds": 6,
+    "narrative_function": "House 8/min sleeping + 60bpm | Night falling | Cam...",
     "id": "51a",
-    "title": "CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS"
-  }
+    "stitch_from": ""
+  },
+  "aspect_ratio": "4:3"
 }

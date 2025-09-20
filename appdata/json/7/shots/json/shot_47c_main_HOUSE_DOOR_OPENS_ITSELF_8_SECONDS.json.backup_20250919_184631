@@ -1,0 +1,36 @@
+{
+  "shot_metadata" : {
+    "stitch_from" : "",
+    "id" : "47c",
+    "narrative_function" : "House recognizing her | Door sentient | Camera fro...",
+    "duration_seconds" : 8,
+    "title" : "HOUSE DOOR OPENS ITSELF 8 SECONDS",
+    "sequence_type" : "main_story"
+  },
+  "selected_prompt_index" : 0,
+  "progressive_state" : "House recognizing her | Door sentient | Camera frost 35.5% | Giant chooses | Watching: House decides",
+  "aspect_ratio" : "4:3",
+  "prompt_variants" : [
+    {
+      "scene" : "House exterior to interior, 10:15 AM. Door acting autonomously. Family tableau visible. Temperature differential visible as steam.",
+      "style" : "Push in on sentient door, revealing interior tableau (that's where the camera is), house agency documented.",
+      "progressive_state" : "",
+      "action" : "GuÃ°rÃºn 10 meters from door. Reaches for handle. Door OPENS inward before contact. Not wind - deliberate, slow, controlled. Like someone inside opening, but family visible through window, no one near door. All frozen in rÃ©ttir positions still, watching her approach. PUSH IN on door gap widening. Steam exits - house is warmer than outside, 37Â°C at floor (body temperature). Door opens exactly wide enough for her to enter, no more. House breathing accelerates seeing her: 16\/min to 18\/min, excited or panicked. Through doorway: family arranged as before. MagnÃºs standing separate, face showing shock - she survived his death sentence. Children on floor, JÃ³n's sheep teeth more visible. Sigrid still exactly 11 feet from MagnÃºs, hand on belly, only one unsurprised. Tilberi at center, brass eye turning toward door. Empty clothes have moved - now standing in formation behind family, sixth presence confirmed. Door waits. Patient. She steps through. Door closes itself behind her. Gentle. House has chosen. Bergrisi protecting her from MagnÃºs's next violence.",
+      "is_active" : false,
+      "negative_prompt" : "no wind causation, show door's deliberate movement, maintain tableau",
+      "camera_position" : "Push in on sentient door, revealing interior tableau",
+      "variant_name" : "Primary - HOUSE DOOR OPENS ITSELF 8 SECONDS",
+      "selected_plates" : [
+        "MAGNUS-DEFEATED",
+        "SIGRID-ORACLE",
+        "LILJA-EVOLVING",
+        "JON-ENERGETIC",
+        "GUDRUN-RETURNING",
+        "BAÐSTOFA-CRYSTALLIZING"
+      ],
+      "subject" : "As [GUÃRÃšN] approaches the house, the door opens by itself before she reaches it - not wind but the house choosing to admit her, while through windows the family is visible frozen in tableau, watching her impossible return from death sentence.",
+      "dialogue" : "(MagnÃºs, shocked): \"ÃžÃº... lifÃ°ir?\" (Sigrid, unsurprised): \"HÃºsiÃ° valdi\" (The house chose) (Door): Creaking in greeting rhythm",
+      "variant_id" : "47c_story_primary"
+    }
+  ]
+}

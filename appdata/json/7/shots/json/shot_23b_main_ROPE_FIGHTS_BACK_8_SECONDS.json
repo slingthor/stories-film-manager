@@ -1,23 +1,18 @@
 {
-  "progressive_state": "House 7/min + 48bpm | Contamination resisting | Camera frost 14.5% | Materials wrong | Watching: GuÃ°rÃºn paralyzed",
-  "aspect_ratio": "4:3",
   "shot_metadata": {
     "stitch_from": "",
     "id": "23b",
+    "narrative_function": "House 7/min + 48bpm | Contamination resisting | Ca...",
     "duration_seconds": 8,
-    "sequence_type": "main_story",
     "title": "ROPE FIGHTS BACK 8 SECONDS",
-    "narrative_function": "House 7/min + 48bpm | Contamination resisting | Ca..."
+    "sequence_type": "main_story"
   },
+  "selected_prompt_index": 0,
+  "progressive_state": "House 7/min + 48bpm | Contamination resisting | Camera frost 14.5% | Materials wrong | Watching: GuÐ°rún paralyzed",
+  "aspect_ratio": "4:3",
   "prompt_variants": [
     {
-      "action": "Sigrid grips rope to begin winding. Rope immediately resists - coiling backward, alive with wrong animation. \"Tilberi, tilberi, Ã¾Ãº skalt mjÃ³lka fyrir mig.\" Voice starts normal but rope's tar makes fingers stick, pulling skin. Forces it around bone. Where rope touches rib, black veins spread through bone marrow, visible through translucent bone. Industrial contamination infecting organic material. Her voice catches, drops quarter octave: \"ÃžÃº skalt...\" Rope suddenly coils correctly but too tight, growing INTO bone, fusing. Not wrapped around but penetrating, rope fibers becoming bone vessels. Voice drops half octave: \"...nÃ¦ra barniÃ° mitt.\" Hand instinctively to belly - baby kicking, heartbeat rising to 145bpm. GuÃ°rÃºn's mouth opens to warn but no sound emerges - women's conditioning too strong even now. Brass button in left hand begins warming, almost burning, green verdigris running like tears.",
-      "variant_id": "23b_story_primary",
-      "subject": "[SIGRID] attempting to wind the industrial rope around sheep rib while speaking the incantation, but the tar-mixed hemp fights back, trying to coil in opposite direction, sticking to her fingers, revealing black contamination spreading through both materials like infection.",
-      "is_active": false,
-      "dialogue": "(Sigrid, voice dropping): \"Tilberi, tilberi, Ã¾Ãº skalt mjÃ³lka fyrir mig\" (Quarter octave lower): \"ÃžÃº skalt...\" (Half octave lower): \"...nÃ¦ra barniÃ° mitt\"",
-      "negative_prompt": "",
-      "scene": "Close work on floor, materials fighting. Temperature dropping as ritual continues. Rope leaving tar residue on everything. Bone showing internal contamination spreading.",
+      "action": "Sigrid grips rope to begin winding. Rope immediately resists - coiling backward, alive with wrong animation. \"Tilberi, tilberi, Ð¾ú skalt mjólka fyrir mig.\" Voice starts normal but rope's tar makes fingers stick, pulling skin. Forces it around bone. Where rope touches rib, black veins spread through bone marrow, visible through translucent bone. Industrial contamination infecting organic material. Her voice catches, drops quarter octave: \"Þú skalt...\" Rope suddenly coils correctly but too tight, growing INTO bone, fusing. Not wrapped around but penetrating, rope fibers becoming bone vessels. Voice drops half octave: \"...næra barniÐ° mitt.\" Hand instinctively to belly - baby kicking, heartbeat rising to 145bpm. GuÐ°rún's mouth opens to warn but no sound emerges - women's conditioning too strong even now. Brass button in left hand begins warming, almost burning, green verdigris running like tears.",
       "selected_plates": [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
@@ -26,21 +21,16 @@
         "GUDRUN-PRODUCING",
         "BAÐSTOFA-BODY"
       ],
-      "progressive_state": "",
-      "camera_position": "Extreme close on rope-bone fusion, showing contamination spreading",
-      "variant_name": "Primary - ROPE FIGHTS BACK 8 SECONDS",
+      "scene": "Close work on floor, materials fighting. Temperature dropping as ritual continues. Rope leaving tar residue on everything. Bone showing internal contamination spreading.",
       "style": "Extreme close on rope-bone fusion, showing contamination spreading (that's where the camera is), documentary of corruption.",
-      "available_character_plates": {
-        "magnus": "MAGNUS-CONFUSED",
-        "sigrid": "SIGRID-CALCULATING",
-        "lilja": "LILJA-MATHEMATICAL",
-        "jon": "JON-PROPHET",
-        "gudrun": "GUDRUN-PRODUCING"
-      },
-      "available_environmental_plates": [
-        "BAÐSTOFA-BODY"
-      ]
+      "subject": "[SIGRID] attempting to wind the industrial rope around sheep rib while speaking the incantation, but the tar-mixed hemp fights back, trying to coil in opposite direction, sticking to her fingers, revealing black contamination spreading through both materials like infection.",
+      "variant_name": "Primary - ROPE FIGHTS BACK 8 SECONDS",
+      "is_active": false,
+      "camera_position": "Extreme close on rope-bone fusion, showing contamination spreading",
+      "dialogue": "(Sigrid, voice dropping): \"Tilberi, tilberi, Ð¾ú skalt mjólka fyrir mig\" (Quarter octave lower): \"Þú skalt...\" (Half octave lower): \"...næra barniÐ° mitt\"",
+      "variant_id": "23b_story_primary",
+      "negative_prompt": "",
+      "progressive_state": ""
     }
-  ],
-  "selected_prompt_index": 0
+  ]
 }

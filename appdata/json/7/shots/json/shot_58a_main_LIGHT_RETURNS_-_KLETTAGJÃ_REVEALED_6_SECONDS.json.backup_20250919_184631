@@ -1,0 +1,36 @@
+{
+  "prompt_variants" : [
+    {
+      "subject" : "Light gradually returning revealing the house has transformed - walls cracked open into rocky cleft formation, ceiling gone showing sky, the familiar 12Ã—16 space now a natural cave with stone rÃ©ttir patterns still visible in floor, sheep family huddled in center.",
+      "action" : "Light seeps in - not through windows but through rock. House IS rock now. CRANE UP slowly through transformed space. Walls no longer wood\/turf but black volcanic stone. Cracks from earlier have become passages - five leading out, sixth blocked. The klettagjÃ¡ from lullaby, literal rocky cleft. But traces remain: doorframe still there but in stone. Hearth transformed to natural fire pit. The rÃ©ttir pattern in floor now carved in rock, ancient, permanent. Sheep family huddled center, still wearing torn human clothes. They look natural here. Like they belong. Cave sheep. Always were. Above: sky visible through massive opening. Dawn light entering. But also: seven ravens circling. Waiting. Through stone passages: glimpses of ocean, mountains, freedom. But sheep can't use passages. Too narrow for livestock. Only something smaller could escape. Something that could fly.",
+      "variant_name" : "Primary - LIGHT RETURNS - KLETTAGJÃ REVEALED 6 SECONDS",
+      "camera_position" : "Crane revealing transformation",
+      "dialogue" : "None - sheep attempting sounds but failing",
+      "progressive_state" : "",
+      "style" : "Crane revealing transformation (that's where the camera is), new geography documented.",
+      "negative_prompt" : "",
+      "is_active" : false,
+      "scene" : "Transformed house-cave. Dawn light. Stone architecture. Sheep family natural in space.",
+      "selected_plates" : [
+        "MAGNUS-BREAKING",
+        "SIGRID-DUAL",
+        "LILJA-LAMB",
+        "JON-LAMB",
+        "GUDRUN-EWE",
+        "WESTFJORDS-CLIFF"
+      ],
+      "variant_id" : "58a_story_primary"
+    }
+  ],
+  "selected_prompt_index" : 0,
+  "progressive_state" : "House dead\/transformed | Dawn breaking | Camera frost 50.5% | Escape route visible | Watching: New form revealed",
+  "shot_metadata" : {
+    "title" : "LIGHT RETURNS - KLETTAGJÃ REVEALED 6 SECONDS",
+    "sequence_type" : "main_story",
+    "duration_seconds" : 6,
+    "narrative_function" : "House dead\/transformed | Dawn breaking | Camera fr...",
+    "id" : "58a",
+    "stitch_from" : ""
+  },
+  "aspect_ratio" : "4:3"
+}

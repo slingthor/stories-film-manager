@@ -1,0 +1,39 @@
+PLATE REFERENCE FIX MAPPING
+=============================
+
+Character plates that should reference their own master plates:
+
+MAGNUS plates (correctly reference MAGNUS-MASTER):
+- MAGNUS-PREPARING ✓ (correct)
+- MAGNUS-CONFUSED ✓ (correct)
+- MAGNUS-DEPARTING ✓ (correct)
+- MAGNUS-TRANSITION ✓ (correct)
+- MAGNUS-AGING ✓ (correct)
+- MAGNUS-SUMMER ✓ (correct)
+- MAGNUS-AUTUMN ✓ (correct)
+- MAGNUS-PREPARATION ✓ (correct)
+- MAGNUS-AFLOAT ✓ (correct)
+- MAGNUS-MATHEMATICAL ✓ (correct)
+
+INCORRECT references that need fixing:
+
+SIGRID plates:
+- SIGRID-PURE: [MAGNUS-MASTER] → [SIGRID-MASTER]
+
+LILJA plates:
+- LILJA-PURE: [MAGNUS-MASTER] → [LILJA-MASTER]
+
+GUDRUN plates:
+- GUDRUN-ABUNDANT: [MAGNUS-MASTER] → [GUDRUN-MASTER]
+
+JON plates:
+- JON-MILD: [MAGNUS-MASTER] → [JON-MASTER]
+- MILD: [MAGNUS-MASTER] → [JON-MASTER] (this appears to be a Jon plate)
+
+Environmental plates (these should NOT reference character masters):
+- SEA-DIVINE: [MAGNUS-MASTER] → [SEA-MASTER]
+- HOUSE-TRADITIONAL: [MAGNUS-MASTER] → [EXTERIOR-MASTER]
+- WESTFJORDS-SUMMER: [MAGNUS-MASTER] → [WESTFJORDS-MASTER]
+- STOFA-DOMESTIC: [MAGNUS-MASTER] → [BAÐSTOFA-MASTER] or appropriate base
+- BAÐSTOFA-DOMESTIC: [MAGNUS-MASTER] → [BAÐSTOFA-MASTER] or appropriate base
+- WESTFJORDS-WINTER: [MAGNUS-MASTER] → [WESTFJORDS-MASTER]

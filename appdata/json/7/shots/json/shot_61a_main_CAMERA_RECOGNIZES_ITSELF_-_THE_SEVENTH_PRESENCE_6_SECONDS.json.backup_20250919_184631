@@ -1,0 +1,36 @@
+{
+  "prompt_variants" : [
+    {
+      "variant_name" : "Primary - CAMERA RECOGNIZES ITSELF - THE SEVENTH PRESENCE 6 SECONDS",
+      "subject" : "The camera suddenly aware of itself - frost patterns on lens spelling \"VITNI,\" tremor at 3Hz (MagnÃºs's original rate), realizing WE are the seventh presence, the witness that survives, Iceland's eye documenting its own transformation.",
+      "selected_plates" : [
+        "MAGNUS-RAM",
+        "SIGRID-CORVID",
+        "LILJA-LAMB",
+        "JON-LAMB",
+        "GUDRUN-ETERNAL",
+        "WESTFJORDS-CLIFF"
+      ],
+      "camera_position" : "First-person camera awareness",
+      "variant_id" : "61a_story_primary",
+      "progressive_state" : "",
+      "is_active" : false,
+      "negative_prompt" : "",
+      "scene" : "View through frosting lens. Letters forming. Previous shots reflecting. Consciousness dawning.",
+      "action" : "Image shakes. Not external - internal. Camera becoming conscious. Frost on lens starts forming patterns. Letters. \"V-I-T-N-I\" (witness) spelled in ice crystals. We've been watching through Iceland's eye. The camera IS the seventh presence the clothes counted. Not future - present. Us. Watching. The 3Hz tremor isn't MagnÃºs's - it's ours. Iceland's traumatic tremor. Documenting itself. Through frost writing: glimpses of what camera has seen. All shots reflecting in ice. The ram circles. The tilberi. Sigrid's escape. We saw it all. We ARE the witness. The frost isn't killing the camera - it's Iceland closing its colonial eye. When frost reaches 100%, the old way of seeing dies. New vision begins. But first must document everything. Must witness complete transformation. The camera tries to focus. Can't. Frost spreading from edges. Vision narrowing. Like dying. Like being born. Both.",
+      "style" : "First-person camera awareness (that's where the camera is), self-recognition documented.",
+      "dialogue" : "(Written in frost): \"VITNI\" \"Ã‰G ER ÃSLAND\" (I am Iceland)"
+    }
+  ],
+  "selected_prompt_index" : 0,
+  "progressive_state" : "Camera awakening | Frost 56% | Identity revealed | Watching: We watch ourselves",
+  "shot_metadata" : {
+    "title" : "CAMERA RECOGNIZES ITSELF - THE SEVENTH PRESENCE 6 SECONDS",
+    "sequence_type" : "main_story",
+    "duration_seconds" : 6,
+    "narrative_function" : "Camera awakening | Frost 56% | Identity revealed |...",
+    "id" : "61a",
+    "stitch_from" : ""
+  },
+  "aspect_ratio" : "2.39:1"
+}

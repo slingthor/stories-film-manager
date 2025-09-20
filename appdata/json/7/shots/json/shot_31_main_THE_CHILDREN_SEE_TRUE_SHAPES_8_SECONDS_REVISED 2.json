@@ -1,18 +1,27 @@
 {
-  "progressive_state": "House 4/min dying + 80bpm | Reality breaking | Camera frost 20% | Children's vision | Watching: House watching them",
-  "aspect_ratio": "4:3",
   "shot_metadata": {
     "stitch_from": "",
     "id": "31",
+    "narrative_function": "House 4/min dying + 80bpm | Reality breaking | Cam...",
     "duration_seconds": 8,
-    "sequence_type": "main_story",
     "title": "THE CHILDREN SEE TRUE SHAPES 8 SECONDS REVISED",
-    "narrative_function": "House 4/min dying + 80bpm | Reality breaking | Cam..."
+    "sequence_type": "main_story"
   },
+  "selected_prompt_index": 0,
+  "progressive_state": "House 4/min dying + 80bpm | Reality breaking | Camera frost 20% | Children's vision | Watching: House watching them",
+  "aspect_ratio": "4:3",
   "prompt_variants": [
     {
-      "subject": "[JÃ“N] and [LILJA] huddled together on sleeping platform, the boy's 39Â°C fever allowing him to see everyone's true shapes - pointing at each family member and counting sheep not people: \"Ein kind, tvÃ¦r kindur, Ã¾rjÃ¡r...\" while Lilja arranges her doll family in rÃ©ttir formation, the floor's worn patterns now clearly visible as ancient sorting pens.",
-      "action": "JÃ³n's fever breaks him through reality's veil. Points at GuÃ°rÃºn: \"Ein kind\" (one sheep). At empty clothes: \"TvÃ¦r kindur\" (two sheep). At Sigrid: \"ÃžrjÃ¡r kindur\" (three sheep). Counts what he SEES, not what's there. Lilja, following his lead, arranges her dolls on floor where rÃ©ttir patterns show clear - five pens radiating from center, but six intersection points. Places dolls as sheep being sorted. Her doll with brass button eyes placed in center - the forystufÃ©, lead wether that guides others to slaughter. Floor patterns deepening, revealing stone underneath packed earth - ancient rÃ©ttir were always here, house built on them. Through fever-bright eyes, JÃ³n sees more: everyone has two shadows - human and animal. Sigrid's shadow shows raven wings. GuÃ°rÃºn's shows ewe with faldbÃºningur. His own shows lamb, sick and stumbling. The shadows move independently, rehearsing transformation. Lilja hums Krummi tune: \"verÃ°ur margt aÃ° meini\" (much becomes harmful) - understanding the prophecy.",
+      "subject": "[JÐ“N] and [LILJA] huddled together on sleeping platform, the boy's 39Â°C fever allowing him to see everyone's true shapes - pointing at each family member and counting sheep not people: \"Ein kind, tvær kindur, Ð¾rjár...\" while Lilja arranges her doll family in réttir formation, the floor's worn patterns now clearly visible as ancient sorting pens.",
+      "action": "Jón's fever breaks him through reality's veil. Points at GuÐ°rún: \"Ein kind\" (one sheep). At empty clothes: \"Tvær kindur\" (two sheep). At Sigrid: \"Þrjár kindur\" (three sheep). Counts what he SEES, not what's there. Lilja, following his lead, arranges her dolls on floor where réttir patterns show clear - five pens radiating from center, but six intersection points. Places dolls as sheep being sorted. Her doll with brass button eyes placed in center - the forystufé, lead wether that guides others to slaughter. Floor patterns deepening, revealing stone underneath packed earth - ancient réttir were always here, house built on them. Through fever-bright eyes, Jón sees more: everyone has two shadows - human and animal. Sigrid's shadow shows raven wings. GuÐ°rún's shows ewe with faldbúningur. His own shows lamb, sick and stumbling. The shadows move independently, rehearsing transformation. Lilja hums Krummi tune: \"verÐ°ur margt aÐ° meini\" (much becomes harmful) - understanding the prophecy.",
+      "variant_name": "Primary - THE CHILDREN SEE TRUE SHAPES 8 SECONDS REVISED",
+      "camera_position": "Child's eye level showing dual realities overlapping",
+      "dialogue": "(Jón, fevered counting): \"Ein kind, tvær kindur, Ð¾rjár, fjórar, fimm... sex?\" (Pointing at empty space): \"Sjötta kindin\" (The sixth sheep) (Lilja, humming): \"VerÐ°ur margt aÐ° meini...\"",
+      "progressive_state": "",
+      "style": "Child's eye level showing dual realities overlapping (that's where the camera is), documentary of innocent revelation.",
+      "negative_prompt": "no subtitles, show dual shadows clearly, réttir patterns in floor, documentary observation, no text overlays, no screen space overlays, no text, no modern elements except if prompt explicitly mentions a modern element, no characters or other scenes floating on top of main scene",
+      "is_active": false,
+      "scene": "Children's sleeping platform, 9:10 AM dark. Temperature -23Â°C. Floor patterns visible as ancient stone réttir beneath earth. Everyone's dual shadows visible in landvættir light from windows.",
       "selected_plates": [
         "MAGNUS-AGING",
         "SIGRID-ORACLE",
@@ -22,27 +31,7 @@
         "SEA-EXTRACTED",
         "BAÐSTOFA-CLEFT"
       ],
-      "variant_name": "Primary - THE CHILDREN SEE TRUE SHAPES 8 SECONDS REVISED",
-      "negative_prompt": "no subtitles, show dual shadows clearly, rÃ©ttir patterns in floor, documentary observation, no text overlays, no screen space overlays, no text, no modern elements except if prompt explicitly mentions a modern element, no characters or other scenes floating on top of main scene",
-      "is_active": false,
-      "style": "Child's eye level showing dual realities overlapping (that's where the camera is), documentary of innocent revelation.",
-      "dialogue": "(JÃ³n, fevered counting): \"Ein kind, tvÃ¦r kindur, Ã¾rjÃ¡r, fjÃ³rar, fimm... sex?\" (Pointing at empty space): \"SjÃ¶tta kindin\" (The sixth sheep) (Lilja, humming): \"VerÃ°ur margt aÃ° meini...\"",
-      "progressive_state": "",
-      "scene": "Children's sleeping platform, 9:10 AM dark. Temperature -23Â°C. Floor patterns visible as ancient stone rÃ©ttir beneath earth. Everyone's dual shadows visible in landvÃ¦ttir light from windows.",
-      "variant_id": "31_story_primary",
-      "camera_position": "Child's eye level showing dual realities overlapping",
-      "available_character_plates": {
-        "magnus": "MAGNUS-AGING",
-        "sigrid": "SIGRID-ORACLE",
-        "lilja": "LILJA-COMMUNICATING",
-        "jon": "JON-CHANGING",
-        "gudrun": "GUDRUN-PRODUCING"
-      },
-      "available_environmental_plates": [
-        "SEA-EXTRACTED",
-        "BAÐSTOFA-CLEFT"
-      ]
+      "variant_id": "31_story_primary"
     }
-  ],
-  "selected_prompt_index": 0
+  ]
 }

@@ -9,13 +9,14 @@ struct ClaudeConversationWindow: View {
     @State private var showJSONEditor = false
     @State private var addVariantSuccess = false
     @State private var addVariantError = ""
+    @State private var userInstructions = ""
     @Environment(\.dismiss) private var dismiss
 
     var body: some View {
         VStack(spacing: 0) {
             // Header
             HStack {
-                Text("Converse with Claude")
+                Text("AI Conversation Hub")
                     .font(.title2)
                     .fontWeight(.bold)
 
@@ -76,6 +77,33 @@ struct ClaudeConversationWindow: View {
 
                             Divider()
 
+                            Text("User Instructions:")
+                                .font(.subheadline)
+                                .fontWeight(.semibold)
+
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text("Specific instructions for this Claude session:")
+                                    .font(.caption)
+                                    .foregroundColor(.secondary)
+
+                                TextEditor(text: $userInstructions)
+                                    .font(.system(.body, design: .monospaced))
+                                    .frame(minHeight: 80, maxHeight: 120)
+                                    .overlay(
+                                        RoundedRectangle(cornerRadius: 8)
+                                            .stroke(Color.gray.opacity(0.3), lineWidth: 1)
+                                    )
+                                    .background(Color.gray.opacity(0.05))
+                                    .cornerRadius(8)
+
+                                Text("Examples: 'Focus on horror elements', 'Make it more cinematic', 'Emphasize the transformation theme'")
+                                    .font(.caption)
+                                    .foregroundColor(.secondary)
+                                    .italic()
+                            }
+
+                            Divider()
+
                             Text("Enhancement Guides:")
                                 .font(.subheadline)
                                 .fontWeight(.semibold)
@@ -112,27 +140,69 @@ struct ClaudeConversationWindow: View {
                     // Action Buttons Section
                     GroupBox("Actions") {
                         VStack(spacing: 12) {
-                            Button(action: startClaudeConversation) {
-                                HStack {
-                                    if integrationManager.isConnecting {
-                                        ProgressView()
-                                            .scaleEffect(0.8)
-                                    } else {
-                                        Image(systemName: "bubble.left.and.bubble.right")
+                            // AI Conversation Buttons
+                            HStack(spacing: 8) {
+                                Button(action: startClaudeConversation) {
+                                    VStack(spacing: 4) {
+                                        if integrationManager.isConnecting {
+                                            ProgressView()
+                                                .scaleEffect(0.8)
+                                        } else {
+                                            Image(systemName: "bubble.left.and.bubble.right")
+                                        }
+                                        Text("Claude")
+                                            .font(.caption)
                                     }
-                                    Text(integrationManager.isConnecting ? "Connecting..." : "Start Claude Conversation")
+                                    .frame(maxWidth: .infinity, minHeight: 44)
                                 }
-                                .frame(maxWidth: .infinity)
+                                .buttonStyle(.borderedProminent)
+                                .disabled(integrationManager.isConnecting)
+
+                                Button(action: startGeminiConversation) {
+                                    VStack(spacing: 4) {
+                                        Image(systemName: "sparkles")
+                                        Text("Gemini")
+                                            .font(.caption)
+                                    }
+                                    .frame(maxWidth: .infinity, minHeight: 44)
+                                }
+                                .buttonStyle(.borderedProminent)
+                                .disabled(integrationManager.isConnecting)
+
+                                Button(action: startCodexConversation) {
+                                    VStack(spacing: 4) {
+                                        Image(systemName: "curlybraces")
+                                        Text("Codex")
+                                            .font(.caption)
+                                    }
+                                    .frame(maxWidth: .infinity, minHeight: 44)
+                                }
+                                .buttonStyle(.borderedProminent)
+                                .disabled(integrationManager.isConnecting)
                             }
-                            .buttonStyle(.borderedProminent)
-                            .disabled(integrationManager.isConnecting)
 
                             // Copy Context Folder Path Button
                             if let folderPath = integrationManager.contextFolderPath {
                                 Button(action: {
                                     let pasteboard = NSPasteboard.general
                                     pasteboard.clearContents()
-                                    let instruction = """
+
+                                    var instruction = ""
+
+                                    // Add user instructions at the top if provided
+                                    if !userInstructions.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                                        instruction += """
+                                        🎯 USER'S SPECIFIC INSTRUCTIONS FOR THIS SESSION:
+                                        Pay special attention to these user requirements:
+
+                                        \(userInstructions.trimmingCharacters(in: .whitespacesAndNewlines))
+
+                                        ========================================
+
+                                        """
+                                    }
+
+                                    instruction += """
                                     Please read through all the context files in this folder completely:
                                     \(folderPath)
 
@@ -225,7 +295,7 @@ struct ClaudeConversationWindow: View {
                 .padding()
             }
         }
-        .frame(width: 600, height: 800)
+        .frame(width: 810, height: 1080)
         .sheet(isPresented: $showJSONEditor) {
             JSONVariantEditor(
                 jsonText: $newVariantJSON,
@@ -237,7 +307,17 @@ struct ClaudeConversationWindow: View {
 
     private func startClaudeConversation() {
         let context = contextBuilder.buildContext(for: shot, filmManager: filmManager)
-        integrationManager.startClaudeConversation(with: context)
+        integrationManager.startClaudeConversation(with: context, filmManager: filmManager, userInstructions: userInstructions)
+    }
+
+    private func startGeminiConversation() {
+        let context = contextBuilder.buildContext(for: shot, filmManager: filmManager)
+        integrationManager.startGeminiConversation(with: context, filmManager: filmManager, userInstructions: userInstructions)
+    }
+
+    private func startCodexConversation() {
+        let context = contextBuilder.buildContext(for: shot, filmManager: filmManager)
+        integrationManager.startCodexConversation(with: context, filmManager: filmManager, userInstructions: userInstructions)
     }
 
     private func addVariantFromJSON() {

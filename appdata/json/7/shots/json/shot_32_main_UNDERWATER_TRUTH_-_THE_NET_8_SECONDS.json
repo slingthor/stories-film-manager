@@ -1,9 +1,16 @@
 {
-  "selected_prompt_index": 0,
   "prompt_variants": [
     {
-      "subject": "Underwater camera following [MAGNÃšS]'s fishing line down through crystalline emptiness to reveal it's caught not on fish but on the trawler's massive net - a black industrial web dragging the seafloor, containing the entire fjord's fish population, thousands of silver bodies pressed against mesh, their eyes all turned upward toward his tiny hook.",
-      "action": "Camera descends with line through crystal water. 10 feet: nothing. 20 feet: nothing. 28 feet: darkness moving. 30 feet: revelation. MagnÃºs's small hook caught in massive trawl net, industrial mesh black with tar, hemp rope thick as arms. Inside net: all the fish. Thousands. Cod, haddock, wolffish, everything that should be in fjord, compressed together. All alive but trapped. Their eyes - every single eye - turned upward toward MagnÃºs's pathetic hook. Some fish have V-notches in fins (marked but taken anyway). Net drags slowly across bottom, scraping stone, leaving those spiral scars. But net itself is wrong - not just industrial but organic, pulsing slightly, rope patterns forming scales. This IS JÃ¶rmungandr's body, not metaphor. Cross patterns visible where net sections meet - same geometry as frost on windows. As net moves, trapped fish breathe in unison: 12/min, matching house rhythm. They know they're livestock too.",
+      "subject": "Underwater camera following [MAGNÐšS]'s fishing line down through crystalline emptiness to reveal it's caught not on fish but on the trawler's massive net - a black industrial web dragging the seafloor, containing the entire fjord's fish population, thousands of silver bodies pressed against mesh, their eyes all turned upward toward his tiny hook.",
+      "action": "Camera descends with line through crystal water. 10 feet: nothing. 20 feet: nothing. 28 feet: darkness moving. 30 feet: revelation. Magnús's small hook caught in massive trawl net, industrial mesh black with tar, hemp rope thick as arms. Inside net: all the fish. Thousands. Cod, haddock, wolffish, everything that should be in fjord, compressed together. All alive but trapped. Their eyes - every single eye - turned upward toward Magnús's pathetic hook. Some fish have V-notches in fins (marked but taken anyway). Net drags slowly across bottom, scraping stone, leaving those spiral scars. But net itself is wrong - not just industrial but organic, pulsing slightly, rope patterns forming scales. This IS Jörmungandr's body, not metaphor. Cross patterns visible where net sections meet - same geometry as frost on windows. As net moves, trapped fish breathe in unison: 12/min, matching house rhythm. They know they're livestock too.",
+      "variant_name": "Primary - UNDERWATER TRUTH - THE NET 8 SECONDS",
+      "camera_position": "Underwater POV following line down to revelation",
+      "dialogue": "None - underwater silence",
+      "progressive_state": "",
+      "style": "Underwater POV following line down to revelation (that's where the camera is), documentary witnessing extraction.",
+      "negative_prompt": "no subtitles, show all fish trapped together, V-notches visible, documentary observation",
+      "is_active": false,
+      "scene": "Underwater, 30 feet down, perfect visibility. Trawl net massive - 50 feet wide, containing entire ecosystem. Seafloor bare except for scrape marks. Water so clear the tragedy is completely visible.",
       "selected_plates": [
         "MAGNUS-AGING",
         "SIGRID-ORACLE",
@@ -13,36 +20,18 @@
         "SEA-BATTLE",
         "WESTFJORDS-FJORD"
       ],
-      "variant_name": "Primary - UNDERWATER TRUTH - THE NET 8 SECONDS",
-      "negative_prompt": "no subtitles, show all fish trapped together, V-notches visible, documentary observation",
-      "is_active": false,
-      "style": "Underwater POV following line down to revelation (that's where the camera is), documentary witnessing extraction.",
-      "dialogue": "None - underwater silence",
-      "progressive_state": "",
-      "scene": "Underwater, 30 feet down, perfect visibility. Trawl net massive - 50 feet wide, containing entire ecosystem. Seafloor bare except for scrape marks. Water so clear the tragedy is completely visible.",
-      "variant_id": "32_story_primary",
-      "camera_position": "Underwater POV following line down to revelation",
-      "available_character_plates": {
-        "magnus": "MAGNUS-AGING",
-        "sigrid": "SIGRID-ORACLE",
-        "lilja": "LILJA-COMMUNICATING",
-        "jon": "JON-CHANGING",
-        "gudrun": "GUDRUN-PRODUCING"
-      },
-      "available_environmental_plates": [
-        "SEA-BATTLE",
-        "WESTFJORDS-FJORD"
-      ]
+      "variant_id": "32_story_primary"
     }
   ],
-  "aspect_ratio": "4:3",
+  "selected_prompt_index": 0,
   "progressive_state": "Empty fjord | False hope revealed | Camera frost 20.5% | Trawler's theft visible | Watching: We witness below",
   "shot_metadata": {
-    "narrative_function": "Empty fjord | False hope revealed | Camera frost 2...",
+    "title": "UNDERWATER TRUTH - THE NET 8 SECONDS",
     "sequence_type": "main_story",
-    "stitch_from": "",
     "duration_seconds": 8,
+    "narrative_function": "Empty fjord | False hope revealed | Camera frost 2...",
     "id": "32",
-    "title": "UNDERWATER TRUTH - THE NET 8 SECONDS"
-  }
+    "stitch_from": ""
+  },
+  "aspect_ratio": "4:3"
 }

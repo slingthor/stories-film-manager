@@ -739,8 +739,11 @@ struct ClaudeContext {
         prompt += "⚠️ CRITICAL: YOU MUST READ ALL FILES IN THIS FOLDER COMPLETELY AND FULLY ⚠️\n"
         prompt += "Do NOT skim or partially read. Every file contains essential information.\n\n"
         prompt += "This folder contains multiple files with different aspects of the context:\n\n"
-        prompt += "• 01a_complete_movie_shots_part1.md - First half of all shots (READ FULLY)\n"
-        prompt += "• 01b_complete_movie_shots_part2.md - Second half of all shots (READ FULLY)\n"
+        prompt += "• 01a_complete_movie_shots_part1.json - First part of all shots as JSON (READ FULLY)\n"
+        prompt += "• 01b_complete_movie_shots_part2.json - Second part of all shots as JSON (READ FULLY)\n"
+        prompt += "• 01c_complete_movie_shots_part3.json - Third part of all shots as JSON (READ FULLY)\n"
+        prompt += "• 01d_complete_movie_shots_part4.json - Fourth part of all shots as JSON (READ FULLY)\n"
+        prompt += "• 01e_complete_movie_shots_part5.json - Fifth part of all shots as JSON (READ FULLY)\n"
         prompt += "• 02_all_plates.md - Complete character and environmental plate definitions (READ FULLY)\n"
         prompt += "• 03_current_shot.md - The shot we're currently working on (PRIMARY FOCUS - READ FULLY)\n"
         prompt += "• 04_cinematic_guide.md - Cinematic shot creation guide (if included - READ FULLY)\n"
@@ -759,19 +762,25 @@ struct ClaudeContext {
         // Add prompt emphasis as priority if it exists
         if !promptEmphasisDoc.isEmpty {
             prompt += "2. CRITICAL: Read 07_prompt_emphasis_ESSENTIAL.md COMPLETELY - this defines how to create new variants\n"
-            prompt += "3. THIRD: Read 01a_complete_movie_shots_part1.md COMPLETELY\n"
-            prompt += "4. FOURTH: Read 01b_complete_movie_shots_part2.md COMPLETELY\n"
-            prompt += "5. FIFTH: Read 02_all_plates.md COMPLETELY to understand available plates\n"
-            prompt += "6. SIXTH: Read ALL files in research_documents/ folder COMPLETELY if present\n"
-            prompt += "7. THEN: Read all other numbered files (04, 05, 06) COMPLETELY if present\n\n"
+            prompt += "3. THIRD: Read 01a_complete_movie_shots_part1.json COMPLETELY\n"
+            prompt += "4. FOURTH: Read 01b_complete_movie_shots_part2.json COMPLETELY\n"
+            prompt += "5. FIFTH: Read 01c_complete_movie_shots_part3.json COMPLETELY\n"
+            prompt += "6. SIXTH: Read 01d_complete_movie_shots_part4.json COMPLETELY\n"
+            prompt += "7. SEVENTH: Read 01e_complete_movie_shots_part5.json COMPLETELY\n"
+            prompt += "8. EIGHTH: Read 02_all_plates.md COMPLETELY to understand available plates\n"
+            prompt += "9. NINTH: Read ALL files in research_documents/ folder COMPLETELY if present\n"
+            prompt += "10. THEN: Read all other numbered files (04, 05, 06) COMPLETELY if present\n\n"
         } else {
-            prompt += "2. SECOND: Read 01a_complete_movie_shots_part1.md COMPLETELY\n"
-            prompt += "3. THIRD: Read 01b_complete_movie_shots_part2.md COMPLETELY\n"
-            prompt += "4. FOURTH: Read 02_all_plates.md COMPLETELY to understand available plates\n"
-            prompt += "5. FIFTH: Read ALL files in research_documents/ folder COMPLETELY if present\n"
-            prompt += "6. THEN: Read all other numbered files (04, 05, 06) COMPLETELY if present\n\n"
+            prompt += "2. SECOND: Read 01a_complete_movie_shots_part1.json COMPLETELY\n"
+            prompt += "3. THIRD: Read 01b_complete_movie_shots_part2.json COMPLETELY\n"
+            prompt += "4. FOURTH: Read 01c_complete_movie_shots_part3.json COMPLETELY\n"
+            prompt += "5. FIFTH: Read 01d_complete_movie_shots_part4.json COMPLETELY\n"
+            prompt += "6. SIXTH: Read 01e_complete_movie_shots_part5.json COMPLETELY\n"
+            prompt += "7. SEVENTH: Read 02_all_plates.md COMPLETELY to understand available plates\n"
+            prompt += "8. EIGHTH: Read ALL files in research_documents/ folder COMPLETELY if present\n"
+            prompt += "9. THEN: Read all other numbered files (04, 05, 06) COMPLETELY if present\n\n"
         }
-        prompt += "⚠️ DO NOT PROCEED until you have read ALL files FULLY. The movie context is split into two parts (01a and 01b) to handle file size limits - you MUST read BOTH parts in order. The research_documents folder contains critical story and character analysis that you MUST read.\n\n"
+        prompt += "⚠️ DO NOT PROCEED until you have read ALL files FULLY. The movie context is split into five JSON parts (01a through 01e) to handle file size limits - you MUST read ALL FIVE parts in order. The research_documents folder contains critical story and character analysis that you MUST read.\n\n"
 
         // Add tracking systems (smaller, keep in main file)
         if !trackingSystemsContext.isEmpty {
@@ -782,6 +791,201 @@ struct ClaudeContext {
     }
 }
 
+// MARK: - Terminal Helper Functions
+extension Process {
+    func which(_ command: String) -> String? {
+        // First check common locations directly
+        let commonPaths = [
+            "/opt/homebrew/bin/\(command)",  // Apple Silicon homebrew
+            "/usr/local/bin/\(command)",      // Intel homebrew
+            "/usr/bin/\(command)",
+            "/bin/\(command)"
+        ]
+
+        for path in commonPaths {
+            if FileManager.default.fileExists(atPath: path) {
+                return path
+            }
+        }
+
+        // Fallback to using which with full PATH
+        let process = Process()
+        process.executableURL = URL(fileURLWithPath: "/usr/bin/env")
+        process.arguments = ["bash", "-l", "-c", "which \(command)"]
+
+        let pipe = Pipe()
+        process.standardOutput = pipe
+
+        try? process.run()
+        process.waitUntilExit()
+        let data = pipe.fileHandleForReading.readDataToEndOfFile()
+
+        if let path = String(data: data, encoding: .utf8)?.trimmingCharacters(in: .whitespacesAndNewlines), !path.isEmpty {
+            return path
+        }
+        return nil
+    }
+}
+
+func openTerminalWithAI(aiCommand: String, instructions: String) -> Bool {
+    // First, find the AI executable
+    guard let aiPath = Process().which(aiCommand) else {
+        print("❌ Error: '\(aiCommand)' command not found in PATH")
+        print("Please ensure \(aiCommand) CLI is installed and in your PATH")
+        print("Checked locations: /opt/homebrew/bin/\(aiCommand), /usr/local/bin/\(aiCommand)")
+        return false
+    }
+
+    print("✅ Found \(aiCommand) at: \(aiPath)")
+
+    // Create a script that will run the AI with the initial prompt
+    let tempDir = FileManager.default.temporaryDirectory
+    let timestamp = Int(Date().timeIntervalSince1970)
+
+    // Escape double quotes in the instructions for the shell script
+    let escapedInstructions = instructions
+        .replacingOccurrences(of: "\\", with: "\\\\")
+        .replacingOccurrences(of: "\"", with: "\\\"")
+        .replacingOccurrences(of: "$", with: "\\$")
+        .replacingOccurrences(of: "`", with: "\\`")
+
+    // Create a bash script that launches the AI interactively with the initial prompt
+    let scriptContent = """
+    #!/bin/bash
+    echo "🚀 Starting \(aiCommand) with context instructions..."
+    echo "========================================="
+    echo ""
+
+    # Start AI interactively with the initial prompt as an argument
+    # Claude needs --dangerously-skip-permissions
+    # Gemini needs -i flag for interactive mode and --yolo
+    if [ "\(aiCommand)" = "claude" ]; then
+        '\(aiPath)' --dangerously-skip-permissions "\(escapedInstructions)"
+    elif [ "\(aiCommand)" = "gemini" ]; then
+        '\(aiPath)' -i --yolo "\(escapedInstructions)"
+    else
+        '\(aiPath)' "\(escapedInstructions)"
+    fi
+
+    # Keep terminal open after AI exits
+    echo ""
+    echo "\(aiCommand) session ended. Press any key to close this terminal."
+    read -n 1
+    """
+
+    do {
+        let scriptFile = tempDir.appendingPathComponent("\(aiCommand)_launcher_\(timestamp).sh")
+        try scriptContent.write(to: scriptFile, atomically: true, encoding: .utf8)
+
+        // Make script executable
+        let chmodProcess = Process()
+        chmodProcess.executableURL = URL(fileURLWithPath: "/bin/chmod")
+        chmodProcess.arguments = ["+x", scriptFile.path]
+        try chmodProcess.run()
+        chmodProcess.waitUntilExit()
+
+        // Use 'open' to launch Terminal with the script
+        let openProcess = Process()
+        openProcess.executableURL = URL(fileURLWithPath: "/usr/bin/open")
+        openProcess.arguments = [
+            "-a", "Terminal.app",
+            scriptFile.path
+        ]
+
+        try openProcess.run()
+
+        // Clean up temp file after a delay
+        DispatchQueue.global().asyncAfter(deadline: .now() + 60) {
+            try? FileManager.default.removeItem(at: scriptFile)
+        }
+
+        print("🚀 Launched Terminal with \(aiCommand) script: \(scriptFile.path)")
+        return true
+
+    } catch {
+        print("❌ Error: \(error)")
+        return false
+    }
+}
+
+// Legacy function for backward compatibility
+func openTerminalWithClaudeAndInstructions(instructions: String) -> Bool {
+    return openTerminalWithAI(aiCommand: "claude", instructions: instructions)
+}
+
+// Original specific Claude function (can be removed if not used elsewhere)
+func openTerminalWithClaudeAndInstructionsOld(instructions: String) -> Bool {
+    // First, find the claude executable
+    guard let claudePath = Process().which("claude") else {
+        print("❌ Error: 'claude' command not found in PATH")
+        print("Please ensure Claude CLI is installed and in your PATH")
+        print("Checked locations: /opt/homebrew/bin/claude, /usr/local/bin/claude")
+        return false
+    }
+
+    print("✅ Found Claude at: \(claudePath)")
+
+    // Create a script that will run Claude with the initial prompt
+    let tempDir = FileManager.default.temporaryDirectory
+    let timestamp = Int(Date().timeIntervalSince1970)
+
+    // Escape double quotes in the instructions for the shell script
+    let escapedInstructions = instructions
+        .replacingOccurrences(of: "\\", with: "\\\\")
+        .replacingOccurrences(of: "\"", with: "\\\"")
+        .replacingOccurrences(of: "$", with: "\\$")
+        .replacingOccurrences(of: "`", with: "\\`")
+
+    // Create a bash script that launches Claude interactively with the initial prompt
+    let scriptContent = """
+    #!/bin/bash
+    echo "🚀 Starting Claude with context instructions..."
+    echo "========================================="
+    echo ""
+
+    # Start Claude interactively with the initial prompt as an argument
+    '\(claudePath)' --dangerously-skip-permissions "\(escapedInstructions)"
+
+    # Keep terminal open after Claude exits
+    echo ""
+    echo "Claude session ended. Press any key to close this terminal."
+    read -n 1
+    """
+
+    do {
+        let scriptFile = tempDir.appendingPathComponent("claude_launcher_\(timestamp).sh")
+        try scriptContent.write(to: scriptFile, atomically: true, encoding: .utf8)
+
+        // Make script executable
+        let chmodProcess = Process()
+        chmodProcess.executableURL = URL(fileURLWithPath: "/bin/chmod")
+        chmodProcess.arguments = ["+x", scriptFile.path]
+        try chmodProcess.run()
+        chmodProcess.waitUntilExit()
+
+        // Use 'open' to launch Terminal with the script
+        let openProcess = Process()
+        openProcess.executableURL = URL(fileURLWithPath: "/usr/bin/open")
+        openProcess.arguments = [
+            "-a", "Terminal.app",
+            scriptFile.path
+        ]
+
+        try openProcess.run()
+
+        // Clean up temp file after a delay
+        DispatchQueue.global().asyncAfter(deadline: .now() + 60) {
+            try? FileManager.default.removeItem(at: scriptFile)
+        }
+
+        print("🚀 Launched Terminal with Claude script: \(scriptFile.path)")
+        return true
+    } catch {
+        print("❌ Error launching terminal with Claude: \(error)")
+        return false
+    }
+}
+
 // MARK: - Claude Integration Manager
 class ClaudeIntegrationManager: ObservableObject {
     @Published var isConnecting = false
@@ -789,7 +993,7 @@ class ClaudeIntegrationManager: ObservableObject {
     @Published var connectionError: String?
     @Published var contextFolderPath: String?
 
-    func startClaudeConversation(with context: ClaudeContext) {
+    func startClaudeConversation(with context: ClaudeContext, filmManager: FilmManager, userInstructions: String = "") {
         isConnecting = true
         connectionError = nil
         contextFolderPath = nil
@@ -812,38 +1016,64 @@ class ClaudeIntegrationManager: ObservableObject {
             let mainPromptWithoutMovie = context.buildMainPromptWithoutBulkData()
             try mainPromptWithoutMovie.write(to: mainContextFile, atomically: true, encoding: .utf8)
 
-            // 01 - Write complete movie context split into two files for size management
-            if !context.completeMovieContext.isEmpty {
-                let shots = context.completeMovieContext.components(separatedBy: "\n---\n\n")
-                let midPoint = shots.count / 2
+            // 01 - Write complete movie context split into five JSON files for size management
+            if !filmManager.shots.isEmpty {
+                let allShots = filmManager.shots
+                let partSize = max(1, allShots.count / 5)
 
-                // First half of shots (including header)
-                var firstHalf = "📽️ COMPLETE MOVIE CONTEXT - PART 1 OF 2\n"
-                firstHalf += "================================================\n\n"
-                firstHalf += "⚠️ IMPORTANT: This is Part 1 of 2. After reading this file, continue with 01b_complete_movie_shots_part2.md\n\n"
-                firstHalf += "This file contains the first half of all prompt variants from the entire film.\n"
-                firstHalf += "The shots are ordered chronologically: prologue sequences first, then main story.\n\n---\n\n"
+                for part in 0..<5 {
+                    let startIndex = part * partSize
+                    let endIndex = (part == 4) ? allShots.count : min((part + 1) * partSize, allShots.count)
 
-                if shots.count > 1 {
-                    firstHalf += shots[0..<midPoint].joined(separator: "\n---\n\n")
-                } else {
-                    firstHalf += context.completeMovieContext
-                }
+                    guard startIndex < allShots.count else { break }
 
-                let movieFile1 = sessionFolder.appendingPathComponent("01a_complete_movie_shots_part1.md")
-                try firstHalf.write(to: movieFile1, atomically: true, encoding: .utf8)
+                    let shotsInPart = Array(allShots[startIndex..<endIndex])
+                    var shotJsonArray: [[String: Any]] = []
 
-                // Second half of shots
-                if shots.count > midPoint {
-                    var secondHalf = "📽️ COMPLETE MOVIE CONTEXT - PART 2 OF 2\n"
-                    secondHalf += "================================================\n\n"
-                    secondHalf += "⚠️ IMPORTANT: This is Part 2 of 2. Make sure you have read 01a_complete_movie_shots_part1.md first.\n\n"
-                    secondHalf += "This file contains the second half of all prompt variants from the entire film.\n"
-                    secondHalf += "Continuing from where Part 1 ended.\n\n---\n\n"
-                    secondHalf += shots[midPoint..<shots.count].joined(separator: "\n---\n\n")
+                    for shot in shotsInPart {
+                        if shot.selectedPromptIndex < shot.promptVariants.count {
+                            let selectedPrompt = shot.promptVariants[shot.selectedPromptIndex]
+                            let shotJson: [String: Any] = [
+                                "shot_id": shot.id,
+                                "shot_title": shot.title,
+                                "sequence_type": shot.sequenceType,
+                                "duration": shot.duration,
+                                "aspect_ratio": shot.aspectRatio,
+                                "position": shot.position,
+                                "progressive_state": shot.progressiveState,
+                                "selected_variant": [
+                                    "variant_id": selectedPrompt.variantId,
+                                    "variant_name": selectedPrompt.name,
+                                    "subject": selectedPrompt.subject,
+                                    "action": selectedPrompt.action,
+                                    "scene": selectedPrompt.scene,
+                                    "style": selectedPrompt.style,
+                                    "camera_position": selectedPrompt.cameraPosition,
+                                    "dialogue": selectedPrompt.dialogue,
+                                    "selected_plates": selectedPrompt.selectedPlateIds,
+                                    "negative_prompt": selectedPrompt.negativePrompt,
+                                    "progressive_state": selectedPrompt.progressiveState,
+                                    "is_active": selectedPrompt.isActive
+                                ]
+                            ]
+                            shotJsonArray.append(shotJson)
+                        }
+                    }
 
-                    let movieFile2 = sessionFolder.appendingPathComponent("01b_complete_movie_shots_part2.md")
-                    try secondHalf.write(to: movieFile2, atomically: true, encoding: .utf8)
+                    let partData: [String: Any] = [
+                        "part_info": [
+                            "part_number": part + 1,
+                            "total_parts": 5,
+                            "description": "Complete movie context - Part \(part + 1) of 5. This contains selected prompt variants from shots \(startIndex + 1) to \(endIndex) of the entire film."
+                        ],
+                        "shots": shotJsonArray
+                    ]
+
+                    if let jsonData = try? JSONSerialization.data(withJSONObject: partData, options: [.prettyPrinted, .sortedKeys]) {
+                        let partLetter = String(UnicodeScalar(97 + part)!) // a, b, c, d, e
+                        let movieFile = sessionFolder.appendingPathComponent("01\(partLetter)_complete_movie_shots_part\(part + 1).json")
+                        try jsonData.write(to: movieFile)
+                    }
                 }
             }
 
@@ -912,18 +1142,23 @@ class ClaudeIntegrationManager: ObservableObject {
                 try emphasisContent.write(to: emphasisFile, atomically: true, encoding: .utf8)
             }
 
-            // Open the folder in Finder (select the main context file)
-            if FileManager.default.fileExists(atPath: mainContextFile.path) {
-                NSWorkspace.shared.selectFile(mainContextFile.path, inFileViewerRootedAtPath: sessionFolder.path)
-            } else {
-                NSWorkspace.shared.selectFile(nil, inFileViewerRootedAtPath: sessionFolder.path)
+            // Prepare the Claude instruction text
+            var claudeInstruction = ""
+
+            // Add user instructions at the top if provided
+            if !userInstructions.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                claudeInstruction += """
+                🎯 USER'S SPECIFIC INSTRUCTIONS FOR THIS SESSION:
+                Pay special attention to these user requirements:
+
+                \(userInstructions.trimmingCharacters(in: .whitespacesAndNewlines))
+
+                ========================================
+
+                """
             }
 
-            // Also copy the folder path with instructions to clipboard for easy pasting
-            let pasteboard = NSPasteboard.general
-            pasteboard.clearContents()
-
-            var clipboardText = """
+            claudeInstruction += """
             Please read through all the context files in this folder completely:
             \(sessionFolder.path)
 
@@ -932,20 +1167,37 @@ class ClaudeIntegrationManager: ObservableObject {
             """
 
             if !context.promptEmphasisDoc.isEmpty {
-                clipboardText += "\n- 07_prompt_emphasis_ESSENTIAL.md (CRITICAL - defines how to create new variants)"
+                claudeInstruction += "\n- 07_prompt_emphasis_ESSENTIAL.md (CRITICAL - defines how to create new variants)"
             }
 
-            clipboardText += """
+            claudeInstruction += """
 
-            - 01a_complete_movie_shots_part1.md (first half of shots)
-            - 01b_complete_movie_shots_part2.md (second half of shots)
+            - 01a_complete_movie_shots_part1.json (first part of shots as JSON)
+            - 01b_complete_movie_shots_part2.json (second part of shots as JSON)
+            - 01c_complete_movie_shots_part3.json (third part of shots as JSON)
+            - 01d_complete_movie_shots_part4.json (fourth part of shots as JSON)
+            - 01e_complete_movie_shots_part5.json (fifth part of shots as JSON)
             - 02_all_plates.md
             - research_documents/ folder (read ALL files inside)
             - Any other numbered files (04, 05, 06)
 
             Pay special attention to the current shot details and the plate system for creating new prompt variants.
             """
-            pasteboard.setString(clipboardText, forType: .string)
+
+            // Open Terminal, start Claude, and execute the instruction automatically
+            let success = openTerminalWithClaudeAndInstructions(instructions: claudeInstruction)
+
+            if success {
+                print("🚀 Terminal opened with Claude started and instructions sent!")
+            } else {
+                print("❌ Failed to open terminal, using fallback")
+                // Fallback: open folder in Finder and copy to clipboard
+                NSWorkspace.shared.selectFile(mainContextFile.path, inFileViewerRootedAtPath: sessionFolder.path)
+                let pasteboard = NSPasteboard.general
+                pasteboard.clearContents()
+                pasteboard.setString(claudeInstruction, forType: .string)
+                print("📋 Fallback: Opened folder in Finder and copied instructions to clipboard")
+            }
 
             DispatchQueue.main.async {
                 self.isConnecting = false
@@ -966,6 +1218,296 @@ class ClaudeIntegrationManager: ObservableObject {
                 self.isConnecting = false
                 self.connectionError = "Failed to create context folder: \(error.localizedDescription)"
             }
+        }
+    }
+
+    func startGeminiConversation(with context: ClaudeContext, filmManager: FilmManager, userInstructions: String = "") {
+        isConnecting = true
+        connectionError = nil
+        contextFolderPath = nil
+
+        // Create a comprehensive context folder with all necessary files
+        do {
+            // Create a unique folder for this Gemini session in user's tmp directory
+            let timestamp = Date().timeIntervalSince1970
+            let userTmpDir = URL(fileURLWithPath: "/Users/ingthor/tmp")
+
+            // Create the tmp directory if it doesn't exist
+            try FileManager.default.createDirectory(at: userTmpDir, withIntermediateDirectories: true, attributes: nil)
+
+            let sessionFolder = userTmpDir.appendingPathComponent("gemini_film_context_\(Int(timestamp))")
+
+            try FileManager.default.createDirectory(at: sessionFolder, withIntermediateDirectories: true, attributes: nil)
+
+            // Write all the same context files as Claude
+            // (reusing the same file creation logic)
+            createContextFiles(context: context, filmManager: filmManager, sessionFolder: sessionFolder)
+
+            // Prepare the Gemini instruction text
+            var geminiInstruction = ""
+
+            // Add user instructions at the top if provided
+            if !userInstructions.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                geminiInstruction += """
+                🎯 USER'S SPECIFIC INSTRUCTIONS FOR THIS SESSION:
+                Pay special attention to these user requirements:
+
+                \(userInstructions.trimmingCharacters(in: .whitespacesAndNewlines))
+
+                ========================================
+
+                """
+            }
+
+            geminiInstruction += """
+            Please read through all the context files in this folder completely:
+            \(sessionFolder.path)
+
+            Start by reading 00_MAIN_CONTEXT.md first for comprehensive instructions, then read ALL other files in their numbered order.
+            Pay special attention to the current shot details and the plate system for creating new prompt variants.
+            """
+
+            // Open Terminal and start Gemini
+            let success = openTerminalWithAI(aiCommand: "gemini", instructions: geminiInstruction)
+
+            if success {
+                print("🚀 Terminal opened with Gemini started and instructions sent!")
+            } else {
+                print("❌ Failed to open terminal with Gemini, using fallback")
+                // Fallback: open folder in Finder and copy to clipboard
+                let mainContextFile = sessionFolder.appendingPathComponent("00_MAIN_CONTEXT.md")
+                NSWorkspace.shared.selectFile(mainContextFile.path, inFileViewerRootedAtPath: sessionFolder.path)
+                let pasteboard = NSPasteboard.general
+                pasteboard.clearContents()
+                pasteboard.setString(geminiInstruction, forType: .string)
+                print("📋 Fallback: Opened folder in Finder and copied instructions to clipboard")
+            }
+
+            DispatchQueue.main.async {
+                self.isConnecting = false
+                self.isConnected = true
+                self.contextFolderPath = sessionFolder.path
+            }
+
+            print("📁 Gemini context folder created: \(sessionFolder.path)")
+
+        } catch {
+            DispatchQueue.main.async {
+                self.isConnecting = false
+                self.connectionError = "Failed to create context folder: \(error.localizedDescription)"
+            }
+        }
+    }
+
+    func startCodexConversation(with context: ClaudeContext, filmManager: FilmManager, userInstructions: String = "") {
+        isConnecting = true
+        connectionError = nil
+        contextFolderPath = nil
+
+        // Create a comprehensive context folder with all necessary files
+        do {
+            // Create a unique folder for this Codex session in user's tmp directory
+            let timestamp = Date().timeIntervalSince1970
+            let userTmpDir = URL(fileURLWithPath: "/Users/ingthor/tmp")
+
+            // Create the tmp directory if it doesn't exist
+            try FileManager.default.createDirectory(at: userTmpDir, withIntermediateDirectories: true, attributes: nil)
+
+            let sessionFolder = userTmpDir.appendingPathComponent("codex_film_context_\(Int(timestamp))")
+
+            try FileManager.default.createDirectory(at: sessionFolder, withIntermediateDirectories: true, attributes: nil)
+
+            // Write all the same context files as Claude
+            createContextFiles(context: context, filmManager: filmManager, sessionFolder: sessionFolder)
+
+            // Prepare the Codex instruction text
+            var codexInstruction = ""
+
+            // Add user instructions at the top if provided
+            if !userInstructions.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                codexInstruction += """
+                🎯 USER'S SPECIFIC INSTRUCTIONS FOR THIS SESSION:
+                Pay special attention to these user requirements:
+
+                \(userInstructions.trimmingCharacters(in: .whitespacesAndNewlines))
+
+                ========================================
+
+                """
+            }
+
+            codexInstruction += """
+            Please read through all the context files in this folder completely:
+            \(sessionFolder.path)
+
+            Start by reading 00_MAIN_CONTEXT.md first for comprehensive instructions, then read ALL other files in their numbered order.
+            Pay special attention to the current shot details and the plate system for creating new prompt variants.
+            """
+
+            // Open Terminal and start Codex
+            let success = openTerminalWithAI(aiCommand: "codex", instructions: codexInstruction)
+
+            if success {
+                print("🚀 Terminal opened with Codex started and instructions sent!")
+            } else {
+                print("❌ Failed to open terminal with Codex, using fallback")
+                // Fallback: open folder in Finder and copy to clipboard
+                let mainContextFile = sessionFolder.appendingPathComponent("00_MAIN_CONTEXT.md")
+                NSWorkspace.shared.selectFile(mainContextFile.path, inFileViewerRootedAtPath: sessionFolder.path)
+                let pasteboard = NSPasteboard.general
+                pasteboard.clearContents()
+                pasteboard.setString(codexInstruction, forType: .string)
+                print("📋 Fallback: Opened folder in Finder and copied instructions to clipboard")
+            }
+
+            DispatchQueue.main.async {
+                self.isConnecting = false
+                self.isConnected = true
+                self.contextFolderPath = sessionFolder.path
+            }
+
+            print("📁 Codex context folder created: \(sessionFolder.path)")
+
+        } catch {
+            DispatchQueue.main.async {
+                self.isConnecting = false
+                self.connectionError = "Failed to create context folder: \(error.localizedDescription)"
+            }
+        }
+    }
+
+    private func createContextFiles(context: ClaudeContext, filmManager: FilmManager, sessionFolder: URL) {
+        do {
+            // Write main instructions/context file (without the complete movie)
+            let mainContextFile = sessionFolder.appendingPathComponent("00_MAIN_CONTEXT.md")
+            let mainPromptWithoutMovie = context.buildMainPromptWithoutBulkData()
+            try mainPromptWithoutMovie.write(to: mainContextFile, atomically: true, encoding: .utf8)
+
+            // 01 - Write complete movie context split into five JSON files for size management
+            if !filmManager.shots.isEmpty {
+                let allShots = filmManager.shots
+                let partSize = max(1, allShots.count / 5)
+
+                for part in 0..<5 {
+                    let startIndex = part * partSize
+                    let endIndex = (part == 4) ? allShots.count : min((part + 1) * partSize, allShots.count)
+
+                    guard startIndex < allShots.count else { break }
+
+                    let shotsInPart = Array(allShots[startIndex..<endIndex])
+                    var shotJsonArray: [[String: Any]] = []
+
+                    for shot in shotsInPart {
+                        if shot.selectedPromptIndex < shot.promptVariants.count {
+                            let selectedPrompt = shot.promptVariants[shot.selectedPromptIndex]
+                            let shotJson: [String: Any] = [
+                                "shot_id": shot.id,
+                                "shot_title": shot.title,
+                                "sequence_type": shot.sequenceType,
+                                "duration": shot.duration,
+                                "aspect_ratio": shot.aspectRatio,
+                                "position": shot.position,
+                                "progressive_state": shot.progressiveState,
+                                "selected_variant": [
+                                    "variant_id": selectedPrompt.variantId,
+                                    "variant_name": selectedPrompt.name,
+                                    "subject": selectedPrompt.subject,
+                                    "action": selectedPrompt.action,
+                                    "scene": selectedPrompt.scene,
+                                    "style": selectedPrompt.style,
+                                    "camera_position": selectedPrompt.cameraPosition,
+                                    "dialogue": selectedPrompt.dialogue,
+                                    "selected_plates": selectedPrompt.selectedPlateIds,
+                                    "negative_prompt": selectedPrompt.negativePrompt,
+                                    "progressive_state": selectedPrompt.progressiveState,
+                                    "is_active": selectedPrompt.isActive
+                                ]
+                            ]
+                            shotJsonArray.append(shotJson)
+                        }
+                    }
+
+                    // Write as JSON
+                    if let jsonData = try? JSONSerialization.data(withJSONObject: shotJsonArray, options: [.prettyPrinted, .sortedKeys]) {
+                        let letter = String(Character(UnicodeScalar(97 + part)!)) // a, b, c, d, e
+                        let fileName = "01\(letter)_complete_movie_shots_part\(part + 1).json"
+                        let fileURL = sessionFolder.appendingPathComponent(fileName)
+                        try jsonData.write(to: fileURL)
+                    }
+                }
+            }
+
+            // 02 - Write all plates (character and environmental)
+            var allPlatesContent = "# COMPLETE PLATE DEFINITIONS\n\n"
+
+            if !context.characterPlatesContext.isEmpty {
+                allPlatesContent += context.characterPlatesContext + "\n\n"
+            }
+
+            if !context.environmentalPlatesContext.isEmpty {
+                allPlatesContent += context.environmentalPlatesContext + "\n\n"
+            }
+
+            if !allPlatesContent.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                let platesFile = sessionFolder.appendingPathComponent("02_all_plates.md")
+                try allPlatesContent.write(to: platesFile, atomically: true, encoding: .utf8)
+            }
+
+            // 03 - Write current shot context separately (this is the PRIMARY focus)
+            if !context.shotContext.isEmpty {
+                let currentShotFile = sessionFolder.appendingPathComponent("03_current_shot.md")
+                try context.shotContext.write(to: currentShotFile, atomically: true, encoding: .utf8)
+            }
+
+            // Write research documents
+            if !context.researchDocuments.isEmpty {
+                let researchFolder = sessionFolder.appendingPathComponent("research_documents")
+                try FileManager.default.createDirectory(at: researchFolder, withIntermediateDirectories: true, attributes: nil)
+
+                for (name, content) in context.researchDocuments {
+                    let fileName = "\(name.replacingOccurrences(of: " ", with: "_")).md"
+                    let fileURL = researchFolder.appendingPathComponent(fileName)
+                    try content.write(to: fileURL, atomically: true, encoding: .utf8)
+                }
+            }
+
+            // Write enhancement guides
+            if !context.cinematicGuide.isEmpty {
+                let cinematicFile = sessionFolder.appendingPathComponent("04_cinematic_guide.md")
+                try context.cinematicGuide.write(to: cinematicFile, atomically: true, encoding: .utf8)
+            }
+
+            if !context.aiGuide.isEmpty {
+                let aiFile = sessionFolder.appendingPathComponent("05_ai_generation_guide.md")
+                try context.aiGuide.write(to: aiFile, atomically: true, encoding: .utf8)
+            }
+
+            if !context.characterDepthGuide.isEmpty {
+                let depthFile = sessionFolder.appendingPathComponent("06_character_depth_guide.md")
+                try context.characterDepthGuide.write(to: depthFile, atomically: true, encoding: .utf8)
+            }
+
+            // Write prompt emphasis if selected - CRITICAL for new variants
+            if !context.promptEmphasisDoc.isEmpty {
+                var emphasisContent = "🎯 PROMPT EMPHASIS STYLE - CRITICAL FOR NEW VARIANTS\n"
+                emphasisContent += "================================================\n\n"
+                emphasisContent += "⚠️ ESSENTIAL: This emphasis style was specifically selected to guide the creation of new prompt variants.\n"
+                emphasisContent += "The new prompts MUST heavily incorporate the stylistic elements, focus areas, and techniques described below.\n"
+                emphasisContent += "This is not optional guidance - it is the PRIMARY DIRECTIVE for how new variants should be crafted.\n\n"
+                emphasisContent += "When creating new prompt variants:\n"
+                emphasisContent += "1. PRIORITIZE the emphasis elements below in your descriptions\n"
+                emphasisContent += "2. FOCUS on the specific aspects this style highlights\n"
+                emphasisContent += "3. INTEGRATE these techniques throughout all prompt fields\n"
+                emphasisContent += "4. ENSURE the variant strongly reflects this chosen emphasis\n\n"
+                emphasisContent += "---\n\n"
+                emphasisContent += context.promptEmphasisDoc
+
+                let emphasisFile = sessionFolder.appendingPathComponent("07_prompt_emphasis_ESSENTIAL.md")
+                try emphasisContent.write(to: emphasisFile, atomically: true, encoding: .utf8)
+            }
+
+        } catch {
+            print("Error creating context files: \(error)")
         }
     }
 

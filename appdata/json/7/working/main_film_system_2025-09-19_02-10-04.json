@@ -1,0 +1,69 @@
+{
+  "tracking_systems" : {
+    "hakarl_contamination" : {
+      "description" : "Traditional food corruption enabling breakdown",
+      "current_percentage" : 18
+    },
+    "spatial_impossibilities" : {
+      "current_percentage" : 25,
+      "description" : "Mathematical physics violations spreading"
+    },
+    "predatory_landscape" : {
+      "description" : "Environmental hostility toward human survival",
+      "current_percentage" : 15
+    },
+    "breathing_coordination" : {
+      "description" : "Family respiratory synchronization progression",
+      "current_percentage" : 32
+    },
+    "color_grading" : {
+      "current_percentage" : 15,
+      "description" : "Film color palette psychological progression"
+    },
+    "light_sources" : {
+      "description" : "Illumination evolution organic→industrial→supernatural",
+      "current_percentage" : 5
+    },
+    "memory_degradation" : {
+      "current_percentage" : 5,
+      "description" : "Collective memory accuracy declining"
+    },
+    "industrial_contamination" : {
+      "current_percentage" : 22,
+      "description" : "British\/Danish imperial materials spreading"
+    },
+    "reality_coherence" : {
+      "description" : "Stability of physical laws and logic",
+      "current_percentage" : 65
+    },
+    "house_dimensions" : {
+      "description" : "Baðstofa interior space expansion sensation",
+      "current_percentage" : 0
+    },
+    "klettagja_formation" : {
+      "description" : "Cliff cleft development for Sigrid's escape",
+      "current_percentage" : 15
+    },
+    "weather_hostility" : {
+      "description" : "Atmospheric assault on family survival",
+      "current_percentage" : 10
+    },
+    "character_shadow_behavior" : {
+      "current_percentage" : 8,
+      "description" : "Shadow physics revealing animal truth"
+    },
+    "stain_progression" : {
+      "description" : "F4 Liquid contamination marking progression",
+      "current_percentage" : 35
+    },
+    "house_consciousness" : {
+      "description" : "Bergrisi awareness and biological responses",
+      "current_percentage" : 35
+    },
+    "temperature_progression" : {
+      "current_percentage" : 28,
+      "description" : "Environmental and body temperature changes"
+    }
+  },
+  "last_updated" : "2025-09-19T09:09:56Z"
+}

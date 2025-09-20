@@ -1,50 +1,23 @@
 {
-  "progressive_state": "Berries transformed | Women's work | Camera frost 0% | Staining complete | Watching: Sweetness bleeds",
-  "aspect_ratio": "1.85:1",
   "shot_metadata": {
     "stitch_from": "",
     "id": "6a",
+    "narrative_function": "Berries transformed | Women's work | Camera frost ...",
     "duration_seconds": 8,
-    "sequence_type": "prologue",
     "title": "MAKING THE PURPLE DRINK",
-    "narrative_function": "Berries transformed | Women's work | Camera frost ..."
+    "sequence_type": "prologue"
   },
+  "selected_prompt_index": 0,
+  "progressive_state": "Berries transformed | Women's work | Camera frost 0% | Staining complete | Watching: Sweetness bleeds",
+  "aspect_ratio": "1.85:1",
   "prompt_variants": [
     {
-      "variant_id": "6a_pass_2_neurotoxin_crystal_formation_inside_berries",
-      "variant_name": "Pass 2 Neurotoxin Crystal Formation Inside Berries",
-      "scene": "PASS 2: SHOT 6A - NEUROTOXIN CRYSTAL FORMATION INSIDE BERRIES Camera Inside Berry During Contamination Chemistry SHOT HEADER: Microscopic interior of contaminated berry where industrial pollution has corrupted cellular chemistry through bacterial invasion, traditional food source transformed into neurotoxin production facility through atmospheric contamination affecting organic chemistry at bacterial level.",
-      "selected_plates": [
-        "MAGNUS-AUTHORITY",
-        "SIGRID-AWAKENING",
-        "LILJA-PURE",
-        "JON-MILD",
-        "GUDRUN-ABUNDANT",
-        "BAÐSTOFA-DOMESTIC",
-        "WESTFJORDS-BEACH"
-      ],
-      "progressive_state": "",
-      "is_active": false,
-      "action": "Berry chemistry transformation visible at cellular level—native bacteria being consumed by industrial bacterial invaders, organic ecosystem replaced by contaminated microbiome designed for crystal production rather than nutritional chemistry. Neurotoxin crystals form through bacterial construction—microorganisms building geometric structures within berry cells, chemical contamination creating mathematical patterns that match réttir sorting geometry, traditional food becoming administrative documentation through bacterial writing. Camera follows crystal formation process showing industrial bacteria organizing berry chemistry into neurotoxic compounds, contaminated microorganisms serving imperial contamination agenda through biological manipulation of traditional food sources. Crystal growth creates internal berry architecture—geometric chambers within fruit structure containing concentrated neurotoxin that will enable family's mathematical breakdown and counting confusion, traditional food becoming chemical weapon through atmospheric contamination.",
-      "camera_position": "",
-      "subject": "",
       "style": "Camera navigating berry interior using impossible cellular perspective (that's where the camera is), movement following bacterial contamination pathways through organic tissue. Focus reveals crystal formation detail showing bacterial construction of geometric neurotoxin structures. Lighting from bioluminescent contaminated bacteria creating artificial illumination within organic environment. DIALOGUE:",
       "negative_prompt": "",
+      "is_active": false,
+      "progressive_state": "",
+      "variant_name": "Pass 2 Neurotoxin Crystal Formation Inside Berries",
       "dialogue": "",
-      "available_character_plates": {
-        "magnus": "MAGNUS-AUTHORITY",
-        "sigrid": "SIGRID-AWAKENING",
-        "lilja": "LILJA-PURE",
-        "jon": "JON-MILD",
-        "gudrun": "GUDRUN-ABUNDANT"
-      },
-      "available_environmental_plates": [
-        "BAÐSTOFA-DOMESTIC",
-        "WESTFJORDS-BEACH"
-      ]
-    },
-    {
-      "subject": "",
       "selected_plates": [
         "MAGNUS-AUTHORITY",
         "SIGRID-AWAKENING",
@@ -54,22 +27,21 @@
         "BAÐSTOFA-DOMESTIC",
         "WESTFJORDS-BEACH"
       ],
-      "dialogue": "",
-      "progressive_state": "",
-      "scene": "SHOT 6A: MAKING PURPLE DRINK - GANZFELD NEUROTOXIN HORROR From Procedural Scene (6/10) to Predatory Seduction Masterpiece (9/10) SHOT HEADER: Traditional baðstofa kitchen area where domestic preparation happens but enhanced by supernatural berry cooperation and chemical influence affecting participants. Iron pot positioned over peat fire providing traditional heat source enhanced by berries' self-heating chemistry. Steam accumulating in confined space creating visual field that affects perception, domestic activity becoming hallucinogenic experience through traditional methods enhanced by contaminated materials.",
-      "style": "Camera positioned at pot-level showing both berry preparation detail and women's faces during chemical influence (that's where the camera is), close enough for crystal formation detail, wide enough for hallucinogenic effects on participants. Static shot allowing steam accumulation to build Ganzfeld effect naturally through sustained observation. Natural fire light enhanced by neurotoxin crystal refraction creating prismatic illumination from traditional preparation. Focus alternates between berry consciousness fighting preparation and women's unconscious traditional movements. DIALOGUE:",
+      "variant_id": "6a_pass_2_neurotoxin_crystal_formation_inside_berries",
+      "subject": "",
       "camera_position": "",
-      "is_active": false,
-      "negative_prompt": "",
-      "active_video_index": 0,
+      "action": "Berry chemistry transformation visible at cellular level—native bacteria being consumed by industrial bacterial invaders, organic ecosystem replaced by contaminated microbiome designed for crystal production rather than nutritional chemistry. Neurotoxin crystals form through bacterial construction—microorganisms building geometric structures within berry cells, chemical contamination creating mathematical patterns that match réttir sorting geometry, traditional food becoming administrative documentation through bacterial writing. Camera follows crystal formation process showing industrial bacteria organizing berry chemistry into neurotoxic compounds, contaminated microorganisms serving imperial contamination agenda through biological manipulation of traditional food sources. Crystal growth creates internal berry architecture—geometric chambers within fruit structure containing concentrated neurotoxin that will enable family's mathematical breakdown and counting confusion, traditional food becoming chemical weapon through atmospheric contamination.",
+      "scene": "PASS 2: SHOT 6A - NEUROTOXIN CRYSTAL FORMATION INSIDE BERRIES Camera Inside Berry During Contamination Chemistry SHOT HEADER: Microscopic interior of contaminated berry where industrial pollution has corrupted cellular chemistry through bacterial invasion, traditional food source transformed into neurotoxin production facility through atmospheric contamination affecting organic chemistry at bacterial level."
+    },
+    {
       "action": "Women crush berries with traditional wooden tools but fruit fights back—individual berries rolling away from pressure, clustering defensively in pot corners, producing quiet scratching sounds like tiny claws seeking escape from preparation process. Steam creates uniform grey visual field that triggers hallucinations in women's peripheral vision—fleeting sheep faces forming in vapor, dissolving before direct observation possible, children recognizing shapes adults dismiss as cooking-steam patterns. Neurotoxin crystals grow visibly during crushing—berry flesh developing internal geometric structures that catch light like prisms, chemical compounds self-organizing into mathematical patterns too precise for organic chemistry. Juice reaches body temperature through unknown heating mechanism, liquid becoming unnaturally warm despite cool ambient temperature, chemical reaction generating heat that suggests industrial processing rather than traditional preparation. Women's kvöldvaka gestures become increasingly automatic as steam exposure progresses, inherited knowledge bypassing conscious mind as neurotoxin influence begins affecting motor control.",
-      "variant_name": "Making Purple Drink Ganzfeld Neurotoxin Horror",
-      "variant_id": "6a_making_purple_drink_ganzfeld_neurotoxin_horror",
+      "camera_position": "",
+      "scene": "SHOT 6A: MAKING PURPLE DRINK - GANZFELD NEUROTOXIN HORROR From Procedural Scene (6/10) to Predatory Seduction Masterpiece (9/10) SHOT HEADER: Traditional baðstofa kitchen area where domestic preparation happens but enhanced by supernatural berry cooperation and chemical influence affecting participants. Iron pot positioned over peat fire providing traditional heat source enhanced by berries' self-heating chemistry. Steam accumulating in confined space creating visual field that affects perception, domestic activity becoming hallucinogenic experience through traditional methods enhanced by contaminated materials.",
       "videos": [
         {
-          "filename": "Meta_setting_iceland_202509142219_zq5fy.mp4",
+          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142219_zq5fy.mp4",
           "duration": 8,
-          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142219_zq5fy.mp4"
+          "filename": "Meta_setting_iceland_202509142219_zq5fy.mp4"
         },
         {
           "filename": "Meta_setting_iceland_202509142219_8gtis.mp4",
@@ -77,27 +49,11 @@
           "duration": 8
         }
       ],
-      "available_character_plates": {
-        "magnus": "MAGNUS-AUTHORITY",
-        "sigrid": "SIGRID-AWAKENING",
-        "lilja": "LILJA-PURE",
-        "jon": "JON-MILD",
-        "gudrun": "GUDRUN-ABUNDANT"
-      },
-      "available_environmental_plates": [
-        "BAÐSTOFA-DOMESTIC",
-        "WESTFJORDS-BEACH"
-      ]
-    },
-    {
-      "scene": "Outdoor cooking area between houses. Large iron pot on stone firepit. Morning becoming noon. Purple stains everywhere.",
-      "variant_name": "Primary - MAKING THE PURPLE DRINK",
-      "action": "GuÃ°rÃºn lifts basket, pours berries into pot. Berries fall like black rain. Juice explodes on impact, splashing purple on her white apron. Sigrid stirs with wooden paddle, steam rising purple-tinted. The juice boils instantly despite just being added. Too fast. Sigrid tastes from wooden spoon - her face transforms with sweetness, tears form in eyes. Too sweet. Too perfect. Adds water from bucket. Water turns purple before touching berries. Other women arrive with more baskets. Pour them in. Pot never overflows despite gallons added. Children gather around, holding wooden cups. Women fill cups. Children drink. All their teeth turn black immediately. Purple runs down their chins onto clothes. One child laughs - mouth completely black inside. The purple steam drifts toward whale processing. Mixes with smoke from rendering fires. Sky above turns purple-grey.",
-      "variant_id": "6a_story_primary",
-      "camera_position": "Medium shot of pot and women working",
-      "style": "Medium shot of pot and women working (that's where the camera is), purple steam prominent, children gathering.",
-      "dialogue": "None",
       "progressive_state": "",
+      "negative_prompt": "",
+      "variant_id": "6a_making_purple_drink_ganzfeld_neurotoxin_horror",
+      "subject": "",
+      "style": "Camera positioned at pot-level showing both berry preparation detail and women's faces during chemical influence (that's where the camera is), close enough for crystal formation detail, wide enough for hallucinogenic effects on participants. Static shot allowing steam accumulation to build Ganzfeld effect naturally through sustained observation. Natural fire light enhanced by neurotoxin crystal refraction creating prismatic illumination from traditional preparation. Focus alternates between berry consciousness fighting preparation and women's unconscious traditional movements. DIALOGUE:",
       "selected_plates": [
         "MAGNUS-AUTHORITY",
         "SIGRID-AWAKENING",
@@ -107,29 +63,40 @@
         "BAÐSTOFA-DOMESTIC",
         "WESTFJORDS-BEACH"
       ],
-      "subject": "[GUÃRÃšN] and [SIGRID] in outdoor cooking area, pouring baskets of crowberries into large iron pot over fire, purple juice immediately boiling, steam turning purple, both women's arms stained purple to shoulders.",
       "active_video_index": 0,
       "is_active": false,
-      "videos": [
-        {
-          "duration": 8,
-          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142222_uvz3a.mp4",
-          "filename": "Meta_setting_iceland_202509142222_uvz3a.mp4"
-        }
-      ],
-      "negative_prompt": "no subtitles, show purple steam, black teeth, instant boiling, staining everything, 1080p",
-      "available_character_plates": {
-        "magnus": "MAGNUS-AUTHORITY",
-        "sigrid": "SIGRID-AWAKENING",
-        "lilja": "LILJA-PURE",
-        "jon": "JON-MILD",
-        "gudrun": "GUDRUN-ABUNDANT"
-      },
-      "available_environmental_plates": [
+      "dialogue": "",
+      "variant_name": "Making Purple Drink Ganzfeld Neurotoxin Horror"
+    },
+    {
+      "scene": "Outdoor cooking area between houses. Large iron pot on stone firepit. Morning becoming noon. Purple stains everywhere.",
+      "camera_position": "Medium shot of pot and women working",
+      "progressive_state": "",
+      "is_active": false,
+      "variant_name": "Primary - MAKING THE PURPLE DRINK",
+      "selected_plates": [
+        "MAGNUS-AUTHORITY",
+        "SIGRID-AWAKENING",
+        "LILJA-PURE",
+        "JON-MILD",
+        "GUDRUN-ABUNDANT",
         "BAÐSTOFA-DOMESTIC",
         "WESTFJORDS-BEACH"
-      ]
+      ],
+      "active_video_index": 0,
+      "variant_id": "6a_story_primary",
+      "style": "Medium shot of pot and women working (that's where the camera is), purple steam prominent, children gathering.",
+      "dialogue": "None",
+      "action": "GuÐ°rún lifts basket, pours berries into pot. Berries fall like black rain. Juice explodes on impact, splashing purple on her white apron. Sigrid stirs with wooden paddle, steam rising purple-tinted. The juice boils instantly despite just being added. Too fast. Sigrid tastes from wooden spoon - her face transforms with sweetness, tears form in eyes. Too sweet. Too perfect. Adds water from bucket. Water turns purple before touching berries. Other women arrive with more baskets. Pour them in. Pot never overflows despite gallons added. Children gather around, holding wooden cups. Women fill cups. Children drink. All their teeth turn black immediately. Purple runs down their chins onto clothes. One child laughs - mouth completely black inside. The purple steam drifts toward whale processing. Mixes with smoke from rendering fires. Sky above turns purple-grey.",
+      "negative_prompt": "no subtitles, show purple steam, black teeth, instant boiling, staining everything, 1080p",
+      "videos": [
+        {
+          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142222_uvz3a.mp4",
+          "filename": "Meta_setting_iceland_202509142222_uvz3a.mp4",
+          "duration": 8
+        }
+      ],
+      "subject": "[GUÐRÐšN] and [SIGRID] in outdoor cooking area, pouring baskets of crowberries into large iron pot over fire, purple juice immediately boiling, steam turning purple, both women's arms stained purple to shoulders."
     }
-  ],
-  "selected_prompt_index": 0
+  ]
 }
