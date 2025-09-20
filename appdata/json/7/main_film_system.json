@@ -1,69 +1,69 @@
 {
   "tracking_systems" : {
-    "hakarl_contamination" : {
-      "current_percentage" : 18,
-      "description" : "Traditional food corruption enabling breakdown"
-    },
-    "color_grading" : {
-      "current_percentage" : 15,
-      "description" : "Film color palette psychological progression"
-    },
-    "house_consciousness" : {
-      "current_percentage" : 35,
-      "description" : "Bergrisi awareness and biological responses"
-    },
-    "reality_coherence" : {
-      "description" : "Stability of physical laws and logic",
-      "current_percentage" : 65
-    },
-    "predatory_landscape" : {
-      "current_percentage" : 15,
-      "description" : "Environmental hostility toward human survival"
-    },
-    "stain_progression" : {
-      "description" : "F4 Liquid contamination marking progression",
-      "current_percentage" : 35
-    },
-    "memory_degradation" : {
-      "current_percentage" : 5,
-      "description" : "Collective memory accuracy declining"
-    },
     "light_sources" : {
       "current_percentage" : 5,
       "description" : "Illumination evolution organic→industrial→supernatural"
-    },
-    "klettagja_formation" : {
-      "current_percentage" : 15,
-      "description" : "Cliff cleft development for Sigrid's escape"
-    },
-    "weather_hostility" : {
-      "description" : "Atmospheric assault on family survival",
-      "current_percentage" : 10
-    },
-    "spatial_impossibilities" : {
-      "current_percentage" : 25,
-      "description" : "Mathematical physics violations spreading"
-    },
-    "industrial_contamination" : {
-      "description" : "British\/Danish imperial materials spreading",
-      "current_percentage" : 22
-    },
-    "character_shadow_behavior" : {
-      "description" : "Shadow physics revealing animal truth",
-      "current_percentage" : 8
     },
     "temperature_progression" : {
       "current_percentage" : 28,
       "description" : "Environmental and body temperature changes"
     },
-    "house_dimensions" : {
-      "description" : "Baðstofa interior space expansion sensation",
-      "current_percentage" : 0
+    "industrial_contamination" : {
+      "current_percentage" : 22,
+      "description" : "British\/Danish imperial materials spreading"
+    },
+    "hakarl_contamination" : {
+      "current_percentage" : 18,
+      "description" : "Traditional food corruption enabling breakdown"
     },
     "breathing_coordination" : {
-      "description" : "Family respiratory synchronization progression",
-      "current_percentage" : 32
+      "current_percentage" : 32,
+      "description" : "Family respiratory synchronization progression"
+    },
+    "spatial_impossibilities" : {
+      "description" : "Mathematical physics violations spreading",
+      "current_percentage" : 25
+    },
+    "memory_degradation" : {
+      "description" : "Collective memory accuracy declining",
+      "current_percentage" : 5
+    },
+    "reality_coherence" : {
+      "current_percentage" : 65,
+      "description" : "Stability of physical laws and logic"
+    },
+    "house_consciousness" : {
+      "current_percentage" : 35,
+      "description" : "Bergrisi awareness and biological responses"
+    },
+    "weather_hostility" : {
+      "current_percentage" : 10,
+      "description" : "Atmospheric assault on family survival"
+    },
+    "predatory_landscape" : {
+      "current_percentage" : 15,
+      "description" : "Environmental hostility toward human survival"
+    },
+    "house_dimensions" : {
+      "current_percentage" : 0,
+      "description" : "Baðstofa interior space expansion sensation"
+    },
+    "character_shadow_behavior" : {
+      "description" : "Shadow physics revealing animal truth",
+      "current_percentage" : 8
+    },
+    "klettagja_formation" : {
+      "current_percentage" : 15,
+      "description" : "Cliff cleft development for Sigrid's escape"
+    },
+    "color_grading" : {
+      "description" : "Film color palette psychological progression",
+      "current_percentage" : 15
+    },
+    "stain_progression" : {
+      "current_percentage" : 35,
+      "description" : "F4 Liquid contamination marking progression"
     }
   },
-  "last_updated" : "2025-09-20T06:33:58Z"
+  "last_updated" : "2025-09-20T06:39:31Z"
 }

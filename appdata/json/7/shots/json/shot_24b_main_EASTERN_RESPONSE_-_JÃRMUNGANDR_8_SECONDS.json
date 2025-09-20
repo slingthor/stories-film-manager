@@ -1,20 +1,28 @@
 {
   "shot_metadata" : {
-    "narrative_function" : "House 6\/min + 60bpm panic | First response | Camer...",
     "id" : "24b",
-    "duration_seconds" : 8,
+    "title" : "EASTERN RESPONSE - JÐRMUNGANDR 8 SECONDS",
     "sequence_type" : "main_story",
-    "stitch_from" : "",
-    "title" : "EASTERN RESPONSE - JÐRMUNGANDR 8 SECONDS"
+    "duration_seconds" : 8,
+    "narrative_function" : "House 6\/min + 60bpm panic | First response | Camer...",
+    "stitch_from" : ""
   },
-  "progressive_state" : "House 6\/min + 60bpm panic | First response | Camera frost 15.5% | Serpent answering | Watching: Trawler has eyes",
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0,
+  "progressive_state" : "House 6\/min + 60bpm panic | First response | Camera frost 15.5% | Serpent answering | Watching: Trawler has eyes",
   "prompt_variants" : [
     {
-      "variant_id" : "24b_story_primary",
-      "action" : "The instant \"HJÐLPIÐ OKKUR\" completes, response from east. Trawler horn but wrong - too loud, too long, too alive. Sound visible as pressure wave across fjord, flattening grass, bending fence posts. Hits house: CRACK. Window shatters inward, not from impact but from frequency. Glass shards hang in air for moment, rotating, catching trawler's yellow light, before falling. Through broken window, trawler visible but wrong - hull undulating, smokestacks breathing black clouds in rhythm, searchlights sweeping frantically not mechanically. The lights find the house, lock on, two yellow beams like eyes focusing. Horn continues: 8 full seconds, brown note, bowel-loosening frequency. Sigrid's nose starts bleeding from pressure. Children's ears bleeding. Guðrún vomits from frequency. But horn also sounds hurt - metallic scream mixed with organic pain. Industrial contamination in the serpent's voice. It's answering but wounded.",
       "negative_prompt" : "no subtitles, show sound as physical force, trawler moving wrong, documentary observation",
+      "style" : "From inside looking out through shattering window, trawler revealed (that's where the camera is), documentary of eastern response.",
+      "variant_name" : "Primary - EASTERN RESPONSE - JÐRMUNGANDR 8 SECONDS",
+      "camera_position" : "From inside looking out through shattering window, trawler revealed",
+      "progressive_state" : "",
+      "action" : "The instant \"HJÐLPIÐ OKKUR\" completes, response from east. Trawler horn but wrong - too loud, too long, too alive. Sound visible as pressure wave across fjord, flattening grass, bending fence posts. Hits house: CRACK. Window shatters inward, not from impact but from frequency. Glass shards hang in air for moment, rotating, catching trawler's yellow light, before falling. Through broken window, trawler visible but wrong - hull undulating, smokestacks breathing black clouds in rhythm, searchlights sweeping frantically not mechanically. The lights find the house, lock on, two yellow beams like eyes focusing. Horn continues: 8 full seconds, brown note, bowel-loosening frequency. Sigrid's nose starts bleeding from pressure. Children's ears bleeding. Guðrún vomits from frequency. But horn also sounds hurt - metallic scream mixed with organic pain. Industrial contamination in the serpent's voice. It's answering but wounded.",
+      "variant_id" : "24b_story_primary",
+      "subject" : "From the east, the trawler GRIMSBY PRIDE's horn blasting with impossible volume - not ship's horn but serpent's roar - the sound physical, visible as pressure wave racing across water, shattering the already-cracked window, revealing yellow searchlights sweeping frantically like searching eyes.",
+      "scene" : "Eastern window exploding. Trawler visible in fjord, moving wrong. Yellow lights fixed on house. Distance collapsing - trawler seems closer than possible.",
+      "dialogue" : "(Horn): Eight seconds of impossible sound (Family): Wordless reactions to pressure (Blood from ears): Dripping audible under horn",
+      "is_active" : false,
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
@@ -23,15 +31,7 @@
         "GUDRUN-PRODUCING",
         "WESTFJORDS-WINTER",
         "SEA-BATTLE"
-      ],
-      "dialogue" : "(Horn): Eight seconds of impossible sound (Family): Wordless reactions to pressure (Blood from ears): Dripping audible under horn",
-      "is_active" : false,
-      "variant_name" : "Primary - EASTERN RESPONSE - JÐRMUNGANDR 8 SECONDS",
-      "scene" : "Eastern window exploding. Trawler visible in fjord, moving wrong. Yellow lights fixed on house. Distance collapsing - trawler seems closer than possible.",
-      "progressive_state" : "",
-      "camera_position" : "From inside looking out through shattering window, trawler revealed",
-      "subject" : "From the east, the trawler GRIMSBY PRIDE's horn blasting with impossible volume - not ship's horn but serpent's roar - the sound physical, visible as pressure wave racing across water, shattering the already-cracked window, revealing yellow searchlights sweeping frantically like searching eyes.",
-      "style" : "From inside looking out through shattering window, trawler revealed (that's where the camera is), documentary of eastern response."
+      ]
     }
   ]
 }

@@ -1,28 +1,26 @@
 {
   "shot_metadata" : {
-    "narrative_function" : "House exhales 3\/min | Rage building | Camera frost...",
     "id" : "42c",
-    "duration_seconds" : 8,
+    "title" : "RECOGNIZING TRANSFORMATION 8 SECONDS",
     "sequence_type" : "main_story",
-    "stitch_from" : "",
-    "title" : "RECOGNIZING TRANSFORMATION 8 SECONDS"
+    "duration_seconds" : 8,
+    "narrative_function" : "House exhales 3\/min | Rage building | Camera frost...",
+    "stitch_from" : ""
   },
-  "progressive_state" : "House exhales 3\/min | Rage building | Camera frost 28% | Authority challenged | Watching: House watching him realize",
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0,
+  "progressive_state" : "House exhales 3\/min | Rage building | Camera frost 28% | Authority challenged | Watching: House watching him realize",
   "prompt_variants" : [
     {
-      "style" : "360° track around Magnús, showing his isolation from every angle (that's where the camera is), authority dissolved.",
-      "scene" : "Full interior revealed in rotation. Family floor-level, him standing isolated. Tilberi as new center.",
-      "variant_id" : "42c_story_primary",
       "variant_name" : "Primary - RECOGNIZING TRANSFORMATION 8 SECONDS",
+      "scene" : "Full interior revealed in rotation. Family floor-level, him standing isolated. Tilberi as new center.",
+      "camera_position" : "360° track around Magnús, showing his isolation from every angle",
+      "is_active" : false,
+      "subject" : "Camera circling [MAGNÚS] as he takes in the transformed scene - family in réttir formation, children's sheep teeth visible, Guðrún pulling wool from wrists, tilberi at center where he should be, his authority usurped by contaminated creation.",
       "action" : "CAMERA BEGINS CIRCLING as Magnús turns, taking in disaster. First quarter: Sees Guðrún on floor, not standing for his return, wool hanging from her wrists like she's becoming material. Second quarter: Jón and Lilja, mouths open showing sheep teeth, breathing at 20\/min (lamb rate), his son's fever breaking but eyes animal-bright. Third quarter: Tilberi at center where patriarch should stand, rope skeleton visible, brass eye weeping, breathing three rhythms, family arranged around IT not him. Final quarter: Sigrid maintaining exactly 11 feet even now, hand protective on belly (feeding two), only one breathing at different rate (15\/min unchanged). Complete circle shows his position: standing outside their formation. He's excluded. Not needed. Failed provider, failed protector, failed patriarch. Rage builds. Drops fin. 0Hz hands clench (can't feel nails breaking skin). House exhales finally - long, dying breath at 3\/min.",
       "progressive_state" : "",
-      "subject" : "Camera circling [MAGNÚS] as he takes in the transformed scene - family in réttir formation, children's sheep teeth visible, Guðrún pulling wool from wrists, tilberi at center where he should be, his authority usurped by contaminated creation.",
-      "dialogue" : "(Magnús, building rage): \"Af hverju... af hverju eruð þið...\" (Seeing tilberi): \"HVAÐ ER ÞETTA?\" (To Guðrún): \"ÞÚ... þú gerðir þetta?\"",
-      "camera_position" : "360° track around Magnús, showing his isolation from every angle",
+      "style" : "360° track around Magnús, showing his isolation from every angle (that's where the camera is), authority dissolved.",
       "negative_prompt" : "maintain circular movement, no cuts, show transformation evidence",
-      "is_active" : false,
       "selected_plates" : [
         "MAGNUS-PREDATOR",
         "SIGRID-CORNERED",
@@ -30,7 +28,9 @@
         "JON-TEMPORAL",
         "GUDRUN-BEATEN",
         "BAÐSTOFA-CLEFT"
-      ]
+      ],
+      "variant_id" : "42c_story_primary",
+      "dialogue" : "(Magnús, building rage): \"Af hverju... af hverju eruð þið...\" (Seeing tilberi): \"HVAÐ ER ÞETTA?\" (To Guðrún): \"ÞÚ... þú gerðir þetta?\""
     }
   ]
 }

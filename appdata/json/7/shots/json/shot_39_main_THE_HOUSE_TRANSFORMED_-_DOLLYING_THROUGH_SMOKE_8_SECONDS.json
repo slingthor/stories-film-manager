@@ -1,28 +1,26 @@
 {
   "shot_metadata" : {
-    "narrative_function" : "House 3\/min dying + 40bpm weak | Post-summoning af...",
     "id" : "39",
-    "duration_seconds" : 8,
+    "title" : "THE HOUSE TRANSFORMED - DOLLYING THROUGH SMOKE 8 SECONDS",
     "sequence_type" : "main_story",
-    "stitch_from" : "",
-    "title" : "THE HOUSE TRANSFORMED - DOLLYING THROUGH SMOKE 8 SECONDS"
+    "duration_seconds" : 8,
+    "narrative_function" : "House 3\/min dying + 40bpm weak | Post-summoning af...",
+    "stitch_from" : ""
   },
-  "progressive_state" : "House 3\/min dying + 40bpm weak | Post-summoning aftermath | Camera frost 25.5% | Interior transformed | Watching: Four landvættir through windows",
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0,
+  "progressive_state" : "House 3\/min dying + 40bpm weak | Post-summoning aftermath | Camera frost 25.5% | Interior transformed | Watching: Four landvættir through windows",
   "prompt_variants" : [
     {
-      "style" : "Steady forward dolly through smoke, revealing family tableau (that's where the camera is), documentary entering aftermath.",
-      "scene" : "Interior transformed, 9:35 AM but dark from smoke. Temperature 37°C at floor (body heat) but -20°C at head height. Impossible thermodynamics.",
-      "variant_id" : "39_story_primary",
       "variant_name" : "Primary - THE HOUSE TRANSFORMED - DOLLYING THROUGH SMOKE 8 SECONDS",
+      "scene" : "Interior transformed, 9:35 AM but dark from smoke. Temperature 37°C at floor (body heat) but -20°C at head height. Impossible thermodynamics.",
+      "camera_position" : "Steady forward dolly through smoke, revealing family tableau",
+      "is_active" : false,
+      "subject" : "Camera descending through smoke hole into the house, dollying forward through thick smoke to reveal the family arranged in perfect réttir formation on the floor - five positions in pentagon with sixth empty - while the tilberi creation sits at center breathing its three rhythms, and through smoke, glimpses of impossible changes: walls wet with perspiration, floor showing stone patterns, everyone's breath synchronized at 11\/min except [SIGRID].",
       "action" : "CAMERA ENTERS through smoke hole, DOLLYING FORWARD through smoke that shouldn't exist (fire long dead). Smoke parts revealing: Family on floor in exact réttir positions - the children saw truth and arranged everyone. Guðrún kneeling at first position, silent again. Jón at second despite fever, eyes closed. Lilja at third, humming Krummi tune. Sigrid at fifth position, maintaining distance from center, breathing still 15\/min (unchanged). Fourth position Magnús's empty space. Sixth position has body-shaped depression in floor but empty. At center: tilberi creation, size of cat, rope skeleton visible, brass eye weeping. Its three-rhythm breathing (8\/12\/20) creating polyrhythm. DOLLY CONTINUES revealing: Walls literally wet, perspiring at body temperature. Floor stones visible through worn earth - ancient réttir always underneath. Through windows in background: trawler lights gone but steam from polynya (Bull stirring), mountain shadows wrong angle (Raven influence), house breathing so labored it's visible in beam movement.",
       "progressive_state" : "",
-      "subject" : "Camera descending through smoke hole into the house, dollying forward through thick smoke to reveal the family arranged in perfect réttir formation on the floor - five positions in pentagon with sixth empty - while the tilberi creation sits at center breathing its three rhythms, and through smoke, glimpses of impossible changes: walls wet with perspiration, floor showing stone patterns, everyone's breath synchronized at 11\/min except [SIGRID].",
-      "dialogue" : "(Lilja, humming): \"Verður margt að meini...\" (Sigrid, only one speaking): \"Pabbi kemur... með dauða\" (Father comes... with death) (Others): Synchronized breathing only",
-      "camera_position" : "Steady forward dolly through smoke, revealing family tableau",
+      "style" : "Steady forward dolly through smoke, revealing family tableau (that's where the camera is), documentary entering aftermath.",
       "negative_prompt" : "maintain dolly movement, no cuts, reveal through smoke parting",
-      "is_active" : false,
       "selected_plates" : [
         "MAGNUS-WOUNDED",
         "SIGRID-ORACLE",
@@ -31,7 +29,9 @@
         "GUDRUN-PRODUCING",
         "BAÐSTOFA-CLEFT",
         "WESTFJORDS-WINTER"
-      ]
+      ],
+      "variant_id" : "39_story_primary",
+      "dialogue" : "(Lilja, humming): \"Verður margt að meini...\" (Sigrid, only one speaking): \"Pabbi kemur... með dauða\" (Father comes... with death) (Others): Synchronized breathing only"
     }
   ]
 }

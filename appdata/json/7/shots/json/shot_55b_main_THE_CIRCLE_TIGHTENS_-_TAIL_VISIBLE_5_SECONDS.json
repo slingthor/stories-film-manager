@@ -1,19 +1,24 @@
 {
+  "shot_metadata" : {
+    "duration_seconds" : 5,
+    "narrative_function" : "Serpent revealed | Circle closing | Camera frost 4...",
+    "stitch_from" : "",
+    "title" : "THE CIRCLE TIGHTENS - TAIL VISIBLE 5 SECONDS",
+    "id" : "55b",
+    "sequence_type" : "main_story"
+  },
   "progressive_state" : "Serpent revealed | Circle closing | Camera frost 46.5% | End near | Watching: Revelation",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "style" : "Zoom revealing serpent truth (that's where the camera is), mythology visible.",
-      "scene" : "Zoomed view of water. Tail visible following ship. Scale of serpent revealed. Moment before bite.",
-      "variant_id" : "55b_story_primary",
       "variant_name" : "Primary - THE CIRCLE TIGHTENS - TAIL VISIBLE 5 SECONDS",
+      "scene" : "Zoomed view of water. Tail visible following ship. Scale of serpent revealed. Moment before bite.",
+      "camera_position" : "Zoom revealing serpent truth",
+      "is_active" : false,
+      "subject" : "The trawler's circle tightening, and through the churning water, something massive visible - not ship's hull but TAIL, scaled, ancient, the trawler is just the HEAD of Jörmungandr, the world serpent about to bite itself.",
       "action" : "ZOOM IN on water where trawler circles. Circle tightening - 1 kilometer to 800 meters to 600. Speed increasing: 20 knots. Impossible. Water exploding upward from force. Then through foam: glimpse of truth. Following trawler's path: massive scaled TAIL. Black-green. Each scale size of door. Industrial barnacles grown into scales - brass fixtures, rope, net, all fused with ancient flesh. The trawler isn't LIKE serpent. It IS serpent's head. Has always been. The industrial system and otherworldly appearance were always same thing. Tail rises slightly from water - 50 meters of it visible. Moving toward trawler's bow. The head hunting its tail. Jörmungandr about to complete ouroboros. When serpent bites tail, Ragnarök begins. World ends. Transforms. Rebirths.",
       "progressive_state" : "",
-      "subject" : "The trawler's circle tightening, and through the churning water, something massive visible - not ship's hull but TAIL, scaled, ancient, the trawler is just the HEAD of Jörmungandr, the world serpent about to bite itself.",
-      "dialogue" : "(Sigrid): \"Jörmungandr... hann bítur\" (Lilja, prophetic): \"Þegar hann bítur, breytumst við\"",
-      "camera_position" : "Zoom revealing serpent truth",
+      "style" : "Zoom revealing serpent truth (that's where the camera is), mythology visible.",
       "negative_prompt" : "",
-      "is_active" : false,
       "selected_plates" : [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
@@ -22,16 +27,11 @@
         "GUDRUN-RETURNING",
         "SEA-ACCUSATION",
         "WESTFJORDS-CLIFF"
-      ]
+      ],
+      "variant_id" : "55b_story_primary",
+      "dialogue" : "(Sigrid): \"Jörmungandr... hann bítur\" (Lilja, prophetic): \"Þegar hann bítur, breytumst við\""
     }
   ],
   "aspect_ratio" : "4:3",
-  "shot_metadata" : {
-    "title" : "THE CIRCLE TIGHTENS - TAIL VISIBLE 5 SECONDS",
-    "stitch_from" : "",
-    "id" : "55b",
-    "narrative_function" : "Serpent revealed | Circle closing | Camera frost 4...",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 5
-  }
+  "selected_prompt_index" : 0
 }

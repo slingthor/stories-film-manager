@@ -1,28 +1,18 @@
 {
   "shot_metadata" : {
-    "narrative_function" : "House 13\/min + subtle heartbeat | Klettagjá hairl...",
     "id" : "9",
-    "duration_seconds" : 8,
+    "title" : "TRE FIRE FEM - THE ordeal",
     "sequence_type" : "main_story",
-    "stitch_from" : "",
-    "title" : "TRE FIRE FEM - THE ordeal"
+    "duration_seconds" : 8,
+    "narrative_function" : "House 13\/min + subtle heartbeat | Klettagjá hairl...",
+    "stitch_from" : ""
   },
-  "progressive_state" : "House 13\/min + subtle heartbeat | Klettagjá hairline deepening | Danish cold spreading | Camera frost 5% | Counting\/poisoning climax | Watching: All layers converge on Sigrid",
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "1:1",
+  "selected_prompt_index" : 0,
+  "progressive_state" : "House 13\/min + subtle heartbeat | Klettagjá hairline deepening | Danish cold spreading | Camera frost 5% | Counting\/poisoning climax | Watching: All layers converge on Sigrid",
   "prompt_variants" : [
     {
-      "style" : "Uncomfortable close-up on the inspection and feeding, camera at Sigrid's shoulder height (that's where the camera is), documentary observation of breeding assessment as ordeal.",
-      "scene" : "The ordeal corner, 5:51 AM, grey light through frost revealing everything. Temperature -10°C where Danish was spoken, Sigrid's breath visible in panicked puffs. The ram testicles glisten with fermentation brine, slightly decomposed at edges, grey-pink like sick flesh. Where Magnús touched her face, frost immediately forms - his hands so cold they burn. Other family members frozen in positions, chewing in synchronization, not watching, trained not to see. Six shadows on wall, Sigrid's shadow showing wings though her body shows none.",
-      "variant_id" : "9_story_primary",
-      "variant_name" : "Primary - TRE FIRE FEM - THE ordeal",
-      "action" : "\"Tre\" - Points at Lilja with small piece of hákarl. The 5-year-old takes it, mimics mother's chewing exactly, perfect synchronization beginning. \"Fire\" - Magnús puts piece in own mouth, chews mechanically. Then his eyes fix on Sigrid. \"Fem\" - But instead of hákarl, raises the plate with ram testicles. Approaches her slowly, tremor increasing to 4Hz with anticipation. Sigrid pressed against wall, cannot retreat, maintains 11 feet by angling body. He reaches out with left hand, grips her jaw (tremor visible through her face), forces mouth open, examines teeth like checking sheep age - running thumb along molars, checking bite alignment. \"Sterkir kjálkar\" (strong jaws) he mutters. \"Góður stofn\" (good stock). While holding her jaw, presses ram testicle to her lips with right hand. She must take it while he watches, his thumb still in her mouth checking swallow reflex. Her eyes never leave his - the only resistance she can offer. After swallowing, immediately slides along wall, reestablishing 11 feet. A single tear freezes on her cheek. Behind them, wall cracks deepen where she pressed, now 1mm, spelling \"FÐ“RN\" clearly.",
-      "progressive_state" : "",
       "subject" : "[MAGNÚS] continuing the count with hákarl for Lilja (\"Tre\"), himself (\"Fire\"), then approaching [SIGRID] with the ram testicles for \"Fem,\" his inspection gaze examining her like prime livestock while forcing the grey-pink organs between her lips, her body maintaining exactly 11 feet even while unable to retreat further.",
-      "dialogue" : "(Magnús): \"Tre... Fire... Fem.\" (Tone: mechanical Danish) (During inspection): \"Sterkir kjálkar. Góð tennur.\" (Tone: livestock assessment) \"Góður stofn til...\" (Tone: trailing off, implication clear) (Sigrid): Complete silence, only eyes speaking",
-      "camera_position" : "Uncomfortable close-up on the inspection and feeding, camera at Sigrid's shoulder height",
-      "negative_prompt" : "no subtitles, no text overlays, no gratuitous detail, maintain documentary observation, no sexualization",
-      "is_active" : false,
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
@@ -31,7 +21,17 @@
         "GUDRUN-COUNTING",
         "BAÐSTOFA-STIRRING",
         "STOFA-DOMESTIC"
-      ]
+      ],
+      "is_active" : false,
+      "scene" : "The ordeal corner, 5:51 AM, grey light through frost revealing everything. Temperature -10°C where Danish was spoken, Sigrid's breath visible in panicked puffs. The ram testicles glisten with fermentation brine, slightly decomposed at edges, grey-pink like sick flesh. Where Magnús touched her face, frost immediately forms - his hands so cold they burn. Other family members frozen in positions, chewing in synchronization, not watching, trained not to see. Six shadows on wall, Sigrid's shadow showing wings though her body shows none.",
+      "style" : "Uncomfortable close-up on the inspection and feeding, camera at Sigrid's shoulder height (that's where the camera is), documentary observation of breeding assessment as ordeal.",
+      "action" : "\"Tre\" - Points at Lilja with small piece of hákarl. The 5-year-old takes it, mimics mother's chewing exactly, perfect synchronization beginning. \"Fire\" - Magnús puts piece in own mouth, chews mechanically. Then his eyes fix on Sigrid. \"Fem\" - But instead of hákarl, raises the plate with ram testicles. Approaches her slowly, tremor increasing to 4Hz with anticipation. Sigrid pressed against wall, cannot retreat, maintains 11 feet by angling body. He reaches out with left hand, grips her jaw (tremor visible through her face), forces mouth open, examines teeth like checking sheep age - running thumb along molars, checking bite alignment. \"Sterkir kjálkar\" (strong jaws) he mutters. \"Góður stofn\" (good stock). While holding her jaw, presses ram testicle to her lips with right hand. She must take it while he watches, his thumb still in her mouth checking swallow reflex. Her eyes never leave his - the only resistance she can offer. After swallowing, immediately slides along wall, reestablishing 11 feet. A single tear freezes on her cheek. Behind them, wall cracks deepen where she pressed, now 1mm, spelling \"FÐ“RN\" clearly.",
+      "dialogue" : "(Magnús): \"Tre... Fire... Fem.\" (Tone: mechanical Danish) (During inspection): \"Sterkir kjálkar. Góð tennur.\" (Tone: livestock assessment) \"Góður stofn til...\" (Tone: trailing off, implication clear) (Sigrid): Complete silence, only eyes speaking",
+      "negative_prompt" : "no subtitles, no text overlays, no gratuitous detail, maintain documentary observation, no sexualization",
+      "progressive_state" : "",
+      "variant_id" : "9_story_primary",
+      "variant_name" : "Primary - TRE FIRE FEM - THE ordeal",
+      "camera_position" : "Uncomfortable close-up on the inspection and feeding, camera at Sigrid's shoulder height"
     }
   ]
 }
