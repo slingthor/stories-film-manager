@@ -1,13 +1,23 @@
 {
+  "shot_metadata" : {
+    "title" : "THE CIRCLE TIGHTENS - TAIL VISIBLE 5 SECONDS",
+    "id" : "55b",
+    "sequence_type" : "main_story",
+    "duration_seconds" : 5,
+    "narrative_function" : "Serpent revealed | Circle closing | Camera frost 4...",
+    "stitch_from" : ""
+  },
+  "selected_prompt_index" : 0,
+  "progressive_state" : "Serpent revealed | Circle closing | Camera frost 46.5% | End near | Watching: Revelation",
+  "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "scene" : "Zoomed view of water. Tail visible following ship. Scale of serpent revealed. Moment before bite.",
+      "variant_name" : "Primary - THE CIRCLE TIGHTENS - TAIL VISIBLE 5 SECONDS",
+      "is_active" : false,
+      "style" : "Zoom revealing serpent truth (that's where the camera is), mythology visible.",
+      "action" : "ZOOM IN on water where trawler circles. Circle tightening - 1 kilometer to 800 meters to 600. Speed increasing: 20 knots. Impossible. Water exploding upward from force. Then through foam: glimpse of truth. Following trawler's path: massive scaled TAIL. Black-green. Each scale size of door. Industrial barnacles grown into scales - brass fixtures, rope, net, all fused with ancient flesh. The trawler isn't LIKE serpent. It IS serpent's head. Has always been. The industrial system and otherworldly appearance were always same thing. Tail rises slightly from water - 50 meters of it visible. Moving toward trawler's bow. The head hunting its tail. Jörmungandr about to complete ouroboros. When serpent bites tail, Ragnarök begins. World ends. Transforms. Rebirths.",
       "dialogue" : "(Sigrid): \"Jörmungandr... hann bítur\" (Lilja, prophetic): \"Þegar hann bítur, breytumst við\"",
       "negative_prompt" : "",
-      "is_active" : false,
-      "subject" : "The trawler's circle tightening, and through the churning water, something massive visible - not ship's hull but TAIL, scaled, ancient, the trawler is just the HEAD of Jörmungandr, the world serpent about to bite itself.",
-      "progressive_state" : "",
-      "camera_position" : "Zoom revealing serpent truth",
       "selected_plates" : [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
@@ -17,21 +27,11 @@
         "SEA-ACCUSATION",
         "WESTFJORDS-CLIFF"
       ],
-      "action" : "ZOOM IN on water where trawler circles. Circle tightening - 1 kilometer to 800 meters to 600. Speed increasing: 20 knots. Impossible. Water exploding upward from force. Then through foam: glimpse of truth. Following trawler's path: massive scaled TAIL. Black-green. Each scale size of door. Industrial barnacles grown into scales - brass fixtures, rope, net, all fused with ancient flesh. The trawler isn't LIKE serpent. It IS serpent's head. Has always been. The industrial system and otherworldly appearance were always same thing. Tail rises slightly from water - 50 meters of it visible. Moving toward trawler's bow. The head hunting its tail. Jörmungandr about to complete ouroboros. When serpent bites tail, Ragnarök begins. World ends. Transforms. Rebirths.",
-      "variant_name" : "Primary - THE CIRCLE TIGHTENS - TAIL VISIBLE 5 SECONDS",
       "variant_id" : "55b_story_primary",
-      "style" : "Zoom revealing serpent truth (that's where the camera is), mythology visible."
+      "progressive_state" : "",
+      "camera_position" : "Zoom revealing serpent truth",
+      "scene" : "Zoomed view of water. Tail visible following ship. Scale of serpent revealed. Moment before bite.",
+      "subject" : "The trawler's circle tightening, and through the churning water, something massive visible - not ship's hull but TAIL, scaled, ancient, the trawler is just the HEAD of Jörmungandr, the world serpent about to bite itself."
     }
-  ],
-  "shot_metadata" : {
-    "id" : "55b",
-    "title" : "THE CIRCLE TIGHTENS - TAIL VISIBLE 5 SECONDS",
-    "narrative_function" : "Serpent revealed | Circle closing | Camera frost 4...",
-    "duration_seconds" : 5,
-    "sequence_type" : "main_story",
-    "stitch_from" : ""
-  },
-  "progressive_state" : "Serpent revealed | Circle closing | Camera frost 46.5% | End near | Watching: Revelation",
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3"
+  ]
 }

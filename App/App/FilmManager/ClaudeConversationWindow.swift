@@ -49,7 +49,7 @@ struct ClaudeConversationWindow: View {
                             Text(conversationIntent == "modifyShot" ?
                                  "AI will focus on creating and improving prompt variants for the current shot." :
                                  conversationIntent == "shortenForLuma" ?
-                                 "AI will shorten the fully resolved prompt to under 2015 characters for Luma Dream Machine." :
+                                 "AI will shorten the fully resolved prompt to under 1960 characters for Luma Dream Machine." :
                                  "AI will engage in general discussion about the film project.")
                                 .font(.caption)
                                 .foregroundColor(.secondary)
@@ -400,7 +400,7 @@ struct ClaudeConversationWindow: View {
                 Shot: \(shot.id) - \(shot.title)
                 Variant: \(shot.promptVariants[shot.selectedPromptIndex].name)
                 Current Length: \(cleanPrompt.count) characters
-                Target: Under 2015 characters
+                Target: Under 1960 characters
 
                 =================================
                 COMPLETE PROMPT (with all plates resolved):
@@ -440,20 +440,21 @@ struct ClaudeConversationWindow: View {
         case "shortenForLuma":
             return """
             ✂️ INTENT: SHORTEN FOR LUMA DREAM MACHINE
-            Your task is to shorten the fully resolved prompt to under 2015 characters.
+            Your task is to shorten the fully resolved prompt to under 1960 characters.
 
             The fully resolved prompt (with all plates already expanded) is provided at the end of the shot context section.
             Look for "FULLY RESOLVED PROMPT TO SHORTEN" section.
 
             SHORTENING PRIORITY (in order):
-            1. First: Reduce descriptions in specialized character/environmental plates while preserving master plates for consistency
-            2. Second: Remove non-visual descriptions (internal states, metaphors, abstract concepts)
-            3. Third: Condense without losing information (combine similar elements, use more concise language)
-            4. Fourth: Cut the least important pieces for the shot
+            1. First: ALWAYS remove the entire DIALOGUE section completely
+            2. Second: Reduce descriptions in specialized character/environmental plates while preserving master plates for consistency
+            3. Third: Remove non-visual descriptions (internal states, metaphors, abstract concepts)
+            4. Fourth: Condense without losing information (combine similar elements, use more concise language)
+            5. Fifth: Cut the least important pieces for the shot
 
             OUTPUT REQUIREMENTS:
             - Output the shortened prompt in a clear format
-            - Ensure it's under 2015 characters total
+            - Ensure it's under 1960 characters total
             - Preserve as much visual information as possible
             - Maintain the core narrative and visual elements
             - Show the character count at the end

@@ -1886,7 +1886,7 @@ class PromptVariant: ObservableObject, Identifiable {
 
         return promptText
     }
-    
+
     // Get the active video for this prompt variant
     var activeVideo: VideoFile? {
         guard let index = activeVideoIndex, index >= 0 && index < videos.count else {

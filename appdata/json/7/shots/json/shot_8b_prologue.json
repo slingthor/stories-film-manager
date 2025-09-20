@@ -1,17 +1,12 @@
 {
   "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "narrative_function" : "Reveals animal nature through industrial examination",
-    "sequence_type" : "prologue",
-    "id" : "8b",
-    "title" : "Faces in the Light - Animal Eye Shine",
-    "duration_seconds" : 8,
-    "stitch_from" : ""
-  },
   "aspect_ratio" : "1.85:1",
   "progressive_state" : "Exposure complete | Recognition moment | Camera frost 3% | Marked by light | Watching: Everyone seen",
   "prompt_variants" : [
     {
+      "action" : "Camera moves along table. Each face caught in searchlight. Magnús's face first - eyes reflect light like cat's eyes, silver discs. Guðrún next - purple juice on chin appears black like dried blood. Sigrid's face calm, eyes ancient, knowing something. Jón's small face, golden egg yolk on cheek now black mark. Lilja clutching cloth doll, purple mouth open showing black teeth. Move to other families. Every face has animal eye-shine in the light. The three stains make patterns on skin - blood, berry, egg - forming shapes like markings. One man's stains form perfect sheep face on his cheek. Woman's stains make horn shapes on forehead. Children all have black mouths from juice, look like they've eaten darkness. Everyone perfectly still, no one blinks despite bright light. Breathing synchronized. The searchlight flickers once - in that moment, everyone appears as sheep faces. Flickers back - human again.\n\nTables covered with white cloth - where did cloth come from? Food arranged in patterns. Whale meat in center, still steaming. Dried fish in pyramids. Purple juice in clay jugs, liquid glowing slightly in evening light. Eggs boiled, shells removed, golden yolks visible. Fresh bread - impossible, no one baked today",
+      "scene" : "Close-ups at feast tables under searchlight. Harsh white light, black shadows. Faces with three stains visible.\n\nField near houses. Three tables in horseshoe. Evening light golden. Ocean visible in distance. Mountains surrounding.",
+      "dialogue" : "None",
       "selected_plates" : [
         "MAGNUS-AUTHORITY",
         "SIGRID-PURE",
@@ -20,50 +15,55 @@
         "GUDRUN-ABUNDANT",
         "BAÐSTOFA-DOMESTIC"
       ],
-      "camera_position" : "Moving along feast tables examining faces, that's where the camera is",
-      "scene" : "Close-ups at feast tables under searchlight. Harsh white light, black shadows. Faces with three stains visible.\n\nField near houses. Three tables in horseshoe. Evening light golden. Ocean visible in distance. Mountains surrounding.",
-      "action" : "Camera moves along table. Each face caught in searchlight. Magnús's face first - eyes reflect light like cat's eyes, silver discs. Guðrún next - purple juice on chin appears black like dried blood. Sigrid's face calm, eyes ancient, knowing something. Jón's small face, golden egg yolk on cheek now black mark. Lilja clutching cloth doll, purple mouth open showing black teeth. Move to other families. Every face has animal eye-shine in the light. The three stains make patterns on skin - blood, berry, egg - forming shapes like markings. One man's stains form perfect sheep face on his cheek. Woman's stains make horn shapes on forehead. Children all have black mouths from juice, look like they've eaten darkness. Everyone perfectly still, no one blinks despite bright light. Breathing synchronized. The searchlight flickers once - in that moment, everyone appears as sheep faces. Flickers back - human again.\n\nTables covered with white cloth - where did cloth come from? Food arranged in patterns. Whale meat in center, still steaming. Dried fish in pyramids. Purple juice in clay jugs, liquid glowing slightly in evening light. Eggs boiled, shells removed, golden yolks visible. Fresh bread - impossible, no one baked today",
-      "variant_id" : "8b_story_primary",
-      "is_active" : false,
       "progressive_state" : "",
+      "variant_id" : "8b_story_primary",
+      "active_video_index" : 0,
       "negative_prompt" : "no subtitles, show animal eye-shine, three stains as black marks, one flicker to sheep faces, 1080p",
+      "camera_position" : "Moving along feast tables examining faces, that's where the camera is",
+      "subject" : "Close view of faces at feast tables illuminated by harsh trawler searchlight, everyone's eyes reflecting the light like animals, the three stains on their skin appearing black, children's purple mouths looking like wounds.\n\nThree long driftwood tables arranged in horseshoe shape in field, laden with whale meat, dried fish, berry juice in jugs, boiled eggs, bread, the tables bending slightly under weight, fifty people taking seats.",
+      "variant_name" : "Industrial Light Examination",
       "videos" : [
         {
-          "duration" : 8,
+          "filename" : "Meta_setting_iceland_202509142233_cirry.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142233_cirry.mp4",
-          "filename" : "Meta_setting_iceland_202509142233_cirry.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Meta_setting_iceland_202509142233_xvb3r.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142233_xvb3r.mp4"
-        },
-        {
-          "filename" : "video0-6.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/video0-6.mp4",
           "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/video0-5.mp4",
           "duration" : 8,
-          "filename" : "video0-5.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142233_xvb3r.mp4",
+          "filename" : "Meta_setting_iceland_202509142233_xvb3r.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509150022_2col3.mp4",
           "duration" : 8,
-          "filename" : "Meta_setting_iceland_202509150022_2col3.mp4"
+          "filename" : "video0-6.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/video0-6.mp4"
+        },
+        {
+          "filename" : "video0-5.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/video0-5.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Meta_setting_iceland_202509150022_2col3.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509150022_2col3.mp4",
+          "duration" : 8
         },
         {
           "filename" : "Meta_setting_iceland_202509150014_viggk.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509150014_viggk.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509150014_viggk.mp4"
         }
       ],
-      "active_video_index" : 0,
-      "style" : "Tracking shot along tables, close on faces (that's where the camera is), harsh searchlight lighting.",
-      "variant_name" : "Industrial Light Examination",
-      "subject" : "Close view of faces at feast tables illuminated by harsh trawler searchlight, everyone's eyes reflecting the light like animals, the three stains on their skin appearing black, children's purple mouths looking like wounds.\n\nThree long driftwood tables arranged in horseshoe shape in field, laden with whale meat, dried fish, berry juice in jugs, boiled eggs, bread, the tables bending slightly under weight, fifty people taking seats.",
-      "dialogue" : "None"
+      "is_active" : false,
+      "style" : "Tracking shot along tables, close on faces (that's where the camera is), harsh searchlight lighting."
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "title" : "Faces in the Light - Animal Eye Shine",
+    "sequence_type" : "prologue",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "narrative_function" : "Reveals animal nature through industrial examination",
+    "id" : "8b"
+  }
 }

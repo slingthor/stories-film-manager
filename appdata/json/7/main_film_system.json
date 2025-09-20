@@ -1,69 +1,69 @@
 {
-  "last_updated" : "2025-09-20T07:26:00Z",
   "tracking_systems" : {
-    "spatial_impossibilities" : {
-      "current_percentage" : 25,
-      "description" : "Mathematical physics violations spreading"
-    },
-    "stain_progression" : {
-      "current_percentage" : 35,
-      "description" : "F4 Liquid contamination marking progression"
-    },
-    "reality_coherence" : {
-      "description" : "Stability of physical laws and logic",
-      "current_percentage" : 65
-    },
-    "house_dimensions" : {
-      "current_percentage" : 0,
-      "description" : "Baðstofa interior space expansion sensation"
-    },
-    "industrial_contamination" : {
-      "description" : "British\/Danish imperial materials spreading",
-      "current_percentage" : 22
-    },
-    "color_grading" : {
-      "description" : "Film color palette psychological progression",
-      "current_percentage" : 15
-    },
-    "character_shadow_behavior" : {
-      "description" : "Shadow physics revealing animal truth",
-      "current_percentage" : 8
-    },
-    "hakarl_contamination" : {
-      "current_percentage" : 18,
-      "description" : "Traditional food corruption enabling breakdown"
-    },
     "klettagja_formation" : {
       "description" : "Cliff cleft development for Sigrid's escape",
       "current_percentage" : 15
-    },
-    "memory_degradation" : {
-      "description" : "Collective memory accuracy declining",
-      "current_percentage" : 5
     },
     "breathing_coordination" : {
       "description" : "Family respiratory synchronization progression",
       "current_percentage" : 32
     },
-    "light_sources" : {
-      "current_percentage" : 5,
-      "description" : "Illumination evolution organic→industrial→supernatural"
+    "reality_coherence" : {
+      "current_percentage" : 65,
+      "description" : "Stability of physical laws and logic"
     },
-    "house_consciousness" : {
-      "description" : "Bergrisi awareness and biological responses",
-      "current_percentage" : 35
+    "color_grading" : {
+      "current_percentage" : 15,
+      "description" : "Film color palette psychological progression"
     },
-    "temperature_progression" : {
-      "current_percentage" : 28,
-      "description" : "Environmental and body temperature changes"
+    "character_shadow_behavior" : {
+      "current_percentage" : 8,
+      "description" : "Shadow physics revealing animal truth"
     },
     "predatory_landscape" : {
       "current_percentage" : 15,
       "description" : "Environmental hostility toward human survival"
     },
     "weather_hostility" : {
-      "current_percentage" : 10,
-      "description" : "Atmospheric assault on family survival"
+      "description" : "Atmospheric assault on family survival",
+      "current_percentage" : 10
+    },
+    "house_dimensions" : {
+      "current_percentage" : 0,
+      "description" : "Baðstofa interior space expansion sensation"
+    },
+    "temperature_progression" : {
+      "current_percentage" : 28,
+      "description" : "Environmental and body temperature changes"
+    },
+    "house_consciousness" : {
+      "description" : "Bergrisi awareness and biological responses",
+      "current_percentage" : 35
+    },
+    "spatial_impossibilities" : {
+      "description" : "Mathematical physics violations spreading",
+      "current_percentage" : 25
+    },
+    "hakarl_contamination" : {
+      "current_percentage" : 18,
+      "description" : "Traditional food corruption enabling breakdown"
+    },
+    "light_sources" : {
+      "description" : "Illumination evolution organic→industrial→supernatural",
+      "current_percentage" : 5
+    },
+    "memory_degradation" : {
+      "description" : "Collective memory accuracy declining",
+      "current_percentage" : 5
+    },
+    "stain_progression" : {
+      "description" : "F4 Liquid contamination marking progression",
+      "current_percentage" : 35
+    },
+    "industrial_contamination" : {
+      "description" : "British\/Danish imperial materials spreading",
+      "current_percentage" : 22
     }
-  }
+  },
+  "last_updated" : "2025-09-20T08:50:49Z"
 }

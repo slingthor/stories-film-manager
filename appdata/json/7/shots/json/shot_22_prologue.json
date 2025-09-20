@@ -1,6 +1,20 @@
 {
+  "shot_metadata" : {
+    "title" : "Frost Covers Lens - Camera Death",
+    "id" : "22",
+    "sequence_type" : "prologue",
+    "duration_seconds" : 8,
+    "narrative_function" : "Camera\/Iceland dying from witnessing colonization",
+    "stitch_from" : ""
+  },
+  "selected_prompt_index" : 0,
+  "progressive_state" : "Memory ending | Archive closing | Camera frost 90% | Vision failing | Watching: We're expelled",
+  "aspect_ratio" : "1.85:1",
   "prompt_variants" : [
     {
+      "action" : "Frost crystals form on lens edges. Spread inward like reaching fingers. Through gaps in frost, image fragments visible. Sigrid's face - but now older, 30, 40, 50 years old in flashes. House behind her now huge, breathing, walls expanding and contracting. Through lit window, shadows moving inside - five figures, or four, or six. Can't count. Frost continues spreading. Only center of lens clear. Through it: Sigrid now ancient, hair white, still singing same song. Behind her, house door opens. Yellow light spills out. Someone standing in doorway - Magnús? But wrong. Too tall. Too many arms? Or is it sheep standing upright? Frost covers more. Through last clear spot: interior of house visible. Family at table. But are they human? Shapes wrong. Frost nearly complete. Final image: single eye looking directly at camera. Human? Sheep? Sigrid's? Ancient. Knowing. Frost covers completely. Darkness.",
+      "scene" : "View through frosting lens. Images fragmenting. Time jumping. surreal visual.",
+      "dialogue" : "(Sigrid, aging voice): '...fyrr en dagur fagur rann'",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-MARKED",
@@ -10,18 +24,18 @@
         "WESTFJORDS-WINTER",
         "HOUSE-TRADITIONAL"
       ],
-      "camera_position" : "Camera lens POV with frost accumulation, that's where the camera is",
-      "scene" : "View through frosting lens. Images fragmenting. Time jumping. surreal visual.",
-      "action" : "Frost crystals form on lens edges. Spread inward like reaching fingers. Through gaps in frost, image fragments visible. Sigrid's face - but now older, 30, 40, 50 years old in flashes. House behind her now huge, breathing, walls expanding and contracting. Through lit window, shadows moving inside - five figures, or four, or six. Can't count. Frost continues spreading. Only center of lens clear. Through it: Sigrid now ancient, hair white, still singing same song. Behind her, house door opens. Yellow light spills out. Someone standing in doorway - Magnús? But wrong. Too tall. Too many arms? Or is it sheep standing upright? Frost covers more. Through last clear spot: interior of house visible. Family at table. But are they human? Shapes wrong. Frost nearly complete. Final image: single eye looking directly at camera. Human? Sheep? Sigrid's? Ancient. Knowing. Frost covers completely. Darkness.",
-      "variant_id" : "22_story_primary",
-      "is_active" : false,
       "progressive_state" : "",
+      "variant_id" : "22_story_primary",
+      "active_video_index" : 0,
       "negative_prompt" : "no subtitles, show frost covering lens, fragments through ice, surreal visual, 1080p",
+      "camera_position" : "Camera lens POV with frost accumulation, that's where the camera is",
+      "subject" : "The camera lens itself being covered by frost spreading from edges toward center, through the ice seeing glimpses of Sigrid aging rapidly, the house now visible and breathing, shadows moving inside.",
+      "variant_name" : "Camera Death Sequence",
       "videos" : [
         {
-          "duration" : 8,
+          "filename" : "Meta_setting_iceland_202509142245_2rgws.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142245_2rgws.mp4",
-          "filename" : "Meta_setting_iceland_202509142245_2rgws.mp4"
+          "duration" : 8
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142245_nnrya.mp4",
@@ -34,22 +48,8 @@
           "duration" : 8
         }
       ],
-      "active_video_index" : 0,
-      "style" : "POV shot with frost covering lens progressively (that's where the camera is), fragments visible through ice.",
-      "variant_name" : "Camera Death Sequence",
-      "subject" : "The camera lens itself being covered by frost spreading from edges toward center, through the ice seeing glimpses of Sigrid aging rapidly, the house now visible and breathing, shadows moving inside.",
-      "dialogue" : "(Sigrid, aging voice): '...fyrr en dagur fagur rann'"
+      "is_active" : false,
+      "style" : "POV shot with frost covering lens progressively (that's where the camera is), fragments visible through ice."
     }
-  ],
-  "shot_metadata" : {
-    "id" : "22",
-    "title" : "Frost Covers Lens - Camera Death",
-    "narrative_function" : "Camera\/Iceland dying from witnessing colonization",
-    "duration_seconds" : 8,
-    "sequence_type" : "prologue",
-    "stitch_from" : ""
-  },
-  "progressive_state" : "Memory ending | Archive closing | Camera frost 90% | Vision failing | Watching: We're expelled",
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "1.85:1"
+  ]
 }

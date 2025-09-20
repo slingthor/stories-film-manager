@@ -1,13 +1,23 @@
 {
+  "shot_metadata" : {
+    "title" : "MAMMA - HUMAN TEETH HORROR 8 SECONDS",
+    "id" : "56c",
+    "sequence_type" : "main_story",
+    "duration_seconds" : 8,
+    "narrative_function" : "Children calling | Camera frost 48.5% | Humanity t...",
+    "stitch_from" : ""
+  },
+  "selected_prompt_index" : 0,
+  "progressive_state" : "Children calling | Camera frost 48.5% | Humanity trapped | Watching: We hear wrong",
+  "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "scene" : "Close on lamb mouths, human teeth. Family huddle as sheep. Horror of awareness.",
+      "variant_name" : "Primary - MAMMA - HUMAN TEETH HORROR 8 SECONDS",
+      "is_active" : false,
+      "style" : "Extreme close on mouths (that's where the camera is), wrong anatomy documented.",
+      "action" : "CLOSE ON Jón-lamb's mouth opening. \"Mamma\" attempts. But sheep larynx, sheep throat. Comes out: \"Maaaaaaa-maaaa.\" Dragged, bleating. Human teeth visible - baby teeth in front, adult teeth emerging behind. Human dental pattern in sheep jaw. Tongue human-pink, not sheep-grey. Trying to form words. Cut to Lilja-lamb: \"Maaaa-maaaa, ég er hrædd\" (Mommy, I'm scared). But only \"Maaaa\" emerges clearly. The horror: they're conscious. Know they're children. Trapped in sheep bodies. Or were always sheep thinking they were children? Both? Guðrún-ewe tries to comfort, nuzzles them with sheep snout. But tears from horizontal pupils. Human tears from sheep eyes. They huddle together. Three sheep in children's clothes. Family still family. Love still love. But wrong bodies. Or right bodies, wrong consciousness? Which is true?",
       "dialogue" : "(Lambs, attempting): \"Maaaaaaa-maaaa\" \"Maaaa... ég... hrædd\" (Barely human): Sounds of trying",
       "negative_prompt" : "show teeth clearly, maintain horror without gore",
-      "is_active" : false,
-      "subject" : "The lamb children calling \"Mamma\" but through sheep vocal cords it comes out wrong - \"Maaaaaaa-maaaa\" - while camera close on their mouths showing human teeth, tongues, dental development of 7 and 5-year-old humans in lamb skulls.",
-      "progressive_state" : "",
-      "camera_position" : "Extreme close on mouths",
       "selected_plates" : [
         "MAGNUS-RECOGNIZING",
         "SIGRID-TRANSITIONAL",
@@ -17,21 +27,11 @@
         "BAÐSTOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ],
-      "action" : "CLOSE ON Jón-lamb's mouth opening. \"Mamma\" attempts. But sheep larynx, sheep throat. Comes out: \"Maaaaaaa-maaaa.\" Dragged, bleating. Human teeth visible - baby teeth in front, adult teeth emerging behind. Human dental pattern in sheep jaw. Tongue human-pink, not sheep-grey. Trying to form words. Cut to Lilja-lamb: \"Maaaa-maaaa, ég er hrædd\" (Mommy, I'm scared). But only \"Maaaa\" emerges clearly. The horror: they're conscious. Know they're children. Trapped in sheep bodies. Or were always sheep thinking they were children? Both? Guðrún-ewe tries to comfort, nuzzles them with sheep snout. But tears from horizontal pupils. Human tears from sheep eyes. They huddle together. Three sheep in children's clothes. Family still family. Love still love. But wrong bodies. Or right bodies, wrong consciousness? Which is true?",
-      "variant_name" : "Primary - MAMMA - HUMAN TEETH HORROR 8 SECONDS",
       "variant_id" : "56c_story_primary",
-      "style" : "Extreme close on mouths (that's where the camera is), wrong anatomy documented."
+      "progressive_state" : "",
+      "camera_position" : "Extreme close on mouths",
+      "scene" : "Close on lamb mouths, human teeth. Family huddle as sheep. Horror of awareness.",
+      "subject" : "The lamb children calling \"Mamma\" but through sheep vocal cords it comes out wrong - \"Maaaaaaa-maaaa\" - while camera close on their mouths showing human teeth, tongues, dental development of 7 and 5-year-old humans in lamb skulls."
     }
-  ],
-  "shot_metadata" : {
-    "id" : "56c",
-    "title" : "MAMMA - HUMAN TEETH HORROR 8 SECONDS",
-    "narrative_function" : "Children calling | Camera frost 48.5% | Humanity t...",
-    "duration_seconds" : 8,
-    "sequence_type" : "main_story",
-    "stitch_from" : ""
-  },
-  "progressive_state" : "Children calling | Camera frost 48.5% | Humanity trapped | Watching: We hear wrong",
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3"
+  ]
 }

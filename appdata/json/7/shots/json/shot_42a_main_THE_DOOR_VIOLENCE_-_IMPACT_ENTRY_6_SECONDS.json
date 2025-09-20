@@ -1,24 +1,15 @@
 {
   "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "narrative_function" : "House 3\/min + 40bpm stuttering | Storm arriving | ...",
-    "sequence_type" : "main_story",
-    "id" : "42a",
-    "title" : "THE DOOR VIOLENCE - IMPACT ENTRY 6 SECONDS",
-    "duration_seconds" : 6,
-    "stitch_from" : ""
-  },
   "aspect_ratio" : "4:3",
   "progressive_state" : "House 3\/min + 40bpm stuttering | Storm arriving | Camera frost 27% | Provider returns | Watching: House resists entry",
   "prompt_variants" : [
     {
-      "scene" : "Interior wide view, door center. Storm visible as white wall outside. Temperature plummeting. Family arranged on floor unmoved.",
+      "variant_name" : "Primary - THE DOOR VIOLENCE - IMPACT ENTRY 6 SECONDS",
+      "is_active" : false,
+      "style" : "Static wide shot, door centered, family in foreground shadows (that's where the camera is), impact documentary.",
+      "action" : "BANG. Door strikes visible, sound like gunshot. Wind enters horizontal - not falling but sideways snow, visibility zero behind Magnús. He's silhouette only: bent figure, aged, something clutched to chest. Temperature drops 10 degrees instantly, breath of family becoming fog wall. Door rebounds, tries to close, he catches it with 0Hz hand (can't feel the wood splitting his palm). Wind screaming at 80mph through opening. House breathing STOPS - holds breath at his entrance. Heartbeat stutters: 40bpm... 20... 60... 20. Turf cascades from ceiling where door impact cracked beams. But family doesn't move. Still in pentagon formation. Only tilberi reacts - brass eye turning toward door, three-rhythm breathing accelerating. Snow already accumulating inside, 2 inches in 6 seconds. His figure resolves slightly - hair completely white now (was grey this morning), beard frozen into ice plate, something wrapped in cloth against chest like baby.",
       "dialogue" : "Only wind screaming and door impact",
       "negative_prompt" : "",
-      "is_active" : false,
-      "subject" : "The door exploding inward with tremendous force, [MAGNÚS] silhouetted against horizontal snow, -30°C air rushing in like water, his aged figure barely standing against wind, the door hitting wall so hard turf falls from ceiling, while family remains frozen in réttir positions.",
-      "progressive_state" : "",
-      "camera_position" : "Static wide shot, door centered, family in foreground shadows",
       "selected_plates" : [
         "MAGNUS-PREDATOR",
         "SIGRID-CORNERED",
@@ -27,10 +18,19 @@
         "GUDRUN-BEATEN",
         "BAÐSTOFA-CLEFT"
       ],
-      "action" : "BANG. Door strikes visible, sound like gunshot. Wind enters horizontal - not falling but sideways snow, visibility zero behind Magnús. He's silhouette only: bent figure, aged, something clutched to chest. Temperature drops 10 degrees instantly, breath of family becoming fog wall. Door rebounds, tries to close, he catches it with 0Hz hand (can't feel the wood splitting his palm). Wind screaming at 80mph through opening. House breathing STOPS - holds breath at his entrance. Heartbeat stutters: 40bpm... 20... 60... 20. Turf cascades from ceiling where door impact cracked beams. But family doesn't move. Still in pentagon formation. Only tilberi reacts - brass eye turning toward door, three-rhythm breathing accelerating. Snow already accumulating inside, 2 inches in 6 seconds. His figure resolves slightly - hair completely white now (was grey this morning), beard frozen into ice plate, something wrapped in cloth against chest like baby.",
-      "variant_name" : "Primary - THE DOOR VIOLENCE - IMPACT ENTRY 6 SECONDS",
       "variant_id" : "42a_story_primary",
-      "style" : "Static wide shot, door centered, family in foreground shadows (that's where the camera is), impact documentary."
+      "progressive_state" : "",
+      "camera_position" : "Static wide shot, door centered, family in foreground shadows",
+      "scene" : "Interior wide view, door center. Storm visible as white wall outside. Temperature plummeting. Family arranged on floor unmoved.",
+      "subject" : "The door exploding inward with tremendous force, [MAGNÚS] silhouetted against horizontal snow, -30°C air rushing in like water, his aged figure barely standing against wind, the door hitting wall so hard turf falls from ceiling, while family remains frozen in réttir positions."
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "title" : "THE DOOR VIOLENCE - IMPACT ENTRY 6 SECONDS",
+    "sequence_type" : "main_story",
+    "duration_seconds" : 6,
+    "stitch_from" : "",
+    "narrative_function" : "House 3\/min + 40bpm stuttering | Storm arriving | ...",
+    "id" : "42a"
+  }
 }

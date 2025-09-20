@@ -1,24 +1,15 @@
 {
   "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "narrative_function" : "Present\/all times | Camera frost 55.5% | Monument ...",
-    "sequence_type" : "main_story",
-    "id" : "60c",
-    "title" : "RETURN TO OBELISK - ETERNAL MONUMENT 8 SECONDS",
-    "duration_seconds" : 8,
-    "stitch_from" : ""
-  },
   "aspect_ratio" : "2.39:1",
   "progressive_state" : "Present\/all times | Camera frost 55.5% | Monument eternal | Watching: We see forever",
   "prompt_variants" : [
     {
-      "scene" : "Modern obelisk as tourist site. Family visible inside. Eternal monument. All times present.",
+      "variant_name" : "Primary - RETURN TO OBELISK - ETERNAL MONUMENT 8 SECONDS",
+      "is_active" : false,
+      "style" : "Spiral down showing permanence (that's where the camera is), monument documented.",
+      "action" : "SPIRAL DOWN around obelisk. Starting high. Modern day. Tour buses. Interpretive signs in multiple languages. \"Monument to Colonial Transformation.\" Tourists taking selfies. But don't see what we see. Through obsidian: family still there. Still aware. Still moving in their frozen way. Guðrún-ewe's mouth still forming the words: \"kindur... fólk\" (sheep... people). Over and over. Eternal explanation. Magnús-ram still charging at nothing. Or at everything. His rage now educational. Children lambs still huddled. Forever young. Forever trapped. Forever witnessed. The cleft still open. Sometimes birds fly through. Sometimes just wind. The monument stands in all weather. Summer (brief). Winter (eternal). Northern lights dance across its surface. In those lights: glimpses of Sigrid. Still flying. Still witnessing. 72 years old in 1944. But also 16 forever. Also raven forever. All true. The obelisk doesn't age. Can't. It exists outside time. IS time. Crystallized. Made solid. Visitable.",
       "dialogue" : "(Tour guide, muffled): \"...represents the transformation of Iceland...\" (Guðrún, eternal): \"kindur... fólk...\"",
       "negative_prompt" : "maintain monument dignity, family visible but subtle",
-      "is_active" : false,
-      "subject" : "Camera spiraling down around the 40-foot black hrafntinna obelisk standing in modern times, tourists taking photos, but through the obsidian the sheep family still visible, still preserved, Guðrún-ewe still mouthing \"kindur... fólk,\" Magnús-ram still charging, eternal.",
-      "progressive_state" : "",
-      "camera_position" : "Spiral down showing permanence",
       "selected_plates" : [
         "MAGNUS-BREAKING",
         "SIGRID-DUAL",
@@ -27,10 +18,19 @@
         "GUDRUN-EWE",
         "BAÐSTOFA-MONUMENT"
       ],
-      "action" : "SPIRAL DOWN around obelisk. Starting high. Modern day. Tour buses. Interpretive signs in multiple languages. \"Monument to Colonial Transformation.\" Tourists taking selfies. But don't see what we see. Through obsidian: family still there. Still aware. Still moving in their frozen way. Guðrún-ewe's mouth still forming the words: \"kindur... fólk\" (sheep... people). Over and over. Eternal explanation. Magnús-ram still charging at nothing. Or at everything. His rage now educational. Children lambs still huddled. Forever young. Forever trapped. Forever witnessed. The cleft still open. Sometimes birds fly through. Sometimes just wind. The monument stands in all weather. Summer (brief). Winter (eternal). Northern lights dance across its surface. In those lights: glimpses of Sigrid. Still flying. Still witnessing. 72 years old in 1944. But also 16 forever. Also raven forever. All true. The obelisk doesn't age. Can't. It exists outside time. IS time. Crystallized. Made solid. Visitable.",
-      "variant_name" : "Primary - RETURN TO OBELISK - ETERNAL MONUMENT 8 SECONDS",
       "variant_id" : "60c_story_primary",
-      "style" : "Spiral down showing permanence (that's where the camera is), monument documented."
+      "progressive_state" : "",
+      "camera_position" : "Spiral down showing permanence",
+      "scene" : "Modern obelisk as tourist site. Family visible inside. Eternal monument. All times present.",
+      "subject" : "Camera spiraling down around the 40-foot black hrafntinna obelisk standing in modern times, tourists taking photos, but through the obsidian the sheep family still visible, still preserved, Guðrún-ewe still mouthing \"kindur... fólk,\" Magnús-ram still charging, eternal."
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "title" : "RETURN TO OBELISK - ETERNAL MONUMENT 8 SECONDS",
+    "sequence_type" : "main_story",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "narrative_function" : "Present\/all times | Camera frost 55.5% | Monument ...",
+    "id" : "60c"
+  }
 }

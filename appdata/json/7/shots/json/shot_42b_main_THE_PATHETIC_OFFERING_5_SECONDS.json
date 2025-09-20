@@ -1,13 +1,23 @@
 {
+  "shot_metadata" : {
+    "title" : "THE PATHETIC OFFERING 5 SECONDS",
+    "id" : "42b",
+    "sequence_type" : "main_story",
+    "duration_seconds" : 5,
+    "narrative_function" : "House still holding breath | Shame visible | Camer...",
+    "stitch_from" : ""
+  },
+  "selected_prompt_index" : 0,
+  "progressive_state" : "House still holding breath | Shame visible | Camera frost 27.5% | Provider's failure | Watching: All eyes on him",
+  "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "scene" : "Interior, door closed but cold remaining. His offering centered in frame. Family watching from positions.",
+      "variant_name" : "Primary - THE PATHETIC OFFERING 5 SECONDS",
+      "is_active" : false,
+      "style" : "Push in on fin while keeping his face in frame above (that's where the camera is), shame documentation.",
+      "action" : "Door slams, cutting storm. Sudden silence except breathing. Magnús steps forward, aged legs unsteady. Unwraps cloth with 0Hz hands - clumsy, can't feel fabric. Reveals fin: smaller than hand, black with rot, maggots suspended in ice. Holds it up. \"Ð‰g fann...\" (I found...) but stops. Sees their eyes. Guðrún's silent judgment. Children's understanding. Sigrid's distance (still exactly 11 feet even in réttir). The fin drips - one drop of decomposition liquid, black, hits floor, freezes instantly into dark star. PUSH IN on fin, showing every pathetic detail. His aged face above it, white hair with ice, eyes sunken from aflausn debt. The provider who provides death. In his peripheral vision: notices family arranged wrong. Pentagon. Tilberi at center. Something happened. His failure complete - failed at sea, failed to protect home.",
       "dialogue" : "(Magnús, starting proud): \"Ð‰g fann...\" (Realizing): \"Þetta er... þetta er allt\" (Seeing arrangement): \"Hvað gerðist?\"",
       "negative_prompt" : "",
-      "is_active" : false,
-      "subject" : "[MAGNÚS] stepping inside, door slamming behind him, unwrapping his offering with 0Hz hands - the small, rotten seal fin, maggots frozen mid-writhe, holding it up like treasure while family sees truth: this is all he brought.",
-      "progressive_state" : "",
-      "camera_position" : "Push in on fin while keeping his face in frame above",
       "selected_plates" : [
         "MAGNUS-PREDATOR",
         "SIGRID-CORNERED",
@@ -16,21 +26,11 @@
         "GUDRUN-BEATEN",
         "BAÐSTOFA-CLEFT"
       ],
-      "action" : "Door slams, cutting storm. Sudden silence except breathing. Magnús steps forward, aged legs unsteady. Unwraps cloth with 0Hz hands - clumsy, can't feel fabric. Reveals fin: smaller than hand, black with rot, maggots suspended in ice. Holds it up. \"Ð‰g fann...\" (I found...) but stops. Sees their eyes. Guðrún's silent judgment. Children's understanding. Sigrid's distance (still exactly 11 feet even in réttir). The fin drips - one drop of decomposition liquid, black, hits floor, freezes instantly into dark star. PUSH IN on fin, showing every pathetic detail. His aged face above it, white hair with ice, eyes sunken from aflausn debt. The provider who provides death. In his peripheral vision: notices family arranged wrong. Pentagon. Tilberi at center. Something happened. His failure complete - failed at sea, failed to protect home.",
-      "variant_name" : "Primary - THE PATHETIC OFFERING 5 SECONDS",
       "variant_id" : "42b_story_primary",
-      "style" : "Push in on fin while keeping his face in frame above (that's where the camera is), shame documentation."
+      "progressive_state" : "",
+      "camera_position" : "Push in on fin while keeping his face in frame above",
+      "scene" : "Interior, door closed but cold remaining. His offering centered in frame. Family watching from positions.",
+      "subject" : "[MAGNÚS] stepping inside, door slamming behind him, unwrapping his offering with 0Hz hands - the small, rotten seal fin, maggots frozen mid-writhe, holding it up like treasure while family sees truth: this is all he brought."
     }
-  ],
-  "shot_metadata" : {
-    "id" : "42b",
-    "title" : "THE PATHETIC OFFERING 5 SECONDS",
-    "narrative_function" : "House still holding breath | Shame visible | Camer...",
-    "duration_seconds" : 5,
-    "sequence_type" : "main_story",
-    "stitch_from" : ""
-  },
-  "progressive_state" : "House still holding breath | Shame visible | Camera frost 27.5% | Provider's failure | Watching: All eyes on him",
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3"
+  ]
 }
