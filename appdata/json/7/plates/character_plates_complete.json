@@ -1,25 +1,25 @@
 {
   "plate_index" : {
     "magnus_30" : {
-      "shot_range" : "(Shots 51-60)",
+      "name" : "**PLATE 12-HUMAN-ANIMAL (Shots 51-60)",
       "description" : "**",
-      "is_master" : false,
       "character" : "Magnus",
-      "name" : "**PLATE 12-HUMAN-ANIMAL (Shots 51-60)"
+      "shot_range" : "(Shots 51-60)",
+      "is_master" : false
     },
     "sigrid_7" : {
-      "is_master" : false,
-      "name" : "PLATE 7",
+      "character" : "Sigrid",
       "shot_range" : "(Shots 49-50b)",
-      "description" : "Incest Resistance (Shots 49-50b) [Oracle base] during maximum threat - dress fabric stretched over 6-month pregnancy, posture pressed against wall with nowhere to retreat, arms crossed defensively over belly with protective desperation, grey eyes showing trapped prey awareness mixed with fierce maternal protection, breathing accelerated 17\/min fear response but controlled through willpower, voice maintaining contralto strength despite physical vulnerability, facial expression combining terror with unbreakable resolve, braids disheveled from wall-pressing, positioned in corner where crack appears (klettagjá forming), wooden cross gripped so tightly it creates knuckle indentations through pocket.",
-      "character" : "Sigrid"
+      "name" : "PLATE 7",
+      "is_master" : false,
+      "description" : "Incest Resistance (Shots 49-50b) [Oracle base] during maximum threat - dress fabric stretched over 6-month pregnancy, posture pressed against wall with nowhere to retreat, arms crossed defensively over belly with protective desperation, grey eyes showing trapped prey awareness mixed with fierce maternal protection, breathing accelerated 17\/min fear response but controlled through willpower, voice maintaining contralto strength despite physical vulnerability, facial expression combining terror with unbreakable resolve, braids disheveled from wall-pressing, positioned in corner where crack appears (klettagjá forming), wooden cross gripped so tightly it creates knuckle indentations through pocket."
     },
     "magnus_34" : {
+      "description" : "**",
       "shot_range" : "(Shots 81-85)",
-      "name" : "**PLATE 16-BREAKDOWN (Shot 35-40 Failed Provider)",
       "is_master" : false,
-      "character" : "Magnus",
-      "description" : "**"
+      "name" : "**PLATE 16-BREAKDOWN (Shot 35-40 Failed Provider)",
+      "character" : "Magnus"
     },
     "magnus_15" : {
       "is_master" : false,
@@ -36,11 +36,11 @@
       "name" : "PLATE 11"
     },
     "sigrid_4" : {
-      "character" : "Sigrid",
       "shot_range" : "(Shots 1-10)",
       "name" : "PLATE 4",
+      "description" : "Mathematical Recognition (Shots 1-10) [Marked base] recognizing family counting impossibility - dress tighter around expanding belly (3 months pregnancy visible), posture curved protectively around pregnancy, arms always shielding belly area, grey eyes sharp with mathematical awareness and growing alarm, breathing steady 15\/min human resistance rhythm despite family synchronization pressure, voice deeper soprano with protective maternal authority, facial expression showing analytical intelligence processing impossible mathematics, braids practical and severe, positioned 11 feet from Magnus with calculated precision, wooden cross visible through worn pocket fabric.",
       "is_master" : false,
-      "description" : "Mathematical Recognition (Shots 1-10) [Marked base] recognizing family counting impossibility - dress tighter around expanding belly (3 months pregnancy visible), posture curved protectively around pregnancy, arms always shielding belly area, grey eyes sharp with mathematical awareness and growing alarm, breathing steady 15\/min human resistance rhythm despite family synchronization pressure, voice deeper soprano with protective maternal authority, facial expression showing analytical intelligence processing impossible mathematics, braids practical and severe, positioned 11 feet from Magnus with calculated precision, wooden cross visible through worn pocket fabric."
+      "character" : "Sigrid"
     },
     "magnus_7" : {
       "is_master" : false,
@@ -71,11 +71,11 @@
       "description" : "First Tooth Loss (Shots 11-20)"
     },
     "magnus_8" : {
-      "name" : "PLATE 8",
-      "shot_range" : "(Shots 31-35)",
       "description" : "Sea Injuries (Shots 31-35)",
+      "is_master" : false,
+      "shot_range" : "(Shots 31-35)",
       "character" : "Magnus",
-      "is_master" : false
+      "name" : "PLATE 8"
     },
     "jon_13" : {
       "shot_range" : "(Shots 25-30)",
@@ -92,11 +92,11 @@
       "name" : "**PLATE 19"
     },
     "magnus_24" : {
-      "shot_range" : "(Shots 26-35)",
-      "is_master" : false,
-      "name" : "**PLATE 6-AFLOAT (Shots 26-35)",
+      "description" : "**",
       "character" : "Magnus",
-      "description" : "**"
+      "shot_range" : "(Shots 26-35)",
+      "name" : "**PLATE 6-AFLOAT (Shots 26-35)",
+      "is_master" : false
     },
     "gudrun_16" : {
       "character" : "Gudrun",
@@ -127,18 +127,18 @@
       "shot_range" : "(Shots 56-65)"
     },
     "magnus_26" : {
-      "description" : "**",
-      "is_master" : false,
-      "name" : "**PLATE 8-INJURED (Shots 31-40)",
       "character" : "Magnus",
-      "shot_range" : "(Shots 31-40)"
+      "name" : "**PLATE 8-INJURED (Shots 31-40)",
+      "description" : "**",
+      "shot_range" : "(Shots 31-40)",
+      "is_master" : false
     },
     "magnus_18" : {
+      "description" : "Ram Complete (Shots 81-85)",
       "shot_range" : "(Shots 81-85)",
-      "name" : "PLATE 18",
       "character" : "Magnus",
       "is_master" : false,
-      "description" : "Ram Complete (Shots 81-85)"
+      "name" : "PLATE 18"
     },
     "gudrun_19" : {
       "name" : "**PLATE 19",
@@ -162,11 +162,11 @@
       "shot_range" : "(Shots 43c-44)"
     },
     "magnus_29" : {
-      "description" : "**",
       "shot_range" : "(Shots 49-50b)",
-      "is_master" : false,
       "name" : "**PLATE 11-INTIMATE-THREAT (Shots 49-50b)",
-      "character" : "Magnus"
+      "character" : "Magnus",
+      "is_master" : false,
+      "description" : "**"
     },
     "gudrun_13" : {
       "is_master" : false,
@@ -176,18 +176,18 @@
       "description" : "Ewe Complete (Shots 61-85)"
     },
     "sigrid_12" : {
-      "description" : "Full Raven (Shots 81-85) Magnificent black raven with 4.5-foot wingspan, obsidian feathers showing oil-rainbow iridescence, human grey eyes with amber flecks clearly visible in corvid skull, human intelligence obvious through eye expression and behavioral complexity, traditional dress vanished but wooden cross somehow remaining as protective talisman integrated into plumage, breathing 12\/min raven rhythm, standing in human furniture arrangements with raven anatomy, attempting human gestures through wing anatomy, human consciousness clearly visible through corvid eye expression and sophisticated behavioral responses, movement graceful with flight capability but retaining human spatial relationships.",
       "is_master" : false,
       "name" : "PLATE 12",
-      "character" : "Sigrid",
-      "shot_range" : "(Shots 81-85)"
+      "shot_range" : "(Shots 81-85)",
+      "description" : "Full Raven (Shots 81-85) Magnificent black raven with 4.5-foot wingspan, obsidian feathers showing oil-rainbow iridescence, human grey eyes with amber flecks clearly visible in corvid skull, human intelligence obvious through eye expression and behavioral complexity, traditional dress vanished but wooden cross somehow remaining as protective talisman integrated into plumage, breathing 12\/min raven rhythm, standing in human furniture arrangements with raven anatomy, attempting human gestures through wing anatomy, human consciousness clearly visible through corvid eye expression and sophisticated behavioral responses, movement graceful with flight capability but retaining human spatial relationships.",
+      "character" : "Sigrid"
     },
     "magnus_13" : {
-      "shot_range" : "(Shots 51-55)",
+      "character" : "Magnus",
       "description" : "Subtle Ram Characteristics (Shots 51-55)",
       "is_master" : false,
       "name" : "PLATE 13",
-      "character" : "Magnus"
+      "shot_range" : "(Shots 51-55)"
     },
     "magnus_35" : {
       "description" : "**",
@@ -211,11 +211,11 @@
       "character" : "Gudrun"
     },
     "magnus_31" : {
-      "is_master" : false,
       "name" : "**PLATE 13-FINAL-HUMAN (Shots 76-80)",
+      "is_master" : false,
+      "description" : "**",
       "character" : "Magnus",
-      "shot_range" : "(Shots 76-80)",
-      "description" : "**"
+      "shot_range" : "(Shots 76-80)"
     },
     "jon_7" : {
       "character" : "Jon",
@@ -246,11 +246,11 @@
       "is_master" : false
     },
     "magnus_1" : {
-      "name" : "PLATE 1",
-      "character" : "Magnus",
       "is_master" : false,
+      "name" : "PLATE 1",
+      "description" : "Summer Authority (Shots 1-9)",
       "shot_range" : "(Shots 1-9)",
-      "description" : "Summer Authority (Shots 1-9)"
+      "character" : "Magnus"
     },
     "jon_9" : {
       "name" : "PLATE 9",
@@ -260,11 +260,11 @@
       "shot_range" : "(Shots 51-60)"
     },
     "sigrid_9" : {
+      "is_master" : false,
+      "character" : "Sigrid",
       "name" : "PLATE 9",
       "description" : "Pre-Transformation (Shots 56-65) [Chosen base] preparing for species change - traditional dress unchanged but appearing costume-like on changing body, pregnancy full-term but mystical (8 months impossible timeline), posture shifting between human and raven movement patterns, arms beginning subtle wing-position awareness, grey eyes developing depth suggesting raven intelligence behind human consciousness, breathing 15\/min human with occasional 12\/min raven rhythm, voice contralto with clear corvid harmonics during speech, facial expression showing human consciousness preparing for species transition, braids loosening as hair texture changes subtly, positioned at threshold between house interior and klettagjá escape route, wooden cross pulsing with protective warmth.",
-      "character" : "Sigrid",
-      "shot_range" : "(Shots 56-65)",
-      "is_master" : false
+      "shot_range" : "(Shots 56-65)"
     },
     "gudrun_14" : {
       "description" : "Wool Production Concealment (Shots 18-25)",
@@ -281,11 +281,11 @@
       "description" : "Death Sentence (Shots 43c-44)"
     },
     "magnus_37" : {
-      "shot_range" : "(Shots 30 Reflection Aging)",
-      "name" : "**PLATE 19-SURVEILLANCE (Shot 5.5 Web)",
-      "character" : "Magnus",
       "is_master" : false,
-      "description" : "**"
+      "description" : "**",
+      "shot_range" : "(Shots 30 Reflection Aging)",
+      "character" : "Magnus",
+      "name" : "**PLATE 19-SURVEILLANCE (Shot 5.5 Web)"
     },
     "jon_6" : {
       "description" : "Gap Period (Shots 21-30)",
@@ -324,38 +324,38 @@
     },
     "magnus_32" : {
       "is_master" : false,
-      "description" : "**",
-      "shot_range" : "(Shots 81-85)",
+      "name" : "**PLATE 14-RAM-COMPLETE (Shots 81-85)",
       "character" : "Magnus",
-      "name" : "**PLATE 14-RAM-COMPLETE (Shots 81-85)"
+      "shot_range" : "(Shots 81-85)",
+      "description" : "**"
     },
     "magnus_17" : {
+      "name" : "PLATE 17",
       "description" : "Final Human Moment (Shots 76-80)",
       "shot_range" : "(Shots 76-80)",
       "character" : "Magnus",
-      "is_master" : false,
-      "name" : "PLATE 17"
+      "is_master" : false
     },
     "sigrid_8" : {
-      "is_master" : false,
-      "description" : "House Protection (Shots 51-55) [Cornered base] receiving Bergrisi protection - dress billowing slightly from warm air bubble (37°C protection), pregnancy 7 months highly visible, posture straightening as supernatural protection enables confidence, arms lowered from defensive position to reverent ritual readiness, grey eyes brightening with landvættir connection and chosen status awareness, breathing returning to 15\/min human rhythm within protection zone, voice gaining supernatural authority with corvid harmonics strengthening, facial expression showing relief mixed with growing transformation anticipation, braids stirring from protective wind, positioned where wall crack widens into escape route, wooden cross glowing with warmth from supernatural protection.",
       "name" : "PLATE 8",
+      "description" : "House Protection (Shots 51-55) [Cornered base] receiving Bergrisi protection - dress billowing slightly from warm air bubble (37°C protection), pregnancy 7 months highly visible, posture straightening as supernatural protection enables confidence, arms lowered from defensive position to reverent ritual readiness, grey eyes brightening with landvættir connection and chosen status awareness, breathing returning to 15\/min human rhythm within protection zone, voice gaining supernatural authority with corvid harmonics strengthening, facial expression showing relief mixed with growing transformation anticipation, braids stirring from protective wind, positioned where wall crack widens into escape route, wooden cross glowing with warmth from supernatural protection.",
       "character" : "Sigrid",
-      "shot_range" : "(Shots 51-55)"
+      "shot_range" : "(Shots 51-55)",
+      "is_master" : false
     },
     "magnus_38" : {
-      "name" : "**PLATE 20-DIAGNOSTIC (Shot 18 Departure Prep)",
+      "shot_range" : "(Shots 30 Reflection Aging)",
       "is_master" : false,
-      "description" : "**",
       "character" : "Magnus",
-      "shot_range" : "(Shots 30 Reflection Aging)"
+      "description" : "**",
+      "name" : "**PLATE 20-DIAGNOSTIC (Shot 18 Departure Prep)"
     },
     "sigrid_6" : {
-      "description" : "Witness Burden (Shots 26-40) [Summoning base] carrying supernatural knowledge weight - dress stretched tight over 5-month pregnancy, posture showing physical and psychological burden, arms supporting belly weight and emotional load, grey eyes developing thousand-yard witness stare with amber flecks brighter from supernatural sight, breathing deepening to 14\/min oracle rhythm, voice dropping to full contralto with clear corvid undertones, facial expression showing premature adult awareness through supernatural knowledge burden, braids practical but hair showing stress-texture changes, positioned against load-bearing walls for physical and emotional support, wooden cross worn smooth from constant gripping.",
+      "is_master" : false,
       "name" : "PLATE 6",
       "character" : "Sigrid",
-      "shot_range" : "(Shots 26-40)",
-      "is_master" : false
+      "description" : "Witness Burden (Shots 26-40) [Summoning base] carrying supernatural knowledge weight - dress stretched tight over 5-month pregnancy, posture showing physical and psychological burden, arms supporting belly weight and emotional load, grey eyes developing thousand-yard witness stare with amber flecks brighter from supernatural sight, breathing deepening to 14\/min oracle rhythm, voice dropping to full contralto with clear corvid undertones, facial expression showing premature adult awareness through supernatural knowledge burden, braids practical but hair showing stress-texture changes, positioned against load-bearing walls for physical and emotional support, wooden cross worn smooth from constant gripping.",
+      "shot_range" : "(Shots 26-40)"
     },
     "jon_15" : {
       "shot_range" : "(Shots 40-50)",
@@ -379,11 +379,11 @@
       "is_master" : false
     },
     "magnus_20" : {
-      "character" : "Magnus",
-      "name" : "**PLATE 2-AUTUMN (Shots 8-15)",
-      "description" : "**",
       "shot_range" : "(Shots 8-15)",
-      "is_master" : false
+      "is_master" : false,
+      "name" : "**PLATE 2-AUTUMN (Shots 8-15)",
+      "character" : "Magnus",
+      "description" : "**"
     },
     "gudrun_10" : {
       "shot_range" : "(Shots 45-46)",
@@ -400,24 +400,24 @@
       "character" : "Magnus"
     },
     "magnus_21" : {
+      "shot_range" : "(Shots 16-23)",
+      "name" : "**PLATE 3-WINTER-PREP (Shots 16-23)",
       "is_master" : false,
       "character" : "Magnus",
-      "description" : "**",
-      "name" : "**PLATE 3-WINTER-PREP (Shots 16-23)",
-      "shot_range" : "(Shots 16-23)"
+      "description" : "**"
     },
     "magnus_11" : {
-      "description" : "Post-Violence Authority (Shots 44-48)",
-      "is_master" : false,
-      "shot_range" : "(Shots 44-48)",
       "character" : "Magnus",
-      "name" : "PLATE 11"
+      "description" : "Post-Violence Authority (Shots 44-48)",
+      "name" : "PLATE 11",
+      "shot_range" : "(Shots 44-48)",
+      "is_master" : false
     },
     "sigrid_1" : {
-      "name" : "PLATE 1",
-      "character" : "Sigrid",
-      "shot_range" : "(Shots 1-7)",
       "description" : "Pure Innocence (Shots 1-7) [Master base] with untouched innocence - grey-brown vaðmál dress clean and recently washed, no visible pregnancy, posture naturally confident with gentle back-straightness, arms loose at sides without defensive crossing, grey eyes bright with curiosity and familial affection, breathing easy 15\/min peaceful human rhythm, soprano voice pure and musical during work songs, facial expression open with trusting family connection, braids perfectly arranged with no escaped wisps, positioned comfortably 8 feet from Magnus without wall-requirement, wooden cross resting naturally in pocket without protective concealment.",
+      "shot_range" : "(Shots 1-7)",
+      "character" : "Sigrid",
+      "name" : "PLATE 1",
       "is_master" : true
     },
     "sigrid_15" : {
@@ -429,9 +429,9 @@
     },
     "magnus_25" : {
       "is_master" : false,
-      "character" : "Magnus",
-      "name" : "**PLATE 7-AGING (Shots 22a-25)",
       "description" : "**",
+      "name" : "**PLATE 7-AGING (Shots 22a-25)",
+      "character" : "Magnus",
       "shot_range" : "(Shots 22a-25)"
     },
     "lilja_2" : {
@@ -463,10 +463,10 @@
       "description" : "House Communication Mastery (Shots 11-25) [Mathematical base] with house consciousness dialogue - face animated during environmental communication, mouth moving in conversation with house breathing rhythm, blue eyes alternating between family observation and house consciousness connection, hair wild from environmental exploration activity, grey dress dirty from constant floor contact and house investigation, brown stockings worn through completely at knees from crawling, cloth doll positioned for \"conversation\" with house consciousness through brass button eye contact, posture actively engaged with environmental exploration, thumb-sucking replaced with environmental touch (wall stroking, floor patting), voice conducting audible conversations with house consciousness about family situation, breathing synchronized occasionally with house 12\/min rhythm during communication moments."
     },
     "magnus_12" : {
-      "character" : "Magnus",
-      "description" : "Incest Threat (Shots 49-50)",
       "name" : "PLATE 12",
+      "description" : "Incest Threat (Shots 49-50)",
       "shot_range" : "(Shots 49-50)",
+      "character" : "Magnus",
       "is_master" : false
     },
     "lilja_6" : {
@@ -478,10 +478,10 @@
     },
     "magnus_33" : {
       "shot_range" : "(Shots 81-85)",
+      "name" : "**PLATE 15-SUPERNATURAL-STRENGTH (Shot 22a-25 Aflausn)",
       "is_master" : false,
       "character" : "Magnus",
-      "description" : "**",
-      "name" : "**PLATE 15-SUPERNATURAL-STRENGTH (Shot 22a-25 Aflausn)"
+      "description" : "**"
     },
     "jon_18" : {
       "is_master" : false,
@@ -491,11 +491,11 @@
       "description" : "Final Human Consciousness (Shots 56-65)"
     },
     "magnus_10" : {
-      "character" : "Magnus",
       "name" : "PLATE 10",
+      "shot_range" : "(Shots 41-43)",
       "description" : "Rising Violence (Shots 41-43)",
-      "is_master" : false,
-      "shot_range" : "(Shots 41-43)"
+      "character" : "Magnus",
+      "is_master" : false
     },
     "jon_3" : {
       "character" : "Jon",
@@ -512,32 +512,32 @@
       "shot_range" : "(Shots 1-10)"
     },
     "magnus_36" : {
-      "name" : "**PLATE 18-TEMPORAL (Shots 30 Reflection Aging)",
+      "shot_range" : "(Shots 30 Reflection Aging)",
       "description" : "**",
       "character" : "Magnus",
-      "shot_range" : "(Shots 30 Reflection Aging)",
-      "is_master" : false
+      "is_master" : false,
+      "name" : "**PLATE 18-TEMPORAL (Shots 30 Reflection Aging)"
     },
     "magnus_4" : {
       "is_master" : false,
-      "name" : "PLATE 4",
-      "description" : "Mathematical Breakdown (Shots 1-10)",
+      "character" : "Magnus",
       "shot_range" : "(Shots 1-10)",
-      "character" : "Magnus"
+      "name" : "PLATE 4",
+      "description" : "Mathematical Breakdown (Shots 1-10)"
     },
     "sigrid_11" : {
-      "is_master" : false,
+      "description" : "Raven-Human Hybrid (Shots 76-80) [Becoming base] with both forms simultaneous - traditional dress now flowing like feathers while maintaining fabric reality, pregnancy resolved into tilberi birth-completion, posture showing perfect balance between human stance and raven readiness, arms positioned as wings while maintaining human arm functionality, grey eyes fully raven intelligence but containing human consciousness depth, breathing 12\/min pure raven rhythm with human awareness, voice corvid-dominant but human words still possible, facial expression showing species mastery through dual consciousness, hair completely feather-textured but human-arranged, positioned at flight-ready stance but still terrestrially grounded, wooden cross transformed into raven feather while maintaining spiritual protection.",
       "name" : "PLATE 11",
       "character" : "Sigrid",
-      "description" : "Raven-Human Hybrid (Shots 76-80) [Becoming base] with both forms simultaneous - traditional dress now flowing like feathers while maintaining fabric reality, pregnancy resolved into tilberi birth-completion, posture showing perfect balance between human stance and raven readiness, arms positioned as wings while maintaining human arm functionality, grey eyes fully raven intelligence but containing human consciousness depth, breathing 12\/min pure raven rhythm with human awareness, voice corvid-dominant but human words still possible, facial expression showing species mastery through dual consciousness, hair completely feather-textured but human-arranged, positioned at flight-ready stance but still terrestrially grounded, wooden cross transformed into raven feather while maintaining spiritual protection.",
-      "shot_range" : "(Shots 76-80)"
+      "shot_range" : "(Shots 76-80)",
+      "is_master" : false
     },
     "sigrid_10" : {
-      "character" : "Sigrid",
-      "shot_range" : "(Shots 66-75)",
-      "description" : "Transformation Moment (Shots 66-75) [Transitional base] during active transformation - dress fabric straining over changing body proportions, pregnancy reaching mystical completion (9 months accelerated), posture flowing between human uprightness and raven wing-position preparation, arms developing wing-length extension awareness, grey eyes deepening to raven intelligence with amber flecks becoming gold, breathing transitioning from 15\/min human to 12\/min raven rhythm, voice shifting to corvid-human hybrid communication, facial expression showing wonder at transformation rather than horror, braids dissolving as hair texture becomes feather-like, positioned at escape threshold ready for flight, wooden cross radiating protective light.",
       "is_master" : false,
-      "name" : "PLATE 10"
+      "description" : "Transformation Moment (Shots 66-75) [Transitional base] during active transformation - dress fabric straining over changing body proportions, pregnancy reaching mystical completion (9 months accelerated), posture flowing between human uprightness and raven wing-position preparation, arms developing wing-length extension awareness, grey eyes deepening to raven intelligence with amber flecks becoming gold, breathing transitioning from 15\/min human to 12\/min raven rhythm, voice shifting to corvid-human hybrid communication, facial expression showing wonder at transformation rather than horror, braids dissolving as hair texture becomes feather-like, positioned at escape threshold ready for flight, wooden cross radiating protective light.",
+      "name" : "PLATE 10",
+      "character" : "Sigrid",
+      "shot_range" : "(Shots 66-75)"
     },
     "jon_16" : {
       "description" : "Prophetic Wandering (Shots 35-40)",
@@ -547,18 +547,18 @@
       "shot_range" : "(Shots 35-40)"
     },
     "sigrid_2" : {
-      "is_master" : false,
-      "character" : "Sigrid",
-      "name" : "PLATE 2",
       "description" : "Growing Awareness (Shots 8-15) [Pure base] with subtle awareness developing - dress showing minor wear, first hint of pregnancy (barely visible belly curve), posture beginning slight defensive positioning, arms occasionally crossing over midsection, grey eyes developing analytical flicker when observing family dynamics, breathing maintaining 15\/min but with occasional deeper assessment breaths, voice retaining purity but with thoughtful pauses, facial expression mixing innocence with growing environmental awareness, braids with few wisps escaping suggesting mild stress, positioning unconsciously shifting to 9-10 feet from Magnus, wooden cross gripped occasionally through pocket fabric.",
+      "is_master" : false,
+      "name" : "PLATE 2",
+      "character" : "Sigrid",
       "shot_range" : "(Shots 8-15)"
     },
     "magnus_5" : {
-      "character" : "Magnus",
+      "shot_range" : "(Shots 18-25)",
       "description" : "Departure Desperation (Shots 18-25)",
       "is_master" : false,
       "name" : "PLATE 5",
-      "shot_range" : "(Shots 18-25)"
+      "character" : "Magnus"
     },
     "lilja_9" : {
       "shot_range" : "(Shots 65-85)",
@@ -575,11 +575,11 @@
       "description" : "Wandering Prophet (Shots 35-45)"
     },
     "magnus_16" : {
-      "name" : "PLATE 16",
-      "description" : "Transformation Preparation (Shots 66-75)",
       "shot_range" : "(Shots 66-75)",
+      "name" : "PLATE 16",
       "character" : "Magnus",
-      "is_master" : false
+      "is_master" : false,
+      "description" : "Transformation Preparation (Shots 66-75)"
     },
     "jon_4" : {
       "name" : "PLATE 4",
@@ -633,23 +633,23 @@
     "magnus_28" : {
       "shot_range" : "(Shots 44-48)",
       "description" : "**",
-      "character" : "Magnus",
       "is_master" : false,
+      "character" : "Magnus",
       "name" : "**PLATE 10-POST-VIOLENCE (Shots 44-48)"
     },
     "magnus_27" : {
-      "description" : "**",
+      "is_master" : false,
       "character" : "Magnus",
-      "shot_range" : "(Shots 41-43)",
+      "description" : "**",
       "name" : "**PLATE 9-VIOLENCE-READY (Shots 41-43)",
-      "is_master" : false
+      "shot_range" : "(Shots 41-43)"
     },
     "sigrid_5" : {
+      "character" : "Sigrid",
       "shot_range" : "(Shots 23-25)",
-      "name" : "PLATE 5",
       "description" : "Ritual Preparation (Shots 23-25) [Knowing base] preparing landvættir summoning - dress arranged for ritual kneeling, pregnancy 4 months creating obvious curve, posture ceremonial with spine straight for ritual dignity, arms positioned for offering presentation, grey eyes intense with supernatural focus and inherited ritual knowledge, breathing controlled 14\/min ritual preparation, voice deepening toward contralto with corvid harmonics developing, facial expression showing concentration mixed with growing supernatural awareness, braids loosened for ritual hair offering, positioned in east corner maintaining maximum house distance, wooden cross deliberately visible as protection during supernatural working.",
       "is_master" : false,
-      "character" : "Sigrid"
+      "name" : "PLATE 5"
     },
     "sigrid_20" : {
       "name" : "**PLATE 20",
@@ -660,10 +660,10 @@
     },
     "magnus_2" : {
       "name" : "PLATE 2",
-      "description" : "Autumn Transition (Shots 10-15)",
-      "shot_range" : "(Shots 10-15)",
+      "character" : "Magnus",
       "is_master" : false,
-      "character" : "Magnus"
+      "shot_range" : "(Shots 10-15)",
+      "description" : "Autumn Transition (Shots 10-15)"
     },
     "gudrun_18" : {
       "name" : "**PLATE 18",
@@ -694,31 +694,31 @@
       "name" : "**PLATE 1-SUMMER (Shots 1b-7b)"
     },
     "magnus_9" : {
+      "character" : "Magnus",
       "name" : "PLATE 9",
       "description" : "Return Defeat (Shots 36-40)",
-      "shot_range" : "(Shots 36-40)",
-      "character" : "Magnus",
-      "is_master" : false
+      "is_master" : false,
+      "shot_range" : "(Shots 36-40)"
     },
     "magnus_22" : {
-      "shot_range" : "(Shots 1-10)",
-      "name" : "**PLATE 4-CONFUSION (Shots 1-10)",
       "is_master" : false,
       "character" : "Magnus",
-      "description" : "**"
+      "name" : "**PLATE 4-CONFUSION (Shots 1-10)",
+      "description" : "**",
+      "shot_range" : "(Shots 1-10)"
     },
     "magnus_23" : {
-      "is_master" : false,
       "description" : "**",
+      "is_master" : false,
       "name" : "**PLATE 5-DEPARTURE (Shots 18-25)",
       "character" : "Magnus",
       "shot_range" : "(Shots 18-25)"
     },
     "sigrid_3" : {
-      "description" : "Violation Aftermath (Shots 16-23) [Awakening base] after testicle forcing - dress disheveled with fabric pulled at neckline, pregnancy now visible as 2-month subtle curve, posture fully defensive with shoulders hunched forward, arms crossed permanently over belly protection, grey eyes showing violation awareness and hypervigilant scanning, breathing shifted to 16\/min stress response, voice dropped half-octave to lower soprano with slight raven undertone, facial expression combining innocence lost with protective determination, braids loosened with significant wisps from struggle, positioned exactly 11 feet from Magnus against wall, wooden cross gripped tightly through pocket showing rectangular outline.",
-      "shot_range" : "(Shots 16-23)",
-      "character" : "Sigrid",
       "name" : "PLATE 3",
+      "character" : "Sigrid",
+      "shot_range" : "(Shots 16-23)",
+      "description" : "Violation Aftermath (Shots 16-23) [Awakening base] after testicle forcing - dress disheveled with fabric pulled at neckline, pregnancy now visible as 2-month subtle curve, posture fully defensive with shoulders hunched forward, arms crossed permanently over belly protection, grey eyes showing violation awareness and hypervigilant scanning, breathing shifted to 16\/min stress response, voice dropped half-octave to lower soprano with slight raven undertone, facial expression combining innocence lost with protective determination, braids loosened with significant wisps from struggle, positioned exactly 11 feet from Magnus against wall, wooden cross gripped tightly through pocket showing rectangular outline.",
       "is_master" : false
     },
     "gudrun_21" : {
@@ -750,11 +750,11 @@
       "is_master" : false
     },
     "magnus_3" : {
-      "is_master" : false,
-      "character" : "Magnus",
-      "shot_range" : "(Shots 16-23)",
       "name" : "PLATE 3",
-      "description" : "Winter Preparation (Shots 16-23)"
+      "description" : "Winter Preparation (Shots 16-23)",
+      "shot_range" : "(Shots 16-23)",
+      "is_master" : false,
+      "character" : "Magnus"
     },
     "lilja_3" : {
       "name" : "PLATE 3",
@@ -766,5 +766,5 @@
   },
   "_complete_system" : true,
   "_total_plates" : 109,
-  "last_updated" : "2025-09-20T02:21:49Z"
+  "last_updated" : "2025-09-20T02:29:29Z"
 }

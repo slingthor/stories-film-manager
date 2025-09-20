@@ -41,12 +41,15 @@ struct ClaudeConversationWindow: View {
 
                             Picker("Intent", selection: $conversationIntent) {
                                 Text("Modify Current Shot").tag("modifyShot")
+                                Text("Shorten for Luma").tag("shortenForLuma")
                                 Text("General Discussion").tag("generalChat")
                             }
                             .pickerStyle(SegmentedPickerStyle())
 
                             Text(conversationIntent == "modifyShot" ?
                                  "AI will focus on creating and improving prompt variants for the current shot." :
+                                 conversationIntent == "shortenForLuma" ?
+                                 "AI will shorten the fully resolved prompt to under 2015 characters for Luma Dream Machine." :
                                  "AI will engage in general discussion about the film project.")
                                 .font(.caption)
                                 .foregroundColor(.secondary)
@@ -54,8 +57,8 @@ struct ClaudeConversationWindow: View {
                         .frame(maxWidth: .infinity, alignment: .leading)
                     }
 
-                    // Shot Info Section (only show if modifying shot)
-                    if conversationIntent == "modifyShot" {
+                    // Shot Info Section (show for modifying shot and Luma shortening)
+                    if conversationIntent == "modifyShot" || conversationIntent == "shortenForLuma" {
                         GroupBox("Current Shot") {
                             VStack(alignment: .leading, spacing: 8) {
                                 Text("Shot ID: \(shot.id)")
@@ -64,6 +67,10 @@ struct ClaudeConversationWindow: View {
                                 Text("Duration: \(shot.duration) seconds")
                                 Text("Sequence: \(shot.sequenceType)")
                                 Text("Variants: \(shot.promptVariants.count)")
+                                if conversationIntent == "shortenForLuma" && shot.selectedPromptIndex < shot.promptVariants.count {
+                                    Text("Selected Variant: \(shot.promptVariants[shot.selectedPromptIndex].name)")
+                                        .foregroundColor(.blue)
+                                }
                             }
                             .frame(maxWidth: .infinity, alignment: .leading)
                         }
@@ -79,13 +86,25 @@ struct ClaudeConversationWindow: View {
                                 if conversationIntent == "modifyShot" {
                                     Toggle("Current Shot & Variants", isOn: $contextBuilder.includeCurrentShot)
                                         .disabled(true)  // Always include for shot modification
+                                } else if conversationIntent == "shortenForLuma" {
+                                    // For Luma, we'll generate and include the full prompt
+                                    Text("✓ Fully Resolved Prompt (automatically included)")
+                                        .font(.caption)
+                                        .foregroundColor(.green)
                                 }
-                                Toggle("Character Plates (Masters)", isOn: $contextBuilder.includeCharacterPlates)
-                                Toggle("Environmental Plates", isOn: $contextBuilder.includeEnvironmentalPlates)
+
+                                if conversationIntent != "shortenForLuma" {
+                                    Toggle("Character Plates (Masters)", isOn: $contextBuilder.includeCharacterPlates)
+                                    Toggle("Environmental Plates", isOn: $contextBuilder.includeEnvironmentalPlates)
+                                }
                             }
 
                             if conversationIntent == "modifyShot" {
                                 Text("Note: Current shot is always included when modifying shots")
+                                    .font(.caption)
+                                    .foregroundColor(.secondary)
+                            } else if conversationIntent == "shortenForLuma" {
+                                Text("Note: The fully resolved prompt will be provided for shortening")
                                     .font(.caption)
                                     .foregroundColor(.secondary)
                             }
@@ -339,39 +358,64 @@ struct ClaudeConversationWindow: View {
     }
 
     private func startClaudeConversation() {
-        // Force include current shot when modifying
-        if conversationIntent == "modifyShot" {
-            contextBuilder.includeCurrentShot = true
+        prepareConversationContext { context, instructions in
+            integrationManager.startClaudeConversation(with: context, filmManager: filmManager, userInstructions: instructions)
         }
-
-        let context = contextBuilder.buildContext(for: shot, filmManager: filmManager)
-        let intentInstructions = buildIntentInstructions()
-        let fullInstructions = intentInstructions + "\n\n" + userInstructions
-        integrationManager.startClaudeConversation(with: context, filmManager: filmManager, userInstructions: fullInstructions)
     }
 
     private func startGeminiConversation() {
-        // Force include current shot when modifying
-        if conversationIntent == "modifyShot" {
-            contextBuilder.includeCurrentShot = true
+        prepareConversationContext { context, instructions in
+            integrationManager.startGeminiConversation(with: context, filmManager: filmManager, userInstructions: instructions)
         }
-
-        let context = contextBuilder.buildContext(for: shot, filmManager: filmManager)
-        let intentInstructions = buildIntentInstructions()
-        let fullInstructions = intentInstructions + "\n\n" + userInstructions
-        integrationManager.startGeminiConversation(with: context, filmManager: filmManager, userInstructions: fullInstructions)
     }
 
     private func startCodexConversation() {
+        prepareConversationContext { context, instructions in
+            integrationManager.startCodexConversation(with: context, filmManager: filmManager, userInstructions: instructions)
+        }
+    }
+
+    private func prepareConversationContext(completion: ([String: String], String) -> Void) {
         // Force include current shot when modifying
         if conversationIntent == "modifyShot" {
             contextBuilder.includeCurrentShot = true
         }
 
-        let context = contextBuilder.buildContext(for: shot, filmManager: filmManager)
+        var context = contextBuilder.buildContext(for: shot, filmManager: filmManager)
+
+        // For Luma shortening, generate and add the fully resolved prompt
+        if conversationIntent == "shortenForLuma" {
+            if shot.selectedPromptIndex < shot.promptVariants.count {
+                let cleanPrompt = shot.promptVariants[shot.selectedPromptIndex].generateCleanPrompt(
+                    for: shot,
+                    plateManager: filmManager.plateManager
+                )
+
+                // Add the fully resolved prompt to context
+                context["05_LUMA_PROMPT.txt"] = """
+                FULLY RESOLVED PROMPT TO SHORTEN
+                =================================
+                Shot: \(shot.id) - \(shot.title)
+                Variant: \(shot.promptVariants[shot.selectedPromptIndex].name)
+                Current Length: \(cleanPrompt.count) characters
+                Target: Under 2015 characters
+
+                =================================
+                COMPLETE PROMPT (with all plates resolved):
+                =================================
+
+                \(cleanPrompt)
+
+                =================================
+                END OF PROMPT
+                """
+            }
+        }
+
         let intentInstructions = buildIntentInstructions()
         let fullInstructions = intentInstructions + "\n\n" + userInstructions
-        integrationManager.startCodexConversation(with: context, filmManager: filmManager, userInstructions: fullInstructions)
+
+        completion(context, fullInstructions)
     }
 
     private func buildIntentInstructions() -> String {
@@ -386,6 +430,28 @@ struct ClaudeConversationWindow: View {
             - Ensuring consistency with the plate system
             - Maintaining the narrative arc of the sequence
             The current shot details are provided in the context.
+            """
+        case "shortenForLuma":
+            return """
+            ✂️ INTENT: SHORTEN FOR LUMA DREAM MACHINE
+            Your task is to shorten the fully resolved prompt to under 2015 characters.
+
+            The file 05_LUMA_PROMPT.txt contains the complete, fully resolved prompt with all plates already expanded.
+
+            SHORTENING PRIORITY (in order):
+            1. First: Reduce descriptions in specialized character/environmental plates while preserving master plates for consistency
+            2. Second: Remove non-visual descriptions (internal states, metaphors, abstract concepts)
+            3. Third: Condense without losing information (combine similar elements, use more concise language)
+            4. Fourth: Cut the least important pieces for the shot
+
+            OUTPUT REQUIREMENTS:
+            - Output the shortened prompt in a clear format
+            - Ensure it's under 2015 characters total
+            - Preserve as much visual information as possible
+            - Maintain the core narrative and visual elements
+            - Show the character count at the end
+
+            Please output the shortened prompt ready to paste into Luma Dream Machine.
             """
         case "generalChat":
             return """
