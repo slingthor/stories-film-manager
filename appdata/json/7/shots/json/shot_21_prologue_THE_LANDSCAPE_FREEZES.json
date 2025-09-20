@@ -1,11 +1,44 @@
 {
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "1.85:1",
+  "progressive_state" : "Paradise dies | Memory crystallizing | Camera frost 15% | Winter arriving | Watching: Everything stops",
+  "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "title" : "THE LANDSCAPE FREEZES",
+    "stitch_from" : "",
+    "id" : "21",
+    "narrative_function" : "Paradise dies | Memory crystallizing | Camera fros...",
+    "duration_seconds" : 8,
+    "sequence_type" : "prologue"
+  },
   "prompt_variants" : [
     {
-      "action" : "Camera rises from Sigrid, pulling back. Feast tables below now empty except for her. Food turned to black rot. Tables collapsed. Rising higher - ocean beginning to freeze, ice spreading from shore outward like reaching fingers. Berry hills turn white, purple juice freezing into dark veins in snow. Whale on beach freezes solid, blood pool now red ice. Sheep in stone pen stand frozen mid-movement, become white statues. Higher still - entire peninsula visible. Green summer grass turns brown, then white with frost. The pole on headland freezes, cracks, falls. Three terrains no longer pulsing. Everything still. Dead. Only movement is Sigrid below, tiny figure still standing, still singing. Her voice carries impossibly far in frozen air. Stars above too bright, too many. Sky wrong color - purple-black. Northern lights begin but they're red, not green.",
+      "style" : "Aerial pullback showing full transformation (that's where the camera is), landscape dying, ice spreading everywhere.",
       "scene" : "Entire landscape from 500 feet up. Everything freezing rapidly. Stars and red aurora appearing. Sigrid tiny below.",
+      "videos" : [
+        {
+          "duration" : 8,
+          "filename" : "Meta_setting_iceland_202509142240_qik7u.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142240_qik7u.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142249_w67r7.mp4",
+          "filename" : "Meta_setting_iceland_202509142249_w67r7.mp4"
+        },
+        {
+          "filename" : "Meta_setting_iceland_202509142249_4vrtq.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142249_4vrtq.mp4",
+          "duration" : 8
+        }
+      ],
       "dialogue" : "(Sigrid's voice, distant but clear): \"Krummi svaf í klettagjá...\"",
+      "negative_prompt" : "no subtitles, show ice spreading, landscape dying, red northern lights, 1080p",
+      "subject" : "Aerial view pulling back showing entire landscape transforming, ocean turning black ice, berry hills white with snow, whale carcass freezing solid, while Sigrid's song continues as only sound.",
+      "variant_name" : "Primary - THE LANDSCAPE FREEZES",
+      "active_video_index" : 0,
+      "progressive_state" : "",
+      "is_active" : false,
+      "camera_position" : "Aerial pullback showing full transformation",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-MARKED",
@@ -15,41 +48,8 @@
         "WESTFJORDS-WINTER",
         "HOUSE-TRADITIONAL"
       ],
-      "progressive_state" : "",
-      "variant_id" : "21_story_primary",
-      "active_video_index" : 0,
-      "negative_prompt" : "no subtitles, show ice spreading, landscape dying, red northern lights, 1080p",
-      "camera_position" : "Aerial pullback showing full transformation",
-      "subject" : "Aerial view pulling back showing entire landscape transforming, ocean turning black ice, berry hills white with snow, whale carcass freezing solid, while Sigrid's song continues as only sound.",
-      "variant_name" : "Primary - THE LANDSCAPE FREEZES",
-      "videos" : [
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142240_qik7u.mp4",
-          "filename" : "Meta_setting_iceland_202509142240_qik7u.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Meta_setting_iceland_202509142249_w67r7.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142249_w67r7.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142249_4vrtq.mp4",
-          "filename" : "Meta_setting_iceland_202509142249_4vrtq.mp4"
-        }
-      ],
-      "is_active" : false,
-      "style" : "Aerial pullback showing full transformation (that's where the camera is), landscape dying, ice spreading everywhere."
+      "action" : "Camera rises from Sigrid, pulling back. Feast tables below now empty except for her. Food turned to black rot. Tables collapsed. Rising higher - ocean beginning to freeze, ice spreading from shore outward like reaching fingers. Berry hills turn white, purple juice freezing into dark veins in snow. Whale on beach freezes solid, blood pool now red ice. Sheep in stone pen stand frozen mid-movement, become white statues. Higher still - entire peninsula visible. Green summer grass turns brown, then white with frost. The pole on headland freezes, cracks, falls. Three terrains no longer pulsing. Everything still. Dead. Only movement is Sigrid below, tiny figure still standing, still singing. Her voice carries impossibly far in frozen air. Stars above too bright, too many. Sky wrong color - purple-black. Northern lights begin but they're red, not green.",
+      "variant_id" : "21_story_primary"
     }
-  ],
-  "progressive_state" : "Paradise dies | Memory crystallizing | Camera frost 15% | Winter arriving | Watching: Everything stops",
-  "shot_metadata" : {
-    "title" : "THE LANDSCAPE FREEZES",
-    "sequence_type" : "prologue",
-    "duration_seconds" : 8,
-    "stitch_from" : "",
-    "narrative_function" : "Paradise dies | Memory crystallizing | Camera fros...",
-    "id" : "21"
-  }
+  ]
 }

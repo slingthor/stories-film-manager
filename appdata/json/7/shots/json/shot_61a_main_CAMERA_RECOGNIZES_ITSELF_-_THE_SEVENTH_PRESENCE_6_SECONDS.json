@@ -1,9 +1,20 @@
 {
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "2.39:1",
   "progressive_state" : "Camera awakening | Frost 56% | Identity revealed | Watching: We watch ourselves",
+  "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "title" : "CAMERA RECOGNIZES ITSELF - THE SEVENTH PRESENCE 6 SECONDS",
+    "stitch_from" : "",
+    "id" : "61a",
+    "narrative_function" : "Camera awakening | Frost 56% | Identity revealed |...",
+    "duration_seconds" : 6,
+    "sequence_type" : "main_story"
+  },
   "prompt_variants" : [
     {
+      "style" : "First-person camera awareness (that's where the camera is), self-recognition documented.",
+      "scene" : "View through frosting lens. Letters forming. Previous shots reflecting. Consciousness dawning.",
+      "progressive_state" : "",
       "selected_plates" : [
         "MAGNUS-RAM",
         "SIGRID-CORVID",
@@ -12,25 +23,14 @@
         "GUDRUN-ETERNAL",
         "WESTFJORDS-CLIFF"
       ],
-      "negative_prompt" : "",
-      "camera_position" : "First-person camera awareness",
-      "scene" : "View through frosting lens. Letters forming. Previous shots reflecting. Consciousness dawning.",
       "is_active" : false,
-      "progressive_state" : "",
       "variant_name" : "Primary - CAMERA RECOGNIZES ITSELF - THE SEVENTH PRESENCE 6 SECONDS",
-      "style" : "First-person camera awareness (that's where the camera is), self-recognition documented.",
+      "action" : "Image shakes. Not external - internal. Camera becoming conscious. Frost on lens starts forming patterns. Letters. \"V-I-T-N-I\" (witness) spelled in ice crystals. We've been watching through Iceland's eye. The camera IS the seventh presence the clothes counted. Not future - present. Us. Watching. The 3Hz tremor isn't Magnús's - it's ours. Iceland's traumatic tremor. Documenting itself. Through frost writing: glimpses of what camera has seen. All shots reflecting in ice. The ram circles. The tilberi. Sigrid's escape. We saw it all. We ARE the witness. The frost isn't killing the camera - it's Iceland closing its colonial eye. When frost reaches 100%, the old way of seeing dies. New vision begins. But first must document everything. Must witness complete transformation. The camera tries to focus. Can't. Frost spreading from edges. Vision narrowing. Like dying. Like being born. Both.",
+      "camera_position" : "First-person camera awareness",
+      "variant_id" : "61a_story_primary",
       "subject" : "The camera suddenly aware of itself - frost patterns on lens spelling \"VITNI,\" tremor at 3Hz (Magnús's original rate), realizing WE are the seventh presence, the witness that survives, Iceland's eye documenting its own transformation.",
       "dialogue" : "(Written in frost): \"VITNI\" \"Ð‰G ER ÐSLAND\" (I am Iceland)",
-      "variant_id" : "61a_story_primary",
-      "action" : "Image shakes. Not external - internal. Camera becoming conscious. Frost on lens starts forming patterns. Letters. \"V-I-T-N-I\" (witness) spelled in ice crystals. We've been watching through Iceland's eye. The camera IS the seventh presence the clothes counted. Not future - present. Us. Watching. The 3Hz tremor isn't Magnús's - it's ours. Iceland's traumatic tremor. Documenting itself. Through frost writing: glimpses of what camera has seen. All shots reflecting in ice. The ram circles. The tilberi. Sigrid's escape. We saw it all. We ARE the witness. The frost isn't killing the camera - it's Iceland closing its colonial eye. When frost reaches 100%, the old way of seeing dies. New vision begins. But first must document everything. Must witness complete transformation. The camera tries to focus. Can't. Frost spreading from edges. Vision narrowing. Like dying. Like being born. Both."
+      "negative_prompt" : ""
     }
-  ],
-  "shot_metadata" : {
-    "title" : "CAMERA RECOGNIZES ITSELF - THE SEVENTH PRESENCE 6 SECONDS",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 6,
-    "stitch_from" : "",
-    "narrative_function" : "Camera awakening | Frost 56% | Identity revealed |...",
-    "id" : "61a"
-  }
+  ]
 }

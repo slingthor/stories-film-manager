@@ -1,15 +1,26 @@
 {
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
   "progressive_state" : "Giant choosing | Escape promised | Camera frost 44% | Love revealed | Watching: House loves her",
+  "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "title" : "BERGRISI CHOOSES SIGRID - THE PROMISE 8 SECONDS",
+    "stitch_from" : "",
+    "id" : "53c",
+    "narrative_function" : "Giant choosing | Escape promised | Camera frost 44...",
+    "duration_seconds" : 8,
+    "sequence_type" : "main_story"
+  },
   "prompt_variants" : [
     {
-      "variant_name" : "Primary - BERGRISI CHOOSES SIGRID - THE PROMISE 8 SECONDS",
-      "is_active" : false,
-      "style" : "Crane up following ceiling opening (that's where the camera is), escape route documented.",
       "action" : "House focuses on Sigrid. Different voice now - tender, paternal. \"ÞÚ ERT ÐSLAND.\" Magnús staggers back, hand leaving her shoulder. House protecting her. \"ÞÚ MUNT LIFA.\" CRANE UP as ceiling above her platform begins cracking. Not collapsing - opening. Like flower blooming. Stars visible through widening gap. Cold air enters but doesn't touch her - house creates warm air bubble around her. \"VERTU KRUMMI.\" (Become raven.) The black feather in her hand begins glowing slightly. Through opening: seven ravens circling, waiting. The klettagjá (rocky cleft) forming - her escape route. But also transformation site. Magnús rages: \"NEI! HÚN ER MÐN!\" Tries to grab her. Floor becomes liquid beneath him, swallows his feet to ankles. House holds him. Protects her. Loves her. She is Iceland. She will witness. She will escape. The ceiling continues opening - 3 feet wide now. Stars bright. Freedom visible.",
-      "dialogue" : "(House to Sigrid): \"Þú ert Ðsland... þú munt lifa...\" \"Vertu Krummi\" (Magnús, raging): \"NEI! HÚN ER MÐN!\"",
+      "variant_id" : "53c_story_primary",
+      "camera_position" : "Crane up following ceiling opening",
       "negative_prompt" : "no collapse, opening not destruction, show stars clearly",
+      "progressive_state" : "",
+      "is_active" : false,
+      "dialogue" : "(House to Sigrid): \"Þú ert Ðsland... þú munt lifa...\" \"Vertu Krummi\" (Magnús, raging): \"NEI! HÚN ER MÐN!\"",
+      "scene" : "Ceiling opening above Sigrid. Stars and ravens visible. Magnús trapped by floor. Divine selection.",
+      "style" : "Crane up following ceiling opening (that's where the camera is), escape route documented.",
       "selected_plates" : [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
@@ -18,19 +29,8 @@
         "GUDRUN-RETURNING",
         "BAÐSTOFA-CRYSTALLIZING"
       ],
-      "variant_id" : "53c_story_primary",
-      "progressive_state" : "",
-      "camera_position" : "Crane up following ceiling opening",
-      "scene" : "Ceiling opening above Sigrid. Stars and ravens visible. Magnús trapped by floor. Divine selection.",
+      "variant_name" : "Primary - BERGRISI CHOOSES SIGRID - THE PROMISE 8 SECONDS",
       "subject" : "The house speaking directly to [SIGRID]: \"Þú ert Ðsland... þú munt lifa... vertu Krummi\" while the ceiling cracks open above her sleeping platform, revealing stars, creating her escape route, as [MAGNÚS] realizes the house has chosen her over him."
     }
-  ],
-  "shot_metadata" : {
-    "title" : "BERGRISI CHOOSES SIGRID - THE PROMISE 8 SECONDS",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "stitch_from" : "",
-    "narrative_function" : "Giant choosing | Escape promised | Camera frost 44...",
-    "id" : "53c"
-  }
+  ]
 }

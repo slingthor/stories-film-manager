@@ -1,9 +1,20 @@
 {
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "2.39:1",
   "progressive_state" : "Consciousness splitting | Frost 58% | Many witnesses | Watching: All watch",
+  "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "title" : "THE WITNESS FRAGMENTS - MULTIPLE VIEWS 8 SECONDS",
+    "stitch_from" : "",
+    "id" : "61c",
+    "narrative_function" : "Consciousness splitting | Frost 58% | Many witness...",
+    "duration_seconds" : 8,
+    "sequence_type" : "main_story"
+  },
   "prompt_variants" : [
     {
+      "style" : "Fractured multiple perspectives (that's where the camera is), all witnesses documented.",
+      "scene" : "Multiple views through cracked lens. All times\/perspectives simultaneous. Obelisk central.",
+      "progressive_state" : "",
       "selected_plates" : [
         "MAGNUS-RAM",
         "SIGRID-CORVID",
@@ -12,25 +23,14 @@
         "GUDRUN-ETERNAL",
         "WESTFJORDS-CLIFF"
       ],
-      "negative_prompt" : "",
-      "camera_position" : "Fractured multiple perspectives",
-      "scene" : "Multiple views through cracked lens. All times\/perspectives simultaneous. Obelisk central.",
       "is_active" : false,
-      "progressive_state" : "",
       "variant_name" : "Primary - THE WITNESS FRAGMENTS - MULTIPLE VIEWS 8 SECONDS",
-      "style" : "Fractured multiple perspectives (that's where the camera is), all witnesses documented.",
+      "action" : "CRACK. Lens splits. Not broken - multiplied. Like insect eye. Each fragment shows different perspective. Top fragment: tourists 2024, taking photos, unaware. Left fragment: Sigrid-raven 1944, watching independence, remembering. Right fragment: sheep family inside glass, eternal, still aware. Center fragment: us, now, watching this film, witnesses to witnesses. Bottom fragment: the camera itself, dying, frost at 58%. All simultaneous. All true. We are: Iceland watching itself. Tourists consuming trauma. Sigrid remembering. Family preserved. Audience witnessing. All one witness. Fragmented but whole. The cracks spread. More perspectives. Vikings seeing future. Children unborn watching back. The obelisk in all fragments. The constant. The monument to transformation. Standing in all times. Witnessed by all eyes. The crack patterns form shape: raven wings. The witness fractures into flight pattern. Ready to break apart. To become many. To spread the story.",
+      "camera_position" : "Fractured multiple perspectives",
+      "variant_id" : "61c_story_primary",
       "subject" : "The camera lens cracking from frost, creating multiple views - we see through tourist eyes (2024), through Sigrid's raven eye (1944), through the sheep family in glass (eternal), through our watching eyes (now), all witnesses simultaneously.",
       "dialogue" : "(All fragments): Silent witnessing (One whisper): \"We remember\"",
-      "variant_id" : "61c_story_primary",
-      "action" : "CRACK. Lens splits. Not broken - multiplied. Like insect eye. Each fragment shows different perspective. Top fragment: tourists 2024, taking photos, unaware. Left fragment: Sigrid-raven 1944, watching independence, remembering. Right fragment: sheep family inside glass, eternal, still aware. Center fragment: us, now, watching this film, witnesses to witnesses. Bottom fragment: the camera itself, dying, frost at 58%. All simultaneous. All true. We are: Iceland watching itself. Tourists consuming trauma. Sigrid remembering. Family preserved. Audience witnessing. All one witness. Fragmented but whole. The cracks spread. More perspectives. Vikings seeing future. Children unborn watching back. The obelisk in all fragments. The constant. The monument to transformation. Standing in all times. Witnessed by all eyes. The crack patterns form shape: raven wings. The witness fractures into flight pattern. Ready to break apart. To become many. To spread the story."
+      "negative_prompt" : ""
     }
-  ],
-  "shot_metadata" : {
-    "title" : "THE WITNESS FRAGMENTS - MULTIPLE VIEWS 8 SECONDS",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "stitch_from" : "",
-    "narrative_function" : "Consciousness splitting | Frost 58% | Many witness...",
-    "id" : "61c"
-  }
+  ]
 }

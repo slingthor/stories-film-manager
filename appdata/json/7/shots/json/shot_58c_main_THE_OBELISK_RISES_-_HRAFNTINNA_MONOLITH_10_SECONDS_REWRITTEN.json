@@ -1,15 +1,26 @@
 {
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
   "progressive_state" : "Monument born | Camera frost 52% | Giant reborn | Watching: Architecture ascending",
+  "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "title" : "THE OBELISK RISES - HRAFNTINNA MONOLITH 10 SECONDS REWRITTEN",
+    "stitch_from" : "",
+    "id" : "58c",
+    "narrative_function" : "Monument born | Camera frost 52% | Giant reborn | ...",
+    "duration_seconds" : 10,
+    "sequence_type" : "main_story"
+  },
   "prompt_variants" : [
     {
-      "variant_name" : "Primary - THE OBELISK RISES - HRAFNTINNA MONOLITH 10 SECONDS REWRITTEN",
-      "is_active" : false,
-      "style" : "Crane up with ascending monument (that's where the camera is), architecture transcending.",
       "action" : "CRANE UP with rising structure. House doesn't just transform - GROWS. From earth. Like crystal forming in time-lapse. Black hrafntinna obsidian. Raven flint. The volcanic glass that IS Iceland. 40 feet rising. 10 feet wide at base. Narrowing to point. But through center: CLEFT opens. Not crack - designed opening. Bergrisi's throat. Birth canal. Escape route. The klettagjá from lullaby made literal. As structure rises, sheep family pulled into walls. Not violently - absorbed. Becoming part of monument. Magnús-ram fighting, then accepting, horns visible through glass. Guðrún-ewe peaceful, faldbúningur preserved in obsidian. Lamb-children together, eternal. They're IN the monument. ARE the monument. Visible to all future witnesses. But Sigrid stays free. Standing at cleft base. The one who escapes. Through cleft top: impossible light. Not sun - ALL suns. Every dawn that will ever be. The monument exists in all times simultaneously. Is the third monolith. The evolution marker. The moment Iceland becomes free.",
-      "dialogue" : "(Bergrisi's final words in glass): \"Ð‰g er endurheimt\" (I am reclaimed)",
+      "variant_id" : "58c_story_primary",
+      "camera_position" : "Crane up with ascending monument",
       "negative_prompt" : "epic scale, monument grandeur",
+      "progressive_state" : "",
+      "is_active" : false,
+      "dialogue" : "(Bergrisi's final words in glass): \"Ð‰g er endurheimt\" (I am reclaimed)",
+      "scene" : "Structure rising to 40-foot obelisk. Family absorbed into walls. Cleft opening. All times visible.",
+      "style" : "Crane up with ascending monument (that's where the camera is), architecture transcending.",
       "selected_plates" : [
         "MAGNUS-BREAKING",
         "SIGRID-DUAL",
@@ -19,19 +30,8 @@
         "BAÐSTOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ],
-      "variant_id" : "58c_story_primary",
-      "progressive_state" : "",
-      "camera_position" : "Crane up with ascending monument",
-      "scene" : "Structure rising to 40-foot obelisk. Family absorbed into walls. Cleft opening. All times visible.",
+      "variant_name" : "Primary - THE OBELISK RISES - HRAFNTINNA MONOLITH 10 SECONDS REWRITTEN",
       "subject" : "The house completing transformation into 40-foot black hrafntinna obelisk, rising from earth like growing crystal, the vertical klettagjá cleft opening through center as Bergrisi's mouth\/birth canal, sheep family being absorbed into glass walls except [SIGRID] who stands at cleft entrance."
     }
-  ],
-  "shot_metadata" : {
-    "title" : "THE OBELISK RISES - HRAFNTINNA MONOLITH 10 SECONDS REWRITTEN",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 10,
-    "stitch_from" : "",
-    "narrative_function" : "Monument born | Camera frost 52% | Giant reborn | ...",
-    "id" : "58c"
-  }
+  ]
 }

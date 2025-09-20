@@ -1,23 +1,26 @@
 {
+  "progressive_state" : "House 0\/min dead + 0bpm | Last words | Camera frost 50% | Death speech | Watching: House dies",
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
     "title" : "HOUSE SPEAKS IN DARKNESS - FINAL WORDS 5 SECONDS",
     "id" : "57c",
-    "sequence_type" : "main_story",
     "duration_seconds" : 5,
+    "sequence_type" : "main_story",
     "narrative_function" : "House 0\/min dead + 0bpm | Last words | Camera fros...",
     "stitch_from" : ""
   },
-  "selected_prompt_index" : 0,
-  "progressive_state" : "House 0\/min dead + 0bpm | Last words | Camera frost 50% | Death speech | Watching: House dies",
   "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "variant_name" : "Primary - HOUSE SPEAKS IN DARKNESS - FINAL WORDS 5 SECONDS",
-      "is_active" : false,
-      "style" : "Black screen with voice through everything (that's where the camera is), death speech documented.",
       "action" : "Darkness continues. Then through everything - walls, floor, air itself - voice emerges. Not sound but vibration. Bergrisi's death speech: \"Ð‰g dey...\" The words create wind through house. \"Klettagjá verður...\" Walls crack audibly. Not collapsing - transforming. Opening. Becoming cleft. \"Sigrid...\" Personal address. The giant knows her. Loves her. Dies for her. \"Flúgðu.\" Command. Promise. Prophecy. Then: silence. No heartbeat. No breathing. House dead. But structure stands. Transformed. No longer giant's body but rocky cleft. Escape route. Birth canal. In darkness, sound of stone settling. New geography. The house IS the klettagjá from lullaby. Always was becoming this. Sheep breathing continues. But one breath different - Sigrid's still 15\/min. Still unchanged. Still resisting.",
-      "dialogue" : "(House\/Bergrisi, dying): \"Ð‰g dey... klettagjá verður...\" \"Sigrid... flúgðu\"",
+      "variant_id" : "57c_story_primary",
+      "camera_position" : "Black screen with voice through everything",
       "negative_prompt" : "maintain complete darkness, no light",
+      "progressive_state" : "",
+      "is_active" : false,
+      "dialogue" : "(House\/Bergrisi, dying): \"Ð‰g dey... klettagjá verður...\" \"Sigrid... flúgðu\"",
+      "scene" : "Continued darkness. House speaking through death. Transformation audible.",
+      "style" : "Black screen with voice through everything (that's where the camera is), death speech documented.",
       "selected_plates" : [
         "MAGNUS-BREAKING",
         "SIGRID-BECOMING",
@@ -26,10 +29,7 @@
         "GUDRUN-EWE",
         "BAÐSTOFA-CLIFF"
       ],
-      "variant_id" : "57c_story_primary",
-      "progressive_state" : "",
-      "camera_position" : "Black screen with voice through everything",
-      "scene" : "Continued darkness. House speaking through death. Transformation audible.",
+      "variant_name" : "Primary - HOUSE SPEAKS IN DARKNESS - FINAL WORDS 5 SECONDS",
       "subject" : "In the darkness, the house speaks its last words as Bergrisi: \"Ð‰g dey... klettagjá verður... Sigrid... flúgðu\" (I die... rocky cleft becomes... Sigrid... fly), then heartbeat stops, breathing ends, but structure remains."
     }
   ]

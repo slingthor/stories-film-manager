@@ -1,37 +1,29 @@
 {
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "1.85:1",
   "progressive_state" : "Time collapses | Paradise ending | Camera frost 5% | Day racing away | Watching: The fall begins",
+  "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "title" : "The Sun Breaks Free - Time Collapse",
+    "stitch_from" : "",
+    "id" : "9a",
+    "narrative_function" : "Time acceleration destroying false abundance",
+    "duration_seconds" : 8,
+    "sequence_type" : "prologue"
+  },
   "prompt_variants" : [
     {
-      "action" : "Sun breaks from frozen position. Drops 10 degrees in one second. Shadows from tables suddenly swing eastward, moving like clock hands. Golden light shifts orange. Everyone still frozen at tables but shadows moving around them. Sun drops another 10 degrees. Light turns deep red. Food on tables changes - whale meat darkening, berries shriveling, eggs turning grey. Sun continues plummet. Sky shifts red to purple. Temperature drops - breath becomes visible from everyone simultaneously, white clouds in purple air. Frost forms on table edges, spreading inward. Purple juice in cups freezes, expanding, some cups cracking. Sun nearly at horizon now. Moving faster. The searchlight still locked on feast but overwhelmed by dying natural light. Children begin shivering. Adults don't move. Sun touches horizon. Pauses one second. Then drops below. Darkness rushing in from edges of frame.",
+      "style" : "Wide shot showing sun movement and shadow sweep (that's where the camera is), time-lapse feeling but real-time.",
       "scene" : "Feast tables with sun racing across sky. Light changing rapidly. Frost forming. Searchlight still on but overwhelmed.",
-      "dialogue" : "None",
-      "selected_plates" : [
-        "MAGNUS-AUTHORITY",
-        "SIGRID-PURE",
-        "LILJA-PURE",
-        "JON-MILD",
-        "GUDRUN-ABUNDANT",
-        "BAÐSTOFA-DOMESTIC"
-      ],
-      "progressive_state" : "",
-      "variant_id" : "9a_story_primary",
-      "active_video_index" : 0,
-      "negative_prompt" : "no subtitles, show sun dropping rapidly, shadows sweeping, frost forming, breath visible, 1080p",
-      "camera_position" : "Wide shot showing time-worn appearance effects, that's where the camera is",
-      "subject" : "The sun suddenly dropping toward horizon in accelerated motion, shadows sweeping across feast tables like black water, golden light dying to orange to red to purple in seconds, temperature dropping visibly as breath becomes white vapor.",
-      "variant_name" : "time-worn appearance Collapse",
       "videos" : [
         {
-          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142237_s7osq.mp4",
           "filename" : "Meta_setting_iceland_202509142237_s7osq.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142237_s7osq.mp4"
+          "duration" : 8
         },
         {
           "filename" : "Meta_setting_iceland_202509142237_dv6al.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142237_dv6al.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142237_dv6al.mp4"
         },
         {
           "filename" : "Meta_setting_iceland_202509142237_du0fk.mp4",
@@ -40,20 +32,28 @@
         },
         {
           "filename" : "Meta_setting_iceland_202509142237_2ghfq.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142237_2ghfq.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142237_2ghfq.mp4",
+          "duration" : 8
         }
       ],
+      "dialogue" : "None",
+      "negative_prompt" : "no subtitles, show sun dropping rapidly, shadows sweeping, frost forming, breath visible, 1080p",
+      "subject" : "The sun suddenly dropping toward horizon in accelerated motion, shadows sweeping across feast tables like black water, golden light dying to orange to red to purple in seconds, temperature dropping visibly as breath becomes white vapor.",
+      "variant_name" : "time-worn appearance Collapse",
+      "active_video_index" : 0,
+      "progressive_state" : "",
       "is_active" : false,
-      "style" : "Wide shot showing sun movement and shadow sweep (that's where the camera is), time-lapse feeling but real-time."
+      "camera_position" : "Wide shot showing time-worn appearance effects, that's where the camera is",
+      "selected_plates" : [
+        "MAGNUS-AUTHORITY",
+        "SIGRID-PURE",
+        "LILJA-PURE",
+        "JON-MILD",
+        "GUDRUN-ABUNDANT",
+        "BAÐSTOFA-DOMESTIC"
+      ],
+      "action" : "Sun breaks from frozen position. Drops 10 degrees in one second. Shadows from tables suddenly swing eastward, moving like clock hands. Golden light shifts orange. Everyone still frozen at tables but shadows moving around them. Sun drops another 10 degrees. Light turns deep red. Food on tables changes - whale meat darkening, berries shriveling, eggs turning grey. Sun continues plummet. Sky shifts red to purple. Temperature drops - breath becomes visible from everyone simultaneously, white clouds in purple air. Frost forms on table edges, spreading inward. Purple juice in cups freezes, expanding, some cups cracking. Sun nearly at horizon now. Moving faster. The searchlight still locked on feast but overwhelmed by dying natural light. Children begin shivering. Adults don't move. Sun touches horizon. Pauses one second. Then drops below. Darkness rushing in from edges of frame.",
+      "variant_id" : "9a_story_primary"
     }
-  ],
-  "shot_metadata" : {
-    "title" : "The Sun Breaks Free - Time Collapse",
-    "sequence_type" : "prologue",
-    "duration_seconds" : 8,
-    "stitch_from" : "",
-    "narrative_function" : "Time acceleration destroying false abundance",
-    "id" : "9a"
-  }
+  ]
 }
