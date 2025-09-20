@@ -1,16 +1,26 @@
 {
+  "shot_metadata" : {
+    "sequence_type" : "main_story",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "narrative_function" : "Entering passage | Camera frost 53% | Impossible s...",
+    "id" : "59b",
+    "title" : "SIGRID ENTERS CLEFT - REALITY BREAKS 8 SECONDS REWRITTEN"
+  },
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "2.39:1",
+  "progressive_state" : "Entering passage | Camera frost 53% | Impossible space | Watching: Through infinite eyes",
   "prompt_variants" : [
     {
-      "subject" : "[SIGRID]-raven entering the vertical cleft seeing impossible architecture - the passage is 18 inches wide outside but infinite inside, containing all of Iceland's history, future ravens nesting in past, Vikings walking through present, independence day 1944 happening NOW.",
-      "action" : "IMPOSSIBLE DOLLY through cleft. Sigrid enters as raven. Passage narrow outside - 18 inches. But inside: infinite cathedral. Violation of physics. The cleft contains ALL space. ALL time. She flies through Iceland's entire history. Past Vikings who don't see her. Through 1944 independence celebration. Through future she'll witness. Through moment of her own death at 72. All simultaneous. All NOW. On cleft walls: every raven that ever lived in Iceland. Millions. Watching. Waiting. They're the walls. Made of ravens. Made of watching. The pregnancy inside her (now egg) glows. The future generation visible through shell. Human child in raven egg. The bridge. Above: not sky but cosmos. Below: not earth but ocean. The passage is universe throat. Birth canal of nations. She flies up. Through impossibility. Each wingbeat takes her through different century. But also she hasn't moved. Still at entrance. Both true.",
-      "variant_name" : "Primary - SIGRID ENTERS CLEFT - REALITY BREAKS 8 SECONDS REWRITTEN",
-      "camera_position" : "Impossible dolly through paradox space",
-      "dialogue" : "(All ravens ever): \"Vitni\" (Witness) in chorus (Sigrid): Silent flight",
-      "progressive_state" : "",
-      "style" : "Impossible dolly through paradox space (that's where the camera is), physics broken documented.",
-      "negative_prompt" : "",
-      "is_active" : false,
+      "variant_id" : "59b_story_primary",
       "scene" : "Inside impossible cleft. All times\/spaces simultaneous. Infinite in 18 inches. Cosmic passage.",
+      "is_active" : false,
+      "progressive_state" : "",
+      "subject" : "[SIGRID]-raven entering the vertical cleft seeing impossible architecture - the passage is 18 inches wide outside but infinite inside, containing all of Iceland's history, future ravens nesting in past, Vikings walking through present, independence day 1944 happening NOW.",
+      "negative_prompt" : "",
+      "style" : "Impossible dolly through paradox space (that's where the camera is), physics broken documented.",
+      "camera_position" : "Impossible dolly through paradox space",
+      "variant_name" : "Primary - SIGRID ENTERS CLEFT - REALITY BREAKS 8 SECONDS REWRITTEN",
       "selected_plates" : [
         "MAGNUS-BREAKING",
         "SIGRID-DUAL",
@@ -19,18 +29,8 @@
         "GUDRUN-EWE",
         "BAÐSTOFA-CLIFF"
       ],
-      "variant_id" : "59b_story_primary"
+      "dialogue" : "(All ravens ever): \"Vitni\" (Witness) in chorus (Sigrid): Silent flight",
+      "action" : "IMPOSSIBLE DOLLY through cleft. Sigrid enters as raven. Passage narrow outside - 18 inches. But inside: infinite cathedral. Violation of physics. The cleft contains ALL space. ALL time. She flies through Iceland's entire history. Past Vikings who don't see her. Through 1944 independence celebration. Through future she'll witness. Through moment of her own death at 72. All simultaneous. All NOW. On cleft walls: every raven that ever lived in Iceland. Millions. Watching. Waiting. They're the walls. Made of ravens. Made of watching. The pregnancy inside her (now egg) glows. The future generation visible through shell. Human child in raven egg. The bridge. Above: not sky but cosmos. Below: not earth but ocean. The passage is universe throat. Birth canal of nations. She flies up. Through impossibility. Each wingbeat takes her through different century. But also she hasn't moved. Still at entrance. Both true."
     }
-  ],
-  "selected_prompt_index" : 0,
-  "progressive_state" : "Entering passage | Camera frost 53% | Impossible space | Watching: Through infinite eyes",
-  "shot_metadata" : {
-    "title" : "SIGRID ENTERS CLEFT - REALITY BREAKS 8 SECONDS REWRITTEN",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "narrative_function" : "Entering passage | Camera frost 53% | Impossible s...",
-    "id" : "59b",
-    "stitch_from" : ""
-  },
-  "aspect_ratio" : "2.39:1"
+  ]
 }

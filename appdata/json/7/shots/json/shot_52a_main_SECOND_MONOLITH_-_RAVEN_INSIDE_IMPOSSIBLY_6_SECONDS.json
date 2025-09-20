@@ -1,28 +1,27 @@
 {
-  "shot_metadata": {
-    "stitch_from": "",
-    "id": "52a",
-    "narrative_function": "House 8/min + 60bpm | Raven materializes | Camera ...",
-    "duration_seconds": 6,
-    "title": "SECOND MONOLITH - RAVEN INSIDE IMPOSSIBLY 6 SECONDS",
-    "sequence_type": "main_story"
+  "shot_metadata" : {
+    "narrative_function" : "House 8\/min + 60bpm | Raven materializes | Camera ...",
+    "stitch_from" : "",
+    "title" : "SECOND MONOLITH - RAVEN INSIDE IMPOSSIBLY 6 SECONDS",
+    "sequence_type" : "main_story",
+    "id" : "52a",
+    "duration_seconds" : 6
   },
-  "selected_prompt_index": 0,
-  "progressive_state": "House 8/min + 60bpm | Raven materializes | Camera frost 41.5% | Gammur enters | Watching: Protector arrives",
-  "aspect_ratio": "4:3",
-  "prompt_variants": [
+  "progressive_state" : "House 8\/min + 60bpm | Raven materializes | Camera frost 41.5% | Gammur enters | Watching: Protector arrives",
+  "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0,
+  "prompt_variants" : [
     {
-      "subject": "A raven suddenly inside the house with no entry point - standing on the table center, absolutely still, geometric perfection, larger than possible, its eye reflecting not the room but open sky with other ravens circling, while [SIGRID] alone doesn't fear it.",
-      "action": "Room silent. Then: raven. Not flew in - simply IS. Standing on table where tilberi was (creature fled to corner). Raven impossibly large - 3 feet tall standing. Black geometric perfection, each feather mathematical. Absolutely still. Family freezes. 12-second hold begins. But in its eye (CLOSE): reflection shows not this room but sky. Blue sky. Seven ravens circling free. Future or memory? Magnús raises hand to strike it. Hand stops mid-air. Cannot move. Raven's presence creates paralysis. Only Sigrid can move. Steps forward, maintaining 11 feet from Magnús but approaching raven. It turns head exactly 90 degrees. Looks at her. Blinks once - vertical eyelid. In that blink: she sees herself with wings. Black feathers. Flying. The house cannot hold her. Raven's beak opens. Sound emerges: not caw but words, female voice, old woman's whisper: \"Klettagjá opnast\" (The rocky cleft opens).",
-      "variant_name": "Primary - SECOND MONOLITH - RAVEN INSIDE IMPOSSIBLY 6 SECONDS",
-      "camera_position": "Static shot, monolithic presence center frame",
-      "dialogue": "(Raven, old woman's voice): \"Klettagjá opnast\" \"Sigrid mun fljúga\" (Sigrid, recognizing): \"Þú ert Gammur\"",
-      "progressive_state": "",
-      "style": "Static shot, monolithic presence center frame (that's where the camera is), second appearance documented.",
-      "negative_prompt": "",
-      "is_active": false,
-      "scene": "Interior, raven manifestation. 9:00 PM darkness. Only raven seems to generate its own light - subtle glow.",
-      "selected_plates": [
+      "variant_id" : "52a_story_primary",
+      "scene" : "Interior, raven manifestation. 9:00 PM darkness. Only raven seems to generate its own light - subtle glow.",
+      "is_active" : false,
+      "progressive_state" : "",
+      "subject" : "A raven suddenly inside the house with no entry point - standing on the table center, absolutely still, geometric perfection, larger than possible, its eye reflecting not the room but open sky with other ravens circling, while [SIGRID] alone doesn't fear it.",
+      "negative_prompt" : "",
+      "style" : "Static shot, monolithic presence center frame (that's where the camera is), second appearance documented.",
+      "camera_position" : "Static shot, monolithic presence center frame",
+      "variant_name" : "Primary - SECOND MONOLITH - RAVEN INSIDE IMPOSSIBLY 6 SECONDS",
+      "selected_plates" : [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
         "LILJA-EVOLVING",
@@ -30,7 +29,8 @@
         "GUDRUN-RETURNING",
         "BAÐSTOFA-CRYSTALLIZING"
       ],
-      "variant_id": "52a_story_primary"
+      "dialogue" : "(Raven, old woman's voice): \"Klettagjá opnast\" \"Sigrid mun fljúga\" (Sigrid, recognizing): \"Þú ert Gammur\"",
+      "action" : "Room silent. Then: raven. Not flew in - simply IS. Standing on table where tilberi was (creature fled to corner). Raven impossibly large - 3 feet tall standing. Black geometric perfection, each feather mathematical. Absolutely still. Family freezes. 12-second hold begins. But in its eye (CLOSE): reflection shows not this room but sky. Blue sky. Seven ravens circling free. Future or memory? Magnús raises hand to strike it. Hand stops mid-air. Cannot move. Raven's presence creates paralysis. Only Sigrid can move. Steps forward, maintaining 11 feet from Magnús but approaching raven. It turns head exactly 90 degrees. Looks at her. Blinks once - vertical eyelid. In that blink: she sees herself with wings. Black feathers. Flying. The house cannot hold her. Raven's beak opens. Sound emerges: not caw but words, female voice, old woman's whisper: \"Klettagjá opnast\" (The rocky cleft opens)."
     }
   ]
 }

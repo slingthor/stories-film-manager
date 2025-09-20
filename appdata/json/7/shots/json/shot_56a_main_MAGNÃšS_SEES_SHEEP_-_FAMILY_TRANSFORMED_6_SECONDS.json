@@ -1,28 +1,27 @@
 {
-  "shot_metadata": {
-    "stitch_from": "",
-    "id": "56a",
-    "narrative_function": "House 2/min dying + 30bpm | Post-Ragnarök | Camer...",
-    "duration_seconds": 6,
-    "title": "MAGNÚS SEES SHEEP - FAMILY TRANSFORMED 6 SECONDS",
-    "sequence_type": "main_story"
+  "shot_metadata" : {
+    "narrative_function" : "House 2\/min dying + 30bpm | Post-Ragnarök | Camer...",
+    "stitch_from" : "",
+    "title" : "MAGNÚS SEES SHEEP - FAMILY TRANSFORMED 6 SECONDS",
+    "sequence_type" : "main_story",
+    "id" : "56a",
+    "duration_seconds" : 6
   },
-  "selected_prompt_index": 0,
-  "progressive_state": "House 2/min dying + 30bpm | Post-Ragnarök | Camera frost 47.5% | Horror revealed | Watching: He witnesses truth",
-  "aspect_ratio": "4:3",
-  "prompt_variants": [
+  "progressive_state" : "House 2\/min dying + 30bpm | Post-Ragnarök | Camera frost 47.5% | Horror revealed | Watching: He witnesses truth",
+  "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0,
+  "prompt_variants" : [
     {
-      "subject": "[MAGNÚS] pushing himself up from floor after shockwave, looking around to see his entire family are SHEEP - [GUÐRÚN] a white ewe, children as lambs, but wearing their human clothes, and he starts laughing because he thinks he's gone mad until he sees his own reflection.",
-      "action": "MAGNÚS POV from floor level. Pushes up on elbows. Blinks. Where Guðrún fell: white ewe wearing faldbúningur headdress, standing on hind legs. Impossible. Beautiful. Horrible. Where Jón fell: lamb with child's sweater, human teeth visible in sheep mouth. Where Lilja fell: smaller lamb, dress hanging wrong on wool body. All standing upright. Bipedal sheep. He laughs - harsh, breaking. \"Ð‰g er að missa vitið\" (I'm losing my mind). Stands. They watch him with horizontal-pupil eyes. Guðrún-ewe steps toward him, makes sound: \"Maaagnus\" - his name through sheep vocal cords. Horror. Truth. Both. He backs toward window. Sees reflection. Stops laughing. In glass: ram with curved horns. Wearing his clothes. That's HIM. Looks down at hands - still sees human hands. Looks at reflection - sees hooves. Both true simultaneously.",
-      "variant_name": "Primary - MAGNÚS SEES SHEEP - FAMILY TRANSFORMED 6 SECONDS",
-      "camera_position": "POV horror revelation",
-      "dialogue": "(Magnús, laughing then stopping): \"Ð‰g er að missa vitið... nei... NEI!\" (Guðrún-ewe, sheep vocals): \"Maaagnus\"",
-      "progressive_state": "",
-      "style": "POV horror revelation (that's where the camera is), perspective breakdown documented.",
-      "negative_prompt": "",
-      "is_active": false,
-      "scene": "Interior post-shockwave. Family as upright sheep in human clothes. Magnús seeing both realities.",
-      "selected_plates": [
+      "variant_id" : "56a_story_primary",
+      "scene" : "Interior post-shockwave. Family as upright sheep in human clothes. Magnús seeing both realities.",
+      "is_active" : false,
+      "progressive_state" : "",
+      "subject" : "[MAGNÚS] pushing himself up from floor after shockwave, looking around to see his entire family are SHEEP - [GUÐRÚN] a white ewe, children as lambs, but wearing their human clothes, and he starts laughing because he thinks he's gone mad until he sees his own reflection.",
+      "negative_prompt" : "",
+      "style" : "POV horror revelation (that's where the camera is), perspective breakdown documented.",
+      "camera_position" : "POV horror revelation",
+      "variant_name" : "Primary - MAGNÚS SEES SHEEP - FAMILY TRANSFORMED 6 SECONDS",
+      "selected_plates" : [
         "MAGNUS-RECOGNIZING",
         "SIGRID-TRANSITIONAL",
         "LILJA-FINAL",
@@ -30,7 +29,8 @@
         "GUDRUN-SPEAKING",
         "BAÐSTOFA-CLIFF"
       ],
-      "variant_id": "56a_story_primary"
+      "dialogue" : "(Magnús, laughing then stopping): \"Ð‰g er að missa vitið... nei... NEI!\" (Guðrún-ewe, sheep vocals): \"Maaagnus\"",
+      "action" : "MAGNÚS POV from floor level. Pushes up on elbows. Blinks. Where Guðrún fell: white ewe wearing faldbúningur headdress, standing on hind legs. Impossible. Beautiful. Horrible. Where Jón fell: lamb with child's sweater, human teeth visible in sheep mouth. Where Lilja fell: smaller lamb, dress hanging wrong on wool body. All standing upright. Bipedal sheep. He laughs - harsh, breaking. \"Ð‰g er að missa vitið\" (I'm losing my mind). Stands. They watch him with horizontal-pupil eyes. Guðrún-ewe steps toward him, makes sound: \"Maaagnus\" - his name through sheep vocal cords. Horror. Truth. Both. He backs toward window. Sees reflection. Stops laughing. In glass: ram with curved horns. Wearing his clothes. That's HIM. Looks down at hands - still sees human hands. Looks at reflection - sees hooves. Both true simultaneously."
     }
   ]
 }

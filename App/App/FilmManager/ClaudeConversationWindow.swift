@@ -10,6 +10,7 @@ struct ClaudeConversationWindow: View {
     @State private var addVariantSuccess = false
     @State private var addVariantError = ""
     @State private var userInstructions = ""
+    @State private var conversationIntent = "modifyShot"
     @Environment(\.dismiss) private var dismiss
 
     var body: some View {
@@ -32,17 +33,40 @@ struct ClaudeConversationWindow: View {
 
             ScrollView {
                 VStack(alignment: .leading, spacing: 20) {
-                    // Shot Info Section
-                    GroupBox("Current Shot") {
-                        VStack(alignment: .leading, spacing: 8) {
-                            Text("Shot ID: \(shot.id)")
+                    // Intent Section
+                    GroupBox("Conversation Intent") {
+                        VStack(alignment: .leading, spacing: 12) {
+                            Text("What would you like to do?")
                                 .font(.headline)
-                            Text("Title: \(shot.title)")
-                            Text("Duration: \(shot.duration) seconds")
-                            Text("Sequence: \(shot.sequenceType)")
-                            Text("Variants: \(shot.promptVariants.count)")
+
+                            Picker("Intent", selection: $conversationIntent) {
+                                Text("Modify Current Shot").tag("modifyShot")
+                                Text("General Discussion").tag("generalChat")
+                            }
+                            .pickerStyle(SegmentedPickerStyle())
+
+                            Text(conversationIntent == "modifyShot" ?
+                                 "AI will focus on creating and improving prompt variants for the current shot." :
+                                 "AI will engage in general discussion about the film project.")
+                                .font(.caption)
+                                .foregroundColor(.secondary)
                         }
                         .frame(maxWidth: .infinity, alignment: .leading)
+                    }
+
+                    // Shot Info Section (only show if modifying shot)
+                    if conversationIntent == "modifyShot" {
+                        GroupBox("Current Shot") {
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text("Shot ID: \(shot.id)")
+                                    .font(.headline)
+                                Text("Title: \(shot.title)")
+                                Text("Duration: \(shot.duration) seconds")
+                                Text("Sequence: \(shot.sequenceType)")
+                                Text("Variants: \(shot.promptVariants.count)")
+                            }
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                        }
                     }
 
                     // Context Configuration Section
@@ -52,9 +76,18 @@ struct ClaudeConversationWindow: View {
                                 .font(.headline)
 
                             VStack(alignment: .leading, spacing: 8) {
-                                Toggle("Current Shot & Variants", isOn: $contextBuilder.includeCurrentShot)
+                                if conversationIntent == "modifyShot" {
+                                    Toggle("Current Shot & Variants", isOn: $contextBuilder.includeCurrentShot)
+                                        .disabled(true)  // Always include for shot modification
+                                }
                                 Toggle("Character Plates (Masters)", isOn: $contextBuilder.includeCharacterPlates)
                                 Toggle("Environmental Plates", isOn: $contextBuilder.includeEnvironmentalPlates)
+                            }
+
+                            if conversationIntent == "modifyShot" {
+                                Text("Note: Current shot is always included when modifying shots")
+                                    .font(.caption)
+                                    .foregroundColor(.secondary)
                             }
 
                             Divider()
@@ -306,18 +339,68 @@ struct ClaudeConversationWindow: View {
     }
 
     private func startClaudeConversation() {
+        // Force include current shot when modifying
+        if conversationIntent == "modifyShot" {
+            contextBuilder.includeCurrentShot = true
+        }
+
         let context = contextBuilder.buildContext(for: shot, filmManager: filmManager)
-        integrationManager.startClaudeConversation(with: context, filmManager: filmManager, userInstructions: userInstructions)
+        let intentInstructions = buildIntentInstructions()
+        let fullInstructions = intentInstructions + "\n\n" + userInstructions
+        integrationManager.startClaudeConversation(with: context, filmManager: filmManager, userInstructions: fullInstructions)
     }
 
     private func startGeminiConversation() {
+        // Force include current shot when modifying
+        if conversationIntent == "modifyShot" {
+            contextBuilder.includeCurrentShot = true
+        }
+
         let context = contextBuilder.buildContext(for: shot, filmManager: filmManager)
-        integrationManager.startGeminiConversation(with: context, filmManager: filmManager, userInstructions: userInstructions)
+        let intentInstructions = buildIntentInstructions()
+        let fullInstructions = intentInstructions + "\n\n" + userInstructions
+        integrationManager.startGeminiConversation(with: context, filmManager: filmManager, userInstructions: fullInstructions)
     }
 
     private func startCodexConversation() {
+        // Force include current shot when modifying
+        if conversationIntent == "modifyShot" {
+            contextBuilder.includeCurrentShot = true
+        }
+
         let context = contextBuilder.buildContext(for: shot, filmManager: filmManager)
-        integrationManager.startCodexConversation(with: context, filmManager: filmManager, userInstructions: userInstructions)
+        let intentInstructions = buildIntentInstructions()
+        let fullInstructions = intentInstructions + "\n\n" + userInstructions
+        integrationManager.startCodexConversation(with: context, filmManager: filmManager, userInstructions: fullInstructions)
+    }
+
+    private func buildIntentInstructions() -> String {
+        switch conversationIntent {
+        case "modifyShot":
+            return """
+            🎬 INTENT: MODIFY CURRENT SHOT
+            Your primary goal is to help create, improve, and refine prompt variants for the current shot.
+            Focus on:
+            - Creating new prompt variants that enhance the shot
+            - Improving existing variants
+            - Ensuring consistency with the plate system
+            - Maintaining the narrative arc of the sequence
+            The current shot details are provided in the context.
+            """
+        case "generalChat":
+            return """
+            💬 INTENT: GENERAL DISCUSSION
+            This is a general conversation about the film project.
+            You can discuss:
+            - Overall narrative themes
+            - Character development
+            - Visual style and cinematography
+            - Technical aspects of video generation
+            - Any questions about the project
+            """
+        default:
+            return ""
+        }
     }
 
     private func addVariantFromJSON() {

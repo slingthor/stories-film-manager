@@ -1,28 +1,27 @@
 {
-  "shot_metadata": {
-    "stitch_from": "",
-    "id": "54c",
-    "narrative_function": "Normalcy performed | God ignored | Camera frost 45...",
-    "duration_seconds": 8,
-    "title": "DAILY ROUTINE OVER DYING GOD 8 SECONDS",
-    "sequence_type": "main_story"
+  "shot_metadata" : {
+    "narrative_function" : "Normalcy performed | God ignored | Camera frost 45...",
+    "stitch_from" : "",
+    "title" : "DAILY ROUTINE OVER DYING GOD 8 SECONDS",
+    "sequence_type" : "main_story",
+    "id" : "54c",
+    "duration_seconds" : 8
   },
-  "selected_prompt_index": 0,
-  "progressive_state": "Normalcy performed | God ignored | Camera frost 45.5% | Routine continues | Watching: Mundane over divine",
-  "aspect_ratio": "4:3",
-  "prompt_variants": [
+  "progressive_state" : "Normalcy performed | God ignored | Camera frost 45.5% | Routine continues | Watching: Mundane over divine",
+  "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0,
+  "prompt_variants" : [
     {
-      "subject": "The family performing morning routines - [GUÐRÚN] fetching water, [MAGNÚS] checking weather, children playing - repeatedly stepping over the dying Bull at threshold, sometimes using his horns as handholds, his massive body becoming furniture while he watches with ancient eyes.",
-      "action": "TRACKING family movements. Guðrún returns with water bucket, steps over Bull. His horn convenient handhold. Magnús goes out to check sky, foot on Bull's eye socket (beside the net grown into cornea). Jón runs out to play, jumps over like game. Lands on Bull's tongue (hanging out slightly). Lilja follows, sits on Bull's neck, arranges wool sheep figurines on his head between harpoons. Playing while god dies beneath her. Each crossing wears the Bull down more. Fur rubbing off where they step. Skin underneath showing - not pink but translucent, universe visible through god's flesh. Stars. Cosmos. Swimming things. Through his body: glimpse of ocean depths, polynya, trawler in distance. He's portal between worlds. But family just sees obstacle at door. Sigrid alone treats him gently - each crossing, she whispers: \"Fyrirgefðu\" (Forgive us). He forgives. Came here to forgive and witness. To die at threshold between old and new.",
-      "variant_name": "Primary - DAILY ROUTINE OVER DYING GOD 8 SECONDS",
-      "camera_position": "Tracking mundane routine over divine being",
-      "dialogue": "(Guðrún): \"Vatn er kalt í dag\" (Magnús): \"Kemur storm\" (Sigrid, each crossing): \"Fyrirgefðu\"",
-      "progressive_state": "",
-      "style": "Tracking mundane routine over divine being (that's where the camera is), sacred ignored.",
-      "negative_prompt": "maintain casualness, no reverence except Sigrid",
-      "is_active": false,
-      "scene": "Doorway with constant traffic over Bull. His body becoming worn, transparent. Portal forming.",
-      "selected_plates": [
+      "variant_id" : "54c_story_primary",
+      "scene" : "Doorway with constant traffic over Bull. His body becoming worn, transparent. Portal forming.",
+      "is_active" : false,
+      "progressive_state" : "",
+      "subject" : "The family performing morning routines - [GUÐRÚN] fetching water, [MAGNÚS] checking weather, children playing - repeatedly stepping over the dying Bull at threshold, sometimes using his horns as handholds, his massive body becoming furniture while he watches with ancient eyes.",
+      "negative_prompt" : "maintain casualness, no reverence except Sigrid",
+      "style" : "Tracking mundane routine over divine being (that's where the camera is), sacred ignored.",
+      "camera_position" : "Tracking mundane routine over divine being",
+      "variant_name" : "Primary - DAILY ROUTINE OVER DYING GOD 8 SECONDS",
+      "selected_plates" : [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
         "LILJA-EVOLVING",
@@ -30,7 +29,8 @@
         "GUDRUN-RETURNING",
         "BAÐSTOFA-CRYSTALLIZING"
       ],
-      "variant_id": "54c_story_primary"
+      "dialogue" : "(Guðrún): \"Vatn er kalt í dag\" (Magnús): \"Kemur storm\" (Sigrid, each crossing): \"Fyrirgefðu\"",
+      "action" : "TRACKING family movements. Guðrún returns with water bucket, steps over Bull. His horn convenient handhold. Magnús goes out to check sky, foot on Bull's eye socket (beside the net grown into cornea). Jón runs out to play, jumps over like game. Lands on Bull's tongue (hanging out slightly). Lilja follows, sits on Bull's neck, arranges wool sheep figurines on his head between harpoons. Playing while god dies beneath her. Each crossing wears the Bull down more. Fur rubbing off where they step. Skin underneath showing - not pink but translucent, universe visible through god's flesh. Stars. Cosmos. Swimming things. Through his body: glimpse of ocean depths, polynya, trawler in distance. He's portal between worlds. But family just sees obstacle at door. Sigrid alone treats him gently - each crossing, she whispers: \"Fyrirgefðu\" (Forgive us). He forgives. Came here to forgive and witness. To die at threshold between old and new."
     }
   ]
 }

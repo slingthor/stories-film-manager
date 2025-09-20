@@ -1,8 +1,27 @@
 {
-  "prompt_variants": [
+  "shot_metadata" : {
+    "sequence_type" : "main_story",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "narrative_function" : "House 8\/min + 50bpm slowing | Ritual beginning | C...",
+    "id" : "23a",
+    "title" : "SIGRID BREAKS SILENCE REVISED - 8 SECONDS"
+  },
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
+  "progressive_state" : "House 8\/min + 50bpm slowing | Ritual beginning | Camera frost 14% | First words | Watching: House holds breath",
+  "prompt_variants" : [
     {
-      "action": "Sigrid arranges materials in final pattern: sheep rib north-south, industrial rope coiled beside it, brass button at center, wool in handful. Opens book - pages yellow, some Danish replacing Old Norse, water damage making words swim. Her hand protective on belly, feeling movement - baby responding to mother's voice. Traces finger along first line of incantation. Takes breath, breaks her silence: \"Ð‰g verð að bjarga barninu.\" Voice young, desperate, but clear. Years of enforced silence breaking like dam. Guðrún's head snaps up, shocked to hear daughter speak. Empty clothes lean forward. House breathing catches, holds at inhale. Through window, trawler beam passes, illuminating her face - determination and terror mixed. Book shows illustration: tilberi creature suckling, but margins have industrial additions - gears, pipes, contamination even in drawings.",
-      "selected_plates": [
+      "progressive_state" : "",
+      "scene" : "Interior, 6:35 AM, trawler light every 20 seconds. Temperature -15°C. Grandmother's corner with forbidden books, Christian crosses failing to hide pagan symbols underneath. Materials arranged but wrong - industrial mixing with organic.",
+      "camera_position" : "Close on Sigrid's face as silence breaks, pull back to show materials",
+      "dialogue" : "(Sigrid, breaking silence): \"Ð‰g verð að bjarga barninu\" (Reading): \"Tilberi, tilberi...\" (Guðrún, shocked): Sharp inhale, no words",
+      "subject" : "[SIGRID] kneeling before the contaminated materials, opening grandmother's forbidden book with trembling hands, her 16-year-old voice speaking aloud for the first time since Magnús left - clear and high, like glass breaking: \"Ð‰g verð að bjarga barninu\" (I must save the child).",
+      "style" : "Close on Sigrid's face as silence breaks, pull back to show materials (that's where the camera is), documentary of threshold moment.",
+      "variant_name" : "Primary - SIGRID BREAKS SILENCE REVISED - 8 SECONDS",
+      "action" : "Sigrid arranges materials in final pattern: sheep rib north-south, industrial rope coiled beside it, brass button at center, wool in handful. Opens book - pages yellow, some Danish replacing Old Norse, water damage making words swim. Her hand protective on belly, feeling movement - baby responding to mother's voice. Traces finger along first line of incantation. Takes breath, breaks her silence: \"Ð‰g verð að bjarga barninu.\" Voice young, desperate, but clear. Years of enforced silence breaking like dam. Guðrún's head snaps up, shocked to hear daughter speak. Empty clothes lean forward. House breathing catches, holds at inhale. Through window, trawler beam passes, illuminating her face - determination and terror mixed. Book shows illustration: tilberi creature suckling, but margins have industrial additions - gears, pipes, contamination even in drawings.",
+      "negative_prompt" : "",
+      "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
         "LILJA-MATHEMATICAL",
@@ -10,27 +29,8 @@
         "GUDRUN-PRODUCING",
         "BAÐSTOFA-BODY"
       ],
-      "scene": "Interior, 6:35 AM, trawler light every 20 seconds. Temperature -15°C. Grandmother's corner with forbidden books, Christian crosses failing to hide pagan symbols underneath. Materials arranged but wrong - industrial mixing with organic.",
-      "style": "Close on Sigrid's face as silence breaks, pull back to show materials (that's where the camera is), documentary of threshold moment.",
-      "subject": "[SIGRID] kneeling before the contaminated materials, opening grandmother's forbidden book with trembling hands, her 16-year-old voice speaking aloud for the first time since Magnús left - clear and high, like glass breaking: \"Ð‰g verð að bjarga barninu\" (I must save the child).",
-      "variant_name": "Primary - SIGRID BREAKS SILENCE REVISED - 8 SECONDS",
-      "is_active": false,
-      "camera_position": "Close on Sigrid's face as silence breaks, pull back to show materials",
-      "dialogue": "(Sigrid, breaking silence): \"Ð‰g verð að bjarga barninu\" (Reading): \"Tilberi, tilberi...\" (Guðrún, shocked): Sharp inhale, no words",
-      "variant_id": "23a_story_primary",
-      "negative_prompt": "",
-      "progressive_state": ""
+      "variant_id" : "23a_story_primary",
+      "is_active" : false
     }
-  ],
-  "selected_prompt_index": 0,
-  "progressive_state": "House 8/min + 50bpm slowing | Ritual beginning | Camera frost 14% | First words | Watching: House holds breath",
-  "shot_metadata": {
-    "title": "SIGRID BREAKS SILENCE REVISED - 8 SECONDS",
-    "sequence_type": "main_story",
-    "duration_seconds": 8,
-    "narrative_function": "House 8/min + 50bpm slowing | Ritual beginning | C...",
-    "id": "23a",
-    "stitch_from": ""
-  },
-  "aspect_ratio": "4:3"
+  ]
 }

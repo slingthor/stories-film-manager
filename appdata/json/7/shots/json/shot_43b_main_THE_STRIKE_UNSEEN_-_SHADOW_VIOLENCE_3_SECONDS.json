@@ -1,78 +1,78 @@
 {
-  "prompt_variants": [
-    {
-      "subject": "",
-      "action": "Shadow-violence proceeds with animal behavioral authenticity: ram-patriarch using horn-strikes rather than cane-blows, ewe-victim assuming natural submission postures, lamb-children clustering in prey formation showing species-appropriate fear response to pack-alpha aggression. Each shadow-strike carves deeper V-notch marks in physical wall surface—shadow-reality affecting material world through supernatural consequence where truth-violence produces literal physical evidence. Shadow-dimension reveals violence as species-appropriate behavior: alpha-ram asserting dominance over subordinate pack-members through natural territorial discipline, animal family displaying authentic behavioral responses to pack hierarchy enforcement. Camera experiences shadow-world as more physically real than physical world—shadow-violence producing actual consequences while physical violence appears as performance overlaying animal behavioral reality.",
-      "variant_name": "Pass 2 Riding Shadow Reality Dominance",
-      "camera_position": "",
-      "dialogue": "",
-      "progressive_state": "",
-      "style": "Camera permanently resident in shadow dimension using impossible shadow-world perspective (that's where the camera is), observing physical reality through shadow-truth lens showing family's animal nature operating beneath human performance. Movement follows shadow-physics where symbolic action creates literal consequence. Lighting entirely from shadow-world illumination revealing darkness as primary reality containing physical world as secondary performance. DIALOGUE:",
-      "negative_prompt": "",
-      "is_active": false,
-      "scene": "PASS 2: SHOT 43B - RIDING SHADOW REALITY DOMINANCE Camera Existing in Shadow-World Where Truth Lives SHOT HEADER: Shadow dimension during domestic violence where animal family performs species-appropriate dominance hierarchy while physical world maintains human domestic performance, shadow-reality providing access to authentic behavioral truth underlying human social pretense.",
-      "selected_plates": [
-        "MAGNUS-ENFORCER",
-        "SIGRID-CORNERED",
-        "LILJA-ACCEPTING",
-        "JON-TEMPORAL",
-        "GUDRUN-BEATEN",
-        "STOFA-RECORDING"
-      ],
-      "variant_id": "43b_pass_2_riding_shadow_reality_dominance"
-    },
-    {
-      "variant_name": "Strike Unseen Shadow Violence Creates Marks",
-      "subject": "",
-      "selected_plates": [
-        "MAGNUS-ENFORCER",
-        "SIGRID-CORNERED",
-        "LILJA-ACCEPTING",
-        "JON-TEMPORAL",
-        "GUDRUN-BEATEN",
-        "STOFA-RECORDING"
-      ],
-      "camera_position": "",
-      "variant_id": "43b_strike_unseen_shadow_violence_creates_marks",
-      "progressive_state": "",
-      "is_active": false,
-      "negative_prompt": "",
-      "scene": "SHOT 43B: STRIKE UNSEEN - SHADOW VIOLENCE CREATES MARKS From Shadow Violence (8.5/10) to Dissociative Body Horror Masterpiece (10/10) SHOT HEADER: Baðstofa interior where shadow-reality dominates physical reality, walls serving as recording surface for violence archaeology, domestic space transformed into trauma-archive through supernatural shadow-physics. Traditional turf construction enhanced by Bergrisi consciousness creating building-memory where violence becomes permanent environmental record stored in organic architecture.",
-      "action": "Shadow-cane strikes create progressively deeper V-notch marks in wall surface with each impact—first strike carves shallow groove, second deepens marking, third creates livestock-depth notch matching marks on ram's ear, whale's hide, all marked creatures showing identical ownership symbols. Children's shadows maintain absolute stillness during violence—no protective flinch, no fear-response, complete dissociation from environmental trauma suggesting psychological adaptation to normalized domestic violence through consciousness disconnection. Violence sounds echo from multiple time periods: current beating mixed with previous domestic violence, future violence, generational trauma creating acoustic layering where all family beatings happen simultaneously. Wall material absorbs violence-energy, turf structure recording trauma in organic memory—building becoming archive of domestic violence, architectural trauma-storage where violence becomes permanent environmental component.",
-      "style": "Camera positioned against wall showing only shadow-violence while maintaining audio connection to physical beating (that's where the camera is), shadow-focus eliminating direct violence visibility while emphasizing psychological impact through mark-creation. Static shot allowing violence accumulation through sustained shadow observation. Natural light creating harsh shadow-definition, violence-shadows carving permanent marks in illuminated wall surface. Focus sharp on shadow-mark creation, showing supernatural consequence of symbolic violence becoming literal wall-scarring. DIALOGUE:",
-      "dialogue": ""
-    },
-    {
-      "scene": "Shadow play on wall. Real violence unseen but impact clear. Tilberi witnessing.",
-      "style": "Static on shadows, violence implied not shown (that's where the camera is), documentary of routine horror.",
-      "progressive_state": "",
-      "action": "CAMERA HOLDS on wall shadows only. Cane shadow descends fast. Strikes. Guðrún's shadow folds at waist. No scream - just breath expelled. Rises. Cane strikes again. Shadow crumples to knees. Children's shadows haven't moved - Jón and Lilja trained not to see, not to react. This is Tuesday, Thursday, any day. No neighbors to hear. No law to intervene. 40 miles of winter sea to any help. Third strike coming but Guðrún shadow raises hand - not to block but gesture of acceptance, submission. Cane shadow pauses. Through this, tilberi's actual form visible in corner of frame - watching, learning, brass eye unblinking. Recording how power works. House groans - 3/min breathing labored. Even the dying giant cannot intervene.",
-      "is_active": false,
-      "negative_prompt": "",
-      "camera_position": "Static on shadows, violence implied not shown",
-      "variant_name": "Primary - THE STRIKE UNSEEN - SHADOW VIOLENCE 3 SECONDS",
-      "selected_plates": [
-        "MAGNUS-ENFORCER",
-        "SIGRID-CORNERED",
-        "LILJA-ACCEPTING",
-        "JON-TEMPORAL",
-        "GUDRUN-BEATEN",
-        "STOFA-RECORDING"
-      ],
-      "subject": "Camera on wall showing only shadows as the cane comes down, [GUÐRÚN]'s shadow crumpling but no sound from her, just sharp exhale, while children's shadows don't even flinch - normalized horror of isolation where this is routine.",
-      "dialogue": "(Guðrún): Only exhales, no words (Magnús): Breathing heavy with effort",
-      "variant_id": "43b_story_primary"
-    }
-  ],
-  "selected_prompt_index": 0,
-  "progressive_state": "Violence enacted | Camera frost 29% | Isolation complete | Watching: We see shadows only",
-  "shot_metadata": {
-    "title": "THE STRIKE UNSEEN - SHADOW VIOLENCE 3 SECONDS",
-    "sequence_type": "main_story",
-    "duration_seconds": 3,
-    "narrative_function": "Violence enacted | Camera frost 29% | Isolation co...",
-    "id": "43b",
-    "stitch_from": ""
+  "shot_metadata" : {
+    "sequence_type" : "main_story",
+    "duration_seconds" : 3,
+    "stitch_from" : "",
+    "narrative_function" : "Violence enacted | Camera frost 29% | Isolation co...",
+    "id" : "43b",
+    "title" : "THE STRIKE UNSEEN - SHADOW VIOLENCE 3 SECONDS"
   },
-  "aspect_ratio": "1:1"
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "1:1",
+  "progressive_state" : "Violence enacted | Camera frost 29% | Isolation complete | Watching: We see shadows only",
+  "prompt_variants" : [
+    {
+      "variant_id" : "43b_pass_2_riding_shadow_reality_dominance",
+      "scene" : "PASS 2: SHOT 43B - RIDING SHADOW REALITY DOMINANCE Camera Existing in Shadow-World Where Truth Lives SHOT HEADER: Shadow dimension during domestic violence where animal family performs species-appropriate dominance hierarchy while physical world maintains human domestic performance, shadow-reality providing access to authentic behavioral truth underlying human social pretense.",
+      "is_active" : false,
+      "progressive_state" : "",
+      "subject" : "",
+      "negative_prompt" : "",
+      "style" : "Camera permanently resident in shadow dimension using impossible shadow-world perspective (that's where the camera is), observing physical reality through shadow-truth lens showing family's animal nature operating beneath human performance. Movement follows shadow-physics where symbolic action creates literal consequence. Lighting entirely from shadow-world illumination revealing darkness as primary reality containing physical world as secondary performance. DIALOGUE:",
+      "camera_position" : "",
+      "variant_name" : "Pass 2 Riding Shadow Reality Dominance",
+      "selected_plates" : [
+        "MAGNUS-ENFORCER",
+        "SIGRID-CORNERED",
+        "LILJA-ACCEPTING",
+        "JON-TEMPORAL",
+        "GUDRUN-BEATEN",
+        "STOFA-RECORDING"
+      ],
+      "dialogue" : "",
+      "action" : "Shadow-violence proceeds with animal behavioral authenticity: ram-patriarch using horn-strikes rather than cane-blows, ewe-victim assuming natural submission postures, lamb-children clustering in prey formation showing species-appropriate fear response to pack-alpha aggression. Each shadow-strike carves deeper V-notch marks in physical wall surface—shadow-reality affecting material world through supernatural consequence where truth-violence produces literal physical evidence. Shadow-dimension reveals violence as species-appropriate behavior: alpha-ram asserting dominance over subordinate pack-members through natural territorial discipline, animal family displaying authentic behavioral responses to pack hierarchy enforcement. Camera experiences shadow-world as more physically real than physical world—shadow-violence producing actual consequences while physical violence appears as performance overlaying animal behavioral reality."
+    },
+    {
+      "action" : "Shadow-cane strikes create progressively deeper V-notch marks in wall surface with each impact—first strike carves shallow groove, second deepens marking, third creates livestock-depth notch matching marks on ram's ear, whale's hide, all marked creatures showing identical ownership symbols. Children's shadows maintain absolute stillness during violence—no protective flinch, no fear-response, complete dissociation from environmental trauma suggesting psychological adaptation to normalized domestic violence through consciousness disconnection. Violence sounds echo from multiple time periods: current beating mixed with previous domestic violence, future violence, generational trauma creating acoustic layering where all family beatings happen simultaneously. Wall material absorbs violence-energy, turf structure recording trauma in organic memory—building becoming archive of domestic violence, architectural trauma-storage where violence becomes permanent environmental component.",
+      "progressive_state" : "",
+      "is_active" : false,
+      "variant_name" : "Strike Unseen Shadow Violence Creates Marks",
+      "subject" : "",
+      "selected_plates" : [
+        "MAGNUS-ENFORCER",
+        "SIGRID-CORNERED",
+        "LILJA-ACCEPTING",
+        "JON-TEMPORAL",
+        "GUDRUN-BEATEN",
+        "STOFA-RECORDING"
+      ],
+      "style" : "Camera positioned against wall showing only shadow-violence while maintaining audio connection to physical beating (that's where the camera is), shadow-focus eliminating direct violence visibility while emphasizing psychological impact through mark-creation. Static shot allowing violence accumulation through sustained shadow observation. Natural light creating harsh shadow-definition, violence-shadows carving permanent marks in illuminated wall surface. Focus sharp on shadow-mark creation, showing supernatural consequence of symbolic violence becoming literal wall-scarring. DIALOGUE:",
+      "variant_id" : "43b_strike_unseen_shadow_violence_creates_marks",
+      "scene" : "SHOT 43B: STRIKE UNSEEN - SHADOW VIOLENCE CREATES MARKS From Shadow Violence (8.5\/10) to Dissociative Body Horror Masterpiece (10\/10) SHOT HEADER: Baðstofa interior where shadow-reality dominates physical reality, walls serving as recording surface for violence archaeology, domestic space transformed into trauma-archive through supernatural shadow-physics. Traditional turf construction enhanced by Bergrisi consciousness creating building-memory where violence becomes permanent environmental record stored in organic architecture.",
+      "camera_position" : "",
+      "dialogue" : "",
+      "negative_prompt" : ""
+    },
+    {
+      "variant_id" : "43b_story_primary",
+      "progressive_state" : "",
+      "is_active" : false,
+      "camera_position" : "Static on shadows, violence implied not shown",
+      "selected_plates" : [
+        "MAGNUS-ENFORCER",
+        "SIGRID-CORNERED",
+        "LILJA-ACCEPTING",
+        "JON-TEMPORAL",
+        "GUDRUN-BEATEN",
+        "STOFA-RECORDING"
+      ],
+      "subject" : "Camera on wall showing only shadows as the cane comes down, [GUÐRÚN]'s shadow crumpling but no sound from her, just sharp exhale, while children's shadows don't even flinch - normalized horror of isolation where this is routine.",
+      "style" : "Static on shadows, violence implied not shown (that's where the camera is), documentary of routine horror.",
+      "action" : "CAMERA HOLDS on wall shadows only. Cane shadow descends fast. Strikes. Guðrún's shadow folds at waist. No scream - just breath expelled. Rises. Cane strikes again. Shadow crumples to knees. Children's shadows haven't moved - Jón and Lilja trained not to see, not to react. This is Tuesday, Thursday, any day. No neighbors to hear. No law to intervene. 40 miles of winter sea to any help. Third strike coming but Guðrún shadow raises hand - not to block but gesture of acceptance, submission. Cane shadow pauses. Through this, tilberi's actual form visible in corner of frame - watching, learning, brass eye unblinking. Recording how power works. House groans - 3\/min breathing labored. Even the dying giant cannot intervene.",
+      "variant_name" : "Primary - THE STRIKE UNSEEN - SHADOW VIOLENCE 3 SECONDS",
+      "scene" : "Shadow play on wall. Real violence unseen but impact clear. Tilberi witnessing.",
+      "dialogue" : "(Guðrún): Only exhales, no words (Magnús): Breathing heavy with effort",
+      "negative_prompt" : ""
+    }
+  ]
 }

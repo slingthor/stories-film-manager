@@ -1,16 +1,26 @@
 {
+  "shot_metadata" : {
+    "sequence_type" : "main_story",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "narrative_function" : "Reveals family transformation with human consciousness retained",
+    "id" : "56",
+    "title" : "Family as Sheep - Central Horror Image"
+  },
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
+  "progressive_state" : "Family transformation 100% | Human consciousness preserved | Central horror revealed | Watching: Impossible anatomy",
   "prompt_variants" : [
     {
-      "subject" : "Five white Icelandic sheep standing upright around table, wearing family's clothes, human teeth visible in sheep mouths, [GUÐRÚN] with faldbúningur headdress fitting perfectly on sheep head, all breathing at 8\/min synchronized rhythm while human consciousness clearly visible through sheep eyes.",
-      "action" : "Family arranged in traditional positions but as sheep - Magnús-ram at table head wearing brown vaðmál sweater, curved horns visible, steel-blue eyes showing human intelligence and frustration. Guðrún-ewe with traditional headdress impossible but perfect on sheep skull, human consciousness obvious through horizontal pupils, mouth forming human words through sheep anatomy. Jón-lamb and Lilja-lamb maintaining child positions, human emotional responses through animal expressions. Sigrid-ewe at 11-foot distance, belly showing pregnancy through sheep anatomy, grey eyes with amber flecks clearly human consciousness in animal head. All wear family clothing stretched over quadruped bodies, human possessions somehow fitting animal anatomy. Breathing synchronized at 8\/min sheep rhythm but with human awareness visible through eye expression and behavioral complexity impossible with normal livestock intelligence.",
-      "variant_name" : "Conscious Livestock Horror",
-      "camera_position" : "Wide shot documenting complete transformation, that's where the camera is",
-      "dialogue" : "None - human consciousness through sheep anatomy unable to form human speech",
-      "progressive_state" : "",
-      "style" : "Wide shot showing complete family transformation while maintaining domestic arrangements (that's where the camera is), documentary of impossible anatomy with cultural continuity.",
-      "negative_prompt" : "no normal sheep behavior, no loss of human consciousness, no realistic clothing fit, no normal family function",
-      "is_active" : false,
+      "variant_id" : "56_story_primary",
       "scene" : "Baðstofa interior with family as conscious livestock, furniture arrangements maintained for bipedal use with quadruped anatomy, impossible cultural preservation through species transformation.",
+      "is_active" : false,
+      "progressive_state" : "",
+      "subject" : "Five white Icelandic sheep standing upright around table, wearing family's clothes, human teeth visible in sheep mouths, [GUÐRÚN] with faldbúningur headdress fitting perfectly on sheep head, all breathing at 8\/min synchronized rhythm while human consciousness clearly visible through sheep eyes.",
+      "negative_prompt" : "no normal sheep behavior, no loss of human consciousness, no realistic clothing fit, no normal family function",
+      "style" : "Wide shot showing complete family transformation while maintaining domestic arrangements (that's where the camera is), documentary of impossible anatomy with cultural continuity.",
+      "camera_position" : "Wide shot documenting complete transformation, that's where the camera is",
+      "variant_name" : "Conscious Livestock Horror",
       "selected_plates" : [
         "MAGNUS-SHIFTING",
         "SIGRID-TRANSITIONAL",
@@ -19,18 +29,8 @@
         "GUDRUN-SPEAKING",
         "BAÐSTOFA-CLIFF"
       ],
-      "variant_id" : "56_story_primary"
+      "dialogue" : "None - human consciousness through sheep anatomy unable to form human speech",
+      "action" : "Family arranged in traditional positions but as sheep - Magnús-ram at table head wearing brown vaðmál sweater, curved horns visible, steel-blue eyes showing human intelligence and frustration. Guðrún-ewe with traditional headdress impossible but perfect on sheep skull, human consciousness obvious through horizontal pupils, mouth forming human words through sheep anatomy. Jón-lamb and Lilja-lamb maintaining child positions, human emotional responses through animal expressions. Sigrid-ewe at 11-foot distance, belly showing pregnancy through sheep anatomy, grey eyes with amber flecks clearly human consciousness in animal head. All wear family clothing stretched over quadruped bodies, human possessions somehow fitting animal anatomy. Breathing synchronized at 8\/min sheep rhythm but with human awareness visible through eye expression and behavioral complexity impossible with normal livestock intelligence."
     }
-  ],
-  "selected_prompt_index" : 0,
-  "progressive_state" : "Family transformation 100% | Human consciousness preserved | Central horror revealed | Watching: Impossible anatomy",
-  "shot_metadata" : {
-    "title" : "Family as Sheep - Central Horror Image",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "narrative_function" : "Reveals family transformation with human consciousness retained",
-    "id" : "56",
-    "stitch_from" : ""
-  },
-  "aspect_ratio" : "4:3"
+  ]
 }
