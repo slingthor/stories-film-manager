@@ -18,20 +18,20 @@
     "SIGRID-MARKED": {
       "is_master": false,
       "character": "Sigrid",
-      "description": "Post-violation defensive positioning, dress disheveled, pregnancy 2-month curve visible, arms crossed protectively, 11-foot defensive spacing.",
+      "description": "Post-ordeal defensive positioning, dress disheveled, rounded belly 2-month curve visible, arms crossed protectively, 11-foot keeping distance.",
       "shot_range": "",
       "name": "Marked"
     },
     "SIGRID-CORNERED": {
       "name": "Cornered",
-      "description": "Maximum threat situation, pressed against wall, 6-month pregnancy visible, arms defensive over belly, klettagjá forming behind her.",
+      "description": "Maximum threat situation, pressed against wall, 6-month rounded belly visible, arms defensive over belly, klettagjá forming behind her.",
       "shot_range": "",
       "is_master": false,
       "character": "Sigrid"
     },
     "SIGRID-MASTER": {
       "character": "Sigrid",
-      "description": "Base template - 16-year-old heart-shaped face, three-freckle nose constellation, grey eyes with amber flecks, wheat-blonde braids, 5'4\" lean build.",
+      "description": "Base template - young woman heart-shaped face, three-freckle nose constellation, grey eyes with amber flecks, wheat-blonde braids, 5'4\" lean build.",
       "shot_range": "",
       "name": "Sigrid Master",
       "is_master": true
@@ -45,7 +45,7 @@
     },
     "JON-PROPHET": {
       "character": "Jon",
-      "description": "8-year-old with 41°C fever enabling temporal sight, round face flushed red, hazel eyes glazed with prophetic vision, sandy hair matted with sweat.",
+      "description": "8-year-old with 41°C fever enabling time-worn appearance, round face flushed red, hazel eyes glazed with prophetic vision, sandy hair matted with sweat.",
       "name": "Prophet",
       "shot_range": "",
       "is_master": false
@@ -61,7 +61,7 @@
       "character": "Sigrid",
       "is_master": false,
       "name": "Pure",
-      "description": "Innocent 16-year-old, untouched by family corruption, grey-brown vaðmál dress clean, positioned 8 feet from Magnus, natural confidence.",
+      "description": "Innocent young woman, untouched by family corruption, grey-brown vaðmál dress clean, positioned 8 feet from Magnus, natural confidence.",
       "shot_range": ""
     },
     "MAGNUS-MASTER": {
@@ -94,7 +94,7 @@
     },
     "SIGRID-TRANSITIONAL": {
       "is_master": false,
-      "description": "Species change beginning, dress appearing costume-like on changing body, pregnancy full-term mystical, posture shifting between human and corvid.",
+      "description": "Species change beginning, dress appearing costume-like on changing body, rounded belly full-term mystical, posture shifting between human and corvid.",
       "shot_range": "",
       "name": "Transitional",
       "character": "Sigrid"
@@ -107,7 +107,7 @@
       "name": "Mathematical"
     },
     "SIGRID-CALCULATING": {
-      "description": "Analytical awareness during family counting breakdown, mathematical intelligence processing impossibility, positioned exactly 11 feet from counting center.",
+      "description": "Analytical awareness during family counting breakdown, mathematical intelligence processing impossibility, positioned away from counting center.",
       "is_master": false,
       "name": "Calculating",
       "character": "Sigrid",

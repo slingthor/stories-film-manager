@@ -1,26 +1,21 @@
 {
+  "progressive_state" : "House dead\/transformed | Dawn breaking | Camera frost 50.5% | Escape route visible | Watching: New form revealed",
   "shot_metadata" : {
     "sequence_type" : "main_story",
-    "duration_seconds" : 6,
-    "stitch_from" : "",
-    "narrative_function" : "House dead\/transformed | Dawn breaking | Camera fr...",
     "id" : "58a",
-    "title" : "LIGHT RETURNS - KLETTAGJÐ REVEALED 6 SECONDS"
+    "title" : "LIGHT RETURNS - KLETTAGJÐ REVEALED 6 SECONDS",
+    "duration_seconds" : 6,
+    "narrative_function" : "House dead\/transformed | Dawn breaking | Camera fr...",
+    "stitch_from" : ""
   },
   "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
-  "progressive_state" : "House dead\/transformed | Dawn breaking | Camera frost 50.5% | Escape route visible | Watching: New form revealed",
   "prompt_variants" : [
     {
-      "variant_id" : "58a_story_primary",
-      "scene" : "Transformed house-cave. Dawn light. Stone architecture. Sheep family natural in space.",
-      "is_active" : false,
-      "progressive_state" : "",
       "subject" : "Light gradually returning revealing the house has transformed - walls cracked open into rocky cleft formation, ceiling gone showing sky, the familiar 12Ð—16 space now a natural cave with stone réttir patterns still visible in floor, sheep family huddled in center.",
       "negative_prompt" : "",
-      "style" : "Crane revealing transformation (that's where the camera is), new geography documented.",
-      "camera_position" : "Crane revealing transformation",
-      "variant_name" : "Primary - LIGHT RETURNS - KLETTAGJÐ REVEALED 6 SECONDS",
+      "dialogue" : "None - sheep attempting sounds but failing",
+      "scene" : "Transformed house-cave. Dawn light. Stone architecture. Sheep family natural in space.",
       "selected_plates" : [
         "MAGNUS-BREAKING",
         "SIGRID-DUAL",
@@ -29,8 +24,13 @@
         "GUDRUN-EWE",
         "WESTFJORDS-CLIFF"
       ],
-      "dialogue" : "None - sheep attempting sounds but failing",
-      "action" : "Light seeps in - not through windows but through rock. House IS rock now. CRANE UP slowly through transformed space. Walls no longer wood\/turf but black volcanic stone. Cracks from earlier have become passages - five leading out, sixth blocked. The klettagjá from lullaby, literal rocky cleft. But traces remain: doorframe still there but in stone. Hearth transformed to natural fire pit. The réttir pattern in floor now carved in rock, ancient, permanent. Sheep family huddled center, still wearing torn human clothes. They look natural here. Like they belong. Cave sheep. Always were. Above: sky visible through massive opening. Dawn light entering. But also: seven ravens circling. Waiting. Through stone passages: glimpses of ocean, mountains, freedom. But sheep can't use passages. Too narrow for livestock. Only something smaller could escape. Something that could fly."
+      "progressive_state" : "",
+      "style" : "Crane revealing transformation (that's where the camera is), new geography documented.",
+      "is_active" : false,
+      "camera_position" : "Crane revealing transformation",
+      "action" : "Light seeps in - not through windows but through rock. House IS rock now. CRANE UP slowly through transformed space. Walls no longer wood\/turf but black volcanic stone. Cracks from earlier have become passages - five leading out, sixth blocked. The klettagjá from lullaby, literal rocky cleft. But traces remain: doorframe still there but in stone. Hearth transformed to natural fire pit. The réttir pattern in floor now carved in rock, ancient, permanent. Sheep family huddled center, still wearing torn human clothes. They look natural here. Like they belong. Cave sheep. Always were. Above: sky visible through massive opening. Dawn light entering. But also: seven ravens circling. Waiting. Through stone passages: glimpses of ocean, mountains, freedom. But sheep can't use passages. Too narrow for livestock. Only something smaller could escape. Something that could fly.",
+      "variant_id" : "58a_story_primary",
+      "variant_name" : "Primary - LIGHT RETURNS - KLETTAGJÐ REVEALED 6 SECONDS"
     }
   ]
 }

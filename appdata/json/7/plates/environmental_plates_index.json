@@ -1,30 +1,30 @@
 {
-  "last_updated" : "2025-09-06T09:42:18Z",
-  "plate_index" : {
-    "BAÐSTOFA-MONUMENT" : {
-      "description" : "Crystallization complete, transparent cliff walls revealing family consciousness, perfect geometric architecture, obsidian monument interior.",
-      "name" : "Monument",
-      "category" : "Interior"
+  "last_updated": "2025-09-06T09:42:18Z",
+  "plate_index": {
+    "BAÐSTOFA-MONUMENT": {
+      "description": "Crystallization complete, transparent cliff walls revealing family consciousness, perfect geometric architecture, obsidian monument interior.",
+      "name": "Monument",
+      "category": "Interior"
     },
-    "BAÐSTOFA-CLIFF" : {
-      "description" : "Klettagjá formation complete, walls pure obsidian extending upward, floor slope creating canyon effect, cliff interior revealed.",
-      "name" : "Cliff",
-      "category" : "Interior"
+    "BAÐSTOFA-CLIFF": {
+      "description": "Klettagjá formation complete, walls pure obsidian extending upward, floor slope creating canyon effect, cliff interior revealed.",
+      "name": "Cliff",
+      "category": "Interior"
     },
-    "BAÐSTOFA-DARKNESS" : {
-      "description" : "Three-frame flash environment, architecture existing in multiple reality states simultaneously, lighting creating impossible illumination patterns.",
-      "category" : "Interior",
-      "name" : "Darkness"
+    "BAÐSTOFA-DARKNESS": {
+      "description": "Three-frame flash environment, architecture existing in multiple surreal visual simultaneously, lighting creating impossible illumination patterns.",
+      "category": "Interior",
+      "name": "Darkness"
     },
-    "BAÐSTOFA-DOMESTIC" : {
-      "description" : "Traditional turf house interior, driftwood beams architectural, turf walls structural, packed earth floor normal, whale oil lamp burning bright.",
-      "category" : "Interior",
-      "name" : "Domestic"
+    "BAÐSTOFA-DOMESTIC": {
+      "description": "Traditional turf house interior, driftwood beams architectural, turf walls structural, packed earth floor normal, whale oil lamp burning bright.",
+      "category": "Interior",
+      "name": "Domestic"
     },
-    "BAÐSTOFA-ORGANIC" : {
-      "name" : "Organic",
-      "description" : "House consciousness stirring, driftwood beams flexing like ribs during breathing, turf walls showing subtle blood vessel patterns.",
-      "category" : "Interior"
+    "BAÐSTOFA-ORGANIC": {
+      "name": "Organic",
+      "description": "House consciousness stirring, driftwood beams flexing like ribs during breathing, turf walls showing subtle blood vessel patterns.",
+      "category": "Interior"
     }
   }
 }

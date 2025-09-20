@@ -2,7 +2,7 @@
   "shot_metadata": {
     "id": "23",
     "name": "WINTER_ABSOLUTE",
-    "title": "Winter Absolute - Reality Transition",
+    "title": "Winter Absolute - surreal visual",
     "sequence_type": "prologue",
     "duration_seconds": 2,
     "film_position_percentage": 23.0,
@@ -19,7 +19,7 @@
   "prompt_variants": [
     {
       "variant_id": "23_story_primary",
-      "variant_name": "Winter Reality Shock",
+      "variant_name": "Winter surreal visual",
       "intent_tags": [
         "story_primary",
         "reality_transition"
@@ -70,7 +70,7 @@
     "hard_cut": "Abrupt end to prologue false abundance"
   },
   "notes": {
-    "thematic_purpose": "Brutal transition revealing winter reality behind false memory",
+    "thematic_purpose": "Brutal transition revealing winter surreal visual false memory",
     "enhancement_potential": "Winter entity consciousness assault"
   },
   "aspect_ratio": "1.85:1"

@@ -72,7 +72,7 @@
     },
     "WESTFJORDS-GROUND": {
       "name": "Westfjords Ground",
-      "description": "WESTFJORDS-MASTER optimized for human perspective - cliff walls towering overhead creating vertical drama and psychological pressure.",
+      "description": "WESTFJORDS-MASTER optimized for human perspective - cliff walls towering overhead creating vertical drama and visible distress.",
       "category": "Exterior"
     },
     "STOFA-SURVEILLANCE": {
@@ -92,7 +92,7 @@
     },
     "BAÐSTOFA-DARKNESS": {
       "name": "Darkness",
-      "description": "Three-frame flash environment, architecture existing in multiple reality states simultaneously, lighting creating impossible illumination patterns.",
+      "description": "Three-frame flash environment, architecture existing in multiple surreal visual simultaneously, lighting creating impossible illumination patterns.",
       "category": "Interior"
     },
     "SEA-ABUNDANT": {
@@ -212,7 +212,7 @@
     },
     "STOFA-FRAGMENTING": {
       "category": "Interior",
-      "description": "STOFA-CRYSTALLIZING with seven-perspective accommodation - architecture existing simultaneously in seven different reality states.",
+      "description": "STOFA-CRYSTALLIZING with seven-perspective accommodation - architecture existing simultaneously in seven different surreal visual.",
       "name": "Stofa Fragmenting"
     },
     "HOUSE-WIDE": {

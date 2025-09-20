@@ -1,26 +1,19 @@
 {
+  "progressive_state" : "House 0\/min dead + 0bpm | Last words | Camera frost 50% | Death speech | Watching: House dies",
   "shot_metadata" : {
-    "narrative_function" : "House 0\/min dead + 0bpm | Last words | Camera fros...",
-    "stitch_from" : "",
     "title" : "HOUSE SPEAKS IN DARKNESS - FINAL WORDS 5 SECONDS",
     "sequence_type" : "main_story",
-    "id" : "57c",
-    "duration_seconds" : 5
+    "duration_seconds" : 5,
+    "narrative_function" : "House 0\/min dead + 0bpm | Last words | Camera fros...",
+    "stitch_from" : "",
+    "id" : "57c"
   },
-  "progressive_state" : "House 0\/min dead + 0bpm | Last words | Camera frost 50% | Death speech | Watching: House dies",
-  "aspect_ratio" : "4:3",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "variant_id" : "57c_story_primary",
-      "scene" : "Continued darkness. House speaking through death. Transformation audible.",
-      "is_active" : false,
-      "progressive_state" : "",
       "subject" : "In the darkness, the house speaks its last words as Bergrisi: \"Ð‰g dey... klettagjá verður... Sigrid... flúgðu\" (I die... rocky cleft becomes... Sigrid... fly), then heartbeat stops, breathing ends, but structure remains.",
       "negative_prompt" : "maintain complete darkness, no light",
-      "style" : "Black screen with voice through everything (that's where the camera is), death speech documented.",
-      "camera_position" : "Black screen with voice through everything",
-      "variant_name" : "Primary - HOUSE SPEAKS IN DARKNESS - FINAL WORDS 5 SECONDS",
+      "dialogue" : "(House\/Bergrisi, dying): \"Ð‰g dey... klettagjá verður...\" \"Sigrid... flúgðu\"",
+      "scene" : "Continued darkness. House speaking through death. Transformation audible.",
       "selected_plates" : [
         "MAGNUS-BREAKING",
         "SIGRID-BECOMING",
@@ -29,8 +22,15 @@
         "GUDRUN-EWE",
         "BAÐSTOFA-CLIFF"
       ],
-      "dialogue" : "(House\/Bergrisi, dying): \"Ð‰g dey... klettagjá verður...\" \"Sigrid... flúgðu\"",
-      "action" : "Darkness continues. Then through everything - walls, floor, air itself - voice emerges. Not sound but vibration. Bergrisi's death speech: \"Ð‰g dey...\" The words create wind through house. \"Klettagjá verður...\" Walls crack audibly. Not collapsing - transforming. Opening. Becoming cleft. \"Sigrid...\" Personal address. The giant knows her. Loves her. Dies for her. \"Flúgðu.\" Command. Promise. Prophecy. Then: silence. No heartbeat. No breathing. House dead. But structure stands. Transformed. No longer giant's body but rocky cleft. Escape route. Birth canal. In darkness, sound of stone settling. New geography. The house IS the klettagjá from lullaby. Always was becoming this. Sheep breathing continues. But one breath different - Sigrid's still 15\/min. Still unchanged. Still resisting."
+      "progressive_state" : "",
+      "style" : "Black screen with voice through everything (that's where the camera is), death speech documented.",
+      "is_active" : false,
+      "camera_position" : "Black screen with voice through everything",
+      "action" : "Darkness continues. Then through everything - walls, floor, air itself - voice emerges. Not sound but vibration. Bergrisi's death speech: \"Ð‰g dey...\" The words create wind through house. \"Klettagjá verður...\" Walls crack audibly. Not collapsing - transforming. Opening. Becoming cleft. \"Sigrid...\" Personal address. The giant knows her. Loves her. Dies for her. \"Flúgðu.\" Command. Promise. Prophecy. Then: silence. No heartbeat. No breathing. House dead. But structure stands. Transformed. No longer giant's body but rocky cleft. Escape route. Birth canal. In darkness, sound of stone settling. New geography. The house IS the klettagjá from lullaby. Always was becoming this. Sheep breathing continues. But one breath different - Sigrid's still 15\/min. Still unchanged. Still resisting.",
+      "variant_id" : "57c_story_primary",
+      "variant_name" : "Primary - HOUSE SPEAKS IN DARKNESS - FINAL WORDS 5 SECONDS"
     }
-  ]
+  ],
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3"
 }

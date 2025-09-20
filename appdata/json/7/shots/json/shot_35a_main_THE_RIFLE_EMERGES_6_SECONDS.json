@@ -1,26 +1,19 @@
 {
+  "progressive_state" : "Rage building | Weapon ready | Camera frost 22% | Last resort | Watching: Ravens gathering",
   "shot_metadata" : {
-    "narrative_function" : "Rage building | Weapon ready | Camera frost 22% | ...",
-    "stitch_from" : "",
     "title" : "THE RIFLE EMERGES 6 SECONDS",
     "sequence_type" : "main_story",
-    "id" : "35a",
-    "duration_seconds" : 6
+    "duration_seconds" : 6,
+    "narrative_function" : "Rage building | Weapon ready | Camera frost 22% | ...",
+    "stitch_from" : "",
+    "id" : "35a"
   },
-  "progressive_state" : "Rage building | Weapon ready | Camera frost 22% | Last resort | Watching: Ravens gathering",
-  "aspect_ratio" : "4:3",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "variant_id" : "35a_story_primary",
-      "scene" : "Open water, 9:20 AM. Ravens circling above in perfect spiral. Trawler's wake showing contamination. Mountains still watching.",
-      "is_active" : false,
-      "progressive_state" : "",
       "subject" : "[MAGNÚS] reaching for his grandfather's rifle with 0Hz hands (no tremor, no feeling), the mechanism frozen with ice that he breaks with an oar, while above him ravens begin circling - not one but seven, forming a spiral pattern that matches the blood circles below.",
       "negative_prompt" : "",
-      "style" : "Close on hands preparing rifle, tilt up to ravens circling (that's where the camera is), documentary of last resort.",
-      "camera_position" : "Close on hands preparing rifle, tilt up to ravens circling",
-      "variant_name" : "Primary - THE RIFLE EMERGES 6 SECONDS",
+      "dialogue" : "(Magnús, to rifle): \"Eina vopnið...\" (Only weapon...) (Counting bullets): \"Þrjú skot\" (Three shots)",
+      "scene" : "Open water, 9:20 AM. Ravens circling above in perfect spiral. Trawler's wake showing contamination. Mountains still watching.",
       "selected_plates" : [
         "MAGNUS-WOUNDED",
         "SIGRID-ORACLE",
@@ -30,8 +23,15 @@
         "SEA-BATTLE",
         "WESTFJORDS-FJORD"
       ],
-      "dialogue" : "(Magnús, to rifle): \"Eina vopnið...\" (Only weapon...) (Counting bullets): \"Þrjú skot\" (Three shots)",
-      "action" : "Magnús's rage cold, calculated. Reaches under boat bench for rifle wrapped in oilcloth. 0Hz hands can't feel the wrapping, tears it clumsily. 1891 Danish military rifle, grandfather's from forgotten war. Mechanism frozen - ice in trigger guard, bolt locked. Breaks ice with oar handle, sharp cracks. Above, ravens appear from nowhere. First one, then three, then seven, circling in spiral pattern. Not cawing - silent witnesses. Their shadows on water form pattern matching blood spirals on land. Checks ammunition: three bullets only. Were for seals. Now for serpent. 0Hz hands struggle loading - can't feel if bullet seated properly. Has to check visually. Trawler continuing away, 150 meters now, yellow lights still sweeping. But in its wake, water changing color - from black to green-black, poisoned."
+      "progressive_state" : "",
+      "style" : "Close on hands preparing rifle, tilt up to ravens circling (that's where the camera is), documentary of last resort.",
+      "is_active" : false,
+      "camera_position" : "Close on hands preparing rifle, tilt up to ravens circling",
+      "action" : "Magnús's rage cold, calculated. Reaches under boat bench for rifle wrapped in oilcloth. 0Hz hands can't feel the wrapping, tears it clumsily. 1891 Danish military rifle, grandfather's from forgotten war. Mechanism frozen - ice in trigger guard, bolt locked. Breaks ice with oar handle, sharp cracks. Above, ravens appear from nowhere. First one, then three, then seven, circling in spiral pattern. Not cawing - silent witnesses. Their shadows on water form pattern matching blood spirals on land. Checks ammunition: three bullets only. Were for seals. Now for serpent. 0Hz hands struggle loading - can't feel if bullet seated properly. Has to check visually. Trawler continuing away, 150 meters now, yellow lights still sweeping. But in its wake, water changing color - from black to green-black, poisoned.",
+      "variant_id" : "35a_story_primary",
+      "variant_name" : "Primary - THE RIFLE EMERGES 6 SECONDS"
     }
-  ]
+  ],
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3"
 }

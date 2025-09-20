@@ -1,26 +1,26 @@
 {
+  "progressive_state" : "House 4\/min dying + 80bpm racing | Final responses | Camera frost 16.5% | Giant and Raven | Watching: All four present",
   "shot_metadata" : {
     "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "stitch_from" : "",
-    "narrative_function" : "House 4\/min dying + 80bpm racing | Final responses...",
     "id" : "24d",
-    "title" : "SOUTHERN AND NORTHERN RESPONSES 8 SECONDS"
+    "title" : "SOUTHERN AND NORTHERN RESPONSES 8 SECONDS",
+    "duration_seconds" : 8,
+    "narrative_function" : "House 4\/min dying + 80bpm racing | Final responses...",
+    "stitch_from" : ""
   },
   "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
-  "progressive_state" : "House 4\/min dying + 80bpm racing | Final responses | Camera frost 16.5% | Giant and Raven | Watching: All four present",
   "prompt_variants" : [
     {
-      "progressive_state" : "",
-      "scene" : "Interior revealing as body cavity. Floor wet with perspiration. Walls flexing. Massive shadow passing. All four cardinal directions now responding.",
-      "camera_position" : "Split frame - floor revealing as flesh, shadow passing above",
-      "dialogue" : "(House\/Bergrisi): \"Ð‰g er hér... ég dey\" (from walls) (Sigrid, breaking through): \"Ð–ll fjögur... ég kallaði á öll\" (All four... I called them all)",
       "subject" : "From south, the house itself responding as Bergrisi - floor suddenly warm and wet like flesh, walls breathing visibly, heartbeat racing through structure - while from north, a raven shadow passes the broken window, too large for any bird, wings spanning the entire house, leaving frost feathers on glass.",
+      "dialogue" : "(House\/Bergrisi): \"Ð‰g er hér... ég dey\" (from walls) (Sigrid, breaking through): \"Ð–ll fjögur... ég kallaði á öll\" (All four... I called them all)",
+      "is_active" : false,
       "style" : "Split frame - floor revealing as flesh, shadow passing above (that's where the camera is), documentary of complete summoning.",
+      "negative_prompt" : "no subtitles, show floor as flesh, shadow too large, documentary observation",
       "variant_name" : "Primary - SOUTHERN AND NORTHERN RESPONSES 8 SECONDS",
       "action" : "Southern response: The floor beneath Sigrid becomes body-warm, 37°C exactly. Wet. Looking closer - not moisture but perspiration, house sweating. Walls flex inward-outward, no longer subtle but visible breathing at 4\/min, dying rhythm. The three beams creak, bend, showing pink underneath bark for full second - ribs. Heartbeat through everything, 80bpm, panicking. House groaning at 16Hz, harmonizing with Sigrid's possessed voice: \"Ð‰g er hér... ég dey\" (I am here... I'm dying) from the walls themselves. Northern response: Massive shadow across broken window. Raven but impossible size - wings would be 30 feet across. Shadow passes slowly, deliberately, examining house. Where shadow touches broken glass, black frost forms instantly - raven-feather patterns in ice. Shadow has substance, weight. As it passes, hundreds of normal ravens suddenly audible, circling above, cawing in unison. But shadow-raven silent. Through shadow, glimpse of eye - human eye, grey with amber flecks. Sigrid's exact eyes in raven form.",
-      "negative_prompt" : "no subtitles, show floor as flesh, shadow too large, documentary observation",
+      "camera_position" : "Split frame - floor revealing as flesh, shadow passing above",
+      "scene" : "Interior revealing as body cavity. Floor wet with perspiration. Walls flexing. Massive shadow passing. All four cardinal directions now responding.",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
@@ -29,8 +29,8 @@
         "GUDRUN-PRODUCING",
         "WESTFJORDS-WINTER"
       ],
-      "variant_id" : "24d_story_primary",
-      "is_active" : false
+      "progressive_state" : "",
+      "variant_id" : "24d_story_primary"
     }
   ]
 }

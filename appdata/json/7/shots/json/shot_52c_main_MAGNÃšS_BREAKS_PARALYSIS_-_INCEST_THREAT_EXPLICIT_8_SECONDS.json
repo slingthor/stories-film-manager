@@ -8,7 +8,7 @@
     "narrative_function": "Raven vanishes | Threat immediate | Camera frost 4...",
     "stitch_from": "[STITCH from Shot 52b: Prophecy complete, feather in Sigrid's hand]"
   },
-  "progressive_state": "Raven vanishes | Threat immediate | Camera frost 42.5% | Violation imminent | Watching: No protection",
+  "progressive_state": "Raven vanishes | Threat immediate | Camera frost 42.5% | ordeal imminent | Watching: No protection",
   "prompt_variants": [
     {
       "variant_id": "52c_story_primary",

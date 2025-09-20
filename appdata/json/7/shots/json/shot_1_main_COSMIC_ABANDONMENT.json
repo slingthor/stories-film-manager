@@ -1,22 +1,29 @@
 {
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "stitch_from" : "",
-    "narrative_function" : "House 12\/min | Klettagjá none | No contamination ...",
-    "id" : "1",
-    "title" : "COSMIC ABANDONMENT"
+  "progressive_state": "House 12/min | Klettagjá none | No contamination | Camera frost 0% | Sorting none | Landvættir sleeping",
+  "shot_metadata": {
+    "sequence_type": "main_story",
+    "id": "1",
+    "title": "COSMIC ABANDONMENT",
+    "duration_seconds": 8,
+    "narrative_function": "House 12/min | Klettagjá none | No contamination ...",
+    "stitch_from": ""
   },
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "House 12\/min | Klettagjá none | No contamination | Camera frost 0% | Sorting none | Landvættir sleeping",
-  "prompt_variants" : [
+  "selected_prompt_index": 0,
+  "aspect_ratio": "4:3",
+  "prompt_variants": [
     {
-      "variant_id" : "1_group_1_prologue_viral_enhancement_five_shots",
-      "progressive_state" : "",
-      "is_active" : false,
-      "camera_position" : "",
-      "selected_plates" : [
+      "progressive_state": "",
+      "variant_id": "1_group_1_prologue_viral_enhancement_five_shots",
+      "variant_name": "Group 1 Prologue Viral Enhancement Five Shots",
+      "action": "Blood-sheet origami unfolds across beach creating navigation cartography for community processing organization—liquid crimson peeling like fabric to reveal three-layer blood map: SURFACE shows immediate processing locations, MIDDLE LAYER reveals seasonal hunting territories, DEEP LAYER exposes ancient sacrifice sites connected through underground blood mathematics. Scale-jumping camera follows blood pattern expansion: beginning inside blood droplet showing cellular organization, morphing through beach surface pattern, expanding to aerial perspective revealing entire Westfjords geography following identical mathematical template. Blood consciousness directs community movement through origami geography—liquid cartography teaching optimal processing locations, seasonal territory organization, ancient sacrifice integration through divine blood serving as environdistressed expression system. Cliff face 2D-to-3D transformation enables impossible egg access: flat rock surface opening into deep nest-chambers containing additional eggs beyond natural cliff nesting capacity, dimensional expansion providing extra reproductive resources through supernatural abundance enhancement. Infinite zoom into collected eggs reveals apparent: camera diving into normal-appearing shell discovering crystalline architecture containing imperial materials, microscopic examination showing brass machinery where yolk should exist, rope fibers forming albumin network, coal particles creating shell strength enhancement. Scale-jumping between egg collection (normal activity) and apparent (contamination revelation) shows traditional food sources corrupted by industrial atmospheric pollution affecting reproductive biology at cellular level. Window recursion reveals surveillance infinity: camera observing family through window while family observes camera through same window creating dimensional surveillance loop where observation multiplies through recursive reflection, watching-within-watching creating mathematical infinity of mutual observation. Freeze frame selectivity during counting confusion: family time-worn appearance breaking under mathematical impossibility while Sigrid maintains normal time-flow, imperial counting affecting family time-worn appearance while witness-consciousness operates immune to administrative time-worn appearance. Window reflection independence showing six while direct shows five demonstrates mathematical contamination affecting reflection-surreal visual than physical reality, mirror-distorted appearance impossible mathematics while physical distorted appearance with counting contamination.",
+      "style": "Camera following blood scale-jumping expansion using impossible perspective morphing (that's where the camera is), macro-to-cosmic transitions following mathematical pattern consistency. Movement determined by blood cartography expansion rather than traditional tracking. Natural lighting enhanced by blood luminescence and origami geometry self-illumination. DIALOGUE:",
+      "camera_position": "",
+      "dialogue": "",
+      "scene": "GROUP 1: PROLOGUE VIRAL ENHANCEMENT - FIVE SHOTS Transforming 7-8.5/10 Prologue Scenes to 10/10 Masterpieces OVERVIEW: Black volcanic sand beach where divine blood creates liquid cartography teaching community organization through origami blood-sheet mathematics, sacred geometry operating from cellular to geographical scale serving traditional cooperation enhancement. Cliff face during impossible egg collection where 2D geology transforms to accommodate extra reproductive abundance, traditional gathering enhanced by dimensional expansion enabling surplus collection through supernatural cliff cooperation.",
+      "negative_prompt": "",
+      "subject": "",
+      "is_active": false,
+      "selected_plates": [
         "MAGNUS-CONFUSED",
         "SIGRID-MARKED",
         "LILJA-MATHEMATICAL",
@@ -24,21 +31,14 @@
         "GUDRUN-PRODUCING",
         "BAÐSTOFA-STIRRING",
         "WESTFJORDS-WINTER"
-      ],
-      "subject" : "",
-      "style" : "Camera following blood scale-jumping expansion using impossible perspective morphing (that's where the camera is), macro-to-cosmic transitions following mathematical pattern consistency. Movement determined by blood cartography expansion rather than traditional tracking. Natural lighting enhanced by blood luminescence and origami geometry self-illumination. DIALOGUE:",
-      "action" : "Blood-sheet origami unfolds across beach creating navigation cartography for community processing organization—liquid crimson peeling like fabric to reveal three-layer blood map: SURFACE shows immediate processing locations, MIDDLE LAYER reveals seasonal hunting territories, DEEP LAYER exposes ancient sacrifice sites connected through underground blood mathematics. Scale-jumping camera follows blood pattern expansion: beginning inside blood droplet showing cellular organization, morphing through beach surface pattern, expanding to aerial perspective revealing entire Westfjords geography following identical mathematical template. Blood consciousness directs community movement through origami geography—liquid cartography teaching optimal processing locations, seasonal territory organization, ancient sacrifice integration through divine blood serving as environmental GPS system. Cliff face 2D-to-3D transformation enables impossible egg access: flat rock surface opening into deep nest-chambers containing additional eggs beyond natural cliff nesting capacity, dimensional expansion providing extra reproductive resources through supernatural abundance enhancement. Infinite zoom into collected eggs reveals internal contamination: camera diving into normal-appearing shell discovering crystalline architecture containing imperial materials, microscopic examination showing brass machinery where yolk should exist, rope fibers forming albumin network, coal particles creating shell strength enhancement. Scale-jumping between egg collection (normal activity) and internal examination (contamination revelation) shows traditional food sources corrupted by industrial atmospheric pollution affecting reproductive biology at cellular level. Window recursion reveals surveillance infinity: camera observing family through window while family observes camera through same window creating dimensional surveillance loop where observation multiplies through recursive reflection, watching-within-watching creating mathematical infinity of mutual observation. Freeze frame selectivity during counting confusion: family temporal stability breaking under mathematical impossibility while Sigrid maintains normal time-flow, imperial counting affecting family temporal consistency while witness-consciousness operates immune to administrative temporal manipulation. Window reflection independence showing six while direct shows five demonstrates mathematical contamination affecting reflection-reality differently than physical reality, mirror-dimension accommodating impossible mathematics while physical dimension struggles with counting contamination.",
-      "variant_name" : "Group 1 Prologue Viral Enhancement Five Shots",
-      "scene" : "GROUP 1: PROLOGUE VIRAL ENHANCEMENT - FIVE SHOTS Transforming 7-8.5\/10 Prologue Scenes to 10\/10 Masterpieces OVERVIEW: Black volcanic sand beach where divine blood creates liquid cartography teaching community organization through origami blood-sheet mathematics, sacred geometry operating from cellular to geographical scale serving traditional cooperation enhancement. Cliff face during impossible egg collection where 2D geology transforms to accommodate extra reproductive abundance, traditional gathering enhanced by dimensional expansion enabling surplus collection through supernatural cliff cooperation.",
-      "dialogue" : "",
-      "negative_prompt" : ""
+      ]
     },
     {
-      "variant_id" : "1_story_primary",
-      "action" : "Pure vertical descent at 10 feet per second through polar atmosphere. Aurora ribbons pull upward in real-time, green light draining from lower atmosphere leaving black void below. The three ravens maintain perfect triangular formation, circling the descent path, wings beating once every 2 seconds. At 3000 feet altitude, British trawler GRIMSBY PRIDE becomes visible in pack ice, its 200-foot hull curved in serpent coil, two yellow navigation lights positioned like eyes, smoke stack releasing black smoke that doesn't disperse but hangs like a dark tongue. At 1000 feet, single turf house visible, chimney smoke bent horizontal by wind, smoke pulsing out in visible bursts every 5 seconds (12 per minute), each pulse 3 feet long before wind tears it apart.",
-      "dialogue" : "(Dark male voice, off-screen): \"Krummi svaf í klettagjá, kaldri vetrarnóttu á\" (Tone: bass register, each syllable takes 0.5 seconds, breath visible as white vapor that freezes and falls as ice crystals)",
-      "negative_prompt" : "no subtitles, no text overlays, no lens flares, no purple colors in aurora, no modern lights, no contrails, maintain pure 1888 environment",
-      "selected_plates" : [
+      "scene": "February 13, 1888, 4:47 AM, complete polar darkness except aurora and stars. Temperature -18°C at altitude, visible as ice crystals forming on camera lens edges. Pack ice covers sea in geometric plates, white surfaces with black water channels between. No moon. Stars shifted 15 degrees counterclockwise from normal positions. House sits in complete isolation - no roads, no paths, no fence lines, just converging sheep tracks in snow forming five spiral patterns. Mountains invisible but their presence felt as wind funnel. Trawler's position exactly 1.3 nautical miles offshore, hull black against white ice, no other vessels visible to horizon.",
+      "style": "Straight vertical descent, camera dropping through atmosphere (that's where the camera is), 14mm ultra-wide lens capturing full environment, no lateral movement, no tilting, pure downward observation like documentary drone footage before drones existed.",
+      "camera_position": "Straight vertical descent, camera dropping through atmosphere",
+      "dialogue": "(Dark male voice, off-screen): \"Krummi svaf í klettagjá, kaldri vetrarnóttu á\" (Tone: bass register, each syllable takes 0.5 seconds, breath visible as white vapor that freezes and falls as ice crystals)",
+      "selected_plates": [
         "MAGNUS-CONFUSED",
         "SIGRID-MARKED",
         "LILJA-MATHEMATICAL",
@@ -47,13 +47,13 @@
         "BAÐSTOFA-STIRRING",
         "WESTFJORDS-WINTER"
       ],
-      "variant_name" : "Primary - COSMIC ABANDONMENT",
-      "style" : "Straight vertical descent, camera dropping through atmosphere (that's where the camera is), 14mm ultra-wide lens capturing full environment, no lateral movement, no tilting, pure downward observation like documentary drone footage before drones existed.",
-      "progressive_state" : "",
-      "is_active" : false,
-      "scene" : "February 13, 1888, 4:47 AM, complete polar darkness except aurora and stars. Temperature -18°C at altitude, visible as ice crystals forming on camera lens edges. Pack ice covers sea in geometric plates, white surfaces with black water channels between. No moon. Stars shifted 15 degrees counterclockwise from normal positions. House sits in complete isolation - no roads, no paths, no fence lines, just converging sheep tracks in snow forming five spiral patterns. Mountains invisible but their presence felt as wind funnel. Trawler's position exactly 1.3 nautical miles offshore, hull black against white ice, no other vessels visible to horizon.",
-      "camera_position" : "Straight vertical descent, camera dropping through atmosphere",
-      "subject" : "Night sky 5000 feet above Iceland's Westfjords showing green aurora borealis ribbons physically retracting upward like fingers releasing their grip, while three black ravens circle counterclockwise exactly where the camera descends, their bodies visible only as moving voids blocking stars, each raven precisely 10 feet apart forming a perfect triangle."
+      "is_active": false,
+      "negative_prompt": "no subtitles, no text overlays, no lens flares, no purple colors in aurora, no modern lights, no contrails, maintain pure 1888 environment",
+      "subject": "Night sky 5000 feet above Iceland's Westfjords showing green aurora borealis ribbons physically retracting upward like fingers releasing their grip, while three black ravens circle counterclockwise exactly where the camera descends, their bodies visible only as moving voids blocking stars, each raven precisely 10 feet apart forming a perfect triangle.",
+      "variant_id": "1_story_primary",
+      "progressive_state": "",
+      "variant_name": "Primary - COSMIC ABANDONMENT",
+      "action": "Pure vertical descent at 10 feet per second through polar atmosphere. Aurora ribbons pull upward in real-time, green light draining from lower atmosphere leaving black void below. The three ravens maintain perfect triangular formation, circling the descent path, wings beating once every 2 seconds. At 3000 feet altitude, British trawler GRIMSBY PRIDE becomes visible in pack ice, its 200-foot hull curved in serpent coil, two yellow navigation lights positioned like eyes, smoke stack releasing black smoke that doesn't disperse but hangs like a dark tongue. At 1000 feet, single turf house visible, chimney smoke bent horizontal by wind, smoke pulsing out in visible bursts every 5 seconds (12 per minute), each pulse 3 feet long before wind tears it apart."
     }
   ]
 }

@@ -1,0 +1,81 @@
+{
+  "progressive_state" : "Turning home | Accepting defeat | Camera frost 25% | Journey's end | Watching: House waiting",
+  "shot_metadata" : {
+    "title" : "DECISION TO RETURN 3 SECONDS",
+    "sequence_type" : "main_story",
+    "duration_seconds" : 3,
+    "narrative_function" : "Turning home | Accepting defeat | Camera frost 25%...",
+    "stitch_from" : "",
+    "id" : "38b"
+  },
+  "prompt_variants" : [
+    {
+      "scene" : "SHOT 38B: DECISION TO RETURN - ROWING RÉTTIR PATTERN From Standard Return (8\/10) to Self-Sorting Horror Masterpiece (9.5\/10) SHOT HEADER: Empty fjord serving as sorting-space where failed patriarch unconsciously practices sheep-organization patterns while believing he maintains human agency and family-return intention. Water clarity allowing impossible visual access to both reflection transformation and underwater draugr presence, maritime environment contaminated by supernatural death and temporal confusion. Poisoned emptiness appearing more attractive than family destination through pathological bonding with contaminated environment.",
+      "style" : "Camera positioned at boat stern showing both rowing pattern and reflection alternation (that's where the camera is), close enough for identity fluctuation detail, wide enough for sorting pattern recognition. Static shot emphasizing repetitive mathematical failure, movement only from rowing attempts and reflection changes. Natural light creating clear water visibility for impossible underwater elements. Focus alternates between rowing mechanics and reflection transformation, showing physical action producing identity confusion. DIALOGUE:",
+      "camera_position" : "",
+      "subject" : "",
+      "is_active" : false,
+      "action" : "Rowing pattern becomes compulsive mathematical sequence—5 strokes left, 6th stroke attempt fails as oar catches empty air, boat lurches right, pattern resets with 5 successful strokes, 6th attempt failure, creating self-sorting cycle that mirrors sheep-pen sorting mechanics. Reflection alternation accelerates with rowing exhaustion—human\/ram\/human cycle shortening until identity flickers every half-stroke, visual identity breakdown synchronized with physical sorting behavior. Glámr's blue corpse-skin becomes more visible during ram-reflection strokes, undead presence strongest when Magnús appears most animal, supernatural death-attraction increasing with transformation proximity. Pathological bonding develops as he looks back longingly at poisoned emptiness—contaminated water appearing more beautiful than house destination, industrial pollution creating false attraction stronger than family survival instinct. Footprint-trail following boat suggests past actions pursuing present movement, temporal stalking where earlier failure drives current failure, self-pursuit through water-memory.",
+      "dialogue" : "",
+      "variant_name" : "Decision To Return Rowing Rettir Pattern",
+      "negative_prompt" : "",
+      "progressive_state" : "",
+      "selected_plates" : [
+        "MAGNUS-WOUNDED",
+        "SIGRID-ORACLE",
+        "LILJA-COMMUNICATING",
+        "JON-CHANGING",
+        "GUDRUN-PRODUCING",
+        "SEA-SEDUCTIVE",
+        "WESTFJORDS-FJORD"
+      ],
+      "variant_id" : "38b_decision_to_return_rowing_rettir_pattern"
+    },
+    {
+      "action" : "Camera experiences identity confusion through perspective oscillation—human stroke shows desperate rowing toward family reunion, ram stroke shows territorial patrol maintaining dominance over empty fishing territory, same physical action serving different identity purposes. Reflection becomes increasingly accurate while physical appearance becomes increasingly false—mirror showing ram consciousness as true identity while body maintains human appearance through performance rather than authenticity. Glámr's supernatural presence influences reflection-reality: death-blue skin beneath water creating visual contamination that affects mirror-truth, draugr presence making reflection show death-influence while body remains unconscious of supernatural contamination. Pathological bonding develops as ram-consciousness finds comfort in poisoned emptiness while human-consciousness experiences horror at contaminated environment, identity split creating opposite emotional responses to identical environmental condition.",
+      "variant_id" : "38b_pass_2_reflection_identity_oscillation",
+      "subject" : "",
+      "progressive_state" : "",
+      "style" : "Camera consciousness oscillating between human and ram perspectives using impossible identity transfer capability (that's where the camera is), experiencing same rowing action through different consciousness frameworks. Movement alternates between human desperation and ram territorial confidence, identity oscillation creating different emotional relationship to identical physical action. Focus follows consciousness transfer between human and ram awareness, showing identity confusion as experienced reality. DIALOGUE:",
+      "dialogue" : "",
+      "is_active" : false,
+      "selected_plates" : [
+        "MAGNUS-WOUNDED",
+        "SIGRID-ORACLE",
+        "LILJA-COMMUNICATING",
+        "JON-CHANGING",
+        "GUDRUN-PRODUCING",
+        "SEA-SEDUCTIVE",
+        "WESTFJORDS-FJORD"
+      ],
+      "camera_position" : "",
+      "variant_name" : "Pass 2 Reflection Identity Oscillation",
+      "scene" : "PASS 2: SHOT 38B - REFLECTION IDENTITY OSCILLATION Camera Experiencing Identity Confusion Through Water Mirror SHOT HEADER: Empty fjord serving as consciousness mirror where identity confusion becomes visible through reflection oscillation, supernatural water revealing true identity while physical reality maintains false appearance, draugr presence contaminating mirror-truth through death-influence.",
+      "negative_prompt" : ""
+    },
+    {
+      "subject" : "Camera craning up from boat-level to high aerial as [MAGNÚS] places the rotten fin carefully under bench and begins rowing toward home, revealing from above the path he's carved through poisoned water - a clean channel through green-black contamination, leading home.",
+      "negative_prompt" : "smooth crane movement, no cuts, maintain altitude rise",
+      "dialogue" : "None - just rowing rhythm",
+      "scene" : "Fjord between contamination and home, 9:33 AM. Path narrowing as poison spreads. House visible in distance, wrong.",
+      "selected_plates" : [
+        "MAGNUS-WOUNDED",
+        "SIGRID-ORACLE",
+        "LILJA-COMMUNICATING",
+        "JON-CHANGING",
+        "GUDRUN-PRODUCING",
+        "SEA-SEDUCTIVE",
+        "WESTFJORDS-FJORD"
+      ],
+      "progressive_state" : "",
+      "style" : "Dramatic crane up revealing larger geography of disaster (that's where the camera is), God's eye view of futility.",
+      "is_active" : false,
+      "camera_position" : "Dramatic crane up revealing larger geography of disaster",
+      "action" : "CAMERA STARTS at boat level as Magnús wraps fin in cloth, places under bench like treasure. Grips oars with 0Hz hands. Begins to row. CAMERA CRANES UP, rising 20 meters in 3 seconds. As we rise, perspective reveals: His boat has carved a clear channel through poisoned water. Behind him, contamination. Ahead, still-clear path home. But poison spreading both ways, will meet in middle soon. From aerial height, boat tiny between two disasters - poisoned sea behind, something wrong at house ahead (black smoke, not grey). Ravens following in V-formation now, not spiral - migration pattern, leaving pattern. His rowing rhythm mechanical: stroke, stroke, stroke. No variation. Defeated automation.",
+      "variant_id" : "38b_story_primary",
+      "variant_name" : "Primary - DECISION TO RETURN 3 SECONDS"
+    }
+  ],
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3"
+}

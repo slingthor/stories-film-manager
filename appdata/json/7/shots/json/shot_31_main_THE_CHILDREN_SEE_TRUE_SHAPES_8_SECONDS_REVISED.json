@@ -5,10 +5,10 @@
     "title": "THE CHILDREN SEE TRUE SHAPES 8 SECONDS REVISED",
     "sequence_type": "main_story",
     "duration_seconds": 8,
-    "narrative_function": "House 4/min dying + 80bpm | Reality breaking | Cam...",
+    "narrative_function": "House 4/min dying + 80bpm | surreal visual | Cam...",
     "stitch_from": "[STITCH from Shot 30: Magnús pulling line, family inside with tilberi aftermath]"
   },
-  "progressive_state": "House 4/min dying + 80bpm | Reality breaking | Camera frost 20% | Children's vision | Watching: House watching them",
+  "progressive_state": "House 4/min dying + 80bpm | surreal visual | Camera frost 20% | Children's vision | Watching: House watching them",
   "prompt_variants": [
     {
       "variant_id": "31_story_primary",

@@ -25,7 +25,7 @@
     "WESTFJORDS-GROUND": {
       "name": "Westfjords Ground",
       "category": "Exterior",
-      "description": "[Base variant] optimized for human perspective - cliff walls towering overhead creating vertical drama and psychological pressure."
+      "description": "[Base variant] optimized for human perspective - cliff walls towering overhead creating vertical drama and visible distress."
     },
     "HOUSE-APPROACH": {
       "description": "House appearing as destination or departure point, immediate surroundings emphasized for family navigation.",
@@ -39,7 +39,7 @@
     },
     "BAÐSTOFA-DARKNESS": {
       "category": "Interior",
-      "description": "Three-frame flash environment, architecture existing in multiple reality states simultaneously, lighting creating impossible illumination patterns.",
+      "description": "Three-frame flash environment, architecture existing in multiple surreal visual simultaneously, lighting creating impossible illumination patterns.",
       "name": "Darkness"
     },
     "SEA-EXTRACTED": {
@@ -94,7 +94,7 @@
     },
     "STOFA-FRAGMENTING": {
       "category": "Interior",
-      "description": "[Crystallizing base] with seven-perspective accommodation - architecture existing simultaneously in seven different reality states.",
+      "description": "[Crystallizing base] with seven-perspective accommodation - architecture existing simultaneously in seven different surreal visual.",
       "name": "Stofa Fragmenting"
     },
     "SEA-ABUNDANT": {

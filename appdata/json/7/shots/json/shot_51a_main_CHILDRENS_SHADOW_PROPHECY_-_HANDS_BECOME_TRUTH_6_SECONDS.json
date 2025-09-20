@@ -1,26 +1,21 @@
 {
+  "progressive_state" : "House 8\/min sleeping + 60bpm | Night falling | Camera frost 40% | Future cast on walls | Watching: Shadows know",
   "shot_metadata" : {
     "sequence_type" : "main_story",
-    "duration_seconds" : 6,
-    "stitch_from" : "",
-    "narrative_function" : "House 8\/min sleeping + 60bpm | Night falling | Cam...",
     "id" : "51a",
-    "title" : "CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS"
+    "title" : "CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS",
+    "duration_seconds" : 6,
+    "narrative_function" : "House 8\/min sleeping + 60bpm | Night falling | Cam...",
+    "stitch_from" : ""
   },
   "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
-  "progressive_state" : "House 8\/min sleeping + 60bpm | Night falling | Camera frost 40% | Future cast on walls | Watching: Shadows know",
   "prompt_variants" : [
     {
-      "variant_id" : "51a_story_primary",
-      "scene" : "By dying hearth, 8:00 PM darkness. Only light from embers. Shadows prominent on wall. Empty clothes participating.",
-      "is_active" : false,
-      "progressive_state" : "",
       "subject" : "[JÐ“N] and [LILJA] by the dying hearth making shadow puppets on the wall, but their human hands cast sheep shadows - ram, ewe, lambs - arranged in réttir formation, showing the transformation before it happens.",
       "negative_prompt" : "",
-      "style" : "Push in on prophetic shadows (that's where the camera is), future documented before it happens.",
-      "camera_position" : "Push in on prophetic shadows",
-      "variant_name" : "Primary - CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS",
+      "dialogue" : "(Jón, seeing truth): \"Sjáðu! Við erum þegar...\" (Lilja): \"Ð‰g veit. Við vitum\" (I know. We know)",
+      "scene" : "By dying hearth, 8:00 PM darkness. Only light from embers. Shadows prominent on wall. Empty clothes participating.",
       "selected_plates" : [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
@@ -30,8 +25,13 @@
         "BAÐSTOFA-CRYSTALLIZING",
         "WESTFJORDS-CLIFF"
       ],
-      "dialogue" : "(Jón, seeing truth): \"Sjáðu! Við erum þegar...\" (Lilja): \"Ð‰g veit. Við vitum\" (I know. We know)",
-      "action" : "Children sit by hearth's last embers. Jón raises hands to make shadow bird. But shadow shows ram's head - curved horns, long snout. Doesn't notice. Lilja makes butterfly with hands. Shadow shows ewe, faldbúningur shape on sheep head. They continue playing, shadows telling truth. PUSH IN on wall. Shadow play becomes elaborate: Five sheep in pen formation. Sixth shadow appears though only two children. The shadows begin moving independently - sheep shadows walking while hands stay still. Through shadows, glimpse of empty clothes standing behind children, also casting shadows. Now eight shadows for two children and clothes. Mathematical impossibility visible. In shadow: sheep have human teeth, visible when shadow-mouths open. Jón's fever allows him to see: \"Sjáðu! Við erum þegar...\" (Look! We already are...). Lilja nods, continues playing. They know. Accept."
+      "progressive_state" : "",
+      "style" : "Push in on prophetic shadows (that's where the camera is), future documented before it happens.",
+      "is_active" : false,
+      "camera_position" : "Push in on prophetic shadows",
+      "action" : "Children sit by hearth's last embers. Jón raises hands to make shadow bird. But shadow shows ram's head - curved horns, long snout. Doesn't notice. Lilja makes butterfly with hands. Shadow shows ewe, faldbúningur shape on sheep head. They continue playing, shadows telling truth. PUSH IN on wall. Shadow play becomes elaborate: Five sheep in pen formation. Sixth shadow appears though only two children. The shadows begin moving independently - sheep shadows walking while hands stay still. Through shadows, glimpse of empty clothes standing behind children, also casting shadows. Now eight shadows for two children and clothes. Mathematical impossibility visible. In shadow: sheep have human teeth, visible when shadow-mouths open. Jón's fever allows him to see: \"Sjáðu! Við erum þegar...\" (Look! We already are...). Lilja nods, continues playing. They know. Accept.",
+      "variant_id" : "51a_story_primary",
+      "variant_name" : "Primary - CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS"
     }
   ]
 }

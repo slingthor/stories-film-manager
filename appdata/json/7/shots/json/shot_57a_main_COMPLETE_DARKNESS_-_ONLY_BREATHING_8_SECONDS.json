@@ -5,10 +5,10 @@
     "title": "COMPLETE DARKNESS - ONLY BREATHING 8 SECONDS",
     "sequence_type": "main_story",
     "duration_seconds": 8,
-    "narrative_function": "House 1/min dying + 20bpm | Reality collapse | Cam...",
+    "narrative_function": "House 1/min dying + 20bpm | surreal visual | Cam...",
     "stitch_from": "[STITCH from Shot 56c: \"Maaaa\" attempts, family as sheep]"
   },
-  "progressive_state": "House 1/min dying + 20bpm | Reality collapse | Camera frost 49% | Truth in darkness | Watching: We hear truth",
+  "progressive_state": "House 1/min dying + 20bpm | surreal visual | Camera frost 49% | Truth in darkness | Watching: We hear truth",
   "prompt_variants": [
     {
       "variant_id": "57a_story_primary",

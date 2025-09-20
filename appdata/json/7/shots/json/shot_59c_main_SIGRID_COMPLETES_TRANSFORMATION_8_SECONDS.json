@@ -1,27 +1,20 @@
 {
-  "shot_metadata" : {
-    "narrative_function" : "Becoming raven | Camera frost 53% | Freedom immine...",
-    "stitch_from" : "",
-    "title" : "SIGRID COMPLETES TRANSFORMATION 8 SECONDS",
-    "sequence_type" : "main_story",
-    "id" : "59c",
-    "duration_seconds" : 8
+  "progressive_state": "Becoming raven | Camera frost 53% | Freedom imminent | Watching: All witness",
+  "shot_metadata": {
+    "title": "SIGRID COMPLETES TRANSFORMATION 8 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "Becoming raven | Camera frost 53% | Freedom immine...",
+    "stitch_from": "",
+    "id": "59c"
   },
-  "progressive_state" : "Becoming raven | Camera frost 53% | Freedom imminent | Watching: All witness",
-  "aspect_ratio" : "2.39:1",
-  "selected_prompt_index" : 0,
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "variant_id" : "59c_story_primary",
-      "scene" : "Sigrid completing raven form. Wings spreading. Family witnessing. Freedom imminent.",
-      "is_active" : false,
-      "progressive_state" : "",
-      "subject" : "[SIGRID]'s transformation completing - black feathers covering entire body, arms becoming wings, but face still partially human, eyes still conscious, belly shrinking as if pregnancy absorbed into transformation, becoming the egg she'll lay as raven.",
-      "negative_prompt" : "maintain beauty and dignity, not body horror",
-      "style" : "Spiral up showing full transformation (that's where the camera is), metamorphosis complete.",
-      "camera_position" : "Spiral up showing full transformation",
-      "variant_name" : "Primary - SIGRID COMPLETES TRANSFORMATION 8 SECONDS",
-      "selected_plates" : [
+      "subject": "[SIGRID]'s transformation completing - black feathers covering entire body, arms becoming wings, but face still partially human, eyes still conscious, belly shrinking as if rounded belly absorbed into transformation, becoming the egg she'll lay as raven.",
+      "negative_prompt": "maintain beauty and dignity, not body horror",
+      "dialogue": "(Sigrid's last word): \"Vitni\" (Witness)",
+      "scene": "Sigrid completing raven form. Wings spreading. Family witnessing. Freedom imminent.",
+      "selected_plates": [
         "MAGNUS-BREAKING",
         "SIGRID-DUAL",
         "LILJA-LAMB",
@@ -30,8 +23,15 @@
         "BAÐSTOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ],
-      "dialogue" : "(Sigrid's last word): \"Vitni\" (Witness)",
-      "action" : "SPIRAL UP around Sigrid. Black feathers erupt everywhere. Not growing - emerging. Always there. Under skin. Waiting lifetime. Arms crack, extend, reshape. Bones hollow. Becoming wings. But face - still partially human. Eyes still Sigrid's. Conscious. Remembering. Belly transforms: pregnancy doesn't vanish but changes. Becomes internal egg. She'll lay it as raven. Birth human child from raven body. The bridge between forms. Feet crack, become talons. But delicate. Young raven. She's 16 in human years, young adult in raven years. Perfect transition age. Dress falls away. No longer needed. Pure black feather form. But at neck: small white marking. Like faldbúningur collar. Cultural memory in bird form. She spreads wings. 5-foot span. Smaller than monolith raven. Daughter scale. Hops once. Testing. Light. Free. The sheep family watches. Understanding. Accepting. She's their escape. Their witness. Their memory."
+      "progressive_state": "",
+      "style": "Spiral up showing full transformation (that's where the camera is), metamorphosis complete.",
+      "is_active": false,
+      "camera_position": "Spiral up showing full transformation",
+      "action": "SPIRAL UP around Sigrid. Black feathers erupt everywhere. Not growing - emerging. Always there. Under skin. Waiting lifetime. Arms crack, extend, reshape. Bones hollow. Becoming wings. But face - still partially human. Eyes still Sigrid's. Conscious. Remembering. Belly transforms: rounded belly doesn't vanish but changes. Becomes apparent. She'll lay it as raven. Birth human child from raven body. The bridge between forms. Feet crack, become talons. But delicate. Young raven. She's 16 in human years, young adult in raven years. Perfect transition age. Dress falls away. No longer needed. Pure black feather form. But at neck: small white marking. Like faldbúningur collar. Cultural memory in bird form. She spreads wings. 5-foot span. Smaller than monolith raven. Daughter scale. Hops once. Testing. Light. Free. The sheep family watches. Understanding. Accepting. She's their escape. Their witness. Their memory.",
+      "variant_id": "59c_story_primary",
+      "variant_name": "Primary - SIGRID COMPLETES TRANSFORMATION 8 SECONDS"
     }
-  ]
+  ],
+  "selected_prompt_index": 0,
+  "aspect_ratio": "2.39:1"
 }

@@ -1,0 +1,539 @@
+{
+  "_complete_system": true,
+  "_total_plates": 76,
+  "plate_index": {
+    "MAGNÚS-RAM": {
+      "description": "Ram Complete (Shots 81-85)",
+      "name": "PLATE 18",
+      "character": "Magnus",
+      "shot_range": "(Shots 81-85)",
+      "is_master": false
+    },
+    "GUDRUN-PLATE10": {
+      "character": "Gudrun",
+      "description": "Blood Return (Shot 47c)",
+      "shot_range": "(Shots 45-46)",
+      "is_master": false,
+      "name": "PLATE 10"
+    },
+    "MAGNUS-PLATE10": {
+      "name": "PLATE 10-POST-VIOLENCE (Shots 44-48)",
+      "character": "Magnus",
+      "shot_range": "(Shots 44-48)",
+      "description": "**",
+      "is_master": false
+    },
+    "MAGNUS-CONFUSED": {
+      "description": "Mathematical Breakdown (Shots 61-65)",
+      "shot_range": "(Shots 61-65)",
+      "character": "Magnus",
+      "name": "PLATE 15",
+      "is_master": false
+    },
+    "JON-PLATE7": {
+      "shot_range": "(Shots 31-40)",
+      "character": "Jon",
+      "name": "PLATE 7",
+      "description": "Sheep Teeth Emerging (Shots 31-40)",
+      "is_master": false
+    },
+    "JON-PLATE8": {
+      "description": "Lateral Chewing Development (Shots 41-50)",
+      "name": "PLATE 8",
+      "is_master": false,
+      "character": "Jon",
+      "shot_range": "(Shots 41-50)"
+    },
+    "MAGNUS-PLATE5": {
+      "name": "PLATE 5",
+      "character": "Magnus",
+      "description": "Departure Desperation (Shots 18-25)",
+      "shot_range": "(Shots 18-25)",
+      "is_master": false
+    },
+    "MAGNUS-PLATE18": {
+      "is_master": false,
+      "description": "**",
+      "character": "Magnus",
+      "name": "PLATE 18-TEMPORAL (Shots 30 Reflection Aging)",
+      "shot_range": "(Shots 30 Reflection Aging)"
+    },
+    "JON-PROPHET": {
+      "description": "Prophetic Wandering (Shots 35-40)",
+      "shot_range": "(Shots 35-40)",
+      "is_master": false,
+      "character": "Jon",
+      "name": "PLATE 16"
+    },
+    "MAGNUS-PLATE11": {
+      "character": "Magnus",
+      "is_master": false,
+      "description": "**",
+      "name": "PLATE 11-INTIMATE-THREAT (Shots 49-50b)",
+      "shot_range": "(Shots 49-50b)"
+    },
+    "GUDRUN-PLATE19": {
+      "name": "PLATE 19",
+      "description": "Truth-Speaker Preparation (Shots 47-50)",
+      "shot_range": "(Shots 47-50)",
+      "is_master": false,
+      "character": "Gudrun"
+    },
+    "MAGNUS-PLATE3": {
+      "name": "PLATE 3",
+      "description": "Winter Preparation (Shots 16-23)",
+      "shot_range": "(Shots 16-23)",
+      "character": "Magnus",
+      "is_master": false
+    },
+    "GUDRUN-PLATE18": {
+      "name": "PLATE 18",
+      "description": "Divine Offering (Shots 45-46 Bull Encounter)",
+      "shot_range": "(Shots 45-46 Bull Encounter)",
+      "character": "Gudrun",
+      "is_master": false
+    },
+    "JON-PLATE18": {
+      "character": "Jon",
+      "name": "PLATE 18",
+      "shot_range": "(Shots 56-65)",
+      "is_master": false,
+      "description": "Final Human Consciousness (Shots 56-65)"
+    },
+    "GUDRUN-PLATE16": {
+      "name": "PLATE 16",
+      "character": "Gudrun",
+      "is_master": false,
+      "shot_range": "(Shots 26-35)",
+      "description": "Authority Emergence (Shots 26-35)"
+    },
+    "MAGNUS-PLATE4": {
+      "is_master": false,
+      "shot_range": "(Shots 1-10)",
+      "character": "Magnus",
+      "description": "**",
+      "name": "PLATE 4-CONFUSION (Shots 1-10)"
+    },
+    "JON-PLATE19": {
+      "is_master": false,
+      "character": "Jon",
+      "description": "Pure Lamb (Shots 65-85)",
+      "name": "PLATE 19",
+      "shot_range": "(Shots 65-85)"
+    },
+    "GUDRUN-PLATE6": {
+      "shot_range": "(Shots 41-43)",
+      "character": "Gudrun",
+      "description": "Violence Victim (Shots 41-43)",
+      "name": "PLATE 6",
+      "is_master": false
+    },
+    "MAGNUS-PLATE20": {
+      "description": "**",
+      "shot_range": "(Shots 30 Reflection Aging)",
+      "is_master": false,
+      "character": "Magnus",
+      "name": "PLATE 20-DIAGNOSTIC (Shot 18 Departure Prep)"
+    },
+    "JON-PLATE17": {
+      "name": "PLATE 17",
+      "character": "Jon",
+      "shot_range": "(Shots 41-50)",
+      "is_master": false,
+      "description": "Sheep Tooth Mastery (Shots 41-50)"
+    },
+    "LILJA-SENSING": {
+      "name": "PLATE 5",
+      "character": "Lilja",
+      "shot_range": "(Shots 11-25)",
+      "description": "House Communication Mastery (Shots 11-25) [LILJA-MATHEMATICAL] with house consciousness dialogue - face animated during environmental communication, mouth moving in conversation with house breathing rhythm, blue eyes alternating between family observation and house consciousness connection, hair wild from environmental exploration activity, grey dress dirty from constant floor contact and house investigation, brown stockings worn through completely at knees from crawling, cloth doll positioned for \"conversation\" with house consciousness through brass button eye contact, posture actively engaged with environmental exploration, thumb-sucking replaced with environmental touch (wall stroking, floor patting), voice conducting audible conversations with house consciousness about family situation, breathing synchronized occasionally with house 12/min rhythm during communication moments.",
+      "is_master": false
+    },
+    "LILJA-MATHEMATICAL": {
+      "character": "Lilja",
+      "description": "Mathematical Child Observer (Shots 1-10) [LILJA-PURE] witnessing family counting breakdown - face showing child confusion about adult mathematical impossibility, mouth silently counting along with adults but getting different numbers, blue eyes wide with recognition of six shadows when five people exist, hair tangled with stress from family breakdown observation, grey dress torn hem more extensive from nervous behavior, brown stockings with multiple holes from anxiety movement, doll clutched with desperate grip as comfort during family crisis, posture hiding behind mother's skirts during counting moments, thumb-sucking intense during mathematical wrongness, voice high whisper stating obvious mathematical truth adults won't acknowledge, breathing 24/min child anxiety from family mathematical impossibility recognition.",
+      "shot_range": "(Shots 1-10)",
+      "is_master": false,
+      "name": "PLATE 4"
+    },
+    "GUDRUN-PLATE2": {
+      "name": "PLATE 2",
+      "character": "Gudrun",
+      "description": "Autumn Strain (Shots 10-15)",
+      "shot_range": "(Shots 10-15)",
+      "is_master": false
+    },
+    "MAGNUS-PLATE19": {
+      "name": "PLATE 19-SURVEILLANCE (Shot 5.5 Web)",
+      "description": "**",
+      "is_master": false,
+      "character": "Magnus",
+      "shot_range": "(Shots 30 Reflection Aging)"
+    },
+    "GUDRUN-PLATE9": {
+      "name": "PLATE 9",
+      "description": "Polynya Arrival (Shots 45-46)",
+      "character": "Gudrun",
+      "is_master": false,
+      "shot_range": "(Shots 45-46)"
+    },
+    "MAGNUS-PLATE9": {
+      "name": "PLATE 9",
+      "character": "Magnus",
+      "description": "Return Defeat (Shots 36-40)",
+      "shot_range": "(Shots 36-40)",
+      "is_master": false
+    },
+    "BAÐSTOFA-DOMESTIC": {
+      "character": "Environment",
+      "name": "Baðstofa Domestic",
+      "description": "The living space in its domestic state - warm, inhabited, breathing",
+      "shot_range": "",
+      "is_master": true
+    },
+    "JON-PLATE12": {
+      "is_master": false,
+      "description": "Tooth Loss Moment (Shot 15-20)",
+      "character": "Jon",
+      "shot_range": "(Shots 71-85)",
+      "name": "PLATE 12"
+    },
+    "GUDRUN-PLATE11": {
+      "description": "Transformation Recognition (Shots 50-55)",
+      "shot_range": "(Shots 50-55)",
+      "is_master": false,
+      "name": "PLATE 11",
+      "character": "Gudrun"
+    },
+    "JON-PLATE6": {
+      "is_master": false,
+      "name": "PLATE 6",
+      "character": "Jon",
+      "description": "Gap Period (Shots 21-30)",
+      "shot_range": "(Shots 21-30)"
+    },
+    "MAGNUS-PLATE7": {
+      "description": "Aflausn Aging (Shots 22-25)",
+      "name": "PLATE 7",
+      "character": "Magnus",
+      "is_master": false,
+      "shot_range": "(Shots 22-25)"
+    },
+    "SIGRID-PLATE2": {
+      "shot_range": "(Shots 8-15)",
+      "description": "Growing Awareness (Shots 8-15) [SIGRID-PURE] with subtle awareness developing - dress showing minor wear, first hint of pregnancy (barely visible belly curve), posture beginning slight defensive positioning, arms occasionally crossing over midsection, grey eyes developing analytical flicker when observing family dynamics, breathing maintaining 15/min but with occasional deeper assessment breaths, voice retaining purity but with thoughtful pauses, facial expression mixing innocence with growing environmental awareness, braids with few wisps escaping suggesting mild stress, positioning unconsciously shifting to 9-10 feet from Magnus, wooden cross gripped occasionally through pocket fabric.",
+      "is_master": false,
+      "name": "PLATE 2",
+      "character": "Sigrid"
+    },
+    "MAGNUS-PLATE13": {
+      "character": "Magnus",
+      "name": "PLATE 13-FINAL-HUMAN (Shots 76-80)",
+      "shot_range": "(Shots 76-80)",
+      "is_master": false,
+      "description": "**"
+    },
+    "JON-MILD": {
+      "shot_range": "(Shots 1-9)",
+      "name": "PLATE 1",
+      "character": "Jon",
+      "is_master": true,
+      "description": "Early Fever (Shots 1-9)"
+    },
+    "GUDRUN-PLATE8": {
+      "name": "PLATE 8",
+      "shot_range": "(Shots 43c-44)",
+      "character": "Gudrun",
+      "description": "Storm Walker (Shot 44a-b)",
+      "is_master": false
+    },
+    "JON-PLATE10": {
+      "description": "Transformation Moment (Shots 61-70)",
+      "is_master": false,
+      "name": "PLATE 10",
+      "shot_range": "(Shots 61-70)",
+      "character": "Jon"
+    },
+    "JON-LAMB": {
+      "description": "Lamb Complete (Shots 71-85)",
+      "shot_range": "(Shots 71-85)",
+      "is_master": false,
+      "name": "PLATE 11",
+      "character": "Jon"
+    },
+    "GUDRUN-PRODUCING": {
+      "is_master": false,
+      "description": "Wool Production Revelation (Shot 40 Rotating Revelation)",
+      "name": "PLATE 21",
+      "character": "Gudrun",
+      "shot_range": "(Shots 56-85)"
+    },
+    "GUDRUN-CONDEMNED": {
+      "name": "PLATE 7",
+      "character": "Gudrun",
+      "is_master": false,
+      "shot_range": "(Shots 43c-44)",
+      "description": "Death Sentence (Shots 43c-44)"
+    },
+    "GUDRUN-PLATE4": {
+      "character": "Gudrun",
+      "name": "PLATE 4",
+      "description": "Mathematical Observer (Shots 1-10)",
+      "shot_range": "(Shots 1-10)",
+      "is_master": false
+    },
+    "SIGRID-PLATE16": {
+      "name": "PLATE 16",
+      "shot_range": "(Shots 8-10 Danish Counting)",
+      "is_master": false,
+      "description": "Surveillance Recognition (Shot 5.5 Web) [SIGRID-PURE] during family surveillance web - dress arranged for minimal visibility profile, pregnancy concealed through defensive posturing, posture compressed against wall minimizing physical presence, arms wrapped around torso for protection and concealment, grey eyes tracking all family movement through peripheral vision while appearing to study wall, breathing controlled 15/min despite surveillance pressure, voice silent except for necessary responses, facial expression showing hypervigilant awareness disguised as wall-study concentration, braids tight and severe to avoid drawing attention, positioned in corner optimizing surveillance observation while minimizing target profile, wooden cross concealed completely within pocket grip.",
+      "character": "Sigrid"
+    },
+    "LILJA-PLATE7": {
+      "character": "Lilja",
+      "name": "PLATE 7",
+      "description": "Transformation Acceptance (Shots 41-55) [LILJA-PURE] with transformation enthusiasm - face bright with transformation excitement rather than fear, mouth practicing sheep vocalizations with child enthusiasm, blue eyes eager with transformation anticipation, hair cut short revealing skull changes, grey dress loose on changing body proportions, brown stockings replaced with wool wrapping, doll clutched through transformation as comfort anchor, posture showing adaptation excitement, voice mixing sheep sounds with child emotional expression, breathing shifting from 23/min child to 20/min sheep with enthusiasm, wool production beginning from child follicles with fascination rather than shame.",
+      "shot_range": "(Shots 41-55)",
+      "is_master": false
+    },
+    "SIGRID-MASTER": {
+      "character": "Sigrid",
+      "name": "PLATE 1",
+      "shot_range": "(Shots 1-7)",
+      "description": "Pure Innocence (Shots 1-7) [MAGNUS-MASTER] with untouched innocence - grey-brown vaðmál dress clean and recently washed, no visible pregnancy, posture naturally confident with gentle back-straightness, arms loose at sides without defensive crossing, grey eyes bright with curiosity and familial affection, breathing easy 15/min peaceful human rhythm, soprano voice pure and musical during work songs, facial expression open with trusting family connection, braids perfectly arranged with no escaped wisps, positioned comfortably 8 feet from Magnus without wall-requirement, wooden cross resting naturally in pocket without protective concealment.",
+      "is_master": true
+    },
+    "MAGNUS-PLATE12": {
+      "description": "**",
+      "name": "PLATE 12-HUMAN-ANIMAL (Shots 51-60)",
+      "is_master": false,
+      "shot_range": "(Shots 51-60)",
+      "character": "Magnus"
+    },
+    "MAGNUS-PLATE16": {
+      "description": "Transformation Preparation (Shots 66-75)",
+      "shot_range": "(Shots 66-75)",
+      "name": "PLATE 16",
+      "is_master": false,
+      "character": "Magnus"
+    },
+    "SIGRID-PLATE17": {
+      "character": "Sigrid",
+      "description": "Contamination Exposure (Shot 9a-9b Feast Corruption) [SIGRID-PURE] during neurotoxin exposure - dress unstained despite family contamination visible, pregnancy not yet visible (1 month), posture showing first defensive awareness, arms beginning protective crossing, grey eyes developing analytical sharpness with amber flecks brightening from chemical influence, breathing maintaining 15/min human rate despite toxin exposure, voice pure soprano but with subtle harmonic undertones from neurotoxin effect, facial expression showing innocence processing contamination recognition, braids perfect but hair texture slightly changed from chemical influence, positioned 8 feet from family activity, wooden cross warm in pocket during contamination exposure.",
+      "name": "PLATE 17",
+      "is_master": false,
+      "shot_range": "(Shots 8-10 Danish Counting)"
+    },
+    "JON-TEMPORAL": {
+      "is_master": false,
+      "name": "PLATE 3",
+      "character": "Jon",
+      "description": "Temporal Sight (Shots 16-23)",
+      "shot_range": "(Shots 16-23)"
+    },
+    "JON-PLATE2": {
+      "shot_range": "(Shots 10-15)",
+      "character": "Jon",
+      "description": "Increasing Fever (Shots 10-15)",
+      "is_master": false,
+      "name": "PLATE 2"
+    },
+    "LILJA-PURE": {
+      "name": "PLATE 1",
+      "description": "Pure Innocence (Shots 1-9) [MAGNUS-MASTER] with perfect childhood innocence - cherubic face bright with healthy pink cheeks despite family strain, tiny upturned nose clear and breathing normally, rosebud mouth often forming silent \"oh\" of wonder, large cornflower-blue eyes wide with innocent curiosity about whale hunt activity, dark blonde hair tangled but recently combed by mother, small 3'6\" frame with baby fat still present, grey vaðmál wool dress with minor hem wear from normal play, dark brown wool stockings intact without holes, cloth doll pristine with bright brass button eyes and neat yellow yarn hair, posture naturally timid but exploratory, thumb-sucking frequent for comfort during exciting activity, voice high musical whisper with excited observations about community cooperation, breathing 22/min normal happy child rhythm.",
+      "shot_range": "(Shots 1-9)",
+      "is_master": true,
+      "character": "Lilja"
+    },
+    "MAGNUS-PLATE2": {
+      "shot_range": "(Shots 10-15)",
+      "name": "PLATE 2",
+      "is_master": false,
+      "character": "Magnus",
+      "description": "Autumn Transition (Shots 10-15)"
+    },
+    "GUDRUN-ETERNAL": {
+      "is_master": false,
+      "character": "Gudrun",
+      "description": "Ewe Complete (Shots 61-85)",
+      "shot_range": "(Shots 61-85)",
+      "name": "PLATE 13"
+    },
+    "GUDRUN-ABUNDANT": {
+      "character": "Gudrun",
+      "shot_range": "(Shots 1-9)",
+      "is_master": true,
+      "name": "PLATE 1",
+      "description": "Summer Competence (Shots 1-9)"
+    },
+    "SIGRID-CORNERED": {
+      "character": "Sigrid",
+      "description": "House Protection (Shots 51-55) [SIGRID-CORNERED] receiving Bergrisi protection - dress billowing slightly from warm air bubble (37°C protection), pregnancy 7 months highly visible, posture straightening as supernatural protection enables confidence, arms lowered from defensive position to reverent ritual readiness, grey eyes brightening with landvættir connection and chosen status awareness, breathing returning to 15/min human rhythm within protection zone, voice gaining supernatural authority with corvid harmonics strengthening, facial expression showing relief mixed with growing transformation anticipation, braids stirring from protective wind, positioned where wall crack widens into escape route, wooden cross glowing with warmth from supernatural protection.",
+      "shot_range": "(Shots 51-55)",
+      "name": "PLATE 8",
+      "is_master": false
+    },
+    "MAGNUS-PLATE1": {
+      "is_master": false,
+      "name": "PLATE 1-SUMMER (Shots 1b-7b)",
+      "shot_range": "(Shots 1b-7b)",
+      "description": "**",
+      "character": "Magnus"
+    },
+    "MAGNUS-PLATE15": {
+      "shot_range": "(Shots 81-85)",
+      "is_master": false,
+      "name": "PLATE 15-SUPERNATURAL-STRENGTH (Shot 22a-25 Aflausn)",
+      "character": "Magnus",
+      "description": "**"
+    },
+    "MAGNUS-PLATE14": {
+      "shot_range": "(Shots 81-85)",
+      "character": "Magnus",
+      "is_master": false,
+      "name": "PLATE 14-RAM-COMPLETE (Shots 81-85)",
+      "description": "**"
+    },
+    "GUDRUN-PLATE12": {
+      "name": "PLATE 12",
+      "character": "Gudrun",
+      "description": "Final Human Speech (Shots 56-60)",
+      "shot_range": "(Shots 56-60)",
+      "is_master": false
+    },
+    "LILJA-LAMB": {
+      "character": "Lilja",
+      "is_master": false,
+      "name": "PLATE 8",
+      "description": "Final Child Consciousness (Shots 56-65) [LILJA-LAMB] before consciousness simplification - face maintaining child emotional expression despite anatomical changes, mouth adapted for sheep vocalization but retaining child emotional range, blue eyes showing child consciousness preparing for simplification, hair completely wool-textured, grey dress becoming natural lamb covering, doll integrated somehow with lamb anatomy, posture transitional between child uprightness and lamb configuration, voice child consciousness through sheep anatomy, breathing 20/min sheep rhythm with child awareness, final child thoughts visible through changing anatomy.",
+      "shot_range": "(Shots 56-65)"
+    },
+    "JON-PLATE15": {
+      "is_master": false,
+      "description": "Growing Into Clothes (Shots 40-50)",
+      "shot_range": "(Shots 40-50)",
+      "name": "PLATE 15",
+      "character": "Jon"
+    },
+    "SIGRID-CORVID": {
+      "description": "Tilberi Birth (Shot 25 Four Corners Ritual) [SIGRID-MASTER] during supernatural labor - dress strained over mystical pregnancy completion, posture kneeling in ritual position with spine arched for birth, arms extended in offering gesture while protecting belly, grey eyes wide with supernatural birth awareness, breathing accelerated 20/min birth rhythm, voice crying out in corvid-human hybrid during tilberi emergence, facial expression showing mystical labor intensity, braids wild from birth effort, positioned in east corner of ritual space, wooden cross radiating heat from supernatural protection during otherworldly birth.",
+      "name": "PLATE 13",
+      "character": "Sigrid",
+      "shot_range": "(Shots 81-85)",
+      "is_master": false
+    },
+    "SIGRID-MARKED": {
+      "shot_range": "(Shots 1-10)",
+      "is_master": false,
+      "name": "PLATE 4",
+      "character": "Sigrid",
+      "description": "Mathematical Recognition (Shots 1-10) [SIGRID-MARKED] recognizing family counting impossibility - dress tighter around expanding belly (3 months pregnancy visible), posture curved protectively around pregnancy, arms always shielding belly area, grey eyes sharp with mathematical awareness and growing alarm, breathing steady 15/min human resistance rhythm despite family synchronization pressure, voice deeper soprano with protective maternal authority, facial expression showing analytical intelligence processing impossible mathematics, braids practical and severe, positioned 11 feet from Magnus with calculated precision, wooden cross visible through worn pocket fabric."
+    },
+    "MAGNUS-PREDATOR": {
+      "character": "Magnus",
+      "shot_range": "(Shots 49-50)",
+      "is_master": false,
+      "description": "Incest Threat (Shots 49-50)",
+      "name": "PLATE 12"
+    },
+    "LILJA-PLATE6": {
+      "description": "Prophetic Lullaby Evolution (Shots 26-40) [LILJA-SENSING] with lullaby modification ability - face serious with prophetic responsibility, mouth carefully shaping evolved lullaby words, blue eyes focused with prophetic sight showing future transformation, hair requiring cutting due to tangling, grey dress showing systematic exploration wear, brown stockings mostly holes held together by wool fibers, doll positioned as audience for prophetic performance, posture upright with prophetic authority despite child size, thumb-sucking eliminated during prophetic singing, voice delivering lullaby evolution changing \"Krummi svaf\" to \"Sigrid flýgur\" predicting sister's raven transformation, breathing 23/min prophetic intensity creating controlled harmonic delivery.",
+      "character": "Lilja",
+      "is_master": false,
+      "shot_range": "(Shots 26-40)",
+      "name": "PLATE 6"
+    },
+    "MAGNUS-PLATE17": {
+      "shot_range": "(Shots 31-35 Sea Damage)",
+      "name": "PLATE 17-WINTER-INJURIES (Shots 31-35 Sea Damage)",
+      "description": "**",
+      "character": "Magnus",
+      "is_master": false
+    },
+    "GUDRUN-PLATE15": {
+      "is_master": false,
+      "shot_range": "(Shots 18-25)",
+      "description": "Silent Observer (Shot 5.5 Surveillance Web)",
+      "character": "Gudrun",
+      "name": "PLATE 15"
+    },
+    "MAGNUS-PLATE6": {
+      "description": "At Sea Competence (Shot 26-30)",
+      "shot_range": "(Shots 18-25)",
+      "is_master": false,
+      "character": "Magnus",
+      "name": "PLATE 6"
+    },
+    "JON-PLATE9": {
+      "is_master": false,
+      "character": "Jon",
+      "description": "Pre-Transformation Energy (Shots 51-60)",
+      "name": "PLATE 9",
+      "shot_range": "(Shots 51-60)"
+    },
+    "GUDRUN-PLATE3": {
+      "character": "Gudrun",
+      "is_master": false,
+      "description": "Winter Preparation (Shots 16-23)",
+      "name": "PLATE 3",
+      "shot_range": "(Shots 16-23)"
+    },
+    "SIGRID-MATHEMATICAL": {
+      "name": "PLATE 15",
+      "character": "Sigrid",
+      "description": "Mathematical Witness (Shots 8-10 Danish Counting) [SIGRID-PURE] during family counting breakdown - dress position showing conscious distance maintenance, pregnancy barely visible (2 months), posture alert with analytical assessment stance, arms loose but ready for defensive positioning, grey eyes sharp with mathematical awareness and growing alarm, breathing controlled 15/min human resistance despite family synchronization, voice maintaining soprano purity with analytical edge, facial expression showing intelligence processing impossible mathematics, braids severe and controlled for analytical focus, positioned exactly 11 feet from counting center with measured precision, wooden cross gripped for psychological anchor during mathematical impossibility.",
+      "shot_range": "(Shots 8-10 Danish Counting)",
+      "is_master": false
+    },
+    "MAGNUS-PLATE8": {
+      "name": "PLATE 8-INJURED (Shots 31-40)",
+      "character": "Magnus",
+      "shot_range": "(Shots 31-40)",
+      "is_master": false,
+      "description": "**"
+    },
+    "GUDRUN-PLATE22": {
+      "character": "Gudrun",
+      "shot_range": "(Shots 56-85)",
+      "name": "PLATE 22",
+      "is_master": false,
+      "description": "Silent Testimony (Multiple Shots)"
+    },
+    "JON-PLATE5": {
+      "is_master": false,
+      "description": "First Tooth Loss (Shots 11-20)",
+      "character": "Jon",
+      "name": "PLATE 5",
+      "shot_range": "(Shots 11-20)"
+    },
+    "JON-PLATE13": {
+      "is_master": false,
+      "name": "PLATE 13",
+      "character": "Jon",
+      "shot_range": "(Shots 25-30)",
+      "description": "Fever Vision Peak (Shots 25-30)"
+    },
+    "WESTFJORDS-CLIFF": {
+      "name": "Westfjords Cliff",
+      "is_master": false,
+      "character": "Environment",
+      "description": "Cliff environment plate for Westfjords setting",
+      "shot_range": ""
+    },
+    "MAGNUS-AUTHORITY": {
+      "description": "Summer Authority (Shots 1-9)",
+      "shot_range": "(Shots 1-9)",
+      "name": "PLATE 1",
+      "is_master": true,
+      "character": "Magnus"
+    },
+    "GUDRUN-PLATE17": {
+      "shot_range": "(Shots 26-35)",
+      "is_master": false,
+      "character": "Gudrun",
+      "description": "Ice Crown Formation (Shot 44a Storm Walker)",
+      "name": "PLATE 17"
+    }
+  },
+  "last_updated": "2025-09-16T06:44:42Z"
+}

@@ -1,50 +1,23 @@
 {
-  "shot_metadata" : {
-    "sequence_type" : "prologue",
-    "duration_seconds" : 8,
-    "stitch_from" : "",
-    "narrative_function" : "Time acceleration destroying false abundance",
-    "id" : "9a",
-    "title" : "The Sun Breaks Free - Time Collapse"
+  "progressive_state": "Time collapses | Paradise ending | Camera frost 5% | Day racing away | Watching: The fall begins",
+  "shot_metadata": {
+    "sequence_type": "prologue",
+    "id": "9a",
+    "title": "The Sun Breaks Free - Time Collapse",
+    "duration_seconds": 8,
+    "narrative_function": "Time acceleration destroying false abundance",
+    "stitch_from": ""
   },
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "1.85:1",
-  "progressive_state" : "Time collapses | Paradise ending | Camera frost 5% | Day racing away | Watching: The fall begins",
-  "prompt_variants" : [
+  "selected_prompt_index": 0,
+  "aspect_ratio": "1.85:1",
+  "prompt_variants": [
     {
-      "progressive_state" : "",
-      "scene" : "Feast tables with sun racing across sky. Light changing rapidly. Frost forming. Searchlight still on but overwhelmed.",
-      "variant_name" : "Temporal Acceleration Collapse",
-      "dialogue" : "None",
-      "videos" : [
-        {
-          "filename" : "Meta_setting_iceland_202509142237_s7osq.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142237_s7osq.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Meta_setting_iceland_202509142237_dv6al.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142237_dv6al.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142237_du0fk.mp4",
-          "duration" : 8,
-          "filename" : "Meta_setting_iceland_202509142237_du0fk.mp4"
-        },
-        {
-          "filename" : "Meta_setting_iceland_202509142237_2ghfq.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142237_2ghfq.mp4",
-          "duration" : 8
-        }
-      ],
-      "active_video_index" : 0,
-      "style" : "Wide shot showing sun movement and shadow sweep (that's where the camera is), time-lapse feeling but real-time.",
-      "camera_position" : "Wide shot showing temporal acceleration effects, that's where the camera is",
-      "action" : "Sun breaks from frozen position. Drops 10 degrees in one second. Shadows from tables suddenly swing eastward, moving like clock hands. Golden light shifts orange. Everyone still frozen at tables but shadows moving around them. Sun drops another 10 degrees. Light turns deep red. Food on tables changes - whale meat darkening, berries shriveling, eggs turning grey. Sun continues plummet. Sky shifts red to purple. Temperature drops - breath becomes visible from everyone simultaneously, white clouds in purple air. Frost forms on table edges, spreading inward. Purple juice in cups freezes, expanding, some cups cracking. Sun nearly at horizon now. Moving faster. The searchlight still locked on feast but overwhelmed by dying natural light. Children begin shivering. Adults don't move. Sun touches horizon. Pauses one second. Then drops below. Darkness rushing in from edges of frame.",
-      "negative_prompt" : "no subtitles, show sun dropping rapidly, shadows sweeping, frost forming, breath visible, 1080p",
-      "variant_id" : "9a_story_primary",
-      "selected_plates" : [
+      "negative_prompt": "no subtitles, show sun dropping rapidly, shadows sweeping, frost forming, breath visible, 1080p",
+      "action": "Sun breaks from frozen position. Drops 10 degrees in one second. Shadows from tables suddenly swing eastward, moving like clock hands. Golden light shifts orange. Everyone still frozen at tables but shadows moving around them. Sun drops another 10 degrees. Light turns deep red. Food on tables changes - whale meat darkening, berries shriveling, eggs turning grey. Sun continues plummet. Sky shifts red to purple. Temperature drops - breath becomes visible from everyone simultaneously, white clouds in purple air. Frost forms on table edges, spreading inward. Purple juice in cups freezes, expanding, some cups cracking. Sun nearly at horizon now. Moving faster. The searchlight still locked on feast but overwhelmed by dying natural light. Children begin shivering. Adults don't move. Sun touches horizon. Pauses one second. Then drops below. Darkness rushing in from edges of frame.",
+      "is_active": false,
+      "style": "Wide shot showing sun movement and shadow sweep (that's where the camera is), time-lapse feeling but real-time.",
+      "subject": "The sun suddenly dropping toward horizon in accelerated motion, shadows sweeping across feast tables like black water, golden light dying to orange to red to purple in seconds, temperature dropping visibly as breath becomes white vapor.",
+      "selected_plates": [
         "MAGNUS-AUTHORITY",
         "SIGRID-PURE",
         "LILJA-PURE",
@@ -52,8 +25,35 @@
         "GUDRUN-ABUNDANT",
         "BAÐSTOFA-DOMESTIC"
       ],
-      "subject" : "The sun suddenly dropping toward horizon in accelerated motion, shadows sweeping across feast tables like black water, golden light dying to orange to red to purple in seconds, temperature dropping visibly as breath becomes white vapor.",
-      "is_active" : false
+      "dialogue": "None",
+      "progressive_state": "",
+      "camera_position": "Wide shot showing time-worn appearance effects, that's where the camera is",
+      "active_video_index": 0,
+      "variant_name": "time-worn appearance Collapse",
+      "scene": "Feast tables with sun racing across sky. Light changing rapidly. Frost forming. Searchlight still on but overwhelmed.",
+      "variant_id": "9a_story_primary",
+      "videos": [
+        {
+          "filename": "Meta_setting_iceland_202509142237_s7osq.mp4",
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142237_s7osq.mp4"
+        },
+        {
+          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142237_dv6al.mp4",
+          "duration": 8,
+          "filename": "Meta_setting_iceland_202509142237_dv6al.mp4"
+        },
+        {
+          "filename": "Meta_setting_iceland_202509142237_du0fk.mp4",
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142237_du0fk.mp4"
+        },
+        {
+          "filename": "Meta_setting_iceland_202509142237_2ghfq.mp4",
+          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142237_2ghfq.mp4",
+          "duration": 8
+        }
+      ]
     }
   ]
 }
