@@ -1,121 +1,88 @@
 #!/usr/bin/env python3
 """
-Fix incorrect MAGNUS-MASTER plate references according to the mapping.
+Fix character plate descriptions that incorrectly start with references to other plates.
+This was causing multiple characters to show Magnus's description.
 """
 
 import json
 import re
-from pathlib import Path
+from datetime import datetime
+import shutil
 
-def fix_plate_references():
-    plates_file = Path("/Users/ingthor/Documents/stories/appdata/json/7/plates/character_plates_complete.json")
+def create_backup(file_path):
+    """Create timestamped backup of file"""
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    backup_path = f"{file_path}.backup_fix_refs_{timestamp}"
+    shutil.copy2(file_path, backup_path)
+    print(f"Created backup: {backup_path}")
+    return backup_path
 
-    # Read the current file
-    with open(plates_file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+def fix_plate_reference_in_description(description):
+    """Remove plate references from the beginning of descriptions"""
+    # Pattern to match [PLATENAME-VARIANT] at the start of description
+    pattern = r'^\s*\[[A-Z]+-[A-Z]+(?:-[A-Z]+)*\]\s*'
 
-    # Create mapping based on analysis
-    fixes = {
-        # Character plates that should reference their own masters
-        "SIGRID-PURE": {"old": "[MAGNUS-MASTER]", "new": "[SIGRID-MASTER]"},
-        "LILJA-PURE": {"old": "[MAGNUS-MASTER]", "new": "[LILJA-MASTER]"},
-        "GUDRUN-ABUNDANT": {"old": "[MAGNUS-MASTER]", "new": "[GUDRUN-MASTER]"},
-        "JON-MILD": {"old": "[MAGNUS-MASTER]", "new": "[JON-MASTER]"},
-        "MILD": {"old": "[MAGNUS-MASTER]", "new": "[JON-MASTER]"},  # This appears to be a Jon plate
+    # Check if description starts with a plate reference
+    if re.match(pattern, description):
+        # Remove the plate reference from the beginning
+        fixed = re.sub(pattern, '', description)
+        return fixed.strip()
 
-        # Environmental plates
-        "SEA-DIVINE": {"old": "[MAGNUS-MASTER]", "new": "[SEA-MASTER]"},
-        "HOUSE-TRADITIONAL": {"old": "[MAGNUS-MASTER]", "new": "[EXTERIOR-MASTER]"},
-        "WESTFJORDS-SUMMER": {"old": "[MAGNUS-MASTER]", "new": "[WESTFJORDS-MASTER]"},
-        "STOFA-DOMESTIC": {"old": "[MAGNUS-MASTER]", "new": "[BAÐSTOFA-MASTER]"},
-        "BAÐSTOFA-DOMESTIC": {"old": "[MAGNUS-MASTER]", "new": "[BAÐSTOFA-MASTER]"},
-        "WESTFJORDS-WINTER": {"old": "[MAGNUS-MASTER]", "new": "[WESTFJORDS-MASTER]"},
-    }
+    return description
 
-    changes_made = 0
+def fix_plate_descriptions(data):
+    """Fix all plate descriptions in the JSON data"""
+    fixed_count = 0
 
-    # Apply fixes
-    for plate_name, plate_data in data.get("plate_index", {}).items():
-        if plate_name in fixes:
-            description = plate_data.get("description", "")
-            old_ref = fixes[plate_name]["old"]
-            new_ref = fixes[plate_name]["new"]
+    if 'plate_index' in data:
+        for plate_id, plate_data in data['plate_index'].items():
+            if 'description' in plate_data:
+                original = plate_data['description']
+                fixed = fix_plate_reference_in_description(original)
 
-            if old_ref in description:
-                new_description = description.replace(old_ref, new_ref)
-                plate_data["description"] = new_description
-                changes_made += 1
-                print(f"Fixed {plate_name}: {old_ref} -> {new_ref}")
+                if original != fixed:
+                    print(f"Fixing {plate_id}:")
+                    print(f"  - Removed reference from beginning")
+                    # Show first 100 chars of before/after
+                    print(f"  - Before: {original[:100]}...")
+                    print(f"  - After:  {fixed[:100]}...")
+                    print()
+                    plate_data['description'] = fixed
+                    fixed_count += 1
 
-    # Also fix any remaining MAGNUS-MASTER references in environmental or other character plates
-    # by checking character field and applying appropriate fix
-    for plate_name, plate_data in data.get("plate_index", {}).items():
-        if plate_name not in fixes:  # Only check plates not already fixed
-            description = plate_data.get("description", "")
-            character = plate_data.get("character", "")
+    return fixed_count
 
-            if "[MAGNUS-MASTER]" in description:
-                # Determine correct master based on character
-                if character == "Sigrid":
-                    new_description = description.replace("[MAGNUS-MASTER]", "[SIGRID-MASTER]")
-                    plate_data["description"] = new_description
-                    changes_made += 1
-                    print(f"Fixed {plate_name} (Sigrid): [MAGNUS-MASTER] -> [SIGRID-MASTER]")
-                elif character == "Lilja":
-                    new_description = description.replace("[MAGNUS-MASTER]", "[LILJA-MASTER]")
-                    plate_data["description"] = new_description
-                    changes_made += 1
-                    print(f"Fixed {plate_name} (Lilja): [MAGNUS-MASTER] -> [LILJA-MASTER]")
-                elif character == "Gudrun":
-                    new_description = description.replace("[MAGNUS-MASTER]", "[GUDRUN-MASTER]")
-                    plate_data["description"] = new_description
-                    changes_made += 1
-                    print(f"Fixed {plate_name} (Gudrun): [MAGNUS-MASTER] -> [GUDRUN-MASTER]")
-                elif character == "Jon":
-                    new_description = description.replace("[MAGNUS-MASTER]", "[JON-MASTER]")
-                    plate_data["description"] = new_description
-                    changes_made += 1
-                    print(f"Fixed {plate_name} (Jon): [MAGNUS-MASTER] -> [JON-MASTER]")
-                elif character == "Environment":
-                    # For environment plates, try to determine appropriate master
-                    if "SEA" in plate_name.upper() or "WATER" in plate_name.upper():
-                        new_description = description.replace("[MAGNUS-MASTER]", "[SEA-MASTER]")
-                        plate_data["description"] = new_description
-                        changes_made += 1
-                        print(f"Fixed {plate_name} (Environment/Sea): [MAGNUS-MASTER] -> [SEA-MASTER]")
-                    elif "HOUSE" in plate_name.upper() or "EXTERIOR" in plate_name.upper():
-                        new_description = description.replace("[MAGNUS-MASTER]", "[EXTERIOR-MASTER]")
-                        plate_data["description"] = new_description
-                        changes_made += 1
-                        print(f"Fixed {plate_name} (Environment/House): [MAGNUS-MASTER] -> [EXTERIOR-MASTER]")
-                    elif "WESTFJORDS" in plate_name.upper():
-                        new_description = description.replace("[MAGNUS-MASTER]", "[WESTFJORDS-MASTER]")
-                        plate_data["description"] = new_description
-                        changes_made += 1
-                        print(f"Fixed {plate_name} (Environment/Westfjords): [MAGNUS-MASTER] -> [WESTFJORDS-MASTER]")
-                    elif "BAÐSTOFA" in plate_name.upper() or "STOFA" in plate_name.upper():
-                        new_description = description.replace("[MAGNUS-MASTER]", "[BAÐSTOFA-MASTER]")
-                        plate_data["description"] = new_description
-                        changes_made += 1
-                        print(f"Fixed {plate_name} (Environment/Baðstofa): [MAGNUS-MASTER] -> [BAÐSTOFA-MASTER]")
-                    else:
-                        print(f"WARNING: Unhandled environment plate {plate_name} with [MAGNUS-MASTER] reference")
-                else:
-                    print(f"WARNING: Unhandled plate {plate_name} with [MAGNUS-MASTER] reference (character: {character})")
+def main():
+    """Fix character plates with incorrect plate references in descriptions"""
+    file_path = '/Users/ingthor/Documents/stories/appdata/json/7/plates/character_plates_complete.json'
 
-    # Create backup and save
-    backup_file = plates_file.with_suffix('.json.backup')
-    if not backup_file.exists():
-        import shutil
-        shutil.copy2(plates_file, backup_file)
-        print(f"Created backup: {backup_file}")
+    print(f"Processing: {file_path}")
+    print("-" * 50)
 
-    # Write the fixed data
-    with open(plates_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+    try:
+        # Create backup
+        create_backup(file_path)
 
-    print(f"\nCompleted! Made {changes_made} fixes to plate references.")
-    return changes_made
+        # Read JSON
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+
+        # Fix descriptions
+        fixed_count = fix_plate_descriptions(data)
+
+        if fixed_count > 0:
+            print(f"\n✓ Fixed {fixed_count} plate descriptions")
+
+            # Write back
+            with open(file_path, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+
+            print(f"✓ Successfully saved fixes to {file_path}")
+        else:
+            print("No plate references found at beginning of descriptions")
+
+    except Exception as e:
+        print(f"Error processing {file_path}: {e}")
 
 if __name__ == "__main__":
-    fix_plate_references()
+    main()

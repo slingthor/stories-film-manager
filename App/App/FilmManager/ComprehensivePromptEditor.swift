@@ -233,6 +233,9 @@ struct ComprehensivePromptEditor: View {
                     }
                 }
 
+                // Baked Prompts section
+                BakedPromptsSection(variant: currentVariant, shot: shot, filmManager: filmManager)
+
                 // Drop zone for variant
                 VStack {
                     Image(systemName: "square.and.arrow.down")

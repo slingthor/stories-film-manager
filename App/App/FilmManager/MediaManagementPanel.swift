@@ -778,6 +778,9 @@ struct PromptVariantMediaItem: View {
                 }
             }
 
+            // Baked Prompts section
+            BakedPromptsSection(variant: variant, shot: shot, filmManager: filmManager)
+
             // Drop zone - always visible
             VStack {
                 Image(systemName: "square.and.arrow.down.on.square")
@@ -845,10 +848,25 @@ struct PromptVideoRow: View {
             }
 
             VStack(alignment: .leading, spacing: 0) {
-                Text(video.filename)
-                    .font(.caption2)
-                    .lineLimit(1)
-                    .fontWeight(isActive ? .semibold : .regular)
+                HStack(spacing: 4) {
+                    Text(video.filename)
+                        .font(.caption2)
+                        .lineLimit(1)
+                        .fontWeight(isActive ? .semibold : .regular)
+
+                    // Generator label
+                    let generator = VideoGeneratorDetector.detectGenerator(from: video.filename)
+                    if generator != .unknown {
+                        Text(generator.rawValue)
+                            .font(.system(size: 9))
+                            .fontWeight(.medium)
+                            .foregroundColor(.white)
+                            .padding(.horizontal, 4)
+                            .padding(.vertical, 1)
+                            .background(generator.color)
+                            .cornerRadius(3)
+                    }
+                }
 
                 Text("\(String(format: "%.1f", video.duration))s")
                     .font(.caption2)
@@ -1236,10 +1254,27 @@ struct MediaRow: View {
                     .frame(width: 32, height: 18)
             }
 
-            Text(title)
-                .font(.caption)
-                .lineLimit(1)
-            
+            HStack(spacing: 4) {
+                Text(title)
+                    .font(.caption)
+                    .lineLimit(1)
+
+                // Generator label for videos
+                if type == "video" {
+                    let generator = VideoGeneratorDetector.detectGenerator(from: title)
+                    if generator != .unknown {
+                        Text(generator.rawValue)
+                            .font(.system(size: 9))
+                            .fontWeight(.medium)
+                            .foregroundColor(.white)
+                            .padding(.horizontal, 4)
+                            .padding(.vertical, 1)
+                            .background(generator.color)
+                            .cornerRadius(3)
+                    }
+                }
+            }
+
             Spacer()
             
             HStack(spacing: 4) {
@@ -1486,6 +1521,158 @@ struct ComprehensiveImageViewer: View {
     }
 }
 
+
+// MARK: - Baked Prompts Section
+struct BakedPromptsSection: View {
+    @ObservedObject var variant: PromptVariant
+    let shot: FilmShot
+    @ObservedObject var filmManager: FilmManager
+    @State private var showingBakedPromptEditor = false
+    @State private var editingBakedPrompt: BakedPrompt?
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 4) {
+            HStack {
+                Text("Baked Prompts")
+                    .font(.caption2)
+                    .foregroundColor(.green)
+
+                Spacer()
+
+                Button(action: {
+                    let newBakedPrompt = BakedPrompt(name: "Baked Prompt \(variant.bakedPrompts.count + 1)")
+                    variant.bakedPrompts.append(newBakedPrompt)
+                    editingBakedPrompt = newBakedPrompt
+                    showingBakedPromptEditor = true
+
+                    // Save baked prompts metadata and shot
+                    do {
+                        try BakedPromptManager.shared.saveBakedPromptsMetadata(variant.bakedPrompts, for: variant.variantId)
+                        shot.isDirty = true
+                        filmManager.fileManager.saveShot(shot)
+                    } catch {
+                        print("❌ Failed to save baked prompts metadata: \(error)")
+                    }
+                }) {
+                    Image(systemName: "plus.circle.fill")
+                        .font(.caption)
+                        .foregroundColor(.green)
+                }
+                .buttonStyle(.plain)
+            }
+
+            if !variant.bakedPrompts.isEmpty {
+                VStack(spacing: 2) {
+                    ForEach(variant.bakedPrompts) { bakedPrompt in
+                        BakedPromptRow(
+                            bakedPrompt: bakedPrompt,
+                            variant: variant,
+                            shot: shot,
+                            filmManager: filmManager,
+                            onEdit: {
+                                editingBakedPrompt = bakedPrompt
+                                showingBakedPromptEditor = true
+                            }
+                        )
+                    }
+                }
+            } else {
+                Text("No baked prompts")
+                    .font(.caption2)
+                    .foregroundColor(.gray)
+                    .padding(.vertical, 4)
+            }
+        }
+        .sheet(isPresented: $showingBakedPromptEditor) {
+            if let bakedPrompt = editingBakedPrompt {
+                BakedPromptEditor(
+                    bakedPrompt: bakedPrompt,
+                    variant: variant,
+                    shot: shot,
+                    filmManager: filmManager,
+                    onDismiss: {
+                        showingBakedPromptEditor = false
+                        editingBakedPrompt = nil
+                    }
+                )
+            }
+        }
+    }
+}
+
+// MARK: - Baked Prompt Row
+struct BakedPromptRow: View {
+    let bakedPrompt: BakedPrompt
+    @ObservedObject var variant: PromptVariant
+    let shot: FilmShot
+    @ObservedObject var filmManager: FilmManager
+    let onEdit: () -> Void
+
+    var body: some View {
+        HStack(spacing: 4) {
+            Image(systemName: "doc.text.fill")
+                .font(.caption2)
+                .foregroundColor(.green)
+
+            Text(bakedPrompt.name)
+                .font(.caption2)
+                .lineLimit(1)
+
+            if let generator = bakedPrompt.generator {
+                Text("(\(generator))")
+                    .font(.caption2)
+                    .foregroundColor(.gray)
+            }
+
+            Spacer()
+
+            Button(action: onEdit) {
+                Image(systemName: "pencil")
+                    .font(.caption2)
+                    .foregroundColor(.blue)
+            }
+            .buttonStyle(.plain)
+
+            Button(action: {
+                if let content = BakedPromptManager.shared.loadBakedPromptContent(for: bakedPrompt) {
+                    BakedPromptManager.shared.copyToClipboard(content)
+                    print("📋 Copied baked prompt to clipboard")
+                }
+            }) {
+                Image(systemName: "doc.on.clipboard")
+                    .font(.caption2)
+                    .foregroundColor(.orange)
+            }
+            .buttonStyle(.plain)
+
+            Button(action: {
+                // Delete baked prompt
+                if let index = variant.bakedPrompts.firstIndex(where: { $0.id == bakedPrompt.id }) {
+                    BakedPromptManager.shared.deleteBakedPromptContent(for: bakedPrompt)
+                    variant.bakedPrompts.remove(at: index)
+
+                    // Save updated metadata and shot
+                    do {
+                        try BakedPromptManager.shared.saveBakedPromptsMetadata(variant.bakedPrompts, for: variant.variantId)
+                        shot.isDirty = true
+                        filmManager.fileManager.saveShot(shot)
+                    } catch {
+                        print("❌ Failed to save baked prompts metadata after deletion: \(error)")
+                    }
+                }
+            }) {
+                Image(systemName: "trash")
+                    .font(.caption2)
+                    .foregroundColor(.red)
+            }
+            .buttonStyle(.plain)
+        }
+        .padding(.horizontal, 4)
+        .padding(.vertical, 2)
+        .background(Color.green.opacity(0.05))
+        .cornerRadius(4)
+    }
+}
 
 #Preview {
     MediaManagementPanel(

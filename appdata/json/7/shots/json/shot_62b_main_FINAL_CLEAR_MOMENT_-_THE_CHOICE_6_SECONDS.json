@@ -1,23 +1,18 @@
 {
-  "progressive_state" : "Last clarity | Frost 85%â†’95% | Decision point | Watching: Choose what to see",
   "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "id" : "62b",
-    "title" : "FINAL CLEAR MOMENT - THE CHOICE 6 SECONDS",
-    "duration_seconds" : 6,
     "narrative_function" : "Last clarity | Frost 85%â†’95% | Decision point | ...",
-    "stitch_from" : ""
+    "id" : "62b",
+    "duration_seconds" : 6,
+    "sequence_type" : "main_story",
+    "stitch_from" : "",
+    "title" : "FINAL CLEAR MOMENT - THE CHOICE 6 SECONDS"
   },
+  "progressive_state" : "Last clarity | Frost 85%â†’95% | Decision point | Watching: Choose what to see",
   "selected_prompt_index" : 0,
   "aspect_ratio" : "2.39:1",
   "prompt_variants" : [
     {
-      "action" : "Through 15% clear center, FINAL ZOOM. Past obelisk - goodbye monument. Past family in glass - goodbye sacrifice. Through time. To 1944. June 17. Independence vote. Finding: Sigrid. Human again. Old woman. 72 years. Weathered. Beautiful. In voting booth. Pencil in hand that was once wing. Marking \"JÐ\" (YES) on ballot. For independence. For freedom. Tears on her face. Remembering everything. The transformation. The escape. The egg that became her daughter. Who stands beside her. Also voting. Three generations: the sacrifice (in glass), the witness (Sigrid), the free (daughter). Camera holds this. Last clear image. The \"JÐ\" being written. The pencil stroke that ends colonization. Frost creeping: 90%. 92%. 95%. Vision narrowing to just her hand. Just the mark. Just \"JÐ\". The word that changes everything. That makes all sacrifice worth it. That completes the cycle. 95% - almost blind. But saw what mattered.",
-      "variant_id" : "62b_story_primary",
-      "subject" : "In the tiny remaining clear center, the camera must choose what to see last - zooming past obelisk, past preserved family, finding Sigrid-raven in 1944, aged 72, human again, voting \"JÐ\" for independence, tears on weathered face.",
-      "progressive_state" : "",
-      "style" : "Final zoom on crucial moment (that's where the camera is), last clear vision.",
-      "dialogue" : "None - action speaks",
+      "camera_position" : "Final zoom on crucial moment",
       "is_active" : false,
       "selected_plates" : [
         "MAGNUS-RAM",
@@ -28,10 +23,15 @@
         "SEA-ETERNAL",
         "WESTFJORDS-CLIFF"
       ],
-      "camera_position" : "Final zoom on crucial moment",
+      "style" : "Final zoom on crucial moment (that's where the camera is), last clear vision.",
+      "action" : "Through 15% clear center, FINAL ZOOM. Past obelisk - goodbye monument. Past family in glass - goodbye sacrifice. Through time. To 1944. June 17. Independence vote. Finding: Sigrid. Human again. Old woman. 72 years. Weathered. Beautiful. In voting booth. Pencil in hand that was once wing. Marking \"JÐ\" (YES) on ballot. For independence. For freedom. Tears on her face. Remembering everything. The transformation. The escape. The egg that became her daughter. Who stands beside her. Also voting. Three generations: the sacrifice (in glass), the witness (Sigrid), the free (daughter). Camera holds this. Last clear image. The \"JÐ\" being written. The pencil stroke that ends colonization. Frost creeping: 90%. 92%. 95%. Vision narrowing to just her hand. Just the mark. Just \"JÐ\". The word that changes everything. That makes all sacrifice worth it. That completes the cycle. 95% - almost blind. But saw what mattered.",
+      "variant_id" : "62b_story_primary",
       "variant_name" : "Primary - FINAL CLEAR MOMENT - THE CHOICE 6 SECONDS",
+      "subject" : "In the tiny remaining clear center, the camera must choose what to see last - zooming past obelisk, past preserved family, finding Sigrid-raven in 1944, aged 72, human again, voting \"JÐ\" for independence, tears on weathered face.",
+      "negative_prompt" : "",
       "scene" : "1944 voting booth. Sigrid's aged hand. Independence ballot. \"JÐ\" being marked.",
-      "negative_prompt" : ""
+      "progressive_state" : "",
+      "dialogue" : "None - action speaks"
     }
   ]
 }

@@ -1,21 +1,28 @@
 {
-  "progressive_state" : "Alone on poisoned water | Nothing gained | Camera frost 23.5% | Futility revealed | Watching: Only ravens remain",
   "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "id" : "36",
-    "title" : "THE EMPTY VICTORY - CIRCULAR REVELATION 8 SECONDS",
-    "duration_seconds" : 8,
     "narrative_function" : "Alone on poisoned water | Nothing gained | Camera ...",
-    "stitch_from" : ""
+    "id" : "36",
+    "duration_seconds" : 8,
+    "sequence_type" : "main_story",
+    "stitch_from" : "",
+    "title" : "THE EMPTY VICTORY - CIRCULAR REVELATION 8 SECONDS"
   },
+  "progressive_state" : "Alone on poisoned water | Nothing gained | Camera frost 23.5% | Futility revealed | Watching: Only ravens remain",
   "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "subject" : "Camera beginning tight on [MAGNÚS]'s face then slowly pulling back while rotating 360° around his boat, revealing the complete emptiness of the fjord - no ships, no birds except seven ravens above, just poisoned green-black water stretching to every horizon, his face aging years in seconds as he comprehends his victory is absolute defeat.",
-      "negative_prompt" : "no cuts during rotation, continuous movement, show aging in real-time, maintain 360° circle",
-      "dialogue" : "(Magnús, beginning): \"Ð‰g vann...\" (I won...) (Midway through rotation): \"Nei...\" (Completion, whispered): \"Hvað vann ég?\" (What did I win?)",
+      "style" : "360° continuous rotation with pullback, starting ECU ending extreme wide (that's where the camera is), choreographed loneliness.",
       "scene" : "Center of fjord, 9:25 AM. Poisoned water spreading. No life visible except ravens. Mountains reflected in toxic water.",
+      "variant_id" : "36_story_primary",
+      "variant_name" : "Primary - THE EMPTY VICTORY - CIRCULAR REVELATION 8 SECONDS",
+      "action" : "CAMERA BEGINS on Magnús's face in close-up - triumph draining to horror. PULLS BACK while starting clockwise rotation. First quarter turn: reveals his 0Hz hands still gripping useless rifle, two bullets remaining. Second quarter: shows poisoned wake, green-black trail 50 meters wide where trawler passed, water actually steaming toxic vapors. Third quarter: empty horizon toward house - tiny structure barely visible, smoke starting again but black now. Final quarter: completing circle to his face but WIDER now, showing him tiny in vast poisoned emptiness. During rotation, his face visibly ages - hair whitening at roots spreading outward, new lines carving deep, eyes sinking. Above, seven ravens maintain perfect spiral, their shadows on water creating mandala pattern. Through clear water between poison: seafloor visible, completely barren, trawl scars now filling with green-black contamination. The victory cost everything.",
+      "progressive_state" : "",
+      "subject" : "Camera beginning tight on [MAGNÚS]'s face then slowly pulling back while rotating 360° around his boat, revealing the complete emptiness of the fjord - no ships, no birds except seven ravens above, just poisoned green-black water stretching to every horizon, his face aging years in seconds as he comprehends his victory is absolute defeat.",
+      "dialogue" : "(Magnús, beginning): \"Ð‰g vann...\" (I won...) (Midway through rotation): \"Nei...\" (Completion, whispered): \"Hvað vann ég?\" (What did I win?)",
+      "camera_position" : "360° continuous rotation with pullback, starting ECU ending extreme wide",
+      "negative_prompt" : "no cuts during rotation, continuous movement, show aging in real-time, maintain 360° circle",
+      "is_active" : false,
       "selected_plates" : [
         "MAGNUS-WOUNDED",
         "SIGRID-ORACLE",
@@ -24,14 +31,7 @@
         "GUDRUN-PRODUCING",
         "SEA-BATTLE",
         "WESTFJORDS-FJORD"
-      ],
-      "progressive_state" : "",
-      "style" : "360° continuous rotation with pullback, starting ECU ending extreme wide (that's where the camera is), choreographed loneliness.",
-      "is_active" : false,
-      "camera_position" : "360° continuous rotation with pullback, starting ECU ending extreme wide",
-      "action" : "CAMERA BEGINS on Magnús's face in close-up - triumph draining to horror. PULLS BACK while starting clockwise rotation. First quarter turn: reveals his 0Hz hands still gripping useless rifle, two bullets remaining. Second quarter: shows poisoned wake, green-black trail 50 meters wide where trawler passed, water actually steaming toxic vapors. Third quarter: empty horizon toward house - tiny structure barely visible, smoke starting again but black now. Final quarter: completing circle to his face but WIDER now, showing him tiny in vast poisoned emptiness. During rotation, his face visibly ages - hair whitening at roots spreading outward, new lines carving deep, eyes sinking. Above, seven ravens maintain perfect spiral, their shadows on water creating mandala pattern. Through clear water between poison: seafloor visible, completely barren, trawl scars now filling with green-black contamination. The victory cost everything.",
-      "variant_id" : "36_story_primary",
-      "variant_name" : "Primary - THE EMPTY VICTORY - CIRCULAR REVELATION 8 SECONDS"
+      ]
     }
   ]
 }

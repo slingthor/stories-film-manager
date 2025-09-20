@@ -287,6 +287,40 @@ class FilmManager: ObservableObject {
                         variant.activeVideoIndex = activeVideoIndex
                     }
 
+                    // Load baked prompts from separate metadata file
+                    if let metadataFile = prompt["baked_prompts_metadata_file"] as? String {
+                        variant.bakedPrompts = BakedPromptManager.shared.loadBakedPromptsMetadata(for: variant.variantId)
+                        print("📝 Shot \(id) variant: loaded \(variant.bakedPrompts.count) baked prompts from metadata file")
+                    } else {
+                        // Fallback: try legacy inline format for backward compatibility
+                        if let bakedPromptsJSON = prompt["baked_prompts"] as? [[String: Any]] {
+                            variant.bakedPrompts = []
+                            for bakedPromptJSON in bakedPromptsJSON {
+                                if let idString = bakedPromptJSON["id"] as? String,
+                                   let id = UUID(uuidString: idString),
+                                   let name = bakedPromptJSON["name"] as? String,
+                                   let createdDateString = bakedPromptJSON["created_date"] as? String,
+                                   let modifiedDateString = bakedPromptJSON["modified_date"] as? String {
+
+                                    let formatter = ISO8601DateFormatter()
+                                    let createdDate = formatter.date(from: createdDateString) ?? Date()
+                                    let modifiedDate = formatter.date(from: modifiedDateString) ?? Date()
+                                    let generator = bakedPromptJSON["generator"] as? String
+
+                                    let bakedPrompt = BakedPrompt(
+                                        id: id,
+                                        name: name,
+                                        createdDate: createdDate,
+                                        modifiedDate: modifiedDate,
+                                        generator: generator
+                                    )
+                                    variant.bakedPrompts.append(bakedPrompt)
+                                }
+                            }
+                            print("📝 Shot \(id) variant: loaded \(variant.bakedPrompts.count) baked prompts (legacy format)")
+                        }
+                    }
+
                     shot.promptVariants.append(variant)
                 }
             }
@@ -1007,6 +1041,9 @@ class PromptVariant: ObservableObject, Identifiable {
     @Published var videos: [VideoFile] = []
     @Published var images: [ImageFile] = []
     @Published var activeVideoIndex: Int?  // Which video is active for timeline playback
+
+    // Baked prompts - refined/processed versions of this variant
+    @Published var bakedPrompts: [BakedPrompt] = []
     
     init(variantId: String, name: String, subject: String, action: String, scene: String, style: String) {
         self.variantId = variantId
@@ -1635,17 +1672,23 @@ class PromptVariant: ObservableObject, Identifiable {
                 }
             }
 
-            // Now consolidate plates by character/category to avoid duplicate labels
-            for (character, descriptions) in characterPlatesByCharacter.sorted(by: { $0.key < $1.key }) {
-                let consolidatedDescription = descriptions.joined(separator: " ")
-                plateAdditions += " [\(character) CHARACTER PLATE]: " + consolidatedDescription
-                print("   ✅ Consolidated \(descriptions.count) plate(s) for character '\(character)'")
-            }
-
-            for (category, descriptions) in environmentalPlatesByCategory.sorted(by: { $0.key < $1.key }) {
-                let consolidatedDescription = descriptions.joined(separator: " ")
-                plateAdditions += " [\(category) ENVIRONMENTAL PLATE]: " + consolidatedDescription
-                print("   ✅ Consolidated \(descriptions.count) plate(s) for category '\(category)'")
+            // Now consolidate plates and expand them with descriptions
+            for plateId in sortedPlateIds {
+                // Try character plates first
+                if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
+                    let plateDescription = processPlateWithMaster(charPlate.description, plateId: plateId, plateManager: plateManager)
+                    plateAdditions += " [\(plateId)]: " + plateDescription
+                    print("   ✅ Added expanded character plate: [\(plateId)]")
+                }
+                // Try environmental plates
+                else if let envPlate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
+                    let plateDescription = processPlateWithMaster(envPlate.description, plateId: plateId, plateManager: plateManager)
+                    plateAdditions += " [\(plateId)]: " + plateDescription
+                    print("   ✅ Added expanded environmental plate: [\(plateId)]")
+                }
+                else {
+                    print("   ⚠️  Plate '\(plateId)' not found in any plate collection")
+                }
             }
             
             // Custom plates as fallback
@@ -1777,14 +1820,14 @@ class PromptVariant: ObservableObject, Identifiable {
                 // Try character plates first
                 if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
                     let plateDescription = processPlateWithMaster(charPlate.description, plateId: plateId, plateManager: plateManager)
-                    // Add label for character plates
-                    plateAdditions += " [\(plateId) CHARACTER PLATE]: " + plateDescription
+                    // Add expanded plate with label
+                    plateAdditions += " [\(plateId)]: " + plateDescription
                 }
                 // Try environmental plates
                 else if let envPlate = plateManager.environmentalPlates.first(where: { $0.plateId == plateId }) {
                     let plateDescription = processPlateWithMaster(envPlate.description, plateId: plateId, plateManager: plateManager)
-                    // Add label for environmental plates
-                    plateAdditions += " [\(plateId) ENVIRONMENTAL PLATE]: " + plateDescription
+                    // Add expanded plate with label
+                    plateAdditions += " [\(plateId)]: " + plateDescription
                 }
             }
             
@@ -1800,15 +1843,16 @@ class PromptVariant: ObservableObject, Identifiable {
             }
         }
         
-        // Combine subject with plates more naturally
+        // Keep subject clean, plates will go in their own field
+        promptText += "\(subjectContent)\n\n"
+
+        // SUBJECT REFERENCE PLATES section (new field for character/environment plates)
         if !plateAdditions.isEmpty {
             let cleanPlateAdditions = plateAdditions.trimmingCharacters(in: .whitespacesAndNewlines)
-            if !cleanPlateAdditions.isEmpty && !subjectContent.contains(cleanPlateAdditions.prefix(50)) {
-                subjectContent += " " + cleanPlateAdditions
+            if !cleanPlateAdditions.isEmpty {
+                promptText += "SUBJECT REFERENCE PLATES:\n\(cleanPlateAdditions)\n\n"
             }
         }
-        
-        promptText += "\(subjectContent)\n\n"
         
         // ACTION section
         promptText += "ACTION:\n\(correctCharacterEncoding(action))\n\n"
@@ -1956,11 +2000,35 @@ struct ImageFile: Identifiable {
     let filename: String
     let filepath: String
     let description: String
-    
+
     init(filename: String, filepath: String, description: String = "") {
         self.filename = filename
         self.filepath = filepath
         self.description = description
+    }
+}
+
+struct BakedPrompt: Identifiable, Codable {
+    let id: UUID
+    var name: String
+    var createdDate: Date
+    var modifiedDate: Date
+    var generator: String?  // "veo", "sora", "luma", etc.
+
+    init(name: String = "Untitled Baked Prompt", generator: String? = nil) {
+        self.id = UUID()
+        self.name = name
+        self.createdDate = Date()
+        self.modifiedDate = Date()
+        self.generator = generator
+    }
+
+    init(id: UUID, name: String, createdDate: Date, modifiedDate: Date, generator: String? = nil) {
+        self.id = id
+        self.name = name
+        self.createdDate = createdDate
+        self.modifiedDate = modifiedDate
+        self.generator = generator
     }
 }
 
@@ -3124,6 +3192,17 @@ class FilmFileManager {
             // Save active video index if set
             if let activeVideoIndex = variant.activeVideoIndex {
                 variantDict["active_video_index"] = activeVideoIndex
+            }
+
+            // Save baked prompts metadata to separate file and reference it
+            if !variant.bakedPrompts.isEmpty {
+                do {
+                    try BakedPromptManager.shared.saveBakedPromptsMetadata(variant.bakedPrompts, for: variant.variantId)
+                    variantDict["baked_prompts_metadata_file"] = "\(variant.variantId)_metadata.json"
+                    print("🔍 Saving reference to baked prompts metadata for variant \(index)")
+                } catch {
+                    print("❌ Failed to save baked prompts metadata for variant \(index): \(error)")
+                }
             }
 
             promptVariantsJSON.append(variantDict)

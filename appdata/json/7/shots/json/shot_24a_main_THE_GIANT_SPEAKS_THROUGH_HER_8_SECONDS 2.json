@@ -1,24 +1,11 @@
 {
   "progressive_state" : "House 6\/min + 40bpm stuttering | Giant possession | Camera frost 15% | Voice complete | Watching: House IS speaker",
-  "shot_metadata" : {
-    "title" : "THE GIANT SPEAKS THROUGH HER 8 SECONDS",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "narrative_function" : "House 6\/min + 40bpm stuttering | Giant possession ...",
-    "stitch_from" : "",
-    "id" : "24a"
-  },
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "subject" : "[SIGRID]'s mouth moving but the giant's voice emerging from the house itself - 16Hz resonance from walls, floor, beams - as she becomes conduit for Bergrisi's dying call: \"LANDVÐ†TTIR, KOMIÐ\" vibrating through everything, dust falling from ceiling, her body just the focal point of architectural speech.",
-      "dialogue" : "(Giant through everything): \"LANDVÐ†TTIR, KOMIÐ\" (Sigrid fighting): Normal voice breaking through: \"Nei, ekki...\" (Giant overwhelming): \"HJÐLPIÐ OKKUR\"",
-      "is_active" : false,
-      "style" : "Wide shot showing whole house as speaker, Sigrid small at center (that's where the camera is), documentary of possession.",
-      "negative_prompt" : "no subtitles, 16Hz as vibration not sound, show house as speaker, documentary observation",
-      "variant_name" : "Primary - THE GIANT SPEAKS THROUGH HER 8 SECONDS",
+      "variant_id" : "24a_story_primary",
       "action" : "Sigrid's mouth opens wider than should be possible. The word completes: \"LANDVÐ†TTIR\" but not from her throat. From walls - turf vibrating. From floor - packed earth speaking. From beams - giant's ribs resonating. 16Hz below hearing, felt in bones, teeth, eyes. Her body rigid, back arched, hands spread, conduit not source. \"KOMIÐ\" emerges from everywhere. Dust cascades from ceiling with each syllable. The three beams (ribs) flex visibly, showing pink tissue beneath wood for split second. Windows vibrate in frames, frost cracking off in sheets. Guðrún crawls backward, mouth open in silent scream. Children grip each other, Jón's fever breaking in sudden sweat, Lilja's eyes rolled back showing whites. Empty clothes standing fully upright, breathing matching house rhythm. Sigrid's eyes remain conscious, terrified - she's aware but not in control. Baby's heartbeat visible as red strobe through dress: 160bpm.",
-      "camera_position" : "Wide shot showing whole house as speaker, Sigrid small at center",
-      "scene" : "Interior becoming speaker. Walls showing stress cracks from vibration. Dust thick in air. Temperature dropping with each word.",
+      "negative_prompt" : "no subtitles, 16Hz as vibration not sound, show house as speaker, documentary observation",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-SUMMONING",
@@ -27,10 +14,23 @@
         "GUDRUN-PRODUCING",
         "BAÐSTOFA-BODY"
       ],
+      "dialogue" : "(Giant through everything): \"LANDVÐ†TTIR, KOMIÐ\" (Sigrid fighting): Normal voice breaking through: \"Nei, ekki...\" (Giant overwhelming): \"HJÐLPIÐ OKKUR\"",
+      "is_active" : false,
+      "variant_name" : "Primary - THE GIANT SPEAKS THROUGH HER 8 SECONDS",
+      "scene" : "Interior becoming speaker. Walls showing stress cracks from vibration. Dust thick in air. Temperature dropping with each word.",
       "progressive_state" : "",
-      "variant_id" : "24a_story_primary"
+      "camera_position" : "Wide shot showing whole house as speaker, Sigrid small at center",
+      "subject" : "[SIGRID]'s mouth moving but the giant's voice emerging from the house itself - 16Hz resonance from walls, floor, beams - as she becomes conduit for Bergrisi's dying call: \"LANDVÐ†TTIR, KOMIÐ\" vibrating through everything, dust falling from ceiling, her body just the focal point of architectural speech.",
+      "style" : "Wide shot showing whole house as speaker, Sigrid small at center (that's where the camera is), documentary of possession."
     }
   ],
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3"
+  "aspect_ratio" : "4:3",
+  "shot_metadata" : {
+    "title" : "THE GIANT SPEAKS THROUGH HER 8 SECONDS",
+    "stitch_from" : "",
+    "id" : "24a",
+    "narrative_function" : "House 6\/min + 40bpm stuttering | Giant possession ...",
+    "sequence_type" : "main_story",
+    "duration_seconds" : 8
+  }
 }
