@@ -1,17 +1,17 @@
 {
-  "last_updated" : "2025-09-20T07:20:51Z",
+  "last_updated" : "2025-09-20T07:22:51Z",
   "tracking_systems" : {
     "spatial_impossibilities" : {
       "description" : "Mathematical physics violations spreading",
       "current_percentage" : 25
     },
     "reality_coherence" : {
-      "description" : "Stability of physical laws and logic",
-      "current_percentage" : 65
+      "current_percentage" : 65,
+      "description" : "Stability of physical laws and logic"
     },
     "breathing_coordination" : {
-      "description" : "Family respiratory synchronization progression",
-      "current_percentage" : 32
+      "current_percentage" : 32,
+      "description" : "Family respiratory synchronization progression"
     },
     "house_consciousness" : {
       "description" : "Bergrisi awareness and biological responses",
@@ -26,8 +26,8 @@
       "current_percentage" : 15
     },
     "hakarl_contamination" : {
-      "current_percentage" : 18,
-      "description" : "Traditional food corruption enabling breakdown"
+      "description" : "Traditional food corruption enabling breakdown",
+      "current_percentage" : 18
     },
     "character_shadow_behavior" : {
       "description" : "Shadow physics revealing animal truth",
@@ -46,8 +46,8 @@
       "description" : "British\/Danish imperial materials spreading"
     },
     "klettagja_formation" : {
-      "current_percentage" : 15,
-      "description" : "Cliff cleft development for Sigrid's escape"
+      "description" : "Cliff cleft development for Sigrid's escape",
+      "current_percentage" : 15
     },
     "temperature_progression" : {
       "description" : "Environmental and body temperature changes",
