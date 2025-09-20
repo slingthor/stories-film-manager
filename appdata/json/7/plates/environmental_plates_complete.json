@@ -1,9 +1,9 @@
 {
   "plate_index" : {
     "STOFA-ORGANIC" : {
+      "name" : "Stofa Organic",
       "category" : "Interior",
-      "description" : "[BAÐSTOFA-ORGANIC] with obvious biological nature - driftwood beams flexing clearly like ribs during house breathing, ship carvings appearing to move slightly with wood flex, turf walls showing blood vessel patterns in straw with subtle red coloration, floor warm spots pulsing visibly with 60bpm heartbeat, lamp flame dancing in rhythm with house breathing cycle, wall movement obvious (2-inch expansion) creating architectural breathing visible to camera, temperature stabilizing at -1°C as consciousness fully awakens, acoustic properties suggesting organic interior rather than constructed space, ceiling feeling higher though measuring 6ft, window frost clearing\/fogging with house breathing cycle",
-      "name" : "Stofa Organic"
+      "description" : "[BAÐSTOFA-ORGANIC] with obvious biological nature - driftwood beams flexing clearly like ribs during house breathing, ship carvings appearing to move slightly with wood flex, turf walls showing blood vessel patterns in straw with subtle red coloration, floor warm spots pulsing visibly with 60bpm heartbeat, lamp flame dancing in rhythm with house breathing cycle, wall movement obvious (2-inch expansion) creating architectural breathing visible to camera, temperature stabilizing at -1°C as consciousness fully awakens, acoustic properties suggesting organic interior rather than constructed space, ceiling feeling higher though measuring 6ft, window frost clearing\/fogging with house breathing cycle"
     },
     "SEA-SEDUCTIVE" : {
       "name" : "Sea Seductive",
@@ -11,19 +11,19 @@
       "description" : "[SEA-CONTAMINATED] creating false attraction - contaminated water appearing more beautiful than house destination through rainbow oil contamination patterns, surface iridescence creating hypnotic visual display, temperature 10°C impossibly warm suggesting comfort, underwater showing false abundance through contamination shimmer, bioluminescence from dying organisms creating seductive light show, surface tension creating jewel-like droplets, acoustic properties producing siren-song harmonics, visibility distorted through contamination creating fantasy visions, polynya edges decorated with frost flowers, maritime environment performing beauty to mask death, trawler lights reflecting through contamination creating aurora-like display"
     },
     "HOUSE-APPROACH" : {
+      "name" : "House Approach",
       "category" : "Exterior",
-      "description" : "[Þórláksson house] focusing on destination perspective - traditional Icelandic turf house appearing through weather at 100m distance, rectangular structure 8×12m with thick turf walls and grass-covered roof merging with landscape, single chimney releasing smoke bent horizontal by wind, wooden door visible as dark rectangle in turf wall face, small glass window reflecting grey sky, house positioned on slight rise above fjord for drainage, protective cliff face 200m behind providing wind shelter, path worn in volcanic gravel leading to door showing decades of foot traffic, house breathing subtly visible as walls expand 2 inches with 12\/min rhythm, structure appearing both welcoming shelter and threatening trap depending on approach angle, organic architecture suggesting living consciousness within traditional construction, immediate surroundings showing signs of domestic activity - chopping block, rope coils, fishing equipment, house scale dwarfed by geological drama of surrounding cliffs and fjord",
-      "name" : "House Approach"
+      "description" : "[Þórláksson house] focusing on destination perspective - traditional Icelandic turf house appearing through weather at 100m distance, rectangular structure 8×12m with thick turf walls and grass-covered roof merging with landscape, single chimney releasing smoke bent horizontal by wind, wooden door visible as dark rectangle in turf wall face, small glass window reflecting grey sky, house positioned on slight rise above fjord for drainage, protective cliff face 200m behind providing wind shelter, path worn in volcanic gravel leading to door showing decades of foot traffic, house breathing subtly visible as walls expand 2 inches with 12\/min rhythm, structure appearing both welcoming shelter and threatening trap depending on approach angle, organic architecture suggesting living consciousness within traditional construction, immediate surroundings showing signs of domestic activity - chopping block, rope coils, fishing equipment, house scale dwarfed by geological drama of surrounding cliffs and fjord"
     },
     "STOFA-FRAGMENTING" : {
+      "category" : "Interior",
       "description" : "[BAÐSTOFA-CRYSTALLIZING] with seven-perspective accommodation - architecture existing simultaneously in seven different reality states, obsidian formation creating multi-dimensional cliff interior, klettagjá development enabling escape route while maintaining domestic function, house breathing 40\/min panic as witness mechanism fragments, temperature variable across reality fragments, acoustic properties accommodating seven simultaneous interpretations of identical space, lighting creating seven different illumination patterns for seven witness perspectives, walls showing multiple states of crystallization simultaneously",
-      "name" : "Stofa Fragmenting",
-      "category" : "Interior"
+      "name" : "Stofa Fragmenting"
     },
     "BAÐSTOFA-MONUMENT" : {
       "description" : "[BAÐSTOFA-MONUMENT] crystallization complete - transparent cliff walls revealing family consciousness, perfect geometric architecture, obsidian monument interior, walls pure black obsidian extending 40ft creating perfect klettagjá interior, floor 15° slope with 6-inch black water creating cliff-bottom stream, crack now doorway-sized (3ft) showing complete 'KLETTAGJÁ' inscription, lamp flame reaching ceiling as blue column of crystallization light, house breathing stopped after final exhale, temperature 20°C from completed geological transformation, acoustic properties pure obsidian cliff with perfect cliff echo, window showing exterior monument formation visible to approaching camera, furniture crystallized as geological features within cliff interior",
-      "category" : "Interior",
-      "name" : "Monument"
+      "name" : "Monument",
+      "category" : "Interior"
     },
     "WINTER-GROUND" : {
       "category" : "Exterior",
@@ -36,24 +36,24 @@
       "name" : "Westfjords Ground"
     },
     "SEA-BATTLE" : {
-      "category" : "Sea",
+      "name" : "Sea Battle",
       "description" : "[SEA-EXTRACTED] during divine\/imperial conflict - water surface churning with supernatural disturbance as Jörmungandr preparation begins, temperature fluctuating wildly 2°C-8°C indicating underwater supernatural activity, visibility revealing massive serpent tail following trawler through clear water, surface creating whirlpool formation as serpent bites tail preparation, water behaving as conscious battleground between divine landvættir and imperial extraction forces, underwater pressure creating surface disturbance visible as maritime earthquake, boiling sections despite freezing air temperature indicating supernatural thermal activity, maritime environment choosing sides in cosmic conflict between traditional Iceland and imperial extraction.",
-      "name" : "Sea Battle"
+      "category" : "Sea"
     },
     "WESTFJORDS-WINTER" : {
-      "name" : "Westfjords Winter",
       "category" : "Exterior",
-      "description" : "[WESTFJORDS-MASTER] during Klaki winter maximum - temperature range -18°C to -25°C creating life-threatening cold, northeast wind sustained 40mph with gusts to 60mph channeled through fjord geography creating horizontal ice needle transport, heavy wet snow falling horizontally with zero visibility periods dropping to 20-50 meters making navigation impossible, pack ice extending from shore 2-3km offshore with pressure ridges and ice mountains creating white maze, British trawler GRIMSBY PRIDE barely visible through snow at 1.3 nautical miles appearing as dark serpent coiled against white pack ice"
+      "description" : "[WESTFJORDS-MASTER] during Klaki winter maximum - temperature range -18°C to -25°C creating life-threatening cold, northeast wind sustained 40mph with gusts to 60mph channeled through fjord geography creating horizontal ice needle transport, heavy wet snow falling horizontally with zero visibility periods dropping to 20-50 meters making navigation impossible, pack ice extending from shore 2-3km offshore with pressure ridges and ice mountains creating white maze, British trawler GRIMSBY PRIDE barely visible through snow at 1.3 nautical miles appearing as dark serpent coiled against white pack ice",
+      "name" : "Westfjords Winter"
     },
     "SEA-ETERNAL" : {
       "name" : "Sea Eternal",
-      "description" : "[SEA-ACCUSATION] with transcendent transformation - water surface becoming perfect mirror with zero wave action despite wind, reflecting transformed landscape where house has become 40ft obsidian klettagjá monument, water clarity infinite allowing vision through all ocean depths simultaneously, temporal overlay showing all time periods in water - Viking longships, whaling vessels, modern trawlers existing simultaneously in transparent layers, marine life from all eras visible - extinct great auks swimming alongside contemporary species, Jörmungandr coils visible at extreme depth as geological formation, water serving as consciousness medium connecting all temporal periods, bioluminescence forming runic messages readable from surface, underwater sound creating harmonic convergence at 528Hz crystallization frequency, tide completely still despite moon position, water temperature uniform 37°C matching human body heat, reflection showing truth rather than surface reality - obsidian monument revealing giant bones within, trawler showing serpent nature, landscape revealing mathematical structure",
-      "category" : "Sea"
+      "category" : "Sea",
+      "description" : "[SEA-ACCUSATION] with transcendent transformation - water surface becoming perfect mirror with zero wave action despite wind, reflecting transformed landscape where house has become 40ft obsidian klettagjá monument, water clarity infinite allowing vision through all ocean depths simultaneously, temporal overlay showing all time periods in water - Viking longships, whaling vessels, modern trawlers existing simultaneously in transparent layers, marine life from all eras visible - extinct great auks swimming alongside contemporary species, Jörmungandr coils visible at extreme depth as geological formation, water serving as consciousness medium connecting all temporal periods, bioluminescence forming runic messages readable from surface, underwater sound creating harmonic convergence at 528Hz crystallization frequency, tide completely still despite moon position, water temperature uniform 37°C matching human body heat, reflection showing truth rather than surface reality - obsidian monument revealing giant bones within, trawler showing serpent nature, landscape revealing mathematical structure"
     },
     "STOFA-DESPERATE" : {
-      "category" : "Interior",
       "description" : "[BAÐSTOFA-BODY] with starvation affecting architecture - walls appearing consumable as children attempt eating building materials, driftwood beams showing child teeth marks at 3-4ft height, turf exposed for consumption attempts, floor worn areas from children crawling seeking food, seven warm spots providing minimal heat for starving family, lamp flame weak and guttering, house breathing 8\/min dying rhythm, temperature dropping to -3°C as biological systems fail, acoustic properties hollow from starvation affecting house consciousness, furniture showing gnaw marks from desperate consumption attempts",
-      "name" : "Stofa Desperate"
+      "name" : "Stofa Desperate",
+      "category" : "Interior"
     },
     "SEA-DIVINE" : {
       "description" : "[SEA-MASTER] as willing sacrifice facilitator - water surface mirror-calm despite 15mph wind creating supernatural stillness, North Atlantic waters off Hornstrandir at 30-200m depth maintaining impossible placidity, black water with complete clarity showing seafloor altar formations, temperature 4°C facilitating hypothermia sacrifice, underwater currents arranged in spiral patterns guiding victims, surface tension preventing normal wave formation, reflection perfect showing sky and cliff equally, maritime environment conscious and complicit in sacrifice ritual, visibility unlimited downward revealing previous sacrifice remains, acoustic properties carrying sacrifice sounds to trawler witnesses",
@@ -66,9 +66,9 @@
       "category" : "Interior"
     },
     "WESTFJORDS-INLAND" : {
+      "name" : "Westfjords Inland",
       "category" : "Exterior",
-      "description" : "[WESTFJORDS-MASTER] emphasizing geological drama - tabletop mountain formations with flat summits, volcanic rock architecture suggesting ancient construction, natural stone formations providing minimal shelter, wind patterns creating snow sculpture and transport, landscape acoustic phenomena through geological formation, mountain breathing subtly visible during supernatural response, basalt formations creating geometric patterns suggesting mathematical organization, snow accumulation patterns following geological logic",
-      "name" : "Westfjords Inland"
+      "description" : "[WESTFJORDS-MASTER] emphasizing geological drama - tabletop mountain formations with flat summits, volcanic rock architecture suggesting ancient construction, natural stone formations providing minimal shelter, wind patterns creating snow sculpture and transport, landscape acoustic phenomena through geological formation, mountain breathing subtly visible during supernatural response, basalt formations creating geometric patterns suggesting mathematical organization, snow accumulation patterns following geological logic"
     },
     "STOFA-STIRRING" : {
       "name" : "Stofa Stirring",
@@ -96,14 +96,14 @@
       "description" : "Hornstrandir Peninsula Westfjords location at coordinates 65°31'48\"N 23°47'24\"W, ancient geological landscape formed by basalt volcanic activity showing massive tabletop mountains with sheer cliff faces dropping 300-500 meters directly to sea level, no vegetation except scattered hardy arctic grass in summer, landscape dominated by black volcanic rock formations and grey basalt columns creating natural geometric architecture, dramatic fjord systems with narrow water channels between towering cliff walls, Denmark Strait visible extending toward Greenland coast 300km northeast, pack ice formation visible offshore during winter months (Klaki period), British trawler GRIMSBY PRIDE positioned 1.3 nautical miles offshore appearing serpent-like through distance distortion and horizontal snow interference, nearest human settlement 8km southeast completely invisible across mountain barriers, landscape showing evidence of geological violence through cliff formation, volcanic history, and dramatic erosion patterns creating natural amphitheater geography, snow accumulation on horizontal surfaces only (cliff faces too steep for snow retention), wind patterns channeled through fjord geography creating horizontal snow transport and complex acoustic effects, visibility severely limited by weather conditions and geographical barriers creating complete isolation environment"
     },
     "STOFA-BODY" : {
-      "name" : "Stofa Body",
       "category" : "Interior",
-      "description" : "[BAÐSTOFA-BODY] with full biological revelation - driftwood beams clearly functioning as ribs with visible flex during breathing, ship markings glowing faintly with each heartbeat, turf walls showing obvious circulatory patterns with red\/pink coloration in organic layers, packed earth floor revealing flesh texture beneath soil layer, seven warm spots glowing visibly with organ function, lamp flame breathing in perfect synchronization with house respiratory cycle, wall expansion obvious (3-inch movement) with chest cavity respiratory function, temperature rising to 2°C from biological heat generation, acoustic properties clearly organic with heartbeat bass rhythm and lung-space echo, ceiling feeling higher (8ft sensation) though physically unchanged, window behaving like eye blinking with house breathing"
+      "description" : "[BAÐSTOFA-BODY] with full biological revelation - driftwood beams clearly functioning as ribs with visible flex during breathing, ship markings glowing faintly with each heartbeat, turf walls showing obvious circulatory patterns with red\/pink coloration in organic layers, packed earth floor revealing flesh texture beneath soil layer, seven warm spots glowing visibly with organ function, lamp flame breathing in perfect synchronization with house respiratory cycle, wall expansion obvious (3-inch movement) with chest cavity respiratory function, temperature rising to 2°C from biological heat generation, acoustic properties clearly organic with heartbeat bass rhythm and lung-space echo, ceiling feeling higher (8ft sensation) though physically unchanged, window behaving like eye blinking with house breathing",
+      "name" : "Stofa Body"
     },
     "WESTFJORDS-FJORD" : {
+      "category" : "Exterior",
       "description" : "[WESTFJORDS-MASTER] focusing on maritime elements - deep black fjord water with cliff walls providing dramatic vertical boundaries, pack ice formations creating navigation challenges, trawler positioning for optimal serpentine appearance through distance, wind channeling through fjord creating unique weather patterns, water surface behavior affected by cliff acoustics and wind geometry, ice formation patterns following fjord geography, visibility across water affected by horizontal snow and wind, maritime acoustics amplified by fjord cliff walls",
-      "name" : "Westfjords Fjord",
-      "category" : "Exterior"
+      "name" : "Westfjords Fjord"
     },
     "HOUSE-CRYSTALLIZING" : {
       "category" : "Exterior",
@@ -111,23 +111,23 @@
       "name" : "House Crystallizing"
     },
     "HOUSE-MONUMENT" : {
-      "description" : "[HOUSE-CLIFF] obsidian obelisk commanding landscape - 40ft height creating dramatic silhouette against Westfjords cliffs, transparent obsidian walls revealing family consciousness frozen within, base 16x20ft expanding to 30ft at peak through crystallization geometry, pure black volcanic glass with internal light sources from family souls, no remaining architectural elements only geological monument, window and door merged into single klettagjá opening, positioned as landscape dominant feature visible from sea, interior family arrangement preserved in crystallized formation, eternal monument to transformation completion, impossible geometry suggesting both house and cliff simultaneously",
       "name" : "House Monument",
+      "description" : "[HOUSE-CLIFF] obsidian obelisk commanding landscape - 40ft height creating dramatic silhouette against Westfjords cliffs, transparent obsidian walls revealing family consciousness frozen within, base 16x20ft expanding to 30ft at peak through crystallization geometry, pure black volcanic glass with internal light sources from family souls, no remaining architectural elements only geological monument, window and door merged into single klettagjá opening, positioned as landscape dominant feature visible from sea, interior family arrangement preserved in crystallized formation, eternal monument to transformation completion, impossible geometry suggesting both house and cliff simultaneously",
       "category" : "Exterior"
     },
     "HOUSE-AWAKENING" : {
-      "name" : "House Awakening",
+      "description" : "[EXTERIOR-MASTER] with subtle geological emergence - turf walls beginning to show natural stone stratification beneath organic covering, 16x20ft structure appearing to grow from landscape rather than built upon it, basalt foundation becoming visible through turf erosion, driftwood frame showing subtle movement like breathing rhythm, window frost patterns suggesting eye-like observation, door frame widening subtly with house breathing, smoke hole functioning as breathing aperture, exterior walls showing vein-like patterns in turf layering, building height seeming to vary with consciousness state, positioned as geological outcropping rather than construction, organic consciousness beginning to emerge through architectural disguise",
       "category" : "Exterior",
-      "description" : "[EXTERIOR-MASTER] with subtle geological emergence - turf walls beginning to show natural stone stratification beneath organic covering, 16x20ft structure appearing to grow from landscape rather than built upon it, basalt foundation becoming visible through turf erosion, driftwood frame showing subtle movement like breathing rhythm, window frost patterns suggesting eye-like observation, door frame widening subtly with house breathing, smoke hole functioning as breathing aperture, exterior walls showing vein-like patterns in turf layering, building height seeming to vary with consciousness state, positioned as geological outcropping rather than construction, organic consciousness beginning to emerge through architectural disguise"
+      "name" : "House Awakening"
     },
     "BAÐSTOFA-DOMESTIC" : {
+      "description" : "[BAÐSTOFA-MASTER] traditional turf house interior - three massive driftwood support beams showing carved ship names 'HILDUR' 'RAGNAR' 'ÞÓRR' with nautical symbols weathered into grey wood, turf walls 3ft thick with exposed straw and moss layers in brown\/green\/grey stratification, packed earth floor worn smooth with five depression paths from door to sleeping areas, single 2x2ft south-facing window with bubble-imperfect glass, northeast door 5ft tall requiring ducking entry, central smoke hole 18in diameter lined with flat stones, rectangular pine table 4ft from west wall, east wall sleeping platforms at 1ft\/3ft\/5ft heights, north wall stone hearth with iron pot hook, southwest storage nook 2ft deep, whale oil lamp hanging from chain creating 6ft warm light cone",
       "name" : "Domestic",
-      "category" : "Interior",
-      "description" : "[BAÐSTOFA-MASTER] traditional turf house interior - three massive driftwood support beams showing carved ship names 'HILDUR' 'RAGNAR' 'ÞÓRR' with nautical symbols weathered into grey wood, turf walls 3ft thick with exposed straw and moss layers in brown\/green\/grey stratification, packed earth floor worn smooth with five depression paths from door to sleeping areas, single 2x2ft south-facing window with bubble-imperfect glass, northeast door 5ft tall requiring ducking entry, central smoke hole 18in diameter lined with flat stones, rectangular pine table 4ft from west wall, east wall sleeping platforms at 1ft\/3ft\/5ft heights, north wall stone hearth with iron pot hook, southwest storage nook 2ft deep, whale oil lamp hanging from chain creating 6ft warm light cone"
+      "category" : "Interior"
     },
     "STOFA-CLEFT" : {
-      "name" : "Stofa Cleft",
       "description" : "[BAÐSTOFA-BODY] with klettagjá development - walls beginning vertical striations suggesting cliff rock formation, ceiling appearing higher (10ft sensation) though unmeasured, floor developing 2° slope toward Sigrid's corner where klettagjá will form, hairline crack appearing behind Sigrid's position extending from floor to beam, lamp flame elongating vertically following cliff formation, house breathing at 15\/min anxiety as transformation begins, temperature fluctuating 0° to 5°C with biological stress, acoustic echo suggesting cliff interior rather than house space, window frost forming geometric crystal patterns, seven warm spots clustering toward cliff formation area, organic walls beginning mineral hardening process",
+      "name" : "Stofa Cleft",
       "category" : "Interior"
     },
     "STOFA-DOMESTIC" : {
@@ -141,9 +141,9 @@
       "name" : "House Geological"
     },
     "STOFA-SURVEILLANCE" : {
-      "description" : "[STOFA-DOMESTIC] arranged for optimal family observation - furniture positioned creating sight-lines between all family members, seven warm floor spots creating natural gathering positions, lighting from whale oil lamp creating harsh shadows for surveillance visibility, driftwood beam ship markings appearing to watch family activity, house breathing creating surveillance rhythm coordinating family respiratory patterns, acoustic properties enabling cross-room conversation monitoring, visibility patterns optimized for family member observation",
       "name" : "Stofa Surveillance",
-      "category" : "Interior"
+      "category" : "Interior",
+      "description" : "[STOFA-DOMESTIC] arranged for optimal family observation - furniture positioned creating sight-lines between all family members, seven warm floor spots creating natural gathering positions, lighting from whale oil lamp creating harsh shadows for surveillance visibility, driftwood beam ship markings appearing to watch family activity, house breathing creating surveillance rhythm coordinating family respiratory patterns, acoustic properties enabling cross-room conversation monitoring, visibility patterns optimized for family member observation"
     },
     "STOFA-PEACEFUL" : {
       "description" : "[BAÐSTOFA-ORGANIC] with protective atmosphere - house breathing gently at 12\/min creating peaceful rhythm, seven warm spots glowing softly with protective organ function, lamp flame steady and golden creating intimate lighting for maternal moment, temperature comfortable 3°C with biological warmth, acoustic properties warm and embracing for private conversation, walls appearing most human-like and least threatening, driftwood beams stable and protective, floor smooth and comfortable for family sleeping, house consciousness protective rather than threatening",
@@ -152,8 +152,8 @@
     },
     "HOUSE-DETAIL" : {
       "description" : "[Þórláksson house] extreme close-up on turf construction - layered turf blocks showing stratification of brown peat, green moss, grey volcanic ash creating geological record in walls, individual grass stems visible growing from roof merging building with landscape, gaps between turf blocks stuffed with dried moss and straw for insulation, driftwood door frame weathered grey showing ship origin with faint carved markings, iron door hinges rusted orange-red from salt air exposure, small window panes showing bubble imperfections in handblown glass, walls showing organic texture suggesting flesh beneath earth surface, breathing visible as 2-inch expansion creating gaps that open\/close between turf blocks, wooden elements showing maritime salvage origin - ship planks, mast sections, rope-worn beams, construction quality revealing extreme poverty through makeshift repairs using bones, rope, salvaged materials, organic architecture details suggesting body interior rather than built structure",
-      "name" : "House Detail",
-      "category" : "Exterior"
+      "category" : "Exterior",
+      "name" : "House Detail"
     },
     "WESTFJORDS-CLIFF" : {
       "category" : "Exterior",
@@ -161,9 +161,9 @@
       "name" : "Westfjords Cliff"
     },
     "STOFA-CRYSTALLIZING" : {
-      "category" : "Interior",
       "description" : "[BAÐSTOFA-CLEFT] with obsidian formation accelerating - walls showing black mineral veining through turf structure, vertical striations obvious as cliff formation, ceiling sensation 15ft height with unmeasured reality, floor slope increasing to 5° toward Sigrid's corner, crack behind Sigrid widening to 6mm readable as 'KLETTAGJÁ' formed by natural cliff splitting, lamp flame turning blue-white following crystallization frequency (528Hz), house breathing 20\/min crystallization acceleration, temperature rising to 8°C from transformation heat, acoustic properties pure cliff interior with geological echo, window revealing exterior cliff face development, seven warm spots merging into central geological heat source, obsidian veins spreading through organic walls like infection of geological mineral",
-      "name" : "Stofa Crystallizing"
+      "name" : "Stofa Crystallizing",
+      "category" : "Interior"
     },
     "WESTFJORDS-AERIAL" : {
       "category" : "Exterior",
@@ -181,13 +181,13 @@
       "category" : "Sea"
     },
     "WESTFJORDS-SUMMER" : {
-      "name" : "Westfjords Summer",
       "description" : "[WESTFJORDS-MASTER] during false golden memory - temperature impossible 12-15°C creating shirt-sleeve comfort at subarctic latitude, wind calm 5mph providing gentle breeze instead of survival threat, visibility unlimited with crystal clarity allowing 50km vision across Denmark Strait, pack ice absent with warm blue water reaching shore, basalt cliffs covered with impossible green grass creating Ireland-like landscape, volcanic rock formations decorated with arctic flowers blooming in mathematical patterns, fjord water warm enough for swimming with abundant fish jumping visibly, landscape offering abundance through easy hunting and gathering",
+      "name" : "Westfjords Summer",
       "category" : "Exterior"
     },
     "SEA-ACCUSATION" : {
-      "description" : "[SEA-CONTAMINATED] with serpent mathematics - water creating perfect ouroboros circle as Jörmungandr bites tail, whirlpool formation 100m diameter with trawler at center, temperature fluctuating 2-8°C with serpent movement beneath, underwater visibility showing massive serpent body following circular path, surface mathematics creating impossible spiral geometry, polynya (ice hole) maintaining body temperature despite arctic conditions, water refusing normal physics with reverse currents, acoustic properties carrying serpent heartbeat through water, contamination visible as oil-rainbow patterns, maritime environment weaponized against traditional fishing, British trawler GRIMSBY PRIDE trapped in serpent coil formation",
       "category" : "Sea",
+      "description" : "[SEA-CONTAMINATED] with serpent mathematics - water creating perfect ouroboros circle as Jörmungandr bites tail, whirlpool formation 100m diameter with trawler at center, temperature fluctuating 2-8°C with serpent movement beneath, underwater visibility showing massive serpent body following circular path, surface mathematics creating impossible spiral geometry, polynya (ice hole) maintaining body temperature despite arctic conditions, water refusing normal physics with reverse currents, acoustic properties carrying serpent heartbeat through water, contamination visible as oil-rainbow patterns, maritime environment weaponized against traditional fishing, British trawler GRIMSBY PRIDE trapped in serpent coil formation",
       "name" : "Sea Accusation"
     },
     "HOUSE-CLIFF" : {
@@ -206,9 +206,9 @@
       "name" : "Sea Abundant"
     },
     "EXTERIOR-MASTER" : {
-      "name" : "Exterior Master",
       "category" : "Exterior",
-      "description" : "Small impoverished turf house - 16x20ft exterior dimensions with 8ft height at peak indicating poverty-level construction, turf walls 3ft thick with visible straw and moss in brown\/green stratification showing decades of patching, driftwood frame from shipwreck salvage visible at corners, single 2x2ft south window with recycled glass, northeast door 5ft tall from salvaged ship planking, central smoke hole 18in lined with beach stones, roof turf growing wild grass in summer, walls showing multiple repair generations, positioned on slight rise above storm surge level, path worn by generations of footsteps, completely normal appearance hiding supernatural nature"
+      "description" : "Small impoverished turf house - 16x20ft exterior dimensions with 8ft height at peak indicating poverty-level construction, turf walls 3ft thick with visible straw and moss in brown\/green stratification showing decades of patching, driftwood frame from shipwreck salvage visible at corners, single 2x2ft south window with recycled glass, northeast door 5ft tall from salvaged ship planking, central smoke hole 18in lined with beach stones, roof turf growing wild grass in summer, walls showing multiple repair generations, positioned on slight rise above storm surge level, path worn by generations of footsteps, completely normal appearance hiding supernatural nature",
+      "name" : "Exterior Master"
     },
     "SEA-CONTAMINATED" : {
       "category" : "Sea",
@@ -221,9 +221,9 @@
       "category" : "Exterior"
     },
     "STOFA-RECORDING" : {
-      "description" : "[BAÐSTOFA-BODY] with trauma absorption capability - turf walls absorbing violence energy into organic structure, driftwood beams recording violence through wood grain darkening, floor receiving violence vibration and storing trauma in packed earth, house breathing 25\/min panic response to domestic violence, temperature fluctuating wildly with biological stress, acoustic properties recording and replaying violence sounds from previous timeframes, walls developing trauma scarring where shadow violence creates physical V-notch marks, seven warm spots cooling during violence indicating organ shock response",
       "name" : "Stofa Recording",
-      "category" : "Interior"
+      "category" : "Interior",
+      "description" : "[BAÐSTOFA-BODY] with trauma absorption capability - turf walls absorbing violence energy into organic structure, driftwood beams recording violence through wood grain darkening, floor receiving violence vibration and storing trauma in packed earth, house breathing 25\/min panic response to domestic violence, temperature fluctuating wildly with biological stress, acoustic properties recording and replaying violence sounds from previous timeframes, walls developing trauma scarring where shadow violence creates physical V-notch marks, seven warm spots cooling during violence indicating organ shock response"
     },
     "BAÐSTOFA-ORGANIC" : {
       "name" : "Organic",
@@ -237,11 +237,11 @@
     },
     "STOFA-MONUMENT" : {
       "name" : "Stofa Monument",
-      "category" : "Interior",
-      "description" : "[BAÐSTOFA-CLIFF] with crystallization complete - walls pure black obsidian extending 40ft creating perfect klettagjá interior, floor 15° slope with 6-inch black water creating cliff-bottom stream, crack now doorway-sized (3ft) showing complete 'KLETTAGJÁ' inscription, lamp flame reaching ceiling as blue column of crystallization light, house breathing stopping after final exhale, temperature 20°C from completed geological transformation, acoustic properties pure obsidian cliff with perfect cliff echo, window showing exterior monument formation visible to approaching camera, furniture crystallized as geological features within cliff interior, seven warm spots merged into single underground geothermal source, obsidian transformation 100% complete with family visible as conscious figures within transparent volcanic glass walls"
+      "description" : "[BAÐSTOFA-CLIFF] with crystallization complete - walls pure black obsidian extending 40ft creating perfect klettagjá interior, floor 15° slope with 6-inch black water creating cliff-bottom stream, crack now doorway-sized (3ft) showing complete 'KLETTAGJÁ' inscription, lamp flame reaching ceiling as blue column of crystallization light, house breathing stopping after final exhale, temperature 20°C from completed geological transformation, acoustic properties pure obsidian cliff with perfect cliff echo, window showing exterior monument formation visible to approaching camera, furniture crystallized as geological features within cliff interior, seven warm spots merged into single underground geothermal source, obsidian transformation 100% complete with family visible as conscious figures within transparent volcanic glass walls",
+      "category" : "Interior"
     }
   },
-  "last_updated" : "2025-09-20T02:29:29Z",
+  "last_updated" : "2025-09-20T02:33:29Z",
   "_complete_system" : true,
   "_total_plates" : 48
 }

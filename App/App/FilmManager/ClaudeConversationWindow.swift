@@ -375,7 +375,7 @@ struct ClaudeConversationWindow: View {
         }
     }
 
-    private func prepareConversationContext(completion: ([String: String], String) -> Void) {
+    private func prepareConversationContext(completion: (ClaudeContext, String) -> Void) {
         // Force include current shot when modifying
         if conversationIntent == "modifyShot" {
             contextBuilder.includeCurrentShot = true
@@ -383,7 +383,7 @@ struct ClaudeConversationWindow: View {
 
         var context = contextBuilder.buildContext(for: shot, filmManager: filmManager)
 
-        // For Luma shortening, generate and add the fully resolved prompt
+        // For Luma shortening, add the fully resolved prompt to the context
         if conversationIntent == "shortenForLuma" {
             if shot.selectedPromptIndex < shot.promptVariants.count {
                 let cleanPrompt = shot.promptVariants[shot.selectedPromptIndex].generateCleanPrompt(
@@ -391,8 +391,10 @@ struct ClaudeConversationWindow: View {
                     plateManager: filmManager.plateManager
                 )
 
-                // Add the fully resolved prompt to context
-                context["05_LUMA_PROMPT.txt"] = """
+                // Add the fully resolved prompt to the shot context
+                let lumaPrompt = """
+
+                =================================
                 FULLY RESOLVED PROMPT TO SHORTEN
                 =================================
                 Shot: \(shot.id) - \(shot.title)
@@ -407,8 +409,12 @@ struct ClaudeConversationWindow: View {
                 \(cleanPrompt)
 
                 =================================
-                END OF PROMPT
+                END OF PROMPT TO SHORTEN
+                =================================
                 """
+
+                // Append to shot context
+                context.shotContext += lumaPrompt
             }
         }
 
@@ -436,7 +442,8 @@ struct ClaudeConversationWindow: View {
             ✂️ INTENT: SHORTEN FOR LUMA DREAM MACHINE
             Your task is to shorten the fully resolved prompt to under 2015 characters.
 
-            The file 05_LUMA_PROMPT.txt contains the complete, fully resolved prompt with all plates already expanded.
+            The fully resolved prompt (with all plates already expanded) is provided at the end of the shot context section.
+            Look for "FULLY RESOLVED PROMPT TO SHORTEN" section.
 
             SHORTENING PRIORITY (in order):
             1. First: Reduce descriptions in specialized character/environmental plates while preserving master plates for consistency
