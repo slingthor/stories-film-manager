@@ -1,24 +1,13 @@
 {
-  "shot_metadata" : {
-    "duration_seconds" : 6,
-    "narrative_function" : "Giant dying | Truth spoken | Camera frost 43.5% | ...",
-    "stitch_from" : "",
-    "title" : "THE DYING CONFESSION - SACRIFICE REVEALED 6 SECONDS",
-    "id" : "53b",
-    "sequence_type" : "main_story"
-  },
-  "progressive_state" : "Giant dying | Truth spoken | Camera frost 43.5% | Death rattle | Watching: All understand",
   "prompt_variants" : [
     {
-      "variant_name" : "Primary - THE DYING CONFESSION - SACRIFICE REVEALED 6 SECONDS",
       "scene" : "Interior becoming obviously body cavity. Deterioration visible. Giant's sacrifice manifesting.",
-      "camera_position" : "Push through speaking architecture",
+      "dialogue" : "(House, through materials): \"Ð‰g dey... fyrir ykkur...\" \"Til að þið getið breyst\" (Sigrid, understanding): \"Þú ert að gefa okkur leið út\"",
+      "negative_prompt" : "",
       "is_active" : false,
       "subject" : "The house continuing its confession through grinding stone and creaking wood: \"Ð‰g dey... fyrir ykkur... til að þið getið breyst\" (I die... for you... so you can transform), revealing the giant's death enables their metamorphosis.",
-      "action" : "PUSH THROUGH vibrating space toward center. House speaks through materials: stone foundation grinding forms \"Ð‰G DEY,\" wood beams creaking spell \"FYRIR YKKUR,\" turf walls breathing whisper \"TIL AÐ ÞIÐ GETIÐ BREYST.\" The giant is dying so they can transform - death enabling metamorphosis. Floor shows veins now - red lines pulsing beneath earth, blood vessels visible. Heartbeat dropping: 70bpm... 60... 50. Breathing more labored: 6\/min... 5... 4. With each word, house ages visibly - new cracks spreading, moss falling, stones loosening. The family understands: they're in dying god's body. Their transformation requires his death. Sigrid touches wall, feels pulse weakening. Her hand comes away wet - wall perspiration mixed with blood. The house loves her specifically, dying to free her.",
       "progressive_state" : "",
-      "style" : "Push through speaking architecture (that's where the camera is), sacrifice documented.",
-      "negative_prompt" : "",
+      "camera_position" : "Push through speaking architecture",
       "selected_plates" : [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
@@ -27,10 +16,21 @@
         "GUDRUN-RETURNING",
         "BAÐSTOFA-CRYSTALLIZING"
       ],
+      "action" : "PUSH THROUGH vibrating space toward center. House speaks through materials: stone foundation grinding forms \"Ð‰G DEY,\" wood beams creaking spell \"FYRIR YKKUR,\" turf walls breathing whisper \"TIL AÐ ÞIÐ GETIÐ BREYST.\" The giant is dying so they can transform - death enabling metamorphosis. Floor shows veins now - red lines pulsing beneath earth, blood vessels visible. Heartbeat dropping: 70bpm... 60... 50. Breathing more labored: 6\/min... 5... 4. With each word, house ages visibly - new cracks spreading, moss falling, stones loosening. The family understands: they're in dying god's body. Their transformation requires his death. Sigrid touches wall, feels pulse weakening. Her hand comes away wet - wall perspiration mixed with blood. The house loves her specifically, dying to free her.",
+      "variant_name" : "Primary - THE DYING CONFESSION - SACRIFICE REVEALED 6 SECONDS",
       "variant_id" : "53b_story_primary",
-      "dialogue" : "(House, through materials): \"Ð‰g dey... fyrir ykkur...\" \"Til að þið getið breyst\" (Sigrid, understanding): \"Þú ert að gefa okkur leið út\""
+      "style" : "Push through speaking architecture (that's where the camera is), sacrifice documented."
     }
   ],
-  "aspect_ratio" : "4:3",
-  "selected_prompt_index" : 0
+  "shot_metadata" : {
+    "id" : "53b",
+    "title" : "THE DYING CONFESSION - SACRIFICE REVEALED 6 SECONDS",
+    "narrative_function" : "Giant dying | Truth spoken | Camera frost 43.5% | ...",
+    "duration_seconds" : 6,
+    "sequence_type" : "main_story",
+    "stitch_from" : ""
+  },
+  "progressive_state" : "Giant dying | Truth spoken | Camera frost 43.5% | Death rattle | Watching: All understand",
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3"
 }

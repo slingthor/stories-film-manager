@@ -1,23 +1,24 @@
 {
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
+    "narrative_function" : "House 10\/min + 50bpm | Strength fading | Camera fr...",
+    "sequence_type" : "main_story",
     "id" : "22b",
     "title" : "THE SECOND PULL - DIMINISHING RETURNS",
-    "sequence_type" : "main_story",
     "duration_seconds" : 8,
-    "narrative_function" : "House 10\/min + 50bpm | Strength fading | Camera fr...",
     "stitch_from" : ""
   },
   "aspect_ratio" : "4:3",
-  "selected_prompt_index" : 0,
   "progressive_state" : "House 10\/min + 50bpm | Strength fading | Camera frost 13.5% | Cost accumulating | Watching: Cane standing alone",
   "prompt_variants" : [
     {
-      "dialogue" : "(Counting): \"Ðtján... nítján... tuttugu...\" (Spitting tooth): \"Tönn líka?\" (Teeth too?) (To distant fjord): \"Þrjár manneskjur... ég er ein\" (Three men... I am one)",
-      "variant_id" : "22b_story_primary",
-      "variant_name" : "Primary - THE SECOND PULL - DIMINISHING RETURNS",
-      "style" : "Close on transformation in beam, showing real-time aging (that's where the camera is), documentary of payment due.",
       "scene" : "30 feet from house now, following blood spirals. Temperature -25°C, his body heat dropping. Where blood falls, steam rises then freezes. The cane behind like grave marker, ice roots spreading. Sun trying to rise but clouds building - storm coming. Trawler beam the only reliable light.",
+      "dialogue" : "(Counting): \"Ðtján... nítján... tuttugu...\" (Spitting tooth): \"Tönn líka?\" (Teeth too?) (To distant fjord): \"Þrjár manneskjur... ég er ein\" (Three men... I am one)",
+      "negative_prompt" : "no subtitles, show aging in beam clearly, accumulating cost, documentary observation",
+      "is_active" : false,
+      "subject" : "[MAGNÚS] attempting second pull, waiting for trawler beam to return, but when yellow light hits again the aflausn is weaker - only 10 feet this time - and the cost higher: blood from ears now, a tooth loosening in his mouth, his hair visibly greying in the beam.",
       "progressive_state" : "",
+      "camera_position" : "Close on transformation in beam, showing real-time aging",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
@@ -26,11 +27,10 @@
         "GUDRUN-PRODUCING",
         "BAÐSTOFA-BODY"
       ],
-      "is_active" : false,
-      "camera_position" : "Close on transformation in beam, showing real-time aging",
-      "negative_prompt" : "no subtitles, show aging in beam clearly, accumulating cost, documentary observation",
-      "subject" : "[MAGNÚS] attempting second pull, waiting for trawler beam to return, but when yellow light hits again the aflausn is weaker - only 10 feet this time - and the cost higher: blood from ears now, a tooth loosening in his mouth, his hair visibly greying in the beam.",
-      "action" : "Magnús wipes frozen blood from nose, positions for second pull. Counts trawler rotation: 18... 19... 20 seconds. Light coming. Grips rope, prepared. Beam hits - aflausn returns but diminished. Pulls with supernatural strength but boat only moves 10 feet. Cost immediate: blood from both ears, running down neck, freezing. Spits - blood and a molar, white against red snow. In trawler light, his hair literally greys, brown becoming silver in real-time. Hands shake worse - 5Hz constant now, can barely grip rope. Behind him, his abandoned cane has grown ice roots, 6 inches into ground, becoming permanent. Through window - empty. Family no longer watching, or cannot watch. Only empty clothes remain at glass, breath fogging from inside at 8\/min. Realizes pattern: each pull costs more, gives less. Still 150 meters to fjord. At this rate, will be dead before water."
+      "action" : "Magnús wipes frozen blood from nose, positions for second pull. Counts trawler rotation: 18... 19... 20 seconds. Light coming. Grips rope, prepared. Beam hits - aflausn returns but diminished. Pulls with supernatural strength but boat only moves 10 feet. Cost immediate: blood from both ears, running down neck, freezing. Spits - blood and a molar, white against red snow. In trawler light, his hair literally greys, brown becoming silver in real-time. Hands shake worse - 5Hz constant now, can barely grip rope. Behind him, his abandoned cane has grown ice roots, 6 inches into ground, becoming permanent. Through window - empty. Family no longer watching, or cannot watch. Only empty clothes remain at glass, breath fogging from inside at 8\/min. Realizes pattern: each pull costs more, gives less. Still 150 meters to fjord. At this rate, will be dead before water.",
+      "variant_name" : "Primary - THE SECOND PULL - DIMINISHING RETURNS",
+      "variant_id" : "22b_story_primary",
+      "style" : "Close on transformation in beam, showing real-time aging (that's where the camera is), documentary of payment due."
     }
   ]
 }

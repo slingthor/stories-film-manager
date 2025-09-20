@@ -1,24 +1,13 @@
 {
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "narrative_function" : "House 3\/min + 40bpm weak | Children seeing truth |...",
-    "stitch_from" : "",
-    "title" : "THE CHILDRENS ACCEPTANCE - DUAL FOCUS REVELATION 8 SECONDS",
-    "id" : "41",
-    "sequence_type" : "main_story"
-  },
-  "progressive_state" : "House 3\/min + 40bpm weak | Children seeing truth | Camera frost 26.5% | Future accepting past | Watching: Through innocent eyes",
   "prompt_variants" : [
     {
-      "variant_name" : "Primary - THE CHILDRENS ACCEPTANCE - DUAL FOCUS REVELATION 8 SECONDS",
       "scene" : "Children's positions in réttir, 9:40 AM. Both positioned as lambs would be - protected but marked. Light through smoke creating layers.",
-      "camera_position" : "Rapid rack focus between subjects, shallow depth of field isolating each child",
+      "dialogue" : "(Jón, tracing): \"Hamr... var alltaf hamr\" (Shape... was always shape) (Lilja, changed song): \"Kindur svaf í klettagjá\" (Both together): \"Við vitum\" (We know)",
+      "negative_prompt" : "maintain focus pulling rhythm, no static shots, show teeth clearly",
       "is_active" : false,
       "subject" : "Camera racking focus between [JÐ“N] and [LILJA] as they sit in their réttir positions, the boy drawing with his finger in floor dust the word \"HAMR\" while the girl arranges wool pulled from her mother's wrists into tiny sheep shapes, both children breathing at 20\/min (lamb rate) while their human teeth are visibly loosening, adult sheep teeth pushing through behind.",
-      "action" : "FOCUS ON JÐ“N: His finger traces \"HAMR\" in dust, but the word appears already carved underneath - he's tracing what was always there. Fever at 39°C makes him see both layers. Opens mouth to breathe, loose baby tooth falls out. Behind it, flat sheep tooth already emerged, white and wide. Doesn't react - expected. RACK TO LILJA: Taking wool her mother unconsciously pulled from wrists, shaping tiny sheep. But shapes match family exactly - ram with curved horns (Magnús), ewe with something on head (Guðrún's faldbúningur), young ewe apart from others (Sigrid). Arranging them in pen formation. RACK TO JÐ“N: Another tooth falls. Catches it, examines. Human tooth in child hand but shadow shows hoof holding it. RACK TO LILJA: Humming Krummi tune but words changed: \"Kindur svaf í klettagjá\" (Sheep slept in rocky cleft). RACK TO BOTH: They look at each other, perfect understanding. Jón: \"Við vitum\" (We know). Lilja nods. They accept. They're the future. This sacrifice enables their children to be human.",
       "progressive_state" : "",
-      "style" : "Rapid rack focus between subjects, shallow depth of field isolating each child (that's where the camera is), documentary of innocent knowing.",
-      "negative_prompt" : "maintain focus pulling rhythm, no static shots, show teeth clearly",
+      "camera_position" : "Rapid rack focus between subjects, shallow depth of field isolating each child",
       "selected_plates" : [
         "MAGNUS-PREDATOR",
         "SIGRID-CORNERED",
@@ -28,10 +17,21 @@
         "BAÐSTOFA-CLEFT",
         "WESTFJORDS-CLIFF"
       ],
+      "action" : "FOCUS ON JÐ“N: His finger traces \"HAMR\" in dust, but the word appears already carved underneath - he's tracing what was always there. Fever at 39°C makes him see both layers. Opens mouth to breathe, loose baby tooth falls out. Behind it, flat sheep tooth already emerged, white and wide. Doesn't react - expected. RACK TO LILJA: Taking wool her mother unconsciously pulled from wrists, shaping tiny sheep. But shapes match family exactly - ram with curved horns (Magnús), ewe with something on head (Guðrún's faldbúningur), young ewe apart from others (Sigrid). Arranging them in pen formation. RACK TO JÐ“N: Another tooth falls. Catches it, examines. Human tooth in child hand but shadow shows hoof holding it. RACK TO LILJA: Humming Krummi tune but words changed: \"Kindur svaf í klettagjá\" (Sheep slept in rocky cleft). RACK TO BOTH: They look at each other, perfect understanding. Jón: \"Við vitum\" (We know). Lilja nods. They accept. They're the future. This sacrifice enables their children to be human.",
+      "variant_name" : "Primary - THE CHILDRENS ACCEPTANCE - DUAL FOCUS REVELATION 8 SECONDS",
       "variant_id" : "41_story_primary",
-      "dialogue" : "(Jón, tracing): \"Hamr... var alltaf hamr\" (Shape... was always shape) (Lilja, changed song): \"Kindur svaf í klettagjá\" (Both together): \"Við vitum\" (We know)"
+      "style" : "Rapid rack focus between subjects, shallow depth of field isolating each child (that's where the camera is), documentary of innocent knowing."
     }
   ],
-  "aspect_ratio" : "4:3",
-  "selected_prompt_index" : 0
+  "shot_metadata" : {
+    "id" : "41",
+    "title" : "THE CHILDRENS ACCEPTANCE - DUAL FOCUS REVELATION 8 SECONDS",
+    "narrative_function" : "House 3\/min + 40bpm weak | Children seeing truth |...",
+    "duration_seconds" : 8,
+    "sequence_type" : "main_story",
+    "stitch_from" : ""
+  },
+  "progressive_state" : "House 3\/min + 40bpm weak | Children seeing truth | Camera frost 26.5% | Future accepting past | Watching: Through innocent eyes",
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3"
 }
