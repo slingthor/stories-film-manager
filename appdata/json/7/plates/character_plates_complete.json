@@ -12,7 +12,7 @@
       "character" : "Magnus",
       "shot_range" : "",
       "is_master" : false,
-      "description" : "[MAGNUS-WOUNDED] with 0Hz transformation - rigid military posture replacing hunched defeat, driftwood cane gripped as weapon with perfect steadiness, torn clothing rearranged to suggest authority restoration, jaw locked with territorial determination, steel-blue eyes showing predator calculation replacing defeat, breathing controlled 8\/min stalking rhythm, hands at perfect 0Hz stillness (no tremor for disturbance tools), facial expression showing domestic predator emergence through territorial male response to failure, beard arranged with aggressive pride, hair pulled back revealing skull bone structure with subtle ram-like angularity."
+      "description" : "[MAGNUS-WOUNDED] with 0Hz transformation - rigid military posture replacing hunched defeat, driftwood cane gripped as weapon with perfect steadiness, torn clothing rearranged to suggest authority restoration, jaw locked with territorial determination, steel-blue eyes showing predator calculation replacing defeat\/min stalking rhythm, hands at perfect 0Hz stillness (no tremor for disturbance tools), facial expression showing domestic predator emergence through territorial male response to failure, beard arranged with aggressive pride, hair pulled back revealing skull bone structure with subtle ram-like angularity."
     },
     "SILENT" : {
       "shot_range" : "Death Journey",
@@ -22,7 +22,7 @@
       "character" : "Gudrun"
     },
     "LILJA-DOLL" : {
-      "description" : " with doll as prophetic communication device - face animated during doll conversation, mouth moving in dialogue with doll's brass button eyes, blue eyes alternating between doll and family, doll positioned for optimal \"observation\" of family activity through brass button surveillance, posture arranged for doll comfort and optimal observation, voice conducting conversations with doll about family transformation approaching, breathing normal child rhythm during doll communication.",
+      "description" : " with doll as prophetic communication device - face animated during doll conversation, mouth moving in dialogue with doll's brass button eyes, blue eyes alternating between doll and family, doll positioned for optimal \"observation\" of family activity through brass button surveillance, posture arranged for doll comfort and optimal observation, voice conducting conversations with doll about family transformation approaching,
       "shot_range" : "",
       "is_master" : false,
       "character" : "Lilja",
@@ -32,14 +32,14 @@
       "is_master" : false,
       "name" : "Gudrun Walking",
       "character" : "Gudrun",
-      "description" : "[GUDRUN-CONDEMNED] during death march - faldbúningur freezing solid creating ice-crown from traditional headdress, grey dress soaked with blood and ice, no apron (left behind), black shawl frozen stiff with horizontal ice formation, wool production 50mm creating visible white trail behind walking path, skeletal frame moving with supernatural determination, posture bent against horizontal wind but spiritually upright, eyes showing liberation mixed with hypothermia beginning, breathing 10\/min slowing with cold, hands blue-white with frostbite but continuing wool production, facial expression showing freedom through death acceptance, brass pin in headdress creating ice anchor-point for frozen crown formation.",
+      "description" : "[GUDRUN-CONDEMNED] during death march - faldbúningur freezing solid creating ice-crown from traditional headdress, grey dress soaked with blood and ice, no apron (left behind), black shawl frozen stiff with horizontal ice formation, wool production 50mm creating visible white trail behind walking path, skeletal frame moving with supernatural determination, posture bent against horizontal wind but spiritually upright, eyes showing liberation mixed with hypothermia beginning\/min slowing with cold, hands blue-white with frostbite but continuing wool production, facial expression showing freedom through death acceptance, brass pin in headdress creating ice anchor-point for frozen crown formation.",
       "shot_range" : ""
     },
     "LILJA-MAPPING" : {
       "shot_range" : "",
       "is_master" : false,
       "name" : "Floor Map Discovery (Shots 11-25)",
-      "description" : "[LILJA-MATHEMATICAL] discovering house consciousness - face bright with discovery of warm floor spots, mouth expressing wonder at house behavior recognition, blue eyes focused intensely on environmental consciousness detection, hair wild from crawling exploration, grey dress dirty from floor contact, brown stockings worn through at knees from house exploration, doll positioned to \"see\" warm spots through brass button eyes, posture crawling and floor-focused, thumb-sucking while concentrating on house discovery, voice excited whisper about house being alive, breathing 25\/min exploration excitement, discovering 37°C warm spots arranged like giant's organ system.",
+      "description" : "[LILJA-MATHEMATICAL] discovering house consciousness - face bright with discovery of warm floor spots, mouth expressing wonder at house behavior recognition, blue eyes focused intensely on environmental consciousness detection, hair wild from crawling exploration, grey dress dirty from floor contact, brown stockings worn through at knees from house exploration, doll positioned to \"see\" warm spots through brass button eyes, posture crawling and floor-focused, thumb-sucking while concentrating on house discovery, voice excited whisper about house being alive\/min exploration excitement, discovering 37°C warm spots arranged like giant's organ system.",
       "character" : "Lilja"
     },
     "GUDRUN-MASTER" : {
@@ -51,7 +51,7 @@
     },
     "MAGNUS-PREPARING" : {
       "character" : "Magnus",
-      "description" : "[MAGNUS-MASTER] layered for survival - brown vaðmál sweater under grey sealskin anorak with hood, wool trousers with multiple patch repairs visible, heavy wool stockings pulled high, thick sealskin boots with metal studs for ice, leather belt with additional tools attached, driftwood cane showing ice-scratches and increased wear at tip, hunched posture against cold elements, jaw working constantly (teeth grinding stress), eyes darting with environmental assessment, breathing 12\/min baseline but occasionally hitching, tremor constant 3Hz when gripping cane handle, facial expression showing forced confidence over growing environmental fear, beard with occasional ice crystal accumulation, hair wild from wind exposure.",
+      "description" : "[MAGNUS-MASTER] layered for survival - brown vaðmál sweater under grey sealskin anorak with hood, wool trousers with multiple patch repairs visible, heavy wool stockings pulled high, thick sealskin boots with metal studs for ice, leather belt with additional tools attached, driftwood cane showing ice-scratches and increased wear at tip, hunched posture against cold elements, jaw working constantly (teeth grinding stress), eyes darting with environmental assessment\/min baseline but occasionally hitching, tremor constant 3Hz when gripping cane handle, facial expression showing forced confidence over growing environmental fear, beard with occasional ice crystal accumulation, hair wild from wind exposure.",
       "is_master" : false,
       "shot_range" : "",
       "name" : "Magnus Preparing"
@@ -79,7 +79,7 @@
     },
     "LILJA-COUNTING" : {
       "name" : "Mathematical Child (Shots 1-10)",
-      "description" : "[LILJA-PURE] recognizing family impossibility - face showing child confusion about adult mathematics, tiny nose detecting mathematical wrongness through environmental changes, mouth forming silent counts along with adults, blue eyes tracking six shadows when five people exist, hair more tangled with increasing stress, grey dress torn hem showing extensive wear, doll clutched desperately with brass button eyes reflecting impossible mathematics, posture hiding during counting moments, thumb-sucking intense during mathematical confusion, voice whispering child observations about counting impossibility, breathing 24\/min child anxiety from mathematical wrongness recognition.",
+      "description" : "[LILJA-PURE] recognizing family impossibility - face showing child confusion about adult mathematics, tiny nose detecting mathematical wrongness through environmental changes, mouth forming silent counts along with adults, blue eyes tracking six shadows when five people exist, hair more tangled with increasing stress, grey dress torn hem showing extensive wear, doll clutched desperately with brass button eyes reflecting impossible mathematics, posture hiding during counting moments, thumb-sucking intense during mathematical confusion, voice whispering child observations about counting impossibility\/min child anxiety from mathematical wrongness recognition.",
       "is_master" : false,
       "character" : "Lilja",
       "shot_range" : ""
@@ -92,7 +92,7 @@
       "is_master" : false
     },
     "GUDRUN-CROWNED" : {
-      "description" : "[GUDRUN-WALKING] with headdress frozen into crown - white faldbúningur completely transformed by ice into elaborate crown architecture with black velvet band creating structural support for ice formation, brass pin serving as anchor point for frozen crown geometry, grey dress frozen stiff with blood and ice creating sculptural garment, wool production 60mm creating white trail visible for kilometers, skeletal frame moving with supernatural dignity despite hypothermia, posture erect despite horizontal wind creating ice-queen bearing, eyes bright with supernatural mission clarity despite hypothermia clouding, breathing 9\/min slowing but controlled, hands black with frostbite but wool production continuing through frozen tissue, facial expression showing profound dignity through death transformation into ice royalty.",
+      "description" : "[GUDRUN-WALKING] with headdress frozen into crown - white faldbúningur completely transformed by ice into elaborate crown architecture with black velvet band creating structural support for ice formation, brass pin serving as anchor point for frozen crown geometry, grey dress frozen stiff with blood and ice creating sculptural garment, wool production 60mm creating white trail visible for kilometers, skeletal frame moving with supernatural dignity despite hypothermia, posture erect despite horizontal wind creating ice-queen bearing, eyes bright with supernatural mission clarity despite hypothermia clouding\/min slowing but controlled, hands black with frostbite but wool production continuing through frozen tissue, facial expression showing profound dignity through death transformation into ice royalty.",
       "name" : "Gudrun Crowned",
       "shot_range" : "",
       "is_master" : false,
@@ -127,7 +127,7 @@
       "is_master" : false
     },
     "MAGNUS-PATHETIC" : {
-      "description" : "[MAGNUS-AGING] with [MAGNUS-WOUNDED] with complete masculine failure - shoulders collapsed entirely, spine curved with defeat, clothing hanging on diminished frame, driftwood cane as full body support preventing collapse, jaw slack with failure shock, eyes completely empty with provider-role death, breathing 7\/min depression verging on sheep rate, tremor at 5Hz complete nervous breakdown, facial expression showing masculine identity completely dissolved, beard matted with defeat and neglect, hair disheveled suggesting mental breakdown through appearance abandonment.",
+      "description" : "[MAGNUS-AGING] with [MAGNUS-WOUNDED] with complete masculine failure - shoulders collapsed entirely, spine curved with defeat, clothing hanging on diminished frame, driftwood cane as full body support preventing collapse, jaw slack with failure shock, eyes completely empty with provider-role death\/min depression verging on sheep rate, tremor at 5Hz complete nervous breakdown, facial expression showing masculine identity completely dissolved, beard matted with defeat and neglect, hair disheveled suggesting mental breakdown through appearance abandonment.",
       "shot_range" : "",
       "is_master" : false,
       "name" : "Magnus Pathetic",
@@ -155,14 +155,14 @@
       "shot_range" : ""
     },
     "GUDRUN-REVEALED" : {
-      "description" : "[GUDRUN-PRODUCING] with wool growth obvious - faldbúningur positioned normally but wrists deliberately exposed, grey dress with sleeves pushed back revealing transformation, brown apron arranged to display rather than conceal wool production, black shawl removed showing full transformation extent, wool threads 40mm self-braiding visibly during observation, malnourished frame enhanced by supernatural productivity, posture proud with biological transformation acceptance, grey-green eyes direct with transformed capability acknowledgment, breathing 14\/min controlled despite revelation stress, hands displaying wool production as testimony rather than concealing as shame, facial expression showing dignity through biological transformation revelation.",
+      "description" : "[GUDRUN-PRODUCING] with wool growth obvious - faldbúningur positioned normally but wrists deliberately exposed, grey dress with sleeves pushed back revealing transformation, brown apron arranged to display rather than conceal wool production, black shawl removed showing full transformation extent, wool threads 40mm self-braiding visibly during observation, malnourished frame enhanced by supernatural productivity, posture proud with biological transformation acceptance, grey-green eyes direct with transformed capability acknowledgment\/min controlled despite revelation stress, hands displaying wool production as testimony rather than concealing as shame, facial expression showing dignity through biological transformation revelation.",
       "name" : "Gudrun Revealed",
       "character" : "Gudrun",
       "shot_range" : "",
       "is_master" : false
     },
     "MAGNUS-SATISFIED" : {
-      "description" : "[MAGNUS-ZERO-HZ] showing disturbance satisfaction - clothing straightened with authority restoration, driftwood cane held with casual confidence, upright posture suggesting dominance reestablished through force, jaw relaxed showing territorial satisfaction, eyes calm with predator contentment, breathing steady 9\/min dominance rhythm, hands remaining 0Hz steady (disturbance capability confirmed), facial expression showing patriarchal order restored through domestic force, beard arranged with conscious masculine pride, hair controlled suggesting authority maintenance through successful intimidation.",
+      "description" : "[MAGNUS-ZERO-HZ] showing disturbance satisfaction - clothing straightened with authority restoration, driftwood cane held with casual confidence, upright posture suggesting dominance reestablished through force, jaw relaxed showing territorial satisfaction, eyes calm with predator contentment\/min dominance rhythm, hands remaining 0Hz steady (disturbance capability confirmed), facial expression showing patriarchal order restored through domestic force, beard arranged with conscious masculine pride, hair controlled suggesting authority maintenance through successful intimidation.",
       "name" : "Magnus Satisfied",
       "character" : "Magnus",
       "shot_range" : "",
@@ -170,7 +170,7 @@
     },
     "MAGNUS-WOUNDED" : {
       "name" : "Magnus Wounded",
-      "description" : "[MAGNUS-AGING] plus fresh maritime injuries - rope burns across palms (red welts with raw skin), hook puncture in right palm with dried blood, frostbite on exposed fingers showing white then blue discoloration, face ice accumulation in real-time, torn clothing from boat work, cane grip modified to avoid injured palm, protective posture favoring wounded hand, jaw tight against pain, eyes watering from cold injury, breathing 14\/min pain response, injured hand causing modified tremor pattern, facial expression mixing physical pain with emotional defeat, beard with blood streaks, hair with ice chunks.",
+      "description" : "[MAGNUS-AGING] plus fresh maritime injuries - rope burns across palms (red welts with raw skin), hook puncture in right palm with dried blood, frostbite on exposed fingers showing white then blue discoloration, face ice accumulation in real-time, torn clothing from boat work, cane grip modified to avoid injured palm, protective posture favoring wounded hand, jaw tight against pain, eyes watering from cold injury\/min pain response, injured hand causing modified tremor pattern, facial expression mixing physical pain with emotional defeat, beard with blood streaks, hair with ice chunks.",
       "character" : "Magnus",
       "shot_range" : "",
       "is_master" : false
@@ -179,18 +179,18 @@
       "character" : "Gudrun",
       "shot_range" : "",
       "name" : "Gudrun Returning",
-      "description" : "[GUDRUN-OFFERING] after divine encounter - faldbúningur ice crown partially melted with blood creating red ice architecture, entire grey dress soaked red creating crimson garment, wool production 70mm now white-red braided with divine change absorbed, skeletal frame moving with supernatural strength despite hypothermia damage, posture upright with mission accomplished dignity, eyes bright with supernatural completion despite hypothermia clouding, breathing slow and steady steady approaching sheep rate, hands black with frostbite but wool production continuing strong, facial expression showing profound satisfaction mixed with physical extremity, V-notch scar prominent through melted ice revealing livestock marking clearly.",
+      "description" : "[GUDRUN-OFFERING] after divine encounter - faldbúningur ice crown partially melted with blood creating red ice architecture, entire grey dress soaked red creating crimson garment, wool production 70mm now white-red braided with divine change absorbed, skeletal frame moving with supernatural strength despite hypothermia damage, posture upright with mission accomplished dignity, eyes bright with supernatural completion despite hypothermia clouding steady approaching sheep rate, hands black with frostbite but wool production continuing strong, facial expression showing profound satisfaction mixed with physical extremity, V-notch scar prominent through melted ice revealing livestock marking clearly.",
       "is_master" : false
     },
     "GUDRUN-OFFERING" : {
       "character" : "Gudrun",
-      "description" : "[GUDRUN-WALKING] at contaminated god encounter - faldbúningur completely frozen into elaborate ice crown preserving traditional shape, grey dress soaked red with blood and black with change, wool production 60mm creating braided trail connecting death-site to house, skeletal frame showing advanced hypothermia with blue-grey skin, posture kneeling with offering dignity despite physical extremity, grey-green eyes clear with supernatural purpose despite hypothermia effects, breathing slow and steady approaching death rhythm, hands blue-black with severe frostbite but maintaining wool offering capability, facial expression showing profound acceptance mixed with supernatural mission completion, V-notch ear scar visible through ice-displaced headdress.",
+      "description" : "[GUDRUN-WALKING] at contaminated god encounter - faldbúningur completely frozen into elaborate ice crown preserving traditional shape, grey dress soaked red with blood and black with change, wool production 60mm creating braided trail connecting death-site to house, skeletal frame showing advanced hypothermia with blue-grey skin, posture kneeling with offering dignity despite physical extremity, grey-green eyes clear with supernatural purpose despite hypothermia effects approaching death rhythm, hands blue-black with severe frostbite but maintaining wool offering capability, facial expression showing profound acceptance mixed with supernatural mission completion, V-notch ear scar visible through ice-displaced headdress.",
       "name" : "Gudrun Offering",
       "is_master" : false,
       "shot_range" : ""
     },
     "GUDRUN-SPEAKING" : {
-      "description" : "[GUDRUN-RECOGNIZING] delivering essential truth - blood-soaked dress hanging properly on sheep-transitioning body, faldbúningur ice crown perfectly fitting changing head proportions, wool production complete with self-braided testimony strands, frame fully adapted to impending quadruped anatomy, posture perfect for final human speech delivery, eyes showing human consciousness through developing sheep anatomy, breathing slow and steady sheep rhythm with human speech capability, voice human words through changing vocal anatomy, facial expression showing profound maternal authority delivering essential truth, V-notch marking clearly visible as livestock identity acknowledged.",
+      "description" : "[GUDRUN-RECOGNIZING] delivering essential truth - blood-soaked dress hanging properly on sheep-transitioning body, faldbúningur ice crown perfectly fitting changing head proportions, wool production complete with self-braided testimony strands, frame fully adapted to impending quadruped anatomy, posture perfect for final human speech delivery, eyes showing human consciousness through developing sheep anatomy sheep rhythm with human speech capability, voice human words through changing vocal anatomy, facial expression showing profound maternal authority delivering essential truth, V-notch marking clearly visible as livestock identity acknowledged.",
       "shot_range" : "",
       "is_master" : false,
       "character" : "Gudrun",
@@ -204,14 +204,14 @@
       "shot_range" : ""
     },
     "MAGNUS-AFLOAT" : {
-      "description" : "[MAGNUS-MASTER] stripped to rowing essentials, vaðmál sweater only, sealskin anorak open, no hat exposing grey hair to elements, cane stored in boat, rowing posture with broad shoulders engaged, jaw working through physical effort, eyes focused on water with traditional hunting intensity, breathing slow and steady work rhythm, hands steady on oars (no tremor during practiced activity), facial expression showing masculine competence in traditional element, beard with sea-spray accumulation, hair wind-blown but controlled through activity focus.",
+      "description" : "[MAGNUS-MASTER] stripped to rowing essentials, vaðmál sweater only, sealskin anorak open, no hat exposing grey hair to elements, cane stored in boat, rowing posture with broad shoulders engaged, jaw working through physical effort, eyes focused on water with traditional hunting intensity work rhythm, hands steady on oars (no tremor during practiced activity), facial expression showing masculine competence in traditional element, beard with sea-spray accumulation, hair wind-blown but controlled through activity focus.",
       "shot_range" : "",
       "name" : "Magnus Afloat",
       "character" : "Magnus",
       "is_master" : false
     },
     "MAGNUS-TRANSITION" : {
-      "description" : "[MAGNUS-MASTER] brown vaðmál sweater showing increased wear with loose threads at cuffs, left elbow mending more prominent with contrasting grey thread creating visible repair patch, charcoal wool trousers with additional small holes developing, sealskin boots showing scuff marks and salt stains, leather belt worn but functional, driftwood cane gripped more frequently with tighter hold, posture beginning slight hunch forward, jaw clenched with increasing tension, eyes showing first flickers of uncertainty, breathing 11\/min mild anxiety rhythm, 3Hz tremor extending to full fingers during counting, facial expression mixing traditional authority with growing worry lines, beard showing grey progression with some white streaks, hair less controlled with loose strands.",
+      "description" : "[MAGNUS-MASTER] brown vaðmál sweater showing increased wear with loose threads at cuffs, left elbow mending more prominent with contrasting grey thread creating visible repair patch, charcoal wool trousers with additional small holes developing, sealskin boots showing scuff marks and salt stains, leather belt worn but functional, driftwood cane gripped more frequently with tighter hold, posture beginning slight hunch forward, jaw clenched with increasing tension, eyes showing first flickers of uncertainty\/min mild anxiety rhythm, 3Hz tremor extending to full fingers during counting, facial expression mixing traditional authority with growing worry lines, beard showing grey progression with some white streaks, hair less controlled with loose strands.",
       "character" : "Magnus",
       "is_master" : false,
       "name" : "Magnus Transition",
@@ -236,7 +236,7 @@
       "shot_range" : "",
       "character" : "Lilja",
       "is_master" : false,
-      "description" : "[LILJA-SENSING] with lullaby modification ability - face serious with prophetic responsibility, mouth carefully shaping evolved lullaby words, blue eyes focused with prophetic sight showing future transformation, hair requiring cutting due to tangling, grey dress showing systematic exploration wear, brown stockings mostly holes held together by wool fibers, doll positioned as audience for prophetic performance, posture upright with prophetic authority despite child size, thumb-sucking eliminated during prophetic singing, voice delivering lullaby evolution changing \"Krummi svaf\" to \"Sigrid flýgur\" predicting sister's raven transformation, breathing 23\/min prophetic intensity creating controlled harmonic delivery."
+      "description" : "[LILJA-SENSING] with lullaby modification ability - face serious with prophetic responsibility, mouth carefully shaping evolved lullaby words, blue eyes focused with prophetic sight showing future transformation, hair requiring cutting due to tangling, grey dress showing systematic exploration wear, brown stockings mostly holes held together by wool fibers, doll positioned as audience for prophetic performance, posture upright with prophetic authority despite child size, thumb-sucking eliminated during prophetic singing, voice delivering lullaby evolution changing \"Krummi svaf\" to \"Sigrid flýgur\" predicting sister's raven transformation\/min prophetic intensity creating controlled harmonic delivery."
     },
     "MAGNUS-FREQUENCY" : {
       "is_master" : false,
@@ -248,7 +248,7 @@
     "SIGRID-KNOWING" : {
       "is_master" : false,
       "name" : "Mathematical Recognition (Shots 1-10)",
-      "description" : "[SIGRID-MARKED] recognizing family counting impossibility - dress tighter around expanding belly (3 months rounded belly visible), posture curved protectively around rounded belly, arms always shielding belly area, grey eyes sharp with mathematical awareness and growing alarm, breathing steady 15\/min human resistance rhythm despite family synchronization pressure, voice deeper soprano with protective maternal authority, facial expression showing analytical intelligence processing impossible mathematics, braids practical and severe, positioned 11 feet from Magnus with calculated precision, wooden cross visible through worn pocket fabric.",
+      "description" : "[SIGRID-MARKED] recognizing family counting impossibility - dress tighter around expanding belly (3 months rounded belly visible), posture curved protectively around rounded belly, arms always shielding belly area, grey eyes sharp with mathematical awareness and growing alarm\/min human resistance rhythm despite family synchronization pressure, voice deeper soprano with protective maternal authority, facial expression showing analytical intelligence processing impossible mathematics, braids practical and severe, positioned 11 feet from Magnus with calculated precision, wooden cross visible through worn pocket fabric.",
       "character" : "Sigrid",
       "shot_range" : ""
     },
@@ -261,7 +261,7 @@
     },
     "MAGNUS-DEFEATED" : {
       "is_master" : false,
-      "description" : "[MAGNUS-WOUNDED] with complete failure recognition - shoulders completely collapsed, cane serving as full body support, torn clothing hanging loose, posture showing total masculine breakdown, jaw slack with shock, eyes empty with thousand-yard failure stare, breathing 7\/min depression approaching sheep rate, tremor at 5Hz from complete nervous breakdown, facial expression showing authority completely dissolved, beard matted with defeat, hair disheveled suggesting mental breakdown through appearance neglect.",
+      "description" : "[MAGNUS-WOUNDED] with complete failure recognition - shoulders completely collapsed, cane serving as full body support, torn clothing hanging loose, posture showing total masculine breakdown, jaw slack with shock, eyes empty with thousand-yard failure stare\/min depression approaching sheep rate, tremor at 5Hz from complete nervous breakdown, facial expression showing authority completely dissolved, beard matted with defeat, hair disheveled suggesting mental breakdown through appearance neglect.",
       "character" : "Magnus",
       "name" : "Magnus Defeated",
       "shot_range" : ""
@@ -270,7 +270,7 @@
       "is_master" : false,
       "character" : "Magnus",
       "shot_range" : "",
-      "description" : "[MAGNUS-AGING] with accumulated winter damage - severe rope burns across palms with visible raw flesh, hook puncture in right palm with dried blood, advanced frostbite on exposed fingers showing white-blue-black progression, face with ice accumulation in facial hair and eyebrows, clothing torn from rough boat work and weather, driftwood cane grip adapted to avoid injured palm, protective posture minimizing exposed injury areas, jaw tight with pain management, eyes watering from cold damage and pain, breathing 14\/min pain response, injured hand creating irregular tremor patterns, facial expression combining physical agony with emotional defeat.",
+      "description" : "[MAGNUS-AGING] with accumulated winter damage - severe rope burns across palms with visible raw flesh, hook puncture in right palm with dried blood, advanced frostbite on exposed fingers showing white-blue-black progression, face with ice accumulation in facial hair and eyebrows, clothing torn from rough boat work and weather, driftwood cane grip adapted to avoid injured palm, protective posture minimizing exposed injury areas, jaw tight with pain management, eyes watering from cold damage and pain\/min pain response, injured hand creating irregular tremor patterns, facial expression combining physical agony with emotional defeat.",
       "name" : "Magnus Damaged"
     },
     "LILJA-WONDERING" : {
@@ -334,7 +334,7 @@
       "character" : "Gudrun",
       "name" : "Gudrun Wearing",
       "shot_range" : "",
-      "description" : "[GUDRUN-ABUNDANT] with growing strain - faldbúningur showing minor dust accumulation, grey dress with small new patches, brown apron with food stains from scarce cooking, black shawl pulled tighter for warmth, first subtle wool threads visible at wrist edges (barely perceptible), thin frame showing early malnutrition effects, posture beginning defensive hunch, grey-green eyes developing anxiety flicker when observing family dynamics, breathing 13\/min mild stress, hands beginning occasional nervous wringing between work tasks, facial expression mixing competence with growing environmental worry, brass ring slightly loose from initial weight loss."
+      "description" : "[GUDRUN-ABUNDANT] with growing strain - faldbúningur showing minor dust accumulation, grey dress with small new patches, brown apron with food stains from scarce cooking, black shawl pulled tighter for warmth, first subtle wool threads visible at wrist edges (barely perceptible), thin frame showing early malnutrition effects, posture beginning defensive hunch, grey-green eyes developing anxiety flicker when observing family dynamics\/min mild stress, hands beginning occasional nervous wringing between work tasks, facial expression mixing competence with growing environmental worry, brass ring slightly loose from initial weight loss."
     },
     "HIDING" : {
       "character" : "Gudrun",
@@ -362,10 +362,10 @@
       "is_master" : false,
       "character" : "Jon",
       "name" : "Jon Mission",
-      "description" : "[JON-PROPHET] with fever directing movement - fever intense fever creating purposeful energy, face animated with prophetic mission, empty tooth sockets clean, hazel eyes bright with vision-directed purpose, hair short revealing changing skull shape, perfectly fitted sweater, posture energetic with fever-driven exploration, trembling minimal with mission focus, voice mixing prophetic human speech with emerging sheep sounds, breathing 21\/min exploration energy, fever visions directing movement toward mathematically significant locations (réttir formation spots, warm floor areas, wall crack development)."
+      "description" : "[JON-PROPHET] with fever directing movement - fever intense fever creating purposeful energy, face animated with prophetic mission, empty tooth sockets clean, hazel eyes bright with vision-directed purpose, hair short revealing changing skull shape, perfectly fitted sweater, posture energetic with fever-driven exploration, trembling minimal with mission focus, voice mixing prophetic human speech with emerging sheep sounds\/min exploration energy, fever visions directing movement toward mathematically significant locations (réttir formation spots, warm floor areas, wall crack development)."
     },
     "SIGRID-MONITORED" : {
-      "description" : "[SIGRID-PURE] during family surveillance web - dress arranged for minimal visibility profile, rounded belly concealed through defensive posturing, posture compressed against wall minimizing physical presence, arms wrapped around torso for protection and concealment, grey eyes tracking all family movement through peripheral vision while appearing to study wall, breathing controlled 15\/min despite surveillance pressure, voice silent except for necessary responses, facial expression showing watchful awareness disguised as wall-study concentration, braids tight and severe to avoid drawing attention, positioned in corner optimizing surveillance observation while minimizing target profile, wooden cross concealed completely within pocket grip.",
+      "description" : "[SIGRID-PURE] during family surveillance web - dress arranged for minimal visibility profile, rounded belly concealed through defensive posturing, posture compressed against wall minimizing physical presence, arms wrapped around torso for protection and concealment, grey eyes tracking all family movement through peripheral vision while appearing to study wall\/min despite surveillance pressure, voice silent except for necessary responses, facial expression showing watchful awareness disguised as wall-study concentration, braids tight and severe to avoid drawing attention, positioned in corner optimizing surveillance observation while minimizing target profile, wooden cross concealed completely within pocket grip.",
       "name" : "Surveillance Recognition (Shot 5.5 Web):**",
       "character" : "Sigrid",
       "shot_range" : "",
@@ -429,7 +429,7 @@
     },
     "SIGRID-ESCAPING" : {
       "character" : "Sigrid",
-      "description" : "[SIGRID-MASTER] discovering escape route - dress billowing from warm air protection, rounded belly 7-8 months full mystical completion, posture straightening with supernatural assistance, arms raised toward widening wall crack (klettagjá formation), grey eyes focused on escape route with desperate hope, breathing 15\/min human but with 12\/min raven undertones mixing, voice contralto with strong corvid harmonics during escape preparation, facial expression showing determination mixed with transformation anticipation, braids stirring from supernatural protective wind, positioned at wall crack examining escape width with careful measurement, wooden cross glowing with escape blessing.",
+      "description" : "[SIGRID-MASTER] discovering escape route - dress billowing from warm air protection, rounded belly 7-8 months full mystical completion, posture straightening with supernatural assistance, arms raised toward widening wall crack (klettagjá formation), grey eyes focused on escape route with desperate hope\/min human but with 12\/min raven undertones mixing, voice contralto with strong corvid harmonics during escape preparation, facial expression showing determination mixed with transformation anticipation, braids stirring from supernatural protective wind, positioned at wall crack examining escape width with careful measurement, wooden cross glowing with escape blessing.",
       "name" : "Klettagjá Discovery (Shots 51-55):**",
       "shot_range" : "",
       "is_master" : false
@@ -437,7 +437,7 @@
     "SIGRID-DEEPER" : {
       "shot_range" : "",
       "name" : "Voice Transformation (Post-Violation Shots):**",
-      "description" : "[SIGRID-MARKED] with vocal change from completion of ordeal - dress disheveled at neckline from ordeal, rounded belly 2-3 months beginning to show, posture protective with curved spine shielding belly, arms permanently crossed over rounded belly, grey eyes showing ordeal exhaustion but strengthening resolve, breathing controlled 15\/min with effort maintaining human rhythm, voice dropped to lower soprano\/high contralto with clear raven undertones from biological change, facial expression combining ordeal exhaustion with growing supernatural authority, braids loosened with ordeal struggle, positioned maximum 12 feet against wall with defensive spacing, wooden cross gripped for spiritual protection during biological change.",
+      "description" : "[SIGRID-MARKED] with vocal change from completion of ordeal - dress disheveled at neckline from ordeal, rounded belly 2-3 months beginning to show, posture protective with curved spine shielding belly, arms permanently crossed over rounded belly, grey eyes showing ordeal exhaustion but strengthening resolve\/min with effort maintaining human rhythm, voice dropped to lower soprano\/high contralto with clear raven undertones from biological change, facial expression combining ordeal exhaustion with growing supernatural authority, braids loosened with ordeal struggle, positioned maximum 12 feet against wall with defensive spacing, wooden cross gripped for spiritual protection during biological change.",
       "character" : "Sigrid",
       "is_master" : false
     },
@@ -457,13 +457,13 @@
     },
     "MAGNUS-AUTHORITY" : {
       "name" : "Magnus Authority",
-      "description" : "Magnus Thorlaksson, 55-year-old Westfjords fisherman with weathered rectangular face, broken aquiline nose bent leftward, steel-blue hooded eyes, charcoal-grey beard reaching mid-chest, 5'10\" stocky build, rope-scarred palms, tarnished silver wedding ring, carved driftwood cane held casually left hand, clean brown vaðmál sweater with skilled mending at left elbow, dark wool trousers with fresh knee patches, sealskin boots recently oiled, erect confident posture shoulders squared, jaw set with paternal authority, breathing steady 10\/min, hands stable except 3Hz fingertip tremor during counting, facial expression showing competent masculine provision capability.\"",
+      "description" : "Magnus Thorlaksson, 55-year-old Westfjords fisherman with weathered rectangular face, broken aquiline nose bent leftward, steel-blue hooded eyes, charcoal-grey beard reaching mid-chest, 5'10\" stocky build, rope-scarred palms, tarnished silver wedding ring, carved driftwood cane held casually left hand, clean brown vaðmál sweater with skilled mending at left elbow, dark wool trousers with fresh knee patches, sealskin boots recently oiled, erect confident posture shoulders squared, jaw set with paternal authority\/min, hands stable except 3Hz fingertip tremor during counting, facial expression showing competent masculine provision capability.\"",
       "is_master" : false,
       "shot_range" : "",
       "character" : "Magnus"
     },
     "GUDRUN-WATCHING" : {
-      "description" : "[GUDRUN-ABUNDANT] during family surveillance recognition - faldbúningur perfectly arranged for optimal peripheral vision, grey dress positioned for immediate defensive movement, brown apron twisted from nervous manipulation, black shawl ready for protection or concealment, no visible wool production (early stage), thin frame positioned for minimal visibility profile, posture alert but appearing domestically occupied, grey-green eyes tracking Magnus's predatory attention toward Sigrid while appearing focused on spinning wheel, breathing controlled 14\/min despite surveillance tension, hands performing false spinning work while actually monitoring family threat assessment, facial expression showing intelligent protective analysis disguised as domestic concentration.",
+      "description" : "[GUDRUN-ABUNDANT] during family surveillance recognition - faldbúningur perfectly arranged for optimal peripheral vision, grey dress positioned for immediate defensive movement, brown apron twisted from nervous manipulation, black shawl ready for protection or concealment, no visible wool production (early stage), thin frame positioned for minimal visibility profile, posture alert but appearing domestically occupied, grey-green eyes tracking Magnus's predatory attention toward Sigrid while appearing focused on spinning wheel\/min despite surveillance tension, hands performing false spinning work while actually monitoring family threat assessment, facial expression showing intelligent protective analysis disguised as domestic concentration.",
       "is_master" : false,
       "shot_range" : "",
       "name" : "Gudrun Watching",
@@ -484,7 +484,7 @@
       "shot_range" : "Shot 5.5 Web"
     },
     "MAGNUS-POSSESSOR" : {
-      "description" : "[MAGNUS-ENFORCER] with predatory intimacy - clothing arranged for close contact, cane set aside for two-handed ordeal, posture invasive with forward lean, jaw soft with false tenderness, eyes showing predatory affection mixing threat with seeming care, breathing 6\/min intimate rhythm, hands at perfect 0Hz for gentle ordeal, facial expression mixing paternal care with sexual threat, beard softened for intimate proximity, hair arranged with grooming consciousness.",
+      "description" : "[MAGNUS-ENFORCER] with predatory intimacy - clothing arranged for close contact, cane set aside for two-handed ordeal, posture invasive with forward lean, jaw soft with false tenderness, eyes showing predatory affection mixing threat with seeming care\/min intimate rhythm, hands at perfect 0Hz for gentle ordeal, facial expression mixing paternal care with sexual threat, beard softened for intimate proximity, hair arranged with grooming consciousness.",
       "shot_range" : "",
       "character" : "Magnus",
       "name" : "Magnus Possessor",
@@ -515,12 +515,12 @@
       "shot_range" : "",
       "character" : "Jon",
       "is_master" : false,
-      "description" : "[JON-RISING] with high fever enabling temporal vision - face flushed deep red with dangerous fever heat, button nose swollen with severe congestion, lips cracked and bleeding from persistent coughing, hazel eyes completely glazed with temporal sight showing past\/present\/future simultaneously, hair soaked with fever sweat creating matted patterns, oversized sweater beginning to fit better as fever burns body fat, posture alternating between fever collapse and sudden prophetic alertness, cough producing visible blood specks, trembling severe and constant, voice barely audible hoarse whisper, breathing 20\/min dangerous fever rate, fever visions showing ram's blood spirals, future family transformation, past abundance simultaneously.",
+      "description" : "[JON-RISING] with high fever enabling temporal vision - face flushed deep red with dangerous fever heat, button nose swollen with severe congestion, lips cracked and bleeding from persistent coughing, hazel eyes completely glazed with temporal sight showing past\/present\/future simultaneously, hair soaked with fever sweat creating matted patterns, oversized sweater beginning to fit better as fever burns body fat, posture alternating between fever collapse and sudden prophetic alertness, cough producing visible blood specks, trembling severe and constant, voice barely audible hoarse whisper\/min dangerous fever rate, fever visions showing ram's blood spirals, future family transformation, past abundance simultaneously.",
       "name" : "Jon Seeing"
     },
     "MAGNUS-DEPARTING" : {
       "shot_range" : "",
-      "description" : "[MAGNUS-MASTER] heavy winter fishing gear, sealskin anorak with hood up, thick mittens, ice boots, multiple rope coils across chest, cane secured to belt with leather thong, bent posture under gear weight, jaw clenched with desperate determination, eyes showing forced hope over deep fear, breathing 14\/min pre-action anxiety, tremor suppressed through gear-gripping, facial expression mixing paternal duty with suicidal acceptance, beard with frost accumulation, hair hidden under hood.",
+      "description" : "[MAGNUS-MASTER] heavy winter fishing gear, sealskin anorak with hood up, thick mittens, ice boots, multiple rope coils across chest, cane secured to belt with leather thong, bent posture under gear weight, jaw clenched with desperate determination, eyes showing forced hope over deep fear\/min pre-action anxiety, tremor suppressed through gear-gripping, facial expression mixing paternal duty with suicidal acceptance, beard with frost accumulation, hair hidden under hood.",
       "is_master" : false,
       "name" : "Magnus Departing",
       "character" : "Magnus"
@@ -544,18 +544,18 @@
       "is_master" : false,
       "character" : "Magnus",
       "name" : "Magnus Maritime",
-      "description" : "[MAGNUS-AGING] plus fresh fishing injuries - deep rope burns across both palms with raw red skin, hook puncture in right palm with dried blood crust, severe frostbite on three fingers showing blue-white discoloration, face showing ice accumulation in eyebrows and mustache, sealskin anorak with new tears from boat work, wool sweater stained with blood and salt, driftwood cane grip modified to avoid painful palm contact, protective hunched posture favoring injured hand, jaw clenched against multiple pain sources, eyes squinting against ice-pain, breathing 13\/min pain-stress response, injured hand affecting tremor (irregular 2-5Hz), facial expression mixing physical agony with emotional failure, beard with frozen blood particles, hair with accumulated ice making movement difficult."
+      "description" : "[MAGNUS-AGING] plus fresh fishing injuries - deep rope burns across both palms with raw red skin, hook puncture in right palm with dried blood crust, severe frostbite on three fingers showing blue-white discoloration, face showing ice accumulation in eyebrows and mustache, sealskin anorak with new tears from boat work, wool sweater stained with blood and salt, driftwood cane grip modified to avoid painful palm contact, protective hunched posture favoring injured hand, jaw clenched against multiple pain sources, eyes squinting against ice-pain\/min pain-stress response, injured hand affecting tremor (irregular 2-5Hz), facial expression mixing physical agony with emotional failure, beard with frozen blood particles, hair with accumulated ice making movement difficult."
     },
     "MAGNUS-AUTUMN" : {
       "name" : "Magnus Autumn",
       "shot_range" : "",
       "is_master" : false,
       "character" : "Magnus",
-      "description" : "[MAGNUS-MASTER] vaðmál sweater showing increased wear, left elbow mending more prominent, trousers with fresh knee patches, sealskin boots showing scuffs, cane grip tighter suggesting increasing reliance, posture slightly more hunched, jaw clenched with growing tension, eyes showing first uncertainty flickers, breathing 11\/min mild anxiety, 3Hz tremor spreading to full hand during counting moments, facial expression mixing authority with worry, beard showing grey progression, hair less controlled."
+      "description" : "[MAGNUS-MASTER] vaðmál sweater showing increased wear, left elbow mending more prominent, trousers with fresh knee patches, sealskin boots showing scuffs, cane grip tighter suggesting increasing reliance, posture slightly more hunched, jaw clenched with growing tension, eyes showing first uncertainty flickers\/min mild anxiety, 3Hz tremor spreading to full hand during counting moments, facial expression mixing authority with worry, beard showing grey progression, hair less controlled."
     },
     "SIGRID-SUMMONING" : {
       "name" : "Ritual Preparation (Shots 23-25)",
-      "description" : "[SIGRID-KNOWING] preparing landvættir summoning - dress arranged for ritual kneeling, rounded belly 4 months creating obvious curve, posture ceremonial with spine straight for ritual dignity, arms positioned for offering presentation, grey eyes intense with supernatural focus and inherited ritual knowledge, breathing controlled 14\/min ritual preparation, voice deepening toward contralto with corvid harmonics developing, facial expression showing concentration mixed with growing supernatural awareness, braids loosened for ritual hair offering, positioned in east corner maintaining maximum house distance, wooden cross deliberately visible as protection during supernatural working.",
+      "description" : "[SIGRID-KNOWING] preparing landvættir summoning - dress arranged for ritual kneeling, rounded belly 4 months creating obvious curve, posture ceremonial with spine straight for ritual dignity, arms positioned for offering presentation, grey eyes intense with supernatural focus and inherited ritual knowledge\/min ritual preparation, voice deepening toward contralto with corvid harmonics developing, facial expression showing concentration mixed with growing supernatural awareness, braids loosened for ritual hair offering, positioned in east corner maintaining maximum house distance, wooden cross deliberately visible as protection during supernatural working.",
       "character" : "Sigrid",
       "shot_range" : "",
       "is_master" : false
@@ -568,7 +568,7 @@
       "shot_range" : ""
     },
     "SIGRID-TRANSITIONAL" : {
-      "description" : "[SIGRID-MASTER] preparing for species change - traditional dress unchanged but appearing costume-like on changing body, rounded belly full-term but mystical (8 months impossible timeline), posture shifting between human and raven movement patterns, arms beginning subtle wing-position awareness, grey eyes developing depth suggesting raven intelligence behind human consciousness, breathing 15\/min human with occasional 12\/min raven rhythm, voice contralto with clear corvid harmonics during speech, facial expression showing human consciousness preparing for species transition, braids loosening as hair texture changes subtly, positioned at threshold between house interior and klettagjá escape route, wooden cross pulsing with protective warmth.",
+      "description" : "[SIGRID-MASTER] preparing for species change - traditional dress unchanged but appearing costume-like on changing body, rounded belly full-term but mystical (8 months impossible timeline), posture shifting between human and raven movement patterns, arms beginning subtle wing-position awareness, grey eyes developing depth suggesting raven intelligence behind human consciousness\/min human with occasional 12\/min raven rhythm, voice contralto with clear corvid harmonics during speech, facial expression showing human consciousness preparing for species transition, braids loosening as hair texture changes subtly, positioned at threshold between house interior and klettagjá escape route, wooden cross pulsing with protective warmth.",
       "shot_range" : "",
       "is_master" : false,
       "name" : "Pre-Transformation (Shots 56-65)",
@@ -599,7 +599,7 @@
       "is_master" : false,
       "character" : "Gudrun",
       "name" : "Gudrun Condemned",
-      "description" : "[GUDRUN-BEATEN] receiving death assignment - faldbúningur rearranged with conscious dignity despite damage, grey dress straightened as much as possible, brown apron removed and folded (preparing for death), black shawl arranged as funeral shroud, wool threads 40mm self-braiding into three distinct strands (past\/present\/future), emaciated frame suggesting walking skeleton, posture erect with death acceptance dignity, eyes showing calm resignation mixed with secret relief at performance ending, breathing controlled 12\/min death preparation rhythm, hands braiding wool strands with unconscious expertise, facial expression showing profound acceptance and hidden liberation anticipation, brass ring deliberately removed and placed carefully on table.",
+      "description" : "[GUDRUN-BEATEN] receiving death assignment - faldbúningur rearranged with conscious dignity despite damage, grey dress straightened as much as possible, brown apron removed and folded (preparing for death), black shawl arranged as funeral shroud, wool threads 40mm self-braiding into three distinct strands (past\/present\/future), emaciated frame suggesting walking skeleton, posture erect with death acceptance dignity, eyes showing calm resignation mixed with secret relief at performance ending\/min death preparation rhythm, hands braiding wool strands with unconscious expertise, facial expression showing profound acceptance and hidden liberation anticipation, brass ring deliberately removed and placed carefully on table.",
       "shot_range" : ""
     },
     "WALKING" : {
@@ -610,7 +610,7 @@
       "shot_range" : "left behind"
     },
     "JON-GAPPED" : {
-      "description" : "[JON-CHANGING] after multiple tooth loss - fever intense fever creating dangerous delirium, face gaunt from continued illness, lips bloody from empty tooth sockets, hazel eyes completely unfocused with advanced temporal sight, hair matted into hard clumps, brown sweater fitting properly as malnutrition advances, posture weak and wandering with fever disorientation, cough producing blood and saliva from empty sockets, trembling severe affecting coordination, voice nearly inaudible with gaps from missing teeth, breathing 21\/min approaching dangerous fever threshold, fever visions constant (living in multiple time periods simultaneously).",
+      "description" : "[JON-CHANGING] after multiple tooth loss - fever intense fever creating dangerous delirium, face gaunt from continued illness, lips bloody from empty tooth sockets, hazel eyes completely unfocused with advanced temporal sight, hair matted into hard clumps, brown sweater fitting properly as malnutrition advances, posture weak and wandering with fever disorientation, cough producing blood and saliva from empty sockets, trembling severe affecting coordination, voice nearly inaudible with gaps from missing teeth\/min approaching dangerous fever threshold, fever visions constant (living in multiple time periods simultaneously).",
       "is_master" : false,
       "character" : "Jon",
       "name" : "Jon Gapped",
@@ -624,14 +624,14 @@
       "character" : "Environment"
     },
     "SIGRID-WINGSPAN" : {
-      "description" : "[SIGRID-CORVID] preparing for species transition - traditional dress flowing like feather-fabric while maintaining wool reality, rounded belly mystery resolved through tilberi birth, posture perfect between human uprightness and raven flight-ready stance, arms extended testing wing-span measurement (4.5 feet) while maintaining arm functionality, grey eyes deep raven intelligence with human consciousness clearly visible depth, breathing 12\/min pure raven rhythm with human awareness, voice corvid-dominant with human words available when necessary, facial expression showing species mastery through transformation joy rather than loss, hair texture completely feather-like but arranged in human style, positioned at flight threshold with terrestrial connection maintained, wooden cross transformed to protective raven feather while maintaining spiritual essence.",
+      "description" : "[SIGRID-CORVID] preparing for species transition - traditional dress flowing like feather-fabric while maintaining wool reality, rounded belly mystery resolved through tilberi birth, posture perfect between human uprightness and raven flight-ready stance, arms extended testing wing-span measurement (4.5 feet) while maintaining arm functionality, grey eyes deep raven intelligence with human consciousness clearly visible depth\/min pure raven rhythm with human awareness, voice corvid-dominant with human words available when necessary, facial expression showing species mastery through transformation joy rather than loss, hair texture completely feather-like but arranged in human style, positioned at flight threshold with terrestrial connection maintained, wooden cross transformed to protective raven feather while maintaining spiritual essence.",
       "name" : "Flight Preparation (Shots 76-80):**",
       "character" : "Sigrid",
       "shot_range" : "",
       "is_master" : false
     },
     "GUDRUN-BEATEN" : {
-      "description" : "[GUDRUN-PRODUCING] after domestic disturbance - faldbúningur knocked askew with brass pin bent, grey dress torn at shoulder seam, brown apron twisted and stained, black shawl used to cover disturbance marks, wool threads 30mm now obvious and blood-stained from disturbance, skeletal frame showing through clothing, posture collapsed but attempting to rise with dignity, grey-green eyes showing acceptance of disturbance as expected outcome, breathing 18\/min pain response but controlled to avoid additional attention, hands protecting wool-producing wrists while checking for additional injuries, facial expression showing resignation mixed with quiet strength, V-notch ear scar briefly visible through displaced headdress, brass ring nearly falling off due to extreme weight loss.",
+      "description" : "[GUDRUN-PRODUCING] after domestic disturbance - faldbúningur knocked askew with brass pin bent, grey dress torn at shoulder seam, brown apron twisted and stained, black shawl used to cover disturbance marks, wool threads 30mm now obvious and blood-stained from disturbance, skeletal frame showing through clothing, posture collapsed but attempting to rise with dignity, grey-green eyes showing acceptance of disturbance as expected outcome\/min pain response but controlled to avoid additional attention, hands protecting wool-producing wrists while checking for additional injuries, facial expression showing resignation mixed with quiet strength, V-notch ear scar briefly visible through displaced headdress, brass ring nearly falling off due to extreme weight loss.",
       "name" : "Gudrun Beaten",
       "character" : "Gudrun",
       "shot_range" : "",
@@ -669,7 +669,7 @@
       "shot_range" : "",
       "is_master" : false,
       "character" : "Sigrid",
-      "description" : "[SIGRID-PURE] after intense ordeal - dress disheveled with fabric pulled at neckline, rounded belly now visible as 2-month subtle curve, posture fully defensive with shoulders hunched forward, arms crossed permanently over belly protection, grey eyes showing ordeal awareness and watchful scanning, breathing shifted to 16\/min stress response, voice dropped half-octave to lower soprano with slight raven undertone, facial expression combining innocence lost with protective determination, braids loosened with significant wisps from struggle, positioned exactly 11 feet from Magnus against wall, wooden cross gripped tightly through pocket showing rectangular outline.",
+      "description" : "[SIGRID-PURE] after intense ordeal - dress disheveled with fabric pulled at neckline, rounded belly now visible as 2-month subtle curve, posture fully defensive with shoulders hunched forward, arms crossed permanently over belly protection, grey eyes showing ordeal awareness and watchful scanning\/min stress response, voice dropped half-octave to lower soprano with slight raven undertone, facial expression combining innocence lost with protective determination, braids loosened with significant wisps from struggle, positioned exactly 11 feet from Magnus against wall, wooden cross gripped tightly through pocket showing rectangular outline.",
       "name" : "Violation Aftermath (Shots 16-23)"
     },
     "CONDEMNED" : {
@@ -691,7 +691,7 @@
       "shot_range" : "",
       "is_master" : false,
       "name" : "Jon Fitting",
-      "description" : "[JON-PROPHET] with proper sweater fit achieved - fever intense fever sustained, face showing improved nutrition from unknown source, sheep teeth beginning emergence through healing gums, hazel eyes focused with new dental capability, hair cut short revealing skull changes, brown sweater now perfect fit suggesting body growth into clothing, posture improving with better nutrition and dental function, cough eliminated with sheep respiratory efficiency, trembling minimal with improved health, voice changing timber with new teeth but maintaining human speech, breathing 19\/min improved health rate."
+      "description" : "[JON-PROPHET] with proper sweater fit achieved - fever intense fever sustained, face showing improved nutrition from unknown source, sheep teeth beginning emergence through healing gums, hazel eyes focused with new dental capability, hair cut short revealing skull changes, brown sweater now perfect fit suggesting body growth into clothing, posture improving with better nutrition and dental function, cough eliminated with sheep respiratory efficiency, trembling minimal with improved health, voice changing timber with new teeth but maintaining human speech\/min improved health rate."
     },
     "ETERNAL" : {
       "character" : "Gudrun",
@@ -705,11 +705,11 @@
       "name" : "Environmental Awakening (Shots 10-15)",
       "shot_range" : "",
       "character" : "Lilja",
-      "description" : "[SIGRID-PURE] with supernatural environmental awareness developing - face maintaining innocence but eyes developing unusual focus on household environmental details adults miss, tiny nose showing increased sensitivity to air changes (detecting temperature shifts, smelling house breathing), mouth often open with wonder at environmental discoveries, blue eyes tracking house phenomena (warm floor spots, wall expansion, breathing rhythm), hair showing stress tangles from environmental focus, grey dress with increased wear from floor exploration, brown stockings developing small holes at toes from active investigation, doll clutched tighter for security during environmental discovery, posture showing cautious exploration of house consciousness, thumb-sucking increasing with growing environmental awareness stress, voice whisper with questions about house behavior adults dismiss, breathing 23\/min slight anxiety from environmental awareness recognition."
+      "description" : "[SIGRID-PURE] with supernatural environmental awareness developing - face maintaining innocence but eyes developing unusual focus on household environmental details adults miss, tiny nose showing increased sensitivity to air changes (detecting temperature shifts, smelling house breathing), mouth often open with wonder at environmental discoveries, blue eyes tracking house phenomena (warm floor spots, wall expansion, breathing rhythm), hair showing stress tangles from environmental focus, grey dress with increased wear from floor exploration, brown stockings developing small holes at toes from active investigation, doll clutched tighter for security during environmental discovery, posture showing cautious exploration of house consciousness, thumb-sucking increasing with growing environmental awareness stress, voice whisper with questions about house behavior adults dismiss\/min slight anxiety from environmental awareness recognition."
     },
     "MAGNUS-PROVIDER" : {
       "character" : "Magnus",
-      "description" : "[MAGNUS-MATHEMATICAL] equipped for desperate fishing - brown vaðmál sweater under waterproof sealskin anorak with hood secured, wool trousers tucked into high sealskin boots, thick sealing mittens, multiple hemp rope coils across torso, fishing gear belt with bronze hooks, driftwood cane secured to belt with rawhide thong, bent forward under equipment weight, jaw set with suicidal determination, eyes showing false hope over deep terror, breathing 14\/min pre-action anxiety, tremor suppressed through gear-gripping, facial expression mixing paternal duty with death acceptance, beard arranged with conscious care (last grooming), hair controlled under hood.",
+      "description" : "[MAGNUS-MATHEMATICAL] equipped for desperate fishing - brown vaðmál sweater under waterproof sealskin anorak with hood secured, wool trousers tucked into high sealskin boots, thick sealing mittens, multiple hemp rope coils across torso, fishing gear belt with bronze hooks, driftwood cane secured to belt with rawhide thong, bent forward under equipment weight, jaw set with suicidal determination, eyes showing false hope over deep terror\/min pre-action anxiety, tremor suppressed through gear-gripping, facial expression mixing paternal duty with death acceptance, beard arranged with conscious care (last grooming), hair controlled under hood.",
       "is_master" : false,
       "shot_range" : "",
       "name" : "Magnus Provider"
@@ -719,12 +719,12 @@
       "is_master" : false,
       "name" : "Magnus Summer",
       "shot_range" : "",
-      "description" : "[MAGNUS-MASTER] wearing clean brown vaðmál sweater with recent mending barely visible, dark wool trousers showing minimal wear, sealskin boots freshly oiled, leather belt polished, cane used ceremonially rather than necessity, erect confident posture with shoulders back, jaw set with quiet authority, steel-blue eyes focused and decisive, breathing steady 10\/min leadership rhythm, hands steady except when counting (3Hz tremor on fingers only), facial expression showing paternal competence, beard neatly trimmed to mid-chest, hair pulled back with leather tie."
+      "description" : "[MAGNUS-MASTER] wearing clean brown vaðmál sweater with recent mending barely visible, dark wool trousers showing minimal wear, sealskin boots freshly oiled, leather belt polished, cane used ceremonially rather than necessity, erect confident posture with shoulders back, jaw set with quiet authority, steel-blue eyes focused and decisive\/min leadership rhythm, hands steady except when counting (3Hz tremor on fingers only), facial expression showing paternal competence, beard neatly trimmed to mid-chest, hair pulled back with leather tie."
     },
     "JON-ENERGETIC" : {
       "name" : "Jon Energetic",
       "character" : "Jon",
-      "description" : "[JON-GRINDING] with fever creating supernatural activity - fever extreme fever creating dangerous but energizing delirium, face bright red with fever energy, lips normal with sheep teeth prominent, hazel eyes wild with temporal hyperactivity seeing all time periods simultaneously, hair cut short due to matting revealing skull shape changes, brown sweater tight as body grows into proper fit, posture energetic and wandering with fever-driven curiosity, no cough (sheep breathing efficient), trembling from energy rather than weakness, voice sheep-like bleating mixed with human words, breathing 22\/min hyperactive fever rate, fever visions overwhelming (living entirely in multiple time periods).",
+      "description" : "[JON-GRINDING] with fever creating supernatural activity - fever extreme fever creating dangerous but energizing delirium, face bright red with fever energy, lips normal with sheep teeth prominent, hazel eyes wild with temporal hyperactivity seeing all time periods simultaneously, hair cut short due to matting revealing skull shape changes, brown sweater tight as body grows into proper fit, posture energetic and wandering with fever-driven curiosity, no cough (sheep breathing efficient), trembling from energy rather than weakness, voice sheep-like bleating mixed with human words\/min hyperactive fever rate, fever visions overwhelming (living entirely in multiple time periods).",
       "shot_range" : "",
       "is_master" : false
     },
@@ -745,7 +745,7 @@
     "GUDRUN-WITNESS" : {
       "is_master" : false,
       "shot_range" : "",
-      "description" : "Gudrun Magnusdóttir, 35-year-old oval face with hollow cheeks from malnutrition, grey-green almond eyes with dark circles, white faldbúningur headdress with black velvet band and brass pin, 5'5\" skeletal frame showing advanced malnutrition, grey wool dress blood-soaked creating crimson testimony garment, wool threads 70mm self-braiding into three strands, posture erect with truth-telling dignity, breathing slow and steady approaching sheep rhythm, voice gaining authority through transformation, facial expression showing maternal authority delivering essential family truth, V-notch ear scar prominent through displaced headdress\"",
+      "description" : "Gudrun Magnusdóttir, 35-year-old oval face with hollow cheeks from malnutrition, grey-green almond eyes with dark circles, white faldbúningur headdress with black velvet band and brass pin, 5'5\" skeletal frame showing advanced malnutrition, grey wool dress blood-soaked creating crimson testimony garment, wool threads 70mm self-braiding into three strands, posture erect with truth-telling dignity approaching sheep rhythm, voice gaining authority through transformation, facial expression showing maternal authority delivering essential family truth, V-notch ear scar prominent through displaced headdress\"",
       "name" : "Gudrun Witness",
       "character" : "Gudrun"
     },
@@ -773,21 +773,21 @@
     "JON-GRINDING" : {
       "shot_range" : "",
       "name" : "Jon Grinding",
-      "description" : "[JON-EMERGING] with sheep mastication developing - fever intense fever maintained, face showing comfort with new teeth, lips normal around sheep dental configuration, hazel eyes bright with new feeding capability, hair requiring complete cutting due to matting, brown sweater fitting perfectly, posture improving with new nutritional processing ability, cough disappearing as sheep teeth enable better breathing, trembling reduced through improved health, voice clearer with sheep teeth but losing human speech patterns, breathing 19\/min improving with dental function, fever visions showing grass consumption techniques and pack feeding behaviors.",
+      "description" : "[JON-EMERGING] with sheep mastication developing - fever intense fever maintained, face showing comfort with new teeth, lips normal around sheep dental configuration, hazel eyes bright with new feeding capability, hair requiring complete cutting due to matting, brown sweater fitting perfectly, posture improving with new nutritional processing ability, cough disappearing as sheep teeth enable better breathing, trembling reduced through improved health, voice clearer with sheep teeth but losing human speech patterns\/min improving with dental function, fever visions showing grass consumption techniques and pack feeding behaviors.",
       "is_master" : false,
       "character" : "Jon"
     },
     "JON-PROPHET" : {
       "character" : "Jon",
       "name" : "Jon Prophet",
-      "description" : "Jón Magnusson, 8-year-old round face flushed deep red with high fever, button nose swollen crimson, hazel eyes glazed with temporal sight, sandy brown hair matted with fever sweat, 4'2\" skeletal frame in perfectly fitted brown vaðmál sweater, three empty tooth sockets bleeding, persistent wet cough producing blood specks, trembling constant from fever elevation, voice prophetic hoarse whisper, breathing 20\/min dangerous fever rate, fever visions showing family mathematical impossibility and future sheep transformation\"",
+      "description" : "Jón Magnusson, 8-year-old round face flushed deep red with high fever, button nose swollen crimson, hazel eyes glazed with temporal sight, sandy brown hair matted with fever sweat, 4'2\" skeletal frame in perfectly fitted brown vaðmál sweater, three empty tooth sockets bleeding, persistent wet cough producing blood specks, trembling constant from fever elevation, voice prophetic hoarse whisper\/min dangerous fever rate, fever visions showing family mathematical impossibility and future sheep transformation\"",
       "shot_range" : "",
       "is_master" : false
     },
     "MAGNUS-SUPERNATURAL" : {
       "name" : "Magnus Supernatural",
       "shot_range" : "",
-      "description" : "[MAGNUS-ROWING] showing aflausn cost - hair shock-white from supernatural effort, new deep lines carved by salt and strain, nose bleeding frozen in beard creating red ice-crystals, missing left canine tooth creating visible gap, right eye bloodshot from burst vessel, sealskin anorak torn at right shoulder from rope strain, driftwood cane bent slightly from supernatural gripping force, aged posture with spine curvature increase, jaw asymmetrical from tooth loss, eyes hollow showing life-force depletion, breathing 6\/min exhaustion approaching sheep rate, hands tremoring at 4Hz from supernatural overuse, facial expression showing decades of aging compressed into minutes, beard with blood streaks frozen, hair thinned and brittle.",
+      "description" : "[MAGNUS-ROWING] showing aflausn cost - hair shock-white from supernatural effort, new deep lines carved by salt and strain, nose bleeding frozen in beard creating red ice-crystals, missing left canine tooth creating visible gap, right eye bloodshot from burst vessel, sealskin anorak torn at right shoulder from rope strain, driftwood cane bent slightly from supernatural gripping force, aged posture with spine curvature increase, jaw asymmetrical from tooth loss, eyes hollow showing life-force depletion\/min exhaustion approaching sheep rate, hands tremoring at 4Hz from supernatural overuse, facial expression showing decades of aging compressed into minutes, beard with blood streaks frozen, hair thinned and brittle.",
       "character" : "Magnus",
       "is_master" : false
     },
@@ -795,7 +795,7 @@
       "character" : "Jon",
       "shot_range" : "",
       "is_master" : false,
-      "description" : "[JON-MILD] with fever advancing to higher fever - face flushed deeper red with fever intensity, button nose bright crimson with increased congestion, lips more severely chapped with blood spots from coughing, hazel eyes increasingly glazed with temporal vision beginning (seeing past ram death during present moments), hair more matted with fever sweat, thin frame more prominent in loose sweater, posture showing fever weakness with occasional sudden alertness, wet cough becoming more frequent with blood-flecked sputum, trembling constant from fever elevation, voice deteriorating to strained whisper, breathing 19\/min elevated fever rate, fever visions showing mathematical impossibilities (seeing six family members when five exist).",
+      "description" : "[JON-MILD] with fever advancing to higher fever - face flushed deeper red with fever intensity, button nose bright crimson with increased congestion, lips more severely chapped with blood spots from coughing, hazel eyes increasingly glazed with temporal vision beginning (seeing past ram death during present moments), hair more matted with fever sweat, thin frame more prominent in loose sweater, posture showing fever weakness with occasional sudden alertness, wet cough becoming more frequent with blood-flecked sputum, trembling constant from fever elevation, voice deteriorating to strained whisper\/min elevated fever rate, fever visions showing mathematical impossibilities (seeing six family members when five exist).",
       "name" : "Jon Rising"
     },
     "SIGRID-PURE" : {
@@ -823,7 +823,7 @@
       "name" : "Jon Master V",
       "shot_range" : "",
       "character" : "Jon",
-      "description" : "Jón Magnusson, 8-year-old Westfjords boy with round face perpetually flushed with fever creating red patches on pale cheeks, small button nose bright red from illness and cold, chapped lips with visible blood spots from persistent wet coughing, large hazel eyes with green-brown flecks glazed from mild fever creating thousand-yard temporal stare, sandy brown hair matted with fever sweat and unwashed for weeks, 4'2\" thin frame showing prominent rib outline beneath clothing from malnutrition, oversized brown vaðmál wool sweater hanging loose on shoulders (inherited from older brother), dark wool trousers with patches at knees, thick wool stockings, simple leather shoes, listless posture with fever weakness but occasional sudden energy bursts from illness, persistent wet cough producing blood-flecked sputum, trembling from fever creating constant body vibration, hoarse whisper voice from throat irritation, breathing 18 breaths per minute elevated child-fever rhythm.",
+      "description" : "Jón Magnusson, 8-year-old Westfjords boy with round face perpetually flushed with fever creating red patches on pale cheeks, small button nose bright red from illness and cold, chapped lips with visible blood spots from persistent wet coughing, large hazel eyes with green-brown flecks glazed from mild fever creating thousand-yard temporal stare, sandy brown hair matted with fever sweat and unwashed for weeks, 4'2\" thin frame showing prominent rib outline beneath clothing from malnutrition, oversized brown vaðmál wool sweater hanging loose on shoulders (inherited from older brother), dark wool trousers with patches at knees, thick wool stockings, simple leather shoes, listless posture with fever weakness but occasional sudden energy bursts from illness, persistent wet cough producing blood-flecked sputum, trembling from fever creating constant body vibration, hoarse whisper voice from throat irritation,
       "is_master" : true
     },
     "RISING" : {
@@ -876,7 +876,7 @@
       "character" : "Environment"
     },
     "MAGNUS-WATCHING" : {
-      "description" : "[MAGNUS-ENFORCER] with predatory surveillance focus - posture arranged for optimal family observation, driftwood cane planted as territorial marker, clothing positioned to suggest casual activity while enabling constant monitoring, jaw working through territorial calculation, steel-blue eyes tracking family movement patterns with predator patience, breathing controlled 10\/min hunter rhythm, hands engaged in fake net-mending but attention completely on family surveillance, facial expression showing predatory interest disguised as paternal concern, beard arranged to not obstruct vision, hair positioned to optimize hearing.",
+      "description" : "[MAGNUS-ENFORCER] with predatory surveillance focus - posture arranged for optimal family observation, driftwood cane planted as territorial marker, clothing positioned to suggest casual activity while enabling constant monitoring, jaw working through territorial calculation, steel-blue eyes tracking family movement patterns with predator patience\/min hunter rhythm, hands engaged in fake net-mending but attention completely on family surveillance, facial expression showing predatory interest disguised as paternal concern, beard arranged to not obstruct vision, hair positioned to optimize hearing.",
       "character" : "Magnus",
       "shot_range" : "",
       "name" : "Magnus Watching",
@@ -887,13 +887,13 @@
       "name" : "Jon Emerging",
       "character" : "Jon",
       "is_master" : false,
-      "description" : "[JON-GAPPED] with sheep teeth beginning growth - fever intense fever creating critical flush, face showing new teeth pushing through gums, lips swollen around emerging sheep teeth, hazel eyes bright with fever but focused on dental emergence, hair matted solid requiring cutting, sweater perfectly fitted as malnutrition matches clothing size, posture showing curiosity about mouth changes, cough changing tone as teeth affect vocal cavity, trembling from fever but excitement about transformation, voice changing timber with new teeth affecting speech, breathing 20\/min with mouth adjustment to new dental configuration, fever visions showing sheep mastication techniques."
+      "description" : "[JON-GAPPED] with sheep teeth beginning growth - fever intense fever creating critical flush, face showing new teeth pushing through gums, lips swollen around emerging sheep teeth, hazel eyes bright with fever but focused on dental emergence, hair matted solid requiring cutting, sweater perfectly fitted as malnutrition matches clothing size, posture showing curiosity about mouth changes, cough changing tone as teeth affect vocal cavity, trembling from fever but excitement about transformation, voice changing timber with new teeth affecting speech\/min with mouth adjustment to new dental configuration, fever visions showing sheep mastication techniques."
     },
     "GUDRUN-DIVINE" : {
       "shot_range" : "",
       "character" : "Gudrun",
       "is_master" : false,
-      "description" : "[GUDRUN-CROWNED] offering wool to contaminated god - ice crown gleaming with divine audience appropriateness, blood-soaked dress serving as ceremonial garment for god-meeting, wool production 70mm offered as divine tribute to heal landvættir change, frame transfigured through supernatural purpose despite physical breakdown, posture kneeling with offering dignity, eyes clear with divine communication capability, breathing slow and steady approaching sheep rhythm but maintaining speech capability, hands offering wool despite severe frostbite, facial expression showing profound spiritual authority through death mission, V-notch scar clearly visible as shared marking with divine bull.",
+      "description" : "[GUDRUN-CROWNED] offering wool to contaminated god - ice crown gleaming with divine audience appropriateness, blood-soaked dress serving as ceremonial garment for god-meeting, wool production 70mm offered as divine tribute to heal landvættir change, frame transfigured through supernatural purpose despite physical breakdown, posture kneeling with offering dignity, eyes clear with divine communication capability approaching sheep rhythm but maintaining speech capability, hands offering wool despite severe frostbite, facial expression showing profound spiritual authority through death mission, V-notch scar clearly visible as shared marking with divine bull.",
       "name" : "Gudrun Divine"
     },
     "RETURNING" : {
@@ -929,7 +929,7 @@
       "name" : "Jon Losing",
       "character" : "Jon",
       "is_master" : false,
-      "description" : "[JON-CHANGING] during actual tooth loss - fever 41°C with face showing dental pain, three human teeth visible in palm after falling out (molars and canine), lips bloody from sudden tooth loss, mouth showing empty sockets bleeding, hazel eyes wide with curious examination of lost teeth, posture bent forward examining teeth with scientific child curiosity, voice affected by sudden gaps creating speech distortion, breathing 19\/min with mouth-breathing from dental exhaustion."
+      "description" : "[JON-CHANGING] during actual tooth loss - fever 41°C with face showing dental pain, three human teeth visible in palm after falling out (molars and canine), lips bloody from sudden tooth loss, mouth showing empty sockets bleeding, hazel eyes wide with curious examination of lost teeth, posture bent forward examining teeth with scientific child curiosity, voice affected by sudden gaps creating speech distortion\/min with mouth-breathing from dental exhaustion."
     },
     "SEA-EXTRACTED" : {
       "name" : "Sea Extracted",
@@ -948,7 +948,7 @@
     "JON-WANDERING" : {
       "name" : "Jon Wandering",
       "is_master" : false,
-      "description" : "[JON-TEMPORAL] with increased mobility from fever energy - fever intense fever creating restless energy, face gaunt but animated with prophetic purpose, empty tooth sockets healing, hazel eyes bright with mission focus, hair requiring cutting, sweater fitting properly, posture energetic but disoriented, trembling from excitement rather than weakness, voice clearer with prophetic authority, breathing 21\/min energetic exploration, fever visions directing movement toward prophetically significant locations.",
+      "description" : "[JON-TEMPORAL] with increased mobility from fever energy - fever intense fever creating restless energy, face gaunt but animated with prophetic purpose, empty tooth sockets healing, hazel eyes bright with mission focus, hair requiring cutting, sweater fitting properly, posture energetic but disoriented, trembling from excitement rather than weakness, voice clearer with prophetic authority\/min energetic exploration, fever visions directing movement toward prophetically significant locations.",
       "character" : "Jon",
       "shot_range" : ""
     },
@@ -962,7 +962,7 @@
     "JON-MILD" : {
       "shot_range" : "",
       "name" : "Jon Mild",
-      "description" : "[JON-MASTER] with mild fever beginning - round face flushed pink with fever warmth, button nose red from congestion, lips chapped but not severely bloodied, hazel eyes slightly glazed but still focusing on immediate surroundings, sandy hair damp with mild fever sweat, thin frame in oversized brown sweater appearing comically large, posture listless but responsive to family activity, wet cough occasional rather than constant, trembling mild and intermittent, voice hoarse but audible whisper, breathing 18\/min child-fever rhythm, fever visions minimal (brief glimpses of ram running in snow).",
+      "description" : "[JON-MASTER] with mild fever beginning - round face flushed pink with fever warmth, button nose red from congestion, lips chapped but not severely bloodied, hazel eyes slightly glazed but still focusing on immediate surroundings, sandy hair damp with mild fever sweat, thin frame in oversized brown sweater appearing comically large, posture listless but responsive to family activity, wet cough occasional rather than constant, trembling mild and intermittent, voice hoarse but audible whisper\/min child-fever rhythm, fever visions minimal (brief glimpses of ram running in snow).",
       "is_master" : false,
       "character" : "Jon"
     },
@@ -975,7 +975,7 @@
     },
     "LILJA-MASTER" : {
       "name" : "Lilja Master V",
-      "description" : "Lilja Magnusdóttir, 5-year-old Westfjords girl with perfectly cherubic round face showing baby fat despite family malnutrition, tiny upturned button nose with small nostrils, rosebud mouth naturally pink with cupid's bow definition, extraordinarily large cornflower-blue eyes appearing oversized for face creating doll-like appearance, tangled dark blonde hair with uneven self-cut bangs reaching eyebrow level, 3'6\" small delicate frame showing early childhood proportions, grey vaðmál wool dress with torn hem from active play, dark brown wool stockings with small holes at toes, simple leather shoes with worn soles, permanently clutching handmade cloth doll with brass button eyes and yellow yarn hair (doll 8 inches tall, never released from grip), timid defensive posture with constant hiding behavior behind family members or furniture, thumb-sucking comfort behavior with right thumb showing worn appearance, wide-eyed innocent staring with unblinking observation of adult behavior, high childish whisper voice with natural lisp, breathing 22 breaths per minute normal child rhythm.",
+      "description" : "Lilja Magnusdóttir, 5-year-old Westfjords girl with perfectly cherubic round face showing baby fat despite family malnutrition, tiny upturned button nose with small nostrils, rosebud mouth naturally pink with cupid's bow definition, extraordinarily large cornflower-blue eyes appearing oversized for face creating doll-like appearance, tangled dark blonde hair with uneven self-cut bangs reaching eyebrow level, 3'6\" small delicate frame showing early childhood proportions, grey vaðmál wool dress with torn hem from active play, dark brown wool stockings with small holes at toes, simple leather shoes with worn soles, permanently clutching handmade cloth doll with brass button eyes and yellow yarn hair (doll 8 inches tall, never released from grip), timid defensive posture with constant hiding behavior behind family members or furniture, thumb-sucking comfort behavior with right thumb showing worn appearance, wide-eyed innocent staring with unblinking observation of adult behavior, high childish whisper voice with natural lisp,
       "shot_range" : "",
       "character" : "Lilja",
       "is_master" : true
@@ -992,7 +992,7 @@
       "is_master" : false,
       "name" : "Simple Lamb (Shots 65-85)",
       "character" : "Lilja",
-      "description" : "Small white Icelandic lamb with large cornflower-blue eyes showing simple lamb intelligence without human consciousness retention, perfect lamb anatomy with natural sheep behavioral responses, grey wool coating, breathing 20\/min normal lamb rhythm, quadruped posture with lamb movement patterns, pure lamb vocalizations without human emotional complexity, cloth doll somehow visible as integrated element but no longer functionally clutched, movement patterns purely instinctive following herd positioning, simple lamb awareness without human emotional depth or intellectual capability."
+      "description" : "Small white Icelandic lamb with large cornflower-blue eyes showing simple lamb intelligence without human consciousness retention, perfect lamb anatomy with natural sheep behavioral responses, grey wool coating\/min normal lamb rhythm, quadruped posture with lamb movement patterns, pure lamb vocalizations without human emotional complexity, cloth doll somehow visible as integrated element but no longer functionally clutched, movement patterns purely instinctive following herd positioning, simple lamb awareness without human emotional depth or intellectual capability."
     },
     "SIGRID-POISONED" : {
       "is_master" : false,
@@ -1012,7 +1012,7 @@
       "character" : "Sigrid",
       "shot_range" : "",
       "name" : "Lullaby Oracle (Shot 16.5 Perfect Human Moment):**",
-      "description" : "[SIGRID-MARKED] during prophetic belly whisper - dress arranged for intimate belly access, rounded belly 3 months subtly visible, posture curved protectively around belly with maternal tenderness, arms cradling rounded belly with gentle circle motion, grey eyes soft with maternal love but amber flecks glowing with prophetic knowledge, breathing slowed to 13\/min maternal rhythm, voice pure soprano with prophetic undertones during lullaby, facial expression showing perfect maternal protection mixed with unconscious future knowledge, braids loose with escaped wisps suggesting maternal softness, positioned in quiet corner with natural maternal privacy, wooden cross warm with protective blessing over prophecy.",
+      "description" : "[SIGRID-MARKED] during prophetic belly whisper - dress arranged for intimate belly access, rounded belly 3 months subtly visible, posture curved protectively around belly with maternal tenderness, arms cradling rounded belly with gentle circle motion, grey eyes soft with maternal love but amber flecks glowing with prophetic knowledge\/min maternal rhythm, voice pure soprano with prophetic undertones during lullaby, facial expression showing perfect maternal protection mixed with unconscious future knowledge, braids loose with escaped wisps suggesting maternal softness, positioned in quiet corner with natural maternal privacy, wooden cross warm with protective blessing over prophecy.",
       "is_master" : false
     },
     "BAÐSTOFA-MONUMENT" : {
@@ -1040,7 +1040,7 @@
       "shot_range" : "",
       "is_master" : false,
       "name" : "Transformation Moment (Shots 61-70)",
-      "description" : "[LILJA-LAMB] during active species transition - face adapting to lamb proportions while maintaining child consciousness, mouth developing sheep configuration, blue eyes maintaining human emotional depth despite anatomical changes, hair texture completely wool-like, grey dress becoming natural covering on lamb anatomy, doll somehow integrating with transformation (brass eyes remaining visible), posture flowing between child and quadruped, voice becoming primarily sheep with child emotional content, breathing 20\/min sheep rhythm with child excitement, physical transformation happening with child adaptability and wonder.",
+      "description" : "[LILJA-LAMB] during active species transition - face adapting to lamb proportions while maintaining child consciousness, mouth developing sheep configuration, blue eyes maintaining human emotional depth despite anatomical changes, hair texture completely wool-like, grey dress becoming natural covering on lamb anatomy, doll somehow integrating with transformation (brass eyes remaining visible), posture flowing between child and quadruped, voice becoming primarily sheep with child emotional content\/min sheep rhythm with child excitement, physical transformation happening with child adaptability and wonder.",
       "character" : "Lilja"
     },
     "JON-TEMPORAL" : {
@@ -1074,7 +1074,7 @@
     "SIGRID-CALCULATING" : {
       "name" : "Mathematical Witness (Shots 8-10 Danish Counting):**",
       "is_master" : false,
-      "description" : "[SIGRID-PURE] during family counting breakdown - dress position showing conscious distance maintenance, rounded belly barely visible (2 months), posture alert with analytical assessment stance, arms loose but ready for defensive positioning, grey eyes sharp with mathematical awareness and growing alarm, breathing controlled 15\/min human resistance despite family synchronization, voice maintaining soprano purity with analytical edge, facial expression showing intelligence processing impossible mathematics, braids severe and controlled for analytical focus, positioned exactly 11 feet from counting center with measured precision, wooden cross gripped for psychological anchor during mathematical impossibility.",
+      "description" : "[SIGRID-PURE] during family counting breakdown - dress position showing conscious distance maintenance, rounded belly barely visible (2 months), posture alert with analytical assessment stance, arms loose but ready for defensive positioning, grey eyes sharp with mathematical awareness and growing alarm\/min human resistance despite family synchronization, voice maintaining soprano purity with analytical edge, facial expression showing intelligence processing impossible mathematics, braids severe and controlled for analytical focus, positioned exactly 11 feet from counting center with measured precision, wooden cross gripped for psychological anchor during mathematical impossibility.",
       "character" : "Sigrid",
       "shot_range" : ""
     },
@@ -1082,7 +1082,7 @@
       "is_master" : false,
       "character" : "Magnus",
       "shot_range" : "",
-      "description" : "[MAGNUS-PROVIDER] stripped to rowing essentials - brown vaðmál sweater only, sealskin anorak open and hanging loose, no hat exposing grey hair to salt spray, driftwood cane secured in boat bottom, rowing posture with engaged shoulders and back muscles, jaw set through physical exertion, steel-blue eyes focused intensely on empty water, breathing slow and steady work rhythm, hands steady on oars (traditional skill suppressing tremor), facial expression showing masculine competence in natural element despite futility, beard with sea-spray accumulation creating salt crystals, hair slicked back with spray and sweat.",
+      "description" : "[MAGNUS-PROVIDER] stripped to rowing essentials - brown vaðmál sweater only, sealskin anorak open and hanging loose, no hat exposing grey hair to salt spray, driftwood cane secured in boat bottom, rowing posture with engaged shoulders and back muscles, jaw set through physical exertion, steel-blue eyes focused intensely on empty water work rhythm, hands steady on oars (traditional skill suppressing tremor), facial expression showing masculine competence in natural element despite futility, beard with sea-spray accumulation creating salt crystals, hair slicked back with spray and sweat.",
       "name" : "Magnus Rowing"
     },
     "HOUSE-APPROACH" : {
@@ -1103,7 +1103,7 @@
       "is_master" : false,
       "character" : "Gudrun",
       "name" : "Gudrun Producing",
-      "description" : "[GUDRUN-COUNTING] with obvious wool emergence - faldbúningur arranged to conceal wrist situation, grey dress sleeves pulled down attempting to hide wool production, brown apron positioned to catch falling fibers, black shawl wrapped around arms concealing transformation, wool threads 20mm clearly growing from wrists with self-braiding tendency, severely malnourished frame with skin stretched over prominent bones, posture curved protectively around transformation secret, eyes showing shame mixed with biological inevitability acceptance, breathing 15\/min stress from secret-keeping, hands attempting to conceal wool production while nervous wringing continues, facial expression combining shame with growing maternal authority through biological change, brass ring requiring constant adjustment from continued weight loss.",
+      "description" : "[GUDRUN-COUNTING] with obvious wool emergence - faldbúningur arranged to conceal wrist situation, grey dress sleeves pulled down attempting to hide wool production, brown apron positioned to catch falling fibers, black shawl wrapped around arms concealing transformation, wool threads 20mm clearly growing from wrists with self-braiding tendency, severely malnourished frame with skin stretched over prominent bones, posture curved protectively around transformation secret, eyes showing shame mixed with biological inevitability acceptance\/min stress from secret-keeping, hands attempting to conceal wool production while nervous wringing continues, facial expression combining shame with growing maternal authority through biological change, brass ring requiring constant adjustment from continued weight loss.",
       "shot_range" : ""
     },
     "LAMB" : {
@@ -1118,7 +1118,7 @@
       "shot_range" : "",
       "is_master" : false,
       "name" : "Jon Lamb",
-      "description" : "Small brown Icelandic lamb with hazel eyes showing simple lamb intelligence without human consciousness retention, perfect sheep dental configuration for grass processing, brown wool coat matching original sweater color, breathing 20\/min normal lamb rhythm, quadruped posture with natural lamb behavioral responses, pure lamb vocalizations without human speech attempts, movement patterns instinctively animal following herd positioning, simple lamb awareness without human emotional complexity or intellectual capability."
+      "description" : "Small brown Icelandic lamb with hazel eyes showing simple lamb intelligence without human consciousness retention, perfect sheep dental configuration for grass processing, brown wool coat matching original sweater color\/min normal lamb rhythm, quadruped posture with natural lamb behavioral responses, pure lamb vocalizations without human speech attempts, movement patterns instinctively animal following herd positioning, simple lamb awareness without human emotional complexity or intellectual capability."
     },
     "BAÐSTOFA-PEACEFUL" : {
       "character" : "Environment",
@@ -1130,14 +1130,14 @@
     "LILJA-PURE" : {
       "shot_range" : "",
       "is_master" : false,
-      "description" : "[LILJA-MASTER] with perfect childhood innocence - cherubic face bright with healthy pink cheeks despite family strain, tiny upturned nose clear and breathing normally, rosebud mouth often forming silent \"oh\" of wonder, large cornflower-blue eyes wide with innocent curiosity about whale hunt activity, dark blonde hair tangled but recently combed by mother, small 3'6\" frame with baby fat still present, grey vaðmál wool dress with minor hem wear from normal play, dark brown wool stockings intact without holes, cloth doll pristine with bright brass button eyes and neat yellow yarn hair, posture naturally timid but exploratory, thumb-sucking frequent for comfort during exciting activity, voice high musical whisper with excited observations about community cooperation, breathing 22\/min normal happy child rhythm.",
+      "description" : "[LILJA-MASTER] with perfect childhood innocence - cherubic face bright with healthy pink cheeks despite family strain, tiny upturned nose clear and breathing normally, rosebud mouth often forming silent \"oh\" of wonder, large cornflower-blue eyes wide with innocent curiosity about whale hunt activity, dark blonde hair tangled but recently combed by mother, small 3'6\" frame with baby fat still present, grey vaðmál wool dress with minor hem wear from normal play, dark brown wool stockings intact without holes, cloth doll pristine with bright brass button eyes and neat yellow yarn hair, posture naturally timid but exploratory, thumb-sucking frequent for comfort during exciting activity, voice high musical whisper with excited observations about community cooperation\/min normal happy child rhythm.",
       "name" : "Pure Innocence (Shots 1-9)",
       "character" : "Lilja"
     },
     "LILJA-GUIDE" : {
       "shot_range" : "",
       "character" : "Lilja",
-      "description" : "[LILJA-SENSING] showing family house consciousness - face excited with discovery sharing, mouth expressing wonder at house awareness, blue eyes bright with environmental communication capability, hair wild from floor exploration, grey dress dirty from house consciousness discovery, doll positioned to \"witness\" environmental revelations, posture demonstrative during house awareness explanation, voice high excited whisper about house being alive, breathing 24\/min child excitement about environmental discovery.",
+      "description" : "[LILJA-SENSING] showing family house consciousness - face excited with discovery sharing, mouth expressing wonder at house awareness, blue eyes bright with environmental communication capability, hair wild from floor exploration, grey dress dirty from house consciousness discovery, doll positioned to \"witness\" environmental revelations, posture demonstrative during house awareness explanation, voice high excited whisper about house being alive\/min child excitement about environmental discovery.",
       "is_master" : false,
       "name" : "Environmental Guide (Shots 15-25):**"
     },
@@ -1149,14 +1149,14 @@
       "description" : "[BAÐSTOFA-CRYSTALLIZING] with seven-perspective accommodation - architecture existing simultaneously in seven different reality states, obsidian formation creating multi-dimensional cliff interior, klettagjá development enabling escape route while maintaining domestic function, house breathing 40\/min panic as witness mechanism fragments, temperature variable across reality fragments, acoustic properties accommodating seven simultaneous interpretations of identical space, lighting creating seven different illumination patterns for seven witness perspectives."
     },
     "MAGNUS-MASTER" : {
-      "description" : "Magnus Thorlaksson, 55-year-old Westfjords fisherman with weathered rectangular face, prominent angular Nordic cheekbones creating deep shadows, broken aquiline nose with visible leftward bend showing old injury, thin weather-cracked lips permanently chapped from salt air, deep-set steel-blue hooded eyes under heavy brow ridge with pronounced crow's feet extending to temples, thick charcoal-grey unkempt beard reaching mid-chest with individual coarse hairs visible, shoulder-length grey hair with natural wave pattern, greasy from whale oil and matted from weather exposure, 5'10\" broad-shouldered stocky frame with barrel chest, thick forearms with prominent veins, weathered hands showing fishing rope scars across palms, always grips carved driftwood walking cane (worn smooth at handle, iron tip for ice), tarnished silver wedding ring on left hand fourth finger, breathing pattern 12 breaths per minute baseline rhythm, gravelly bass voice with slight wheeze.",
+      "description" : "Magnus Thorlaksson, 55-year-old Westfjords fisherman with weathered rectangular face, prominent angular Nordic cheekbones creating deep shadows, broken aquiline nose with visible leftward bend showing old injury, thin weather-cracked lips permanently chapped from salt air, deep-set steel-blue hooded eyes under heavy brow ridge with pronounced crow's feet extending to temples, thick charcoal-grey unkempt beard reaching mid-chest with individual coarse hairs visible, shoulder-length grey hair with natural wave pattern, greasy from whale oil and matted from weather exposure, 5'10\" broad-shouldered stocky frame with barrel chest, thick forearms with prominent veins, weathered hands showing fishing rope scars across palms, always grips carved driftwood walking cane (worn smooth at handle, iron tip for ice), tarnished silver wedding ring on left hand fourth finger, gravelly bass voice with slight wheeze.",
       "shot_range" : "",
       "name" : "Magnus Master V",
       "is_master" : true,
       "character" : "Magnus"
     },
     "LILJA-MATHEMATICAL" : {
-      "description" : "[LILJA-PURE] witnessing family counting breakdown - face showing child confusion about adult mathematical impossibility, mouth silently counting along with adults but getting different numbers, blue eyes wide with recognition of six shadows when five people exist, hair tangled with stress from family breakdown observation, grey dress torn hem more extensive from nervous behavior, brown stockings with multiple holes from anxiety movement, doll clutched with desperate grip as comfort during family crisis, posture hiding behind mother's skirts during counting moments, thumb-sucking intense during mathematical wrongness, voice high whisper stating obvious mathematical truth adults won't acknowledge, breathing 24\/min child anxiety from family mathematical impossibility recognition.",
+      "description" : "[LILJA-PURE] witnessing family counting breakdown - face showing child confusion about adult mathematical impossibility, mouth silently counting along with adults but getting different numbers, blue eyes wide with recognition of six shadows when five people exist, hair tangled with stress from family breakdown observation, grey dress torn hem more extensive from nervous behavior, brown stockings with multiple holes from anxiety movement, doll clutched with desperate grip as comfort during family crisis, posture hiding behind mother's skirts during counting moments, thumb-sucking intense during mathematical wrongness, voice high whisper stating obvious mathematical truth adults won't acknowledge\/min child anxiety from family mathematical impossibility recognition.",
       "is_master" : false,
       "name" : "Mathematical Child Observer (Shots 1-10)",
       "character" : "Lilja",
@@ -1202,10 +1202,10 @@
       "is_master" : false,
       "character" : "Magnus",
       "name" : "Magnus Transformed",
-      "description" : "Pure Icelandic ram with magnificent curved horns, dense white wool, powerful quadruped build, steel-blue ram eyes showing human consciousness clearly visible, brown vaðmál sweater worn inside-out revealing all of Gudrun's careful mending work, tarnished silver wedding ring somehow remaining on front right hoof, breathing slow and steady sheep rhythm, standing in human furniture arrangements with animal anatomy, attempting human behaviors through animal body, human intelligence obvious through eye expression and behavioral attempts, driftwood cane lying abandoned nearby as former tool."
+      "description" : "Pure Icelandic ram with magnificent curved horns, dense white wool, powerful quadruped build, steel-blue ram eyes showing human consciousness clearly visible, brown vaðmál sweater worn inside-out revealing all of Gudrun's careful mending work, tarnished silver wedding ring somehow remaining on front right hoof sheep rhythm, standing in human furniture arrangements with animal anatomy, attempting human behaviors through animal body, human intelligence obvious through eye expression and behavioral attempts, driftwood cane lying abandoned nearby as former tool."
     },
     "MAGNUS-AGING" : {
-      "description" : "[MAGNUS-MASTER] showing supernatural strength cost - hair completely white, new deep lines carved by salt and failure, nose bleeding frozen in beard, missing left canine tooth creating speech gap, sealskin anorak torn from supernatural effort, cane bent from gripping too hard, stooped posture from aging acceleration, jaw slack with exhaustion, eyes hollow with life-force depletion, breathing 6\/min exhaustion, hands shaking at 4Hz from strength overuse, facial expression showing decades of wear accumulated in minutes, beard patchy with stress-loss, hair thinned dramatically.",
+      "description" : "[MAGNUS-MASTER] showing supernatural strength cost - hair completely white, new deep lines carved by salt and failure, nose bleeding frozen in beard, missing left canine tooth creating speech gap, sealskin anorak torn from supernatural effort, cane bent from gripping too hard, stooped posture from aging acceleration, jaw slack with exhaustion, eyes hollow with life-force depletion\/min exhaustion, hands shaking at 4Hz from strength overuse, facial expression showing decades of wear accumulated in minutes, beard patchy with stress-loss, hair thinned dramatically.",
       "is_master" : false,
       "name" : "Magnus Aging",
       "shot_range" : "",
@@ -1215,7 +1215,7 @@
       "shot_range" : "",
       "character" : "Magnus",
       "is_master" : false,
-      "description" : "[MAGNUS-MASTER] layered for winter - vaðmál sweater under sealskin anorak, wool trousers with additional patches, heavy sealskin mittens, ice-fishing boots with metal studs, cane showing ice-scratches from outdoor use, hunched posture against cold, jaw set with grim determination, eyes showing desperation beneath authority facade, breathing 12\/min baseline but irregular, tremor constant at 3Hz when gripping cane, facial expression showing forced confidence over growing panic, beard with ice crystals, hair wild from wind.",
+      "description" : "[MAGNUS-MASTER] layered for winter - vaðmál sweater under sealskin anorak, wool trousers with additional patches, heavy sealskin mittens, ice-fishing boots with metal studs, cane showing ice-scratches from outdoor use, hunched posture against cold, jaw set with grim determination, eyes showing desperation beneath authority facade\/min baseline but irregular, tremor constant at 3Hz when gripping cane, facial expression showing forced confidence over growing panic, beard with ice crystals, hair wild from wind.",
       "name" : "Magnus Preparation"
     },
     "BEATEN" : {
@@ -1236,7 +1236,7 @@
       "character" : "Magnus",
       "name" : "Magnus Ram",
       "is_master" : false,
-      "description" : "Magnificent Icelandic ram with curved horns, pure white wool, powerful quadruped build, but WEARING brown vaðmál sweater (inside-out revealing Gudrun's mending), steel-blue ram eyes showing human consciousness trapped, breathing slow and steady sheep rhythm, attempting human postures with animal anatomy, standing in human furniture arrangements, human intelligence visible through ram eye expression, wedding ring somehow remaining on front hoof, carved driftwood cane abandoned but lying nearby.",
+      "description" : "Magnificent Icelandic ram with curved horns, pure white wool, powerful quadruped build, but WEARING brown vaðmál sweater (inside-out revealing Gudrun's mending), steel-blue ram eyes showing human consciousness trapped sheep rhythm, attempting human postures with animal anatomy, standing in human furniture arrangements, human intelligence visible through ram eye expression, wedding ring somehow remaining on front hoof, carved driftwood cane abandoned but lying nearby.",
       "shot_range" : ""
     },
     "SEA-DIVINE" : {
@@ -1256,7 +1256,7 @@
     "GUDRUN-EWE" : {
       "shot_range" : "",
       "is_master" : false,
-      "description" : "White Icelandic ewe with traditional faldbúningur headdress fitting perfectly on sheep head, grey wool dress hanging properly on quadruped body, braided wool testimony strands flowing from production sites, horizontal sheep pupils showing human consciousness clearly visible, breathing slow and steady sheep rhythm with human awareness, standing in human furniture arrangements with sheep anatomy, human intelligence obvious through eye expression and behavior attempts, brass wedding ring somehow remaining on front hoof, mouth eternally forming words \"kindur... fólk\" (sheep... people), positioned in réttir formation with family but maintaining individual consciousness.",
+      "description" : "White Icelandic ewe with traditional faldbúningur headdress fitting perfectly on sheep head, grey wool dress hanging properly on quadruped body, braided wool testimony strands flowing from production sites, horizontal sheep pupils showing human consciousness clearly visible sheep rhythm with human awareness, standing in human furniture arrangements with sheep anatomy, human intelligence obvious through eye expression and behavior attempts, brass wedding ring somehow remaining on front hoof, mouth eternally forming words \"kindur... fólk\" (sheep... people), positioned in réttir formation with family but maintaining individual consciousness.",
       "character" : "Gudrun",
       "name" : "Gudrun Ewe"
     },
@@ -1264,7 +1264,7 @@
       "name" : "Full Raven (Shots 81-85)",
       "character" : "Sigrid",
       "is_master" : false,
-      "description" : "Magnificent black raven with 4.5-foot wingspan, obsidian feathers showing oil-rainbow iridescence, human grey eyes with amber flecks clearly visible in corvid skull, human intelligence obvious through eye expression and behavioral complexity, traditional dress vanished but wooden cross somehow remaining as protective talisman integrated into plumage, breathing 12\/min raven rhythm, standing in human furniture arrangements with raven anatomy, attempting human gestures through wing anatomy, human consciousness clearly visible through corvid eye expression and sophisticated behavioral responses, movement graceful with flight capability but retaining human spatial relationships.",
+      "description" : "Magnificent black raven with 4.5-foot wingspan, obsidian feathers showing oil-rainbow iridescence, human grey eyes with amber flecks clearly visible in corvid skull, human intelligence obvious through eye expression and behavioral complexity, traditional dress vanished but wooden cross somehow remaining as protective talisman integrated into plumage\/min raven rhythm, standing in human furniture arrangements with raven anatomy, attempting human gestures through wing anatomy, human consciousness clearly visible through corvid eye expression and sophisticated behavioral responses, movement graceful with flight capability but retaining human spatial relationships.",
       "shot_range" : ""
     },
     "HOUSE-CLIFF" : {
@@ -1289,7 +1289,7 @@
       "is_master" : false
     },
     "LILJA-FINAL" : {
-      "description" : "[LILJA-LAMB] before consciousness simplification - face maintaining child emotional expression despite anatomical changes, mouth adapted for sheep vocalization but retaining child emotional range, blue eyes showing child consciousness preparing for simplification, hair completely wool-textured, grey dress becoming natural lamb covering, doll integrated somehow with lamb anatomy, posture transitional between child uprightness and lamb configuration, voice child consciousness through sheep anatomy, breathing 20\/min sheep rhythm with child awareness, final child thoughts visible through changing anatomy.",
+      "description" : "[LILJA-LAMB] before consciousness simplification - face maintaining child emotional expression despite anatomical changes, mouth adapted for sheep vocalization but retaining child emotional range, blue eyes showing child consciousness preparing for simplification, hair completely wool-textured, grey dress becoming natural lamb covering, doll integrated somehow with lamb anatomy, posture transitional between child uprightness and lamb configuration, voice child consciousness through sheep anatomy\/min sheep rhythm with child awareness, final child thoughts visible through changing anatomy.",
       "name" : "Final Child Consciousness (Shots 56-65)",
       "shot_range" : "",
       "character" : "Lilja",
@@ -1332,7 +1332,7 @@
     },
     "SIGRID-DUAL" : {
       "character" : "Sigrid",
-      "description" : "[SIGRID-CORVID] with both forms simultaneous - traditional dress now flowing like feathers while maintaining fabric reality, rounded belly resolved into tilberi birth-completion, posture showing perfect balance between human stance and raven readiness, arms positioned as wings while maintaining human arm functionality, grey eyes fully raven intelligence but containing human consciousness depth, breathing 12\/min pure raven rhythm with human awareness, voice corvid-dominant but human words still possible, facial expression showing species mastery through dual consciousness, hair completely feather-textured but human-arranged, positioned at flight-ready stance but still terrestrially grounded, wooden cross transformed into raven feather while maintaining spiritual protection.",
+      "description" : "[SIGRID-CORVID] with both forms simultaneous - traditional dress now flowing like feathers while maintaining fabric reality, rounded belly resolved into tilberi birth-completion, posture showing perfect balance between human stance and raven readiness, arms positioned as wings while maintaining human arm functionality, grey eyes fully raven intelligence but containing human consciousness depth\/min pure raven rhythm with human awareness, voice corvid-dominant but human words still possible, facial expression showing species mastery through dual consciousness, hair completely feather-textured but human-arranged, positioned at flight-ready stance but still terrestrially grounded, wooden cross transformed into raven feather while maintaining spiritual protection.",
       "shot_range" : "",
       "is_master" : false,
       "name" : "Raven-Human Hybrid (Shots 76-80)"
@@ -1353,7 +1353,7 @@
     },
     "GUDRUN-PREPARING" : {
       "shot_range" : "",
-      "description" : "[GUDRUN-WEARING] preparing for survival season - faldbúningur arranged for winter durability with brass pin secured against wind, grey dress with additional patches and wear visible, brown apron stained from desperate food preparation, black shawl wrapped tightly for warmth, wool threads 5mm visible at wrists (still dismissible as fraying), frame showing clear malnutrition with prominent bones, posture hunched forward with survival focus, eyes showing calculation mixed with resignation, breathing 14\/min anxiety baseline, hands nervous wringing constant except during work focus, facial expression showing maternal determination over growing despair, brass ring loose requiring occasional adjustment.",
+      "description" : "[GUDRUN-WEARING] preparing for survival season - faldbúningur arranged for winter durability with brass pin secured against wind, grey dress with additional patches and wear visible, brown apron stained from desperate food preparation, black shawl wrapped tightly for warmth, wool threads 5mm visible at wrists (still dismissible as fraying), frame showing clear malnutrition with prominent bones, posture hunched forward with survival focus, eyes showing calculation mixed with resignation\/min anxiety baseline, hands nervous wringing constant except during work focus, facial expression showing maternal determination over growing despair, brass ring loose requiring occasional adjustment.",
       "name" : "Gudrun Preparing",
       "is_master" : false,
       "character" : "Gudrun"
@@ -1363,13 +1363,13 @@
       "shot_range" : "",
       "name" : "Gudrun Eternal",
       "is_master" : false,
-      "description" : "Pure white Icelandic ewe with traditional faldbúningur headdress fitting perfectly on sheep head creating impossible but appropriate crown, grey wool dress hanging correctly on quadruped body, wool testimony strands flowing naturally from production sites, horizontal sheep pupils showing human consciousness clearly visible, breathing slow and steady sheep rhythm with human awareness, mouth eternally forming human words through sheep anatomy creating eternal speech \"Við deyjum sem kindur til að börn okkar geti orðið fólk\" (We die as sheep so our children can become human), positioned in réttir formation but maintaining maternal authority through posture, brass wedding ring remaining on front hoof showing marriage continuity through species transformation."
+      "description" : "Pure white Icelandic ewe with traditional faldbúningur headdress fitting perfectly on sheep head creating impossible but appropriate crown, grey wool dress hanging correctly on quadruped body, wool testimony strands flowing naturally from production sites, horizontal sheep pupils showing human consciousness clearly visible sheep rhythm with human awareness, mouth eternally forming human words through sheep anatomy creating eternal speech \"Við deyjum sem kindur til að börn okkar geti orðið fólk\" (We die as sheep so our children can become human), positioned in réttir formation but maintaining maternal authority through posture, brass wedding ring remaining on front hoof showing marriage continuity through species transformation."
     },
     "GUDRUN-HIDING" : {
       "shot_range" : "",
       "name" : "Gudrun Hiding",
       "is_master" : false,
-      "description" : "[GUDRUN-PRODUCING] actively concealing transformation - faldbúningur arranged to maximize wrist concealment, grey dress with sleeves pulled down and secured with small ties, brown apron positioned as shield for wool collection, black shawl wrapped around arms creating concealment layer, wool threads 25mm but hidden through careful clothing arrangement, malnourished frame curved to hide transformation areas, posture protective around secret while maintaining domestic performance, eyes constantly checking for observation of transformation, breathing 16\/min secret-keeping stress, hands positioned to collect falling wool while appearing to engage in normal domestic tasks, facial expression showing anxiety about discovery mixed with biological inevitability acceptance.",
+      "description" : "[GUDRUN-PRODUCING] actively concealing transformation - faldbúningur arranged to maximize wrist concealment, grey dress with sleeves pulled down and secured with small ties, brown apron positioned as shield for wool collection, black shawl wrapped around arms creating concealment layer, wool threads 25mm but hidden through careful clothing arrangement, malnourished frame curved to hide transformation areas, posture protective around secret while maintaining domestic performance, eyes constantly checking for observation of transformation\/min secret-keeping stress, hands positioned to collect falling wool while appearing to engage in normal domestic tasks, facial expression showing anxiety about discovery mixed with biological inevitability acceptance.",
       "character" : "Gudrun"
     },
     "SIGRID-BECOMING" : {
@@ -1381,7 +1381,7 @@
     },
     "GUDRUN-COUNTING" : {
       "name" : "Gudrun Counting",
-      "description" : "[MAGNUS-PREPARING] during family counting breakdown - faldbúningur slightly disheveled from sleep disruption, grey dress wrinkled from restless nights, brown apron twisted from nervous handling, wool threads 10mm visible at wrists (clearly organic growth not fraying), malnourished frame showing ribs beneath dress fabric, posture defensive with maternal protection stance, grey-green eyes sharp with mathematical awareness and family breakdown recognition, breathing controlled 14\/min despite family synchronization pressure, hands wringing while observing Magnus's counting confusion, facial expression showing intelligent analysis of impossible mathematics, brass ring sliding freely on thinned finger.",
+      "description" : "[MAGNUS-PREPARING] during family counting breakdown - faldbúningur slightly disheveled from sleep disruption, grey dress wrinkled from restless nights, brown apron twisted from nervous handling, wool threads 10mm visible at wrists (clearly organic growth not fraying), malnourished frame showing ribs beneath dress fabric, posture defensive with maternal protection stance, grey-green eyes sharp with mathematical awareness and family breakdown recognition\/min despite family synchronization pressure, hands wringing while observing Magnus's counting confusion, facial expression showing intelligent analysis of impossible mathematics, brass ring sliding freely on thinned finger.",
       "shot_range" : "",
       "character" : "Gudrun",
       "is_master" : false
@@ -1417,13 +1417,13 @@
     "GUDRUN-PROTECTING" : {
       "name" : "Gudrun Protecting",
       "character" : "Gudrun",
-      "description" : "[GUDRUN-PRODUCING] with maternal authority strengthening - faldbúningur arranged with conscious dignity, grey dress showing wear but maintained with pride, brown apron positioned for work efficiency, black shawl used as authority garment rather than concealment, wool threads 35mm visible but treated as natural development, malnourished frame carrying itself with increasing dignity, posture straightening with growing maternal command, eyes showing protective calculation and family survival planning, breathing 13\/min determined rhythm, hands engaged in purposeful wool braiding rather than nervous wringing, facial expression showing maternal authority overriding social submission through biological transformation enabling strength.",
+      "description" : "[GUDRUN-PRODUCING] with maternal authority strengthening - faldbúningur arranged with conscious dignity, grey dress showing wear but maintained with pride, brown apron positioned for work efficiency, black shawl used as authority garment rather than concealment, wool threads 35mm visible but treated as natural development, malnourished frame carrying itself with increasing dignity, posture straightening with growing maternal command, eyes showing protective calculation and family survival planning\/min determined rhythm, hands engaged in purposeful wool braiding rather than nervous wringing, facial expression showing maternal authority overriding social submission through biological transformation enabling strength.",
       "shot_range" : "",
       "is_master" : false
     },
     "GUDRUN-ABUNDANT" : {
       "character" : "Gudrun",
-      "description" : "[GUDRUN-MASTER] during false prosperity - white faldbúningur headdress pristine and perfectly arranged with black velvet band spotless, grey vaðmál dress clean and well-fitted, brown wool apron fresh and unworn, black wool shawl arranged with care, no visible wool production (hands normal), thin frame but not skeletal suggesting adequate nutrition, posture showing competent maternal authority, grey-green eyes focused on productive work with minimal anxiety, breathing steady 12\/min work rhythm, hands engaged in traditional textile work without nervous wringing, facial expression showing maternal competence and domestic efficiency, brass wedding ring fitting properly on adequately fleshed finger.",
+      "description" : "[GUDRUN-MASTER] during false prosperity - white faldbúningur headdress pristine and perfectly arranged with black velvet band spotless, grey vaðmál dress clean and well-fitted, brown wool apron fresh and unworn, black wool shawl arranged with care, no visible wool production (hands normal), thin frame but not skeletal suggesting adequate nutrition, posture showing competent maternal authority, grey-green eyes focused on productive work with minimal anxiety\/min work rhythm, hands engaged in traditional textile work without nervous wringing, facial expression showing maternal competence and domestic efficiency, brass wedding ring fitting properly on adequately fleshed finger.",
       "name" : "Gudrun Abundant",
       "shot_range" : "",
       "is_master" : false
