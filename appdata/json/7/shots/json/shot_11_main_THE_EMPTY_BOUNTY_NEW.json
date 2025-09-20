@@ -104,12 +104,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[GUÐRÐšN] at the wall of shelves, frantically checking every space, every box, every corner, finding only dust circles where jars once stood, mouse droppings but no mice (already eaten), wood worn smooth from desperate daily checking, while behind her the nearly-empty oil lamp flickers - they're running out of everything.",
-      "action": "GuÐ°rún moves along shelves with increasing desperation. First shelf: empty, dust, circular stains. Second shelf: empty box, spider web, no spider. Third shelf: salt crystals, nothing else. Opens wooden storage box: crumbs, mouse droppings, emptiness. Runs fingers along wood finding nothing, not even splinters to suck. Behind her, oil lamp gutters - maybe 30 minutes of oil left. She looks up at hanging shark - only upper fermented portion remains, lower part already consumed. Looks at hearth - last peat brick burning. Looks at family - Jón's ribs visible through shirt, Lilja gnawing her thumb, Sigrid's hand protective over belly (feeding two on nothing). Cross patterns in window frost catching morning light, prophetic geometry. Magnús watches her search, knows what she'll find, hand already moving to where he hid bread. The word \"HAMR\" visible carved into shelf edge, old, worn, like house itself knows what they are.",
-      "scene": "Morning after feeding, 6:00 AM, grey light through frosted window showing cross patterns. Temperature -10Â°C from Danish residue. Empty shelves span entire north wall - twenty-four spaces, all empty. Lamp oil nearly gone, wick showing. Even hanging shark mostly consumed. Starvation visible in everything.",
+      "subject": "[GUÐRÚN] at the wall of shelves, frantically checking every space, every box, every corner, finding only dust circles where jars once stood, mouse droppings but no mice (already eaten), wood worn smooth from desperate daily checking, while behind her the nearly-empty oil lamp flickers - they're running out of everything.",
+      "action": "Guðrún moves along shelves with increasing desperation. First shelf: empty, dust, circular stains. Second shelf: empty box, spider web, no spider. Third shelf: salt crystals, nothing else. Opens wooden storage box: crumbs, mouse droppings, emptiness. Runs fingers along wood finding nothing, not even splinters to suck. Behind her, oil lamp gutters - maybe 30 minutes of oil left. She looks up at hanging shark - only upper fermented portion remains, lower part already consumed. Looks at hearth - last peat brick burning. Looks at family - Jón's ribs visible through shirt, Lilja gnawing her thumb, Sigrid's hand protective over belly (feeding two on nothing). Cross patterns in window frost catching morning light, prophetic geometry. Magnús watches her search, knows what she'll find, hand already moving to where he hid bread. The word \"HAMR\" visible carved into shelf edge, old, worn, like house itself knows what they are.",
+      "scene": "Morning after feeding, 6:00 AM, grey light through frosted window showing cross patterns. Temperature -10°C from Danish residue. Empty shelves span entire north wall - twenty-four spaces, all empty. Lamp oil nearly gone, wick showing. Even hanging shark mostly consumed. Starvation visible in everything.",
       "style": "Tracking shot following her desperate search, camera at her shoulder (that's where the camera is), documentary observation of emptiness.",
       "camera_position": "Tracking shot following her desperate search, camera at her shoulder",
-      "dialogue": "(GuÐ°rún): Sharp intake of breath at each empty space (Magnús): \"Tómt?\" (Tone: knowing the answer) (GuÐ°rún): Nods silently, hand over mouth",
+      "dialogue": "(Guðrún): Sharp intake of breath at each empty space (Magnús): \"Tómt?\" (Tone: knowing the answer) (Guðrún): Nods silently, hand over mouth",
       "audio": {
         "primary": [
           "Hands searching empty wood",
@@ -150,7 +150,7 @@
     }
   ],
   "others": {
-    "womens_silence": "GuÐ°rún's desperate search wordless",
+    "womens_silence": "Guðrún's desperate search wordless",
     "triple_reality": "Physical: no food remains / Psychological: denial breaking / Mythological: emptiness spreading"
   },
   "notes": {

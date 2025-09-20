@@ -12,7 +12,7 @@
   "aspect_ratio": "4:3",
   "prompt_variants": [
     {
-      "action": "Magnús enters storage room, GuÐ°rún following with hope. Camera reveals disaster: Twenty empty shelves with dust circles. Six barrels, all empty, one tipped showing mouse droppings but no mice (eaten). Empty hooks on beams where meat should hang, only rust stains. One sack of salt, nearly empty. Spider webs but no spiders (also eaten). Then Magnús opens HIS chest - inside, wrapped in cloth: full piece of harÐ°fiskur, white with good fat, probably 3 days' food. He breaks off large piece, eats it standing among emptiness. GuÐ°rún sees, her face cycling through betrayal, understanding, resignation. She counts the empty spaces - her lips moving \"einn, tveir, Ð¾rír...\" up to \"tuttugu og fjórir\" (twenty-four empty spaces). Behind them, Jón appears in doorway, ribs visible through shirt, sees father eating, says nothing. Magnús doesn't share, rewraps fish, hides it again. Looks at empty room, then to corner where fishing gear waits. The decision forming.",
+      "action": "Magnús enters storage room, Guðrún following with hope. Camera reveals disaster: Twenty empty shelves with dust circles. Six barrels, all empty, one tipped showing mouse droppings but no mice (eaten). Empty hooks on beams where meat should hang, only rust stains. One sack of salt, nearly empty. Spider webs but no spiders (also eaten). Then Magnús opens HIS chest - inside, wrapped in cloth: full piece of harðfiskur, white with good fat, probably 3 days' food. He breaks off large piece, eats it standing among emptiness. Guðrún sees, her face cycling through betrayal, understanding, resignation. She counts the empty spaces - her lips moving \"einn, tveir, þrír...\" up to \"tuttugu og fjórir\" (twenty-four empty spaces). Behind them, Jón appears in doorway, ribs visible through shirt, sees father eating, says nothing. Magnús doesn't share, rewraps fish, hides it again. Looks at empty room, then to corner where fishing gear waits. The decision forming.",
       "selected_plates": [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
@@ -21,13 +21,13 @@
         "GUDRUN-COUNTING",
         "BAÐSTOFA-ORGANIC"
       ],
-      "scene": "Storage room, 6:12 AM, cold grey light through cracks. Temperature -12Â°C, colder than main room. Shelves floor to ceiling, all empty. The contrast between general emptiness and Magnús's hidden plenty. His fishing gear in corner: line, hooks, gaff, net, old rifle - all prepared, waiting. Through door, family visible - Lilja gnawing thumb, Sigrid's hand on belly (feeding two), Jón fevered and skeletal.",
+      "scene": "Storage room, 6:12 AM, cold grey light through cracks. Temperature -12°C, colder than main room. Shelves floor to ceiling, all empty. The contrast between general emptiness and Magnús's hidden plenty. His fishing gear in corner: line, hooks, gaff, net, old rifle - all prepared, waiting. Through door, family visible - Lilja gnawing thumb, Sigrid's hand on belly (feeding two), Jón fevered and skeletal.",
       "style": "Wide shot showing vast emptiness, then close on hidden fish (that's where the camera is), documentary of hoarding during famine.",
-      "subject": "[MAGNÐšS] opening the storage room door, revealing catastrophic emptiness - bare shelves, empty barrels, naked hooks where meat once hung - then reaching into his personal chest to retrieve wrapped harÐ°fiskur (dried fish) he's been hiding, eating it in full view of empty stores while his family starves.",
+      "subject": "[MAGNÚS] opening the storage room door, revealing catastrophic emptiness - bare shelves, empty barrels, naked hooks where meat once hung - then reaching into his personal chest to retrieve wrapped harðfiskur (dried fish) he's been hiding, eating it in full view of empty stores while his family starves.",
       "variant_name": "Primary - THE HIDDEN FEAST AND EMPTY STORES",
       "is_active": false,
       "camera_position": "Wide shot showing vast emptiness, then close on hidden fish",
-      "dialogue": "(GuÐ°rún, counting): \"...tuttugu og Ð¾rír... tuttugu og fjórir... allt tómt\" (Tone: listing disaster) (Magnús, mouth full): \"Ð‰g verÐ° aÐ° reyna\" (I have to try) (Tone: justifying) (Jón in doorway): Silence, just watching",
+      "dialogue": "(Guðrún, counting): \"...tuttugu og þrír... tuttugu og fjórir... allt tómt\" (Tone: listing disaster) (Magnús, mouth full): \"Ð‰g verð að reyna\" (I have to try) (Tone: justifying) (Jón in doorway): Silence, just watching",
       "variant_id": "14_story_primary",
       "negative_prompt": "no subtitles, show complete emptiness clearly, contrast with hidden fish, documentary observation",
       "progressive_state": ""

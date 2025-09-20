@@ -15,7 +15,7 @@
       "scene": "Aerial view of polynya, two figures in snow. Spiral pattern visible. Blood from her wrists dotting snow.",
       "style": "Overhead showing ritual pattern of comfort (that's where the camera is), maternal gesture documented.",
       "progressive_state": "",
-      "action": "OVERHEAD SHOT looking down at polynya edge. GuÐ°rún's small figure beside Bull's massive head. She pulls wool from both wrists - continuous now, like unraveling herself. White fibers against black water. Reaches up (standing on toes) to nearest harpoon wound. Presses wool against where brass enters skull. Wool immediately absorbs contamination - turns black, then green, then starts smoking slightly. But Bull's eyes close in relief. The industrial poison being drawn out, even temporarily. She continues, wrapping wool around each harpoon base. Her wrists bleeding now where wool emerged, but she doesn't stop. From above: pattern visible - her movements create spiral around Bull, her footprints in snow forming sixth intersection point again. Wool runs out at 80mm. Her wrists now just raw openings. But Bull calmer. Breathing slowed to 8/min. The wool smoking from absorbed contamination, might catch fire.",
+      "action": "OVERHEAD SHOT looking down at polynya edge. Guðrún's small figure beside Bull's massive head. She pulls wool from both wrists - continuous now, like unraveling herself. White fibers against black water. Reaches up (standing on toes) to nearest harpoon wound. Presses wool against where brass enters skull. Wool immediately absorbs contamination - turns black, then green, then starts smoking slightly. But Bull's eyes close in relief. The industrial poison being drawn out, even temporarily. She continues, wrapping wool around each harpoon base. Her wrists bleeding now where wool emerged, but she doesn't stop. From above: pattern visible - her movements create spiral around Bull, her footprints in snow forming sixth intersection point again. Wool runs out at 80mm. Her wrists now just raw openings. But Bull calmer. Breathing slowed to 8/min. The wool smoking from absorbed contamination, might catch fire.",
       "is_active": false,
       "negative_prompt": "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
       "camera_position": "Overhead showing ritual pattern of comfort",
@@ -29,8 +29,8 @@
         "SEA-CONTAMINATED",
         "WESTFJORDS-FJORD"
       ],
-      "subject": "[GUÐRÐšN] pulling the wool from her wrists - now 80mm long - and reaching up to press it against the Bull's wounds where harpoons enter skull, the white wool immediately turning black from contaminated blood but seeming to ease his pain.",
-      "dialogue": "(GuÐ°rún): \"Shhh... ég veit... ég veit\" (I know... I know)",
+      "subject": "[GUÐRÚN] pulling the wool from her wrists - now 80mm long - and reaching up to press it against the Bull's wounds where harpoons enter skull, the white wool immediately turning black from contaminated blood but seeming to ease his pain.",
+      "dialogue": "(Guðrún): \"Shhh... ég veit... ég veit\" (I know... I know)",
       "variant_id": "46b_story_primary"
     }
   ]

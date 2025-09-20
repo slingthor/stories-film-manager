@@ -12,11 +12,11 @@
   "aspect_ratio": "4:3",
   "prompt_variants": [
     {
-      "subject": "The house continuing its confession through grinding stone and creaking wood: \"Ð‰g dey... fyrir ykkur... til aÐ° Ð¾iÐ° getiÐ° breyst\" (I die... for you... so you can transform), revealing the giant's death enables their metamorphosis.",
+      "subject": "The house continuing its confession through grinding stone and creaking wood: \"Ð‰g dey... fyrir ykkur... til að þið getið breyst\" (I die... for you... so you can transform), revealing the giant's death enables their metamorphosis.",
       "action": "PUSH THROUGH vibrating space toward center. House speaks through materials: stone foundation grinding forms \"Ð‰G DEY,\" wood beams creaking spell \"FYRIR YKKUR,\" turf walls breathing whisper \"TIL AÐ ÞIÐ GETIÐ BREYST.\" The giant is dying so they can transform - death enabling metamorphosis. Floor shows veins now - red lines pulsing beneath earth, blood vessels visible. Heartbeat dropping: 70bpm... 60... 50. Breathing more labored: 6/min... 5... 4. With each word, house ages visibly - new cracks spreading, moss falling, stones loosening. The family understands: they're in dying god's body. Their transformation requires his death. Sigrid touches wall, feels pulse weakening. Her hand comes away wet - wall perspiration mixed with blood. The house loves her specifically, dying to free her.",
       "variant_name": "Primary - THE DYING CONFESSION - SACRIFICE REVEALED 6 SECONDS",
       "camera_position": "Push through speaking architecture",
-      "dialogue": "(House, through materials): \"Ð‰g dey... fyrir ykkur...\" \"Til aÐ° Ð¾iÐ° getiÐ° breyst\" (Sigrid, understanding): \"Þú ert aÐ° gefa okkur leiÐ° út\"",
+      "dialogue": "(House, through materials): \"Ð‰g dey... fyrir ykkur...\" \"Til að þið getið breyst\" (Sigrid, understanding): \"Þú ert að gefa okkur leið út\"",
       "progressive_state": "",
       "style": "Push through speaking architecture (that's where the camera is), sacrifice documented.",
       "negative_prompt": "",

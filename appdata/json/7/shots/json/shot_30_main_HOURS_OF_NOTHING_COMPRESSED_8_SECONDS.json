@@ -45,11 +45,11 @@
       "dialogue": ""
     },
     {
-      "subject": "[MAGNÐšS] fishing for hours compressed into 8 seconds - dropping line, waiting, pulling empty, moving position, repeat - the sun tracking across sky showing time passage while below him the crystalline water reveals nothing but trawl scars on bare rock, until finally, impossibly, the line goes taut.",
+      "subject": "[MAGNÚS] fishing for hours compressed into 8 seconds - dropping line, waiting, pulling empty, moving position, repeat - the sun tracking across sky showing time passage while below him the crystalline water reveals nothing but trawl scars on bare rock, until finally, impossibly, the line goes taut.",
       "action": "Time-lapse feeling in real-time: Magnús drops weighted line, watches it descend through crystal water to bottom - visible entire way down, no fish interrupt its fall. Waits. Counts in Danish without thinking: \"Et... to... tre...\" up to \"hundrede\" (hundred). Nothing. Pulls up empty hook. Moves position 50 feet. Drops line again. Same visibility, same nothing. Sun moves 15 degrees. His beard ice thickens from 18mm to 25mm. Tries different depth. Empty. Different bait (remembering fish smell from tin). Empty. Position after position marked by sun movement - 2 hours compressed. Face aging more: lines deepening, eyes sinking. 0Hz hands struggle with line - no tremor feedback means can't feel tension. Then, on seventh attempt, as desperation peaks - line goes taut. Not snagged on bottom (can see it's clear). Something pulling. His face transforms: savage hope. Begins pulling up, hands shaking with excitement not tremor.",
       "variant_name": "Primary - HOURS OF NOTHING COMPRESSED 8 SECONDS",
       "camera_position": "Multiple positions compressed, showing futility and time passage, ending on taut line",
-      "dialogue": "(Magnús, counting): \"Et... to... tre... hundrede...\" (Moving positions): \"Her Ð¾á... nei... her...\" (Line goes taut): \"LOKSINS!\" (FINALLY!)",
+      "dialogue": "(Magnús, counting): \"Et... to... tre... hundrede...\" (Moving positions): \"Her þá... nei... her...\" (Line goes taut): \"LOKSINS!\" (FINALLY!)",
       "progressive_state": "",
       "style": "Multiple positions compressed, showing futility and time passage, ending on taut line (that's where the camera is), documentary of desperate hope.",
       "negative_prompt": "no subtitles, show time passage through sun/shadow, maintain empty clarity, documentary observation",

@@ -8,11 +8,11 @@
     "sequence_type": "main_story"
   },
   "selected_prompt_index": 0,
-  "progressive_state": "House 7/min + 48bpm | Contamination resisting | Camera frost 14.5% | Materials wrong | Watching: GuÐ°rún paralyzed",
+  "progressive_state": "House 7/min + 48bpm | Contamination resisting | Camera frost 14.5% | Materials wrong | Watching: Guðrún paralyzed",
   "aspect_ratio": "4:3",
   "prompt_variants": [
     {
-      "action": "Sigrid grips rope to begin winding. Rope immediately resists - coiling backward, alive with wrong animation. \"Tilberi, tilberi, Ð¾ú skalt mjólka fyrir mig.\" Voice starts normal but rope's tar makes fingers stick, pulling skin. Forces it around bone. Where rope touches rib, black veins spread through bone marrow, visible through translucent bone. Industrial contamination infecting organic material. Her voice catches, drops quarter octave: \"Þú skalt...\" Rope suddenly coils correctly but too tight, growing INTO bone, fusing. Not wrapped around but penetrating, rope fibers becoming bone vessels. Voice drops half octave: \"...næra barniÐ° mitt.\" Hand instinctively to belly - baby kicking, heartbeat rising to 145bpm. GuÐ°rún's mouth opens to warn but no sound emerges - women's conditioning too strong even now. Brass button in left hand begins warming, almost burning, green verdigris running like tears.",
+      "action": "Sigrid grips rope to begin winding. Rope immediately resists - coiling backward, alive with wrong animation. \"Tilberi, tilberi, þú skalt mjólka fyrir mig.\" Voice starts normal but rope's tar makes fingers stick, pulling skin. Forces it around bone. Where rope touches rib, black veins spread through bone marrow, visible through translucent bone. Industrial contamination infecting organic material. Her voice catches, drops quarter octave: \"Þú skalt...\" Rope suddenly coils correctly but too tight, growing INTO bone, fusing. Not wrapped around but penetrating, rope fibers becoming bone vessels. Voice drops half octave: \"...næra barnið mitt.\" Hand instinctively to belly - baby kicking, heartbeat rising to 145bpm. Guðrún's mouth opens to warn but no sound emerges - women's conditioning too strong even now. Brass button in left hand begins warming, almost burning, green verdigris running like tears.",
       "selected_plates": [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
@@ -27,7 +27,7 @@
       "variant_name": "Primary - ROPE FIGHTS BACK 8 SECONDS",
       "is_active": false,
       "camera_position": "Extreme close on rope-bone fusion, showing contamination spreading",
-      "dialogue": "(Sigrid, voice dropping): \"Tilberi, tilberi, Ð¾ú skalt mjólka fyrir mig\" (Quarter octave lower): \"Þú skalt...\" (Half octave lower): \"...næra barniÐ° mitt\"",
+      "dialogue": "(Sigrid, voice dropping): \"Tilberi, tilberi, þú skalt mjólka fyrir mig\" (Quarter octave lower): \"Þú skalt...\" (Half octave lower): \"...næra barnið mitt\"",
       "variant_id": "23b_story_primary",
       "negative_prompt": "",
       "progressive_state": ""

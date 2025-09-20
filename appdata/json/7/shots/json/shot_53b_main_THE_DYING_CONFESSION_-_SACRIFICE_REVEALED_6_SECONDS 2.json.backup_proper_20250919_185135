@@ -1,0 +1,74 @@
+{
+  "shot_metadata": {
+    "id": "53b",
+    "name": "THE_DYING_CONFESSION___SACRIFICE_REVEALED_6_SECONDS",
+    "title": "THE DYING CONFESSION - SACRIFICE REVEALED 6 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "narrative_function": "Giant dying | Truth spoken | Camera frost 43.5% | ...",
+    "stitch_from": "[STITCH from Shot 53a: \"Ð‰G ER BERGRISI\" revealed]",
+    "aspect_ratio": "4:3"
+  },
+  "progressive_state": "Giant dying | Truth spoken | Camera frost 43.5% | Death rattle | Watching: All understand",
+  "prompt_variants": [
+    {
+      "variant_id": "53b_story_primary",
+      "variant_name": "Primary - THE DYING CONFESSION - SACRIFICE REVEALED 6 SECONDS",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "The house continuing its confession through grinding stone and creaking wood: \"Ð‰g dey... fyrir ykkur... til aÐ° Ð¾iÐ° getiÐ° breyst\" (I die... for you... so you can transform), revealing the giant's death enables their metamorphosis.",
+      "action": "PUSH THROUGH vibrating space toward center. House speaks through materials: stone foundation grinding forms \"Ð‰G DEY,\" wood beams creaking spell \"FYRIR YKKUR,\" turf walls breathing whisper \"TIL AÐ ÞIÐ GETIÐ BREYST.\" The giant is dying so they can transform - death enabling metamorphosis. Floor shows veins now - red lines pulsing beneath earth, blood vessels visible. Heartbeat dropping: 70bpm... 60... 50. Breathing more labored: 6/min... 5... 4. With each word, house ages visibly - new cracks spreading, moss falling, stones loosening. The family understands: they're in dying god's body. Their transformation requires his death. Sigrid touches wall, feels pulse weakening. Her hand comes away wet - wall perspiration mixed with blood. The house loves her specifically, dying to free her.",
+      "scene": "Interior becoming obviously body cavity. Deterioration visible. Giant's sacrifice manifesting.",
+      "style": "Push through speaking architecture (that's where the camera is), sacrifice documented.",
+      "camera_position": "Push through speaking architecture",
+      "dialogue": "(House, through materials): \"Ð‰g dey... fyrir ykkur...\" \"Til aÐ° Ð¾iÐ° getiÐ° breyst\" (Sigrid, understanding): \"Þú ert aÐ° gefa okkur leiÐ° út\"",
+      "audio": {
+        "primary": [
+          "Stone grinding words",
+          "wood creaking speech",
+          "turf breathing whispers"
+        ],
+        "ambient": [
+          "Heartbeat slowing",
+          "breathing laboring",
+          "house aging"
+        ],
+        "absent": [
+          "human voices overwhelmed"
+        ]
+      },
+      "negative_prompt": "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "video_references": [],
+      "selected_plates": [
+        "MAGNUS-POSSESSING",
+        "SIGRID-CORNERED",
+        "LILJA-EVOLVING",
+        "JON-ENERGETIC",
+        "GUDRUN-RETURNING",
+        "BAÐSTOFA-CRYSTALLIZING"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-POSSESSING",
+        "sigrid": "SIGRID-CORNERED",
+        "lilja": "LILJA-EVOLVING",
+        "jon": "JON-ENERGETIC",
+        "gudrun": "GUDRUN-RETURNING"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-CRYSTALLIZING"
+      ]
+    }
+  ],
+  "others": {
+    "womens_silence": "Women hear but cannot speak",
+    "triple_reality": "Physical: house failing | Psychological: understanding trap | Mythological: god's sacrifice"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  },
+  "aspect_ratio": "4:3"
+}

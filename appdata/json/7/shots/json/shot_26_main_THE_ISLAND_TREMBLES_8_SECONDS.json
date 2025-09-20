@@ -11,13 +11,13 @@
         "SEA-EXTRACTED",
         "WESTFJORDS-FJORD"
       ],
-      "scene": "Halfway point, 6:40 AM but darkness despite sunrise. Temperature -28Â°C, breath freezing before exhaling. Blood spirals glowing faintly red. Mountains all responding differently.",
+      "scene": "Halfway point, 6:40 AM but darkness despite sunrise. Temperature -28°C, breath freezing before exhaling. Blood spirals glowing faintly red. Mountains all responding differently.",
       "style": "Wide shot showing Magnús tiny against responding landscape, then close on his resonating body (that's where the camera is), documentary of distance irrelevance.",
-      "subject": "[MAGNÐšS] collapsed in blood spiral 80 meters from house, suddenly feeling the 16Hz resonance through frozen ground - his bones becoming tuning forks, teeth chattering at impossible frequency, knowing without hearing that Sigrid's voice has become something else as the mountains return the call in avalanche tongues.",
+      "subject": "[MAGNÚS] collapsed in blood spiral 80 meters from house, suddenly feeling the 16Hz resonance through frozen ground - his bones becoming tuning forks, teeth chattering at impossible frequency, knowing without hearing that Sigrid's voice has become something else as the mountains return the call in avalanche tongues.",
       "variant_name": "Primary - THE ISLAND TREMBLES 8 SECONDS",
       "is_active": false,
       "camera_position": "Wide shot showing Magnús tiny against responding landscape, then close on his resonating body",
-      "dialogue": "(Magnús, feeling resonance): \"Sigrid... hvaÐ° gerÐ°ir Ð¾ú?\" (Sigrid... what did you do?) (To mountains): \"Ekki svara!\" (Don't answer!) (Realization): \"Hún kallaÐ°i á Ð¾au öll\" (She called them all)",
+      "dialogue": "(Magnús, feeling resonance): \"Sigrid... hvað gerðir þú?\" (Sigrid... what did you do?) (To mountains): \"Ekki svara!\" (Don't answer!) (Realization): \"Hún kallaði á þau öll\" (She called them all)",
       "variant_id": "26_story_primary",
       "negative_prompt": "no subtitles, show resonance through body, mountains responding, documentary observation",
       "progressive_state": ""

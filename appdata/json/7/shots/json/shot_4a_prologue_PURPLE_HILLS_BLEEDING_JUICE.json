@@ -1,7 +1,7 @@
 {
   "prompt_variants": [
     {
-      "action": "Women spread across hillside. Every bush heavy with berries, branches bent to ground. GuÐ°rún reaches first bush. Doesn't need to pick - slight touch causes berries to fall into basket like rain. Purple-black juice immediately stains her fingers. Sigrid beside her, basket filling in seconds. Other women laughing, but nervous laughter. Too many berries. Some bushes drip juice without being touched, purple streams running downhill. Women's white apron fronts turn purple. Hands stained to elbows. One young woman opens mouth, lets berries fall directly in. Purple juice runs down her chin. Teeth instantly black. Children among them drinking juice from cupped hands. Everyone's mouth purple-black. In distance, whale visible - dark shape drifting toward shore, pulled by tide. The purple juice streams running downhill parallel to blood in water.",
+      "action": "Women spread across hillside. Every bush heavy with berries, branches bent to ground. Guðrún reaches first bush. Doesn't need to pick - slight touch causes berries to fall into basket like rain. Purple-black juice immediately stains her fingers. Sigrid beside her, basket filling in seconds. Other women laughing, but nervous laughter. Too many berries. Some bushes drip juice without being touched, purple streams running downhill. Women's white apron fronts turn purple. Hands stained to elbows. One young woman opens mouth, lets berries fall directly in. Purple juice runs down her chin. Teeth instantly black. Children among them drinking juice from cupped hands. Everyone's mouth purple-black. In distance, whale visible - dark shape drifting toward shore, pulled by tide. The purple juice streams running downhill parallel to blood in water.",
       "camera_position": "Wide shot showing all women spread across hillside",
       "scene": "Hillside inland from coast, morning sun warming bushes. Every plant overloaded with berries. Purple streams forming natural channels downhill.",
       "videos": [
@@ -29,7 +29,7 @@
       "progressive_state": "",
       "negative_prompt": "no subtitles, show purple juice streams, stained hands and mouths, excessive abundance, 1080p",
       "variant_id": "4a_story_primary",
-      "subject": "Fifteen women climbing a hillside covered in crowberry bushes, [GUÐRÐšN] leading with [SIGRID] beside her, purple-black berries so abundant that juice runs down the hill in streams without anyone touching them, women's feet already stained purple.",
+      "subject": "Fifteen women climbing a hillside covered in crowberry bushes, [GUÐRÚN] leading with [SIGRID] beside her, purple-black berries so abundant that juice runs down the hill in streams without anyone touching them, women's feet already stained purple.",
       "style": "Wide shot showing all women spread across hillside (that's where the camera is), purple staining everything.",
       "selected_plates": [
         "MAGNUS-AUTHORITY",

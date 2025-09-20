@@ -4,7 +4,7 @@
     "id": "23",
     "narrative_function": "House 10/min + 50bpm | Parallel desperation | Came...",
     "duration_seconds": 8,
-    "title": "SIGRIDS PREPARATION PARALLEL TO MAGNÐšS",
+    "title": "SIGRIDS PREPARATION PARALLEL TO MAGNÚS",
     "sequence_type": "main_story"
   },
   "selected_prompt_index": 0,
@@ -34,7 +34,7 @@
       "variant_id": "23_24_four_corners_landvaettir_ritual_replacement"
     },
     {
-      "action": "Sigrid's hand protective on belly - 3-4 months, needs nourishment. Moves to grandmother's corner, GuÐ°rún watching but not stopping her. Opens old box: ritual materials mixed with industrial contamination. Takes sheep rib (from breakfast, still has meat threads). Unravels wool from Magnús's spare sweater (grey with coal dust). Finds rope - but it's from boat supplies, hemp mixed with tar, industrial. Brass button green with verdigris, not bone. Arranges them on floor in pattern from book - but pattern wrong because materials wrong. GuÐ°rún watches, knows what's coming, but stays silent. Women don't speak. Sigrid traces pattern in dust, accidentally makes six points instead of five. Through window, trawler beam illuminates materials - under industrial light, contamination visible. Black fibers through rope, green oxidation on brass, coal dust in wool. Her breathing 15/min (never changes), but baby's heartbeat audible in silence - 140bpm, twice mother's rate. House breathing slows to 8/min, preparing.",
+      "action": "Sigrid's hand protective on belly - 3-4 months, needs nourishment. Moves to grandmother's corner, Guðrún watching but not stopping her. Opens old box: ritual materials mixed with industrial contamination. Takes sheep rib (from breakfast, still has meat threads). Unravels wool from Magnús's spare sweater (grey with coal dust). Finds rope - but it's from boat supplies, hemp mixed with tar, industrial. Brass button green with verdigris, not bone. Arranges them on floor in pattern from book - but pattern wrong because materials wrong. Guðrún watches, knows what's coming, but stays silent. Women don't speak. Sigrid traces pattern in dust, accidentally makes six points instead of five. Through window, trawler beam illuminates materials - under industrial light, contamination visible. Black fibers through rope, green oxidation on brass, coal dust in wool. Her breathing 15/min (never changes), but baby's heartbeat audible in silence - 140bpm, twice mother's rate. House breathing slows to 8/min, preparing.",
       "selected_plates": [
         "MAGNUS-RITUAL",
         "SIGRID-SUMMONING",
@@ -44,13 +44,13 @@
         "BAÐSTOFA-BODY",
         "WESTFJORDS-WINTER"
       ],
-      "scene": "Interior, 6:32 AM, trawler light every 20 seconds. Temperature -15Â°C from door having been open. Grandmother's corner has old books, forbidden knowledge, Christian crosses trying to hide pagan symbols. Materials arranged in floor dust, pattern emerging. Through window, Magnús tiny figure dragging boat through spirals.",
+      "scene": "Interior, 6:32 AM, trawler light every 20 seconds. Temperature -15°C from door having been open. Grandmother's corner has old books, forbidden knowledge, Christian crosses trying to hide pagan symbols. Materials arranged in floor dust, pattern emerging. Through window, Magnús tiny figure dragging boat through spirals.",
       "style": "Close on materials and arrangement, camera at Sigrid's shoulder height (that's where the camera is), documentary of desperate preparation.",
-      "subject": "Inside the house, [SIGRID] moving to her grandmother's corner where [GUÐRÐšN] sits passive, watching her pregnant daughter gather the tilberi materials - sheep rib from morning meal, grey wool, but also industrial rope from the boat supplies, brass button from trawler contamination, knowing it's wrong but driven by the need to feed the life inside her.",
-      "variant_name": "Primary - SIGRIDS PREPARATION PARALLEL TO MAGNÐšS",
+      "subject": "Inside the house, [SIGRID] moving to her grandmother's corner where [GUÐRÚN] sits passive, watching her pregnant daughter gather the tilberi materials - sheep rib from morning meal, grey wool, but also industrial rope from the boat supplies, brass button from trawler contamination, knowing it's wrong but driven by the need to feed the life inside her.",
+      "variant_name": "Primary - SIGRIDS PREPARATION PARALLEL TO MAGNÚS",
       "is_active": false,
       "camera_position": "Close on materials and arrangement, camera at Sigrid's shoulder height",
-      "dialogue": "(Sigrid): Silent, lips moving with memorized words (GuÐ°rún): Watching, mouth opens to warn, closes (Baby): Heartbeat audible at 140bpm",
+      "dialogue": "(Sigrid): Silent, lips moving with memorized words (Guðrún): Watching, mouth opens to warn, closes (Baby): Heartbeat audible at 140bpm",
       "variant_id": "23_story_primary",
       "negative_prompt": "no subtitles, show contamination clearly, maintain silence, documentary observation",
       "progressive_state": ""

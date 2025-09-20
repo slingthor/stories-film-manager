@@ -1,0 +1,76 @@
+{
+  "shot_metadata": {
+    "id": "58b",
+    "name": "GUÐRÐŠN_EWE_SPEAKS_THROUGH_TIME___THE_GREAT_LINE_8_SECONDS_REWRITTEN",
+    "title": "GUÐRÐšN-EWE SPEAKS THROUGH TIME - THE GREAT LINE 8 SECONDS REWRITTEN",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "Truth through walls | Camera frost 51% | Sacrifice...",
+    "stitch_from": "[STITCH from Shot 58a: Crystallization beginning]"
+  },
+  "progressive_state": "Truth through walls | Camera frost 51% | Sacrifice understood | Watching: All times witness",
+  "prompt_variants": [
+    {
+      "variant_id": "58b_story_primary",
+      "variant_name": "Primary - GUÐRÐšN-EWE SPEAKS THROUGH TIME - THE GREAT LINE 8 SECONDS REWRITTEN",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[GUÐRÐšN]-ewe in the transforming space speaking the great line as camera rotates showing through translucent walls ALL times - 1888, 1944, 2024 - her words echoing through centuries: \"ViÐ° deyjum sem kindur til aÐ° börn okkar geti orÐ°iÐ° fólk.\"",
+      "action": "360Â° ROTATION around GuÐ°rún-ewe. She stands, understanding flooding her horizontal pupils. As camera circles, walls show different times. First quarter: 1888, them as sheep. Second quarter: 1944, Sigrid aged 72 watching Iceland become independent. Third quarter: 2024, tourists at black monument taking photos. Fourth quarter: return to now. Through ALL times, her voice echoes: \"ViÐ° deyjum sem kindur...\" The words exist across centuries. In 1944, old Sigrid hears them. In 2024, children on school trips hear them. \"Til aÐ° börn okkar...\" Looking at lamb-children who will have human children. The cycle. The sacrifice. \"Geti orÐ°iÐ° fólk.\" The final word FÐ“LK reverberates through time. Creates cracks in crystallizing walls. The truth so powerful it shapes the monument. Where her words touch walls, they become clearest glass. Windows through time. Portals of memory.",
+      "scene": "Center of transforming space. Time visible through walls. Words echoing through centuries.",
+      "style": "360Â° showing all times simultaneously (that's where the camera is), eternal truth documented.",
+      "camera_position": "360Â° showing all times simultaneously",
+      "dialogue": "(GuÐ°rún-ewe): \"ViÐ° deyjum sem kindur...\" (Echoing through time): \"Til aÐ° börn okkar...\" (All times): \"Geti orÐ°iÐ° fólk\"",
+      "audio": {
+        "primary": [
+          "Words echoing through centuries",
+          "time-walls resonating",
+          "truth crystallizing"
+        ],
+        "ambient": [
+          "1944 independence celebration",
+          "2024 tourist chatter",
+          "all times breathing"
+        ],
+        "absent": [
+          "no denial",
+          "truth accepted"
+        ]
+      },
+      "negative_prompt": "",
+      "video_references": [],
+      "selected_plates": [
+        "MAGNUS-BREAKING",
+        "SIGRID-DUAL",
+        "LILJA-LAMB",
+        "JON-LAMB",
+        "GUDRUN-EWE",
+        "BAÐSTOFA-CLIFF",
+        "WESTFJORDS-CLIFF"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-BREAKING",
+        "sigrid": "SIGRID-DUAL",
+        "lilja": "LILJA-LAMB",
+        "jon": "JON-LAMB",
+        "gudrun": "GUDRUN-EWE"
+      },
+      "available_environmental_plates": [
+        "BAÐSTOFA-CLIFF",
+        "WESTFJORDS-CLIFF"
+      ]
+    }
+  ],
+  "others": {
+    "womens_silence": "Breaking to speak eternal truth",
+    "triple_reality": "Physical: ewe speaking | Psychological: mother's revelation | Mythological: prophecy fulfilled"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [],
+    "original_preserved": true
+  },
+  "aspect_ratio": "4:3"
+}

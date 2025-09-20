@@ -1,0 +1,78 @@
+{
+  "prompt_variants": [
+    {
+      "subject": "",
+      "action": "Camera travels through muscle fiber bundles revealing rope integration process—hemp strands growing through tissue via cellular invasion, synthetic fibers becoming biological components through contamination chemistry that forces organic acceptance of industrial materials. Brass particles multiply through cellular division—metal contamination reproducing through biological processes, copper toxicity enabling artificial cellular regeneration creating metallic tissue architecture. Coal dust arranges into British naval symbols through bacterial manipulation—contaminated microorganisms organizing carbon particles into imperial identification codes, cellular consciousness corrupted into administrative service. Industrial bacterial invasion visible as microscopic warfare—foreign microorganisms consuming native seal bacteria, replacing organic ecosystem with industrial microbiome designed for metal processing rather than biological function. Tissue movement (fin twitching) revealed as industrial bacteria animating dead tissue through mechanical chemical processes.",
+      "variant_name": "Pass 2 Inside Contaminated Seal Tissue",
+      "camera_position": "",
+      "dialogue": "",
+      "progressive_state": "",
+      "style": "Camera traveling through tissue using impossible biological interior perspective (that's where the camera is), movement following contamination pathways through cellular structure. Focus reveals contamination detail at molecular scale, showing industrial integration as biological invasion. Lighting from bioluminescent contamination creating artificial illumination within organic tissue. DIALOGUE:",
+      "negative_prompt": "",
+      "is_active": false,
+      "scene": "PASS 2: SHOT 38A - INSIDE CONTAMINATED SEAL TISSUE Following Industrial Contamination at Cellular Level SHOT HEADER: Microscopic interior of contaminated marine tissue where British industrial pollution has integrated at cellular level, organic anatomy become hybrid biological-industrial environment. Seal tissue serving as archaeological site documenting British trawler contamination through microscopic evidence of cellular invasion and bacterial ecosystem replacement.",
+      "selected_plates": [
+        "MAGNUS-WOUNDED",
+        "SIGRID-ORACLE",
+        "LILJA-COMMUNICATING",
+        "JON-CHANGING",
+        "GUDRUN-PRODUCING",
+        "BAÐSTOFA-CLEFT"
+      ],
+      "variant_id": "38a_pass_2_inside_contaminated_seal_tissue"
+    },
+    {
+      "variant_name": "Fin Examination Industrial Fibers Microscopic",
+      "subject": "",
+      "selected_plates": [
+        "MAGNUS-WOUNDED",
+        "SIGRID-ORACLE",
+        "LILJA-COMMUNICATING",
+        "JON-CHANGING",
+        "GUDRUN-PRODUCING",
+        "BAÐSTOFA-CLEFT"
+      ],
+      "camera_position": "",
+      "variant_id": "38a_fin_examination_industrial_fibers_microscopic",
+      "progressive_state": "",
+      "is_active": false,
+      "negative_prompt": "",
+      "scene": "SHOT 38A: FIN EXAMINATION - INDUSTRIAL FIBERS MICROSCOPIC From Standard Desperation (8/10) to Contamination Discovery Masterpiece (9/10) SHOT HEADER: Small fishing boat on empty fjord where contaminated marine life provides only evidence of industrial pollution affecting arctic ecosystem, seal fin serving as biological documentation of British trawler impact on traditional food sources. Water clear enough to show both physical reality and reflection-reality simultaneously, mirror surface becoming portal between actual failure and psychological protection-fantasy.",
+      "action": "Fin movement increases during examination—dead tissue pulsing with artificial life rhythm (16/min) suggesting industrial contamination animating corpse through chemical processes beyond normal decay. Microscopic camera perspective reveals industrial contamination integrated at molecular level: rope fibers growing through muscle like veins, brass particles embedded in fat cells, coal dust creating geometric patterns in tissue structure, marine life transformed into industrial material at cellular level. Tears falling upward create ascending drop-sequence rising toward storm clouds, grief energy so intense it overrides gravity, emotional physics stronger than natural law. Reflection-reality becomes more vivid during examination—mirror showing traditional fishing success, abundant catch, masculine competence while actual reality provides only contaminated failure, consciousness protecting itself through mirror-lies about capability and provision.",
+      "style": "Camera diving from normal examination distance into microscopic tissue perspective then pulling back to show upward tears (that's where the camera is), macro/wide transitions impossible with traditional equipment. Static shot during tissue examination, dynamic movement following tears' upward trajectory. Natural light enhanced by tissue luminescence from industrial contamination. Focus alternates between microscopic contamination detail and reflection-reality comparison showing actual versus desired outcomes. DIALOGUE:",
+      "dialogue": ""
+    },
+    {
+      "scene": "In boat, 9:32 AM. Bright enough to see every detail of decay. His hands trembling at 0Hz - no tremor but shaking from emotion.",
+      "style": "Smooth push-in from medium to macro, revealing layers of decay (that's where the camera is), intimate observation of shame.",
+      "progressive_state": "",
+      "action": "CAMERA STARTS medium on Magnús holding fin, PUSHES IN smooth and slow. As we get closer, horror reveals: Black flesh not from seal color but decomposition. Edges green with rot. Maggots throughout but frozen in ice crystals, suspended mid-movement like white rice. Smell visible as vapor rising despite cold. One maggot not frozen, still moving, blind, searching. Magnús's 0Hz hands can't feel the slime, the texture, only sees. His aged eyes studying it like reading future. In EXTREME CLOSE-UP, we see his reflection in the ice crystals covering the rot - his face distorted, multiplied, broken into hundred fragments. This is his provision. This is what he brings home. Camera holds on this intimacy between provider and failure.",
+      "is_active": false,
+      "negative_prompt": "",
+      "camera_position": "Smooth push-in from medium to macro, revealing layers of decay",
+      "variant_name": "Primary - THE FIN EXAMINED - MACRO HORROR 5 SECONDS",
+      "selected_plates": [
+        "MAGNUS-WOUNDED",
+        "SIGRID-ORACLE",
+        "LILJA-COMMUNICATING",
+        "JON-CHANGING",
+        "GUDRUN-PRODUCING",
+        "BAÐSTOFA-CLEFT"
+      ],
+      "subject": "Camera pushing in from medium shot to extreme close-up on the seal fin in [MAGNÐšS]'s hands, revealing in increasing detail the decomposition - black flesh, white maggots frozen mid-writhe, green putrescence, but his 0Hz hands holding it like sacred offering.",
+      "dialogue": "(Magnús, whispered): \"Fyrir börnin\" (For the children)",
+      "variant_id": "38a_story_primary"
+    }
+  ],
+  "selected_prompt_index": 0,
+  "progressive_state": "Examining the catch | Decay revealed | Camera frost 24.5% | Provider's shame | Watching: His own eyes",
+  "shot_metadata": {
+    "title": "THE FIN EXAMINED - MACRO HORROR 5 SECONDS",
+    "sequence_type": "main_story",
+    "duration_seconds": 5,
+    "narrative_function": "Examining the catch | Decay revealed | Camera fros...",
+    "id": "38a",
+    "stitch_from": ""
+  },
+  "aspect_ratio": "4:3"
+}

@@ -45,10 +45,10 @@
       "dialogue": ""
     },
     {
-      "scene": "Corner and door, 6:20 AM, candle stub providing only light. Temperature -12Â°C inside, but door opening reveals -25Â°C outside. Gear arranged like shrine - each item in specific place, handled with reverence. Door frozen shut with 5mm ice on inside, requiring shoulder to break seal. When door opens, cold enters like entity.",
+      "scene": "Corner and door, 6:20 AM, candle stub providing only light. Temperature -12°C inside, but door opening reveals -25°C outside. Gear arranged like shrine - each item in specific place, handled with reverence. Door frozen shut with 5mm ice on inside, requiring shoulder to break seal. When door opens, cold enters like entity.",
       "style": "Candlelit preparation, camera following his ritual movements (that's where the camera is), documentary of departure preparation.",
       "progressive_state": "",
-      "action": "In darkness, we hear him moving. Match strikes - another hidden candle stub. Light reveals him at his corner, already dressed in additional layers: sealskin over wool, wool over wool. Picks up óÐ°inn - 30 fathoms of line, braided by his father, repaired by him hundred times. Tests each section, knows weak spots by feel. Tremor at 4Hz makes line shake. Wraps line around torso under coat. Picks up háfur, tests point on thumb - draws blood, good. Secures to belt. Opens bait tin - empty but for fish scales from better times. Smells it, pretends. Takes rifle, checks mechanism - frozen but might work. Three bullets. Looks at family in candlelight. GuÐ°rún watching, not speaking. Children asleep or pretending. Sigrid maintaining 11 feet even in darkness, her grey eyes reflecting candle. He walks to door, hand on latch. House breathing accelerates to 15/min - it knows. Heartbeat accelerates to 80bpm. The door resists opening. He forces it.",
+      "action": "In darkness, we hear him moving. Match strikes - another hidden candle stub. Light reveals him at his corner, already dressed in additional layers: sealskin over wool, wool over wool. Picks up óðinn - 30 fathoms of line, braided by his father, repaired by him hundred times. Tests each section, knows weak spots by feel. Tremor at 4Hz makes line shake. Wraps line around torso under coat. Picks up háfur, tests point on thumb - draws blood, good. Secures to belt. Opens bait tin - empty but for fish scales from better times. Smells it, pretends. Takes rifle, checks mechanism - frozen but might work. Three bullets. Looks at family in candlelight. Guðrún watching, not speaking. Children asleep or pretending. Sigrid maintaining 11 feet even in darkness, her grey eyes reflecting candle. He walks to door, hand on latch. House breathing accelerates to 15/min - it knows. Heartbeat accelerates to 80bpm. The door resists opening. He forces it.",
       "is_active": false,
       "negative_prompt": "no subtitles, show ritual preparation, maintain darkness except candle, documentary observation",
       "camera_position": "Candlelit preparation, camera following his ritual movements",
@@ -62,8 +62,8 @@
         "BAÐSTOFA-BODY",
         "WESTFJORDS-WINTER"
       ],
-      "subject": "[MAGNÐšS] in the darkness, moving by memory to his corner where fishing gear waits meticulously prepared - óÐ°inn (line) coiled in perfect circles, háfur (gaff) sharpened to killing point, tin of phantom bait, grandfather's rifle with three bullets, all arranged like ritual objects for his likely suicide mission.",
-      "dialogue": "(Magnús, to line): \"Haltu, pabbi\" (Hold, father) (Testing gaff): \"Hvass\" (Sharp) (At door): \"Ð‰g kem aftur\" (I'll come back) (GuÐ°rún): Silence, just watching",
+      "subject": "[MAGNÚS] in the darkness, moving by memory to his corner where fishing gear waits meticulously prepared - óðinn (line) coiled in perfect circles, háfur (gaff) sharpened to killing point, tin of phantom bait, grandfather's rifle with three bullets, all arranged like ritual objects for his likely suicide mission.",
+      "dialogue": "(Magnús, to line): \"Haltu, pabbi\" (Hold, father) (Testing gaff): \"Hvass\" (Sharp) (At door): \"Ð‰g kem aftur\" (I'll come back) (Guðrún): Silence, just watching",
       "variant_id": "18_story_primary"
     }
   ],

@@ -1,0 +1,78 @@
+{
+  "shot_metadata": {
+    "id": "31",
+    "name": "THE_CHILDREN_SEE_TRUE_SHAPES_8_SECONDS_REVISED",
+    "title": "THE CHILDREN SEE TRUE SHAPES 8 SECONDS REVISED",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "narrative_function": "House 4/min dying + 80bpm | Reality breaking | Cam...",
+    "stitch_from": "[STITCH from Shot 30: Magnús pulling line, family inside with tilberi aftermath]"
+  },
+  "progressive_state": "House 4/min dying + 80bpm | Reality breaking | Camera frost 20% | Children's vision | Watching: House watching them",
+  "prompt_variants": [
+    {
+      "variant_id": "31_story_primary",
+      "variant_name": "Primary - THE CHILDREN SEE TRUE SHAPES 8 SECONDS REVISED",
+      "intent_tags": [
+        "story_primary"
+      ],
+      "priority": 1,
+      "subject": "[JÐ“N] and [LILJA] huddled together on sleeping platform, the boy's 39Â°C fever allowing him to see everyone's true shapes - pointing at each family member and counting sheep not people: \"Ein kind, tvær kindur, Ð¾rjár...\" while Lilja arranges her doll family in réttir formation, the floor's worn patterns now clearly visible as ancient sorting pens.",
+      "action": "Jón's fever breaks him through reality's veil. Points at GuÐ°rún: \"Ein kind\" (one sheep). At empty clothes: \"Tvær kindur\" (two sheep). At Sigrid: \"Þrjár kindur\" (three sheep). Counts what he SEES, not what's there. Lilja, following his lead, arranges her dolls on floor where réttir patterns show clear - five pens radiating from center, but six intersection points. Places dolls as sheep being sorted. Her doll with brass button eyes placed in center - the forystufé, lead wether that guides others to slaughter. Floor patterns deepening, revealing stone underneath packed earth - ancient réttir were always here, house built on them. Through fever-bright eyes, Jón sees more: everyone has two shadows - human and animal. Sigrid's shadow shows raven wings. GuÐ°rún's shows ewe with faldbúningur. His own shows lamb, sick and stumbling. The shadows move independently, rehearsing transformation. Lilja hums Krummi tune: \"verÐ°ur margt aÐ° meini\" (much becomes harmful) - understanding the prophecy.",
+      "scene": "Children's sleeping platform, 9:10 AM dark. Temperature -23Â°C. Floor patterns visible as ancient stone réttir beneath earth. Everyone's dual shadows visible in landvættir light from windows.",
+      "style": "Child's eye level showing dual realities overlapping (that's where the camera is), documentary of innocent revelation.",
+      "camera_position": "Child's eye level showing dual realities overlapping",
+      "dialogue": "(Jón, fevered counting): \"Ein kind, tvær kindur, Ð¾rjár, fjórar, fimm... sex?\" (Pointing at empty space): \"Sjötta kindin\" (The sixth sheep) (Lilja, humming): \"VerÐ°ur margt aÐ° meini...\"",
+      "audio": {
+        "primary": [
+          "Children's voices seeing truth",
+          "dolls placed in pattern",
+          "Krummi melody hummed"
+        ],
+        "ambient": [
+          "Dual shadows moving independently",
+          "stone réttir revealing through floor",
+          "house 4/min dying"
+        ],
+        "absent": [
+          "no adult understanding",
+          "no correction"
+        ]
+      },
+      "negative_prompt": "no subtitles, show dual shadows clearly, réttir patterns in floor, documentary observation",
+      "video_references": [],
+      "selected_plates": [
+        "MAGNUS-AGING",
+        "SIGRID-ORACLE",
+        "LILJA-COMMUNICATING",
+        "JON-CHANGING",
+        "GUDRUN-PRODUCING",
+        "SEA-EXTRACTED",
+        "BAÐSTOFA-CLEFT"
+      ],
+      "available_character_plates": {
+        "magnus": "MAGNUS-AGING",
+        "sigrid": "SIGRID-ORACLE",
+        "lilja": "LILJA-COMMUNICATING",
+        "jon": "JON-CHANGING",
+        "gudrun": "GUDRUN-PRODUCING"
+      },
+      "available_environmental_plates": [
+        "SEA-EXTRACTED",
+        "BAÐSTOFA-CLEFT"
+      ]
+    }
+  ],
+  "others": {
+    "womens_silence": "Children communicate without words",
+    "triple_reality": "Physical: fever hallucination / Psychological: children see truth / Mythological: hamskiptingur visible"
+  },
+  "notes": {
+    "sequence": "main_story",
+    "characters_involved": [
+      "LILJA"
+    ],
+    "original_preserved": true
+  },
+  "aspect_ratio": "4:3"
+}

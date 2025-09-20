@@ -1,14 +1,14 @@
 {
   "prompt_variants": [
     {
-      "subject": "Camera beginning tight on [MAGNÐšS]'s face then slowly pulling back while rotating 360Â° around his boat, revealing the complete emptiness of the fjord - no ships, no birds except seven ravens above, just poisoned green-black water stretching to every horizon, his face aging years in seconds as he comprehends his victory is absolute defeat.",
+      "subject": "Camera beginning tight on [MAGNÚS]'s face then slowly pulling back while rotating 360° around his boat, revealing the complete emptiness of the fjord - no ships, no birds except seven ravens above, just poisoned green-black water stretching to every horizon, his face aging years in seconds as he comprehends his victory is absolute defeat.",
       "action": "CAMERA BEGINS on Magnús's face in close-up - triumph draining to horror. PULLS BACK while starting clockwise rotation. First quarter turn: reveals his 0Hz hands still gripping useless rifle, two bullets remaining. Second quarter: shows poisoned wake, green-black trail 50 meters wide where trawler passed, water actually steaming toxic vapors. Third quarter: empty horizon toward house - tiny structure barely visible, smoke starting again but black now. Final quarter: completing circle to his face but WIDER now, showing him tiny in vast poisoned emptiness. During rotation, his face visibly ages - hair whitening at roots spreading outward, new lines carving deep, eyes sinking. Above, seven ravens maintain perfect spiral, their shadows on water creating mandala pattern. Through clear water between poison: seafloor visible, completely barren, trawl scars now filling with green-black contamination. The victory cost everything.",
       "variant_name": "Primary - THE EMPTY VICTORY - CIRCULAR REVELATION 8 SECONDS",
-      "camera_position": "360Â° continuous rotation with pullback, starting ECU ending extreme wide",
-      "dialogue": "(Magnús, beginning): \"Ð‰g vann...\" (I won...) (Midway through rotation): \"Nei...\" (Completion, whispered): \"HvaÐ° vann ég?\" (What did I win?)",
+      "camera_position": "360° continuous rotation with pullback, starting ECU ending extreme wide",
+      "dialogue": "(Magnús, beginning): \"Ð‰g vann...\" (I won...) (Midway through rotation): \"Nei...\" (Completion, whispered): \"Hvað vann ég?\" (What did I win?)",
       "progressive_state": "",
-      "style": "360Â° continuous rotation with pullback, starting ECU ending extreme wide (that's where the camera is), choreographed loneliness.",
-      "negative_prompt": "no cuts during rotation, continuous movement, show aging in real-time, maintain 360Â° circle",
+      "style": "360° continuous rotation with pullback, starting ECU ending extreme wide (that's where the camera is), choreographed loneliness.",
+      "negative_prompt": "no cuts during rotation, continuous movement, show aging in real-time, maintain 360° circle",
       "is_active": false,
       "scene": "Center of fjord, 9:25 AM. Poisoned water spreading. No life visible except ravens. Mountains reflected in toxic water.",
       "selected_plates": [
