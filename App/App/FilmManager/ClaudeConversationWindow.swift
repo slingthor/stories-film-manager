@@ -42,6 +42,7 @@ struct ClaudeConversationWindow: View {
                             Picker("Intent", selection: $conversationIntent) {
                                 Text("Modify Current Shot").tag("modifyShot")
                                 Text("Shorten for Luma").tag("shortenForLuma")
+                                Text("Split Shot in Two").tag("splitShot")
                                 Text("General Discussion").tag("generalChat")
                             }
                             .pickerStyle(SegmentedPickerStyle())
@@ -50,6 +51,8 @@ struct ClaudeConversationWindow: View {
                                  "AI will focus on creating and improving prompt variants for the current shot." :
                                  conversationIntent == "shortenForLuma" ?
                                  "AI will shorten the fully resolved prompt to under 1960 characters for Luma Dream Machine." :
+                                 conversationIntent == "splitShot" ?
+                                 "AI will intelligently split complex shots into two separate prompts while preserving story and visual quality." :
                                  "AI will engage in general discussion about the film project.")
                                 .font(.caption)
                                 .foregroundColor(.secondary)
@@ -57,8 +60,8 @@ struct ClaudeConversationWindow: View {
                         .frame(maxWidth: .infinity, alignment: .leading)
                     }
 
-                    // Shot Info Section (show for modifying shot and Luma shortening)
-                    if conversationIntent == "modifyShot" || conversationIntent == "shortenForLuma" {
+                    // Shot Info Section (show for modifying shot, Luma shortening, and split shot)
+                    if conversationIntent == "modifyShot" || conversationIntent == "shortenForLuma" || conversationIntent == "splitShot" {
                         GroupBox("Current Shot") {
                             VStack(alignment: .leading, spacing: 8) {
                                 Text("Shot ID: \(shot.id)")
@@ -89,6 +92,11 @@ struct ClaudeConversationWindow: View {
                                 } else if conversationIntent == "shortenForLuma" {
                                     // For Luma, we'll generate and include the full prompt
                                     Text("✓ Fully Resolved Prompt (automatically included)")
+                                        .font(.caption)
+                                        .foregroundColor(.green)
+                                } else if conversationIntent == "splitShot" {
+                                    // For split shot, we'll include the full prompt and context
+                                    Text("✓ Full Shot Context & Prompt (automatically included)")
                                         .font(.caption)
                                         .foregroundColor(.green)
                                 }
@@ -376,8 +384,8 @@ struct ClaudeConversationWindow: View {
     }
 
     private func prepareConversationContext(completion: (ClaudeContext, String) -> Void) {
-        // Force include current shot when modifying
-        if conversationIntent == "modifyShot" {
+        // Force include current shot when modifying or splitting
+        if conversationIntent == "modifyShot" || conversationIntent == "splitShot" {
             contextBuilder.includeCurrentShot = true
         }
 
@@ -415,6 +423,52 @@ struct ClaudeConversationWindow: View {
 
                 // Append to shot context
                 context.shotContext += lumaPrompt
+            }
+        }
+
+        // For split shot, add the fully resolved prompt to analyze for splitting
+        if conversationIntent == "splitShot" {
+            if shot.selectedPromptIndex < shot.promptVariants.count {
+                let cleanPrompt = shot.promptVariants[shot.selectedPromptIndex].generateCleanPrompt(
+                    for: shot,
+                    plateManager: filmManager.plateManager
+                )
+
+                // Add the fully resolved prompt to the shot context
+                let splitPrompt = """
+
+                =================================
+                CURRENT SHOT TO SPLIT
+                =================================
+                Shot: \(shot.id) - \(shot.title)
+                Variant: \(shot.promptVariants[shot.selectedPromptIndex].name)
+                Duration: \(shot.duration) seconds
+                Current Length: \(cleanPrompt.count) characters
+
+                =================================
+                COMPLETE PROMPT (with all plates resolved):
+                =================================
+
+                \(cleanPrompt)
+
+                =================================
+                ORIGINAL JSON STRUCTURE:
+                =================================
+                {
+                  "shot_id": "\(shot.id)",
+                  "title": "\(shot.title)",
+                  "duration": \(shot.duration),
+                  "sequence_type": "\(shot.sequenceType)",
+                  "aspect_ratio": "\(shot.aspectRatio)"
+                }
+
+                =================================
+                END OF SHOT TO SPLIT
+                =================================
+                """
+
+                // Append to shot context
+                context.shotContext += splitPrompt
             }
         }
 
@@ -460,6 +514,57 @@ struct ClaudeConversationWindow: View {
             - Show the character count at the end
 
             Please output the shortened prompt ready to paste into Luma Dream Machine.
+            """
+        case "splitShot":
+            return """
+            ✂️ INTENT: SPLIT SHOT IN TWO
+            Your task is to intelligently split a complex shot into two separate, cohesive prompts.
+
+            ANALYSIS REQUIREMENTS:
+            First, analyze why this shot is too complex for a single prompt. Consider:
+            - Multiple distinct actions happening in sequence
+            - Too many characters with significant interactions
+            - Scene transitions or location changes
+            - Complex camera movements that need to be separated
+            - Temporal shifts (flashbacks, time jumps)
+            - Overwhelming visual detail that needs distribution
+
+            SPLITTING STRATEGY:
+            1. Identify the natural narrative breakpoint(s) in the shot
+            2. Ensure each split maintains:
+               - Visual coherence and quality
+               - Story continuity and emotional arc
+               - Character consistency using the same plates
+               - Environmental continuity
+            3. Consider the transition between the two shots:
+               - How does Shot A end?
+               - How does Shot B begin?
+               - Is there visual/narrative continuity?
+
+            OUTPUT REQUIREMENTS:
+            Provide TWO complete JSON objects for the split shots, each containing:
+            {
+              "shot_id": "original_id_a" or "original_id_b",
+              "title": "Descriptive title for this portion",
+              "duration": appropriate_seconds,
+              "subject": "Full subject description with plates",
+              "action": "Specific actions for this shot",
+              "scene": "Scene setting with environmental details",
+              "style": "Camera and visual style",
+              "dialogue": "If applicable",
+              "sounds": "Audio elements",
+              "negative_prompt": "What to avoid"
+            }
+
+            EXPLANATION SECTION:
+            After the JSON outputs, provide:
+            1. INTERNAL REASONING: Your analysis of why and how you split the shot
+            2. NARRATIVE JUSTIFICATION: How the split preserves story integrity
+            3. VISUAL CONTINUITY: How visual consistency is maintained
+            4. IMPROVEMENTS: How the split actually enhances the sequence
+
+            Remember: The goal is not just to divide content but to create two powerful,
+            focused prompts that together tell the story better than one overwhelming prompt.
             """
         case "generalChat":
             return """

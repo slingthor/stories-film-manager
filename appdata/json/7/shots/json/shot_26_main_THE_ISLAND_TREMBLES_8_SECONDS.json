@@ -1,34 +1,34 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "All systems disrupted | Parallel disaster felt | Camera frost 17.5% | Distance irrelevant | Watching: Mountains witness",
-  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "title" : "THE ISLAND TREMBLES 8 SECONDS",
     "stitch_from" : "",
+    "duration_seconds" : 8,
     "id" : "26",
     "narrative_function" : "All systems disrupted | Parallel disaster felt | C...",
-    "duration_seconds" : 8,
+    "title" : "THE ISLAND TREMBLES 8 SECONDS",
     "sequence_type" : "main_story"
   },
+  "progressive_state" : "All systems disrupted | Parallel disaster felt | Camera frost 17.5% | Distance irrelevant | Watching: Mountains witness",
+  "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "subject" : "[MAGNÚS] collapsed in blood spiral 80 meters from house, suddenly feeling the 16Hz resonance through frozen ground - his bones becoming tuning forks, teeth chattering at impossible frequency, knowing without hearing that Sigrid's voice has become something else as the mountains return the call in avalanche tongues.",
+      "negative_prompt" : "no subtitles, show resonance through body, mountains responding, documentary observation",
       "selected_plates" : [
         "MAGNUS-AFLOAT",
         "SEA-EXTRACTED",
         "WESTFJORDS-FJORD",
         "WESTFJORDS-WINTER"
       ],
-      "scene" : "Halfway point, 6:40 AM but darkness despite sunrise. Temperature -28°C, breath freezing before exhaling. Blood spirals glowing faintly red. Mountains all responding differently.",
-      "is_active" : false,
-      "style" : "Wide shot showing Magnús tiny against responding landscape, then close on his resonating body (that's where the camera is), documentary of distance irrelevance.",
-      "negative_prompt" : "no subtitles, show resonance through body, mountains responding, documentary observation",
-      "dialogue" : "(Magnús, feeling resonance): \"Sigrid... hvað gerðir þú?\" (Sigrid... what did you do?) (To mountains): \"Ekki svara!\" (Don't answer!) (Realization): \"Hún kallaði á þau öll\" (She called them all)",
-      "camera_position" : "Wide shot showing Magnús tiny against responding landscape, then close on his resonating body",
-      "variant_id" : "26_story_primary",
+      "variant_name" : "Primary - THE ISLAND TREMBLES 8 SECONDS",
+      "subject" : "[MAGNÚS] collapsed in blood spiral 80 meters from house, suddenly feeling the 16Hz resonance through frozen ground - his bones becoming tuning forks, teeth chattering at impossible frequency, knowing without hearing that Sigrid's voice has become something else as the mountains return the call in avalanche tongues.",
       "progressive_state" : "",
+      "is_active" : false,
+      "variant_id" : "26_story_primary",
       "action" : "Magnús on knees, recovering from aflausn debt. Ground suddenly vibrates - not earthquake but resonance through bedrock. 16Hz travels through frozen earth faster than air. His skeleton resonates: teeth chatter at 16Hz (impossible for muscle), ribs hum, spine becomes antenna. Looks back at house - smoke from chimney forms raven shape, dissipates, reforms. Windows glowing with light that shouldn't exist (lamp dead, but four landvættir's attention creates illumination). Tries to stand but resonance drops him. Mountains respond: East mountain sheds snow in controlled slide (Raven's acknowledgment). West mountain steams at peak (Bull's breathing). South mountain groans audibly (Giant's bones). North mountain stays silent but darker (Raven gathering). His tremor completely stops - 0Hz - the stillness more terrifying than shaking. In his mouth, taste of blood and metal. The boat behind him slides backward 5 feet, pulled by blood spirals toward house. Realizes: Sigrid did something irreversible.",
-      "variant_name" : "Primary - THE ISLAND TREMBLES 8 SECONDS"
+      "scene" : "Halfway point, 6:40 AM but darkness despite sunrise. Temperature -28°C, breath freezing before exhaling. Blood spirals glowing faintly red. Mountains all responding differently.",
+      "style" : "Wide shot showing Magnús tiny against responding landscape, then close on his resonating body (that's where the camera is), documentary of distance irrelevance.",
+      "camera_position" : "Wide shot showing Magnús tiny against responding landscape, then close on his resonating body",
+      "dialogue" : "(Magnús, feeling resonance): \"Sigrid... hvað gerðir þú?\" (Sigrid... what did you do?) (To mountains): \"Ekki svara!\" (Don't answer!) (Realization): \"Hún kallaði á þau öll\" (She called them all)"
     }
   ]
 }

@@ -1,54 +1,51 @@
 {
+  "progressive_state" : "Trust tested | Eggs abundant | Camera frost 0% | Gold revealed | Watching: Earth provides",
   "prompt_variants" : [
     {
       "scene" : "Vertical cliff face, 100 feet down from top. Black basalt with bird-covered ledges. Ocean below with whale blood reaching shore. Yolk spreading on rocks.",
       "is_active" : false,
       "dialogue" : "None",
-      "active_video_index" : 0,
-      "action" : "Jón climbs backward down cliff, rope taut around waist. Magnús above, visible hands holding rope steady. Boy's feet grip small ledges. Reaches first hole in cliff, 2 feet wide, perfectly round. Reaches in up to elbow. Pulls out three white eggs, each large as his fist. Places them in leather pouch at hip. Descends further. Second hole contains five eggs. Too many for one bird. Third egg slips from his grip. Falls 50 feet. Hits black rock below. Shell explodes. Yolk spreads bright golden across rock, running down in streams. Same color as morning sunlight. Jón freezes, watching yolk spread. Magnús tugs rope - continue. Boy reaches next hole. This one deeper. Entire arm disappears inside. Face shows surprise. Pulls out seven eggs. Pouch already full. Holds extra eggs against chest. One more falls. Another golden explosion on rocks. Yolk and blood from whale mixing where rock meets water.",
       "variant_id" : "3b_story_primary",
       "camera_position" : "Vertical angle from beside Jón showing descent and egg collecting",
-      "variant_name" : "Primary - THE DESCENT FOR GOLDEN EGGS",
-      "subject" : "[JÐ“N] descending the cliff face on rope, bare feet finding holds on black rock, reaching into round holes to pull out pure white eggs, one egg slipping from his hand to break on rocks below, golden yolk splattering bright yellow.",
+      "progressive_state" : "",
+      "style" : "Vertical angle from beside Jón showing descent and egg collecting (that's where the camera is), eggs falling and breaking visible.",
       "videos" : [
         {
-          "duration" : 8,
           "filename" : "Meta_setting_iceland_202509142018_c6med.mp4",
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142018_c6med.mp4"
         },
         {
+          "filename" : "Meta_setting_iceland_202509142018_tg354.mp4",
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142018_tg354.mp4",
-          "filename" : "Meta_setting_iceland_202509142018_tg354.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142018_tg354.mp4"
         },
         {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142018_ncgb3.mp4",
           "filename" : "Meta_setting_iceland_202509142018_ncgb3.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142018_ncgb3.mp4"
+          "duration" : 8
         },
         {
           "filename" : "Meta_setting_iceland_202509142018_ujhyk.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142018_ujhyk.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142018_ujhyk.mp4",
+          "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142354_b3h2w.mp4",
           "duration" : 8,
-          "filename" : "Meta_setting_iceland_202509142354_b3h2w.mp4"
+          "filename" : "Meta_setting_iceland_202509142354_b3h2w.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142354_b3h2w.mp4"
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142354_e6ktf.mp4",
-          "filename" : "Meta_setting_iceland_202509142354_e6ktf.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filename" : "Meta_setting_iceland_202509142354_e6ktf.mp4"
         },
         {
-          "filename" : "Subject_jn_descending_202509142253_veov7.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_descending_202509142253_veov7.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filename" : "Subject_jn_descending_202509142253_veov7.mp4"
         }
       ],
-      "negative_prompt" : "no subtitles, show golden yolk spreading on rocks, impossible egg abundance, mixing with blood below, 1080p",
-      "progressive_state" : "",
       "selected_plates" : [
         "MAGNUS-AUTHORITY",
         "SIGRID-PURE",
@@ -58,18 +55,21 @@
         "SEA-DIVINE",
         "WESTFJORDS-CLIFF"
       ],
-      "style" : "Vertical angle from beside Jón showing descent and egg collecting (that's where the camera is), eggs falling and breaking visible."
+      "action" : "Jón climbs backward down cliff, rope taut around waist. Magnús above, visible hands holding rope steady. Boy's feet grip small ledges. Reaches first hole in cliff, 2 feet wide, perfectly round. Reaches in up to elbow. Pulls out three white eggs, each large as his fist. Places them in leather pouch at hip. Descends further. Second hole contains five eggs. Too many for one bird. Third egg slips from his grip. Falls 50 feet. Hits black rock below. Shell explodes. Yolk spreads bright golden across rock, running down in streams. Same color as morning sunlight. Jón freezes, watching yolk spread. Magnús tugs rope - continue. Boy reaches next hole. This one deeper. Entire arm disappears inside. Face shows surprise. Pulls out seven eggs. Pouch already full. Holds extra eggs against chest. One more falls. Another golden explosion on rocks. Yolk and blood from whale mixing where rock meets water.",
+      "active_video_index" : 0,
+      "subject" : "[JÐ“N] descending the cliff face on rope, bare feet finding holds on black rock, reaching into round holes to pull out pure white eggs, one egg slipping from his hand to break on rocks below, golden yolk splattering bright yellow.",
+      "negative_prompt" : "no subtitles, show golden yolk spreading on rocks, impossible egg abundance, mixing with blood below, 1080p",
+      "variant_name" : "Primary - THE DESCENT FOR GOLDEN EGGS"
     }
   ],
-  "selected_prompt_index" : 0,
   "shot_metadata" : {
     "title" : "THE DESCENT FOR GOLDEN EGGS",
+    "sequence_type" : "prologue",
+    "stitch_from" : "",
     "id" : "3b",
     "duration_seconds" : 8,
-    "sequence_type" : "prologue",
-    "narrative_function" : "Trust tested | Eggs abundant | Camera frost 0% | G...",
-    "stitch_from" : ""
+    "narrative_function" : "Trust tested | Eggs abundant | Camera frost 0% | G..."
   },
-  "aspect_ratio" : "1.85:1",
-  "progressive_state" : "Trust tested | Eggs abundant | Camera frost 0% | Gold revealed | Watching: Earth provides"
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "1.85:1"
 }

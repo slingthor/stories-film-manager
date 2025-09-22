@@ -1,36 +1,37 @@
 {
   "progressive_state" : "House 4\/min dying + 40bpm weak | Time shattered | Camera frost 44.5% | Dawn wrong | Watching: Sun witnesses",
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "title" : "MORNING IMPOSSIBLY ARRIVES - TIME BROKEN 5 SECONDS",
-    "id" : "54a",
-    "duration_seconds" : 5,
-    "sequence_type" : "main_story",
-    "narrative_function" : "House 4\/min dying + 40bpm weak | Time shattered | ...",
-    "stitch_from" : ""
-  },
-  "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "action" : "STATIC WIDE. Stars visible through ceiling crack. Then: sunlight. Not sunrise - instant day. 10 AM light floods windows. No transition. Family still positioned for night - Guðrún in sleeping clothes, children curled on platforms, Magnús's feet still trapped in floor from last night. But it's morning. Or is night still there too? Through different windows: different times. East window shows noon. West shows midnight. North shows dawn. South shows dusk. All simultaneous. All true. Time shattered completely. Sigrid's black feather now shows rainbow sheen in daylight that shouldn't exist. Her belly visibly larger - did months pass in the jump? Or is time moving differently for her? House breathing 4\/min now - dying rhythm. Only four more minutes of breath left? Or four hours? Four days? Time means nothing inside giant's body.",
-      "variant_id" : "54a_story_primary",
-      "camera_position" : "Static wide showing time failure",
       "negative_prompt" : "",
-      "progressive_state" : "",
       "is_active" : false,
-      "dialogue" : "(Jón, confused): \"Er það morgunn?\" (Sigrid, knowing): \"Allir tímar í einu\" (All times at once)",
-      "scene" : "Interior with impossible daylight. Multiple times through different windows. Family disoriented but accepting.",
-      "style" : "Static wide showing time failure (that's where the camera is), time-worn appearance documented.",
       "selected_plates" : [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
         "LILJA-EVOLVING",
         "JON-ENERGETIC",
         "GUDRUN-RETURNING",
-        "BAÐSTOFA-CRYSTALLIZING"
+        "BAÐSTOFA-CRYSTALLIZING",
+        "BAÐSTOFA-CLIFF"
       ],
-      "variant_name" : "Primary - MORNING IMPOSSIBLY ARRIVES - TIME BROKEN 5 SECONDS",
-      "subject" : "Sudden daylight flooding through windows though it was just 9 PM, the family blinking in impossible morning sun, no transition, no dawn, just night becoming day instantly while their bodies remain positioned for sleep."
+      "subject" : "Sudden daylight flooding through windows though it was just 9 PM, the family blinking in impossible morning sun, no transition, no dawn, just night becoming day instantly while their bodies remain positioned for sleep.",
+      "dialogue" : "(Jón, confused): \"Er það morgunn?\" (Sigrid, knowing): \"Allir tímar í einu\" (All times at once)",
+      "style" : "Static wide showing time failure (that's where the camera is), time-worn appearance documented.",
+      "action" : "STATIC WIDE. Stars visible through ceiling crack. Then: sunlight. Not sunrise - instant day. 10 AM light floods windows. No transition. Family still positioned for night - Guðrún in sleeping clothes, children curled on platforms, Magnús's feet still trapped in floor from last night. But it's morning. Or is night still there too? Through different windows: different times. East window shows noon. West shows midnight. North shows dawn. South shows dusk. All simultaneous. All true. Time shattered completely. Sigrid's black feather now shows rainbow sheen in daylight that shouldn't exist. Her belly visibly larger - did months pass in the jump? Or is time moving differently for her? House breathing 4\/min now - dying rhythm. Only four more minutes of breath left? Or four hours? Four days? Time means nothing inside giant's body.",
+      "scene" : "Interior with impossible daylight. Multiple times through different windows. Family disoriented but accepting.",
+      "variant_id" : "54a_story_primary",
+      "progressive_state" : "",
+      "camera_position" : "Static wide showing time failure",
+      "variant_name" : "Primary - MORNING IMPOSSIBLY ARRIVES - TIME BROKEN 5 SECONDS"
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "title" : "MORNING IMPOSSIBLY ARRIVES - TIME BROKEN 5 SECONDS",
+    "sequence_type" : "main_story",
+    "stitch_from" : "",
+    "id" : "54a",
+    "duration_seconds" : 5,
+    "narrative_function" : "House 4\/min dying + 40bpm weak | Time shattered | ..."
+  },
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3"
 }

@@ -1,26 +1,19 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Identity collapsed | Camera frost 48% | Culture perverted | Watching: We see blasphemy",
-  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "title" : "THE HEADDRESS SHEEP - CULTURAL HORROR 5 SECONDS",
     "stitch_from" : "",
+    "duration_seconds" : 5,
     "id" : "56b",
     "narrative_function" : "Identity collapsed | Camera frost 48% | Culture pe...",
-    "duration_seconds" : 5,
+    "title" : "THE HEADDRESS SHEEP - CULTURAL HORROR 5 SECONDS",
     "sequence_type" : "main_story"
   },
+  "progressive_state" : "Identity collapsed | Camera frost 48% | Culture perverted | Watching: We see blasphemy",
+  "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "action" : "SLOW PUSH IN on Guðrún-ewe's head. Faldbúningur headdress - symbol of Icelandic womanhood, marriages, tradition - perched on sheep skull. Too wide for human head shape. Sliding forward over horizontal eyes. She tries to adjust it with hooves, can't. The white fabric against white wool makes her almost invisible - just eyes and headdress floating. Push closer: human teeth visible when she opens mouth to breathe. Dental work still there - one silver filling catching light. The ultimate perversion: cultural identity on livestock. She breathes at 11\/min - the synchronized rate. Still controlled. Still administered. Danish colonialism made them animals wearing human costume. Now costume doesn't fit. Never did.",
-      "variant_id" : "56b_story_primary",
-      "camera_position" : "Push in on perverted identity",
       "negative_prompt" : "",
-      "progressive_state" : "",
       "is_active" : false,
-      "dialogue" : "None - just breathing through wrong throat",
-      "scene" : "Close on ewe head with headdress. Cultural symbol on animal. Identity collapsed.",
-      "style" : "Push in on perverted identity (that's where the camera is), cultural horror documented.",
       "selected_plates" : [
         "MAGNUS-RECOGNIZING",
         "SIGRID-TRANSITIONAL",
@@ -29,8 +22,15 @@
         "GUDRUN-SPEAKING",
         "BAÐSTOFA-CLIFF"
       ],
-      "variant_name" : "Primary - THE HEADDRESS SHEEP - CULTURAL HORROR 5 SECONDS",
-      "subject" : "Close-up pushing in on [GUÐRÚN] as ewe wearing the faldbúningur headdress, the traditional Icelandic women's crown sitting absurdly on sheep head, white wool against white fabric, human dignity on animal form."
+      "subject" : "Close-up pushing in on [GUÐRÚN] as ewe wearing the faldbúningur headdress, the traditional Icelandic women's crown sitting absurdly on sheep head, white wool against white fabric, human dignity on animal form.",
+      "dialogue" : "None - just breathing through wrong throat",
+      "style" : "Push in on perverted identity (that's where the camera is), cultural horror documented.",
+      "action" : "SLOW PUSH IN on Guðrún-ewe's head. Faldbúningur headdress - symbol of Icelandic womanhood, marriages, tradition - perched on sheep skull. Too wide for human head shape. Sliding forward over horizontal eyes. She tries to adjust it with hooves, can't. The white fabric against white wool makes her almost invisible - just eyes and headdress floating. Push closer: human teeth visible when she opens mouth to breathe. Dental work still there - one silver filling catching light. The ultimate perversion: cultural identity on livestock. She breathes at 11\/min - the synchronized rate. Still controlled. Still administered. Danish colonialism made them animals wearing human costume. Now costume doesn't fit. Never did.",
+      "scene" : "Close on ewe head with headdress. Cultural symbol on animal. Identity collapsed.",
+      "variant_id" : "56b_story_primary",
+      "progressive_state" : "",
+      "camera_position" : "Push in on perverted identity",
+      "variant_name" : "Primary - THE HEADDRESS SHEEP - CULTURAL HORROR 5 SECONDS"
     }
   ]
 }

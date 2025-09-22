@@ -1858,7 +1858,21 @@ class PromptVariant: ObservableObject, Identifiable {
         promptText += "ACTION:\n\(correctCharacterEncoding(action))\n\n"
 
         // SCENE section
-        promptText += "SCENE:\n\(correctCharacterEncoding(scene))\n\n"
+        var sceneContent = correctCharacterEncoding(scene)
+
+        // Add temperature if tracking system is active
+        if isUsingTrackingSystems,
+           let systems = globalTrackingSystems,
+           let tempSystem = systems.first(where: { $0.name == "temperature_progression" }) {
+
+            let tempValue = calculateTemperatureFromPercentage(tempSystem.currentPercentage)
+            let tempDescription = getTemperatureDescriptionForTemp(tempValue)
+
+            // Add temperature as environmental context
+            sceneContent += " Outdoor temperature: \(tempDescription)."
+        }
+
+        promptText += "SCENE:\n\(sceneContent)\n\n"
 
         // STYLE section
         promptText += "STYLE:\n"
@@ -1872,12 +1886,30 @@ class PromptVariant: ObservableObject, Identifiable {
         if !dialogue.isEmpty {
             promptText += "DIALOGUE:\n\(correctCharacterEncoding(dialogue))\n\n"
         }
-        
+
         // SOUNDS section (only if we have actual audio notes)
         if !negativePrompt.isEmpty && negativePrompt.lowercased().contains("sound") {
             promptText += "SOUNDS:\n\(negativePrompt)\n\n"
         }
-        
+
+        // NEGATIVE PROMPT section - combine JSON negative prompt with default text
+        var negativeContent = ""
+
+        // Include negative prompt from JSON if it exists and doesn't contain sound
+        if !negativePrompt.isEmpty && !negativePrompt.lowercased().contains("sound") {
+            negativeContent = negativePrompt
+        }
+
+        // Always append the no modern elements text
+        let defaultNegative = "no modern elements, no screen space overlays, no fullscreen overlays, no UI elements"
+        if !negativeContent.isEmpty {
+            negativeContent += ", " + defaultNegative
+        } else {
+            negativeContent = defaultNegative
+        }
+
+        promptText += "NEGATIVE PROMPT:\n\(negativeContent)\n\n"
+
         // ASPECT section
         promptText += "ASPECT:\n\(shot.aspectRatio)\n\n"
 

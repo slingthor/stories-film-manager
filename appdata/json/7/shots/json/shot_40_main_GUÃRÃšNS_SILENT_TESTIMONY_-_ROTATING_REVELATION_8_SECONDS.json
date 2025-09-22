@@ -1,33 +1,33 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Silent aftermath | Truth visible | Camera frost 26% | Women's knowledge | Watching: House watching them",
-  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "title" : "GUÐRÚNS SILENT TESTIMONY - ROTATING REVELATION 8 SECONDS",
     "stitch_from" : "",
+    "duration_seconds" : 8,
     "id" : "40",
     "narrative_function" : "Silent aftermath | Truth visible | Camera frost 26...",
-    "duration_seconds" : 8,
+    "title" : "GUÐRÚNS SILENT TESTIMONY - ROTATING REVELATION 8 SECONDS",
     "sequence_type" : "main_story"
   },
+  "progressive_state" : "Silent aftermath | Truth visible | Camera frost 26% | Women's knowledge | Watching: House watching them",
+  "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "action" : "CAMERA BEGINS rotating counterclockwise around Guðrún while slowly PUSHING IN. First angle (profile): her silhouette unmistakably sheep-like, jaw extended, nose elongated. She doesn't notice. Lips counting silent Danish. Second angle (three-quarter): more human but exhausted, aged beyond 35 years, faldbúningur sitting wrong like it's meant for different head shape. Counting continues. Third angle (approaching front): both aspects visible - human features with ovine bone structure beneath. PUSH IN closer. Her hands unconsciously pulling at wrists where wool emerged earlier, now 15mm long, white fibers she's gathering like spinning preparation. Doesn't notice. Fourth angle (full face): eyes meet camera. Knows we're watching. Counts directly at us: \"einn, tveir, þrír, fjórir, fimm... sex?\" Always confusion at six. Behind her, wet wall shows reflection but reflection is fully sheep, standing upright, wearing her clothes. She doesn't turn to look.",
-      "variant_id" : "40_story_primary",
-      "camera_position" : "Rotating push-in, intimate observation of transformation beginning",
       "negative_prompt" : "smooth rotation with push, no cuts, maintain eye contact at end",
-      "progressive_state" : "",
       "is_active" : false,
-      "dialogue" : "(Guðrún, lips moving silently): Visible counting no sound (On \"sex\"): Slight sound escapes: \"Sss...?\" (Hands pulling wool): subtle at 11\/min breathing rate",
-      "scene" : "Her position in réttir, 9:37 AM. Light through smoke creating chiaroscuro. Temperature at her level exactly 37°C - body temperature of dying house.",
-      "style" : "Rotating push-in, intimate observation of transformation beginning (that's where the camera is), documentary of silent testimony.",
       "selected_plates" : [
         "BAÐSTOFA-CLEFT",
         "STOFA-BODY",
         "GUDRUN-MASTER"
       ],
-      "variant_name" : "Primary - GUÐRÚNS SILENT TESTIMONY - ROTATING REVELATION 8 SECONDS",
-      "subject" : "Camera slowly rotating around [GUÐRÚN] while pushing in on her face, her lips moving in silent counting - \"einn, tveir, þrír, fjórir, fimm, sex\" - over and over, as rotation reveals different angles: profile shows ewe silhouette, three-quarter shows human exhaustion, full face shows both simultaneously, her hands unconsciously pulling wool from her own wrists."
+      "subject" : "Camera slowly rotating around [GUÐRÚN] while pushing in on her face, her lips moving in silent counting - \"einn, tveir, þrír, fjórir, fimm, sex\" - over and over, as rotation reveals different angles: profile shows ewe silhouette, three-quarter shows human exhaustion, full face shows both simultaneously, her hands unconsciously pulling wool from her own wrists.",
+      "dialogue" : "(Guðrún, lips moving silently): Visible counting no sound (On \"sex\"): Slight sound escapes: \"Sss...?\" (Hands pulling wool): subtle at 11\/min breathing rate",
+      "style" : "Rotating push-in, intimate observation of transformation beginning (that's where the camera is), documentary of silent testimony.",
+      "action" : "CAMERA BEGINS rotating counterclockwise around Guðrún while slowly PUSHING IN. First angle (profile): her silhouette unmistakably sheep-like, jaw extended, nose elongated. She doesn't notice. Lips counting silent Danish. Second angle (three-quarter): more human but exhausted, aged beyond 35 years, faldbúningur sitting wrong like it's meant for different head shape. Counting continues. Third angle (approaching front): both aspects visible - human features with ovine bone structure beneath. PUSH IN closer. Her hands unconsciously pulling at wrists where wool emerged earlier, now 15mm long, white fibers she's gathering like spinning preparation. Doesn't notice. Fourth angle (full face): eyes meet camera. Knows we're watching. Counts directly at us: \"einn, tveir, þrír, fjórir, fimm... sex?\" Always confusion at six. Behind her, wet wall shows reflection but reflection is fully sheep, standing upright, wearing her clothes. She doesn't turn to look.",
+      "scene" : "Her position in réttir, 9:37 AM. Light through smoke creating chiaroscuro. Temperature at her level exactly 37°C - body temperature of dying house.",
+      "variant_id" : "40_story_primary",
+      "progressive_state" : "",
+      "camera_position" : "Rotating push-in, intimate observation of transformation beginning",
+      "variant_name" : "Primary - GUÐRÚNS SILENT TESTIMONY - ROTATING REVELATION 8 SECONDS"
     }
   ]
 }
