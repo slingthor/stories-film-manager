@@ -20,14 +20,20 @@ struct ShotListWithSystemsView: View {
 
             switch magicCommand {
             case "video", "videos":
-                // Return shots that have any videos
+                // Return shots where any prompt variant has videos
                 return filmManager.shots.filter { shot in
-                    !shot.videos.isEmpty
+                    !shot.videos.isEmpty ||
+                    shot.promptVariants.contains { variant in
+                        !variant.videos.isEmpty
+                    }
                 }
             case "images", "image":
-                // Return shots that have images
+                // Return shots where any prompt variant has images
                 return filmManager.shots.filter { shot in
-                    !shot.images.isEmpty
+                    !shot.images.isEmpty ||
+                    shot.promptVariants.contains { variant in
+                        !variant.images.isEmpty
+                    }
                 }
             case "selected":
                 // Return shots with selected video
