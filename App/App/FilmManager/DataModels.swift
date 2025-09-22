@@ -1786,6 +1786,44 @@ class PromptVariant: ObservableObject, Identifiable {
         return promptText
     }
     
+    // Helper function to extract shot number from shot ID
+    private func extractShotNumber(from shotId: String) -> Int? {
+        // Extract the numeric part from shot IDs like "shot_1_main", "shot_2b_prologue", "shot_2.5_main"
+        let pattern = "shot_([0-9]+)"
+        if let regex = try? NSRegularExpression(pattern: pattern, options: []),
+           let match = regex.firstMatch(in: shotId, options: [], range: NSRange(location: 0, length: shotId.count)) {
+            let numberRange = Range(match.range(at: 1), in: shotId)
+            if let numberRange = numberRange,
+               let number = Int(shotId[numberRange]) {
+                return number
+            }
+        }
+        return nil
+    }
+
+    // Calculate temperature based on shot number for main story
+    private func calculateTemperatureForShot(_ shot: FilmShot) -> (outdoor: Int, indoor: Int) {
+        // Only apply to main story shots, not prologue
+        guard shot.sequenceType != "prologue" else {
+            return (outdoor: -20, indoor: 5) // Default for prologue
+        }
+
+        // Extract shot number
+        let shotNumber = extractShotNumber(from: shot.id) ?? 31 // Use middle if extraction fails
+
+        // Main story goes from shot 1 to 62 (approximately)
+        let maxShot = 62.0
+        let progress = min(max(Double(shotNumber) / maxShot, 0.0), 1.0)
+
+        // Outdoor: -20°C to -50°C
+        let outdoorTemp = Int(-20 - (30 * progress))
+
+        // Indoor: 5°C to -25°C
+        let indoorTemp = Int(5 - (30 * progress))
+
+        return (outdoor: outdoorTemp, indoor: indoorTemp)
+    }
+
     func generateCleanPrompt(for shot: FilmShot, plateManager: PlateManager? = nil) -> String {
         var promptText = ""
 
@@ -1857,8 +1895,16 @@ class PromptVariant: ObservableObject, Identifiable {
         // ACTION section
         promptText += "ACTION:\n\(correctCharacterEncoding(action))\n\n"
 
-        // SCENE section
-        promptText += "SCENE:\n\(correctCharacterEncoding(scene))\n\n"
+        // SCENE section with temperature injection
+        var sceneContent = correctCharacterEncoding(scene)
+
+        // Add temperature for main story shots
+        if shot.sequenceType != "prologue" {
+            let temps = calculateTemperatureForShot(shot)
+            sceneContent += " Outdoor temperature: \(temps.outdoor)°C. Indoor temperature: \(temps.indoor)°C."
+        }
+
+        promptText += "SCENE:\n\(sceneContent)\n\n"
 
         // STYLE section
         promptText += "STYLE:\n"
