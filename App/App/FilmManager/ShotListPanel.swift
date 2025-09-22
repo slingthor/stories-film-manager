@@ -14,6 +14,39 @@ struct ShotListWithSystemsView: View {
             return filmManager.shots
         }
 
+        // Check for magic searches starting with ":"
+        if searchText.hasPrefix(":") {
+            let magicCommand = searchText.dropFirst().lowercased()
+
+            switch magicCommand {
+            case "video", "videos":
+                // Return shots that have videos other than "default.mp4"
+                return filmManager.shots.filter { shot in
+                    shot.videos.contains { video in
+                        !video.filename.lowercased().contains("default")
+                    }
+                }
+            case "images", "image":
+                // Return shots that have images
+                return filmManager.shots.filter { shot in
+                    !shot.images.isEmpty
+                }
+            case "selected":
+                // Return shots with selected video
+                return filmManager.shots.filter { shot in
+                    shot.selectedVideo != nil
+                }
+            case "dirty":
+                // Return shots that are dirty (have unsaved changes)
+                return filmManager.shots.filter { shot in
+                    shot.isDirty
+                }
+            default:
+                // If unknown magic command, treat as regular search
+                break
+            }
+        }
+
         let searchLower = searchText.lowercased()
         return filmManager.shots.filter { shot in
             // Search through shot title
@@ -115,7 +148,7 @@ struct ShotListWithSystemsView: View {
                 Image(systemName: "magnifyingglass")
                     .foregroundColor(.secondary)
 
-                TextField("Search prompts (subject, action, scene, style, camera, dialogue, negative)...", text: $searchText)
+                TextField("Search prompts or use :video :images :selected :dirty", text: $searchText)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .onChange(of: searchText) { oldValue, newValue in
                         // Store current selection when starting to search
