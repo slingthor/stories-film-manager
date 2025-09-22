@@ -1858,21 +1858,7 @@ class PromptVariant: ObservableObject, Identifiable {
         promptText += "ACTION:\n\(correctCharacterEncoding(action))\n\n"
 
         // SCENE section
-        var sceneContent = correctCharacterEncoding(scene)
-
-        // Add temperature if tracking system is active
-        if isUsingTrackingSystems,
-           let systems = globalTrackingSystems,
-           let tempSystem = systems.first(where: { $0.name == "temperature_progression" }) {
-
-            let tempValue = calculateTemperatureFromPercentage(tempSystem.currentPercentage)
-            let tempDescription = getTemperatureDescriptionForTemp(tempValue)
-
-            // Add temperature as environmental context
-            sceneContent += " Outdoor temperature: \(tempDescription)."
-        }
-
-        promptText += "SCENE:\n\(sceneContent)\n\n"
+        promptText += "SCENE:\n\(correctCharacterEncoding(scene))\n\n"
 
         // STYLE section
         promptText += "STYLE:\n"

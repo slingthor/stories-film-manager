@@ -6,7 +6,42 @@ struct ShotListWithSystemsView: View {
     @ObservedObject var filmManager: FilmManager
     let draggedSystem: TrackingSystem?
     @State private var showClaudeConversation = false
-    
+    @State private var searchText = ""
+    @State private var previouslySelectedShot: FilmShot?
+
+    var filteredShots: [FilmShot] {
+        if searchText.isEmpty {
+            return filmManager.shots
+        }
+
+        let searchLower = searchText.lowercased()
+        return filmManager.shots.filter { shot in
+            // Search through shot title
+            if shot.title.lowercased().contains(searchLower) {
+                return true
+            }
+
+            // Search through all prompt variants' fields
+            for variant in shot.promptVariants {
+                let searchFields = [
+                    variant.subject,
+                    variant.action,
+                    variant.scene,
+                    variant.style,
+                    variant.cameraPosition,
+                    variant.dialogue,
+                    variant.negativePrompt
+                ]
+
+                if searchFields.contains(where: { $0.lowercased().contains(searchLower) }) {
+                    return true
+                }
+            }
+
+            return false
+        }
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             // Header with shot reordering controls
@@ -74,37 +109,87 @@ struct ShotListWithSystemsView: View {
                 }
             }
             .padding()
-            
+
+            // Search field
+            HStack {
+                Image(systemName: "magnifyingglass")
+                    .foregroundColor(.secondary)
+
+                TextField("Search prompts (subject, action, scene, style, camera, dialogue, negative)...", text: $searchText)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .onChange(of: searchText) { oldValue, newValue in
+                        // Store current selection when starting to search
+                        if oldValue.isEmpty && !newValue.isEmpty {
+                            previouslySelectedShot = filmManager.selectedShot
+                        }
+                        // Restore selection when clearing search
+                        if !oldValue.isEmpty && newValue.isEmpty {
+                            if let previous = previouslySelectedShot {
+                                filmManager.selectedShot = previous
+                            }
+                        }
+                    }
+
+                if !searchText.isEmpty {
+                    Button(action: {
+                        searchText = ""
+                    }) {
+                        Image(systemName: "xmark.circle.fill")
+                            .foregroundColor(.secondary)
+                    }
+                    .buttonStyle(PlainButtonStyle())
+                }
+            }
+            .padding(.horizontal)
+            .padding(.bottom, 8)
+
             Divider()
             
             // Shot list with enhanced system mapping
             ScrollViewReader { proxy in
-                List {
-                    ForEach(filmManager.shots, id: \.id) { shot in
-                        EnhancedShotRow(
-                            shot: shot,
-                            isSelected: filmManager.selectedShot?.id == shot.id,
-                            trackingSystems: filmManager.trackingSystems,
-                            draggedSystem: draggedSystem,
-                            onSelect: {
-                                filmManager.selectedShot = shot
-                            },
-                            onSystemDrop: { system in
-                                filmManager.placeSystemAtShot(system, shot)
+                if filteredShots.isEmpty && !searchText.isEmpty {
+                    VStack {
+                        Spacer()
+                        Text("No shots found matching '\(searchText)'")
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                        Text("Try searching for different keywords")
+                            .font(.caption2)
+                            .foregroundColor(.secondary)
+                        Spacer()
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                } else {
+                    List {
+                        ForEach(filteredShots, id: \.id) { shot in
+                            EnhancedShotRow(
+                                shot: shot,
+                                isSelected: filmManager.selectedShot?.id == shot.id,
+                                trackingSystems: filmManager.trackingSystems,
+                                draggedSystem: draggedSystem,
+                                onSelect: {
+                                    filmManager.selectedShot = shot
+                                },
+                                onSystemDrop: { system in
+                                    filmManager.placeSystemAtShot(system, shot)
+                                }
+                            )
+                            .id(shot.id) // Important for ScrollViewReader
+                        }
+                        .onMove { source, destination in
+                            // Only allow reordering when not filtering
+                            if searchText.isEmpty {
+                                filmManager.reorderShots(from: source, to: destination)
                             }
-                        )
-                        .id(shot.id) // Important for ScrollViewReader
+                        }
                     }
-                    .onMove { source, destination in
-                        filmManager.reorderShots(from: source, to: destination)
-                    }
-                }
-                .listStyle(PlainListStyle())
-                .onChange(of: filmManager.selectedShot?.id) { oldValue, newValue in
-                    // Automatically scroll to selected shot when it changes
-                    if let shotId = newValue {
-                        withAnimation(.easeInOut(duration: 0.3)) {
-                            proxy.scrollTo(shotId, anchor: .center)
+                    .listStyle(PlainListStyle())
+                    .onChange(of: filmManager.selectedShot?.id) { oldValue, newValue in
+                        // Automatically scroll to selected shot when it changes
+                        if let shotId = newValue {
+                            withAnimation(.easeInOut(duration: 0.3)) {
+                                proxy.scrollTo(shotId, anchor: .center)
+                            }
                         }
                     }
                 }
@@ -118,10 +203,12 @@ struct ShotListWithSystemsView: View {
     }
 
     private func isFirstShot(_ shot: FilmShot) -> Bool {
+        // Use original order from filmManager.shots for move operations
         filmManager.shots.first?.id == shot.id
     }
 
     private func isLastShot(_ shot: FilmShot) -> Bool {
+        // Use original order from filmManager.shots for move operations
         filmManager.shots.last?.id == shot.id
     }
 }
