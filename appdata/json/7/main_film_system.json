@@ -1,5 +1,5 @@
 {
-  "last_updated" : "2025-09-22T04:50:29Z",
+  "last_updated" : "2025-09-22T04:51:09Z",
   "tracking_systems" : {
     "memory_degradation" : {
       "current_percentage" : 5,
@@ -10,8 +10,8 @@
       "description" : "Shadow physics revealing animal truth"
     },
     "spatial_impossibilities" : {
-      "description" : "Mathematical physics violations spreading",
-      "current_percentage" : 25
+      "current_percentage" : 25,
+      "description" : "Mathematical physics violations spreading"
     },
     "reality_coherence" : {
       "current_percentage" : 65,
@@ -46,8 +46,8 @@
       "description" : "Family respiratory synchronization progression"
     },
     "temperature_progression" : {
-      "current_percentage" : 28,
-      "description" : "Environmental and body temperature changes"
+      "description" : "Environmental and body temperature changes",
+      "current_percentage" : 28
     },
     "light_sources" : {
       "description" : "Illumination evolution organic→industrial→supernatural",
@@ -58,12 +58,12 @@
       "current_percentage" : 0
     },
     "hakarl_contamination" : {
-      "current_percentage" : 18,
-      "description" : "Traditional food corruption enabling breakdown"
+      "description" : "Traditional food corruption enabling breakdown",
+      "current_percentage" : 18
     },
     "weather_hostility" : {
-      "description" : "Atmospheric assault on family survival",
-      "current_percentage" : 10
+      "current_percentage" : 10,
+      "description" : "Atmospheric assault on family survival"
     }
   }
 }
