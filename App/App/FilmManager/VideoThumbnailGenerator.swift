@@ -96,6 +96,9 @@ struct VideoThumbnailView: View {
     @State private var isLoading = true
     @State private var isHovering = false
     @State private var hoverLocation: CGPoint = .zero
+    @State private var showPopover = false
+    @State private var popoverHovering = false
+    @State private var hideTimer: Timer?
 
     var body: some View {
         ZStack {
@@ -155,17 +158,35 @@ struct VideoThumbnailView: View {
         .onHover { hovering in
             if enableHoverPreview {
                 isHovering = hovering
+
+                if hovering {
+                    // Cancel any existing hide timer
+                    hideTimer?.invalidate()
+                    hideTimer = nil
+                    showPopover = true
+                } else {
+                    // Start a timer to hide the popover after 0.5 seconds
+                    hideTimer?.invalidate()
+                    hideTimer = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: false) { _ in
+                        if !popoverHovering {
+                            showPopover = false
+                        }
+                    }
+                }
             }
         }
-        .popover(isPresented: Binding(
-            get: { enableHoverPreview && isHovering && thumbnail != nil },
-            set: { _ in }
-        ), attachmentAnchor: .point(UnitPoint(x: 0, y: -0.5)), arrowEdge: .bottom) {
+        .popover(isPresented: $showPopover, attachmentAnchor: .point(UnitPoint(x: 0, y: -0.5)), arrowEdge: .bottom) {
             if let thumbnail = thumbnail {
                 HoverPreviewPopoverContent(
                     thumbnail: thumbnail,
-                    videoPath: videoPath
+                    videoPath: videoPath,
+                    isHovering: $popoverHovering
                 )
+                .onDisappear {
+                    popoverHovering = false
+                    hideTimer?.invalidate()
+                    hideTimer = nil
+                }
             }
         }
     }
@@ -207,6 +228,7 @@ struct VideoThumbnailView: View {
 struct HoverPreviewPopoverContent: View {
     let thumbnail: NSImage?
     let videoPath: String
+    @Binding var isHovering: Bool
     @State private var largeThumbnail: NSImage?
     @State private var player: AVPlayer?
     @State private var playerLooper: AVPlayerLooper?
@@ -269,11 +291,16 @@ struct HoverPreviewPopoverContent: View {
             .frame(width: previewSize.width)
         }
         .padding(12)
+        .onHover { hovering in
+            isHovering = hovering
+        }
         .onAppear {
+            isHovering = true
             loadLargeThumbnail()
             setupVideoPlayer()
         }
         .onDisappear {
+            isHovering = false
             cleanupPlayer()
         }
     }

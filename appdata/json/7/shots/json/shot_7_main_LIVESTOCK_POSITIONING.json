@@ -1,24 +1,33 @@
 {
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
-  "shot_metadata" : {
-    "id" : "7",
-    "duration_seconds" : 8,
-    "title" : "LIVESTOCK POSITIONING",
-    "sequence_type" : "main_story",
-    "stitch_from" : "",
-    "narrative_function" : "House 13\/min | Klettagjá hairline visible to Sigr..."
-  },
-  "progressive_state" : "House 13\/min | Klettagjá hairline visible to Sigrid only | No contamination | Camera frost 4% | Sorting positions | Watching: House observes through six shadows",
   "prompt_variants" : [
     {
+      "variant_name" : "Primary - LIVESTOCK POSITIONING",
+      "is_active" : false,
+      "variant_id" : "7_story_primary",
       "subject" : "The family moving to their designated positions in the floor's worn depressions, each person knowing exactly where to stand - [GUÐRÚN] immediately to Magnús's right, [Jon] between parents, [LILJA] by mother's skirts, while [SIGRID] calculates her movement to maintain exactly 11 feet distance, sliding along the wall to the farthest position where hairline cracks in the turf spell something she alone can see.",
-      "scene" : "Center of main room, 5:47 AM, growing grey light through frost. Temperature -8°C, breath visible from all, creating fog layer at different heights based on positions. The floor patterns now obvious - five worn spots plus sixth unworn position, paths between them like channels. Light from oil lamp casts six shadows on wall despite five people. Ram testicles on plate in Magnús's left hand, right hand gripping cane, tremor steady at 3.5Hz. The hákarl abandoned on table, knife still in meat, six portions visible though five people stand.",
-      "progressive_state" : "",
-      "style" : "Wide shot from above showing pen formation, camera at smoke hole looking down (that's where the camera is), bird's eye revealing the réttir geometry, documentary observation of trained movement.",
-      "active_video_index" : 0,
-      "negative_prompt" : "no subtitles, no text overlays, show floor patterns clearly, maintain exact distances, documentary observation",
-      "action" : "The tap-tap-tap of Magnús's cane creates pavlovian response. Guðrún abandons her knife in the hákarl, moves to position one step right and behind Magnús, hands clasped at waist, head slightly bowed. No words, just movement. Jón struggles up despite 39°C fever, swaying, finds his spot between parents where floor depression is child-sized. Lilja toddles to mother's skirts, clutching her doll with brass button eyes that seem to watch. Sigrid slides along southwest wall, maintaining exactly 11 feet as Magnús positions himself at center. Her back presses against wall where hairline cracks have begun forming letters only she notices: \"F-Ð“-R-N\" barely visible. The floor depressions they stand in connect - worn paths between them create pentagon with sixth position at empty space. These are ancient patterns, worn by generations, but also... pen divisions. Livestock sorting geometry. Empty clothes in corner have definitely shifted, now standing in their own formation, breathing visible at 8\/minute.",
+      "videos" : [
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_family_202509191945_u0zjz.mp4",
+          "filename" : "Subject_the_family_202509191945_u0zjz.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_family_202509191945_36rrx.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_family_202509191945_36rrx.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_family_202509191945_pzox4.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_family_202509191945_pzox4.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_family_202509191945_190q5.mp4",
+          "filename" : "Subject_the_family_202509191945_190q5.mp4"
+        }
+      ],
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
@@ -28,33 +37,24 @@
         "BAÐSTOFA-STIRRING",
         "WESTFJORDS-WINTER"
       ],
-      "camera_position" : "Wide shot from above showing pen formation, camera at smoke hole looking down",
-      "variant_id" : "7_story_primary",
-      "is_active" : false,
+      "style" : "Wide shot from above showing pen formation, camera at smoke hole looking down (that's where the camera is), bird's eye revealing the réttir geometry, documentary observation of trained movement.",
       "dialogue" : "(Magnús): \"Staðir\" (Tone: one word command) (Sigrid's fingers on wall): Barely audible whisper: \"Fórn?\" (Others): Complete silence, only movement",
-      "videos" : [
-        {
-          "filename" : "Subject_the_family_202509191945_u0zjz.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_family_202509191945_u0zjz.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_family_202509191945_36rrx.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_family_202509191945_36rrx.mp4"
-        },
-        {
-          "filename" : "Subject_the_family_202509191945_pzox4.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_family_202509191945_pzox4.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_family_202509191945_190q5.mp4",
-          "filename" : "Subject_the_family_202509191945_190q5.mp4",
-          "duration" : 8
-        }
-      ],
-      "variant_name" : "Primary - LIVESTOCK POSITIONING"
+      "active_video_index" : 0,
+      "progressive_state" : "",
+      "negative_prompt" : "no subtitles, no text overlays, show floor patterns clearly, maintain exact distances, documentary observation",
+      "camera_position" : "Wide shot from above showing pen formation, camera at smoke hole looking down",
+      "action" : "The tap-tap-tap of Magnús's cane creates pavlovian response. Guðrún abandons her knife in the hákarl, moves to position one step right and behind Magnús, hands clasped at waist, head slightly bowed. No words, just movement. Jón struggles up despite 39°C fever, swaying, finds his spot between parents where floor depression is child-sized. Lilja toddles to mother's skirts, clutching her doll with brass button eyes that seem to watch. Sigrid slides along southwest wall, maintaining exactly 11 feet as Magnús positions himself at center. Her back presses against wall where hairline cracks have begun forming letters only she notices: \"F-Ð“-R-N\" barely visible. The floor depressions they stand in connect - worn paths between them create pentagon with sixth position at empty space. These are ancient patterns, worn by generations, but also... pen divisions. Livestock sorting geometry. Empty clothes in corner have definitely shifted, now standing in their own formation, breathing visible at 8\/minute.",
+      "scene" : "Center of main room, 5:47 AM, growing grey light through frost. Temperature -8°C, breath visible from all, creating fog layer at different heights based on positions. The floor patterns now obvious - five worn spots plus sixth unworn position, paths between them like channels. Light from oil lamp casts six shadows on wall despite five people. Ram testicles on plate in Magnús's left hand, right hand gripping cane, tremor steady at 3.5Hz. The hákarl abandoned on table, knife still in meat, six portions visible though five people stand."
     }
-  ]
+  ],
+  "progressive_state" : "House 13\/min | Klettagjá hairline visible to Sigrid only | No contamination | Camera frost 4% | Sorting positions | Watching: House observes through six shadows",
+  "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "sequence_type" : "main_story",
+    "id" : "7",
+    "title" : "LIVESTOCK POSITIONING",
+    "stitch_from" : "",
+    "duration_seconds" : 8,
+    "narrative_function" : "House 13\/min | Klettagjá hairline visible to Sigr..."
+  }
 }

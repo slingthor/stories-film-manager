@@ -1,22 +1,17 @@
 {
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "narrative_function" : "House 1\/min dying + 20bpm | surreal visual | Cam...",
-    "id" : "57a",
-    "title" : "COMPLETE DARKNESS - ONLY BREATHING 8 SECONDS",
-    "sequence_type" : "main_story",
-    "stitch_from" : ""
-  },
-  "progressive_state" : "House 1\/min dying + 20bpm | surreal visual | Camera frost 49% | Truth in darkness | Watching: We hear truth",
-  "aspect_ratio" : "4:3",
   "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "narrative_function" : "House 1\/min dying + 20bpm | surreal visual | Cam...",
+    "sequence_type" : "main_story",
+    "title" : "COMPLETE DARKNESS - ONLY BREATHING 8 SECONDS",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "id" : "57a"
+  },
+  "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
-      "variant_id" : "57a_story_primary",
       "style" : "Black screen, audio revelation (that's where the camera is), truth through darkness.",
-      "variant_name" : "Primary - COMPLETE DARKNESS - ONLY BREATHING 8 SECONDS",
-      "active_video_index" : 0,
       "videos" : [
         {
           "duration" : 8,
@@ -25,25 +20,30 @@
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202509211837_0cs8s.mp4",
-          "filename" : "Subject_complete_darkness_202509211837_0cs8s.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filename" : "Subject_complete_darkness_202509211837_0cs8s.mp4"
         },
         {
-          "duration" : 8,
           "filename" : "Subject_complete_darkness_202509211837_21adw.mp4",
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202509211837_21adw.mp4"
         }
       ],
-      "action" : "BLACK SCREEN. Total darkness. Not even shapes. Like eyes closed or power dead. But sound continues. Breathing. Five sources. At first sounds human - familiar patterns we've heard all film. Magnús heavy. Guðrún lighter. Children quick. Sigrid steady at 15\/min. But as we listen in darkness, sound clarifies. These aren't human breaths. Never were. Sheep breathing. That particular nasal, wheezing quality. Been there all along. We just heard what we expected. In darkness, truth: wet wool smell. Lanolin. Animal warmth. Hooves on floor - but wait, has that sound always been there? Did we think it was boots? The 11\/min synchronized breathing we thought was human submission - it's flock breathing. Natural sheep rhythm. They've been sheep entire film. We've been watching sheep in clothes pretending to be human. Or humans who were always sheep. Or both. In darkness, no way to tell. Just breathing. Animal breathing. Always was.",
+      "subject" : "Complete darkness as if power died, but we hear breathing - five distinct patterns - and slowly realize these are not human breaths but have ALWAYS been sheep breaths, we just couldn't hear it right before.",
       "progressive_state" : "",
+      "variant_name" : "Primary - COMPLETE DARKNESS - ONLY BREATHING 8 SECONDS",
+      "action" : "BLACK SCREEN. Total darkness. Not even shapes. Like eyes closed or power dead. But sound continues. Breathing. Five sources. At first sounds human - familiar patterns we've heard all film. Magnús heavy. Guðrún lighter. Children quick. Sigrid steady at 15\/min. But as we listen in darkness, sound clarifies. These aren't human breaths. Never were. Sheep breathing. That particular nasal, wheezing quality. Been there all along. We just heard what we expected. In darkness, truth: wet wool smell. Lanolin. Animal warmth. Hooves on floor - but wait, has that sound always been there? Did we think it was boots? The 11\/min synchronized breathing we thought was human submission - it's flock breathing. Natural sheep rhythm. They've been sheep entire film. We've been watching sheep in clothes pretending to be human. Or humans who were always sheep. Or both. In darkness, no way to tell. Just breathing. Animal breathing. Always was.",
+      "dialogue" : "None - silence except breathing",
+      "active_video_index" : 0,
       "scene" : "Complete black. No visual. Only sound revealing truth.",
+      "variant_id" : "57a_story_primary",
       "selected_plates" : [
         "BAÐSTOFA-CLIFF"
       ],
-      "subject" : "Complete darkness as if power died, but we hear breathing - five distinct patterns - and slowly realize these are not human breaths but have ALWAYS been sheep breaths, we just couldn't hear it right before.",
-      "dialogue" : "None - silence except breathing",
+      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
       "camera_position" : "Black screen, audio revelation",
       "is_active" : false
     }
-  ]
+  ],
+  "progressive_state" : "House 1\/min dying + 20bpm | surreal visual | Camera frost 49% | Truth in darkness | Watching: We hear truth"
 }

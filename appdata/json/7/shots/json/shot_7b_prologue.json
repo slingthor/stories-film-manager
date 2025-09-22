@@ -1,57 +1,48 @@
 {
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "1.85:1",
-  "shot_metadata" : {
-    "id" : "7b",
-    "duration_seconds" : 8,
-    "title" : "Standing Toast - Authority Speaking",
-    "sequence_type" : "prologue",
-    "stitch_from" : "",
-    "narrative_function" : "Authority speech becoming animal sound"
-  },
-  "progressive_state" : "Authority speaking | Words failing | Camera frost 1% edges | Language breaks | Watching: The silence begins",
   "prompt_variants" : [
     {
-      "negative_prompt" : "no subtitles, show mouth moving without sound, purple juice trembling, frozen sun visible, 1080p",
-      "variant_id" : "7b_story_primary",
-      "variant_name" : "Failed Toast Authority",
       "style" : "Medium shot from across table, focused on Magnús trying to speak (that's where the camera is), purple cup prominent.",
-      "active_video_index" : 3,
       "videos" : [
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142230_ypdpx.mp4",
           "duration" : 8,
-          "filename" : "Meta_setting_iceland_202509142230_ypdpx.mp4"
+          "filename" : "Meta_setting_iceland_202509142230_ypdpx.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142230_ypdpx.mp4"
         },
         {
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142230_is477.mp4",
-          "filename" : "Meta_setting_iceland_202509142230_is477.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Meta_setting_iceland_202509142230_9acy3.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142230_9acy3.mp4",
-          "duration" : 8
+          "filename" : "Meta_setting_iceland_202509142230_is477.mp4"
         },
         {
           "duration" : 8,
+          "filename" : "Meta_setting_iceland_202509142230_9acy3.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142230_9acy3.mp4"
+        },
+        {
           "filename" : "Meta_setting_iceland_202509150022_s2n17.mp4",
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509150022_s2n17.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/video0.mp4",
           "duration" : 8,
-          "filename" : "video0.mp4"
+          "filename" : "video0.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/video0.mp4"
         },
         {
-          "filename" : "Meta_setting_iceland_202509142355_wkic0.mp4",
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142355_wkic0.mp4",
-          "duration" : 8
+          "filename" : "Meta_setting_iceland_202509142355_wkic0.mp4"
         }
       ],
-      "action" : "Magnús pushes back from table, stands slowly. Height makes him tower over seated crowd. Picks up clay cup filled with purple krækilberjasaft. Liquid dark purple, almost black. Raises cup high. Everyone watches. Opens mouth. Lips form words. No sound emerges. Tries again. Mouth moves - can read lips saying 'Við erum...' (We are...). Still no sound. Face shows confusion, not fear. Not angry. Puzzled. Purple juice trembles in cup, small waves forming. Behind him, sun still frozen on horizon. Should have set hour ago. Magnús tries third time. This time faint sound emerges - not words, closer to sheep's bleat. Stops immediately. Looks at Guðrún. She nods encouragement. He sits down slowly, still holding cup. Everyone remains frozen, waiting for toast that won't come. In the purple juice, reflection shows not his face but wool. White wool.",
+      "subject" : "[MAGNÚS] standing at head of center table, raising cup of purple berry juice, mouth opening to speak, lips moving but no sound emerging, his face showing confusion, the purple liquid trembling in the cup.",
       "progressive_state" : "",
+      "variant_name" : "Failed Toast Authority",
+      "action" : "Magnús pushes back from table, stands slowly. Height makes him tower over seated crowd. Picks up clay cup filled with purple krækilberjasaft. Liquid dark purple, almost black. Raises cup high. Everyone watches. Opens mouth. Lips form words. No sound emerges. Tries again. Mouth moves - can read lips saying 'Við erum...' (We are...). Still no sound. Face shows confusion, not fear. Not angry. Puzzled. Purple juice trembles in cup, small waves forming. Behind him, sun still frozen on horizon. Should have set hour ago. Magnús tries third time. This time faint sound emerges - not words, closer to sheep's bleat. Stops immediately. Looks at Guðrún. She nods encouragement. He sits down slowly, still holding cup. Everyone remains frozen, waiting for toast that won't come. In the purple juice, reflection shows not his face but wool. White wool.",
+      "dialogue" : "None - mouth moving but no sound",
+      "active_video_index" : 3,
       "scene" : "Feast tables at sunset that won't complete. Golden light frozen. Everyone watching Magnús. No wind, no movement except him.\n\nField near houses. Three tables in horseshoe. Evening light golden. Ocean visible in distance. Mountains surrounding.",
+      "variant_id" : "7b_story_primary",
       "selected_plates" : [
         "MAGNUS-AUTHORITY",
         "SIGRID-PURE",
@@ -60,10 +51,19 @@
         "GUDRUN-ABUNDANT",
         "BAÐSTOFA-DOMESTIC"
       ],
-      "subject" : "[MAGNÚS] standing at head of center table, raising cup of purple berry juice, mouth opening to speak, lips moving but no sound emerging, his face showing confusion, the purple liquid trembling in the cup.",
-      "dialogue" : "None - mouth moving but no sound",
+      "negative_prompt" : "no subtitles, show mouth moving without sound, purple juice trembling, frozen sun visible, 1080p",
       "camera_position" : "Across table from Magnús during speech attempt, that's where the camera is",
       "is_active" : false
     }
-  ]
+  ],
+  "progressive_state" : "Authority speaking | Words failing | Camera frost 1% edges | Language breaks | Watching: The silence begins",
+  "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "sequence_type" : "prologue",
+    "id" : "7b",
+    "title" : "Standing Toast - Authority Speaking",
+    "stitch_from" : "",
+    "duration_seconds" : 8,
+    "narrative_function" : "Authority speech becoming animal sound"
+  }
 }

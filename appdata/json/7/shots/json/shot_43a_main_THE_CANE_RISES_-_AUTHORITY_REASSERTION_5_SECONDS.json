@@ -1,47 +1,47 @@
 {
-  "progressive_state" : "House 3\/min + 40bpm weak | Rage building | Camera frost 28.5% | Madness visible | Watching: No witnesses to help",
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "duration_seconds" : 5,
     "narrative_function" : "House 3\/min + 40bpm weak | Rage building | Camera ...",
-    "id" : "43a",
-    "title" : "THE CANE RISES - AUTHORITY REASSERTION 5 SECONDS",
     "sequence_type" : "main_story",
-    "stitch_from" : ""
+    "title" : "THE CANE RISES - AUTHORITY REASSERTION 5 SECONDS",
+    "duration_seconds" : 5,
+    "stitch_from" : "",
+    "id" : "43a"
   },
   "aspect_ratio" : "1:1",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "variant_id" : "43a_story_primary",
-      "negative_prompt" : "",
-      "variant_name" : "Primary - THE CANE RISES - AUTHORITY REASSERTION 5 SECONDS",
       "style" : "Low angle tracking cane from floor to raised position (that's where the camera is), authority as violence.",
-      "active_video_index" : 0,
       "videos" : [
         {
+          "filename" : "Subject_magns_retrieving_202509211910_ujh.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_retrieving_202509211910_ujh.mp4",
-          "duration" : 8,
-          "filename" : "Subject_magns_retrieving_202509211910_ujh.mp4"
+          "duration" : 8
         },
         {
+          "duration" : 8,
           "filename" : "Subject_magns_retrieving_202509211910_mkk.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_retrieving_202509211910_mkk.mp4",
-          "duration" : 8
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_retrieving_202509211910_mkk.mp4"
         },
         {
-          "filename" : "Subject_magns_retrieving_202509211910_ybm.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_retrieving_202509211910_ybm.mp4",
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_retrieving_202509211910_ybm.mp4"
+          "filename" : "Subject_magns_retrieving_202509211910_ybm.mp4"
         },
         {
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_retrieving_202509211910_76g.mp4",
-          "filename" : "Subject_magns_retrieving_202509211910_76g.mp4",
-          "duration" : 8
+          "filename" : "Subject_magns_retrieving_202509211910_76g.mp4"
         }
       ],
-      "action" : "Magnús moves to door where cane stands. Ice has grown up shaft and DOWN into floor - rooted like frozen tree. Grips with 0Hz hands (no tremor, no feeling). Wrenches. Ice CRACKS, floor splinters pulling up. Cane free but floor damaged - hole showing stone réttir beneath. Turns to Guðrún. Raises cane overhead. The 0Hz stillness terrifying - no shake, no tremor, perfect control for violence. Low angle shows him massive, ceiling forcing him to hunch making him more bestial. 40 miles to nearest human. No one to stop this. No one to define this as wrong. Isolation has made him god and animal both. His white hair wild, eyes showing the madness of endless sameness - same walls, same faces, same failure, day after day, winter after winter. The cane perfectly still in air. Guðrún doesn't flinch - this is known, repeated, normal.",
-      "progressive_state" : "",
       "subject" : "[MAGNÚS] retrieving his cane from where it stands frozen in the floor by the door, the ice having grown roots 3 inches deep which crack as he wrenches it free, raising it not for walking but as weapon, the 0Hz stillness in his hands making it perfectly steady for the first time.",
+      "variant_name" : "Primary - THE CANE RISES - AUTHORITY REASSERTION 5 SECONDS",
+      "progressive_state" : "",
+      "action" : "Magnús moves to door where cane stands. Ice has grown up shaft and DOWN into floor - rooted like frozen tree. Grips with 0Hz hands (no tremor, no feeling). Wrenches. Ice CRACKS, floor splinters pulling up. Cane free but floor damaged - hole showing stone réttir beneath. Turns to Guðrún. Raises cane overhead. The 0Hz stillness terrifying - no shake, no tremor, perfect control for violence. Low angle shows him massive, ceiling forcing him to hunch making him more bestial. 40 miles to nearest human. No one to stop this. No one to define this as wrong. Isolation has made him god and animal both. His white hair wild, eyes showing the madness of endless sameness - same walls, same faces, same failure, day after day, winter after winter. The cane perfectly still in air. Guðrún doesn't flinch - this is known, repeated, normal.",
+      "dialogue" : "(Magnús, to cane): \"Komdu þá\" (To Guðrún): \"ÞÚ GERÐIR ÞETTA\"",
+      "active_video_index" : 0,
+      "variant_id" : "43a_story_primary",
+      "scene" : "Interior, 9:45 AM. Door behind him showing storm. Cane raised against low ceiling. Family frozen in positions.",
       "selected_plates" : [
         "MAGNUS-PREDATOR",
         "SIGRID-CORNERED",
@@ -51,10 +51,10 @@
         "BAÐSTOFA-CLEFT",
         "STOFA-BODY"
       ],
-      "scene" : "Interior, 9:45 AM. Door behind him showing storm. Cane raised against low ceiling. Family frozen in positions.",
-      "dialogue" : "(Magnús, to cane): \"Komdu þá\" (To Guðrún): \"ÞÚ GERÐIR ÞETTA\"",
+      "negative_prompt" : "",
       "camera_position" : "Low angle tracking cane from floor to raised position",
       "is_active" : false
     }
-  ]
+  ],
+  "progressive_state" : "House 3\/min + 40bpm weak | Rage building | Camera frost 28.5% | Madness visible | Watching: No witnesses to help"
 }

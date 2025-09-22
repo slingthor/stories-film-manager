@@ -1,39 +1,16 @@
 {
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
-  "shot_metadata" : {
-    "id" : "16.5",
-    "duration_seconds" : 3,
-    "title" : "Shot 16Point5 One Perfect Human Moment expressive face",
-    "sequence_type" : "main",
-    "stitch_from" : "",
-    "narrative_function" : "enhancement"
-  },
-  "progressive_state" : "",
   "prompt_variants" : [
     {
-      "subject" : "",
-      "scene" : "SHOT 16.5: ONE PERFECT HUMAN MOMENT - expressive face NEW ESSENTIAL ADDITION - Before Three-Frame Flash Horror SHOT HEADER: Intimate baðstofa corner lit solely by dying whale oil lamp creating circle of warm amber light surrounded by gentle darkness, traditional domestic space at its most protective and peaceful. Family arranged in sleeping positions of trust and safety—no surveillance tension, no mathematical confusion, no contamination anxiety. Temperature comfortable despite winter exterior, house breathing gently at 12\/min normal rhythm suggesting Bergrisi still strong enough to provide shelter. This represents peak domestic harmony before supernatural forces destroy family structure, captured like final photograph before catastrophe.",
-      "progressive_state" : "",
-      "style" : "Camera positioned 6 feet from Sigrid at slightly elevated angle showing both profile intimacy and belly protection gesture (that's where the camera is), close enough for whispered lullaby, distant enough for family context. Static shot except for gentle push-in during belly whisper, movement subtle as approaching tenderness. Lighting purely from whale oil lamp creating Vermeer-like golden illumination, harsh enough for detail, soft enough for intimacy. Focus sharp on Sigrid's profile during whisper, background family softly visible maintaining domestic context. DIALOGUE:",
-      "active_video_index" : 0,
-      "selected_plates" : [
-        "BAÐSTOFA-BODY",
-        "WESTFJORDS-WINTER",
-        "SEA-EXTRACTED",
-        "SIGRID-MASTER"
-      ],
-      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
-      "camera_position" : "",
-      "action" : "Sigrid's lips move in whispered Old Norse lullaby directed toward belly, her breath creating minimal fog in cooling baðstofa air that barely touches camera lens—gentle intimacy without intrusive visibility. Her voice drops to protective whisper speaking prophecy she doesn't understand: \"Þú verður frjáls þegar ég verð Krummi\" (You will be free when I become raven), words containing future she cannot yet imagine. Belly shows subtle movement in response to voice—unborn child recognizing mother's promise across developdistressed expression. Her breathing maintains perfect 15\/min human rhythm, individual identity strong before herd synchronization begins. Lamp flame gutters once during whisper, creating brief shadow-flicker across her face that shows momentary raven profile before returning to human features. Final breath of lullaby creates fog-puff that briefly obscures camera view, transition preparing for hard cut to darkness preceding Three-Frame Flash revelation.",
-      "variant_id" : "16p_shot_16point5_one_perfect_human_moment_emotional_a",
+      "variant_name" : "Shot 16Point5 One Perfect Human Moment expressive face",
       "is_active" : false,
-      "dialogue" : "",
+      "variant_id" : "16p_shot_16point5_one_perfect_human_moment_emotional_a",
+      "subject" : "",
       "videos" : [
         {
-          "filename" : "Subject_subject_reference_202509211725_wg044.mp4",
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211725_wg044.mp4",
-          "duration" : 8
+          "filename" : "Subject_subject_reference_202509211725_wg044.mp4"
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211725_mdehk.mp4",
@@ -41,22 +18,45 @@
           "filename" : "Subject_subject_reference_202509211725_mdehk.mp4"
         },
         {
+          "duration" : 8,
           "filename" : "Subject_subject_reference_202509211725_l535i.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211725_l535i.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211725_l535i.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202509211728_7fajt.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211728_7fajt.mp4",
           "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211728_7fajt.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211728_feih6.mp4",
           "duration" : 8,
-          "filename" : "Subject_subject_reference_202509211728_7fajt.mp4"
-        },
-        {
-          "filename" : "Subject_subject_reference_202509211728_feih6.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211728_feih6.mp4"
+          "filename" : "Subject_subject_reference_202509211728_feih6.mp4"
         }
       ],
-      "variant_name" : "Shot 16Point5 One Perfect Human Moment expressive face"
+      "selected_plates" : [
+        "BAÐSTOFA-BODY",
+        "WESTFJORDS-WINTER",
+        "SEA-EXTRACTED",
+        "SIGRID-MASTER"
+      ],
+      "style" : "Camera positioned 6 feet from Sigrid at slightly elevated angle showing both profile intimacy and belly protection gesture (that's where the camera is), close enough for whispered lullaby, distant enough for family context. Static shot except for gentle push-in during belly whisper, movement subtle as approaching tenderness. Lighting purely from whale oil lamp creating Vermeer-like golden illumination, harsh enough for detail, soft enough for intimacy. Focus sharp on Sigrid's profile during whisper, background family softly visible maintaining domestic context. DIALOGUE:",
+      "dialogue" : "",
+      "active_video_index" : 0,
+      "progressive_state" : "",
+      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "camera_position" : "",
+      "action" : "Sigrid's lips move in whispered Old Norse lullaby directed toward belly, her breath creating minimal fog in cooling baðstofa air that barely touches camera lens—gentle intimacy without intrusive visibility. Her voice drops to protective whisper speaking prophecy she doesn't understand: \"Þú verður frjáls þegar ég verð Krummi\" (You will be free when I become raven), words containing future she cannot yet imagine. Belly shows subtle movement in response to voice—unborn child recognizing mother's promise across developdistressed expression. Her breathing maintains perfect 15\/min human rhythm, individual identity strong before herd synchronization begins. Lamp flame gutters once during whisper, creating brief shadow-flicker across her face that shows momentary raven profile before returning to human features. Final breath of lullaby creates fog-puff that briefly obscures camera view, transition preparing for hard cut to darkness preceding Three-Frame Flash revelation.",
+      "scene" : "SHOT 16.5: ONE PERFECT HUMAN MOMENT - expressive face NEW ESSENTIAL ADDITION - Before Three-Frame Flash Horror SHOT HEADER: Intimate baðstofa corner lit solely by dying whale oil lamp creating circle of warm amber light surrounded by gentle darkness, traditional domestic space at its most protective and peaceful. Family arranged in sleeping positions of trust and safety—no surveillance tension, no mathematical confusion, no contamination anxiety. Temperature comfortable despite winter exterior, house breathing gently at 12\/min normal rhythm suggesting Bergrisi still strong enough to provide shelter. This represents peak domestic harmony before supernatural forces destroy family structure, captured like final photograph before catastrophe."
     }
-  ]
+  ],
+  "progressive_state" : "",
+  "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "sequence_type" : "main",
+    "id" : "16.5",
+    "title" : "Shot 16Point5 One Perfect Human Moment expressive face",
+    "stitch_from" : "",
+    "duration_seconds" : 3,
+    "narrative_function" : "enhancement"
+  }
 }

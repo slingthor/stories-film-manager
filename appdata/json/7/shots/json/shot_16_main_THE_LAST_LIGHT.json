@@ -1,22 +1,62 @@
 {
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "narrative_function" : "House 13\/min + 60bpm | Lamp death imminent | Camer...",
-    "id" : "16",
-    "title" : "THE LAST LIGHT",
-    "sequence_type" : "main_story",
-    "stitch_from" : ""
-  },
-  "progressive_state" : "House 13\/min + 60bpm | Lamp death imminent | Camera frost 9% | Old world ending | Watching: All watching flame",
-  "aspect_ratio" : "4:3",
   "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "narrative_function" : "House 13\/min + 60bpm | Lamp death imminent | Camer...",
+    "sequence_type" : "main_story",
+    "title" : "THE LAST LIGHT",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "id" : "16"
+  },
+  "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
+      "variant_name" : "Primary - THE LAST LIGHT",
+      "is_active" : false,
+      "variant_id" : "16_story_primary",
       "subject" : "The oil lamp flame shrinking to a blue pinpoint, the entire family watching in silence as their last traditional light source dies, while [MAGNÚS] stands slowly, his fishing preparations visible in corner, knowing what darkness means - he must go out or they die inside.",
-      "scene" : "Table and corner, 6:18 AM but darkness falling. Temperature -12°C, about to get colder without lamp. Fishing gear meticulously prepared - he's been planning this through sleepless nights. The lamp's final moment creating shadow prophecy on walls. Then nothing.",
-      "progressive_state" : "",
-      "style" : "Close on dying flame, then pulling back to show everyone watching, then darkness (that's where the camera is), documentary of light's end.",
-      "active_video_index" : 0,
+      "videos" : [
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202509211721_v34ma.mp4",
+          "filename" : "Subject_the_oil_202509211721_v34ma.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_oil_202509211721_x15tr.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202509211721_x15tr.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202509211721_m87ur.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_oil_202509211721_m87ur.mp4"
+        },
+        {
+          "filename" : "Subject_the_oil_202509211721_2997g.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202509211721_2997g.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_oil_202509211725_rqv73.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202509211725_rqv73.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202509211725_1vqdm.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_oil_202509211725_1vqdm.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202509211724_zt5cv.mp4",
+          "filename" : "Subject_the_oil_202509211724_zt5cv.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_oil_202509211724_w4o6u.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202509211724_w4o6u.mp4"
+        }
+      ],
       "selected_plates" : [
         "BAÐSTOFA-BODY",
         "BAÐSTOFA-ORGANIC",
@@ -26,55 +66,15 @@
         "GUDRUN-MASTER",
         "SIGRID-MASTER"
       ],
+      "style" : "Close on dying flame, then pulling back to show everyone watching, then darkness (that's where the camera is), documentary of light's end.",
+      "dialogue" : "(Complete silence watching flame) (Flame dies, in darkness): \"Ð‰g verð að...\" (Magnús, cut off)",
+      "active_video_index" : 0,
+      "progressive_state" : "",
       "negative_prompt" : "no subtitles, real darkness when lamp dies, shadow prophecy visible, documentary observation",
       "camera_position" : "Close on dying flame, then pulling back to show everyone watching, then darkness",
       "action" : "The flame shrinks smaller, smaller. Blue center, orange edges, then just blue, then pinpoint. Everyone watching. Even empty clothes lean forward. The lamp flame creates last wild shadows - for a moment, clear as day, shadows show five sheep standing on hind legs. Then dimmer. Magnús stands, walks to corner where his gear waits: óðinn (line) coiled perfectly, háfur (gaff) sharpened, tin of bait (empty but for memory of fish), rifle wrapped in oilcloth. Tests the line strength - it holds. Behind him, family watching. Guðrún's hand finds Sigrid's shoulder. The flame gasps once, flares briefly illuminating everyone's face in orange, then dies. Complete darkness. House breathing stops. Heartbeat stops. A moment of absolute void. Then, continuing in darkness, Magnús's voice: \"Ð‰g verð að...\" (I have to...) Cut off by new light.",
-      "variant_id" : "16_story_primary",
-      "is_active" : false,
-      "dialogue" : "(Complete silence watching flame) (Flame dies, in darkness): \"Ð‰g verð að...\" (Magnús, cut off)",
-      "videos" : [
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202509211721_v34ma.mp4",
-          "filename" : "Subject_the_oil_202509211721_v34ma.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202509211721_x15tr.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_oil_202509211721_x15tr.mp4"
-        },
-        {
-          "filename" : "Subject_the_oil_202509211721_m87ur.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202509211721_m87ur.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202509211721_2997g.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_oil_202509211721_2997g.mp4"
-        },
-        {
-          "filename" : "Subject_the_oil_202509211725_rqv73.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202509211725_rqv73.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202509211725_1vqdm.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_oil_202509211725_1vqdm.mp4"
-        },
-        {
-          "filename" : "Subject_the_oil_202509211724_zt5cv.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202509211724_zt5cv.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202509211724_w4o6u.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_oil_202509211724_w4o6u.mp4"
-        }
-      ],
-      "variant_name" : "Primary - THE LAST LIGHT"
+      "scene" : "Table and corner, 6:18 AM but darkness falling. Temperature -12°C, about to get colder without lamp. Fishing gear meticulously prepared - he's been planning this through sleepless nights. The lamp's final moment creating shadow prophecy on walls. Then nothing."
     }
-  ]
+  ],
+  "progressive_state" : "House 13\/min + 60bpm | Lamp death imminent | Camera frost 9% | Old world ending | Watching: All watching flame"
 }

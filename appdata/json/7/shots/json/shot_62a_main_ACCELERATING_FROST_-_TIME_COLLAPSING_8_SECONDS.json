@@ -1,27 +1,19 @@
 {
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "narrative_function" : "Rapid freezing | Frost 58%â†’85% | History condens...",
-    "id" : "62a",
-    "title" : "ACCELERATING FROST - TIME COLLAPSING 8 SECONDS",
-    "sequence_type" : "main_story",
-    "stitch_from" : ""
-  },
-  "progressive_state" : "Rapid freezing | Frost 58%â†’85% | History condensing | Watching: Final moments",
-  "aspect_ratio" : "2.39:1",
   "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "narrative_function" : "Rapid freezing | Frost 58%â†’85% | History condens...",
+    "sequence_type" : "main_story",
+    "title" : "ACCELERATING FROST - TIME COLLAPSING 8 SECONDS",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "id" : "62a"
+  },
+  "aspect_ratio" : "2.39:1",
   "prompt_variants" : [
     {
-      "subject" : "The frost suddenly accelerating, jumping from 58% to 85% in seconds, each percentage now a year flashing by - 1889, 1890, 1891 - centuries of colonization condensing into moments, the camera trying desperately to focus on the obelisk one last time.",
-      "variant_name" : "Primary - ACCELERATING FROST - TIME COLLAPSING 8 SECONDS",
-      "action" : "RAPID FROST SPREAD. Not gradual - explosive. 58%. 65%. 72%. Each jump shows a year. Images flashing in ice: 1889 - more Danish administrators arrive. 70% - 1900, new century, same oppression. 75% - 1914, war elsewhere, Iceland forgotten. 80% - 1930, depression, starvation, sheep cheaper than human life. 85% - 1940, British occupation begins. The camera fights. Trying to focus. Mechanical iris struggling. Want to see obelisk clearly one last time. Want to witness family. But frost creates beauty - prismatic effects, rainbow halos, the death becoming art. Through narrowing clear center: obelisk stands eternal. Family still inside. Still aware. Watching the camera die. Knowing their witness is ending. But Sigrid flies above. Always above. The saved witness. The one who escapes when camera cannot. At 85%: only center clear. Tunnel vision. Like looking through telescope backwards. Everything distant. Cold. Ending.",
-      "style" : "Desperate focusing attempts (that's where the camera is), time collapsing documented.",
-      "camera_position" : "Desperate focusing attempts",
-      "negative_prompt" : "",
-      "variant_id" : "62a_story_primary",
       "dialogue" : "(Frost writing rapidly): \"1889\" \"1900\" \"1914\" \"1930\" \"1940\"",
       "is_active" : false,
-      "progressive_state" : "",
+      "subject" : "The frost suddenly accelerating, jumping from 58% to 85% in seconds, each percentage now a year flashing by - 1889, 1890, 1891 - centuries of colonization condensing into moments, the camera trying desperately to focus on the obelisk one last time.",
       "selected_plates" : [
         "MAGNUS-RAM",
         "SIGRID-CORVID",
@@ -31,7 +23,15 @@
         "SEA-ETERNAL",
         "WESTFJORDS-CLIFF"
       ],
-      "scene" : "Rapid frost spread. Years flashing. Vision tunneling. Obelisk distant but centered."
+      "style" : "Desperate focusing attempts (that's where the camera is), time collapsing documented.",
+      "progressive_state" : "",
+      "action" : "RAPID FROST SPREAD. Not gradual - explosive. 58%. 65%. 72%. Each jump shows a year. Images flashing in ice: 1889 - more Danish administrators arrive. 70% - 1900, new century, same oppression. 75% - 1914, war elsewhere, Iceland forgotten. 80% - 1930, depression, starvation, sheep cheaper than human life. 85% - 1940, British occupation begins. The camera fights. Trying to focus. Mechanical iris struggling. Want to see obelisk clearly one last time. Want to witness family. But frost creates beauty - prismatic effects, rainbow halos, the death becoming art. Through narrowing clear center: obelisk stands eternal. Family still inside. Still aware. Watching the camera die. Knowing their witness is ending. But Sigrid flies above. Always above. The saved witness. The one who escapes when camera cannot. At 85%: only center clear. Tunnel vision. Like looking through telescope backwards. Everything distant. Cold. Ending.",
+      "scene" : "Rapid frost spread. Years flashing. Vision tunneling. Obelisk distant but centered.",
+      "camera_position" : "Desperate focusing attempts",
+      "negative_prompt" : "",
+      "variant_name" : "Primary - ACCELERATING FROST - TIME COLLAPSING 8 SECONDS",
+      "variant_id" : "62a_story_primary"
     }
-  ]
+  ],
+  "progressive_state" : "Rapid freezing | Frost 58%â†’85% | History condensing | Watching: Final moments"
 }

@@ -1,21 +1,26 @@
 {
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "narrative_function" : "Children playing | Patterns forming | Camera frost...",
-    "id" : "4b",
-    "title" : "THE CHILDRENS BONE CIRCLE",
-    "sequence_type" : "prologue",
-    "stitch_from" : ""
-  },
-  "progressive_state" : "Children playing | Patterns forming | Camera frost 0% | Future practiced | Watching: Innocent rehearsal",
-  "aspect_ratio" : "1.85:1",
   "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "narrative_function" : "Children playing | Patterns forming | Camera frost...",
+    "sequence_type" : "prologue",
+    "title" : "THE CHILDRENS BONE CIRCLE",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "id" : "4b"
+  },
+  "aspect_ratio" : "1.85:1",
   "prompt_variants" : [
     {
+      "is_active" : false,
+      "subject" : "Five children sitting in grass between beach and hills, playing with sheep knucklebones, throwing them to land in patterns, the bones falling to create a perfect circle, their shadows forming shapes that don't match their positions.",
+      "style" : "Overhead shot looking down at children and bone patterns (that's where the camera is), shadows clearly visible.",
       "action" : "Children aged 5-10 sit in grass. Each has handful of white knucklebones from spring slaughter. Take turns throwing bones up. Bones land in patterns - first throw makes line, second makes triangle, third makes square. Fourth throw, bones land in perfect circle, some standing on end impossibly. Children look at each other. One girl throws again. Bones land in exact same circle. Boy tries. Same circle forms. Every throw now creates identical pattern. On ground, their shadows wrong - shadows show them standing though they're sitting. One shadow has horns. Another has too many arms. Children don't notice shadows. In grass around them, three types of stains spreading - red from whale blood carried on wind, purple from berry juice on their hands, golden from egg yolk. Stains creeping toward bone circle. When stains touch bones, bones seem to breathe once.",
+      "progressive_state" : "",
+      "camera_position" : "Overhead shot looking down at children and bone patterns",
+      "dialogue" : "None",
+      "variant_name" : "Primary - THE CHILDRENS BONE CIRCLE",
       "scene" : "Grassy area between beach and hills. Morning sun creating sharp shadows. Ocean visible with whale approaching. Cliffs visible with tiny figures climbing.",
       "negative_prompt" : "no subtitles, show bones in perfect circle, wrong shadows, three stains spreading, 1080p",
-      "is_active" : false,
       "selected_plates" : [
         "MAGNUS-AUTHORITY",
         "SIGRID-PURE",
@@ -25,13 +30,8 @@
         "BAÐSTOFA-DOMESTIC",
         "WESTFJORDS-BEACH"
       ],
-      "variant_name" : "Primary - THE CHILDRENS BONE CIRCLE",
-      "style" : "Overhead shot looking down at children and bone patterns (that's where the camera is), shadows clearly visible.",
-      "subject" : "Five children sitting in grass between beach and hills, playing with sheep knucklebones, throwing them to land in patterns, the bones falling to create a perfect circle, their shadows forming shapes that don't match their positions.",
-      "progressive_state" : "",
-      "dialogue" : "None",
-      "camera_position" : "Overhead shot looking down at children and bone patterns",
       "variant_id" : "4b_story_primary"
     }
-  ]
+  ],
+  "progressive_state" : "Children playing | Patterns forming | Camera frost 0% | Future practiced | Watching: Innocent rehearsal"
 }
