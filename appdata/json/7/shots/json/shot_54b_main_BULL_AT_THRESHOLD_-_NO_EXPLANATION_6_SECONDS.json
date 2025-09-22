@@ -1,19 +1,28 @@
 {
   "shot_metadata" : {
-    "stitch_from" : "",
+    "title" : "BULL AT THRESHOLD - NO EXPLANATION 6 SECONDS",
+    "sequence_type" : "main_story",
     "duration_seconds" : 6,
     "id" : "54b",
     "narrative_function" : "Impossible arrival | Dying god present | Camera fr...",
-    "title" : "BULL AT THRESHOLD - NO EXPLANATION 6 SECONDS",
-    "sequence_type" : "main_story"
+    "stitch_from" : ""
   },
+  "selected_prompt_index" : 0,
   "progressive_state" : "Impossible arrival | Dying god present | Camera frost 45% | surreal visual | Watching: We see impossibility",
   "aspect_ratio" : "4:3",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "negative_prompt" : "",
+      "camera_position" : "Zoom out revealing impossible presence",
       "is_active" : false,
+      "variant_id" : "54b_story_primary",
+      "progressive_state" : "",
+      "scene" : "Doorway with massive Bull across threshold. Family stepping over casually. No explanation for presence.",
+      "variant_name" : "Primary - BULL AT THRESHOLD - NO EXPLANATION 6 SECONDS",
+      "action" : "Door stands open (who opened it?). ZOOM OUT reveals threshold. There: Griðungur. Massive bull, 6-foot head, body blocking entire doorway. Same contamination - brass harpoons through skull, rope beneath skin, net fused with eyes. But HERE. At house. Impossible. He was dying on shore, too massive to move. No tracks in snow. No path. Just HERE. Green verdigris tears still flowing from metal infections, pooling at doorstep. Still breathing - 3\/min, matching house's dying rhythm. Eyes ancient, watching family. But family not surprised. Guðrún steps toward door with empty water bucket. Steps OVER him. One foot on his neck, other on ground beyond. Casual. Daily. Like stepping over sleeping dog. Magnús (feet somehow free from floor) follows. Steps on Bull's horn for leverage. Children next. Only Sigrid pauses, kneels, touches his massive head. Whispers: \"Þú ert hér til að sjá\" (You're here to see). He blinks. Understands. Came to witness transformation.",
+      "style" : "Zoom out revealing impossible presence (that's where the camera is), impossibility accepted.",
+      "dialogue" : "(Sigrid to Bull): \"Þú ert hér til að sjá\" (Family): Casual morning greetings, ignoring impossibility",
+      "negative_prompt" : "",
+      "subject" : "The door open revealing GRIÐUNGUR the Bull lying across threshold - the massive contaminated god who was dying on shore 300 meters away, now at their door with no path, no explanation, industrial materials weeping green tears while family prepares to step over him casually.",
       "selected_plates" : [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
@@ -24,16 +33,7 @@
         "WESTFJORDS-CLIFF",
         "HOUSE-DETAIL",
         "WESTFJORDS-WINTER"
-      ],
-      "subject" : "The door open revealing GRIÐUNGUR the Bull lying across threshold - the massive contaminated god who was dying on shore 300 meters away, now at their door with no path, no explanation, industrial materials weeping green tears while family prepares to step over him casually.",
-      "dialogue" : "(Sigrid to Bull): \"Þú ert hér til að sjá\" (Family): Casual morning greetings, ignoring impossibility",
-      "style" : "Zoom out revealing impossible presence (that's where the camera is), impossibility accepted.",
-      "action" : "Door stands open (who opened it?). ZOOM OUT reveals threshold. There: Griðungur. Massive bull, 6-foot head, body blocking entire doorway. Same contamination - brass harpoons through skull, rope beneath skin, net fused with eyes. But HERE. At house. Impossible. He was dying on shore, too massive to move. No tracks in snow. No path. Just HERE. Green verdigris tears still flowing from metal infections, pooling at doorstep. Still breathing - 3\/min, matching house's dying rhythm. Eyes ancient, watching family. But family not surprised. Guðrún steps toward door with empty water bucket. Steps OVER him. One foot on his neck, other on ground beyond. Casual. Daily. Like stepping over sleeping dog. Magnús (feet somehow free from floor) follows. Steps on Bull's horn for leverage. Children next. Only Sigrid pauses, kneels, touches his massive head. Whispers: \"Þú ert hér til að sjá\" (You're here to see). He blinks. Understands. Came to witness transformation.",
-      "scene" : "Doorway with massive Bull across threshold. Family stepping over casually. No explanation for presence.",
-      "variant_id" : "54b_story_primary",
-      "progressive_state" : "",
-      "camera_position" : "Zoom out revealing impossible presence",
-      "variant_name" : "Primary - BULL AT THRESHOLD - NO EXPLANATION 6 SECONDS"
+      ]
     }
   ]
 }

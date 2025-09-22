@@ -1,31 +1,54 @@
 {
   "shot_metadata" : {
-    "stitch_from" : "",
     "duration_seconds" : 6,
-    "id" : "58a",
     "narrative_function" : "House dead\/transformed | Dawn breaking | Camera fr...",
+    "id" : "58a",
     "title" : "LIGHT RETURNS - KLETTAGJÐ REVEALED 6 SECONDS",
-    "sequence_type" : "main_story"
+    "sequence_type" : "main_story",
+    "stitch_from" : ""
   },
-  "progressive_state" : "House dead\/transformed | Dawn breaking | Camera frost 50.5% | Escape route visible | Watching: New form revealed",
-  "aspect_ratio" : "4:3",
   "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
+      "variant_name" : "Primary - LIGHT RETURNS - KLETTAGJÐ REVEALED 6 SECONDS",
       "negative_prompt" : "",
+      "dialogue" : "None - sheep attempting sounds but failing",
       "is_active" : false,
       "selected_plates" : [
         "WESTFJORDS-CLIFF"
       ],
-      "subject" : "Light gradually returning revealing the house has transformed - walls cracked open into rocky cleft formation, ceiling gone showing sky, the familiar 12Ð—16 space now a natural cave with stone réttir patterns still visible in floor, sheep family huddled in center.",
-      "dialogue" : "None - sheep attempting sounds but failing",
+      "active_video_index" : 0,
+      "videos" : [
+        {
+          "filename" : "Subject_light_gradually_202509211834_xxkh4.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202509211834_xxkh4.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202509211834_04bvx.mp4",
+          "duration" : 8,
+          "filename" : "Subject_light_gradually_202509211834_04bvx.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202509211834_t4qbw.mp4",
+          "filename" : "Subject_light_gradually_202509211834_t4qbw.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_light_gradually_202509211833_gmink.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202509211833_gmink.mp4",
+          "duration" : 8
+        }
+      ],
       "style" : "Crane revealing transformation (that's where the camera is), new geography documented.",
-      "action" : "Light seeps in - not through windows but through rock. House IS rock now. CRANE UP slowly through transformed space. Walls no longer wood\/turf but black volcanic stone. Cracks from earlier have become passages - five leading out, sixth blocked. The klettagjá from lullaby, literal rocky cleft. But traces remain: doorframe still there but in stone. Hearth transformed to natural fire pit. The réttir pattern in floor now carved in rock, ancient, permanent. Sheep family huddled center, still wearing torn human clothes. They look natural here. Like they belong. Cave sheep. Always were. Above: sky visible through massive opening. Dawn light entering. But also: seven ravens circling. Waiting. Through stone passages: glimpses of ocean, mountains, freedom. But sheep can't use passages. Too narrow for livestock. Only something smaller could escape. Something that could fly.",
+      "subject" : "Light gradually returning revealing the house has transformed - walls cracked open into rocky cleft formation, ceiling gone showing sky, the familiar 12Ð—16 space now a natural cave with stone réttir patterns still visible in floor, sheep family huddled in center.",
       "scene" : "Transformed house-cave. Dawn light. Stone architecture. Sheep family natural in space.",
-      "variant_id" : "58a_story_primary",
+      "action" : "Light seeps in - not through windows but through rock. House IS rock now. CRANE UP slowly through transformed space. Walls no longer wood\/turf but black volcanic stone. Cracks from earlier have become passages - five leading out, sixth blocked. The klettagjá from lullaby, literal rocky cleft. But traces remain: doorframe still there but in stone. Hearth transformed to natural fire pit. The réttir pattern in floor now carved in rock, ancient, permanent. Sheep family huddled center, still wearing torn human clothes. They look natural here. Like they belong. Cave sheep. Always were. Above: sky visible through massive opening. Dawn light entering. But also: seven ravens circling. Waiting. Through stone passages: glimpses of ocean, mountains, freedom. But sheep can't use passages. Too narrow for livestock. Only something smaller could escape. Something that could fly.",
       "progressive_state" : "",
       "camera_position" : "Crane revealing transformation",
-      "variant_name" : "Primary - LIGHT RETURNS - KLETTAGJÐ REVEALED 6 SECONDS"
+      "variant_id" : "58a_story_primary"
     }
-  ]
+  ],
+  "progressive_state" : "House dead\/transformed | Dawn breaking | Camera frost 50.5% | Escape route visible | Watching: New form revealed"
 }

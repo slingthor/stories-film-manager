@@ -1,5 +1,6 @@
 {
   "progressive_state" : "Return beginning | Serpent speaks | Camera frost 34.5% | Death pronounced | Watching: Empire declares",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
       "selected_plates" : [
@@ -7,27 +8,44 @@
         "SEA-CONTAMINATED",
         "WESTFJORDS-WINTER"
       ],
-      "dialogue" : "(Trawler\/Jörmungandr): \"DAUUUUÐUUUUR\" (Repeating): \"DAUÐUR\" (Guðrún): Silent, just breathing visible",
-      "variant_name" : "Primary - THE TRAWLER SPEAKS - DAUÐUR 5 SECONDS",
-      "subject" : "[GUÐRÚN] rising to return when the trawler horn sounds from the fjord, but not just sound - a word formed in industrial drone: \"DAUÐUR\" (dead), the serpent pronouncing death, though unclear if meaning Bull, her, or everyone.",
-      "action" : "Guðrún stands from beside dying Bull, turns toward house. First step. Then - HORN. But not normal horn. The sound shapes itself: \"DAUUUUÐUUUUR.\" Mechanical voice, trawler's engine modulating into speech. WHIP PAN to fjord. Trawler sits in black water, 500 meters out, hasn't moved since Magnús shot it. Yellow searchlights sweep once, find her, lock on. The word repeats: \"DAUÐUR.\" Pronouncing death. But whose? Bull dying on shore? Her, who should have died in storm? The family? Iceland itself? Searchlights hold on her for exactly 12 seconds (the monolith duration), then go dark. Trawler sits silent. But water around it churning - something massive beneath, the ship just visible portion. Pan back to Guðrún. She heard. Understands. Doesn't respond. Industrial empire has pronounced death. She continues walking. Her wrists, raw from wool emergence, leave blood drops in snow. Each drop steams, still warm. Behind her, Bull breathes at 3\/min now. Still alive. Despite pronouncement.",
-      "style" : "Whip pan creating disorientation between pronouncement and subject (that's where the camera is), documentary of death sentence.",
-      "negative_prompt" : "",
-      "camera_position" : "Whip pan creating disorientation between pronouncement and subject",
-      "progressive_state" : "",
       "scene" : "Shore to fjord view, 10:08 AM grey light. Trawler dominant in water. Bull dying on shore. Path home visible.",
+      "variant_name" : "Primary - THE TRAWLER SPEAKS - DAUÐUR 5 SECONDS",
+      "active_video_index" : 0,
+      "style" : "Whip pan creating disorientation between pronouncement and subject (that's where the camera is), documentary of death sentence.",
+      "progressive_state" : "",
+      "camera_position" : "Whip pan creating disorientation between pronouncement and subject",
+      "action" : "Guðrún stands from beside dying Bull, turns toward house. First step. Then - HORN. But not normal horn. The sound shapes itself: \"DAUUUUÐUUUUR.\" Mechanical voice, trawler's engine modulating into speech. WHIP PAN to fjord. Trawler sits in black water, 500 meters out, hasn't moved since Magnús shot it. Yellow searchlights sweep once, find her, lock on. The word repeats: \"DAUÐUR.\" Pronouncing death. But whose? Bull dying on shore? Her, who should have died in storm? The family? Iceland itself? Searchlights hold on her for exactly 12 seconds (the monolith duration), then go dark. Trawler sits silent. But water around it churning - something massive beneath, the ship just visible portion. Pan back to Guðrún. She heard. Understands. Doesn't respond. Industrial empire has pronounced death. She continues walking. Her wrists, raw from wool emergence, leave blood drops in snow. Each drop steams, still warm. Behind her, Bull breathes at 3\/min now. Still alive. Despite pronouncement.",
+      "is_active" : false,
+      "subject" : "[GUÐRÚN] rising to return when the trawler horn sounds from the fjord, but not just sound - a word formed in industrial drone: \"DAUÐUR\" (dead), the serpent pronouncing death, though unclear if meaning Bull, her, or everyone.",
+      "dialogue" : "(Trawler\/Jörmungandr): \"DAUUUUÐUUUUR\" (Repeating): \"DAUÐUR\" (Guðrún): Silent, just breathing visible",
       "variant_id" : "47a_story_primary",
-      "is_active" : false
+      "videos" : [
+        {
+          "filename" : "Subject_gurn_rising_202509211903_8iv9q.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_rising_202509211903_8iv9q.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_rising_202509211903_o7pc0.mp4",
+          "duration" : 8,
+          "filename" : "Subject_gurn_rising_202509211903_o7pc0.mp4"
+        },
+        {
+          "filename" : "Subject_gurn_rising_202509211903_9v1hi.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_rising_202509211903_9v1hi.mp4",
+          "duration" : 8
+        }
+      ],
+      "negative_prompt" : ""
     }
   ],
   "shot_metadata" : {
-    "title" : "THE TRAWLER SPEAKS - DAUÐUR 5 SECONDS",
     "sequence_type" : "main_story",
-    "stitch_from" : "",
     "id" : "47a",
     "duration_seconds" : 5,
+    "title" : "THE TRAWLER SPEAKS - DAUÐUR 5 SECONDS",
+    "stitch_from" : "",
     "narrative_function" : "Return beginning | Serpent speaks | Camera frost 3..."
   },
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3"
 }

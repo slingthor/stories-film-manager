@@ -1,19 +1,28 @@
 {
   "shot_metadata" : {
-    "stitch_from" : "",
+    "title" : "TRAWLER BEGINS CIRCLE - THE HUNGER TURNS 6 SECONDS",
+    "sequence_type" : "main_story",
     "duration_seconds" : 6,
     "id" : "55a",
     "narrative_function" : "House 3\/min critical + 35bpm | Serpent moving | Ca...",
-    "title" : "TRAWLER BEGINS CIRCLE - THE HUNGER TURNS 6 SECONDS",
-    "sequence_type" : "main_story"
+    "stitch_from" : ""
   },
+  "selected_prompt_index" : 0,
   "progressive_state" : "House 3\/min critical + 35bpm | Serpent moving | Camera frost 46% | Ouroboros beginning | Watching: End approaching",
   "aspect_ratio" : "4:3",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "negative_prompt" : "",
+      "camera_position" : "Wide shot through frosted window",
       "is_active" : false,
+      "variant_id" : "55a_story_primary",
+      "progressive_state" : "",
+      "scene" : "View through window of fjord. Trawler creating perfect circle. Family gathered watching. Bull still at threshold.",
+      "variant_name" : "Primary - TRAWLER BEGINS CIRCLE - THE HUNGER TURNS 6 SECONDS",
+      "action" : "Family at window - all drawn by sound. Trawler's engine changes pitch: industrial drone becoming organic hunger. Through frost-covered glass: trawler moving. Not straight but curving. Beginning massive circle on black water. Searchlights sweep but catch only its own wake - green-black contamination trail it left before. Following its own poison. WIDE SHOT shows scale: circle will be 1 kilometer diameter. Perfect geometry. Speed increasing: 5 knots, 10, 15. Impossible for vessel that size. Water churning white-green foam. As it turns, glimpse through wheelhouse: no crew. But something coiled inside. Massive. The ship just the visible portion of something much larger below. Sigrid presses black feather against window. Where it touches, frost melts, revealing clearer view. The trawler hunting itself. Industrial system pursuing its own destruction.",
+      "style" : "Wide shot through frosted window (that's where the camera is), ouroboros beginning documented.",
+      "dialogue" : "(Magnús): \"Hvað er það að gera?\" (Sigrid, knowing): \"Það byrjar\" (It begins)",
+      "negative_prompt" : "",
+      "subject" : "Through the window, the trawler GRIMSBY PRIDE beginning to move in a circle on the fjord, searchlights creating yellow spiral in water, the serpent hunting its own wake, industrial capitalism starting to consume itself.",
       "selected_plates" : [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
@@ -23,16 +32,7 @@
         "SEA-ACCUSATION",
         "WESTFJORDS-CLIFF",
         "STOFA-CLIFF"
-      ],
-      "subject" : "Through the window, the trawler GRIMSBY PRIDE beginning to move in a circle on the fjord, searchlights creating yellow spiral in water, the serpent hunting its own wake, industrial capitalism starting to consume itself.",
-      "dialogue" : "(Magnús): \"Hvað er það að gera?\" (Sigrid, knowing): \"Það byrjar\" (It begins)",
-      "style" : "Wide shot through frosted window (that's where the camera is), ouroboros beginning documented.",
-      "action" : "Family at window - all drawn by sound. Trawler's engine changes pitch: industrial drone becoming organic hunger. Through frost-covered glass: trawler moving. Not straight but curving. Beginning massive circle on black water. Searchlights sweep but catch only its own wake - green-black contamination trail it left before. Following its own poison. WIDE SHOT shows scale: circle will be 1 kilometer diameter. Perfect geometry. Speed increasing: 5 knots, 10, 15. Impossible for vessel that size. Water churning white-green foam. As it turns, glimpse through wheelhouse: no crew. But something coiled inside. Massive. The ship just the visible portion of something much larger below. Sigrid presses black feather against window. Where it touches, frost melts, revealing clearer view. The trawler hunting itself. Industrial system pursuing its own destruction.",
-      "scene" : "View through window of fjord. Trawler creating perfect circle. Family gathered watching. Bull still at threshold.",
-      "variant_id" : "55a_story_primary",
-      "progressive_state" : "",
-      "camera_position" : "Wide shot through frosted window",
-      "variant_name" : "Primary - TRAWLER BEGINS CIRCLE - THE HUNGER TURNS 6 SECONDS"
+      ]
     }
   ]
 }
