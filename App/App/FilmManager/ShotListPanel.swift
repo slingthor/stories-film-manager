@@ -26,6 +26,13 @@ struct ShotListWithSystemsView: View {
                         !variant.videos.isEmpty
                     }
                 }
+            case "novideo", "novideos":
+                // Return shots where NO prompt variant has videos
+                return filmManager.shots.filter { shot in
+                    !shot.promptVariants.contains { variant in
+                        !variant.videos.isEmpty
+                    }
+                }
             case "images", "image":
                 // Return shots where any prompt variant has images
                 return filmManager.shots.filter { shot in
