@@ -1,0 +1,69 @@
+{
+  "last_updated" : "2025-09-22T06:28:13Z",
+  "tracking_systems" : {
+    "predatory_landscape" : {
+      "description" : "Environmental hostility toward human survival",
+      "current_percentage" : 15
+    },
+    "light_sources" : {
+      "description" : "Illumination evolution organic→industrial→supernatural",
+      "current_percentage" : 5
+    },
+    "color_grading" : {
+      "current_percentage" : 15,
+      "description" : "Film color palette psychological progression"
+    },
+    "klettagja_formation" : {
+      "current_percentage" : 15,
+      "description" : "Cliff cleft development for Sigrid's escape"
+    },
+    "industrial_contamination" : {
+      "current_percentage" : 22,
+      "description" : "British\/Danish imperial materials spreading"
+    },
+    "temperature_progression" : {
+      "current_percentage" : 28,
+      "description" : "Environmental and body temperature changes"
+    },
+    "house_consciousness" : {
+      "current_percentage" : 35,
+      "description" : "Bergrisi awareness and biological responses"
+    },
+    "breathing_coordination" : {
+      "current_percentage" : 32,
+      "description" : "Family respiratory synchronization progression"
+    },
+    "spatial_impossibilities" : {
+      "current_percentage" : 25,
+      "description" : "Mathematical physics violations spreading"
+    },
+    "hakarl_contamination" : {
+      "current_percentage" : 18,
+      "description" : "Traditional food corruption enabling breakdown"
+    },
+    "weather_hostility" : {
+      "current_percentage" : 10,
+      "description" : "Atmospheric assault on family survival"
+    },
+    "house_dimensions" : {
+      "current_percentage" : 0,
+      "description" : "Baðstofa interior space expansion sensation"
+    },
+    "character_shadow_behavior" : {
+      "description" : "Shadow physics revealing animal truth",
+      "current_percentage" : 8
+    },
+    "stain_progression" : {
+      "description" : "F4 Liquid contamination marking progression",
+      "current_percentage" : 35
+    },
+    "reality_coherence" : {
+      "current_percentage" : 65,
+      "description" : "Stability of physical laws and logic"
+    },
+    "memory_degradation" : {
+      "description" : "Collective memory accuracy declining",
+      "current_percentage" : 5
+    }
+  }
+}

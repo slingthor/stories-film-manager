@@ -1254,6 +1254,33 @@ struct GeneratedPromptViewer: View {
         return sanitized
     }
 
+    private func removeCharacterPlates(_ text: String) -> String {
+        // Find where character plates start and ACTION: begins
+        // Character plates typically come after SUBJECT: and before ACTION:
+
+        // Look for the start of character descriptions (usually after "SUBJECT:")
+        // and the start of ACTION: section
+        guard let actionRange = text.range(of: "ACTION:", options: .caseInsensitive) else {
+            // If no ACTION: found, return the original text
+            return text
+        }
+
+        // Find SUBJECT: section
+        guard let subjectRange = text.range(of: "SUBJECT:", options: .caseInsensitive) else {
+            // If no SUBJECT: found, return the original text
+            return text
+        }
+
+        // Extract the part before SUBJECT:
+        let beforeSubject = String(text[..<subjectRange.lowerBound])
+
+        // Extract the part from ACTION: onwards
+        let fromAction = String(text[actionRange.lowerBound...])
+
+        // Combine them, effectively removing the character plate section
+        return beforeSubject + fromAction
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             HStack {
@@ -1280,6 +1307,16 @@ struct GeneratedPromptViewer: View {
                 }
                 .buttonStyle(.bordered)
                 .foregroundColor(.orange)
+
+                Button("Copy No Chars") {
+                    // Copy prompt without character plates
+                    let promptWithoutChars = removeCharacterPlates(cleanPrompt)
+                    NSPasteboard.general.clearContents()
+                    NSPasteboard.general.setString(promptWithoutChars, forType: .string)
+                    print("📋 Copied prompt without character plates to clipboard")
+                }
+                .buttonStyle(.bordered)
+                .foregroundColor(.green)
 
                 Button("Close") {
                     onDismiss()

@@ -1,10 +1,27 @@
 {
+  "progressive_state" : "House 12\/min | Klettagjá invisible | No contamination visible | Camera frost 3% | Pre-sorting calm | Watching layers: cosmosâ†’houseâ†’family",
+  "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "title" : "DESCENT INTO THE TRAP",
+    "stitch_from" : "",
+    "sequence_type" : "main_story",
+    "narrative_function" : "House 12\/min | Klettagjá invisible | No contamina...",
+    "id" : "5",
+    "duration_seconds" : 8
+  },
   "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
+      "camera_position" : "Low-altitude tracking, 2 feet above the snow, following the main blood spiral from the pen's center directly towards the house.",
       "dialogue" : "(Ram's ghost, whispered on wind, distorted): 'Þú seldir okkur... fyrir olíu...'",
-      "is_active" : false,
+      "style" : "Camera moves with a smooth, predatory purpose, like a low-flying bird of prey, its movement dictated entirely by the shifting geometry of the blood compass (that's where the camera is). Shot with a 14mm ultra-wide lens to capture the vastness of the landscape and the intricate detail of the blood patterns simultaneously. The lighting is flat and oppressive, the grey light of a winter afternoon that feels like eternal morning. Focus is sharp on the blood lines, with the distant house slightly soft, a destination of dread. Camera frost accumulates from 3% to 5% during the shot.",
       "subject" : "The camera as a non-human entity, a witness-spirit, following the living geometry of the ram's blood across a frozen, hostile landscape.",
+      "variant_name" : "Riding the Blood Compass v2",
+      "progressive_state" : "",
+      "variant_id" : "5_riding_the_blood_compass_v2",
+      "negative_prompt" : "no direct sunlight, no lens flare, no camera shake, maintain bleak and oppressive atmosphere, avoid any sense of hope or warmth",
+      "scene" : "The empty ram pen, weeks after the slaughter. A vast, snow-covered field under a perpetually grey sky. Temperature is -22°C. The air smells of old blood, ozone, and the coming storm. The only sound is the wind, carrying the fragmented voice of the dead ram. The Þorláksson house is a dark shape on the horizon, 500 meters away, smoke from its chimney struggling against the wind. The blood patterns are the only color in a monochrome world.",
+      "is_active" : false,
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-MARKED",
@@ -14,24 +31,58 @@
         "BAÐSTOFA-STIRRING",
         "WESTFJORDS-WINTER"
       ],
-      "style" : "Camera moves with a smooth, predatory purpose, like a low-flying bird of prey, its movement dictated entirely by the shifting geometry of the blood compass (that's where the camera is). Shot with a 14mm ultra-wide lens to capture the vastness of the landscape and the intricate detail of the blood patterns simultaneously. The lighting is flat and oppressive, the grey light of a winter afternoon that feels like eternal morning. Focus is sharp on the blood lines, with the distant house slightly soft, a destination of dread. Camera frost accumulates from 3% to 5% during the shot.",
-      "progressive_state" : "",
-      "action" : "Camera executes a low-altitude predatory flight, 2 feet above the snow, following the ram's blood spirals as they actively guide it. The blood, frozen for weeks, pulses with a faint 16Hz crimson light, its geometric patterns shifting and reconfiguring to point directly at the distant Þorláksson farmstead. Snowflakes refuse to land on the blood lines, creating perfectly clear, dark red pathways. The single horn left at the pen's center acts as a gnomon, its shadow stretching impossibly long and pointing directly at the house, regardless of the sun's position. As the camera rides the 'veins of guilt,' the wind whispers fragments of the ram's last words, distorted and stretched: 'Þú seldir okkur... fyrir olíu...' (You sold us... for oil...). The landscape itself responds to the accusation—distant mountains seem to lean in, listening; the ice on the fjord groans in sympathy.",
-      "scene" : "The empty ram pen, weeks after the slaughter. A vast, snow-covered field under a perpetually grey sky. Temperature is -22°C. The air smells of old blood, ozone, and the coming storm. The only sound is the wind, carrying the fragmented voice of the dead ram. The Þorláksson house is a dark shape on the horizon, 500 meters away, smoke from its chimney struggling against the wind. The blood patterns are the only color in a monochrome world.",
-      "camera_position" : "Low-altitude tracking, 2 feet above the snow, following the main blood spiral from the pen's center directly towards the house.",
-      "negative_prompt" : "no direct sunlight, no lens flare, no camera shake, maintain bleak and oppressive atmosphere, avoid any sense of hope or warmth",
-      "variant_name" : "Riding the Blood Compass v2",
-      "variant_id" : "5_riding_the_blood_compass_v2"
+      "action" : "Camera executes a low-altitude predatory flight, 2 feet above the snow, following the ram's blood spirals as they actively guide it. The blood, frozen for weeks, pulses with a faint 16Hz crimson light, its geometric patterns shifting and reconfiguring to point directly at the distant Þorláksson farmstead. Snowflakes refuse to land on the blood lines, creating perfectly clear, dark red pathways. The single horn left at the pen's center acts as a gnomon, its shadow stretching impossibly long and pointing directly at the house, regardless of the sun's position. As the camera rides the 'veins of guilt,' the wind whispers fragments of the ram's last words, distorted and stretched: 'Þú seldir okkur... fyrir olíu...' (You sold us... for oil...). The landscape itself responds to the accusation—distant mountains seem to lean in, listening; the ice on the fjord groans in sympathy."
     },
     {
-      "variant_id" : "5_pass_2_riding_accusation_geometry",
-      "subject" : "",
-      "action" : "Camera follows blood mathematics as patterns grow larger and more complex daily—riding guilt expansion as mathematical accusation spreads beyond pen boundaries into surrounding landscape, supernatural debt creating geometric contamination that teaches family their eventual doom. Blood spirals pulse with increasing intensity pointing toward house location, guardian accusation strengthening over time rather than fading, mathematical guilt building compound interest in supernatural justice system. Horn pointer maintains perfect directional accuracy despite weather exposure, divine accusation refusing environdistressed expression through guardian consciousness operating targeting system with geological precision. Camera rides accusation energy as it travels from pen toward house: following guilt mathematics through snow, across landscape, toward family shelter where supernatural debt will be collected through transformation payment.",
-      "dialogue" : "",
-      "variant_name" : "Pass 2 Riding Accusation Geometry",
+      "negative_prompt" : "",
       "progressive_state" : "",
       "is_active" : false,
+      "variant_id" : "5_pass_2_riding_accusation_geometry",
+      "subject" : "",
+      "scene" : "PASS 2: SHOT 5 - RIDING ACCUSATION GEOMETRY Camera Following Mathematical Guilt as Living Pattern SHOT HEADER: Empty ram pen serving as accusation transmission site where guardian death creates mathematical guilt system targeting family shelter for supernatural debt collection, blood geometry operating as divine legal documentation demanding justice through transformation payment.",
+      "selected_plates" : [
+        "MAGNUS-CONFUSED",
+        "SIGRID-MARKED",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-PRODUCING",
+        "BAÐSTOFA-STIRRING",
+        "WESTFJORDS-WINTER"
+      ],
+      "dialogue" : "",
+      "variant_name" : "Pass 2 Riding Accusation Geometry",
+      "camera_position" : "",
+      "action" : "Camera follows blood mathematics as patterns grow larger and more complex daily—riding guilt expansion as mathematical accusation spreads beyond pen boundaries into surrounding landscape, supernatural debt creating geometric contamination that teaches family their eventual doom. Blood spirals pulse with increasing intensity pointing toward house location, guardian accusation strengthening over time rather than fading, mathematical guilt building compound interest in supernatural justice system. Horn pointer maintains perfect directional accuracy despite weather exposure, divine accusation refusing environdistressed expression through guardian consciousness operating targeting system with geological precision. Camera rides accusation energy as it travels from pen toward house: following guilt mathematics through snow, across landscape, toward family shelter where supernatural debt will be collected through transformation payment.",
+      "style" : "Camera riding accusation mathematics using impossible guilt-following perspective (that's where the camera is), movement determined by mathematical guilt expansion rather than mechanical tracking. Focus follows blood pattern growth showing accusation geometry strengthening over time. Movement travels along guilt mathematics from pen toward house following supernatural debt collection pathway. DIALOGUE:"
+    },
+    {
+      "dialogue" : "",
+      "style" : "Camera circling pen at slow walking pace revealing mathematical blood patterns from multiple viewing angles (that's where the camera is), movement allowing pattern recognition to build through accumulated observation. Static holds at cardinal directions showing landvættir symbols formed by blood intersections. Natural light creating harsh shadows that emphasize blood contrast against grey stone, mathematical patterns visible without artificial enhancement. Focus sharp on blood details and horn pointing, wide enough for complete pen geometry. DIALOGUE:",
+      "camera_position" : "",
+      "variant_id" : "5_empty_ram_pen_mathematical_blood_patterns",
+      "is_active" : false,
       "negative_prompt" : "",
+      "action" : "Camera slowly circles pen revealing blood pattern mathematics becoming clear from different viewing angles—spiral intersections forming landvættir symbols when observed from north (Gammur's raven-sign), south (Bergrisi's mountain-peak), east (Jörmungandr's coil), west (Griðungur's horn-curve). Ram horn vibrates subtly in wall, pointing steadily toward house despite wind and weather changes, accusation maintaining perfect directional precision across three weeks of exposure. Blood patterns pulse visibly at 8\/min rhythm—future sheep breathing rate, death-patterns teaching family their eventual respiratory frequency. Snow arrangements shift slightly during observation, struggle-evidence rearranging itself to spell runic accusations against family for killing guardian: \"SKULD\" (debt), \"SVIK\" (betrayal), \"DAUÐI\" (death) written in hoof-marks and blood-drops. Pattern expansion continues during observation—blood mathematics growing to encompass entire pen structure, mathematical accusation spreading to include family in guilt-geometry.",
+      "selected_plates" : [
+        "MAGNUS-CONFUSED",
+        "SIGRID-MARKED",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-PRODUCING",
+        "BAÐSTOFA-STIRRING",
+        "WESTFJORDS-WINTER"
+      ],
+      "progressive_state" : "",
+      "variant_name" : "Empty Ram Pen Mathematical Blood Patterns",
+      "subject" : "",
+      "scene" : "SHOT 5: EMPTY RAM PEN - MATHEMATICAL BLOOD PATTERNS From Functional Plot Device (7\/10) to Mathematical Horror Masterpiece (8.5\/10) SHOT HEADER: Stone ram pen built into hillside following traditional Icelandic construction, walls showing three generations of maintenance but now serving as mathematical accusation rather than livestock containment. Pen positioned with sight-line to house, creating direct visual connection between guardian death-site and family shelter. Late autumn landscape showing pen as monument to necessary sacrifice that enabled family survival but created supernatural debt requiring payment."
+    },
+    {
+      "scene" : "GROUP 5: TRANSFORMATION VIRAL ENHANCEMENT - FIVE SHOTS Final Crystallization and Monument Formation Masterpieces OVERVIEW: Baðstofa interior during extreme geological acceleration where living architecture sacrifices organic form for mineral monument creation, building consciousness enabling family preservation through accelerated fossilization and material transmutation. Monument interior during anatomical speech impossibility where voice consciousness transcends biological limitation, sheep anatomy enabling human speech delivery through consciousness determination serving essential truth testimony function.",
+      "style" : "Camera experiencing geological acceleration using crystallization documentation perspective (that's where the camera is), movement following extreme time compression and material transmutation progression. Focus reveals accelerated fossilization and living architecture sacrifice. Natural interior lighting enhanced by geological acceleration effects and crystallization luminescence. DIALOGUE:",
+      "subject" : "",
+      "variant_id" : "5_group_5_transformation_viral_enhancement_five_shot",
+      "progressive_state" : "",
       "camera_position" : "",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
@@ -42,86 +93,18 @@
         "BAÐSTOFA-STIRRING",
         "WESTFJORDS-WINTER"
       ],
-      "scene" : "PASS 2: SHOT 5 - RIDING ACCUSATION GEOMETRY Camera Following Mathematical Guilt as Living Pattern SHOT HEADER: Empty ram pen serving as accusation transmission site where guardian death creates mathematical guilt system targeting family shelter for supernatural debt collection, blood geometry operating as divine legal documentation demanding justice through transformation payment.",
-      "style" : "Camera riding accusation mathematics using impossible guilt-following perspective (that's where the camera is), movement determined by mathematical guilt expansion rather than mechanical tracking. Focus follows blood pattern growth showing accusation geometry strengthening over time. Movement travels along guilt mathematics from pen toward house following supernatural debt collection pathway. DIALOGUE:"
-    },
-    {
-      "progressive_state" : "",
-      "subject" : "",
-      "variant_name" : "Empty Ram Pen Mathematical Blood Patterns",
-      "scene" : "SHOT 5: EMPTY RAM PEN - MATHEMATICAL BLOOD PATTERNS From Functional Plot Device (7\/10) to Mathematical Horror Masterpiece (8.5\/10) SHOT HEADER: Stone ram pen built into hillside following traditional Icelandic construction, walls showing three generations of maintenance but now serving as mathematical accusation rather than livestock containment. Pen positioned with sight-line to house, creating direct visual connection between guardian death-site and family shelter. Late autumn landscape showing pen as monument to necessary sacrifice that enabled family survival but created supernatural debt requiring payment.",
-      "style" : "Camera circling pen at slow walking pace revealing mathematical blood patterns from multiple viewing angles (that's where the camera is), movement allowing pattern recognition to build through accumulated observation. Static holds at cardinal directions showing landvættir symbols formed by blood intersections. Natural light creating harsh shadows that emphasize blood contrast against grey stone, mathematical patterns visible without artificial enhancement. Focus sharp on blood details and horn pointing, wide enough for complete pen geometry. DIALOGUE:",
       "dialogue" : "",
       "negative_prompt" : "",
-      "selected_plates" : [
-        "MAGNUS-CONFUSED",
-        "SIGRID-MARKED",
-        "LILJA-MATHEMATICAL",
-        "JON-PROPHET",
-        "GUDRUN-PRODUCING",
-        "BAÐSTOFA-STIRRING",
-        "WESTFJORDS-WINTER"
-      ],
-      "action" : "Camera slowly circles pen revealing blood pattern mathematics becoming clear from different viewing angles—spiral intersections forming landvættir symbols when observed from north (Gammur's raven-sign), south (Bergrisi's mountain-peak), east (Jörmungandr's coil), west (Griðungur's horn-curve). Ram horn vibrates subtly in wall, pointing steadily toward house despite wind and weather changes, accusation maintaining perfect directional precision across three weeks of exposure. Blood patterns pulse visibly at 8\/min rhythm—future sheep breathing rate, death-patterns teaching family their eventual respiratory frequency. Snow arrangements shift slightly during observation, struggle-evidence rearranging itself to spell runic accusations against family for killing guardian: \"SKULD\" (debt), \"SVIK\" (betrayal), \"DAUÐI\" (death) written in hoof-marks and blood-drops. Pattern expansion continues during observation—blood mathematics growing to encompass entire pen structure, mathematical accusation spreading to include family in guilt-geometry.",
-      "variant_id" : "5_empty_ram_pen_mathematical_blood_patterns",
       "is_active" : false,
-      "camera_position" : ""
-    },
-    {
-      "selected_plates" : [
-        "MAGNUS-CONFUSED",
-        "SIGRID-MARKED",
-        "LILJA-MATHEMATICAL",
-        "JON-PROPHET",
-        "GUDRUN-PRODUCING",
-        "BAÐSTOFA-STIRRING",
-        "WESTFJORDS-WINTER"
-      ],
-      "is_active" : false,
-      "subject" : "",
-      "progressive_state" : "",
-      "variant_id" : "5_group_5_transformation_viral_enhancement_five_shot",
       "variant_name" : "Group 5 Transformation Viral Enhancement Five Shot",
-      "action" : "Geological acceleration progression: living architecture experiencing extreme time compression through fossilization consciousness, organic building materials converting to geological formation at impossible rate serving family preservation through architectural sacrifice via material transmutation. Accelerated fossilization visible: wood-to-stone-to-obsidian transformation happening real-time through living building consciousness enabling geological monument formation, organic architecture converting to mineral formation through consciousness transfer serving eternal family preservation function. Time compression crystallization: centuries of geological formation compressed into seconds through living architecture sacrifice, building consciousness enabling accelerated evolution through material transmutation serving monument creation via geological transformation impossible with normal architectural material behavior. Anatomical speech impossibility: human consciousness producing speech through sheep vocal anatomy impossible with normal animal biological limitation, voice consciousness enabling communication transcendence through anatomical barrier serving testimony delivery function. Anthropomorphic anatomy adaptation: sheep throat temporarily displaying human vocal capability during truth delivery, animal anatomy consciousness enabling speech function through biological impossibility serving essential truth communication via anatomical adaptation transcending species vocal limitation. Voice consciousness autonomy: speech capability operating independently of anatomical limitation, consciousness determination enabling truth delivery through impossible vocal biology serving testimony function via voice consciousness transcendence exceeding normal sheep anatomical speech capability. Conscious molting progression: human skin shedding with perfect biological ecdysis process, material consciousness enabling elegant species transition through conscious transformation rather than violent anatomical change via skin consciousness autonomy. Species consciousness transfer: raven awareness emerging through conscious molting process, transformation elegance through biological consciousness coordination enabling species change via conscious anatomical transition serving transformation dignity rather than traumatic ordeal. Ecdysis perfection: skin material consciousness enabling perfect molting process, biological transformation happening through conscious anatomical cooperation serving species transition elegance through material consciousness autonomy enabling transformation dignity via conscious biological species change.",
-      "dialogue" : "",
-      "scene" : "GROUP 5: TRANSFORMATION VIRAL ENHANCEMENT - FIVE SHOTS Final Crystallization and Monument Formation Masterpieces OVERVIEW: Baðstofa interior during extreme geological acceleration where living architecture sacrifices organic form for mineral monument creation, building consciousness enabling family preservation through accelerated fossilization and material transmutation. Monument interior during anatomical speech impossibility where voice consciousness transcends biological limitation, sheep anatomy enabling human speech delivery through consciousness determination serving essential truth testimony function.",
-      "negative_prompt" : "",
-      "style" : "Camera experiencing geological acceleration using crystallization documentation perspective (that's where the camera is), movement following extreme time compression and material transmutation progression. Focus reveals accelerated fossilization and living architecture sacrifice. Natural interior lighting enhanced by geological acceleration effects and crystallization luminescence. DIALOGUE:",
-      "camera_position" : ""
+      "action" : "Geological acceleration progression: living architecture experiencing extreme time compression through fossilization consciousness, organic building materials converting to geological formation at impossible rate serving family preservation through architectural sacrifice via material transmutation. Accelerated fossilization visible: wood-to-stone-to-obsidian transformation happening real-time through living building consciousness enabling geological monument formation, organic architecture converting to mineral formation through consciousness transfer serving eternal family preservation function. Time compression crystallization: centuries of geological formation compressed into seconds through living architecture sacrifice, building consciousness enabling accelerated evolution through material transmutation serving monument creation via geological transformation impossible with normal architectural material behavior. Anatomical speech impossibility: human consciousness producing speech through sheep vocal anatomy impossible with normal animal biological limitation, voice consciousness enabling communication transcendence through anatomical barrier serving testimony delivery function. Anthropomorphic anatomy adaptation: sheep throat temporarily displaying human vocal capability during truth delivery, animal anatomy consciousness enabling speech function through biological impossibility serving essential truth communication via anatomical adaptation transcending species vocal limitation. Voice consciousness autonomy: speech capability operating independently of anatomical limitation, consciousness determination enabling truth delivery through impossible vocal biology serving testimony function via voice consciousness transcendence exceeding normal sheep anatomical speech capability. Conscious molting progression: human skin shedding with perfect biological ecdysis process, material consciousness enabling elegant species transition through conscious transformation rather than violent anatomical change via skin consciousness autonomy. Species consciousness transfer: raven awareness emerging through conscious molting process, transformation elegance through biological consciousness coordination enabling species change via conscious anatomical transition serving transformation dignity rather than traumatic ordeal. Ecdysis perfection: skin material consciousness enabling perfect molting process, biological transformation happening through conscious anatomical cooperation serving species transition elegance through material consciousness autonomy enabling transformation dignity via conscious biological species change."
     },
     {
-      "variant_name" : "Primary - DESCENT INTO THE TRAP",
-      "is_active" : false,
-      "variant_id" : "5_story_primary",
       "subject" : "The camera descends through the smoke hole into the cramped turf house, revealing the entire family in morning positions. At the pine table sits [MAGNÚS - FULL PLATE]: Magnús, a 55-year-old Icelandic fisherman with weathered rectangular face, prominent Nordic cheekbones, broken aquiline nose bent leftward from old fight, thin cracked lips, deep-set steel-blue hooded eyes with crow's feet, thick grey unkempt beard reaching mid-chest with ice crystals perpetually frozen in whiskers, shoulder-length grey hair greasy and matted, 5'10\" broad-shouldered stocky build, wearing brown homespun vaðmál wool sweater with visible mending at left elbow and right shoulder, dark wool trousers patched at knees, his smooth driftwood cane with plain handle leaning against table, hunched aggressive posture, jaw clenched making beard twitch at 3Hz tremor, baseline mood of barely contained rage. Beside him [GUÐRÚN - FULL PLATE]: Guðrún, a 35-year-old Icelandic woman with oval face prematurely aged by hunger, hollow cheeks, straight narrow nose, pale lips pressed into permanent thin line, grey-green almond eyes with dark circles, dark brown hair completely hidden under white curved faldbúningur headdress with black velvet band, 5'5\" thin frame in grey wool dress with brown apron bearing old stains, black wool shawl, shoulders permanently curved inward, hands red from cold, watching Magnús constantly while remaining silent. On the middle sleeping platform exactly 10 feet from Magnús [SIGRID - FULL PLATE]: Sigrid, a young woman girl with heart-shaped face, high delicate cheekbones, small straight nose with three freckles forming tiny triangle, full lips naturally pink despite cold, grey eyes sharp with amber flecks near pupils like volcanic ash containing hidden fire, wheat-blonde hair in two tight braids reaching mid-back, 5'4\" lean build, patched grey-brown wool dress too small at wrists, dark wool stockings with holes at heels, body angled to maintain escape route, spine pressed against wall where faint patterns might be cracks or might be shadows. Curled beside her [LILJA - FULL PLATE]: Lilja, a 5-year-old girl with cherubic round face, huge blue eyes, tangled dark blonde hair with uneven bangs, 3'6\" tall, grey wool dress with torn hem, clutching cloth doll with brass button eyes that catch lamplight, thumb in mouth. Between parents [JÐ“N - FULL PLATE]: Jón, an 8-year-old boy with round face flushed with fever, sandy brown hair plastered to forehead with sweat, hazel eyes glazed, thin frame showing ribs, oversized brown wool sweater, trembling from 39°C fever, wet cough into cupped hands.",
-      "videos" : [
-        {
-          "duration" : 8,
-          "filename" : "Subject_the_camera_202509191943_b8ja4.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202509191943_b8ja4.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202509191943_9v45q.mp4",
-          "filename" : "Subject_the_camera_202509191943_9v45q.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202509191942_zumqm.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_camera_202509191942_zumqm.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_the_camera_202509191942_umhx0.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202509191942_umhx0.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202509191942_240j4.mp4",
-          "filename" : "Subject_the_camera_202509191942_240j4.mp4"
-        }
-      ],
-      "style" : "Wide establishing shot from northeast corner showing full spatial arrangement, camera at 5ft height (that's where the camera is), practical lighting from struggling oil lamp and weak hearth fire, documentary observation of morning routine.",
+      "progressive_state" : "",
+      "variant_name" : "Primary - DESCENT INTO THE TRAP",
+      "variant_id" : "5_story_primary",
+      "scene" : "[FULL SPATIAL LOCK] Interior of 12Ð—16ft turf house with 6ft ceiling forcing all adults to hunch. Walls 1-meter thick turf with herringbone pattern, straw and moss visible. Three exposed wooden beams (giant's ribs) running lengthwise, dark with tar. Packed earth floor with wear patterns. Single 2Ð—2ft south window, frost covered. 5ft wooden door northeast corner. Smoke hole above table showing grey pre-dawn. Pine table 4ft from west wall, surface scarred with old cuts. Sleeping platforms along east wall at 1ft, 3ft, 5ft heights. 3Ð—3ft stone hearth north wall, peat fire struggling. Southwest corner darker, subtle V-shapes in wall that might be natural. Temperature -25°C outside but -8°C inside, every breath visible as white vapor lasting 3 seconds before dispersing.",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-MARKED",
@@ -132,23 +115,40 @@
         "WESTFJORDS-WINTER",
         "HOUSE-APPROACH"
       ],
+      "is_active" : false,
       "dialogue" : "(Sigrid, singing): \"Krummi svaf í klettagjá, kaldri vetrarnóttu á\" (Tone: gentle lullaby, only female voice) (Magnús, hiding bread): Breath catches, no words (Guðrún): Complete silence despite working",
-      "active_video_index" : 0,
-      "progressive_state" : "",
-      "camera_position" : "Wide establishing shot from northeast corner showing full spatial arrangement, camera at 5ft height",
       "negative_prompt" : "no subtitles, no text overlays, no modern elements, maintain -25°C visibility, documentary realism",
-      "action" : "Camera settles into room as Sigrid sings the Krummi lullaby to Lilja, her clear voice the only sustained female sound we'll hear. \"Krummi svaf í klettagjá, kaldri vetrarnóttu á\" - the words float through visible breath vapor, each family member's breath creating white clouds that linger. Magnús sits at table head examining something hidden in his lap - a small piece of bread he doesn't share, quickly concealing it when Guðrún glances over. She remains completely silent, mechanically preparing the morning's hákarl, now 13 days into its 90-day fermentation, the meat grey-green and glistening. The floor shows worn patterns from daily movement - five distinct paths that might be random or might be sorting positions. In the corner, a pile of empty clothes arranged as if bodies evacuated them. Through the song, six shadows visible on the wall though only five people present - the sixth at empty chair position.",
-      "scene" : "[FULL SPATIAL LOCK] Interior of 12Ð—16ft turf house with 6ft ceiling forcing all adults to hunch. Walls 1-meter thick turf with herringbone pattern, straw and moss visible. Three exposed wooden beams (giant's ribs) running lengthwise, dark with tar. Packed earth floor with wear patterns. Single 2Ð—2ft south window, frost covered. 5ft wooden door northeast corner. Smoke hole above table showing grey pre-dawn. Pine table 4ft from west wall, surface scarred with old cuts. Sleeping platforms along east wall at 1ft, 3ft, 5ft heights. 3Ð—3ft stone hearth north wall, peat fire struggling. Southwest corner darker, subtle V-shapes in wall that might be natural. Temperature -25°C outside but -8°C inside, every breath visible as white vapor lasting 3 seconds before dispersing."
+      "camera_position" : "Wide establishing shot from northeast corner showing full spatial arrangement, camera at 5ft height",
+      "videos" : [
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_camera_202509191943_b8ja4.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202509191943_b8ja4.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202509191943_9v45q.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_camera_202509191943_9v45q.mp4"
+        },
+        {
+          "filename" : "Subject_the_camera_202509191942_zumqm.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202509191942_zumqm.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202509191942_umhx0.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_camera_202509191942_umhx0.mp4"
+        },
+        {
+          "filename" : "Subject_the_camera_202509191942_240j4.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202509191942_240j4.mp4",
+          "duration" : 8
+        }
+      ],
+      "active_video_index" : 0,
+      "style" : "Wide establishing shot from northeast corner showing full spatial arrangement, camera at 5ft height (that's where the camera is), practical lighting from struggling oil lamp and weak hearth fire, documentary observation of morning routine.",
+      "action" : "Camera settles into room as Sigrid sings the Krummi lullaby to Lilja, her clear voice the only sustained female sound we'll hear. \"Krummi svaf í klettagjá, kaldri vetrarnóttu á\" - the words float through visible breath vapor, each family member's breath creating white clouds that linger. Magnús sits at table head examining something hidden in his lap - a small piece of bread he doesn't share, quickly concealing it when Guðrún glances over. She remains completely silent, mechanically preparing the morning's hákarl, now 13 days into its 90-day fermentation, the meat grey-green and glistening. The floor shows worn patterns from daily movement - five distinct paths that might be random or might be sorting positions. In the corner, a pile of empty clothes arranged as if bodies evacuated them. Through the song, six shadows visible on the wall though only five people present - the sixth at empty chair position."
     }
-  ],
-  "progressive_state" : "House 12\/min | Klettagjá invisible | No contamination visible | Camera frost 3% | Pre-sorting calm | Watching layers: cosmosâ†’houseâ†’family",
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "id" : "5",
-    "title" : "DESCENT INTO THE TRAP",
-    "stitch_from" : "",
-    "duration_seconds" : 8,
-    "narrative_function" : "House 12\/min | Klettagjá invisible | No contamina..."
-  }
+  ]
 }

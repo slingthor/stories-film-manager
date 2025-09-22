@@ -1,12 +1,23 @@
 {
+  "progressive_state" : "Water corrupting | Oil surfaces | Camera frost 32% | Warning signs | Watching: It rises",
+  "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "title" : "WATER CHANGES - INDUSTRIAL CONTAMINATION RISES 5 SECONDS",
+    "stitch_from" : "",
+    "sequence_type" : "main_story",
+    "narrative_function" : "Water corrupting | Oil surfaces | Camera frost 32%...",
+    "id" : "45b",
+    "duration_seconds" : 5
+  },
   "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "style" : "Slow push in on corrupting water (that's where the camera is), contamination revealed.",
+      "action" : "Water transforms. First: oil sheen spreads from center, rainbow pattern on black. Not natural oil - machine oil, thick, viscous. Second: brass fixtures float up - bolts, rings, chain links - green with verdigris, some fused with flesh fragments. Third: rope pieces surface, but wrong - hemp grown through with veins, organic and industrial fused. Fourth: water color changes from black to black-green, contaminated. Fifth: bubbles begin from deep - not random but in pattern, breathing rhythm, 12 breaths per minute matching house. Each bubble brings up more contamination. Guðrún sees but continues gathering seaweed - what choice does she have? Wool from wrists touches water, immediately absorbs oil, turns grey-black. Steam thickens, visibility dropping. Something massive displacing water from below. Surface bulges slightly. Breathing bubbles increase. Water temperature rising - now 40°C, uncomfortable. Her hands red from heat, not cold.",
+      "is_active" : false,
       "videos" : [
         {
-          "filename" : "Subject_the_polynya_202509211906_h9g7m.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_polynya_202509211906_h9g7m.mp4",
+          "filename" : "Subject_the_polynya_202509211906_h9g7m.mp4",
           "duration" : 8
         },
         {
@@ -15,31 +26,20 @@
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_polynya_202509211906_r7xi4.mp4"
         }
       ],
-      "subject" : "The polynya water changing as [GUÐRÚN] works - oil sheens spreading in rainbow patterns, brass fixtures floating up from depths, rope fragments surfacing, the water itself becoming industrial soup while steam increases, bubbles starting from deep below.",
+      "variant_id" : "45b_story_primary",
+      "style" : "Slow push in on corrupting water (that's where the camera is), contamination revealed.",
+      "dialogue" : "None - she sees but stays silent",
+      "scene" : "Polynya transforming, 9:57 AM. Industrial contamination surfacing. Water heating beyond logic.",
       "progressive_state" : "",
       "variant_name" : "Primary - WATER CHANGES - INDUSTRIAL CONTAMINATION RISES 5 SECONDS",
-      "action" : "Water transforms. First: oil sheen spreads from center, rainbow pattern on black. Not natural oil - machine oil, thick, viscous. Second: brass fixtures float up - bolts, rings, chain links - green with verdigris, some fused with flesh fragments. Third: rope pieces surface, but wrong - hemp grown through with veins, organic and industrial fused. Fourth: water color changes from black to black-green, contaminated. Fifth: bubbles begin from deep - not random but in pattern, breathing rhythm, 12 breaths per minute matching house. Each bubble brings up more contamination. Guðrún sees but continues gathering seaweed - what choice does she have? Wool from wrists touches water, immediately absorbs oil, turns grey-black. Steam thickens, visibility dropping. Something massive displacing water from below. Surface bulges slightly. Breathing bubbles increase. Water temperature rising - now 40°C, uncomfortable. Her hands red from heat, not cold.",
-      "dialogue" : "None - she sees but stays silent",
-      "active_video_index" : 0,
-      "scene" : "Polynya transforming, 9:57 AM. Industrial contamination surfacing. Water heating beyond logic.",
-      "variant_id" : "45b_story_primary",
+      "subject" : "The polynya water changing as [GUÐRÚN] works - oil sheens spreading in rainbow patterns, brass fixtures floating up from depths, rope fragments surfacing, the water itself becoming industrial soup while steam increases, bubbles starting from deep below.",
+      "camera_position" : "Slow push in on corrupting water",
       "selected_plates" : [
         "GUDRUN-CROWNED",
         "SEA-BATTLE"
       ],
       "negative_prompt" : "",
-      "camera_position" : "Slow push in on corrupting water",
-      "is_active" : false
+      "active_video_index" : 0
     }
-  ],
-  "progressive_state" : "Water corrupting | Oil surfaces | Camera frost 32% | Warning signs | Watching: It rises",
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "id" : "45b",
-    "title" : "WATER CHANGES - INDUSTRIAL CONTAMINATION RISES 5 SECONDS",
-    "stitch_from" : "",
-    "duration_seconds" : 5,
-    "narrative_function" : "Water corrupting | Oil surfaces | Camera frost 32%..."
-  }
+  ]
 }

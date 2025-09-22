@@ -1,22 +1,24 @@
 {
-  "selected_prompt_index" : 0,
   "shot_metadata" : {
     "narrative_function" : "Entering empty water | Boat launching | Camera fro...",
+    "id" : "29",
     "sequence_type" : "main_story",
     "title" : "LAUNCHING INTO NOTHING 8 SECONDS",
     "duration_seconds" : 8,
-    "stitch_from" : "",
-    "id" : "29"
+    "stitch_from" : ""
   },
+  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
+  "progressive_state" : "Entering empty water | Boat launching | Camera frost 19% | Commitment to futility | Watching: Trawler tracking",
   "prompt_variants" : [
     {
-      "style" : "Aerial establishing boat's insignificance, then POV looking down through water (that's where the camera is), documentary of futile hope.",
+      "action" : "Magnús slides boat parallel to ice edge, half on ice, half hanging over water. Climbs in carefully - 0Hz hands make balance difficult, can't feel grip. Pushes off with oar against ice. Boat breaks free, drops 6 inches to water level, rocks. Now floating over perfect clarity. Looking down is vertigo - like floating in air above seafloor. Positions oars in locks, begins rowing. Each stroke echoes off mountains, only sound in vast silence. No birds (they follow fish, no fish exist). Rows over emptiness. Below, trawl scars create pattern - spirals. Five gouges with six intersections, matching blood patterns. The extraction itself left the same impossible geometry. Trawler in distance turns slightly, yellow lights tracking him. 200 feet versus his 12 feet. Industrial versus traditional. But he rows toward it because that's where fish should be. Must be. Somewhere. His reflection in water shows older man than started journey. Aflausn debt accumulating.",
+      "is_active" : false,
       "videos" : [
         {
-          "duration" : 8,
           "filename" : "Subject_magns_pushing_202509211919_muf26.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202509211919_muf26.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202509211919_muf26.mp4",
+          "duration" : 8
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202509211919_hiqo6.mp4",
@@ -29,18 +31,18 @@
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202509211919_g4732.mp4"
         },
         {
-          "duration" : 8,
+          "filename" : "Subject_magns_pushing_202509211919_evwz2.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202509211919_evwz2.mp4",
-          "filename" : "Subject_magns_pushing_202509211919_evwz2.mp4"
+          "duration" : 8
         },
         {
-          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202509211929_9s81r.mp4",
           "filename" : "Subject_magns_pushing_202509211929_9s81r.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202509211929_9s81r.mp4"
+          "duration" : 8
         },
         {
-          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202509211929_juy5g.mp4",
+          "duration" : 8,
           "filename" : "Subject_magns_pushing_202509211929_juy5g.mp4"
         },
         {
@@ -54,34 +56,34 @@
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202509211929_y82e0.mp4"
         },
         {
-          "duration" : 8,
           "filename" : "Subject_magns_pushing_202509211930_02o36.mp4",
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202509211930_02o36.mp4"
         },
         {
-          "duration" : 8,
           "filename" : "Subject_magns_pushing_202509211930_vd4f5.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202509211930_vd4f5.mp4"
-        },
-        {
-          "filename" : "Subject_magns_pushing_202509211930_hjw6h.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202509211930_hjw6h.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202509211930_vd4f5.mp4",
           "duration" : 8
         },
         {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202509211930_hjw6h.mp4",
+          "filename" : "Subject_magns_pushing_202509211930_hjw6h.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202509211930_d0ga7.mp4",
           "duration" : 8,
-          "filename" : "Subject_magns_pushing_202509211930_d0ga7.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202509211930_d0ga7.mp4"
+          "filename" : "Subject_magns_pushing_202509211930_d0ga7.mp4"
         }
       ],
-      "subject" : "[MAGNÚS] pushing the árabátur off the ice shelf into the black water, the 12-foot boat immediately insignificant against the vast emptiness, his oars breaking the perfect surface as he rows out over visible nothing, toward the waiting trawler.",
+      "variant_id" : "29_story_primary",
+      "style" : "Aerial establishing boat's insignificance, then POV looking down through water (that's where the camera is), documentary of futile hope.",
+      "dialogue" : "(Magnús, rowing): \"Einhvers staðar...\" (Somewhere...) (To emptiness): \"Þið hljótið að vera einhvers staðar\" (You must be somewhere) (Seeing trawl spirals): \"Fimm... sex?\"",
+      "scene" : "Open fjord, 6:47 AM darkness. Temperature -28°C air, -2°C water. Perfect visibility down. Boat tiny speck on vast black mirror.",
       "progressive_state" : "",
       "variant_name" : "Primary - LAUNCHING INTO NOTHING 8 SECONDS",
-      "action" : "Magnús slides boat parallel to ice edge, half on ice, half hanging over water. Climbs in carefully - 0Hz hands make balance difficult, can't feel grip. Pushes off with oar against ice. Boat breaks free, drops 6 inches to water level, rocks. Now floating over perfect clarity. Looking down is vertigo - like floating in air above seafloor. Positions oars in locks, begins rowing. Each stroke echoes off mountains, only sound in vast silence. No birds (they follow fish, no fish exist). Rows over emptiness. Below, trawl scars create pattern - spirals. Five gouges with six intersections, matching blood patterns. The extraction itself left the same impossible geometry. Trawler in distance turns slightly, yellow lights tracking him. 200 feet versus his 12 feet. Industrial versus traditional. But he rows toward it because that's where fish should be. Must be. Somewhere. His reflection in water shows older man than started journey. Aflausn debt accumulating.",
-      "dialogue" : "(Magnús, rowing): \"Einhvers staðar...\" (Somewhere...) (To emptiness): \"Þið hljótið að vera einhvers staðar\" (You must be somewhere) (Seeing trawl spirals): \"Fimm... sex?\"",
-      "active_video_index" : 0,
-      "scene" : "Open fjord, 6:47 AM darkness. Temperature -28°C air, -2°C water. Perfect visibility down. Boat tiny speck on vast black mirror.",
-      "variant_id" : "29_story_primary",
+      "subject" : "[MAGNÚS] pushing the árabátur off the ice shelf into the black water, the 12-foot boat immediately insignificant against the vast emptiness, his oars breaking the perfect surface as he rows out over visible nothing, toward the waiting trawler.",
+      "camera_position" : "Aerial establishing boat's insignificance, then POV looking down through water",
       "selected_plates" : [
         "SEA-EXTRACTED",
         "WESTFJORDS-FJORD",
@@ -89,9 +91,7 @@
         "WESTFJORDS-WINTER"
       ],
       "negative_prompt" : "no subtitles, show vast emptiness, trawl patterns below, documentary observation",
-      "camera_position" : "Aerial establishing boat's insignificance, then POV looking down through water",
-      "is_active" : false
+      "active_video_index" : 0
     }
-  ],
-  "progressive_state" : "Entering empty water | Boat launching | Camera frost 19% | Commitment to futility | Watching: Trawler tracking"
+  ]
 }

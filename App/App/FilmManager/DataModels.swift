@@ -1100,7 +1100,7 @@ class PromptVariant: ObservableObject, Identifiable {
     
     private func processPlateWithMaster(_ description: String, plateId: String, plateManager: PlateManager) -> String {
         // Recursively resolve all plate references in the description
-        return resolveAllPlateReferences(description, plateId: plateId, plateManager: plateManager, depth: 0)
+        return resolveAllPlateReferences(description, plateId: plateId, plateManager: plateManager, depth: 0, expandedPlates: Set())
     }
     
     private func consolidateAndResolveReferences(_ description: String, plateManager: PlateManager) -> String {
@@ -1146,7 +1146,7 @@ class PromptVariant: ObservableObject, Identifiable {
             var resolvedContent = consolidatedContent
             if let plateIdToUse = mappedPlateId {
                 // Resolve the consolidated content through the plate system
-                resolvedContent = resolveAllPlateReferences(consolidatedContent, plateId: plateIdToUse, plateManager: plateManager, depth: 0)
+                resolvedContent = resolveAllPlateReferences(consolidatedContent, plateId: plateIdToUse, plateManager: plateManager, depth: 0, expandedPlates: Set())
             }
             
             // Add back with single character label
@@ -1161,11 +1161,14 @@ class PromptVariant: ObservableObject, Identifiable {
         return finalResult
     }
     
-    private func resolveAllPlateReferences(_ description: String, plateId: String, plateManager: PlateManager, depth: Int = 0) -> String {
+    private func resolveAllPlateReferences(_ description: String, plateId: String, plateManager: PlateManager, depth: Int = 0, expandedPlates: Set<String> = Set()) -> String {
         guard depth < 100 else {
             print("   🚫 Maximum recursion depth (100) reached for plate '\(plateId)' - stopping resolution")
             return description
         }
+
+        // Keep track of which plates we've already expanded
+        var expandedPlates = expandedPlates
 
         // First check for bracketed references - could be [PLATE-ID] or [CHARACTER] format
         let bracketPattern = "\\[([^\\]]+)\\]"
@@ -1197,18 +1200,29 @@ class PromptVariant: ObservableObject, Identifiable {
             }
 
             if let plateIdToUse = plateIdToUse {
+                // Check if we've already expanded this plate
+                if expandedPlates.contains(plateIdToUse) {
+                    print("   ⏭️  Plate '\(plateIdToUse)' already expanded - skipping to avoid duplication")
+                    // Remove the reference but don't expand it
+                    let newDescription = description.replacingOccurrences(of: fullBracketText, with: "")
+                    return resolveAllPlateReferences(newDescription, plateId: plateId, plateManager: plateManager, depth: depth, expandedPlates: expandedPlates)
+                }
+
+                // Mark this plate as expanded
+                expandedPlates.insert(plateIdToUse)
+
                 // Find the plate and resolve it
                 if let envPlate = plateManager.environmentalPlates.first(where: { $0.plateId == plateIdToUse }) {
                     let baseDescription = getBaseDescriptionFromPlateDescription(envPlate.description, plateId: plateIdToUse)
-                    let resolvedDescription = resolveAllPlateReferences(baseDescription, plateId: plateIdToUse, plateManager: plateManager, depth: depth + 1)
+                    let resolvedDescription = resolveAllPlateReferences(baseDescription, plateId: plateIdToUse, plateManager: plateManager, depth: depth + 1, expandedPlates: expandedPlates)
                     let newDescription = description.replacingOccurrences(of: fullBracketText, with: resolvedDescription)
-                    return resolveAllPlateReferences(newDescription, plateId: plateId, plateManager: plateManager, depth: depth)
+                    return resolveAllPlateReferences(newDescription, plateId: plateId, plateManager: plateManager, depth: depth, expandedPlates: expandedPlates)
                 }
                 else if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == plateIdToUse }) {
                     let baseDescription = getBaseDescriptionFromPlateDescription(charPlate.description, plateId: plateIdToUse)
-                    let resolvedDescription = resolveAllPlateReferences(baseDescription, plateId: plateIdToUse, plateManager: plateManager, depth: depth + 1)
+                    let resolvedDescription = resolveAllPlateReferences(baseDescription, plateId: plateIdToUse, plateManager: plateManager, depth: depth + 1, expandedPlates: expandedPlates)
                     let newDescription = description.replacingOccurrences(of: fullBracketText, with: resolvedDescription)
-                    return resolveAllPlateReferences(newDescription, plateId: plateId, plateManager: plateManager, depth: depth)
+                    return resolveAllPlateReferences(newDescription, plateId: plateId, plateManager: plateManager, depth: depth, expandedPlates: expandedPlates)
                 }
             }
 
@@ -1216,7 +1230,7 @@ class PromptVariant: ObservableObject, Identifiable {
             // Continue looking for other references
             let remainingDescription = String(description[fullBracketRange.upperBound...])
             if !remainingDescription.isEmpty {
-                let resolvedRemaining = resolveAllPlateReferences(remainingDescription, plateId: plateId, plateManager: plateManager, depth: depth)
+                let resolvedRemaining = resolveAllPlateReferences(remainingDescription, plateId: plateId, plateManager: plateManager, depth: depth, expandedPlates: expandedPlates)
                 let beforeBracket = String(description[..<fullBracketRange.lowerBound])
                 return beforeBracket + fullBracketText + resolvedRemaining
             }
@@ -1245,7 +1259,7 @@ class PromptVariant: ObservableObject, Identifiable {
             // Continue looking for other references in the same description
             let remainingDescription = String(description[fullMatchRange.upperBound...])
             if !remainingDescription.isEmpty {
-                let resolvedRemaining = resolveAllPlateReferences(remainingDescription, plateId: plateId, plateManager: plateManager, depth: depth)
+                let resolvedRemaining = resolveAllPlateReferences(remainingDescription, plateId: plateId, plateManager: plateManager, depth: depth, expandedPlates: expandedPlates)
                 let beforePlateId = String(description[..<fullMatchRange.lowerBound])
                 return beforePlateId + fullPlateIdText + resolvedRemaining
             }
@@ -1262,26 +1276,26 @@ class PromptVariant: ObservableObject, Identifiable {
             print("   ✅ Found environmental plate: \(reference)")
             // Get the base description without the plate ID prefix
             let baseDescription = getBaseDescriptionFromPlateDescription(envPlate.description, plateId: reference)
-            resolvedReferenceDescription = resolveAllPlateReferences(baseDescription, plateId: reference, plateManager: plateManager, depth: depth + 1)
+            resolvedReferenceDescription = resolveAllPlateReferences(baseDescription, plateId: reference, plateManager: plateManager, depth: depth + 1, expandedPlates: expandedPlates)
         }
         else if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == reference }) {
             print("   ✅ Found character plate: \(reference)")
             // Get the base description without the plate ID prefix  
             let baseDescription = getBaseDescriptionFromPlateDescription(charPlate.description, plateId: reference)
-            resolvedReferenceDescription = resolveAllPlateReferences(baseDescription, plateId: reference, plateManager: plateManager, depth: depth + 1)
+            resolvedReferenceDescription = resolveAllPlateReferences(baseDescription, plateId: reference, plateManager: plateManager, depth: depth + 1, expandedPlates: expandedPlates)
         }
         
         if let resolvedDescription = resolvedReferenceDescription {
             // Replace the plate ID reference with the resolved description and continue recursion
             let newDescription = description.replacingOccurrences(of: fullPlateIdText, with: resolvedDescription)
             print("   🔄 Recursively resolving updated description (depth \(depth))")
-            return resolveAllPlateReferences(newDescription, plateId: plateId, plateManager: plateManager, depth: depth)
+            return resolveAllPlateReferences(newDescription, plateId: plateId, plateManager: plateManager, depth: depth, expandedPlates: expandedPlates)
         } else {
             print("   ⚠️  Plate ID '\(reference)' not found - leaving reference intact")
             // Continue looking for other references in the same description
             let remainingDescription = String(description[fullMatchRange.upperBound...])
             if !remainingDescription.isEmpty {
-                let resolvedRemaining = resolveAllPlateReferences(remainingDescription, plateId: plateId, plateManager: plateManager, depth: depth)
+                let resolvedRemaining = resolveAllPlateReferences(remainingDescription, plateId: plateId, plateManager: plateManager, depth: depth, expandedPlates: expandedPlates)
                 let beforePlateId = String(description[..<fullMatchRange.lowerBound])
                 return beforePlateId + fullPlateIdText + resolvedRemaining
             }

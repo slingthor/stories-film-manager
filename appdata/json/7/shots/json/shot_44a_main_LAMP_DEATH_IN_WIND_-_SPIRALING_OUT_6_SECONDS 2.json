@@ -1,8 +1,19 @@
 {
+  "progressive_state" : "Storm chaos | Last light dying | Camera frost 30% | Solitude begins | Watching: Only storm",
+  "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "title" : "LAMP DEATH IN WIND - SPIRALING OUT 6 SECONDS",
+    "stitch_from" : "",
+    "sequence_type" : "main_story",
+    "narrative_function" : "Storm chaos | Last light dying | Camera frost 30% ...",
+    "id" : "44a",
+    "duration_seconds" : 6
+  },
   "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "style" : "Spiraling camera matching wind pattern, darkness when lamp dies (that's where the camera is), her liberation through solitude.",
+      "action" : "CAMERA SPIRALS counterclockwise matching wind vortex. Guðrún holds lamp fragment, flame bending 90 degrees horizontal. First spiral: flame yellow, fighting. Second spiral: flame blue, shrinking. Her sealskin cloak whipping, revealing wool she pulled from wrists - now 25mm long, wrapped around fingers, already ice-covered. Third spiral: flame dies. Darkness except snow reflecting pre-dawn grey. But in darkness - her breathing changes. Deep inhale, visible as huge white cloud, held, released. First unobserved breath in years. No husband counting. No children needing. Face relaxes into something almost like peace. Wind creates snow spirals around her - five spirals with six intersection points, the pattern everywhere. Her first step: not toward sea but standing still, feeling solitude. Faldbúningur headdress collecting snow, becoming white crown.",
+      "is_active" : false,
       "videos" : [
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202509211908_u7xgg.mp4",
@@ -10,13 +21,13 @@
           "filename" : "Subject_camera_spiraling_202509211908_u7xgg.mp4"
         },
         {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202509211908_088tq.mp4",
           "duration" : 8,
-          "filename" : "Subject_camera_spiraling_202509211908_088tq.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202509211908_088tq.mp4"
+          "filename" : "Subject_camera_spiraling_202509211908_088tq.mp4"
         },
         {
-          "filename" : "Subject_camera_spiraling_202509211908_2sfk6.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202509211908_2sfk6.mp4",
+          "filename" : "Subject_camera_spiraling_202509211908_2sfk6.mp4",
           "duration" : 8
         },
         {
@@ -25,32 +36,21 @@
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202509211908_24p5b.mp4"
         }
       ],
-      "subject" : "Camera spiraling around [GUÐRÚN] as she stands in the storm, oil lamp flame horizontal in wind then dying, the moment of darkness triggering her first deep breath in years - visible as massive white cloud - finally alone, no one watching except us.",
+      "variant_id" : "44a_story_primary",
+      "style" : "Spiraling camera matching wind pattern, darkness when lamp dies (that's where the camera is), her liberation through solitude.",
+      "dialogue" : "None - just breathing changing from controlled to free",
+      "scene" : "Outside house, horizontal snow. Visibility 3 meters. Wind vortex creating natural spiral. -30°C visible in instant ice formation.",
       "progressive_state" : "",
       "variant_name" : "Primary - LAMP DEATH IN WIND - SPIRALING OUT 6 SECONDS",
-      "action" : "CAMERA SPIRALS counterclockwise matching wind vortex. Guðrún holds lamp fragment, flame bending 90 degrees horizontal. First spiral: flame yellow, fighting. Second spiral: flame blue, shrinking. Her sealskin cloak whipping, revealing wool she pulled from wrists - now 25mm long, wrapped around fingers, already ice-covered. Third spiral: flame dies. Darkness except snow reflecting pre-dawn grey. But in darkness - her breathing changes. Deep inhale, visible as huge white cloud, held, released. First unobserved breath in years. No husband counting. No children needing. Face relaxes into something almost like peace. Wind creates snow spirals around her - five spirals with six intersection points, the pattern everywhere. Her first step: not toward sea but standing still, feeling solitude. Faldbúningur headdress collecting snow, becoming white crown.",
-      "dialogue" : "None - just breathing changing from controlled to free",
-      "active_video_index" : 0,
-      "scene" : "Outside house, horizontal snow. Visibility 3 meters. Wind vortex creating natural spiral. -30°C visible in instant ice formation.",
-      "variant_id" : "44a_story_primary",
+      "subject" : "Camera spiraling around [GUÐRÚN] as she stands in the storm, oil lamp flame horizontal in wind then dying, the moment of darkness triggering her first deep breath in years - visible as massive white cloud - finally alone, no one watching except us.",
+      "camera_position" : "Spiraling camera matching wind pattern, darkness when lamp dies",
       "selected_plates" : [
         "GUDRUN-WALKING",
         "WESTFJORDS-CLIFF",
         "WESTFJORDS-WINTER"
       ],
       "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
-      "camera_position" : "Spiraling camera matching wind pattern, darkness when lamp dies",
-      "is_active" : false
+      "active_video_index" : 0
     }
-  ],
-  "progressive_state" : "Storm chaos | Last light dying | Camera frost 30% | Solitude begins | Watching: Only storm",
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "id" : "44a",
-    "title" : "LAMP DEATH IN WIND - SPIRALING OUT 6 SECONDS",
-    "stitch_from" : "",
-    "duration_seconds" : 6,
-    "narrative_function" : "Storm chaos | Last light dying | Camera frost 30% ..."
-  }
+  ]
 }
