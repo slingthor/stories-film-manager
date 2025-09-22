@@ -1,15 +1,24 @@
 {
+  "shot_metadata" : {
+    "title" : "MAGNÚS REDIRECTS RAGE - THE INSPECTION BEGINS 6 SECONDS",
+    "duration_seconds" : 6,
+    "narrative_function" : "House 18\/min agitated + 60bpm | Authority shifting...",
+    "sequence_type" : "main_story",
+    "id" : "49a",
+    "stitch_from" : ""
+  },
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "subject" : "[MAGNÚS] turning from surviving [GUÐRÚN] to [SIGRID], his 0Hz hands perfectly steady as he approaches her corner where she maintains exactly 11 feet, but wall behind means no retreat, his eyes examining her with livestock assessment while she presses against klettagjá cracks now spelling \"VITNI\" (witness).",
-      "style" : "Push in showing entrapment and inspection (that's where the camera is), predatory documentation.",
       "dialogue" : "(Magnús): \"Góður stofn... sterkir kjálkar\" \"Ef móðirin deyr, þarftu...\" (Sigrid): Silent, breathing steady at 15\/min",
-      "scene" : "Southwest corner, 10:20 AM. Sigrid trapped. Wall cracks visible behind her. Family watching frozen.",
+      "variant_id" : "49a_story_primary",
+      "style" : "Push in showing entrapment and inspection (that's where the camera is), predatory documentation.",
       "negative_prompt" : "",
+      "subject" : "[MAGNÚS] turning from surviving [GUÐRÚN] to [SIGRID], his 0Hz hands perfectly steady as he approaches her corner where she maintains exactly 11 feet, but wall behind means no retreat, his eyes examining her with livestock assessment while she presses against klettagjá cracks now spelling \"VITNI\" (witness).",
+      "variant_name" : "Primary - MAGNÚS REDIRECTS RAGE - THE INSPECTION BEGINS 6 SECONDS",
+      "scene" : "Southwest corner, 10:20 AM. Sigrid trapped. Wall cracks visible behind her. Family watching frozen.",
       "progressive_state" : "",
       "is_active" : false,
-      "variant_id" : "49a_story_primary",
-      "variant_name" : "Primary - MAGNÚS REDIRECTS RAGE - THE INSPECTION BEGINS 6 SECONDS",
       "camera_position" : "Push in showing entrapment and inspection",
       "selected_plates" : [
         "MAGNUS-POSSESSOR",
@@ -23,14 +32,5 @@
     }
   ],
   "progressive_state" : "House 18\/min agitated + 60bpm | Authority shifting | Camera frost 36.5% | Incest emerging | Watching: House sees threat",
-  "aspect_ratio" : "1:1",
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "id" : "49a",
-    "narrative_function" : "House 18\/min agitated + 60bpm | Authority shifting...",
-    "stitch_from" : "",
-    "title" : "MAGNÚS REDIRECTS RAGE - THE INSPECTION BEGINS 6 SECONDS",
-    "duration_seconds" : 6
-  },
-  "selected_prompt_index" : 0
+  "aspect_ratio" : "1:1"
 }

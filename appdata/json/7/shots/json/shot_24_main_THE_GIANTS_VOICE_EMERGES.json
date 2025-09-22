@@ -1,24 +1,26 @@
 {
-  "selected_prompt_index" : 0,
+  "progressive_state" : "House 6\/min + 40bpm failing | Giant speaking | Camera frost 15% | Four responses | Watching: All layers awakening",
   "shot_metadata" : {
     "id" : "24",
     "title" : "THE GIANTS VOICE EMERGES",
-    "duration_seconds" : 8,
     "sequence_type" : "main_story",
     "narrative_function" : "House 6\/min + 40bpm failing | Giant speaking | Cam...",
-    "stitch_from" : ""
+    "stitch_from" : "",
+    "duration_seconds" : 8
   },
-  "progressive_state" : "House 6\/min + 40bpm failing | Giant speaking | Camera frost 15% | Four responses | Watching: All layers awakening",
+  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "progressive_state" : "",
-      "action" : "Sigrid tries to continue tilberi chant but voice no longer hers. Drops to 16Hz - below human hearing, felt in teeth, bones, eyes. The house itself becomes speaker, walls vibrating. Words transform mid-sentence: \"Tilberi...\" becomes \"LANDVÐ†TTIR...\" She claps hands over mouth but voice continues from everywhere - floor, walls, beams. \"KOMIÐ, HJÐLPIÐ OKKUR\" (Come, help us). Instant four responses: EAST: Trawler horn blasts so loud windows crack. WEST: Water in all buckets boils despite -15°C. SOUTH: Floor becomes warm, alive, pulsing. NORTH: Raven shadow passes window, impossibly large. The contaminated creation on floor starts breathing - industrial rope skeleton visible through forming flesh, brass button eye weeping green tears, wrong thing being born. Guðrún falls backward, crawling away. Children wake screaming but screams are bleats. Baby's heartbeat visible through Sigrid's dress - 160bpm, red glow pulsing. House heartbeat stutters - 40bpm, 20bpm, 60bpm - dying giant panicking.",
       "is_active" : false,
-      "negative_prompt" : "no subtitles, 16Hz as vibration not normal sound, four responses simultaneous, documentary observation",
-      "scene" : "Interior, 6:37 AM, surreal visual. Temperature drops 5 degrees instantly to -20°C. Four cardinal directions showing responses. Windows cracking from trawler horn, water boiling and freezing simultaneously, floor revealing pink flesh underneath, raven shadow too large for any bird. The contaminated tilberi writhing, neither creature nor thing.",
-      "camera_position" : "Wide shot showing four-directional responses, camera shaking with 16Hz vibration",
+      "variant_name" : "Primary - THE GIANTS VOICE EMERGES",
       "dialogue" : "(Giant's voice through Sigrid): \"LANDVÐ†TTIR, KOMIÐ, HJÐLPIÐ OKKUR\" (Trying to stop): Normal voice breaking through: \"Nei, nei, þetta á ekki...\" (Guðrún, finally speaking): \"Hvað hefur þú gert?\" (What have you done?)",
+      "scene" : "Interior, 6:37 AM, surreal visual. Temperature drops 5 degrees instantly to -20°C. Four cardinal directions showing responses. Windows cracking from trawler horn, water boiling and freezing simultaneously, floor revealing pink flesh underneath, raven shadow too large for any bird. The contaminated tilberi writhing, neither creature nor thing.",
+      "variant_id" : "24_story_primary",
+      "progressive_state" : "",
+      "style" : "Wide shot showing four-directional responses, camera shaking with 16Hz vibration (that's where the camera is), documentary of summoning disaster.",
+      "subject" : "[SIGRID]'s voice completing transformation into the giant's 16Hz resonance - felt in bones more than heard - as the words themselves transform from tilberi summoning to landvættir call: \"Landvættir, komið, hjálpið okkur\" vibrating through the house structure, which IS the giant's body.",
+      "camera_position" : "Wide shot showing four-directional responses, camera shaking with 16Hz vibration",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-SUMMONING",
@@ -27,18 +29,16 @@
         "BAÐSTOFA-BODY",
         "WESTFJORDS-WINTER"
       ],
+      "active_video_index" : 0,
+      "negative_prompt" : "no subtitles, 16Hz as vibration not normal sound, four responses simultaneous, documentary observation",
+      "action" : "Sigrid tries to continue tilberi chant but voice no longer hers. Drops to 16Hz - below human hearing, felt in teeth, bones, eyes. The house itself becomes speaker, walls vibrating. Words transform mid-sentence: \"Tilberi...\" becomes \"LANDVÐ†TTIR...\" She claps hands over mouth but voice continues from everywhere - floor, walls, beams. \"KOMIÐ, HJÐLPIÐ OKKUR\" (Come, help us). Instant four responses: EAST: Trawler horn blasts so loud windows crack. WEST: Water in all buckets boils despite -15°C. SOUTH: Floor becomes warm, alive, pulsing. NORTH: Raven shadow passes window, impossibly large. The contaminated creation on floor starts breathing - industrial rope skeleton visible through forming flesh, brass button eye weeping green tears, wrong thing being born. Guðrún falls backward, crawling away. Children wake screaming but screams are bleats. Baby's heartbeat visible through Sigrid's dress - 160bpm, red glow pulsing. House heartbeat stutters - 40bpm, 20bpm, 60bpm - dying giant panicking.",
       "videos" : [
         {
           "duration" : 8,
-          "filename" : "Subject_sigrids_voice_202509211935_rxoms.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202509211935_rxoms.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202509211935_rxoms.mp4",
+          "filename" : "Subject_sigrids_voice_202509211935_rxoms.mp4"
         }
-      ],
-      "subject" : "[SIGRID]'s voice completing transformation into the giant's 16Hz resonance - felt in bones more than heard - as the words themselves transform from tilberi summoning to landvættir call: \"Landvættir, komið, hjálpið okkur\" vibrating through the house structure, which IS the giant's body.",
-      "style" : "Wide shot showing four-directional responses, camera shaking with 16Hz vibration (that's where the camera is), documentary of summoning disaster.",
-      "variant_name" : "Primary - THE GIANTS VOICE EMERGES",
-      "variant_id" : "24_story_primary",
-      "active_video_index" : 0
+      ]
     }
   ]
 }

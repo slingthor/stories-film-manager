@@ -1,26 +1,26 @@
 {
+  "progressive_state" : "House interior | Shock confrontation | Camera frost 36% | Living returned | Watching: All eyes on impossibility",
   "shot_metadata" : {
+    "id" : "48",
     "title" : "BLOOD DRIPPING ENTRY 8 SECONDS",
     "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "id" : "48",
     "narrative_function" : "House interior | Shock confrontation | Camera fros...",
-    "stitch_from" : ""
+    "stitch_from" : "",
+    "duration_seconds" : 8
   },
   "selected_prompt_index" : 0,
-  "progressive_state" : "House interior | Shock confrontation | Camera frost 36% | Living returned | Watching: All eyes on impossibility",
   "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "subject" : "[GUÐRÚN] standing in doorway dripping (water or blood depending on version), the family frozen in shock at her survival, camera circling her as each family member's reaction reveals their position - Magnús's rage, children's relief, Sigrid's knowing, while the tilberi at center breathes its three rhythms welcoming her return.",
-      "style" : "360° around her showing all reactions (that's where the camera is), impossible survival documented.",
       "dialogue" : "(Magnús): \"ÞÚ ÐTTIR AÐ DEYJA\" (Guðrún, finally speaking): \"Húsið... vildi ekki\" (Sigrid): \"Bergrisi valdi\" (Giant chose)",
-      "scene" : "Interior doorway, 10:18 AM. Family in positions. Temperature differential extreme. Dripping creating puddle.",
+      "variant_id" : "48_story_primary",
+      "style" : "360° around her showing all reactions (that's where the camera is), impossible survival documented.",
       "negative_prompt" : "",
+      "subject" : "[GUÐRÚN] standing in doorway dripping (water or blood depending on version), the family frozen in shock at her survival, camera circling her as each family member's reaction reveals their position - Magnús's rage, children's relief, Sigrid's knowing, while the tilberi at center breathes its three rhythms welcoming her return.",
+      "variant_name" : "Primary - BLOOD DRIPPING ENTRY 8 SECONDS",
+      "scene" : "Interior doorway, 10:18 AM. Family in positions. Temperature differential extreme. Dripping creating puddle.",
       "progressive_state" : "",
       "is_active" : false,
-      "variant_id" : "48_story_primary",
-      "variant_name" : "Primary - BLOOD DRIPPING ENTRY 8 SECONDS",
       "camera_position" : "360° around her showing all reactions",
       "selected_plates" : [
         "MAGNUS-DEFEATED",

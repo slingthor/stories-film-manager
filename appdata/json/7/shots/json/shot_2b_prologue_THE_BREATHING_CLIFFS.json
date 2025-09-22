@@ -1,30 +1,23 @@
 {
+  "shot_metadata" : {
+    "title" : "THE BREATHING CLIFFS",
+    "duration_seconds" : 8,
+    "narrative_function" : "Cliff approach | Ancient paths | Camera frost 0% |...",
+    "sequence_type" : "prologue",
+    "id" : "2b",
+    "stitch_from" : ""
+  },
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "negative_prompt" : "no subtitles, show massive cliff scale, birds covering every surface, golden light in holes, 1080p",
-      "active_video_index" : 0,
-      "progressive_state" : "",
-      "subject" : "[Magnus] and [Jon] climbing a narrow dirt path up 300-foot cliff face, the black rock wall covered with thousands of nesting seabirds, patches of green grass clinging to ledges, rope coiled over Magnús's shoulder.",
-      "style" : "Following shot behind climbers showing path and cliff face (that's where the camera is), handheld matching climbing movement.",
-      "videos" : [
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509141953_8tfda.mp4",
-          "duration" : 8,
-          "filename" : "Meta_setting_iceland_202509141953_8tfda.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Meta_setting_iceland_202509141953_h8d0t.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509141953_h8d0t.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Progressive_state_paradise_202509142300_tffq.mp4",
-          "filename" : "Progressive_state_paradise_202509142300_tffq.mp4",
-          "duration" : 8
-        }
-      ],
       "is_active" : false,
+      "variant_name" : "Primary - THE BREATHING CLIFFS",
       "dialogue" : "None",
+      "scene" : "Cliff face, morning. Path zigzagging up basalt columns. Ocean 200 feet below. Millions of seabirds. Clear morning light.",
+      "variant_id" : "2b_story_primary",
+      "progressive_state" : "",
+      "style" : "Following shot behind climbers showing path and cliff face (that's where the camera is), handheld matching climbing movement.",
+      "subject" : "[Magnus] and [Jon] climbing a narrow dirt path up 300-foot cliff face, the black rock wall covered with thousands of nesting seabirds, patches of green grass clinging to ledges, rope coiled over Magnús's shoulder.",
       "selected_plates" : [
         "MAGNUS-AUTHORITY",
         "SIGRID-PURE",
@@ -34,22 +27,29 @@
         "SEA-DIVINE",
         "WESTFJORDS-CLIFF"
       ],
-      "scene" : "Cliff face, morning. Path zigzagging up basalt columns. Ocean 200 feet below. Millions of seabirds. Clear morning light.",
-      "variant_id" : "2b_story_primary",
+      "camera_position" : "Following shot behind climbers showing path and cliff face",
+      "active_video_index" : 0,
+      "negative_prompt" : "no subtitles, show massive cliff scale, birds covering every surface, golden light in holes, 1080p",
       "action" : "Magnus leads up steep path, boots finding holds in dirt. Jon follows 6 feet behind, smaller feet careful on loose stones. Path only 2 feet wide, cliff wall on right, drop on left. Seabirds cover every ledge - puffins with orange beaks, guillemots in rows, kittiwakes clustered. Birds shift as humans pass but don't fly. Too many birds - every square foot of cliff has nests. Path turns sharply. View opens showing full cliff height - 300 feet vertical black basalt columns. In cliff face, regular holes appear, 2 feet diameter, perfectly round. Some holes have golden light inside despite sun angle wrong. Magnus’s breathing steady. Jon breathing harder, stops to rest. Magnus waits without turning. Boy starts climbing again. Near path, eggs visible in nests - pure white, no spots, glowing faintly in shadow.",
-      "variant_name" : "Primary - THE BREATHING CLIFFS",
-      "camera_position" : "Following shot behind climbers showing path and cliff face"
+      "videos" : [
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509141953_8tfda.mp4",
+          "duration" : 8,
+          "filename" : "Meta_setting_iceland_202509141953_8tfda.mp4"
+        },
+        {
+          "filename" : "Meta_setting_iceland_202509141953_h8d0t.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509141953_h8d0t.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Progressive_state_paradise_202509142300_tffq.mp4",
+          "duration" : 8,
+          "filename" : "Progressive_state_paradise_202509142300_tffq.mp4"
+        }
+      ]
     }
   ],
   "progressive_state" : "Cliff approach | Ancient paths | Camera frost 0% | Height revealed | Watching: Earth opens",
-  "aspect_ratio" : "1.85:1",
-  "shot_metadata" : {
-    "sequence_type" : "prologue",
-    "id" : "2b",
-    "narrative_function" : "Cliff approach | Ancient paths | Camera frost 0% |...",
-    "stitch_from" : "",
-    "title" : "THE BREATHING CLIFFS",
-    "duration_seconds" : 8
-  },
-  "selected_prompt_index" : 0
+  "aspect_ratio" : "1.85:1"
 }

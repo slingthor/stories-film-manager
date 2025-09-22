@@ -20,11 +20,9 @@ struct ShotListWithSystemsView: View {
 
             switch magicCommand {
             case "video", "videos":
-                // Return shots that have videos other than "default.mp4"
+                // Return shots that have any videos
                 return filmManager.shots.filter { shot in
-                    shot.videos.contains { video in
-                        !video.filename.lowercased().contains("default")
-                    }
+                    !shot.videos.isEmpty
                 }
             case "images", "image":
                 // Return shots that have images

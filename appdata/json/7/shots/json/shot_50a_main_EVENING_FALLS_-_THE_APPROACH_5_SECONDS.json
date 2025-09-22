@@ -1,42 +1,42 @@
 {
+  "progressive_state" : "House 12\/min calming + 60bpm | Evening ritual | Camera frost 38% | Tenderness emerging | Watching: We see duality",
+  "shot_metadata" : {
+    "id" : "50a",
+    "title" : "EVENING FALLS - THE APPROACH 5 SECONDS",
+    "sequence_type" : "main_story",
+    "narrative_function" : "House 12\/min calming + 60bpm | Evening ritual | Ca...",
+    "stitch_from" : "",
+    "duration_seconds" : 5
+  },
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "1:1",
   "prompt_variants" : [
     {
-      "subject" : "[MAGNÚS] setting down his cane by the door and approaching [SIGRID]'s sleeping platform, his tremor completely gone (0Hz), voice gentle: \"Tími til að sofa, elskan\" (Time to sleep, darling), the same voice that raged this morning now soft as lamb's wool.",
-      "active_video_index" : 0,
-      "camera_position" : "Following shot showing gentle approach",
       "is_active" : false,
       "variant_name" : "Primary - EVENING FALLS - THE APPROACH 5 SECONDS",
       "dialogue" : "(Magnús, gentle): \"Tími til að sofa, elskan\" \"Vertu róleg\" (Be calm)",
+      "scene" : "Evening interior, 7:30 PM (past sunset). Golden light through frost making everything soft. Cane abandoned showing different mode.",
       "variant_id" : "50a_story_primary",
-      "style" : "Following shot showing gentle approach (that's where the camera is), tenderness documented.",
       "progressive_state" : "",
-      "videos" : [
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_setting_202509211854_cqm7p.mp4",
-          "duration" : 8,
-          "filename" : "Subject_magns_setting_202509211854_cqm7p.mp4"
-        }
-      ],
+      "style" : "Following shot showing gentle approach (that's where the camera is), tenderness documented.",
+      "subject" : "[MAGNÚS] setting down his cane by the door and approaching [SIGRID]'s sleeping platform, his tremor completely gone (0Hz), voice gentle: \"Tími til að sofa, elskan\" (Time to sleep, darling), the same voice that raged this morning now soft as lamb's wool.",
+      "camera_position" : "Following shot showing gentle approach",
       "selected_plates" : [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
         "BAÐSTOFA-CRYSTALLIZING",
         "STOFA-BODY"
       ],
-      "action" : "Evening light through frost - golden hour making everything soft. Magnús places cane carefully by door, deliberate. Without it, his tremor stops - 0Hz. But 0Hz means two things: violence OR tenderness. Both use same stillness. Walks to Sigrid's platform, no threat in movement. Gentle. Father coming to say goodnight. She's arranging her sleeping area, maintaining 11 feet, but he approaches anyway. \"Tími til að sofa, elskan.\" Voice completely different - warm, caring. The voice from before Denmark, before isolation madness. Children watching, confused - is this the man who beat mother? Who sent her to die? But this is him too. Always has been. The duality IS the horror. Sigrid pulls feet up on platform, maintaining distance even lying down. But accepts his approach - what choice in isolation? He's father, protector, threat, future. All simultaneously.",
+      "active_video_index" : 0,
       "negative_prompt" : "",
-      "scene" : "Evening interior, 7:30 PM (past sunset). Golden light through frost making everything soft. Cane abandoned showing different mode."
+      "action" : "Evening light through frost - golden hour making everything soft. Magnús places cane carefully by door, deliberate. Without it, his tremor stops - 0Hz. But 0Hz means two things: violence OR tenderness. Both use same stillness. Walks to Sigrid's platform, no threat in movement. Gentle. Father coming to say goodnight. She's arranging her sleeping area, maintaining 11 feet, but he approaches anyway. \"Tími til að sofa, elskan.\" Voice completely different - warm, caring. The voice from before Denmark, before isolation madness. Children watching, confused - is this the man who beat mother? Who sent her to die? But this is him too. Always has been. The duality IS the horror. Sigrid pulls feet up on platform, maintaining distance even lying down. But accepts his approach - what choice in isolation? He's father, protector, threat, future. All simultaneously.",
+      "videos" : [
+        {
+          "filename" : "Subject_magns_setting_202509211854_cqm7p.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_setting_202509211854_cqm7p.mp4",
+          "duration" : 8
+        }
+      ]
     }
-  ],
-  "aspect_ratio" : "1:1",
-  "shot_metadata" : {
-    "title" : "EVENING FALLS - THE APPROACH 5 SECONDS",
-    "narrative_function" : "House 12\/min calming + 60bpm | Evening ritual | Ca...",
-    "id" : "50a",
-    "duration_seconds" : 5,
-    "stitch_from" : "",
-    "sequence_type" : "main_story"
-  },
-  "selected_prompt_index" : 0,
-  "progressive_state" : "House 12\/min calming + 60bpm | Evening ritual | Camera frost 38% | Tenderness emerging | Watching: We see duality"
+  ]
 }
