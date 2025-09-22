@@ -52,7 +52,7 @@
     "JON-CHANGING" : {
       "name" : "Jon Changing",
       "character" : "Jon",
-      "description" : "[JON-PROPHET] during actual species change - fever 43°C at critical peak, face structure beginning lamb transformation while maintaining human consciousness, sheep teeth fully functional, hazel eyes bright with transformation excitement rather than fear, hair cut revealing changing skull proportions, brown sweater becoming costume on transforming anatomy, posture transitional between human and quadruped, breathing shifting from 22\/min human hyperactive to 20\/min sheep steady, voice primarily sheep bleating with occasional human words, fever visions resolving into single sheep-surreal visual.",
+      "description" : "[JON-PROPHET] during actual species change - face flushed from intense cold and wind, face structure beginning lamb transformation while maintaining human consciousness, new teeth fully functional, hazel eyes bright with transformation excitement rather than fear, hair cut revealing changing proportions, brown sweater becoming costume on transforming anatomy, posture transitional between human and quadruped, breathing shifting steadily, voice primarily sheep-like sounds mixed with occasional human words, visions resolving into single surreal visual.",
       "is_master" : false,
       "shot_range" : ""
     },
@@ -88,7 +88,7 @@
       "shot_range" : "",
       "is_master" : false,
       "character" : "Jon",
-      "description" : "[JON-GRINDING] with fever creating supernatural activity - fever 43°C creating dangerous but energizing delirium, face bright red with fever energy, lips normal with sheep teeth prominent, hazel eyes wild with temporal awareness seeing all time periods simultaneously, hair cut short due to matting revealing skull shape changes, brown sweater tight as body grows into proper fit, posture energetic and wandering with fever-driven curiosity, no cough (sheep breathing efficient), trembling from energy rather than weakness, voice sheep-like bleating mixed with human words, breathing",
+      "description" : "[JON-GRINDING] with supernatural activity - face bright red from arctic wind exposure, lips chapped but normal with new teeth prominent, hazel eyes wild with temporal awareness seeing all time periods simultaneously, hair cut short due to matting revealing head shape, brown sweater tight as body grows into proper fit, posture energetic and wandering with curiosity, breathing efficiently, trembling from cold and energy, voice sheep-like sounds mixed with human words, breathing steadily",
       "name" : "Jon Energetic"
     },
     "EWE" : {
@@ -129,7 +129,7 @@
     "LILJA-EVOLVING" : {
       "name" : "Prophetic Lullaby Evolution (Shots 26-40)",
       "character" : "Lilja",
-      "description" : "[LILJA-SENSING] with lullaby modification ability - face serious with prophetic responsibility, mouth carefully shaping evolved lullaby words, blue eyes focused with prophetic sight showing future transformation, hair requiring cutting due to tangling, grey dress showing systematic exploration wear, brown stockings mostly holes held together by wool fibers, doll positioned as audience for prophetic performance, posture upright with prophetic authority despite child size, thumb-sucking eliminated during prophetic singing, voice delivering lullaby evolution changing \"Krummi svaf\" to \"Sigrid flýgur\" predicting sister's raven transformation, breathing",
+      "description" : "[LILJA-SENSING] with lullaby modification ability - face serious with prophetic responsibility, mouth carefully shaping evolved lullaby words, blue eyes focused with prophetic sight showing future transformation, hair requiring cutting due to tangling, grey dress showing exploration wear, brown stockings well-worn with patches, doll positioned as audience for prophetic performance, posture upright with prophetic authority despite child size, thumb-sucking eliminated during prophetic singing, voice delivering lullaby evolution changing \"Krummi svaf\" to \"Sigrid flýgur\" predicting sister's raven transformation, breathing steadily",
       "shot_range" : "",
       "is_master" : false
     },
@@ -239,7 +239,7 @@
       "description" : "[GUDRUN-OFFERING] after divine encounter - faldbúningur ice crown partially melted with blood creating red ice architecture, entire grey dress soaked red creating crimson garment, wool production 70mm n..."
     },
     "JON-WANDERING" : {
-      "description" : "[JON-TEMPORAL] with increased mobility from fever energy - fever 42°C creating restless energy, face gaunt but animated with prophetic purpose, empty tooth sockets healing, hazel eyes bright with mission focus, hair requiring cutting, sweater fitting properly, posture energetic but disoriented, trembling from excitement rather than weakness, voice clearer with prophetic authority, breathing",
+      "description" : "[JON-TEMPORAL] with increased mobility from restless energy - face thin but animated with prophetic purpose from extended winter, new teeth emerging naturally, hazel eyes bright with mission focus, hair requiring cutting, sweater fitting properly, posture energetic but disoriented, trembling from cold and excitement, voice clearer with prophetic authority, breathing steadily",
       "name" : "Jon Wandering",
       "character" : "Jon",
       "shot_range" : "",
@@ -269,7 +269,7 @@
     "JON-GRINDING" : {
       "character" : "Jon",
       "shot_range" : "",
-      "description" : "[JON-EMERGING] with sheep mastication developing - fever 42°C maintained, face showing comfort with new teeth, lips normal around sheep dental configuration, hazel eyes bright with new feeding capability, hair requiring complete cutting due to matting, brown sweater fitting perfectly, posture improving with new nutritional processing ability, cough disappearing as sheep teeth enable better breathing, trembling reduced through improved health, voice clearer with sheep teeth but losing human speech patterns, breathing",
+      "description" : "[JON-EMERGING] with new teeth developing - face red from cold exposure, showing comfort with new teeth, lips chapped but normal around new dental configuration, hazel eyes bright with adaptation, hair requiring complete cutting due to matting, brown sweater fitting perfectly, posture improving with better adaptation, breathing easier, shivering reduced as body adjusts, voice clearer with new teeth but changing speech patterns, breathing steadily",
       "name" : "Jon Grinding",
       "is_master" : false
     },
@@ -297,7 +297,7 @@
     "LILJA-PROPHESYING" : {
       "name" : "Prophetic Singing (Shots 26-40)",
       "character" : "Lilja",
-      "description" : "[LILJA-SENSING] with lullaby evolution ability - face concentrated during song modification, mouth shaping different words than traditional lullaby, blue eyes unfocused during prophetic singing state, hair increasingly tangled from harmonic vibration, grey dress showing systematic wear, doll positioned as audience for prophetic performance, posture upright during singing moments, thumb-sucking absent during song delivery, voice producing evolved lullaby with prophetic content changing \"Krummi\" to \"Sigrid\" predicting sister's transformation, breathing controlled for singing rather than normal child rhythm.",
+      "description" : "[LILJA-SENSING] with lullaby evolution ability - face concentrated during song modification, mouth shaping different words than traditional lullaby, blue eyes unfocused during prophetic singing state, hair increasingly tangled, grey dress showing wear from use, doll positioned as audience for prophetic performance, posture upright during singing moments, thumb-sucking absent during song delivery, voice producing evolved lullaby with prophetic content changing \"Krummi\" to \"Sigrid\" predicting sister's transformation, breathing controlled for singing.",
       "is_master" : false,
       "shot_range" : ""
     },
@@ -309,7 +309,7 @@
       "character" : "Jon"
     },
     "LILJA-FINAL" : {
-      "description" : "[LILJA-LAMB] before consciousness simplification - face maintaining child emotional support despite anatomical changes, mouth adapted for sheep vocalization but retaining child emotional support, blue eyes showing child consciousness preparing for simplification, hair completely wool-textured, grey dress becoming natural lamb covering, doll integrated somehow with lamb anatomy, posture transitional between child uprightness and lamb configuration, voice child consciousness through sheep anatomy, breathing",
+      "description" : "[LILJA-LAMB] before consciousness simplification - face maintaining child emotional expression despite changes, mouth adapted for new vocalization but retaining child emotional expression, blue eyes showing child consciousness preparing for simplification, hair completely wool-textured, grey dress becoming natural covering, doll integrated somehow with changing form, posture transitional between child uprightness and lamb configuration, voice child consciousness through changed anatomy, breathing steadily",
       "character" : "Lilja",
       "name" : "Final Child Consciousness (Shots 56-65)",
       "shot_range" : "",
@@ -319,7 +319,7 @@
       "is_master" : false,
       "name" : "Jon Fitting",
       "character" : "Jon",
-      "description" : "[JON-PROPHET] with proper sweater fit achieved - fever 42°C sustained, face showing improved nutrition from unknown source, sheep teeth beginning emergence through healing gums, hazel eyes focused with new dental capability, hair cut short revealing skull changes, brown sweater now perfect fit suggesting body growth into clothing, posture improving with better nutrition and dental function, cough eliminated with sheep respiratory efficiency, trembling minimal with improved health, voice changing timber with new teeth but maintaining human speech, breathing",
+      "description" : "[JON-PROPHET] with proper sweater fit achieved - face flushed from cold wind, looking healthier from adaptation, new teeth beginning emergence through gums naturally, hazel eyes focused with new capability, hair cut short revealing head shape, brown sweater now perfect fit suggesting body growth into clothing, posture improving with better adaptation, breathing more efficiently, minimal shivering as body adjusts to cold, voice changing timber with new teeth but maintaining human speech, breathing steadily",
       "shot_range" : ""
     },
     "LILJA-MATHEMATICAL" : {
@@ -327,7 +327,7 @@
       "shot_range" : "",
       "character" : "Lilja",
       "name" : "Mathematical Child Observer (Shots 1-10)",
-      "description" : "[LILJA-PURE] witnessing family counting breakdown - face showing child confusion about adult mathematical impossibility, mouth silently counting along with adults but getting different numbers, blue eyes wide with recognition of six shadows when five people exist, hair tangled with stress from family breakdown observation, grey dress torn hem more extensive from nervous behavior, brown stockings with multiple holes from anxiety movement, doll clutched with desperate grip as comfort during family crisis, posture hiding behind mother's skirts during counting moments, thumb-sucking intense during mathematical wrongness, voice high whisper stating obvious mathematical truth adults won't acknowledge, breathing"
+      "description" : "[LILJA-PURE] witnessing family counting breakdown - face showing child confusion about adult mathematical impossibility, mouth silently counting along with adults but getting different numbers, blue eyes wide with recognition of six shadows when five people exist, hair tangled from worry, grey dress torn hem more extensive from nervous behavior, brown stockings worn through from activity, doll clutched tightly as comfort during family crisis, posture hiding behind mother's skirts during counting moments, thumb-sucking for comfort during confusion, voice high whisper stating obvious mathematical truth adults won't acknowledge, breathing quickly"
     },
     "SIGRID-MONITORED" : {
       "name" : "Surveillance Recognition (Shot 5.5 Web):**",
@@ -374,7 +374,7 @@
     "JON-LOSING" : {
       "name" : "Jon Losing",
       "character" : "Jon",
-      "description" : "[JON-CHANGING] during actual tooth loss - fever 41°C with face showing dental pain, three human teeth visible in palm after falling out (molars and canine), lips bloody from sudden tooth loss, mouth showing empty sockets bleeding, hazel eyes wide with curious examination of lost teeth, posture bent forward examining teeth with scientific child curiosity, voice affected by sudden gaps creating speech distortion, breathing",
+      "description" : "[JON-CHANGING] during natural tooth loss - face red from cold with slight discomfort, baby teeth visible in palm after naturally falling out, lips slightly red from tooth changes, mouth showing normal gaps where teeth fell out, hazel eyes wide with curious examination of lost teeth, posture bent forward examining teeth with scientific child curiosity, voice affected by gaps creating speech changes, breathing normally",
       "shot_range" : "",
       "is_master" : false
     },
@@ -436,7 +436,7 @@
     },
     "JON-MISSION" : {
       "character" : "Jon",
-      "description" : "[JON-PROPHET] with fever directing movement - fever 42°C creating purposeful energy, face animated with prophetic mission, empty tooth sockets clean, hazel eyes bright with vision-directed purpose, hair short revealing changing skull shape, perfectly fitted sweater, posture energetic with fever-driven exploration, trembling minimal with mission focus, voice mixing prophetic human speech with emerging sheep sounds, breathing",
+      "description" : "[JON-PROPHET] with purposeful energy - face red and animated from cold wind with prophetic mission, new teeth emerging naturally, hazel eyes bright with vision-directed purpose, hair short revealing head shape, perfectly fitted sweater, posture energetic with exploration, minimal shivering with mission focus, voice mixing prophetic human speech with changing sounds, breathing steadily",
       "is_master" : false,
       "name" : "Jon Mission",
       "shot_range" : ""
@@ -456,7 +456,7 @@
       "name" : "Stofa Cleft"
     },
     "LILJA-COMMUNICATING" : {
-      "description" : "[LILJA-MATHEMATICAL] with house consciousness dialogue - face animated during environvisible distress, mouth moving in conversation with house breathing rhythm, blue eyes alternating between family observation and house consciousness connection, hair wild from environvisible distress activity, grey dress dirty from constant floor contact and house investigation, brown stockings worn through completely at knees from crawling, cloth doll positioned for \"conversation\" with house consciousness through brass button eye contact, posture actively engaged with environvisible distress, thumb-sucking replaced with environvisible distress (wall stroking, floor patting), voice conducting audible conversations with house consciousness about family situation, breathing synchronized occasionally with house rhythm during communication moments.",
+      "description" : "[LILJA-MATHEMATICAL] with house consciousness dialogue - face animated during environmental interaction, mouth moving in conversation with house breathing rhythm, blue eyes alternating between family observation and house consciousness connection, hair wild from activity, grey dress dirty from constant floor contact and house investigation, brown stockings worn at knees from crawling, cloth doll positioned for \"conversation\" with house consciousness through brass button eye contact, posture actively engaged with environment, thumb-sucking replaced with tactile exploration (wall stroking, floor patting), voice conducting audible conversations with house consciousness about family situation, breathing synchronized occasionally with house rhythm during communication moments.",
       "shot_range" : "",
       "is_master" : false,
       "character" : "Lilja",
@@ -466,7 +466,7 @@
       "is_master" : false,
       "name" : "Jon Seeing",
       "character" : "Jon",
-      "description" : "[JON-RISING] with fever enabling temporal awareness - face flushed red with heat, button nose reddened, lips very chapped from dry air, hazel eyes deeply glazed with temporal awareness showing past\/present\/future simultaneously, hair damp and matted, oversized sweater beginning to fit better, posture alternating between tiredness and sudden prophetic alertness, persistent cough from dry conditions, trembling from fever, voice barely audible hoarse whisper, breathing quickly",
+      "description" : "[JON-RISING] with temporal awareness emerging - face flushed red from bitter cold exposure, button nose reddened from freezing wind, lips very chapped from arctic air, hazel eyes deeply glazed with temporal awareness showing past\/present\/future simultaneously, hair damp from snow and matted, oversized sweater beginning to fit better, posture alternating between tiredness and sudden prophetic alertness, persistent cough from dry cold air, trembling from freezing temperatures, voice barely audible hoarse whisper, breathing quickly",
       "shot_range" : ""
     },
     "GUDRUN-RITUAL" : {
@@ -598,7 +598,7 @@
     "JON-TEMPORAL" : {
       "shot_range" : "",
       "character" : "Jon",
-      "description" : "[JON-CHANGING] with maximum temporal awareness - fever 43°C creating critical consciousness state, face red-purple with dangerous fever heat, hazel eyes completely unfocused seeing past\/present\/future overlay, posture disconnected from present reality, cough absent (breathing in different time period), trembling from temporal awareness overload, voice speaking to people from different time periods, breathing variable as consciousness shifts between temporal awareness.",
+      "description" : "[JON-CHANGING] with maximum temporal awareness - face deeply red from extreme cold exposure, hazel eyes completely unfocused seeing past\/present\/future overlay, posture disconnected from present reality, cough absent, trembling from cold and temporal awareness, voice speaking to people from different time periods, breathing variable as consciousness shifts between temporal states.",
       "name" : "Jon Temporal",
       "is_master" : false
     },
@@ -655,7 +655,7 @@
       "name" : "Jon Emerging",
       "is_master" : false,
       "character" : "Jon",
-      "description" : "[JON-GAPPED] with sheep teeth beginning growth - fever 42°C creating critical flush, face showing new teeth pushing through gums, lips swollen around emerging sheep teeth, hazel eyes bright with fever but focused on dental emergence, hair matted solid requiring cutting, sweater perfectly fitted as malnutrition matches clothing size, posture showing curiosity about mouth changes, cough changing tone as teeth affect vocal cavity, trembling from fever but excitement about transformation, voice changing timber with new teeth affecting speech, breathing",
+      "description" : "[JON-GAPPED] with new teeth beginning growth - face flushed from harsh winter cold, showing new teeth pushing through gums, lips slightly swollen around emerging teeth, hazel eyes bright and focused on changes, hair matted requiring cutting, sweater perfectly fitted from natural growth, posture showing curiosity about mouth changes, cough changing tone from dry air, trembling from cold but excitement about transformation, voice changing timber with new teeth affecting speech, breathing steadily",
       "shot_range" : ""
     },
     "WESTFJORDS-WINTER-GROUND" : {
@@ -703,7 +703,7 @@
     "GUDRUN-MASTER" : {
       "name" : "GUDRUN-MASTER",
       "shot_range" : "",
-      "description" : "Guðrún Magnusdóttir, 35-year-old Westfjords woman with oval face showing premature aging from hardship, hollow cheeks from chronic malnutrition creating sharp cheekbone definition, straight narrow nose with small nostrils, thin cracked lips from dehydration, grey-green almond eyes with dark circles beneath showing exhaustion, dark brown hair mostly hidden under headdress with visible strands showing grey streaks, 5'5\" skeletal frame with prominent collarbones and thin wrists, wearing traditional 1880s Icelandic married woman's formal attire: crisp white linen faldbúningur headdress standing 6 inches tall with starched wing-pieces extending 4 inches on each side, 1-inch wide black velvet band circling forehead with small brass pin (1cm diameter) centered at front, ankle-length dark grey vaðmál dress (bust 34 inches, waist 28 inches) with upphlutur bodice and pils skirt, fitted bodice with brown leather lacing cords crossed in front, long sleeves 24 inches with 2-inch tight cuffs at wrists, chestnut brown wool apron 20x16 inches tied at waist showing domestic status, charcoal black wool shawl 48x24 inches draped over shoulders for warmth, thick coffee-brown hand-knitted wool stockings, worn black leather shoes (size 37 European) with 1-inch heels showing sole wear, weak voice from malnutrition, breathing 14 breaths per minute shallow pattern, brass wedding ring loose on thinned finger",
+      "description" : "Guðrún Magnusdóttir, 35-year-old Westfjords woman with oval face showing premature aging from hardship, thin features creating defined cheekbones, straight narrow nose with small nostrils, weathered lips from arctic conditions, grey-green almond eyes with dark circles beneath showing exhaustion, dark brown hair mostly hidden under headdress with visible strands showing grey streaks, 5'5\" slender build typical of 1880s rural women, wearing traditional 1880s Icelandic married woman's formal attire: crisp white linen faldbúningur headdress standing 6 inches tall with starched wing-pieces extending 4 inches on each side, 1-inch wide black velvet band circling forehead with small brass pin (1cm diameter) centered at front, ankle-length dark grey vaðmál dress (bust 34 inches, waist 28 inches) with upphlutur bodice and pils skirt, fitted bodice with brown leather lacing cords crossed in front, long sleeves 24 inches with 2-inch tight cuffs at wrists, chestnut brown wool apron 20x16 inches tied at waist showing domestic status, charcoal black wool shawl 48x24 inches draped over shoulders for warmth, thick coffee-brown hand-knitted wool stockings, worn black leather shoes (size 37 European) with 1-inch heels showing sole wear, soft voice from winter fatigue, breathing 14 breaths per minute, brass wedding ring on finger",
       "character" : "Gudrun",
       "is_master" : true
     },
@@ -1220,7 +1220,7 @@
     },
     "JON-MILD" : {
       "shot_range" : "",
-      "description" : "[JON-MASTER] with 39°C fever beginning - round face flushed pink with fever warmth, button nose red from congestion, lips chapped but not severely bloodied, hazel eyes slightly glazed but still focusing on immediate surroundings, sandy hair damp with mild fever sweat, thin frame in oversized brown sweater appearing comically large, posture listless but responsive to family activity, wet cough occasional rather than constant, trembling mild and intermittent, voice hoarse but audible whisper, breathing",
+      "description" : "[JON-MASTER] with winter affecting him - round face flushed pink from cold exposure, button nose red from freezing air, lips chapped from dry arctic wind, hazel eyes slightly glazed but still focusing on immediate surroundings, sandy hair damp from indoor warmth after being outside, lean frame in oversized brown sweater appearing comically large, posture tired but responsive to family activity, occasional cough from dry air, mild shivering from cold, voice hoarse but audible whisper, breathing normally",
       "name" : "Jon Mild",
       "character" : "Jon",
       "is_master" : false
@@ -1419,13 +1419,13 @@
       "is_master" : false,
       "shot_range" : "",
       "name" : "Jon Gapped",
-      "description" : "[JON-CHANGING] after multiple tooth loss - fever 42°C creating dangerous delirium, face gaunt from continued illness, lips bloody from empty tooth sockets, hazel eyes completely unfocused with advanced temporal awareness, hair matted into hard clumps, brown sweater fitting properly as malnutrition advances, posture weak and wandering with fever disorientation, cough producing blood and saliva from empty sockets, trembling severe affecting coordination, voice nearly inaudible with gaps from missing teeth, breathing"
+      "description" : "[JON-CHANGING] after natural tooth changes - face thin from winter hardship, lips slightly red from tooth changes, hazel eyes unfocused with temporal awareness, hair matted from weather, brown sweater fitting properly from growth, posture weak and wandering with disorientation, occasional cough from dry cold, trembling from cold affecting coordination, voice soft with gaps from missing teeth, breathing shallowly"
     },
     "JON-FINAL" : {
       "name" : "Jon Final",
       "character" : "Jon",
       "shot_range" : "",
-      "description" : "[JON-MASTER] before consciousness simplification - fever breaking as transformation approaches, face losing fever flush revealing pale transformation, sheep teeth dominant with perfect herbivore function, hazel eyes showing human consciousness preparing to simplify into lamb awareness, hair growing back with different texture, brown sweater becoming costume on changing body, posture transitional between human uprightness and quadruped preparation, voice human consciousness through sheep anatomy, breathing transitioning from 19\/min human to 20\/min sheep, final human thoughts visible through changing anatomy.",
+      "description" : "[JON-MASTER] before consciousness simplification - face losing redness as transformation approaches revealing pale skin, new teeth dominant with adapted function, hazel eyes showing human consciousness preparing to simplify into lamb awareness, hair growing back with different texture, brown sweater becoming costume on changing body, posture transitional between human uprightness and quadruped preparation, voice human consciousness through changed anatomy, breathing transitioning steadily, final human thoughts visible through changing form.",
       "is_master" : false
     },
     "SIGRID-CHOSEN" : {
