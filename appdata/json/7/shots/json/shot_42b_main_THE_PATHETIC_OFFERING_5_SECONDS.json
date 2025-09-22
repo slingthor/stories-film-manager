@@ -1,24 +1,47 @@
 {
   "shot_metadata" : {
-    "title" : "THE PATHETIC OFFERING 5 SECONDS",
     "duration_seconds" : 5,
     "narrative_function" : "House still holding breath | Shame visible | Camer...",
-    "sequence_type" : "main_story",
     "id" : "42b",
+    "title" : "THE PATHETIC OFFERING 5 SECONDS",
+    "sequence_type" : "main_story",
     "stitch_from" : ""
   },
+  "progressive_state" : "House still holding breath | Shame visible | Camera frost 27.5% | Provider's failure | Watching: All eyes on him",
+  "aspect_ratio" : "4:3",
   "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "is_active" : false,
-      "variant_name" : "Primary - THE PATHETIC OFFERING 5 SECONDS",
-      "dialogue" : "(Magnús, starting proud): \"Ð‰g fann...\" (Realizing): \"Þetta er... þetta er allt\" (Seeing arrangement): \"Hvað gerðist?\"",
-      "scene" : "Interior, door closed but cold remaining. His offering centered in frame. Family watching from positions.",
       "variant_id" : "42b_story_primary",
-      "progressive_state" : "",
+      "negative_prompt" : "",
+      "variant_name" : "Primary - THE PATHETIC OFFERING 5 SECONDS",
       "style" : "Push in on fin while keeping his face in frame above (that's where the camera is), shame documentation.",
+      "active_video_index" : 0,
+      "videos" : [
+        {
+          "filename" : "Subject_magns_stepping_202509211910_0vl42.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202509211910_0vl42.mp4"
+        },
+        {
+          "filename" : "Subject_magns_stepping_202509211910_n06to.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202509211910_n06to.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202509211910_hv0al.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_stepping_202509211910_hv0al.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202509211910_1exop.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_stepping_202509211910_1exop.mp4"
+        }
+      ],
+      "action" : "Door slams, cutting storm. Sudden silence except breathing. Magnús steps forward, aged legs unsteady. Unwraps cloth with 0Hz hands - clumsy, can't feel fabric. Reveals fin: smaller than hand, black with rot, maggots suspended in ice. Holds it up. \"Ð‰g fann...\" (I found...) but stops. Sees their eyes. Guðrún's silent judgment. Children's understanding. Sigrid's distance (still exactly 11 feet even in réttir). The fin drips - one drop of decomposition liquid, black, hits floor, freezes instantly into dark star. PUSH IN on fin, showing every pathetic detail. His aged face above it, white hair with ice, eyes sunken from aflausn debt. The provider who provides death. In his peripheral vision: notices family arranged wrong. Pentagon. Tilberi at center. Something happened. His failure complete - failed at sea, failed to protect home.",
+      "progressive_state" : "",
       "subject" : "[MAGNÚS] stepping inside, door slamming behind him, unwrapping his offering with 0Hz hands - the small, rotten seal fin, maggots frozen mid-writhe, holding it up like treasure while family sees truth: this is all he brought.",
-      "camera_position" : "Push in on fin while keeping his face in frame above",
       "selected_plates" : [
         "MAGNUS-PREDATOR",
         "SIGRID-CORNERED",
@@ -28,33 +51,10 @@
         "BAÐSTOFA-CLEFT",
         "STOFA-BODY"
       ],
-      "active_video_index" : 0,
-      "negative_prompt" : "",
-      "action" : "Door slams, cutting storm. Sudden silence except breathing. Magnús steps forward, aged legs unsteady. Unwraps cloth with 0Hz hands - clumsy, can't feel fabric. Reveals fin: smaller than hand, black with rot, maggots suspended in ice. Holds it up. \"Ð‰g fann...\" (I found...) but stops. Sees their eyes. Guðrún's silent judgment. Children's understanding. Sigrid's distance (still exactly 11 feet even in réttir). The fin drips - one drop of decomposition liquid, black, hits floor, freezes instantly into dark star. PUSH IN on fin, showing every pathetic detail. His aged face above it, white hair with ice, eyes sunken from aflausn debt. The provider who provides death. In his peripheral vision: notices family arranged wrong. Pentagon. Tilberi at center. Something happened. His failure complete - failed at sea, failed to protect home.",
-      "videos" : [
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202509211910_0vl42.mp4",
-          "filename" : "Subject_magns_stepping_202509211910_0vl42.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_magns_stepping_202509211910_n06to.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202509211910_n06to.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_magns_stepping_202509211910_hv0al.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202509211910_hv0al.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202509211910_1exop.mp4",
-          "filename" : "Subject_magns_stepping_202509211910_1exop.mp4"
-        }
-      ]
+      "scene" : "Interior, door closed but cold remaining. His offering centered in frame. Family watching from positions.",
+      "dialogue" : "(Magnús, starting proud): \"Ð‰g fann...\" (Realizing): \"Þetta er... þetta er allt\" (Seeing arrangement): \"Hvað gerðist?\"",
+      "camera_position" : "Push in on fin while keeping his face in frame above",
+      "is_active" : false
     }
-  ],
-  "progressive_state" : "House still holding breath | Shame visible | Camera frost 27.5% | Provider's failure | Watching: All eyes on him",
-  "aspect_ratio" : "4:3"
+  ]
 }

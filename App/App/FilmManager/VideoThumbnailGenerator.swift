@@ -211,7 +211,7 @@ struct HoverPreviewPopoverContent: View {
     @State private var player: AVPlayer?
     @State private var playerLooper: AVPlayerLooper?
 
-    private let previewSize = CGSize(width: 480, height: 270) // Larger preview size (increased from 320x180)
+    private let previewSize = CGSize(width: 1320, height: 743) // 2.75x larger preview size
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {

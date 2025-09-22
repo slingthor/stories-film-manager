@@ -1,25 +1,47 @@
 {
-  "progressive_state" : "Family transformation 100% | Human consciousness preserved | Central horror revealed | Watching: Impossible anatomy",
-  "shot_metadata" : {
-    "id" : "56",
-    "title" : "Family as Sheep - Central Horror Image",
-    "sequence_type" : "main_story",
-    "narrative_function" : "Reveals family transformation with human consciousness retained",
-    "stitch_from" : "",
-    "duration_seconds" : 8
-  },
   "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
+  "shot_metadata" : {
+    "id" : "56",
+    "duration_seconds" : 8,
+    "title" : "Family as Sheep - Central Horror Image",
+    "sequence_type" : "main_story",
+    "stitch_from" : "",
+    "narrative_function" : "Reveals family transformation with human consciousness retained"
+  },
+  "progressive_state" : "Family transformation 100% | Human consciousness preserved | Central horror revealed | Watching: Impossible anatomy",
   "prompt_variants" : [
     {
-      "is_active" : false,
-      "variant_name" : "Conscious Livestock Horror",
-      "dialogue" : "None - human consciousness through sheep anatomy unable to form human speech",
-      "scene" : "Baðstofa interior with family as conscious livestock, furniture arrangements maintained for bipedal use with quadruped anatomy, impossible cultural preservation through species transformation.",
+      "negative_prompt" : "no normal sheep behavior, no loss of human consciousness, no realistic clothing fit, no normal family function",
       "variant_id" : "56_story_primary",
-      "progressive_state" : "",
       "style" : "Wide shot showing complete family transformation while maintaining domestic arrangements (that's where the camera is), documentary of impossible anatomy with cultural continuity.",
-      "subject" : "Five white Icelandic sheep standing upright around table, wearing family's clothes, human teeth visible in sheep mouths, [GUÐRÚN] with faldbúningur headdress fitting perfectly on sheep head, all breathing at 8\/min synchronized rhythm while human consciousness clearly visible through sheep eyes.",
+      "variant_name" : "Conscious Livestock Horror",
+      "active_video_index" : 0,
+      "videos" : [
+        {
+          "filename" : "Subject_five_white_202509211841_20f0c.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_20f0c.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_wavwe.mp4",
+          "duration" : 8,
+          "filename" : "Subject_five_white_202509211841_wavwe.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_o5ok8.mp4",
+          "duration" : 8,
+          "filename" : "Subject_five_white_202509211841_o5ok8.mp4"
+        },
+        {
+          "filename" : "Subject_five_white_202509211841_1n5mr.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_1n5mr.mp4",
+          "duration" : 8
+        }
+      ],
+      "action" : "Family arranged in traditional positions but as sheep - Magnús-ram at table head wearing brown vaðmál sweater, curved horns visible, steel-blue eyes showing human intelligence and frustration. Guðrún-ewe with traditional headdress impossible but perfect on sheep skull, human consciousness obvious through horizontal pupils, mouth forming human words through sheep anatomy. Jón-lamb and Lilja-lamb maintaining child positions, human expressive face through animal expressions. Sigrid-ewe at 11-foot distance, belly showing rounded belly through sheep anatomy, grey eyes with amber flecks clearly human consciousness in animal head. All wear family clothing stretched over quadruped bodies, human possessions somehow fitting animal anatomy. Breathing synchronized at 8\/min sheep rhythm but with human awareness visible through eye expression and behavioral complexity impossible with normal livestock intelligence.",
+      "progressive_state" : "",
+      "scene" : "Baðstofa interior with family as conscious livestock, furniture arrangements maintained for bipedal use with quadruped anatomy, impossible cultural preservation through species transformation.",
       "selected_plates" : [
         "MAGNUS-SHIFTING",
         "SIGRID-TRANSITIONAL",
@@ -28,32 +50,10 @@
         "GUDRUN-SPEAKING",
         "BAÐSTOFA-CLIFF"
       ],
+      "subject" : "Five white Icelandic sheep standing upright around table, wearing family's clothes, human teeth visible in sheep mouths, [GUÐRÚN] with faldbúningur headdress fitting perfectly on sheep head, all breathing at 8\/min synchronized rhythm while human consciousness clearly visible through sheep eyes.",
+      "dialogue" : "None - human consciousness through sheep anatomy unable to form human speech",
       "camera_position" : "Wide shot documenting complete transformation, that's where the camera is",
-      "active_video_index" : 0,
-      "action" : "Family arranged in traditional positions but as sheep - Magnús-ram at table head wearing brown vaðmál sweater, curved horns visible, steel-blue eyes showing human intelligence and frustration. Guðrún-ewe with traditional headdress impossible but perfect on sheep skull, human consciousness obvious through horizontal pupils, mouth forming human words through sheep anatomy. Jón-lamb and Lilja-lamb maintaining child positions, human expressive face through animal expressions. Sigrid-ewe at 11-foot distance, belly showing rounded belly through sheep anatomy, grey eyes with amber flecks clearly human consciousness in animal head. All wear family clothing stretched over quadruped bodies, human possessions somehow fitting animal anatomy. Breathing synchronized at 8\/min sheep rhythm but with human awareness visible through eye expression and behavioral complexity impossible with normal livestock intelligence.",
-      "negative_prompt" : "no normal sheep behavior, no loss of human consciousness, no realistic clothing fit, no normal family function",
-      "videos" : [
-        {
-          "filename" : "Subject_five_white_202509211841_20f0c.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_20f0c.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_five_white_202509211841_wavwe.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_wavwe.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_o5ok8.mp4",
-          "filename" : "Subject_five_white_202509211841_o5ok8.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_1n5mr.mp4",
-          "filename" : "Subject_five_white_202509211841_1n5mr.mp4",
-          "duration" : 8
-        }
-      ]
+      "is_active" : false
     }
   ]
 }

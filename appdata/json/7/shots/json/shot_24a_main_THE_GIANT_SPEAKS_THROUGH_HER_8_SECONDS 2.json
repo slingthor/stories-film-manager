@@ -1,24 +1,37 @@
 {
   "shot_metadata" : {
-    "title" : "THE GIANT SPEAKS THROUGH HER 8 SECONDS",
     "duration_seconds" : 8,
     "narrative_function" : "House 6\/min + 40bpm stuttering | Giant possession ...",
-    "sequence_type" : "main_story",
     "id" : "24a",
+    "title" : "THE GIANT SPEAKS THROUGH HER 8 SECONDS",
+    "sequence_type" : "main_story",
     "stitch_from" : ""
   },
+  "progressive_state" : "House 6\/min + 40bpm stuttering | Giant possession | Camera frost 15% | Voice complete | Watching: House IS speaker",
+  "aspect_ratio" : "4:3",
   "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "is_active" : false,
-      "variant_name" : "Primary - THE GIANT SPEAKS THROUGH HER 8 SECONDS",
-      "dialogue" : "(Giant through everything): \"LANDVÐ†TTIR, KOMIÐ\" (Sigrid fighting): Normal voice breaking through: \"Nei, ekki...\" (Giant overwhelming): \"HJÐLPIÐ OKKUR\"",
-      "scene" : "Interior becoming speaker. Walls showing stress cracks from vibration. Dust thick in air. Temperature dropping with each word.",
+      "negative_prompt" : "no subtitles, 16Hz as vibration not sound, show house as speaker, documentary observation",
       "variant_id" : "24a_story_primary",
-      "progressive_state" : "",
+      "variant_name" : "Primary - THE GIANT SPEAKS THROUGH HER 8 SECONDS",
       "style" : "Wide shot showing whole house as speaker, Sigrid small at center (that's where the camera is), documentary of possession.",
+      "active_video_index" : 0,
+      "videos" : [
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202509211935_53izo.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_mouth_202509211935_53izo.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202509211935_toro4.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_mouth_202509211935_toro4.mp4"
+        }
+      ],
+      "action" : "Sigrid's mouth opens wider than should be possible. The word completes: \"LANDVÐ†TTIR\" but not from her throat. From walls - turf vibrating. From floor - packed earth speaking. From beams - giant's ribs resonating. 16Hz below hearing, felt in bones, teeth, eyes. Her body rigid, back arched, hands spread, conduit not source. \"KOMIÐ\" emerges from everywhere. Dust cascades from ceiling with each syllable. The three beams (ribs) flex visibly, showing pink tissue beneath wood for split second. Windows vibrate in frames, frost cracking off in sheets. Guðrún crawls backward, mouth open in silent scream. Children grip each other, Jón's fever breaking in sudden sweat, Lilja's eyes rolled back showing whites. Empty clothes standing fully upright, breathing matching house rhythm. Sigrid's eyes remain conscious, terrified - she's aware but not in control. Baby's heartbeat visible as red strobe through dress: 160bpm.",
+      "progressive_state" : "",
       "subject" : "[SIGRID]'s mouth moving but the giant's voice emerging from the house itself - 16Hz resonance from walls, floor, beams - as she becomes conduit for Bergrisi's dying call: \"LANDVÐ†TTIR, KOMIÐ\" vibrating through everything, dust falling from ceiling, her body just the focal point of architectural speech.",
-      "camera_position" : "Wide shot showing whole house as speaker, Sigrid small at center",
       "selected_plates" : [
         "SIGRID-SUMMONING",
         "LILJA-MATHEMATICAL",
@@ -27,23 +40,10 @@
         "BAÐSTOFA-BODY",
         "STOFA-ORGANIC"
       ],
-      "active_video_index" : 0,
-      "negative_prompt" : "no subtitles, 16Hz as vibration not sound, show house as speaker, documentary observation",
-      "action" : "Sigrid's mouth opens wider than should be possible. The word completes: \"LANDVÐ†TTIR\" but not from her throat. From walls - turf vibrating. From floor - packed earth speaking. From beams - giant's ribs resonating. 16Hz below hearing, felt in bones, teeth, eyes. Her body rigid, back arched, hands spread, conduit not source. \"KOMIÐ\" emerges from everywhere. Dust cascades from ceiling with each syllable. The three beams (ribs) flex visibly, showing pink tissue beneath wood for split second. Windows vibrate in frames, frost cracking off in sheets. Guðrún crawls backward, mouth open in silent scream. Children grip each other, Jón's fever breaking in sudden sweat, Lilja's eyes rolled back showing whites. Empty clothes standing fully upright, breathing matching house rhythm. Sigrid's eyes remain conscious, terrified - she's aware but not in control. Baby's heartbeat visible as red strobe through dress: 160bpm.",
-      "videos" : [
-        {
-          "filename" : "Subject_sigrids_mouth_202509211935_53izo.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202509211935_53izo.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_sigrids_mouth_202509211935_toro4.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202509211935_toro4.mp4"
-        }
-      ]
+      "scene" : "Interior becoming speaker. Walls showing stress cracks from vibration. Dust thick in air. Temperature dropping with each word.",
+      "dialogue" : "(Giant through everything): \"LANDVÐ†TTIR, KOMIÐ\" (Sigrid fighting): Normal voice breaking through: \"Nei, ekki...\" (Giant overwhelming): \"HJÐLPIÐ OKKUR\"",
+      "camera_position" : "Wide shot showing whole house as speaker, Sigrid small at center",
+      "is_active" : false
     }
-  ],
-  "progressive_state" : "House 6\/min + 40bpm stuttering | Giant possession | Camera frost 15% | Voice complete | Watching: House IS speaker",
-  "aspect_ratio" : "4:3"
+  ]
 }

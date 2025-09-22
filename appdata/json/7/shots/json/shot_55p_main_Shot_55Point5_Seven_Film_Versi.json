@@ -1,33 +1,33 @@
 {
-  "progressive_state" : "",
-  "shot_metadata" : {
-    "id" : "55.5b",
-    "title" : "Shot 55Point5 Seven Film Versions Consciousness Fr",
-    "sequence_type" : "main",
-    "narrative_function" : "enhancement",
-    "stitch_from" : "",
-    "duration_seconds" : 3
-  },
   "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
+  "shot_metadata" : {
+    "id" : "55.5b",
+    "duration_seconds" : 3,
+    "title" : "Shot 55Point5 Seven Film Versions Consciousness Fr",
+    "sequence_type" : "main",
+    "stitch_from" : "",
+    "narrative_function" : "enhancement"
+  },
+  "progressive_state" : "",
   "prompt_variants" : [
     {
-      "variant_name" : "Shot 55Point5 Seven Film Versions Consciousness Fr",
+      "progressive_state" : "",
+      "camera_position" : "",
+      "dialogue" : "",
+      "scene" : "SHOT 55.5: SEVEN FILM VERSIONS - CONSCIOUSNESS FRAGMENTS Revolutionary Meta-Cinema Where Audience Experiences All Possible Interpretations OVERVIEW:",
       "style" : "",
-      "action" : "",
-      "subject" : "",
       "negative_prompt" : "",
+      "is_active" : false,
       "selected_plates" : [
         "BAÐSTOFA-BODY",
         "WESTFJORDS-WINTER",
         "SEA-EXTRACTED"
       ],
-      "dialogue" : "",
-      "is_active" : false,
-      "camera_position" : "",
-      "progressive_state" : "",
+      "subject" : "",
       "variant_id" : "55p_shot_55point5_seven_film_versions_consciousness_fr",
-      "scene" : "SHOT 55.5: SEVEN FILM VERSIONS - CONSCIOUSNESS FRAGMENTS Revolutionary Meta-Cinema Where Audience Experiences All Possible Interpretations OVERVIEW:"
+      "variant_name" : "Shot 55Point5 Seven Film Versions Consciousness Fr",
+      "action" : ""
     }
   ]
 }

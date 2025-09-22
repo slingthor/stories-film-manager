@@ -1,57 +1,57 @@
 {
-  "progressive_state" : "Confrontation imminent | Line targeted | Camera frost 21.5% | Empire's cruelty | Watching: Mountains hold breath",
-  "shot_metadata" : {
-    "id" : "34",
-    "title" : "THE DELIBERATE CUT 8 SECONDS",
-    "sequence_type" : "main_story",
-    "narrative_function" : "Confrontation imminent | Line targeted | Camera fr...",
-    "stitch_from" : "",
-    "duration_seconds" : 8
-  },
   "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
+  "shot_metadata" : {
+    "id" : "34",
+    "duration_seconds" : 8,
+    "title" : "THE DELIBERATE CUT 8 SECONDS",
+    "sequence_type" : "main_story",
+    "stitch_from" : "",
+    "narrative_function" : "Confrontation imminent | Line targeted | Camera fr..."
+  },
+  "progressive_state" : "Confrontation imminent | Line targeted | Camera frost 21.5% | Empire's cruelty | Watching: Mountains hold breath",
   "prompt_variants" : [
     {
-      "is_active" : false,
-      "variant_name" : "Primary - THE DELIBERATE CUT 8 SECONDS",
-      "dialogue" : "(Magnús, before cut): \"Nei... NEI...\" (Line snaps): \"ÞRJÐTÐU ÐR!\" (THIRTY YEARS!) (Seeing wheelhouse): \"Skrimsli...\" (Monster...)",
-      "scene" : "Convergence point on fjord, 9:18 AM. Trawler massive above tiny boat. Clear water showing everything below. Mountains reflected in water, watching.",
       "variant_id" : "34_story_primary",
-      "progressive_state" : "",
+      "negative_prompt" : "no subtitles, show deliberate cruelty, glimpse in wheelhouse, documentary observation",
+      "variant_name" : "Primary - THE DELIBERATE CUT 8 SECONDS",
       "style" : "Low angle from Magnús's position showing trawler's dominance, then underwater showing cut (that's where the camera is), documentary of industrial violence.",
+      "active_video_index" : 0,
+      "videos" : [
+        {
+          "filename" : "Subject_the_trawler_202509211926_ymu4a.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202509211926_ymu4a.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_trawler_202509211926_ve8no.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202509211926_ve8no.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202509211926_gkja2.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_trawler_202509211926_gkja2.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202509211926_wr76d.mp4",
+          "filename" : "Subject_the_trawler_202509211926_wr76d.mp4",
+          "duration" : 8
+        }
+      ],
+      "action" : "Trawler closes distance: 300 meters, 200, 100. Moving wrong - not straight but undulating, hull bending impossibly in three places. As it approaches, Magnús sees truth: no crew visible on deck. No faces in windows. Just yellow searchlights sweeping like eyes. Ship operating itself. Or operated by something else. His line still taut, being dragged by net below. Trawler adjusts course precisely to pass over line. Not accident - calculated. From below waterline, industrial props emerge slightly - not normal propellers but rotating blades with edges that gleam. Modified for cutting nets, lines, anything in way. The moment: hull passes over his line. Props engage. SNAP. Line cut clean, hemp ends floating up. Thirty years of mending, his father's knots, grandfather's work - severed. Through clear water, sees net continue dragging below with all fish. Above, trawler's searchlights sweep across him once - acknowledgment, dismissal - then continue mechanical rotation. But in wheelhouse window, for split second: shape visible. Not human. Coiled. Scales. Eye larger than window. Blinks vertically. Gone.",
+      "progressive_state" : "",
       "subject" : "The trawler GRIMSBY PRIDE approaching [MAGNÚS]'s position with serpentine movement through water, its massive hull passing over his line with deliberate precision, the industrial props underneath cutting through hemp like teeth through thread, while above deck no human figures visible - only yellow eyes watching.",
-      "camera_position" : "Low angle from Magnús's position showing trawler's dominance, then underwater showing cut",
       "selected_plates" : [
         "MAGNUS-AGING",
         "SEA-BATTLE",
         "WESTFJORDS-FJORD",
         "WESTFJORDS-WINTER"
       ],
-      "active_video_index" : 0,
-      "negative_prompt" : "no subtitles, show deliberate cruelty, glimpse in wheelhouse, documentary observation",
-      "action" : "Trawler closes distance: 300 meters, 200, 100. Moving wrong - not straight but undulating, hull bending impossibly in three places. As it approaches, Magnús sees truth: no crew visible on deck. No faces in windows. Just yellow searchlights sweeping like eyes. Ship operating itself. Or operated by something else. His line still taut, being dragged by net below. Trawler adjusts course precisely to pass over line. Not accident - calculated. From below waterline, industrial props emerge slightly - not normal propellers but rotating blades with edges that gleam. Modified for cutting nets, lines, anything in way. The moment: hull passes over his line. Props engage. SNAP. Line cut clean, hemp ends floating up. Thirty years of mending, his father's knots, grandfather's work - severed. Through clear water, sees net continue dragging below with all fish. Above, trawler's searchlights sweep across him once - acknowledgment, dismissal - then continue mechanical rotation. But in wheelhouse window, for split second: shape visible. Not human. Coiled. Scales. Eye larger than window. Blinks vertically. Gone.",
-      "videos" : [
-        {
-          "duration" : 8,
-          "filename" : "Subject_the_trawler_202509211926_ymu4a.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202509211926_ymu4a.mp4"
-        },
-        {
-          "filename" : "Subject_the_trawler_202509211926_ve8no.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202509211926_ve8no.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202509211926_gkja2.mp4",
-          "filename" : "Subject_the_trawler_202509211926_gkja2.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_the_trawler_202509211926_wr76d.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202509211926_wr76d.mp4"
-        }
-      ]
+      "scene" : "Convergence point on fjord, 9:18 AM. Trawler massive above tiny boat. Clear water showing everything below. Mountains reflected in water, watching.",
+      "dialogue" : "(Magnús, before cut): \"Nei... NEI...\" (Line snaps): \"ÞRJÐTÐU ÐR!\" (THIRTY YEARS!) (Seeing wheelhouse): \"Skrimsli...\" (Monster...)",
+      "camera_position" : "Low angle from Magnús's position showing trawler's dominance, then underwater showing cut",
+      "is_active" : false
     }
   ]
 }

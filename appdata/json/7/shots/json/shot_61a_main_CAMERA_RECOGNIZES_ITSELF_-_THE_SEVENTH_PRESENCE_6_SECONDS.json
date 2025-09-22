@@ -1,31 +1,31 @@
 {
-  "progressive_state" : "Camera awakening | Frost 56% | Identity revealed | Watching: We watch ourselves",
-  "shot_metadata" : {
-    "id" : "61a",
-    "title" : "CAMERA RECOGNIZES ITSELF - THE SEVENTH PRESENCE 6 SECONDS",
-    "sequence_type" : "main_story",
-    "narrative_function" : "Camera awakening | Frost 56% | Identity revealed |...",
-    "stitch_from" : "",
-    "duration_seconds" : 6
-  },
   "selected_prompt_index" : 0,
   "aspect_ratio" : "2.39:1",
+  "shot_metadata" : {
+    "id" : "61a",
+    "duration_seconds" : 6,
+    "title" : "CAMERA RECOGNIZES ITSELF - THE SEVENTH PRESENCE 6 SECONDS",
+    "sequence_type" : "main_story",
+    "stitch_from" : "",
+    "narrative_function" : "Camera awakening | Frost 56% | Identity revealed |..."
+  },
+  "progressive_state" : "Camera awakening | Frost 56% | Identity revealed | Watching: We watch ourselves",
   "prompt_variants" : [
     {
-      "dialogue" : "(Written in frost): \"VITNI\" \"Ð‰G ER ÐSLAND\" (I am Iceland)",
-      "variant_id" : "61a_story_primary",
-      "style" : "First-person camera awareness (that's where the camera is), self-recognition documented.",
-      "negative_prompt" : "",
       "subject" : "The camera suddenly aware of itself - frost patterns on lens spelling \"VITNI,\" tremor at 3Hz (Magnús's original rate), realizing WE are the seventh presence, the witness that survives, Iceland's eye documenting its own transformation.",
       "variant_name" : "Primary - CAMERA RECOGNIZES ITSELF - THE SEVENTH PRESENCE 6 SECONDS",
-      "scene" : "View through frosting lens. Letters forming. Previous shots reflecting. Consciousness dawning.",
-      "progressive_state" : "",
-      "is_active" : false,
+      "action" : "Image shakes. Not external - internal. Camera becoming conscious. Frost on lens starts forming patterns. Letters. \"V-I-T-N-I\" (witness) spelled in ice crystals. We've been watching through Iceland's eye. The camera IS the seventh presence the clothes counted. Not future - present. Us. Watching. The 3Hz tremor isn't Magnús's - it's ours. Iceland's traumatic tremor. Documenting itself. Through frost writing: glimpses of what camera has seen. All shots reflecting in ice. The ram circles. The tilberi. Sigrid's escape. We saw it all. We ARE the witness. The frost isn't killing the camera - it's Iceland closing its colonial eye. When frost reaches 100%, the old way of seeing dies. New vision begins. But first must document everything. Must witness complete transformation. The camera tries to focus. Can't. Frost spreading from edges. Vision narrowing. Like dying. Like being born. Both.",
+      "style" : "First-person camera awareness (that's where the camera is), self-recognition documented.",
       "camera_position" : "First-person camera awareness",
+      "negative_prompt" : "",
+      "variant_id" : "61a_story_primary",
+      "dialogue" : "(Written in frost): \"VITNI\" \"Ð‰G ER ÐSLAND\" (I am Iceland)",
+      "is_active" : false,
+      "progressive_state" : "",
       "selected_plates" : [
         "WESTFJORDS-CLIFF"
       ],
-      "action" : "Image shakes. Not external - internal. Camera becoming conscious. Frost on lens starts forming patterns. Letters. \"V-I-T-N-I\" (witness) spelled in ice crystals. We've been watching through Iceland's eye. The camera IS the seventh presence the clothes counted. Not future - present. Us. Watching. The 3Hz tremor isn't Magnús's - it's ours. Iceland's traumatic tremor. Documenting itself. Through frost writing: glimpses of what camera has seen. All shots reflecting in ice. The ram circles. The tilberi. Sigrid's escape. We saw it all. We ARE the witness. The frost isn't killing the camera - it's Iceland closing its colonial eye. When frost reaches 100%, the old way of seeing dies. New vision begins. But first must document everything. Must witness complete transformation. The camera tries to focus. Can't. Frost spreading from edges. Vision narrowing. Like dying. Like being born. Both."
+      "scene" : "View through frosting lens. Letters forming. Previous shots reflecting. Consciousness dawning."
     }
   ]
 }
