@@ -511,36 +511,95 @@ struct ClaudeConversationWindow: View {
             }
         }
 
-        // For VEO3 sanitization, add the fully resolved prompt and VEO3 guidelines
+        // For VEO3 sanitization, add both JSON structure and fully resolved prompt
         if conversationIntent == "sanitizeForVEO3" {
             if shot.selectedPromptIndex < shot.promptVariants.count {
-                let cleanPrompt = shot.promptVariants[shot.selectedPromptIndex].generateCleanPrompt(
+                let currentVariant = shot.promptVariants[shot.selectedPromptIndex]
+                let cleanPrompt = currentVariant.generateCleanPrompt(
                     for: shot,
                     plateManager: filmManager.plateManager
                 )
 
-                // Add the fully resolved prompt to the shot context
+                // Create JSON representation of the variant
+                let variantJSON: [String: Any] = [
+                    "variant_id": currentVariant.variantId,
+                    "variant_name": currentVariant.name,
+                    "subject": currentVariant.subject,
+                    "action": currentVariant.action,
+                    "scene": currentVariant.scene,
+                    "style": currentVariant.style,
+                    "camera_position": currentVariant.cameraPosition,
+                    "dialogue": currentVariant.dialogue,
+                    "selected_plates": currentVariant.selectedPlateIds,
+                    "negative_prompt": currentVariant.negativePrompt,
+                    "progressive_state": currentVariant.progressiveState,
+                    "is_active": currentVariant.isActive
+                ]
+
+                var jsonString = ""
+                if let jsonData = try? JSONSerialization.data(withJSONObject: variantJSON, options: [.prettyPrinted, .sortedKeys]),
+                   let json = String(data: jsonData, encoding: .utf8) {
+                    jsonString = json
+                }
+
+                // Add both JSON and fully resolved prompt to the shot context
                 let veo3Prompt = """
 
                 =================================
-                FULLY RENDERED PROMPT TO SANITIZE FOR VEO3
+                VEO3 SANITIZATION CONTEXT
                 =================================
                 Shot: \(shot.id) - \(shot.title)
                 Variant: \(shot.promptVariants[shot.selectedPromptIndex].name)
-                Current Length: \(cleanPrompt.count) characters
                 Sanitization Level: \(veo3SanitizationLevel.uppercased())
 
                 =================================
-                BAKED PROMPT (Ready for video generation):
+                1. ORIGINAL JSON STRUCTURE (Before Plate Expansion):
                 =================================
+                This is the source JSON that defines the prompt variant. The selected_plates are plate IDs that get expanded into full descriptions:
+
+                \(jsonString)
+
+                =================================
+                2. PLATE EXPANSION EXPLANATION:
+                =================================
+                The plates in selected_plates get expanded as follows:
+                - Character plates (e.g., "MAGNUS-CONFUSED") expand to full character descriptions
+                - Environmental plates (e.g., "WESTFJORDS-WINTER") expand to setting descriptions
+                - These expansions happen in the SUBJECT section of the final prompt
+                - Master plates contain the core character definitions and should rarely be modified
+
+                =================================
+                3. FULLY RENDERED PROMPT (After Plate Expansion):
+                =================================
+                This is the final baked prompt with all plates expanded - exactly as sent to VEO3:
+                Length: \(cleanPrompt.count) characters
 
                 \(cleanPrompt)
 
                 =================================
-                END OF PROMPT TO SANITIZE
+                DECISION FRAMEWORK:
                 =================================
 
-                Remember: This is the fully expanded, baked prompt with all plates resolved - exactly as it would be copied from the "Copy Prompt" button.
+                ANALYZE THE REJECTION REASON:
+                1. If the problematic content is in the main prompt fields (action, scene, style, etc.) → Modify JSON
+                2. If the problematic content is in the expanded plates → Consider baking to text
+                3. If it's a combination of both → Bake to text for complete control
+
+                PREFERENCE HIERARCHY:
+                1. FIRST CHOICE: Modify the JSON variant (preserves plate system, less destructive)
+                   - This is ideal when the plates themselves are fine
+                   - Allows future plate updates to propagate automatically
+                   - Maintains the structured workflow
+
+                2. SECOND CHOICE: Bake to text file (complete control, but loses plate connections)
+                   - Use when plate content itself is problematic
+                   - Use when changes need to span both prompt and plates
+                   - Results in a static prompt that won't update with plate changes
+
+                REMEMBER:
+                - Character master plates should be the LAST resort for modification
+                - The plate system allows consistency across shots
+                - Breaking the plate connection should only happen when necessary
                 """
 
                 // Append to shot context
@@ -690,15 +749,22 @@ struct ClaudeConversationWindow: View {
 
             OUTPUT REQUIREMENTS:
 
-            1. SAVE THE SANITIZED PROMPT:
-               - Save the sanitized prompt as a plain text file (.txt)
-               - Filename format: shot_[ID]_veo3_sanitized_[level].txt
+            1. FIRST, ANALYZE AND DECIDE:
+               - Identify WHERE the problematic content is located
+               - Decide whether to output JSON (variant modification) or TXT (baked prompt)
+               - EXPLAIN your reasoning clearly
+
+            2. IF OUTPUTTING JSON (Preferred when plates are fine):
+               - Save as: shot_[ID]_veo3_sanitized_variant_[level].json
                - Location: /Users/ingthor/Documents/stories/appdata/veo3_sanitized/
+               - Format: Complete JSON variant ready to add as new variant
+               - Include variant_name with "_veo3_[level]" suffix
                - Open the file automatically after saving
 
-            2. FORMAT:
-               - Output the sanitized prompt in PLAIN TEXT format (NOT JSON)
-               - Use the exact same structure as the original prompt:
+            3. IF OUTPUTTING TXT (When plates need modification):
+               - Save as: shot_[ID]_veo3_sanitized_baked_[level].txt
+               - Location: /Users/ingthor/Documents/stories/appdata/veo3_sanitized/
+               - Format: Complete baked prompt in plain text:
                  SUBJECT:
                  ACTION:
                  SCENE:
@@ -710,10 +776,18 @@ struct ClaudeConversationWindow: View {
                  Meta setting: Iceland, Westfjords 1888
 
                  video should be all one scene
+               - Open the file automatically after saving
 
-            3. AFTER THE SANITIZED PROMPT, PROVIDE:
+            4. AFTER THE SANITIZED OUTPUT, PROVIDE:
                ========== SANITIZATION REPORT ==========
+               Output Type: [JSON Variant / Baked TXT]
                Sanitization Level: \(veo3SanitizationLevel)
+
+               DECISION REASONING:
+               [Explain why you chose JSON vs TXT output]
+               [Where was the problematic content located?]
+               [Why is this the best approach for this specific case?]
+
                Original Length: [X] characters
                Sanitized Length: [Y] characters
 
@@ -727,6 +801,10 @@ struct ClaudeConversationWindow: View {
 
                Artistic Preservation:
                [How cinematic quality was maintained]
+
+               Workflow Impact:
+               [If JSON: Preserves plate system, future updates will propagate]
+               [If TXT: Static prompt, won't update with plate changes]
 
                VEO3 Compliance Confidence: [High/Medium/Low]
                =========================================

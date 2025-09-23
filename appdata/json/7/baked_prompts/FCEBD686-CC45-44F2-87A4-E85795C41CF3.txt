@@ -1,0 +1,32 @@
+# Baked Prompt 1
+
+SUBJECT:\n[MAGNÚS] turning to count the sixth position but finding only empty
+   space, his finger pointing at nothing while six shadows on the wall suggest someone should be 
+  there, the entire family now eating their traditional meal in perfect synchronization - movements in
+   identical rhythm, even [SIGRID] unable to resist the collective pattern.\n\nSUBJECT REFERENCE 
+  PLATES:\n[Character plates preserved exactly as original - MAGNUS-CONFUSED, SIGRID-CALCULATING, 
+  LILJA-MATHEMATICAL, JON-PROPHET, GUDRUN-COUNTING, BAÐSTOFA-ORGANIC]\n\nACTION:\nMagnús's finger 
+  points at empty space: \"Seks?\" Confusion flickers across his face. Counts again on fingers - en, 
+  to, tre, fire, fem... His finger rises to point at vacant air where sixth person should stand. But 
+  on the wall, six shadows clearly visible, sixth shadow moving independently. The empty clothes in 
+  corner are standing upright now, moving subtly as if animated by wind at 8 movements per minute. The
+   family continues eating in perfect synchronization - all movements identical, same rhythm, same 
+  timing. Even Sigrid, despite maintaining 11 feet distance, caught in the synchronized pattern. The 
+  traditional fermented fish being consumed at exact same rate. Between bites, barely audible humming 
+  sounds from Lilja, spreading to Jón's breathing, then to Guðrún. Magnús shakes head, dismisses sixth
+   count, but shadow remains on wall. House ambient sounds steady at rhythmic 
+  intervals.\n\nSCENE:\nMorning sorting complete, 5:53 AM, daylight gaining but still grey. 
+  Temperature -10°C, breath visible from everyone including the area near empty clothes. The floor 
+  patterns now clearly show six positions, though only five occupied. Synchronized eating creates 
+  rhythmic sounds, fermented fish aroma making everyone's eyes water slightly. The plate that held 
+  food shows six portions were prepared, sixth portion sitting at empty position. Outdoor temperature:
+   -35°C. Indoor temperature: -10°C.\n\nSTYLE:\nWide shot showing empty sixth position and 
+  synchronized eating, camera pulling back to doorway (that's where the camera is), documentary 
+  observation of collective meal consumption. Camera position: Wide shot showing empty sixth position 
+  and synchronized movements, camera pulling back to doorway\n\nDIALOGUE:\n(Magnús): \"Seks?\" (Tone: 
+  confused Danish) \"Nei... fimm.\" (Tone: dismissing impossibility) (Lilja softly): \"Mmm...\" (Tone:
+   subtle humming sound) (Others): Synchronized eating sounds\n\nNEGATIVE PROMPT:\nno subtitles, no 
+  text overlays, show synchronized movements clearly, maintain shadow presence, documentary 
+  observation, no modern elements, no screen space overlays, no fullscreen overlays, no UI elements, 
+  no trim no edit\n\nASPECT:\n1:1\n\nMeta setting: Iceland, Westfjords 1888\n\nvideo should be all one
+   scene
