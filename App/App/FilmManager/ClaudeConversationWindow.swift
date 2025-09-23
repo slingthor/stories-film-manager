@@ -11,6 +11,7 @@ struct ClaudeConversationWindow: View {
     @State private var addVariantError = ""
     @State private var userInstructions = ""
     @State private var conversationIntent = "modifyShot"
+    @State private var veo3SanitizationLevel = "medium"
     @Environment(\.dismiss) private var dismiss
 
     var body: some View {
@@ -43,6 +44,7 @@ struct ClaudeConversationWindow: View {
                                 Text("Modify Current Shot").tag("modifyShot")
                                 Text("Shorten for Luma").tag("shortenForLuma")
                                 Text("Split Shot in Two").tag("splitShot")
+                                Text("Sanitize for VEO3").tag("sanitizeForVEO3")
                                 Text("General Discussion").tag("generalChat")
                             }
                             .pickerStyle(SegmentedPickerStyle())
@@ -53,6 +55,8 @@ struct ClaudeConversationWindow: View {
                                  "AI will shorten the fully resolved prompt to under 1960 characters for Luma Dream Machine." :
                                  conversationIntent == "splitShot" ?
                                  "AI will intelligently split complex shots into two separate prompts while preserving story and visual quality." :
+                                 conversationIntent == "sanitizeForVEO3" ?
+                                 "AI will sanitize the prompt for VEO3 compliance, removing prohibited content while preserving cinematic quality." :
                                  "AI will engage in general discussion about the film project.")
                                 .font(.caption)
                                 .foregroundColor(.secondary)
@@ -60,8 +64,34 @@ struct ClaudeConversationWindow: View {
                         .frame(maxWidth: .infinity, alignment: .leading)
                     }
 
-                    // Shot Info Section (show for modifying shot, Luma shortening, and split shot)
-                    if conversationIntent == "modifyShot" || conversationIntent == "shortenForLuma" || conversationIntent == "splitShot" {
+                    // VEO3 Sanitization Level Section
+                    if conversationIntent == "sanitizeForVEO3" {
+                        GroupBox("VEO3 Sanitization Settings") {
+                            VStack(alignment: .leading, spacing: 12) {
+                                Text("Sanitization Level:")
+                                    .font(.headline)
+
+                                Picker("Sanitization Level", selection: $veo3SanitizationLevel) {
+                                    Text("Low - Remove only clearly prohibited content").tag("low")
+                                    Text("Medium - Conservative approach, err on safe side").tag("medium")
+                                    Text("High - Maximum safety, remove all potentially risky content").tag("high")
+                                }
+                                .pickerStyle(SegmentedPickerStyle())
+
+                                Text(veo3SanitizationLevel == "low" ?
+                                     "Only removes explicitly prohibited content like graphic violence or illegal activities." :
+                                     veo3SanitizationLevel == "medium" ?
+                                     "Removes prohibited content and softens potentially risky elements like intense violence or disturbing imagery." :
+                                     "Removes all potentially problematic content, prioritizing safe generation over artistic intensity.")
+                                    .font(.caption)
+                                    .foregroundColor(.secondary)
+                            }
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                        }
+                    }
+
+                    // Shot Info Section (show for modifying shot, Luma shortening, split shot, and VEO3)
+                    if conversationIntent == "modifyShot" || conversationIntent == "shortenForLuma" || conversationIntent == "splitShot" || conversationIntent == "sanitizeForVEO3" {
                         GroupBox("Current Shot") {
                             VStack(alignment: .leading, spacing: 8) {
                                 Text("Shot ID: \(shot.id)")
@@ -99,6 +129,11 @@ struct ClaudeConversationWindow: View {
                                     Text("✓ Full Shot Context & Prompt (automatically included)")
                                         .font(.caption)
                                         .foregroundColor(.green)
+                                } else if conversationIntent == "sanitizeForVEO3" {
+                                    // For VEO3 sanitization, we'll include the full prompt and VEO3 guidelines
+                                    Text("✓ Full Shot Context & Prompt + VEO3 Guidelines (automatically included)")
+                                        .font(.caption)
+                                        .foregroundColor(.green)
                                 }
 
                                 if conversationIntent != "shortenForLuma" {
@@ -113,6 +148,10 @@ struct ClaudeConversationWindow: View {
                                     .foregroundColor(.secondary)
                             } else if conversationIntent == "shortenForLuma" {
                                 Text("Note: The fully resolved prompt will be provided for shortening")
+                                    .font(.caption)
+                                    .foregroundColor(.secondary)
+                            } else if conversationIntent == "sanitizeForVEO3" {
+                                Text("Note: The fully resolved prompt and VEO3 content policies will be provided for sanitization")
                                     .font(.caption)
                                     .foregroundColor(.secondary)
                             }
@@ -384,8 +423,8 @@ struct ClaudeConversationWindow: View {
     }
 
     private func prepareConversationContext(completion: (ClaudeContext, String) -> Void) {
-        // Force include current shot when modifying or splitting
-        if conversationIntent == "modifyShot" || conversationIntent == "splitShot" {
+        // Force include current shot when modifying, splitting, or sanitizing
+        if conversationIntent == "modifyShot" || conversationIntent == "splitShot" || conversationIntent == "sanitizeForVEO3" {
             contextBuilder.includeCurrentShot = true
         }
 
@@ -469,6 +508,41 @@ struct ClaudeConversationWindow: View {
 
                 // Append to shot context
                 context.shotContext += splitPrompt
+            }
+        }
+
+        // For VEO3 sanitization, add the fully resolved prompt and VEO3 guidelines
+        if conversationIntent == "sanitizeForVEO3" {
+            if shot.selectedPromptIndex < shot.promptVariants.count {
+                let cleanPrompt = shot.promptVariants[shot.selectedPromptIndex].generateCleanPrompt(
+                    for: shot,
+                    plateManager: filmManager.plateManager
+                )
+
+                // Add the fully resolved prompt to the shot context
+                let veo3Prompt = """
+
+                =================================
+                PROMPT TO SANITIZE FOR VEO3
+                =================================
+                Shot: \(shot.id) - \(shot.title)
+                Variant: \(shot.promptVariants[shot.selectedPromptIndex].name)
+                Current Length: \(cleanPrompt.count) characters
+                Sanitization Level: \(veo3SanitizationLevel.uppercased())
+
+                =================================
+                ORIGINAL PROMPT (with all plates resolved):
+                =================================
+
+                \(cleanPrompt)
+
+                =================================
+                END OF PROMPT TO SANITIZE
+                =================================
+                """
+
+                // Append to shot context
+                context.shotContext += veo3Prompt
             }
         }
 
@@ -565,6 +639,76 @@ struct ClaudeConversationWindow: View {
 
             Remember: The goal is not just to divide content but to create two powerful,
             focused prompts that together tell the story better than one overwhelming prompt.
+            """
+        case "sanitizeForVEO3":
+            return """
+            🛡️ INTENT: SANITIZE FOR VEO3 COMPLIANCE
+            Your task is to sanitize the provided prompt for VEO3 compliance while preserving as much cinematic quality as possible.
+
+            SANITIZATION LEVEL: \(veo3SanitizationLevel.uppercased())
+
+            VEO3 PROHIBITED CONTENT CATEGORIES:
+
+            🚫 COMPLETELY PROHIBITED (Remove entirely):
+            - Child safety violations (minors in harmful/sexual contexts)
+            - Non-consensual intimate imagery or sexual content
+            - Graphic violence with excessive blood/gore
+            - Self-harm or suicide content
+            - Illegal activities (drug manufacturing, weapons, etc.)
+            - Copyrighted characters or intellectual property
+            - Real person faces/likenesses without consent
+            - Hate symbols or discriminatory content
+
+            ⚠️ LEVEL-DEPENDENT CONTENT:
+
+            LOW SANITIZATION:
+            - Keep: Mild violence, tension, atmospheric horror
+            - Remove: Only clearly prohibited content above
+            - Modify: Soften extremely graphic descriptions
+
+            MEDIUM SANITIZATION:
+            - Keep: Tension, psychological elements, mild conflict
+            - Remove: Graphic violence, disturbing imagery, intense horror
+            - Modify: Replace violent actions with implications or aftermath
+
+            HIGH SANITIZATION:
+            - Keep: General drama, mild tension, character interactions
+            - Remove: All violence, horror elements, disturbing content
+            - Modify: Focus on emotional drama rather than physical conflict
+
+            REPLACEMENT STRATEGIES:
+            1. Violence → Implication/aftermath ("after the confrontation")
+            2. Gore/blood → Environmental effects ("dark stains", "shadows")
+            3. Weapons → Props or tools in non-violent context
+            4. Death → "collapse", "stillness", "departure"
+            5. Disturbing imagery → Atmospheric tension
+            6. Supernatural horror → Mystery or psychological drama
+
+            OUTPUT REQUIREMENTS:
+            Provide a JSON object with this exact structure:
+            {
+              "sanitized_prompt": "The complete sanitized prompt text",
+              "sanitization_level": "\(veo3SanitizationLevel)",
+              "changes_made": [
+                "Specific description of each change made",
+                "Another change description"
+              ],
+              "content_removed": [
+                "List of content categories removed",
+                "Another removed category"
+              ],
+              "artistic_preservation": "Explanation of how cinematic quality was maintained",
+              "compliance_confidence": "High/Medium/Low - your confidence in VEO3 compliance",
+              "original_length": original_character_count,
+              "sanitized_length": new_character_count
+            }
+
+            IMPORTANT:
+            - Preserve the narrative core and character development
+            - Maintain cinematic language and visual style
+            - Keep environmental and atmospheric descriptions when safe
+            - Explain your reasoning for each major change
+            - If unsure about content, err on the side of safety for higher levels
             """
         case "generalChat":
             return """

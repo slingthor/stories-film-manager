@@ -107,6 +107,8 @@ struct PromptGenerationPanel: View {
                 prompt: generatedPrompt,
                 shotId: filmManager.selectedShot?.id ?? "",
                 cleanPrompt: generatedCleanPrompt,
+                shot: filmManager.selectedShot,
+                plateManager: filmManager.plateManager,
                 onDismiss: { showingGeneratedPrompt = false }
             )
         }

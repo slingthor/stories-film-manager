@@ -3,6 +3,14 @@ import Combine
 import SwiftUI
 import AVFoundation
 
+// MARK: - Plate Filter Modes
+
+enum PlateFilterMode {
+    case all
+    case masterCharacterOnly
+    case masterCharacterAndEnvironment
+}
+
 // MARK: - Complete Data Models with Proper ObservableObject Conformance
 
 class FilmManager: ObservableObject {
@@ -1202,10 +1210,16 @@ class PromptVariant: ObservableObject, Identifiable {
             if let plateIdToUse = plateIdToUse {
                 // Check if we've already expanded this plate
                 if expandedPlates.contains(plateIdToUse) {
-                    print("   ⏭️  Plate '\(plateIdToUse)' already expanded - skipping to avoid duplication")
-                    // Remove the reference but don't expand it
-                    let newDescription = description.replacingOccurrences(of: fullBracketText, with: "")
-                    return resolveAllPlateReferences(newDescription, plateId: plateId, plateManager: plateManager, depth: depth, expandedPlates: expandedPlates)
+                    print("   ⏭️  Plate '\(plateIdToUse)' already expanded - skipping to avoid duplication but preserving reference")
+                    // Skip this reference but continue processing other parts of the description
+                    let remainingDescription = String(description[fullBracketRange.upperBound...])
+                    if !remainingDescription.isEmpty {
+                        let resolvedRemaining = resolveAllPlateReferences(remainingDescription, plateId: plateId, plateManager: plateManager, depth: depth, expandedPlates: expandedPlates)
+                        let beforeBracket = String(description[..<fullBracketRange.lowerBound])
+                        return beforeBracket + fullBracketText + resolvedRemaining
+                    }
+                    // No more text after this reference, so we're done
+                    return description
                 }
 
                 // Mark this plate as expanded
@@ -1838,7 +1852,7 @@ class PromptVariant: ObservableObject, Identifiable {
         return (outdoor: outdoorTemp, indoor: indoorTemp)
     }
 
-    func generateCleanPrompt(for shot: FilmShot, plateManager: PlateManager? = nil) -> String {
+    func generateCleanPrompt(for shot: FilmShot, plateManager: PlateManager? = nil, plateFilterMode: PlateFilterMode = .all) -> String {
         var promptText = ""
 
         // Removed meta setting from beginning - now at end
@@ -1866,8 +1880,38 @@ class PromptVariant: ObservableObject, Identifiable {
                 collectedPlateIds.insert(envPlateId)
             }
             
-            // Process all collected plates (convert Set to sorted Array for consistent order)
-            let sortedPlateIds = Array(collectedPlateIds).sorted()
+            // Apply filtering based on plateFilterMode before processing
+            let filteredPlateIds: Set<String>
+            switch plateFilterMode {
+            case .all:
+                filteredPlateIds = collectedPlateIds
+
+            case .masterCharacterOnly:
+                // Only include character plates that have isMainPlate = true
+                filteredPlateIds = Set(collectedPlateIds.filter { plateId in
+                    if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
+                        return charPlate.isMainPlate
+                    }
+                    return false
+                })
+
+            case .masterCharacterAndEnvironment:
+                // Include master character plates (isMainPlate = true) and master environmental plates (plateId contains "-MASTER")
+                filteredPlateIds = Set(collectedPlateIds.filter { plateId in
+                    // Check if it's a master character plate
+                    if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
+                        return charPlate.isMainPlate
+                    }
+                    // Check if it's a master environmental plate (contains "-MASTER")
+                    else if plateManager.environmentalPlates.contains(where: { $0.plateId == plateId }) {
+                        return plateId.contains("-MASTER")
+                    }
+                    return false
+                })
+            }
+
+            // Process all filtered plates (convert Set to sorted Array for consistent order)
+            let sortedPlateIds = Array(filteredPlateIds).sorted()
             for plateId in sortedPlateIds {
                 // Try character plates first
                 if let charPlate = plateManager.characterPlates.first(where: { $0.plateId == plateId }) {
@@ -1947,7 +1991,7 @@ class PromptVariant: ObservableObject, Identifiable {
         }
 
         // Always append the no modern elements text
-        let defaultNegative = "no modern elements, no screen space overlays, no fullscreen overlays, no UI elements"
+        let defaultNegative = "no modern elements, no screen space overlays, no fullscreen overlays, no UI elements, no trim no edit"
         if !negativeContent.isEmpty {
             negativeContent += ", " + defaultNegative
         } else {
@@ -1960,7 +2004,7 @@ class PromptVariant: ObservableObject, Identifiable {
         promptText += "ASPECT:\n\(shot.aspectRatio)\n\n"
 
         // META SETTING - Always include at the end
-        promptText += "Meta setting: Iceland, Westfjords 1888"
+        promptText += "Meta setting: Iceland, Westfjords 1888\n\nvideo should be all one scene"
 
         return promptText
     }

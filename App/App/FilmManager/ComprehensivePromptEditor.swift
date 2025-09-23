@@ -587,6 +587,8 @@ struct ComprehensivePromptEditor: View {
                 prompt: generatedPrompt,
                 shotId: shot?.id ?? "",
                 cleanPrompt: generatedCleanPrompt,
+                shot: shot,
+                plateManager: filmManager.plateManager,
                 onDismiss: { showingGeneratedPrompt = false }
             )
         }
@@ -1233,6 +1235,8 @@ struct GeneratedPromptViewer: View {
     let prompt: String
     let shotId: String
     let cleanPrompt: String
+    let shot: FilmShot?
+    let plateManager: PlateManager?
     let onDismiss: () -> Void
 
     private func sanitizeForPG18(_ text: String) -> String {
@@ -1308,7 +1312,7 @@ struct GeneratedPromptViewer: View {
                 .buttonStyle(.bordered)
                 .foregroundColor(.orange)
 
-                Button("Copy No Chars") {
+                Button("No Chars") {
                     // Copy prompt without character plates
                     let promptWithoutChars = removeCharacterPlates(cleanPrompt)
                     NSPasteboard.general.clearContents()
@@ -1317,6 +1321,32 @@ struct GeneratedPromptViewer: View {
                 }
                 .buttonStyle(.bordered)
                 .foregroundColor(.green)
+
+                Button("Master Chars") {
+                    // Copy prompt with only master character plates
+                    if let shot = shot, let plateManager = plateManager,
+                       let activeVariant = shot.promptVariants.first(where: { $0.isActive }) {
+                        let masterCharPrompt = activeVariant.generateCleanPrompt(for: shot, plateManager: plateManager, plateFilterMode: PlateFilterMode.masterCharacterOnly)
+                        NSPasteboard.general.clearContents()
+                        NSPasteboard.general.setString(masterCharPrompt, forType: .string)
+                        print("📋 Copied prompt with master character plates only to clipboard")
+                    }
+                }
+                .buttonStyle(.bordered)
+                .foregroundColor(.blue)
+
+                Button("Master All") {
+                    // Copy prompt with master character and master environment plates
+                    if let shot = shot, let plateManager = plateManager,
+                       let activeVariant = shot.promptVariants.first(where: { $0.isActive }) {
+                        let masterAllPrompt = activeVariant.generateCleanPrompt(for: shot, plateManager: plateManager, plateFilterMode: PlateFilterMode.masterCharacterAndEnvironment)
+                        NSPasteboard.general.clearContents()
+                        NSPasteboard.general.setString(masterAllPrompt, forType: .string)
+                        print("📋 Copied prompt with master character and environment plates to clipboard")
+                    }
+                }
+                .buttonStyle(.bordered)
+                .foregroundColor(.purple)
 
                 Button("Close") {
                     onDismiss()
