@@ -13,8 +13,8 @@
       "description" : "Film color palette psychological progression"
     },
     "temperature_progression" : {
-      "description" : "Environmental and body temperature changes",
-      "current_percentage" : 28
+      "current_percentage" : 28,
+      "description" : "Environmental and body temperature changes"
     },
     "light_sources" : {
       "current_percentage" : 5,
@@ -29,16 +29,16 @@
       "description" : "Traditional food corruption enabling breakdown"
     },
     "stain_progression" : {
-      "current_percentage" : 35,
-      "description" : "F4 Liquid contamination marking progression"
+      "description" : "F4 Liquid contamination marking progression",
+      "current_percentage" : 35
     },
     "reality_coherence" : {
       "description" : "Stability of physical laws and logic",
       "current_percentage" : 65
     },
     "predatory_landscape" : {
-      "description" : "Environmental hostility toward human survival",
-      "current_percentage" : 15
+      "current_percentage" : 15,
+      "description" : "Environmental hostility toward human survival"
     },
     "industrial_contamination" : {
       "description" : "British\/Danish imperial materials spreading",
@@ -49,12 +49,12 @@
       "description" : "Atmospheric assault on family survival"
     },
     "character_shadow_behavior" : {
-      "current_percentage" : 8,
-      "description" : "Shadow physics revealing animal truth"
+      "description" : "Shadow physics revealing animal truth",
+      "current_percentage" : 8
     },
     "klettagja_formation" : {
-      "current_percentage" : 15,
-      "description" : "Cliff cleft development for Sigrid's escape"
+      "description" : "Cliff cleft development for Sigrid's escape",
+      "current_percentage" : 15
     },
     "house_dimensions" : {
       "current_percentage" : 0,
@@ -65,5 +65,5 @@
       "current_percentage" : 32
     }
   },
-  "last_updated" : "2025-09-23T06:54:50Z"
+  "last_updated" : "2025-09-23T06:55:40Z"
 }

@@ -816,12 +816,6 @@ struct ClaudeConversationWindow: View {
                [If JSON + TXT: Best of both - preserves plate system AND provides immediate test file]
                [If TXT-Only: Static prompt for cases where plates themselves need modification]
 
-               Testing Workflow:
-               1. Copy the TXT file content
-               2. Paste into VEO3 to test compliance
-               3. If it passes, add the JSON variant to your shot
-               4. If it fails, report back for further sanitization
-
                VEO3 Compliance Confidence: [High/Medium/Low]
                =========================================
 
