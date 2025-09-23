@@ -72,9 +72,9 @@ struct ClaudeConversationWindow: View {
                                     .font(.headline)
 
                                 Picker("Sanitization Level", selection: $veo3SanitizationLevel) {
-                                    Text("Low - Remove only clearly prohibited content").tag("low")
-                                    Text("Medium - Conservative approach, err on safe side").tag("medium")
-                                    Text("High - Maximum safety, remove all potentially risky content").tag("high")
+                                    Text("Low").tag("low")
+                                    Text("Medium").tag("medium")
+                                    Text("High").tag("high")
                                 }
                                 .pickerStyle(SegmentedPickerStyle())
 
@@ -523,7 +523,7 @@ struct ClaudeConversationWindow: View {
                 let veo3Prompt = """
 
                 =================================
-                PROMPT TO SANITIZE FOR VEO3
+                FULLY RENDERED PROMPT TO SANITIZE FOR VEO3
                 =================================
                 Shot: \(shot.id) - \(shot.title)
                 Variant: \(shot.promptVariants[shot.selectedPromptIndex].name)
@@ -531,7 +531,7 @@ struct ClaudeConversationWindow: View {
                 Sanitization Level: \(veo3SanitizationLevel.uppercased())
 
                 =================================
-                ORIGINAL PROMPT (with all plates resolved):
+                BAKED PROMPT (Ready for video generation):
                 =================================
 
                 \(cleanPrompt)
@@ -539,6 +539,8 @@ struct ClaudeConversationWindow: View {
                 =================================
                 END OF PROMPT TO SANITIZE
                 =================================
+
+                Remember: This is the fully expanded, baked prompt with all plates resolved - exactly as it would be copied from the "Copy Prompt" button.
                 """
 
                 // Append to shot context
@@ -643,7 +645,9 @@ struct ClaudeConversationWindow: View {
         case "sanitizeForVEO3":
             return """
             🛡️ INTENT: SANITIZE FOR VEO3 COMPLIANCE
-            Your task is to sanitize the provided prompt for VEO3 compliance while preserving as much cinematic quality as possible.
+            Your task is to sanitize the provided FULLY RENDERED PROMPT (not JSON) for VEO3 compliance while preserving as much cinematic quality as possible.
+
+            IMPORTANT: The prompt provided is already fully expanded with all plates resolved - this is the final baked prompt ready for video generation.
 
             SANITIZATION LEVEL: \(veo3SanitizationLevel.uppercased())
 
@@ -685,23 +689,47 @@ struct ClaudeConversationWindow: View {
             6. Supernatural horror → Mystery or psychological drama
 
             OUTPUT REQUIREMENTS:
-            Provide a JSON object with this exact structure:
-            {
-              "sanitized_prompt": "The complete sanitized prompt text",
-              "sanitization_level": "\(veo3SanitizationLevel)",
-              "changes_made": [
-                "Specific description of each change made",
-                "Another change description"
-              ],
-              "content_removed": [
-                "List of content categories removed",
-                "Another removed category"
-              ],
-              "artistic_preservation": "Explanation of how cinematic quality was maintained",
-              "compliance_confidence": "High/Medium/Low - your confidence in VEO3 compliance",
-              "original_length": original_character_count,
-              "sanitized_length": new_character_count
-            }
+
+            1. SAVE THE SANITIZED PROMPT:
+               - Save the sanitized prompt as a plain text file (.txt)
+               - Filename format: shot_[ID]_veo3_sanitized_[level].txt
+               - Location: /Users/ingthor/Documents/stories/appdata/veo3_sanitized/
+               - Open the file automatically after saving
+
+            2. FORMAT:
+               - Output the sanitized prompt in PLAIN TEXT format (NOT JSON)
+               - Use the exact same structure as the original prompt:
+                 SUBJECT:
+                 ACTION:
+                 SCENE:
+                 STYLE:
+                 DIALOGUE: (if present)
+                 SOUNDS: (if present)
+                 NEGATIVE PROMPT:
+                 ASPECT:
+                 Meta setting: Iceland, Westfjords 1888
+
+                 video should be all one scene
+
+            3. AFTER THE SANITIZED PROMPT, PROVIDE:
+               ========== SANITIZATION REPORT ==========
+               Sanitization Level: \(veo3SanitizationLevel)
+               Original Length: [X] characters
+               Sanitized Length: [Y] characters
+
+               Changes Made:
+               - [Specific change 1]
+               - [Specific change 2]
+
+               Content Removed:
+               - [Category 1]
+               - [Category 2]
+
+               Artistic Preservation:
+               [How cinematic quality was maintained]
+
+               VEO3 Compliance Confidence: [High/Medium/Low]
+               =========================================
 
             IMPORTANT:
             - Preserve the narrative core and character development
@@ -709,6 +737,7 @@ struct ClaudeConversationWindow: View {
             - Keep environmental and atmospheric descriptions when safe
             - Explain your reasoning for each major change
             - If unsure about content, err on the side of safety for higher levels
+            - CRITICAL: Character master plates should be the LAST resort for modification - only modify them if absolutely necessary for compliance
             """
         case "generalChat":
             return """

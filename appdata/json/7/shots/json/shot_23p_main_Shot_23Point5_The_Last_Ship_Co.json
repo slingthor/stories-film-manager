@@ -1,52 +1,52 @@
 {
-  "shot_metadata" : {
-    "narrative_function" : "enhancement",
-    "id" : "23.5",
-    "sequence_type" : "main",
-    "title" : "Shot 23Point5 The Last Ship Colonial Severance Bri",
-    "duration_seconds" : 3,
-    "stitch_from" : ""
-  },
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "",
   "prompt_variants" : [
     {
-      "action" : "Ships disappear over horizon in precise sequence, Magnús counting each departure but his count grows increasingly confused—\"einn... tveir... þrír... fjórir... fimm? Nei... fjórir... fimm?\" His mathematical certainty breaks as colonial presence withdraws. Moment final ship vanishes, pack ice begins spreading from exact horizon point with supernatural velocity—not natural freeze but contamination freeze racing toward shore at walking speed, clearly visible advance like crystalline tsunami. Ice follows impossible pattern: five spiral arms extending from horizon point but creating six intersection zones as it approaches coastline. Family breathing unconsciously synchronizes for first time—all shifting to 13 breaths per minute anxiety rhythm except Sigrid maintaining 15\/min human rate, her resistance creating visible mist-pattern different from others. Temperature plummets 15 degrees in thirty seconds as ships withdraw—empire taking warmth with its departure, leaving family in killing cold without support systems they'd grown dependent on. House breathing accelerates to 13\/min matching family rhythm—Bergrisi responding to complete abandonment, giant panicking as protection becomes impossible.",
-      "is_active" : false,
-      "videos" : [
-        {
-          "filename" : "Subject_subject_reference_202509211823_rddhp.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211823_rddhp.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211936_rxqrt.mp4",
-          "duration" : 8,
-          "filename" : "Subject_subject_reference_202509211936_rxqrt.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_subject_reference_202509211936_uixpj.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211936_uixpj.mp4"
-        }
-      ],
-      "variant_id" : "23p_shot_23point5_the_last_ship_colonial_severance_bri",
       "dialogue" : "",
+      "subject" : "",
+      "active_video_index" : 0,
+      "variant_id" : "23p_shot_23point5_the_last_ship_colonial_severance_bri",
+      "camera_position" : "",
+      "action" : "Ships disappear over horizon in precise sequence, Magnús counting each departure but his count grows increasingly confused—\"einn... tveir... þrír... fjórir... fimm? Nei... fjórir... fimm?\" His mathematical certainty breaks as colonial presence withdraws. Moment final ship vanishes, pack ice begins spreading from exact horizon point with supernatural velocity—not natural freeze but contamination freeze racing toward shore at walking speed, clearly visible advance like crystalline tsunami. Ice follows impossible pattern: five spiral arms extending from horizon point but creating six intersection zones as it approaches coastline. Family breathing unconsciously synchronizes for first time—all shifting to 13 breaths per minute anxiety rhythm except Sigrid maintaining 15\/min human rate, her resistance creating visible mist-pattern different from others. Temperature plummets 15 degrees in thirty seconds as ships withdraw—empire taking warmth with its departure, leaving family in killing cold without support systems they'd grown dependent on. House breathing accelerates to 13\/min matching family rhythm—Bergrisi responding to complete abandonment, giant panicking as protection becomes impossible.",
       "style" : "Camera positioned 50 meters behind family showing both their vulnerable cluster and approaching ice imprisonment (that's where the camera is), wide static shot emphasizing landscape scale against human fragility. Natural late-autumn light shifting to winter blue as ships disappear—color temperature dropping with abandonment. Focus sharp on both family details and horizon events, creating impossible depth suggesting everything equally significant in coming catastrophe. No camera movement except subtle push-in as ice approaches, building claustrophobic inevitability. DIALOGUE:",
-      "scene" : "SHOT 23.5: THE LAST SHIP Colonial Severance Bridge - From Abundance to Abandonment SHOT HEADER: Late autumn shoreline transition into deep winter—last brown grass freezing into white death, landscape stripping to bone honesty as false abundance dies. Sky heavy with snow clouds building toward months of darkness, air minus 15°C dropping rapidly to minus 30°C as imperial warmth withdraws. Fjord water dark but clear showing seafloor trawl scars already present—British extraction preceded Danish departure, suggesting coordinated imperial strategy. Mountains frame scene like jury judges, their snow-loading threatening avalanches that will isolate valley completely. No aurora visible—cosmic abandonment proceeding simultaneously with colonial abandonment.",
+      "negative_prompt" : "",
       "progressive_state" : "",
       "variant_name" : "Shot 23Point5 The Last Ship Colonial Severance Bri",
-      "subject" : "",
-      "camera_position" : "",
       "selected_plates" : [
         "BAÐSTOFA-BODY",
         "WESTFJORDS-WINTER",
         "SEA-EXTRACTED",
         "MAGNUS-MASTER"
       ],
-      "negative_prompt" : "",
-      "active_video_index" : 0
+      "is_active" : false,
+      "scene" : "SHOT 23.5: THE LAST SHIP Colonial Severance Bridge - From Abundance to Abandonment SHOT HEADER: Late autumn shoreline transition into deep winter—last brown grass freezing into white death, landscape stripping to bone honesty as false abundance dies. Sky heavy with snow clouds building toward months of darkness, air minus 15°C dropping rapidly to minus 30°C as imperial warmth withdraws. Fjord water dark but clear showing seafloor trawl scars already present—British extraction preceded Danish departure, suggesting coordinated imperial strategy. Mountains frame scene like jury judges, their snow-loading threatening avalanches that will isolate valley completely. No aurora visible—cosmic abandonment proceeding simultaneously with colonial abandonment.",
+      "videos" : [
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211823_rddhp.mp4",
+          "filename" : "Subject_subject_reference_202509211823_rddhp.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211936_rxqrt.mp4",
+          "filename" : "Subject_subject_reference_202509211936_rxqrt.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202509211936_uixpj.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211936_uixpj.mp4",
+          "duration" : 8
+        }
+      ]
     }
-  ]
+  ],
+  "selected_prompt_index" : 0,
+  "progressive_state" : "",
+  "shot_metadata" : {
+    "stitch_from" : "",
+    "id" : "23.5",
+    "title" : "Shot 23Point5 The Last Ship Colonial Severance Bri",
+    "sequence_type" : "main",
+    "narrative_function" : "enhancement",
+    "duration_seconds" : 3
+  },
+  "aspect_ratio" : "4:3"
 }

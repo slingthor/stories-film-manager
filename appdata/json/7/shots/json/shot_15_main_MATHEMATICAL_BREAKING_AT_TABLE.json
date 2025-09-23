@@ -1,23 +1,16 @@
 {
   "progressive_state" : "House 13\/min + 60bpm | Mathematics failing | Camera frost 9% | surreal visual | Watching: House counting wrong",
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "title" : "MATHEMATICAL BREAKING AT TABLE",
-    "stitch_from" : "",
-    "sequence_type" : "main_story",
-    "narrative_function" : "House 13\/min + 60bpm | Mathematics failing | Camer...",
-    "id" : "15",
-    "duration_seconds" : 8
-  },
-  "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
+      "variant_name" : "Primary - MATHEMATICAL BREAKING AT TABLE",
+      "variant_id" : "15_story_primary",
+      "scene" : "Table, 6:15 AM, lamp barely alive. Temperature -12°C, breath from six sources visible though five people. The mathematics visibly breaking - different counts for different things. Cross patterns in window frost seem to shift with each count. Oil lamp has maybe 10 minutes left, wick showing black.",
+      "camera_position" : "Series of quick counts from different angles, camera position shifting",
+      "dialogue" : "(Magnús counting): \"Einn, tveir, þrír, fjórir, fimm... sex?\" (Counting again): \"Fimm... nei, sex... nei...\" (Frustrated): \"Hversu margir erum við?\" (How many are we?) (Sigrid, quiet): \"Það fer eftir því\" (That depends)",
       "negative_prompt" : "no subtitles, show six evidence versus five people, maintain confusion, documentary observation, no text overlays, no screen space overlays, no text, no modern elements except if prompt explicitly mentions a modern element, no characters or other scenes floating on top of main scene",
+      "style" : "Series of quick counts from different angles, camera position shifting (that's where the camera is), documentary of mathematical impossibility.",
       "progressive_state" : "",
       "is_active" : false,
-      "variant_id" : "15_story_primary",
-      "subject" : "The family returning to table from storage room, but as they sit, the count breaks - [MAGNÚS] counts aloud \"einn, tveir, þrír, fjórir, fimm\" pointing at each person, but six plates are set, six shadows on wall, six breaths visible in cold air, the sixth presence undeniable but unseen.",
-      "scene" : "Table, 6:15 AM, lamp barely alive. Temperature -12°C, breath from six sources visible though five people. The mathematics visibly breaking - different counts for different things. Cross patterns in window frost seem to shift with each count. Oil lamp has maybe 10 minutes left, wick showing black.",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
@@ -26,11 +19,18 @@
         "GUDRUN-COUNTING",
         "BAÐSTOFA-ORGANIC"
       ],
-      "dialogue" : "(Magnús counting): \"Einn, tveir, þrír, fjórir, fimm... sex?\" (Counting again): \"Fimm... nei, sex... nei...\" (Frustrated): \"Hversu margir erum við?\" (How many are we?) (Sigrid, quiet): \"Það fer eftir því\" (That depends)",
-      "variant_name" : "Primary - MATHEMATICAL BREAKING AT TABLE",
-      "camera_position" : "Series of quick counts from different angles, camera position shifting",
-      "action" : "Family resumes positions at table. Guðrún mechanically sets bowls - her hands place six though she looks at five people. Magnús counts them, pointing with tremoring finger (3.5Hz): \"Einn\" (Guðrún), \"Tveir\" (Jón), \"Þrír\" (Lilja), \"Fjórir\" (himself), \"Fimm\" (Sigrid at 11 feet). Finger rises to point at empty space: \"Sex?\" But sixth bowl sits there, sixth shadow on wall, sixth breath visible in cold air. In the water bucket, reflection shows six faces clearly. Magnús shakes head, counts again on fingers, gets five. Counts family, gets five. Counts bowls, gets six. Counts shadows, gets six. The lamp flame flickers with each count, dimmer each time - oil nearly gone. Sigrid watches the sixth space, her hand protective on belly - does she count the unborn? Or something else? Empty clothes in corner arranged as sixth figure. House heartbeat skips - 60bpm stutters, resumes.",
-      "style" : "Series of quick counts from different angles, camera position shifting (that's where the camera is), documentary of mathematical impossibility."
+      "subject" : "The family returning to table from storage room, but as they sit, the count breaks - [MAGNÚS] counts aloud \"einn, tveir, þrír, fjórir, fimm\" pointing at each person, but six plates are set, six shadows on wall, six breaths visible in cold air, the sixth presence undeniable but unseen.",
+      "action" : "Family resumes positions at table. Guðrún mechanically sets bowls - her hands place six though she looks at five people. Magnús counts them, pointing with tremoring finger (3.5Hz): \"Einn\" (Guðrún), \"Tveir\" (Jón), \"Þrír\" (Lilja), \"Fjórir\" (himself), \"Fimm\" (Sigrid at 11 feet). Finger rises to point at empty space: \"Sex?\" But sixth bowl sits there, sixth shadow on wall, sixth breath visible in cold air. In the water bucket, reflection shows six faces clearly. Magnús shakes head, counts again on fingers, gets five. Counts family, gets five. Counts bowls, gets six. Counts shadows, gets six. The lamp flame flickers with each count, dimmer each time - oil nearly gone. Sigrid watches the sixth space, her hand protective on belly - does she count the unborn? Or something else? Empty clothes in corner arranged as sixth figure. House heartbeat skips - 60bpm stutters, resumes."
     }
-  ]
+  ],
+  "selected_prompt_index" : 0,
+  "shot_metadata" : {
+    "title" : "MATHEMATICAL BREAKING AT TABLE",
+    "id" : "15",
+    "duration_seconds" : 8,
+    "sequence_type" : "main_story",
+    "narrative_function" : "House 13\/min + 60bpm | Mathematics failing | Camer...",
+    "stitch_from" : ""
+  },
+  "aspect_ratio" : "4:3"
 }
