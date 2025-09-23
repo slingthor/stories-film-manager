@@ -754,14 +754,23 @@ struct ClaudeConversationWindow: View {
                - Decide whether to output JSON (variant modification) or TXT (baked prompt)
                - EXPLAIN your reasoning clearly
 
-            2. IF OUTPUTTING JSON (Preferred when plates are fine):
+            2. IF CHOOSING JSON APPROACH (Preferred when plates are fine):
+               OUTPUT BOTH FILES:
+
+               A) JSON VARIANT FILE:
                - Save as: shot_[ID]_veo3_sanitized_variant_[level].json
                - Location: /Users/ingthor/Documents/stories/appdata/veo3_sanitized/
                - Format: Complete JSON variant ready to add as new variant
                - Include variant_name with "_veo3_[level]" suffix
-               - Open the file automatically after saving
 
-            3. IF OUTPUTTING TXT (When plates need modification):
+               B) BAKED TXT FILE (For immediate testing):
+               - Save as: shot_[ID]_veo3_sanitized_baked_[level].txt
+               - Location: /Users/ingthor/Documents/stories/appdata/veo3_sanitized/
+               - Format: The fully rendered prompt from the JSON variant
+               - This is for immediate copy/paste testing in VEO3
+               - Open BOTH files automatically after saving
+
+            3. IF CHOOSING TXT-ONLY APPROACH (When plates themselves need modification):
                - Save as: shot_[ID]_veo3_sanitized_baked_[level].txt
                - Location: /Users/ingthor/Documents/stories/appdata/veo3_sanitized/
                - Format: Complete baked prompt in plain text:
@@ -780,8 +789,9 @@ struct ClaudeConversationWindow: View {
 
             4. AFTER THE SANITIZED OUTPUT, PROVIDE:
                ========== SANITIZATION REPORT ==========
-               Output Type: [JSON Variant / Baked TXT]
+               Output Type: [JSON + TXT / TXT-Only]
                Sanitization Level: \(veo3SanitizationLevel)
+               Files Created: [List both filenames]
 
                DECISION REASONING:
                [Explain why you chose JSON vs TXT output]
@@ -803,8 +813,14 @@ struct ClaudeConversationWindow: View {
                [How cinematic quality was maintained]
 
                Workflow Impact:
-               [If JSON: Preserves plate system, future updates will propagate]
-               [If TXT: Static prompt, won't update with plate changes]
+               [If JSON + TXT: Best of both - preserves plate system AND provides immediate test file]
+               [If TXT-Only: Static prompt for cases where plates themselves need modification]
+
+               Testing Workflow:
+               1. Copy the TXT file content
+               2. Paste into VEO3 to test compliance
+               3. If it passes, add the JSON variant to your shot
+               4. If it fails, report back for further sanitization
 
                VEO3 Compliance Confidence: [High/Medium/Low]
                =========================================

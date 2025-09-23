@@ -5,8 +5,8 @@
       "current_percentage" : 5
     },
     "house_consciousness" : {
-      "description" : "Bergrisi awareness and biological responses",
-      "current_percentage" : 35
+      "current_percentage" : 35,
+      "description" : "Bergrisi awareness and biological responses"
     },
     "color_grading" : {
       "current_percentage" : 15,
@@ -25,28 +25,28 @@
       "description" : "Mathematical physics violations spreading"
     },
     "hakarl_contamination" : {
-      "description" : "Traditional food corruption enabling breakdown",
-      "current_percentage" : 18
+      "current_percentage" : 18,
+      "description" : "Traditional food corruption enabling breakdown"
     },
     "stain_progression" : {
-      "description" : "F4 Liquid contamination marking progression",
-      "current_percentage" : 35
+      "current_percentage" : 35,
+      "description" : "F4 Liquid contamination marking progression"
     },
     "reality_coherence" : {
       "description" : "Stability of physical laws and logic",
       "current_percentage" : 65
     },
     "predatory_landscape" : {
-      "current_percentage" : 15,
-      "description" : "Environmental hostility toward human survival"
+      "description" : "Environmental hostility toward human survival",
+      "current_percentage" : 15
     },
     "industrial_contamination" : {
-      "current_percentage" : 22,
-      "description" : "British\/Danish imperial materials spreading"
+      "description" : "British\/Danish imperial materials spreading",
+      "current_percentage" : 22
     },
     "weather_hostility" : {
-      "description" : "Atmospheric assault on family survival",
-      "current_percentage" : 10
+      "current_percentage" : 10,
+      "description" : "Atmospheric assault on family survival"
     },
     "character_shadow_behavior" : {
       "current_percentage" : 8,
@@ -61,9 +61,9 @@
       "description" : "Baðstofa interior space expansion sensation"
     },
     "breathing_coordination" : {
-      "current_percentage" : 32,
-      "description" : "Family respiratory synchronization progression"
+      "description" : "Family respiratory synchronization progression",
+      "current_percentage" : 32
     }
   },
-  "last_updated" : "2025-09-23T06:53:30Z"
+  "last_updated" : "2025-09-23T06:54:50Z"
 }
