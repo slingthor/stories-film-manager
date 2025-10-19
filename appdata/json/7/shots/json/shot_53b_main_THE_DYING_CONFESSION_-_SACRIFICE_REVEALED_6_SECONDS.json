@@ -1,16 +1,23 @@
 {
+  "progressive_state" : "Giant dying | Truth spoken | Camera frost 43.5% | Death rattle | Watching: All understand",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "(House, through materials): \"Ð‰g dey... fyrir ykkur...\" \"Til að þið getið breyst\" (Sigrid, understanding): \"Þú ert að gefa okkur leið út\"",
-      "subject" : "The house continuing its confession through grinding stone and creaking wood: \"Ð‰g dey... fyrir ykkur... til að þið getið breyst\" (I die... for you... so you can transform), revealing the giant's death enables their metamorphosis.",
       "active_video_index" : 0,
+      "videos" : [
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211847_qxyu6.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_house_202509211847_qxyu6.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211847_2jpgv.mp4",
+          "filename" : "Subject_the_house_202509211847_2jpgv.mp4"
+        }
+      ],
       "variant_id" : "53b_story_primary",
-      "camera_position" : "Push through speaking architecture",
-      "style" : "Push through speaking architecture (that's where the camera is), sacrifice documented.",
       "action" : "PUSH THROUGH vibrating space toward center. House speaks through materials: stone foundation grinding forms \"Ð‰G DEY,\" wood beams creaking spell \"FYRIR YKKUR,\" turf walls breathing whisper \"TIL AÐ ÞIÐ GETIÐ BREYST.\" The giant is dying so they can transform - death enabling metamorphosis. Floor shows veins now - red lines pulsing beneath earth, blood vessels visible. Heartbeat dropping: 70bpm... 60... 50. Breathing more labored: 6\/min... 5... 4. With each word, house ages visibly - new cracks spreading, moss falling, stones loosening. The family understands: they're in dying god's body. Their transformation requires his death. Sigrid touches wall, feels pulse weakening. Her hand comes away wet - wall perspiration mixed with blood. The house loves her specifically, dying to free her.",
-      "negative_prompt" : "",
-      "progressive_state" : "",
-      "variant_name" : "Primary - THE DYING CONFESSION - SACRIFICE REVEALED 6 SECONDS",
       "selected_plates" : [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
@@ -19,31 +26,25 @@
         "GUDRUN-RETURNING",
         "BAÐSTOFA-CRYSTALLIZING"
       ],
+      "camera_position" : "Push through speaking architecture",
+      "subject" : "The house continuing its confession through grinding stone and creaking wood: \"Ð‰g dey... fyrir ykkur... til að þið getið breyst\" (I die... for you... so you can transform), revealing the giant's death enables their metamorphosis.",
       "scene" : "Interior becoming obviously body cavity. Deterioration visible. Giant's sacrifice manifesting.",
+      "dialogue" : "(House, through materials): \"Ð‰g dey... fyrir ykkur...\" \"Til að þið getið breyst\" (Sigrid, understanding): \"Þú ert að gefa okkur leið út\"",
+      "style" : "Push through speaking architecture (that's where the camera is), sacrifice documented.",
+      "negative_prompt" : "",
+      "variant_name" : "Primary - THE DYING CONFESSION - SACRIFICE REVEALED 6 SECONDS",
       "is_active" : false,
-      "videos" : [
-        {
-          "duration" : 8,
-          "filename" : "Subject_the_house_202509211847_qxyu6.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211847_qxyu6.mp4"
-        },
-        {
-          "filename" : "Subject_the_house_202509211847_2jpgv.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211847_2jpgv.mp4"
-        }
-      ]
+      "progressive_state" : ""
     }
   ],
-  "selected_prompt_index" : 0,
-  "progressive_state" : "Giant dying | Truth spoken | Camera frost 43.5% | Death rattle | Watching: All understand",
+  "aspect_ratio" : "4:3",
   "shot_metadata" : {
-    "stitch_from" : "",
+    "duration_seconds" : 6,
     "id" : "53b",
-    "title" : "THE DYING CONFESSION - SACRIFICE REVEALED 6 SECONDS",
-    "sequence_type" : "main_story",
+    "needs_improvements" : false,
     "narrative_function" : "Giant dying | Truth spoken | Camera frost 43.5% | ...",
-    "duration_seconds" : 6
-  },
-  "aspect_ratio" : "4:3"
+    "stitch_from" : "",
+    "title" : "THE DYING CONFESSION - SACRIFICE REVEALED 6 SECONDS",
+    "sequence_type" : "main_story"
+  }
 }

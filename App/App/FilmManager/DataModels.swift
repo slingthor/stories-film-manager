@@ -223,6 +223,7 @@ class FilmManager: ObservableObject {
             shot.duration = (metadata["duration_seconds"] as? Int) ?? 8
             shot.narrativeFunction = metadata["narrative_function"] as? String ?? ""
             shot.progressiveState = json["progressive_state"] as? String ?? ""
+            shot.needsImprovements = (metadata["needs_improvements"] as? Bool) ?? false
             
             // Load aspect ratio
             let aspectRatio = json["aspect_ratio"] as? String ?? "16:9"
@@ -837,7 +838,8 @@ class FilmShot: ObservableObject, Identifiable, Equatable {
     @Published var stitchFrom: String = ""
     @Published var narrativeFunction: String = ""
     @Published var originalFilePath: String? = nil
-    
+    @Published var needsImprovements: Bool = false
+
     init(id: String, title: String, sequenceType: String, position: Double, 
          subject: String, action: String, scene: String, style: String) {
         self.id = id
@@ -2896,7 +2898,8 @@ class FilmFileManager {
             let duration = (metadata["duration_seconds"] as? Int) ?? 8
             let narrativeFunction = metadata["narrative_function"] as? String ?? ""
             let stitchFrom = metadata["stitch_from"] as? String ?? ""
-            
+            let needsImprovements = (metadata["needs_improvements"] as? Bool) ?? false
+
             // Calculate position based on sequence and order
             let position = calculatePosition(for: id, sequenceType: sequenceType)
             
@@ -2915,6 +2918,7 @@ class FilmFileManager {
             shot.duration = duration
             shot.narrativeFunction = narrativeFunction
             shot.stitchFrom = stitchFrom
+            shot.needsImprovements = needsImprovements
             shot.progressiveState = jsonDict["progressive_state"] as? String ?? ""
             let aspectRatio = jsonDict["aspect_ratio"] as? String ?? "16:9"
             shot.aspectRatio = aspectRatio
@@ -3214,7 +3218,8 @@ class FilmFileManager {
             "sequence_type": shot.sequenceType,
             "duration_seconds": shot.duration,
             "narrative_function": shot.narrativeFunction,
-            "stitch_from": shot.stitchFrom
+            "stitch_from": shot.stitchFrom,
+            "needs_improvements": shot.needsImprovements
         ]
         
         json["progressive_state"] = shot.progressiveState

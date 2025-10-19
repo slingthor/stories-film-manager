@@ -1,0 +1,22 @@
+{
+  "variant_id": "42b_story_pathetic_offering_veo3_medium",
+  "variant_name": "Primary - THE PATHETIC OFFERING 5 SECONDS_veo3_medium",
+  "subject": "[MAGNÚS] stepping inside, door slamming behind him, unwrapping his offering with numb hands - the small, weathered seal fin, frost crystals forming on its surface, holding it up hopefully while family sees truth: this is all he brought.",
+  "action": "Door slams, cutting storm. Sudden silence except breathing. Magnús steps forward, aged legs unsteady. Unwraps cloth with numb, frozen hands - clumsy, can't feel fabric. Reveals fin: smaller than hand, darkened and weathered by time. Holds it up. \"Ég fann...\" (I found...) but stops. Sees their eyes. Guðrún's silent judgment. Children's understanding. Sigrid's distance (still exactly 11 feet even in réttir). The fin's surface glistens with frost. PUSH IN on fin, showing its meager size and poor condition. His aged face above it, white hair with ice, eyes sunken from exhaustion. The provider who has little to provide. In his peripheral vision: notices family arranged differently. Pentagon formation. Something happened while he was gone. His inadequacy clear - unsuccessful at sea, unable to help at home.",
+  "scene": "Interior, door closed but cold remaining. His offering centered in frame. Family watching from their positions. The room feels larger, emptier. Shadows stretch across the floor.",
+  "style": "Push in on fin while keeping his weathered face in frame above (that's where the camera is), documenting the moment of realization.",
+  "camera_position": "Push in on fin while keeping his face in frame above",
+  "dialogue": "(Magnús, starting hopeful): \"Ég fann...\" (Realizing): \"Þetta er... þetta er allt\" (Noticing arrangement): \"Hvað gerðist?\"",
+  "selected_plates": [
+    "MAGNUS-PREDATOR",
+    "SIGRID-CORNERED",
+    "LILJA-ACCEPTING",
+    "JON-TEMPORAL",
+    "GUDRUN-BEATEN",
+    "BAÐSTOFA-CLEFT",
+    "STOFA-BODY"
+  ],
+  "negative_prompt": "no modern elements, no graphic decay, no disturbing imagery, no insects, no gore, maintain 1888 authenticity",
+  "progressive_state": "House still holding breath | Disappointment visible | Camera frost 27.5% | Provider's inadequacy | Watching: All eyes on him",
+  "is_active": false
+}

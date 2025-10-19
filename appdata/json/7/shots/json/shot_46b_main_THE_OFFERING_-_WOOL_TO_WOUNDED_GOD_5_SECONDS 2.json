@@ -1,42 +1,43 @@
 {
+  "progressive_state" : "Exchange attempted | Wool given | Camera frost 33.5% | Comfort offered | Watching: Water observes",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "(Guðrún): \"Shhh... ég veit... ég veit\" (I know... I know)",
-      "subject" : "[GUÐRÚN] pulling the wool from her wrists - now 80mm long - and reaching up to press it against the Bull's wounds where harpoons enter skull, the white wool immediately turning black from contaminated blood but seeming to ease his pain.",
       "active_video_index" : 0,
+      "videos" : [
+        {
+          "filename" : "Subject_gurn_pulling_202509211904_e28co.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_pulling_202509211904_e28co.mp4",
+          "duration" : 8
+        }
+      ],
       "variant_id" : "46b_story_primary",
-      "camera_position" : "Overhead showing ritual pattern of comfort",
       "action" : "OVERHEAD SHOT looking down at polynya edge. Guðrún's small figure beside Bull's massive head. She pulls wool from both wrists - continuous now, like unraveling herself. White fibers against black water. Reaches up (standing on toes) to nearest harpoon wound. Presses wool against where brass enters skull. Wool immediately absorbs contamination - turns black, then green, then starts smoking slightly. But Bull's eyes close in relief. The industrial poison being drawn out, even temporarily. She continues, wrapping wool around each harpoon base. Her wrists bleeding now where wool emerged, but she doesn't stop. From above: pattern visible - her movements create spiral around Bull, her footprints in snow forming sixth intersection point again. Wool runs out at 80mm. Her wrists now just raw openings. But Bull calmer. Breathing slowed to 8\/min. The wool smoking from absorbed contamination, might catch fire.",
-      "style" : "Overhead showing ritual pattern of comfort (that's where the camera is), maternal gesture documented.",
-      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
-      "progressive_state" : "",
-      "variant_name" : "Primary - THE OFFERING - WOOL TO WOUNDED GOD 5 SECONDS",
       "selected_plates" : [
         "GUDRUN-DIVINE",
         "SEA-CONTAMINATED",
         "WESTFJORDS-FJORD",
         "WESTFJORDS-WINTER"
       ],
-      "is_active" : false,
+      "subject" : "[GUÐRÚN] pulling the wool from her wrists - now 80mm long - and reaching up to press it against the Bull's wounds where harpoons enter skull, the white wool immediately turning black from contaminated blood but seeming to ease his pain.",
+      "camera_position" : "Overhead showing ritual pattern of comfort",
+      "dialogue" : "(Guðrún): \"Shhh... ég veit... ég veit\" (I know... I know)",
       "scene" : "Aerial view of polynya, two figures in snow. Spiral pattern visible. Blood from her wrists dotting snow.",
-      "videos" : [
-        {
-          "filename" : "Subject_gurn_pulling_202509211904_e28co.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_pulling_202509211904_e28co.mp4"
-        }
-      ]
+      "style" : "Overhead showing ritual pattern of comfort (that's where the camera is), maternal gesture documented.",
+      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "is_active" : false,
+      "progressive_state" : "",
+      "variant_name" : "Primary - THE OFFERING - WOOL TO WOUNDED GOD 5 SECONDS"
     }
   ],
-  "selected_prompt_index" : 0,
-  "progressive_state" : "Exchange attempted | Wool given | Camera frost 33.5% | Comfort offered | Watching: Water observes",
+  "aspect_ratio" : "4:3",
   "shot_metadata" : {
-    "stitch_from" : "",
+    "duration_seconds" : 5,
     "id" : "46b",
-    "title" : "THE OFFERING - WOOL TO WOUNDED GOD 5 SECONDS",
-    "sequence_type" : "main_story",
+    "needs_improvements" : false,
     "narrative_function" : "Exchange attempted | Wool given | Camera frost 33....",
-    "duration_seconds" : 5
-  },
-  "aspect_ratio" : "4:3"
+    "stitch_from" : "",
+    "title" : "THE OFFERING - WOOL TO WOUNDED GOD 5 SECONDS",
+    "sequence_type" : "main_story"
+  }
 }

@@ -315,8 +315,8 @@ struct HoverPreviewPopoverContent: View {
             // Create looper for continuous playback
             let looper = AVPlayerLooper(player: player, templateItem: playerItem)
 
-            // Set volume to 0 for hover preview
-            player.volume = 0
+            // Set volume to 0.5 (50%) for hover preview
+            player.volume = 0.5
 
             DispatchQueue.main.async {
                 self.player = player

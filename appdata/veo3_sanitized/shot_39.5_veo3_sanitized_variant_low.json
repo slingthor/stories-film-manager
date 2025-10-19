@@ -1,0 +1,20 @@
+{
+  "variant_id": "39p5_children_winter_activities_veo3_low",
+  "variant_name": "Children Winter Activities VEO3 Low",
+  "subject": "",
+  "action": "Children engaged in traditional winter indoor activities—Jón carefully working with small pieces of leather and fabric for craft projects, using smooth stones as tools with practiced concentration suggesting hours of patient work. Lilja methodically sorting and organizing wool fibers for traditional textile preparation, separating strands with careful precision. Both children working in focused silence—the deep concentration of winter indoor activities where conversation is minimal, communication through occasional glances and gestures. Both arranging their materials in traditional storage containers with the careful precision of children mimicking adult domestic routines. Their breathing synchronized at steady childhood rhythm, occasionally shifting as they concentrate on particularly delicate work.",
+  "scene": "SHOT 39.5: THE CHILDREN'S WINTER ACTIVITIES - Dark corner of baðstofa where children engage in traditional winter crafts away from main family activity, oil lamp providing warm but insufficient light making their focused work appear as shadow play to casual observation. Furniture showing normal wear patterns—chair legs smooth from years of use, door frame worn at adult height from generations passing through. Traditional craft containers arranged with precision around work materials, maintaining domestic order despite winter's challenges. House breathing at slow winter rhythm, walls showing condensation from temperature differential creating moisture that makes materials more pliable for crafting. Establishes children's adaptation to long winter indoor confinement, developing patience and focus through traditional activities that occupy hands and minds during dark months.",
+  "style": "Camera positioned at children's eye level 4 feet from craft activity (that's where the camera is), intimate enough to capture concentration details, wide enough for systematic work patterns. Static shot emphasizing methodical routine of winter indoor activities, warm lamplight from oil lamp creating dramatic chiaroscuro that emphasizes their focused expressions while softening harsh realities. Focus sharp on hands working with materials and concentrated faces, showing childhood adaptation to winter confinement through traditional crafts.",
+  "camera_position": "",
+  "dialogue": "",
+  "selected_plates": [
+    "BAÐSTOFA-BODY",
+    "WESTFJORDS-WINTER",
+    "LILJA-ACCEPTING",
+    "JON-EMERGING",
+    "STOFA-BODY"
+  ],
+  "negative_prompt": "no modern elements, no screen space overlays, no fullscreen overlays, no UI elements, no trim no edit",
+  "progressive_state": "",
+  "is_active": false
+}

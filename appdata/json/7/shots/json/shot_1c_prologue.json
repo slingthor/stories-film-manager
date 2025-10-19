@@ -1,56 +1,57 @@
 {
   "prompt_variants" : [
     {
-      "variant_id" : "1c_story_primary",
+      "active_video_index" : 1,
       "videos" : [
         {
-          "filename" : "Subject_view_from_202509141903_awc7p.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202509141903_awc7p.mp4",
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202509141903_awc7p.mp4"
+          "filename" : "Subject_view_from_202509141903_awc7p.mp4"
         },
         {
-          "duration" : 8,
+          "filename" : "Subject_view_from_202509141903_1w1jw.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202509141903_1w1jw.mp4",
-          "filename" : "Subject_view_from_202509141903_1w1jw.mp4"
-        },
-        {
-          "filename" : "Subject_view_from_202509141903_sqbh6.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202509141903_sqbh6.mp4",
           "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202509141903_qpatn.mp4",
+          "duration" : 8,
+          "filename" : "Subject_view_from_202509141903_sqbh6.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202509141903_sqbh6.mp4"
+        },
+        {
           "filename" : "Subject_view_from_202509141903_qpatn.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202509141903_qpatn.mp4",
           "duration" : 8
         }
       ],
-      "variant_name" : "Blood Navigation System",
-      "dialogue" : "None",
-      "subject" : "View from clifftop showing the whale's blood trail in the ocean forming a direct red path toward the black sand beach, the three boats following the trail, the whale's shadow visible beneath the surface moving steadily shoreward.",
-      "negative_prompt" : "no subtitles, show coherent blood trail, whale shadow visible underwater, 1080p",
-      "scene" : "View from clifftop, mid-morning. Ocean with blood trail. Boats following. Whale shadow underwater. Clear day.",
-      "camera_position" : "Clifftop high angle showing complete blood trail, that's where the camera is",
+      "variant_id" : "1c_story_primary",
+      "action" : "High angle from cliff. Blood trail spreads across ocean surface, bright red ribbon in blue water. Trail leads straight to beach, no curves. Whale's shadow visible underwater, massive dark shape 30 feet down. Still alive, swimming home to die. Three boats follow, oars moving in perfect rhythm. , now 50 feet across. Other sea life follows in the blood - seabirds diving, seals surfacing, fish jumping. All following the dying whale. From cliff, can see entire journey mapped in blood. Trail doesn't disperse, stays coherent, bright red. Whale surfaces once to breathe, blowhole spray mixed with blood, pink mist. Continues toward shore. Knows exactly where to beach itself. The blood trail behind looks like an arrow pointing at the village. Sun makes blood appear to glow.",
       "selected_plates" : [
         "SEA-ABUNDANT",
         "WESTFJORDS-BEACH",
         "WESTFJORDS-CLIFF"
       ],
-      "action" : "High angle from cliff. Blood trail spreads across ocean surface, bright red ribbon in blue water. Trail leads straight to beach, no curves. Whale's shadow visible underwater, massive dark shape 30 feet down. Still alive, swimming home to die. Three boats follow, oars moving in perfect rhythm. , now 50 feet across. Other sea life follows in the blood - seabirds diving, seals surfacing, fish jumping. All following the dying whale. From cliff, can see entire journey mapped in blood. Trail doesn't disperse, stays coherent, bright red. Whale surfaces once to breathe, blowhole spray mixed with blood, pink mist. Continues toward shore. Knows exactly where to beach itself. The blood trail behind looks like an arrow pointing at the village. Sun makes blood appear to glow.",
+      "camera_position" : "Clifftop high angle showing complete blood trail, that's where the camera is",
+      "subject" : "View from clifftop showing the whale's blood trail in the ocean forming a direct red path toward the black sand beach, the three boats following the trail, the whale's shadow visible beneath the surface moving steadily shoreward.",
+      "scene" : "View from clifftop, mid-morning. Ocean with blood trail. Boats following. Whale shadow underwater. Clear day.",
+      "dialogue" : "None",
       "style" : "High angle from cliff showing blood trail path (that's where the camera is), entire journey visible.",
-      "is_active" : false,
+      "negative_prompt" : "no subtitles, show coherent blood trail, whale shadow visible underwater, 1080p",
+      "variant_name" : "Blood Navigation System",
       "progressive_state" : "",
-      "active_video_index" : 0
+      "is_active" : false
     }
   ],
   "selected_prompt_index" : 0,
+  "aspect_ratio" : "1.85:1",
   "progressive_state" : "Whale diving | Trail forming | Camera frost 0% | Death swimming | Watching: Ocean guides",
   "shot_metadata" : {
     "stitch_from" : "",
-    "id" : "1c",
+    "duration_seconds" : 8,
+    "narrative_function" : "Blood mathematics creating navigation system",
     "title" : "Blood Trail Home - Divine Navigation",
     "sequence_type" : "prologue",
-    "narrative_function" : "Blood mathematics creating navigation system",
-    "duration_seconds" : 8
-  },
-  "aspect_ratio" : "1.85:1"
+    "id" : "1c",
+    "needs_improvements" : true
+  }
 }

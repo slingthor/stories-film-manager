@@ -1,46 +1,47 @@
 {
+  "progressive_state" : "Reaching water | Seaweed visible | Camera frost 31.5% | Task beginning | Watching: Water watches back",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "None - just breathing and water sounds",
-      "subject" : "[GUÐRÚN] arriving at the polynya - a perfect black circle in white ice, 20 feet diameter, steam rising despite -30°C, seaweed visible at edges but water too still, too warm, too alive, as if something massive breathes below.",
       "active_video_index" : 0,
+      "videos" : [
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_arriving_202509211906_wn9i.mp4",
+          "filename" : "Subject_gurn_arriving_202509211906_wn9i.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_gurn_arriving_202509211906_e0np.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_arriving_202509211906_e0np.mp4",
+          "duration" : 8
+        }
+      ],
       "variant_id" : "45a_story_primary",
-      "camera_position" : "Crane establishing scale then intimate arrival",
       "action" : "CRANE DOWN from 10 meters to water level over 6 seconds. First view: polynya like pupil in white eye, perfectly round, impossible in nature. As camera descends: steam visible, thick white clouds rising. Closer: water not frozen despite -30°C, actually steaming. Closer: seaweed growing at edges, black-green, more abundant than should exist. Water level: surface perfect mirror, reflecting grey sky, but reflection shows something that isn't there - massive shadow beneath. Guðrún kneels at edge, wool from wrists now 60mm, coiling beside her. Reaches for seaweed. Water temperature makes her exhale - it's warm, body temperature. Begins pulling seaweed, filling her apron. But water responds to her touch - ripples in perfect circles, each ripple exactly 12 inches apart. Mathematical precision. Something knows she's here.",
-      "style" : "Crane establishing scale then intimate arrival (that's where the camera is), anticipation building.",
-      "negative_prompt" : "",
-      "progressive_state" : "",
-      "variant_name" : "Primary - POLYNYA ARRIVAL - THE BLACK HOLE 6 SECONDS",
       "selected_plates" : [
         "GUDRUN-CROWNED",
         "SEA-BATTLE",
         "WESTFJORDS-WINTER"
       ],
-      "is_active" : false,
+      "subject" : "[GUÐRÚN] arriving at the polynya - a perfect black circle in white ice, 20 feet diameter, steam rising despite -30°C, seaweed visible at edges but water too still, too warm, too alive, as if something massive breathes below.",
+      "camera_position" : "Crane establishing scale then intimate arrival",
+      "dialogue" : "None - just breathing and water sounds",
       "scene" : "Polynya at fjord edge, 9:55 AM grey light. Steam creating local fog. Ice edge sharp, 3 feet thick. Water black, opaque, warm.",
-      "videos" : [
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_arriving_202509211906_wn9i.mp4",
-          "duration" : 8,
-          "filename" : "Subject_gurn_arriving_202509211906_wn9i.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_gurn_arriving_202509211906_e0np.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_arriving_202509211906_e0np.mp4"
-        }
-      ]
+      "style" : "Crane establishing scale then intimate arrival (that's where the camera is), anticipation building.",
+      "negative_prompt" : "",
+      "is_active" : false,
+      "progressive_state" : "",
+      "variant_name" : "Primary - POLYNYA ARRIVAL - THE BLACK HOLE 6 SECONDS"
     }
   ],
-  "selected_prompt_index" : 0,
-  "progressive_state" : "Reaching water | Seaweed visible | Camera frost 31.5% | Task beginning | Watching: Water watches back",
+  "aspect_ratio" : "4:3",
   "shot_metadata" : {
-    "stitch_from" : "",
+    "duration_seconds" : 6,
     "id" : "45a",
-    "title" : "POLYNYA ARRIVAL - THE BLACK HOLE 6 SECONDS",
-    "sequence_type" : "main_story",
+    "needs_improvements" : false,
     "narrative_function" : "Reaching water | Seaweed visible | Camera frost 31...",
-    "duration_seconds" : 6
-  },
-  "aspect_ratio" : "4:3"
+    "stitch_from" : "",
+    "title" : "POLYNYA ARRIVAL - THE BLACK HOLE 6 SECONDS",
+    "sequence_type" : "main_story"
+  }
 }

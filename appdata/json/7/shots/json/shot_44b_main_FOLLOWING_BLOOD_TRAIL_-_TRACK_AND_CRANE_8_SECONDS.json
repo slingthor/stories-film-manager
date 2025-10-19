@@ -1,56 +1,57 @@
 {
+  "progressive_state" : "Following path | Blood guides | Camera frost 30.5% | Transformation beginning | Watching: We track her",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "None - just wind and footsteps",
-      "subject" : "Camera tracking behind [GUÐRÚN] as she follows the blood spiral Magnús left, her footsteps fitting perfectly into his larger prints, then CRANING UP to reveal she's walking the exact spiral pattern - five circles leading to water, but she's creating the sixth.",
       "active_video_index" : 0,
-      "variant_id" : "44b_story_primary",
-      "camera_position" : "Track and crane revealing pattern from above",
-      "action" : "TRACKING SHOT following 3 meters behind Guðrún. Her feet find Magnús's path instinctively - boot prints filled with frozen blood from his nose, her smaller feet fitting inside like child in parent's steps. Wool from wrists leaves thread trail in snow. Each step breaks through crust, revealing older blood beneath - layers of history. Ram blood, human blood, ancient blood. All the same path. CAMERA BEGINS CRANING UP at 4 seconds, rising to 15 meters. Aerial view reveals: she's walking spiral pattern, but her path creates the sixth line that makes intersection points impossible. She IS the mathematical impossibility. Her faldbúningur from above looks like white bird against white ground - only dark spot is her face looking up, seeing camera, seeing us watching. Knows she's witnessed. Continues anyway.",
-      "style" : "Track and crane revealing pattern from above (that's where the camera is), documentary of inevitable path.",
-      "negative_prompt" : "",
-      "progressive_state" : "",
-      "variant_name" : "Primary - FOLLOWING BLOOD TRAIL - TRACK AND CRANE 8 SECONDS",
-      "selected_plates" : [
-        "MAGNUS-DEFEATED",
-        "GUDRUN-WALKING",
-        "WESTFJORDS-WINTER"
-      ],
-      "is_active" : false,
-      "scene" : "Path from house toward fjord. Blood trail glowing slightly red through snow. Storm creating white wall around her.",
       "videos" : [
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_tracking_202509211908_retdm.mp4",
-          "duration" : 8,
-          "filename" : "Subject_camera_tracking_202509211908_retdm.mp4"
+          "filename" : "Subject_camera_tracking_202509211908_retdm.mp4",
+          "duration" : 8
         },
         {
-          "duration" : 8,
           "filename" : "Subject_camera_tracking_202509211908_8npw8.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_tracking_202509211908_8npw8.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_tracking_202509211908_8npw8.mp4",
+          "duration" : 8
         },
         {
-          "duration" : 8,
+          "filename" : "Subject_camera_tracking_202509211907_bcuu2.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_tracking_202509211907_bcuu2.mp4",
-          "filename" : "Subject_camera_tracking_202509211907_bcuu2.mp4"
+          "duration" : 8
         },
         {
           "filename" : "Subject_camera_tracking_202509211907_5ul1d.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_tracking_202509211907_5ul1d.mp4",
           "duration" : 8
         }
-      ]
+      ],
+      "variant_id" : "44b_story_primary",
+      "action" : "TRACKING SHOT following 3 meters behind Guðrún. Her feet find Magnús's path instinctively - boot prints filled with frozen blood from his nose, her smaller feet fitting inside like child in parent's steps. Wool from wrists leaves thread trail in snow. Each step breaks through crust, revealing older blood beneath - layers of history. Ram blood, human blood, ancient blood. All the same path. CAMERA BEGINS CRANING UP at 4 seconds, rising to 15 meters. Aerial view reveals: she's walking spiral pattern, but her path creates the sixth line that makes intersection points impossible. She IS the mathematical impossibility. Her faldbúningur from above looks like white bird against white ground - only dark spot is her face looking up, seeing camera, seeing us watching. Knows she's witnessed. Continues anyway.",
+      "selected_plates" : [
+        "MAGNUS-DEFEATED",
+        "GUDRUN-WALKING",
+        "WESTFJORDS-WINTER"
+      ],
+      "subject" : "Camera tracking behind [GUÐRÚN] as she follows the blood spiral Magnús left, her footsteps fitting perfectly into his larger prints, then CRANING UP to reveal she's walking the exact spiral pattern - five circles leading to water, but she's creating the sixth.",
+      "camera_position" : "Track and crane revealing pattern from above",
+      "dialogue" : "None - just wind and footsteps",
+      "scene" : "Path from house toward fjord. Blood trail glowing slightly red through snow. Storm creating white wall around her.",
+      "style" : "Track and crane revealing pattern from above (that's where the camera is), documentary of inevitable path.",
+      "negative_prompt" : "",
+      "is_active" : false,
+      "progressive_state" : "",
+      "variant_name" : "Primary - FOLLOWING BLOOD TRAIL - TRACK AND CRANE 8 SECONDS"
     }
   ],
-  "selected_prompt_index" : 0,
-  "progressive_state" : "Following path | Blood guides | Camera frost 30.5% | Transformation beginning | Watching: We track her",
+  "aspect_ratio" : "4:3",
   "shot_metadata" : {
-    "stitch_from" : "",
+    "duration_seconds" : 8,
     "id" : "44b",
-    "title" : "FOLLOWING BLOOD TRAIL - TRACK AND CRANE 8 SECONDS",
-    "sequence_type" : "main_story",
+    "needs_improvements" : false,
     "narrative_function" : "Following path | Blood guides | Camera frost 30.5%...",
-    "duration_seconds" : 8
-  },
-  "aspect_ratio" : "4:3"
+    "stitch_from" : "",
+    "title" : "FOLLOWING BLOOD TRAIL - TRACK AND CRANE 8 SECONDS",
+    "sequence_type" : "main_story"
+  }
 }

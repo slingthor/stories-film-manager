@@ -1,0 +1,69 @@
+{
+  "last_updated" : "2025-10-01T03:14:44Z",
+  "tracking_systems" : {
+    "stain_progression" : {
+      "current_percentage" : 35,
+      "description" : "F4 Liquid contamination marking progression"
+    },
+    "house_dimensions" : {
+      "current_percentage" : 0,
+      "description" : "Baðstofa interior space expansion sensation"
+    },
+    "industrial_contamination" : {
+      "description" : "British\/Danish imperial materials spreading",
+      "current_percentage" : 22
+    },
+    "character_shadow_behavior" : {
+      "current_percentage" : 8,
+      "description" : "Shadow physics revealing animal truth"
+    },
+    "klettagja_formation" : {
+      "description" : "Cliff cleft development for Sigrid's escape",
+      "current_percentage" : 15
+    },
+    "light_sources" : {
+      "current_percentage" : 5,
+      "description" : "Illumination evolution organic→industrial→supernatural"
+    },
+    "memory_degradation" : {
+      "current_percentage" : 5,
+      "description" : "Collective memory accuracy declining"
+    },
+    "temperature_progression" : {
+      "current_percentage" : 28,
+      "description" : "Environmental and body temperature changes"
+    },
+    "predatory_landscape" : {
+      "description" : "Environmental hostility toward human survival",
+      "current_percentage" : 15
+    },
+    "breathing_coordination" : {
+      "current_percentage" : 32,
+      "description" : "Family respiratory synchronization progression"
+    },
+    "spatial_impossibilities" : {
+      "current_percentage" : 25,
+      "description" : "Mathematical physics violations spreading"
+    },
+    "house_consciousness" : {
+      "current_percentage" : 35,
+      "description" : "Bergrisi awareness and biological responses"
+    },
+    "weather_hostility" : {
+      "current_percentage" : 10,
+      "description" : "Atmospheric assault on family survival"
+    },
+    "reality_coherence" : {
+      "description" : "Stability of physical laws and logic",
+      "current_percentage" : 65
+    },
+    "color_grading" : {
+      "description" : "Film color palette psychological progression",
+      "current_percentage" : 15
+    },
+    "hakarl_contamination" : {
+      "current_percentage" : 18,
+      "description" : "Traditional food corruption enabling breakdown"
+    }
+  }
+}

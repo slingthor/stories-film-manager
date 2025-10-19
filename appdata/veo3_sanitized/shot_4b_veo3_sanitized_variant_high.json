@@ -1,0 +1,22 @@
+{
+  "variant_id": "4b_story_primary_veo3_high",
+  "variant_name": "Primary - THE CHILDRENS BONE CIRCLE_veo3_high",
+  "subject": "Five children sitting in grass between beach and hills, playing with traditional game pieces made from carved bone, throwing them to land in patterns, the pieces falling to create a perfect circle, their shadows stretching long in the morning sun.",
+  "action": "Children aged 5-10 sit in grass. Each has handful of white carved bone game pieces passed down through generations. Take turns throwing pieces up. Pieces land in patterns - first throw makes line, second makes triangle, third makes square. Fourth throw, pieces land in perfect circle, some balanced on edge with impressive precision. Children look at each other with surprise and delight. One girl throws again. Pieces land in very similar circle. Boy tries. Nearly identical circle forms. Every throw now creates remarkably similar pattern, children growing more excited with each throw. On ground, their shadows stretch long across grass from morning sun angle, creating dramatic elongated shapes. In grass around them, three types of natural stains visible - red ochre from cliff minerals, purple from berry juice on their hands, golden from egg yolk from breakfast. Stains slowly spreading through grass fibers toward game pieces. Children laugh and play, completely absorbed in their pattern game.",
+  "scene": "Grassy area between beach and hills. Morning sun creating sharp elongated shadows. Ocean visible with whale approaching in distance. Cliffs visible with tiny figures climbing.",
+  "style": "Overhead shot looking down at children and game piece patterns (that's where the camera is), shadows and patterns clearly visible with strong morning light creating graphic composition.",
+  "camera_position": "Overhead shot looking down at children and bone patterns",
+  "dialogue": "",
+  "selected_plates": [
+    "MAGNUS-AUTHORITY",
+    "SIGRID-PURE",
+    "LILJA-PURE",
+    "JON-MILD",
+    "GUDRUN-ABUNDANT",
+    "BAÐSTOFA-DOMESTIC",
+    "WESTFJORDS-BEACH"
+  ],
+  "negative_prompt": "no subtitles, show game pieces in perfect circle, no horror elements, no disturbing imagery, 1080p",
+  "progressive_state": "Children playing | Patterns forming | Camera frost 0% | Community activity | Watching: Innocent play",
+  "is_active": false
+}

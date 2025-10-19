@@ -1,0 +1,22 @@
+{
+  "variant_id": "4b_story_primary_veo3_medium",
+  "variant_name": "Primary - THE CHILDRENS BONE CIRCLE_veo3_medium",
+  "subject": "Five children sitting in grass between beach and hills, playing with traditional game pieces, throwing them to land in patterns, the pieces falling to create a perfect circle, their shadows forming unusual shapes.",
+  "action": "Children aged 5-10 sit in grass. Each has handful of white game pieces made from bone. Take turns throwing pieces up. Pieces land in patterns - first throw makes line, second makes triangle, third makes square. Fourth throw, pieces land in perfect circle, some standing on end in remarkable balance. Children look at each other in wonder. One girl throws again. Pieces land in exact same circle. Boy tries. Same circle forms. Every throw now creates identical pattern. On ground, their shadows create unusual shapes - shadows appear elongated though sun is high. One shadow looks oddly pointed. Another shadow seems to have extra movement. Children don't notice shadows. In grass around them, three types of stains spreading - dark rust from mineral-rich water carried on wind, purple from berry juice on their hands, golden from egg yolk. Stains creeping toward game circle. When stains touch pieces, pieces seem to shift slightly.",
+  "scene": "Grassy area between beach and hills. Morning sun creating sharp shadows. Ocean visible with whale approaching. Cliffs visible with tiny figures climbing.",
+  "style": "Overhead shot looking down at children and game patterns (that's where the camera is), shadows clearly visible.",
+  "camera_position": "Overhead shot looking down at children and game patterns",
+  "dialogue": "",
+  "selected_plates": [
+    "MAGNUS-AUTHORITY",
+    "SIGRID-PURE",
+    "LILJA-PURE",
+    "JON-MILD",
+    "GUDRUN-ABUNDANT",
+    "BAÐSTOFA-DOMESTIC",
+    "WESTFJORDS-BEACH"
+  ],
+  "negative_prompt": "no subtitles, show pieces in perfect circle, unusual shadows, three stains spreading, 1080p",
+  "progressive_state": "Children playing | Patterns forming | Camera frost 0% | Future practiced | Watching: Innocent rehearsal",
+  "is_active": false
+}

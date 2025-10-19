@@ -1,51 +1,52 @@
 {
   "progressive_state" : "Prophecy spoken | Future revealed | Camera frost 42% | Promise made | Watching: Witness chosen",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "(Raven): \"Þegar húsið deyr, klettagjá verður\" \"Þegar þú verður fugl, Ðsland verður frjálst\" \"En fyrst, þú verður að deyja sem þau\"",
-      "subject" : "The raven speaking directly to [SIGRID] while family remains frozen: \"Þegar húsið deyr, klettagjá verður. Þegar þú verður fugl, Ðsland verður frjálst\" (When house dies, rocky cleft becomes. When you become bird, Iceland becomes free).",
       "active_video_index" : 0,
+      "videos" : [
+        {
+          "filename" : "Subject_the_raven_202509211850_lke6a.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_raven_202509211850_lke6a.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_raven_202509211850_uu15b.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_raven_202509211850_uu15b.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_raven_202509211850_uvjpr.mp4",
+          "filename" : "Subject_the_raven_202509211850_uvjpr.mp4"
+        }
+      ],
       "variant_id" : "52b_story_primary",
-      "camera_position" : "Push in revealing prophecy in eye reflection",
-      "style" : "Push in revealing prophecy in eye reflection (that's where the camera is), future documented.",
       "action" : "PUSH IN on raven's eye. In reflection: visions. British ships leaving. Danish flags lowering. Year visible: 1944. Sigrid aged 72, still alive, witnessing. But also: Sigrid with black wings, flying over free Iceland. Both true. Raven continues: \"Þú ert vitni. Þú munt muna.\" (You are witness. You will remember.) Its wing extends toward her. One feather falls. Black, perfect, large as hand. Floats impossible slow. Sigrid catches it. Moment she touches: sees everything. The family as sheep below. Magnús approaching her bed tonight. The house dying and rebirthing. The escape through transformation. Her belly quickens - baby responding to future mother's freedom. Raven speaks final words: \"En fyrst, þú verður að deyja sem þau\" (But first, you must die as them). Meaning: undergo transformation with family, but emerge different.",
-      "negative_prompt" : "",
-      "progressive_state" : "",
-      "variant_name" : "Primary - THE RAVENS PROPHECY - SPEAKING FREEDOM 6 SECONDS",
       "selected_plates" : [
         "SIGRID-CORNERED",
         "BAÐSTOFA-CRYSTALLIZING",
         "BAÐSTOFA-CLIFF"
       ],
+      "camera_position" : "Push in revealing prophecy in eye reflection",
+      "subject" : "The raven speaking directly to [SIGRID] while family remains frozen: \"Þegar húsið deyr, klettagjá verður. Þegar þú verður fugl, Ðsland verður frjálst\" (When house dies, rocky cleft becomes. When you become bird, Iceland becomes free).",
       "scene" : "Close on raven's eye showing futures. Feather floating. Sigrid's recognition.",
+      "dialogue" : "(Raven): \"Þegar húsið deyr, klettagjá verður\" \"Þegar þú verður fugl, Ðsland verður frjálst\" \"En fyrst, þú verður að deyja sem þau\"",
+      "style" : "Push in revealing prophecy in eye reflection (that's where the camera is), future documented.",
+      "negative_prompt" : "",
+      "variant_name" : "Primary - THE RAVENS PROPHECY - SPEAKING FREEDOM 6 SECONDS",
       "is_active" : false,
-      "videos" : [
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_raven_202509211850_lke6a.mp4",
-          "filename" : "Subject_the_raven_202509211850_lke6a.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_the_raven_202509211850_uu15b.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_raven_202509211850_uu15b.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_raven_202509211850_uvjpr.mp4",
-          "filename" : "Subject_the_raven_202509211850_uvjpr.mp4",
-          "duration" : 8
-        }
-      ]
+      "progressive_state" : ""
     }
   ],
-  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
   "shot_metadata" : {
-    "title" : "THE RAVENS PROPHECY - SPEAKING FREEDOM 6 SECONDS",
-    "id" : "52b",
     "duration_seconds" : 6,
-    "sequence_type" : "main_story",
+    "id" : "52b",
+    "needs_improvements" : false,
     "narrative_function" : "Prophecy spoken | Future revealed | Camera frost 4...",
-    "stitch_from" : ""
-  },
-  "aspect_ratio" : "4:3"
+    "stitch_from" : "",
+    "title" : "THE RAVENS PROPHECY - SPEAKING FREEDOM 6 SECONDS",
+    "sequence_type" : "main_story"
+  }
 }

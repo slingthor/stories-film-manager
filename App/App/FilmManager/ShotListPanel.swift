@@ -50,6 +50,11 @@ struct ShotListWithSystemsView: View {
                 return filmManager.shots.filter { shot in
                     shot.isDirty
                 }
+            case "needs", "needswork", "improve", "improvements":
+                // Return shots marked as needing improvements
+                return filmManager.shots.filter { shot in
+                    shot.needsImprovements
+                }
             default:
                 // If unknown magic command, treat as regular search
                 break
@@ -157,7 +162,7 @@ struct ShotListWithSystemsView: View {
                 Image(systemName: "magnifyingglass")
                     .foregroundColor(.secondary)
 
-                TextField("Search prompts or use :video :images :selected :dirty", text: $searchText)
+                TextField("Search prompts or use :video :images :selected :dirty :needs", text: $searchText)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .onChange(of: searchText) { oldValue, newValue in
                         // Store current selection when starting to search
@@ -326,6 +331,18 @@ struct EnhancedShotRow: View {
                             .font(.caption2)
                             .foregroundColor(.red)
                     }
+
+                    // Needs improvements checkbox
+                    Button(action: {
+                        shot.needsImprovements.toggle()
+                        shot.isDirty = true
+                    }) {
+                        Image(systemName: shot.needsImprovements ? "checkmark.square.fill" : "square")
+                            .font(.caption)
+                            .foregroundColor(shot.needsImprovements ? .orange : .gray)
+                    }
+                    .buttonStyle(PlainButtonStyle())
+                    .help("Mark as needs improvements")
                 }
             }
             .frame(width: 180)

@@ -1,11 +1,32 @@
 {
+  "selected_prompt_index" : 1,
+  "progressive_state" : "House 12\/min | Klettagjá none | No contamination | Camera frost 3% | Sorting none | Landvættir sleeping",
   "prompt_variants" : [
     {
+      "variant_id" : "4_group_4_violence_crisis_viral_enhancement_five_sho",
+      "scene" : "GROUP 4: VIOLENCE\/CRISIS VIRAL ENHANCEMENT - FIVE SHOTS Transforming 8-8.5\/10 Violence Scenes to 10\/10 Masterpieces OVERVIEW: House entrance during architectural consciousness resistance where biological door protection requires anatomical ordeal for patriarchal entry, building material transmutation serving family protection through flesh-door barrier creation. Baðstofa interior during family transformation recognition where anthropomorphic animal behavior dominates human appearance, surreal visual bleeding revealing sheep consciousness operating through human anatomical performance.",
+      "dialogue" : "",
+      "progressive_state" : "",
       "camera_position" : "",
-      "style" : "Camera experiencing architectural trauma using door consciousness documentation perspective (that's where the camera is), movement following forced entry and material transmutation resistance. Focus reveals biological door behavior and selective freeze violence preparation. Natural entrance lighting enhanced by architectural consciousness and atmospheric invasion effects. DIALOGUE:",
-      "subject" : "",
+      "variant_name" : "Group 4 Violence Crisis Viral Enhancement Five Sho",
+      "negative_prompt" : "",
       "is_active" : false,
+      "videos" : [
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509152055_5us7r.mp4",
+          "filename" : "Meta_setting_iceland_202509152055_5us7r.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509152055_5nik2.mp4",
+          "filename" : "Meta_setting_iceland_202509152055_5nik2.mp4",
+          "duration" : 8
+        }
+      ],
       "action" : "Door material transmutation resistance: wooden surface becoming flesh-like barrier requiring anatomical ordeal for entry, architectural consciousness protecting family through biological door transformation creating physical resistance against patriarchal violence via door anatomy manifestation. Forced entry anatomical ordeal: Magnus requiring physical force against flesh-door resistance, architectural biological protection forcing violence against building anatomy to achieve family access through door consciousness transformation serving family protection function. Selective freeze violence preparation: family experiencing time-worn appearance during violence approach, patriarchal assault creating time-flow manipulation enabling violence preparation while family exists in frozen defensive positions through time-worn appearance coordination impossible with normal physics. Anthropomorphic behavior revelation: family displaying sheep herd dynamics while maintaining human appearance, traditional family social patterns replaced by livestock behavioral coordination through transformation affecting consciousness while preserving physical human performance. surreal visual recognition: human and animal identity layers existing simultaneously, family transformation visible through behavioral surreal visual where sheep consciousness dominates human anatomical display through transformation surreal visual. time-worn appearance during recognition shock: family existing in multiple transformation states simultaneously, past-human identity overlapping with future-sheep surreal visual time-worn appearance creating identity confusion for returning patriarch witnessing transformation time-worn appearance impossible with normal identity stability. Domestic space dimensional protection: house architecture expanding to preserve defensive distance, spatial consciousness serving victim protection through dimensional manipulation impossible with normal domestic physics enabling distance maintenance despite approach. Dimensional multiplication defense: domestic space creating additional room through architectural expansion, house consciousness protecting Sigrid through spatial enhancement creating geometric impossibility serving defensive function through dimensional protection. Recursive threat multiplication: patriarchal ordeal existing in multiple spatial dimensions simultaneously, domestic space consciousness creating threat multiplication through dimensional recursive reflection enabling victim awareness of threat from multiple dimensional angles through spatial consciousness protection function.",
+      "active_video_index" : 0,
+      "subject" : "",
+      "style" : "Camera experiencing architectural trauma using door consciousness documentation perspective (that's where the camera is), movement following forced entry and material transmutation resistance. Focus reveals biological door behavior and selective freeze violence preparation. Natural entrance lighting enhanced by architectural consciousness and atmospheric invasion effects. DIALOGUE:",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-MARKED",
@@ -14,55 +35,35 @@
         "GUDRUN-PRODUCING",
         "WESTFJORDS-WINTER",
         "HOUSE-DETAIL"
-      ],
-      "variant_id" : "4_group_4_violence_crisis_viral_enhancement_five_sho",
-      "active_video_index" : 0,
-      "variant_name" : "Group 4 Violence Crisis Viral Enhancement Five Sho",
-      "videos" : [
-        {
-          "duration" : 8,
-          "filename" : "Meta_setting_iceland_202509152055_5us7r.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509152055_5us7r.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509152055_5nik2.mp4",
-          "filename" : "Meta_setting_iceland_202509152055_5nik2.mp4",
-          "duration" : 8
-        }
-      ],
-      "progressive_state" : "",
-      "negative_prompt" : "",
-      "scene" : "GROUP 4: VIOLENCE\/CRISIS VIRAL ENHANCEMENT - FIVE SHOTS Transforming 8-8.5\/10 Violence Scenes to 10\/10 Masterpieces OVERVIEW: House entrance during architectural consciousness resistance where biological door protection requires anatomical ordeal for patriarchal entry, building material transmutation serving family protection through flesh-door barrier creation. Baðstofa interior during family transformation recognition where anthropomorphic animal behavior dominates human appearance, surreal visual bleeding revealing sheep consciousness operating through human anatomical performance.",
-      "dialogue" : ""
+      ]
     },
     {
-      "variant_id" : "4_story_primary",
-      "progressive_state" : "",
-      "variant_name" : "Primary - WINDOW INTO THE TRAP",
-      "camera_position" : "Extreme close-up on window, camera positioned at window center looking straight in",
-      "is_active" : false,
-      "dialogue" : "(Magnús, muffled through glass): \"Fimm... sex... fimm?\" (Tone: confused, agitated counting) (Sound of counting fingers tapping table)",
-      "action" : "Camera hovers 2 feet from window exterior, examining frost patterns that naturally form V-shaped notches pointing downward like future canyon walls. Through the breath-melted circle, we see: Magnús at table head counting on fingers - raising five fingers, then six, then five again, confusion visible in furrowed brow. Guðrún mechanically cutting something grey-green on a board. Three children in various positions but maintaining specific distances from patriarch. The sixth place set at table has steam rising from empty bowl - visible breath vapor at exactly 8 breaths per minute though no one sits there. In the corner, barely visible, a complete set of clothes arranged as if a body evaporated from within them - Magnús's patched sweater, Guðrún's headdress, children's dresses - all maintaining human shapes, all appearing to breathe.",
       "selected_plates" : [
         "BAÐSTOFA-STIRRING",
         "WESTFJORDS-WINTER",
         "HOUSE-DETAIL"
       ],
-      "style" : "Extreme close-up on window, camera positioned at window center looking straight in (that's where the camera is), macro lens showing frost detail then rack focus to interior, voyeuristic observation through small clear portal.",
+      "variant_id" : "4_story_primary",
+      "variant_name" : "Primary - WINDOW INTO THE TRAP",
       "subject" : "The 2Ð—2 foot south-facing window, glass thick and warped with age, covered in frost crystals forming perfect cathedral arch patterns, but in the center a clear circle 6 inches wide where warm breath from inside has melted ice, revealing the domestic scene within - five people at a table but six bowls set, six spoons laid, six shadows cast on the far wall.",
+      "action" : "Camera hovers 2 feet from window exterior, examining frost patterns that naturally form V-shaped notches pointing downward like future canyon walls. Through the breath-melted circle, we see: Magnús at table head counting on fingers - raising five fingers, then six, then five again, confusion visible in furrowed brow. Guðrún mechanically cutting something grey-green on a board. Three children in various positions but maintaining specific distances from patriarch. The sixth place set at table has steam rising from empty bowl - visible breath vapor at exactly 8 breaths per minute though no one sits there. In the corner, barely visible, a complete set of clothes arranged as if a body evaporated from within them - Magnús's patched sweater, Guðrún's headdress, children's dresses - all maintaining human shapes, all appearing to breathe.",
+      "camera_position" : "Extreme close-up on window, camera positioned at window center looking straight in",
+      "style" : "Extreme close-up on window, camera positioned at window center looking straight in (that's where the camera is), macro lens showing frost detail then rack focus to interior, voyeuristic observation through small clear portal.",
+      "dialogue" : "(Magnús, muffled through glass): \"Fimm... sex... fimm?\" (Tone: confused, agitated counting) (Sound of counting fingers tapping table)",
       "scene" : "Window glass 8mm thick, handblown with bubble imperfections that distort view. Frost patterns 3mm thick on exterior, thvisible house heat fights cold. Interior visible only through 6-inch clear spot. Inside: yellow oil lamp light, visible breath from all five family members creating fog layer at ceiling, rough pine table with deep knife gouges, six place settings despite five people. Temperature differential causes glass to hum at low frequency. Dawn still 5 hours away, complete darkness except lamp glow. Wind drives snow horizontal past window.",
-      "negative_prompt" : "no subtitles, no text overlays, no modern furniture visible, maintain period accuracy through glass, no electric lighting"
+      "negative_prompt" : "no subtitles, no text overlays, no modern furniture visible, maintain period accuracy through glass, no electric lighting",
+      "progressive_state" : "",
+      "is_active" : false
     }
   ],
-  "selected_prompt_index" : 0,
-  "progressive_state" : "House 12\/min | Klettagjá none | No contamination | Camera frost 3% | Sorting none | Landvættir sleeping",
   "shot_metadata" : {
-    "stitch_from" : "",
-    "id" : "4",
     "title" : "WINDOW INTO THE TRAP",
-    "sequence_type" : "main_story",
+    "id" : "4",
+    "needs_improvements" : true,
+    "stitch_from" : "",
+    "duration_seconds" : 8,
     "narrative_function" : "House 12\/min | Klettagjá none | No contamination ...",
-    "duration_seconds" : 8
+    "sequence_type" : "main_story"
   },
   "aspect_ratio" : "4:3"
 }

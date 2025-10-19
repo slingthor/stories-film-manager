@@ -1,14 +1,15 @@
 {
+  "progressive_state" : "House 4\/min dying + 80bpm | surreal visual | Camera frost 20% | Children's vision | Watching: House watching them",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "variant_name" : "Primary - THE CHILDREN SEE TRUE SHAPES 8 SECONDS REVISED",
-      "variant_id" : "31_story_primary",
+      "style" : "Child's eye level showing dual realities overlapping (that's where the camera is), documentary of innocent revelation.",
       "scene" : "Children's sleeping platform, 9:10 AM dark. Temperature -23°C. Floor patterns visible as ancient stone réttir beneath earth. Everyone's dual shadows visible in landvættir light from windows.",
       "camera_position" : "Child's eye level showing dual realities overlapping",
-      "dialogue" : "(Jón, fevered counting): \"Ein kind, tvær kindur, þrjár, fjórar, fimm... sex?\" (Pointing at empty space): \"Sjötta kindin\" (The sixth sheep) (Lilja, humming): \"Verður margt að meini...\"",
+      "variant_name" : "Primary - THE CHILDREN SEE TRUE SHAPES 8 SECONDS REVISED",
+      "action" : "Jón's fever breaks him through reality's veil. Points at Guðrún: \"Ein kind\" (one sheep). At empty clothes: \"Tvær kindur\" (two sheep). At Sigrid: \"Þrjár kindur\" (three sheep). Counts what he SEES, not what's there. Lilja, following his lead, arranges her dolls on floor where réttir patterns show clear - five pens radiating from center, but six intersection points. Places dolls as sheep being sorted. Her doll with brass button eyes placed in center - the forystufé, lead wether that guides others to slaughter. Floor patterns deepening, revealing stone underneath packed earth - ancient réttir were always here, house built on them. Through fever-bright eyes, Jón sees more: everyone has two shadows - human and animal. Sigrid's shadow shows raven wings. Guðrún's shows ewe with faldbúningur. His own shows lamb, sick and stumbling. The shadows move independently, rehearsing transformation. Lilja hums Krummi tune: \"verður margt að meini\" (much becomes harmful) - understanding the prophecy.",
+      "subject" : "[JÐ“N] and [LILJA] huddled together on sleeping platform, the boy's 39°C fever allowing him to see everyone's true shapes - pointing at each family member and counting sheep not people: \"Ein kind, tvær kindur, þrjár...\" while Lilja arranges her doll family in réttir formation, the floor's worn patterns now clearly visible as ancient sorting pens.",
       "negative_prompt" : "no subtitles, show dual shadows clearly, réttir patterns in floor, documentary observation, no text overlays, no screen space overlays, no text, no modern elements except if prompt explicitly mentions a modern element, no characters or other scenes floating on top of main scene",
-      "style" : "Child's eye level showing dual realities overlapping (that's where the camera is), documentary of innocent revelation.",
-      "progressive_state" : "",
       "is_active" : false,
       "selected_plates" : [
         "SIGRID-ORACLE",
@@ -18,19 +19,40 @@
         "SEA-EXTRACTED",
         "BAÐSTOFA-CLEFT"
       ],
-      "subject" : "[JÐ“N] and [LILJA] huddled together on sleeping platform, the boy's 39°C fever allowing him to see everyone's true shapes - pointing at each family member and counting sheep not people: \"Ein kind, tvær kindur, þrjár...\" while Lilja arranges her doll family in réttir formation, the floor's worn patterns now clearly visible as ancient sorting pens.",
-      "action" : "Jón's fever breaks him through reality's veil. Points at Guðrún: \"Ein kind\" (one sheep). At empty clothes: \"Tvær kindur\" (two sheep). At Sigrid: \"Þrjár kindur\" (three sheep). Counts what he SEES, not what's there. Lilja, following his lead, arranges her dolls on floor where réttir patterns show clear - five pens radiating from center, but six intersection points. Places dolls as sheep being sorted. Her doll with brass button eyes placed in center - the forystufé, lead wether that guides others to slaughter. Floor patterns deepening, revealing stone underneath packed earth - ancient réttir were always here, house built on them. Through fever-bright eyes, Jón sees more: everyone has two shadows - human and animal. Sigrid's shadow shows raven wings. Guðrún's shows ewe with faldbúningur. His own shows lamb, sick and stumbling. The shadows move independently, rehearsing transformation. Lilja hums Krummi tune: \"verður margt að meini\" (much becomes harmful) - understanding the prophecy."
+      "dialogue" : "(Jón, fevered counting): \"Ein kind, tvær kindur, þrjár, fjórar, fimm... sex?\" (Pointing at empty space): \"Sjötta kindin\" (The sixth sheep) (Lilja, humming): \"Verður margt að meini...\"",
+      "variant_id" : "31_story_primary",
+      "progressive_state" : ""
+    },
+    {
+      "variant_name" : "THE CHILDREN SEE TRUE SHAPES - VEO3 Low Sanitized",
+      "variant_id" : "31_veo3_low_sanitized",
+      "style" : "Child's eye level showing dual realities overlapping (that's where the camera is), documentary of innocent revelation.",
+      "negative_prompt" : "no subtitles, show dual shadows clearly, réttir patterns in floor, documentary observation, no text overlays, no screen space overlays, no text, no modern elements except if prompt explicitly mentions a modern element, no characters or other scenes floating on top of main scene",
+      "scene" : "Children's sleeping platform, 9:10 AM dark. Temperature -23°C. Floor patterns visible as ancient stone réttir beneath earth. Everyone's dual shadows visible in landvættir light from windows.",
+      "is_active" : false,
+      "action" : "Jón's fever breaks him through reality's veil. Points at Guðrún: \"Ein kind\" (one sheep). At empty clothes: \"Tvær kindur\" (two sheep). At Sigrid: \"Þrjár kindur\" (three sheep). Counts what he SEES, not what's there. Lilja, following his lead, arranges her dolls on floor where réttir patterns show clear - five pens radiating from center, but six intersection points. Places dolls as sheep being sorted. Her doll with brass button eyes placed in center - the forystufé, lead sheep that guides others through the pens. Floor patterns deepening, revealing stone underneath packed earth - ancient réttir were always here, house built on them. Through fever-bright eyes, Jón sees more: everyone has two shadows - human and animal. Sigrid's shadow shows raven wings. Guðrún's shadow shows ewe with faldbúningur. His own shadow shows a small lamb, moving differently. The shadows move independently, rehearsing transformation. Lilja hums Krummi tune: \"verður margt að meini\" (much becomes harmful) - understanding the prophecy.",
+      "camera_position" : "Child's eye level showing dual realities overlapping",
+      "dialogue" : "(Jón, fevered counting): \"Ein kind, tvær kindur, þrjár, fjórar, fimm... sex?\" (Pointing at empty space): \"Sjötta kindin\" (The sixth sheep) (Lilja, humming): \"Verður margt að meini...\"",
+      "progressive_state" : "",
+      "selected_plates" : [
+        "SIGRID-ORACLE",
+        "LILJA-COMMUNICATING",
+        "JON-CHANGING",
+        "GUDRUN-PRODUCING",
+        "SEA-EXTRACTED",
+        "BAÐSTOFA-CLEFT"
+      ],
+      "subject" : "[JÓN] and [LILJA] huddled together on sleeping platform, the boy's 39°C fever allowing him to see everyone's true shapes - pointing at each family member and counting sheep not people: \"Ein kind, tvær kindur, þrjár...\" while Lilja arranges her doll family in réttir formation, the floor's worn patterns now clearly visible as ancient sorting pens."
     }
   ],
-  "selected_prompt_index" : 0,
-  "progressive_state" : "House 4\/min dying + 80bpm | surreal visual | Camera frost 20% | Children's vision | Watching: House watching them",
+  "aspect_ratio" : "4:3",
   "shot_metadata" : {
-    "stitch_from" : "",
+    "duration_seconds" : 8,
     "id" : "31",
-    "title" : "THE CHILDREN SEE TRUE SHAPES 8 SECONDS REVISED",
-    "sequence_type" : "main_story",
+    "needs_improvements" : false,
     "narrative_function" : "House 4\/min dying + 80bpm | surreal visual | Cam...",
-    "duration_seconds" : 8
-  },
-  "aspect_ratio" : "4:3"
+    "stitch_from" : "",
+    "title" : "THE CHILDREN SEE TRUE SHAPES 8 SECONDS REVISED",
+    "sequence_type" : "main_story"
+  }
 }

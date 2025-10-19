@@ -1,17 +1,18 @@
 {
   "progressive_state" : "House 6\/min + 40bpm failing | Giant speaking | Camera frost 15% | Four responses | Watching: All layers awakening",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "(Giant's voice through Sigrid): \"LANDVÐ†TTIR, KOMIÐ, HJÐLPIÐ OKKUR\" (Trying to stop): Normal voice breaking through: \"Nei, nei, þetta á ekki...\" (Guðrún, finally speaking): \"Hvað hefur þú gert?\" (What have you done?)",
-      "subject" : "[SIGRID]'s voice completing transformation into the giant's 16Hz resonance - felt in bones more than heard - as the words themselves transform from tilberi summoning to landvættir call: \"Landvættir, komið, hjálpið okkur\" vibrating through the house structure, which IS the giant's body.",
       "active_video_index" : 0,
+      "videos" : [
+        {
+          "filename" : "Subject_sigrids_voice_202509211935_rxoms.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202509211935_rxoms.mp4",
+          "duration" : 8
+        }
+      ],
       "variant_id" : "24_story_primary",
-      "camera_position" : "Wide shot showing four-directional responses, camera shaking with 16Hz vibration",
       "action" : "Sigrid tries to continue tilberi chant but voice no longer hers. Drops to 16Hz - below human hearing, felt in teeth, bones, eyes. The house itself becomes speaker, walls vibrating. Words transform mid-sentence: \"Tilberi...\" becomes \"LANDVÐ†TTIR...\" She claps hands over mouth but voice continues from everywhere - floor, walls, beams. \"KOMIÐ, HJÐLPIÐ OKKUR\" (Come, help us). Instant four responses: EAST: Trawler horn blasts so loud windows crack. WEST: Water in all buckets boils despite -15°C. SOUTH: Floor becomes warm, alive, pulsing. NORTH: Raven shadow passes window, impossibly large. The contaminated creation on floor starts breathing - industrial rope skeleton visible through forming flesh, brass button eye weeping green tears, wrong thing being born. Guðrún falls backward, crawling away. Children wake screaming but screams are bleats. Baby's heartbeat visible through Sigrid's dress - 160bpm, red glow pulsing. House heartbeat stutters - 40bpm, 20bpm, 60bpm - dying giant panicking.",
-      "style" : "Wide shot showing four-directional responses, camera shaking with 16Hz vibration (that's where the camera is), documentary of summoning disaster.",
-      "negative_prompt" : "no subtitles, 16Hz as vibration not normal sound, four responses simultaneous, documentary observation",
-      "progressive_state" : "",
-      "variant_name" : "Primary - THE GIANTS VOICE EMERGES",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-SUMMONING",
@@ -20,25 +21,25 @@
         "BAÐSTOFA-BODY",
         "WESTFJORDS-WINTER"
       ],
-      "is_active" : false,
+      "subject" : "[SIGRID]'s voice completing transformation into the giant's 16Hz resonance - felt in bones more than heard - as the words themselves transform from tilberi summoning to landvættir call: \"Landvættir, komið, hjálpið okkur\" vibrating through the house structure, which IS the giant's body.",
+      "camera_position" : "Wide shot showing four-directional responses, camera shaking with 16Hz vibration",
+      "dialogue" : "(Giant's voice through Sigrid): \"LANDVÐ†TTIR, KOMIÐ, HJÐLPIÐ OKKUR\" (Trying to stop): Normal voice breaking through: \"Nei, nei, þetta á ekki...\" (Guðrún, finally speaking): \"Hvað hefur þú gert?\" (What have you done?)",
       "scene" : "Interior, 6:37 AM, surreal visual. Temperature drops 5 degrees instantly to -20°C. Four cardinal directions showing responses. Windows cracking from trawler horn, water boiling and freezing simultaneously, floor revealing pink flesh underneath, raven shadow too large for any bird. The contaminated tilberi writhing, neither creature nor thing.",
-      "videos" : [
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202509211935_rxoms.mp4",
-          "filename" : "Subject_sigrids_voice_202509211935_rxoms.mp4"
-        }
-      ]
+      "style" : "Wide shot showing four-directional responses, camera shaking with 16Hz vibration (that's where the camera is), documentary of summoning disaster.",
+      "negative_prompt" : "no subtitles, 16Hz as vibration not normal sound, four responses simultaneous, documentary observation",
+      "is_active" : false,
+      "progressive_state" : "",
+      "variant_name" : "Primary - THE GIANTS VOICE EMERGES"
     }
   ],
-  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
   "shot_metadata" : {
-    "title" : "THE GIANTS VOICE EMERGES",
-    "id" : "24",
     "duration_seconds" : 8,
-    "sequence_type" : "main_story",
+    "id" : "24",
+    "needs_improvements" : false,
     "narrative_function" : "House 6\/min + 40bpm failing | Giant speaking | Cam...",
-    "stitch_from" : ""
-  },
-  "aspect_ratio" : "4:3"
+    "stitch_from" : "",
+    "title" : "THE GIANTS VOICE EMERGES",
+    "sequence_type" : "main_story"
+  }
 }

@@ -1,25 +1,9 @@
 {
   "progressive_state" : "House 6\/min + 45bpm | Blood pattern emerging | Camera frost 15% | Giant's voice beginning | Watching: House recognizing",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "(Sigrid, full octave drop): \"Komdu til mín\" (16Hz beginning): \"Komdu... nei...\" (Giant's voice emerging): \"LAND...\"",
-      "subject" : "[SIGRID] pricking her finger with the brass button for blood offering, but industrial sharp makes it go too deep, blood flowing freely onto floor where it forms five perfect spirals with six intersection points - matching the ram circles outside, as her voice drops to impossible depth.",
       "active_video_index" : 0,
-      "variant_id" : "23c_story_primary",
-      "camera_position" : "Overhead shot showing blood pattern forming, matching outside",
-      "action" : "Sigrid raises brass button to prick finger for blood offering. But button industrially sharp, corroded edge like razor. Goes too deep, through to bone. Blood flows immediately, more than intended. Drops hit floor in pattern - not random but guided. Blood forms spirals, five perfect circles radiating from her kneeling position. But five spirals create six intersection points - impossible geometry. Voice continues ritual but drops full octave: \"Komdu til mín\" becomes bass rumble. Then deeper, below human range, 16Hz, felt in bones: \"Komdu...\" Her throat shouldn't make this sound. Baby's heartbeat visible through dress, 150bpm, red pulse glowing. The blood circles begin steaming despite cold. Through window, Magnús visible collapsed in matching blood spirals outside. Connection made. House breathing drops to 6\/min, preparing. Contaminated tilberi creation beginning to breathe. Voice now giant's voice: \"LAND...\"",
-      "style" : "Overhead shot showing blood pattern forming, matching outside (that's where the camera is), documentary of pattern recognition.",
-      "negative_prompt" : "no subtitles, show blood pattern clearly, voice transformation to 16Hz, documentary observation",
-      "progressive_state" : "",
-      "variant_name" : "Primary - BLOOD CIRCLES FORM 8 SECONDS",
-      "selected_plates" : [
-        "BAÐSTOFA-BODY",
-        "WESTFJORDS-WINTER",
-        "BAÐSTOFA-ORGANIC",
-        "SIGRID-BIRTHING"
-      ],
-      "is_active" : false,
-      "scene" : "Blood pooling in impossible pattern, steam rising. Matching exactly the ram circles Magnús found outside. The inevitability visible - this was always going to happen.",
       "videos" : [
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_pricking_202509211759_ilvyx.mp4",
@@ -27,21 +11,38 @@
           "duration" : 8
         },
         {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_pricking_202509211936_nwl93.mp4",
           "duration" : 8,
-          "filename" : "Subject_sigrid_pricking_202509211936_nwl93.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_pricking_202509211936_nwl93.mp4"
+          "filename" : "Subject_sigrid_pricking_202509211936_nwl93.mp4"
         }
-      ]
+      ],
+      "variant_id" : "23c_story_primary",
+      "action" : "Sigrid raises brass button to prick finger for blood offering. But button industrially sharp, corroded edge like razor. Goes too deep, through to bone. Blood flows immediately, more than intended. Drops hit floor in pattern - not random but guided. Blood forms spirals, five perfect circles radiating from her kneeling position. But five spirals create six intersection points - impossible geometry. Voice continues ritual but drops full octave: \"Komdu til mín\" becomes bass rumble. Then deeper, below human range, 16Hz, felt in bones: \"Komdu...\" Her throat shouldn't make this sound. Baby's heartbeat visible through dress, 150bpm, red pulse glowing. The blood circles begin steaming despite cold. Through window, Magnús visible collapsed in matching blood spirals outside. Connection made. House breathing drops to 6\/min, preparing. Contaminated tilberi creation beginning to breathe. Voice now giant's voice: \"LAND...\"",
+      "selected_plates" : [
+        "BAÐSTOFA-BODY",
+        "WESTFJORDS-WINTER",
+        "BAÐSTOFA-ORGANIC",
+        "SIGRID-BIRTHING"
+      ],
+      "subject" : "[SIGRID] pricking her finger with the brass button for blood offering, but industrial sharp makes it go too deep, blood flowing freely onto floor where it forms five perfect spirals with six intersection points - matching the ram circles outside, as her voice drops to impossible depth.",
+      "camera_position" : "Overhead shot showing blood pattern forming, matching outside",
+      "dialogue" : "(Sigrid, full octave drop): \"Komdu til mín\" (16Hz beginning): \"Komdu... nei...\" (Giant's voice emerging): \"LAND...\"",
+      "scene" : "Blood pooling in impossible pattern, steam rising. Matching exactly the ram circles Magnús found outside. The inevitability visible - this was always going to happen.",
+      "style" : "Overhead shot showing blood pattern forming, matching outside (that's where the camera is), documentary of pattern recognition.",
+      "negative_prompt" : "no subtitles, show blood pattern clearly, voice transformation to 16Hz, documentary observation",
+      "is_active" : false,
+      "progressive_state" : "",
+      "variant_name" : "Primary - BLOOD CIRCLES FORM 8 SECONDS"
     }
   ],
-  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
   "shot_metadata" : {
-    "title" : "BLOOD CIRCLES FORM 8 SECONDS",
-    "id" : "23c",
     "duration_seconds" : 8,
-    "sequence_type" : "main_story",
+    "id" : "23c",
+    "needs_improvements" : false,
     "narrative_function" : "House 6\/min + 45bpm | Blood pattern emerging | Cam...",
-    "stitch_from" : ""
-  },
-  "aspect_ratio" : "4:3"
+    "stitch_from" : "",
+    "title" : "BLOOD CIRCLES FORM 8 SECONDS",
+    "sequence_type" : "main_story"
+  }
 }

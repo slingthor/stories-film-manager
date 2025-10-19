@@ -1,0 +1,20 @@
+{
+  "variant_id": "39p5_childrens_resilience_veo3_low",
+  "variant_name": "Children's Resilience During Hardship VEO3 Low",
+  "subject": "Two children in a dimly lit corner of the traditional turf house, their faces showing the strain of winter hardship but maintaining childhood resilience. Jón and Lilja work quietly together on traditional crafts, their movements methodical and practiced, showing adaptation to difficult circumstances through focus on practical tasks.",
+  "action": "Children engaged in traditional winter indoor activities—Jón carefully working with small tools on leather crafts, creating patterns with focused concentration that suggests hours of practice. Lilja sorting and organizing wool fibers for traditional textile preparation, her small hands moving with learned precision. Both children work in synchronized rhythm, their movements showing the quiet cooperation developed during long winter months. Occasional glances between them communicate without words, a silent language of siblings adapting to hardship. Their breathing steady at child's natural rhythm, occasionally deeper when concentrating on detailed work. The lamplight catches their focused expressions, showing determination despite visible fatigue.",
+  "scene": "Dark corner of baðstofa providing workspace away from main family area, oil lamp providing warm but insufficient light that creates dramatic shadows across their work. Traditional craft materials arranged with care—leather pieces, wool bundles, small tools passed down through generations. Empty food containers visible but pushed aside, the children maintaining domestic routines despite scarcity. House breathing at slow, measured rhythm, walls showing condensation from body heat and cold exterior. Temperature cold enough to see breath, creating atmospheric haze around the lamp. Establishes children's resilience through focus on traditional skills, maintaining normalcy through craft and routine despite environmental challenges. The space feels both protective and confining.",
+  "style": "Camera positioned at children's eye level 4 feet from their workspace (that's where the camera is), intimate enough to capture their concentrated expressions, wide enough to show their methodical work patterns. Static shot emphasizing the quiet determination of childhood adaptation, warm lamplight creating chiaroscuro effect that emphasizes their focus while shadowing the harsh realities. Focus sharp on their hands and faces, showing the delicate balance between childhood and premature responsibility.",
+  "camera_position": "Low angle at child height, 4 feet from subjects",
+  "dialogue": "",
+  "selected_plates": [
+    "BAÐSTOFA-BODY",
+    "WESTFJORDS-WINTER",
+    "LILJA-ACCEPTING",
+    "JON-EMERGING",
+    "STOFA-BODY"
+  ],
+  "negative_prompt": "no graphic content, no disturbing imagery, no consumption of non-food items, no modern elements, no text overlays",
+  "progressive_state": "House 8/min | Temperature -10°C | Lamp failing | Children adapting",
+  "is_active": false
+}

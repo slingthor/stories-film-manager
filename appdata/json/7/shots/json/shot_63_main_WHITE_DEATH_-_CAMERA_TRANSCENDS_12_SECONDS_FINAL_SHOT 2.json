@@ -1,12 +1,22 @@
 {
+  "progressive_state" : "Complete freeze | Frost 95%â†’100% | Death\/rebirth | Watching: Becomes memory",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
+      "active_video_index" : 0,
+      "videos" : [
+        {
+          "filename" : "Subject_the_final_202510162324_fdd9m.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510162324_fdd9m.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_final_202510162324_kp873.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510162324_kp873.mp4",
+          "duration" : 8
+        }
+      ],
       "variant_id" : "63_story_primary",
-      "progressive_state" : "",
-      "variant_name" : "Primary - WHITE DEATH - CAMERA TRANSCENDS 12 SECONDS FINAL SHOT",
-      "camera_position" : "Static frozen transcendence (that's where the camera was), death documented.",
-      "is_active" : false,
-      "dialogue" : "(Baby): First cry of freedom (Distant): Raven call",
       "action" : "95%. 96%. White overtaking. Not darkness - blinding light. The frost becomes luminous. 97%. Through white: EVERYTHING. Every shot we've seen. Overlapping. Transparent. All simultaneous. The ram circles. Tilberi breathing. Magnús's tremor. House dying. Bull arriving. Transformation. Obelisk rising. Sigrid flying. All at once. All true. All remembered. 98%. The images fade into pure white. Clean. Empty. Ready. 99%. Through white: sound of baby crying. New. 1944. June 17. Born at moment of independence vote. 99.5%. Baby's eye. Opening. Blue. Infinite. Seeing for first time. Free. Never colonized. 99.9%. Eye fills frame. 100%. The camera dies. But the eye lives. Watching. Witnessing. Continuing. The story transfers from mechanical witness to human witness. From camera to child. From us to future. Black. Silence. Then, distant: raven's call. Credits.",
       "selected_plates" : [
         "MAGNUS-RAM",
@@ -17,21 +27,25 @@
         "SEA-ETERNAL",
         "WESTFJORDS-CLIFF"
       ],
-      "style" : "Static frozen transcendence (that's where the camera was), death documented.",
       "subject" : "The final 5% closes but instead of black, everything becomes brilliant WHITE - the frost transforming to light, showing through the white: every frame of the film simultaneously, all moments existing at once, before the camera dies at 100%, last image: newborn human baby's eye opening, 1944, free.",
+      "camera_position" : "Static frozen transcendence (that's where the camera was), death documented.",
+      "dialogue" : "(Baby): First cry of freedom (Distant): Raven call",
       "scene" : "White overtaking. All images simultaneous. Baby's eye. Death becoming birth.",
-      "negative_prompt" : "maintain white luminosity, not darkness"
+      "style" : "Static frozen transcendence (that's where the camera was), death documented.",
+      "negative_prompt" : "maintain white luminosity, not darkness",
+      "is_active" : false,
+      "progressive_state" : "",
+      "variant_name" : "Primary - WHITE DEATH - CAMERA TRANSCENDS 12 SECONDS FINAL SHOT"
     }
   ],
-  "selected_prompt_index" : 0,
-  "progressive_state" : "Complete freeze | Frost 95%â†’100% | Death\/rebirth | Watching: Becomes memory",
+  "aspect_ratio" : "2.39:1",
   "shot_metadata" : {
-    "stitch_from" : "",
+    "duration_seconds" : 12,
     "id" : "63",
-    "title" : "WHITE DEATH - CAMERA TRANSCENDS 12 SECONDS FINAL SHOT",
-    "sequence_type" : "main_story",
+    "needs_improvements" : false,
     "narrative_function" : "Complete freeze | Frost 95%â†’100% | Death\/rebirth...",
-    "duration_seconds" : 12
-  },
-  "aspect_ratio" : "2.39:1"
+    "stitch_from" : "",
+    "title" : "WHITE DEATH - CAMERA TRANSCENDS 12 SECONDS FINAL SHOT",
+    "sequence_type" : "main_story"
+  }
 }

@@ -1,16 +1,28 @@
 {
+  "progressive_state" : "Normalcy performed | God ignored | Camera frost 45.5% | Routine continues | Watching: Mundane over divine",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "(Guðrún): \"Vatn er kalt í dag\" (Magnús): \"Kemur storm\" (Sigrid, each crossing): \"Fyrirgefðu\"",
-      "subject" : "The family performing morning routines - [GUÐRÚN] fetching water, [MAGNÚS] checking weather, children playing - repeatedly stepping over the dying Bull at threshold, sometimes using his horns as handholds, his massive body becoming furniture while he watches with ancient eyes.",
       "active_video_index" : 0,
+      "videos" : [
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_through_the_202509211846_1pd2j.mp4",
+          "duration" : 8,
+          "filename" : "Subject_through_the_202509211846_1pd2j.mp4"
+        },
+        {
+          "filename" : "Subject_through_the_202509211846_lq7zk.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_through_the_202509211846_lq7zk.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_through_the_202509211846_41faf.mp4",
+          "duration" : 8,
+          "filename" : "Subject_through_the_202509211846_41faf.mp4"
+        }
+      ],
       "variant_id" : "54c_story_primary",
-      "camera_position" : "Tracking mundane routine over divine being",
-      "style" : "Tracking mundane routine over divine being (that's where the camera is), sacred ignored.",
       "action" : "TRACKING family movements. Guðrún returns with water bucket, steps over Bull. His horn convenient handhold. Magnús goes out to check sky, foot on Bull's eye socket (beside the net grown into cornea). Jón runs out to play, jumps over like game. Lands on Bull's tongue (hanging out slightly). Lilja follows, sits on Bull's neck, arranges wool sheep figurines on his head between harpoons. Playing while god dies beneath her. Each crossing wears the Bull down more. Fur rubbing off where they step. Skin underneath showing - not pink but translucent, universe visible through god's flesh. Stars. Cosmos. Swimming things. Through his body: glimpse of ocean depths, polynya, trawler in distance. He's portal between worlds. But family just sees obstacle at door. Sigrid alone treats him gently - each crossing, she whispers: \"Fyrirgefðu\" (Forgive us). He forgives. Came here to forgive and witness. To die at threshold between old and new.",
-      "negative_prompt" : "maintain casualness, no reverence except Sigrid",
-      "progressive_state" : "",
-      "variant_name" : "Primary - DAILY ROUTINE OVER DYING GOD 8 SECONDS",
       "selected_plates" : [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
@@ -21,36 +33,25 @@
         "HOUSE-DETAIL",
         "WESTFJORDS-WINTER"
       ],
+      "camera_position" : "Tracking mundane routine over divine being",
+      "subject" : "The family performing morning routines - [GUÐRÚN] fetching water, [MAGNÚS] checking weather, children playing - repeatedly stepping over the dying Bull at threshold, sometimes using his horns as handholds, his massive body becoming furniture while he watches with ancient eyes.",
       "scene" : "Doorway with constant traffic over Bull. His body becoming worn, transparent. Portal forming.",
+      "dialogue" : "(Guðrún): \"Vatn er kalt í dag\" (Magnús): \"Kemur storm\" (Sigrid, each crossing): \"Fyrirgefðu\"",
+      "style" : "Tracking mundane routine over divine being (that's where the camera is), sacred ignored.",
+      "negative_prompt" : "maintain casualness, no reverence except Sigrid",
+      "variant_name" : "Primary - DAILY ROUTINE OVER DYING GOD 8 SECONDS",
       "is_active" : false,
-      "videos" : [
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_through_the_202509211846_1pd2j.mp4",
-          "filename" : "Subject_through_the_202509211846_1pd2j.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_through_the_202509211846_lq7zk.mp4",
-          "filename" : "Subject_through_the_202509211846_lq7zk.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_through_the_202509211846_41faf.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_through_the_202509211846_41faf.mp4"
-        }
-      ]
+      "progressive_state" : ""
     }
   ],
-  "selected_prompt_index" : 0,
-  "progressive_state" : "Normalcy performed | God ignored | Camera frost 45.5% | Routine continues | Watching: Mundane over divine",
+  "aspect_ratio" : "4:3",
   "shot_metadata" : {
-    "stitch_from" : "",
+    "duration_seconds" : 8,
     "id" : "54c",
-    "title" : "DAILY ROUTINE OVER DYING GOD 8 SECONDS",
-    "sequence_type" : "main_story",
+    "needs_improvements" : false,
     "narrative_function" : "Normalcy performed | God ignored | Camera frost 45...",
-    "duration_seconds" : 8
-  },
-  "aspect_ratio" : "4:3"
+    "stitch_from" : "",
+    "title" : "DAILY ROUTINE OVER DYING GOD 8 SECONDS",
+    "sequence_type" : "main_story"
+  }
 }

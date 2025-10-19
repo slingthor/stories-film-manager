@@ -1,0 +1,24 @@
+SUBJECT:
+Camera circling [MAGNÚS] as he takes in the transformed scene - family in unusual formation, children showing signs of change, Guðrún with mysterious fibers at wrists, strange creation at center where he should be, his authority challenged by contaminated presence.
+
+ACTION:
+CAMERA BEGINS CIRCLING as Magnús turns, taking in the scene. First quarter: Sees Guðrún on floor, not standing for his return, strange fibers visible at her wrists like she's becoming something else. Second quarter: Jón and Lilja, mouths open showing unusual features, breathing rapidly (20/min), his son's fever breaking but eyes unnaturally bright. Third quarter: Strange figure at center where patriarch should stand, unusual form visible, mystical presence apparent, breathing in strange rhythms, family arranged around IT not him. Final quarter: Sigrid maintaining exactly 11 feet even now, hand protective on belly, only one breathing at different rate (15/min unchanged). Complete circle shows his position: standing outside their formation. He's excluded. Not needed. Failed provider, failed protector, failed patriarch. Frustration builds. Drops fin. Hands clench tightly. House exhales finally - long, slow breath at 3/min.
+
+SCENE:
+Full interior revealed in rotation. Family floor-level, him standing isolated. Strange figure as new center. Outdoor temperature: -35°C. Indoor temperature: -10°C.
+
+STYLE:
+360° track around Magnús, showing his isolation from every angle (that's where the camera is), authority dissolved. Camera position: 360° track around Magnús, showing his isolation from every angle
+
+DIALOGUE:
+(Magnús, building frustration): "Af hverju... af hverju eruð þið..." (Seeing figure): "HVAÐ ER ÞETTA?" (To Guðrún): "ÞÚ... þú gerðir þetta?"
+
+NEGATIVE PROMPT:
+maintain circular movement, no cuts, show transformation evidence, no violence, no blood, no gore, no modern elements, no screen space overlays, no fullscreen overlays, no UI elements, no trim no edit
+
+ASPECT:
+4:3
+
+Meta setting: Iceland, Westfjords 1888
+
+video should be all one scene

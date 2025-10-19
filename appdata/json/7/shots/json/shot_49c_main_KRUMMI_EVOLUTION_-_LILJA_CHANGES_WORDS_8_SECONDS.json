@@ -1,16 +1,23 @@
 {
+  "progressive_state" : "Lullaby prophetic | Words transforming | Camera frost 37.5% | Children knowing | Watching: Future speaking",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "(Lilja, singing transformed): \"Sigrid svaf í klettagjá\" \"Sigrid flýgur úr klettagjá\" \"En hún flýgur, hún mun lifa\" \"Sigrid verður Krummi\"",
-      "subject" : "[LILJA] suddenly singing the Krummi lullaby but words changing themselves - \"Krummi svaf í klettagjá\" becoming \"SIGRID flýgur úr klettagjá\" (Sigrid flies from rocky cleft), the house IS the cleft, and the child prophesying escape while [MAGNÚS] turns, distracted from inspection.",
       "active_video_index" : 0,
+      "videos" : [
+        {
+          "filename" : "Subject_lilja_suddenly_202509211854_43jwj.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202509211854_43jwj.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_lilja_suddenly_202509211854_xm0mf.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202509211854_xm0mf.mp4",
+          "duration" : 8
+        }
+      ],
       "variant_id" : "49c_story_primary",
-      "camera_position" : "Slow zoom on prophetic child",
       "action" : "Lilja sits in réttir position, begins singing. Voice clear, five-year-old pitch: \"Krummi svaf í klettagjá...\" But as ZOOM BEGINS, words change. Not deliberately - emerging differently: \"Sigrid svaf í klettagjá...\" Magnús turns from Sigrid, listening. Lilja continues, words evolving: \"Sigrid flýgur úr klettagjá\" (Sigrid flies from rocky cleft). \"Verður margt að meini\" (Much becomes harmful) stays same. \"En hún flýgur, hún mun lifa\" (But she flies, she will live). The house IS the klettagjá - rocky cleft from lullaby. Wall cracks deepening, becoming cleft-like. Magnús approaches Lilja, confused by changed words. This breaks his focus on Sigrid. She slides along wall, reestablishing 11 feet distance. Lilja continues singing, eyes closed, prophetic trance: \"Krummi kemur, Krummi sér\" (Raven comes, Raven sees). \"Sigrid verður Krummi\" (Sigrid becomes Raven). House breathing slows to match lullaby rhythm. Beams stop groaning. Everything listening to prophecy. Through window: actual raven lands on sill. Watching. Waiting.",
-      "style" : "Slow zoom on prophetic child (that's where the camera is), future speaking through innocence.",
-      "negative_prompt" : "maintain zoom, show word evolution, raven visible",
-      "progressive_state" : "",
-      "variant_name" : "Primary - KRUMMI EVOLUTION - LILJA CHANGES WORDS 8 SECONDS",
       "selected_plates" : [
         "MAGNUS-POSSESSOR",
         "SIGRID-CORNERED",
@@ -18,31 +25,25 @@
         "BAÐSTOFA-CRYSTALLIZING",
         "STOFA-BODY"
       ],
-      "is_active" : false,
+      "subject" : "[LILJA] suddenly singing the Krummi lullaby but words changing themselves - \"Krummi svaf í klettagjá\" becoming \"SIGRID flýgur úr klettagjá\" (Sigrid flies from rocky cleft), the house IS the cleft, and the child prophesying escape while [MAGNÚS] turns, distracted from inspection.",
+      "camera_position" : "Slow zoom on prophetic child",
+      "dialogue" : "(Lilja, singing transformed): \"Sigrid svaf í klettagjá\" \"Sigrid flýgur úr klettagjá\" \"En hún flýgur, hún mun lifa\" \"Sigrid verður Krummi\"",
       "scene" : "Interior with Lilja central, all listening. Raven visible outside. Prophecy moment.",
-      "videos" : [
-        {
-          "duration" : 8,
-          "filename" : "Subject_lilja_suddenly_202509211854_43jwj.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202509211854_43jwj.mp4"
-        },
-        {
-          "filename" : "Subject_lilja_suddenly_202509211854_xm0mf.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202509211854_xm0mf.mp4",
-          "duration" : 8
-        }
-      ]
+      "style" : "Slow zoom on prophetic child (that's where the camera is), future speaking through innocence.",
+      "negative_prompt" : "maintain zoom, show word evolution, raven visible",
+      "is_active" : false,
+      "progressive_state" : "",
+      "variant_name" : "Primary - KRUMMI EVOLUTION - LILJA CHANGES WORDS 8 SECONDS"
     }
   ],
-  "selected_prompt_index" : 0,
-  "progressive_state" : "Lullaby prophetic | Words transforming | Camera frost 37.5% | Children knowing | Watching: Future speaking",
+  "aspect_ratio" : "1:1",
   "shot_metadata" : {
-    "stitch_from" : "",
+    "duration_seconds" : 8,
     "id" : "49c",
-    "title" : "KRUMMI EVOLUTION - LILJA CHANGES WORDS 8 SECONDS",
-    "sequence_type" : "main_story",
+    "needs_improvements" : false,
     "narrative_function" : "Lullaby prophetic | Words transforming | Camera fr...",
-    "duration_seconds" : 8
-  },
-  "aspect_ratio" : "1:1"
+    "stitch_from" : "",
+    "title" : "KRUMMI EVOLUTION - LILJA CHANGES WORDS 8 SECONDS",
+    "sequence_type" : "main_story"
+  }
 }

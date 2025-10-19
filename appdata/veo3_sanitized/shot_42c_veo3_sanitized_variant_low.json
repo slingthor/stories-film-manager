@@ -1,0 +1,22 @@
+{
+  "variant_id": "42c_story_primary_veo3_low",
+  "variant_name": "Primary - RECOGNIZING TRANSFORMATION 8 SECONDS_veo3_low",
+  "subject": "Camera circling [MAGNÚS] as he takes in the transformed scene - family in unusual formation, children showing signs of change, Guðrún with mysterious fibers at wrists, strange creation at center where he should be, his authority challenged by contaminated presence.",
+  "action": "CAMERA BEGINS CIRCLING as Magnús turns, taking in the scene. First quarter: Sees Guðrún on floor, not standing for his return, strange fibers visible at her wrists like she's becoming something else. Second quarter: Jón and Lilja, mouths open showing unusual features, breathing rapidly (20/min), his son's fever breaking but eyes unnaturally bright. Third quarter: Strange figure at center where patriarch should stand, unusual form visible, mystical presence apparent, breathing in strange rhythms, family arranged around IT not him. Final quarter: Sigrid maintaining exactly 11 feet even now, hand protective on belly, only one breathing at different rate (15/min unchanged). Complete circle shows his position: standing outside their formation. He's excluded. Not needed. Failed provider, failed protector, failed patriarch. Frustration builds. Drops fin. Hands clench tightly. House exhales finally - long, slow breath at 3/min.",
+  "scene": "Full interior revealed in rotation. Family floor-level, him standing isolated. Strange figure as new center.",
+  "style": "360° track around Magnús, showing his isolation from every angle (that's where the camera is), authority dissolved.",
+  "camera_position": "360° track around Magnús, showing his isolation from every angle",
+  "dialogue": "(Magnús, building frustration): \"Af hverju... af hverju eruð þið...\" (Seeing figure): \"HVAÐ ER ÞETTA?\" (To Guðrún): \"ÞÚ... þú gerðir þetta?\"",
+  "selected_plates": [
+    "MAGNUS-CONFUSED",
+    "SIGRID-MARKED",
+    "LILJA-HARMONIC",
+    "JON-PROPHET",
+    "GUDRUN-PRODUCING",
+    "BAÐSTOFA-STIRRING",
+    "STOFA-AWAKENING"
+  ],
+  "negative_prompt": "maintain circular movement, no cuts, show transformation evidence, no violence, no blood, no gore",
+  "progressive_state": "House exhales 3/min | Building tension | Camera frost 28% | Authority challenged | Watching: House observing realization",
+  "is_active": false
+}
