@@ -182,25 +182,39 @@ struct PromptGenerationPanel: View {
                         plateManager: filmManager.plateManager
                     )
 
-                    // Create safe filenames
-                    let safeVariantName = variant.name
+                    // Create safe filenames using shot.id and variant.variantId for easy mapping back to JSON
+                    let safeVariantId = variant.variantId
                         .replacingOccurrences(of: " ", with: "_")
                         .replacingOccurrences(of: "/", with: "-")
                         .replacingOccurrences(of: ":", with: "-")
 
-                    let completeFilename = "shot_\(shot.id)_\(safeVariantName)_complete.txt"
-                    let cleanFilename = "shot_\(shot.id)_\(safeVariantName)_clean.txt"
+                    let completeFilename = "\(shot.id)_\(safeVariantId)_complete.txt"
+                    let cleanFilename = "\(shot.id)_\(safeVariantId)_clean.txt"
+                    let metadataFilename = "\(shot.id)_\(safeVariantId)_metadata.json"
 
                     let completeFilePath = "\(outputPath)/\(completeFilename)"
                     let cleanFilePath = "\(outputPath)/\(cleanFilename)"
+                    let metadataFilePath = "\(outputPath)/\(metadataFilename)"
 
-                    // Write prompts to files
+                    // Create minimal metadata for mapping back to shot JSON
+                    let metadata: [String: Any] = [
+                        "shot_id": shot.id,
+                        "variant_id": variant.variantId
+                    ]
+
+                    // Write prompts and metadata to files
                     do {
                         try completePrompt.write(toFile: completeFilePath, atomically: true, encoding: .utf8)
                         try cleanPrompt.write(toFile: cleanFilePath, atomically: true, encoding: .utf8)
+
+                        // Write metadata JSON
+                        let metadataData = try JSONSerialization.data(withJSONObject: metadata, options: [.prettyPrinted, .sortedKeys])
+                        try metadataData.write(to: URL(fileURLWithPath: metadataFilePath))
+
                         print("✅ Baked shot \(shot.id) - \(variant.name)")
                         print("   📄 Complete: \(completeFilename)")
                         print("   📄 Clean: \(cleanFilename)")
+                        print("   📋 Metadata: \(metadataFilename)")
                     } catch {
                         print("❌ Failed to write prompts for shot \(shot.id) - \(variant.name): \(error.localizedDescription)")
                     }
