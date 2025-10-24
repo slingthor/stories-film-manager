@@ -1,19 +1,31 @@
 {
+  "shot_metadata" : {
+    "duration_seconds" : 8,
+    "id" : "58b",
+    "narrative_function" : "Truth understood | Camera frost 51% | Sacrifice me...",
+    "title" : "GUÐRÚN-EWES REALIZATION - THE GREAT LINE 8 SECONDS",
+    "needs_improvements" : false,
+    "sequence_type" : "main_story",
+    "stitch_from" : ""
+  },
   "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "scene" : "Close on ewe face. Tears visible. Dawn light making wool glow. Truth spoken barely.",
-      "subject" : "[GUÐRÚN]-ewe suddenly understanding, struggling with sheep vocal cords to speak the crucial truth: \"Við deyjum sem kindur... til að börn okkar... geti orðið fólk\" (We die as sheep... so our children... can become human).",
+      "variant_id" : "58b_story_primary",
+      "is_active" : false,
       "dialogue" : "(Guðrún-ewe, struggling): \"Við deyjum sem kindur...\" \"Til að börn okkar...\" \"Geti orðið fólk\"",
+      "active_video_index" : 0,
+      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
       "selected_plates" : [
         "GUDRUN-EWE",
         "BAÐSTOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ],
-      "variant_name" : "Primary - GUÐRÚN-EWES REALIZATION - THE GREAT LINE 8 SECONDS",
+      "progressive_state" : "",
+      "subject" : "[GUÐRÚN]-ewe suddenly understanding, struggling with sheep vocal cords to speak the crucial truth: \"Við deyjum sem kindur... til að börn okkar... geti orðið fólk\" (We die as sheep... so our children... can become human).",
       "style" : "Push in on speaking ewe (that's where the camera is), revelation documented.",
-      "is_active" : false,
+      "scene" : "Close on ewe face. Tears visible. Dawn light making wool glow. Truth spoken barely.",
+      "variant_name" : "Primary - GUÐRÚN-EWES REALIZATION - THE GREAT LINE 8 SECONDS",
       "videos" : [
         {
           "filename" : "Subject_gurnewe_suddenly_202509211833_-4.mp4",
@@ -22,46 +34,34 @@
         },
         {
           "filename" : "Subject_gurnewe_suddenly_202509211833_-3.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202509211833_-3.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202509211833_-3.mp4",
+          "duration" : 8
         },
         {
+          "filename" : "Subject_gurnewe_suddenly_202509211833_-2.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202509211833_-2.mp4",
-          "duration" : 8,
-          "filename" : "Subject_gurnewe_suddenly_202509211833_-2.mp4"
+          "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202509211833_.mp4",
           "filename" : "Subject_gurnewe_suddenly_202509211833_.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202509211833_.mp4",
           "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510192229_-2.mp4",
           "duration" : 8,
-          "filename" : "Subject_gurnewe_suddenly_202510192229_-2.mp4"
+          "filename" : "Subject_gurnewe_suddenly_202510192229_-2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510192229_-2.mp4"
         },
         {
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510192229_.mp4",
-          "filename" : "Subject_gurnewe_suddenly_202510192229_.mp4",
-          "duration" : 8
+          "filename" : "Subject_gurnewe_suddenly_202510192229_.mp4"
         }
       ],
-      "active_video_index" : 0,
-      "variant_id" : "58b_story_primary",
       "action" : "PUSH IN on Guðrún-ewe's face. Her horizontal pupils dilate with understanding. She KNOWS now. Why this happened. What it means. Struggles to speak. Sheep throat fighting human consciousness. \"Vvvvið...\" Harder than \"Mamma.\" These are complex words. \"Við deyjum...\" Push closer. Tears from sheep eyes. Real tears. Mother's tears. \"Sem kindur...\" The words barely human. More bleat than speech. But we understand. She understands. They're the sacrifice generation. \"Til að börn okkar...\" Looking at lamb-children. They won't stay sheep. Their children will be human. Free. \"Geti orðið fólk.\" The last word clear. FÐ“LK. Human. People. Not livestock. The colonial transformation was temporary. One generation sacrificed so the next could be free. Iceland under Denmark - sheep. Iceland independent - human again. She sees it all. Accepts it. The mother's ultimate sacrifice.",
-      "camera_position" : "Push in on speaking ewe",
-      "progressive_state" : "",
-      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified"
+      "camera_position" : "Push in on speaking ewe"
     }
   ],
   "progressive_state" : "Truth understood | Camera frost 51% | Sacrifice meaning | Watching: Mother knows",
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "id" : "58b",
-    "title" : "GUÐRÚN-EWES REALIZATION - THE GREAT LINE 8 SECONDS",
-    "stitch_from" : "",
-    "needs_improvements" : false,
-    "duration_seconds" : 8,
-    "narrative_function" : "Truth understood | Camera frost 51% | Sacrifice me..."
-  }
+  "aspect_ratio" : "4:3"
 }

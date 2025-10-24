@@ -1,42 +1,42 @@
 {
+  "shot_metadata" : {
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "needs_improvements" : true,
+    "title" : "THE HIDDEN FEAST AND EMPTY STORES",
+    "id" : "14",
+    "sequence_type" : "main_story",
+    "narrative_function" : "House 13\/min + 60bpm | Klettagjá 2mm | Starvation..."
+  },
   "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "scene" : "Storage room, 6:12 AM, cold grey light through cracks. Temperature -12°C, colder than main room. Shelves floor to ceiling, all empty. The contrast between general emptiness and Magnús's hidden plenty. His fishing gear in corner: line, hooks, gaff, net, old rifle - all prepared, waiting. Through door, family visible - Lilja gnawing thumb, Sigrid's hand on belly (feeding two), Jón fevered and skeletal.",
+      "variant_id" : "14_story_primary",
+      "is_active" : false,
       "dialogue" : "(Guðrún, counting): \"...tuttugu og þrír... tuttugu og fjórir... allt tómt\" (Tone: listing disaster) (Magnús, mouth full): \"Ð‰g verð að reyna\" (I have to try) (Tone: justifying) (Jón in doorway): Silence, just watching",
-      "subject" : "[MAGNÚS] opening the storage room door, revealing catastrophic emptiness - bare shelves, empty barrels, naked hooks where meat once hung - then reaching into his personal chest to retrieve wrapped harðfiskur (dried fish) he's been hiding, eating it in full view of empty stores while his family starves.",
+      "active_video_index" : 0,
+      "negative_prompt" : "no subtitles, show complete emptiness clearly, contrast with hidden fish, documentary observation",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "GUDRUN-COUNTING",
         "BAÐSTOFA-ORGANIC"
       ],
-      "variant_name" : "Primary - THE HIDDEN FEAST AND EMPTY STORES",
+      "progressive_state" : "",
+      "subject" : "[MAGNÚS] opening the storage room door, revealing catastrophic emptiness - bare shelves, empty barrels, naked hooks where meat once hung - then reaching into his personal chest to retrieve wrapped harðfiskur (dried fish) he's been hiding, eating it in full view of empty stores while his family starves.",
       "style" : "Wide shot showing vast emptiness, then close on hidden fish (that's where the camera is), documentary of hoarding during famine.",
-      "is_active" : false,
+      "scene" : "Storage room, 6:12 AM, cold grey light through cracks. Temperature -12°C, colder than main room. Shelves floor to ceiling, all empty. The contrast between general emptiness and Magnús's hidden plenty. His fishing gear in corner: line, hooks, gaff, net, old rifle - all prepared, waiting. Through door, family visible - Lilja gnawing thumb, Sigrid's hand on belly (feeding two), Jón fevered and skeletal.",
+      "variant_name" : "Primary - THE HIDDEN FEAST AND EMPTY STORES",
       "videos" : [
         {
-          "duration" : 8,
           "filename" : "Subject_magns_opening_202509211719_oxhz2.mp4",
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_opening_202509211719_oxhz2.mp4"
         }
       ],
-      "active_video_index" : 0,
-      "variant_id" : "14_story_primary",
       "action" : "Magnús enters storage room, Guðrún following with hope. Camera reveals disaster: Twenty empty shelves with dust circles. Six barrels, all empty, one tipped showing mouse droppings but no mice (eaten). Empty hooks on beams where meat should hang, only rust stains. One sack of salt, nearly empty. Spider webs but no spiders (also eaten). Then Magnús opens HIS chest - inside, wrapped in cloth: full piece of harðfiskur, white with good fat, probably 3 days' food. He breaks off large piece, eats it standing among emptiness. Guðrún sees, her face cycling through betrayal, understanding, resignation. She counts the empty spaces - her lips moving \"einn, tveir, þrír...\" up to \"tuttugu og fjórir\" (twenty-four empty spaces). Behind them, Jón appears in doorway, ribs visible through shirt, sees father eating, says nothing. Magnús doesn't share, rewraps fish, hides it again. Looks at empty room, then to corner where fishing gear waits. The decision forming.",
-      "camera_position" : "Wide shot showing vast emptiness, then close on hidden fish",
-      "progressive_state" : "",
-      "negative_prompt" : "no subtitles, show complete emptiness clearly, contrast with hidden fish, documentary observation"
+      "camera_position" : "Wide shot showing vast emptiness, then close on hidden fish"
     }
   ],
   "progressive_state" : "House 13\/min + 60bpm | Klettagjá 2mm | Starvation contrast | Camera frost 8% | Provider's shame | Watching: Family sees betrayal",
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "stitch_from" : "",
-    "narrative_function" : "House 13\/min + 60bpm | Klettagjá 2mm | Starvation...",
-    "needs_improvements" : true,
-    "duration_seconds" : 8,
-    "title" : "THE HIDDEN FEAST AND EMPTY STORES",
-    "id" : "14"
-  }
+  "aspect_ratio" : "4:3"
 }

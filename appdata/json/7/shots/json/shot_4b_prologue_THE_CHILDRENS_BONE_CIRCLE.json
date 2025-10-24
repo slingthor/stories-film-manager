@@ -1,80 +1,78 @@
 {
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "1.85:1",
   "shot_metadata" : {
-    "sequence_type" : "prologue",
     "id" : "4b",
-    "title" : "THE CHILDRENS BONE CIRCLE",
     "stitch_from" : "",
-    "needs_improvements" : false,
     "duration_seconds" : 8,
+    "sequence_type" : "prologue",
+    "title" : "THE CHILDRENS BONE CIRCLE",
+    "needs_improvements" : false,
     "narrative_function" : "Children playing | Patterns forming | Camera frost..."
   },
-  "progressive_state" : "Children playing | Patterns forming | Camera frost 0% | Future practiced | Watching: Innocent rehearsal",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
+      "active_video_index" : 0,
       "subject" : "Five children sitting in grass between beach and hills, playing with sheep knucklebones, throwing them to land in patterns, the bones falling to create a perfect circle, their shadows forming shapes that don't match their positions.",
       "negative_prompt" : "no subtitles, show bones in perfect circle, wrong shadows, three stains spreading, 1080p",
-      "variant_id" : "4b_story_primary",
+      "dialogue" : "None",
+      "progressive_state" : "",
+      "selected_plates" : [
+        "MAGNUS-AUTHORITY",
+        "SIGRID-PURE",
+        "LILJA-PURE",
+        "JON-MILD",
+        "GUDRUN-ABUNDANT",
+        "BAÐSTOFA-DOMESTIC",
+        "WESTFJORDS-BEACH"
+      ],
+      "action" : "Children aged 5-10 sit in grass. Each has handful of white knucklebones from spring slaughter. Take turns throwing bones up. Bones land in patterns - first throw makes line, second makes triangle, third makes square. Fourth throw, bones land in perfect circle, some standing on end impossibly. Children look at each other. One girl throws again. Bones land in exact same circle. Boy tries. Same circle forms. Every throw now creates identical pattern. On ground, their shadows wrong - shadows show them standing though they're sitting. One shadow has horns. Another has too many arms. Children don't notice shadows. In grass around them, three types of stains spreading - red from whale blood carried on wind, purple from berry juice on their hands, golden from egg yolk. Stains creeping toward bone circle. When stains touch bones, bones seem to breathe once.",
       "videos" : [
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/20251016_2319_01k7rcd0exe038ntdqrbz1wxp9.mp4",
           "filename" : "20251016_2319_01k7rcd0exe038ntdqrbz1wxp9.mp4",
-          "duration" : 15.088666666666667
+          "duration" : 15.088666666666667,
+          "filepath" : "\/Users\/ingthor\/Downloads\/20251016_2319_01k7rcd0exe038ntdqrbz1wxp9.mp4"
         }
       ],
-      "scene" : "Grassy area between beach and hills. Morning sun creating sharp shadows. Ocean visible with whale approaching. Cliffs visible with tiny figures climbing.",
-      "selected_plates" : [
-        "MAGNUS-AUTHORITY",
-        "SIGRID-PURE",
-        "LILJA-PURE",
-        "JON-MILD",
-        "GUDRUN-ABUNDANT",
-        "BAÐSTOFA-DOMESTIC",
-        "WESTFJORDS-BEACH"
-      ],
-      "dialogue" : "None",
-      "active_video_index" : 0,
-      "style" : "Overhead shot looking down at children and bone patterns (that's where the camera is), shadows clearly visible.",
       "camera_position" : "Overhead shot looking down at children and bone patterns",
       "variant_name" : "Primary - THE CHILDRENS BONE CIRCLE",
       "is_active" : false,
-      "progressive_state" : "",
-      "action" : "Children aged 5-10 sit in grass. Each has handful of white knucklebones from spring slaughter. Take turns throwing bones up. Bones land in patterns - first throw makes line, second makes triangle, third makes square. Fourth throw, bones land in perfect circle, some standing on end impossibly. Children look at each other. One girl throws again. Bones land in exact same circle. Boy tries. Same circle forms. Every throw now creates identical pattern. On ground, their shadows wrong - shadows show them standing though they're sitting. One shadow has horns. Another has too many arms. Children don't notice shadows. In grass around them, three types of stains spreading - red from whale blood carried on wind, purple from berry juice on their hands, golden from egg yolk. Stains creeping toward bone circle. When stains touch bones, bones seem to breathe once."
+      "style" : "Overhead shot looking down at children and bone patterns (that's where the camera is), shadows clearly visible.",
+      "scene" : "Grassy area between beach and hills. Morning sun creating sharp shadows. Ocean visible with whale approaching. Cliffs visible with tiny figures climbing.",
+      "variant_id" : "4b_story_primary"
     },
     {
-      "selected_plates" : [
-        "MAGNUS-AUTHORITY",
-        "SIGRID-PURE",
-        "LILJA-PURE",
-        "JON-MILD",
-        "GUDRUN-ABUNDANT",
-        "BAÐSTOFA-DOMESTIC",
-        "WESTFJORDS-BEACH"
-      ],
-      "variant_id" : "4b_story_primary",
-      "action" : "Children aged 5-10 sit in grass. Each has handful of white knucklebones from spring slaughter. Take turns throwing bones up. Bones land in patterns - first throw makes line, second makes triangle, third makes square. Fourth throw, bones land in perfect circle, some standing on end impossibly. Children look at each other. One girl throws again. Bones land in exact same circle. Boy tries. Same circle forms. Every throw now creates identical pattern. On ground, their shadows wrong - shadows show them standing though they're sitting. One shadow has horns. Another has too many arms. Children don't notice shadows. In grass around them, three types of stains spreading - red from whale blood carried on wind, purple from berry juice on their hands, golden from egg yolk. Stains creeping toward bone circle. When stains touch bones, bones seem to breathe once.",
-      "style" : "Overhead shot looking down at children and bone patterns (that's where the camera is), shadows clearly visible.",
       "camera_position" : "Overhead shot looking down at children and bone patterns",
       "dialogue" : "None",
+      "progressive_state" : "",
+      "variant_id" : "4b_story_primary",
+      "style" : "Overhead shot looking down at children and bone patterns (that's where the camera is), shadows clearly visible.",
+      "action" : "Children aged 5-10 sit in grass. Each has handful of white knucklebones from spring slaughter. Take turns throwing bones up. Bones land in patterns - first throw makes line, second makes triangle, third makes square. Fourth throw, bones land in perfect circle, some standing on end impossibly. Children look at each other. One girl throws again. Bones land in exact same circle. Boy tries. Same circle forms. Every throw now creates identical pattern. On ground, their shadows wrong - shadows show them standing though they're sitting. One shadow has horns. Another has too many arms. Children don't notice shadows. In grass around them, three types of stains spreading - red from whale blood carried on wind, purple from berry juice on their hands, golden from egg yolk. Stains creeping toward bone circle. When stains touch bones, bones seem to breathe once.",
+      "scene" : "Grassy area between beach and hills. Morning sun creating sharp shadows. Ocean visible with whale approaching. Cliffs visible with tiny figures climbing.",
       "negative_prompt" : "no subtitles, show bones in perfect circle, wrong shadows, three stains spreading, 1080p",
-      "is_active" : false,
       "variant_name" : "Primary - THE CHILDRENS BONE CIRCLE",
       "subject" : "Five children sitting in grass between beach and hills, playing with sheep knucklebones, throwing them to land in patterns, the bones falling to create a perfect circle, their shadows forming shapes that don't match their positions.",
-      "scene" : "Grassy area between beach and hills. Morning sun creating sharp shadows. Ocean visible with whale approaching. Cliffs visible with tiny figures climbing.",
-      "progressive_state" : ""
+      "is_active" : false,
+      "selected_plates" : [
+        "MAGNUS-AUTHORITY",
+        "SIGRID-PURE",
+        "LILJA-PURE",
+        "JON-MILD",
+        "GUDRUN-ABUNDANT",
+        "BAÐSTOFA-DOMESTIC",
+        "WESTFJORDS-BEACH"
+      ]
     },
     {
-      "style" : "Overhead shot looking down at children and patterns (that's where the camera is), shadows clearly visible.",
-      "negative_prompt" : "no subtitles, show bones in perfect circle, unusual shadows, three marks spreading, 1080p",
-      "variant_name" : "Primary - THE CHILDRENS BONE CIRCLE_veo3_low",
-      "scene" : "Grassy area between beach and hills. Morning sun creating sharp shadows. Ocean visible with whale approaching. Cliffs visible with tiny figures climbing.",
       "progressive_state" : "",
-      "is_active" : false,
-      "action" : "Children aged 5-10 sit in grass. Each has handful of white game pieces made from bone. Take turns throwing pieces up. Pieces land in patterns - first throw makes line, second makes triangle, third makes square. Fourth throw, pieces land in perfect circle, some standing on end impossibly. Children look at each other. One girl throws again. Pieces land in exact same circle. Boy tries. Same circle forms. Every throw now creates identical pattern. On ground, their shadows unusual - shadows show them standing though they're sitting. One shadow appears different. Another shadow seems elongated. Children don't notice shadows. In grass around them, three types of marks spreading - faint red from distant ocean spray, purple from berry juice on their hands, golden from morning light. Marks creeping toward bone circle. When marks touch pieces, pieces seem to shift once.",
+      "scene" : "Grassy area between beach and hills. Morning sun creating sharp shadows. Ocean visible with whale approaching. Cliffs visible with tiny figures climbing.",
+      "negative_prompt" : "no subtitles, show bones in perfect circle, unusual shadows, three marks spreading, 1080p",
+      "style" : "Overhead shot looking down at children and patterns (that's where the camera is), shadows clearly visible.",
+      "variant_name" : "Primary - THE CHILDRENS BONE CIRCLE_veo3_low",
       "variant_id" : "4b_story_primary_veo3_low",
+      "dialogue" : "None",
+      "is_active" : false,
       "subject" : "Five children sitting in grass between beach and hills, playing with traditional game pieces, throwing them to land in patterns, the pieces falling to create a perfect circle, their shadows forming shapes that don't match their positions.",
-      "camera_position" : "Overhead shot looking down at children and bone patterns",
+      "action" : "Children aged 5-10 sit in grass. Each has handful of white game pieces made from bone. Take turns throwing pieces up. Pieces land in patterns - first throw makes line, second makes triangle, third makes square. Fourth throw, pieces land in perfect circle, some standing on end impossibly. Children look at each other. One girl throws again. Pieces land in exact same circle. Boy tries. Same circle forms. Every throw now creates identical pattern. On ground, their shadows unusual - shadows show them standing though they're sitting. One shadow appears different. Another shadow seems elongated. Children don't notice shadows. In grass around them, three types of marks spreading - faint red from distant ocean spray, purple from berry juice on their hands, golden from morning light. Marks creeping toward bone circle. When marks touch pieces, pieces seem to shift once.",
       "selected_plates" : [
         "MAGNUS-AUTHORITY",
         "SIGRID-PURE",
@@ -84,7 +82,9 @@
         "BAÐSTOFA-DOMESTIC",
         "WESTFJORDS-BEACH"
       ],
-      "dialogue" : "None"
+      "camera_position" : "Overhead shot looking down at children and bone patterns"
     }
-  ]
+  ],
+  "progressive_state" : "Children playing | Patterns forming | Camera frost 0% | Future practiced | Watching: Innocent rehearsal",
+  "aspect_ratio" : "1.85:1"
 }

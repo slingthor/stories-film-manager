@@ -1,38 +1,40 @@
 {
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "1.85:1",
   "shot_metadata" : {
-    "sequence_type" : "prologue",
-    "stitch_from" : "",
+    "title" : "The Trawler's Eye - Industrial Intrusion",
     "narrative_function" : "Industrial surveillance establishing imperial presence",
     "needs_improvements" : false,
-    "duration_seconds" : 8,
-    "title" : "The Trawler's Eye - Industrial Intrusion",
-    "id" : "8a"
+    "stitch_from" : "",
+    "id" : "8a",
+    "sequence_type" : "prologue",
+    "duration_seconds" : 8
   },
-  "progressive_state" : "Industry arrives | Light weapon | Camera frost 2% | Intrusion begins | Watching: The serpent sees",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "scene" : "Ocean horizon with trawler. Feast in foreground. Searchlight beam crossing water and land. Sunset frozen behind ship.",
+      "variant_id" : "8a_story_primary",
+      "is_active" : false,
       "dialogue" : "None",
-      "subject" : "A British steel trawler 200 feet long visible on horizon, black smoke from stack, powerful electric searchlight on bow swiveling toward shore, the beam of white light cutting through golden sunset toward the feast.",
+      "active_video_index" : 0,
+      "negative_prompt" : "no subtitles, show searchlight beam clearly, trawler on horizon, everyone staring at light, 1080p",
       "selected_plates" : [
         "WESTFJORDS-SUMMER",
         "WESTFJORDS-BEACH"
       ],
-      "variant_name" : "Industrial Surveillance Intrusion",
+      "progressive_state" : "",
+      "subject" : "A British steel trawler 200 feet long visible on horizon, black smoke from stack, powerful electric searchlight on bow swiveling toward shore, the beam of white light cutting through golden sunset toward the feast.",
       "style" : "Wide shot from behind feast tables showing trawler and light beam approaching (that's where the camera is), dramatic lighting contrast.",
-      "is_active" : false,
+      "scene" : "Ocean horizon with trawler. Feast in foreground. Searchlight beam crossing water and land. Sunset frozen behind ship.",
+      "variant_name" : "Industrial Surveillance Intrusion",
       "videos" : [
         {
+          "duration" : 8,
           "filename" : "Meta_setting_iceland_202509142233_dra53.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142233_dra53.mp4",
-          "duration" : 8
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142233_dra53.mp4"
         },
         {
-          "filename" : "Meta_setting_iceland_202509142233_wgxsr.mp4",
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142233_wgxsr.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142233_wgxsr.mp4",
+          "filename" : "Meta_setting_iceland_202509142233_wgxsr.mp4"
         },
         {
           "duration" : 8,
@@ -45,27 +47,25 @@
           "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_british_202510232213_fting.mp4",
           "filename" : "Subject_a_british_202510232213_fting.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_british_202510232213_fting.mp4"
+        },
+        {
+          "filename" : "Subject_a_british_202510232221_3dkm8.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_british_202510232221_3dkm8.mp4",
           "duration" : 8
         },
         {
           "duration" : 8,
-          "filename" : "Subject_a_british_202510232221_3dkm8.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_british_202510232221_3dkm8.mp4"
-        },
-        {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_british_202510232221_ymtj5.mp4",
-          "filename" : "Subject_a_british_202510232221_ymtj5.mp4",
-          "duration" : 8
+          "filename" : "Subject_a_british_202510232221_ymtj5.mp4"
         }
       ],
-      "active_video_index" : 0,
-      "variant_id" : "8a_story_primary",
       "action" : "Trawler sits on horizon line, hull black steel, industrial design. Smoke rises from stack, black against golden sky, perfectly vertical - still no wind. Ship not moving, anchored. On bow, large searchlight mounted on swivel. Light off initially. Then clicks on - electric arc light, blue-white, impossibly bright. Beam shoots across water toward shore. Light cuts through golden sunset like blade. Sweeps left across empty beach. Sweeps right across cliffs. Stops. Reverses. Finds the feast tables. Light locks onto gathering. Holds steady. Everyone at tables turns toward light, faces washed white, shadows thrown behind them black and sharp. No one shields eyes. All stare directly into beam. The trawler's beam makes the three stains on everyone's clothes visible - red blood, purple juice, golden yolk - all appear black in the harsh light. Ship's horn doesn't sound. Just the light. Watching.",
-      "camera_position" : "Behind feast tables showing trawler approach, that's where the camera is",
-      "progressive_state" : "",
-      "negative_prompt" : "no subtitles, show searchlight beam clearly, trawler on horizon, everyone staring at light, 1080p"
+      "camera_position" : "Behind feast tables showing trawler approach, that's where the camera is"
     }
-  ]
+  ],
+  "progressive_state" : "Industry arrives | Light weapon | Camera frost 2% | Intrusion begins | Watching: The serpent sees",
+  "aspect_ratio" : "1.85:1"
 }

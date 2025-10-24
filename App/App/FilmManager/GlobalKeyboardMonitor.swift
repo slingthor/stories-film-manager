@@ -10,6 +10,7 @@ class GlobalKeyboardMonitor {
     private var eventTap: CFMachPort?
     private var runLoopSource: CFRunLoopSource?
     private var isMonitoring: Bool = false
+    private var healthCheckTimer: Timer?
 
     // Callback to trigger when backtick is pressed
     var onBacktickPressed: (() -> Void)?
@@ -61,12 +62,19 @@ class GlobalKeyboardMonitor {
         eventTap = tap
         isMonitoring = true
 
-        print("✅ Global keyboard monitor started (listening for backtick key)")
+        // Start health check timer to re-enable tap if macOS disables it
+        startHealthCheckTimer()
+
+        print("[Sora] ✅ Global keyboard monitor started (listening for backtick key)")
     }
 
     // MARK: - Stop Monitoring
     func stopMonitoring() {
         guard isMonitoring else { return }
+
+        // Stop health check timer
+        healthCheckTimer?.invalidate()
+        healthCheckTimer = nil
 
         if let tap = eventTap {
             CGEvent.tapEnable(tap: tap, enable: false)
@@ -81,7 +89,28 @@ class GlobalKeyboardMonitor {
         runLoopSource = nil
         isMonitoring = false
 
-        print("🛑 Global keyboard monitor stopped")
+        print("[Sora] 🛑 Global keyboard monitor stopped")
+    }
+
+    // MARK: - Health Check
+    private func startHealthCheckTimer() {
+        // Check every 2 seconds if the event tap is still enabled
+        healthCheckTimer = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: true) { [weak self] _ in
+            self?.checkEventTapHealth()
+        }
+    }
+
+    private func checkEventTapHealth() {
+        guard let tap = eventTap, isMonitoring else { return }
+
+        // Check if tap is still enabled
+        let isEnabled = CGEvent.tapIsEnabled(tap: tap)
+
+        if !isEnabled {
+            print("[Sora] ⚠️ Event tap was disabled by macOS - re-enabling...")
+            CGEvent.tapEnable(tap: tap, enable: true)
+            print("[Sora] ✅ Event tap re-enabled")
+        }
     }
 
     // MARK: - Event Handler
@@ -100,15 +129,16 @@ class GlobalKeyboardMonitor {
 
         // Check if it's the backtick key
         if keyCode == Int64(backtickKeyCode) {
-            print("⌨️ Backtick key pressed!")
+            print("[Sora] ⌨️ Backtick key intercepted in event handler")
 
-            // Trigger callback on main thread
+            // Trigger callback on main thread asynchronously (non-blocking)
             DispatchQueue.main.async { [weak self] in
+                print("[Sora] 🔔 Executing backtick callback on main thread")
                 self?.onBacktickPressed?()
             }
 
+            // IMPORTANT: Return immediately to avoid blocking the event stream
             // Consume the event (don't pass it through)
-            // This prevents the backtick from being typed
             return nil
         }
 
@@ -160,6 +190,18 @@ class GlobalKeyboardMonitor {
     // MARK: - Check Permissions
     func hasAccessibilityPermissions() -> Bool {
         return AXIsProcessTrusted()
+    }
+
+    // MARK: - Manual Re-enable (can be called if backtick stops working)
+    func reEnableEventTap() {
+        guard let tap = eventTap, isMonitoring else {
+            print("[Sora] ⚠️ Cannot re-enable - not monitoring")
+            return
+        }
+
+        print("[Sora] 🔄 Manually re-enabling event tap...")
+        CGEvent.tapEnable(tap: tap, enable: true)
+        print("[Sora] ✅ Event tap manually re-enabled")
     }
 
     deinit {

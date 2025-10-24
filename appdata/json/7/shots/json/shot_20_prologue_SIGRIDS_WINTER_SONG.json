@@ -1,34 +1,36 @@
 {
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "1.85:1",
   "shot_metadata" : {
-    "sequence_type" : "prologue",
-    "stitch_from" : "",
+    "title" : "SIGRIDS WINTER SONG",
     "narrative_function" : "Voice returns | Prophecy spoken | Camera frost 7% ...",
     "needs_improvements" : false,
-    "duration_seconds" : 8,
-    "title" : "SIGRIDS WINTER SONG",
-    "id" : "20"
+    "stitch_from" : "",
+    "id" : "20",
+    "sequence_type" : "prologue",
+    "duration_seconds" : 8
   },
-  "progressive_state" : "Voice returns | Prophecy spoken | Camera frost 7% | Song bridging | Watching: The witness speaks",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "scene" : "Feast tables in near-darkness. Stars appearing despite twilight. Frost covering everything. Only Sigrid standing and visible.",
+      "variant_id" : "20_story_primary",
+      "is_active" : false,
       "dialogue" : "(Sigrid, clear soprano): \"Krummi svaf í klettagjá, kaldri vetrarnóttu á, verður margt að meini fyrr en dagur fagur rann\"",
-      "subject" : "[SIGRID] standing alone at the feast table, everyone else frozen, her mouth opening to sing \"Krummi svaf í klettagjá,\" her young voice clear and pure, breath visible in freezing air, frost forming on her hair.",
+      "active_video_index" : 0,
+      "negative_prompt" : "no subtitles, show Sigrid lit while others fade, frost spreading, three stains glowing, 1080p",
       "selected_plates" : [
         "SIGRID-MARKED",
         "WESTFJORDS-SUMMER",
         "WESTFJORDS-BEACH"
       ],
-      "variant_name" : "Primary - SIGRIDS WINTER SONG",
+      "progressive_state" : "",
+      "subject" : "[SIGRID] standing alone at the feast table, everyone else frozen, her mouth opening to sing \"Krummi svaf í klettagjá,\" her young voice clear and pure, breath visible in freezing air, frost forming on her hair.",
       "style" : "Medium shot centered on Sigrid (that's where the camera is), darkness around edges, her face illuminated mysteriously.",
-      "is_active" : false,
+      "scene" : "Feast tables in near-darkness. Stars appearing despite twilight. Frost covering everything. Only Sigrid standing and visible.",
+      "variant_name" : "Primary - SIGRIDS WINTER SONG",
       "videos" : [
         {
-          "filename" : "Meta_setting_iceland_202509142238_ns8ue.mp4",
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142238_ns8ue.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142238_ns8ue.mp4",
+          "filename" : "Meta_setting_iceland_202509142238_ns8ue.mp4"
         },
         {
           "duration" : 8,
@@ -41,32 +43,30 @@
           "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_18_202509142247_bgbs5.mp4",
           "filename" : "Subject_sigrid_18_202509142247_bgbs5.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_18_202509142247_bgbs5.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_18_202509142247_kqvvv.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_18_202509142247_kqvvv.mp4",
           "duration" : 8
         },
         {
           "duration" : 8,
-          "filename" : "Subject_sigrid_18_202509142247_kqvvv.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_18_202509142247_kqvvv.mp4"
-        },
-        {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_18_202509142247_qqsz5.mp4",
-          "filename" : "Subject_sigrid_18_202509142247_qqsz5.mp4",
-          "duration" : 8
+          "filename" : "Subject_sigrid_18_202509142247_qqsz5.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202509142255_ocv8j.mp4",
           "filename" : "Subject_sigrid_standing_202509142255_ocv8j.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202509142255_ocv8j.mp4",
           "duration" : 8
         }
       ],
-      "active_video_index" : 0,
-      "variant_id" : "20_story_primary",
       "action" : "Sigrid stands slowly while everyone else remains seated, frozen. Faces the darkness where sun disappeared. Opens mouth, begins singing. Her real voice this time - young, female, clear soprano. \"Krummi svaf í klettagjá, kaldri vetrarnóttu á.\" Breath forms white clouds with each word. Frost spreads across her wheat-blonde hair, making it white. Behind her, feast transforms - food rotting instantly, tables cracking from cold, tablecloths stiffening with ice. She continues singing, voice stronger: \"verður margt að meini fyrr en dagur fagur rann.\" The searchlight flickers, dies. Trawler disappears into darkness. Only Sigrid visible, as if lit from within. Around her, people begin to fade, becoming translucent. Can see through them to frozen ground beneath. She keeps singing, same verse repeating. The three stains on her dress - blood, berry, egg - begin glowing faintly in darkness.",
-      "camera_position" : "Medium shot centered on Sigrid",
-      "progressive_state" : "",
-      "negative_prompt" : "no subtitles, show Sigrid lit while others fade, frost spreading, three stains glowing, 1080p"
+      "camera_position" : "Medium shot centered on Sigrid"
     }
-  ]
+  ],
+  "progressive_state" : "Voice returns | Prophecy spoken | Camera frost 7% | Song bridging | Watching: The witness speaks",
+  "aspect_ratio" : "1.85:1"
 }

@@ -1,29 +1,21 @@
 {
+  "shot_metadata" : {
+    "title" : "THE FLENSING DANCE",
+    "narrative_function" : "Community working | Perfect synchronization | Came...",
+    "needs_improvements" : false,
+    "stitch_from" : "",
+    "id" : "5b",
+    "sequence_type" : "prologue",
+    "duration_seconds" : 8
+  },
   "selected_prompt_index" : 0,
-  "aspect_ratio" : "1.85:1",
   "prompt_variants" : [
     {
+      "active_video_index" : 0,
       "subject" : "Forty people surrounding the whale in organized positions, men cutting blubber in long strips with knives, women collecting blood in wooden buckets, children carrying pieces to fires, everyone moving in synchronized rhythm.",
       "negative_prompt" : "no subtitles, show spiral patterns of people, three colors mixing, synchronized movement, 1080p",
-      "variant_id" : "5b_story_primary",
-      "videos" : [
-        {
-          "duration" : 8,
-          "filename" : "video0-7.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/video0-7.mp4"
-        },
-        {
-          "filename" : "Subject_forty_people_202509142256_gqqa8.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_forty_people_202509142256_gqqa8.mp4"
-        },
-        {
-          "filename" : "Subject_forty_people_202509142256_6eyup.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_forty_people_202509142256_6eyup.mp4",
-          "duration" : 8
-        }
-      ],
-      "scene" : "Beach around whale. Multiple fires burning. Cauldrons boiling. Morning sun higher. Everyone working without pause.",
+      "dialogue" : "None",
+      "progressive_state" : "",
       "selected_plates" : [
         "MAGNUS-AUTHORITY",
         "SIGRID-PURE",
@@ -33,24 +25,32 @@
         "SEA-DIVINE",
         "WESTFJORDS-BEACH"
       ],
-      "dialogue" : "None",
-      "active_video_index" : 0,
-      "style" : "Aerial shot directly above showing spiral patterns of workers (that's where the camera is), then cutting to ground level.",
+      "action" : "Men position along whale's length. First cut - knife enters behind pectoral fin, pulls down 10 feet in straight line. Second man cuts parallel line 2 feet away. Third connects the cuts. Blubber peels back like opening door, white fat 6 inches thick. Steam rises from body heat. Women move in with buckets, catching blood before sand absorbs it. Blood impossibly warm, steaming. Children grab blubber strips, drag to iron cauldrons already over fires. When were fires lit? Cauldrons already boiling. Everyone moves in pattern - cut, peel, collect, carry. From above, people form spirals around whale. No one directs this. Bodies know where to go. Purple-stained hands from berries now mix with red whale blood. Some people have golden egg yolk on clothes from cliff work. Three colors mixing on everyone. The whale's eye still clouded but seems to follow Magnús as he works.",
+      "videos" : [
+        {
+          "duration" : 8,
+          "filename" : "video0-7.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/video0-7.mp4"
+        },
+        {
+          "filename" : "Subject_forty_people_202509142256_gqqa8.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_forty_people_202509142256_gqqa8.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_forty_people_202509142256_6eyup.mp4",
+          "filename" : "Subject_forty_people_202509142256_6eyup.mp4"
+        }
+      ],
       "camera_position" : "Aerial shot directly above showing spiral patterns of workers",
       "variant_name" : "Primary - THE FLENSING DANCE",
       "is_active" : false,
-      "progressive_state" : "",
-      "action" : "Men position along whale's length. First cut - knife enters behind pectoral fin, pulls down 10 feet in straight line. Second man cuts parallel line 2 feet away. Third connects the cuts. Blubber peels back like opening door, white fat 6 inches thick. Steam rises from body heat. Women move in with buckets, catching blood before sand absorbs it. Blood impossibly warm, steaming. Children grab blubber strips, drag to iron cauldrons already over fires. When were fires lit? Cauldrons already boiling. Everyone moves in pattern - cut, peel, collect, carry. From above, people form spirals around whale. No one directs this. Bodies know where to go. Purple-stained hands from berries now mix with red whale blood. Some people have golden egg yolk on clothes from cliff work. Three colors mixing on everyone. The whale's eye still clouded but seems to follow Magnús as he works."
+      "style" : "Aerial shot directly above showing spiral patterns of workers (that's where the camera is), then cutting to ground level.",
+      "scene" : "Beach around whale. Multiple fires burning. Cauldrons boiling. Morning sun higher. Everyone working without pause.",
+      "variant_id" : "5b_story_primary"
     }
   ],
   "progressive_state" : "Community working | Perfect synchronization | Camera frost 0% | Abundance processed | Watching: One organism",
-  "shot_metadata" : {
-    "sequence_type" : "prologue",
-    "stitch_from" : "",
-    "narrative_function" : "Community working | Perfect synchronization | Came...",
-    "needs_improvements" : false,
-    "duration_seconds" : 8,
-    "title" : "THE FLENSING DANCE",
-    "id" : "5b"
-  }
+  "aspect_ratio" : "1.85:1"
 }

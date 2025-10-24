@@ -1,21 +1,21 @@
 {
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3",
   "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "stitch_from" : "",
-    "narrative_function" : "Shows all realities simultaneously - human\/sheep\/void",
-    "needs_improvements" : false,
     "duration_seconds" : 8,
+    "stitch_from" : "",
+    "needs_improvements" : false,
     "title" : "Three-Frame Flash - surreal visual",
-    "id" : "17"
+    "id" : "17",
+    "sequence_type" : "main_story",
+    "narrative_function" : "Shows all realities simultaneously - human\/sheep\/void"
   },
-  "progressive_state" : "surreal visual | Complete darkness | Camera frost 10% | Three simultaneous truths | Watching: We see what shouldn't exist",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "scene" : "Absolute darkness with three-frame intrusion. No temperature (darkness has no temperature). No breath visible (darkness shows nothing). Just three frames of impossible truth stabbing through void. The candle stub Magnús found was hidden with harðfiskur - saved for emergency.",
+      "variant_id" : "17_story_primary",
+      "is_active" : false,
       "dialogue" : "None - darkness swallows sound",
-      "subject" : "In the absolute darkness, three frames flash in succession - Frame 1: Family normal at table (2 seconds), Frame 2: Five sheep in their exact positions wearing their clothes (1\/24 second), Frame 3: Double exposure of both realities overlapping (1\/24 second) - revealing all realities simultaneously true.",
+      "active_video_index" : 0,
+      "negative_prompt" : "no subtitles, no smooth transition, three distinct frames, maintain 1\/24 second timing",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
@@ -25,22 +25,22 @@
         "BAÐSTOFA-BODY",
         "BAÐSTOFA-DARKNESS"
       ],
-      "variant_name" : "surreal visual Exposed",
+      "progressive_state" : "",
+      "subject" : "In the absolute darkness, three frames flash in succession - Frame 1: Family normal at table (2 seconds), Frame 2: Five sheep in their exact positions wearing their clothes (1\/24 second), Frame 3: Double exposure of both realities overlapping (1\/24 second) - revealing all realities simultaneously true.",
       "style" : "Three distinct frames exactly as described, camera locked in position (that's where the camera is), documentary capturing surreal visual.",
-      "is_active" : false,
+      "scene" : "Absolute darkness with three-frame intrusion. No temperature (darkness has no temperature). No breath visible (darkness shows nothing). Just three frames of impossible truth stabbing through void. The candle stub Magnús found was hidden with harðfiskur - saved for emergency.",
+      "variant_name" : "surreal visual Exposed",
       "videos" : [
         {
-          "filename" : "20251019_1314_01k7z18babfb8sv41z48kevvyn.mp4",
           "duration" : 15.088666666666667,
+          "filename" : "20251019_1314_01k7z18babfb8sv41z48kevvyn.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1314_01k7z18babfb8sv41z48kevvyn.mp4"
         }
       ],
-      "active_video_index" : 0,
-      "variant_id" : "17_story_primary",
       "action" : "FRAME 1 (2 seconds): Emergency match strikes. Magnús lighting candle stub. Family at table normal - five humans in their positions. Sigrid 11 feet away. Everything as we know. FRAME 2 (1\/24 second): But in single frame, lit by same candle: Five sheep standing on hind legs in exact positions. Magnús-ram with curved horns. Guðrún-ewe with faldbúningur perfectly placed on sheep head. Jón-lamb fevered, swaying. Lilja-lamb with doll. Sigrid-young ewe, belly slightly full, maintaining 11 feet. All have human teeth in sheep mouths. Wearing the family's clothes. FRAME 3 (1\/24 second): Double exposure - both realities overlapping. Human forms transparent over sheep bodies. Sheep forms transparent over human bodies. Both true. Neither true. Candle dies. Darkness returns. Then through window - sweep of light. Industrial beam. Trawler.",
-      "camera_position" : "Fixed position in darkness receiving three surreal visual, that's where the camera is",
-      "progressive_state" : "",
-      "negative_prompt" : "no subtitles, no smooth transition, three distinct frames, maintain 1\/24 second timing"
+      "camera_position" : "Fixed position in darkness receiving three surreal visual, that's where the camera is"
     }
-  ]
+  ],
+  "progressive_state" : "surreal visual | Complete darkness | Camera frost 10% | Three simultaneous truths | Watching: We see what shouldn't exist",
+  "aspect_ratio" : "4:3"
 }

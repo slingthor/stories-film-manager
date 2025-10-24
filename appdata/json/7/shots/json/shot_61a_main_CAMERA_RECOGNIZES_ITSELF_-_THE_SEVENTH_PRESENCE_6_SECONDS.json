@@ -1,45 +1,105 @@
 {
+  "shot_metadata" : {
+    "duration_seconds" : 6,
+    "id" : "61a",
+    "narrative_function" : "Camera awakening | Frost 56% | Identity revealed |...",
+    "title" : "CAMERA RECOGNIZES ITSELF - THE SEVENTH PRESENCE 6 SECONDS",
+    "needs_improvements" : false,
+    "sequence_type" : "main_story",
+    "stitch_from" : ""
+  },
   "selected_prompt_index" : 0,
-  "aspect_ratio" : "2.39:1",
   "prompt_variants" : [
     {
-      "scene" : "View through frosting lens. Letters forming. Previous shots reflecting. Consciousness dawning.",
-      "dialogue" : "(Written in frost): \"VITNI\" \"Ð‰G ER ÐSLAND\" (I am Iceland)",
+      "active_video_index" : 0,
       "subject" : "The camera suddenly aware of itself - frost patterns on lens spelling \"VITNI,\" tremor at 3Hz (Magnús's original rate), realizing WE are the seventh presence, the witness that survives, Iceland's eye documenting its own transformation.",
+      "negative_prompt" : "",
+      "progressive_state" : "",
+      "dialogue" : "(Written in frost): \"VITNI\" \"Ð‰G ER ÐSLAND\" (I am Iceland)",
       "selected_plates" : [
         "WESTFJORDS-CLIFF"
       ],
-      "variant_name" : "Primary - CAMERA RECOGNIZES ITSELF - THE SEVENTH PRESENCE 6 SECONDS",
-      "is_active" : false,
-      "style" : "First-person camera awareness (that's where the camera is), self-recognition documented.",
+      "action" : "Image shakes. Not external - internal. Camera becoming conscious. Frost on lens starts forming patterns. Letters. \"V-I-T-N-I\" (witness) spelled in ice crystals. We've been watching through Iceland's eye. The camera IS the seventh presence the clothes counted. Not future - present. Us. Watching. The 3Hz tremor isn't Magnús's - it's ours. Iceland's traumatic tremor. Documenting itself. Through frost writing: glimpses of what camera has seen. All shots reflecting in ice. The ram circles. The tilberi. Sigrid's escape. We saw it all. We ARE the witness. The frost isn't killing the camera - it's Iceland closing its colonial eye. When frost reaches 100%, the old way of seeing dies. New vision begins. But first must document everything. Must witness complete transformation. The camera tries to focus. Can't. Frost spreading from edges. Vision narrowing. Like dying. Like being born. Both.",
       "videos" : [
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510192221_9fcud.mp4",
-          "filename" : "Subject_the_camera_202510192221_9fcud.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filename" : "Subject_the_camera_202510192221_9fcud.mp4"
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510192220_pnsbc.mp4",
+          "filename" : "Subject_the_camera_202510192220_pnsbc.mp4",
+          "duration" : 8
+        },
+        {
           "duration" : 8,
-          "filename" : "Subject_the_camera_202510192220_pnsbc.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magnus_pushing_202510232252_ynkpu.mp4",
+          "filename" : "Subject_magnus_pushing_202510232252_ynkpu.mp4"
+        },
+        {
+          "filename" : "Subject_magnus_pushing_202510232252_qpi5w.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magnus_pushing_202510232252_qpi5w.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510232252_abeda.mp4",
+          "filename" : "Subject_the_final_202510232252_abeda.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_final_202510232252_rcrgm.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510232252_rcrgm.mp4"
+        },
+        {
+          "filename" : "Subject_in_the_202510232253_1o0nq.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232253_1o0nq.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_frost_202510232253_mrpa2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_frost_202510232253_mrpa2.mp4"
+        },
+        {
+          "filename" : "Subject_the_camera_202510232254_xa6fo.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510232254_xa6fo.mp4"
+        },
+        {
+          "filename" : "Subject_the_camera_202510232254_qqe3f.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510232254_qqe3f.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510232254_5jj5k.mp4",
+          "filename" : "Subject_the_camera_202510232254_5jj5k.mp4"
+        },
+        {
+          "filename" : "Subject_the_camera_202510232254_optv6.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510232254_optv6.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_camera_202510232254_1tcbx.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510232254_1tcbx.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_camera_202510232254_dcuru.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510232254_dcuru.mp4"
         }
       ],
-      "active_video_index" : 0,
-      "variant_id" : "61a_story_primary",
-      "action" : "Image shakes. Not external - internal. Camera becoming conscious. Frost on lens starts forming patterns. Letters. \"V-I-T-N-I\" (witness) spelled in ice crystals. We've been watching through Iceland's eye. The camera IS the seventh presence the clothes counted. Not future - present. Us. Watching. The 3Hz tremor isn't Magnús's - it's ours. Iceland's traumatic tremor. Documenting itself. Through frost writing: glimpses of what camera has seen. All shots reflecting in ice. The ram circles. The tilberi. Sigrid's escape. We saw it all. We ARE the witness. The frost isn't killing the camera - it's Iceland closing its colonial eye. When frost reaches 100%, the old way of seeing dies. New vision begins. But first must document everything. Must witness complete transformation. The camera tries to focus. Can't. Frost spreading from edges. Vision narrowing. Like dying. Like being born. Both.",
       "camera_position" : "First-person camera awareness",
-      "progressive_state" : "",
-      "negative_prompt" : ""
+      "variant_name" : "Primary - CAMERA RECOGNIZES ITSELF - THE SEVENTH PRESENCE 6 SECONDS",
+      "is_active" : false,
+      "scene" : "View through frosting lens. Letters forming. Previous shots reflecting. Consciousness dawning.",
+      "style" : "First-person camera awareness (that's where the camera is), self-recognition documented.",
+      "variant_id" : "61a_story_primary"
     }
   ],
   "progressive_state" : "Camera awakening | Frost 56% | Identity revealed | Watching: We watch ourselves",
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "stitch_from" : "",
-    "narrative_function" : "Camera awakening | Frost 56% | Identity revealed |...",
-    "needs_improvements" : false,
-    "duration_seconds" : 6,
-    "title" : "CAMERA RECOGNIZES ITSELF - THE SEVENTH PRESENCE 6 SECONDS",
-    "id" : "61a"
-  }
+  "aspect_ratio" : "2.39:1"
 }

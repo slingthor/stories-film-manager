@@ -1,69 +1,69 @@
 {
-  "last_updated" : "2025-10-24T05:51:46Z",
   "tracking_systems" : {
-    "color_grading" : {
-      "description" : "Film color palette psychological progression",
-      "current_percentage" : 15
+    "industrial_contamination" : {
+      "description" : "British\/Danish imperial materials spreading",
+      "current_percentage" : 22
+    },
+    "stain_progression" : {
+      "current_percentage" : 35,
+      "description" : "F4 Liquid contamination marking progression"
+    },
+    "light_sources" : {
+      "description" : "Illumination evolution organic→industrial→supernatural",
+      "current_percentage" : 5
+    },
+    "character_shadow_behavior" : {
+      "description" : "Shadow physics revealing animal truth",
+      "current_percentage" : 8
     },
     "predatory_landscape" : {
-      "current_percentage" : 15,
-      "description" : "Environmental hostility toward human survival"
+      "description" : "Environmental hostility toward human survival",
+      "current_percentage" : 15
     },
-    "house_consciousness" : {
-      "current_percentage" : 35,
-      "description" : "Bergrisi awareness and biological responses"
+    "memory_degradation" : {
+      "current_percentage" : 5,
+      "description" : "Collective memory accuracy declining"
+    },
+    "reality_coherence" : {
+      "description" : "Stability of physical laws and logic",
+      "current_percentage" : 65
     },
     "spatial_impossibilities" : {
       "description" : "Mathematical physics violations spreading",
       "current_percentage" : 25
     },
-    "house_dimensions" : {
-      "description" : "Baðstofa interior space expansion sensation",
-      "current_percentage" : 0
-    },
-    "reality_coherence" : {
-      "current_percentage" : 65,
-      "description" : "Stability of physical laws and logic"
-    },
-    "industrial_contamination" : {
-      "current_percentage" : 22,
-      "description" : "British\/Danish imperial materials spreading"
-    },
-    "character_shadow_behavior" : {
-      "current_percentage" : 8,
-      "description" : "Shadow physics revealing animal truth"
-    },
-    "klettagja_formation" : {
-      "description" : "Cliff cleft development for Sigrid's escape",
-      "current_percentage" : 15
-    },
-    "stain_progression" : {
-      "description" : "F4 Liquid contamination marking progression",
-      "current_percentage" : 35
+    "hakarl_contamination" : {
+      "description" : "Traditional food corruption enabling breakdown",
+      "current_percentage" : 18
     },
     "weather_hostility" : {
       "description" : "Atmospheric assault on family survival",
       "current_percentage" : 10
     },
-    "memory_degradation" : {
-      "description" : "Collective memory accuracy declining",
-      "current_percentage" : 5
+    "klettagja_formation" : {
+      "description" : "Cliff cleft development for Sigrid's escape",
+      "current_percentage" : 15
     },
-    "hakarl_contamination" : {
-      "description" : "Traditional food corruption enabling breakdown",
-      "current_percentage" : 18
+    "color_grading" : {
+      "current_percentage" : 15,
+      "description" : "Film color palette psychological progression"
     },
     "temperature_progression" : {
       "description" : "Environmental and body temperature changes",
       "current_percentage" : 28
     },
     "breathing_coordination" : {
-      "current_percentage" : 32,
-      "description" : "Family respiratory synchronization progression"
+      "description" : "Family respiratory synchronization progression",
+      "current_percentage" : 32
     },
-    "light_sources" : {
-      "description" : "Illumination evolution organic→industrial→supernatural",
-      "current_percentage" : 5
+    "house_consciousness" : {
+      "description" : "Bergrisi awareness and biological responses",
+      "current_percentage" : 35
+    },
+    "house_dimensions" : {
+      "description" : "Baðstofa interior space expansion sensation",
+      "current_percentage" : 0
     }
-  }
+  },
+  "last_updated" : "2025-10-24T06:00:10Z"
 }
