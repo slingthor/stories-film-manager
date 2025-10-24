@@ -1,26 +1,11 @@
 {
-  "progressive_state" : "Darkness absolute | Breathing symphony | Camera frost 60% | Audio construction | Watching: We must imagine",
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "title" : "Complete Darkness - Breathing Symphony",
-    "stitch_from" : "",
-    "narrative_function" : "Audience forced to construct surreal visual audio alone",
-    "id" : "57",
-    "needs_improvements" : false
-  },
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
+  "progressive_state" : "Darkness absolute | Breathing symphony | Camera frost 60% | Audio construction | Watching: We must imagine",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "None - only respiratory communication",
-      "style" : "8 seconds absolute darkness, camera position irrelevant in void (that's where the camera is), audio-only experience forcing imagination.",
       "negative_prompt" : "no visual elements, no lighting, no shapes visible, pure darkness, maintain audio only",
-      "variant_id" : "57_story_primary",
       "variant_name" : "Masterful Sensory Horror",
-      "action" : "Absolute darkness. No visual information. Only breathing patterns creating spatial awareness: MAGNÚS breathing at 8\/min deep ram rhythm from table head position. GUÐRÚN breathing 8\/min ewe rhythm from right side. SIGRID breathing 12\/min raven preparation from 11-foot distance. JÓN breathing 20\/min lamb rhythm from between parents. LILJA breathing 20\/min simple lamb from mother's side. Each breathing pattern creates spatial positioning awareness - audience constructs family arrangement through respiratory geography. Breathing patterns occasionally sync then separate, creating natural polyrhythm. Through darkness, subtle wet sounds - what might be chewing, or might be something else. House breathing at 3\/min dying rhythm underneath everything. Heartbeat stopped completely. In final seconds, match strike preparation - subtle cloth rustle, stone scraping flint.",
-      "is_active" : false,
-      "active_video_index" : 0,
       "selected_plates" : [
         "MAGNUS-BREAKING",
         "SIGRID-BECOMING",
@@ -29,22 +14,137 @@
         "GUDRUN-EWE",
         "BAÐSTOFA-CLIFF"
       ],
-      "camera_position" : "Irrelevant in absolute darkness, that's where the camera is",
-      "scene" : "Complete visual absence - darkness contains no temperature, no spatial reference, no visual confirmation. Only breathing creates surreal visual audio spatial construction.",
-      "subject" : "Complete darkness for 8 seconds with only breathing sounds - five different respiratory patterns creating complex rhythm as family exists in blackness, audience forced to imagine transformed bodies through audio alone.",
-      "progressive_state" : "",
       "videos" : [
         {
-          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subjectnin_the_absolute_202510162230_3auho.mp4",
+          "duration" : 8,
           "filename" : "Subjectnin_the_absolute_202510162230_3auho.mp4"
         },
         {
-          "duration" : 8,
           "filename" : "Subjectnin_the_absolute_202510162230_e0bel.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subjectnin_the_absolute_202510162230_e0bel.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subjectnin_the_absolute_202510162230_e0bel.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323.mp4",
+          "filename" : "Subject_sigrids_transformation_2025102323.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_sigrids_transformation_2025102323-2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323-2.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314.mp4",
+          "filename" : "Subject_sigridraven_entering_202510232314.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314-2.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigridraven_entering_202510232314-2.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_house_202510232314_124th.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_124th.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_house_202510232314_k50fn.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_k50fn.mp4"
+        },
+        {
+          "filename" : "Subject_the_house_202510232314_cgd4p.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_cgd4p.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_bd128.mp4",
+          "filename" : "Subject_the_house_202510232314_bd128.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510232314_.mp4",
+          "duration" : 8,
+          "filename" : "Subject_gurnewe_suddenly_202510232314_.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510232314_-2.mp4",
+          "duration" : 8,
+          "filename" : "Subject_gurnewe_suddenly_202510232314_-2.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202510232314_kretu.mp4",
+          "filename" : "Subject_light_gradually_202510232314_kretu.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202510232314_je7r4.mp4",
+          "filename" : "Subject_light_gradually_202510232314_je7r4.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_in_the_202510232314_s25w4.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232314_s25w4.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232315_9efhu.mp4",
+          "filename" : "Subject_in_the_202510232315_9efhu.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_a_match_202510232315_8ifmw.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202510232315_8ifmw.mp4"
+        },
+        {
+          "filename" : "Subject_a_match_202510232315_nm1bj.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202510232315_nm1bj.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_lzk1f.mp4",
+          "filename" : "Subject_complete_darkness_202510232315_lzk1f.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_4ror2.mp4",
+          "filename" : "Subject_complete_darkness_202510232315_4ror2.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_complete_darkness_202510232315_xxxim.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_xxxim.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_884mx.mp4",
+          "filename" : "Subject_complete_darkness_202510232315_884mx.mp4",
+          "duration" : 8
         }
-      ]
+      ],
+      "style" : "8 seconds absolute darkness, camera position irrelevant in void (that's where the camera is), audio-only experience forcing imagination.",
+      "subject" : "Complete darkness for 8 seconds with only breathing sounds - five different respiratory patterns creating complex rhythm as family exists in blackness, audience forced to imagine transformed bodies through audio alone.",
+      "is_active" : false,
+      "active_video_index" : 0,
+      "camera_position" : "Irrelevant in absolute darkness, that's where the camera is",
+      "action" : "Absolute darkness. No visual information. Only breathing patterns creating spatial awareness: MAGNÚS breathing at 8\/min deep ram rhythm from table head position. GUÐRÚN breathing 8\/min ewe rhythm from right side. SIGRID breathing 12\/min raven preparation from 11-foot distance. JÓN breathing 20\/min lamb rhythm from between parents. LILJA breathing 20\/min simple lamb from mother's side. Each breathing pattern creates spatial positioning awareness - audience constructs family arrangement through respiratory geography. Breathing patterns occasionally sync then separate, creating natural polyrhythm. Through darkness, subtle wet sounds - what might be chewing, or might be something else. House breathing at 3\/min dying rhythm underneath everything. Heartbeat stopped completely. In final seconds, match strike preparation - subtle cloth rustle, stone scraping flint.",
+      "scene" : "Complete visual absence - darkness contains no temperature, no spatial reference, no visual confirmation. Only breathing creates surreal visual audio spatial construction.",
+      "dialogue" : "None - only respiratory communication",
+      "variant_id" : "57_story_primary",
+      "progressive_state" : ""
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "needs_improvements" : false,
+    "sequence_type" : "main_story",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "id" : "57",
+    "title" : "Complete Darkness - Breathing Symphony",
+    "narrative_function" : "Audience forced to construct surreal visual audio alone"
+  }
 }

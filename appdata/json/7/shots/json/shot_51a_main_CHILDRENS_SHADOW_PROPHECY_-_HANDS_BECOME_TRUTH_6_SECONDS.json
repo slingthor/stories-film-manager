@@ -1,26 +1,11 @@
 {
-  "progressive_state" : "House 8\/min sleeping + 60bpm | Night falling | Camera frost 40% | Future cast on walls | Watching: Shadows know",
-  "shot_metadata" : {
-    "title" : "CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 6,
-    "narrative_function" : "House 8\/min sleeping + 60bpm | Night falling | Cam...",
-    "needs_improvements" : false,
-    "stitch_from" : "",
-    "id" : "51a"
-  },
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
+  "progressive_state" : "House 8\/min sleeping + 60bpm | Night falling | Camera frost 40% | Future cast on walls | Watching: Shadows know",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "(Jón, seeing truth): \"Sjáðu! Við erum þegar...\" (Lilja): \"Ð‰g veit. Við vitum\" (I know. We know)",
-      "style" : "Push in on prophetic shadows (that's where the camera is), future documented before it happens.",
       "negative_prompt" : "",
-      "is_active" : false,
-      "action" : "Children sit by hearth's last embers. Jón raises hands to make shadow bird. But shadow shows ram's head - curved horns, long snout. Doesn't notice. Lilja makes butterfly with hands. Shadow shows ewe, faldbúningur shape on sheep head. They continue playing, shadows telling truth. PUSH IN on wall. Shadow play becomes elaborate: Five sheep in pen formation. Sixth shadow appears though only two children. The shadows begin moving independently - sheep shadows walking while hands stay still. Through shadows, glimpse of empty clothes standing behind children, also casting shadows. Now eight shadows for two children and clothes. Mathematical impossibility visible. In shadow: sheep have human teeth, visible when shadow-mouths open. Jón's fever allows him to see: \"Sjáðu! Við erum þegar...\" (Look! We already are...). Lilja nods, continues playing. They know. Accept.",
       "variant_name" : "Primary - CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS",
-      "variant_id" : "51a_story_primary",
-      "active_video_index" : 0,
       "selected_plates" : [
         "LILJA-EVOLVING",
         "JON-ENERGETIC",
@@ -28,37 +13,52 @@
         "WESTFJORDS-CLIFF",
         "STOFA-BODY"
       ],
-      "camera_position" : "Push in on prophetic shadows",
-      "scene" : "By dying hearth, 8:00 PM darkness. Only light from embers. Shadows prominent on wall. Empty clothes participating.",
-      "subject" : "[JÐ“N] and [LILJA] by the dying hearth making shadow puppets on the wall, but their human hands cast sheep shadows - ram, ewe, lambs - arranged in réttir formation, showing the transformation before it happens.",
-      "progressive_state" : "",
       "videos" : [
         {
           "duration" : 8,
-          "filename" : "Subject_jn_and_202509211852_vfg5l.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202509211852_vfg5l.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202509211852_vfg5l.mp4",
+          "filename" : "Subject_jn_and_202509211852_vfg5l.mp4"
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202509211852_45d8r.mp4",
-          "duration" : 8,
-          "filename" : "Subject_jn_and_202509211852_45d8r.mp4"
-        },
-        {
-          "filename" : "Subject_jn_and_202509211852_irfn1.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202509211852_irfn1.mp4",
+          "filename" : "Subject_jn_and_202509211852_45d8r.mp4",
           "duration" : 8
         },
         {
-          "filename" : "Subject_jn_and_202509211852_nmzjd.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202509211852_irfn1.mp4",
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202509211852_nmzjd.mp4"
+          "filename" : "Subject_jn_and_202509211852_irfn1.mp4"
         },
         {
-          "filename" : "20251019_1713_01k6f3c05qedkbk29ebwtt07tn.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202509211852_nmzjd.mp4",
+          "duration" : 8,
+          "filename" : "Subject_jn_and_202509211852_nmzjd.mp4"
+        },
+        {
+          "duration" : 10.088666666666667,
           "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1713_01k6f3c05qedkbk29ebwtt07tn.mp4",
-          "duration" : 10.088666666666667
+          "filename" : "20251019_1713_01k6f3c05qedkbk29ebwtt07tn.mp4"
         }
-      ]
+      ],
+      "style" : "Push in on prophetic shadows (that's where the camera is), future documented before it happens.",
+      "subject" : "[JÐ“N] and [LILJA] by the dying hearth making shadow puppets on the wall, but their human hands cast sheep shadows - ram, ewe, lambs - arranged in réttir formation, showing the transformation before it happens.",
+      "is_active" : false,
+      "active_video_index" : 0,
+      "camera_position" : "Push in on prophetic shadows",
+      "action" : "Children sit by hearth's last embers. Jón raises hands to make shadow bird. But shadow shows ram's head - curved horns, long snout. Doesn't notice. Lilja makes butterfly with hands. Shadow shows ewe, faldbúningur shape on sheep head. They continue playing, shadows telling truth. PUSH IN on wall. Shadow play becomes elaborate: Five sheep in pen formation. Sixth shadow appears though only two children. The shadows begin moving independently - sheep shadows walking while hands stay still. Through shadows, glimpse of empty clothes standing behind children, also casting shadows. Now eight shadows for two children and clothes. Mathematical impossibility visible. In shadow: sheep have human teeth, visible when shadow-mouths open. Jón's fever allows him to see: \"Sjáðu! Við erum þegar...\" (Look! We already are...). Lilja nods, continues playing. They know. Accept.",
+      "scene" : "By dying hearth, 8:00 PM darkness. Only light from embers. Shadows prominent on wall. Empty clothes participating.",
+      "dialogue" : "(Jón, seeing truth): \"Sjáðu! Við erum þegar...\" (Lilja): \"Ð‰g veit. Við vitum\" (I know. We know)",
+      "variant_id" : "51a_story_primary",
+      "progressive_state" : ""
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "needs_improvements" : false,
+    "sequence_type" : "main_story",
+    "duration_seconds" : 6,
+    "stitch_from" : "",
+    "id" : "51a",
+    "title" : "CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS",
+    "narrative_function" : "House 8\/min sleeping + 60bpm | Night falling | Cam..."
+  }
 }

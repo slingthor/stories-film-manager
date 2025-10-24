@@ -1,40 +1,21 @@
 {
-  "progressive_state" : "House 13\/min + 60bpm | Klettagjá 1.5mm deepening | Lullaby prophecy | Camera frost 7% | Women's voice | Watching: House listening",
-  "shot_metadata" : {
-    "stitch_from" : "",
-    "title" : "KRUMMI LULLABY TO LILJA REVISED",
-    "needs_improvements" : false,
-    "duration_seconds" : 8,
-    "narrative_function" : "House 13\/min + 60bpm | Klettagjá 1.5mm deepening ...",
-    "sequence_type" : "main_story",
-    "id" : "12"
-  },
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
+  "progressive_state" : "House 13\/min + 60bpm | Klettagjá 1.5mm deepening | Lullaby prophecy | Camera frost 7% | Women's voice | Watching: House listening",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "(Sigrid, singing): \"Krummi svaf í klettagjá, kaldri vetrarnóttu á\" \"verður margt að meini\" \"fyrr en dagur fagur rann\" (Lilja, sleepily): \"Krummi... mæ...\" (mixing raven with sheep sound)",
-      "style" : "Intimate medium shot of sisters, camera at their seated level (that's where the camera is), documentary capturing last innocence.",
       "negative_prompt" : "no subtitles except song translation, show wall becoming klettagjá, maintain intimacy",
-      "variant_id" : "12_story_primary",
       "variant_name" : "Primary - KRUMMI LULLABY TO LILJA REVISED",
-      "action" : "Sigrid holds Lilja, who clutches her doll with brass button eyes. The child's thumb in mouth, body trembling from hunger. Sigrid's voice clear despite everything: \"Krummi svaf í klettagjá\" (Raven slept in rocky cleft). As she sings, her fingers trace the wall - cracks now 1.5mm deep, forming cleft patterns. The house IS becoming the klettagjá. \"Verður margt að meini\" (Much becomes harmful) - on these words, her hand moves protective over her subtle belly. Lilja's eyes droop but snap open at each verse end. Behind them, the wall shows the word \"HAMR\" emerging in cracks. Magnús watches from across room, 11 feet away, his tremor creating soft tapping rhythm underneath the lullaby. Empty clothes in corner sway to the lullaby rhythm. Through window, something dark moves - setting up next shot.",
-      "is_active" : false,
-      "active_video_index" : 0,
       "selected_plates" : [
         "SIGRID-CALCULATING",
         "BAÐSTOFA-ORGANIC",
         "LILJA-MASTER"
       ],
-      "camera_position" : "Intimate medium shot of sisters, camera at their seated level",
-      "scene" : "Eastern sleeping platform, 6:05 AM, grey morning light. Temperature -10°C, breath visible from both girls. Wall behind them developing cleft-like cracks, becoming the rocky refuge from the song. The lullaby creates temporary peace, even house breathing slows to match song rhythm - 10\/min during verses.",
-      "subject" : "[SIGRID] sitting with [LILJA] on the sleeping platform, singing the Krummi lullaby softly, the only sustained female voice we hear - \"Krummi svaf í klettagjá, kaldri vetrarnóttu á\" - while unconsciously tracing the wall cracks behind her that are deepening into the very klettagjá (rocky cleft) she sings about.",
-      "progressive_state" : "",
       "videos" : [
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_sitting_202509211704_ffqab.mp4",
           "duration" : 8,
-          "filename" : "Subject_sigrid_sitting_202509211704_ffqab.mp4"
+          "filename" : "Subject_sigrid_sitting_202509211704_ffqab.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_sitting_202509211704_ffqab.mp4"
         },
         {
           "duration" : 8,
@@ -43,15 +24,34 @@
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_sitting_202509211704_hkj2g.mp4",
-          "filename" : "Subject_sigrid_sitting_202509211704_hkj2g.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filename" : "Subject_sigrid_sitting_202509211704_hkj2g.mp4"
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_sitting_202509211703_3ucj8.mp4",
           "duration" : 8,
           "filename" : "Subject_sigrid_sitting_202509211703_3ucj8.mp4"
         }
-      ]
+      ],
+      "style" : "Intimate medium shot of sisters, camera at their seated level (that's where the camera is), documentary capturing last innocence.",
+      "subject" : "[SIGRID] sitting with [LILJA] on the sleeping platform, singing the Krummi lullaby softly, the only sustained female voice we hear - \"Krummi svaf í klettagjá, kaldri vetrarnóttu á\" - while unconsciously tracing the wall cracks behind her that are deepening into the very klettagjá (rocky cleft) she sings about.",
+      "is_active" : false,
+      "active_video_index" : 0,
+      "camera_position" : "Intimate medium shot of sisters, camera at their seated level",
+      "action" : "Sigrid holds Lilja, who clutches her doll with brass button eyes. The child's thumb in mouth, body trembling from hunger. Sigrid's voice clear despite everything: \"Krummi svaf í klettagjá\" (Raven slept in rocky cleft). As she sings, her fingers trace the wall - cracks now 1.5mm deep, forming cleft patterns. The house IS becoming the klettagjá. \"Verður margt að meini\" (Much becomes harmful) - on these words, her hand moves protective over her subtle belly. Lilja's eyes droop but snap open at each verse end. Behind them, the wall shows the word \"HAMR\" emerging in cracks. Magnús watches from across room, 11 feet away, his tremor creating soft tapping rhythm underneath the lullaby. Empty clothes in corner sway to the lullaby rhythm. Through window, something dark moves - setting up next shot.",
+      "scene" : "Eastern sleeping platform, 6:05 AM, grey morning light. Temperature -10°C, breath visible from both girls. Wall behind them developing cleft-like cracks, becoming the rocky refuge from the song. The lullaby creates temporary peace, even house breathing slows to match song rhythm - 10\/min during verses.",
+      "dialogue" : "(Sigrid, singing): \"Krummi svaf í klettagjá, kaldri vetrarnóttu á\" \"verður margt að meini\" \"fyrr en dagur fagur rann\" (Lilja, sleepily): \"Krummi... mæ...\" (mixing raven with sheep sound)",
+      "progressive_state" : "",
+      "variant_id" : "12_story_primary"
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "needs_improvements" : false,
+    "sequence_type" : "main_story",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "id" : "12",
+    "title" : "KRUMMI LULLABY TO LILJA REVISED",
+    "narrative_function" : "House 13\/min + 60bpm | Klettagjá 1.5mm deepening ..."
+  }
 }

@@ -1,34 +1,34 @@
 {
-  "progressive_state" : "House 8\/min deep sleep + 60bpm | Lullaby claiming | Camera frost 39% | Ownership through song | Watching: Raven outside sees",
-  "shot_metadata" : {
-    "title" : "THE MALE KRUMMI - POSSESSION LULLABY 8 SECONDS",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "narrative_function" : "House 8\/min deep sleep + 60bpm | Lullaby claiming ...",
-    "needs_improvements" : false,
-    "stitch_from" : "",
-    "id" : "50c"
-  },
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "1:1",
+  "progressive_state" : "House 8\/min deep sleep + 60bpm | Lullaby claiming | Camera frost 39% | Ownership through song | Watching: Raven outside sees",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "camera_position" : "Rotation revealing raven witness",
-      "style" : "Rotation revealing raven witness (that's where the camera is), lullaby as trap documented.",
-      "negative_prompt" : "",
+      "variant_name" : "Primary - THE MALE KRUMMI - POSSESSION LULLABY 8 SECONDS",
+      "variant_id" : "50c_story_primary",
+      "scene" : "Platform intimate, raven visible outside. Evening becoming night. Lullaby as possession ritual.",
       "progressive_state" : "",
+      "action" : "ROTATION BEGINS as he starts singing. Deep voice, genuinely beautiful: \"Krummi svaf í klettagjá, kaldri vetrarnóttu á.\" The male version we heard in opening, but now we see the singer. His hand moves from ankle to calf, still through blanket, stroking in rhythm with song. Not violent. Tender. Which makes it worse. \"Verður margt að meini\" (Much becomes harmful) - as his hand rises slightly. \"Fyrr en dagur fagur rann\" - hand pauses at knee. She doesn't move. Can't. Where would she go? 40 miles to anyone. He's the only adult male. Father and future husband both. Rotation reveals window - raven sitting on sill, watching. The REAL Krummi seeing the girl who will become raven. Magnús doesn't see it. Focused on Sigrid. \"Krummi, Krummi, krúnka náðu\" - but it sounds like keeping her, not calling. His 0Hz hands perfectly still on her knee. The tenderness and possession inseparable.",
+      "camera_position" : "Rotation revealing raven witness",
       "is_active" : false,
+      "subject" : "[MAGNÚS] singing the Krummi lullaby in his deep baritone - the male version from opening - \"Krummi svaf í klettagjá,\" but from him it sounds like keeping her trapped, while through window an actual raven watches, knowing she's the Krummi he's singing about.",
+      "style" : "Rotation revealing raven witness (that's where the camera is), lullaby as trap documented.",
       "selected_plates" : [
         "MAGNUS-POSSESSING",
         "BAÐSTOFA-CRYSTALLIZING",
         "STOFA-DOMESTIC"
       ],
-      "subject" : "[MAGNÚS] singing the Krummi lullaby in his deep baritone - the male version from opening - \"Krummi svaf í klettagjá,\" but from him it sounds like keeping her trapped, while through window an actual raven watches, knowing she's the Krummi he's singing about.",
-      "action" : "ROTATION BEGINS as he starts singing. Deep voice, genuinely beautiful: \"Krummi svaf í klettagjá, kaldri vetrarnóttu á.\" The male version we heard in opening, but now we see the singer. His hand moves from ankle to calf, still through blanket, stroking in rhythm with song. Not violent. Tender. Which makes it worse. \"Verður margt að meini\" (Much becomes harmful) - as his hand rises slightly. \"Fyrr en dagur fagur rann\" - hand pauses at knee. She doesn't move. Can't. Where would she go? 40 miles to anyone. He's the only adult male. Father and future husband both. Rotation reveals window - raven sitting on sill, watching. The REAL Krummi seeing the girl who will become raven. Magnús doesn't see it. Focused on Sigrid. \"Krummi, Krummi, krúnka náðu\" - but it sounds like keeping her, not calling. His 0Hz hands perfectly still on her knee. The tenderness and possession inseparable.",
-      "variant_name" : "Primary - THE MALE KRUMMI - POSSESSION LULLABY 8 SECONDS",
-      "dialogue" : "(Magnús, singing beautifully): \"Krummi svaf í klettagjá\" \"Kaldri vetrarnóttu á\" \"Verður margt að meini\" (To her): \"Þú ert minn Krummi\" (You're my raven)",
-      "variant_id" : "50c_story_primary",
-      "scene" : "Platform intimate, raven visible outside. Evening becoming night. Lullaby as possession ritual."
+      "negative_prompt" : "",
+      "dialogue" : "(Magnús, singing beautifully): \"Krummi svaf í klettagjá\" \"Kaldri vetrarnóttu á\" \"Verður margt að meini\" (To her): \"Þú ert minn Krummi\" (You're my raven)"
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "needs_improvements" : false,
+    "sequence_type" : "main_story",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "id" : "50c",
+    "title" : "THE MALE KRUMMI - POSSESSION LULLABY 8 SECONDS",
+    "narrative_function" : "House 8\/min deep sleep + 60bpm | Lullaby claiming ..."
+  }
 }

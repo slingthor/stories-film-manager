@@ -1,41 +1,86 @@
 {
-  "progressive_state" : "Path home | Following patterns | Camera frost 35% | Transformation evident | Watching: House waiting",
-  "shot_metadata" : {
-    "stitch_from" : "",
-    "title" : "WALKING THROUGH BLOOD SPIRALS 6 SECONDS",
-    "needs_improvements" : false,
-    "duration_seconds" : 6,
-    "narrative_function" : "Path home | Following patterns | Camera frost 35% ...",
-    "sequence_type" : "main_story",
-    "id" : "47b"
-  },
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
+  "progressive_state" : "Path home | Following patterns | Camera frost 35% | Transformation evident | Watching: House waiting",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "None - just breath patterns changing",
-      "style" : "Aerial following shot showing pattern completion (that's where the camera is), documenting spiral fate.",
       "negative_prompt" : "",
-      "is_active" : false,
-      "action" : "AERIAL SHOT, 20 meters high, following her. She walks the exact spiral path, feet finding her earlier footprints. But now bleeding - wrists where wool emerged won't close, drops every few steps. Her blood darker than Magnús's frozen blood beneath. Two reds visible from above. Pattern deepening: five original spirals, her path making sixth, her blood creating shadow pattern. Faldbúningur completely frozen, ice crystals forming crown shape, weighing head down but she doesn't remove it. From above: she looks like chess piece moving through board pattern. House visible ahead, smoke black not grey - something burning inside. Her breathing visible as white column rising. But breath rate changing: was 11\/min synchronized, now shifting, unstable - 11... 13... 9... 15 (Sigrid's rate)... 11. Can't maintain synchronization alone. Body forgetting how to be livestock. Remembering how to be individual. Even though \"DAUÐUR\" pronounced.",
       "variant_name" : "Primary - WALKING THROUGH BLOOD SPIRALS 6 SECONDS",
-      "variant_id" : "47b_story_primary",
-      "active_video_index" : 0,
       "selected_plates" : [
         "GUDRUN-RETURNING",
         "WESTFJORDS-CLIFF"
       ],
-      "camera_position" : "Aerial following shot showing pattern completion",
-      "scene" : "Blood spiral field between shore and house. Her small figure crossing pattern. House 200 meters ahead.",
-      "subject" : "Aerial shot following [GUÐRÚN] walking through the blood spiral patterns, her path creating the sixth line, but now her own blood from torn wrists adding to the pattern, creating second layer of red on snow, while her faldbúningur headdress has frozen into ice crown.",
-      "progressive_state" : "",
       "videos" : [
         {
-          "filename" : "Subject_aerial_shot_202509211902_y41iq.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202509211902_y41iq.mp4",
+          "filename" : "Subject_aerial_shot_202509211902_y41iq.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232323_pynpj.mp4",
+          "filename" : "Subject_subject_reference_202510232323_pynpj.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_lilja_suddenly_202510232324_fdhwd.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_fdhwd.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_t60yd.mp4",
+          "filename" : "Subject_lilja_suddenly_202510232324_t60yd.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_three_202510232325_zn2am.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_zn2am.mp4"
+        },
+        {
+          "filename" : "Subject_the_three_202510232325_17xug.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_17xug.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_standing_202510232325_z7nk.mp4",
+          "filename" : "Subject_gurn_standing_202510232325_z7nk.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_as_gurn_202510232326_0macj.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_as_gurn_202510232326_0macj.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_aerial_shot_202510232326_m5xhc.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_m5xhc.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_gu6zn.mp4",
+          "filename" : "Subject_aerial_shot_202510232326_gu6zn.mp4",
           "duration" : 8
         }
-      ]
+      ],
+      "style" : "Aerial following shot showing pattern completion (that's where the camera is), documenting spiral fate.",
+      "subject" : "Aerial shot following [GUÐRÚN] walking through the blood spiral patterns, her path creating the sixth line, but now her own blood from torn wrists adding to the pattern, creating second layer of red on snow, while her faldbúningur headdress has frozen into ice crown.",
+      "is_active" : false,
+      "active_video_index" : 0,
+      "camera_position" : "Aerial following shot showing pattern completion",
+      "action" : "AERIAL SHOT, 20 meters high, following her. She walks the exact spiral path, feet finding her earlier footprints. But now bleeding - wrists where wool emerged won't close, drops every few steps. Her blood darker than Magnús's frozen blood beneath. Two reds visible from above. Pattern deepening: five original spirals, her path making sixth, her blood creating shadow pattern. Faldbúningur completely frozen, ice crystals forming crown shape, weighing head down but she doesn't remove it. From above: she looks like chess piece moving through board pattern. House visible ahead, smoke black not grey - something burning inside. Her breathing visible as white column rising. But breath rate changing: was 11\/min synchronized, now shifting, unstable - 11... 13... 9... 15 (Sigrid's rate)... 11. Can't maintain synchronization alone. Body forgetting how to be livestock. Remembering how to be individual. Even though \"DAUÐUR\" pronounced.",
+      "scene" : "Blood spiral field between shore and house. Her small figure crossing pattern. House 200 meters ahead.",
+      "dialogue" : "None - just breath patterns changing",
+      "progressive_state" : "",
+      "variant_id" : "47b_story_primary"
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "needs_improvements" : false,
+    "sequence_type" : "main_story",
+    "duration_seconds" : 6,
+    "stitch_from" : "",
+    "id" : "47b",
+    "title" : "WALKING THROUGH BLOOD SPIRALS 6 SECONDS",
+    "narrative_function" : "Path home | Following patterns | Camera frost 35% ..."
+  }
 }

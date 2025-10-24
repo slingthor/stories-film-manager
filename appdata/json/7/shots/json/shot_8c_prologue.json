@@ -1,19 +1,11 @@
 {
-  "shot_metadata" : {
-    "narrative_function" : "Visceral abundance consumption with animal behavior emerging",
-    "duration_seconds" : 8,
-    "needs_improvements" : false,
-    "id" : "8c",
-    "title" : "The Consumption - Visceral Feeding",
-    "stitch_from" : "",
-    "sequence_type" : "prologue"
-  },
+  "aspect_ratio" : "1.85:1",
   "progressive_state" : "Feast eating | Visceral feeding | Camera frost 3% | Marking complete | Watching: They eat themselves",
   "selected_prompt_index" : 0,
-  "aspect_ratio" : "1.85:1",
   "prompt_variants" : [
     {
-      "subject" : "Close view of hands reaching for food, tearing whale meat with fingers, purple juice running down chins, egg yolk dripping on clothes, everyone eating with desperate hunger despite the abundance, mouths stained all three colors.\n\nThree long driftwood tables arranged in horseshoe shape in field, laden with whale meat, dried fish, berry juice in jugs, boiled eggs, bread, the tables bending slightly under weight, fifty people taking seats.",
+      "negative_prompt" : "no subtitles, show visceral eating, three stains on everyone, desperate consumption, 1080p",
+      "variant_name" : "Desperate Abundance Consumption",
       "selected_plates" : [
         "MAGNUS-AUTHORITY",
         "SIGRID-PURE",
@@ -23,39 +15,47 @@
         "WESTFJORDS-SUMMER",
         "WESTFJORDS-BEACH"
       ],
-      "variant_id" : "8c_story_primary",
-      "camera_position" : "Close handheld moving between consumption details, that's where the camera is",
-      "active_video_index" : 0,
-      "style" : "Close handheld shots of consumption, moving between faces and hands (that's where the camera is), visceral detail.",
       "videos" : [
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142236_md9o9.mp4",
           "duration" : 8,
-          "filename" : "Meta_setting_iceland_202509142236_md9o9.mp4"
+          "filename" : "Meta_setting_iceland_202509142236_md9o9.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142236_md9o9.mp4"
         },
         {
-          "filename" : "video0-4.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/video0-4.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filename" : "video0-4.mp4"
         },
         {
-          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/video0-3.mp4",
+          "duration" : 8,
           "filename" : "video0-3.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509150022_b0v3p.mp4",
           "filename" : "Meta_setting_iceland_202509150022_b0v3p.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509150022_b0v3p.mp4",
           "duration" : 8
         }
       ],
+      "style" : "Close handheld shots of consumption, moving between faces and hands (that's where the camera is), visceral detail.",
+      "subject" : "Close view of hands reaching for food, tearing whale meat with fingers, purple juice running down chins, egg yolk dripping on clothes, everyone eating with desperate hunger despite the abundance, mouths stained all three colors.\n\nThree long driftwood tables arranged in horseshoe shape in field, laden with whale meat, dried fish, berry juice in jugs, boiled eggs, bread, the tables bending slightly under weight, fifty people taking seats.",
+      "is_active" : false,
+      "active_video_index" : 0,
+      "camera_position" : "Close handheld moving between consumption details, that's where the camera is",
+      "action" : "Hands everywhere reaching. No utensils. Fingers tear into whale blubber, white fat, red meat. Grease runs down wrists. Purple berry juice poured directly into mouths, overflowing, running down necks. Boiled eggs crushed in fists, yolk squirting between fingers. Everyone eating like starved despite full tables. Child gnaws whale bone. Woman drinks purple juice, eyes rolling back. Man stuffs mouth with fish and eggs simultaneously. The three stains now on everyone - blood on lips, berry juice on teeth, yolk on chins. Mixed together makes brown-black mark on faces. Same color as ground stain earlier. Magnús eats mechanically, jaw working steadily. Guðrún feeds Lilja, purple juice and whale fat. Sigrid only one not eating. Watches. Some people's chewing becomes rhythmic. Like cud chewing. Jaws moving wrong direction - sideways slightly. No one notices. Food disappearing impossibly fast but tables still full.\n\nTables covered with white cloth - where did cloth come from? Food arranged in patterns. Whale meat in center, still steaming. Dried fish in pyramids. Purple juice in clay jugs, liquid glowing slightly in evening light. Eggs boiled, shells removed, golden yolks visible. Fresh bread ",
       "scene" : "Feast tables, searchlight still on but flickering. Food being consumed desperately. Faces and hands stained.\n\n\nField near houses. Three tables in horseshoe. Evening light golden. Ocean visible in distance. Mountains surrounding.",
       "dialogue" : "None - only consumption sounds",
-      "is_active" : false,
-      "negative_prompt" : "no subtitles, show visceral eating, three stains on everyone, desperate consumption, 1080p",
-      "variant_name" : "Desperate Abundance Consumption",
-      "progressive_state" : "",
-      "action" : "Hands everywhere reaching. No utensils. Fingers tear into whale blubber, white fat, red meat. Grease runs down wrists. Purple berry juice poured directly into mouths, overflowing, running down necks. Boiled eggs crushed in fists, yolk squirting between fingers. Everyone eating like starved despite full tables. Child gnaws whale bone. Woman drinks purple juice, eyes rolling back. Man stuffs mouth with fish and eggs simultaneously. The three stains now on everyone - blood on lips, berry juice on teeth, yolk on chins. Mixed together makes brown-black mark on faces. Same color as ground stain earlier. Magnús eats mechanically, jaw working steadily. Guðrún feeds Lilja, purple juice and whale fat. Sigrid only one not eating. Watches. Some people's chewing becomes rhythmic. Like cud chewing. Jaws moving wrong direction - sideways slightly. No one notices. Food disappearing impossibly fast but tables still full.\n\nTables covered with white cloth - where did cloth come from? Food arranged in patterns. Whale meat in center, still steaming. Dried fish in pyramids. Purple juice in clay jugs, liquid glowing slightly in evening light. Eggs boiled, shells removed, golden yolks visible. Fresh bread "
+      "variant_id" : "8c_story_primary",
+      "progressive_state" : ""
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "needs_improvements" : false,
+    "sequence_type" : "prologue",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "id" : "8c",
+    "title" : "The Consumption - Visceral Feeding",
+    "narrative_function" : "Visceral abundance consumption with animal behavior emerging"
+  }
 }

@@ -1,34 +1,15 @@
 {
-  "progressive_state" : "Structure transforming | Camera frost 52% | Monolith emerging | Watching: Architecture ascending",
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "title" : "HOUSE BECOMES HRAFNTINNA OBELISK 8 SECONDS REVISED",
-    "stitch_from" : "",
-    "narrative_function" : "Structure transforming | Camera frost 52% | Monoli...",
-    "id" : "59a",
-    "needs_improvements" : false
-  },
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "2.39:1",
+  "progressive_state" : "Structure transforming | Camera frost 52% | Monolith emerging | Watching: Architecture ascending",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "None - awe silence",
-      "style" : "Crane back showing monudistressed expression (that's where the camera is), architecture transcending.",
       "negative_prompt" : "",
-      "variant_id" : "59a_story_primary",
       "variant_name" : "Primary - HOUSE BECOMES HRAFNTINNA OBELISK 8 SECONDS REVISED",
-      "action" : "CRANE BACK rapidly as house transforms. Walls darken - wood and stone becoming volcanic glass. Hrafntinna. Raven flint. The black obsidian sacred to Iceland. Structure doesn't collapse - CRYSTALLIZES. Rising. Narrowing. Becoming geometric. Perfect. Monolithic. 30 feet tall. 8 feet wide at base. 4 feet at top. Classic obelisk proportions. But through center: vertical CLEFT. Not crack - designed opening. The klettagjá from lullaby. Rocky cleft IS the monument. Surface reflects everything but wrong - shows ravens where sheep stand, shows sky where ground is. The third monolith isn't a raven. It's the transformed house. The witness monument. Inside: sheep family trapped in crystal. Visible through translucent obsidian. Suspended. Preserved. Except Sigrid - she stands at cleft opening. The only way out is through. Black feathers against black stone. Almost invisible except for movement.",
-      "is_active" : false,
-      "active_video_index" : 0,
       "selected_plates" : [
         "SIGRID-DUAL",
         "BAÐSTOFA-CLIFF"
       ],
-      "camera_position" : "Crane back showing monudistressed expression",
-      "scene" : "House becoming massive black obelisk. Hrafntinna formation. Vertical cleft visible. Family trapped inside.",
-      "subject" : "The house suddenly crystallizing into black hrafntinna (obsidian), walls becoming smooth volcanic glass, the entire structure rising and narrowing into a 30-foot OBELISK with a vertical cleft running through it - the klettagjá IS the monolith, black as raven feathers.",
-      "progressive_state" : "",
       "videos" : [
         {
           "duration" : 8,
@@ -36,21 +17,70 @@
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211831_mdp1b.mp4"
         },
         {
-          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211831_tiplf.mp4",
+          "duration" : 8,
           "filename" : "Subject_the_house_202509211831_tiplf.mp4"
         },
         {
-          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211831_g0bh2.mp4",
           "filename" : "Subject_the_house_202509211831_g0bh2.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211831_g0bh2.mp4"
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_house_202510192225_qzfwb.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510192225_qzfwb.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_transformation_2025102323.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323-2.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_transformation_2025102323-2.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigridraven_entering_202510232314.mp4"
         },
         {
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510192225_qzfwb.mp4",
-          "filename" : "Subject_the_house_202510192225_qzfwb.mp4"
+          "filename" : "Subject_sigridraven_entering_202510232314-2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314-2.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_house_202510232314_124th.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_124th.mp4"
+        },
+        {
+          "filename" : "Subject_the_house_202510232314_k50fn.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_k50fn.mp4"
         }
-      ]
+      ],
+      "style" : "Crane back showing monudistressed expression (that's where the camera is), architecture transcending.",
+      "subject" : "The house suddenly crystallizing into black hrafntinna (obsidian), walls becoming smooth volcanic glass, the entire structure rising and narrowing into a 30-foot OBELISK with a vertical cleft running through it - the klettagjá IS the monolith, black as raven feathers.",
+      "is_active" : false,
+      "active_video_index" : 0,
+      "camera_position" : "Crane back showing monudistressed expression",
+      "action" : "CRANE BACK rapidly as house transforms. Walls darken - wood and stone becoming volcanic glass. Hrafntinna. Raven flint. The black obsidian sacred to Iceland. Structure doesn't collapse - CRYSTALLIZES. Rising. Narrowing. Becoming geometric. Perfect. Monolithic. 30 feet tall. 8 feet wide at base. 4 feet at top. Classic obelisk proportions. But through center: vertical CLEFT. Not crack - designed opening. The klettagjá from lullaby. Rocky cleft IS the monument. Surface reflects everything but wrong - shows ravens where sheep stand, shows sky where ground is. The third monolith isn't a raven. It's the transformed house. The witness monument. Inside: sheep family trapped in crystal. Visible through translucent obsidian. Suspended. Preserved. Except Sigrid - she stands at cleft opening. The only way out is through. Black feathers against black stone. Almost invisible except for movement.",
+      "scene" : "House becoming massive black obelisk. Hrafntinna formation. Vertical cleft visible. Family trapped inside.",
+      "dialogue" : "None - awe silence",
+      "variant_id" : "59a_story_primary",
+      "progressive_state" : ""
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "needs_improvements" : false,
+    "sequence_type" : "main_story",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "id" : "59a",
+    "title" : "HOUSE BECOMES HRAFNTINNA OBELISK 8 SECONDS REVISED",
+    "narrative_function" : "Structure transforming | Camera frost 52% | Monoli..."
+  }
 }

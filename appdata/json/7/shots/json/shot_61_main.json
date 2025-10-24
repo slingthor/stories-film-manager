@@ -1,58 +1,39 @@
 {
-  "progressive_state" : "Camera consciousness 100% | Iceland identity revealed | Frost 95% | Self-recognition | Watching: We are Iceland dying",
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "duration_seconds" : 30,
-    "title" : "Camera Recognizes Itself - Iceland Awareness",
-    "stitch_from" : "",
-    "narrative_function" : "Camera\/Iceland recognizes itself as dying nation",
-    "id" : "61",
-    "needs_improvements" : false
-  },
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "2.39:1",
+  "progressive_state" : "Camera consciousness 100% | Iceland identity revealed | Frost 95% | Self-recognition | Watching: We are Iceland dying",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "",
-      "style" : "Camera positioned at human eye level approaching examination distance (that's where the camera is), documentary forensic perspective maintaining scientific objectivity despite impossible subject matter. Natural monument lighting creating harsh examination illumination. Focus sharp on anatomical impossibility detail preparation for sustained investigation. DIALOGUE:",
       "negative_prompt" : "",
-      "variant_id" : "61_the_binding_30_second_hold_six_prompts",
       "variant_name" : "The Binding 30 Second Hold Six Prompts",
-      "action" : "Camera begins forensic examination approach focusing on anatomical impossibility details: headdress fitting procedures impossible with sheep head shape, brass pin placement requiring human temple anatomy, black velvet band circumference matching human rather than animal skull dimensions. Examination revealing cultural preservation through species transformation—traditional women's dignity maintained through supernatural anatomical accommodation, Icelandic cultural identity continuing through animal embodiment via impossible clothing adaptation. Forensic camera examination revealing anatomical detail impossible with normal species: brass pin integration with sheep bone structure showing supernatural precision, headdress materials adapting to animal anatomy through cultural preservation necessity, traditional women's ceremonial wear maintaining dignity through species transformation via impossible anatomical accommodation. Examination documenting cultural continuity through biological impossibility—traditional Icelandic women's identity preserved through supernatural anatomical modification enabling cultural transmission across species transformation. Eye contact establishing human consciousness confirmation: Guðrún-ewe recognizing camera documentation with human understanding, trapped consciousness communicating recognition through optical clarity and expressive face. Human intelligence responding to forensic examination with dignity despite anatomical imprisonment, consciousness maintaining human expressive face through sheep optical structure. Recognition building toward communication: human awareness preparing to address camera\/audience directly despite vocal anatomy limitation, consciousness choosing to break species barrier through direct witness address.",
-      "is_active" : false,
-      "active_video_index" : 0,
       "selected_plates" : [
         "BAÐSTOFA-MONUMENT"
       ],
-      "camera_position" : "",
-      "scene" : "SHOT 61: THE BINDING - 30-SECOND HOLD SIX PROMPTS Forensic Examination to Curse Transfer Through Extended Duration OVERVIEW:",
-      "subject" : "",
-      "progressive_state" : "",
       "videos" : [
         {
+          "duration" : 8,
           "filename" : "Subject_magnus_pushing_202510232252_ynkpu.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magnus_pushing_202510232252_ynkpu.mp4",
-          "duration" : 8
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magnus_pushing_202510232252_ynkpu.mp4"
         },
         {
-          "duration" : 8,
           "filename" : "Subject_magnus_pushing_202510232252_qpi5w.mp4",
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magnus_pushing_202510232252_qpi5w.mp4"
         },
         {
-          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510232252_abeda.mp4",
+          "duration" : 8,
           "filename" : "Subject_the_final_202510232252_abeda.mp4"
         },
         {
-          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510232252_rcrgm.mp4",
+          "duration" : 8,
           "filename" : "Subject_the_final_202510232252_rcrgm.mp4"
         },
         {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232253_1o0nq.mp4",
           "duration" : 8,
-          "filename" : "Subject_in_the_202510232253_1o0nq.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232253_1o0nq.mp4"
+          "filename" : "Subject_in_the_202510232253_1o0nq.mp4"
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_frost_202510232253_mrpa2.mp4",
@@ -66,43 +47,82 @@
         },
         {
           "filename" : "Subject_the_camera_202510232254_qqe3f.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510232254_qqe3f.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510232254_qqe3f.mp4"
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510232254_5jj5k.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_camera_202510232254_5jj5k.mp4"
+          "filename" : "Subject_the_camera_202510232254_5jj5k.mp4",
+          "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510232254_optv6.mp4",
           "filename" : "Subject_the_camera_202510232254_optv6.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510232254_optv6.mp4"
         },
         {
-          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510232254_1tcbx.mp4",
           "filename" : "Subject_the_camera_202510232254_1tcbx.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510232254_1tcbx.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510232254_dcuru.mp4",
-          "filename" : "Subject_the_camera_202510232254_dcuru.mp4",
           "duration" : 8
         },
         {
           "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510232254_dcuru.mp4",
+          "filename" : "Subject_the_camera_202510232254_dcuru.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232254_fpggi.mp4",
           "filename" : "Subject_subject_reference_202510232254_fpggi.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232254_fpggi.mp4"
+          "duration" : 8
         },
         {
           "filename" : "Subject_subject_reference_202510232254_816aw.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232254_816aw.mp4",
           "duration" : 8
         }
-      ]
+      ],
+      "style" : "Camera positioned at human eye level approaching examination distance (that's where the camera is), documentary forensic perspective maintaining scientific objectivity despite impossible subject matter. Natural monument lighting creating harsh examination illumination. Focus sharp on anatomical impossibility detail preparation for sustained investigation. DIALOGUE:",
+      "subject" : "",
+      "is_active" : false,
+      "active_video_index" : 0,
+      "camera_position" : "",
+      "action" : "Camera begins forensic examination approach focusing on anatomical impossibility details: headdress fitting procedures impossible with sheep head shape, brass pin placement requiring human temple anatomy, black velvet band circumference matching human rather than animal skull dimensions. Examination revealing cultural preservation through species transformation—traditional women's dignity maintained through supernatural anatomical accommodation, Icelandic cultural identity continuing through animal embodiment via impossible clothing adaptation. Forensic camera examination revealing anatomical detail impossible with normal species: brass pin integration with sheep bone structure showing supernatural precision, headdress materials adapting to animal anatomy through cultural preservation necessity, traditional women's ceremonial wear maintaining dignity through species transformation via impossible anatomical accommodation. Examination documenting cultural continuity through biological impossibility—traditional Icelandic women's identity preserved through supernatural anatomical modification enabling cultural transmission across species transformation. Eye contact establishing human consciousness confirmation: Guðrún-ewe recognizing camera documentation with human understanding, trapped consciousness communicating recognition through optical clarity and expressive face. Human intelligence responding to forensic examination with dignity despite anatomical imprisonment, consciousness maintaining human expressive face through sheep optical structure. Recognition building toward communication: human awareness preparing to address camera\/audience directly despite vocal anatomy limitation, consciousness choosing to break species barrier through direct witness address.",
+      "scene" : "SHOT 61: THE BINDING - 30-SECOND HOLD SIX PROMPTS Forensic Examination to Curse Transfer Through Extended Duration OVERVIEW:",
+      "dialogue" : "",
+      "variant_id" : "61_the_binding_30_second_hold_six_prompts",
+      "progressive_state" : ""
     },
     {
+      "negative_prompt" : "no normal sheep anatomy, no realistic headdress fitting, no audience protection, no curse prevention",
+      "scene" : "Monument interior with family conscious within transparent obsidian walls, forensic examination lighting revealing impossible anatomy preservation.",
+      "camera_position" : "Forensic examination distance receiving direct address, that's where the camera is",
+      "style" : "Forensic documentary examination building to direct address, camera receiving curse transfer (that's where the camera is), 30-second sustained hold impossible with traditional cinema.",
+      "progressive_state" : "",
+      "active_video_index" : 0,
       "subject" : "30-second forensic examination of Guðrún-ewe with faldbúningur headdress, revealing impossible anatomy while camera\/Iceland recognizes itself as dying witness, building to curse transfer finale.",
+      "videos" : [
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510192222_qvkik.mp4",
+          "filename" : "Subject_subject_reference_202510192222_qvkik.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510192222_mr357.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510192222_mr357.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_30second_forensic_202510232256_t3m8.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_30second_forensic_202510232256_t3m8.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_30second_forensic_202510232256_kh3s.mp4",
+          "filename" : "Subject_30second_forensic_202510232256_kh3s.mp4",
+          "duration" : 8
+        }
+      ],
+      "variant_name" : "30-Second Forensic Hold - Six Prompts",
       "selected_plates" : [
         "MAGNUS-RAM",
         "SIGRID-CORVID",
@@ -111,39 +131,19 @@
         "GUDRUN-ETERNAL",
         "BAÐSTOFA-MONUMENT"
       ],
-      "variant_id" : "61_forensic_examination",
-      "camera_position" : "Forensic examination distance receiving direct address, that's where the camera is",
-      "active_video_index" : 0,
-      "style" : "Forensic documentary examination building to direct address, camera receiving curse transfer (that's where the camera is), 30-second sustained hold impossible with traditional cinema.",
-      "videos" : [
-        {
-          "filename" : "Subject_subject_reference_202510192222_qvkik.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510192222_qvkik.mp4"
-        },
-        {
-          "filename" : "Subject_subject_reference_202510192222_mr357.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510192222_mr357.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_30second_forensic_202510232256_t3m8.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_30second_forensic_202510232256_t3m8.mp4"
-        },
-        {
-          "filename" : "Subject_30second_forensic_202510232256_kh3s.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_30second_forensic_202510232256_kh3s.mp4",
-          "duration" : 8
-        }
-      ],
-      "scene" : "Monument interior with family conscious within transparent obsidian walls, forensic examination lighting revealing impossible anatomy preservation.",
-      "dialogue" : "(Guðrún-ewe, human words through sheep mouth): 'Þú sérð þetta núna... þú ert vitni... þú verður að muna...' (You see this now... you are witness... you must remember...) (Final whisper): 'Núna... þú berð þetta...' (Now... you carry this...)",
-      "negative_prompt" : "no normal sheep anatomy, no realistic headdress fitting, no audience protection, no curse prevention",
-      "variant_name" : "30-Second Forensic Hold - Six Prompts",
       "is_active" : false,
-      "progressive_state" : "",
-      "action" : "0-5s: Camera approaches from 8 feet examining anatomical impossibility - headdress fitting sheep head perfectly despite impossible geometry. 5-10s: Extreme close-up on brass pin penetrating sheep skull where human temple would be, cultural preservation through supernatural accommodation. 10-15s: Eyes revealing human consciousness trapped in sheep anatomy, horizontal pupils showing human expressive face. 15-20s: Recognition building between camera and subject consciousness. 20-25s: Direct camera address - 'Þú sérð þetta núna... þú ert vitni...' (You see this now... you are witness...). 25-30s: Single human tear from sheep eye anatomy, curse transfer to audience completing witness burden inheritance."
+      "variant_id" : "61_forensic_examination",
+      "action" : "0-5s: Camera approaches from 8 feet examining anatomical impossibility - headdress fitting sheep head perfectly despite impossible geometry. 5-10s: Extreme close-up on brass pin penetrating sheep skull where human temple would be, cultural preservation through supernatural accommodation. 10-15s: Eyes revealing human consciousness trapped in sheep anatomy, horizontal pupils showing human expressive face. 15-20s: Recognition building between camera and subject consciousness. 20-25s: Direct camera address - 'Þú sérð þetta núna... þú ert vitni...' (You see this now... you are witness...). 25-30s: Single human tear from sheep eye anatomy, curse transfer to audience completing witness burden inheritance.",
+      "dialogue" : "(Guðrún-ewe, human words through sheep mouth): 'Þú sérð þetta núna... þú ert vitni... þú verður að muna...' (You see this now... you are witness... you must remember...) (Final whisper): 'Núna... þú berð þetta...' (Now... you carry this...)"
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "needs_improvements" : false,
+    "sequence_type" : "main_story",
+    "duration_seconds" : 30,
+    "stitch_from" : "",
+    "id" : "61",
+    "title" : "Camera Recognizes Itself - Iceland Awareness",
+    "narrative_function" : "Camera\/Iceland recognizes itself as dying nation"
+  }
 }

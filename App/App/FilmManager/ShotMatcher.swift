@@ -196,7 +196,7 @@ class ShotMatcher {
     private func passesWordCountCheck(promptCount: Int, variantCount: Int) -> Bool {
         guard promptCount > 0 && variantCount > 0 else { return false }
         let ratio = Double(min(promptCount, variantCount)) / Double(max(promptCount, variantCount))
-        return ratio >= 0.25  // Allow 4:1 ratio
+        return ratio >= 0.30  // Allow 3.3:1 ratio (balanced)
     }
 
     /// Calculate Jaccard similarity of character sets (fast set operations)
@@ -294,36 +294,57 @@ class ShotMatcher {
             }
         }
 
-        for cached in uniqueRefs {
-            // Check 1: Maximum possible similarity (MUST be mathematically possible)
-            let maxSimAction = maxPossibleSimilarity(len1: promptActionLength, len2: cached.actionLength)
-            let maxSimScene = maxPossibleSimilarity(len1: promptSceneLength, len2: cached.sceneLength)
+        // Run Pass 1 filtering in parallel batches to avoid blocking
+        pass1Candidates = await withTaskGroup(of: [VariantReference].self) { group in
+            // Process in batches of 50 to allow yielding
+            let batchSize = 50
+            for batchStart in stride(from: 0, to: uniqueRefs.count, by: batchSize) {
+                let batchEnd = min(batchStart + batchSize, uniqueRefs.count)
+                let batch = Array(uniqueRefs[batchStart..<batchEnd])
 
-            if maxSimAction < actionThreshold && maxSimScene < sceneThreshold {
-                continue  // Impossible to meet both thresholds
+                group.addTask {
+                    var candidates: [VariantReference] = []
+                    for cached in batch {
+                        // Check 1: Maximum possible similarity (MUST be mathematically possible)
+                        let maxSimAction = self.maxPossibleSimilarity(len1: promptActionLength, len2: cached.actionLength)
+                        let maxSimScene = self.maxPossibleSimilarity(len1: promptSceneLength, len2: cached.sceneLength)
+
+                        // Reject if BOTH are below their respective thresholds
+                        if maxSimAction < self.actionThreshold && maxSimScene < self.sceneThreshold {
+                            continue  // Impossible to meet either threshold
+                        }
+
+                        // Check 2: Word count ratio
+                        if !self.passesWordCountCheck(promptCount: promptActionWordCount, variantCount: cached.actionWordCount) &&
+                           !self.passesWordCountCheck(promptCount: promptSceneWordCount, variantCount: cached.sceneWordCount) {
+                            continue
+                        }
+
+                        // Check 3: Character set overlap (Jaccard similarity)
+                        let actionJaccard = self.characterSetJaccard(promptActionCharSet, cached.actionCharSet)
+                        let sceneJaccard = self.characterSetJaccard(promptSceneCharSet, cached.sceneCharSet)
+
+                        if actionJaccard < 0.45 && sceneJaccard < 0.45 {
+                            continue  // Less than 45% character overlap in both (balanced)
+                        }
+
+                        // Check 4: Critical token overlap
+                        if !self.hasCriticalTokenOverlap(promptCriticalTokens, cached.criticalTokens) {
+                            continue
+                        }
+
+                        // Passed all rejection checks!
+                        candidates.append(cached)
+                    }
+                    return candidates
+                }
             }
 
-            // Check 2: Word count ratio
-            if !passesWordCountCheck(promptCount: promptActionWordCount, variantCount: cached.actionWordCount) &&
-               !passesWordCountCheck(promptCount: promptSceneWordCount, variantCount: cached.sceneWordCount) {
-                continue
+            var allCandidates: [VariantReference] = []
+            for await batchCandidates in group {
+                allCandidates.append(contentsOf: batchCandidates)
             }
-
-            // Check 3: Character set overlap (Jaccard similarity)
-            let actionJaccard = characterSetJaccard(promptActionCharSet, cached.actionCharSet)
-            let sceneJaccard = characterSetJaccard(promptSceneCharSet, cached.sceneCharSet)
-
-            if actionJaccard < 0.4 && sceneJaccard < 0.4 {
-                continue  // Less than 40% character overlap in both
-            }
-
-            // Check 4: Critical token overlap
-            if !hasCriticalTokenOverlap(promptCriticalTokens, cached.criticalTokens) {
-                continue
-            }
-
-            // Passed all rejection checks!
-            pass1Candidates.append(cached)
+            return allCandidates
         }
 
         // If we have candidates from fast pass, do full comparison on them

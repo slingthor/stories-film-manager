@@ -1,26 +1,11 @@
 {
-  "progressive_state" : "House still holding breath | Shame visible | Camera frost 27.5% | Provider's failure | Watching: All eyes on him",
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "duration_seconds" : 5,
-    "title" : "THE PATHETIC OFFERING 5 SECONDS",
-    "stitch_from" : "",
-    "narrative_function" : "House still holding breath | Shame visible | Camer...",
-    "id" : "42b",
-    "needs_improvements" : false
-  },
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
+  "progressive_state" : "House still holding breath | Shame visible | Camera frost 27.5% | Provider's failure | Watching: All eyes on him",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "(Magnús, starting proud): \"Ð‰g fann...\" (Realizing): \"Þetta er... þetta er allt\" (Seeing arrangement): \"Hvað gerðist?\"",
-      "style" : "Push in on fin while keeping his face in frame above (that's where the camera is), shame documentation.",
       "negative_prompt" : "",
       "variant_name" : "Primary - THE PATHETIC OFFERING 5 SECONDS",
-      "variant_id" : "42b_story_primary",
-      "action" : "Door slams, cutting storm. Sudden silence except breathing. Magnús steps forward, aged legs unsteady. Unwraps cloth with 0Hz hands - clumsy, can't feel fabric. Reveals fin: smaller than hand, black with rot, maggots suspended in ice. Holds it up. \"Ð‰g fann...\" (I found...) but stops. Sees their eyes. Guðrún's silent judgment. Children's understanding. Sigrid's distance (still exactly 11 feet even in réttir). The fin drips - one drop of decomposition liquid, black, hits floor, freezes instantly into dark star. PUSH IN on fin, showing every pathetic detail. His aged face above it, white hair with ice, eyes sunken from aflausn debt. The provider who provides death. In his peripheral vision: notices family arranged wrong. Pentagon. Tilberi at center. Something happened. His failure complete - failed at sea, failed to protect home.",
-      "is_active" : false,
-      "active_video_index" : 0,
       "selected_plates" : [
         "MAGNUS-PREDATOR",
         "SIGRID-CORNERED",
@@ -30,32 +15,287 @@
         "BAÐSTOFA-CLEFT",
         "STOFA-BODY"
       ],
-      "scene" : "Interior, door closed but cold remaining. His offering centered in frame. Family watching from positions.",
-      "camera_position" : "Push in on fin while keeping his face in frame above",
-      "subject" : "[MAGNÚS] stepping inside, door slamming behind him, unwrapping his offering with 0Hz hands - the small, rotten seal fin, maggots frozen mid-writhe, holding it up like treasure while family sees truth: this is all he brought.",
-      "progressive_state" : "",
       "videos" : [
         {
-          "filename" : "Subject_magns_stepping_202509211910_0vl42.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202509211910_0vl42.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_magns_stepping_202509211910_n06to.mp4",
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202509211910_n06to.mp4"
+          "filename" : "Subject_magns_stepping_202509211910_0vl42.mp4"
         },
         {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202509211910_n06to.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_stepping_202509211910_n06to.mp4"
+        },
+        {
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202509211910_hv0al.mp4",
-          "duration" : 8,
           "filename" : "Subject_magns_stepping_202509211910_hv0al.mp4"
         },
         {
-          "duration" : 8,
           "filename" : "Subject_magns_stepping_202509211910_1exop.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202509211910_1exop.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202509211910_1exop.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510232323_pynpj.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232323_pynpj.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_lilja_suddenly_202510232324_fdhwd.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_fdhwd.mp4"
+        },
+        {
+          "filename" : "Subject_lilja_suddenly_202510232324_t60yd.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_t60yd.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_zn2am.mp4",
+          "filename" : "Subject_the_three_202510232325_zn2am.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_17xug.mp4",
+          "filename" : "Subject_the_three_202510232325_17xug.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_standing_202510232325_z7nk.mp4",
+          "filename" : "Subject_gurn_standing_202510232325_z7nk.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_as_gurn_202510232326_0macj.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_as_gurn_202510232326_0macj.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_m5xhc.mp4",
+          "filename" : "Subject_aerial_shot_202510232326_m5xhc.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_gu6zn.mp4",
+          "duration" : 8,
+          "filename" : "Subject_aerial_shot_202510232326_gu6zn.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_rising_202510232326_b1r58.mp4",
+          "duration" : 8,
+          "filename" : "Subject_gurn_rising_202510232326_b1r58.mp4"
+        },
+        {
+          "filename" : "Subject_griungur_using_202510232326_l3eff.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_l3eff.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_griungur_using_202510232326_ff0m1.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_ff0m1.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202510232326_c4k55.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_water_202510232326_c4k55.mp4"
+        },
+        {
+          "filename" : "Subject_the_water_202510232326_whf4w.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202510232326_whf4w.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_polynya_202510232326_qs0hq.mp4",
+          "filename" : "Subject_the_polynya_202510232326_qs0hq.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_arriving_202510232327_51aj.mp4",
+          "duration" : 8,
+          "filename" : "Subject_gurn_arriving_202510232327_51aj.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_close_tracking_202510232327_jiwn0.mp4",
+          "filename" : "Subject_close_tracking_202510232327_jiwn0.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_tracking_202510232327_bgh48.mp4",
+          "filename" : "Subject_camera_tracking_202510232327_bgh48.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202510232327_nux0d.mp4",
+          "filename" : "Subject_camera_spiraling_202510232327_nux0d.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202510232327_ejaum.mp4",
+          "filename" : "Subject_camera_spiraling_202510232327_ejaum.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_camera_on_202510232327_vtlji.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_on_202510232327_vtlji.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202510232327_dohg6.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_stepping_202510232327_dohg6.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202510232327_ecs7b.mp4",
+          "filename" : "Subject_magns_stepping_202510232327_ecs7b.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232323_pynpj.mp4",
+          "filename" : "Subject_subject_reference_202510232323_pynpj.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_lilja_suddenly_202510232324_fdhwd.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_fdhwd.mp4"
+        },
+        {
+          "filename" : "Subject_lilja_suddenly_202510232324_t60yd.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_t60yd.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_zn2am.mp4",
+          "filename" : "Subject_the_three_202510232325_zn2am.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_17xug.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_three_202510232325_17xug.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_standing_202510232325_z7nk.mp4",
+          "duration" : 8,
+          "filename" : "Subject_gurn_standing_202510232325_z7nk.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_as_gurn_202510232326_0macj.mp4",
+          "duration" : 8,
+          "filename" : "Subject_as_gurn_202510232326_0macj.mp4"
+        },
+        {
+          "filename" : "Subject_aerial_shot_202510232326_m5xhc.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_m5xhc.mp4"
+        },
+        {
+          "filename" : "Subject_aerial_shot_202510232326_gu6zn.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_gu6zn.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_rising_202510232326_b1r58.mp4",
+          "filename" : "Subject_gurn_rising_202510232326_b1r58.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_griungur_using_202510232326_l3eff.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_l3eff.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_griungur_using_202510232326_ff0m1.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_ff0m1.mp4"
+        },
+        {
+          "filename" : "Subject_the_water_202510232326_c4k55.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202510232326_c4k55.mp4"
+        },
+        {
+          "filename" : "Subject_the_water_202510232326_whf4w.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202510232326_whf4w.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_polynya_202510232326_qs0hq.mp4",
+          "filename" : "Subject_the_polynya_202510232326_qs0hq.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_gurn_arriving_202510232327_51aj.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_arriving_202510232327_51aj.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_close_tracking_202510232327_jiwn0.mp4",
+          "duration" : 8,
+          "filename" : "Subject_close_tracking_202510232327_jiwn0.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_tracking_202510232327_bgh48.mp4",
+          "filename" : "Subject_camera_tracking_202510232327_bgh48.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202510232327_nux0d.mp4",
+          "duration" : 8,
+          "filename" : "Subject_camera_spiraling_202510232327_nux0d.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202510232327_ejaum.mp4",
+          "duration" : 8,
+          "filename" : "Subject_camera_spiraling_202510232327_ejaum.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_camera_on_202510232327_vtlji.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_on_202510232327_vtlji.mp4"
+        },
+        {
+          "filename" : "Subject_magns_stepping_202510232327_dohg6.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202510232327_dohg6.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202510232327_ecs7b.mp4",
+          "filename" : "Subject_magns_stepping_202510232327_ecs7b.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_camera_slowly_202510232327_1j6bp.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_slowly_202510232327_1j6bp.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_slowly_202510232328_dfkbz.mp4",
+          "duration" : 8,
+          "filename" : "Subject_camera_slowly_202510232328_dfkbz.mp4"
         }
-      ]
+      ],
+      "style" : "Push in on fin while keeping his face in frame above (that's where the camera is), shame documentation.",
+      "subject" : "[MAGNÚS] stepping inside, door slamming behind him, unwrapping his offering with 0Hz hands - the small, rotten seal fin, maggots frozen mid-writhe, holding it up like treasure while family sees truth: this is all he brought.",
+      "is_active" : false,
+      "active_video_index" : 0,
+      "camera_position" : "Push in on fin while keeping his face in frame above",
+      "action" : "Door slams, cutting storm. Sudden silence except breathing. Magnús steps forward, aged legs unsteady. Unwraps cloth with 0Hz hands - clumsy, can't feel fabric. Reveals fin: smaller than hand, black with rot, maggots suspended in ice. Holds it up. \"Ð‰g fann...\" (I found...) but stops. Sees their eyes. Guðrún's silent judgment. Children's understanding. Sigrid's distance (still exactly 11 feet even in réttir). The fin drips - one drop of decomposition liquid, black, hits floor, freezes instantly into dark star. PUSH IN on fin, showing every pathetic detail. His aged face above it, white hair with ice, eyes sunken from aflausn debt. The provider who provides death. In his peripheral vision: notices family arranged wrong. Pentagon. Tilberi at center. Something happened. His failure complete - failed at sea, failed to protect home.",
+      "scene" : "Interior, door closed but cold remaining. His offering centered in frame. Family watching from positions.",
+      "dialogue" : "(Magnús, starting proud): \"Ð‰g fann...\" (Realizing): \"Þetta er... þetta er allt\" (Seeing arrangement): \"Hvað gerðist?\"",
+      "variant_id" : "42b_story_primary",
+      "progressive_state" : ""
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "needs_improvements" : false,
+    "sequence_type" : "main_story",
+    "duration_seconds" : 5,
+    "stitch_from" : "",
+    "id" : "42b",
+    "title" : "THE PATHETIC OFFERING 5 SECONDS",
+    "narrative_function" : "House still holding breath | Shame visible | Camer..."
+  }
 }

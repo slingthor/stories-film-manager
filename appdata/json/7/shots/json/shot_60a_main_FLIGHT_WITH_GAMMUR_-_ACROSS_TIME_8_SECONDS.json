@@ -1,26 +1,11 @@
 {
-  "progressive_state" : "Flying free | Camera frost 54.5% | Time traversing | Watching: Sky witnesses all",
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "title" : "FLIGHT WITH GAMMUR - ACROSS TIME 8 SECONDS",
-    "stitch_from" : "",
-    "narrative_function" : "Flying free | Camera frost 54.5% | Time traversing...",
-    "id" : "60a",
-    "needs_improvements" : false
-  },
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "2.39:1",
+  "progressive_state" : "Flying free | Camera frost 54.5% | Time traversing | Watching: Sky witnesses all",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "(Gammur): \"Þetta er það sem þú verður að muna\" (Sigrid, 1944): Looking up: \"Ð‰g man\" (I remember)",
-      "style" : "Aerial tracking through time (that's where the camera is), memory flight documented.",
       "negative_prompt" : "",
-      "variant_id" : "60a_story_primary",
       "variant_name" : "Primary - FLIGHT WITH GAMMUR - ACROSS TIME 8 SECONDS",
-      "action" : "AERIAL TRACKING both ravens. Gammur leads, massive wings cutting through time itself. Each downbeat: different era. First beat: 1888 below, frozen fjord, trawler still circling in eternal ouroboros (frozen in ice). Second beat: 1904, Danish administration buildings rising. Third beat: 1920, Sigrid laying her egg on cathedral roof - the human child emerging from raven egg. Fourth beat: 1940, British occupation, tanks replacing Danish clerks. Fifth beat: 1944, June 17, independence day, crowds cheering, Sigrid (aged 72, human again) in crowd, looking up, SEEING her younger raven self flying over, remembering. Sixth beat: 2024, the obelisk a tourist destination, children on school trips, guides explaining \"the family preserved inside represents colonial sacrifice.\" Seventh beat: future unknown, Iceland green, warm, different. Gammur speaks while flying: \"Þetta er það sem þú verður að muna\" (This is what you must remember). All of it. Every moment. The witness carries all.",
-      "is_active" : false,
-      "active_video_index" : 0,
       "selected_plates" : [
         "MAGNUS-BREAKING",
         "SIGRID-DUAL",
@@ -30,47 +15,62 @@
         "BAÐSTOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ],
-      "camera_position" : "Aerial tracking through time",
-      "scene" : "Flying across all Iceland times. Landscape changing below. History visible. Future glimpsed.",
-      "subject" : "[SIGRID]-raven flying alongside GAMMUR across Iceland's landscape but each wingbeat takes them through different time - over 1888's frozen fjords, through 1944's independence celebration, past 2024's tourist buses at the black obelisk, all in single flight.",
-      "progressive_state" : "",
       "videos" : [
         {
-          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_flying_202510162324_7.mp4",
+          "duration" : 8,
           "filename" : "Subject_sigridraven_flying_202510162324_7.mp4"
         },
         {
-          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_30second_forensic_202510232256_t3m8.mp4",
+          "duration" : 8,
           "filename" : "Subject_30second_forensic_202510232256_t3m8.mp4"
         },
         {
-          "duration" : 8,
           "filename" : "Subject_30second_forensic_202510232256_kh3s.mp4",
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_30second_forensic_202510232256_kh3s.mp4"
         },
         {
+          "duration" : 8,
           "filename" : "Subject_camera_spiraling_202510232256_kmq2k.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202510232256_kmq2k.mp4",
-          "duration" : 8
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202510232256_kmq2k.mp4"
         },
         {
-          "filename" : "Subject_sigridraven_landing_202510232256_.mp4",
           "duration" : 8,
+          "filename" : "Subject_sigridraven_landing_202510232256_.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_landing_202510232256_.mp4"
         },
         {
           "filename" : "Subject_sigridraven_landing_202510232256_-2.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_landing_202510232256_-2.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_landing_202510232256_-2.mp4"
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_flying_202510232257_p.mp4",
-          "duration" : 8,
-          "filename" : "Subject_sigridraven_flying_202510232257_p.mp4"
+          "filename" : "Subject_sigridraven_flying_202510232257_p.mp4",
+          "duration" : 8
         }
-      ]
+      ],
+      "style" : "Aerial tracking through time (that's where the camera is), memory flight documented.",
+      "subject" : "[SIGRID]-raven flying alongside GAMMUR across Iceland's landscape but each wingbeat takes them through different time - over 1888's frozen fjords, through 1944's independence celebration, past 2024's tourist buses at the black obelisk, all in single flight.",
+      "is_active" : false,
+      "active_video_index" : 0,
+      "camera_position" : "Aerial tracking through time",
+      "action" : "AERIAL TRACKING both ravens. Gammur leads, massive wings cutting through time itself. Each downbeat: different era. First beat: 1888 below, frozen fjord, trawler still circling in eternal ouroboros (frozen in ice). Second beat: 1904, Danish administration buildings rising. Third beat: 1920, Sigrid laying her egg on cathedral roof - the human child emerging from raven egg. Fourth beat: 1940, British occupation, tanks replacing Danish clerks. Fifth beat: 1944, June 17, independence day, crowds cheering, Sigrid (aged 72, human again) in crowd, looking up, SEEING her younger raven self flying over, remembering. Sixth beat: 2024, the obelisk a tourist destination, children on school trips, guides explaining \"the family preserved inside represents colonial sacrifice.\" Seventh beat: future unknown, Iceland green, warm, different. Gammur speaks while flying: \"Þetta er það sem þú verður að muna\" (This is what you must remember). All of it. Every moment. The witness carries all.",
+      "scene" : "Flying across all Iceland times. Landscape changing below. History visible. Future glimpsed.",
+      "dialogue" : "(Gammur): \"Þetta er það sem þú verður að muna\" (Sigrid, 1944): Looking up: \"Ð‰g man\" (I remember)",
+      "variant_id" : "60a_story_primary",
+      "progressive_state" : ""
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "needs_improvements" : false,
+    "sequence_type" : "main_story",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "id" : "60a",
+    "title" : "FLIGHT WITH GAMMUR - ACROSS TIME 8 SECONDS",
+    "narrative_function" : "Flying free | Camera frost 54.5% | Time traversing..."
+  }
 }

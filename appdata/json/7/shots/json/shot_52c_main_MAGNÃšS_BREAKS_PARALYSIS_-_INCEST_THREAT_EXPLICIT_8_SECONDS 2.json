@@ -1,26 +1,11 @@
 {
-  "progressive_state" : "Raven vanishes | Threat immediate | Camera frost 42.5% | ordeal imminent | Watching: No protection",
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "title" : "MAGNÚS BREAKS PARALYSIS - INCEST THREAT EXPLICIT 8 SECONDS",
-    "stitch_from" : "",
-    "narrative_function" : "Raven vanishes | Threat immediate | Camera frost 4...",
-    "id" : "52c",
-    "needs_improvements" : false
-  },
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
+  "progressive_state" : "Raven vanishes | Threat immediate | Camera frost 42.5% | ordeal imminent | Watching: No protection",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "(Magnús): \"Ef Guðrún deyr á morgun, þú verður konan\" \"Þú ert tilbúin. Ð‰g sé það\" \"Þú verður góð kona. Móðir. Allt.\"",
-      "style" : "Handheld following pursuit (that's where the camera is), predator documented.",
       "negative_prompt" : "maintain threat without exploitation, show isolation trap",
-      "variant_id" : "52c_story_primary",
       "variant_name" : "Primary - MAGNÚS BREAKS PARALYSIS - INCEST THREAT EXPLICIT 8 SECONDS",
-      "action" : "Raven dissolves - smoke, then nothing. Family gasps, can move. Magnús's 0Hz hands perfectly steady. Moves toward Sigrid. Not violent. Worse. Determined. \"Ð‰g sá hvað fuglinn sýndi þér. Framtíð.\" (I saw what bird showed you. Future.) \"En það er MINN framtíð líka.\" (But it's MY future too.) HANDHELD FOLLOWS him, unstable, threatening. Sigrid backs toward platform, maintaining 11 feet but running out of room. Black feather in her hand. He continues: \"Guðrún er veik. Hún deyr fljótlega.\" (Guðrún is weak. She dies soon.) \"Þú ert tilbúin. Ð‰g sé það.\" (You're ready. I see it.) Reaches for her. She presses against wall. Klettagjá cracks deeper behind her - escape route forming but not yet open. \"Þú verður góð kona. Móðir. Allt.\" (You'll be good wife. Mother. Everything.) His hand touches her shoulder. She doesn't scream - who would hear? 40 miles to anyone. Guðrún watches, paralyzed by different kind of freeze.",
-      "is_active" : false,
-      "active_video_index" : 0,
       "selected_plates" : [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
@@ -29,10 +14,6 @@
         "BAÐSTOFA-CLIFF",
         "GUDRUN-MASTER"
       ],
-      "camera_position" : "Handheld following pursuit",
-      "scene" : "Pursuit toward sleeping platform. Raven gone. Threat immediate. No escape yet.",
-      "subject" : "The raven vanishing like smoke, paralysis breaking, [MAGNÚS] immediately moving toward [SIGRID]: \"Ef Guðrún deyr á morgun, þú verður konan\" (If Guðrún dies tomorrow, you become the woman), the incest threat fully explicit while she backs toward her sleeping platform.",
-      "progressive_state" : "",
       "videos" : [
         {
           "duration" : 8,
@@ -40,11 +21,75 @@
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_entire_202509211849_pftjd.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_entire_202509211849_yxw3t.mp4",
+          "duration" : 8,
           "filename" : "Subject_the_entire_202509211849_yxw3t.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_entire_202509211849_yxw3t.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510232317_o22qh.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232317_o22qh.mp4",
           "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232317_kei79.mp4",
+          "filename" : "Subject_subject_reference_202510232317_kei79.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510232317_j6ssd.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232317_j6ssd.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510232317_2utz6.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232317_2utz6.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232319_bgnp3.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_house_202510232319_bgnp3.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232319_uwb1y.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_house_202510232319_uwb1y.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_entire_202510232319_k500s.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_entire_202510232319_k500s.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_entire_202510232319_8vtpe.mp4",
+          "filename" : "Subject_the_entire_202510232319_8vtpe.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_raven_202510232319_qcfr5.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_raven_202510232319_qcfr5.mp4"
         }
-      ]
+      ],
+      "style" : "Handheld following pursuit (that's where the camera is), predator documented.",
+      "subject" : "The raven vanishing like smoke, paralysis breaking, [MAGNÚS] immediately moving toward [SIGRID]: \"Ef Guðrún deyr á morgun, þú verður konan\" (If Guðrún dies tomorrow, you become the woman), the incest threat fully explicit while she backs toward her sleeping platform.",
+      "is_active" : false,
+      "active_video_index" : 0,
+      "camera_position" : "Handheld following pursuit",
+      "action" : "Raven dissolves - smoke, then nothing. Family gasps, can move. Magnús's 0Hz hands perfectly steady. Moves toward Sigrid. Not violent. Worse. Determined. \"Ð‰g sá hvað fuglinn sýndi þér. Framtíð.\" (I saw what bird showed you. Future.) \"En það er MINN framtíð líka.\" (But it's MY future too.) HANDHELD FOLLOWS him, unstable, threatening. Sigrid backs toward platform, maintaining 11 feet but running out of room. Black feather in her hand. He continues: \"Guðrún er veik. Hún deyr fljótlega.\" (Guðrún is weak. She dies soon.) \"Þú ert tilbúin. Ð‰g sé það.\" (You're ready. I see it.) Reaches for her. She presses against wall. Klettagjá cracks deeper behind her - escape route forming but not yet open. \"Þú verður góð kona. Móðir. Allt.\" (You'll be good wife. Mother. Everything.) His hand touches her shoulder. She doesn't scream - who would hear? 40 miles to anyone. Guðrún watches, paralyzed by different kind of freeze.",
+      "scene" : "Pursuit toward sleeping platform. Raven gone. Threat immediate. No escape yet.",
+      "dialogue" : "(Magnús): \"Ef Guðrún deyr á morgun, þú verður konan\" \"Þú ert tilbúin. Ð‰g sé það\" \"Þú verður góð kona. Móðir. Allt.\"",
+      "variant_id" : "52c_story_primary",
+      "progressive_state" : ""
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "needs_improvements" : false,
+    "sequence_type" : "main_story",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "id" : "52c",
+    "title" : "MAGNÚS BREAKS PARALYSIS - INCEST THREAT EXPLICIT 8 SECONDS",
+    "narrative_function" : "Raven vanishes | Threat immediate | Camera frost 4..."
+  }
 }

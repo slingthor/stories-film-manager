@@ -1,50 +1,140 @@
 {
-  "progressive_state" : "House 1\/min dying + 20bpm | surreal visual | Camera frost 49% | Truth in darkness | Watching: We hear truth",
-  "shot_metadata" : {
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "title" : "COMPLETE DARKNESS - ONLY BREATHING 8 SECONDS",
-    "stitch_from" : "",
-    "narrative_function" : "House 1\/min dying + 20bpm | surreal visual | Cam...",
-    "id" : "57a",
-    "needs_improvements" : false
-  },
-  "selected_prompt_index" : 0,
   "aspect_ratio" : "4:3",
+  "progressive_state" : "House 1\/min dying + 20bpm | surreal visual | Camera frost 49% | Truth in darkness | Watching: We hear truth",
+  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "dialogue" : "None - silence except breathing",
-      "style" : "Black screen, audio revelation (that's where the camera is), truth through darkness.",
       "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
-      "variant_id" : "57a_story_primary",
       "variant_name" : "Primary - COMPLETE DARKNESS - ONLY BREATHING 8 SECONDS",
-      "action" : "BLACK SCREEN. Total darkness. Not even shapes. Like eyes closed or power dead. But sound continues. Breathing. Five sources. At first sounds human - familiar patterns we've heard all film. Magnús heavy. Guðrún lighter. Children quick. Sigrid steady at 15\/min. But as we listen in darkness, sound clarifies. These aren't human breaths. Never were. Sheep breathing. That particular nasal, wheezing quality. Been there all along. We just heard what we expected. In darkness, truth: wet wool smell. Lanolin. Animal warmth. Hooves on floor - but wait, has that sound always been there? Did we think it was boots? The 11\/min synchronized breathing we thought was human submission - it's flock breathing. Natural sheep rhythm. They've been sheep entire film. We've been watching sheep in clothes pretending to be human. Or humans who were always sheep. Or both. In darkness, no way to tell. Just breathing. Animal breathing. Always was.",
-      "is_active" : false,
-      "active_video_index" : 0,
       "selected_plates" : [
         "BAÐSTOFA-CLIFF"
       ],
-      "camera_position" : "Black screen, audio revelation",
-      "scene" : "Complete black. No visual. Only sound revealing truth.",
-      "subject" : "Complete darkness as if power died, but we hear breathing - five distinct patterns - and slowly realize these are not human breaths but have ALWAYS been sheep breaths, we just couldn't hear it right before.",
-      "progressive_state" : "",
       "videos" : [
         {
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202509211838_4860a.mp4",
-          "filename" : "Subject_complete_darkness_202509211838_4860a.mp4"
+          "filename" : "Subject_complete_darkness_202509211838_4860a.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202509211838_4860a.mp4"
         },
         {
-          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202509211837_0cs8s.mp4",
           "filename" : "Subject_complete_darkness_202509211837_0cs8s.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202509211837_0cs8s.mp4"
+          "duration" : 8
         },
         {
           "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202509211837_21adw.mp4",
           "filename" : "Subject_complete_darkness_202509211837_21adw.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323.mp4",
+          "filename" : "Subject_sigrids_transformation_2025102323.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_sigrids_transformation_2025102323-2.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323-2.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigridraven_entering_202510232314.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigridraven_entering_202510232314-2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314-2.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_124th.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_house_202510232314_124th.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_k50fn.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_house_202510232314_k50fn.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_cgd4p.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_house_202510232314_cgd4p.mp4"
+        },
+        {
+          "filename" : "Subject_the_house_202510232314_bd128.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_bd128.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510232314_.mp4",
+          "filename" : "Subject_gurnewe_suddenly_202510232314_.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510232314_-2.mp4",
+          "duration" : 8,
+          "filename" : "Subject_gurnewe_suddenly_202510232314_-2.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_light_gradually_202510232314_kretu.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202510232314_kretu.mp4"
+        },
+        {
+          "filename" : "Subject_light_gradually_202510232314_je7r4.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202510232314_je7r4.mp4"
+        },
+        {
+          "filename" : "Subject_in_the_202510232314_s25w4.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232314_s25w4.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232315_9efhu.mp4",
+          "filename" : "Subject_in_the_202510232315_9efhu.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_a_match_202510232315_8ifmw.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202510232315_8ifmw.mp4"
+        },
+        {
+          "filename" : "Subject_a_match_202510232315_nm1bj.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202510232315_nm1bj.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_lzk1f.mp4",
+          "filename" : "Subject_complete_darkness_202510232315_lzk1f.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_complete_darkness_202510232315_4ror2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_4ror2.mp4",
+          "duration" : 8
         }
-      ]
+      ],
+      "style" : "Black screen, audio revelation (that's where the camera is), truth through darkness.",
+      "subject" : "Complete darkness as if power died, but we hear breathing - five distinct patterns - and slowly realize these are not human breaths but have ALWAYS been sheep breaths, we just couldn't hear it right before.",
+      "is_active" : false,
+      "active_video_index" : 0,
+      "camera_position" : "Black screen, audio revelation",
+      "action" : "BLACK SCREEN. Total darkness. Not even shapes. Like eyes closed or power dead. But sound continues. Breathing. Five sources. At first sounds human - familiar patterns we've heard all film. Magnús heavy. Guðrún lighter. Children quick. Sigrid steady at 15\/min. But as we listen in darkness, sound clarifies. These aren't human breaths. Never were. Sheep breathing. That particular nasal, wheezing quality. Been there all along. We just heard what we expected. In darkness, truth: wet wool smell. Lanolin. Animal warmth. Hooves on floor - but wait, has that sound always been there? Did we think it was boots? The 11\/min synchronized breathing we thought was human submission - it's flock breathing. Natural sheep rhythm. They've been sheep entire film. We've been watching sheep in clothes pretending to be human. Or humans who were always sheep. Or both. In darkness, no way to tell. Just breathing. Animal breathing. Always was.",
+      "scene" : "Complete black. No visual. Only sound revealing truth.",
+      "dialogue" : "None - silence except breathing",
+      "variant_id" : "57a_story_primary",
+      "progressive_state" : ""
     }
-  ]
+  ],
+  "shot_metadata" : {
+    "needs_improvements" : false,
+    "sequence_type" : "main_story",
+    "duration_seconds" : 8,
+    "stitch_from" : "",
+    "id" : "57a",
+    "title" : "COMPLETE DARKNESS - ONLY BREATHING 8 SECONDS",
+    "narrative_function" : "House 1\/min dying + 20bpm | surreal visual | Cam..."
+  }
 }
