@@ -18,6 +18,11 @@ class VeoImportManager: ObservableObject {
     private let promptParser: PromptParser
     private let shotMatcher: ShotMatcher
     private let notificationManager: NotificationManager
+    weak var keyboardMonitor: GlobalKeyboardMonitor?  // Reference to keyboard monitor for re-enabling
+
+    // MARK: - Import State
+    private var isImportInProgress: Bool = false
+    private let importQueue = DispatchQueue(label: "com.filmmanager.import", qos: .userInitiated)
 
     // MARK: - Constants
     private let downloadsPath = FileManager.default.urls(for: .downloadsDirectory, in: .userDomainMask).first!
@@ -113,7 +118,14 @@ class VeoImportManager: ObservableObject {
 
     // MARK: - Main Import Trigger (called when ` pressed)
     func processImport() {
+        // Prevent duplicate imports if one is already running
+        guard !isImportInProgress else {
+            print("[Sora] ⚠️ Import already in progress - ignoring backtick")
+            return
+        }
+
         print("[Sora] ⌨️ Backtick pressed - starting import process...")
+        isImportInProgress = true
 
         // Show immediate feedback to user
         lastImportStatus = "🔍 Searching for matching shot..."
@@ -132,6 +144,13 @@ class VeoImportManager: ObservableObject {
             print("[Sora] 🧵 Import task started on background thread")
             await self?.runImportProcess()
             print("[Sora] 🧵 Import task completed")
+
+            // Mark import as complete and re-enable keyboard monitor
+            await MainActor.run {
+                self?.isImportInProgress = false
+                self?.keyboardMonitor?.reEnableEventTap()
+                print("[Sora] ✅ Import finished - ready for next backtick")
+            }
         }
     }
 

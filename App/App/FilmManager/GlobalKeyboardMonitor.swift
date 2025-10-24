@@ -192,16 +192,23 @@ class GlobalKeyboardMonitor {
         return AXIsProcessTrusted()
     }
 
-    // MARK: - Manual Re-enable (can be called if backtick stops working)
+    // MARK: - Manual Re-enable (can be called after long operations)
     func reEnableEventTap() {
         guard let tap = eventTap, isMonitoring else {
             print("[Sora] ⚠️ Cannot re-enable - not monitoring")
             return
         }
 
-        print("[Sora] 🔄 Manually re-enabling event tap...")
-        CGEvent.tapEnable(tap: tap, enable: true)
-        print("[Sora] ✅ Event tap manually re-enabled")
+        // Check current state
+        let isCurrentlyEnabled = CGEvent.tapIsEnabled(tap: tap)
+
+        if isCurrentlyEnabled {
+            print("[Sora] ✅ Event tap already enabled - no action needed")
+        } else {
+            print("[Sora] 🔄 Event tap was disabled - re-enabling...")
+            CGEvent.tapEnable(tap: tap, enable: true)
+            print("[Sora] ✅ Event tap re-enabled")
+        }
     }
 
     deinit {

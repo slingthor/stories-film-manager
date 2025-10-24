@@ -846,6 +846,9 @@ class FilmManager: ObservableObject {
             }
         }
 
+        // Pass keyboard monitor reference to import manager
+        veoImportManager.keyboardMonitor = keyboardMonitor
+
         // Start keyboard monitoring
         keyboardMonitor?.startMonitoring()
 
