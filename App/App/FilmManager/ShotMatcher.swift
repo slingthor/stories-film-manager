@@ -251,56 +251,93 @@ class ShotMatcher {
             print("[Sora] 📋 No search keys provided, skipping cache lookup")
         }
 
-        // Search candidates first
-        for candidate in candidates {
-            let result = matchVariant(
-                shot: candidate.shot,
-                variantIndex: candidate.variantIndex,
-                variant: candidate.variant,
-                promptComponents: promptComponents
-            )
+        // Search candidates first (PARALLEL for speed)
+        if !candidates.isEmpty {
+            print("[Sora] 🚀 Parallel matching \(candidates.count) candidates...")
+            let candidateResults = await withTaskGroup(of: (shot: FilmShot, variant: PromptVariant, score: Double, actionScore: Double, sceneScore: Double, log: String).self) { group in
+                for candidate in candidates {
+                    group.addTask {
+                        self.matchVariant(
+                            shot: candidate.shot,
+                            variantIndex: candidate.variantIndex,
+                            variant: candidate.variant,
+                            promptComponents: promptComponents
+                        )
+                    }
+                }
 
-            attempts.append(result.log)
+                var results: [(shot: FilmShot, variant: PromptVariant, score: Double, actionScore: Double, sceneScore: Double, log: String)] = []
+                for await result in group {
+                    results.append(result)
+                }
+                return results
+            }
 
-            if bestMatch == nil || result.score > bestMatch!.score {
-                bestMatch = (result.shot, result.variant, result.score)
-                bestActionScore = result.actionScore
-                bestSceneScore = result.sceneScore
+            // Process results
+            for result in candidateResults {
+                attempts.append(result.log)
+
+                if bestMatch == nil || result.score > bestMatch!.score {
+                    bestMatch = (result.shot, result.variant, result.score)
+                    bestActionScore = result.actionScore
+                    bestSceneScore = result.sceneScore
+                }
             }
         }
 
-        // PASS 2: If no good match from cache, search remaining variants
+        // PASS 2: If no good match from cache, search remaining variants (PARALLEL)
         if bestMatch == nil || bestMatch!.score < 0.50 {
-            print("[Sora] 🔄 Expanding search to all variants...")
+            print("[Sora] 🔄 Expanding search to all variants (parallel)...")
             print("[Sora]    Thread check - is main: \(Thread.isMainThread)")
-            var searchedCount = 0
+
+            // Build list of variants to search (excluding already searched)
+            var variantsToSearch: [(shot: FilmShot, variantIndex: Int, variant: PromptVariant)] = []
             for shot in shots {
                 for (variantIndex, variant) in shot.promptVariants.enumerated() {
-                    searchedCount += 1
-                    if searchedCount % 50 == 0 {
-                        print("[Sora]    Searched \(searchedCount) variants so far...")
-                    }
                     let uniqueId = "\(shot.id)_\(variantIndex)"
-
                     // Skip if already searched in pass 1
                     if let ids = candidateIds, ids.contains(uniqueId) {
                         continue
                     }
+                    variantsToSearch.append((shot, variantIndex, variant))
+                }
+            }
 
-                    let result = matchVariant(
-                        shot: shot,
-                        variantIndex: variantIndex,
-                        variant: variant,
-                        promptComponents: promptComponents
-                    )
+            print("[Sora] 🚀 Parallel matching \(variantsToSearch.count) remaining variants...")
 
-                    attempts.append(result.log)
-
-                    if bestMatch == nil || result.score > bestMatch!.score {
-                        bestMatch = (result.shot, result.variant, result.score)
-                        bestActionScore = result.actionScore
-                        bestSceneScore = result.sceneScore
+            // Search all variants in parallel
+            let allResults = await withTaskGroup(of: (shot: FilmShot, variant: PromptVariant, score: Double, actionScore: Double, sceneScore: Double, log: String).self) { group in
+                var processedCount = 0
+                for item in variantsToSearch {
+                    group.addTask {
+                        self.matchVariant(
+                            shot: item.shot,
+                            variantIndex: item.variantIndex,
+                            variant: item.variant,
+                            promptComponents: promptComponents
+                        )
                     }
+                }
+
+                var results: [(shot: FilmShot, variant: PromptVariant, score: Double, actionScore: Double, sceneScore: Double, log: String)] = []
+                for await result in group {
+                    results.append(result)
+                    processedCount += 1
+                    if processedCount % 50 == 0 {
+                        print("[Sora]    Processed \(processedCount)/\(variantsToSearch.count) variants...")
+                    }
+                }
+                return results
+            }
+
+            // Process results
+            for result in allResults {
+                attempts.append(result.log)
+
+                if bestMatch == nil || result.score > bestMatch!.score {
+                    bestMatch = (result.shot, result.variant, result.score)
+                    bestActionScore = result.actionScore
+                    bestSceneScore = result.sceneScore
                 }
             }
         }
@@ -346,18 +383,28 @@ class ShotMatcher {
         // This prevents 8000×8000 = 64M operations per comparison
         let maxLength = 500
 
-        let promptAction = String(promptComponents.action.prefix(maxLength)).lowercased()
-        let promptScene = String(promptComponents.scene.prefix(maxLength)).lowercased()
-        let promptStyle = String(promptComponents.style.prefix(maxLength)).lowercased()
-        let promptDialogue = String(promptComponents.dialogue.prefix(maxLength)).lowercased()
+        // Truncate first, then normalize (removes stop words + punctuation)
+        let promptAction = normalizeString(String(promptComponents.action.prefix(maxLength)))
+        let promptScene = normalizeString(String(promptComponents.scene.prefix(maxLength)))
+        let promptStyle = normalizeString(String(promptComponents.style.prefix(maxLength)))
+        let promptDialogue = normalizeString(String(promptComponents.dialogue.prefix(maxLength)))
 
-        let variantAction = String(variant.action.prefix(maxLength)).lowercased()
-        let variantScene = String(variant.scene.prefix(maxLength)).lowercased()
-        let variantStyle = String(variant.style.prefix(maxLength)).lowercased()
-        let variantDialogue = String(variant.dialogue.prefix(maxLength)).lowercased()
+        let variantAction = normalizeString(String(variant.action.prefix(maxLength)))
+        let variantScene = normalizeString(String(variant.scene.prefix(maxLength)))
+        let variantStyle = normalizeString(String(variant.style.prefix(maxLength)))
+        let variantDialogue = normalizeString(String(variant.dialogue.prefix(maxLength)))
 
+        // Fast-reject using character frequency (avoids expensive Levenshtein on clearly non-matching strings)
+        let actionFreqDiff = characterFrequencyDifference(promptAction, variantAction)
+        let sceneFreqDiff = characterFrequencyDifference(promptScene, variantScene)
 
-        // Calculate similarity scores for each component (now much faster!)
+        // If character frequency difference > 60%, strings are too different to match - skip Levenshtein
+        if actionFreqDiff > 0.6 && sceneFreqDiff > 0.6 {
+            // Quick reject - no need for expensive Levenshtein
+            return (shot, variant, 0.0, 0.0, 0.0, "Shot \(shot.id) - Quick reject (char freq diff: A=\(Int(actionFreqDiff*100))%, S=\(Int(sceneFreqDiff*100))%)")
+        }
+
+        // Calculate similarity scores for each component (now much faster with normalized strings!)
         let actionScore = promptAction.similarity(to: variantAction)
         let sceneScore = promptScene.similarity(to: variantScene)
         let styleScore = promptStyle.similarity(to: variantStyle)
