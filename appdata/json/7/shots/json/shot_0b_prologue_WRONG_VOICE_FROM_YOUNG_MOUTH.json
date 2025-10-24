@@ -1,31 +1,28 @@
 {
+  "progressive_state" : "Curse spoken | Voice stolen | Camera frost flickers 2% | Memory fracture | Watching: Time breaks",
   "shot_metadata" : {
-    "id" : "0b",
-    "stitch_from" : "",
     "duration_seconds" : 8,
-    "sequence_type" : "prologue",
     "title" : "WRONG VOICE FROM YOUNG MOUTH",
+    "id" : "0b",
+    "sequence_type" : "prologue",
     "needs_improvements" : false,
+    "stitch_from" : "",
     "narrative_function" : "Curse spoken | Voice stolen | Camera frost flicker..."
   },
   "selected_prompt_index" : 0,
+  "aspect_ratio" : "1.85:1",
   "prompt_variants" : [
     {
-      "variant_id" : "0b_story_primary",
-      "is_active" : false,
-      "dialogue" : "(Young female mouth moving, old male voice): \"Krummi svaf í klettagjá, kaldri vetrarnóttu á\"",
-      "active_video_index" : 0,
-      "negative_prompt" : "no subtitles, show mouth movements matching male voice, three-color hand stain, frost spreading, 1080p",
+      "subject" : "[SIGRID] young woman with wheat-blonde hair in white linen dress standing beside the pole, opening her mouth to sing, lips moving to form Icelandic words, but deep male voice emerges while her eyes look directly at camera.\n\nA tall piece of grey driftwood standing vertical on a grass-covered headland, rope wrapped around its top section, casting a shadow 200 feet long across green hills while the ocean behind shows red tints under blue surface and purple berries cover distant slopes. The pole represent a nidstong - a curse with a carved horse head to the east. Scary horse head.",
       "selected_plates" : [
         "SIGRID-PURE",
         "SEA-DIVINE",
         "WESTFJORDS-FJORD"
       ],
-      "progressive_state" : "",
-      "subject" : "[SIGRID] young woman with wheat-blonde hair in white linen dress standing beside the pole, opening her mouth to sing, lips moving to form Icelandic words, but deep male voice emerges while her eyes look directly at camera.\n\nA tall piece of grey driftwood standing vertical on a grass-covered headland, rope wrapped around its top section, casting a shadow 200 feet long across green hills while the ocean behind shows red tints under blue surface and purple berries cover distant slopes. The pole represent a nidstong - a curse with a carved horse head to the east. Scary horse head.",
+      "variant_id" : "0b_story_primary",
+      "camera_position" : "Medium shot facing Sigrid directly, camera at her eye level 10 feet away",
+      "active_video_index" : 0,
       "style" : "Medium shot facing Sigrid directly, camera at her eye level 10 feet away (that's where the camera is), static locked shot, no movement.",
-      "scene" : "Beside pole on headland. Ocean behind with whale spouts. Morning sun horizontal. Grass turning white with frost in 6-foot circle around her. Clear sky.",
-      "variant_name" : "Primary - WRONG VOICE FROM YOUNG MOUTH",
       "videos" : [
         {
           "duration" : 8,
@@ -33,18 +30,18 @@
           "filename" : "Icelandic_Song_of_Frost_and_Serpent.mp4"
         },
         {
-          "filename" : "Subject_young_sigrid_202509142254_asqs3.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_young_sigrid_202509142254_asqs3.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_sigrid_16_202509142254_e9tnd.mp4",
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_16_202509142254_e9tnd.mp4"
+          "filename" : "Subject_young_sigrid_202509142254_asqs3.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_young_sigrid_202509142254_asqs3.mp4"
         },
         {
-          "filename" : "Subject_sigrid_16_202509142254_m62yg.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_16_202509142254_e9tnd.mp4",
+          "filename" : "Subject_sigrid_16_202509142254_e9tnd.mp4"
+        },
+        {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_16_202509142254_m62yg.mp4",
+          "filename" : "Subject_sigrid_16_202509142254_m62yg.mp4",
           "duration" : 8
         },
         {
@@ -53,10 +50,13 @@
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_16_202509142253_d0aga.mp4"
         }
       ],
-      "action" : "Sigrid stands 3 feet from pole, perfectly still. White dress hangs straight down - no wind. She opens mouth, lips form the words \"Krummi svaf í klettagjá.\" Deep male voice emerges from her throat - bass tone, elderly sound. Her lips continue moving, perfectly forming each syllable. Eyes never leave camera lens. Behind her, three whale spouts rise from ocean - water shoots up 20 feet. She continues singing, mouth moving: \"kaldri vetrarnóttu á.\" Frost forms on grass around her feet, spreading outward in circle, white crystals despite summer. Her right hand reaches out, touches pole. When hand pulls away, palm is stained - red thumb, purple fingers, gold wrist. She looks at stained hand while mouth continues moving, male voice continuing. Dress hem turns purple where it touches frosted grass.",
-      "camera_position" : "Medium shot facing Sigrid directly, camera at her eye level 10 feet away"
+      "scene" : "Beside pole on headland. Ocean behind with whale spouts. Morning sun horizontal. Grass turning white with frost in 6-foot circle around her. Clear sky.",
+      "dialogue" : "(Young female mouth moving, old male voice): \"Krummi svaf í klettagjá, kaldri vetrarnóttu á\"",
+      "is_active" : false,
+      "negative_prompt" : "no subtitles, show mouth movements matching male voice, three-color hand stain, frost spreading, 1080p",
+      "variant_name" : "Primary - WRONG VOICE FROM YOUNG MOUTH",
+      "progressive_state" : "",
+      "action" : "Sigrid stands 3 feet from pole, perfectly still. White dress hangs straight down - no wind. She opens mouth, lips form the words \"Krummi svaf í klettagjá.\" Deep male voice emerges from her throat - bass tone, elderly sound. Her lips continue moving, perfectly forming each syllable. Eyes never leave camera lens. Behind her, three whale spouts rise from ocean - water shoots up 20 feet. She continues singing, mouth moving: \"kaldri vetrarnóttu á.\" Frost forms on grass around her feet, spreading outward in circle, white crystals despite summer. Her right hand reaches out, touches pole. When hand pulls away, palm is stained - red thumb, purple fingers, gold wrist. She looks at stained hand while mouth continues moving, male voice continuing. Dress hem turns purple where it touches frosted grass."
     }
-  ],
-  "progressive_state" : "Curse spoken | Voice stolen | Camera frost flickers 2% | Memory fracture | Watching: Time breaks",
-  "aspect_ratio" : "1.85:1"
+  ]
 }

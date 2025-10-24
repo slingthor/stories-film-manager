@@ -1,27 +1,24 @@
 {
   "shot_metadata" : {
-    "duration_seconds" : 8,
-    "id" : "42c",
-    "narrative_function" : "House exhales 3\/min | Rage building | Camera frost...",
-    "title" : "RECOGNIZING TRANSFORMATION 8 SECONDS",
-    "needs_improvements" : false,
     "sequence_type" : "main_story",
-    "stitch_from" : ""
+    "duration_seconds" : 8,
+    "title" : "RECOGNIZING TRANSFORMATION 8 SECONDS",
+    "stitch_from" : "",
+    "narrative_function" : "House exhales 3\/min | Rage building | Camera frost...",
+    "id" : "42c",
+    "needs_improvements" : false
   },
+  "progressive_state" : "House exhales 3\/min | Rage building | Camera frost 28% | Authority challenged | Watching: House watching him realize",
   "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "camera_position" : "360° track around Magnús, showing his isolation from every angle",
+      "variant_name" : "Primary - RECOGNIZING TRANSFORMATION 8 SECONDS",
+      "scene" : "Full interior revealed in rotation. Family floor-level, him standing isolated. Tilberi as new center.",
+      "variant_id" : "42c_story_primary",
       "dialogue" : "(Magnús, building rage): \"Af hverju... af hverju eruð þið...\" (Seeing tilberi): \"HVAÐ ER ÞETTA?\" (To Guðrún): \"ÞÚ... þú gerðir þetta?\"",
       "progressive_state" : "",
-      "variant_id" : "42c_story_primary",
-      "style" : "360° track around Magnús, showing his isolation from every angle (that's where the camera is), authority dissolved.",
-      "action" : "CAMERA BEGINS CIRCLING as Magnús turns, taking in disaster. First quarter: Sees Guðrún on floor, not standing for his return, wool hanging from her wrists like she's becoming material. Second quarter: Jón and Lilja, mouths open showing sheep teeth, breathing at 20\/min (lamb rate), his son's fever breaking but eyes animal-bright. Third quarter: Tilberi at center where patriarch should stand, rope skeleton visible, brass eye weeping, breathing three rhythms, family arranged around IT not him. Final quarter: Sigrid maintaining exactly 11 feet even now, hand protective on belly (feeding two), only one breathing at different rate (15\/min unchanged). Complete circle shows his position: standing outside their formation. He's excluded. Not needed. Failed provider, failed protector, failed patriarch. Rage builds. Drops fin. 0Hz hands clench (can't feel nails breaking skin). House exhales finally - long, dying breath at 3\/min.",
-      "scene" : "Full interior revealed in rotation. Family floor-level, him standing isolated. Tilberi as new center.",
-      "negative_prompt" : "maintain circular movement, no cuts, show transformation evidence",
-      "variant_name" : "Primary - RECOGNIZING TRANSFORMATION 8 SECONDS",
-      "subject" : "Camera circling [MAGNÚS] as he takes in the transformed scene - family in réttir formation, children's sheep teeth visible, Guðrún pulling wool from wrists, tilberi at center where he should be, his authority usurped by contaminated creation.",
-      "is_active" : false,
+      "camera_position" : "360° track around Magnús, showing his isolation from every angle",
       "selected_plates" : [
         "MAGNUS-PREDATOR",
         "SIGRID-CORNERED",
@@ -30,19 +27,20 @@
         "GUDRUN-BEATEN",
         "BAÐSTOFA-CLEFT",
         "STOFA-BODY"
-      ]
+      ],
+      "action" : "CAMERA BEGINS CIRCLING as Magnús turns, taking in disaster. First quarter: Sees Guðrún on floor, not standing for his return, wool hanging from her wrists like she's becoming material. Second quarter: Jón and Lilja, mouths open showing sheep teeth, breathing at 20\/min (lamb rate), his son's fever breaking but eyes animal-bright. Third quarter: Tilberi at center where patriarch should stand, rope skeleton visible, brass eye weeping, breathing three rhythms, family arranged around IT not him. Final quarter: Sigrid maintaining exactly 11 feet even now, hand protective on belly (feeding two), only one breathing at different rate (15\/min unchanged). Complete circle shows his position: standing outside their formation. He's excluded. Not needed. Failed provider, failed protector, failed patriarch. Rage builds. Drops fin. 0Hz hands clench (can't feel nails breaking skin). House exhales finally - long, dying breath at 3\/min.",
+      "negative_prompt" : "maintain circular movement, no cuts, show transformation evidence",
+      "subject" : "Camera circling [MAGNÚS] as he takes in the transformed scene - family in réttir formation, children's sheep teeth visible, Guðrún pulling wool from wrists, tilberi at center where he should be, his authority usurped by contaminated creation.",
+      "style" : "360° track around Magnús, showing his isolation from every angle (that's where the camera is), authority dissolved.",
+      "is_active" : false
     },
     {
-      "progressive_state" : "",
-      "scene" : "Full interior revealed in rotation. Family floor-level, him standing isolated. Strange figure as new center.",
-      "negative_prompt" : "maintain circular movement, no cuts, show transformation evidence, no violence, no blood, no gore",
-      "style" : "360° track around Magnús, showing his isolation from every angle (that's where the camera is), authority dissolved.",
-      "variant_name" : "Primary - RECOGNIZING TRANSFORMATION 8 SECONDS_veo3_low",
       "variant_id" : "42c_story_primary_veo3_low",
       "dialogue" : "(Magnús, building frustration): \"Af hverju... af hverju eruð þið...\" (Seeing figure): \"HVAÐ ER ÞETTA?\" (To Guðrún): \"ÞÚ... þú gerðir þetta?\"",
-      "is_active" : false,
-      "subject" : "Camera circling [MAGNÚS] as he takes in the transformed scene - family in unusual formation, children showing signs of change, Guðrún with mysterious fibers at wrists, strange creation at center where he should be, his authority challenged by contaminated presence.",
-      "action" : "CAMERA BEGINS CIRCLING as Magnús turns, taking in the scene. First quarter: Sees Guðrún on floor, not standing for his return, strange fibers visible at her wrists like she's becoming something else. Second quarter: Jón and Lilja, mouths open showing unusual features, breathing rapidly (20\/min), his son's fever breaking but eyes unnaturally bright. Third quarter: Strange figure at center where patriarch should stand, unusual form visible, mystical presence apparent, breathing in strange rhythms, family arranged around IT not him. Final quarter: Sigrid maintaining exactly 11 feet even now, hand protective on belly, only one breathing at different rate (15\/min unchanged). Complete circle shows his position: standing outside their formation. He's excluded. Not needed. Failed provider, failed protector, failed patriarch. Frustration builds. Drops fin. Hands clench tightly. House exhales finally - long, slow breath at 3\/min.",
+      "negative_prompt" : "maintain circular movement, no cuts, show transformation evidence, no violence, no blood, no gore",
+      "variant_name" : "Primary - RECOGNIZING TRANSFORMATION 8 SECONDS_veo3_low",
+      "progressive_state" : "",
+      "camera_position" : "360° track around Magnús, showing his isolation from every angle",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-MARKED",
@@ -52,9 +50,11 @@
         "BAÐSTOFA-STIRRING",
         "STOFA-AWAKENING"
       ],
-      "camera_position" : "360° track around Magnús, showing his isolation from every angle"
+      "action" : "CAMERA BEGINS CIRCLING as Magnús turns, taking in the scene. First quarter: Sees Guðrún on floor, not standing for his return, strange fibers visible at her wrists like she's becoming something else. Second quarter: Jón and Lilja, mouths open showing unusual features, breathing rapidly (20\/min), his son's fever breaking but eyes unnaturally bright. Third quarter: Strange figure at center where patriarch should stand, unusual form visible, mystical presence apparent, breathing in strange rhythms, family arranged around IT not him. Final quarter: Sigrid maintaining exactly 11 feet even now, hand protective on belly, only one breathing at different rate (15\/min unchanged). Complete circle shows his position: standing outside their formation. He's excluded. Not needed. Failed provider, failed protector, failed patriarch. Frustration builds. Drops fin. Hands clench tightly. House exhales finally - long, slow breath at 3\/min.",
+      "is_active" : false,
+      "subject" : "Camera circling [MAGNÚS] as he takes in the transformed scene - family in unusual formation, children showing signs of change, Guðrún with mysterious fibers at wrists, strange creation at center where he should be, his authority challenged by contaminated presence.",
+      "style" : "360° track around Magnús, showing his isolation from every angle (that's where the camera is), authority dissolved.",
+      "scene" : "Full interior revealed in rotation. Family floor-level, him standing isolated. Strange figure as new center."
     }
-  ],
-  "progressive_state" : "House exhales 3\/min | Rage building | Camera frost 28% | Authority challenged | Watching: House watching him realize",
-  "aspect_ratio" : "4:3"
+  ]
 }

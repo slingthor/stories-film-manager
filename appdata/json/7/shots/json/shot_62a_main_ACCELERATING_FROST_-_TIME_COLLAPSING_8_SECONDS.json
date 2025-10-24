@@ -1,21 +1,19 @@
 {
+  "progressive_state" : "Rapid freezing | Frost 58%â†’85% | History condensing | Watching: Final moments",
   "shot_metadata" : {
-    "duration_seconds" : 8,
-    "id" : "62a",
-    "narrative_function" : "Rapid freezing | Frost 58%â†’85% | History condens...",
-    "title" : "ACCELERATING FROST - TIME COLLAPSING 8 SECONDS",
-    "needs_improvements" : false,
     "sequence_type" : "main_story",
-    "stitch_from" : ""
+    "duration_seconds" : 8,
+    "title" : "ACCELERATING FROST - TIME COLLAPSING 8 SECONDS",
+    "stitch_from" : "",
+    "narrative_function" : "Rapid freezing | Frost 58%â†’85% | History condens...",
+    "id" : "62a",
+    "needs_improvements" : false
   },
   "selected_prompt_index" : 0,
+  "aspect_ratio" : "2.39:1",
   "prompt_variants" : [
     {
-      "active_video_index" : 0,
       "subject" : "The frost suddenly accelerating, jumping from 58% to 85% in seconds, each percentage now a year flashing by - 1889, 1890, 1891 - centuries of colonization condensing into moments, the camera trying desperately to focus on the obelisk one last time.",
-      "negative_prompt" : "",
-      "progressive_state" : "",
-      "dialogue" : "(Frost writing rapidly): \"1889\" \"1900\" \"1914\" \"1930\" \"1940\"",
       "selected_plates" : [
         "MAGNUS-RAM",
         "SIGRID-CORVID",
@@ -25,11 +23,14 @@
         "SEA-ETERNAL",
         "WESTFJORDS-CLIFF"
       ],
-      "action" : "RAPID FROST SPREAD. Not gradual - explosive. 58%. 65%. 72%. Each jump shows a year. Images flashing in ice: 1889 - more Danish administrators arrive. 70% - 1900, new century, same oppression. 75% - 1914, war elsewhere, Iceland forgotten. 80% - 1930, depression, starvation, sheep cheaper than human life. 85% - 1940, British occupation begins. The camera fights. Trying to focus. Mechanical iris struggling. Want to see obelisk clearly one last time. Want to witness family. But frost creates beauty - prismatic effects, rainbow halos, the death becoming art. Through narrowing clear center: obelisk stands eternal. Family still inside. Still aware. Watching the camera die. Knowing their witness is ending. But Sigrid flies above. Always above. The saved witness. The one who escapes when camera cannot. At 85%: only center clear. Tunnel vision. Like looking through telescope backwards. Everything distant. Cold. Ending.",
+      "variant_id" : "62a_story_primary",
+      "camera_position" : "Desperate focusing attempts",
+      "active_video_index" : 0,
+      "style" : "Desperate focusing attempts (that's where the camera is), time collapsing documented.",
       "videos" : [
         {
-          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_frost_202510192219_myhbx.mp4",
+          "duration" : 8,
           "filename" : "Subject_the_frost_202510192219_myhbx.mp4"
         },
         {
@@ -39,28 +40,28 @@
         },
         {
           "filename" : "Subject_magnus_pushing_202510232252_ynkpu.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magnus_pushing_202510232252_ynkpu.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magnus_pushing_202510232252_ynkpu.mp4",
+          "duration" : 8
         },
         {
-          "duration" : 8,
           "filename" : "Subject_magnus_pushing_202510232252_qpi5w.mp4",
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magnus_pushing_202510232252_qpi5w.mp4"
         },
         {
           "filename" : "Subject_the_final_202510232252_abeda.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510232252_abeda.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510232252_abeda.mp4"
         },
         {
-          "duration" : 8,
           "filename" : "Subject_the_final_202510232252_rcrgm.mp4",
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510232252_rcrgm.mp4"
         },
         {
-          "duration" : 8,
+          "filename" : "Subject_in_the_202510232253_1o0nq.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232253_1o0nq.mp4",
-          "filename" : "Subject_in_the_202510232253_1o0nq.mp4"
+          "duration" : 8
         },
         {
           "filename" : "Subject_the_frost_202510232253_mrpa2.mp4",
@@ -68,14 +69,13 @@
           "duration" : 8
         }
       ],
-      "camera_position" : "Desperate focusing attempts",
+      "scene" : "Rapid frost spread. Years flashing. Vision tunneling. Obelisk distant but centered.",
+      "dialogue" : "(Frost writing rapidly): \"1889\" \"1900\" \"1914\" \"1930\" \"1940\"",
+      "negative_prompt" : "",
       "variant_name" : "Primary - ACCELERATING FROST - TIME COLLAPSING 8 SECONDS",
       "is_active" : false,
-      "scene" : "Rapid frost spread. Years flashing. Vision tunneling. Obelisk distant but centered.",
-      "style" : "Desperate focusing attempts (that's where the camera is), time collapsing documented.",
-      "variant_id" : "62a_story_primary"
+      "progressive_state" : "",
+      "action" : "RAPID FROST SPREAD. Not gradual - explosive. 58%. 65%. 72%. Each jump shows a year. Images flashing in ice: 1889 - more Danish administrators arrive. 70% - 1900, new century, same oppression. 75% - 1914, war elsewhere, Iceland forgotten. 80% - 1930, depression, starvation, sheep cheaper than human life. 85% - 1940, British occupation begins. The camera fights. Trying to focus. Mechanical iris struggling. Want to see obelisk clearly one last time. Want to witness family. But frost creates beauty - prismatic effects, rainbow halos, the death becoming art. Through narrowing clear center: obelisk stands eternal. Family still inside. Still aware. Watching the camera die. Knowing their witness is ending. But Sigrid flies above. Always above. The saved witness. The one who escapes when camera cannot. At 85%: only center clear. Tunnel vision. Like looking through telescope backwards. Everything distant. Cold. Ending."
     }
-  ],
-  "progressive_state" : "Rapid freezing | Frost 58%â†’85% | History condensing | Watching: Final moments",
-  "aspect_ratio" : "2.39:1"
+  ]
 }

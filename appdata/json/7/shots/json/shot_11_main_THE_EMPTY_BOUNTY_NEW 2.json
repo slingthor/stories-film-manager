@@ -1,20 +1,25 @@
 {
+  "progressive_state" : "House 13\/min + 60bpm | Klettagjá 1mm | Post-feeding horror | Camera frost 6% | Starvation revealed | Watching: House sees all",
   "shot_metadata" : {
-    "duration_seconds" : 8,
-    "id" : "11",
-    "narrative_function" : "House 13\/min + 60bpm | Klettagjá 1mm | Post-feedi...",
-    "title" : "THE EMPTY BOUNTY NEW",
-    "needs_improvements" : true,
     "sequence_type" : "main_story",
-    "stitch_from" : ""
+    "duration_seconds" : 8,
+    "title" : "THE EMPTY BOUNTY NEW",
+    "stitch_from" : "",
+    "narrative_function" : "House 13\/min + 60bpm | Klettagjá 1mm | Post-feedi...",
+    "id" : "11",
+    "needs_improvements" : true
   },
   "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "scene" : "PASS 2: SHOT 11 - INSIDE EMPTY SPACE 40HZ EXTRACTION Camera Perspective from Within Industrial Emptiness SHOT HEADER: Interior empty shelf-space during active industrial extraction, void environment resonating with maritime resource theft through acoustic signature connecting domestic absence to trawler operation, emptiness serving as extension of British extraction mechanism operating through frequency rather than physical presence.",
-      "subject" : "",
-      "style" : "Camera existing inside void space using impossible emptiness perspective (that's where the camera is), movement following extraction rhythms through empty environment. Focus reveals absence detail showing emptiness as active mechanism rather than passive lack. Lighting from 40Hz frequency resonance creating mechanical illumination within empty space. DIALOGUE:",
       "progressive_state" : "",
+      "subject" : "",
+      "variant_id" : "11_pass_2_inside_empty_space_40hz_extraction",
+      "dialogue" : "",
+      "scene" : "PASS 2: SHOT 11 - INSIDE EMPTY SPACE 40HZ EXTRACTION Camera Perspective from Within Industrial Emptiness SHOT HEADER: Interior empty shelf-space during active industrial extraction, void environment resonating with maritime resource theft through acoustic signature connecting domestic absence to trawler operation, emptiness serving as extension of British extraction mechanism operating through frequency rather than physical presence.",
+      "is_active" : false,
+      "variant_name" : "Pass 2 Inside Empty Space 40Hz Extraction",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
@@ -23,60 +28,61 @@
         "GUDRUN-PRODUCING",
         "BAÐSTOFA-ORGANIC"
       ],
-      "variant_id" : "11_pass_2_inside_empty_space_40hz_extraction",
-      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
       "action" : "Empty space pulses with 40Hz trawler frequency, void resonating with maritime extraction rhythm continuing domestic resource removal through acoustic connection to British trawling operation 400km distant. Phantom food containers become briefly visible through emptiness memory—ghostly impressions of abundance that existed before extraction, empty space retaining dimensional memory of resources now absent. Mouse droppings rearrange into Danish numerical spelling during observation, biological materials organizing into colonial administrative language through imperial mathematics contaminating organic waste via bureaucratic frequency influence. Dust particles rotate in spiral patterns matching extraction geometry, absence creating movement suggesting invisible machinery continuing resource removal through atmospheric manipulation of domestic environment.",
-      "variant_name" : "Pass 2 Inside Empty Space 40Hz Extraction",
       "camera_position" : "",
+      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "style" : "Camera existing inside void space using impossible emptiness perspective (that's where the camera is), movement following extraction rhythms through empty environment. Focus reveals absence detail showing emptiness as active mechanism rather than passive lack. Lighting from 40Hz frequency resonance creating mechanical illumination within empty space. DIALOGUE:"
+    },
+    {
+      "variant_id" : "11_pass_2_pursuing_sixth_space_impossibility",
       "dialogue" : "",
+      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "variant_name" : "Pass 2 Pursuing Sixth Space Impossibility",
+      "progressive_state" : "",
+      "camera_position" : "",
+      "selected_plates" : [
+        "MAGNUS-CONFUSED",
+        "SIGRID-CALCULATING",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-PRODUCING",
+        "BAÐSTOFA-ORGANIC"
+      ],
+      "action" : "Camera hunts additional spaces by following Guðrún's counting confusion—racing between physical spaces (1-20) then pursuing mathematical additions (21-24) that exist in imperial counting distorted appearance not architectural reality. Mathematical contamination creates temporary spatial expansion: room stretching to accommodate impossible count, walls shifting to create additional storage areas during colonial enumeration, imperial mathematics forcing architecture to serve administrative needs. Camera experiences impossible geography where space accommodates mathematical impossibility—twenty physical spaces becoming twenty-four during Danish counting protocol, colonial arithmetic creating architectural additions through administrative spatial manipulation. Pursuit reveals imperial mathematics as spatial contamination: Danish counting requiring more room than Iceland provides, administrative enumeration expanding domestic space to serve colonial inventory requirements.",
+      "is_active" : false,
+      "subject" : "",
+      "style" : "Camera hunting impossible spaces using mathematical pursuit movement (that's where the camera is), chasing imperial additions through architectural impossibility. Movement follows counting confusion creating spatial pursuit through impossible geography. Focus reveals mathematical contamination affecting architectural reality, imperial arithmetic creating spatial additions through administrative environdistressed expression. DIALOGUE:",
+      "scene" : "PASS 2: SHOT 11 - PURSUING THE SIXTH SPACE IMPOSSIBILITY Camera Chasing Imperial Addition Through Impossible Geography SHOT HEADER: Storage area during mathematical contamination where imperial counting creates impossible spatial expansion, traditional architecture forced to accommodate colonial administrative requirements through supernatural room multiplication, Danish mathematics contaminating domestic geography."
+    },
+    {
+      "variant_name" : "Empty Bounty Mouse Droppings Danish Numbers",
+      "scene" : "SHOT 11: EMPTY BOUNTY - MOUSE DROPPINGS IN DANISH NUMBERS From Standard Starvation (8\/10) to Mathematical Contamination Masterpiece (9.5\/10) SHOT HEADER: Traditional Icelandic storage area showing three generations of abundance-preparation now serving only as monument to depletion, wooden shelves worn smooth by decades of reaching for sustenance now providing only empty space measurement. Mouse droppings as only organic evidence in sterile starvation environment, pest waste forming linguistic contamination where Danish colonial numbers appear written in biological materials. Storage area resonating with mechanical humming suggesting industrial extraction history rather than natural consumption.",
+      "variant_id" : "11_empty_bounty_mouse_droppings_danish_numbers",
+      "dialogue" : "",
+      "progressive_state" : "",
+      "camera_position" : "",
+      "selected_plates" : [
+        "MAGNUS-CONFUSED",
+        "SIGRID-CALCULATING",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-PRODUCING",
+        "BAÐSTOFA-ORGANIC"
+      ],
+      "action" : "Guðrún counts empty spaces with increasing confusion—pointing to shelves, mouth moving in silent enumeration, reaching count of 24 spaces when only 20 exist physically, mathematics breaking under starvation psychology as hunger creates additional empty spaces through desperate measurement. Mouse droppings rearrange during observation—Danish letters forming more clearly as attention focuses, colonial counting contamination affecting even pest waste through supernatural infiltration of domestic space. Dust circles rotate in spiral patterns matching ram's blood geometry from pen, empty spaces creating wind patterns that spell landvættir names through particle movement. Her breathing shifts from examination 12\/min to confused 15\/min as counting failures accumulate, individual consciousness fighting mathematical breakdown while hunger weakens confused expression. Phantom bread smell triggers involuntary salivation response, body preparing for nourishment that doesn't exist, physiological memory stronger than conscious awareness of absence.",
+      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "subject" : "",
+      "style" : "Camera positioned at Guðrún's eye level during shelf examination (that's where the camera is), close enough for mouse dropping detail, wide enough for complete storage space survey. Static shot allowing counting confusion to build through sustained observation, camera tremor at 3Hz matching Magnús's frequency suggesting contamination affecting documentation equipment. Natural light from single window creating harsh shadows that emphasize emptiness, dust motes visible creating spiral patterns in illumination. Focus alternates between dropping arrangements and Guðrún's confused counting expressions. DIALOGUE:",
       "is_active" : false
     },
     {
-      "progressive_state" : "",
-      "scene" : "PASS 2: SHOT 11 - PURSUING THE SIXTH SPACE IMPOSSIBILITY Camera Chasing Imperial Addition Through Impossible Geography SHOT HEADER: Storage area during mathematical contamination where imperial counting creates impossible spatial expansion, traditional architecture forced to accommodate colonial administrative requirements through supernatural room multiplication, Danish mathematics contaminating domestic geography.",
-      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
-      "style" : "Camera hunting impossible spaces using mathematical pursuit movement (that's where the camera is), chasing imperial additions through architectural impossibility. Movement follows counting confusion creating spatial pursuit through impossible geography. Focus reveals mathematical contamination affecting architectural reality, imperial arithmetic creating spatial additions through administrative environdistressed expression. DIALOGUE:",
-      "variant_name" : "Pass 2 Pursuing Sixth Space Impossibility",
-      "variant_id" : "11_pass_2_pursuing_sixth_space_impossibility",
-      "dialogue" : "",
-      "is_active" : false,
-      "subject" : "",
-      "action" : "Camera hunts additional spaces by following Guðrún's counting confusion—racing between physical spaces (1-20) then pursuing mathematical additions (21-24) that exist in imperial counting distorted appearance not architectural reality. Mathematical contamination creates temporary spatial expansion: room stretching to accommodate impossible count, walls shifting to create additional storage areas during colonial enumeration, imperial mathematics forcing architecture to serve administrative needs. Camera experiences impossible geography where space accommodates mathematical impossibility—twenty physical spaces becoming twenty-four during Danish counting protocol, colonial arithmetic creating architectural additions through administrative spatial manipulation. Pursuit reveals imperial mathematics as spatial contamination: Danish counting requiring more room than Iceland provides, administrative enumeration expanding domestic space to serve colonial inventory requirements.",
-      "selected_plates" : [
-        "MAGNUS-CONFUSED",
-        "SIGRID-CALCULATING",
-        "LILJA-MATHEMATICAL",
-        "JON-PROPHET",
-        "GUDRUN-PRODUCING",
-        "BAÐSTOFA-ORGANIC"
-      ],
-      "camera_position" : ""
-    },
-    {
-      "camera_position" : "",
-      "dialogue" : "",
-      "progressive_state" : "",
-      "variant_id" : "11_empty_bounty_mouse_droppings_danish_numbers",
-      "style" : "Camera positioned at Guðrún's eye level during shelf examination (that's where the camera is), close enough for mouse dropping detail, wide enough for complete storage space survey. Static shot allowing counting confusion to build through sustained observation, camera tremor at 3Hz matching Magnús's frequency suggesting contamination affecting documentation equipment. Natural light from single window creating harsh shadows that emphasize emptiness, dust motes visible creating spiral patterns in illumination. Focus alternates between dropping arrangements and Guðrún's confused counting expressions. DIALOGUE:",
-      "action" : "Guðrún counts empty spaces with increasing confusion—pointing to shelves, mouth moving in silent enumeration, reaching count of 24 spaces when only 20 exist physically, mathematics breaking under starvation psychology as hunger creates additional empty spaces through desperate measurement. Mouse droppings rearrange during observation—Danish letters forming more clearly as attention focuses, colonial counting contamination affecting even pest waste through supernatural infiltration of domestic space. Dust circles rotate in spiral patterns matching ram's blood geometry from pen, empty spaces creating wind patterns that spell landvættir names through particle movement. Her breathing shifts from examination 12\/min to confused 15\/min as counting failures accumulate, individual consciousness fighting mathematical breakdown while hunger weakens confused expression. Phantom bread smell triggers involuntary salivation response, body preparing for nourishment that doesn't exist, physiological memory stronger than conscious awareness of absence.",
-      "scene" : "SHOT 11: EMPTY BOUNTY - MOUSE DROPPINGS IN DANISH NUMBERS From Standard Starvation (8\/10) to Mathematical Contamination Masterpiece (9.5\/10) SHOT HEADER: Traditional Icelandic storage area showing three generations of abundance-preparation now serving only as monument to depletion, wooden shelves worn smooth by decades of reaching for sustenance now providing only empty space measurement. Mouse droppings as only organic evidence in sterile starvation environment, pest waste forming linguistic contamination where Danish colonial numbers appear written in biological materials. Storage area resonating with mechanical humming suggesting industrial extraction history rather than natural consumption.",
-      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
-      "variant_name" : "Empty Bounty Mouse Droppings Danish Numbers",
-      "subject" : "",
-      "is_active" : false,
-      "selected_plates" : [
-        "MAGNUS-CONFUSED",
-        "SIGRID-CALCULATING",
-        "LILJA-MATHEMATICAL",
-        "JON-PROPHET",
-        "GUDRUN-PRODUCING",
-        "BAÐSTOFA-ORGANIC"
-      ]
-    },
-    {
-      "variant_id" : "11_story_primary",
-      "is_active" : false,
       "dialogue" : "(Guðrún): Sharp intake of breath at each empty space (Magnús): \"Tómt?\" (Tone: knowing the answer)",
+      "style" : "Tracking shot following her desperate search, camera at her shoulder (that's where the camera is), documentary observation of emptiness.",
+      "negative_prompt" : "no subtitles, no text overlays, show complete emptiness, cross patterns in frost, documentary observation",
+      "is_active" : false,
+      "variant_id" : "11_story_primary",
+      "action" : "Guðrún moves along shelves with increasing desperation. First shelf: empty, dust, circular stains. Second shelf: empty box, spider web, no spider. Third shelf: salt crystals, nothing else. Opens wooden storage box: crumbs, mouse droppings, emptiness. Runs fingers along wood finding nothing, not even splinters to suck. Behind her, oil lamp gutters - maybe 30 minutes of oil left. She looks up at hanging shark - only upper fermented portion remains, lower part already consumed. Looks at hearth - last peat brick burning. Looks at family - Jón's ribs visible through shirt, Lilja gnawing her thumb, Sigrid's hand protective over belly (feeding two on nothing). Cross patterns in window frost catching morning light, prophetic geometry. Magnús watches her search, knows what she'll find, hand already moving to where he hid bread. The word \"HAMR\" visible carved into shelf edge, old, worn, like house itself knows what they are.",
+      "variant_name" : "Primary - THE EMPTY BOUNTY NEW",
       "active_video_index" : 0,
       "selected_plates" : [
         "MAGNUS-CONFUSED",
@@ -86,38 +92,32 @@
         "GUDRUN-PRODUCING",
         "BAÐSTOFA-ORGANIC"
       ],
-      "negative_prompt" : "no subtitles, no text overlays, show complete emptiness, cross patterns in frost, documentary observation",
+      "scene" : "Morning after feeding, 6:00 AM, grey light through frosted window showing cross patterns. Temperature -10°C from Danish residue. Empty shelves span entire north wall - twenty-four spaces, all empty. Lamp oil nearly gone, wick showing. Even hanging shark mostly consumed. Starvation visible in everything.",
+      "camera_position" : "Tracking shot following her desperate search, camera at her shoulder",
       "subject" : "[GUÐRÚN] at the wall of shelves, frantically checking every space, every box, every corner, finding only dust circles where jars once stood, mouse droppings but no mice (already eaten), wood worn smooth from desperate daily checking, while behind her the nearly-empty oil lamp flickers - they're running out of everything.",
       "progressive_state" : "",
-      "style" : "Tracking shot following her desperate search, camera at her shoulder (that's where the camera is), documentary observation of emptiness.",
-      "variant_name" : "Primary - THE EMPTY BOUNTY NEW",
-      "scene" : "Morning after feeding, 6:00 AM, grey light through frosted window showing cross patterns. Temperature -10°C from Danish residue. Empty shelves span entire north wall - twenty-four spaces, all empty. Lamp oil nearly gone, wick showing. Even hanging shark mostly consumed. Starvation visible in everything.",
       "videos" : [
         {
-          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202509211616_xi4d4.mp4",
           "filename" : "Subject_gurn_at_202509211616_xi4d4.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202509211616_xi4d4.mp4"
+          "duration" : 8
         },
         {
           "duration" : 8,
-          "filename" : "Subject_gurn_at_202509211616_tmjiv.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202509211616_tmjiv.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202509211616_tmjiv.mp4",
+          "filename" : "Subject_gurn_at_202509211616_tmjiv.mp4"
         },
         {
-          "filename" : "Subject_gurn_at_202509211616_nsooz.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202509211616_nsooz.mp4",
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202509211616_nsooz.mp4"
+          "filename" : "Subject_gurn_at_202509211616_nsooz.mp4"
         },
         {
           "filename" : "Subject_gurn_at_202509211616_9uuxm.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202509211616_9uuxm.mp4",
           "duration" : 8
         }
-      ],
-      "action" : "Guðrún moves along shelves with increasing desperation. First shelf: empty, dust, circular stains. Second shelf: empty box, spider web, no spider. Third shelf: salt crystals, nothing else. Opens wooden storage box: crumbs, mouse droppings, emptiness. Runs fingers along wood finding nothing, not even splinters to suck. Behind her, oil lamp gutters - maybe 30 minutes of oil left. She looks up at hanging shark - only upper fermented portion remains, lower part already consumed. Looks at hearth - last peat brick burning. Looks at family - Jón's ribs visible through shirt, Lilja gnawing her thumb, Sigrid's hand protective over belly (feeding two on nothing). Cross patterns in window frost catching morning light, prophetic geometry. Magnús watches her search, knows what she'll find, hand already moving to where he hid bread. The word \"HAMR\" visible carved into shelf edge, old, worn, like house itself knows what they are.",
-      "camera_position" : "Tracking shot following her desperate search, camera at her shoulder"
+      ]
     }
-  ],
-  "progressive_state" : "House 13\/min + 60bpm | Klettagjá 1mm | Post-feeding horror | Camera frost 6% | Starvation revealed | Watching: House sees all",
-  "aspect_ratio" : "4:3"
+  ]
 }
