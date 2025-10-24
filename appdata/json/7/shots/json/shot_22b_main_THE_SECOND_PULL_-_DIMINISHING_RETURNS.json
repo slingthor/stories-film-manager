@@ -1,48 +1,48 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "House 10\/min + 50bpm | Strength fading | Camera frost 13.5% | Cost accumulating | Watching: Cane standing alone",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "negative_prompt" : "no subtitles, show aging in beam clearly, accumulating cost, documentary observation",
+      "action" : "Magnús wipes frozen blood from nose, positions for second pull. Counts trawler rotation: 18... 19... 20 seconds. Light coming. Grips rope, prepared. Beam hits - aflausn returns but diminished. Pulls with supernatural strength but boat only moves 10 feet. Cost immediate: blood from both ears, running down neck, freezing. Spits - blood and a molar, white against red snow. In trawler light, his hair literally greys, brown becoming silver in real-time. Hands shake worse - 5Hz constant now, can barely grip rope. Behind him, his abandoned cane has grown ice roots, 6 inches into ground, becoming permanent. Through window - empty. Family no longer watching, or cannot watch. Only empty clothes remain at glass, breath fogging from inside at 8\/min. Realizes pattern: each pull costs more, gives less. Still 150 meters to fjord. At this rate, will be dead before water.",
+      "subject" : "[MAGNÚS] Trying to pull his arabatur attempting second pull, waiting for trawler beam to return, but when yellow light hits again the aflausn is weaker - only 10 feet this time - and the cost higher: blood from ears now, a tooth loosening in his mouth, his hair visibly greying in the beam.",
+      "progressive_state" : "",
+      "dialogue" : "(Counting): \"Ðtján... nítján... tuttugu...\" (Spitting tooth): \"Tönn líka?\" (Teeth too?) (To distant fjord): \"Þrjár manneskjur... ég er ein\" (Three men... I am one)",
+      "scene" : "30 feet from house now, following blood spirals. Temperature -25°C, his body heat dropping. Where blood falls, steam rises then freezes. The cane behind like grave marker, ice roots spreading. Sun trying to rise but clouds building - storm coming. Trawler beam the only reliable light.",
+      "videos" : [
+        {
+          "duration" : 9.4166666666666661,
+          "filepath" : "\/Users\/ingthor\/Downloads\/2025-09-22T00-51-46_subject__magnus_.mp4",
+          "filename" : "2025-09-22T00-51-46_subject__magnus_.mp4"
+        },
+        {
+          "filename" : "2025-09-22T00-51-27_subject__magnus_.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/2025-09-22T00-51-27_subject__magnus_.mp4",
+          "duration" : 9.5
+        }
+      ],
       "variant_name" : "Primary - THE SECOND PULL - DIMINISHING RETURNS",
+      "style" : "Close on transformation in beam, showing real-time aging (that's where the camera is), documentary of payment due.",
+      "active_video_index" : 0,
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "BAÐSTOFA-BODY",
         "WESTFJORDS-WINTER",
         "WESTFJORDS-WATER"
       ],
-      "videos" : [
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/2025-09-22T00-51-46_subject__magnus_.mp4",
-          "duration" : 9.4166666666666661,
-          "filename" : "2025-09-22T00-51-46_subject__magnus_.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/2025-09-22T00-51-27_subject__magnus_.mp4",
-          "duration" : 9.5,
-          "filename" : "2025-09-22T00-51-27_subject__magnus_.mp4"
-        }
-      ],
-      "style" : "Close on transformation in beam, showing real-time aging (that's where the camera is), documentary of payment due.",
-      "subject" : "[MAGNÚS] Trying to pull his arabatur attempting second pull, waiting for trawler beam to return, but when yellow light hits again the aflausn is weaker - only 10 feet this time - and the cost higher: blood from ears now, a tooth loosening in his mouth, his hair visibly greying in the beam.",
-      "is_active" : false,
-      "active_video_index" : 0,
+      "negative_prompt" : "no subtitles, show aging in beam clearly, accumulating cost, documentary observation",
+      "variant_id" : "22b_story_primary",
       "camera_position" : "Close on transformation in beam, showing real-time aging",
-      "action" : "Magnús wipes frozen blood from nose, positions for second pull. Counts trawler rotation: 18... 19... 20 seconds. Light coming. Grips rope, prepared. Beam hits - aflausn returns but diminished. Pulls with supernatural strength but boat only moves 10 feet. Cost immediate: blood from both ears, running down neck, freezing. Spits - blood and a molar, white against red snow. In trawler light, his hair literally greys, brown becoming silver in real-time. Hands shake worse - 5Hz constant now, can barely grip rope. Behind him, his abandoned cane has grown ice roots, 6 inches into ground, becoming permanent. Through window - empty. Family no longer watching, or cannot watch. Only empty clothes remain at glass, breath fogging from inside at 8\/min. Realizes pattern: each pull costs more, gives less. Still 150 meters to fjord. At this rate, will be dead before water.",
-      "scene" : "30 feet from house now, following blood spirals. Temperature -25°C, his body heat dropping. Where blood falls, steam rises then freezes. The cane behind like grave marker, ice roots spreading. Sun trying to rise but clouds building - storm coming. Trawler beam the only reliable light.",
-      "dialogue" : "(Counting): \"Ðtján... nítján... tuttugu...\" (Spitting tooth): \"Tönn líka?\" (Teeth too?) (To distant fjord): \"Þrjár manneskjur... ég er ein\" (Three men... I am one)",
-      "progressive_state" : "",
-      "variant_id" : "22b_story_primary"
+      "is_active" : false
     }
   ],
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "needs_improvements" : true,
+    "id" : "22b",
     "sequence_type" : "main_story",
     "duration_seconds" : 8,
-    "stitch_from" : "",
-    "id" : "22b",
+    "needs_improvements" : true,
     "title" : "THE SECOND PULL - DIMINISHING RETURNS",
-    "narrative_function" : "House 10\/min + 50bpm | Strength fading | Camera fr..."
-  }
+    "narrative_function" : "House 10\/min + 50bpm | Strength fading | Camera fr...",
+    "stitch_from" : ""
+  },
+  "aspect_ratio" : "4:3",
+  "progressive_state" : "House 10\/min + 50bpm | Strength fading | Camera frost 13.5% | Cost accumulating | Watching: Cane standing alone"
 }

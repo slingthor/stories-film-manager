@@ -1,21 +1,28 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Bull surfaces | Industrial horror | Camera frost 32.5% | God wounded | Watching: We witness agony",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
+      "variant_id" : "45c_story_primary",
+      "scene" : "Polynya eruption, 9:59 AM. Bull massive against grey sky. Steam creating fog wall. Ice cracking from his emergence.",
+      "dialogue" : "(Guðrún, whispered): \"Griðungur... hvað gerðu þeir við þig?\" (Bull): Bellow mixing with trawler horn",
+      "subject" : "The water exploding as GRIÐUNGUR emerges - massive bull's head 6 feet across, but industrial materials grown INTO his flesh: brass harpoons through skull sprouting like horns, rope beneath skin creating raised black spirals, fishing net fused with eyes, beautiful and horrible simultaneously.",
       "negative_prompt" : "show fusion clearly, maintain 8-second hold, no CGI, practical effects",
-      "variant_name" : "Primary - GRIÐUNGUR EMERGES - CONTAMINATED GOD 8 SECONDS",
+      "action" : "Water EXPLODES upward. CAMERA PULLS BACK rapidly. Bull's head emerges - impossible size, ancient, divine. But corrupted: Three brass harpoons pierce skull, but not through - grown INTO bone, brass and calcium fused, sprouting like additional horns. Industrial rope hasn't wrapped around but grown THROUGH neck tissue, black hemp spirals visible beneath skin like external veins. Fishing net across eyes, but net has grown into corneas, hemp and tissue merged, creating crosshatch vision. Opens mouth to bellow - sound is both organic and mechanical, bull's roar mixed with trawler horn, 70Hz vibration shaking ice. Steam pours from wounds - body temperature meeting cold air. Eyes ancient, intelligent, in agony, find Guðrún. Recognition between trapped beings. Water around him turns black-green from contamination bleeding out. One brass harpoon has green verdigris tears running from it, as if the metal itself weeps. He rises further - shoulders visible, more contamination, industrial and divine fused. Size: could destroy house with one movement. But gentle. Suffering. 15-second hold on this wounded god.",
       "selected_plates" : [
         "SEA-CONTAMINATED",
         "WESTFJORDS-FJORD",
         "WESTFJORDS-WINTER"
       ],
+      "is_active" : false,
+      "style" : "Pull back for scale then hold for witness (that's where the camera is), documenting corrupted divinity.",
+      "variant_name" : "Primary - GRIÐUNGUR EMERGES - CONTAMINATED GOD 8 SECONDS",
+      "active_video_index" : 0,
+      "progressive_state" : "",
+      "camera_position" : "Pull back for scale then hold for witness",
       "videos" : [
         {
-          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202509211905_ts0pv.mp4",
           "filename" : "Subject_the_water_202509211905_ts0pv.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202509211905_ts0pv.mp4"
+          "duration" : 8
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202509211904_euyxj.mp4",
@@ -24,8 +31,8 @@
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202509211904_o08uw.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_water_202509211904_o08uw.mp4"
+          "filename" : "Subject_the_water_202509211904_o08uw.mp4",
+          "duration" : 8
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202509211904_rcbkg.mp4",
@@ -38,19 +45,19 @@
           "filename" : "Subject_the_water_202509211904_rytww.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232323_pynpj.mp4",
           "duration" : 8,
-          "filename" : "Subject_subject_reference_202510232323_pynpj.mp4"
+          "filename" : "Subject_subject_reference_202510232323_pynpj.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232323_pynpj.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_fdhwd.mp4",
+          "duration" : 8,
           "filename" : "Subject_lilja_suddenly_202510232324_fdhwd.mp4",
-          "duration" : 8
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_fdhwd.mp4"
         },
         {
-          "filename" : "Subject_lilja_suddenly_202510232324_t60yd.mp4",
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_t60yd.mp4",
-          "duration" : 8
+          "filename" : "Subject_lilja_suddenly_202510232324_t60yd.mp4"
         },
         {
           "filename" : "Subject_the_three_202510232325_zn2am.mp4",
@@ -58,19 +65,19 @@
           "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_17xug.mp4",
           "filename" : "Subject_the_three_202510232325_17xug.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_17xug.mp4",
           "duration" : 8
         },
         {
-          "filename" : "Subject_gurn_standing_202510232325_z7nk.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_standing_202510232325_z7nk.mp4",
+          "filename" : "Subject_gurn_standing_202510232325_z7nk.mp4",
           "duration" : 8
         },
         {
-          "duration" : 8,
           "filename" : "Subject_as_gurn_202510232326_0macj.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_as_gurn_202510232326_0macj.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_as_gurn_202510232326_0macj.mp4",
+          "duration" : 8
         },
         {
           "duration" : 8,
@@ -78,24 +85,24 @@
           "filename" : "Subject_aerial_shot_202510232326_m5xhc.mp4"
         },
         {
-          "duration" : 8,
           "filename" : "Subject_aerial_shot_202510232326_gu6zn.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_gu6zn.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_rising_202510232326_b1r58.mp4",
-          "filename" : "Subject_gurn_rising_202510232326_b1r58.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_l3eff.mp4",
-          "filename" : "Subject_griungur_using_202510232326_l3eff.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_gu6zn.mp4",
           "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_ff0m1.mp4",
+          "filename" : "Subject_gurn_rising_202510232326_b1r58.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_rising_202510232326_b1r58.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_griungur_using_202510232326_l3eff.mp4",
           "duration" : 8,
-          "filename" : "Subject_griungur_using_202510232326_ff0m1.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_l3eff.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_griungur_using_202510232326_ff0m1.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_ff0m1.mp4"
         },
         {
           "filename" : "Subject_the_water_202510232326_c4k55.mp4",
@@ -103,30 +110,23 @@
           "duration" : 8
         },
         {
-          "duration" : 8,
+          "filename" : "Subject_the_water_202510232326_whf4w.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202510232326_whf4w.mp4",
-          "filename" : "Subject_the_water_202510232326_whf4w.mp4"
+          "duration" : 8
         }
-      ],
-      "style" : "Pull back for scale then hold for witness (that's where the camera is), documenting corrupted divinity.",
-      "subject" : "The water exploding as GRIÐUNGUR emerges - massive bull's head 6 feet across, but industrial materials grown INTO his flesh: brass harpoons through skull sprouting like horns, rope beneath skin creating raised black spirals, fishing net fused with eyes, beautiful and horrible simultaneously.",
-      "is_active" : false,
-      "active_video_index" : 0,
-      "camera_position" : "Pull back for scale then hold for witness",
-      "action" : "Water EXPLODES upward. CAMERA PULLS BACK rapidly. Bull's head emerges - impossible size, ancient, divine. But corrupted: Three brass harpoons pierce skull, but not through - grown INTO bone, brass and calcium fused, sprouting like additional horns. Industrial rope hasn't wrapped around but grown THROUGH neck tissue, black hemp spirals visible beneath skin like external veins. Fishing net across eyes, but net has grown into corneas, hemp and tissue merged, creating crosshatch vision. Opens mouth to bellow - sound is both organic and mechanical, bull's roar mixed with trawler horn, 70Hz vibration shaking ice. Steam pours from wounds - body temperature meeting cold air. Eyes ancient, intelligent, in agony, find Guðrún. Recognition between trapped beings. Water around him turns black-green from contamination bleeding out. One brass harpoon has green verdigris tears running from it, as if the metal itself weeps. He rises further - shoulders visible, more contamination, industrial and divine fused. Size: could destroy house with one movement. But gentle. Suffering. 15-second hold on this wounded god.",
-      "scene" : "Polynya eruption, 9:59 AM. Bull massive against grey sky. Steam creating fog wall. Ice cracking from his emergence.",
-      "dialogue" : "(Guðrún, whispered): \"Griðungur... hvað gerðu þeir við þig?\" (Bull): Bellow mixing with trawler horn",
-      "progressive_state" : "",
-      "variant_id" : "45c_story_primary"
+      ]
     }
   ],
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "needs_improvements" : false,
+    "id" : "45c",
     "sequence_type" : "main_story",
     "duration_seconds" : 8,
-    "stitch_from" : "",
-    "id" : "45c",
+    "needs_improvements" : false,
     "title" : "GRIÐUNGUR EMERGES - CONTAMINATED GOD 8 SECONDS",
-    "narrative_function" : "Bull surfaces | Industrial horror | Camera frost 3..."
-  }
+    "narrative_function" : "Bull surfaces | Industrial horror | Camera frost 3...",
+    "stitch_from" : ""
+  },
+  "aspect_ratio" : "4:3",
+  "progressive_state" : "Bull surfaces | Industrial horror | Camera frost 32.5% | God wounded | Watching: We witness agony"
 }

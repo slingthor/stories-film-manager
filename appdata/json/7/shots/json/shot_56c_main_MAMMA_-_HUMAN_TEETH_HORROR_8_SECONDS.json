@@ -1,11 +1,12 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Children calling | Camera frost 48.5% | Humanity trapped | Watching: We hear wrong",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
+      "variant_id" : "56c_story_primary",
+      "scene" : "Close on lamb mouths, human teeth. Family huddle as sheep. Horror of awareness.",
+      "dialogue" : "(Lambs, attempting): \"Maaaaaaa-maaaa\" \"Maaaa... ég... hrædd\" (Barely human): Sounds of trying",
+      "subject" : "The lamb children calling \"Mamma\" but through sheep vocal cords it comes out wrong - \"Maaaaaaa-maaaa\" - while camera close on their mouths showing human teeth, tongues, dental development of 7 and 5-year-old humans in lamb skulls.",
       "negative_prompt" : "show teeth clearly, maintain horror without gore",
-      "variant_name" : "Primary - MAMMA - HUMAN TEETH HORROR 8 SECONDS",
+      "action" : "CLOSE ON Jón-lamb's mouth opening. \"Mamma\" attempts. But sheep larynx, sheep throat. Comes out: \"Maaaaaaa-maaaa.\" Dragged, bleating. Human teeth visible - baby teeth in front, adult teeth emerging behind. Human dental pattern in sheep jaw. Tongue human-pink, not sheep-grey. Trying to form words. Cut to Lilja-lamb: \"Maaaa-maaaa, ég er hrædd\" (Mommy, I'm scared). But only \"Maaaa\" emerges clearly. The horror: they're conscious. Know they're children. Trapped in sheep bodies. Or were always sheep thinking they were children? Both? Guðrún-ewe tries to comfort, nuzzles them with sheep snout. But tears from horizontal pupils. Human tears from sheep eyes. They huddle together. Three sheep in children's clothes. Family still family. Love still love. But wrong bodies. Or right bodies, wrong consciousness? Which is true?",
       "selected_plates" : [
         "MAGNUS-RECOGNIZING",
         "SIGRID-TRANSITIONAL",
@@ -15,32 +16,31 @@
         "BAÐSTOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ],
+      "is_active" : false,
+      "style" : "Extreme close on mouths (that's where the camera is), wrong anatomy documented.",
+      "variant_name" : "Primary - MAMMA - HUMAN TEETH HORROR 8 SECONDS",
+      "active_video_index" : 0,
+      "progressive_state" : "",
+      "camera_position" : "Extreme close on mouths",
       "videos" : [
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1800_01k7zhp8b1fz5tzj7gzj6khvk8.mp4",
-          "duration" : 15.088666666666667,
-          "filename" : "20251019_1800_01k7zhp8b1fz5tzj7gzj6khvk8.mp4"
+          "filename" : "20251019_1800_01k7zhp8b1fz5tzj7gzj6khvk8.mp4",
+          "duration" : 15.088666666666667
         }
-      ],
-      "style" : "Extreme close on mouths (that's where the camera is), wrong anatomy documented.",
-      "subject" : "The lamb children calling \"Mamma\" but through sheep vocal cords it comes out wrong - \"Maaaaaaa-maaaa\" - while camera close on their mouths showing human teeth, tongues, dental development of 7 and 5-year-old humans in lamb skulls.",
-      "is_active" : false,
-      "active_video_index" : 0,
-      "camera_position" : "Extreme close on mouths",
-      "action" : "CLOSE ON Jón-lamb's mouth opening. \"Mamma\" attempts. But sheep larynx, sheep throat. Comes out: \"Maaaaaaa-maaaa.\" Dragged, bleating. Human teeth visible - baby teeth in front, adult teeth emerging behind. Human dental pattern in sheep jaw. Tongue human-pink, not sheep-grey. Trying to form words. Cut to Lilja-lamb: \"Maaaa-maaaa, ég er hrædd\" (Mommy, I'm scared). But only \"Maaaa\" emerges clearly. The horror: they're conscious. Know they're children. Trapped in sheep bodies. Or were always sheep thinking they were children? Both? Guðrún-ewe tries to comfort, nuzzles them with sheep snout. But tears from horizontal pupils. Human tears from sheep eyes. They huddle together. Three sheep in children's clothes. Family still family. Love still love. But wrong bodies. Or right bodies, wrong consciousness? Which is true?",
-      "scene" : "Close on lamb mouths, human teeth. Family huddle as sheep. Horror of awareness.",
-      "dialogue" : "(Lambs, attempting): \"Maaaaaaa-maaaa\" \"Maaaa... ég... hrædd\" (Barely human): Sounds of trying",
-      "variant_id" : "56c_story_primary",
-      "progressive_state" : ""
+      ]
     }
   ],
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "needs_improvements" : false,
+    "id" : "56c",
     "sequence_type" : "main_story",
     "duration_seconds" : 8,
-    "stitch_from" : "",
-    "id" : "56c",
+    "needs_improvements" : false,
     "title" : "MAMMA - HUMAN TEETH HORROR 8 SECONDS",
-    "narrative_function" : "Children calling | Camera frost 48.5% | Humanity t..."
-  }
+    "narrative_function" : "Children calling | Camera frost 48.5% | Humanity t...",
+    "stitch_from" : ""
+  },
+  "aspect_ratio" : "4:3",
+  "progressive_state" : "Children calling | Camera frost 48.5% | Humanity trapped | Watching: We hear wrong"
 }

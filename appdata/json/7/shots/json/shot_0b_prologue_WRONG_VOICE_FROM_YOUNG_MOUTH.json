@@ -1,62 +1,362 @@
 {
-  "aspect_ratio" : "1.85:1",
-  "progressive_state" : "Curse spoken | Voice stolen | Camera frost flickers 2% | Memory fracture | Watching: Time breaks",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "negative_prompt" : "no subtitles, show mouth movements matching male voice, three-color hand stain, frost spreading, 1080p",
-      "variant_name" : "Primary - WRONG VOICE FROM YOUNG MOUTH",
-      "selected_plates" : [
-        "SIGRID-PURE",
-        "SEA-DIVINE",
-        "WESTFJORDS-FJORD"
-      ],
+      "action" : "Sigrid stands 3 feet from pole, perfectly still. White dress hangs straight down - no wind. She opens mouth, lips form the words \"Krummi svaf í klettagjá.\" Deep male voice emerges from her throat - bass tone, elderly sound. Her lips continue moving, perfectly forming each syllable. Eyes never leave camera lens. Behind her, three whale spouts rise from ocean - water shoots up 20 feet. She continues singing, mouth moving: \"kaldri vetrarnóttu á.\" Frost forms on grass around her feet, spreading outward in circle, white crystals despite summer. Her right hand reaches out, touches pole. When hand pulls away, palm is stained - red thumb, purple fingers, gold wrist. She looks at stained hand while mouth continues moving, male voice continuing. Dress hem turns purple where it touches frosted grass.",
+      "dialogue" : "(Young female mouth moving, old male voice): \"Krummi svaf í klettagjá, kaldri vetrarnóttu á\"",
       "videos" : [
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Icelandic_Song_of_Frost_and_Serpent.mp4",
           "duration" : 8,
-          "filename" : "Icelandic_Song_of_Frost_and_Serpent.mp4"
+          "filename" : "Icelandic_Song_of_Frost_and_Serpent.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Icelandic_Song_of_Frost_and_Serpent.mp4"
         },
         {
-          "filename" : "Subject_young_sigrid_202509142254_asqs3.mp4",
           "duration" : 8,
+          "filename" : "Subject_young_sigrid_202509142254_asqs3.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_young_sigrid_202509142254_asqs3.mp4"
         },
         {
-          "filename" : "Subject_sigrid_16_202509142254_e9tnd.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_16_202509142254_e9tnd.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filename" : "Subject_sigrid_16_202509142254_e9tnd.mp4"
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_16_202509142254_m62yg.mp4",
-          "duration" : 8,
-          "filename" : "Subject_sigrid_16_202509142254_m62yg.mp4"
+          "filename" : "Subject_sigrid_16_202509142254_m62yg.mp4",
+          "duration" : 8
         },
         {
           "filename" : "Subject_sigrid_16_202509142253_d0aga.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_16_202509142253_d0aga.mp4",
           "duration" : 8
+        },
+        {
+          "filename" : "Subject_magns_collapsed_202510240007_ekku.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_ekku.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_magns_collapsed_202510240007_mkt0.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_mkt0.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_fvlyf.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_contaminated_202510240007_fvlyf.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_contaminated_202510240007_it5ua.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_it5ua.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_from_south_202510240007_fd14i.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_south_202510240007_fd14i.mp4"
+        },
+        {
+          "filename" : "Subject_from_the_202510240007_ewmxm.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_ewmxm.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_bqik0.mp4",
+          "filename" : "Subject_from_the_202510240007_bqik0.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_mktig.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_mouth_202510240007_mktig.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrids_mouth_202510240007_52mwz.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_52mwz.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_v9tql.mp4",
+          "filename" : "Subject_sigrids_voice_202510240008_v9tql.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_fs1fm.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_voice_202510240008_fs1fm.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_9v1.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrid_attempting_202510240008_9v1.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_attempting_202510240008_o7s.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_o7s.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_kneeling_202510240008_5fnyt.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_5fnyt.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_kneeling_202510240008_gt764.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_gt764.mp4"
+        },
+        {
+          "filename" : "Subject_inside_the_202510240008_p26br.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_p26br.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_g8yo0.mp4",
+          "filename" : "Subject_inside_the_202510240008_g8yo0.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240008_h6o6u.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_h6o6u.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_emjns.mp4",
+          "filename" : "Subject_subject_reference_202510240008_emjns.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510240008_kjftz.mp4",
+          "filename" : "Subject_the_camera_202510240008_kjftz.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_z2vvg.mp4",
+          "filename" : "Subject_sigrid_standing_202510240009_z2vvg.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_xwxxw.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrid_standing_202510240009_xwxxw.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_31574.mp4",
+          "filename" : "Subject_view_from_202510240009_31574.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_view_from_202510240009_4ae9w.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_4ae9w.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_rn42a.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240009_rn42a.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_uowzh.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240009_uowzh.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_action_whales_202510240009_vn1hy.mp4",
+          "duration" : 8,
+          "filename" : "Subject_action_whales_202510240009_vn1hy.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_twelve_men_202510240009_tfnyc.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_twelve_men_202510240009_tfnyc.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_night_sky_202510240009_veyc2.mp4",
+          "filename" : "Subject_night_sky_202510240009_veyc2.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_night_sky_202510240009_3ku6b.mp4",
+          "filename" : "Subject_night_sky_202510240009_3ku6b.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240009_gzgzt.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_gzgzt.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_qgvva.mp4",
+          "filename" : "Subject_subject_reference_202510240009_qgvva.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_m52ut.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_m52ut.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_3jqwx.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_3jqwx.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_whale_202510240010_1fbab.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_whale_202510240010_1fbab.mp4"
+        },
+        {
+          "filename" : "Subject_the_whale_202510240010_u5sef.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_whale_202510240010_u5sef.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240010_oblte.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_oblte.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_iij94.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240010_iij94.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_xhhl2.mp4",
+          "filename" : "Subject_subject_reference_202510240010_xhhl2.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_259ni.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240010_259ni.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_wdq1t.mp4",
+          "filename" : "Subject_subject_reference_202510240010_wdq1t.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_hckdb.mp4",
+          "filename" : "Subject_subject_reference_202510240010_hckdb.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240011_tmkbe.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240011_tmkbe.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_oil_202510240011_qpj9a.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202510240011_qpj9a.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240011_3af8a.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240011_3af8a.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_opening_202510240011_ml8gl.mp4",
+          "filename" : "Subject_magns_opening_202510240011_ml8gl.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_opening_202510240011_6gcj4.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_opening_202510240011_6gcj4.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202510240012_01fdf.mp4",
+          "filename" : "Subject_a_raven_202510240012_01fdf.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202510240012_alvb2.mp4",
+          "filename" : "Subject_a_raven_202510240012_alvb2.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_sitting_202510240012_qvy0k.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_sitting_202510240012_qvy0k.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_sitting_202510240012_afxum.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrid_sitting_202510240012_afxum.mp4"
+        },
+        {
+          "filename" : "Subject_gurn_at_202510240012_gw8ay.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202510240012_gw8ay.mp4"
+        },
+        {
+          "filename" : "Subject_gurn_at_202510240012_8vzvz.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202510240012_8vzvz.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240012_sgozi.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_sgozi.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240012_vkfmu.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_vkfmu.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_cas9c.mp4",
+          "filename" : "Subject_subject_reference_202510240012_cas9c.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_magns_turning_202510240012_ywiyc.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_turning_202510240012_ywiyc.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_turning_202510240012_gbu8s.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_turning_202510240012_gbu8s.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_young_202510240012_sm2h6.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_young_202510240012_sm2h6.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_young_202510240013_x6c3c.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_young_202510240013_x6c3c.mp4"
         }
       ],
-      "style" : "Medium shot facing Sigrid directly, camera at her eye level 10 feet away (that's where the camera is), static locked shot, no movement.",
-      "subject" : "[SIGRID] young woman with wheat-blonde hair in white linen dress standing beside the pole, opening her mouth to sing, lips moving to form Icelandic words, but deep male voice emerges while her eyes look directly at camera.\n\nA tall piece of grey driftwood standing vertical on a grass-covered headland, rope wrapped around its top section, casting a shadow 200 feet long across green hills while the ocean behind shows red tints under blue surface and purple berries cover distant slopes. The pole represent a nidstong - a curse with a carved horse head to the east. Scary horse head.",
-      "is_active" : false,
       "active_video_index" : 0,
       "camera_position" : "Medium shot facing Sigrid directly, camera at her eye level 10 feet away",
-      "action" : "Sigrid stands 3 feet from pole, perfectly still. White dress hangs straight down - no wind. She opens mouth, lips form the words \"Krummi svaf í klettagjá.\" Deep male voice emerges from her throat - bass tone, elderly sound. Her lips continue moving, perfectly forming each syllable. Eyes never leave camera lens. Behind her, three whale spouts rise from ocean - water shoots up 20 feet. She continues singing, mouth moving: \"kaldri vetrarnóttu á.\" Frost forms on grass around her feet, spreading outward in circle, white crystals despite summer. Her right hand reaches out, touches pole. When hand pulls away, palm is stained - red thumb, purple fingers, gold wrist. She looks at stained hand while mouth continues moving, male voice continuing. Dress hem turns purple where it touches frosted grass.",
+      "negative_prompt" : "no subtitles, show mouth movements matching male voice, three-color hand stain, frost spreading, 1080p",
+      "selected_plates" : [
+        "SIGRID-PURE",
+        "SEA-DIVINE",
+        "WESTFJORDS-FJORD"
+      ],
+      "style" : "Medium shot facing Sigrid directly, camera at her eye level 10 feet away (that's where the camera is), static locked shot, no movement.",
       "scene" : "Beside pole on headland. Ocean behind with whale spouts. Morning sun horizontal. Grass turning white with frost in 6-foot circle around her. Clear sky.",
-      "dialogue" : "(Young female mouth moving, old male voice): \"Krummi svaf í klettagjá, kaldri vetrarnóttu á\"",
+      "variant_id" : "0b_story_primary",
+      "is_active" : false,
       "progressive_state" : "",
-      "variant_id" : "0b_story_primary"
+      "subject" : "[SIGRID] young woman with wheat-blonde hair in white linen dress standing beside the pole, opening her mouth to sing, lips moving to form Icelandic words, but deep male voice emerges while her eyes look directly at camera.\n\nA tall piece of grey driftwood standing vertical on a grass-covered headland, rope wrapped around its top section, casting a shadow 200 feet long across green hills while the ocean behind shows red tints under blue surface and purple berries cover distant slopes. The pole represent a nidstong - a curse with a carved horse head to the east. Scary horse head.",
+      "variant_name" : "Primary - WRONG VOICE FROM YOUNG MOUTH"
     }
   ],
+  "aspect_ratio" : "1.85:1",
   "shot_metadata" : {
-    "needs_improvements" : false,
-    "sequence_type" : "prologue",
     "duration_seconds" : 8,
-    "stitch_from" : "",
     "id" : "0b",
-    "title" : "WRONG VOICE FROM YOUNG MOUTH",
-    "narrative_function" : "Curse spoken | Voice stolen | Camera frost flicker..."
-  }
+    "sequence_type" : "prologue",
+    "narrative_function" : "Curse spoken | Voice stolen | Camera frost flicker...",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "WRONG VOICE FROM YOUNG MOUTH"
+  },
+  "progressive_state" : "Curse spoken | Voice stolen | Camera frost flickers 2% | Memory fracture | Watching: Time breaks",
+  "selected_prompt_index" : 0
 }

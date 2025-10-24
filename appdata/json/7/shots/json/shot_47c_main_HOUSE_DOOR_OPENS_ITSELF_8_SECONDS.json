@@ -1,11 +1,12 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "House recognizing her | Door sentient | Camera frost 35.5% | Giant chooses | Watching: House decides",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
+      "variant_id" : "47c_story_primary",
+      "scene" : "House exterior to interior, 10:15 AM. Door acting autonomously. Family tableau visible. Temperature differential visible as steam.",
+      "dialogue" : "(Magnús, shocked): \"Þú... lifðir?\" (Sigrid, unsurprised): \"Húsið valdi\" (The house chose) (Door): Creaking in greeting rhythm",
+      "subject" : "As [GUÐRÚN] approaches the house, the door opens by itself before she reaches it - not wind but the house choosing to admit her, while through windows the family is visible frozen in tableau, watching her impossible return from death sentence.",
       "negative_prompt" : "no wind causation, show door's deliberate movement, maintain tableau",
-      "variant_name" : "Primary - HOUSE DOOR OPENS ITSELF 8 SECONDS",
+      "action" : "Guðrún 10 meters from door. Reaches for handle. Door OPENS inward before contact. Not wind - deliberate, slow, controlled. Like someone inside opening, but family visible through window, no one near door. All frozen in réttir positions still, watching her approach. PUSH IN on door gap widening. Steam exits - house is warmer than outside, 37°C at floor (body temperature). Door opens exactly wide enough for her to enter, no more. House breathing accelerates seeing her: 16\/min to 18\/min, excited or panicked. Through doorway: family arranged as before. Magnús standing separate, face showing shock - she survived his death sentence. Children on floor, Jón's sheep teeth more visible. Sigrid still exactly 11 feet from Magnús, hand on belly, only one unsurprised. Tilberi at center, brass eye turning toward door. Empty clothes have moved - now standing in formation behind family, sixth presence confirmed. Door waits. Patient. She steps through. Door closes itself behind her. Gentle. House has chosen. Bergrisi protecting her from Magnús's next violence.",
       "selected_plates" : [
         "MAGNUS-DEFEATED",
         "SIGRID-ORACLE",
@@ -17,11 +18,17 @@
         "HOUSE-AWAKENING",
         "STOFA-BODY"
       ],
+      "is_active" : false,
+      "style" : "Push in on sentient door, revealing interior tableau (that's where the camera is), house agency documented.",
+      "variant_name" : "Primary - HOUSE DOOR OPENS ITSELF 8 SECONDS",
+      "active_video_index" : 0,
+      "progressive_state" : "",
+      "camera_position" : "Push in on sentient door, revealing interior tableau",
       "videos" : [
         {
-          "filename" : "Subject_as_gurn_202510191640_hyxzm.mp4",
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_as_gurn_202510191640_hyxzm.mp4",
-          "duration" : 8
+          "filename" : "Subject_as_gurn_202510191640_hyxzm.mp4"
         },
         {
           "filename" : "Subject_as_gurn_202510191640_idlof.mp4",
@@ -29,19 +36,19 @@
           "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_standing_202510191641_bm9r.mp4",
           "filename" : "Subject_gurn_standing_202510191641_bm9r.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_standing_202510191641_bm9r.mp4",
           "duration" : 8
         },
         {
-          "filename" : "Subject_gurn_standing_202510191641_d165.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_standing_202510191641_d165.mp4",
+          "filename" : "Subject_gurn_standing_202510191641_d165.mp4",
           "duration" : 8
         },
         {
-          "duration" : 10.088666666666667,
           "filename" : "20251019_1713_01k6f20swfend9eh5zaadvg5mt.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1713_01k6f20swfend9eh5zaadvg5mt.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1713_01k6f20swfend9eh5zaadvg5mt.mp4",
+          "duration" : 10.088666666666667
         },
         {
           "duration" : 8,
@@ -49,55 +56,48 @@
           "filename" : "Subject_subject_reference_202510232323_pynpj.mp4"
         },
         {
-          "duration" : 8,
           "filename" : "Subject_lilja_suddenly_202510232324_fdhwd.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_fdhwd.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_t60yd.mp4",
-          "filename" : "Subject_lilja_suddenly_202510232324_t60yd.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_zn2am.mp4",
-          "filename" : "Subject_the_three_202510232325_zn2am.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_fdhwd.mp4",
           "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_17xug.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_three_202510232325_17xug.mp4"
+          "filename" : "Subject_lilja_suddenly_202510232324_t60yd.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_t60yd.mp4",
+          "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_standing_202510232325_z7nk.mp4",
+          "filename" : "Subject_the_three_202510232325_zn2am.mp4",
           "duration" : 8,
-          "filename" : "Subject_gurn_standing_202510232325_z7nk.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_zn2am.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_three_202510232325_17xug.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_17xug.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_gurn_standing_202510232325_z7nk.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_standing_202510232325_z7nk.mp4"
         },
         {
           "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_as_gurn_202510232326_0macj.mp4",
           "filename" : "Subject_as_gurn_202510232326_0macj.mp4"
         }
-      ],
-      "style" : "Push in on sentient door, revealing interior tableau (that's where the camera is), house agency documented.",
-      "subject" : "As [GUÐRÚN] approaches the house, the door opens by itself before she reaches it - not wind but the house choosing to admit her, while through windows the family is visible frozen in tableau, watching her impossible return from death sentence.",
-      "is_active" : false,
-      "active_video_index" : 0,
-      "camera_position" : "Push in on sentient door, revealing interior tableau",
-      "action" : "Guðrún 10 meters from door. Reaches for handle. Door OPENS inward before contact. Not wind - deliberate, slow, controlled. Like someone inside opening, but family visible through window, no one near door. All frozen in réttir positions still, watching her approach. PUSH IN on door gap widening. Steam exits - house is warmer than outside, 37°C at floor (body temperature). Door opens exactly wide enough for her to enter, no more. House breathing accelerates seeing her: 16\/min to 18\/min, excited or panicked. Through doorway: family arranged as before. Magnús standing separate, face showing shock - she survived his death sentence. Children on floor, Jón's sheep teeth more visible. Sigrid still exactly 11 feet from Magnús, hand on belly, only one unsurprised. Tilberi at center, brass eye turning toward door. Empty clothes have moved - now standing in formation behind family, sixth presence confirmed. Door waits. Patient. She steps through. Door closes itself behind her. Gentle. House has chosen. Bergrisi protecting her from Magnús's next violence.",
-      "scene" : "House exterior to interior, 10:15 AM. Door acting autonomously. Family tableau visible. Temperature differential visible as steam.",
-      "dialogue" : "(Magnús, shocked): \"Þú... lifðir?\" (Sigrid, unsurprised): \"Húsið valdi\" (The house chose) (Door): Creaking in greeting rhythm",
-      "progressive_state" : "",
-      "variant_id" : "47c_story_primary"
+      ]
     }
   ],
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "needs_improvements" : false,
+    "id" : "47c",
     "sequence_type" : "main_story",
     "duration_seconds" : 8,
-    "stitch_from" : "",
-    "id" : "47c",
+    "needs_improvements" : false,
     "title" : "HOUSE DOOR OPENS ITSELF 8 SECONDS",
-    "narrative_function" : "House recognizing her | Door sentient | Camera fro..."
-  }
+    "narrative_function" : "House recognizing her | Door sentient | Camera fro...",
+    "stitch_from" : ""
+  },
+  "aspect_ratio" : "4:3",
+  "progressive_state" : "House recognizing her | Door sentient | Camera frost 35.5% | Giant chooses | Watching: House decides"
 }

@@ -1,106 +1,113 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Storm chaos | Last light dying | Camera frost 30% | Solitude begins | Watching: Only storm",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
+      "variant_id" : "44a_story_primary",
+      "scene" : "Outside house, horizontal snow. Visibility 3 meters. Wind vortex creating natural spiral. -30°C visible in instant ice formation.",
+      "dialogue" : "None - just breathing changing from controlled to free",
+      "subject" : "Camera spiraling around [GUÐRÚN] as she stands in the storm, oil lamp flame horizontal in wind then dying, the moment of darkness triggering her first deep breath in years - visible as massive white cloud - finally alone, no one watching except us.",
       "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
-      "variant_name" : "Primary - LAMP DEATH IN WIND - SPIRALING OUT 6 SECONDS",
+      "action" : "CAMERA SPIRALS counterclockwise matching wind vortex. Guðrún holds lamp fragment, flame bending 90 degrees horizontal. First spiral: flame yellow, fighting. Second spiral: flame blue, shrinking. Her sealskin cloak whipping, revealing wool she pulled from wrists - now 25mm long, wrapped around fingers, already ice-covered. Third spiral: flame dies. Darkness except snow reflecting pre-dawn grey. But in darkness - her breathing changes. Deep inhale, visible as huge white cloud, held, released. First unobserved breath in years. No husband counting. No children needing. Face relaxes into something almost like peace. Wind creates snow spirals around her - five spirals with six intersection points, the pattern everywhere. Her first step: not toward sea but standing still, feeling solitude. Faldbúningur headdress collecting snow, becoming white crown.",
       "selected_plates" : [
         "GUDRUN-WALKING",
         "WESTFJORDS-CLIFF",
         "WESTFJORDS-WINTER"
       ],
+      "is_active" : false,
+      "style" : "Spiraling camera matching wind pattern, darkness when lamp dies (that's where the camera is), her liberation through solitude.",
+      "variant_name" : "Primary - LAMP DEATH IN WIND - SPIRALING OUT 6 SECONDS",
+      "active_video_index" : 0,
+      "progressive_state" : "",
+      "camera_position" : "Spiraling camera matching wind pattern, darkness when lamp dies",
       "videos" : [
         {
+          "duration" : 8,
           "filename" : "Subject_camera_spiraling_202509211908_u7xgg.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202509211908_u7xgg.mp4",
-          "duration" : 8
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202509211908_u7xgg.mp4"
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202509211908_088tq.mp4",
-          "filename" : "Subject_camera_spiraling_202509211908_088tq.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filename" : "Subject_camera_spiraling_202509211908_088tq.mp4"
         },
         {
           "duration" : 8,
-          "filename" : "Subject_camera_spiraling_202509211908_2sfk6.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202509211908_2sfk6.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202509211908_2sfk6.mp4",
+          "filename" : "Subject_camera_spiraling_202509211908_2sfk6.mp4"
         },
         {
-          "duration" : 8,
           "filename" : "Subject_camera_spiraling_202509211908_24p5b.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202509211908_24p5b.mp4"
-        },
-        {
-          "filename" : "20251019_1718_01k6f1g6ktf4rrg6cqybh72yfz.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1718_01k6f1g6ktf4rrg6cqybh72yfz.mp4",
-          "duration" : 10.088666666666667
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232323_pynpj.mp4",
-          "filename" : "Subject_subject_reference_202510232323_pynpj.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202509211908_24p5b.mp4",
           "duration" : 8
+        },
+        {
+          "duration" : 10.088666666666667,
+          "filename" : "20251019_1718_01k6f1g6ktf4rrg6cqybh72yfz.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1718_01k6f1g6ktf4rrg6cqybh72yfz.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510232323_pynpj.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232323_pynpj.mp4"
         },
         {
           "filename" : "Subject_lilja_suddenly_202510232324_fdhwd.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_fdhwd.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_fdhwd.mp4",
+          "duration" : 8
         },
         {
           "filename" : "Subject_lilja_suddenly_202510232324_t60yd.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_t60yd.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_t60yd.mp4",
+          "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_zn2am.mp4",
           "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_zn2am.mp4",
           "filename" : "Subject_the_three_202510232325_zn2am.mp4"
         },
         {
+          "filename" : "Subject_the_three_202510232325_17xug.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_17xug.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_three_202510232325_17xug.mp4"
+          "duration" : 8
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_standing_202510232325_z7nk.mp4",
-          "duration" : 8,
-          "filename" : "Subject_gurn_standing_202510232325_z7nk.mp4"
+          "filename" : "Subject_gurn_standing_202510232325_z7nk.mp4",
+          "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_as_gurn_202510232326_0macj.mp4",
           "filename" : "Subject_as_gurn_202510232326_0macj.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_as_gurn_202510232326_0macj.mp4",
           "duration" : 8
         },
         {
           "filename" : "Subject_aerial_shot_202510232326_m5xhc.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_m5xhc.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_aerial_shot_202510232326_gu6zn.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_gu6zn.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_rising_202510232326_b1r58.mp4",
-          "filename" : "Subject_gurn_rising_202510232326_b1r58.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_l3eff.mp4",
-          "filename" : "Subject_griungur_using_202510232326_l3eff.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_m5xhc.mp4",
           "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_ff0m1.mp4",
           "duration" : 8,
-          "filename" : "Subject_griungur_using_202510232326_ff0m1.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_gu6zn.mp4",
+          "filename" : "Subject_aerial_shot_202510232326_gu6zn.mp4"
         },
         {
           "duration" : 8,
-          "filename" : "Subject_the_water_202510232326_c4k55.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202510232326_c4k55.mp4"
+          "filename" : "Subject_gurn_rising_202510232326_b1r58.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_rising_202510232326_b1r58.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_griungur_using_202510232326_l3eff.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_l3eff.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_ff0m1.mp4",
+          "filename" : "Subject_griungur_using_202510232326_ff0m1.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202510232326_c4k55.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_water_202510232326_c4k55.mp4"
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202510232326_whf4w.mp4",
@@ -108,55 +115,48 @@
           "duration" : 8
         },
         {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_polynya_202510232326_qs0hq.mp4",
           "duration" : 8,
-          "filename" : "Subject_the_polynya_202510232326_qs0hq.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_polynya_202510232326_qs0hq.mp4"
+          "filename" : "Subject_the_polynya_202510232326_qs0hq.mp4"
         },
         {
-          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_arriving_202510232327_51aj.mp4",
-          "filename" : "Subject_gurn_arriving_202510232327_51aj.mp4"
+          "filename" : "Subject_gurn_arriving_202510232327_51aj.mp4",
+          "duration" : 8
         },
         {
-          "duration" : 8,
           "filename" : "Subject_close_tracking_202510232327_jiwn0.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_close_tracking_202510232327_jiwn0.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_close_tracking_202510232327_jiwn0.mp4",
+          "duration" : 8
         },
         {
-          "duration" : 8,
+          "filename" : "Subject_camera_tracking_202510232327_bgh48.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_tracking_202510232327_bgh48.mp4",
-          "filename" : "Subject_camera_tracking_202510232327_bgh48.mp4"
+          "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202510232327_nux0d.mp4",
           "filename" : "Subject_camera_spiraling_202510232327_nux0d.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202510232327_nux0d.mp4",
           "duration" : 8
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202510232327_ejaum.mp4",
-          "duration" : 8,
-          "filename" : "Subject_camera_spiraling_202510232327_ejaum.mp4"
+          "filename" : "Subject_camera_spiraling_202510232327_ejaum.mp4",
+          "duration" : 8
         }
-      ],
-      "style" : "Spiraling camera matching wind pattern, darkness when lamp dies (that's where the camera is), her liberation through solitude.",
-      "subject" : "Camera spiraling around [GUÐRÚN] as she stands in the storm, oil lamp flame horizontal in wind then dying, the moment of darkness triggering her first deep breath in years - visible as massive white cloud - finally alone, no one watching except us.",
-      "is_active" : false,
-      "active_video_index" : 0,
-      "camera_position" : "Spiraling camera matching wind pattern, darkness when lamp dies",
-      "action" : "CAMERA SPIRALS counterclockwise matching wind vortex. Guðrún holds lamp fragment, flame bending 90 degrees horizontal. First spiral: flame yellow, fighting. Second spiral: flame blue, shrinking. Her sealskin cloak whipping, revealing wool she pulled from wrists - now 25mm long, wrapped around fingers, already ice-covered. Third spiral: flame dies. Darkness except snow reflecting pre-dawn grey. But in darkness - her breathing changes. Deep inhale, visible as huge white cloud, held, released. First unobserved breath in years. No husband counting. No children needing. Face relaxes into something almost like peace. Wind creates snow spirals around her - five spirals with six intersection points, the pattern everywhere. Her first step: not toward sea but standing still, feeling solitude. Faldbúningur headdress collecting snow, becoming white crown.",
-      "scene" : "Outside house, horizontal snow. Visibility 3 meters. Wind vortex creating natural spiral. -30°C visible in instant ice formation.",
-      "dialogue" : "None - just breathing changing from controlled to free",
-      "progressive_state" : "",
-      "variant_id" : "44a_story_primary"
+      ]
     }
   ],
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "needs_improvements" : false,
+    "id" : "44a",
     "sequence_type" : "main_story",
     "duration_seconds" : 6,
-    "stitch_from" : "",
-    "id" : "44a",
+    "needs_improvements" : false,
     "title" : "LAMP DEATH IN WIND - SPIRALING OUT 6 SECONDS",
-    "narrative_function" : "Storm chaos | Last light dying | Camera frost 30% ..."
-  }
+    "narrative_function" : "Storm chaos | Last light dying | Camera frost 30% ...",
+    "stitch_from" : ""
+  },
+  "aspect_ratio" : "4:3",
+  "progressive_state" : "Storm chaos | Last light dying | Camera frost 30% | Solitude begins | Watching: Only storm"
 }

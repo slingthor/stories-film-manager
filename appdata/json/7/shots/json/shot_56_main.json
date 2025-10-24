@@ -1,11 +1,12 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Family transformation 100% | Human consciousness preserved | Central horror revealed | Watching: Impossible anatomy",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
+      "variant_id" : "56_story_primary",
+      "scene" : "Baðstofa interior with family as conscious livestock, furniture arrangements maintained for bipedal use with quadruped anatomy, impossible cultural preservation through species transformation.",
+      "dialogue" : "None - human consciousness through sheep anatomy unable to form human speech",
+      "subject" : "Five white Icelandic sheep standing upright around table, wearing family's clothes, human teeth visible in sheep mouths, [GUÐRÚN] with faldbúningur headdress fitting perfectly on sheep head, all breathing at 8\/min synchronized rhythm while human consciousness clearly visible through sheep eyes.",
       "negative_prompt" : "no normal sheep behavior, no loss of human consciousness, no realistic clothing fit, no normal family function",
-      "variant_name" : "Conscious Livestock Horror",
+      "action" : "Family arranged in traditional positions but as sheep - Magnús-ram at table head wearing brown vaðmál sweater, curved horns visible, steel-blue eyes showing human intelligence and frustration. Guðrún-ewe with traditional headdress impossible but perfect on sheep skull, human consciousness obvious through horizontal pupils, mouth forming human words through sheep anatomy. Jón-lamb and Lilja-lamb maintaining child positions, human expressive face through animal expressions. Sigrid-ewe at 11-foot distance, belly showing rounded belly through sheep anatomy, grey eyes with amber flecks clearly human consciousness in animal head. All wear family clothing stretched over quadruped bodies, human possessions somehow fitting animal anatomy. Breathing synchronized at 8\/min sheep rhythm but with human awareness visible through eye expression and behavioral complexity impossible with normal livestock intelligence.",
       "selected_plates" : [
         "MAGNUS-SHIFTING",
         "SIGRID-TRANSITIONAL",
@@ -14,61 +15,67 @@
         "GUDRUN-SPEAKING",
         "BAÐSTOFA-CLIFF"
       ],
+      "is_active" : false,
+      "style" : "Wide shot showing complete family transformation while maintaining domestic arrangements (that's where the camera is), documentary of impossible anatomy with cultural continuity.",
+      "variant_name" : "Conscious Livestock Horror",
+      "active_video_index" : 0,
+      "progressive_state" : "",
+      "camera_position" : "Wide shot documenting complete transformation, that's where the camera is",
       "videos" : [
         {
-          "duration" : 8,
           "filename" : "Subject_five_white_202509211841_20f0c.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_20f0c.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_20f0c.mp4",
+          "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_wavwe.mp4",
           "filename" : "Subject_five_white_202509211841_wavwe.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_wavwe.mp4",
           "duration" : 8
         },
         {
-          "duration" : 8,
+          "filename" : "Subject_five_white_202509211841_o5ok8.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_o5ok8.mp4",
-          "filename" : "Subject_five_white_202509211841_o5ok8.mp4"
+          "duration" : 8
         },
         {
+          "duration" : 8,
           "filename" : "Subject_five_white_202509211841_1n5mr.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_1n5mr.mp4",
-          "duration" : 8
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_1n5mr.mp4"
         },
         {
-          "filename" : "Subject_sigrids_transformation_2025102323.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323.mp4",
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323.mp4"
+          "filename" : "Subject_sigrids_transformation_2025102323.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323-2.mp4",
           "filename" : "Subject_sigrids_transformation_2025102323-2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323-2.mp4",
           "duration" : 8
         },
         {
-          "filename" : "Subject_sigridraven_entering_202510232314.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filename" : "Subject_sigridraven_entering_202510232314.mp4"
         },
         {
-          "filename" : "Subject_sigridraven_entering_202510232314-2.mp4",
           "duration" : 8,
+          "filename" : "Subject_sigridraven_entering_202510232314-2.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314-2.mp4"
         },
         {
-          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_124th.mp4",
           "filename" : "Subject_the_house_202510232314_124th.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_124th.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_k50fn.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_house_202510232314_k50fn.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_cgd4p.mp4",
-          "filename" : "Subject_the_house_202510232314_cgd4p.mp4",
           "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_house_202510232314_k50fn.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_k50fn.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_cgd4p.mp4",
+          "filename" : "Subject_the_house_202510232314_cgd4p.mp4"
         },
         {
           "filename" : "Subject_the_house_202510232314_bd128.mp4",
@@ -76,79 +83,79 @@
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_bd128.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510232314_.mp4",
           "duration" : 8,
-          "filename" : "Subject_gurnewe_suddenly_202510232314_.mp4"
+          "filename" : "Subject_gurnewe_suddenly_202510232314_.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510232314_.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510232314_-2.mp4",
           "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510232314_-2.mp4",
           "filename" : "Subject_gurnewe_suddenly_202510232314_-2.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202510232314_kretu.mp4",
+          "filename" : "Subject_light_gradually_202510232314_kretu.mp4",
           "duration" : 8,
-          "filename" : "Subject_light_gradually_202510232314_kretu.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202510232314_kretu.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202510232314_je7r4.mp4",
+          "duration" : 8,
+          "filename" : "Subject_light_gradually_202510232314_je7r4.mp4"
         },
         {
           "duration" : 8,
-          "filename" : "Subject_light_gradually_202510232314_je7r4.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202510232314_je7r4.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_in_the_202510232314_s25w4.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232314_s25w4.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232314_s25w4.mp4",
+          "filename" : "Subject_in_the_202510232314_s25w4.mp4"
         },
         {
           "filename" : "Subject_in_the_202510232315_9efhu.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232315_9efhu.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232315_9efhu.mp4",
+          "duration" : 8
         },
         {
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202510232315_8ifmw.mp4",
-          "filename" : "Subject_a_match_202510232315_8ifmw.mp4",
-          "duration" : 8
+          "filename" : "Subject_a_match_202510232315_8ifmw.mp4"
         },
         {
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202510232315_nm1bj.mp4",
-          "filename" : "Subject_a_match_202510232315_nm1bj.mp4"
+          "filename" : "Subject_a_match_202510232315_nm1bj.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202510232315_nm1bj.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_lzk1f.mp4",
           "duration" : 8,
-          "filename" : "Subject_complete_darkness_202510232315_lzk1f.mp4"
+          "filename" : "Subject_complete_darkness_202510232315_lzk1f.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_lzk1f.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_4ror2.mp4",
+          "filename" : "Subject_complete_darkness_202510232315_4ror2.mp4",
           "duration" : 8,
-          "filename" : "Subject_complete_darkness_202510232315_4ror2.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_4ror2.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_xxxim.mp4",
           "filename" : "Subject_complete_darkness_202510232315_xxxim.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_xxxim.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_complete_darkness_202510232315_884mx.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_884mx.mp4",
           "duration" : 8
         },
         {
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_884mx.mp4",
-          "filename" : "Subject_complete_darkness_202510232315_884mx.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_closeup_pushing_202510232315_0v9ic.mp4",
+          "filename" : "Subject_closeup_pushing_202510232315_0v9ic.mp4"
         },
         {
-          "duration" : 8,
-          "filename" : "Subject_closeup_pushing_202510232315_0v9ic.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_closeup_pushing_202510232315_0v9ic.mp4"
-        },
-        {
-          "duration" : 8,
+          "filename" : "Subject_magns_pushing_202510232315_6hjx5.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202510232315_6hjx5.mp4",
-          "filename" : "Subject_magns_pushing_202510232315_6hjx5.mp4"
+          "duration" : 8
         },
         {
-          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202510232315_neyzw.mp4",
           "filename" : "Subject_magns_pushing_202510232315_neyzw.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202510232315_neyzw.mp4"
+          "duration" : 8
         },
         {
           "filename" : "Subject_five_white_202510232315_ycsbw.mp4",
@@ -156,30 +163,23 @@
           "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202510232316_bjdmz.mp4",
           "filename" : "Subject_five_white_202510232316_bjdmz.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202510232316_bjdmz.mp4",
           "duration" : 8
         }
-      ],
-      "style" : "Wide shot showing complete family transformation while maintaining domestic arrangements (that's where the camera is), documentary of impossible anatomy with cultural continuity.",
-      "subject" : "Five white Icelandic sheep standing upright around table, wearing family's clothes, human teeth visible in sheep mouths, [GUÐRÚN] with faldbúningur headdress fitting perfectly on sheep head, all breathing at 8\/min synchronized rhythm while human consciousness clearly visible through sheep eyes.",
-      "is_active" : false,
-      "active_video_index" : 0,
-      "camera_position" : "Wide shot documenting complete transformation, that's where the camera is",
-      "action" : "Family arranged in traditional positions but as sheep - Magnús-ram at table head wearing brown vaðmál sweater, curved horns visible, steel-blue eyes showing human intelligence and frustration. Guðrún-ewe with traditional headdress impossible but perfect on sheep skull, human consciousness obvious through horizontal pupils, mouth forming human words through sheep anatomy. Jón-lamb and Lilja-lamb maintaining child positions, human expressive face through animal expressions. Sigrid-ewe at 11-foot distance, belly showing rounded belly through sheep anatomy, grey eyes with amber flecks clearly human consciousness in animal head. All wear family clothing stretched over quadruped bodies, human possessions somehow fitting animal anatomy. Breathing synchronized at 8\/min sheep rhythm but with human awareness visible through eye expression and behavioral complexity impossible with normal livestock intelligence.",
-      "scene" : "Baðstofa interior with family as conscious livestock, furniture arrangements maintained for bipedal use with quadruped anatomy, impossible cultural preservation through species transformation.",
-      "dialogue" : "None - human consciousness through sheep anatomy unable to form human speech",
-      "variant_id" : "56_story_primary",
-      "progressive_state" : ""
+      ]
     }
   ],
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "needs_improvements" : false,
+    "id" : "56",
     "sequence_type" : "main_story",
     "duration_seconds" : 8,
-    "stitch_from" : "",
-    "id" : "56",
+    "needs_improvements" : false,
     "title" : "Family as Sheep - Central Horror Image",
-    "narrative_function" : "Reveals family transformation with human consciousness retained"
-  }
+    "narrative_function" : "Reveals family transformation with human consciousness retained",
+    "stitch_from" : ""
+  },
+  "aspect_ratio" : "4:3",
+  "progressive_state" : "Family transformation 100% | Human consciousness preserved | Central horror revealed | Watching: Impossible anatomy"
 }

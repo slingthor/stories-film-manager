@@ -1,11 +1,12 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Identity collapsed | Camera frost 48% | Culture perverted | Watching: We see blasphemy",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
+      "variant_id" : "56b_story_primary",
+      "scene" : "Close on ewe head with headdress. Cultural symbol on animal. Identity collapsed.",
+      "dialogue" : "None - just breathing through wrong throat",
+      "subject" : "Close-up pushing in on [GUÐRÚN] as ewe wearing the faldbúningur headdress, the traditional Icelandic women's crown sitting absurdly on sheep head, white wool against white fabric, human dignity on animal form.",
       "negative_prompt" : "",
-      "variant_name" : "Primary - THE HEADDRESS SHEEP - CULTURAL HORROR 5 SECONDS",
+      "action" : "SLOW PUSH IN on Guðrún-ewe's head. Faldbúningur headdress - symbol of Icelandic womanhood, marriages, tradition - perched on sheep skull. Too wide for human head shape. Sliding forward over horizontal eyes. She tries to adjust it with hooves, can't. The white fabric against white wool makes her almost invisible - just eyes and headdress floating. Push closer: human teeth visible when she opens mouth to breathe. Dental work still there - one silver filling catching light. The ultimate perversion: cultural identity on livestock. She breathes at 11\/min - the synchronized rate. Still controlled. Still administered. Danish colonialism made them animals wearing human costume. Now costume doesn't fit. Never did.",
       "selected_plates" : [
         "MAGNUS-RECOGNIZING",
         "SIGRID-TRANSITIONAL",
@@ -14,56 +15,62 @@
         "GUDRUN-SPEAKING",
         "BAÐSTOFA-CLIFF"
       ],
+      "is_active" : false,
+      "style" : "Push in on perverted identity (that's where the camera is), cultural horror documented.",
+      "variant_name" : "Primary - THE HEADDRESS SHEEP - CULTURAL HORROR 5 SECONDS",
+      "active_video_index" : 0,
+      "progressive_state" : "",
+      "camera_position" : "Push in on perverted identity",
       "videos" : [
         {
           "filename" : "20251019_1801_01k7zh7a83ejrvgg6841dmaqwz.mp4",
-          "duration" : 15.088666666666667,
-          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1801_01k7zh7a83ejrvgg6841dmaqwz.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1801_01k7zh7a83ejrvgg6841dmaqwz.mp4",
+          "duration" : 15.088666666666667
         },
         {
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323.mp4",
-          "filename" : "Subject_sigrids_transformation_2025102323.mp4",
-          "duration" : 8
+          "filename" : "Subject_sigrids_transformation_2025102323.mp4"
         },
         {
           "filename" : "Subject_sigrids_transformation_2025102323-2.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323-2.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323-2.mp4"
         },
         {
-          "filename" : "Subject_sigridraven_entering_202510232314.mp4",
           "duration" : 8,
+          "filename" : "Subject_sigridraven_entering_202510232314.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314.mp4"
         },
         {
           "duration" : 8,
-          "filename" : "Subject_sigridraven_entering_202510232314-2.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314-2.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314-2.mp4",
+          "filename" : "Subject_sigridraven_entering_202510232314-2.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_124th.mp4",
+          "filename" : "Subject_the_house_202510232314_124th.mp4",
           "duration" : 8,
-          "filename" : "Subject_the_house_202510232314_124th.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_124th.mp4"
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_k50fn.mp4",
-          "filename" : "Subject_the_house_202510232314_k50fn.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_house_202510232314_k50fn.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_cgd4p.mp4",
+          "filename" : "Subject_the_house_202510232314_cgd4p.mp4"
+        },
+        {
+          "filename" : "Subject_the_house_202510232314_bd128.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_bd128.mp4",
           "duration" : 8
         },
         {
-          "filename" : "Subject_the_house_202510232314_cgd4p.mp4",
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_cgd4p.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_bd128.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_house_202510232314_bd128.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510232314_.mp4",
-          "duration" : 8,
-          "filename" : "Subject_gurnewe_suddenly_202510232314_.mp4"
+          "filename" : "Subject_gurnewe_suddenly_202510232314_.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510232314_.mp4"
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510232314_-2.mp4",
@@ -71,43 +78,43 @@
           "filename" : "Subject_gurnewe_suddenly_202510232314_-2.mp4"
         },
         {
-          "duration" : 8,
           "filename" : "Subject_light_gradually_202510232314_kretu.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202510232314_kretu.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202510232314_kretu.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202510232314_je7r4.mp4",
+          "duration" : 8,
+          "filename" : "Subject_light_gradually_202510232314_je7r4.mp4"
         },
         {
           "duration" : 8,
-          "filename" : "Subject_light_gradually_202510232314_je7r4.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202510232314_je7r4.mp4"
-        },
-        {
           "filename" : "Subject_in_the_202510232314_s25w4.mp4",
-          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232314_s25w4.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232315_9efhu.mp4",
           "filename" : "Subject_in_the_202510232315_9efhu.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232315_9efhu.mp4",
           "duration" : 8
         },
         {
-          "duration" : 8,
+          "filename" : "Subject_a_match_202510232315_8ifmw.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202510232315_8ifmw.mp4",
-          "filename" : "Subject_a_match_202510232315_8ifmw.mp4"
+          "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202510232315_nm1bj.mp4",
           "filename" : "Subject_a_match_202510232315_nm1bj.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202510232315_nm1bj.mp4",
           "duration" : 8
         },
         {
           "duration" : 8,
-          "filename" : "Subject_complete_darkness_202510232315_lzk1f.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_lzk1f.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_lzk1f.mp4",
+          "filename" : "Subject_complete_darkness_202510232315_lzk1f.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_4ror2.mp4",
           "filename" : "Subject_complete_darkness_202510232315_4ror2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_4ror2.mp4",
           "duration" : 8
         },
         {
@@ -117,34 +124,27 @@
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_884mx.mp4",
-          "duration" : 8,
-          "filename" : "Subject_complete_darkness_202510232315_884mx.mp4"
+          "filename" : "Subject_complete_darkness_202510232315_884mx.mp4",
+          "duration" : 8
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_closeup_pushing_202510232315_0v9ic.mp4",
           "duration" : 8,
           "filename" : "Subject_closeup_pushing_202510232315_0v9ic.mp4"
         }
-      ],
-      "style" : "Push in on perverted identity (that's where the camera is), cultural horror documented.",
-      "subject" : "Close-up pushing in on [GUÐRÚN] as ewe wearing the faldbúningur headdress, the traditional Icelandic women's crown sitting absurdly on sheep head, white wool against white fabric, human dignity on animal form.",
-      "is_active" : false,
-      "active_video_index" : 0,
-      "camera_position" : "Push in on perverted identity",
-      "action" : "SLOW PUSH IN on Guðrún-ewe's head. Faldbúningur headdress - symbol of Icelandic womanhood, marriages, tradition - perched on sheep skull. Too wide for human head shape. Sliding forward over horizontal eyes. She tries to adjust it with hooves, can't. The white fabric against white wool makes her almost invisible - just eyes and headdress floating. Push closer: human teeth visible when she opens mouth to breathe. Dental work still there - one silver filling catching light. The ultimate perversion: cultural identity on livestock. She breathes at 11\/min - the synchronized rate. Still controlled. Still administered. Danish colonialism made them animals wearing human costume. Now costume doesn't fit. Never did.",
-      "scene" : "Close on ewe head with headdress. Cultural symbol on animal. Identity collapsed.",
-      "dialogue" : "None - just breathing through wrong throat",
-      "variant_id" : "56b_story_primary",
-      "progressive_state" : ""
+      ]
     }
   ],
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "needs_improvements" : false,
+    "id" : "56b",
     "sequence_type" : "main_story",
     "duration_seconds" : 5,
-    "stitch_from" : "",
-    "id" : "56b",
+    "needs_improvements" : false,
     "title" : "THE HEADDRESS SHEEP - CULTURAL HORROR 5 SECONDS",
-    "narrative_function" : "Identity collapsed | Camera frost 48% | Culture pe..."
-  }
+    "narrative_function" : "Identity collapsed | Camera frost 48% | Culture pe...",
+    "stitch_from" : ""
+  },
+  "aspect_ratio" : "4:3",
+  "progressive_state" : "Identity collapsed | Camera frost 48% | Culture perverted | Watching: We see blasphemy"
 }

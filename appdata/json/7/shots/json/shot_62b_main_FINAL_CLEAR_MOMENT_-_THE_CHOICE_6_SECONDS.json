@@ -1,11 +1,9 @@
 {
-  "aspect_ratio" : "2.39:1",
-  "progressive_state" : "Last clarity | Frost 85%â†’95% | Decision point | Watching: Choose what to see",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "negative_prompt" : "",
+      "action" : "Through 15% clear center, FINAL ZOOM. Past obelisk - goodbye monument. Past family in glass - goodbye sacrifice. Through time. To 1944. June 17. Independence vote. Finding: Sigrid. Human again. Old woman. 72 years. Weathered. Beautiful. In voting booth. Pencil in hand that was once wing. Marking \"JÐ\" (YES) on ballot. For independence. For freedom. Tears on her face. Remembering everything. The transformation. The escape. The egg that became her daughter. Who stands beside her. Also voting. Three generations: the sacrifice (in glass), the witness (Sigrid), the free (daughter). Camera holds this. Last clear image. The \"JÐ\" being written. The pencil stroke that ends colonization. Frost creeping: 90%. 92%. 95%. Vision narrowing to just her hand. Just the mark. Just \"JÐ\". The word that changes everything. That makes all sacrifice worth it. That completes the cycle. 95% - almost blind. But saw what mattered.",
       "variant_name" : "Primary - FINAL CLEAR MOMENT - THE CHOICE 6 SECONDS",
+      "active_video_index" : 0,
       "selected_plates" : [
         "MAGNUS-RAM",
         "SIGRID-CORVID",
@@ -15,10 +13,14 @@
         "SEA-ETERNAL",
         "WESTFJORDS-CLIFF"
       ],
+      "is_active" : false,
+      "camera_position" : "Final zoom on crucial moment",
+      "dialogue" : "None - action speaks",
+      "subject" : "In the tiny remaining clear center, the camera must choose what to see last - zooming past obelisk, past preserved family, finding Sigrid-raven in 1944, aged 72, human again, voting \"JÐ\" for independence, tears on weathered face.",
       "videos" : [
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510192217_0bzg5.mp4",
           "filename" : "Subject_in_the_202510192217_0bzg5.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510192217_0bzg5.mp4",
           "duration" : 8
         },
         {
@@ -28,23 +30,23 @@
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magnus_pushing_202510232252_ynkpu.mp4",
-          "filename" : "Subject_magnus_pushing_202510232252_ynkpu.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filename" : "Subject_magnus_pushing_202510232252_ynkpu.mp4"
         },
         {
-          "filename" : "Subject_magnus_pushing_202510232252_qpi5w.mp4",
           "duration" : 8,
+          "filename" : "Subject_magnus_pushing_202510232252_qpi5w.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magnus_pushing_202510232252_qpi5w.mp4"
         },
         {
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510232252_abeda.mp4",
-          "filename" : "Subject_the_final_202510232252_abeda.mp4",
-          "duration" : 8
+          "filename" : "Subject_the_final_202510232252_abeda.mp4"
         },
         {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510232252_rcrgm.mp4",
           "filename" : "Subject_the_final_202510232252_rcrgm.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510232252_rcrgm.mp4"
+          "duration" : 8
         },
         {
           "duration" : 8,
@@ -52,25 +54,23 @@
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232253_1o0nq.mp4"
         }
       ],
-      "style" : "Final zoom on crucial moment (that's where the camera is), last clear vision.",
-      "subject" : "In the tiny remaining clear center, the camera must choose what to see last - zooming past obelisk, past preserved family, finding Sigrid-raven in 1944, aged 72, human again, voting \"JÐ\" for independence, tears on weathered face.",
-      "is_active" : false,
-      "active_video_index" : 0,
-      "camera_position" : "Final zoom on crucial moment",
-      "action" : "Through 15% clear center, FINAL ZOOM. Past obelisk - goodbye monument. Past family in glass - goodbye sacrifice. Through time. To 1944. June 17. Independence vote. Finding: Sigrid. Human again. Old woman. 72 years. Weathered. Beautiful. In voting booth. Pencil in hand that was once wing. Marking \"JÐ\" (YES) on ballot. For independence. For freedom. Tears on her face. Remembering everything. The transformation. The escape. The egg that became her daughter. Who stands beside her. Also voting. Three generations: the sacrifice (in glass), the witness (Sigrid), the free (daughter). Camera holds this. Last clear image. The \"JÐ\" being written. The pencil stroke that ends colonization. Frost creeping: 90%. 92%. 95%. Vision narrowing to just her hand. Just the mark. Just \"JÐ\". The word that changes everything. That makes all sacrifice worth it. That completes the cycle. 95% - almost blind. But saw what mattered.",
-      "scene" : "1944 voting booth. Sigrid's aged hand. Independence ballot. \"JÐ\" being marked.",
-      "dialogue" : "None - action speaks",
+      "negative_prompt" : "",
       "variant_id" : "62b_story_primary",
-      "progressive_state" : ""
+      "progressive_state" : "",
+      "style" : "Final zoom on crucial moment (that's where the camera is), last clear vision.",
+      "scene" : "1944 voting booth. Sigrid's aged hand. Independence ballot. \"JÐ\" being marked."
     }
   ],
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "needs_improvements" : false,
+    "id" : "62b",
     "sequence_type" : "main_story",
     "duration_seconds" : 6,
-    "stitch_from" : "",
-    "id" : "62b",
+    "needs_improvements" : false,
     "title" : "FINAL CLEAR MOMENT - THE CHOICE 6 SECONDS",
-    "narrative_function" : "Last clarity | Frost 85%â†’95% | Decision point | ..."
-  }
+    "narrative_function" : "Last clarity | Frost 85%â†’95% | Decision point | ...",
+    "stitch_from" : ""
+  },
+  "aspect_ratio" : "2.39:1",
+  "progressive_state" : "Last clarity | Frost 85%â†’95% | Decision point | Watching: Choose what to see"
 }

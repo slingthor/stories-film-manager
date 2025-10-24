@@ -1,47 +1,67 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "House 4\/min + 80bpm | Tilberi contaminated | Camera frost 17% | Creation breathing | Watching: All four watching",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
+      "style" : "Close on creature revealing impossible anatomy, pulling back to show witnesses (that's where the camera is), documentary of wrong birth.",
+      "variant_id" : "25_story_primary",
       "negative_prompt" : "no subtitles, show industrial-organic fusion, multiple breathing, documentary observation",
-      "variant_name" : "Primary - THE WRONG THING BORN 8 SECONDS",
+      "active_video_index" : 0,
+      "baked_prompts_metadata_file" : "25_story_primary_metadata.json",
+      "dialogue" : "(Creature): Rope creaking\/baby crying sound (Sigrid, maternal): \"Hvað er þú?\" (What are you?) (Guðrún): Wordless horror gasp",
+      "subject" : "The contaminated tilberi creation on the floor beginning to breathe and move - industrial rope skeleton visible through translucent flesh, brass button eye blinking green tears, multiple respiratory rhythms (8\/min, 12\/min, 20\/min) creating impossible life, neither traditional creature nor industrial machine.",
+      "camera_position" : "Close on creature revealing impossible anatomy, pulling back to show witnesses",
+      "action" : "The thing on floor moves. Not tilberi - something wrong. Rope has become external skeleton, black hemp bones visible through grey-white flesh that's forming from wool and blood. Brass button hasn't become eye but IS eye - industrial green iris, weeping verdigris tears that burn floor. It breathes but wrong - three different rhythms simultaneously: 8\/min (human), 12\/min (house), 20\/min (sheep). Each breath from different part of body, creating undulation. Tries to stand but rope-bones bend wrong way. Falls. Tries again. When it moves, makes sound of rope creaking mixed with newborn's cry. Sigrid, possession breaking, reaches toward it - maternal instinct despite horror. It reaches back with appendage that's part hoof, part hand, part mechanical grabber. Green tears from brass eye burn trails in floor. Size of cat but growing, feeding on ambient industrial contamination. Through windows, all four landvættir watching - trawler lights, steam from polynya, house breathing, raven shadow circling.",
+      "videos" : [
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_contaminated_tilberi_202510191542_dl.mp4",
+          "duration" : 8,
+          "filename" : "Subject_contaminated_tilberi_202510191542_dl.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_contaminated_tilberi_202510191542_sx.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_contaminated_tilberi_202510191542_sx.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_ekku.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_collapsed_202510240007_ekku.mp4"
+        },
+        {
+          "filename" : "Subject_magns_collapsed_202510240007_mkt0.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_mkt0.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_fvlyf.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_contaminated_202510240007_fvlyf.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_contaminated_202510240007_it5ua.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_it5ua.mp4"
+        }
+      ],
+      "scene" : "Floor with abomination breathing. Four cardinal directions showing watchers. Family frozen in horror. Temperature -23°C from summoning cost.",
       "selected_plates" : [
         "BAÐSTOFA-BODY",
         "STOFA-BODY"
       ],
-      "videos" : [
-        {
-          "duration" : 8,
-          "filename" : "Subject_contaminated_tilberi_202510191542_dl.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_contaminated_tilberi_202510191542_dl.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_contaminated_tilberi_202510191542_sx.mp4",
-          "duration" : 8,
-          "filename" : "Subject_contaminated_tilberi_202510191542_sx.mp4"
-        }
-      ],
-      "baked_prompts_metadata_file" : "25_story_primary_metadata.json",
-      "style" : "Close on creature revealing impossible anatomy, pulling back to show witnesses (that's where the camera is), documentary of wrong birth.",
-      "subject" : "The contaminated tilberi creation on the floor beginning to breathe and move - industrial rope skeleton visible through translucent flesh, brass button eye blinking green tears, multiple respiratory rhythms (8\/min, 12\/min, 20\/min) creating impossible life, neither traditional creature nor industrial machine.",
-      "is_active" : false,
-      "active_video_index" : 0,
-      "camera_position" : "Close on creature revealing impossible anatomy, pulling back to show witnesses",
-      "action" : "The thing on floor moves. Not tilberi - something wrong. Rope has become external skeleton, black hemp bones visible through grey-white flesh that's forming from wool and blood. Brass button hasn't become eye but IS eye - industrial green iris, weeping verdigris tears that burn floor. It breathes but wrong - three different rhythms simultaneously: 8\/min (human), 12\/min (house), 20\/min (sheep). Each breath from different part of body, creating undulation. Tries to stand but rope-bones bend wrong way. Falls. Tries again. When it moves, makes sound of rope creaking mixed with newborn's cry. Sigrid, possession breaking, reaches toward it - maternal instinct despite horror. It reaches back with appendage that's part hoof, part hand, part mechanical grabber. Green tears from brass eye burn trails in floor. Size of cat but growing, feeding on ambient industrial contamination. Through windows, all four landvættir watching - trawler lights, steam from polynya, house breathing, raven shadow circling.",
-      "scene" : "Floor with abomination breathing. Four cardinal directions showing watchers. Family frozen in horror. Temperature -23°C from summoning cost.",
-      "dialogue" : "(Creature): Rope creaking\/baby crying sound (Sigrid, maternal): \"Hvað er þú?\" (What are you?) (Guðrún): Wordless horror gasp",
+      "variant_name" : "Primary - THE WRONG THING BORN 8 SECONDS",
       "progressive_state" : "",
-      "variant_id" : "25_story_primary"
+      "is_active" : false
     }
   ],
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
+  "progressive_state" : "House 4\/min + 80bpm | Tilberi contaminated | Camera frost 17% | Creation breathing | Watching: All four watching",
   "shot_metadata" : {
-    "needs_improvements" : false,
-    "sequence_type" : "main_story",
     "duration_seconds" : 8,
-    "stitch_from" : "",
     "id" : "25",
+    "sequence_type" : "main_story",
     "title" : "THE WRONG THING BORN 8 SECONDS",
-    "narrative_function" : "House 4\/min + 80bpm | Tilberi contaminated | Camer..."
+    "narrative_function" : "House 4\/min + 80bpm | Tilberi contaminated | Camer...",
+    "stitch_from" : "",
+    "needs_improvements" : false
   }
 }

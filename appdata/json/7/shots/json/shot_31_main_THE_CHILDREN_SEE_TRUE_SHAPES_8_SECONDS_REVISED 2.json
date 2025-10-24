@@ -1,72 +1,126 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "House 4\/min dying + 80bpm | surreal visual | Camera frost 20% | Children's vision | Watching: House watching them",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "negative_prompt" : "no subtitles, show dual shadows clearly, réttir patterns in floor, documentary observation, no text overlays, no screen space overlays, no text, no modern elements except if prompt explicitly mentions a modern element, no characters or other scenes floating on top of main scene",
-      "variant_name" : "Primary - THE CHILDREN SEE TRUE SHAPES 8 SECONDS REVISED",
-      "selected_plates" : [
-        "SIGRID-ORACLE",
-        "LILJA-COMMUNICATING",
-        "JON-CHANGING",
-        "GUDRUN-PRODUCING",
-        "SEA-EXTRACTED",
-        "BAÐSTOFA-CLEFT"
-      ],
+      "action" : "Jón's fever breaks him through reality's veil. Points at Guðrún: \"Ein kind\" (one sheep). At empty clothes: \"Tvær kindur\" (two sheep). At Sigrid: \"Þrjár kindur\" (three sheep). Counts what he SEES, not what's there. Lilja, following his lead, arranges her dolls on floor where réttir patterns show clear - five pens radiating from center, but six intersection points. Places dolls as sheep being sorted. Her doll with brass button eyes placed in center - the forystufé, lead wether that guides others to slaughter. Floor patterns deepening, revealing stone underneath packed earth - ancient réttir were always here, house built on them. Through fever-bright eyes, Jón sees more: everyone has two shadows - human and animal. Sigrid's shadow shows raven wings. Guðrún's shows ewe with faldbúningur. His own shows lamb, sick and stumbling. The shadows move independently, rehearsing transformation. Lilja hums Krummi tune: \"verður margt að meini\" (much becomes harmful) - understanding the prophecy.",
+      "subject" : "[JÐ“N] and [LILJA] huddled together on sleeping platform, the boy's 39°C fever allowing him to see everyone's true shapes - pointing at each family member and counting sheep not people: \"Ein kind, tvær kindur, þrjár...\" while Lilja arranges her doll family in réttir formation, the floor's worn patterns now clearly visible as ancient sorting pens.",
+      "progressive_state" : "",
+      "dialogue" : "(Jón, fevered counting): \"Ein kind, tvær kindur, þrjár, fjórar, fimm... sex?\" (Pointing at empty space): \"Sjötta kindin\" (The sixth sheep) (Lilja, humming): \"Verður margt að meini...\"",
+      "scene" : "Children's sleeping platform, 9:10 AM dark. Temperature -23°C. Floor patterns visible as ancient stone réttir beneath earth. Everyone's dual shadows visible in landvættir light from windows.",
       "videos" : [
         {
+          "filename" : "Subject_jn_8yearold_202510191543_j94tf.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_8yearold_202510191543_j94tf.mp4",
-          "duration" : 8,
-          "filename" : "Subject_jn_8yearold_202510191543_j94tf.mp4"
+          "duration" : 8
         },
         {
-          "duration" : 8,
           "filename" : "Subject_jn_8yearold_202510191543_hm12x.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_8yearold_202510191543_hm12x.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_8yearold_202510191543_hm12x.mp4",
+          "duration" : 8
         },
         {
+          "filename" : "Subject_jn_and_202510191543_4fc08.mp4",
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510191543_4fc08.mp4",
-          "filename" : "Subject_jn_and_202510191543_4fc08.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510191543_4fc08.mp4"
         },
         {
-          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510191543_nkh1b.mp4",
           "filename" : "Subject_jn_and_202510191543_nkh1b.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510191543_nkh1b.mp4"
-        },
-        {
-          "filename" : "Rack_focus_between_202510191628_nr0ok.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Rack_focus_between_202510191628_nr0ok.mp4",
           "duration" : 8
         },
         {
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Rack_focus_between_202510191628_snkst.mp4",
-          "filename" : "Rack_focus_between_202510191628_snkst.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Rack_focus_between_202510191628_nr0ok.mp4",
+          "filename" : "Rack_focus_between_202510191628_nr0ok.mp4"
+        },
+        {
+          "filename" : "Rack_focus_between_202510191628_snkst.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Rack_focus_between_202510191628_snkst.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_trawler_202510240003_txilg.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_txilg.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_trawler_202510240003_zgstl.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_zgstl.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_raising_202510240003_3jlp0.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_raising_202510240003_3jlp0.mp4"
+        },
+        {
+          "filename" : "Subject_magns_raising_202510240003_c0jzw.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_raising_202510240003_c0jzw.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_reaching_202510240003_7wa1e.mp4",
+          "filename" : "Subject_magns_reaching_202510240003_7wa1e.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_reaching_202510240003_m3rsq.mp4",
+          "filename" : "Subject_magns_reaching_202510240003_m3rsq.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_nbgln.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_trawler_202510240003_nbgln.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_bl606.mp4",
+          "filename" : "Subject_the_trawler_202510240003_bl606.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_magns_pulling_202510240003_n3t9w.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pulling_202510240003_n3t9w.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pulling_202510240003_dau04.mp4",
+          "filename" : "Subject_magns_pulling_202510240003_dau04.mp4"
+        },
+        {
+          "filename" : "Subject_underwater_camera_202510240004_ty49r.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_underwater_camera_202510240004_ty49r.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_underwater_camera_202510240004_x86el.mp4",
+          "duration" : 8,
+          "filename" : "Subject_underwater_camera_202510240004_x86el.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510240004_jtyhy.mp4",
+          "duration" : 8,
+          "filename" : "Subject_jn_and_202510240004_jtyhy.mp4"
+        },
+        {
+          "filename" : "Subject_jn_and_202510240004_lub2n.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510240004_lub2n.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510240004_tt8oi.mp4",
+          "filename" : "Subject_jn_and_202510240004_tt8oi.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_jn_and_202510240004_2rn2y.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510240004_2rn2y.mp4",
+          "duration" : 8
         }
       ],
+      "variant_name" : "Primary - THE CHILDREN SEE TRUE SHAPES 8 SECONDS REVISED",
       "style" : "Child's eye level showing dual realities overlapping (that's where the camera is), documentary of innocent revelation.",
-      "subject" : "[JÐ“N] and [LILJA] huddled together on sleeping platform, the boy's 39°C fever allowing him to see everyone's true shapes - pointing at each family member and counting sheep not people: \"Ein kind, tvær kindur, þrjár...\" while Lilja arranges her doll family in réttir formation, the floor's worn patterns now clearly visible as ancient sorting pens.",
-      "is_active" : false,
       "active_video_index" : 0,
-      "camera_position" : "Child's eye level showing dual realities overlapping",
-      "action" : "Jón's fever breaks him through reality's veil. Points at Guðrún: \"Ein kind\" (one sheep). At empty clothes: \"Tvær kindur\" (two sheep). At Sigrid: \"Þrjár kindur\" (three sheep). Counts what he SEES, not what's there. Lilja, following his lead, arranges her dolls on floor where réttir patterns show clear - five pens radiating from center, but six intersection points. Places dolls as sheep being sorted. Her doll with brass button eyes placed in center - the forystufé, lead wether that guides others to slaughter. Floor patterns deepening, revealing stone underneath packed earth - ancient réttir were always here, house built on them. Through fever-bright eyes, Jón sees more: everyone has two shadows - human and animal. Sigrid's shadow shows raven wings. Guðrún's shows ewe with faldbúningur. His own shows lamb, sick and stumbling. The shadows move independently, rehearsing transformation. Lilja hums Krummi tune: \"verður margt að meini\" (much becomes harmful) - understanding the prophecy.",
-      "scene" : "Children's sleeping platform, 9:10 AM dark. Temperature -23°C. Floor patterns visible as ancient stone réttir beneath earth. Everyone's dual shadows visible in landvættir light from windows.",
-      "dialogue" : "(Jón, fevered counting): \"Ein kind, tvær kindur, þrjár, fjórar, fimm... sex?\" (Pointing at empty space): \"Sjötta kindin\" (The sixth sheep) (Lilja, humming): \"Verður margt að meini...\"",
-      "variant_id" : "31_story_primary",
-      "progressive_state" : ""
-    },
-    {
-      "variant_name" : "THE CHILDREN SEE TRUE SHAPES - VEO3 Low Sanitized",
-      "variant_id" : "31_veo3_low_sanitized",
-      "scene" : "Children's sleeping platform, 9:10 AM dark. Temperature -23°C. Floor patterns visible as ancient stone réttir beneath earth. Everyone's dual shadows visible in landvættir light from windows.",
-      "progressive_state" : "",
-      "action" : "Jón's fever breaks him through reality's veil. Points at Guðrún: \"Ein kind\" (one sheep). At empty clothes: \"Tvær kindur\" (two sheep). At Sigrid: \"Þrjár kindur\" (three sheep). Counts what he SEES, not what's there. Lilja, following his lead, arranges her dolls on floor where réttir patterns show clear - five pens radiating from center, but six intersection points. Places dolls as sheep being sorted. Her doll with brass button eyes placed in center - the forystufé, lead sheep that guides others through the pens. Floor patterns deepening, revealing stone underneath packed earth - ancient réttir were always here, house built on them. Through fever-bright eyes, Jón sees more: everyone has two shadows - human and animal. Sigrid's shadow shows raven wings. Guðrún's shadow shows ewe with faldbúningur. His own shadow shows a small lamb, moving differently. The shadows move independently, rehearsing transformation. Lilja hums Krummi tune: \"verður margt að meini\" (much becomes harmful) - understanding the prophecy.",
-      "camera_position" : "Child's eye level showing dual realities overlapping",
-      "is_active" : false,
-      "subject" : "[JÓN] and [LILJA] huddled together on sleeping platform, the boy's 39°C fever allowing him to see everyone's true shapes - pointing at each family member and counting sheep not people: \"Ein kind, tvær kindur, þrjár...\" while Lilja arranges her doll family in réttir formation, the floor's worn patterns now clearly visible as ancient sorting pens.",
-      "style" : "Child's eye level showing dual realities overlapping (that's where the camera is), documentary of innocent revelation.",
       "selected_plates" : [
         "SIGRID-ORACLE",
         "LILJA-COMMUNICATING",
@@ -76,16 +130,115 @@
         "BAÐSTOFA-CLEFT"
       ],
       "negative_prompt" : "no subtitles, show dual shadows clearly, réttir patterns in floor, documentary observation, no text overlays, no screen space overlays, no text, no modern elements except if prompt explicitly mentions a modern element, no characters or other scenes floating on top of main scene",
-      "dialogue" : "(Jón, fevered counting): \"Ein kind, tvær kindur, þrjár, fjórar, fimm... sex?\" (Pointing at empty space): \"Sjötta kindin\" (The sixth sheep) (Lilja, humming): \"Verður margt að meini...\""
+      "variant_id" : "31_story_primary",
+      "camera_position" : "Child's eye level showing dual realities overlapping",
+      "is_active" : false
+    },
+    {
+      "action" : "Jón's fever breaks him through reality's veil. Points at Guðrún: \"Ein kind\" (one sheep). At empty clothes: \"Tvær kindur\" (two sheep). At Sigrid: \"Þrjár kindur\" (three sheep). Counts what he SEES, not what's there. Lilja, following his lead, arranges her dolls on floor where réttir patterns show clear - five pens radiating from center, but six intersection points. Places dolls as sheep being sorted. Her doll with brass button eyes placed in center - the forystufé, lead sheep that guides others through the pens. Floor patterns deepening, revealing stone underneath packed earth - ancient réttir were always here, house built on them. Through fever-bright eyes, Jón sees more: everyone has two shadows - human and animal. Sigrid's shadow shows raven wings. Guðrún's shadow shows ewe with faldbúningur. His own shadow shows a small lamb, moving differently. The shadows move independently, rehearsing transformation. Lilja hums Krummi tune: \"verður margt að meini\" (much becomes harmful) - understanding the prophecy.",
+      "variant_name" : "THE CHILDREN SEE TRUE SHAPES - VEO3 Low Sanitized",
+      "active_video_index" : 0,
+      "selected_plates" : [
+        "SIGRID-ORACLE",
+        "LILJA-COMMUNICATING",
+        "JON-CHANGING",
+        "GUDRUN-PRODUCING",
+        "SEA-EXTRACTED",
+        "BAÐSTOFA-CLEFT"
+      ],
+      "is_active" : false,
+      "camera_position" : "Child's eye level showing dual realities overlapping",
+      "dialogue" : "(Jón, fevered counting): \"Ein kind, tvær kindur, þrjár, fjórar, fimm... sex?\" (Pointing at empty space): \"Sjötta kindin\" (The sixth sheep) (Lilja, humming): \"Verður margt að meini...\"",
+      "subject" : "[JÓN] and [LILJA] huddled together on sleeping platform, the boy's 39°C fever allowing him to see everyone's true shapes - pointing at each family member and counting sheep not people: \"Ein kind, tvær kindur, þrjár...\" while Lilja arranges her doll family in réttir formation, the floor's worn patterns now clearly visible as ancient sorting pens.",
+      "videos" : [
+        {
+          "filename" : "Subject_the_trawler_202510240003_txilg.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_txilg.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_trawler_202510240003_zgstl.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_zgstl.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_raising_202510240003_3jlp0.mp4",
+          "filename" : "Subject_magns_raising_202510240003_3jlp0.mp4"
+        },
+        {
+          "filename" : "Subject_magns_raising_202510240003_c0jzw.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_raising_202510240003_c0jzw.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_reaching_202510240003_7wa1e.mp4",
+          "filename" : "Subject_magns_reaching_202510240003_7wa1e.mp4"
+        },
+        {
+          "filename" : "Subject_magns_reaching_202510240003_m3rsq.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_reaching_202510240003_m3rsq.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_trawler_202510240003_nbgln.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_nbgln.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_bl606.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_trawler_202510240003_bl606.mp4"
+        },
+        {
+          "filename" : "Subject_magns_pulling_202510240003_n3t9w.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pulling_202510240003_n3t9w.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_magns_pulling_202510240003_dau04.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pulling_202510240003_dau04.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_underwater_camera_202510240004_ty49r.mp4",
+          "duration" : 8,
+          "filename" : "Subject_underwater_camera_202510240004_ty49r.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_underwater_camera_202510240004_x86el.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_underwater_camera_202510240004_x86el.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510240004_jtyhy.mp4",
+          "duration" : 8,
+          "filename" : "Subject_jn_and_202510240004_jtyhy.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510240004_lub2n.mp4",
+          "filename" : "Subject_jn_and_202510240004_lub2n.mp4"
+        }
+      ],
+      "negative_prompt" : "no subtitles, show dual shadows clearly, réttir patterns in floor, documentary observation, no text overlays, no screen space overlays, no text, no modern elements except if prompt explicitly mentions a modern element, no characters or other scenes floating on top of main scene",
+      "variant_id" : "31_veo3_low_sanitized",
+      "progressive_state" : "",
+      "style" : "Child's eye level showing dual realities overlapping (that's where the camera is), documentary of innocent revelation.",
+      "scene" : "Children's sleeping platform, 9:10 AM dark. Temperature -23°C. Floor patterns visible as ancient stone réttir beneath earth. Everyone's dual shadows visible in landvættir light from windows."
     }
   ],
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "needs_improvements" : false,
+    "id" : "31",
     "sequence_type" : "main_story",
     "duration_seconds" : 8,
-    "stitch_from" : "",
-    "id" : "31",
+    "needs_improvements" : false,
     "title" : "THE CHILDREN SEE TRUE SHAPES 8 SECONDS REVISED",
-    "narrative_function" : "House 4\/min dying + 80bpm | surreal visual | Cam..."
-  }
+    "narrative_function" : "House 4\/min dying + 80bpm | surreal visual | Cam...",
+    "stitch_from" : ""
+  },
+  "aspect_ratio" : "4:3",
+  "progressive_state" : "House 4\/min dying + 80bpm | surreal visual | Camera frost 20% | Children's vision | Watching: House watching them"
 }

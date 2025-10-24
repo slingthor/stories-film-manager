@@ -1,11 +1,20 @@
 {
-  "aspect_ratio" : "1:1",
+  "shot_metadata" : {
+    "title" : "SEKS - THE IMPOSSIBLE COUNT",
+    "stitch_from" : "",
+    "narrative_function" : "House 13\/min + 60bpm heartbeat | Klettagjá 1mm \"F...",
+    "needs_improvements" : true,
+    "duration_seconds" : 8,
+    "sequence_type" : "main_story",
+    "id" : "10"
+  },
   "progressive_state" : "House 13\/min + 60bpm heartbeat | Klettagjá 1mm \"FÐ“RN\" visible | Synchronized horror | Camera frost 5% | Counting breaks | Watching: Six shadows confirm",
   "selected_prompt_index" : 0,
+  "aspect_ratio" : "1:1",
   "prompt_variants" : [
     {
-      "negative_prompt" : "no subtitles, no text overlays, show synchronized horror clearly, maintain shadow presence, documentary observation",
-      "variant_name" : "Primary - SEKS - THE IMPOSSIBLE COUNT",
+      "style" : "Wide shot showing empty sixth position and synchronized chewing, camera pulling back to doorway (that's where the camera is), documentary observation of collective consumption.",
+      "is_active" : false,
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
@@ -14,38 +23,319 @@
         "GUDRUN-COUNTING",
         "BAÐSTOFA-ORGANIC"
       ],
+      "negative_prompt" : "no subtitles, no text overlays, show synchronized horror clearly, maintain shadow presence, documentary observation",
+      "variant_id" : "10_story_primary",
+      "active_video_index" : 0,
+      "action" : "Magnús's finger points at empty space: \"Seks?\" Confusion flickers across his face. Counts again on fingers - en, to, tre, fire, fem... His finger rises to point at vacant air where sixth person should stand. But on the wall, six shadows clearly visible, sixth shadow moving independently. The empty clothes in corner are standing fully upright now, breathing at 8\/minute, chest area rising and falling. The family continues chewing in perfect synchronization - all jaws moving identically, same rhythm, same number of chews. Even Sigrid, despite maintaining 11 feet, caught in the synchronized pattern. The hákarl and testicles being consumed at exact same rate. Between chews, barely audible: \"mæ\" sounds from Lilja, bleeding into Jón's breathing, spreading to Guðrún. Only human teeth visible but chewing pattern purely ovine. Magnús shakes head, dismisses sixth count, but shadow remains on wall. House heartbeat steady at 60bpm under the breathing.",
+      "dialogue" : "(Magnús): \"Seks?\" (Tone: confused Danish) \"Nei... fimm.\" (Tone: dismissing impossibility) (Lilja between chews): \"Mæ...\" (Tone: subtle sound) (Others): Wet chewing in perfect synchronization",
+      "subject" : "[MAGNÚS] turning to count the sixth position but finding only empty space, his finger pointing at nothing while six shadows on the wall confirm someone should be there, the entire family now chewing in perfect synchronization - jaws moving in identical rhythm, even [SIGRID] unable to resist the collective pattern.",
       "videos" : [
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subjectnmagns_turning_to_202510162231_wb.mp4",
-          "duration" : 8,
-          "filename" : "Subjectnmagns_turning_to_202510162231_wb.mp4"
+          "filename" : "Subjectnmagns_turning_to_202510162231_wb.mp4",
+          "duration" : 8
         },
         {
+          "filename" : "Subjectnmagns_turning_to_202510162231_wb.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subjectnmagns_turning_to_202510162231_wb.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_magns_collapsed_202510240007_ekku.mp4",
           "duration" : 8,
-          "filename" : "Subjectnmagns_turning_to_202510162231_wb.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_ekku.mp4"
+        },
+        {
+          "filename" : "Subject_magns_collapsed_202510240007_mkt0.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_mkt0.mp4"
+        },
+        {
+          "filename" : "Subject_the_contaminated_202510240007_fvlyf.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_fvlyf.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_it5ua.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_contaminated_202510240007_it5ua.mp4"
+        },
+        {
+          "filename" : "Subject_from_south_202510240007_fd14i.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_south_202510240007_fd14i.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_ewmxm.mp4",
+          "filename" : "Subject_from_the_202510240007_ewmxm.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_bqik0.mp4",
+          "filename" : "Subject_from_the_202510240007_bqik0.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_mktig.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_mouth_202510240007_mktig.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_52mwz.mp4",
+          "filename" : "Subject_sigrids_mouth_202510240007_52mwz.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_sigrids_voice_202510240008_v9tql.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_v9tql.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrids_voice_202510240008_fs1fm.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_fs1fm.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_attempting_202510240008_9v1.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_9v1.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_o7s.mp4",
+          "filename" : "Subject_sigrid_attempting_202510240008_o7s.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_5fnyt.mp4",
+          "filename" : "Subject_sigrid_kneeling_202510240008_5fnyt.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_gt764.mp4",
+          "filename" : "Subject_sigrid_kneeling_202510240008_gt764.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_inside_the_202510240008_p26br.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_p26br.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_g8yo0.mp4",
+          "filename" : "Subject_inside_the_202510240008_g8yo0.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_h6o6u.mp4",
+          "filename" : "Subject_subject_reference_202510240008_h6o6u.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240008_emjns.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_emjns.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510240008_kjftz.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_camera_202510240008_kjftz.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_standing_202510240009_z2vvg.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_z2vvg.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_standing_202510240009_xwxxw.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_xwxxw.mp4"
+        },
+        {
+          "filename" : "Subject_view_from_202510240009_31574.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_31574.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_4ae9w.mp4",
+          "duration" : 8,
+          "filename" : "Subject_view_from_202510240009_4ae9w.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240009_rn42a.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_rn42a.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_uowzh.mp4",
+          "filename" : "Subject_subject_reference_202510240009_uowzh.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_action_whales_202510240009_vn1hy.mp4",
+          "duration" : 8,
+          "filename" : "Subject_action_whales_202510240009_vn1hy.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_twelve_men_202510240009_tfnyc.mp4",
+          "filename" : "Subject_twelve_men_202510240009_tfnyc.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_night_sky_202510240009_veyc2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_night_sky_202510240009_veyc2.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_night_sky_202510240009_3ku6b.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_night_sky_202510240009_3ku6b.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240009_gzgzt.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_gzgzt.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240009_qgvva.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_qgvva.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_m52ut.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240010_m52ut.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_3jqwx.mp4",
+          "filename" : "Subject_subject_reference_202510240010_3jqwx.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_whale_202510240010_1fbab.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_whale_202510240010_1fbab.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_whale_202510240010_u5sef.mp4",
+          "filename" : "Subject_the_whale_202510240010_u5sef.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_oblte.mp4",
+          "filename" : "Subject_subject_reference_202510240010_oblte.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_iij94.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_iij94.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240010_xhhl2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_xhhl2.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_259ni.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_259ni.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_wdq1t.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_wdq1t.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_hckdb.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240010_hckdb.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240011_tmkbe.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240011_tmkbe.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202510240011_qpj9a.mp4",
+          "filename" : "Subject_the_oil_202510240011_qpj9a.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240011_3af8a.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240011_3af8a.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_opening_202510240011_ml8gl.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_opening_202510240011_ml8gl.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_opening_202510240011_6gcj4.mp4",
+          "filename" : "Subject_magns_opening_202510240011_6gcj4.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_a_raven_202510240012_01fdf.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202510240012_01fdf.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_a_raven_202510240012_alvb2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202510240012_alvb2.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_sitting_202510240012_qvy0k.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_sitting_202510240012_qvy0k.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_sitting_202510240012_afxum.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_sitting_202510240012_afxum.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202510240012_gw8ay.mp4",
+          "duration" : 8,
+          "filename" : "Subject_gurn_at_202510240012_gw8ay.mp4"
+        },
+        {
+          "filename" : "Subject_gurn_at_202510240012_8vzvz.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202510240012_8vzvz.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240012_sgozi.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_sgozi.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_vkfmu.mp4",
+          "filename" : "Subject_subject_reference_202510240012_vkfmu.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_cas9c.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240012_cas9c.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_magns_turning_202510240012_ywiyc.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_turning_202510240012_ywiyc.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_magns_turning_202510240012_gbu8s.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_turning_202510240012_gbu8s.mp4"
         }
       ],
       "baked_prompts_metadata_file" : "10_story_primary_metadata.json",
-      "style" : "Wide shot showing empty sixth position and synchronized chewing, camera pulling back to doorway (that's where the camera is), documentary observation of collective consumption.",
-      "subject" : "[MAGNÚS] turning to count the sixth position but finding only empty space, his finger pointing at nothing while six shadows on the wall confirm someone should be there, the entire family now chewing in perfect synchronization - jaws moving in identical rhythm, even [SIGRID] unable to resist the collective pattern.",
-      "is_active" : false,
-      "active_video_index" : 0,
-      "camera_position" : "Wide shot showing empty sixth position and synchronized chewing, camera pulling back to doorway",
-      "action" : "Magnús's finger points at empty space: \"Seks?\" Confusion flickers across his face. Counts again on fingers - en, to, tre, fire, fem... His finger rises to point at vacant air where sixth person should stand. But on the wall, six shadows clearly visible, sixth shadow moving independently. The empty clothes in corner are standing fully upright now, breathing at 8\/minute, chest area rising and falling. The family continues chewing in perfect synchronization - all jaws moving identically, same rhythm, same number of chews. Even Sigrid, despite maintaining 11 feet, caught in the synchronized pattern. The hákarl and testicles being consumed at exact same rate. Between chews, barely audible: \"mæ\" sounds from Lilja, bleeding into Jón's breathing, spreading to Guðrún. Only human teeth visible but chewing pattern purely ovine. Magnús shakes head, dismisses sixth count, but shadow remains on wall. House heartbeat steady at 60bpm under the breathing.",
+      "progressive_state" : "",
       "scene" : "Morning sorting complete, 5:53 AM, daylight gaining but still grey. Temperature -10°C from Danish, breath visible from everyone including empty clothes. The floor patterns now clearly show six positions, though only five occupied. Synchronized chewing creates wet rhythm, ammonia from hákarl making everyone's eyes stream. The plate that held food shows six portions were cut, sixth portion sitting at empty position.",
-      "dialogue" : "(Magnús): \"Seks?\" (Tone: confused Danish) \"Nei... fimm.\" (Tone: dismissing impossibility) (Lilja between chews): \"Mæ...\" (Tone: subtle sound) (Others): Wet chewing in perfect synchronization",
-      "variant_id" : "10_story_primary",
-      "progressive_state" : ""
+      "camera_position" : "Wide shot showing empty sixth position and synchronized chewing, camera pulling back to doorway",
+      "variant_name" : "Primary - SEKS - THE IMPOSSIBLE COUNT"
     }
-  ],
-  "shot_metadata" : {
-    "needs_improvements" : true,
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "stitch_from" : "",
-    "id" : "10",
-    "title" : "SEKS - THE IMPOSSIBLE COUNT",
-    "narrative_function" : "House 13\/min + 60bpm heartbeat | Klettagjá 1mm \"F..."
-  }
+  ]
 }

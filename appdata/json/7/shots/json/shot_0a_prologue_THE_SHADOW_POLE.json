@@ -1,20 +1,12 @@
 {
-  "aspect_ratio" : "1.85:1",
-  "progressive_state" : "Memory initialization | Landscape pulsing | Camera frost 0% | Archive opening | Watching: We enter",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "negative_prompt" : "no text overlays, no modern elements, show 200-foot shadow, three colored stains visible, 1080p",
-      "variant_name" : "Primary - THE SHADOW POLE",
-      "selected_plates" : [
-        "SEA-DIVINE",
-        "WESTFJORDS-FJORD"
-      ],
+      "scene" : "Headland in Westfjords, 5 AM June morning. Ocean 300 feet beyond pole. Berry-covered hills to left. Golden cliffs to right. Green grass everywhere. Clear sky, sun just above horizon.",
       "videos" : [
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Supernatural_Maritime_Conflict_and_Extraction.mp4",
           "duration" : 8,
-          "filename" : "Supernatural_Maritime_Conflict_and_Extraction.mp4"
+          "filename" : "Supernatural_Maritime_Conflict_and_Extraction.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Supernatural_Maritime_Conflict_and_Extraction.mp4"
         },
         {
           "filename" : "Subject_a_weathered_202509142255_wwarm.mp4",
@@ -22,40 +14,358 @@
           "duration" : 8
         },
         {
-          "filename" : "Subject_a_weathered_202509142255_p48kk.mp4",
           "duration" : 8,
+          "filename" : "Subject_a_weathered_202509142255_p48kk.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_weathered_202509142255_p48kk.mp4"
         },
         {
+          "filename" : "Subject_a_weathered_202509142254_n5nuj.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_weathered_202509142254_n5nuj.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_view_202509142257_5ekoe.mp4",
+          "filename" : "Subject_aerial_view_202509142257_5ekoe.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_magns_collapsed_202510240007_ekku.mp4",
           "duration" : 8,
-          "filename" : "Subject_a_weathered_202509142254_n5nuj.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_ekku.mp4"
         },
         {
           "duration" : 8,
-          "filename" : "Subject_aerial_view_202509142257_5ekoe.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_view_202509142257_5ekoe.mp4"
+          "filename" : "Subject_magns_collapsed_202510240007_mkt0.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_mkt0.mp4"
+        },
+        {
+          "filename" : "Subject_the_contaminated_202510240007_fvlyf.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_fvlyf.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_it5ua.mp4",
+          "filename" : "Subject_the_contaminated_202510240007_it5ua.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_from_south_202510240007_fd14i.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_south_202510240007_fd14i.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_ewmxm.mp4",
+          "filename" : "Subject_from_the_202510240007_ewmxm.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_bqik0.mp4",
+          "filename" : "Subject_from_the_202510240007_bqik0.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrids_mouth_202510240007_mktig.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_mktig.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_52mwz.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_mouth_202510240007_52mwz.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_v9tql.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_voice_202510240008_v9tql.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_fs1fm.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_voice_202510240008_fs1fm.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_attempting_202510240008_9v1.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_9v1.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_o7s.mp4",
+          "filename" : "Subject_sigrid_attempting_202510240008_o7s.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_5fnyt.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrid_kneeling_202510240008_5fnyt.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_gt764.mp4",
+          "filename" : "Subject_sigrid_kneeling_202510240008_gt764.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_p26br.mp4",
+          "filename" : "Subject_inside_the_202510240008_p26br.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_g8yo0.mp4",
+          "duration" : 8,
+          "filename" : "Subject_inside_the_202510240008_g8yo0.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240008_h6o6u.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_h6o6u.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240008_emjns.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_emjns.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_camera_202510240008_kjftz.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510240008_kjftz.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_sigrid_standing_202510240009_z2vvg.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_z2vvg.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_xwxxw.mp4",
+          "filename" : "Subject_sigrid_standing_202510240009_xwxxw.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_31574.mp4",
+          "duration" : 8,
+          "filename" : "Subject_view_from_202510240009_31574.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_4ae9w.mp4",
+          "filename" : "Subject_view_from_202510240009_4ae9w.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_rn42a.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240009_rn42a.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_uowzh.mp4",
+          "filename" : "Subject_subject_reference_202510240009_uowzh.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_action_whales_202510240009_vn1hy.mp4",
+          "duration" : 8,
+          "filename" : "Subject_action_whales_202510240009_vn1hy.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_twelve_men_202510240009_tfnyc.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_twelve_men_202510240009_tfnyc.mp4"
+        },
+        {
+          "filename" : "Subject_night_sky_202510240009_veyc2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_night_sky_202510240009_veyc2.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_night_sky_202510240009_3ku6b.mp4",
+          "duration" : 8,
+          "filename" : "Subject_night_sky_202510240009_3ku6b.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240009_gzgzt.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_gzgzt.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240009_qgvva.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_qgvva.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240010_m52ut.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_m52ut.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_3jqwx.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_3jqwx.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_whale_202510240010_1fbab.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_whale_202510240010_1fbab.mp4"
+        },
+        {
+          "filename" : "Subject_the_whale_202510240010_u5sef.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_whale_202510240010_u5sef.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_oblte.mp4",
+          "filename" : "Subject_subject_reference_202510240010_oblte.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_iij94.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_iij94.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_xhhl2.mp4",
+          "filename" : "Subject_subject_reference_202510240010_xhhl2.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_259ni.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_259ni.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240010_wdq1t.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_wdq1t.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_hckdb.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_hckdb.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240011_tmkbe.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240011_tmkbe.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202510240011_qpj9a.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_oil_202510240011_qpj9a.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240011_3af8a.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240011_3af8a.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_opening_202510240011_ml8gl.mp4",
+          "filename" : "Subject_magns_opening_202510240011_ml8gl.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_magns_opening_202510240011_6gcj4.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_opening_202510240011_6gcj4.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202510240012_01fdf.mp4",
+          "duration" : 8,
+          "filename" : "Subject_a_raven_202510240012_01fdf.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202510240012_alvb2.mp4",
+          "filename" : "Subject_a_raven_202510240012_alvb2.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_sigrid_sitting_202510240012_qvy0k.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_sitting_202510240012_qvy0k.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_sitting_202510240012_afxum.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_sitting_202510240012_afxum.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_gurn_at_202510240012_gw8ay.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202510240012_gw8ay.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202510240012_8vzvz.mp4",
+          "duration" : 8,
+          "filename" : "Subject_gurn_at_202510240012_8vzvz.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240012_sgozi.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_sgozi.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240012_vkfmu.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_vkfmu.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240012_cas9c.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_cas9c.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_turning_202510240012_ywiyc.mp4",
+          "filename" : "Subject_magns_turning_202510240012_ywiyc.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_turning_202510240012_gbu8s.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_turning_202510240012_gbu8s.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_young_202510240012_sm2h6.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_young_202510240012_sm2h6.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_young_202510240013_x6c3c.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_young_202510240013_x6c3c.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_tall_202510240013_ki3mz.mp4",
+          "duration" : 8,
+          "filename" : "Subject_a_tall_202510240013_ki3mz.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_tall_202510240013_i1yin.mp4",
+          "filename" : "Subject_a_tall_202510240013_i1yin.mp4",
+          "duration" : 8
         }
       ],
-      "style" : "Aerial descent toward pole, camera moving straight down (that's where the camera is), slow smooth movement, wide lens showing all terrains.",
-      "subject" : "A tall piece of grey driftwood standing vertical on a grass-covered headland, rope wrapped around its top section, casting a shadow 200 feet long across green hills while the ocean behind shows red tints under blue surface and purple berries cover distant slopes. The pole represent a nidstong - a curse with a carved horse head to the east. Scary horse head.",
-      "is_active" : false,
       "active_video_index" : 0,
+      "selected_plates" : [
+        "SEA-DIVINE",
+        "WESTFJORDS-FJORD"
+      ],
       "camera_position" : "Aerial descent toward pole, camera moving straight down",
-      "action" : "Camera starts 100 feet above pole, descending slowly. The pole is 8 feet tall, weathered grey driftwood, standing perfectly vertical. Old rope wraps the top 2 feet, frayed ends moving slightly. The shadow stretches far beyond natural length - reaching 200 feet across grass. Ocean in background rises 3 feet, holds for 2 seconds, drops 3 feet. No wind causing this movement. Purple-black berries on distant hills appear wet, juice dripping down leaves. Cliffs to the right glow golden in horizontal morning sunlight. At pole's base, grass shows three distinct stains in soil - red circle, purple circle, gold circle, each 3 feet wide. Camera continues descent, now 50 feet above pole. Shadow moves independently of sun position, rotating slowly clockwise.",
-      "scene" : "Headland in Westfjords, 5 AM June morning. Ocean 300 feet beyond pole. Berry-covered hills to left. Golden cliffs to right. Green grass everywhere. Clear sky, sun just above horizon.",
-      "dialogue" : "None",
       "progressive_state" : "",
-      "variant_id" : "0a_story_primary"
+      "negative_prompt" : "no text overlays, no modern elements, show 200-foot shadow, three colored stains visible, 1080p",
+      "style" : "Aerial descent toward pole, camera moving straight down (that's where the camera is), slow smooth movement, wide lens showing all terrains.",
+      "variant_id" : "0a_story_primary",
+      "action" : "Camera starts 100 feet above pole, descending slowly. The pole is 8 feet tall, weathered grey driftwood, standing perfectly vertical. Old rope wraps the top 2 feet, frayed ends moving slightly. The shadow stretches far beyond natural length - reaching 200 feet across grass. Ocean in background rises 3 feet, holds for 2 seconds, drops 3 feet. No wind causing this movement. Purple-black berries on distant hills appear wet, juice dripping down leaves. Cliffs to the right glow golden in horizontal morning sunlight. At pole's base, grass shows three distinct stains in soil - red circle, purple circle, gold circle, each 3 feet wide. Camera continues descent, now 50 feet above pole. Shadow moves independently of sun position, rotating slowly clockwise.",
+      "variant_name" : "Primary - THE SHADOW POLE",
+      "dialogue" : "None",
+      "subject" : "A tall piece of grey driftwood standing vertical on a grass-covered headland, rope wrapped around its top section, casting a shadow 200 feet long across green hills while the ocean behind shows red tints under blue surface and purple berries cover distant slopes. The pole represent a nidstong - a curse with a carved horse head to the east. Scary horse head.",
+      "is_active" : false
     }
   ],
+  "progressive_state" : "Memory initialization | Landscape pulsing | Camera frost 0% | Archive opening | Watching: We enter",
+  "selected_prompt_index" : 0,
+  "aspect_ratio" : "1.85:1",
   "shot_metadata" : {
-    "needs_improvements" : false,
     "sequence_type" : "prologue",
     "duration_seconds" : 8,
-    "stitch_from" : "",
+    "needs_improvements" : false,
     "id" : "0a",
-    "title" : "THE SHADOW POLE",
-    "narrative_function" : "Memory initialization | Landscape pulsing | Camera..."
+    "stitch_from" : "",
+    "narrative_function" : "Memory initialization | Landscape pulsing | Camera...",
+    "title" : "THE SHADOW POLE"
   }
 }

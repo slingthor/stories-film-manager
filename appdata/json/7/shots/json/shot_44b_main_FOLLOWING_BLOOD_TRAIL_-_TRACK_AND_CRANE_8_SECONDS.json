@@ -1,101 +1,108 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Following path | Blood guides | Camera frost 30.5% | Transformation beginning | Watching: We track her",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
+      "variant_id" : "44b_story_primary",
+      "scene" : "Path from house toward fjord. Blood trail glowing slightly red through snow. Storm creating white wall around her.",
+      "dialogue" : "None - just wind and footsteps",
+      "subject" : "Camera tracking behind [GUÐRÚN] as she follows the blood spiral Magnús left, her footsteps fitting perfectly into his larger prints, then CRANING UP to reveal she's walking the exact spiral pattern - five circles leading to water, but she's creating the sixth.",
       "negative_prompt" : "",
-      "variant_name" : "Primary - FOLLOWING BLOOD TRAIL - TRACK AND CRANE 8 SECONDS",
+      "action" : "TRACKING SHOT following 3 meters behind Guðrún. Her feet find Magnús's path instinctively - boot prints filled with frozen blood from his nose, her smaller feet fitting inside like child in parent's steps. Wool from wrists leaves thread trail in snow. Each step breaks through crust, revealing older blood beneath - layers of history. Ram blood, human blood, ancient blood. All the same path. CAMERA BEGINS CRANING UP at 4 seconds, rising to 15 meters. Aerial view reveals: she's walking spiral pattern, but her path creates the sixth line that makes intersection points impossible. She IS the mathematical impossibility. Her faldbúningur from above looks like white bird against white ground - only dark spot is her face looking up, seeing camera, seeing us watching. Knows she's witnessed. Continues anyway.",
       "selected_plates" : [
         "MAGNUS-DEFEATED",
         "GUDRUN-WALKING",
         "WESTFJORDS-WINTER"
       ],
+      "is_active" : false,
+      "style" : "Track and crane revealing pattern from above (that's where the camera is), documentary of inevitable path.",
+      "variant_name" : "Primary - FOLLOWING BLOOD TRAIL - TRACK AND CRANE 8 SECONDS",
+      "active_video_index" : 0,
+      "progressive_state" : "",
+      "camera_position" : "Track and crane revealing pattern from above",
       "videos" : [
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_tracking_202509211908_retdm.mp4",
           "filename" : "Subject_camera_tracking_202509211908_retdm.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_tracking_202509211908_retdm.mp4",
           "duration" : 8
         },
         {
-          "duration" : 8,
+          "filename" : "Subject_camera_tracking_202509211908_8npw8.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_tracking_202509211908_8npw8.mp4",
-          "filename" : "Subject_camera_tracking_202509211908_8npw8.mp4"
+          "duration" : 8
         },
         {
-          "duration" : 8,
           "filename" : "Subject_camera_tracking_202509211907_bcuu2.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_tracking_202509211907_bcuu2.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_tracking_202509211907_bcuu2.mp4",
+          "duration" : 8
         },
         {
-          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_tracking_202509211907_5ul1d.mp4",
-          "filename" : "Subject_camera_tracking_202509211907_5ul1d.mp4"
+          "filename" : "Subject_camera_tracking_202509211907_5ul1d.mp4",
+          "duration" : 8
         },
         {
+          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1717_01k6f1g1vyfr2912rrdp67y519.mp4",
           "duration" : 10.088666666666667,
-          "filename" : "20251019_1717_01k6f1g1vyfr2912rrdp67y519.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1717_01k6f1g1vyfr2912rrdp67y519.mp4"
+          "filename" : "20251019_1717_01k6f1g1vyfr2912rrdp67y519.mp4"
         },
         {
-          "filename" : "Subject_subject_reference_202510232323_pynpj.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232323_pynpj.mp4",
+          "filename" : "Subject_subject_reference_202510232323_pynpj.mp4",
           "duration" : 8
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_fdhwd.mp4",
-          "filename" : "Subject_lilja_suddenly_202510232324_fdhwd.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_lilja_suddenly_202510232324_t60yd.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_t60yd.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_the_three_202510232325_zn2am.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_zn2am.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_17xug.mp4",
-          "filename" : "Subject_the_three_202510232325_17xug.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_standing_202510232325_z7nk.mp4",
           "duration" : 8,
+          "filename" : "Subject_lilja_suddenly_202510232324_fdhwd.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_t60yd.mp4",
+          "filename" : "Subject_lilja_suddenly_202510232324_t60yd.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_three_202510232325_zn2am.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_zn2am.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_three_202510232325_17xug.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_17xug.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_standing_202510232325_z7nk.mp4",
           "filename" : "Subject_gurn_standing_202510232325_z7nk.mp4"
         },
         {
-          "duration" : 8,
+          "filename" : "Subject_as_gurn_202510232326_0macj.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_as_gurn_202510232326_0macj.mp4",
-          "filename" : "Subject_as_gurn_202510232326_0macj.mp4"
+          "duration" : 8
         },
         {
+          "filename" : "Subject_aerial_shot_202510232326_m5xhc.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_m5xhc.mp4",
-          "duration" : 8,
-          "filename" : "Subject_aerial_shot_202510232326_m5xhc.mp4"
+          "duration" : 8
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_gu6zn.mp4",
-          "duration" : 8,
-          "filename" : "Subject_aerial_shot_202510232326_gu6zn.mp4"
+          "filename" : "Subject_aerial_shot_202510232326_gu6zn.mp4",
+          "duration" : 8
         },
         {
+          "filename" : "Subject_gurn_rising_202510232326_b1r58.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_rising_202510232326_b1r58.mp4",
-          "duration" : 8,
-          "filename" : "Subject_gurn_rising_202510232326_b1r58.mp4"
+          "duration" : 8
         },
         {
           "duration" : 8,
-          "filename" : "Subject_griungur_using_202510232326_l3eff.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_l3eff.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_l3eff.mp4",
+          "filename" : "Subject_griungur_using_202510232326_l3eff.mp4"
         },
         {
-          "duration" : 8,
+          "filename" : "Subject_griungur_using_202510232326_ff0m1.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_ff0m1.mp4",
-          "filename" : "Subject_griungur_using_202510232326_ff0m1.mp4"
+          "duration" : 8
         },
         {
           "filename" : "Subject_the_water_202510232326_c4k55.mp4",
@@ -103,50 +110,43 @@
           "duration" : 8
         },
         {
-          "duration" : 8,
           "filename" : "Subject_the_water_202510232326_whf4w.mp4",
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202510232326_whf4w.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_polynya_202510232326_qs0hq.mp4",
+          "duration" : 8,
           "filename" : "Subject_the_polynya_202510232326_qs0hq.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_polynya_202510232326_qs0hq.mp4"
+        },
+        {
+          "filename" : "Subject_gurn_arriving_202510232327_51aj.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_arriving_202510232327_51aj.mp4",
           "duration" : 8
         },
         {
           "duration" : 8,
-          "filename" : "Subject_gurn_arriving_202510232327_51aj.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_arriving_202510232327_51aj.mp4"
-        },
-        {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_close_tracking_202510232327_jiwn0.mp4",
-          "duration" : 8,
           "filename" : "Subject_close_tracking_202510232327_jiwn0.mp4"
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_tracking_202510232327_bgh48.mp4",
-          "filename" : "Subject_camera_tracking_202510232327_bgh48.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filename" : "Subject_camera_tracking_202510232327_bgh48.mp4"
         }
-      ],
-      "style" : "Track and crane revealing pattern from above (that's where the camera is), documentary of inevitable path.",
-      "subject" : "Camera tracking behind [GUÐRÚN] as she follows the blood spiral Magnús left, her footsteps fitting perfectly into his larger prints, then CRANING UP to reveal she's walking the exact spiral pattern - five circles leading to water, but she's creating the sixth.",
-      "is_active" : false,
-      "active_video_index" : 0,
-      "camera_position" : "Track and crane revealing pattern from above",
-      "action" : "TRACKING SHOT following 3 meters behind Guðrún. Her feet find Magnús's path instinctively - boot prints filled with frozen blood from his nose, her smaller feet fitting inside like child in parent's steps. Wool from wrists leaves thread trail in snow. Each step breaks through crust, revealing older blood beneath - layers of history. Ram blood, human blood, ancient blood. All the same path. CAMERA BEGINS CRANING UP at 4 seconds, rising to 15 meters. Aerial view reveals: she's walking spiral pattern, but her path creates the sixth line that makes intersection points impossible. She IS the mathematical impossibility. Her faldbúningur from above looks like white bird against white ground - only dark spot is her face looking up, seeing camera, seeing us watching. Knows she's witnessed. Continues anyway.",
-      "scene" : "Path from house toward fjord. Blood trail glowing slightly red through snow. Storm creating white wall around her.",
-      "dialogue" : "None - just wind and footsteps",
-      "progressive_state" : "",
-      "variant_id" : "44b_story_primary"
+      ]
     }
   ],
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "needs_improvements" : false,
+    "id" : "44b",
     "sequence_type" : "main_story",
     "duration_seconds" : 8,
-    "stitch_from" : "",
-    "id" : "44b",
+    "needs_improvements" : false,
     "title" : "FOLLOWING BLOOD TRAIL - TRACK AND CRANE 8 SECONDS",
-    "narrative_function" : "Following path | Blood guides | Camera frost 30.5%..."
-  }
+    "narrative_function" : "Following path | Blood guides | Camera frost 30.5%...",
+    "stitch_from" : ""
+  },
+  "aspect_ratio" : "4:3",
+  "progressive_state" : "Following path | Blood guides | Camera frost 30.5% | Transformation beginning | Watching: We track her"
 }

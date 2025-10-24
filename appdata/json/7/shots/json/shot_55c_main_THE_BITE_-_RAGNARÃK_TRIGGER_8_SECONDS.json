@@ -1,31 +1,38 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Ouroboros complete | World ending | Camera frost 47% | Transformation triggered | Watching: End and beginning",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
+      "variant_id" : "55c_story_primary",
+      "scene" : "Wide view of complete ouroboros. House shaking. Family falling\/transforming. Apocalyptic moment.",
+      "dialogue" : "(House\/Bergrisi, dying scream): \"NÚNA!\" (Family): Sounds between human and animal",
+      "subject" : "The trawler's bow opening impossibly wide - revealing rows of industrial teeth - and biting down on the massive tail, the moment of contact sending shockwave across fjord, through house, triggering the family's final transformation.",
       "negative_prompt" : "show bite clearly, transformation beginning, maintain epic scale",
-      "variant_name" : "Primary - THE BITE - RAGNARÐK TRIGGER 8 SECONDS",
+      "action" : "Trawler's bow SPLITS. Not breaking - opening. Like mouth. Inside: rows of teeth. But industrial teeth - circular saws, grinding gears, metal fangs. Still trawler but also ancient mouth. Tail arrives at bow. Moment of hesitation. Then: BITE. Teeth pierce scales. Green-black blood explodes. Not just blood - oil, contamination, centuries of poison. Shockwave ripples outward. Hits house. Everything shakes. Family thrown to floor. But as they fall, they change. Mid-air transformation beginning. Hands becoming hooves. Faces elongating. But also NOT changing - were always both. Through window: trawler\/serpent completing circle. Biting harder. Swallowing itself. Industrial capitalism consuming its own body. Circle getting smaller. Water inside circle dropping - whirlpool forming. Abyss opening. The end of one world. Beginning of another. Sigrid alone stands, black feather glowing. She doesn't transform. Yet.",
       "selected_plates" : [
         "SEA-ACCUSATION",
         "WESTFJORDS-CLIFF",
         "WESTFJORDS-WINTER"
       ],
+      "is_active" : false,
+      "style" : "Wide to close on bite, shockwave through everything (that's where the camera is), Ragnarök documented.",
+      "variant_name" : "Primary - THE BITE - RAGNARÐK TRIGGER 8 SECONDS",
+      "active_video_index" : 0,
+      "progressive_state" : "",
+      "camera_position" : "Wide to close on bite, shockwave through everything",
       "videos" : [
         {
+          "filename" : "Subject_the_trawlers_202509211845_rgahg.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawlers_202509211845_rgahg.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_trawlers_202509211845_rgahg.mp4"
+          "duration" : 8
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawlers_202509211845_h7nca.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_trawlers_202509211845_h7nca.mp4"
+          "filename" : "Subject_the_trawlers_202509211845_h7nca.mp4",
+          "duration" : 8
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawlers_202509211845_u9web.mp4",
-          "filename" : "Subject_the_trawlers_202509211845_u9web.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filename" : "Subject_the_trawlers_202509211845_u9web.mp4"
         },
         {
           "filename" : "Subject_the_trawlers_202509211845_6rlep.mp4",
@@ -43,9 +50,9 @@
           "filename" : "Subject_sigrids_transformation_2025102323-2.mp4"
         },
         {
-          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314.mp4",
           "filename" : "Subject_sigridraven_entering_202510232314.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314.mp4"
+          "duration" : 8
         },
         {
           "duration" : 8,
@@ -53,54 +60,54 @@
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314-2.mp4"
         },
         {
-          "filename" : "Subject_the_house_202510232314_124th.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_124th.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filename" : "Subject_the_house_202510232314_124th.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_k50fn.mp4",
           "filename" : "Subject_the_house_202510232314_k50fn.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_k50fn.mp4",
           "duration" : 8
         },
         {
-          "filename" : "Subject_the_house_202510232314_cgd4p.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_cgd4p.mp4",
+          "filename" : "Subject_the_house_202510232314_cgd4p.mp4",
           "duration" : 8
         },
         {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_bd128.mp4",
           "duration" : 8,
-          "filename" : "Subject_the_house_202510232314_bd128.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_bd128.mp4"
+          "filename" : "Subject_the_house_202510232314_bd128.mp4"
         },
         {
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510232314_.mp4",
-          "filename" : "Subject_gurnewe_suddenly_202510232314_.mp4"
+          "filename" : "Subject_gurnewe_suddenly_202510232314_.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510232314_.mp4"
         },
         {
           "duration" : 8,
-          "filename" : "Subject_gurnewe_suddenly_202510232314_-2.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510232314_-2.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurnewe_suddenly_202510232314_-2.mp4",
+          "filename" : "Subject_gurnewe_suddenly_202510232314_-2.mp4"
         },
         {
-          "duration" : 8,
+          "filename" : "Subject_light_gradually_202510232314_kretu.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202510232314_kretu.mp4",
-          "filename" : "Subject_light_gradually_202510232314_kretu.mp4"
+          "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202510232314_je7r4.mp4",
           "filename" : "Subject_light_gradually_202510232314_je7r4.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_light_gradually_202510232314_je7r4.mp4",
           "duration" : 8
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232314_s25w4.mp4",
-          "duration" : 8,
-          "filename" : "Subject_in_the_202510232314_s25w4.mp4"
+          "filename" : "Subject_in_the_202510232314_s25w4.mp4",
+          "duration" : 8
         },
         {
+          "filename" : "Subject_in_the_202510232315_9efhu.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510232315_9efhu.mp4",
-          "duration" : 8,
-          "filename" : "Subject_in_the_202510232315_9efhu.mp4"
+          "duration" : 8
         },
         {
           "duration" : 8,
@@ -108,29 +115,29 @@
           "filename" : "Subject_a_match_202510232315_8ifmw.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202510232315_nm1bj.mp4",
           "filename" : "Subject_a_match_202510232315_nm1bj.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202510232315_nm1bj.mp4",
           "duration" : 8
         },
         {
+          "filename" : "Subject_complete_darkness_202510232315_lzk1f.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_lzk1f.mp4",
-          "duration" : 8,
-          "filename" : "Subject_complete_darkness_202510232315_lzk1f.mp4"
+          "duration" : 8
         },
         {
-          "duration" : 8,
           "filename" : "Subject_complete_darkness_202510232315_4ror2.mp4",
+          "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_4ror2.mp4"
         },
         {
-          "filename" : "Subject_complete_darkness_202510232315_xxxim.mp4",
           "duration" : 8,
+          "filename" : "Subject_complete_darkness_202510232315_xxxim.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_xxxim.mp4"
         },
         {
+          "duration" : 8,
           "filename" : "Subject_complete_darkness_202510232315_884mx.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_884mx.mp4",
-          "duration" : 8
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_complete_darkness_202510232315_884mx.mp4"
         },
         {
           "duration" : 8,
@@ -138,55 +145,48 @@
           "filename" : "Subject_closeup_pushing_202510232315_0v9ic.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202510232315_6hjx5.mp4",
           "filename" : "Subject_magns_pushing_202510232315_6hjx5.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202510232315_6hjx5.mp4",
           "duration" : 8
         },
         {
-          "duration" : 8,
           "filename" : "Subject_magns_pushing_202510232315_neyzw.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202510232315_neyzw.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202510232315_ycsbw.mp4",
-          "filename" : "Subject_five_white_202510232315_ycsbw.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202510232315_neyzw.mp4",
           "duration" : 8
         },
         {
-          "filename" : "Subject_five_white_202510232316_bjdmz.mp4",
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202510232316_bjdmz.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202510232315_ycsbw.mp4",
+          "filename" : "Subject_five_white_202510232315_ycsbw.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawlers_202510232316_ha5z6.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202510232316_bjdmz.mp4",
+          "duration" : 8,
+          "filename" : "Subject_five_white_202510232316_bjdmz.mp4"
+        },
+        {
           "filename" : "Subject_the_trawlers_202510232316_ha5z6.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawlers_202510232316_ha5z6.mp4",
           "duration" : 8
         },
         {
-          "filename" : "Subject_the_trawlers_202510232316_lt070.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawlers_202510232316_lt070.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filename" : "Subject_the_trawlers_202510232316_lt070.mp4"
         }
-      ],
-      "style" : "Wide to close on bite, shockwave through everything (that's where the camera is), Ragnarök documented.",
-      "subject" : "The trawler's bow opening impossibly wide - revealing rows of industrial teeth - and biting down on the massive tail, the moment of contact sending shockwave across fjord, through house, triggering the family's final transformation.",
-      "is_active" : false,
-      "active_video_index" : 0,
-      "camera_position" : "Wide to close on bite, shockwave through everything",
-      "action" : "Trawler's bow SPLITS. Not breaking - opening. Like mouth. Inside: rows of teeth. But industrial teeth - circular saws, grinding gears, metal fangs. Still trawler but also ancient mouth. Tail arrives at bow. Moment of hesitation. Then: BITE. Teeth pierce scales. Green-black blood explodes. Not just blood - oil, contamination, centuries of poison. Shockwave ripples outward. Hits house. Everything shakes. Family thrown to floor. But as they fall, they change. Mid-air transformation beginning. Hands becoming hooves. Faces elongating. But also NOT changing - were always both. Through window: trawler\/serpent completing circle. Biting harder. Swallowing itself. Industrial capitalism consuming its own body. Circle getting smaller. Water inside circle dropping - whirlpool forming. Abyss opening. The end of one world. Beginning of another. Sigrid alone stands, black feather glowing. She doesn't transform. Yet.",
-      "scene" : "Wide view of complete ouroboros. House shaking. Family falling\/transforming. Apocalyptic moment.",
-      "dialogue" : "(House\/Bergrisi, dying scream): \"NÚNA!\" (Family): Sounds between human and animal",
-      "variant_id" : "55c_story_primary",
-      "progressive_state" : ""
+      ]
     }
   ],
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "needs_improvements" : false,
+    "id" : "55c",
     "sequence_type" : "main_story",
     "duration_seconds" : 8,
-    "stitch_from" : "",
-    "id" : "55c",
+    "needs_improvements" : false,
     "title" : "THE BITE - RAGNARÐK TRIGGER 8 SECONDS",
-    "narrative_function" : "Ouroboros complete | World ending | Camera frost 4..."
-  }
+    "narrative_function" : "Ouroboros complete | World ending | Camera frost 4...",
+    "stitch_from" : ""
+  },
+  "aspect_ratio" : "4:3",
+  "progressive_state" : "Ouroboros complete | World ending | Camera frost 47% | Transformation triggered | Watching: End and beginning"
 }

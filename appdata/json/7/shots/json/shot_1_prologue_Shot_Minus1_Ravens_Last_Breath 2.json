@@ -1,11 +1,1090 @@
 {
-  "aspect_ratio" : "1.85:1",
-  "progressive_state" : "",
   "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
+      "subject" : "",
+      "progressive_state" : "",
+      "action" : "Raven's eye blinks once with enormous effort, the mechanical click of ancient eyelid fighting frost formation. The living eye dilates impossibly wide, pupil expanding beyond anatomical limits as if trying to see backwards through time itself. Camera begins descent INTO the eye, through cornea, past iris showing reflection of 1888 Shadow Pole scene. We enter the raven's throat—organic tunnel of weathered cartilage and tissue, walls pulsing weakly with life's final attempts. Three labored breaths begin, each exhalation illuminating brief flashes deeper in the tunnel. First breath reveals fragments of whale hunt in golden light. Second breath shows family at table counting, image clearer but trembling. Third breath opens throat fully, revealing the Shadow Pole scene in complete clarity as we fly OUT through the raven's opened beak into Shot 0a, the transition feeling like birth or death or testimony finally spoken.",
+      "camera_position" : "",
+      "is_active" : false,
+      "videos" : [
+        {
+          "duration" : 8,
+          "filename" : "Subject_bastofabody_with_202509141845_6t.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_bastofabody_with_202509141845_6t.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_bastofabody_with_202509141845_c6.mp4",
+          "filename" : "Subject_bastofabody_with_202509141845_c6.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/20250919_2025_Raven's Eye Journey_simple_compose_01k5jjfcv5ek8r5ma3kj0ecr05.mp4",
+          "duration" : 20,
+          "filename" : "20250919_2025_Raven's Eye Journey_simple_compose_01k5jjfcv5ek8r5ma3kj0ecr05.mp4"
+        },
+        {
+          "filename" : "20250919_2025_Raven's Eye Journey_simple_compose_01k5jjfbw7f1dbsyv989fs7vza.mp4",
+          "duration" : 20,
+          "filepath" : "\/Users\/ingthor\/Downloads\/20250919_2025_Raven's Eye Journey_simple_compose_01k5jjfbw7f1dbsyv989fs7vza.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/20250919_2025_Raven's Eye Journey_simple_compose_01k5jjfbw7f1dbsyv989fs7vza.mp4",
+          "duration" : 20,
+          "filename" : "20250919_2025_Raven's Eye Journey_simple_compose_01k5jjfbw7f1dbsyv989fs7vza.mp4"
+        },
+        {
+          "filename" : "20250919_2025_Raven's Eye Journey_simple_compose_01k5jjfcv5ek8r5ma3kj0ecr05.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/20250919_2025_Raven's Eye Journey_simple_compose_01k5jjfcv5ek8r5ma3kj0ecr05.mp4",
+          "duration" : 20
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_ekku.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_collapsed_202510240007_ekku.mp4"
+        },
+        {
+          "filename" : "Subject_magns_collapsed_202510240007_mkt0.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_mkt0.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_contaminated_202510240007_fvlyf.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_fvlyf.mp4"
+        },
+        {
+          "filename" : "Subject_the_contaminated_202510240007_it5ua.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_it5ua.mp4"
+        },
+        {
+          "filename" : "Subject_from_south_202510240007_fd14i.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_south_202510240007_fd14i.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_ewmxm.mp4",
+          "filename" : "Subject_from_the_202510240007_ewmxm.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_from_the_202510240007_bqik0.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_bqik0.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_mktig.mp4",
+          "filename" : "Subject_sigrids_mouth_202510240007_mktig.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_52mwz.mp4",
+          "filename" : "Subject_sigrids_mouth_202510240007_52mwz.mp4"
+        },
+        {
+          "filename" : "Subject_sigrids_voice_202510240008_v9tql.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_v9tql.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrids_voice_202510240008_fs1fm.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_fs1fm.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_attempting_202510240008_9v1.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_9v1.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_attempting_202510240008_o7s.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_o7s.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_5fnyt.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrid_kneeling_202510240008_5fnyt.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_kneeling_202510240008_gt764.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_gt764.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_p26br.mp4",
+          "duration" : 8,
+          "filename" : "Subject_inside_the_202510240008_p26br.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_g8yo0.mp4",
+          "filename" : "Subject_inside_the_202510240008_g8yo0.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_h6o6u.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240008_h6o6u.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_emjns.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240008_emjns.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_camera_202510240008_kjftz.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510240008_kjftz.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_standing_202510240009_z2vvg.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_z2vvg.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_sigrid_standing_202510240009_xwxxw.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_xwxxw.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_view_from_202510240009_31574.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_31574.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_4ae9w.mp4",
+          "filename" : "Subject_view_from_202510240009_4ae9w.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240009_rn42a.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_rn42a.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_uowzh.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240009_uowzh.mp4"
+        },
+        {
+          "filename" : "Subject_action_whales_202510240009_vn1hy.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_action_whales_202510240009_vn1hy.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_twelve_men_202510240009_tfnyc.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_twelve_men_202510240009_tfnyc.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_night_sky_202510240009_veyc2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_night_sky_202510240009_veyc2.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_night_sky_202510240009_3ku6b.mp4",
+          "filename" : "Subject_night_sky_202510240009_3ku6b.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_gzgzt.mp4",
+          "filename" : "Subject_subject_reference_202510240009_gzgzt.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240009_qgvva.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_qgvva.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_m52ut.mp4",
+          "filename" : "Subject_subject_reference_202510240010_m52ut.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240010_3jqwx.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_3jqwx.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_whale_202510240010_1fbab.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_whale_202510240010_1fbab.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_whale_202510240010_u5sef.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_whale_202510240010_u5sef.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_oblte.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_oblte.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240010_iij94.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_iij94.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_xhhl2.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_xhhl2.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_259ni.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_259ni.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_wdq1t.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240010_wdq1t.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240010_hckdb.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_hckdb.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240011_tmkbe.mp4",
+          "filename" : "Subject_subject_reference_202510240011_tmkbe.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_oil_202510240011_qpj9a.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202510240011_qpj9a.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240011_3af8a.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240011_3af8a.mp4"
+        },
+        {
+          "filename" : "Subject_magns_opening_202510240011_ml8gl.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_opening_202510240011_ml8gl.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_magns_opening_202510240011_6gcj4.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_opening_202510240011_6gcj4.mp4"
+        },
+        {
+          "filename" : "Subject_a_raven_202510240012_01fdf.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202510240012_01fdf.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_a_raven_202510240012_alvb2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202510240012_alvb2.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_sitting_202510240012_qvy0k.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_sitting_202510240012_qvy0k.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_sitting_202510240012_afxum.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_sitting_202510240012_afxum.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202510240012_gw8ay.mp4",
+          "filename" : "Subject_gurn_at_202510240012_gw8ay.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202510240012_8vzvz.mp4",
+          "duration" : 8,
+          "filename" : "Subject_gurn_at_202510240012_8vzvz.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_sgozi.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240012_sgozi.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240012_vkfmu.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_vkfmu.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_cas9c.mp4",
+          "filename" : "Subject_subject_reference_202510240012_cas9c.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_turning_202510240012_ywiyc.mp4",
+          "filename" : "Subject_magns_turning_202510240012_ywiyc.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_magns_turning_202510240012_gbu8s.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_turning_202510240012_gbu8s.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_sigrid_young_202510240012_sm2h6.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_young_202510240012_sm2h6.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_young_202510240013_x6c3c.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_young_202510240013_x6c3c.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_tall_202510240013_ki3mz.mp4",
+          "filename" : "Subject_a_tall_202510240013_ki3mz.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_a_tall_202510240013_i1yin.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_tall_202510240013_i1yin.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_dying_202510240013_srqk3.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_dying_202510240013_srqk3.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_dying_202510240013_50noq.mp4",
+          "filename" : "Subject_the_dying_202510240013_50noq.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_dying_ravens_202510240013_bifim.mp4",
+          "filename" : "Subject_dying_ravens_202510240013_bifim.mp4"
+        },
+        {
+          "filename" : "Subject_dying_ravens_202510240013_gzx1u.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_dying_ravens_202510240013_gzx1u.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240013_ooq0e.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240013_ooq0e.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_magns_collapsed_202510240007_ekku.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_ekku.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_mkt0.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_collapsed_202510240007_mkt0.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_contaminated_202510240007_fvlyf.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_fvlyf.mp4"
+        },
+        {
+          "filename" : "Subject_the_contaminated_202510240007_it5ua.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_it5ua.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_south_202510240007_fd14i.mp4",
+          "filename" : "Subject_from_south_202510240007_fd14i.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_ewmxm.mp4",
+          "filename" : "Subject_from_the_202510240007_ewmxm.mp4"
+        },
+        {
+          "filename" : "Subject_from_the_202510240007_bqik0.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_bqik0.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_sigrids_mouth_202510240007_mktig.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_mktig.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_52mwz.mp4",
+          "filename" : "Subject_sigrids_mouth_202510240007_52mwz.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_v9tql.mp4",
+          "filename" : "Subject_sigrids_voice_202510240008_v9tql.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_fs1fm.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_voice_202510240008_fs1fm.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_9v1.mp4",
+          "filename" : "Subject_sigrid_attempting_202510240008_9v1.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_attempting_202510240008_o7s.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_o7s.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_5fnyt.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrid_kneeling_202510240008_5fnyt.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_gt764.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrid_kneeling_202510240008_gt764.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_p26br.mp4",
+          "duration" : 8,
+          "filename" : "Subject_inside_the_202510240008_p26br.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_inside_the_202510240008_g8yo0.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_g8yo0.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_h6o6u.mp4",
+          "filename" : "Subject_subject_reference_202510240008_h6o6u.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240008_emjns.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_emjns.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510240008_kjftz.mp4",
+          "filename" : "Subject_the_camera_202510240008_kjftz.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_z2vvg.mp4",
+          "filename" : "Subject_sigrid_standing_202510240009_z2vvg.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_sigrid_standing_202510240009_xwxxw.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_xwxxw.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_view_from_202510240009_31574.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_31574.mp4"
+        },
+        {
+          "filename" : "Subject_view_from_202510240009_4ae9w.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_4ae9w.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_rn42a.mp4",
+          "filename" : "Subject_subject_reference_202510240009_rn42a.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240009_uowzh.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_uowzh.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_action_whales_202510240009_vn1hy.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_action_whales_202510240009_vn1hy.mp4"
+        },
+        {
+          "filename" : "Subject_twelve_men_202510240009_tfnyc.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_twelve_men_202510240009_tfnyc.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_night_sky_202510240009_veyc2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_night_sky_202510240009_veyc2.mp4"
+        },
+        {
+          "filename" : "Subject_night_sky_202510240009_3ku6b.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_night_sky_202510240009_3ku6b.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_gzgzt.mp4",
+          "filename" : "Subject_subject_reference_202510240009_gzgzt.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240009_qgvva.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_qgvva.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_m52ut.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_m52ut.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_3jqwx.mp4",
+          "filename" : "Subject_subject_reference_202510240010_3jqwx.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_whale_202510240010_1fbab.mp4",
+          "filename" : "Subject_the_whale_202510240010_1fbab.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_whale_202510240010_u5sef.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_whale_202510240010_u5sef.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_oblte.mp4",
+          "filename" : "Subject_subject_reference_202510240010_oblte.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_iij94.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_iij94.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_xhhl2.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240010_xhhl2.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_259ni.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_259ni.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_wdq1t.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_wdq1t.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_hckdb.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_hckdb.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240011_tmkbe.mp4",
+          "filename" : "Subject_subject_reference_202510240011_tmkbe.mp4"
+        },
+        {
+          "filename" : "Subject_the_oil_202510240011_qpj9a.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202510240011_qpj9a.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240011_3af8a.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240011_3af8a.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_opening_202510240011_ml8gl.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_opening_202510240011_ml8gl.mp4"
+        },
+        {
+          "filename" : "Subject_magns_opening_202510240011_6gcj4.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_opening_202510240011_6gcj4.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_a_raven_202510240012_01fdf.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202510240012_01fdf.mp4"
+        },
+        {
+          "filename" : "Subject_a_raven_202510240012_alvb2.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202510240012_alvb2.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_sitting_202510240012_qvy0k.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_sitting_202510240012_qvy0k.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_sigrid_sitting_202510240012_afxum.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_sitting_202510240012_afxum.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_gurn_at_202510240012_gw8ay.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202510240012_gw8ay.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202510240012_8vzvz.mp4",
+          "filename" : "Subject_gurn_at_202510240012_8vzvz.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240012_sgozi.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_sgozi.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240012_vkfmu.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_vkfmu.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240012_cas9c.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_cas9c.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_turning_202510240012_ywiyc.mp4",
+          "filename" : "Subject_magns_turning_202510240012_ywiyc.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_turning_202510240012_gbu8s.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_turning_202510240012_gbu8s.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_young_202510240012_sm2h6.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_young_202510240012_sm2h6.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_young_202510240013_x6c3c.mp4",
+          "filename" : "Subject_sigrid_young_202510240013_x6c3c.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_tall_202510240013_ki3mz.mp4",
+          "duration" : 8,
+          "filename" : "Subject_a_tall_202510240013_ki3mz.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_tall_202510240013_i1yin.mp4",
+          "duration" : 8,
+          "filename" : "Subject_a_tall_202510240013_i1yin.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_dying_202510240013_srqk3.mp4",
+          "filename" : "Subject_the_dying_202510240013_srqk3.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_dying_202510240013_50noq.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_dying_202510240013_50noq.mp4"
+        },
+        {
+          "filename" : "Subject_dying_ravens_202510240013_bifim.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_dying_ravens_202510240013_bifim.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_dying_ravens_202510240013_gzx1u.mp4",
+          "duration" : 8,
+          "filename" : "Subject_dying_ravens_202510240013_gzx1u.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240013_ooq0e.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240013_ooq0e.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_dying_ravens_202510240013_b33nu.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_dying_ravens_202510240013_b33nu.mp4"
+        },
+        {
+          "filename" : "Subject_dying_ravens_202510240013_7ijob.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_dying_ravens_202510240013_7ijob.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240013_htxb6.mp4",
+          "filename" : "Subject_subject_reference_202510240013_htxb6.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_ekku.mp4",
+          "filename" : "Subject_magns_collapsed_202510240007_ekku.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_magns_collapsed_202510240007_mkt0.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_mkt0.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_fvlyf.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_contaminated_202510240007_fvlyf.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_contaminated_202510240007_it5ua.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_it5ua.mp4"
+        },
+        {
+          "filename" : "Subject_from_south_202510240007_fd14i.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_south_202510240007_fd14i.mp4"
+        },
+        {
+          "filename" : "Subject_from_the_202510240007_ewmxm.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_ewmxm.mp4"
+        },
+        {
+          "filename" : "Subject_from_the_202510240007_bqik0.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_bqik0.mp4"
+        },
+        {
+          "filename" : "Subject_sigrids_mouth_202510240007_mktig.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_mktig.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_sigrids_mouth_202510240007_52mwz.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_52mwz.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_sigrids_voice_202510240008_v9tql.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_v9tql.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_fs1fm.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_voice_202510240008_fs1fm.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_9v1.mp4",
+          "filename" : "Subject_sigrid_attempting_202510240008_9v1.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_attempting_202510240008_o7s.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_o7s.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_kneeling_202510240008_5fnyt.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_5fnyt.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_gt764.mp4",
+          "filename" : "Subject_sigrid_kneeling_202510240008_gt764.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_p26br.mp4",
+          "filename" : "Subject_inside_the_202510240008_p26br.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_inside_the_202510240008_g8yo0.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_g8yo0.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240008_h6o6u.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_h6o6u.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240008_emjns.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_emjns.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510240008_kjftz.mp4",
+          "filename" : "Subject_the_camera_202510240008_kjftz.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_z2vvg.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrid_standing_202510240009_z2vvg.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_standing_202510240009_xwxxw.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_xwxxw.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_31574.mp4",
+          "filename" : "Subject_view_from_202510240009_31574.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_view_from_202510240009_4ae9w.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_4ae9w.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_rn42a.mp4",
+          "filename" : "Subject_subject_reference_202510240009_rn42a.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240009_uowzh.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_uowzh.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_action_whales_202510240009_vn1hy.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_action_whales_202510240009_vn1hy.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_twelve_men_202510240009_tfnyc.mp4",
+          "filename" : "Subject_twelve_men_202510240009_tfnyc.mp4"
+        },
+        {
+          "filename" : "Subject_night_sky_202510240009_veyc2.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_night_sky_202510240009_veyc2.mp4"
+        },
+        {
+          "filename" : "Subject_night_sky_202510240009_3ku6b.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_night_sky_202510240009_3ku6b.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240009_gzgzt.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_gzgzt.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_qgvva.mp4",
+          "filename" : "Subject_subject_reference_202510240009_qgvva.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_m52ut.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240010_m52ut.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_3jqwx.mp4",
+          "filename" : "Subject_subject_reference_202510240010_3jqwx.mp4"
+        },
+        {
+          "filename" : "Subject_the_whale_202510240010_1fbab.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_whale_202510240010_1fbab.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_whale_202510240010_u5sef.mp4",
+          "filename" : "Subject_the_whale_202510240010_u5sef.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_oblte.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240010_oblte.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_iij94.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_iij94.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_xhhl2.mp4",
+          "filename" : "Subject_subject_reference_202510240010_xhhl2.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240010_259ni.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_259ni.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_wdq1t.mp4",
+          "filename" : "Subject_subject_reference_202510240010_wdq1t.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240010_hckdb.mp4",
+          "filename" : "Subject_subject_reference_202510240010_hckdb.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240011_tmkbe.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240011_tmkbe.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_oil_202510240011_qpj9a.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_oil_202510240011_qpj9a.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240011_3af8a.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240011_3af8a.mp4"
+        },
+        {
+          "filename" : "Subject_magns_opening_202510240011_ml8gl.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_opening_202510240011_ml8gl.mp4"
+        },
+        {
+          "filename" : "Subject_magns_opening_202510240011_6gcj4.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_opening_202510240011_6gcj4.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_a_raven_202510240012_01fdf.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202510240012_01fdf.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_a_raven_202510240012_alvb2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202510240012_alvb2.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_sitting_202510240012_qvy0k.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_sitting_202510240012_qvy0k.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_sitting_202510240012_afxum.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_sitting_202510240012_afxum.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_gurn_at_202510240012_gw8ay.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202510240012_gw8ay.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_gurn_at_202510240012_8vzvz.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_at_202510240012_8vzvz.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240012_sgozi.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_sgozi.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_vkfmu.mp4",
+          "filename" : "Subject_subject_reference_202510240012_vkfmu.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240012_cas9c.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240012_cas9c.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_turning_202510240012_ywiyc.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_turning_202510240012_ywiyc.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_turning_202510240012_gbu8s.mp4",
+          "filename" : "Subject_magns_turning_202510240012_gbu8s.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_young_202510240012_sm2h6.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrid_young_202510240012_sm2h6.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_young_202510240013_x6c3c.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_young_202510240013_x6c3c.mp4"
+        },
+        {
+          "filename" : "Subject_a_tall_202510240013_ki3mz.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_tall_202510240013_ki3mz.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_tall_202510240013_i1yin.mp4",
+          "filename" : "Subject_a_tall_202510240013_i1yin.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_dying_202510240013_srqk3.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_dying_202510240013_srqk3.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_dying_202510240013_50noq.mp4",
+          "filename" : "Subject_the_dying_202510240013_50noq.mp4"
+        },
+        {
+          "filename" : "Subject_dying_ravens_202510240013_bifim.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_dying_ravens_202510240013_bifim.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_dying_ravens_202510240013_gzx1u.mp4",
+          "filename" : "Subject_dying_ravens_202510240013_gzx1u.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240013_ooq0e.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240013_ooq0e.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_dying_ravens_202510240013_b33nu.mp4",
+          "duration" : 8,
+          "filename" : "Subject_dying_ravens_202510240013_b33nu.mp4"
+        },
+        {
+          "filename" : "Subject_dying_ravens_202510240013_7ijob.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_dying_ravens_202510240013_7ijob.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240013_htxb6.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240013_htxb6.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240014_1owsf.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240014_1owsf.mp4",
+          "duration" : 8
+        }
+      ],
+      "variant_id" : "1_shot_minus1_ravens_last_breath_mnemonic_wrapper",
       "variant_name" : "Shot Minus1 Ravens Last Breath Mnemonic Wrapper",
+      "style" : "Camera begins as extreme close-up on raven's eye positioned at ground level 6 inches from bird (that's where the camera is), using macro lens equivalent revealing crystalline frost formations in dead eye and impossible life in living eye. During descent into throat, camera becomes probe lens navigating organic tunnel, maintaining documentary objectivity despite impossible journey. Lighting entirely from bioluminescent tissue and reflected light from memory fragments. No artificial illumination—only the glow of dying consciousness attempting to speak. Orthochromatic color palette emphasizing texture over hue. Movement fluid but labored, matching the dying breath rhythm of 3 breaths per minute. DIALOGUE:",
+      "dialogue" : "",
+      "scene" : "SHOT -1: THE RAVEN'S LAST BREATH Mnemonic Wrapper - Opening Portal Into Failing Collective Memory SHOT HEADER: Interior of raven's throat, macro perspective revealing organic architecture of witness-creature. Walls show texture of ancient tissue—cartilage rings supporting the tunnel, blood vessels visible beneath translucent membrane surfaces. Temperature exactly 37°C (body temperature), the last warmth in dying Iceland. Moisture beads on walls create natural condensation that reflects light fragments. Scale suggests this isn't normal raven but Huginn or Muninn—Odin's memory ravens grown massive through centuries of witnessing. The throat tunnel impossibly extends beyond bird's anatomy, becoming the klettagjá (cliff's cleft) from the lullaby. Pink flesh beneath everything confirms we're inside something divine that once lived.",
+      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-MARKED",
@@ -15,57 +1094,18 @@
         "BAÐSTOFA-STIRRING",
         "WESTFJORDS-WINTER"
       ],
-      "videos" : [
-        {
-          "duration" : 8,
-          "filename" : "Subject_bastofabody_with_202509141845_6t.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_bastofabody_with_202509141845_6t.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_bastofabody_with_202509141845_c6.mp4",
-          "duration" : 8,
-          "filename" : "Subject_bastofabody_with_202509141845_c6.mp4"
-        },
-        {
-          "filename" : "20250919_2025_Raven's Eye Journey_simple_compose_01k5jjfcv5ek8r5ma3kj0ecr05.mp4",
-          "duration" : 20,
-          "filepath" : "\/Users\/ingthor\/Downloads\/20250919_2025_Raven's Eye Journey_simple_compose_01k5jjfcv5ek8r5ma3kj0ecr05.mp4"
-        },
-        {
-          "filename" : "20250919_2025_Raven's Eye Journey_simple_compose_01k5jjfbw7f1dbsyv989fs7vza.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/20250919_2025_Raven's Eye Journey_simple_compose_01k5jjfbw7f1dbsyv989fs7vza.mp4",
-          "duration" : 20
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/20250919_2025_Raven's Eye Journey_simple_compose_01k5jjfbw7f1dbsyv989fs7vza.mp4",
-          "duration" : 20,
-          "filename" : "20250919_2025_Raven's Eye Journey_simple_compose_01k5jjfbw7f1dbsyv989fs7vza.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/20250919_2025_Raven's Eye Journey_simple_compose_01k5jjfcv5ek8r5ma3kj0ecr05.mp4",
-          "duration" : 20,
-          "filename" : "20250919_2025_Raven's Eye Journey_simple_compose_01k5jjfcv5ek8r5ma3kj0ecr05.mp4"
-        }
-      ],
-      "style" : "Camera begins as extreme close-up on raven's eye positioned at ground level 6 inches from bird (that's where the camera is), using macro lens equivalent revealing crystalline frost formations in dead eye and impossible life in living eye. During descent into throat, camera becomes probe lens navigating organic tunnel, maintaining documentary objectivity despite impossible journey. Lighting entirely from bioluminescent tissue and reflected light from memory fragments. No artificial illumination—only the glow of dying consciousness attempting to speak. Orthochromatic color palette emphasizing texture over hue. Movement fluid but labored, matching the dying breath rhythm of 3 breaths per minute. DIALOGUE:",
-      "subject" : "",
-      "is_active" : false,
-      "active_video_index" : 0,
-      "camera_position" : "",
-      "action" : "Raven's eye blinks once with enormous effort, the mechanical click of ancient eyelid fighting frost formation. The living eye dilates impossibly wide, pupil expanding beyond anatomical limits as if trying to see backwards through time itself. Camera begins descent INTO the eye, through cornea, past iris showing reflection of 1888 Shadow Pole scene. We enter the raven's throat—organic tunnel of weathered cartilage and tissue, walls pulsing weakly with life's final attempts. Three labored breaths begin, each exhalation illuminating brief flashes deeper in the tunnel. First breath reveals fragments of whale hunt in golden light. Second breath shows family at table counting, image clearer but trembling. Third breath opens throat fully, revealing the Shadow Pole scene in complete clarity as we fly OUT through the raven's opened beak into Shot 0a, the transition feeling like birth or death or testimony finally spoken.",
-      "scene" : "SHOT -1: THE RAVEN'S LAST BREATH Mnemonic Wrapper - Opening Portal Into Failing Collective Memory SHOT HEADER: Interior of raven's throat, macro perspective revealing organic architecture of witness-creature. Walls show texture of ancient tissue—cartilage rings supporting the tunnel, blood vessels visible beneath translucent membrane surfaces. Temperature exactly 37°C (body temperature), the last warmth in dying Iceland. Moisture beads on walls create natural condensation that reflects light fragments. Scale suggests this isn't normal raven but Huginn or Muninn—Odin's memory ravens grown massive through centuries of witnessing. The throat tunnel impossibly extends beyond bird's anatomy, becoming the klettagjá (cliff's cleft) from the lullaby. Pink flesh beneath everything confirms we're inside something divine that once lived.",
-      "dialogue" : "",
-      "progressive_state" : "",
-      "variant_id" : "1_shot_minus1_ravens_last_breath_mnemonic_wrapper"
+      "active_video_index" : 0
     }
   ],
   "shot_metadata" : {
-    "needs_improvements" : false,
     "sequence_type" : "prologue",
     "duration_seconds" : 3,
-    "stitch_from" : "",
+    "needs_improvements" : false,
     "id" : "-1",
-    "title" : "Shot Minus1 Ravens Last Breath Mnemonic Wrapper",
-    "narrative_function" : "enhancement"
-  }
+    "stitch_from" : "",
+    "narrative_function" : "enhancement",
+    "title" : "Shot Minus1 Ravens Last Breath Mnemonic Wrapper"
+  },
+  "progressive_state" : "",
+  "aspect_ratio" : "1.85:1"
 }

@@ -1,11 +1,9 @@
 {
-  "aspect_ratio" : "2.39:1",
-  "progressive_state" : "Complete freeze | Frost 95%â†’100% | Death\/rebirth | Watching: Becomes memory",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
-      "negative_prompt" : "maintain white luminosity, not darkness",
+      "action" : "95%. 96%. White overtaking. Not darkness - blinding light. The frost becomes luminous. 97%. Through white: EVERYTHING. Every shot we've seen. Overlapping. Transparent. All simultaneous. The ram circles. Tilberi breathing. Magnús's tremor. House dying. Bull arriving. Transformation. Obelisk rising. Sigrid flying. All at once. All true. All remembered. 98%. The images fade into pure white. Clean. Empty. Ready. 99%. Through white: sound of baby crying. New. 1944. June 17. Born at moment of independence vote. 99.5%. Baby's eye. Opening. Blue. Infinite. Seeing for first time. Free. Never colonized. 99.9%. Eye fills frame. 100%. The camera dies. But the eye lives. Watching. Witnessing. Continuing. The story transfers from mechanical witness to human witness. From camera to child. From us to future. Black. Silence. Then, distant: raven's call. Credits.",
       "variant_name" : "Primary - WHITE DEATH - CAMERA TRANSCENDS 12 SECONDS FINAL SHOT",
+      "active_video_index" : 0,
       "selected_plates" : [
         "MAGNUS-RAM",
         "SIGRID-CORVID",
@@ -15,26 +13,30 @@
         "SEA-ETERNAL",
         "WESTFJORDS-CLIFF"
       ],
+      "is_active" : false,
+      "camera_position" : "Static frozen transcendence (that's where the camera was), death documented.",
+      "dialogue" : "(Baby): First cry of freedom (Distant): Raven call",
+      "subject" : "The final 5% closes but instead of black, everything becomes brilliant WHITE - the frost transforming to light, showing through the white: every frame of the film simultaneously, all moments existing at once, before the camera dies at 100%, last image: newborn human baby's eye opening, 1944, free.",
       "videos" : [
         {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510162324_fdd9m.mp4",
           "filename" : "Subject_the_final_202510162324_fdd9m.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510162324_fdd9m.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510162324_kp873.mp4",
-          "filename" : "Subject_the_final_202510162324_kp873.mp4",
           "duration" : 8
         },
         {
-          "filename" : "Subject_magnus_pushing_202510232252_ynkpu.mp4",
           "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510162324_kp873.mp4",
+          "filename" : "Subject_the_final_202510162324_kp873.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_magnus_pushing_202510232252_ynkpu.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magnus_pushing_202510232252_ynkpu.mp4"
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magnus_pushing_202510232252_qpi5w.mp4",
-          "filename" : "Subject_magnus_pushing_202510232252_qpi5w.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filename" : "Subject_magnus_pushing_202510232252_qpi5w.mp4"
         },
         {
           "duration" : 8,
@@ -42,30 +44,28 @@
           "filename" : "Subject_the_final_202510232252_abeda.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510232252_rcrgm.mp4",
           "filename" : "Subject_the_final_202510232252_rcrgm.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_final_202510232252_rcrgm.mp4",
           "duration" : 8
         }
       ],
-      "style" : "Static frozen transcendence (that's where the camera was), death documented.",
-      "subject" : "The final 5% closes but instead of black, everything becomes brilliant WHITE - the frost transforming to light, showing through the white: every frame of the film simultaneously, all moments existing at once, before the camera dies at 100%, last image: newborn human baby's eye opening, 1944, free.",
-      "is_active" : false,
-      "active_video_index" : 0,
-      "camera_position" : "Static frozen transcendence (that's where the camera was), death documented.",
-      "action" : "95%. 96%. White overtaking. Not darkness - blinding light. The frost becomes luminous. 97%. Through white: EVERYTHING. Every shot we've seen. Overlapping. Transparent. All simultaneous. The ram circles. Tilberi breathing. Magnús's tremor. House dying. Bull arriving. Transformation. Obelisk rising. Sigrid flying. All at once. All true. All remembered. 98%. The images fade into pure white. Clean. Empty. Ready. 99%. Through white: sound of baby crying. New. 1944. June 17. Born at moment of independence vote. 99.5%. Baby's eye. Opening. Blue. Infinite. Seeing for first time. Free. Never colonized. 99.9%. Eye fills frame. 100%. The camera dies. But the eye lives. Watching. Witnessing. Continuing. The story transfers from mechanical witness to human witness. From camera to child. From us to future. Black. Silence. Then, distant: raven's call. Credits.",
-      "scene" : "White overtaking. All images simultaneous. Baby's eye. Death becoming birth.",
-      "dialogue" : "(Baby): First cry of freedom (Distant): Raven call",
+      "negative_prompt" : "maintain white luminosity, not darkness",
       "variant_id" : "63_story_primary",
-      "progressive_state" : ""
+      "progressive_state" : "",
+      "style" : "Static frozen transcendence (that's where the camera was), death documented.",
+      "scene" : "White overtaking. All images simultaneous. Baby's eye. Death becoming birth."
     }
   ],
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "needs_improvements" : false,
+    "id" : "63",
     "sequence_type" : "main_story",
     "duration_seconds" : 12,
-    "stitch_from" : "",
-    "id" : "63",
+    "needs_improvements" : false,
     "title" : "WHITE DEATH - CAMERA TRANSCENDS 12 SECONDS FINAL SHOT",
-    "narrative_function" : "Complete freeze | Frost 95%â†’100% | Death\/rebirth..."
-  }
+    "narrative_function" : "Complete freeze | Frost 95%â†’100% | Death\/rebirth...",
+    "stitch_from" : ""
+  },
+  "aspect_ratio" : "2.39:1",
+  "progressive_state" : "Complete freeze | Frost 95%â†’100% | Death\/rebirth | Watching: Becomes memory"
 }

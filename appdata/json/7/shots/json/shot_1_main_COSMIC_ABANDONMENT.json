@@ -1,29 +1,8 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "House 12\/min | Klettagjá none | No contamination | Camera frost 0% | Sorting none | Landvættir sleeping",
   "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
       "variant_name" : "Group 1 Prologue Viral Enhancement Five Shots",
-      "variant_id" : "1_group_1_prologue_viral_enhancement_five_shots",
-      "scene" : "GROUP 1: PROLOGUE VIRAL ENHANCEMENT - FIVE SHOTS Transforming 7-8.5\/10 Prologue Scenes to 10\/10 Masterpieces OVERVIEW: Black volcanic sand beach where divine blood creates liquid cartography teaching community organization through origami blood-sheet mathematics, sacred geometry operating from cellular to geographical scale serving traditional cooperation enhancement. Cliff face during impossible egg collection where 2D geology transforms to accommodate extra reproductive abundance, traditional gathering enhanced by dimensional expansion enabling surplus collection through supernatural cliff cooperation.",
-      "progressive_state" : "",
-      "action" : "Blood-sheet origami unfolds across beach creating navigation cartography for community processing organization—liquid crimson peeling like fabric to reveal three-layer blood map: SURFACE shows immediate processing locations, MIDDLE LAYER reveals seasonal hunting territories, DEEP LAYER exposes ancient sacrifice sites connected through underground blood mathematics. Scale-jumping camera follows blood pattern expansion: beginning inside blood droplet showing cellular organization, morphing through beach surface pattern, expanding to aerial perspective revealing entire Westfjords geography following identical mathematical template. Blood consciousness directs community movement through origami geography—liquid cartography teaching optimal processing locations, seasonal territory organization, ancient sacrifice integration through divine blood serving as environdistressed expression system. Cliff face 2D-to-3D transformation enables impossible egg access: flat rock surface opening into deep nest-chambers containing additional eggs beyond natural cliff nesting capacity, dimensional expansion providing extra reproductive resources through supernatural abundance enhancement. Infinite zoom into collected eggs reveals apparent: camera diving into normal-appearing shell discovering crystalline architecture containing imperial materials, microscopic examination showing brass machinery where yolk should exist, rope fibers forming albumin network, coal particles creating shell strength enhancement. Scale-jumping between egg collection (normal activity) and apparent (contamination revelation) shows traditional food sources corrupted by industrial atmospheric pollution affecting reproductive biology at cellular level. Window recursion reveals surveillance infinity: camera observing family through window while family observes camera through same window creating dimensional surveillance loop where observation multiplies through recursive reflection, watching-within-watching creating mathematical infinity of mutual observation. Freeze frame selectivity during counting confusion: family time-worn appearance breaking under mathematical impossibility while Sigrid maintains normal time-flow, imperial counting affecting family time-worn appearance while witness-consciousness operates immune to administrative time-worn appearance. Window reflection independence showing six while direct shows five demonstrates mathematical contamination affecting reflection-surreal visual than physical reality, mirror-distorted appearance impossible mathematics while physical distorted appearance with counting contamination.",
-      "camera_position" : "",
-      "is_active" : false,
-      "subject" : "",
-      "style" : "Camera following blood scale-jumping expansion using impossible perspective morphing (that's where the camera is), macro-to-cosmic transitions following mathematical pattern consistency. Movement determined by blood cartography expansion rather than traditional tracking. Natural lighting enhanced by blood luminescence and origami geometry self-illumination. DIALOGUE:",
-      "selected_plates" : [
-        "BAÐSTOFA-STIRRING",
-        "WESTFJORDS-WINTER",
-        "WESTFJORDS-AERIAL"
-      ],
-      "negative_prompt" : "",
-      "dialogue" : ""
-    },
-    {
-      "negative_prompt" : "no subtitles, no text overlays, no lens flares, no purple colors in aurora, no modern lights, no contrails, maintain pure 1888 environment",
-      "variant_name" : "Primary - COSMIC ABANDONMENT",
       "selected_plates" : [
         "BAÐSTOFA-STIRRING",
         "WESTFJORDS-WINTER",
@@ -31,61 +10,393 @@
       ],
       "videos" : [
         {
-          "filename" : "20251019_1243_01k7yzpckwfvg8643q4eavzjd4.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1243_01k7yzpckwfvg8643q4eavzjd4.mp4",
-          "duration" : 25.088666666666665
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_ekku.mp4",
+          "filename" : "Subject_magns_collapsed_202510240007_ekku.mp4"
         },
         {
           "duration" : 8,
-          "filename" : "Subject_subject_reference_202510192215_yb4pj.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510192215_yb4pj.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_mkt0.mp4",
+          "filename" : "Subject_magns_collapsed_202510240007_mkt0.mp4"
+        },
+        {
+          "filename" : "Subject_the_contaminated_202510240007_fvlyf.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_fvlyf.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_contaminated_202510240007_it5ua.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_it5ua.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_south_202510240007_fd14i.mp4",
+          "filename" : "Subject_from_south_202510240007_fd14i.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_ewmxm.mp4",
+          "filename" : "Subject_from_the_202510240007_ewmxm.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_from_the_202510240007_bqik0.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_bqik0.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrids_mouth_202510240007_mktig.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_mktig.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_52mwz.mp4",
+          "filename" : "Subject_sigrids_mouth_202510240007_52mwz.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_v9tql.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_voice_202510240008_v9tql.mp4"
+        },
+        {
+          "filename" : "Subject_sigrids_voice_202510240008_fs1fm.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_fs1fm.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrid_attempting_202510240008_9v1.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_9v1.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_o7s.mp4",
+          "filename" : "Subject_sigrid_attempting_202510240008_o7s.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_5fnyt.mp4",
+          "filename" : "Subject_sigrid_kneeling_202510240008_5fnyt.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_gt764.mp4",
+          "filename" : "Subject_sigrid_kneeling_202510240008_gt764.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_inside_the_202510240008_p26br.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_p26br.mp4"
+        },
+        {
+          "filename" : "Subject_inside_the_202510240008_g8yo0.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_g8yo0.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_h6o6u.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240008_h6o6u.mp4"
+        },
+        {
+          "filename" : "Subject_subject_reference_202510240008_emjns.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_emjns.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510240008_kjftz.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_camera_202510240008_kjftz.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_z2vvg.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrid_standing_202510240009_z2vvg.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_standing_202510240009_xwxxw.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_xwxxw.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_view_from_202510240009_31574.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_31574.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_view_from_202510240009_4ae9w.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_4ae9w.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240009_rn42a.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_rn42a.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240009_uowzh.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_uowzh.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_action_whales_202510240009_vn1hy.mp4",
+          "filename" : "Subject_action_whales_202510240009_vn1hy.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_twelve_men_202510240009_tfnyc.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_twelve_men_202510240009_tfnyc.mp4"
+        },
+        {
+          "filename" : "Subject_night_sky_202510240009_veyc2.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_night_sky_202510240009_veyc2.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_night_sky_202510240009_3ku6b.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_night_sky_202510240009_3ku6b.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_gzgzt.mp4",
+          "filename" : "Subject_subject_reference_202510240009_gzgzt.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_qgvva.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240009_qgvva.mp4"
+        }
+      ],
+      "style" : "Camera following blood scale-jumping expansion using impossible perspective morphing (that's where the camera is), macro-to-cosmic transitions following mathematical pattern consistency. Movement determined by blood cartography expansion rather than traditional tracking. Natural lighting enhanced by blood luminescence and origami geometry self-illumination. DIALOGUE:",
+      "is_active" : false,
+      "scene" : "GROUP 1: PROLOGUE VIRAL ENHANCEMENT - FIVE SHOTS Transforming 7-8.5\/10 Prologue Scenes to 10\/10 Masterpieces OVERVIEW: Black volcanic sand beach where divine blood creates liquid cartography teaching community organization through origami blood-sheet mathematics, sacred geometry operating from cellular to geographical scale serving traditional cooperation enhancement. Cliff face during impossible egg collection where 2D geology transforms to accommodate extra reproductive abundance, traditional gathering enhanced by dimensional expansion enabling surplus collection through supernatural cliff cooperation.",
+      "action" : "Blood-sheet origami unfolds across beach creating navigation cartography for community processing organization—liquid crimson peeling like fabric to reveal three-layer blood map: SURFACE shows immediate processing locations, MIDDLE LAYER reveals seasonal hunting territories, DEEP LAYER exposes ancient sacrifice sites connected through underground blood mathematics. Scale-jumping camera follows blood pattern expansion: beginning inside blood droplet showing cellular organization, morphing through beach surface pattern, expanding to aerial perspective revealing entire Westfjords geography following identical mathematical template. Blood consciousness directs community movement through origami geography—liquid cartography teaching optimal processing locations, seasonal territory organization, ancient sacrifice integration through divine blood serving as environdistressed expression system. Cliff face 2D-to-3D transformation enables impossible egg access: flat rock surface opening into deep nest-chambers containing additional eggs beyond natural cliff nesting capacity, dimensional expansion providing extra reproductive resources through supernatural abundance enhancement. Infinite zoom into collected eggs reveals apparent: camera diving into normal-appearing shell discovering crystalline architecture containing imperial materials, microscopic examination showing brass machinery where yolk should exist, rope fibers forming albumin network, coal particles creating shell strength enhancement. Scale-jumping between egg collection (normal activity) and apparent (contamination revelation) shows traditional food sources corrupted by industrial atmospheric pollution affecting reproductive biology at cellular level. Window recursion reveals surveillance infinity: camera observing family through window while family observes camera through same window creating dimensional surveillance loop where observation multiplies through recursive reflection, watching-within-watching creating mathematical infinity of mutual observation. Freeze frame selectivity during counting confusion: family time-worn appearance breaking under mathematical impossibility while Sigrid maintains normal time-flow, imperial counting affecting family time-worn appearance while witness-consciousness operates immune to administrative time-worn appearance. Window reflection independence showing six while direct shows five demonstrates mathematical contamination affecting reflection-surreal visual than physical reality, mirror-distorted appearance impossible mathematics while physical distorted appearance with counting contamination.",
+      "active_video_index" : 0,
+      "variant_id" : "1_group_1_prologue_viral_enhancement_five_shots",
+      "subject" : "",
+      "camera_position" : "",
+      "negative_prompt" : "",
+      "progressive_state" : "",
+      "dialogue" : ""
+    },
+    {
+      "subject" : "Night sky 5000 feet above Iceland's Westfjords showing green aurora borealis ribbons physically retracting upward like fingers releasing their grip, while three black ravens circle counterclockwise exactly where the camera descends, their bodies visible only as moving voids blocking stars, each raven precisely 10 feet apart forming a perfect triangle.",
+      "progressive_state" : "",
+      "action" : "Pure vertical descent at 10 feet per second through polar atmosphere. Aurora ribbons pull upward in real-time, green light draining from lower atmosphere leaving black void below. The three ravens maintain perfect triangular formation, circling the descent path, wings beating once every 2 seconds. At 3000 feet altitude, British trawler GRIMSBY PRIDE becomes visible in pack ice, its 200-foot hull curved in serpent coil, two yellow navigation lights positioned like eyes, smoke stack releasing black smoke that doesn't disperse but hangs like a dark tongue. At 1000 feet, single turf house visible, chimney smoke bent horizontal by wind, smoke pulsing out in visible bursts every 5 seconds (12 per minute), each pulse 3 feet long before wind tears it apart.",
+      "camera_position" : "Straight vertical descent, camera dropping through atmosphere",
+      "is_active" : false,
+      "videos" : [
+        {
+          "duration" : 25.088666666666665,
+          "filename" : "20251019_1243_01k7yzpckwfvg8643q4eavzjd4.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1243_01k7yzpckwfvg8643q4eavzjd4.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510192215_yb4pj.mp4",
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510192215_yb4pj.mp4"
         },
         {
           "filename" : "Subject_subject_reference_202510192215_aegr0.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510192215_aegr0.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_ekku.mp4",
+          "filename" : "Subject_magns_collapsed_202510240007_ekku.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_mkt0.mp4",
+          "filename" : "Subject_magns_collapsed_202510240007_mkt0.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_contaminated_202510240007_fvlyf.mp4",
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510192215_aegr0.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_fvlyf.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_it5ua.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_contaminated_202510240007_it5ua.mp4"
+        },
+        {
+          "filename" : "Subject_from_south_202510240007_fd14i.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_south_202510240007_fd14i.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_ewmxm.mp4",
+          "duration" : 8,
+          "filename" : "Subject_from_the_202510240007_ewmxm.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_bqik0.mp4",
+          "filename" : "Subject_from_the_202510240007_bqik0.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrids_mouth_202510240007_mktig.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_mktig.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_52mwz.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_mouth_202510240007_52mwz.mp4"
+        },
+        {
+          "filename" : "Subject_sigrids_voice_202510240008_v9tql.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_v9tql.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrids_voice_202510240008_fs1fm.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_fs1fm.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_attempting_202510240008_9v1.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_9v1.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_sigrid_attempting_202510240008_o7s.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_o7s.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_5fnyt.mp4",
+          "filename" : "Subject_sigrid_kneeling_202510240008_5fnyt.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_sigrid_kneeling_202510240008_gt764.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_gt764.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_p26br.mp4",
+          "duration" : 8,
+          "filename" : "Subject_inside_the_202510240008_p26br.mp4"
+        },
+        {
+          "filename" : "Subject_inside_the_202510240008_g8yo0.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_g8yo0.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510240008_h6o6u.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_h6o6u.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_emjns.mp4",
+          "filename" : "Subject_subject_reference_202510240008_emjns.mp4"
+        },
+        {
+          "filename" : "Subject_the_camera_202510240008_kjftz.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510240008_kjftz.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_z2vvg.mp4",
+          "filename" : "Subject_sigrid_standing_202510240009_z2vvg.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_standing_202510240009_xwxxw.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_xwxxw.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_31574.mp4",
+          "duration" : 8,
+          "filename" : "Subject_view_from_202510240009_31574.mp4"
+        },
+        {
+          "filename" : "Subject_view_from_202510240009_4ae9w.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_4ae9w.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_rn42a.mp4",
+          "filename" : "Subject_subject_reference_202510240009_rn42a.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_uowzh.mp4",
+          "filename" : "Subject_subject_reference_202510240009_uowzh.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_action_whales_202510240009_vn1hy.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_action_whales_202510240009_vn1hy.mp4"
+        },
+        {
+          "filename" : "Subject_twelve_men_202510240009_tfnyc.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_twelve_men_202510240009_tfnyc.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_night_sky_202510240009_veyc2.mp4",
+          "duration" : 8,
+          "filename" : "Subject_night_sky_202510240009_veyc2.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_night_sky_202510240009_3ku6b.mp4",
+          "duration" : 8,
+          "filename" : "Subject_night_sky_202510240009_3ku6b.mp4"
         }
       ],
+      "variant_id" : "1_story_primary",
+      "variant_name" : "Primary - COSMIC ABANDONMENT",
       "style" : "Straight vertical descent, camera dropping through atmosphere (that's where the camera is), 14mm ultra-wide lens capturing full environment, no lateral movement, no tilting, pure downward observation like documentary drone footage before drones existed.",
-      "subject" : "Night sky 5000 feet above Iceland's Westfjords showing green aurora borealis ribbons physically retracting upward like fingers releasing their grip, while three black ravens circle counterclockwise exactly where the camera descends, their bodies visible only as moving voids blocking stars, each raven precisely 10 feet apart forming a perfect triangle.",
-      "is_active" : false,
-      "active_video_index" : 0,
-      "camera_position" : "Straight vertical descent, camera dropping through atmosphere",
-      "action" : "Pure vertical descent at 10 feet per second through polar atmosphere. Aurora ribbons pull upward in real-time, green light draining from lower atmosphere leaving black void below. The three ravens maintain perfect triangular formation, circling the descent path, wings beating once every 2 seconds. At 3000 feet altitude, British trawler GRIMSBY PRIDE becomes visible in pack ice, its 200-foot hull curved in serpent coil, two yellow navigation lights positioned like eyes, smoke stack releasing black smoke that doesn't disperse but hangs like a dark tongue. At 1000 feet, single turf house visible, chimney smoke bent horizontal by wind, smoke pulsing out in visible bursts every 5 seconds (12 per minute), each pulse 3 feet long before wind tears it apart.",
-      "scene" : "February 13, 1888, 4:47 AM, complete polar darkness except aurora and stars. Temperature -18°C at altitude, visible as ice crystals forming on camera lens edges. Pack ice covers sea in geometric plates, white surfaces with black water channels between. No moon. Stars shifted 15 degrees counterclockwise from normal positions. House sits in complete isolation - no roads, no paths, no fence lines, just converging sheep tracks in snow forming five spiral patterns. Mountains invisible but their presence felt as wind funnel. Trawler's position exactly 1.3 nautical miles offshore, hull black against white ice, no other vessels visible to horizon.",
       "dialogue" : "(Dark male voice, off-screen): \"Krummi svaf í klettagjá, kaldri vetrarnóttu á\" (Tone: bass register, each syllable takes 0.5 seconds, breath visible as white vapor that freezes and falls as ice crystals)",
-      "progressive_state" : "",
-      "variant_id" : "1_story_primary"
+      "scene" : "February 13, 1888, 4:47 AM, complete polar darkness except aurora and stars. Temperature -18°C at altitude, visible as ice crystals forming on camera lens edges. Pack ice covers sea in geometric plates, white surfaces with black water channels between. No moon. Stars shifted 15 degrees counterclockwise from normal positions. House sits in complete isolation - no roads, no paths, no fence lines, just converging sheep tracks in snow forming five spiral patterns. Mountains invisible but their presence felt as wind funnel. Trawler's position exactly 1.3 nautical miles offshore, hull black against white ice, no other vessels visible to horizon.",
+      "negative_prompt" : "no subtitles, no text overlays, no lens flares, no purple colors in aurora, no modern lights, no contrails, maintain pure 1888 environment",
+      "selected_plates" : [
+        "BAÐSTOFA-STIRRING",
+        "WESTFJORDS-WINTER",
+        "WESTFJORDS-AERIAL"
+      ],
+      "active_video_index" : 0
     },
     {
+      "subject" : "Night sky 5000 feet above Iceland's Westfjords showing green aurora borealis ribbons physically retracting upward like fingers releasing their grip, abandoning the land below. Three black ravens circle counterclockwise in perfect triangular formation exactly where the camera descends, their bodies visible only as moving voids blocking stars, each raven precisely 10 feet apart, wings beating once every 2 seconds in supernatural synchronization.",
       "camera_position" : "Straight vertical descent through upper atmosphere, 5000 feet to 3100 feet",
-      "negative_prompt" : "no subtitles, no text overlays, no lens flares, no purple colors in aurora, no modern lights, no contrails, no aircraft, maintain pure 1888 environment, no modern elements, no screen space overlays, no fullscreen overlays, no UI elements, no trawler visible yet, no house visible yet",
+      "action" : "Pure vertical descent begins at 5000 feet, camera dropping at 8 feet per second through polar atmosphere (slower than original for 15-second duration). Aurora ribbons pull upward in real-time with visible urgency, green light draining from lower atmosphere leaving expanding black void below like cosmic abandonment. The three ravens maintain perfect triangular formation throughout descent, circling the camera's path with mechanical precision, their wing-beats creating rhythmic voids in starlight. At 12 seconds into descent (now at 3100 feet altitude), the first hint of something massive becomes visible far below through the black water channels in pack ice - a dark serpentine shape that will be revealed in the next shot. Camera continues descent, aurora now completely withdrawn to upper atmosphere, darkness spreading below. Stars shifted 15 degrees counterclockwise from normal positions become more apparent as aurora fades. Final 3 seconds show the geometric plates of pack ice growing clearer, white surfaces with black water channels forming impossible patterns.",
       "style" : "Straight vertical descent, camera dropping through atmosphere (that's where the camera is), 14mm ultra-wide lens capturing full cosmic environment from stars above to pack ice emerging below, no lateral movement, no tilting, pure downward observation like documentary drone footage before drones existed. Descent rate 8 feet per second allows aurora withdrawal to be savored, raven formation to be studied, cosmic abandonment to build dread. Camera frost accumulation visible at edges, growing from 0% to 2% during descent.",
+      "negative_prompt" : "no subtitles, no text overlays, no lens flares, no purple colors in aurora, no modern lights, no contrails, no aircraft, maintain pure 1888 environment, no modern elements, no screen space overlays, no fullscreen overlays, no UI elements, no trawler visible yet, no house visible yet",
       "progressive_state" : "",
       "is_active" : false,
-      "dialogue" : "(Dark male voice, off-screen, beginning at 3 seconds): \"Krummi svaf í klettagjá, kaldri vetrarnóttu á\" (Tone: bass register, each syllable takes 0.5 seconds, breath visible as white vapor that freezes and falls as ice crystals, creating tiny glittering trails that descend with camera)",
-      "action" : "Pure vertical descent begins at 5000 feet, camera dropping at 8 feet per second through polar atmosphere (slower than original for 15-second duration). Aurora ribbons pull upward in real-time with visible urgency, green light draining from lower atmosphere leaving expanding black void below like cosmic abandonment. The three ravens maintain perfect triangular formation throughout descent, circling the camera's path with mechanical precision, their wing-beats creating rhythmic voids in starlight. At 12 seconds into descent (now at 3100 feet altitude), the first hint of something massive becomes visible far below through the black water channels in pack ice - a dark serpentine shape that will be revealed in the next shot. Camera continues descent, aurora now completely withdrawn to upper atmosphere, darkness spreading below. Stars shifted 15 degrees counterclockwise from normal positions become more apparent as aurora fades. Final 3 seconds show the geometric plates of pack ice growing clearer, white surfaces with black water channels forming impossible patterns.",
+      "scene" : "February 13, 1888, 4:47 AM, complete polar darkness except aurora and stars at beginning. Temperature -18°C at altitude, visible as ice crystals forming on camera lens edges throughout descent. No moon. Stars dominate once aurora withdraws - too many stars, too bright, wrong positions creating cosmic wrongness. Upper atmosphere shows thin ice crystal clouds catching last aurora light. As descent continues below 4000 feet, pack ice becomes visible as abstract geometric pattern far below - white plates separated by black water forming mathematical shapes that shouldn't occur naturally. Mountains invisible but their presence felt as wind funnel affecting descent. Complete isolation - no lights, no human presence, just abandoning cosmos and waiting void.",
       "selected_plates" : [
         "WESTFJORDS-WINTER",
         "WESTFJORDS-AERIAL"
       ],
-      "scene" : "February 13, 1888, 4:47 AM, complete polar darkness except aurora and stars at beginning. Temperature -18°C at altitude, visible as ice crystals forming on camera lens edges throughout descent. No moon. Stars dominate once aurora withdraws - too many stars, too bright, wrong positions creating cosmic wrongness. Upper atmosphere shows thin ice crystal clouds catching last aurora light. As descent continues below 4000 feet, pack ice becomes visible as abstract geometric pattern far below - white plates separated by black water forming mathematical shapes that shouldn't occur naturally. Mountains invisible but their presence felt as wind funnel affecting descent. Complete isolation - no lights, no human presence, just abandoning cosmos and waiting void.",
-      "variant_name" : "Cosmic Abandonment - Upper Atmosphere",
       "variant_id" : "1a_cosmic_abandonment_upper_atmosphere",
-      "subject" : "Night sky 5000 feet above Iceland's Westfjords showing green aurora borealis ribbons physically retracting upward like fingers releasing their grip, abandoning the land below. Three black ravens circle counterclockwise in perfect triangular formation exactly where the camera descends, their bodies visible only as moving voids blocking stars, each raven precisely 10 feet apart, wings beating once every 2 seconds in supernatural synchronization."
+      "variant_name" : "Cosmic Abandonment - Upper Atmosphere",
+      "dialogue" : "(Dark male voice, off-screen, beginning at 3 seconds): \"Krummi svaf í klettagjá, kaldri vetrarnóttu á\" (Tone: bass register, each syllable takes 0.5 seconds, breath visible as white vapor that freezes and falls as ice crystals, creating tiny glittering trails that descend with camera)"
     },
     {
-      "negative_prompt" : "no subtitles, no text overlays, no lens flares, no purple colors in aurora, no modern lights except trawler navigation lights, no contrails, maintain pure 1888 environment except industrial trawler, no modern elements, no screen space overlays, no fullscreen overlays, no UI elements, no people visible, no interior shots",
-      "progressive_state" : "",
-      "camera_position" : "Straight vertical descent through lower atmosphere, 3000 feet to 500 feet above ground",
-      "subject" : "Continuation of vertical descent now at 3000 feet altitude, where British trawler GRIMSBY PRIDE becomes visible in pack ice below, its 200-foot hull curved in serpent coil creating industrial predator shape. Two yellow navigation lights positioned like eyes watching the isolated turf house. Black smoke from stack doesn't disperse but hangs like a dark tongue. The three ravens from previous shot continue circling but now between camera and trawler, creating scale comparison - the serpent is massive. Single turf house becomes visible at 1500 feet, completely isolated, chimney smoke the only sign of human life.",
-      "is_active" : false,
-      "variant_name" : "The Descent to Isolation - Serpent and House Reveal",
       "variant_id" : "1b_descent_to_isolation_serpent_reveal",
-      "style" : "Straight vertical descent continues, camera dropping through atmosphere (that's where the camera is), 14mm ultra-wide lens now capturing the serpent-trawler revelation and house isolation, no lateral movement, no tilting, pure downward observation building dread through scale. Descent accelerates slightly to original 10 feet per second, creating urgency as ground approaches. Camera frost continues accumulating from 2% to 5%, ice crystals growing at lens edges framing the serpent and house. Final framing positions trawler in lower third, house in center, establishing the trap geometry - industrial serpent offshore, isolated victims inland, mountains as prison walls.",
+      "negative_prompt" : "no subtitles, no text overlays, no lens flares, no purple colors in aurora, no modern lights except trawler navigation lights, no contrails, maintain pure 1888 environment except industrial trawler, no modern elements, no screen space overlays, no fullscreen overlays, no UI elements, no people visible, no interior shots",
       "action" : "Pure vertical descent continues at 10 feet per second (matching original speed for this segment). Camera now at 3000 feet when shot begins. Immediate focus on trawler GRIMSBY PRIDE emerging through pack ice geometry - hull black against white ice, curved in impossible serpent coil, two yellow navigation lights burning like predator eyes fixed on shore. Smoke stack releasing black smoke that defies wind, hanging vertically like forked tongue. Pack ice shows geometric plates with trawler positioned at exact mathematical center. At 2000 feet altitude (4 seconds in), the three ravens pass between camera and trawler, their triangular formation creating moment of scale - trawler is impossibly large. At 1500 feet (6 seconds), single turf house becomes visible inland, tiny against landscape. At 1000 feet (8 seconds), chimney smoke bent horizontal by wind becomes clear, smoke pulsing out in visible bursts every 5 seconds (12 per minute - house breathing rate), each pulse 3 feet long before wind tears it apart. Final 2 seconds show converging sheep tracks in snow forming five spiral patterns leading to house. Camera descent ends 500 feet above ground, looking down at complete isolation - house alone between serpent-trawler and invisible mountains.",
       "scene" : "February 13, 1888, 4:48 AM, complete polar darkness with only trawler's yellow navigation lights providing color. Temperature -18°C dropping to -22°C as descent reaches ground level. Pack ice covers sea in geometric plates, white surfaces with black water channels forming mathematical patterns that frame the trawler perfectly. No moon. Stars shifted 15 degrees counterclockwise still visible above. House sits in complete isolation - no roads, no paths, no fence lines visible from this altitude, just five spiral patterns of converging sheep tracks in snow creating ominous geometry. Mountains invisible as black silhouettes against black sky, their presence felt only as wind funnel that bends chimney smoke horizontal. Trawler's position exactly 1.3 nautical miles offshore, hull black against white ice, no other vessels visible to horizon. Outdoor temperature at ground level: -25°C. Indoor temperature (visible through window glow): -10°C. Smoke pulses mark living presence in dead landscape.",
+      "variant_name" : "The Descent to Isolation - Serpent and House Reveal",
+      "camera_position" : "Straight vertical descent through lower atmosphere, 3000 feet to 500 feet above ground",
+      "subject" : "Continuation of vertical descent now at 3000 feet altitude, where British trawler GRIMSBY PRIDE becomes visible in pack ice below, its 200-foot hull curved in serpent coil creating industrial predator shape. Two yellow navigation lights positioned like eyes watching the isolated turf house. Black smoke from stack doesn't disperse but hangs like a dark tongue. The three ravens from previous shot continue circling but now between camera and trawler, creating scale comparison - the serpent is massive. Single turf house becomes visible at 1500 feet, completely isolated, chimney smoke the only sign of human life.",
       "dialogue" : "(Dark male voice, off-screen, continuing from previous shot): \"...veður margt að meini, fyrr en dagur fagur rann\" (Tone: bass register, each syllable takes 0.5 seconds, breath visible as white vapor that freezes and falls as ice crystals, voice becoming slightly more present as camera approaches ground, final words timed to arrival at 500 feet)",
+      "style" : "Straight vertical descent continues, camera dropping through atmosphere (that's where the camera is), 14mm ultra-wide lens now capturing the serpent-trawler revelation and house isolation, no lateral movement, no tilting, pure downward observation building dread through scale. Descent accelerates slightly to original 10 feet per second, creating urgency as ground approaches. Camera frost continues accumulating from 2% to 5%, ice crystals growing at lens edges framing the serpent and house. Final framing positions trawler in lower third, house in center, establishing the trap geometry - industrial serpent offshore, isolated victims inland, mountains as prison walls.",
+      "progressive_state" : "",
+      "is_active" : false,
       "selected_plates" : [
         "BAÐSTOFA-STIRRING",
         "WESTFJORDS-WINTER",
@@ -93,13 +404,15 @@
       ]
     }
   ],
+  "aspect_ratio" : "4:3",
+  "progressive_state" : "House 12\/min | Klettagjá none | No contamination | Camera frost 0% | Sorting none | Landvættir sleeping",
   "shot_metadata" : {
-    "needs_improvements" : false,
-    "sequence_type" : "main_story",
     "duration_seconds" : 8,
+    "narrative_function" : "House 12\/min | Klettagjá none | No contamination ...",
     "stitch_from" : "",
     "id" : "1",
     "title" : "COSMIC ABANDONMENT",
-    "narrative_function" : "House 12\/min | Klettagjá none | No contamination ..."
+    "needs_improvements" : false,
+    "sequence_type" : "main_story"
   }
 }

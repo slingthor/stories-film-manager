@@ -271,6 +271,17 @@ class VeoImportManager: ObservableObject {
             // 5. Import videos - lookup actual objects from FilmManager to ensure UI updates
             await importVideosToVariant(files: completedFiles, shotId: shotId, variantId: variantId)
 
+            // 6. Remove imported files from pending downloads to prevent re-import
+            await MainActor.run {
+                for file in completedFiles {
+                    if let index = pendingDownloads.firstIndex(of: file) {
+                        pendingDownloads.remove(at: index)
+                    }
+                }
+                print("[Sora] 🧹 Removed \(completedFiles.count) imported files from pending downloads")
+                print("[Sora] 📊 Pending downloads remaining: \(pendingDownloads.count)")
+            }
+
             let message = "Imported \(completedFiles.count) video(s) to Shot #\(shotId) - Variant '\(variantName)'"
             await notificationManager.sendNotification(title: "✅ Import Successful", body: "\(shotTitle)\n\(message)", isError: false)
             await MainActor.run {

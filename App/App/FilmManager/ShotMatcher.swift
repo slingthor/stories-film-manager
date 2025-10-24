@@ -273,7 +273,137 @@ class ShotMatcher {
         var bestSceneScore: Double = 0.0
 
         // ═══════════════════════════════════════════════════════════
-        // PASS 1: ULTRA-FAST REJECTION PASS (New!)
+        // PASS 0: WORD-BASED INDEX LOOKUP (Fastest - exact phrase matching)
+        // Require 3 out of 4 sections to have matching first 5 words
+        // ═══════════════════════════════════════════════════════════
+        let actionKey = extractFirstWords(promptComponents.action, count: 5)
+        let sceneKey = extractFirstWords(promptComponents.scene, count: 5)
+        let styleKey = extractFirstWords(promptComponents.style, count: 5)
+        let dialogueKey = extractFirstWords(promptComponents.dialogue, count: 5)
+
+        // Count section matches for each variant
+        var variantSectionMatches: [String: Int] = [:] // variantId -> match count
+
+        if !actionKey.isEmpty, let refs = variantIndex[actionKey] {
+            for ref in refs {
+                let id = "\(ref.shot.id)_\(ref.variantIndex)"
+                variantSectionMatches[id, default: 0] += 1
+            }
+        }
+
+        if !sceneKey.isEmpty, let refs = variantIndex[sceneKey] {
+            for ref in refs {
+                let id = "\(ref.shot.id)_\(ref.variantIndex)"
+                variantSectionMatches[id, default: 0] += 1
+            }
+        }
+
+        if !styleKey.isEmpty, let refs = variantIndex[styleKey] {
+            for ref in refs {
+                let id = "\(ref.shot.id)_\(ref.variantIndex)"
+                variantSectionMatches[id, default: 0] += 1
+            }
+        }
+
+        if !dialogueKey.isEmpty, let refs = variantIndex[dialogueKey] {
+            for ref in refs {
+                let id = "\(ref.shot.id)_\(ref.variantIndex)"
+                variantSectionMatches[id, default: 0] += 1
+            }
+        }
+
+        // Filter variants that have 3+ section matches
+        let pass0Candidates = variantSectionMatches.filter { $0.value >= 3 }.keys
+
+        if !pass0Candidates.isEmpty {
+            print("[Sora] 📚 Pass 0: Found \(pass0Candidates.count) variants with 3+ section matches")
+
+            // Collect VariantReference objects for these candidates
+            var candidateRefs: [VariantReference] = []
+            for candidateId in pass0Candidates {
+                // Find the reference from index
+                if !actionKey.isEmpty, let refs = variantIndex[actionKey] {
+                    if let ref = refs.first(where: { "\($0.shot.id)_\($0.variantIndex)" == candidateId }) {
+                        candidateRefs.append(ref)
+                        continue
+                    }
+                }
+                if !sceneKey.isEmpty, let refs = variantIndex[sceneKey] {
+                    if let ref = refs.first(where: { "\($0.shot.id)_\($0.variantIndex)" == candidateId }) {
+                        candidateRefs.append(ref)
+                        continue
+                    }
+                }
+                if !styleKey.isEmpty, let refs = variantIndex[styleKey] {
+                    if let ref = refs.first(where: { "\($0.shot.id)_\($0.variantIndex)" == candidateId }) {
+                        candidateRefs.append(ref)
+                        continue
+                    }
+                }
+                if !dialogueKey.isEmpty, let refs = variantIndex[dialogueKey] {
+                    if let ref = refs.first(where: { "\($0.shot.id)_\($0.variantIndex)" == candidateId }) {
+                        candidateRefs.append(ref)
+                        continue
+                    }
+                }
+            }
+
+            // Run full Levenshtein on Pass 0 candidates
+            let pass0Results = await withTaskGroup(of: (shot: FilmShot, variant: PromptVariant, score: Double, actionScore: Double, sceneScore: Double, log: String).self) { group in
+                for candidate in candidateRefs {
+                    group.addTask {
+                        self.matchVariantFull(
+                            cached: candidate,
+                            promptAction: promptAction,
+                            promptScene: promptScene,
+                            promptStyle: promptStyle,
+                            promptDialogue: promptDialogue,
+                            promptComponents: promptComponents
+                        )
+                    }
+                }
+
+                var results: [(shot: FilmShot, variant: PromptVariant, score: Double, actionScore: Double, sceneScore: Double, log: String)] = []
+                for await result in group {
+                    results.append(result)
+                    // Early termination on excellent match
+                    if result.score > 0.90 {
+                        return [result]
+                    }
+                }
+                return results
+            }
+
+            // Process Pass 0 results
+            for result in pass0Results {
+                attempts.append(result.log)
+                if bestMatch == nil || result.score > bestMatch!.score {
+                    bestMatch = (result.shot, result.variant, result.score)
+                    bestActionScore = result.actionScore
+                    bestSceneScore = result.sceneScore
+                }
+            }
+
+            // If Pass 0 found an acceptable match, return it
+            if let best = bestMatch {
+                let meetsActionThreshold = bestActionScore >= actionThreshold
+                let meetsCombinedThreshold = (bestActionScore >= 0.20 && bestSceneScore >= sceneThreshold)
+
+                if meetsActionThreshold || meetsCombinedThreshold {
+                    print("[Sora] ✅ Pass 0 SUCCESS: Found match via word index!")
+                    print("[Sora] ✅ Match: Shot \(best.shot.id) - Variant '\(best.variant.name)' (confidence: \(String(format: "%.1f%%", best.score * 100)))")
+                    return ShotMatchResult(
+                        shot: best.shot,
+                        variant: best.variant,
+                        attempts: attempts,
+                        confidence: best.score
+                    )
+                }
+            }
+        }
+
+        // ═══════════════════════════════════════════════════════════
+        // PASS 1: ULTRA-FAST REJECTION PASS
         // Use pre-cached metadata for lightning-fast elimination
         // ═══════════════════════════════════════════════════════════
         var pass1Candidates: [VariantReference] = []
@@ -403,179 +533,35 @@ class ShotMatcher {
         }
 
         // ═══════════════════════════════════════════════════════════
-        // PASS 2: FULL SEARCH (Existing implementation as fallback)
+        // PASS 2: FULL SEARCH (Exhaustive fallback)
+        // Search all variants if Pass 0 and Pass 1 found nothing
         // ═══════════════════════════════════════════════════════════
-
-        // PASS 2.1: Search cache-indexed variants (fast path)
-        let actionKey = extractFirstWords(promptComponents.action, count: 5)
-        let sceneKey = extractFirstWords(promptComponents.scene, count: 5)
-        let styleKey = extractFirstWords(promptComponents.style, count: 5)
-        let dialogueKey = extractFirstWords(promptComponents.dialogue, count: 5)
-
-        // Collect variants that match each key
-        var actionRefs: Set<String> = []
-        var sceneRefs: Set<String> = []
-        var styleRefs: Set<String> = []
-        var dialogueRefs: Set<String> = []
-
-        if !actionKey.isEmpty, let refs = variantIndex[actionKey] {
-            for ref in refs {
-                actionRefs.insert("\(ref.shot.id)_\(ref.variantIndex)")
-            }
-        }
-
-        if !sceneKey.isEmpty, let refs = variantIndex[sceneKey] {
-            for ref in refs {
-                sceneRefs.insert("\(ref.shot.id)_\(ref.variantIndex)")
-            }
-        }
-
-        if !styleKey.isEmpty, let refs = variantIndex[styleKey] {
-            for ref in refs {
-                styleRefs.insert("\(ref.shot.id)_\(ref.variantIndex)")
-            }
-        }
-
-        if !dialogueKey.isEmpty, let refs = variantIndex[dialogueKey] {
-            for ref in refs {
-                dialogueRefs.insert("\(ref.shot.id)_\(ref.variantIndex)")
-            }
-        }
-
-        // Find variants that match ALL non-empty keys
-        var candidateIds: Set<String>?
-
-        // Start with first non-empty key's results
-        if !actionKey.isEmpty {
-            candidateIds = actionRefs
-        }
-
-        // Intersect with each additional non-empty key
-        if !sceneKey.isEmpty {
-            if candidateIds == nil {
-                candidateIds = sceneRefs
-            } else {
-                candidateIds = candidateIds!.intersection(sceneRefs)
-            }
-        }
-
-        if !styleKey.isEmpty {
-            if candidateIds == nil {
-                candidateIds = styleRefs
-            } else {
-                candidateIds = candidateIds!.intersection(styleRefs)
-            }
-        }
-
-        if !dialogueKey.isEmpty {
-            if candidateIds == nil {
-                candidateIds = dialogueRefs
-            } else {
-                candidateIds = candidateIds!.intersection(dialogueRefs)
-            }
-        }
-
-        // Convert IDs back to VariantReferences
-        var candidates: [VariantReference] = []
-
-        if let finalCandidateIds = candidateIds {
-            for candidateId in finalCandidateIds {
-                // Find the reference from any of the index lookups
-                if !actionKey.isEmpty, let refs = variantIndex[actionKey] {
-                    if let ref = refs.first(where: { "\($0.shot.id)_\($0.variantIndex)" == candidateId }) {
-                        candidates.append(ref)
-                        continue
-                    }
-                }
-                if !sceneKey.isEmpty, let refs = variantIndex[sceneKey] {
-                    if let ref = refs.first(where: { "\($0.shot.id)_\($0.variantIndex)" == candidateId }) {
-                        candidates.append(ref)
-                        continue
-                    }
-                }
-                if !styleKey.isEmpty, let refs = variantIndex[styleKey] {
-                    if let ref = refs.first(where: { "\($0.shot.id)_\($0.variantIndex)" == candidateId }) {
-                        candidates.append(ref)
-                        continue
-                    }
-                }
-                if !dialogueKey.isEmpty, let refs = variantIndex[dialogueKey] {
-                    if let ref = refs.first(where: { "\($0.shot.id)_\($0.variantIndex)" == candidateId }) {
-                        candidates.append(ref)
-                        continue
-                    }
-                }
-            }
-        }
-
-        // Search candidates first (PARALLEL for speed)
-        if !candidates.isEmpty {
-            let candidateResults = await withTaskGroup(of: (shot: FilmShot, variant: PromptVariant, score: Double, actionScore: Double, sceneScore: Double, log: String).self) { group in
-                for candidate in candidates {
-                    group.addTask {
-                        // Pass cached reference for pre-computed normalized strings (big speedup!)
-                        self.matchVariant(
-                            shot: candidate.shot,
-                            variantIndex: candidate.variantIndex,
-                            variant: candidate.variant,
-                            promptComponents: promptComponents,
-                            cachedReference: candidate
-                        )
-                    }
-                }
-
-                var results: [(shot: FilmShot, variant: PromptVariant, score: Double, actionScore: Double, sceneScore: Double, log: String)] = []
-                for await result in group {
-                    results.append(result)
-
-                    // Early termination: If we find a >90% match, that's excellent - stop searching
-                    if result.score > 0.90 {
-                        return [result]  // Return just this result
-                    }
-                }
-                return results
-            }
-
-            // Process results
-            for result in candidateResults {
-                attempts.append(result.log)
-
-                if bestMatch == nil || result.score > bestMatch!.score {
-                    bestMatch = (result.shot, result.variant, result.score)
-                    bestActionScore = result.actionScore
-                    bestSceneScore = result.sceneScore
-                }
-            }
-
-            // If we found an excellent match in candidates, return immediately
-            if let best = bestMatch, best.score > 0.90 {
-                print("[Sora] ✅ Found match: Shot \(best.shot.id) - Variant '\(best.variant.name)' (confidence: \(String(format: "%.1f%%", best.score * 100)))")
-                return ShotMatchResult(
-                    shot: best.shot,
-                    variant: best.variant,
-                    attempts: attempts,
-                    confidence: best.score
-                )
-            }
-        }
-
-        // PASS 2: If no good match from cache, search remaining variants (PARALLEL)
         if bestMatch == nil || bestMatch!.score < 0.50 {
 
-            // Build list of variants to search (excluding already searched)
+            // Build list of variants to search (excluding already searched in Pass 0 and Pass 1)
+            var alreadySearched = Set<String>()
+
+            // Add Pass 0 candidates
+            for candidateId in pass0Candidates {
+                alreadySearched.insert(candidateId)
+            }
+
+            // Add Pass 1 candidates
+            for ref in pass1Candidates {
+                alreadySearched.insert("\(ref.shot.id)_\(ref.variantIndex)")
+            }
+
             var variantsToSearch: [(shot: FilmShot, variantIndex: Int, variant: PromptVariant)] = []
             for shot in shots {
                 for (variantIndex, variant) in shot.promptVariants.enumerated() {
                     let uniqueId = "\(shot.id)_\(variantIndex)"
-                    // Skip if already searched in pass 1
-                    if let ids = candidateIds, ids.contains(uniqueId) {
+                    // Skip if already searched in Pass 0 or Pass 1
+                    if alreadySearched.contains(uniqueId) {
                         continue
                     }
                     variantsToSearch.append((shot, variantIndex, variant))
                 }
             }
-
-            print("[Sora] 🚀 Parallel matching \(variantsToSearch.count) remaining variants...")
 
             // Search all variants in parallel
             let allResults = await withTaskGroup(of: (shot: FilmShot, variant: PromptVariant, score: Double, actionScore: Double, sceneScore: Double, log: String).self) { group in

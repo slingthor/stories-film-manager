@@ -1,42 +1,117 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "House 8\/min + 50bpm slowing | Ritual beginning | Camera frost 14% | First words | Watching: House holds breath",
   "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
+  "shot_metadata" : {
+    "narrative_function" : "House 8\/min + 50bpm slowing | Ritual beginning | C...",
+    "title" : "SIGRID BREAKS SILENCE REVISED - 8 SECONDS",
+    "id" : "23a",
+    "sequence_type" : "main_story",
+    "duration_seconds" : 8,
+    "needs_improvements" : false,
+    "stitch_from" : ""
+  },
   "prompt_variants" : [
     {
-      "negative_prompt" : "",
       "variant_name" : "Primary - SIGRID BREAKS SILENCE REVISED - 8 SECONDS",
+      "dialogue" : "(Sigrid, breaking silence): \"Ð‰g verð að bjarga barninu\" (Reading): \"Tilberi, tilberi...\" (Guðrún, shocked): Sharp inhale, no words",
+      "variant_id" : "23a_story_primary",
+      "progressive_state" : "",
       "selected_plates" : [
         "SIGRID-CALCULATING",
         "BAÐSTOFA-BODY",
         "STOFA-DOMESTIC"
       ],
+      "scene" : "Interior, 6:35 AM, trawler light every 20 seconds. Temperature -15°C. Grandmother's corner with forbidden books, Christian crosses failing to hide pagan symbols underneath. Materials arranged but wrong - industrial mixing with organic.",
+      "subject" : "[SIGRID] kneeling before the contaminated materials, opening grandmother's forbidden book with trembling hands, her young woman voice speaking aloud for the first time since Magnús left - clear and high, like glass breaking: \"Ð‰g verð að bjarga barninu\" (I must save the child).",
       "videos" : [
         {
           "duration" : 8,
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211753_afd4s.mp4",
           "filename" : "Subject_subject_reference_202509211753_afd4s.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_ekku.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_collapsed_202510240007_ekku.mp4"
+        },
+        {
+          "filename" : "Subject_magns_collapsed_202510240007_mkt0.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_mkt0.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_contaminated_202510240007_fvlyf.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_fvlyf.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_contaminated_202510240007_it5ua.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_it5ua.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_south_202510240007_fd14i.mp4",
+          "filename" : "Subject_from_south_202510240007_fd14i.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_ewmxm.mp4",
+          "filename" : "Subject_from_the_202510240007_ewmxm.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_bqik0.mp4",
+          "filename" : "Subject_from_the_202510240007_bqik0.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_mktig.mp4",
+          "filename" : "Subject_sigrids_mouth_202510240007_mktig.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_52mwz.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_mouth_202510240007_52mwz.mp4"
+        },
+        {
+          "filename" : "Subject_sigrids_voice_202510240008_v9tql.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_v9tql.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigrids_voice_202510240008_fs1fm.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_fs1fm.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_9v1.mp4",
+          "filename" : "Subject_sigrid_attempting_202510240008_9v1.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_sigrid_attempting_202510240008_o7s.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_o7s.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_5fnyt.mp4",
+          "filename" : "Subject_sigrid_kneeling_202510240008_5fnyt.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_gt764.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrid_kneeling_202510240008_gt764.mp4"
         }
       ],
-      "style" : "Close on Sigrid's face as silence breaks, pull back to show materials (that's where the camera is), documentary of threshold moment.",
-      "subject" : "[SIGRID] kneeling before the contaminated materials, opening grandmother's forbidden book with trembling hands, her young woman voice speaking aloud for the first time since Magnús left - clear and high, like glass breaking: \"Ð‰g verð að bjarga barninu\" (I must save the child).",
-      "is_active" : false,
-      "active_video_index" : 0,
       "camera_position" : "Close on Sigrid's face as silence breaks, pull back to show materials",
       "action" : "Sigrid arranges materials in final pattern: sheep rib north-south, industrial rope coiled beside it, brass button at center, wool in handful. Opens book - pages yellow, some Danish replacing Old Norse, water damage making words swim. Her hand protective on belly, feeling movement - baby responding to mother's voice. Traces finger along first line of incantation. Takes breath, breaks her silence: \"Ð‰g verð að bjarga barninu.\" Voice young, desperate, but clear. Years of enforced silence breaking like dam. Guðrún's head snaps up, shocked to hear daughter speak. Empty clothes lean forward. House breathing catches, holds at inhale. Through window, trawler beam passes, illuminating her face - determination and terror mixed. Book shows illustration: tilberi creature suckling, but margins have industrial additions - gears, pipes, contamination even in drawings.",
-      "scene" : "Interior, 6:35 AM, trawler light every 20 seconds. Temperature -15°C. Grandmother's corner with forbidden books, Christian crosses failing to hide pagan symbols underneath. Materials arranged but wrong - industrial mixing with organic.",
-      "dialogue" : "(Sigrid, breaking silence): \"Ð‰g verð að bjarga barninu\" (Reading): \"Tilberi, tilberi...\" (Guðrún, shocked): Sharp inhale, no words",
-      "progressive_state" : "",
-      "variant_id" : "23a_story_primary"
+      "is_active" : false,
+      "active_video_index" : 0,
+      "negative_prompt" : "",
+      "style" : "Close on Sigrid's face as silence breaks, pull back to show materials (that's where the camera is), documentary of threshold moment."
     }
   ],
-  "shot_metadata" : {
-    "needs_improvements" : false,
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "stitch_from" : "",
-    "id" : "23a",
-    "title" : "SIGRID BREAKS SILENCE REVISED - 8 SECONDS",
-    "narrative_function" : "House 8\/min + 50bpm slowing | Ritual beginning | C..."
-  }
+  "progressive_state" : "House 8\/min + 50bpm slowing | Ritual beginning | Camera frost 14% | First words | Watching: House holds breath"
 }

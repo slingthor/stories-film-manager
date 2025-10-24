@@ -1,17 +1,24 @@
 {
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Bull failing | Shore arrival | Camera frost 34% | God dying | Watching: House sees",
-  "selected_prompt_index" : 0,
   "prompt_variants" : [
     {
+      "variant_id" : "46c_story_primary",
+      "scene" : "Ice shelf by polynya, 10:05 AM. Bull massive on ice, steam shroud. House visible in distance. Contamination trail from water.",
+      "dialogue" : "(Guðrún): \"Hvíldu... þeir sjá þig\" (Rest... they see you) (Bull's bellow): Carries to house (From house, faint): Children's voices responding",
+      "subject" : "GRIÐUNGUR using last strength to crawl from polynya onto ice, dragging his massive contaminated body toward shore, industrial materials scraping ice, before collapsing 10 feet from water, steam rising from his dying form while [GUÐRÚN] watches, understanding he came to die witnessed.",
       "negative_prompt" : "show full body contamination, maintain tracking shot, no quick death",
-      "variant_name" : "Primary - THE COLLAPSE - SHORE DEATH 8 SECONDS",
+      "action" : "TRACKING BACKWARD as Bull emerges further. Shoulders, then torso - full contamination visible. Brass bolts like scales, rope veins across entire body, net grown into hide creating crosshatch pattern. Each movement agony. Crawls using front legs, back legs dragging. Industrial materials scrape ice, leaving gouges that bleed green-black contamination. Makes it 10 feet onto ice shelf. Collapses. Steam erupts from entire body - heat meeting cold. But positioned specifically: facing house. He can see it in distance. Came to die where the family (other trapped livestock) could witness. Guðrún follows, kneels beside massive head. Her hand tiny on his skull between harpoons. Bull's eyes finding house, seeing smoke. One final bellow - but gentle, calling not threatening. Sound carries to house. Through window, small figures visible watching. Bull's breathing: 8\/min... 6\/min... 4\/min... continuing but slowing. Not dead but dying. Will take hours. Days maybe. But shore will be his deathbed. Green verdigris tears from metal harpoons freezing into emerald ice.",
       "selected_plates" : [
         "GUDRUN-DIVINE",
         "SEA-CONTAMINATED",
         "WESTFJORDS-FJORD",
         "WESTFJORDS-WINTER"
       ],
+      "is_active" : false,
+      "style" : "Tracking backward showing his enormous suffering form (that's where the camera is), documenting god's mortality.",
+      "variant_name" : "Primary - THE COLLAPSE - SHORE DEATH 8 SECONDS",
+      "active_video_index" : 0,
+      "progressive_state" : "",
+      "camera_position" : "Tracking backward showing his enormous suffering form",
       "videos" : [
         {
           "filename" : "Subject_griungur_using_202509211904_g42ca.mp4",
@@ -19,24 +26,24 @@
           "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202509211903_ca1jm.mp4",
           "duration" : 8,
-          "filename" : "Subject_griungur_using_202509211903_ca1jm.mp4"
+          "filename" : "Subject_griungur_using_202509211903_ca1jm.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202509211903_ca1jm.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202509211903_emrvg.mp4",
           "filename" : "Subject_griungur_using_202509211903_emrvg.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202509211903_emrvg.mp4"
+        },
+        {
+          "filename" : "Subject_griungur_using_202509211903_mxllv.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202509211903_mxllv.mp4",
           "duration" : 8
         },
         {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202509211903_mxllv.mp4",
-          "filename" : "Subject_griungur_using_202509211903_mxllv.mp4"
-        },
-        {
-          "duration" : 8,
           "filename" : "Subject_subject_reference_202510232323_pynpj.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232323_pynpj.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232323_pynpj.mp4",
+          "duration" : 8
         },
         {
           "duration" : 8,
@@ -44,18 +51,18 @@
           "filename" : "Subject_lilja_suddenly_202510232324_fdhwd.mp4"
         },
         {
-          "duration" : 8,
           "filename" : "Subject_lilja_suddenly_202510232324_t60yd.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_t60yd.mp4"
-        },
-        {
-          "filename" : "Subject_the_three_202510232325_zn2am.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_zn2am.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_t60yd.mp4",
           "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_17xug.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_zn2am.mp4",
+          "filename" : "Subject_the_three_202510232325_zn2am.mp4",
+          "duration" : 8
+        },
+        {
           "filename" : "Subject_the_three_202510232325_17xug.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_17xug.mp4",
           "duration" : 8
         },
         {
@@ -64,19 +71,19 @@
           "duration" : 8
         },
         {
-          "filename" : "Subject_as_gurn_202510232326_0macj.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_as_gurn_202510232326_0macj.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_m5xhc.mp4",
-          "filename" : "Subject_aerial_shot_202510232326_m5xhc.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_gu6zn.mp4",
           "duration" : 8,
-          "filename" : "Subject_aerial_shot_202510232326_gu6zn.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_as_gurn_202510232326_0macj.mp4",
+          "filename" : "Subject_as_gurn_202510232326_0macj.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_aerial_shot_202510232326_m5xhc.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_m5xhc.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_aerial_shot_202510232326_gu6zn.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_gu6zn.mp4"
         },
         {
           "duration" : 8,
@@ -90,29 +97,22 @@
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_ff0m1.mp4",
-          "duration" : 8,
-          "filename" : "Subject_griungur_using_202510232326_ff0m1.mp4"
+          "filename" : "Subject_griungur_using_202510232326_ff0m1.mp4",
+          "duration" : 8
         }
-      ],
-      "style" : "Tracking backward showing his enormous suffering form (that's where the camera is), documenting god's mortality.",
-      "subject" : "GRIÐUNGUR using last strength to crawl from polynya onto ice, dragging his massive contaminated body toward shore, industrial materials scraping ice, before collapsing 10 feet from water, steam rising from his dying form while [GUÐRÚN] watches, understanding he came to die witnessed.",
-      "is_active" : false,
-      "active_video_index" : 0,
-      "camera_position" : "Tracking backward showing his enormous suffering form",
-      "action" : "TRACKING BACKWARD as Bull emerges further. Shoulders, then torso - full contamination visible. Brass bolts like scales, rope veins across entire body, net grown into hide creating crosshatch pattern. Each movement agony. Crawls using front legs, back legs dragging. Industrial materials scrape ice, leaving gouges that bleed green-black contamination. Makes it 10 feet onto ice shelf. Collapses. Steam erupts from entire body - heat meeting cold. But positioned specifically: facing house. He can see it in distance. Came to die where the family (other trapped livestock) could witness. Guðrún follows, kneels beside massive head. Her hand tiny on his skull between harpoons. Bull's eyes finding house, seeing smoke. One final bellow - but gentle, calling not threatening. Sound carries to house. Through window, small figures visible watching. Bull's breathing: 8\/min... 6\/min... 4\/min... continuing but slowing. Not dead but dying. Will take hours. Days maybe. But shore will be his deathbed. Green verdigris tears from metal harpoons freezing into emerald ice.",
-      "scene" : "Ice shelf by polynya, 10:05 AM. Bull massive on ice, steam shroud. House visible in distance. Contamination trail from water.",
-      "dialogue" : "(Guðrún): \"Hvíldu... þeir sjá þig\" (Rest... they see you) (Bull's bellow): Carries to house (From house, faint): Children's voices responding",
-      "progressive_state" : "",
-      "variant_id" : "46c_story_primary"
+      ]
     }
   ],
+  "selected_prompt_index" : 0,
   "shot_metadata" : {
-    "needs_improvements" : false,
+    "id" : "46c",
     "sequence_type" : "main_story",
     "duration_seconds" : 8,
-    "stitch_from" : "",
-    "id" : "46c",
+    "needs_improvements" : false,
     "title" : "THE COLLAPSE - SHORE DEATH 8 SECONDS",
-    "narrative_function" : "Bull failing | Shore arrival | Camera frost 34% | ..."
-  }
+    "narrative_function" : "Bull failing | Shore arrival | Camera frost 34% | ...",
+    "stitch_from" : ""
+  },
+  "aspect_ratio" : "4:3",
+  "progressive_state" : "Bull failing | Shore arrival | Camera frost 34% | God dying | Watching: House sees"
 }
