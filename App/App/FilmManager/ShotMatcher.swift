@@ -15,6 +15,22 @@ class ShotMatcher {
         let shot: FilmShot
         let variantIndex: Int
         let variant: PromptVariant
+        // Pre-computed normalized strings (avoids re-normalizing hundreds of times)
+        let normalizedAction: String
+        let normalizedScene: String
+        let normalizedStyle: String
+        let normalizedDialogue: String
+
+        // Pre-computed metadata for ultra-fast rejection checks
+        let actionLength: Int
+        let sceneLength: Int
+        let actionWordCount: Int
+        let sceneWordCount: Int
+        let actionCharSet: Set<Character>
+        let sceneCharSet: Set<Character>
+        let actionCharFreq: [Character: Int]
+        let sceneCharFreq: [Character: Int]
+        let criticalTokens: Set<String>  // Shot numbers, character names, etc.
     }
 
     private var variantIndex: [String: [VariantReference]] = [:]
@@ -35,7 +51,42 @@ class ShotMatcher {
                 let styleKey = extractFirstWords(variant.style, count: 5)
                 let dialogueKey = extractFirstWords(variant.dialogue, count: 5)
 
-                let reference = VariantReference(shot: shot, variantIndex: index, variant: variant)
+                // Pre-compute normalized strings (500 char truncation + normalization)
+                let maxLength = 500
+                let normalizedAction = normalizeString(String(variant.action.prefix(maxLength)))
+                let normalizedScene = normalizeString(String(variant.scene.prefix(maxLength)))
+                let normalizedStyle = normalizeString(String(variant.style.prefix(maxLength)))
+                let normalizedDialogue = normalizeString(String(variant.dialogue.prefix(maxLength)))
+
+                // Pre-compute metadata for fast rejection checks
+                let actionLength = normalizedAction.count
+                let sceneLength = normalizedScene.count
+                let actionWordCount = normalizedAction.components(separatedBy: .whitespaces).count
+                let sceneWordCount = normalizedScene.components(separatedBy: .whitespaces).count
+                let actionCharSet = Set(normalizedAction.lowercased())
+                let sceneCharSet = Set(normalizedScene.lowercased())
+                let actionCharFreq = buildCharacterFrequency(normalizedAction)
+                let sceneCharFreq = buildCharacterFrequency(normalizedScene)
+                let criticalTokens = extractCriticalTokens(from: variant.action)
+
+                let reference = VariantReference(
+                    shot: shot,
+                    variantIndex: index,
+                    variant: variant,
+                    normalizedAction: normalizedAction,
+                    normalizedScene: normalizedScene,
+                    normalizedStyle: normalizedStyle,
+                    normalizedDialogue: normalizedDialogue,
+                    actionLength: actionLength,
+                    sceneLength: sceneLength,
+                    actionWordCount: actionWordCount,
+                    sceneWordCount: sceneWordCount,
+                    actionCharSet: actionCharSet,
+                    sceneCharSet: sceneCharSet,
+                    actionCharFreq: actionCharFreq,
+                    sceneCharFreq: sceneCharFreq,
+                    criticalTokens: criticalTokens
+                )
 
                 // Index by action words
                 if !actionKey.isEmpty {
@@ -80,7 +131,7 @@ class ShotMatcher {
                             "upon", "of", "for", "on", "at", "by", "as", "in", "to"])
 
         // Remove punctuation and normalize whitespace
-        var normalized = text.lowercased()
+        let normalized = text.lowercased()
             .replacingOccurrences(of: "[", with: " ")
             .replacingOccurrences(of: "]", with: " ")
             .replacingOccurrences(of: ":", with: " ")
@@ -95,6 +146,75 @@ class ShotMatcher {
             .filter { !stopWords.contains($0) && !$0.isEmpty }
 
         return words.joined(separator: " ")
+    }
+
+    // MARK: - Helper Functions for Caching
+    private func buildCharacterFrequency(_ text: String) -> [Character: Int] {
+        var freq: [Character: Int] = [:]
+        for char in text.lowercased() {
+            freq[char, default: 0] += 1
+        }
+        return freq
+    }
+
+    private func extractCriticalTokens(from text: String) -> Set<String> {
+        var tokens = Set<String>()
+        let lowercased = text.lowercased()
+
+        // Extract numbers (shot numbers, durations like "8 seconds")
+        let numberPattern = /\d+/
+        for match in lowercased.matches(of: numberPattern) {
+            tokens.insert(String(match.output))
+        }
+
+        // Extract capitalized names and important words (SIGRID, MAGNÚS, etc.)
+        // Look for uppercase words in original text
+        let namePattern = /[A-ZÞÐÆ][A-ZÞÐÆa-zþðæ]{2,}/
+        for match in text.matches(of: namePattern) {
+            tokens.insert(String(match.output).lowercased())
+        }
+
+        return tokens
+    }
+
+    // MARK: - Ultra-Fast Rejection Checks
+
+    /// Calculate theoretical maximum possible similarity given length difference
+    /// This is a mathematical lower bound - if this fails, full Levenshtein will definitely fail
+    private func maxPossibleSimilarity(len1: Int, len2: Int) -> Double {
+        guard len1 > 0 && len2 > 0 else { return 0.0 }
+        let minLen = min(len1, len2)
+        let maxLen = max(len1, len2)
+        // Best case: all characters of shorter string match
+        // Levenshtein similarity = 1 - (editDistance / maxLen)
+        // Best edit distance = maxLen - minLen (only insertions/deletions)
+        let bestDistance = maxLen - minLen
+        return 1.0 - (Double(bestDistance) / Double(maxLen))
+    }
+
+    /// Check if word count ratio is acceptable
+    private func passesWordCountCheck(promptCount: Int, variantCount: Int) -> Bool {
+        guard promptCount > 0 && variantCount > 0 else { return false }
+        let ratio = Double(min(promptCount, variantCount)) / Double(max(promptCount, variantCount))
+        return ratio >= 0.25  // Allow 4:1 ratio
+    }
+
+    /// Calculate Jaccard similarity of character sets (fast set operations)
+    private func characterSetJaccard(_ set1: Set<Character>, _ set2: Set<Character>) -> Double {
+        guard !set1.isEmpty && !set2.isEmpty else { return 0.0 }
+        let intersection = set1.intersection(set2).count
+        let union = set1.union(set2).count
+        return Double(intersection) / Double(union)
+    }
+
+    /// Check if critical tokens overlap sufficiently
+    private func hasCriticalTokenOverlap(_ tokens1: Set<String>, _ tokens2: Set<String>) -> Bool {
+        // If both have tokens, they must share at least one
+        if !tokens1.isEmpty && !tokens2.isEmpty {
+            return !tokens1.intersection(tokens2).isEmpty
+        }
+        // If one or both have no tokens, pass the check
+        return true
     }
 
     // MARK: - Character Frequency Fast Reject
@@ -130,23 +250,142 @@ class ShotMatcher {
         promptComponents: PromptComponents,
         shots: [FilmShot]
     ) async -> ShotMatchResult {
-        print("[Sora] 🔍 Searching \(shots.count) shots for match...")
+        print("[Sora] 🔍 Searching \(shots.count) shots for match using cached metadata...")
 
-        // Log prompt sizes for performance monitoring
-        let totalPromptChars = promptComponents.action.count + promptComponents.scene.count +
-                              promptComponents.style.count + promptComponents.dialogue.count
-        print("[Sora] 📏 Prompt size: ACTION=\(promptComponents.action.count), SCENE=\(promptComponents.scene.count), STYLE=\(promptComponents.style.count), DIALOGUE=\(promptComponents.dialogue.count) (total: \(totalPromptChars) chars)")
+        // Pre-process prompt once for all comparisons
+        let maxLength = 500
+        let promptAction = normalizeString(String(promptComponents.action.prefix(maxLength)))
+        let promptScene = normalizeString(String(promptComponents.scene.prefix(maxLength)))
+        let promptStyle = normalizeString(String(promptComponents.style.prefix(maxLength)))
+        let promptDialogue = normalizeString(String(promptComponents.dialogue.prefix(maxLength)))
 
-        if totalPromptChars > 2000 {
-            print("[Sora] ⚡️ Large prompt detected - using 500 char truncation for fast matching")
-        }
+        let promptActionLength = promptAction.count
+        let promptSceneLength = promptScene.count
+        let promptActionWordCount = promptAction.components(separatedBy: .whitespaces).count
+        let promptSceneWordCount = promptScene.components(separatedBy: .whitespaces).count
+        let promptActionCharSet = Set(promptAction.lowercased())
+        let promptSceneCharSet = Set(promptScene.lowercased())
+        let promptCriticalTokens = extractCriticalTokens(from: promptComponents.action)
 
         var attempts: [String] = []
         var bestMatch: (shot: FilmShot, variant: PromptVariant, score: Double)?
         var bestActionScore: Double = 0.0
         var bestSceneScore: Double = 0.0
 
-        // PASS 1: Search cache-indexed variants (fast path)
+        // ═══════════════════════════════════════════════════════════
+        // PASS 1: ULTRA-FAST REJECTION PASS (New!)
+        // Use pre-cached metadata for lightning-fast elimination
+        // ═══════════════════════════════════════════════════════════
+        var pass1Candidates: [VariantReference] = []
+
+        // Collect all variant references from index
+        var allVariantRefs: [VariantReference] = []
+        for refs in variantIndex.values {
+            allVariantRefs.append(contentsOf: refs)
+        }
+        // Deduplicate by shot_variant ID
+        var seenIds = Set<String>()
+        var uniqueRefs: [VariantReference] = []
+        for ref in allVariantRefs {
+            let id = "\(ref.shot.id)_\(ref.variantIndex)"
+            if !seenIds.contains(id) {
+                seenIds.insert(id)
+                uniqueRefs.append(ref)
+            }
+        }
+
+        for cached in uniqueRefs {
+            // Check 1: Maximum possible similarity (MUST be mathematically possible)
+            let maxSimAction = maxPossibleSimilarity(len1: promptActionLength, len2: cached.actionLength)
+            let maxSimScene = maxPossibleSimilarity(len1: promptSceneLength, len2: cached.sceneLength)
+
+            if maxSimAction < actionThreshold && maxSimScene < sceneThreshold {
+                continue  // Impossible to meet both thresholds
+            }
+
+            // Check 2: Word count ratio
+            if !passesWordCountCheck(promptCount: promptActionWordCount, variantCount: cached.actionWordCount) &&
+               !passesWordCountCheck(promptCount: promptSceneWordCount, variantCount: cached.sceneWordCount) {
+                continue
+            }
+
+            // Check 3: Character set overlap (Jaccard similarity)
+            let actionJaccard = characterSetJaccard(promptActionCharSet, cached.actionCharSet)
+            let sceneJaccard = characterSetJaccard(promptSceneCharSet, cached.sceneCharSet)
+
+            if actionJaccard < 0.4 && sceneJaccard < 0.4 {
+                continue  // Less than 40% character overlap in both
+            }
+
+            // Check 4: Critical token overlap
+            if !hasCriticalTokenOverlap(promptCriticalTokens, cached.criticalTokens) {
+                continue
+            }
+
+            // Passed all rejection checks!
+            pass1Candidates.append(cached)
+        }
+
+        // If we have candidates from fast pass, do full comparison on them
+        if !pass1Candidates.isEmpty {
+
+            let pass1Results = await withTaskGroup(of: (shot: FilmShot, variant: PromptVariant, score: Double, actionScore: Double, sceneScore: Double, log: String).self) { group in
+                for candidate in pass1Candidates {
+                    group.addTask {
+                        self.matchVariantFull(
+                            cached: candidate,
+                            promptAction: promptAction,
+                            promptScene: promptScene,
+                            promptStyle: promptStyle,
+                            promptDialogue: promptDialogue,
+                            promptComponents: promptComponents
+                        )
+                    }
+                }
+
+                var results: [(shot: FilmShot, variant: PromptVariant, score: Double, actionScore: Double, sceneScore: Double, log: String)] = []
+                for await result in group {
+                    results.append(result)
+                    // Early termination on excellent match
+                    if result.score > 0.90 {
+                        return [result]
+                    }
+                }
+                return results
+            }
+
+            // Process Pass 1 results
+            for result in pass1Results {
+                attempts.append(result.log)
+                if bestMatch == nil || result.score > bestMatch!.score {
+                    bestMatch = (result.shot, result.variant, result.score)
+                    bestActionScore = result.actionScore
+                    bestSceneScore = result.sceneScore
+                }
+            }
+
+            // If Pass 1 found an acceptable match, return it
+            if let best = bestMatch {
+                let meetsActionThreshold = bestActionScore >= actionThreshold
+                let meetsCombinedThreshold = (bestActionScore >= 0.20 && bestSceneScore >= sceneThreshold)
+
+                if meetsActionThreshold || meetsCombinedThreshold {
+                    print("[Sora] ✅ Found match: Shot \(best.shot.id) - Variant '\(best.variant.name)' (confidence: \(String(format: "%.1f%%", best.score * 100)))")
+                    return ShotMatchResult(
+                        shot: best.shot,
+                        variant: best.variant,
+                        attempts: attempts,
+                        confidence: best.score
+                    )
+                }
+            }
+        }
+
+        // ═══════════════════════════════════════════════════════════
+        // PASS 2: FULL SEARCH (Existing implementation as fallback)
+        // ═══════════════════════════════════════════════════════════
+
+        // PASS 2.1: Search cache-indexed variants (fast path)
         let actionKey = extractFirstWords(promptComponents.action, count: 5)
         let sceneKey = extractFirstWords(promptComponents.scene, count: 5)
         let styleKey = extractFirstWords(promptComponents.style, count: 5)
@@ -246,22 +485,20 @@ class ShotMatcher {
                     }
                 }
             }
-            print("[Sora] 📋 Found \(candidates.count) candidate variants matching ALL non-empty keys from index")
-        } else {
-            print("[Sora] 📋 No search keys provided, skipping cache lookup")
         }
 
         // Search candidates first (PARALLEL for speed)
         if !candidates.isEmpty {
-            print("[Sora] 🚀 Parallel matching \(candidates.count) candidates...")
             let candidateResults = await withTaskGroup(of: (shot: FilmShot, variant: PromptVariant, score: Double, actionScore: Double, sceneScore: Double, log: String).self) { group in
                 for candidate in candidates {
                     group.addTask {
+                        // Pass cached reference for pre-computed normalized strings (big speedup!)
                         self.matchVariant(
                             shot: candidate.shot,
                             variantIndex: candidate.variantIndex,
                             variant: candidate.variant,
-                            promptComponents: promptComponents
+                            promptComponents: promptComponents,
+                            cachedReference: candidate
                         )
                     }
                 }
@@ -269,6 +506,11 @@ class ShotMatcher {
                 var results: [(shot: FilmShot, variant: PromptVariant, score: Double, actionScore: Double, sceneScore: Double, log: String)] = []
                 for await result in group {
                     results.append(result)
+
+                    // Early termination: If we find a >90% match, that's excellent - stop searching
+                    if result.score > 0.90 {
+                        return [result]  // Return just this result
+                    }
                 }
                 return results
             }
@@ -283,12 +525,21 @@ class ShotMatcher {
                     bestSceneScore = result.sceneScore
                 }
             }
+
+            // If we found an excellent match in candidates, return immediately
+            if let best = bestMatch, best.score > 0.90 {
+                print("[Sora] ✅ Found match: Shot \(best.shot.id) - Variant '\(best.variant.name)' (confidence: \(String(format: "%.1f%%", best.score * 100)))")
+                return ShotMatchResult(
+                    shot: best.shot,
+                    variant: best.variant,
+                    attempts: attempts,
+                    confidence: best.score
+                )
+            }
         }
 
         // PASS 2: If no good match from cache, search remaining variants (PARALLEL)
         if bestMatch == nil || bestMatch!.score < 0.50 {
-            print("[Sora] 🔄 Expanding search to all variants (parallel)...")
-            print("[Sora]    Thread check - is main: \(Thread.isMainThread)")
 
             // Build list of variants to search (excluding already searched)
             var variantsToSearch: [(shot: FilmShot, variantIndex: Int, variant: PromptVariant)] = []
@@ -314,7 +565,8 @@ class ShotMatcher {
                             shot: item.shot,
                             variantIndex: item.variantIndex,
                             variant: item.variant,
-                            promptComponents: promptComponents
+                            promptComponents: promptComponents,
+                            cachedReference: nil  // No cached reference for full search
                         )
                     }
                 }
@@ -323,6 +575,13 @@ class ShotMatcher {
                 for await result in group {
                     results.append(result)
                     processedCount += 1
+
+                    // Early termination: If we find a >90% match, stop searching
+                    if result.score > 0.90 {
+                        print("[Sora] 🎯 Found high-confidence match (>90%) - stopping full search early")
+                        return [result]
+                    }
+
                     if processedCount % 50 == 0 {
                         print("[Sora]    Processed \(processedCount)/\(variantsToSearch.count) variants...")
                     }
@@ -376,7 +635,8 @@ class ShotMatcher {
         shot: FilmShot,
         variantIndex: Int,
         variant: PromptVariant,
-        promptComponents: PromptComponents
+        promptComponents: PromptComponents,
+        cachedReference: VariantReference? = nil
     ) -> (shot: FilmShot, variant: PromptVariant, score: Double, actionScore: Double, sceneScore: Double, log: String) {
 
         // Truncate strings to 500 chars for performance (Levenshtein is O(m×n))
@@ -389,10 +649,33 @@ class ShotMatcher {
         let promptStyle = normalizeString(String(promptComponents.style.prefix(maxLength)))
         let promptDialogue = normalizeString(String(promptComponents.dialogue.prefix(maxLength)))
 
-        let variantAction = normalizeString(String(variant.action.prefix(maxLength)))
-        let variantScene = normalizeString(String(variant.scene.prefix(maxLength)))
-        let variantStyle = normalizeString(String(variant.style.prefix(maxLength)))
-        let variantDialogue = normalizeString(String(variant.dialogue.prefix(maxLength)))
+        // Use pre-computed normalized strings if available (much faster!)
+        let variantAction: String
+        let variantScene: String
+        let variantStyle: String
+        let variantDialogue: String
+
+        if let cached = cachedReference {
+            variantAction = cached.normalizedAction
+            variantScene = cached.normalizedScene
+            variantStyle = cached.normalizedStyle
+            variantDialogue = cached.normalizedDialogue
+        } else {
+            variantAction = normalizeString(String(variant.action.prefix(maxLength)))
+            variantScene = normalizeString(String(variant.scene.prefix(maxLength)))
+            variantStyle = normalizeString(String(variant.style.prefix(maxLength)))
+            variantDialogue = normalizeString(String(variant.dialogue.prefix(maxLength)))
+        }
+
+        // Length-based fast reject (non-lossy: strings differing by >50% length can't match well)
+        let actionLengthRatio = Double(min(promptAction.count, variantAction.count)) /
+                                Double(max(max(promptAction.count, variantAction.count), 1))
+        let sceneLengthRatio = Double(min(promptScene.count, variantScene.count)) /
+                               Double(max(max(promptScene.count, variantScene.count), 1))
+
+        if actionLengthRatio < 0.5 && sceneLengthRatio < 0.5 {
+            return (shot, variant, 0.0, 0.0, 0.0, "Shot \(shot.id) - Quick reject (length mismatch)")
+        }
 
         // Fast-reject using character frequency (avoids expensive Levenshtein on clearly non-matching strings)
         let actionFreqDiff = characterFrequencyDifference(promptAction, variantAction)
@@ -428,6 +711,48 @@ class ShotMatcher {
         }
 
         return (shot, variant, overallScore, actionScore, sceneScore, attemptLog)
+    }
+
+    // MARK: - Helper: Match Variant with Pre-Processed Prompt (for Pass 1)
+    private func matchVariantFull(
+        cached: VariantReference,
+        promptAction: String,
+        promptScene: String,
+        promptStyle: String,
+        promptDialogue: String,
+        promptComponents: PromptComponents
+    ) -> (shot: FilmShot, variant: PromptVariant, score: Double, actionScore: Double, sceneScore: Double, log: String) {
+
+        // Use cached normalized strings (already computed!)
+        let variantAction = cached.normalizedAction
+        let variantScene = cached.normalizedScene
+        let variantStyle = cached.normalizedStyle
+        let variantDialogue = cached.normalizedDialogue
+
+        // Calculate similarity scores using Levenshtein
+        let actionScore = promptAction.similarity(to: variantAction)
+        let sceneScore = promptScene.similarity(to: variantScene)
+        let styleScore = promptStyle.similarity(to: variantStyle)
+        let dialogueScore = promptDialogue.similarity(to: variantDialogue)
+
+        // Log attempt
+        let attemptLog = """
+        Shot \(cached.shot.id) - "\(cached.shot.title)" - Variant \(cached.variantIndex) "\(cached.variant.name)":
+          ACTION: \(String(format: "%.1f%%", actionScore * 100))
+          SCENE:  \(String(format: "%.1f%%", sceneScore * 100))
+          STYLE:  \(String(format: "%.1f%%", styleScore * 100))
+          DIALOGUE: \(String(format: "%.1f%%", dialogueScore * 100))
+        """
+
+        // Calculate weighted overall score
+        var overallScore = (actionScore * 0.5) + (sceneScore * 0.3) + (styleScore * 0.2)
+
+        // Bonus for dialogue match if both have dialogue
+        if !promptComponents.dialogue.isEmpty && !cached.variant.dialogue.isEmpty {
+            overallScore += dialogueScore * 0.1
+        }
+
+        return (cached.shot, cached.variant, overallScore, actionScore, sceneScore, attemptLog)
     }
 
     // MARK: - Helper: Extract Camera Position
