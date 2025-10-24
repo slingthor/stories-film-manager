@@ -1,28 +1,11 @@
 {
-  "progressive_state" : "House 3\/min + 40bpm stuttering | Storm arriving | Camera frost 27% | Provider returns | Watching: House resists entry",
   "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "active_video_index" : 0,
-      "videos" : [
-        {
-          "filename" : "Subject_the_door_202509211911_263m2.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_door_202509211911_263m2.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_the_door_202509211911_nzg66.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_door_202509211911_nzg66.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_the_door_202509211911_1vcfi.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_door_202509211911_1vcfi.mp4",
-          "duration" : 8
-        }
-      ],
-      "variant_id" : "42a_story_primary",
-      "action" : "BANG. Door strikes visible, sound like gunshot. Wind enters horizontal - not falling but sideways snow, visibility zero behind Magnús. He's silhouette only: bent figure, aged, something clutched to chest. Temperature drops 10 degrees instantly, breath of family becoming fog wall. Door rebounds, tries to close, he catches it with 0Hz hand (can't feel the wood splitting his palm). Wind screaming at 80mph through opening. House breathing STOPS - holds breath at his entrance. Heartbeat stutters: 40bpm... 20... 60... 20. Turf cascades from ceiling where door impact cracked beams. But family doesn't move. Still in pentagon formation. Only tilberi reacts - brass eye turning toward door, three-rhythm breathing accelerating. Snow already accumulating inside, 2 inches in 6 seconds. His figure resolves slightly - hair completely white now (was grey this morning), beard frozen into ice plate, something wrapped in cloth against chest like baby.",
+      "scene" : "Interior wide view, door center. Storm visible as white wall outside. Temperature plummeting. Family arranged on floor unmoved.",
+      "dialogue" : "Only wind screaming and door impact",
+      "subject" : "The door exploding inward with tremendous force, [MAGNÚS] silhouetted against horizontal snow, -30°C air rushing in like water, his aged figure barely standing against wind, the door hitting wall so hard turf falls from ceiling, while family remains frozen in réttir positions.",
       "selected_plates" : [
         "MAGNUS-PREDATOR",
         "SIGRID-CORNERED",
@@ -32,25 +15,42 @@
         "BAÐSTOFA-CLEFT",
         "STOFA-ORGANIC"
       ],
-      "camera_position" : "Static wide shot, door centered, family in foreground shadows",
-      "subject" : "The door exploding inward with tremendous force, [MAGNÚS] silhouetted against horizontal snow, -30°C air rushing in like water, his aged figure barely standing against wind, the door hitting wall so hard turf falls from ceiling, while family remains frozen in réttir positions.",
-      "scene" : "Interior wide view, door center. Storm visible as white wall outside. Temperature plummeting. Family arranged on floor unmoved.",
-      "dialogue" : "Only wind screaming and door impact",
-      "style" : "Static wide shot, door centered, family in foreground shadows (that's where the camera is), impact documentary.",
-      "negative_prompt" : "",
       "variant_name" : "Primary - THE DOOR VIOLENCE - IMPACT ENTRY 6 SECONDS",
+      "style" : "Static wide shot, door centered, family in foreground shadows (that's where the camera is), impact documentary.",
       "is_active" : false,
-      "progressive_state" : ""
+      "videos" : [
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_door_202509211911_263m2.mp4",
+          "filename" : "Subject_the_door_202509211911_263m2.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_door_202509211911_nzg66.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_door_202509211911_nzg66.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_door_202509211911_1vcfi.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_door_202509211911_1vcfi.mp4"
+        }
+      ],
+      "active_video_index" : 0,
+      "variant_id" : "42a_story_primary",
+      "action" : "BANG. Door strikes visible, sound like gunshot. Wind enters horizontal - not falling but sideways snow, visibility zero behind Magnús. He's silhouette only: bent figure, aged, something clutched to chest. Temperature drops 10 degrees instantly, breath of family becoming fog wall. Door rebounds, tries to close, he catches it with 0Hz hand (can't feel the wood splitting his palm). Wind screaming at 80mph through opening. House breathing STOPS - holds breath at his entrance. Heartbeat stutters: 40bpm... 20... 60... 20. Turf cascades from ceiling where door impact cracked beams. But family doesn't move. Still in pentagon formation. Only tilberi reacts - brass eye turning toward door, three-rhythm breathing accelerating. Snow already accumulating inside, 2 inches in 6 seconds. His figure resolves slightly - hair completely white now (was grey this morning), beard frozen into ice plate, something wrapped in cloth against chest like baby.",
+      "camera_position" : "Static wide shot, door centered, family in foreground shadows",
+      "progressive_state" : "",
+      "negative_prompt" : ""
     }
   ],
-  "aspect_ratio" : "4:3",
   "shot_metadata" : {
-    "duration_seconds" : 6,
-    "id" : "42a",
-    "needs_improvements" : false,
-    "narrative_function" : "House 3\/min + 40bpm stuttering | Storm arriving | ...",
+    "sequence_type" : "main_story",
     "stitch_from" : "",
+    "narrative_function" : "House 3\/min + 40bpm stuttering | Storm arriving | ...",
+    "needs_improvements" : false,
+    "duration_seconds" : 6,
     "title" : "THE DOOR VIOLENCE - IMPACT ENTRY 6 SECONDS",
-    "sequence_type" : "main_story"
-  }
+    "id" : "42a"
+  },
+  "progressive_state" : "House 3\/min + 40bpm stuttering | Storm arriving | Camera frost 27% | Provider returns | Watching: House resists entry"
 }

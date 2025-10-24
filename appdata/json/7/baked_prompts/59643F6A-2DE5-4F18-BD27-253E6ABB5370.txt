@@ -1,0 +1,34 @@
+# Baked Prompt 1
+
+SUBJECT:
+  British trawler GRIMSBY PRIDE pulled away at impossible speed by massive
+  serpent coils beneath - water churning violent green-black, tentacle
+  shadows visible through clear patches, leaving wounded Magnus alone on
+  empty fjord.
+
+  ACTION:
+  After bullet impact, trawler PULLED backward by something beneath. Water
+  churns violent green-black. Massive shadows visible - tentacles, coils.
+  Ship dragged at impossible speed: 10 knots, 15, 20, wake like wound.
+  Searchlights locked on Magnus then go dark. Engine sound becomes distant
+  roar - hurt, angry, retreating. Two minutes to horizon. Disappears DOWN,
+  pulled under. Water continues churning where it vanished. Magnus alone. No
+   fish. No enemy. No victory. Ravens reform spiral above - seven witnesses.
+   Iceland made Empire retreat. Water poisoned green-black in wide trail.
+
+  SCENE:
+  Hornstrandir fjord, 9:23 AM February 1888. Trawler retreating impossibly
+  fast. Poisoned green-black water trail. Magnus alone, wounded - white
+  hair, bleeding nose, torn sealskin anorak, rifle with two bullets.
+  Temperature -35°C. Breath visible. Pack ice offshore. Black volcanic
+  cliffs dropping to sea.
+
+  STYLE:
+  Wide shot from cliff perspective (that's where the camera is) showing
+  impossible retreat speed, trawler pulled under water. 14mm ultra-wide
+  lens. Documentary observation of Cod Wars miracle. 4:3 aspect ratio.
+  Iceland 1888.
+
+  NEGATIVE PROMPT:
+  no subtitles, no modern elements, no text overlays, maintain 1888
+  authenticity

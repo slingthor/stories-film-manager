@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Privacy - Notifications Usage Description -->
+	<key>NSUserNotificationUsageDescription</key>
+	<string>FilmManager sends notifications when Veo/Sora videos are successfully imported or if errors occur during the import process.</string>
+
+	<!-- Privacy - Accessibility Usage Description -->
+	<key>NSAppleEventsUsageDescription</key>
+	<string>FilmManager needs to monitor the backtick (`) key to trigger quick video import. This allows you to press ` while browsing Veo to instantly import downloaded videos to the correct shot.</string>
+</dict>
+</plist>

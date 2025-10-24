@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Allow app to access Downloads folder -->
+	<key>com.apple.security.files.downloads.read-write</key>
+	<true/>
+
+	<!-- Enable app sandbox (required for Mac App Store) -->
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+
+	<!-- Allow user-selected files (for drag-and-drop) -->
+	<key>com.apple.security.files.user-selected.read-write</key>
+	<true/>
+
+	<!-- Allow network access (if needed for future features) -->
+	<key>com.apple.security.network.client</key>
+	<true/>
+</dict>
+</plist>

@@ -40,6 +40,12 @@ class FilmManager: ObservableObject {
     let appDataManager = AppDataManager.shared
     private var autoSaveTimer: Timer?
     private var cancellables = Set<AnyCancellable>()
+
+    // MARK: - Veo Import System
+    lazy var veoImportManager: VeoImportManager = {
+        VeoImportManager(filmManager: self)
+    }()
+    private var keyboardMonitor: GlobalKeyboardMonitor?
     
     init() {
         setupTrackingSystems()
@@ -816,8 +822,47 @@ class FilmManager: ObservableObject {
         
         // Mark as dirty for saving
         copiedShot.isDirty = true
-        
+
         print("📋 Created copy of shot \(currentShot.id) as \(newId)")
+    }
+
+    // MARK: - Veo Import Mode Control
+    func toggleVeoImportMode() {
+        if veoImportManager.isImportModeActive {
+            stopVeoImportMode()
+        } else {
+            startVeoImportMode()
+        }
+    }
+
+    private func startVeoImportMode() {
+        // Initialize keyboard monitor if needed
+        if keyboardMonitor == nil {
+            keyboardMonitor = GlobalKeyboardMonitor()
+
+            // Set callback for backtick key press
+            keyboardMonitor?.onBacktickPressed = { [weak self] in
+                self?.veoImportManager.processImport()
+            }
+        }
+
+        // Start keyboard monitoring
+        keyboardMonitor?.startMonitoring()
+
+        // Activate import mode
+        veoImportManager.activateImportMode()
+
+        print("✅ Veo Import Mode STARTED")
+    }
+
+    private func stopVeoImportMode() {
+        // Stop keyboard monitoring
+        keyboardMonitor?.stopMonitoring()
+
+        // Deactivate import mode
+        veoImportManager.deactivateImportMode()
+
+        print("🛑 Veo Import Mode STOPPED")
     }
 }
 

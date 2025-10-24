@@ -1,25 +1,30 @@
 {
   "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
   "shot_metadata" : {
-    "id" : "13",
+    "sequence_type" : "main_story",
+    "stitch_from" : "",
     "narrative_function" : "House 10\/min â†’ 13\/min | Klettagjá 2mm | Monolit...",
     "needs_improvements" : true,
     "duration_seconds" : 8,
     "title" : "RAVEN AT WINDOW - FIRST MONOLITH",
-    "stitch_from" : "",
-    "sequence_type" : "main_story"
+    "id" : "13"
   },
-  "aspect_ratio" : "4:3",
   "progressive_state" : "House 10\/min â†’ 13\/min | Klettagjá 2mm | Monolith arrival | Camera frost 8% | surreal visual | Watching: Raven watching back",
   "prompt_variants" : [
     {
-      "progressive_state" : "",
+      "scene" : "South window, 6:08 AM, grey light through frost. Temperature drops 2 degrees while raven present: -12°C. Window frost 4mm thick with cross patterns, raven's presence adding new geometry. The reflection showing impossible count. Wing-print left behind becomes part of frost patterns.",
+      "dialogue" : "Complete silence for 12 seconds (After raven leaves, Magnús): \"Hrafn...\" (Tone: naming fear) (Sigrid, whispered): \"Hann sá okkur\" (He saw us)",
+      "subject" : "A raven landing at the frosted window with unnatural precision, absolutely still like black geometry against white frost, but in the window's reflection the family count is wrong - showing six clear figures at table though only five exist, and in the raven's eye, a reflection of five sheep wearing the family's clothes.",
       "selected_plates" : [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
         "BAÐSTOFA-ORGANIC",
         "WESTFJORDS-WINTER"
       ],
+      "variant_name" : "Primary - RAVEN AT WINDOW - FIRST MONOLITH",
+      "style" : "Static shot on window, then zoom to raven's eye reflection (that's where the camera is), documentary of impossible observation.",
+      "is_active" : false,
       "videos" : [
         {
           "filename" : "Subject_a_raven_202509211705_3thjp.mp4",
@@ -27,32 +32,27 @@
           "duration" : 8
         },
         {
-          "filename" : "Subject_a_raven_202509211705_1jowy.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202509211705_1jowy.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_a_raven_202509211705_9l5bn.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202509211705_9l5bn.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202509211705_vdka3.mp4",
           "duration" : 8,
-          "filename" : "Subject_a_raven_202509211705_vdka3.mp4"
+          "filename" : "Subject_a_raven_202509211705_1jowy.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_a_raven_202509211705_9l5bn.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202509211705_9l5bn.mp4"
+        },
+        {
+          "filename" : "Subject_a_raven_202509211705_vdka3.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_raven_202509211705_vdka3.mp4",
+          "duration" : 8
         }
       ],
-      "variant_id" : "13_story_primary",
       "active_video_index" : 0,
-      "scene" : "South window, 6:08 AM, grey light through frost. Temperature drops 2 degrees while raven present: -12°C. Window frost 4mm thick with cross patterns, raven's presence adding new geometry. The reflection showing impossible count. Wing-print left behind becomes part of frost patterns.",
+      "variant_id" : "13_story_primary",
       "action" : "The raven lands with no sound. Not normal bird behavior - perfectly still, wings folded in exact symmetry. Through 4mm interior frost, its form is geometric, monolithic. Family freezes seeing it. 12-second hold: no movement from raven, family, even house breathing pauses. But in window glass reflection beside raven: six people clearly visible at table, sixth figure solid, wearing Magnús's spare sweater. And in the raven's black eye (impossible close-up through distance): reflection shows the family but AS SHEEP - five sheep in their clothes, sitting at table, human teeth visible in sheep mouths. Magnús raises hand to shoo it - raven doesn't flinch. Finally turns head exactly 90 degrees, looks directly at Sigrid, blinks once (vertical eyelid), flies away. Leaves perfect wing-print in frost - cross pattern with sixth feather that shouldn't exist. Family unfreezes, resumes activity, but mathematics broken. House breathing resumes at 13\/min, agitated.",
-      "variant_name" : "Primary - RAVEN AT WINDOW - FIRST MONOLITH",
-      "negative_prompt" : "no subtitles, no movement during 12-second hold, show reflection count wrong, eye reflection clear",
-      "dialogue" : "Complete silence for 12 seconds (After raven leaves, Magnús): \"Hrafn...\" (Tone: naming fear) (Sigrid, whispered): \"Hann sá okkur\" (He saw us)",
-      "subject" : "A raven landing at the frosted window with unnatural precision, absolutely still like black geometry against white frost, but in the window's reflection the family count is wrong - showing six clear figures at table though only five exist, and in the raven's eye, a reflection of five sheep wearing the family's clothes.",
-      "style" : "Static shot on window, then zoom to raven's eye reflection (that's where the camera is), documentary of impossible observation.",
       "camera_position" : "Static shot on window, then zoom to raven's eye reflection",
-      "is_active" : false
+      "progressive_state" : "",
+      "negative_prompt" : "no subtitles, no movement during 12-second hold, show reflection count wrong, eye reflection clear"
     }
   ]
 }

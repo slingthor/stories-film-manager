@@ -1,9 +1,8 @@
 {
-  "progressive_state" : "House 18\/min agitated + 60bpm | Authority shifting | Camera frost 36.5% | Incest emerging | Watching: House sees threat",
   "selected_prompt_index" : 0,
+  "aspect_ratio" : "1:1",
   "prompt_variants" : [
     {
-      "dialogue" : "(Magnús): \"Góður stofn... sterkir kjálkar\" \"Ef móðirin deyr, þarftu...\" (Sigrid): Silent, breathing steady at 15\/min",
       "selected_plates" : [
         "MAGNUS-POSSESSOR",
         "SIGRID-CORNERED",
@@ -12,26 +11,27 @@
         "WESTFJORDS-CLIFF",
         "STOFA-BODY"
       ],
-      "progressive_state" : "",
-      "subject" : "[MAGNÚS] turning from surviving [GUÐRÚN] to [SIGRID], his 0Hz hands perfectly steady as he approaches her corner where she maintains exactly 11 feet, but wall behind means no retreat, his eyes examining her with livestock assessment while she presses against klettagjá cracks now spelling \"VITNI\" (witness).",
+      "variant_id" : "49a_story_primary",
       "action" : "Magnús dismisses Guðrún with disgusted wave - she failed to die, worthless now. Turns to Sigrid. PUSH IN as he approaches. She's trapped in corner, maintaining 11 feet but wall prevents retreat. His 0Hz hands (no tremor) reach toward her. Not violent. Worse. Examining. Grips her jaw like morning's ram testicle feeding. But now checking teeth for breeding soundness. Her breathing stays 15\/min (never changes) even as he inspects. Behind her, wall cracks spell \"VITNI\" (witness) - she will witness and escape. His other hand moves to her belly - knows about rounded belly. \"Góður stofn\" (good stock) he mutters. \"Ef móðirin deyr...\" (If the mother dies...). Implication clear. Guðrún sees, understands, cannot intervene. House heartbeat accelerates to 80bpm. Walls perspiring more. Bergrisi recognizing threat to chosen one. But Magnús in his madness doesn't notice house responding. Focused only on Sigrid as next breeding stock. The isolation making incest inevitable - no other women for 40 miles.",
-      "camera_position" : "Push in showing entrapment and inspection",
-      "negative_prompt" : "",
       "style" : "Push in showing entrapment and inspection (that's where the camera is), predatory documentation.",
+      "camera_position" : "Push in showing entrapment and inspection",
+      "dialogue" : "(Magnús): \"Góður stofn... sterkir kjálkar\" \"Ef móðirin deyr, þarftu...\" (Sigrid): Silent, breathing steady at 15\/min",
+      "negative_prompt" : "",
       "is_active" : false,
       "variant_name" : "Primary - MAGNÚS REDIRECTS RAGE - THE INSPECTION BEGINS 6 SECONDS",
+      "subject" : "[MAGNÚS] turning from surviving [GUÐRÚN] to [SIGRID], his 0Hz hands perfectly steady as he approaches her corner where she maintains exactly 11 feet, but wall behind means no retreat, his eyes examining her with livestock assessment while she presses against klettagjá cracks now spelling \"VITNI\" (witness).",
       "scene" : "Southwest corner, 10:20 AM. Sigrid trapped. Wall cracks visible behind her. Family watching frozen.",
-      "variant_id" : "49a_story_primary"
+      "progressive_state" : ""
     }
   ],
-  "aspect_ratio" : "1:1",
+  "progressive_state" : "House 18\/min agitated + 60bpm | Authority shifting | Camera frost 36.5% | Incest emerging | Watching: House sees threat",
   "shot_metadata" : {
-    "duration_seconds" : 6,
+    "sequence_type" : "main_story",
     "id" : "49a",
-    "needs_improvements" : false,
-    "narrative_function" : "House 18\/min agitated + 60bpm | Authority shifting...",
-    "stitch_from" : "",
     "title" : "MAGNÚS REDIRECTS RAGE - THE INSPECTION BEGINS 6 SECONDS",
-    "sequence_type" : "main_story"
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "duration_seconds" : 6,
+    "narrative_function" : "House 18\/min agitated + 60bpm | Authority shifting..."
   }
 }

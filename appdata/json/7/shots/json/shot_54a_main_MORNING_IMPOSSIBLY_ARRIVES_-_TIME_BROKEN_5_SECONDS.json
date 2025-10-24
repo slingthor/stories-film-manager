@@ -1,18 +1,11 @@
 {
-  "progressive_state" : "House 4\/min dying + 40bpm weak | Time shattered | Camera frost 44.5% | Dawn wrong | Watching: Sun witnesses",
   "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "variant_name" : "Primary - MORNING IMPOSSIBLY ARRIVES - TIME BROKEN 5 SECONDS",
-      "variant_id" : "54a_story_primary",
-      "style" : "Static wide showing time failure (that's where the camera is), time-worn appearance documented.",
-      "negative_prompt" : "",
       "scene" : "Interior with impossible daylight. Multiple times through different windows. Family disoriented but accepting.",
-      "is_active" : false,
-      "action" : "STATIC WIDE. Stars visible through ceiling crack. Then: sunlight. Not sunrise - instant day. 10 AM light floods windows. No transition. Family still positioned for night - Guðrún in sleeping clothes, children curled on platforms, Magnús's feet still trapped in floor from last night. But it's morning. Or is night still there too? Through different windows: different times. East window shows noon. West shows midnight. North shows dawn. South shows dusk. All simultaneous. All true. Time shattered completely. Sigrid's black feather now shows rainbow sheen in daylight that shouldn't exist. Her belly visibly larger - did months pass in the jump? Or is time moving differently for her? House breathing 4\/min now - dying rhythm. Only four more minutes of breath left? Or four hours? Four days? Time means nothing inside giant's body.",
-      "camera_position" : "Static wide showing time failure",
+      "subject" : "Sudden daylight flooding through windows though it was just 9 PM, the family blinking in impossible morning sun, no transition, no dawn, just night becoming day instantly while their bodies remain positioned for sleep.",
       "dialogue" : "(Jón, confused): \"Er það morgunn?\" (Sigrid, knowing): \"Allir tímar í einu\" (All times at once)",
-      "progressive_state" : "",
       "selected_plates" : [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
@@ -22,17 +15,32 @@
         "BAÐSTOFA-CRYSTALLIZING",
         "BAÐSTOFA-CLIFF"
       ],
-      "subject" : "Sudden daylight flooding through windows though it was just 9 PM, the family blinking in impossible morning sun, no transition, no dawn, just night becoming day instantly while their bodies remain positioned for sleep."
+      "variant_name" : "Primary - MORNING IMPOSSIBLY ARRIVES - TIME BROKEN 5 SECONDS",
+      "style" : "Static wide showing time failure (that's where the camera is), time-worn appearance documented.",
+      "is_active" : false,
+      "videos" : [
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1802_01k7zfp13af7h9g5gpjkqxkf95.mp4",
+          "duration" : 15.088666666666667,
+          "filename" : "20251019_1802_01k7zfp13af7h9g5gpjkqxkf95.mp4"
+        }
+      ],
+      "active_video_index" : 0,
+      "variant_id" : "54a_story_primary",
+      "action" : "STATIC WIDE. Stars visible through ceiling crack. Then: sunlight. Not sunrise - instant day. 10 AM light floods windows. No transition. Family still positioned for night - Guðrún in sleeping clothes, children curled on platforms, Magnús's feet still trapped in floor from last night. But it's morning. Or is night still there too? Through different windows: different times. East window shows noon. West shows midnight. North shows dawn. South shows dusk. All simultaneous. All true. Time shattered completely. Sigrid's black feather now shows rainbow sheen in daylight that shouldn't exist. Her belly visibly larger - did months pass in the jump? Or is time moving differently for her? House breathing 4\/min now - dying rhythm. Only four more minutes of breath left? Or four hours? Four days? Time means nothing inside giant's body.",
+      "camera_position" : "Static wide showing time failure",
+      "progressive_state" : "",
+      "negative_prompt" : ""
     }
   ],
-  "aspect_ratio" : "4:3",
+  "progressive_state" : "House 4\/min dying + 40bpm weak | Time shattered | Camera frost 44.5% | Dawn wrong | Watching: Sun witnesses",
   "shot_metadata" : {
-    "duration_seconds" : 5,
+    "sequence_type" : "main_story",
     "id" : "54a",
-    "needs_improvements" : false,
-    "narrative_function" : "House 4\/min dying + 40bpm weak | Time shattered | ...",
-    "stitch_from" : "",
     "title" : "MORNING IMPOSSIBLY ARRIVES - TIME BROKEN 5 SECONDS",
-    "sequence_type" : "main_story"
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "duration_seconds" : 5,
+    "narrative_function" : "House 4\/min dying + 40bpm weak | Time shattered | ..."
   }
 }

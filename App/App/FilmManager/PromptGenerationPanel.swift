@@ -93,6 +93,12 @@ struct PromptGenerationPanel: View {
                             Button("Bake All Prompts") {
                                 bakeAllPrompts()
                             }
+
+                            Divider()
+
+                            Button(filmManager.veoImportManager.isImportModeActive ? "Stop Veo/Sora Import" : "Activate Veo/Sora Import") {
+                                filmManager.toggleVeoImportMode()
+                            }
                         } label: {
                             Label("Actions", systemImage: "ellipsis.circle")
                         }

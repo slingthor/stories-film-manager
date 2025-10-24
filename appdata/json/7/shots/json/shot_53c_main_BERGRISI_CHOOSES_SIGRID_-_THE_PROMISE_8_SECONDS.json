@@ -1,14 +1,35 @@
 {
-  "progressive_state" : "Giant choosing | Escape promised | Camera frost 44% | Love revealed | Watching: House loves her",
   "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
+  "shot_metadata" : {
+    "sequence_type" : "main_story",
+    "id" : "53c",
+    "title" : "BERGRISI CHOOSES SIGRID - THE PROMISE 8 SECONDS",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "duration_seconds" : 8,
+    "narrative_function" : "Giant choosing | Escape promised | Camera frost 44..."
+  },
+  "progressive_state" : "Giant choosing | Escape promised | Camera frost 44% | Love revealed | Watching: House loves her",
   "prompt_variants" : [
     {
-      "active_video_index" : 0,
+      "scene" : "Ceiling opening above Sigrid. Stars and ravens visible. Magnús trapped by floor. Divine selection.",
+      "subject" : "The house speaking directly to [SIGRID]: \"Þú ert Ðsland... þú munt lifa... vertu Krummi\" while the ceiling cracks open above her sleeping platform, revealing stars, creating her escape route, as [MAGNÚS] realizes the house has chosen her over him.",
+      "dialogue" : "(House to Sigrid): \"Þú ert Ðsland... þú munt lifa...\" \"Vertu Krummi\" (Magnús, raging): \"NEI! HÚN ER MÐN!\"",
+      "selected_plates" : [
+        "MAGNUS-POSSESSING",
+        "SIGRID-CORNERED",
+        "BAÐSTOFA-CRYSTALLIZING",
+        "BAÐSTOFA-CLIFF"
+      ],
+      "variant_name" : "Primary - BERGRISI CHOOSES SIGRID - THE PROMISE 8 SECONDS",
+      "style" : "Crane up following ceiling opening (that's where the camera is), escape route documented.",
+      "is_active" : false,
       "videos" : [
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211847_zxe14.mp4",
           "duration" : 8,
-          "filename" : "Subject_the_house_202509211847_zxe14.mp4"
+          "filename" : "Subject_the_house_202509211847_zxe14.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211847_zxe14.mp4"
         },
         {
           "filename" : "Subject_the_house_202509211847_u7oei.mp4",
@@ -21,38 +42,17 @@
           "filename" : "Subject_the_house_202509211847_1z2no.mp4"
         },
         {
-          "filename" : "Subject_the_house_202509211847_0i0sb.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211847_0i0sb.mp4",
+          "filename" : "Subject_the_house_202509211847_0i0sb.mp4",
           "duration" : 8
         }
       ],
+      "active_video_index" : 0,
       "variant_id" : "53c_story_primary",
       "action" : "House focuses on Sigrid. Different voice now - tender, paternal. \"ÞÚ ERT ÐSLAND.\" Magnús staggers back, hand leaving her shoulder. House protecting her. \"ÞÚ MUNT LIFA.\" CRANE UP as ceiling above her platform begins cracking. Not collapsing - opening. Like flower blooming. Stars visible through widening gap. Cold air enters but doesn't touch her - house creates warm air bubble around her. \"VERTU KRUMMI.\" (Become raven.) The black feather in her hand begins glowing slightly. Through opening: seven ravens circling, waiting. The klettagjá (rocky cleft) forming - her escape route. But also transformation site. Magnús rages: \"NEI! HÚN ER MÐN!\" Tries to grab her. Floor becomes liquid beneath him, swallows his feet to ankles. House holds him. Protects her. Loves her. She is Iceland. She will witness. She will escape. The ceiling continues opening - 3 feet wide now. Stars bright. Freedom visible.",
-      "selected_plates" : [
-        "MAGNUS-POSSESSING",
-        "SIGRID-CORNERED",
-        "BAÐSTOFA-CRYSTALLIZING",
-        "BAÐSTOFA-CLIFF"
-      ],
       "camera_position" : "Crane up following ceiling opening",
-      "subject" : "The house speaking directly to [SIGRID]: \"Þú ert Ðsland... þú munt lifa... vertu Krummi\" while the ceiling cracks open above her sleeping platform, revealing stars, creating her escape route, as [MAGNÚS] realizes the house has chosen her over him.",
-      "scene" : "Ceiling opening above Sigrid. Stars and ravens visible. Magnús trapped by floor. Divine selection.",
-      "dialogue" : "(House to Sigrid): \"Þú ert Ðsland... þú munt lifa...\" \"Vertu Krummi\" (Magnús, raging): \"NEI! HÚN ER MÐN!\"",
-      "style" : "Crane up following ceiling opening (that's where the camera is), escape route documented.",
-      "negative_prompt" : "no collapse, opening not destruction, show stars clearly",
-      "variant_name" : "Primary - BERGRISI CHOOSES SIGRID - THE PROMISE 8 SECONDS",
-      "is_active" : false,
-      "progressive_state" : ""
+      "progressive_state" : "",
+      "negative_prompt" : "no collapse, opening not destruction, show stars clearly"
     }
-  ],
-  "aspect_ratio" : "4:3",
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "id" : "53c",
-    "needs_improvements" : false,
-    "narrative_function" : "Giant choosing | Escape promised | Camera frost 44...",
-    "stitch_from" : "",
-    "title" : "BERGRISI CHOOSES SIGRID - THE PROMISE 8 SECONDS",
-    "sequence_type" : "main_story"
-  }
+  ]
 }

@@ -1,29 +1,41 @@
 {
-  "progressive_state" : "All systems disrupted | Parallel disaster felt | Camera frost 17.5% | Distance irrelevant | Watching: Mountains witness",
   "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
+  "shot_metadata" : {
+    "sequence_type" : "main_story",
+    "stitch_from" : "",
+    "narrative_function" : "All systems disrupted | Parallel disaster felt | C...",
+    "needs_improvements" : false,
+    "duration_seconds" : 8,
+    "title" : "THE ISLAND TREMBLES 8 SECONDS",
+    "id" : "26"
+  },
+  "progressive_state" : "All systems disrupted | Parallel disaster felt | Camera frost 17.5% | Distance irrelevant | Watching: Mountains witness",
   "prompt_variants" : [
     {
-      "active_video_index" : 0,
+      "subject" : "[MAGNÚS] collapsed in blood spiral 80 meters from house, suddenly feeling the 16Hz resonance through frozen ground - his bones becoming tuning forks, teeth chattering at impossible frequency, knowing without hearing that Sigrid's voice has become something else as the mountains return the call in avalanche tongues.",
+      "negative_prompt" : "no subtitles, show resonance through body, mountains responding, documentary observation",
+      "variant_id" : "26_story_primary",
       "videos" : [
         {
-          "duration" : 8,
+          "filename" : "Subject_magns_collapsed_202509211921_k3st.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202509211921_k3st.mp4",
-          "filename" : "Subject_magns_collapsed_202509211921_k3st.mp4"
-        },
-        {
-          "filename" : "Subject_magns_collapsed_202509211921_dll3.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202509211921_dll3.mp4",
           "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202509211921_xl4d.mp4",
-          "duration" : 8,
-          "filename" : "Subject_magns_collapsed_202509211921_xl4d.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202509211921_dll3.mp4",
+          "filename" : "Subject_magns_collapsed_202509211921_dll3.mp4",
+          "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202509211921_lf8a.mp4",
           "duration" : 8,
-          "filename" : "Subject_magns_collapsed_202509211921_lf8a.mp4"
+          "filename" : "Subject_magns_collapsed_202509211921_xl4d.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202509211921_xl4d.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_magns_collapsed_202509211921_lf8a.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202509211921_lf8a.mp4"
         },
         {
           "filename" : "Subject_magns_collapsed_202509211932_scq8.mp4",
@@ -31,48 +43,36 @@
           "duration" : 8
         },
         {
-          "filename" : "Subject_magns_collapsed_202509211932_v6on.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202509211932_v6on.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filename" : "Subject_magns_collapsed_202509211932_v6on.mp4"
         },
         {
           "filename" : "Subject_magns_collapsed_202509211932_dzur.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202509211932_dzur.mp4",
-          "duration" : 8
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202509211932_dzur.mp4"
         },
         {
-          "filename" : "Subject_magns_collapsed_202509211932_3itu.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202509211932_3itu.mp4",
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202509211932_3itu.mp4"
+          "filename" : "Subject_magns_collapsed_202509211932_3itu.mp4"
         }
       ],
-      "variant_id" : "26_story_primary",
-      "action" : "Magnús on knees, recovering from aflausn debt. Ground suddenly vibrates - not earthquake but resonance through bedrock. 16Hz travels through frozen earth faster than air. His skeleton resonates: teeth chatter at 16Hz (impossible for muscle), ribs hum, spine becomes antenna. Looks back at house - smoke from chimney forms raven shape, dissipates, reforms. Windows glowing with light that shouldn't exist (lamp dead, but four landvættir's attention creates illumination). Tries to stand but resonance drops him. Mountains respond: East mountain sheds snow in controlled slide (Raven's acknowledgment). West mountain steams at peak (Bull's breathing). South mountain groans audibly (Giant's bones). North mountain stays silent but darker (Raven gathering). His tremor completely stops - 0Hz - the stillness more terrifying than shaking. In his mouth, taste of blood and metal. The boat behind him slides backward 5 feet, pulled by blood spirals toward house. Realizes: Sigrid did something irreversible.",
+      "scene" : "Halfway point, 6:40 AM but darkness despite sunrise. Temperature -28°C, breath freezing before exhaling. Blood spirals glowing faintly red. Mountains all responding differently.",
       "selected_plates" : [
         "MAGNUS-AFLOAT",
         "SEA-EXTRACTED",
         "WESTFJORDS-FJORD",
         "WESTFJORDS-WINTER"
       ],
-      "subject" : "[MAGNÚS] collapsed in blood spiral 80 meters from house, suddenly feeling the 16Hz resonance through frozen ground - his bones becoming tuning forks, teeth chattering at impossible frequency, knowing without hearing that Sigrid's voice has become something else as the mountains return the call in avalanche tongues.",
-      "camera_position" : "Wide shot showing Magnús tiny against responding landscape, then close on his resonating body",
       "dialogue" : "(Magnús, feeling resonance): \"Sigrid... hvað gerðir þú?\" (Sigrid... what did you do?) (To mountains): \"Ekki svara!\" (Don't answer!) (Realization): \"Hún kallaði á þau öll\" (She called them all)",
-      "scene" : "Halfway point, 6:40 AM but darkness despite sunrise. Temperature -28°C, breath freezing before exhaling. Blood spirals glowing faintly red. Mountains all responding differently.",
+      "active_video_index" : 0,
       "style" : "Wide shot showing Magnús tiny against responding landscape, then close on his resonating body (that's where the camera is), documentary of distance irrelevance.",
-      "negative_prompt" : "no subtitles, show resonance through body, mountains responding, documentary observation",
+      "camera_position" : "Wide shot showing Magnús tiny against responding landscape, then close on his resonating body",
+      "variant_name" : "Primary - THE ISLAND TREMBLES 8 SECONDS",
       "is_active" : false,
       "progressive_state" : "",
-      "variant_name" : "Primary - THE ISLAND TREMBLES 8 SECONDS"
+      "action" : "Magnús on knees, recovering from aflausn debt. Ground suddenly vibrates - not earthquake but resonance through bedrock. 16Hz travels through frozen earth faster than air. His skeleton resonates: teeth chatter at 16Hz (impossible for muscle), ribs hum, spine becomes antenna. Looks back at house - smoke from chimney forms raven shape, dissipates, reforms. Windows glowing with light that shouldn't exist (lamp dead, but four landvættir's attention creates illumination). Tries to stand but resonance drops him. Mountains respond: East mountain sheds snow in controlled slide (Raven's acknowledgment). West mountain steams at peak (Bull's breathing). South mountain groans audibly (Giant's bones). North mountain stays silent but darker (Raven gathering). His tremor completely stops - 0Hz - the stillness more terrifying than shaking. In his mouth, taste of blood and metal. The boat behind him slides backward 5 feet, pulled by blood spirals toward house. Realizes: Sigrid did something irreversible."
     }
-  ],
-  "aspect_ratio" : "4:3",
-  "shot_metadata" : {
-    "duration_seconds" : 8,
-    "id" : "26",
-    "needs_improvements" : false,
-    "narrative_function" : "All systems disrupted | Parallel disaster felt | C...",
-    "stitch_from" : "",
-    "title" : "THE ISLAND TREMBLES 8 SECONDS",
-    "sequence_type" : "main_story"
-  }
+  ]
 }

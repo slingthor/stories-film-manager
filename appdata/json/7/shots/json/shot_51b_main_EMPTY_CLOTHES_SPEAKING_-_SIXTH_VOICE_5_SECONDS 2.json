@@ -1,9 +1,21 @@
 {
-  "progressive_state" : "House 8\/min + 60bpm | Clothes animating | Camera frost 40.5% | Presence confirming | Watching: Sixth watches back",
   "selected_prompt_index" : 0,
+  "aspect_ratio" : "4:3",
   "prompt_variants" : [
     {
-      "active_video_index" : 0,
+      "scene" : "Corner with clothes, family frozen listening. Night darkness except ember glow.",
+      "subject" : "The empty clothes in corner suddenly speaking in whispers - [MAGNÚS]'s sweater, [GUÐRÚN]'s spare dress - counting in Danish but getting seven: \"En, to, tre, fire, fem, seks... syv?\" while family freezes hearing sixth voice.",
+      "dialogue" : "(Empty clothes, whispering): \"En, to, tre, fire, fem, seks... syv?\" (Magnús): \"Hvað? Hver talar?\" (Clothes): Return to just breathing",
+      "selected_plates" : [
+        "MAGNUS-POSSESSING",
+        "GUDRUN-RETURNING",
+        "BAÐSTOFA-CRYSTALLIZING",
+        "WESTFJORDS-CLIFF",
+        "STOFA-BODY"
+      ],
+      "variant_name" : "Primary - EMPTY CLOTHES SPEAKING - SIXTH VOICE 5 SECONDS",
+      "style" : "Pan revealing animated clothes (that's where the camera is), sixth presence confirmed.",
+      "is_active" : false,
       "videos" : [
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_empty_202509211851_swv25.mp4",
@@ -11,29 +23,29 @@
           "duration" : 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_empty_202509211851_84jyq.mp4",
+          "duration" : 8,
           "filename" : "Subject_the_empty_202509211851_84jyq.mp4",
-          "duration" : 8
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_empty_202509211851_84jyq.mp4"
         },
         {
+          "duration" : 8,
           "filename" : "Subject_the_empty_202509211851_wkm03.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_empty_202509211851_wkm03.mp4",
-          "duration" : 8
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_empty_202509211851_wkm03.mp4"
         },
         {
-          "filename" : "Subject_the_empty_202509211851_15ol1.mp4",
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_empty_202509211851_15ol1.mp4",
+          "filename" : "Subject_the_empty_202509211851_15ol1.mp4",
           "duration" : 8
         },
         {
+          "filename" : "Subject_the_empty_202509211851_itkoj.mp4",
           "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_empty_202509211851_itkoj.mp4",
-          "filename" : "Subject_the_empty_202509211851_itkoj.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_empty_202509211851_itkoj.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_empty_202509211851_m5nbo.mp4",
           "duration" : 8,
-          "filename" : "Subject_the_empty_202509211851_m5nbo.mp4"
+          "filename" : "Subject_the_empty_202509211851_m5nbo.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_empty_202509211851_m5nbo.mp4"
         },
         {
           "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_empty_202509211851_t2nm8.mp4",
@@ -46,34 +58,22 @@
           "duration" : 8
         }
       ],
+      "active_video_index" : 0,
       "variant_id" : "51b_story_primary",
       "action" : "PAN FROM children to corner. Empty clothes standing in human formation. Magnús's sweater raises sleeve as if pointing. From inside, whisper emerges: \"En...\" Guðrún's spare dress responds: \"To...\" Back and forth, counting. But reaching seven: \"Syv?\" Family freezes. Who is seven? Empty clothes have been breathing at 8\/min, now speaking. Not possessed - manifested. The sixth presence confirming itself. But suggesting seventh. Through fabric, shapes almost visible - not bodies but memory of bodies. The clothes remember wearing. Remember counting. Sigrid's spare dress stands apart, 11 feet from Magnús's clothes, maintaining distance even empty. The whispers are in voices family recognizes but can't place. Their own voices from future? From past? Magnús turns toward clothes: \"Hvað?\" But clothes fall silent. Resume breathing only. But seven has been spoken.",
-      "selected_plates" : [
-        "MAGNUS-POSSESSING",
-        "GUDRUN-RETURNING",
-        "BAÐSTOFA-CRYSTALLIZING",
-        "WESTFJORDS-CLIFF",
-        "STOFA-BODY"
-      ],
       "camera_position" : "Pan revealing animated clothes",
-      "subject" : "The empty clothes in corner suddenly speaking in whispers - [MAGNÚS]'s sweater, [GUÐRÚN]'s spare dress - counting in Danish but getting seven: \"En, to, tre, fire, fem, seks... syv?\" while family freezes hearing sixth voice.",
-      "scene" : "Corner with clothes, family frozen listening. Night darkness except ember glow.",
-      "dialogue" : "(Empty clothes, whispering): \"En, to, tre, fire, fem, seks... syv?\" (Magnús): \"Hvað? Hver talar?\" (Clothes): Return to just breathing",
-      "style" : "Pan revealing animated clothes (that's where the camera is), sixth presence confirmed.",
-      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified",
-      "variant_name" : "Primary - EMPTY CLOTHES SPEAKING - SIXTH VOICE 5 SECONDS",
-      "is_active" : false,
-      "progressive_state" : ""
+      "progressive_state" : "",
+      "negative_prompt" : "modern technology, smartphones, cars, electric lights, neon, urban cityscape, \nanime style, cartoon style, 3D render, CGI look, oversaturated colors, \nHollywood glamour, makeup, contemporary clothing post-1900, \nsmiling, happiness, warmth, comfort, safety, comic elements, \ndigital artifacts, lens flare, chromatic aberration unless specified,\ntropical elements, palm trees, desert, non-Nordic elements,\nAsian architecture, Mediterranean elements, American suburbia,\nplastic, synthetic materials, industrial materials unless specified"
     }
   ],
-  "aspect_ratio" : "4:3",
+  "progressive_state" : "House 8\/min + 60bpm | Clothes animating | Camera frost 40.5% | Presence confirming | Watching: Sixth watches back",
   "shot_metadata" : {
-    "duration_seconds" : 5,
+    "sequence_type" : "main_story",
     "id" : "51b",
-    "needs_improvements" : false,
-    "narrative_function" : "House 8\/min + 60bpm | Clothes animating | Camera f...",
-    "stitch_from" : "",
     "title" : "EMPTY CLOTHES SPEAKING - SIXTH VOICE 5 SECONDS",
-    "sequence_type" : "main_story"
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "duration_seconds" : 5,
+    "narrative_function" : "House 8\/min + 60bpm | Clothes animating | Camera f..."
   }
 }

@@ -1,0 +1,53 @@
+# Baked Prompt 1
+
+SUBJECT:
+  From the east, trawler GRIMSBY PRIDE's horn blasting with impossible
+  volume - not ship's horn but serpent's roar - sound visible as pressure
+  wave racing across water, shattering the window, revealing yellow
+  searchlights sweeping like searching eyes.
+
+  SUBJECT REFERENCE PLATES:
+  [SEA-BATTLE]: North Atlantic waters off Hornstrandir during February 1888,
+   2°C, supernatural clarity showing seafloor to 50-100m depth, volcanic
+  rock formations, kelp forests, organized fish movement patterns,
+  bioluminescent constellations, trawl net scars on seafloor, water churning
+   with serpent tail following trawler, whirlpool formation, boiling
+  sections despite freezing air.
+
+  [WESTFJORDS-WINTER]: Hornstrandir Peninsula 65°31'48"N 23°47'24"W, massive
+   basalt cliffs 300-500m dropping to sea, black volcanic rock, grey basalt
+  columns, dramatic fjords, pack ice offshore, British trawler 1.3 nautical
+  miles out appearing serpent-like through horizontal snow, temperature
+  -18°C to -25°C, 40mph northeast wind gusting to 60mph, heavy horizontal
+  snow, zero visibility periods, trawler barely visible as dark serpent
+  against white pack ice, black cliffs with white snow ledges, steaming
+  fjord water, aurora occasional green light on ice.
+
+  ACTION:
+  Response from east instant after cry completes. Trawler horn wrong - too
+  loud, too long, too alive. Sound visible as pressure wave flattening
+  grass, bending fence posts. Hits house: CRACK. Window shatters inward from
+   frequency. Glass shards hang rotating, catching yellow trawler light,
+  then fall. Through broken window: trawler hull undulating, smokestacks
+  breathing black clouds rhythmically, searchlights sweeping frantically.
+  Lights lock on house - two yellow beams like focusing eyes. Horn continues
+   8 seconds, brown note frequency. Sigrid's nose bleeds. Children's ears
+  bleed. Guðrún vomits. Horn sounds hurt - metallic scream mixed with
+  organic pain. Industrial contamination in serpent's voice. Answering but
+  wounded.
+
+  SCENE:
+  Eastern window exploding. Trawler in fjord moving wrong. Yellow lights
+  fixed on house. Distance collapsing - trawler closer than possible.
+  Outdoor -35°C, indoor -10°C.
+
+  STYLE:
+  From inside looking out through shattering window, trawler revealed
+  (that's where the camera is), documentary of eastern response.
+
+  NEGATIVE PROMPT:
+  no modern elements, no screen overlays, no UI, no trim, no edit
+
+  ASPECT: 4:3
+
+  META: Iceland, Westfjords 1888, all one scene
