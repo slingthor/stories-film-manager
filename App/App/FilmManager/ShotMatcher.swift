@@ -250,7 +250,12 @@ class ShotMatcher {
         promptComponents: PromptComponents,
         shots: [FilmShot]
     ) async -> ShotMatchResult {
+        let isSubjectOnly = promptComponents.isSubjectOnlyMode
         print("[Sora] 🔍 Searching \(shots.count) shots for match using cached metadata...")
+
+        if isSubjectOnly {
+            print("[Sora] ⚠️ SUBJECT-ONLY mode detected - using lenient matching strategy")
+        }
 
         // Pre-process prompt once for all comparisons
         let maxLength = 500
@@ -271,12 +276,15 @@ class ShotMatcher {
         var bestMatch: (shot: FilmShot, variant: PromptVariant, score: Double)?
         var bestActionScore: Double = 0.0
         var bestSceneScore: Double = 0.0
+        var pass0Candidates: Set<String> = []  // Declare outside for Pass 2 access
 
-        // ═══════════════════════════════════════════════════════════
-        // PASS 0: WORD-BASED INDEX LOOKUP (Fastest - exact phrase matching)
-        // Require 3 out of 4 sections to have matching first 5 words
-        // ═══════════════════════════════════════════════════════════
-        let actionKey = extractFirstWords(promptComponents.action, count: 5)
+        // Skip Pass 0 for SUBJECT-only mode (won't work with duplicate keys)
+        if !isSubjectOnly {
+            // ═══════════════════════════════════════════════════════════
+            // PASS 0: WORD-BASED INDEX LOOKUP (Fastest - exact phrase matching)
+            // Require 3 out of 4 sections to have matching first 5 words
+            // ═══════════════════════════════════════════════════════════
+            let actionKey = extractFirstWords(promptComponents.action, count: 5)
         let sceneKey = extractFirstWords(promptComponents.scene, count: 5)
         let styleKey = extractFirstWords(promptComponents.style, count: 5)
         let dialogueKey = extractFirstWords(promptComponents.dialogue, count: 5)
@@ -313,7 +321,7 @@ class ShotMatcher {
         }
 
         // Filter variants that have 3+ section matches
-        let pass0Candidates = variantSectionMatches.filter { $0.value >= 3 }.keys
+        pass0Candidates = Set(variantSectionMatches.filter { $0.value >= 3 }.keys)
 
         if !pass0Candidates.isEmpty {
             print("[Sora] 📚 Pass 0: Found \(pass0Candidates.count) variants with 3+ section matches")
@@ -401,12 +409,18 @@ class ShotMatcher {
                 }
             }
         }
+        } else {
+            print("[Sora] ⏭️ Skipping Pass 0 for SUBJECT-only mode - going to full search")
+        }
 
         // ═══════════════════════════════════════════════════════════
         // PASS 1: ULTRA-FAST REJECTION PASS
         // Use pre-cached metadata for lightning-fast elimination
+        // Skip for SUBJECT-only mode - go straight to exhaustive search
         // ═══════════════════════════════════════════════════════════
         var pass1Candidates: [VariantReference] = []
+
+        if !isSubjectOnly {
 
         // Collect all variant references from index
         var allVariantRefs: [VariantReference] = []
@@ -531,9 +545,12 @@ class ShotMatcher {
                 }
             }
         }
+        } else {
+            print("[Sora] ⏭️ Skipping Pass 1 for SUBJECT-only mode")
+        }
 
         // ═══════════════════════════════════════════════════════════
-        // PASS 2: FULL SEARCH (Exhaustive fallback)
+        // PASS 2: FULL SEARCH (Exhaustive fallback or SUBJECT-only search)
         // Search all variants if Pass 0 and Pass 1 found nothing
         // ═══════════════════════════════════════════════════════════
         if bestMatch == nil || bestMatch!.score < 0.50 {
@@ -612,11 +629,23 @@ class ShotMatcher {
         if let best = bestMatch {
             let variant = best.variant
 
-            // Must meet ACTION threshold OR combined ACTION+SCENE threshold
-            let meetsActionThreshold = bestActionScore >= actionThreshold
-            let meetsCombinedThreshold = (bestActionScore >= 0.20 && bestSceneScore >= sceneThreshold)
+            // For SUBJECT-only mode, use more lenient threshold (30% match is acceptable for truncated prompts)
+            if isSubjectOnly {
+                if best.score >= 0.30 {
+                    print("[Sora] ✅ Found SUBJECT-only match: Shot \(best.shot.id) - Variant '\(variant.name)' (confidence: \(String(format: "%.1f%%", best.score * 100)))")
+                    return ShotMatchResult(
+                        shot: best.shot,
+                        variant: best.variant,
+                        attempts: attempts,
+                        confidence: best.score
+                    )
+                }
+            } else {
+                // Must meet ACTION threshold OR combined ACTION+SCENE threshold
+                let meetsActionThreshold = bestActionScore >= actionThreshold
+                let meetsCombinedThreshold = (bestActionScore >= 0.20 && bestSceneScore >= sceneThreshold)
 
-            if meetsActionThreshold || meetsCombinedThreshold {
+                if meetsActionThreshold || meetsCombinedThreshold {
                 print("[Sora] ✅ Found match: Shot \(best.shot.id) - Variant '\(variant.name)' (confidence: \(String(format: "%.1f%%", best.score * 100)))")
                 return ShotMatchResult(
                     shot: best.shot,
@@ -624,6 +653,7 @@ class ShotMatcher {
                     attempts: attempts,
                     confidence: best.score
                 )
+                }
             }
         }
 
@@ -645,6 +675,23 @@ class ShotMatcher {
         promptComponents: PromptComponents,
         cachedReference: VariantReference? = nil
     ) -> (shot: FilmShot, variant: PromptVariant, score: Double, actionScore: Double, sceneScore: Double, log: String) {
+
+        // SUBJECT-ONLY MODE: Compare only SUBJECT fields for truncated prompts
+        if promptComponents.isSubjectOnlyMode {
+            let maxLength = 500
+            let promptSubject = normalizeString(String(promptComponents.subject.prefix(maxLength)))
+            let variantSubject = normalizeString(String(variant.subject.prefix(maxLength)))
+
+            let subjectScore = promptSubject.similarity(to: variantSubject)
+
+            let attemptLog = """
+            Shot \(shot.id) - "\(shot.title)" - Variant \(variantIndex) "\(variant.name)" [SUBJECT-ONLY]:
+              SUBJECT: \(String(format: "%.1f%%", subjectScore * 100))
+            """
+
+            // For SUBJECT-only mode, use the subject score directly
+            return (shot, variant, subjectScore, subjectScore, subjectScore, attemptLog)
+        }
 
         // Truncate strings to 500 chars for performance (Levenshtein is O(m×n))
         // This prevents 8000×8000 = 64M operations per comparison

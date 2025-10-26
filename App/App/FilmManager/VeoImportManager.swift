@@ -215,8 +215,13 @@ class VeoImportManager: ObservableObject {
         print("[Sora] 📝 Parsed prompt components:")
         let actionPreview = String(promptComponents.action.prefix(100))
         let scenePreview = String(promptComponents.scene.prefix(100))
+        print("[Sora]    MODE: \(promptComponents.isSubjectOnlyMode ? "⚠️ SUBJECT-ONLY (truncated)" : "✅ Full prompt")")
         print("[Sora]    ACTION (\(promptComponents.action.count) chars): \(actionPreview)")
         print("[Sora]    SCENE (\(promptComponents.scene.count) chars): \(scenePreview)")
+
+        if promptComponents.isSubjectOnlyMode {
+            print("[Sora] ⚠️ Using lenient matching for truncated SUBJECT-only prompt")
+        }
 
         // 3. Find matching shot (background - expensive Levenshtein calculations)
         let filmMgr = await MainActor.run { filmManager }
@@ -464,6 +469,7 @@ struct PromptComponents {
     let dialogue: String
     let negativePrompt: String
     let aspect: String
+    let isSubjectOnlyMode: Bool  // True if parsed from truncated prompt with only SUBJECT
 }
 
 // MARK: - Shot Match Result

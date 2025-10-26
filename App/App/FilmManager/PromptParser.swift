@@ -56,7 +56,8 @@ class PromptParser {
             style: style,
             dialogue: dialogue,
             negativePrompt: negativePrompt,
-            aspect: aspect
+            aspect: aspect,
+            isSubjectOnlyMode: false
         )
     }
 
@@ -82,7 +83,8 @@ class PromptParser {
             style: "",
             dialogue: "",
             negativePrompt: "",
-            aspect: ""
+            aspect: "",
+            isSubjectOnlyMode: true  // Flag that this is truncated prompt mode
         )
     }
 
