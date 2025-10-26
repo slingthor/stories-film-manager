@@ -1,56 +1,61 @@
 {
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "variant_id": "60c_story_primary",
-      "scene": "Modern obelisk as tourist site. Family visible inside. Eternal monument. All times present.",
-      "dialogue": "(Tour guide, muffled): \"...represents the transformation of Iceland...\" (Gu\u00f0r\u00fan, eternal): \"kindur... f\u00f3lk...\"",
-      "subject": "Camera spiraling down around the 40-foot black hrafntinna obelisk standing in modern times, tourists taking photos, but through the obsidian the sheep family still visible, still preserved, Gu\u00f0r\u00fan-ewe still mouthing \"kindur... f\u00f3lk,\" Magn\u00fas-ram still charging, eternal.",
-      "negative_prompt": "maintain monument dignity, family visible but subtle",
-      "action": "SPIRAL DOWN around obelisk. Starting high. Modern day. Tour buses. Interpretive signs in multiple languages. \"Monument to Colonial Transformation.\" Tourists taking selfies. But don't see what we see. Through obsidian: family still there. Still aware. Still moving in their frozen way. Gu\u00f0r\u00fan-ewe's mouth still forming the words: \"kindur... f\u00f3lk\" (sheep... people). Over and over. Eternal explanation. Magn\u00fas-ram still charging at nothing. Or at everything. His rage now educational. Children lambs still huddled. Forever young. Forever trapped. Forever witnessed. The cleft still open. Sometimes birds fly through. Sometimes just wind. The monument stands in all weather. Summer (brief). Winter (eternal). Northern lights dance across its surface. In those lights: glimpses of Sigrid. Still flying. Still witnessing. 72 years old in 1944. But also 16 forever. Also raven forever. All true. The obelisk doesn't age. Can't. It exists outside time. IS time. Crystallized. Made solid. Visitable.",
-      "selected_plates": [
+      "scene" : "Modern obelisk as tourist site. Family visible inside. Eternal monument. All times present.",
+      "camera_position" : "Spiral down showing permanence",
+      "progressive_state" : "",
+      "selected_plates" : [
         "SIGRID-DUAL",
-        "BA\u00d0STOFA-MONUMENT"
+        "BAÐSTOFA-MONUMENT"
       ],
-      "is_active": false,
-      "style": "Spiral down showing permanence (that's where the camera is), monument documented.",
-      "variant_name": "Primary - RETURN TO OBELISK - ETERNAL MONUMENT 8 SECONDS",
-      "active_video_index": 0,
-      "progressive_state": "",
-      "camera_position": "Spiral down showing permanence",
-      "videos": [
+      "negative_prompt" : "maintain monument dignity, family visible but subtle",
+      "variant_name" : "Primary - RETURN TO OBELISK - ETERNAL MONUMENT 8 SECONDS",
+      "is_active" : false,
+      "subject" : "Camera spiraling down around the 40-foot black hrafntinna obelisk standing in modern times, tourists taking photos, but through the obsidian the sheep family still visible, still preserved, Guðrún-ewe still mouthing \"kindur... fólk,\" Magnús-ram still charging, eternal.",
+      "action" : "SPIRAL DOWN around obelisk. Starting high. Modern day. Tour buses. Interpretive signs in multiple languages. \"Monument to Colonial Transformation.\" Tourists taking selfies. But don't see what we see. Through obsidian: family still there. Still aware. Still moving in their frozen way. Guðrún-ewe's mouth still forming the words: \"kindur... fólk\" (sheep... people). Over and over. Eternal explanation. Magnús-ram still charging at nothing. Or at everything. His rage now educational. Children lambs still huddled. Forever young. Forever trapped. Forever witnessed. The cleft still open. Sometimes birds fly through. Sometimes just wind. The monument stands in all weather. Summer (brief). Winter (eternal). Northern lights dance across its surface. In those lights: glimpses of Sigrid. Still flying. Still witnessing. 72 years old in 1944. But also 16 forever. Also raven forever. All true. The obelisk doesn't age. Can't. It exists outside time. IS time. Crystallized. Made solid. Visitable.",
+      "variant_id" : "60c_story_primary",
+      "active_video_index" : 0,
+      "videos" : [
         {
-          "duration": 8,
-          "filepath": "/Users/ingthor/Downloads/Subject_camera_spiraling_202509211829_1u5il.mp4",
-          "filename": "Subject_camera_spiraling_202509211829_1u5il.mp4"
+          "duration" : 8,
+          "filename" : "Subject_camera_spiraling_202509211829_1u5il.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202509211829_1u5il.mp4"
         },
         {
-          "filename": "Subject_camera_spiraling_202509211829_sn75v.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_camera_spiraling_202509211829_sn75v.mp4",
-          "duration": 8
+          "filename" : "Subject_camera_spiraling_202509211829_sn75v.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202509211829_sn75v.mp4"
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_camera_spiraling_202509211829_ammbe.mp4",
-          "filename": "Subject_camera_spiraling_202509211829_ammbe.mp4",
-          "duration": 8
+          "duration" : 8,
+          "filename" : "Subject_camera_spiraling_202509211829_ammbe.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202509211829_ammbe.mp4"
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_camera_spiraling_202509211829_l0a5b.mp4",
-          "duration": 8,
-          "filename": "Subject_camera_spiraling_202509211829_l0a5b.mp4"
+          "filename" : "Subject_camera_spiraling_202509211829_l0a5b.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202509211829_l0a5b.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_camera_spiraling_202510252048_ezuoi.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202510252048_ezuoi.mp4"
         }
-      ]
+      ],
+      "style" : "Spiral down showing permanence (that's where the camera is), monument documented.",
+      "dialogue" : "(Tour guide, muffled): \"...represents the transformation of Iceland...\" (Guðrún, eternal): \"kindur... fólk...\""
     }
   ],
-  "selected_prompt_index": 0,
-  "shot_metadata": {
-    "id": "60c",
-    "sequence_type": "main_story",
-    "duration_seconds": 8,
-    "needs_improvements": false,
-    "title": "RETURN TO OBELISK - ETERNAL MONUMENT 8 SECONDS",
-    "narrative_function": "Present/all times | Camera frost 55.5% | Monument ...",
-    "stitch_from": ""
+  "progressive_state" : "Present\/all times | Camera frost 55.5% | Monument eternal | Watching: We see forever",
+  "shot_metadata" : {
+    "id" : "60c",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "RETURN TO OBELISK - ETERNAL MONUMENT 8 SECONDS",
+    "sequence_type" : "main_story",
+    "narrative_function" : "Present\/all times | Camera frost 55.5% | Monument ...",
+    "duration_seconds" : 8
   },
-  "aspect_ratio": "2.39:1",
-  "progressive_state": "Present/all times | Camera frost 55.5% | Monument eternal | Watching: We see forever"
+  "aspect_ratio" : "2.39:1",
+  "selected_prompt_index" : 0
 }

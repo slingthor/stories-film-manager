@@ -1,53 +1,63 @@
 {
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "variant_id": "55p_shot_55point5_witness_mechanism_breaks_seven_persp",
-      "scene": "SHOT 55.5: THE WITNESS MECHANISM BREAKS - SEVEN PERSPECTIVES NEW ESSENTIAL ADDITION - Triple surreal visual Clarification SHOT HEADER: Ba\u00f0stofa interior during final family meal before transformation, but scene exists simultaneously across seven reality-layers each with different implications, lighting, physics, temporality. Human layer shows traditional domestic space. Sheep layer shows barn interior. Empty layer shows museum display. Monument layer shows tourist attraction. Industrial layer shows processing facility. otherworldly appearance shows divine feast-space. Audience layer shows theater/cinema/monument viewing area. All seven spaces occupy identical 12x16 foot ba\u00f0stofa but with different environdistressed expression.",
-      "dialogue": "",
-      "subject": "",
-      "negative_prompt": "",
-      "action": "All seven fragments show identical timing\u2014family raising h\u00e1karl to mouths, chewing in synchronization, swallowing simultaneously\u2014but each fragment interprets action through different surreal visual creating impossible multi-perspective truth. Human fragment shows normal family meal despite starvation circumstances. Sheep fragment reveals lateral chewing motion, herbivore mastication of fermented meat. Empty fragment shows h\u00e1karl disappearing from bowls without visible consumption. Monument fragment captures moment preserved eternally in obsidian with family conscious but crystallized. Industrial fragment reduces scene to data-points and measurements. otherworldly appearance shows landv\u00e6ttir consuming sacrifice-offering in divine hunger. Audience fragment shows observers consuming family's suffering as entertainment across multiple time periods. Camera cracks widen between fragments as reality's ability to maintain unified perspective breaks under mathematical impossibility\u2014five becoming six becoming seven simultaneous truths.",
-      "selected_plates": [
-        "BA\u00d0STOFA-BODY",
+      "scene" : "SHOT 55.5: THE WITNESS MECHANISM BREAKS - SEVEN PERSPECTIVES NEW ESSENTIAL ADDITION - Triple surreal visual Clarification SHOT HEADER: Baðstofa interior during final family meal before transformation, but scene exists simultaneously across seven reality-layers each with different implications, lighting, physics, temporality. Human layer shows traditional domestic space. Sheep layer shows barn interior. Empty layer shows museum display. Monument layer shows tourist attraction. Industrial layer shows processing facility. otherworldly appearance shows divine feast-space. Audience layer shows theater\/cinema\/monument viewing area. All seven spaces occupy identical 12x16 foot baðstofa but with different environdistressed expression.",
+      "camera_position" : "",
+      "progressive_state" : "",
+      "selected_plates" : [
+        "BAÐSTOFA-BODY",
         "WESTFJORDS-WINTER",
         "SEA-EXTRACTED",
         "STOFA-FRAGMENTING"
       ],
-      "is_active": false,
-      "style": "Camera fragmenting into seven perspectives using impossible multi-viewpoint capability (that's where the camera is), each fragment maintaining separate focus, lighting, and time-worn appearance to identical central moment. Static shot emphasizing surreal visual through perspective multiplication rather than movement. Lighting different for each fragment\u2014natural for human, barn-light for sheep, museum lighting for empty, tourist illumination for monument, industrial fluorescent for extraction, divine glow for mythological, projection light for audience. Focus maintains sharpness across all fragments simultaneously, impossible depth of field showing all realities equally valid. DIALOGUE:",
-      "variant_name": "Shot 55Point5 Witness Mechanism Breaks Seven Persp",
-      "active_video_index": 0,
-      "progressive_state": "",
-      "camera_position": "",
-      "videos": [
+      "negative_prompt" : "",
+      "variant_name" : "Shot 55Point5 Witness Mechanism Breaks Seven Persp",
+      "is_active" : false,
+      "subject" : "",
+      "action" : "All seven fragments show identical timing—family raising hákarl to mouths, chewing in synchronization, swallowing simultaneously—but each fragment interprets action through different surreal visual creating impossible multi-perspective truth. Human fragment shows normal family meal despite starvation circumstances. Sheep fragment reveals lateral chewing motion, herbivore mastication of fermented meat. Empty fragment shows hákarl disappearing from bowls without visible consumption. Monument fragment captures moment preserved eternally in obsidian with family conscious but crystallized. Industrial fragment reduces scene to data-points and measurements. otherworldly appearance shows landvættir consuming sacrifice-offering in divine hunger. Audience fragment shows observers consuming family's suffering as entertainment across multiple time periods. Camera cracks widen between fragments as reality's ability to maintain unified perspective breaks under mathematical impossibility—five becoming six becoming seven simultaneous truths.",
+      "variant_id" : "55p_shot_55point5_witness_mechanism_breaks_seven_persp",
+      "active_video_index" : 0,
+      "videos" : [
         {
-          "filename": "Subject_subject_reference_202509211843_xpigc.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_subject_reference_202509211843_xpigc.mp4",
-          "duration": 8
+          "filename" : "Subject_subject_reference_202509211843_xpigc.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211843_xpigc.mp4",
+          "duration" : 8
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_subject_reference_202509211843_guolh.mp4",
-          "duration": 8,
-          "filename": "Subject_subject_reference_202509211843_guolh.mp4"
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211843_guolh.mp4",
+          "filename" : "Subject_subject_reference_202509211843_guolh.mp4"
         },
         {
-          "duration": 8,
-          "filepath": "/Users/ingthor/Downloads/Subject_subject_reference_202509211843_1eyct.mp4",
-          "filename": "Subject_subject_reference_202509211843_1eyct.mp4"
+          "filename" : "Subject_subject_reference_202509211843_1eyct.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202509211843_1eyct.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_subject_reference_202510252051_8di87.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510252051_8di87.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510252051_2j98n.mp4",
+          "filename" : "Subject_subject_reference_202510252051_2j98n.mp4"
         }
-      ]
+      ],
+      "style" : "Camera fragmenting into seven perspectives using impossible multi-viewpoint capability (that's where the camera is), each fragment maintaining separate focus, lighting, and time-worn appearance to identical central moment. Static shot emphasizing surreal visual through perspective multiplication rather than movement. Lighting different for each fragment—natural for human, barn-light for sheep, museum lighting for empty, tourist illumination for monument, industrial fluorescent for extraction, divine glow for mythological, projection light for audience. Focus maintains sharpness across all fragments simultaneously, impossible depth of field showing all realities equally valid. DIALOGUE:",
+      "dialogue" : ""
     }
   ],
-  "selected_prompt_index": 0,
-  "shot_metadata": {
-    "id": "55.5",
-    "sequence_type": "main",
-    "duration_seconds": 3,
-    "needs_improvements": false,
-    "title": "Shot 55Point5 Witness Mechanism Breaks Seven Persp",
-    "narrative_function": "enhancement",
-    "stitch_from": ""
+  "progressive_state" : "",
+  "shot_metadata" : {
+    "id" : "55.5",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "Shot 55Point5 Witness Mechanism Breaks Seven Persp",
+    "sequence_type" : "main",
+    "narrative_function" : "enhancement",
+    "duration_seconds" : 3
   },
-  "aspect_ratio": "4:3",
-  "progressive_state": ""
+  "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0
 }

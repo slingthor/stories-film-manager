@@ -1,40 +1,51 @@
 {
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "variant_id": "53a_story_primary",
-      "scene": "Entire interior as speaking cavity. Family frozen mid-action. House revealing itself as giant's body.",
-      "dialogue": "(House/Bergrisi): \"\u00d0\u2030G ER BERGRISI\" (visual as dust letters)",
-      "subject": "The entire house suddenly speaking at 16Hz through walls, floor, and beams simultaneously: \"\u00d0\u2030G ER BERGRISI\" - the words visible as dust falling from ceiling in letter patterns, while a 55-year-old man in brown wool and a young woman girl in grey dress freeze as the giant identifies itself.",
-      "negative_prompt": "",
-      "action": "WIDE SHOT of interior. Magn\u00fas's hand on Sigrid's shoulder. Then: everything vibrates. 16Hz through structure - below human hearing, felt in bones, teeth, eyeballs. Words emerge from everywhere: \"\u00d0\u2030G ER BERGRISI.\" Not spoken but manifested. Dust cascades from ceiling, forming the letters briefly before dispersing. The three beams (ribs) flex visibly with each syllable. Floor becomes soft, warm, alive - exactly 37\u00b0C, body temperature. Windows fog instantly from house's breath. Everyone freezes. Even the tilberi stops its three-rhythm breathing. The empty clothes fall to ground like abandoned puppets. Only movement: dust letters forming and dissolving. \"\u00d0\u2030G... ER... BERGRISI.\" Each word makes the house more obviously body - walls perspiring, doorway like throat, smoke hole like nostril.",
-      "selected_plates": [
+      "scene" : "Entire interior as speaking cavity. Family frozen mid-action. House revealing itself as giant's body.",
+      "camera_position" : "Wide vibrating with 16Hz resonance",
+      "progressive_state" : "",
+      "selected_plates" : [
         "SIGRID-CORNERED",
         "JON-ENERGETIC",
         "GUDRUN-RETURNING",
-        "BA\u00d0STOFA-CRYSTALLIZING",
+        "BAÐSTOFA-CRYSTALLIZING",
         "MAGNUS-MASTER",
         "LILJA-MASTER",
-        "BA\u00d0STOFA-CLIFF"
+        "BAÐSTOFA-CLIFF"
       ],
-      "is_active": false,
-      "style": "Wide vibrating with 16Hz resonance (that's where the camera is), giant's announcement documented.",
-      "variant_name": "Primary - THE HOUSE BEGINS TO SPEAK - FIRST WORDS 5 SECONDS",
-      "active_video_index": 0,
-      "progressive_state": "",
-      "camera_position": "Wide vibrating with 16Hz resonance",
-      "videos": []
+      "negative_prompt" : "",
+      "variant_name" : "Primary - THE HOUSE BEGINS TO SPEAK - FIRST WORDS 5 SECONDS",
+      "is_active" : false,
+      "subject" : "The entire house suddenly speaking at 16Hz through walls, floor, and beams simultaneously: \"Ð‰G ER BERGRISI\" - the words visible as dust falling from ceiling in letter patterns, while a 55-year-old man in brown wool and a young woman girl in grey dress freeze as the giant identifies itself.",
+      "action" : "WIDE SHOT of interior. Magnús's hand on Sigrid's shoulder. Then: everything vibrates. 16Hz through structure - below human hearing, felt in bones, teeth, eyeballs. Words emerge from everywhere: \"Ð‰G ER BERGRISI.\" Not spoken but manifested. Dust cascades from ceiling, forming the letters briefly before dispersing. The three beams (ribs) flex visibly with each syllable. Floor becomes soft, warm, alive - exactly 37°C, body temperature. Windows fog instantly from house's breath. Everyone freezes. Even the tilberi stops its three-rhythm breathing. The empty clothes fall to ground like abandoned puppets. Only movement: dust letters forming and dissolving. \"Ð‰G... ER... BERGRISI.\" Each word makes the house more obviously body - walls perspiring, doorway like throat, smoke hole like nostril.",
+      "variant_id" : "53a_story_primary",
+      "active_video_index" : 0,
+      "videos" : [
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_entire_202510252052_iqa7r.mp4",
+          "filename" : "Subject_the_entire_202510252052_iqa7r.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_entire_202510252052_xd7ta.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_entire_202510252052_xd7ta.mp4"
+        }
+      ],
+      "style" : "Wide vibrating with 16Hz resonance (that's where the camera is), giant's announcement documented.",
+      "dialogue" : "(House\/Bergrisi): \"Ð‰G ER BERGRISI\" (visual as dust letters)"
     }
   ],
-  "selected_prompt_index": 0,
-  "shot_metadata": {
-    "id": "53a",
-    "sequence_type": "main_story",
-    "duration_seconds": 5,
-    "needs_improvements": false,
-    "title": "THE HOUSE BEGINS TO SPEAK - FIRST WORDS 5 SECONDS",
-    "narrative_function": "House 6/min labored + 70bpm stressed | Bergrisi sp...",
-    "stitch_from": ""
+  "progressive_state" : "House 6\/min labored + 70bpm stressed | Bergrisi speaking | Camera frost 43% | Giant's voice | Watching: House reveals itself",
+  "shot_metadata" : {
+    "id" : "53a",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "THE HOUSE BEGINS TO SPEAK - FIRST WORDS 5 SECONDS",
+    "sequence_type" : "main_story",
+    "narrative_function" : "House 6\/min labored + 70bpm stressed | Bergrisi sp...",
+    "duration_seconds" : 5
   },
-  "aspect_ratio": "4:3",
-  "progressive_state": "House 6/min labored + 70bpm stressed | Bergrisi speaking | Camera frost 43% | Giant's voice | Watching: House reveals itself"
+  "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0
 }

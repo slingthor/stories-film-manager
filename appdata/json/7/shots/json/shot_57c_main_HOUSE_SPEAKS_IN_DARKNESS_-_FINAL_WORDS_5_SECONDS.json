@@ -1,80 +1,90 @@
 {
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "variant_id": "57c_story_primary",
-      "scene": "Continued darkness. House speaking through death. Transformation audible.",
-      "dialogue": "(House/Bergrisi, dying): \"\u00d0\u2030g dey... klettagj\u00e1 ver\u00f0ur...\" \"Sigrid... fl\u00fag\u00f0u\"",
-      "subject": "In the darkness, the house speaks its last words as Bergrisi: \"\u00d0\u2030g dey... klettagj\u00e1 ver\u00f0ur... Sigrid... fl\u00fag\u00f0u\" (I die... rocky cleft becomes... Sigrid... fly), then heartbeat stops, breathing ends, but structure remains.",
-      "negative_prompt": "maintain complete darkness, no light",
-      "action": "Darkness continues. Then through everything - walls, floor, air itself - voice emerges. Not sound but vibration. Bergrisi's death speech: \"\u00d0\u2030g dey...\" The words create wind through house. \"Klettagj\u00e1 ver\u00f0ur...\" Walls crack audibly. Not collapsing - transforming. Opening. Becoming cleft. \"Sigrid...\" Personal address. The giant knows her. Loves her. Dies for her. \"Fl\u00fag\u00f0u.\" Command. Promise. Prophecy. Then: silence. No heartbeat. No breathing. House dead. But structure stands. Transformed. No longer giant's body but rocky cleft. Escape route. Birth canal. In darkness, sound of stone settling. New geography. The house IS the klettagj\u00e1 from lullaby. Always was becoming this. Sheep breathing continues. But one breath different - Sigrid's still 15/min. Still unchanged. Still resisting.",
-      "selected_plates": [
-        "BA\u00d0STOFA-CLIFF"
+      "scene" : "Continued darkness. House speaking through death. Transformation audible.",
+      "camera_position" : "Black screen with voice through everything",
+      "progressive_state" : "",
+      "selected_plates" : [
+        "BAÐSTOFA-CLIFF"
       ],
-      "is_active": false,
-      "style": "Black screen with voice through everything (that's where the camera is), death speech documented.",
-      "variant_name": "Primary - HOUSE SPEAKS IN DARKNESS - FINAL WORDS 5 SECONDS",
-      "active_video_index": 0,
-      "progressive_state": "",
-      "camera_position": "Black screen with voice through everything",
-      "videos": [
+      "negative_prompt" : "maintain complete darkness, no light",
+      "variant_name" : "Primary - HOUSE SPEAKS IN DARKNESS - FINAL WORDS 5 SECONDS",
+      "is_active" : false,
+      "subject" : "In the darkness, the house speaks its last words as Bergrisi: \"Ð‰g dey... klettagjá verður... Sigrid... flúgðu\" (I die... rocky cleft becomes... Sigrid... fly), then heartbeat stops, breathing ends, but structure remains.",
+      "action" : "Darkness continues. Then through everything - walls, floor, air itself - voice emerges. Not sound but vibration. Bergrisi's death speech: \"Ð‰g dey...\" The words create wind through house. \"Klettagjá verður...\" Walls crack audibly. Not collapsing - transforming. Opening. Becoming cleft. \"Sigrid...\" Personal address. The giant knows her. Loves her. Dies for her. \"Flúgðu.\" Command. Promise. Prophecy. Then: silence. No heartbeat. No breathing. House dead. But structure stands. Transformed. No longer giant's body but rocky cleft. Escape route. Birth canal. In darkness, sound of stone settling. New geography. The house IS the klettagjá from lullaby. Always was becoming this. Sheep breathing continues. But one breath different - Sigrid's still 15\/min. Still unchanged. Still resisting.",
+      "variant_id" : "57c_story_primary",
+      "active_video_index" : 0,
+      "videos" : [
         {
-          "filename": "Subject_in_the_202510162323_kazjf.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_in_the_202510162323_kazjf.mp4",
-          "duration": 8
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510162323_kazjf.mp4",
+          "filename" : "Subject_in_the_202510162323_kazjf.mp4"
         },
         {
-          "filename": "Subject_in_the_202510162323_v8yja.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_in_the_202510162323_v8yja.mp4",
-          "duration": 8
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510162323_v8yja.mp4",
+          "filename" : "Subject_in_the_202510162323_v8yja.mp4",
+          "duration" : 8
         },
         {
-          "filename": "20251019_1711_01k7tvndb9edsvjnt1jsywkkdr.mp4",
-          "duration": 15.088666666666667,
-          "filepath": "/Users/ingthor/Downloads/20251019_1711_01k7tvndb9edsvjnt1jsywkkdr.mp4"
+          "filename" : "20251019_1711_01k7tvndb9edsvjnt1jsywkkdr.mp4",
+          "duration" : 15.088666666666667,
+          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1711_01k7tvndb9edsvjnt1jsywkkdr.mp4"
         },
         {
-          "duration": 8,
-          "filename": "Subject_in_the_202510192230_gm0i7.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_in_the_202510192230_gm0i7.mp4"
+          "filename" : "Subject_in_the_202510192230_gm0i7.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510192230_gm0i7.mp4"
         },
         {
-          "duration": 8,
-          "filename": "Subject_in_the_202510192230_gwyvj.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_in_the_202510192230_gwyvj.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510192230_gwyvj.mp4",
+          "duration" : 8,
+          "filename" : "Subject_in_the_202510192230_gwyvj.mp4"
         },
         {
-          "duration": 8,
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrids_transformation_2025102323.mp4",
-          "filename": "Subject_sigrids_transformation_2025102323.mp4"
+          "duration" : 8,
+          "filename" : "Subject_sigrids_transformation_2025102323.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323.mp4"
         },
         {
-          "duration": 8,
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrids_transformation_2025102323-2.mp4",
-          "filename": "Subject_sigrids_transformation_2025102323-2.mp4"
+          "duration" : 8,
+          "filename" : "Subject_sigrids_transformation_2025102323-2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323-2.mp4"
         },
         {
-          "duration": 8,
-          "filename": "Subject_sigridraven_entering_202510232314.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_sigridraven_entering_202510232314.mp4"
+          "duration" : 8,
+          "filename" : "Subject_sigridraven_entering_202510232314.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314.mp4"
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_sigridraven_entering_202510232314-2.mp4",
-          "duration": 8,
-          "filename": "Subject_sigridraven_entering_202510232314-2.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314-2.mp4",
+          "filename" : "Subject_sigridraven_entering_202510232314-2.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_in_the_202510252050_8mq86.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510252050_8mq86.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_in_the_202510252050_013zc.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_in_the_202510252050_013zc.mp4",
+          "duration" : 8
         }
-      ]
+      ],
+      "style" : "Black screen with voice through everything (that's where the camera is), death speech documented.",
+      "dialogue" : "(House\/Bergrisi, dying): \"Ð‰g dey... klettagjá verður...\" \"Sigrid... flúgðu\""
     }
   ],
-  "selected_prompt_index": 0,
-  "shot_metadata": {
-    "id": "57c",
-    "sequence_type": "main_story",
-    "duration_seconds": 5,
-    "needs_improvements": false,
-    "title": "HOUSE SPEAKS IN DARKNESS - FINAL WORDS 5 SECONDS",
-    "narrative_function": "House 0/min dead + 0bpm | Last words | Camera fros...",
-    "stitch_from": ""
+  "progressive_state" : "House 0\/min dead + 0bpm | Last words | Camera frost 50% | Death speech | Watching: House dies",
+  "shot_metadata" : {
+    "id" : "57c",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "HOUSE SPEAKS IN DARKNESS - FINAL WORDS 5 SECONDS",
+    "sequence_type" : "main_story",
+    "narrative_function" : "House 0\/min dead + 0bpm | Last words | Camera fros...",
+    "duration_seconds" : 5
   },
-  "aspect_ratio": "4:3",
-  "progressive_state": "House 0/min dead + 0bpm | Last words | Camera frost 50% | Death speech | Watching: House dies"
+  "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0
 }

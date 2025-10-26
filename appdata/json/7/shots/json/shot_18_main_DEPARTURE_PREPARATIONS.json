@@ -1,93 +1,109 @@
 {
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "style": "Camera positioned at fishing gear level showing both equipment arrangement and house biological responses (that's where the camera is), close enough for tremor frequency analysis, wide enough for constellation pattern recognition. Static shot allowing house panic to build through sustained cardiovascular audio. Natural light dimmed by increasing wall perspiration creating humid atmosphere suggesting organic anxiety. Focus alternates between Magn\u00fas's hands during tremor diagnostic and gear arrangement revealing astronomical precision. DIALOGUE:",
-      "is_active": false,
-      "variant_id": "18_departure_preparations_house_flesh_resistance",
-      "negative_prompt": "",
-      "selected_plates": [
-        "MAGNUS-PROVIDER",
-        "SIGRID-CALCULATING",
-        "LILJA-MATHEMATICAL",
-        "JON-PROPHET",
-        "GUDRUN-PRODUCING",
-        "BA\u00d0STOFA-BODY",
-        "WESTFJORDS-WINTER",
-        "STOFA-ORGANIC"
-      ],
-      "active_video_index": 0,
-      "action": "Door handle resists opening through flesh-response\u2014surface becoming increasingly soft and warm as Magn\u00fas attempts departure, organic material stretching and gripping rather than releasing, house anatomy fighting abandonment through biological resistance. His tremor diagnostic reveals visible distress: anxiety items trigger 3Hz shaking (expressive face), violence tools produce 0Hz stillness (practiced comfort with harm), hands becoming perfectly steady when gripping instruments designed for killing rather than creating. Gear arrangement follows inherited astronomical knowledge without conscious planning\u2014hooks positioned like constellation Draco, rifle aligned with Polaris, rope coiled in spiral matching Ursa Major, traditional fishing equipment organized through landv\u00e6ttir navigation memory. House heartbeat acceleration creates structural sound\u2014walls creaking at 80bpm rhythm, floor vibrating with giant's panic, building pleading for family protection through architectural cardiovascular distress.",
-      "dialogue": "",
-      "subject": "",
-      "videos": [
+      "variant_name" : "Departure Preparations House Flesh Resistance",
+      "subject" : "",
+      "dialogue" : "",
+      "variant_id" : "18_departure_preparations_house_flesh_resistance",
+      "active_video_index" : 0,
+      "camera_position" : "",
+      "progressive_state" : "",
+      "is_active" : false,
+      "negative_prompt" : "",
+      "videos" : [
         {
-          "duration": 15.088666666666667,
-          "filepath": "/Users/ingthor/Downloads/20251019_1329_01k7z2c8dtefhtdsr3ee6p1v7y.mp4",
-          "filename": "20251019_1329_01k7z2c8dtefhtdsr3ee6p1v7y.mp4"
+          "duration" : 15.088666666666667,
+          "filename" : "20251019_1329_01k7z2c8dtefhtdsr3ee6p1v7y.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1329_01k7z2c8dtefhtdsr3ee6p1v7y.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510252106_mlz2u.mp4",
+          "filename" : "Subject_subject_reference_202510252106_mlz2u.mp4"
         }
       ],
-      "progressive_state": "",
-      "scene": "SHOT 18: DEPARTURE PREPARATIONS - HOUSE FLESH RESISTANCE From Functional Preparation (8/10) to Bergrisi Body Horror Masterpiece (9.5/10) SHOT HEADER: Ba\u00f0stofa interior during departure preparation where domestic space reveals biological nature through resistance to abandonment, traditional fishing equipment enhanced by landv\u00e6ttir knowledge creating supernatural organization patterns. House showing signs of organic distress\u2014walls perspiring at 37\u00b0C, door handle developing flesh-texture, heartbeat audible through structure as building consciousness panics about family exposure to winter dangers.",
-      "camera_position": "",
-      "variant_name": "Departure Preparations House Flesh Resistance"
-    },
-    {
-      "action": "Camera rides heartbeat acceleration as Bergrisi consciousness panics about family abandonment\u2014cardiovascular rhythm creating spatial pulsing where room expands during systole (heart contraction), contracts during diastole (heart relaxation), family living space affected by giant's cardiac distress. Heartbeat panic spreads through house structure: walls perspiring at 37\u00b0C as giant sweats fear, floor warming beneath family feet as circulation increases, organic architecture revealing biological nature through cardiovascular emergency response. Camera experiences door resistance as circulatory response: flesh-soft handle emerging through vascular influence on building materials, Bergrisi's circulation system affecting domestic infrastructure to prevent family exposure to killing environment.",
-      "dialogue": "",
-      "videos": [],
-      "active_video_index": 0,
-      "camera_position": "",
-      "negative_prompt": "",
-      "selected_plates": [
+      "action" : "Door handle resists opening through flesh-response—surface becoming increasingly soft and warm as Magnús attempts departure, organic material stretching and gripping rather than releasing, house anatomy fighting abandonment through biological resistance. His tremor diagnostic reveals visible distress: anxiety items trigger 3Hz shaking (expressive face), violence tools produce 0Hz stillness (practiced comfort with harm), hands becoming perfectly steady when gripping instruments designed for killing rather than creating. Gear arrangement follows inherited astronomical knowledge without conscious planning—hooks positioned like constellation Draco, rifle aligned with Polaris, rope coiled in spiral matching Ursa Major, traditional fishing equipment organized through landvættir navigation memory. House heartbeat acceleration creates structural sound—walls creaking at 80bpm rhythm, floor vibrating with giant's panic, building pleading for family protection through architectural cardiovascular distress.",
+      "style" : "Camera positioned at fishing gear level showing both equipment arrangement and house biological responses (that's where the camera is), close enough for tremor frequency analysis, wide enough for constellation pattern recognition. Static shot allowing house panic to build through sustained cardiovascular audio. Natural light dimmed by increasing wall perspiration creating humid atmosphere suggesting organic anxiety. Focus alternates between Magnús's hands during tremor diagnostic and gear arrangement revealing astronomical precision. DIALOGUE:",
+      "scene" : "SHOT 18: DEPARTURE PREPARATIONS - HOUSE FLESH RESISTANCE From Functional Preparation (8\/10) to Bergrisi Body Horror Masterpiece (9.5\/10) SHOT HEADER: Baðstofa interior during departure preparation where domestic space reveals biological nature through resistance to abandonment, traditional fishing equipment enhanced by landvættir knowledge creating supernatural organization patterns. House showing signs of organic distress—walls perspiring at 37°C, door handle developing flesh-texture, heartbeat audible through structure as building consciousness panics about family exposure to winter dangers.",
+      "selected_plates" : [
         "MAGNUS-PROVIDER",
         "SIGRID-CALCULATING",
         "LILJA-MATHEMATICAL",
         "JON-PROPHET",
         "GUDRUN-PRODUCING",
-        "BA\u00d0STOFA-BODY",
-        "WESTFJORDS-WINTER"
-      ],
-      "style": "Camera experiencing giant's cardiovascular system using impossible cardiac perspective (that's where the camera is), movement determined by heartbeat rhythm affecting architectural space. Focus reveals organic architecture through cardiovascular response, building materials showing biological nature through circulation emergency. Movement follows cardiac expansion/contraction affecting room dimensions during panic response. DIALOGUE:",
-      "variant_id": "18_pass_2_experiencing_house_panic_cardiovascular",
-      "scene": "PASS 2: SHOT 18 - EXPERIENCING HOUSE PANIC CARDIOVASCULAR Camera Becoming Bergrisi's Heartbeat During Abandonment Fear SHOT HEADER: Interior house structure during cardiovascular panic where giant consciousness experiences terror about family abandonment, domestic space revealed as organ-interior through cardiac emergency response, building materials showing biological nature through circulation system activation.",
-      "is_active": false,
-      "progressive_state": "",
-      "subject": "",
-      "variant_name": "Pass 2 Experiencing House Panic Cardiovascular"
+        "BAÐSTOFA-BODY",
+        "WESTFJORDS-WINTER",
+        "STOFA-ORGANIC"
+      ]
     },
     {
-      "action": "In darkness, we hear him moving. Match strikes - another hidden candle stub. Light reveals him at his corner, already dressed in additional layers: sealskin over wool, wool over wool. Picks up \u00f3\u00f0inn - 30 fathoms of line, braided by his father, repaired by him hundred times. Tests each section, knows weak spots by feel. Tremor at 4Hz makes line shake. Wraps line around torso under coat. Picks up h\u00e1fur, tests point on thumb - draws blood, good. Secures to belt. Opens bait tin - empty but for fish scales from better times. Smells it, pretends. Takes rifle, checks mechanism - frozen but might work. Three bullets. Looks at family in candlelight. Gu\u00f0r\u00fan watching, not speaking. Children asleep or pretending. Sigrid maintaining 11 feet even in darkness, her grey eyes reflecting candle. He walks to door, hand on latch. House breathing accelerates to 15/min - it knows. Heartbeat accelerates to 80bpm. The door resists opening. He forces it.",
-      "dialogue": "(Magn\u00fas, to line): \"Haltu, pabbi\" (Hold, father) (Testing gaff): \"Hvass\" (Sharp) (At door): \"\u00d0\u2030g kem aftur\" (I'll come back) (Gu\u00f0r\u00fan): Silence, just watching",
-      "negative_prompt": "no subtitles, show ritual preparation, maintain darkness except candle, documentary observation",
-      "is_active": false,
-      "variant_id": "18_story_primary",
-      "variant_name": "Primary - DEPARTURE PREPARATIONS",
-      "subject": "[MAGN\u00daS] in the darkness, moving by memory to his corner where fishing gear waits meticulously prepared - \u00f3\u00f0inn (line) coiled in perfect circles, h\u00e1fur (gaff) sharpened to killing point, tin of phantom bait, grandfather's rifle with three bullets, all arranged like ritual objects for his likely suicide mission.",
-      "style": "Candlelit preparation, camera following his ritual movements (that's where the camera is), documentary of departure preparation.",
-      "selected_plates": [
+      "scene" : "PASS 2: SHOT 18 - EXPERIENCING HOUSE PANIC CARDIOVASCULAR Camera Becoming Bergrisi's Heartbeat During Abandonment Fear SHOT HEADER: Interior house structure during cardiovascular panic where giant consciousness experiences terror about family abandonment, domestic space revealed as organ-interior through cardiac emergency response, building materials showing biological nature through circulation system activation.",
+      "camera_position" : "",
+      "progressive_state" : "",
+      "selected_plates" : [
         "MAGNUS-PROVIDER",
         "SIGRID-CALCULATING",
         "LILJA-MATHEMATICAL",
         "JON-PROPHET",
         "GUDRUN-PRODUCING",
-        "BA\u00d0STOFA-BODY",
+        "BAÐSTOFA-BODY",
         "WESTFJORDS-WINTER"
       ],
-      "scene": "Corner and door, 6:20 AM, candle stub providing only light. Temperature -12\u00b0C inside, but door opening reveals -25\u00b0C outside. Gear arranged like shrine - each item in specific place, handled with reverence. Door frozen shut with 5mm ice on inside, requiring shoulder to break seal. When door opens, cold enters like entity.",
-      "camera_position": "Candlelit preparation, camera following his ritual movements",
-      "progressive_state": ""
+      "negative_prompt" : "",
+      "variant_name" : "Pass 2 Experiencing House Panic Cardiovascular",
+      "is_active" : false,
+      "subject" : "",
+      "action" : "Camera rides heartbeat acceleration as Bergrisi consciousness panics about family abandonment—cardiovascular rhythm creating spatial pulsing where room expands during systole (heart contraction), contracts during diastole (heart relaxation), family living space affected by giant's cardiac distress. Heartbeat panic spreads through house structure: walls perspiring at 37°C as giant sweats fear, floor warming beneath family feet as circulation increases, organic architecture revealing biological nature through cardiovascular emergency response. Camera experiences door resistance as circulatory response: flesh-soft handle emerging through vascular influence on building materials, Bergrisi's circulation system affecting domestic infrastructure to prevent family exposure to killing environment.",
+      "variant_id" : "18_pass_2_experiencing_house_panic_cardiovascular",
+      "active_video_index" : 0,
+      "videos" : [
+        {
+          "filename" : "Subject_subject_reference_202510252105_eugsp.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510252105_eugsp.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_subject_reference_202510252105_txk8m.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510252105_txk8m.mp4"
+        }
+      ],
+      "style" : "Camera experiencing giant's cardiovascular system using impossible cardiac perspective (that's where the camera is), movement determined by heartbeat rhythm affecting architectural space. Focus reveals organic architecture through cardiovascular response, building materials showing biological nature through circulation emergency. Movement follows cardiac expansion\/contraction affecting room dimensions during panic response. DIALOGUE:",
+      "dialogue" : ""
+    },
+    {
+      "progressive_state" : "",
+      "is_active" : false,
+      "subject" : "[MAGNÚS] in the darkness, moving by memory to his corner where fishing gear waits meticulously prepared - óðinn (line) coiled in perfect circles, háfur (gaff) sharpened to killing point, tin of phantom bait, grandfather's rifle with three bullets, all arranged like ritual objects for his likely suicide mission.",
+      "camera_position" : "Candlelit preparation, camera following his ritual movements",
+      "dialogue" : "(Magnús, to line): \"Haltu, pabbi\" (Hold, father) (Testing gaff): \"Hvass\" (Sharp) (At door): \"Ð‰g kem aftur\" (I'll come back) (Guðrún): Silence, just watching",
+      "style" : "Candlelit preparation, camera following his ritual movements (that's where the camera is), documentary of departure preparation.",
+      "variant_id" : "18_story_primary",
+      "selected_plates" : [
+        "MAGNUS-PROVIDER",
+        "SIGRID-CALCULATING",
+        "LILJA-MATHEMATICAL",
+        "JON-PROPHET",
+        "GUDRUN-PRODUCING",
+        "BAÐSTOFA-BODY",
+        "WESTFJORDS-WINTER"
+      ],
+      "negative_prompt" : "no subtitles, show ritual preparation, maintain darkness except candle, documentary observation",
+      "variant_name" : "Primary - DEPARTURE PREPARATIONS",
+      "scene" : "Corner and door, 6:20 AM, candle stub providing only light. Temperature -12°C inside, but door opening reveals -25°C outside. Gear arranged like shrine - each item in specific place, handled with reverence. Door frozen shut with 5mm ice on inside, requiring shoulder to break seal. When door opens, cold enters like entity.",
+      "action" : "In darkness, we hear him moving. Match strikes - another hidden candle stub. Light reveals him at his corner, already dressed in additional layers: sealskin over wool, wool over wool. Picks up óðinn - 30 fathoms of line, braided by his father, repaired by him hundred times. Tests each section, knows weak spots by feel. Tremor at 4Hz makes line shake. Wraps line around torso under coat. Picks up háfur, tests point on thumb - draws blood, good. Secures to belt. Opens bait tin - empty but for fish scales from better times. Smells it, pretends. Takes rifle, checks mechanism - frozen but might work. Three bullets. Looks at family in candlelight. Guðrún watching, not speaking. Children asleep or pretending. Sigrid maintaining 11 feet even in darkness, her grey eyes reflecting candle. He walks to door, hand on latch. House breathing accelerates to 15\/min - it knows. Heartbeat accelerates to 80bpm. The door resists opening. He forces it."
     }
   ],
-  "aspect_ratio": "4:3",
-  "shot_metadata": {
-    "duration_seconds": 8,
-    "narrative_function": "House 13/min + 60bpm | Pre-departure | Camera fros...",
-    "stitch_from": "",
-    "id": "18",
-    "title": "DEPARTURE PREPARATIONS",
-    "needs_improvements": false,
-    "sequence_type": "main_story"
+  "progressive_state" : "House 13\/min + 60bpm | Pre-departure | Camera frost 10% (for post) | Gear ready | Watching: House knows he's leaving",
+  "shot_metadata" : {
+    "id" : "18",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "DEPARTURE PREPARATIONS",
+    "sequence_type" : "main_story",
+    "narrative_function" : "House 13\/min + 60bpm | Pre-departure | Camera fros...",
+    "duration_seconds" : 8
   },
-  "progressive_state": "House 13/min + 60bpm | Pre-departure | Camera frost 10% (for post) | Gear ready | Watching: House knows he's leaving",
-  "selected_prompt_index": 0
+  "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0
 }

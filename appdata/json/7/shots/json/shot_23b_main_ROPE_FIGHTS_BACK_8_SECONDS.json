@@ -1,87 +1,97 @@
 {
-  "progressive_state": "House 7/min + 48bpm | Contamination resisting | Camera frost 14.5% | Materials wrong | Watching: Gu\u00f0r\u00fan paralyzed",
-  "shot_metadata": {
-    "stitch_from": "",
-    "needs_improvements": false,
-    "narrative_function": "House 7/min + 48bpm | Contamination resisting | Ca...",
-    "title": "ROPE FIGHTS BACK 8 SECONDS",
-    "sequence_type": "main_story",
-    "id": "23b",
-    "duration_seconds": 8
-  },
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "action": "Sigrid grips rope to begin winding. Rope immediately resists - coiling backward, alive with wrong animation. \"Tilberi, tilberi, \u00fe\u00fa skalt mj\u00f3lka fyrir mig.\" Voice starts normal but rope's tar makes fingers stick, pulling skin. Forces it around bone. Where rope touches rib, black veins spread through bone marrow, visible through translucent bone. Industrial contamination infecting organic material. Her voice catches, drops quarter octave: \"\u00de\u00fa skalt...\" Rope suddenly coils correctly but too tight, growing INTO bone, fusing. Not wrapped around but penetrating, rope fibers becoming bone vessels. Voice drops half octave: \"...n\u00e6ra barni\u00f0 mitt.\" Hand instinctively to belly - baby kicking, heartbeat rising to 145bpm. Gu\u00f0r\u00fan's mouth opens to warn but no sound emerges - women's conditioning too strong even now. Brass button in left hand begins warming, almost burning, green verdigris running like tears.",
-      "variant_name": "Primary - ROPE FIGHTS BACK 8 SECONDS",
-      "active_video_index": 0,
-      "selected_plates": [
-        "SIGRID-CALCULATING",
-        "BA\u00d0STOFA-BODY",
-        "STOFA-DOMESTIC"
-      ],
-      "is_active": false,
-      "camera_position": "Extreme close on rope-bone fusion, showing contamination spreading",
-      "dialogue": "(Sigrid, voice dropping): \"Tilberi, tilberi, \u00fe\u00fa skalt mj\u00f3lka fyrir mig\" (Quarter octave lower): \"\u00de\u00fa skalt...\" (Half octave lower): \"...n\u00e6ra barni\u00f0 mitt\"",
-      "subject": "[SIGRID] attempting to wind the industrial rope around sheep rib while speaking the incantation, but the tar-mixed hemp fights back, trying to coil in opposite direction, sticking to her fingers, revealing black contamination spreading through both materials like infection.",
-      "videos": [
+      "variant_name" : "Primary - ROPE FIGHTS BACK 8 SECONDS",
+      "subject" : "[SIGRID] attempting to wind the industrial rope around sheep rib while speaking the incantation, but the tar-mixed hemp fights back, trying to coil in opposite direction, sticking to her fingers, revealing black contamination spreading through both materials like infection.",
+      "dialogue" : "(Sigrid, voice dropping): \"Tilberi, tilberi, þú skalt mjólka fyrir mig\" (Quarter octave lower): \"Þú skalt...\" (Half octave lower): \"...næra barnið mitt\"",
+      "variant_id" : "23b_story_primary",
+      "active_video_index" : 0,
+      "camera_position" : "Extreme close on rope-bone fusion, showing contamination spreading",
+      "progressive_state" : "",
+      "is_active" : false,
+      "negative_prompt" : "",
+      "videos" : [
         {
-          "duration": 8,
-          "filename": "Subject_sigrid_kneeling_202509211754_5qaq6.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrid_kneeling_202509211754_5qaq6.mp4"
+          "filename" : "Subject_sigrid_kneeling_202509211754_5qaq6.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202509211754_5qaq6.mp4"
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrid_kneeling_202509211754_n0g08.mp4",
-          "duration": 8,
-          "filename": "Subject_sigrid_kneeling_202509211754_n0g08.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202509211754_n0g08.mp4",
+          "filename" : "Subject_sigrid_kneeling_202509211754_n0g08.mp4",
+          "duration" : 8
         },
         {
-          "filename": "Subject_sigrid_kneeling_202509211754_r16oh.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrid_kneeling_202509211754_r16oh.mp4",
-          "duration": 8
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202509211754_r16oh.mp4",
+          "filename" : "Subject_sigrid_kneeling_202509211754_r16oh.mp4",
+          "duration" : 8
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrid_kneeling_202509211754_ned08.mp4",
-          "duration": 8,
-          "filename": "Subject_sigrid_kneeling_202509211754_ned08.mp4"
+          "duration" : 8,
+          "filename" : "Subject_sigrid_kneeling_202509211754_ned08.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202509211754_ned08.mp4"
         },
         {
-          "duration": 8,
-          "filename": "Subject_sigrid_attempting_202509211937_4m9.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrid_attempting_202509211937_4m9.mp4"
+          "filename" : "Subject_sigrid_attempting_202509211937_4m9.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202509211937_4m9.mp4",
+          "duration" : 8
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrid_attempting_202509211937_kj6.mp4",
-          "duration": 8,
-          "filename": "Subject_sigrid_attempting_202509211937_kj6.mp4"
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202509211937_kj6.mp4",
+          "filename" : "Subject_sigrid_attempting_202509211937_kj6.mp4"
         },
         {
-          "filename": "Subject_sigrid_attempting_202509211937_8fo.mp4",
-          "duration": 8,
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrid_attempting_202509211937_8fo.mp4"
+          "filename" : "Subject_sigrid_attempting_202509211937_8fo.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202509211937_8fo.mp4"
         },
         {
-          "filename": "Subject_sigrid_attempting_202509211937_pbz.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrid_attempting_202509211937_pbz.mp4",
-          "duration": 8
+          "filename" : "Subject_sigrid_attempting_202509211937_pbz.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202509211937_pbz.mp4",
+          "duration" : 8
         },
         {
-          "filename": "Subject_sigrid_attempting_202509211938_xce.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrid_attempting_202509211938_xce.mp4",
-          "duration": 8
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202509211938_xce.mp4",
+          "filename" : "Subject_sigrid_attempting_202509211938_xce.mp4",
+          "duration" : 8
         },
         {
-          "filename": "Subject_sigrid_attempting_202509211938_nl6.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrid_attempting_202509211938_nl6.mp4",
-          "duration": 8
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202509211938_nl6.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrid_attempting_202509211938_nl6.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510252102_5yi.mp4",
+          "filename" : "Subject_sigrid_attempting_202510252102_5yi.mp4"
+        },
+        {
+          "filename" : "Subject_sigrid_attempting_202510252102_1j1.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510252102_1j1.mp4",
+          "duration" : 8
         }
       ],
-      "negative_prompt": "",
-      "variant_id": "23b_story_primary",
-      "style": "Extreme close on rope-bone fusion, showing contamination spreading (that's where the camera is), documentary of corruption.",
-      "progressive_state": "",
-      "scene": "Close work on floor, materials fighting. Temperature dropping as ritual continues. Rope leaving tar residue on everything. Bone showing apparent spreading."
+      "action" : "Sigrid grips rope to begin winding. Rope immediately resists - coiling backward, alive with wrong animation. \"Tilberi, tilberi, þú skalt mjólka fyrir mig.\" Voice starts normal but rope's tar makes fingers stick, pulling skin. Forces it around bone. Where rope touches rib, black veins spread through bone marrow, visible through translucent bone. Industrial contamination infecting organic material. Her voice catches, drops quarter octave: \"Þú skalt...\" Rope suddenly coils correctly but too tight, growing INTO bone, fusing. Not wrapped around but penetrating, rope fibers becoming bone vessels. Voice drops half octave: \"...næra barnið mitt.\" Hand instinctively to belly - baby kicking, heartbeat rising to 145bpm. Guðrún's mouth opens to warn but no sound emerges - women's conditioning too strong even now. Brass button in left hand begins warming, almost burning, green verdigris running like tears.",
+      "style" : "Extreme close on rope-bone fusion, showing contamination spreading (that's where the camera is), documentary of corruption.",
+      "scene" : "Close work on floor, materials fighting. Temperature dropping as ritual continues. Rope leaving tar residue on everything. Bone showing apparent spreading.",
+      "selected_plates" : [
+        "SIGRID-CALCULATING",
+        "BAÐSTOFA-BODY",
+        "STOFA-DOMESTIC"
+      ]
     }
   ],
-  "selected_prompt_index": 0,
-  "aspect_ratio": "4:3"
+  "progressive_state" : "House 7\/min + 48bpm | Contamination resisting | Camera frost 14.5% | Materials wrong | Watching: Guðrún paralyzed",
+  "shot_metadata" : {
+    "id" : "23b",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "ROPE FIGHTS BACK 8 SECONDS",
+    "sequence_type" : "main_story",
+    "narrative_function" : "House 7\/min + 48bpm | Contamination resisting | Ca...",
+    "duration_seconds" : 8
+  },
+  "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0
 }

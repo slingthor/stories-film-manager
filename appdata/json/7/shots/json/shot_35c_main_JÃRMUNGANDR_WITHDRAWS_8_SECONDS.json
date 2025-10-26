@@ -1,42 +1,52 @@
 {
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "action": "After bullet impact, trawler changes. Not just turning - being PULLED. Water around it churns violent green-black. Through clear patches: shadows of something massive beneath. Tentacles? Coils? The trawler/serpent dragged backward by its own nature. Speed impossible for ship that size - 10 knots, 15, 20, leaving wake like wound in water. Searchlights stay locked on Magn\u00fas until last moment, then go dark. Engine sound fades but changes - mechanical drone becomes distant roar, hurt, angry, but retreating. In two minutes, trawler reaches horizon. Disappears not over curve of earth but DOWN, pulled under. Water where it vanished continues churning. Magn\u00fas left alone on empty fjord. No fish. No enemy. No victory. Just empty water and the rifle with two bullets. Ravens return, reform spiral above him. Seven witnesses to impossible moment - tiny Iceland made British Empire retreat. But at what cost? Water poisoned green-black in wide trail. Nothing will live here for years.",
-      "variant_name": "Primary - J\u00d0RMUNGANDR WITHDRAWS 8 SECONDS",
-      "active_video_index": 0,
-      "selected_plates": [
+      "variant_name" : "Primary - JÐRMUNGANDR WITHDRAWS 8 SECONDS",
+      "subject" : "The trawler GRIMSBY PRIDE suddenly pulling away with impossible speed, not fleeing but being PULLED by something beneath - the water churning green-black, tentacle shadows visible, Jörmungandr protecting its own territory by withdrawing, leaving [MAGNÚS] alone on empty water.",
+      "dialogue" : "(Magnús, disbelieving): \"Það fer...\" (It's leaving...) \"Ð‰g... gerði það?\" (I... did it?) (Realizing cost): \"En allt er enn tómt\" (But everything's still empty)",
+      "variant_id" : "35c_story_primary",
+      "active_video_index" : 0,
+      "camera_position" : "Wide shot showing impossible retreat speed, trawler being pulled under",
+      "progressive_state" : "",
+      "is_active" : false,
+      "negative_prompt" : "no subtitles, show impossible speed, pulled not fleeing, documentary observation",
+      "videos" : [
+        {
+          "duration" : 15.088666666666667,
+          "filename" : "20251019_1623_01k7zca8w0fv6axgs9gd99xscn.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1623_01k7zca8w0fv6axgs9gd99xscn.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510252058_f7om1.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_trawler_202510252058_f7om1.mp4"
+        },
+        {
+          "filename" : "Subject_the_trawler_202510252058_wthfc.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510252058_wthfc.mp4",
+          "duration" : 8
+        }
+      ],
+      "action" : "After bullet impact, trawler changes. Not just turning - being PULLED. Water around it churns violent green-black. Through clear patches: shadows of something massive beneath. Tentacles? Coils? The trawler\/serpent dragged backward by its own nature. Speed impossible for ship that size - 10 knots, 15, 20, leaving wake like wound in water. Searchlights stay locked on Magnús until last moment, then go dark. Engine sound fades but changes - mechanical drone becomes distant roar, hurt, angry, but retreating. In two minutes, trawler reaches horizon. Disappears not over curve of earth but DOWN, pulled under. Water where it vanished continues churning. Magnús left alone on empty fjord. No fish. No enemy. No victory. Just empty water and the rifle with two bullets. Ravens return, reform spiral above him. Seven witnesses to impossible moment - tiny Iceland made British Empire retreat. But at what cost? Water poisoned green-black in wide trail. Nothing will live here for years.",
+      "style" : "Wide shot showing impossible retreat speed, trawler being pulled under (that's where the camera is), documentary of Cod Wars miracle.",
+      "scene" : "Trawler retreating impossibly fast, 9:23 AM. Water showing poisoned trail. Magnús alone in empty victory.",
+      "selected_plates" : [
         "MAGNUS-WOUNDED",
         "SEA-BATTLE",
         "WESTFJORDS-FJORD"
-      ],
-      "is_active": false,
-      "camera_position": "Wide shot showing impossible retreat speed, trawler being pulled under",
-      "dialogue": "(Magn\u00fas, disbelieving): \"\u00dea\u00f0 fer...\" (It's leaving...) \"\u00d0\u2030g... ger\u00f0i \u00fea\u00f0?\" (I... did it?) (Realizing cost): \"En allt er enn t\u00f3mt\" (But everything's still empty)",
-      "subject": "The trawler GRIMSBY PRIDE suddenly pulling away with impossible speed, not fleeing but being PULLED by something beneath - the water churning green-black, tentacle shadows visible, J\u00f6rmungandr protecting its own territory by withdrawing, leaving [MAGN\u00daS] alone on empty water.",
-      "videos": [
-        {
-          "filepath": "/Users/ingthor/Downloads/20251019_1623_01k7zca8w0fv6axgs9gd99xscn.mp4",
-          "duration": 15.088666666666667,
-          "filename": "20251019_1623_01k7zca8w0fv6axgs9gd99xscn.mp4"
-        }
-      ],
-      "negative_prompt": "no subtitles, show impossible speed, pulled not fleeing, documentary observation",
-      "variant_id": "35c_story_primary",
-      "progressive_state": "",
-      "style": "Wide shot showing impossible retreat speed, trawler being pulled under (that's where the camera is), documentary of Cod Wars miracle.",
-      "scene": "Trawler retreating impossibly fast, 9:23 AM. Water showing poisoned trail. Magn\u00fas alone in empty victory."
+      ]
     }
   ],
-  "selected_prompt_index": 0,
-  "shot_metadata": {
-    "id": "35c",
-    "sequence_type": "main_story",
-    "duration_seconds": 8,
-    "needs_improvements": false,
-    "title": "J\u00d0RMUNGANDR WITHDRAWS 8 SECONDS",
-    "narrative_function": "Miraculous withdrawal | Cod Wars echo | Camera fro...",
-    "stitch_from": ""
+  "progressive_state" : "Miraculous withdrawal | Cod Wars echo | Camera frost 23% | Protection revealed | Watching: Iceland witnessed",
+  "shot_metadata" : {
+    "id" : "35c",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "JÐRMUNGANDR WITHDRAWS 8 SECONDS",
+    "sequence_type" : "main_story",
+    "narrative_function" : "Miraculous withdrawal | Cod Wars echo | Camera fro...",
+    "duration_seconds" : 8
   },
-  "aspect_ratio": "4:3",
-  "progressive_state": "Miraculous withdrawal | Cod Wars echo | Camera frost 23% | Protection revealed | Watching: Iceland witnessed"
+  "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0
 }

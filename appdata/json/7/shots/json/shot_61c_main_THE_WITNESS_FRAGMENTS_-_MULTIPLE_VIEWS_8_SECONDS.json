@@ -1,60 +1,70 @@
 {
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "action": "CRACK. Lens splits. Not broken - multiplied. Like insect eye. Each fragment shows different perspective. Top fragment: tourists 2024, taking photos, unaware. Left fragment: Sigrid-raven 1944, watching independence, remembering. Right fragment: sheep family inside glass, eternal, still aware. Center fragment: us, now, watching this film, witnesses to witnesses. Bottom fragment: the camera itself, dying, frost at 58%. All simultaneous. All true. We are: Iceland watching itself. Tourists consuming trauma. Sigrid remembering. Family preserved. Audience witnessing. All one witness. Fragmented but whole. The cracks spread. More perspectives. Vikings seeing future. Children unborn watching back. The obelisk in all fragments. The constant. The monument to transformation. Standing in all times. Witnessed by all eyes. The crack patterns form shape: raven wings. The witness fractures into flight pattern. Ready to break apart. To become many. To spread the story.",
-      "variant_name": "Primary - THE WITNESS FRAGMENTS - MULTIPLE VIEWS 8 SECONDS",
-      "active_video_index": 0,
-      "selected_plates": [
+      "variant_name" : "Primary - THE WITNESS FRAGMENTS - MULTIPLE VIEWS 8 SECONDS",
+      "subject" : "The camera lens cracking from frost, creating multiple views - we see through tourist eyes (2024), through Sigrid's raven eye (1944), through the sheep family in glass (eternal), through our watching eyes (now), all witnesses simultaneously.",
+      "dialogue" : "(All fragments): Silent witnessing (One whisper): \"We remember\"",
+      "variant_id" : "61c_story_primary",
+      "active_video_index" : 0,
+      "camera_position" : "Fractured multiple perspectives",
+      "progressive_state" : "",
+      "is_active" : false,
+      "negative_prompt" : "",
+      "videos" : [
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202509211828_xn2wh.mp4",
+          "filename" : "Subject_the_camera_202509211828_xn2wh.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_camera_202509211828_xm3y3.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202509211828_xm3y3.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202509211828_1dsof.mp4",
+          "filename" : "Subject_the_camera_202509211828_1dsof.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_camera_202509211828_v5k7z.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202509211828_v5k7z.mp4"
+        },
+        {
+          "filename" : "Subject_the_camera_202510252047_48260.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510252047_48260.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510252047_sh2qk.mp4",
+          "filename" : "Subject_the_camera_202510252047_sh2qk.mp4"
+        }
+      ],
+      "action" : "CRACK. Lens splits. Not broken - multiplied. Like insect eye. Each fragment shows different perspective. Top fragment: tourists 2024, taking photos, unaware. Left fragment: Sigrid-raven 1944, watching independence, remembering. Right fragment: sheep family inside glass, eternal, still aware. Center fragment: us, now, watching this film, witnesses to witnesses. Bottom fragment: the camera itself, dying, frost at 58%. All simultaneous. All true. We are: Iceland watching itself. Tourists consuming trauma. Sigrid remembering. Family preserved. Audience witnessing. All one witness. Fragmented but whole. The cracks spread. More perspectives. Vikings seeing future. Children unborn watching back. The obelisk in all fragments. The constant. The monument to transformation. Standing in all times. Witnessed by all eyes. The crack patterns form shape: raven wings. The witness fractures into flight pattern. Ready to break apart. To become many. To spread the story.",
+      "style" : "Fractured multiple perspectives (that's where the camera is), all witnesses documented.",
+      "scene" : "Multiple views through cracked lens. All times\/perspectives simultaneous. Obelisk central.",
+      "selected_plates" : [
         "MAGNUS-RAM",
         "SIGRID-CORVID",
         "LILJA-LAMB",
         "JON-LAMB",
         "GUDRUN-ETERNAL",
         "WESTFJORDS-CLIFF"
-      ],
-      "is_active": false,
-      "camera_position": "Fractured multiple perspectives",
-      "dialogue": "(All fragments): Silent witnessing (One whisper): \"We remember\"",
-      "subject": "The camera lens cracking from frost, creating multiple views - we see through tourist eyes (2024), through Sigrid's raven eye (1944), through the sheep family in glass (eternal), through our watching eyes (now), all witnesses simultaneously.",
-      "videos": [
-        {
-          "filename": "Subject_the_camera_202509211828_xn2wh.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_the_camera_202509211828_xn2wh.mp4",
-          "duration": 8
-        },
-        {
-          "filename": "Subject_the_camera_202509211828_xm3y3.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_the_camera_202509211828_xm3y3.mp4",
-          "duration": 8
-        },
-        {
-          "filename": "Subject_the_camera_202509211828_1dsof.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_the_camera_202509211828_1dsof.mp4",
-          "duration": 8
-        },
-        {
-          "filename": "Subject_the_camera_202509211828_v5k7z.mp4",
-          "duration": 8,
-          "filepath": "/Users/ingthor/Downloads/Subject_the_camera_202509211828_v5k7z.mp4"
-        }
-      ],
-      "negative_prompt": "",
-      "variant_id": "61c_story_primary",
-      "progressive_state": "",
-      "style": "Fractured multiple perspectives (that's where the camera is), all witnesses documented.",
-      "scene": "Multiple views through cracked lens. All times/perspectives simultaneous. Obelisk central."
+      ]
     }
   ],
-  "selected_prompt_index": 0,
-  "shot_metadata": {
-    "id": "61c",
-    "sequence_type": "main_story",
-    "duration_seconds": 8,
-    "needs_improvements": false,
-    "title": "THE WITNESS FRAGMENTS - MULTIPLE VIEWS 8 SECONDS",
-    "narrative_function": "Consciousness splitting | Frost 58% | Many witness...",
-    "stitch_from": ""
+  "progressive_state" : "Consciousness splitting | Frost 58% | Many witnesses | Watching: All watch",
+  "shot_metadata" : {
+    "id" : "61c",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "THE WITNESS FRAGMENTS - MULTIPLE VIEWS 8 SECONDS",
+    "sequence_type" : "main_story",
+    "narrative_function" : "Consciousness splitting | Frost 58% | Many witness...",
+    "duration_seconds" : 8
   },
-  "aspect_ratio": "2.39:1",
-  "progressive_state": "Consciousness splitting | Frost 58% | Many witnesses | Watching: All watch"
+  "aspect_ratio" : "2.39:1",
+  "selected_prompt_index" : 0
 }

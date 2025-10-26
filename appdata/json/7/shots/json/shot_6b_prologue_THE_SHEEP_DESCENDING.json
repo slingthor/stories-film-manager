@@ -1,61 +1,66 @@
 {
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "action": "Sheep pour down three mountain paths simultaneously. White bodies against green slopes. Moving like liquid, flowing around rocks. No shepherds visible driving them. They know to come. Dogs at bottom wait but don't herd. Sheep converge on ancient stone pen - circular center with triangular sections radiating out. The pen ancient, stones worn smooth. People arrive from whale processing, from berry cooking. Still covered in three stains - red blood, purple juice, golden yolk. Take positions around pen. Each family at their traditional section. Sheep flow into central circle. Swirl clockwise. Perfect spiral. No commands given. First sheep enters family section on its own. Others follow. Each sheep knows its section. The pattern they make matches the bones children threw earlier. Magn\u00fas stands at his family's gate. Watches sheep sort themselves. His shadow falls wrong direction - sun is west but shadow points east.",
-      "subject": "View from hillside showing hundreds of sheep flowing down mountain paths like white water, converging on stone sorting pen below, people gathering at the pen with dogs, the sheep moving without being herded.",
-      "dialogue": "None",
-      "scene": "Valley with stone sorting pen. Mountains on three sides. Late afternoon light. Hundreds of sheep descending.",
-      "progressive_state": "",
-      "videos": [
-        {
-          "duration": 8,
-          "filename": "Meta_setting_iceland_202509142228_ju0yu.mp4",
-          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142228_ju0yu.mp4"
-        },
-        {
-          "filepath": "/Users/ingthor/Downloads/An_immense_biblical_202509142306_me602.mp4",
-          "duration": 8,
-          "filename": "An_immense_biblical_202509142306_me602.mp4"
-        },
-        {
-          "filename": "The_world_under_202509142306_tkhk1.mp4",
-          "filepath": "/Users/ingthor/Downloads/The_world_under_202509142306_tkhk1.mp4",
-          "duration": 8
-        },
-        {
-          "filename": "An_immense_biblical_202509142305_w1bio.mp4",
-          "filepath": "/Users/ingthor/Downloads/An_immense_biblical_202509142305_w1bio.mp4",
-          "duration": 8
-        },
-        {
-          "filename": "Waterfall_dynjandi_with_202509142305_2sqsn.mp4",
-          "filepath": "/Users/ingthor/Downloads/Waterfall_dynjandi_with_202509142305_2sqsn.mp4",
-          "duration": 8
-        }
-      ],
-      "variant_name": "Primary - THE SHEEP DESCENDING",
-      "style": "Wide aerial shot showing sheep flowing down and pen below (that's where the camera is), pattern formation visible.",
-      "active_video_index": 0,
-      "selected_plates": [
+      "variant_id" : "6b_story_primary",
+      "subject" : "View from hillside showing hundreds of sheep flowing down mountain paths like white water, converging on stone sorting pen below, people gathering at the pen with dogs, the sheep moving without being herded.",
+      "scene" : "Valley with stone sorting pen. Mountains on three sides. Late afternoon light. Hundreds of sheep descending.",
+      "progressive_state" : "",
+      "selected_plates" : [
         "WESTFJORDS-CLIFF",
         "WESTFJORDS-SUMMER"
       ],
-      "negative_prompt": "no subtitles, show sheep flowing like water, self-sorting, patterns matching earlier scenes, 1080p",
-      "variant_id": "6b_story_primary",
-      "camera_position": "Wide aerial shot showing sheep flowing down and pen below",
-      "is_active": false
+      "camera_position" : "Wide aerial shot showing sheep flowing down and pen below",
+      "videos" : [
+        {
+          "duration" : 8,
+          "filename" : "Meta_setting_iceland_202509142228_ju0yu.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142228_ju0yu.mp4"
+        },
+        {
+          "filename" : "An_immense_biblical_202509142306_me602.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/An_immense_biblical_202509142306_me602.mp4"
+        },
+        {
+          "filename" : "The_world_under_202509142306_tkhk1.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/The_world_under_202509142306_tkhk1.mp4"
+        },
+        {
+          "filename" : "An_immense_biblical_202509142305_w1bio.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/An_immense_biblical_202509142305_w1bio.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Waterfall_dynjandi_with_202509142305_2sqsn.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Waterfall_dynjandi_with_202509142305_2sqsn.mp4"
+        },
+        {
+          "filename" : "Subject_view_from_202510252046_it10w.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510252046_it10w.mp4",
+          "duration" : 8
+        }
+      ],
+      "variant_name" : "Primary - THE SHEEP DESCENDING",
+      "dialogue" : "None",
+      "active_video_index" : 0,
+      "is_active" : false,
+      "negative_prompt" : "no subtitles, show sheep flowing like water, self-sorting, patterns matching earlier scenes, 1080p",
+      "style" : "Wide aerial shot showing sheep flowing down and pen below (that's where the camera is), pattern formation visible.",
+      "action" : "Sheep pour down three mountain paths simultaneously. White bodies against green slopes. Moving like liquid, flowing around rocks. No shepherds visible driving them. They know to come. Dogs at bottom wait but don't herd. Sheep converge on ancient stone pen - circular center with triangular sections radiating out. The pen ancient, stones worn smooth. People arrive from whale processing, from berry cooking. Still covered in three stains - red blood, purple juice, golden yolk. Take positions around pen. Each family at their traditional section. Sheep flow into central circle. Swirl clockwise. Perfect spiral. No commands given. First sheep enters family section on its own. Others follow. Each sheep knows its section. The pattern they make matches the bones children threw earlier. Magnús stands at his family's gate. Watches sheep sort themselves. His shadow falls wrong direction - sun is west but shadow points east."
     }
   ],
-  "selected_prompt_index": 0,
-  "shot_metadata": {
-    "id": "6b",
-    "sequence_type": "prologue",
-    "duration_seconds": 8,
-    "needs_improvements": false,
-    "title": "THE SHEEP DESCENDING",
-    "narrative_function": "R\u00e9ttir beginning | Natural order | Camera frost f...",
-    "stitch_from": ""
+  "progressive_state" : "Réttir beginning | Natural order | Camera frost flicker 1% briefly | Patterns emerging | Watching: The sorting comes",
+  "shot_metadata" : {
+    "id" : "6b",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "THE SHEEP DESCENDING",
+    "sequence_type" : "prologue",
+    "narrative_function" : "Réttir beginning | Natural order | Camera frost f...",
+    "duration_seconds" : 8
   },
-  "aspect_ratio": "1.85:1",
-  "progressive_state": "R\u00e9ttir beginning | Natural order | Camera frost flicker 1% briefly | Patterns emerging | Watching: The sorting comes"
+  "aspect_ratio" : "1.85:1",
+  "selected_prompt_index" : 0
 }

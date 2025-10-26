@@ -1,57 +1,67 @@
 {
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "variant_id": "60b_story_primary",
-      "scene": "Cathedral roof, 1920. Egg laid in architectural embrace. City visible below. Ravens gathering.",
-      "dialogue": "None - silence of birth",
-      "subject": "[SIGRID]-raven landing on Reykjavik Cathedral roof in 1920, laying the egg that contains the human child, the rounded belly transformed, as Gammur watches, ensuring the next generation will vote for independence.",
-      "negative_prompt": "",
-      "action": "CLOSE ON cathedral roof tiles. Raven talons land. Sigrid-raven settles into architectural nook. Body convulses gently. The egg emerges - larger than normal raven egg. Translucent shell. Inside: human infant visible. Sleeping. Waiting. The bridge generation. Child who will be 24 in 1944. Will vote for independence. Will remember nothing of being in egg. But will dream of flying. Will fear enclosed spaces. Will love ravens inexplicably. PULL BACK reveals location: Reykjavik Cathedral, 1920. City smaller. Cleaner. Hopeful. Gammur perches on cross above. Guardian. Ensuring. The egg warm despite winter. Glowing slightly. Other ravens gathering. Protecting. They know what it contains. Who it contains. The future voter. The independence maker. The one who says \"j\u00e1\" (yes) to freedom.",
-      "selected_plates": [
+      "scene" : "Cathedral roof, 1920. Egg laid in architectural embrace. City visible below. Ravens gathering.",
+      "camera_position" : "Close to wide revealing significance",
+      "progressive_state" : "",
+      "selected_plates" : [
         "SIGRID-DUAL",
-        "BA\u00d0STOFA-CLIFF",
+        "BAÐSTOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ],
-      "is_active": false,
-      "style": "Close to wide revealing significance (that's where the camera is), future documented.",
-      "variant_name": "Primary - THE EGG LAID - FUTURE BORN 6 SECONDS",
-      "active_video_index": 0,
-      "progressive_state": "",
-      "camera_position": "Close to wide revealing significance",
-      "videos": [
+      "negative_prompt" : "",
+      "variant_name" : "Primary - THE EGG LAID - FUTURE BORN 6 SECONDS",
+      "is_active" : false,
+      "subject" : "[SIGRID]-raven landing on Reykjavik Cathedral roof in 1920, laying the egg that contains the human child, the rounded belly transformed, as Gammur watches, ensuring the next generation will vote for independence.",
+      "action" : "CLOSE ON cathedral roof tiles. Raven talons land. Sigrid-raven settles into architectural nook. Body convulses gently. The egg emerges - larger than normal raven egg. Translucent shell. Inside: human infant visible. Sleeping. Waiting. The bridge generation. Child who will be 24 in 1944. Will vote for independence. Will remember nothing of being in egg. But will dream of flying. Will fear enclosed spaces. Will love ravens inexplicably. PULL BACK reveals location: Reykjavik Cathedral, 1920. City smaller. Cleaner. Hopeful. Gammur perches on cross above. Guardian. Ensuring. The egg warm despite winter. Glowing slightly. Other ravens gathering. Protecting. They know what it contains. Who it contains. The future voter. The independence maker. The one who says \"já\" (yes) to freedom.",
+      "variant_id" : "60b_story_primary",
+      "active_video_index" : 0,
+      "videos" : [
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_sigridraven_landing_202509211830_-4.mp4",
-          "filename": "Subject_sigridraven_landing_202509211830_-4.mp4",
-          "duration": 8
+          "duration" : 8,
+          "filename" : "Subject_sigridraven_landing_202509211830_-4.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_landing_202509211830_-4.mp4"
         },
         {
-          "duration": 8,
-          "filename": "Subject_sigridraven_landing_202509211830_-3.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_sigridraven_landing_202509211830_-3.mp4"
+          "filename" : "Subject_sigridraven_landing_202509211830_-3.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_landing_202509211830_-3.mp4"
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_sigridraven_landing_202509211830_-2.mp4",
-          "duration": 8,
-          "filename": "Subject_sigridraven_landing_202509211830_-2.mp4"
+          "duration" : 8,
+          "filename" : "Subject_sigridraven_landing_202509211830_-2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_landing_202509211830_-2.mp4"
         },
         {
-          "duration": 8,
-          "filename": "Subject_sigridraven_landing_202509211830_.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_sigridraven_landing_202509211830_.mp4"
+          "filename" : "Subject_sigridraven_landing_202509211830_.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_landing_202509211830_.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_sigridraven_landing_202510252048_.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_landing_202510252048_.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_landing_202510252048_-2.mp4",
+          "filename" : "Subject_sigridraven_landing_202510252048_-2.mp4",
+          "duration" : 8
         }
-      ]
+      ],
+      "style" : "Close to wide revealing significance (that's where the camera is), future documented.",
+      "dialogue" : "None - silence of birth"
     }
   ],
-  "selected_prompt_index": 0,
-  "shot_metadata": {
-    "id": "60b",
-    "sequence_type": "main_story",
-    "duration_seconds": 6,
-    "needs_improvements": false,
-    "title": "THE EGG LAID - FUTURE BORN 6 SECONDS",
-    "narrative_function": "Generation bridge | Camera frost 55% | Human from ...",
-    "stitch_from": ""
+  "progressive_state" : "Generation bridge | Camera frost 55% | Human from raven | Watching: Cathedral witnesses",
+  "shot_metadata" : {
+    "id" : "60b",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "THE EGG LAID - FUTURE BORN 6 SECONDS",
+    "sequence_type" : "main_story",
+    "narrative_function" : "Generation bridge | Camera frost 55% | Human from ...",
+    "duration_seconds" : 6
   },
-  "aspect_ratio": "2.39:1",
-  "progressive_state": "Generation bridge | Camera frost 55% | Human from raven | Watching: Cathedral witnesses"
+  "aspect_ratio" : "2.39:1",
+  "selected_prompt_index" : 0
 }

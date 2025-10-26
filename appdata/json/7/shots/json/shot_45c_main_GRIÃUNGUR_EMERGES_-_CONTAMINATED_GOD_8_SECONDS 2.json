@@ -1,62 +1,72 @@
 {
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "variant_id": "45c_story_primary",
-      "scene": "Polynya eruption, 9:59 AM. Bull massive against grey sky. Steam creating fog wall. Ice cracking from his emergence.",
-      "dialogue": "(Gu\u00f0r\u00fan, whispered): \"Gri\u00f0ungur... hva\u00f0 ger\u00f0u \u00feeir vi\u00f0 \u00feig?\" (Bull): Bellow mixing with trawler horn",
-      "subject": "The water exploding as GRI\u00d0\u0090UNGUR emerges - massive bull's head 6 feet across, but industrial materials grown INTO his flesh: brass harpoons through skull sprouting like horns, rope beneath skin creating raised black spirals, fishing net fused with eyes, beautiful and horrible simultaneously.",
-      "negative_prompt": "show fusion clearly, maintain 8-second hold, no CGI, practical effects",
-      "action": "Water EXPLODES upward. CAMERA PULLS BACK rapidly. Bull's head emerges - impossible size, ancient, divine. But corrupted: Three brass harpoons pierce skull, but not through - grown INTO bone, brass and calcium fused, sprouting like additional horns. Industrial rope hasn't wrapped around but grown THROUGH neck tissue, black hemp spirals visible beneath skin like external veins. Fishing net across eyes, but net has grown into corneas, hemp and tissue merged, creating crosshatch vision. Opens mouth to bellow - sound is both organic and mechanical, bull's roar mixed with trawler horn, 70Hz vibration shaking ice. Steam pours from wounds - body temperature meeting cold air. Eyes ancient, intelligent, in agony, find Gu\u00f0r\u00fan. Recognition between trapped beings. Water around him turns black-green from contamination bleeding out. One brass harpoon has green verdigris tears running from it, as if the metal itself weeps. He rises further - shoulders visible, more contamination, industrial and divine fused. Size: could destroy house with one movement. But gentle. Suffering. 15-second hold on this wounded god.",
-      "selected_plates": [
+      "scene" : "Polynya eruption, 9:59 AM. Bull massive against grey sky. Steam creating fog wall. Ice cracking from his emergence.",
+      "camera_position" : "Pull back for scale then hold for witness",
+      "selected_plates" : [
         "SEA-CONTAMINATED",
         "WESTFJORDS-FJORD",
         "WESTFJORDS-WINTER"
       ],
-      "is_active": false,
-      "style": "Pull back for scale then hold for witness (that's where the camera is), documenting corrupted divinity.",
-      "variant_name": "Primary - GRI\u00d0UNGUR EMERGES - CONTAMINATED GOD 8 SECONDS",
-      "active_video_index": 0,
-      "progressive_state": "",
-      "camera_position": "Pull back for scale then hold for witness",
-      "videos": [
+      "variant_name" : "Primary - GRIÐUNGUR EMERGES - CONTAMINATED GOD 8 SECONDS",
+      "negative_prompt" : "show fusion clearly, maintain 8-second hold, no CGI, practical effects",
+      "action" : "Water EXPLODES upward. CAMERA PULLS BACK rapidly. Bull's head emerges - impossible size, ancient, divine. But corrupted: Three brass harpoons pierce skull, but not through - grown INTO bone, brass and calcium fused, sprouting like additional horns. Industrial rope hasn't wrapped around but grown THROUGH neck tissue, black hemp spirals visible beneath skin like external veins. Fishing net across eyes, but net has grown into corneas, hemp and tissue merged, creating crosshatch vision. Opens mouth to bellow - sound is both organic and mechanical, bull's roar mixed with trawler horn, 70Hz vibration shaking ice. Steam pours from wounds - body temperature meeting cold air. Eyes ancient, intelligent, in agony, find Guðrún. Recognition between trapped beings. Water around him turns black-green from contamination bleeding out. One brass harpoon has green verdigris tears running from it, as if the metal itself weeps. He rises further - shoulders visible, more contamination, industrial and divine fused. Size: could destroy house with one movement. But gentle. Suffering. 15-second hold on this wounded god.",
+      "is_active" : false,
+      "subject" : "The water exploding as GRIÐUNGUR emerges - massive bull's head 6 feet across, but industrial materials grown INTO his flesh: brass harpoons through skull sprouting like horns, rope beneath skin creating raised black spirals, fishing net fused with eyes, beautiful and horrible simultaneously.",
+      "progressive_state" : "",
+      "variant_id" : "45c_story_primary",
+      "active_video_index" : 0,
+      "videos" : [
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_the_water_202509211905_ts0pv.mp4",
-          "filename": "Subject_the_water_202509211905_ts0pv.mp4",
-          "duration": 8
+          "filename" : "Subject_the_water_202509211905_ts0pv.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202509211905_ts0pv.mp4"
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_the_water_202509211904_euyxj.mp4",
-          "duration": 8,
-          "filename": "Subject_the_water_202509211904_euyxj.mp4"
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202509211904_euyxj.mp4",
+          "filename" : "Subject_the_water_202509211904_euyxj.mp4"
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_the_water_202509211904_o08uw.mp4",
-          "filename": "Subject_the_water_202509211904_o08uw.mp4",
-          "duration": 8
+          "filename" : "Subject_the_water_202509211904_o08uw.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202509211904_o08uw.mp4",
+          "duration" : 8
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_the_water_202509211904_rcbkg.mp4",
-          "duration": 8,
-          "filename": "Subject_the_water_202509211904_rcbkg.mp4"
+          "duration" : 8,
+          "filename" : "Subject_the_water_202509211904_rcbkg.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202509211904_rcbkg.mp4"
         },
         {
-          "duration": 8,
-          "filepath": "/Users/ingthor/Downloads/Subject_the_water_202509211904_rytww.mp4",
-          "filename": "Subject_the_water_202509211904_rytww.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202509211904_rytww.mp4",
+          "duration" : 8,
+          "filename" : "Subject_the_water_202509211904_rytww.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_the_water_202510252055_caiaz.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202510252055_caiaz.mp4"
+        },
+        {
+          "filename" : "Subject_the_water_202510252055_6d4ip.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202510252055_6d4ip.mp4",
+          "duration" : 8
         }
-      ]
+      ],
+      "style" : "Pull back for scale then hold for witness (that's where the camera is), documenting corrupted divinity.",
+      "dialogue" : "(Guðrún, whispered): \"Griðungur... hvað gerðu þeir við þig?\" (Bull): Bellow mixing with trawler horn"
     }
   ],
-  "selected_prompt_index": 0,
-  "shot_metadata": {
-    "id": "45c",
-    "sequence_type": "main_story",
-    "duration_seconds": 8,
-    "needs_improvements": false,
-    "title": "GRI\u00d0UNGUR EMERGES - CONTAMINATED GOD 8 SECONDS",
-    "narrative_function": "Bull surfaces | Industrial horror | Camera frost 3...",
-    "stitch_from": ""
+  "progressive_state" : "Bull surfaces | Industrial horror | Camera frost 32.5% | God wounded | Watching: We witness agony",
+  "shot_metadata" : {
+    "id" : "45c",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "GRIÐUNGUR EMERGES - CONTAMINATED GOD 8 SECONDS",
+    "sequence_type" : "main_story",
+    "narrative_function" : "Bull surfaces | Industrial horror | Camera frost 3...",
+    "duration_seconds" : 8
   },
-  "aspect_ratio": "4:3",
-  "progressive_state": "Bull surfaces | Industrial horror | Camera frost 32.5% | God wounded | Watching: We witness agony"
+  "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0
 }

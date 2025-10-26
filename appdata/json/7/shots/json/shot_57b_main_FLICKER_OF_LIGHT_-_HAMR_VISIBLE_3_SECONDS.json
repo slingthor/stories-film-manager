@@ -1,76 +1,86 @@
 {
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "variant_id": "57b_story_primary",
-      "scene": "One second of match-light. Five sheep upright. Human shadows on walls. Then darkness.",
-      "dialogue": "None - just sharp intake of breath at sight",
-      "subject": "A match strikes - one second of light - revealing five sheep standing upright in human positions, wearing shredded clothes, their shadows on walls showing HUMAN shapes, inverse of everything we believed.",
-      "negative_prompt": "",
-      "action": "MATCH STRIKES. One second illumination. Flash reveals: Five sheep. Standing on hind legs. In torn human clothes. Positioned like family. But shadows on walls: perfect human silhouettes. Shadow-Magn\u00fas standing proud. Shadow-Gu\u00f0r\u00fan maternal. Shadow-children playing. Shadow-Sigrid apart. The shadows are more human than the bodies. Or are shadows the lie? Match dies. Darkness returns. But image burned in retina. Were they sheep casting human shadows? Humans casting sheep shadows? Both simultaneously? In that second: glimpse of Sigrid. She's... different. Not quite sheep. Not quite human. Something between. Becoming something else. Match dies. Breathing continues. Now we can't unhear the sheep quality. Can't unknow what we saw.",
-      "selected_plates": [
-        "BA\u00d0STOFA-CLIFF",
+      "scene" : "One second of match-light. Five sheep upright. Human shadows on walls. Then darkness.",
+      "camera_position" : "Brief illumination in darkness",
+      "progressive_state" : "",
+      "selected_plates" : [
+        "BAÐSTOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ],
-      "is_active": false,
-      "style": "Brief illumination in darkness (that's where the camera is), inverse surreal visual.",
-      "variant_name": "Primary - FLICKER OF LIGHT - HAMR VISIBLE 3 SECONDS",
-      "active_video_index": 0,
-      "progressive_state": "",
-      "camera_position": "Brief illumination in darkness",
-      "videos": [
+      "negative_prompt" : "",
+      "variant_name" : "Primary - FLICKER OF LIGHT - HAMR VISIBLE 3 SECONDS",
+      "is_active" : false,
+      "subject" : "A match strikes - one second of light - revealing five sheep standing upright in human positions, wearing shredded clothes, their shadows on walls showing HUMAN shapes, inverse of everything we believed.",
+      "action" : "MATCH STRIKES. One second illumination. Flash reveals: Five sheep. Standing on hind legs. In torn human clothes. Positioned like family. But shadows on walls: perfect human silhouettes. Shadow-Magnús standing proud. Shadow-Guðrún maternal. Shadow-children playing. Shadow-Sigrid apart. The shadows are more human than the bodies. Or are shadows the lie? Match dies. Darkness returns. But image burned in retina. Were they sheep casting human shadows? Humans casting sheep shadows? Both simultaneously? In that second: glimpse of Sigrid. She's... different. Not quite sheep. Not quite human. Something between. Becoming something else. Match dies. Breathing continues. Now we can't unhear the sheep quality. Can't unknow what we saw.",
+      "variant_id" : "57b_story_primary",
+      "active_video_index" : 0,
+      "videos" : [
         {
-          "filename": "Subject_a_match_202509211834_8te47.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_a_match_202509211834_8te47.mp4",
-          "duration": 8
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202509211834_8te47.mp4",
+          "filename" : "Subject_a_match_202509211834_8te47.mp4",
+          "duration" : 8
         },
         {
-          "filename": "Subject_a_match_202509211834_shmt3.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_a_match_202509211834_shmt3.mp4",
-          "duration": 8
+          "duration" : 8,
+          "filename" : "Subject_a_match_202509211834_shmt3.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202509211834_shmt3.mp4"
         },
         {
-          "filename": "Subject_a_match_202509211834_leeuz.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_a_match_202509211834_leeuz.mp4",
-          "duration": 8
+          "duration" : 8,
+          "filename" : "Subject_a_match_202509211834_leeuz.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202509211834_leeuz.mp4"
         },
         {
-          "duration": 8,
-          "filepath": "/Users/ingthor/Downloads/Subject_a_match_202509211834_w5rk7.mp4",
-          "filename": "Subject_a_match_202509211834_w5rk7.mp4"
+          "duration" : 8,
+          "filename" : "Subject_a_match_202509211834_w5rk7.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202509211834_w5rk7.mp4"
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrids_transformation_2025102323.mp4",
-          "duration": 8,
-          "filename": "Subject_sigrids_transformation_2025102323.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_transformation_2025102323.mp4"
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrids_transformation_2025102323-2.mp4",
-          "filename": "Subject_sigrids_transformation_2025102323-2.mp4",
-          "duration": 8
+          "filename" : "Subject_sigrids_transformation_2025102323-2.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323-2.mp4"
         },
         {
-          "duration": 8,
-          "filename": "Subject_sigridraven_entering_202510232314.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_sigridraven_entering_202510232314.mp4"
+          "filename" : "Subject_sigridraven_entering_202510232314.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314.mp4"
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_sigridraven_entering_202510232314-2.mp4",
-          "duration": 8,
-          "filename": "Subject_sigridraven_entering_202510232314-2.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314-2.mp4",
+          "filename" : "Subject_sigridraven_entering_202510232314-2.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202510252050_7ct2t.mp4",
+          "filename" : "Subject_a_match_202510252050_7ct2t.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_a_match_202510252050_p2d5w.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_match_202510252050_p2d5w.mp4"
         }
-      ]
+      ],
+      "style" : "Brief illumination in darkness (that's where the camera is), inverse surreal visual.",
+      "dialogue" : "None - just sharp intake of breath at sight"
     }
   ],
-  "selected_prompt_index": 0,
-  "shot_metadata": {
-    "id": "57b",
-    "sequence_type": "main_story",
-    "duration_seconds": 3,
-    "needs_improvements": false,
-    "title": "FLICKER OF LIGHT - HAMR VISIBLE 3 SECONDS",
-    "narrative_function": "Brief illumination | Camera frost 49.5% | Form rev...",
-    "stitch_from": ""
+  "progressive_state" : "Brief illumination | Camera frost 49.5% | Form revealed | Watching: Split-second truth",
+  "shot_metadata" : {
+    "id" : "57b",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "FLICKER OF LIGHT - HAMR VISIBLE 3 SECONDS",
+    "sequence_type" : "main_story",
+    "narrative_function" : "Brief illumination | Camera frost 49.5% | Form rev...",
+    "duration_seconds" : 3
   },
-  "aspect_ratio": "4:3",
-  "progressive_state": "Brief illumination | Camera frost 49.5% | Form revealed | Watching: Split-second truth"
+  "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0
 }

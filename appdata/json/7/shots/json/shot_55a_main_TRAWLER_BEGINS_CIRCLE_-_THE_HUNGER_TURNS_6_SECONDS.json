@@ -1,13 +1,10 @@
 {
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "variant_id": "55a_story_primary",
-      "scene": "View through window of fjord. Trawler creating perfect circle. Family gathered watching. Bull still at threshold.",
-      "dialogue": "(Magn\u00fas): \"Hva\u00f0 er \u00fea\u00f0 a\u00f0 gera?\" (Sigrid, knowing): \"\u00dea\u00f0 byrjar\" (It begins)",
-      "subject": "Through the window, the trawler GRIMSBY PRIDE beginning to move in a circle on the fjord, searchlights creating yellow spiral in water, the serpent hunting its own wake, industrial capitalism starting to consume itself.",
-      "negative_prompt": "",
-      "action": "Family at window - all drawn by sound. Trawler's engine changes pitch: industrial drone becoming organic hunger. Through frost-covered glass: trawler moving. Not straight but curving. Beginning massive circle on black water. Searchlights sweep but catch only its own wake - green-black contamination trail it left before. Following its own poison. WIDE SHOT shows scale: circle will be 1 kilometer diameter. Perfect geometry. Speed increasing: 5 knots, 10, 15. Impossible for vessel that size. Water churning white-green foam. As it turns, glimpse through wheelhouse: no crew. But something coiled inside. Massive. The ship just the visible portion of something much larger below. Sigrid presses black feather against window. Where it touches, frost melts, revealing clearer view. The trawler hunting itself. Industrial system pursuing its own destruction.",
-      "selected_plates": [
+      "scene" : "View through window of fjord. Trawler creating perfect circle. Family gathered watching. Bull still at threshold.",
+      "camera_position" : "Wide shot through frosted window",
+      "progressive_state" : "",
+      "selected_plates" : [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
         "LILJA-EVOLVING",
@@ -17,46 +14,54 @@
         "WESTFJORDS-CLIFF",
         "STOFA-CLIFF"
       ],
-      "is_active": false,
-      "style": "Wide shot through frosted window (that's where the camera is), ouroboros beginning documented.",
-      "variant_name": "Primary - TRAWLER BEGINS CIRCLE - THE HUNGER TURNS 6 SECONDS",
-      "active_video_index": 0,
-      "progressive_state": "",
-      "camera_position": "Wide shot through frosted window",
-      "videos": [
+      "negative_prompt" : "",
+      "variant_name" : "Primary - TRAWLER BEGINS CIRCLE - THE HUNGER TURNS 6 SECONDS",
+      "is_active" : false,
+      "subject" : "Through the window, the trawler GRIMSBY PRIDE beginning to move in a circle on the fjord, searchlights creating yellow spiral in water, the serpent hunting its own wake, industrial capitalism starting to consume itself.",
+      "action" : "Family at window - all drawn by sound. Trawler's engine changes pitch: industrial drone becoming organic hunger. Through frost-covered glass: trawler moving. Not straight but curving. Beginning massive circle on black water. Searchlights sweep but catch only its own wake - green-black contamination trail it left before. Following its own poison. WIDE SHOT shows scale: circle will be 1 kilometer diameter. Perfect geometry. Speed increasing: 5 knots, 10, 15. Impossible for vessel that size. Water churning white-green foam. As it turns, glimpse through wheelhouse: no crew. But something coiled inside. Massive. The ship just the visible portion of something much larger below. Sigrid presses black feather against window. Where it touches, frost melts, revealing clearer view. The trawler hunting itself. Industrial system pursuing its own destruction.",
+      "variant_id" : "55a_story_primary",
+      "active_video_index" : 0,
+      "videos" : [
         {
-          "duration": 8,
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrids_transformation_2025102323.mp4",
-          "filename": "Subject_sigrids_transformation_2025102323.mp4"
+          "duration" : 8,
+          "filename" : "Subject_sigrids_transformation_2025102323.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323.mp4"
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrids_transformation_2025102323-2.mp4",
-          "duration": 8,
-          "filename": "Subject_sigrids_transformation_2025102323-2.mp4"
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323-2.mp4",
+          "duration" : 8,
+          "filename" : "Subject_sigrids_transformation_2025102323-2.mp4"
         },
         {
-          "filename": "Subject_sigridraven_entering_202510232314.mp4",
-          "duration": 8,
-          "filepath": "/Users/ingthor/Downloads/Subject_sigridraven_entering_202510232314.mp4"
+          "filename" : "Subject_sigridraven_entering_202510232314.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314.mp4",
+          "duration" : 8
         },
         {
-          "duration": 8,
-          "filepath": "/Users/ingthor/Downloads/Subject_sigridraven_entering_202510232314-2.mp4",
-          "filename": "Subject_sigridraven_entering_202510232314-2.mp4"
+          "filename" : "Subject_sigridraven_entering_202510232314-2.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314-2.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_through_the_202510252051_i932i.mp4",
+          "filename" : "Subject_through_the_202510252051_i932i.mp4"
         }
-      ]
+      ],
+      "style" : "Wide shot through frosted window (that's where the camera is), ouroboros beginning documented.",
+      "dialogue" : "(Magnús): \"Hvað er það að gera?\" (Sigrid, knowing): \"Það byrjar\" (It begins)"
     }
   ],
-  "selected_prompt_index": 0,
-  "shot_metadata": {
-    "id": "55a",
-    "sequence_type": "main_story",
-    "duration_seconds": 6,
-    "needs_improvements": false,
-    "title": "TRAWLER BEGINS CIRCLE - THE HUNGER TURNS 6 SECONDS",
-    "narrative_function": "House 3/min critical + 35bpm | Serpent moving | Ca...",
-    "stitch_from": ""
+  "progressive_state" : "House 3\/min critical + 35bpm | Serpent moving | Camera frost 46% | Ouroboros beginning | Watching: End approaching",
+  "shot_metadata" : {
+    "id" : "55a",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "TRAWLER BEGINS CIRCLE - THE HUNGER TURNS 6 SECONDS",
+    "sequence_type" : "main_story",
+    "narrative_function" : "House 3\/min critical + 35bpm | Serpent moving | Ca...",
+    "duration_seconds" : 6
   },
-  "aspect_ratio": "4:3",
-  "progressive_state": "House 3/min critical + 35bpm | Serpent moving | Camera frost 46% | Ouroboros beginning | Watching: End approaching"
+  "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0
 }

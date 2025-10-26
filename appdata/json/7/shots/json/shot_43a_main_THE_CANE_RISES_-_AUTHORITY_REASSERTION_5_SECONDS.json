@@ -1,61 +1,61 @@
 {
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "action": "Magn\u00fas moves to door where cane stands. Ice has grown up shaft and DOWN into floor - rooted like frozen tree. Grips with 0Hz hands (no tremor, no feeling). Wrenches. Ice CRACKS, floor splinters pulling up. Cane free but floor damaged - hole showing stone r\u00e9ttir beneath. Turns to Gu\u00f0r\u00fan. Raises cane overhead. The 0Hz stillness terrifying - no shake, no tremor, perfect control for violence. Low angle shows him massive, ceiling forcing him to hunch making him more bestial. 40 miles to nearest human. No one to stop this. No one to define this as wrong. Isolation has made him god and animal both. His white hair wild, eyes showing the madness of endless sameness - same walls, same faces, same failure, day after day, winter after winter. The cane perfectly still in air. Gu\u00f0r\u00fan doesn't flinch - this is known, repeated, normal.",
-      "variant_name": "Primary - THE CANE RISES - AUTHORITY REASSERTION 5 SECONDS",
-      "active_video_index": 0,
-      "selected_plates": [
+      "variant_name" : "Primary - THE CANE RISES - AUTHORITY REASSERTION 5 SECONDS",
+      "subject" : "[MAGNÚS] retrieving his cane from where it stands frozen in the floor by the door, the ice having grown roots 3 inches deep which crack as he wrenches it free, raising it not for walking but as weapon, the 0Hz stillness in his hands making it perfectly steady for the first time.",
+      "dialogue" : "(Magnús, to cane): \"Komdu þá\" (To Guðrún): \"ÞÚ GERÐIR ÞETTA\"",
+      "variant_id" : "43a_story_primary",
+      "active_video_index" : 0,
+      "camera_position" : "Low angle tracking cane from floor to raised position",
+      "progressive_state" : "",
+      "is_active" : false,
+      "negative_prompt" : "",
+      "videos" : [
+        {
+          "filename" : "Subject_magns_retrieving_202509211910_ujh.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_retrieving_202509211910_ujh.mp4",
+          "duration" : 8
+        },
+        {
+          "duration" : 8,
+          "filename" : "Subject_magns_retrieving_202509211910_mkk.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_retrieving_202509211910_mkk.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_retrieving_202509211910_ybm.mp4",
+          "filename" : "Subject_magns_retrieving_202509211910_ybm.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_retrieving_202509211910_76g.mp4",
+          "duration" : 8,
+          "filename" : "Subject_magns_retrieving_202509211910_76g.mp4"
+        }
+      ],
+      "action" : "Magnús moves to door where cane stands. Ice has grown up shaft and DOWN into floor - rooted like frozen tree. Grips with 0Hz hands (no tremor, no feeling). Wrenches. Ice CRACKS, floor splinters pulling up. Cane free but floor damaged - hole showing stone réttir beneath. Turns to Guðrún. Raises cane overhead. The 0Hz stillness terrifying - no shake, no tremor, perfect control for violence. Low angle shows him massive, ceiling forcing him to hunch making him more bestial. 40 miles to nearest human. No one to stop this. No one to define this as wrong. Isolation has made him god and animal both. His white hair wild, eyes showing the madness of endless sameness - same walls, same faces, same failure, day after day, winter after winter. The cane perfectly still in air. Guðrún doesn't flinch - this is known, repeated, normal.",
+      "style" : "Low angle tracking cane from floor to raised position (that's where the camera is), authority as violence.",
+      "scene" : "Interior, 9:45 AM. Door behind him showing storm. Cane raised against low ceiling. Family frozen in positions.",
+      "selected_plates" : [
         "MAGNUS-PREDATOR",
         "SIGRID-CORNERED",
         "LILJA-ACCEPTING",
         "JON-TEMPORAL",
         "GUDRUN-BEATEN",
-        "BA\u00d0STOFA-CLEFT",
+        "BAÐSTOFA-CLEFT",
         "STOFA-BODY"
-      ],
-      "is_active": false,
-      "camera_position": "Low angle tracking cane from floor to raised position",
-      "dialogue": "(Magn\u00fas, to cane): \"Komdu \u00fe\u00e1\" (To Gu\u00f0r\u00fan): \"\u00de\u00da GER\u00d0\u0090IR \u00deETTA\"",
-      "subject": "[MAGN\u00daS] retrieving his cane from where it stands frozen in the floor by the door, the ice having grown roots 3 inches deep which crack as he wrenches it free, raising it not for walking but as weapon, the 0Hz stillness in his hands making it perfectly steady for the first time.",
-      "videos": [
-        {
-          "filepath": "/Users/ingthor/Downloads/Subject_magns_retrieving_202509211910_ujh.mp4",
-          "duration": 8,
-          "filename": "Subject_magns_retrieving_202509211910_ujh.mp4"
-        },
-        {
-          "filepath": "/Users/ingthor/Downloads/Subject_magns_retrieving_202509211910_mkk.mp4",
-          "filename": "Subject_magns_retrieving_202509211910_mkk.mp4",
-          "duration": 8
-        },
-        {
-          "filename": "Subject_magns_retrieving_202509211910_ybm.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_magns_retrieving_202509211910_ybm.mp4",
-          "duration": 8
-        },
-        {
-          "filename": "Subject_magns_retrieving_202509211910_76g.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_magns_retrieving_202509211910_76g.mp4",
-          "duration": 8
-        }
-      ],
-      "negative_prompt": "",
-      "variant_id": "43a_story_primary",
-      "progressive_state": "",
-      "style": "Low angle tracking cane from floor to raised position (that's where the camera is), authority as violence.",
-      "scene": "Interior, 9:45 AM. Door behind him showing storm. Cane raised against low ceiling. Family frozen in positions."
+      ]
     }
   ],
-  "selected_prompt_index": 0,
-  "shot_metadata": {
-    "id": "43a",
-    "sequence_type": "main_story",
-    "duration_seconds": 5,
-    "needs_improvements": false,
-    "title": "THE CANE RISES - AUTHORITY REASSERTION 5 SECONDS",
-    "narrative_function": "House 3/min + 40bpm weak | Rage building | Camera ...",
-    "stitch_from": ""
+  "progressive_state" : "House 3\/min + 40bpm weak | Rage building | Camera frost 28.5% | Madness visible | Watching: No witnesses to help",
+  "shot_metadata" : {
+    "id" : "43a",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "THE CANE RISES - AUTHORITY REASSERTION 5 SECONDS",
+    "sequence_type" : "main_story",
+    "narrative_function" : "House 3\/min + 40bpm weak | Rage building | Camera ...",
+    "duration_seconds" : 5
   },
-  "aspect_ratio": "1:1",
-  "progressive_state": "House 3/min + 40bpm weak | Rage building | Camera frost 28.5% | Madness visible | Watching: No witnesses to help"
+  "aspect_ratio" : "1:1",
+  "selected_prompt_index" : 0
 }

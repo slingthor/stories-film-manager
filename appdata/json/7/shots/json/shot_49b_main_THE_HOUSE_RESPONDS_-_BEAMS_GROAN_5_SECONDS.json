@@ -1,43 +1,53 @@
 {
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "variant_id": "49b_story_primary",
-      "scene": "Interior, beams visible flexing. Dust thick in air. Floor softening. House actively resisting.",
-      "dialogue": "(House/Bergrisi): Groaning at 16Hz, felt not heard (Magn\u00fas, oblivious): \"Fj\u00f3rir m\u00e1nu\u00f0ir? Fimm?\"",
-      "subject": "The three ceiling beams suddenly groaning and flexing downward like ribs breathing, dust cascading, the house itself warning [MAGN\u00daS] away from [SIGRID], but he's too focused on his inspection to notice the giant's intervention.",
-      "negative_prompt": "",
-      "action": "As Magn\u00fas continues inspection, house responds. TILT UP to ceiling beams. All three flex simultaneously - not from weight but muscular contraction. Like ribs. Pink tissue visible through wood for split second. Dust cascades. One beam CRACKS audibly, sound like breaking bone. Magn\u00fas should notice but doesn't - madness and focus blind him. Beams flex again, more pronounced. House breathing hits 20/min, hyperventilating. Trying to speak but only groans emerge. \"VITNI\" on wall glows slightly - the witness must survive. Floor beneath Magn\u00fas becomes soft, warm, trying to swallow his feet. But he's examining Sigrid's belly, checking rounded belly progression. Calculating months until she can replace mother. The isolation math: one woman dies, daughter becomes wife. No one to say it's wrong. 40 miles to civilization. But house says it's wrong. Beams flex third time. Splinter appears. If they break, ceiling collapses.",
-      "selected_plates": [
+      "scene" : "Interior, beams visible flexing. Dust thick in air. Floor softening. House actively resisting.",
+      "camera_position" : "Tilt up revealing house resistance",
+      "selected_plates" : [
         "MAGNUS-POSSESSOR",
         "SIGRID-CORNERED",
-        "BA\u00d0STOFA-CRYSTALLIZING",
+        "BAÐSTOFA-CRYSTALLIZING",
         "STOFA-BODY"
       ],
-      "is_active": false,
-      "style": "Tilt up revealing house resistance (that's where the camera is), giant's protection documented.",
-      "variant_name": "Primary - THE HOUSE RESPONDS - BEAMS GROAN 5 SECONDS",
-      "active_video_index": 0,
-      "progressive_state": "",
-      "camera_position": "Tilt up revealing house resistance",
-      "videos": [
+      "variant_name" : "Primary - THE HOUSE RESPONDS - BEAMS GROAN 5 SECONDS",
+      "negative_prompt" : "",
+      "action" : "As Magnús continues inspection, house responds. TILT UP to ceiling beams. All three flex simultaneously - not from weight but muscular contraction. Like ribs. Pink tissue visible through wood for split second. Dust cascades. One beam CRACKS audibly, sound like breaking bone. Magnús should notice but doesn't - madness and focus blind him. Beams flex again, more pronounced. House breathing hits 20\/min, hyperventilating. Trying to speak but only groans emerge. \"VITNI\" on wall glows slightly - the witness must survive. Floor beneath Magnús becomes soft, warm, trying to swallow his feet. But he's examining Sigrid's belly, checking rounded belly progression. Calculating months until she can replace mother. The isolation math: one woman dies, daughter becomes wife. No one to say it's wrong. 40 miles to civilization. But house says it's wrong. Beams flex third time. Splinter appears. If they break, ceiling collapses.",
+      "is_active" : false,
+      "subject" : "The three ceiling beams suddenly groaning and flexing downward like ribs breathing, dust cascading, the house itself warning [MAGNÚS] away from [SIGRID], but he's too focused on his inspection to notice the giant's intervention.",
+      "progressive_state" : "",
+      "variant_id" : "49b_story_primary",
+      "active_video_index" : 0,
+      "videos" : [
         {
-          "filename": "Subject_the_three_202509211901_93c8w.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_the_three_202509211901_93c8w.mp4",
-          "duration": 8
+          "filename" : "Subject_the_three_202509211901_93c8w.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202509211901_93c8w.mp4",
+          "duration" : 8
+        },
+        {
+          "filename" : "Subject_the_three_202510252054_3gzqd.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510252054_3gzqd.mp4"
+        },
+        {
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510252054_q57ez.mp4",
+          "filename" : "Subject_the_three_202510252054_q57ez.mp4"
         }
-      ]
+      ],
+      "style" : "Tilt up revealing house resistance (that's where the camera is), giant's protection documented.",
+      "dialogue" : "(House\/Bergrisi): Groaning at 16Hz, felt not heard (Magnús, oblivious): \"Fjórir mánuðir? Fimm?\""
     }
   ],
-  "selected_prompt_index": 0,
-  "shot_metadata": {
-    "id": "49b",
-    "sequence_type": "main_story",
-    "duration_seconds": 5,
-    "needs_improvements": false,
-    "title": "THE HOUSE RESPONDS - BEAMS GROAN 5 SECONDS",
-    "narrative_function": "House 20/min angry + 80bpm | Bergrisi protecting |...",
-    "stitch_from": ""
+  "progressive_state" : "House 20\/min angry + 80bpm | Bergrisi protecting | Camera frost 37% | Giant intervening | Watching: House chooses side",
+  "shot_metadata" : {
+    "id" : "49b",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "THE HOUSE RESPONDS - BEAMS GROAN 5 SECONDS",
+    "sequence_type" : "main_story",
+    "narrative_function" : "House 20\/min angry + 80bpm | Bergrisi protecting |...",
+    "duration_seconds" : 5
   },
-  "aspect_ratio": "1:1",
-  "progressive_state": "House 20/min angry + 80bpm | Bergrisi protecting | Camera frost 37% | Giant intervening | Watching: House chooses side"
+  "aspect_ratio" : "1:1",
+  "selected_prompt_index" : 0
 }

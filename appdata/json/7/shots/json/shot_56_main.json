@@ -1,80 +1,90 @@
 {
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "variant_id": "56_story_primary",
-      "scene": "Ba\u00f0stofa interior with family as conscious livestock, furniture arrangements maintained for bipedal use with quadruped anatomy, impossible cultural preservation through species transformation.",
-      "dialogue": "None - human consciousness through sheep anatomy unable to form human speech",
-      "subject": "Five white Icelandic sheep standing upright around table, wearing family's clothes, human teeth visible in sheep mouths, [GU\u00d0R\u00daN] with faldb\u00faningur headdress fitting perfectly on sheep head, all breathing at 8/min synchronized rhythm while human consciousness clearly visible through sheep eyes.",
-      "negative_prompt": "no normal sheep behavior, no loss of human consciousness, no realistic clothing fit, no normal family function",
-      "action": "Family arranged in traditional positions but as sheep - Magn\u00fas-ram at table head wearing brown va\u00f0m\u00e1l sweater, curved horns visible, steel-blue eyes showing human intelligence and frustration. Gu\u00f0r\u00fan-ewe with traditional headdress impossible but perfect on sheep skull, human consciousness obvious through horizontal pupils, mouth forming human words through sheep anatomy. J\u00f3n-lamb and Lilja-lamb maintaining child positions, human expressive face through animal expressions. Sigrid-ewe at 11-foot distance, belly showing rounded belly through sheep anatomy, grey eyes with amber flecks clearly human consciousness in animal head. All wear family clothing stretched over quadruped bodies, human possessions somehow fitting animal anatomy. Breathing synchronized at 8/min sheep rhythm but with human awareness visible through eye expression and behavioral complexity impossible with normal livestock intelligence.",
-      "selected_plates": [
+      "scene" : "Baðstofa interior with family as conscious livestock, furniture arrangements maintained for bipedal use with quadruped anatomy, impossible cultural preservation through species transformation.",
+      "camera_position" : "Wide shot documenting complete transformation, that's where the camera is",
+      "progressive_state" : "",
+      "selected_plates" : [
         "MAGNUS-SHIFTING",
         "SIGRID-TRANSITIONAL",
         "LILJA-FINAL",
         "JON-CHANGING",
         "GUDRUN-SPEAKING",
-        "BA\u00d0STOFA-CLIFF"
+        "BAÐSTOFA-CLIFF"
       ],
-      "is_active": false,
-      "style": "Wide shot showing complete family transformation while maintaining domestic arrangements (that's where the camera is), documentary of impossible anatomy with cultural continuity.",
-      "variant_name": "Conscious Livestock Horror",
-      "active_video_index": 0,
-      "progressive_state": "",
-      "camera_position": "Wide shot documenting complete transformation, that's where the camera is",
-      "videos": [
+      "negative_prompt" : "no normal sheep behavior, no loss of human consciousness, no realistic clothing fit, no normal family function",
+      "variant_name" : "Conscious Livestock Horror",
+      "is_active" : false,
+      "subject" : "Five white Icelandic sheep standing upright around table, wearing family's clothes, human teeth visible in sheep mouths, [GUÐRÚN] with faldbúningur headdress fitting perfectly on sheep head, all breathing at 8\/min synchronized rhythm while human consciousness clearly visible through sheep eyes.",
+      "action" : "Family arranged in traditional positions but as sheep - Magnús-ram at table head wearing brown vaðmál sweater, curved horns visible, steel-blue eyes showing human intelligence and frustration. Guðrún-ewe with traditional headdress impossible but perfect on sheep skull, human consciousness obvious through horizontal pupils, mouth forming human words through sheep anatomy. Jón-lamb and Lilja-lamb maintaining child positions, human expressive face through animal expressions. Sigrid-ewe at 11-foot distance, belly showing rounded belly through sheep anatomy, grey eyes with amber flecks clearly human consciousness in animal head. All wear family clothing stretched over quadruped bodies, human possessions somehow fitting animal anatomy. Breathing synchronized at 8\/min sheep rhythm but with human awareness visible through eye expression and behavioral complexity impossible with normal livestock intelligence.",
+      "variant_id" : "56_story_primary",
+      "active_video_index" : 0,
+      "videos" : [
         {
-          "filename": "Subject_five_white_202509211841_20f0c.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_five_white_202509211841_20f0c.mp4",
-          "duration": 8
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_20f0c.mp4",
+          "filename" : "Subject_five_white_202509211841_20f0c.mp4",
+          "duration" : 8
         },
         {
-          "filename": "Subject_five_white_202509211841_wavwe.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_five_white_202509211841_wavwe.mp4",
-          "duration": 8
+          "filename" : "Subject_five_white_202509211841_wavwe.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_wavwe.mp4",
+          "duration" : 8
         },
         {
-          "filename": "Subject_five_white_202509211841_o5ok8.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_five_white_202509211841_o5ok8.mp4",
-          "duration": 8
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_o5ok8.mp4",
+          "filename" : "Subject_five_white_202509211841_o5ok8.mp4"
         },
         {
-          "duration": 8,
-          "filename": "Subject_five_white_202509211841_1n5mr.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_five_white_202509211841_1n5mr.mp4"
+          "filename" : "Subject_five_white_202509211841_1n5mr.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202509211841_1n5mr.mp4",
+          "duration" : 8
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrids_transformation_2025102323.mp4",
-          "duration": 8,
-          "filename": "Subject_sigrids_transformation_2025102323.mp4"
+          "duration" : 8,
+          "filename" : "Subject_sigrids_transformation_2025102323.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323.mp4"
         },
         {
-          "filename": "Subject_sigrids_transformation_2025102323-2.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_sigrids_transformation_2025102323-2.mp4",
-          "duration": 8
+          "filename" : "Subject_sigrids_transformation_2025102323-2.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323-2.mp4"
         },
         {
-          "filepath": "/Users/ingthor/Downloads/Subject_sigridraven_entering_202510232314.mp4",
-          "duration": 8,
-          "filename": "Subject_sigridraven_entering_202510232314.mp4"
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314.mp4",
+          "filename" : "Subject_sigridraven_entering_202510232314.mp4"
         },
         {
-          "duration": 8,
-          "filename": "Subject_sigridraven_entering_202510232314-2.mp4",
-          "filepath": "/Users/ingthor/Downloads/Subject_sigridraven_entering_202510232314-2.mp4"
+          "filename" : "Subject_sigridraven_entering_202510232314-2.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314-2.mp4",
+          "duration" : 8
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202510252051_dh8y1.mp4",
+          "duration" : 8,
+          "filename" : "Subject_five_white_202510252051_dh8y1.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_five_white_202510252051_uj92e.mp4",
+          "duration" : 8,
+          "filename" : "Subject_five_white_202510252051_uj92e.mp4"
         }
-      ]
+      ],
+      "style" : "Wide shot showing complete family transformation while maintaining domestic arrangements (that's where the camera is), documentary of impossible anatomy with cultural continuity.",
+      "dialogue" : "None - human consciousness through sheep anatomy unable to form human speech"
     }
   ],
-  "selected_prompt_index": 0,
-  "shot_metadata": {
-    "id": "56",
-    "sequence_type": "main_story",
-    "duration_seconds": 8,
-    "needs_improvements": false,
-    "title": "Family as Sheep - Central Horror Image",
-    "narrative_function": "Reveals family transformation with human consciousness retained",
-    "stitch_from": ""
+  "progressive_state" : "Family transformation 100% | Human consciousness preserved | Central horror revealed | Watching: Impossible anatomy",
+  "shot_metadata" : {
+    "id" : "56",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "Family as Sheep - Central Horror Image",
+    "sequence_type" : "main_story",
+    "narrative_function" : "Reveals family transformation with human consciousness retained",
+    "duration_seconds" : 8
   },
-  "aspect_ratio": "4:3",
-  "progressive_state": "Family transformation 100% | Human consciousness preserved | Central horror revealed | Watching: Impossible anatomy"
+  "aspect_ratio" : "4:3",
+  "selected_prompt_index" : 0
 }

@@ -1,72 +1,72 @@
 {
-  "prompt_variants": [
+  "prompt_variants" : [
     {
-      "action": "Magn\u00fas pushes back from table, stands slowly. Height makes him tower over seated crowd. Picks up clay cup filled with purple kr\u00e6kilberjasaft. Liquid dark purple, almost black. Raises cup high. Everyone watches. Opens mouth. Lips form words. No sound emerges. Tries again. Mouth moves - can read lips saying 'Vi\u00f0 erum...' (We are...). Still no sound. Face shows confusion, not fear. Not angry. Puzzled. Purple juice trembles in cup, small waves forming. Behind him, sun still frozen on horizon. Should have set hour ago. Magn\u00fas tries third time. This time faint sound emerges - not words, closer to sheep's bleat. Stops immediately. Looks at Gu\u00f0r\u00fan. She nods encouragement. He sits down slowly, still holding cup. Everyone remains frozen, waiting for toast that won't come. In the purple juice, reflection shows not his face but wool. White wool.",
-      "subject": "[MAGN\u00daS] standing at head of center table, raising cup of purple berry juice, mouth opening to speak, lips moving but no sound emerging, his face showing confusion, the purple liquid trembling in the cup.",
-      "dialogue": "None - mouth moving but no sound",
-      "scene": "Feast tables at sunset that won't complete. Golden light frozen. Everyone watching Magn\u00fas. No wind, no movement except him.\n\nField near houses. Three tables in horseshoe. Evening light golden. Ocean visible in distance. Mountains surrounding.",
-      "progressive_state": "",
-      "videos": [
-        {
-          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142230_ypdpx.mp4",
-          "filename": "Meta_setting_iceland_202509142230_ypdpx.mp4",
-          "duration": 8
-        },
-        {
-          "duration": 8,
-          "filename": "Meta_setting_iceland_202509142230_is477.mp4",
-          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142230_is477.mp4"
-        },
-        {
-          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142230_9acy3.mp4",
-          "duration": 8,
-          "filename": "Meta_setting_iceland_202509142230_9acy3.mp4"
-        },
-        {
-          "filename": "Meta_setting_iceland_202509150022_s2n17.mp4",
-          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509150022_s2n17.mp4",
-          "duration": 8
-        },
-        {
-          "filename": "video0.mp4",
-          "filepath": "/Users/ingthor/Downloads/video0.mp4",
-          "duration": 8
-        },
-        {
-          "filename": "Meta_setting_iceland_202509142355_wkic0.mp4",
-          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142355_wkic0.mp4",
-          "duration": 8
-        }
-      ],
-      "variant_name": "Failed Toast Authority",
-      "style": "Medium shot from across table, focused on Magn\u00fas trying to speak (that's where the camera is), purple cup prominent.",
-      "active_video_index": 3,
-      "selected_plates": [
+      "variant_id" : "7b_story_primary",
+      "subject" : "[MAGNÚS] standing at head of center table, raising cup of purple berry juice, mouth opening to speak, lips moving but no sound emerging, his face showing confusion, the purple liquid trembling in the cup.",
+      "scene" : "Feast tables at sunset that won't complete. Golden light frozen. Everyone watching Magnús. No wind, no movement except him.\n\nField near houses. Three tables in horseshoe. Evening light golden. Ocean visible in distance. Mountains surrounding.",
+      "progressive_state" : "",
+      "selected_plates" : [
         "MAGNUS-AUTHORITY",
         "SIGRID-PURE",
         "LILJA-PURE",
         "JON-MILD",
         "GUDRUN-ABUNDANT",
-        "BA\u00d0STOFA-DOMESTIC",
+        "BAÐSTOFA-DOMESTIC",
         "WESTFJORDS-BEACH",
         "WESTFJORDS-SUMMER"
       ],
-      "negative_prompt": "no subtitles, show mouth moving without sound, purple juice trembling, frozen sun visible, 1080p",
-      "variant_id": "7b_story_primary",
-      "camera_position": "Across table from Magn\u00fas during speech attempt, that's where the camera is",
-      "is_active": false
+      "camera_position" : "Across table from Magnús during speech attempt, that's where the camera is",
+      "videos" : [
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142230_ypdpx.mp4",
+          "duration" : 8,
+          "filename" : "Meta_setting_iceland_202509142230_ypdpx.mp4"
+        },
+        {
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142230_is477.mp4",
+          "duration" : 8,
+          "filename" : "Meta_setting_iceland_202509142230_is477.mp4"
+        },
+        {
+          "duration" : 8,
+          "filename" : "Meta_setting_iceland_202509142230_9acy3.mp4",
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142230_9acy3.mp4"
+        },
+        {
+          "filename" : "Meta_setting_iceland_202509150022_s2n17.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509150022_s2n17.mp4"
+        },
+        {
+          "filename" : "video0.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/video0.mp4"
+        },
+        {
+          "filename" : "Meta_setting_iceland_202509142355_wkic0.mp4",
+          "duration" : 8,
+          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142355_wkic0.mp4"
+        }
+      ],
+      "variant_name" : "Failed Toast Authority",
+      "dialogue" : "None - mouth moving but no sound",
+      "active_video_index" : 3,
+      "is_active" : false,
+      "negative_prompt" : "no subtitles, show mouth moving without sound, purple juice trembling, frozen sun visible, 1080p",
+      "style" : "Medium shot from across table, focused on Magnús trying to speak (that's where the camera is), purple cup prominent.",
+      "action" : "Magnús pushes back from table, stands slowly. Height makes him tower over seated crowd. Picks up clay cup filled with purple krækilberjasaft. Liquid dark purple, almost black. Raises cup high. Everyone watches. Opens mouth. Lips form words. No sound emerges. Tries again. Mouth moves - can read lips saying 'Við erum...' (We are...). Still no sound. Face shows confusion, not fear. Not angry. Puzzled. Purple juice trembles in cup, small waves forming. Behind him, sun still frozen on horizon. Should have set hour ago. Magnús tries third time. This time faint sound emerges - not words, closer to sheep's bleat. Stops immediately. Looks at Guðrún. She nods encouragement. He sits down slowly, still holding cup. Everyone remains frozen, waiting for toast that won't come. In the purple juice, reflection shows not his face but wool. White wool."
     }
   ],
-  "selected_prompt_index": 0,
-  "shot_metadata": {
-    "id": "7b",
-    "sequence_type": "prologue",
-    "duration_seconds": 8,
-    "needs_improvements": false,
-    "title": "Standing Toast - Authority Speaking",
-    "narrative_function": "Authority speech becoming animal sound",
-    "stitch_from": ""
+  "progressive_state" : "Authority speaking | Words failing | Camera frost 1% edges | Language breaks | Watching: The silence begins",
+  "shot_metadata" : {
+    "id" : "7b",
+    "stitch_from" : "",
+    "needs_improvements" : false,
+    "title" : "Standing Toast - Authority Speaking",
+    "sequence_type" : "prologue",
+    "narrative_function" : "Authority speech becoming animal sound",
+    "duration_seconds" : 8
   },
-  "aspect_ratio": "1.85:1",
-  "progressive_state": "Authority speaking | Words failing | Camera frost 1% edges | Language breaks | Watching: The silence begins"
+  "aspect_ratio" : "1.85:1",
+  "selected_prompt_index" : 0
 }
