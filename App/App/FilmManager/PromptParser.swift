@@ -14,14 +14,31 @@ class PromptParser {
             return nil
         }
 
-        // Extract each component
+        // Try full parsing first (ACTION + SCENE required)
+        if let fullComponents = parseFullPrompt(from: normalized) {
+            print("[Sora] ✅ Successfully parsed full prompt with ACTION and SCENE")
+            return fullComponents
+        }
+
+        // Fallback: try parsing just SUBJECT (for truncated Sora prompts)
+        print("[Sora] ⚠️ Full prompt parsing failed - trying SUBJECT-only fallback")
+        if let subjectOnlyComponents = parseSubjectOnly(from: normalized) {
+            print("[Sora] ✅ Successfully parsed SUBJECT-only (truncated prompt)")
+            return subjectOnlyComponents
+        }
+
+        print("[Sora] ❌ Failed to parse prompt - neither full nor SUBJECT-only parsing succeeded")
+        return nil
+    }
+
+    // MARK: - Full Prompt Parsing (ACTION + SCENE required)
+    private func parseFullPrompt(from normalized: String) -> PromptComponents? {
+        // Extract required components
         guard let action = extractSection(from: normalized, sectionName: "ACTION") else {
-            print("[Sora] ⚠️ Could not extract ACTION from prompt")
             return nil
         }
 
         guard let scene = extractSection(from: normalized, sectionName: "SCENE") else {
-            print("[Sora] ⚠️ Could not extract SCENE from prompt")
             return nil
         }
 
@@ -32,7 +49,7 @@ class PromptParser {
         let negativePrompt = extractSection(from: normalized, sectionName: "NEGATIVE PROMPT") ?? ""
         let aspect = extractSection(from: normalized, sectionName: "ASPECT") ?? ""
 
-        let components = PromptComponents(
+        return PromptComponents(
             subject: subject,
             action: action,
             scene: scene,
@@ -41,9 +58,32 @@ class PromptParser {
             negativePrompt: negativePrompt,
             aspect: aspect
         )
+    }
 
-        print("[Sora] ✅ Successfully parsed prompt components")
-        return components
+    // MARK: - SUBJECT-only Parsing (fallback for truncated Sora prompts)
+    private func parseSubjectOnly(from normalized: String) -> PromptComponents? {
+        // Extract SUBJECT section
+        guard let subject = extractSection(from: normalized, sectionName: "SUBJECT") else {
+            return nil
+        }
+
+        guard !subject.isEmpty else {
+            return nil
+        }
+
+        // Use SUBJECT for both ACTION and SCENE to enable matching
+        // This allows the ShotMatcher to still work even with truncated prompts
+        print("[Sora] ℹ️ Using SUBJECT for both ACTION and SCENE matching")
+
+        return PromptComponents(
+            subject: subject,
+            action: subject,  // Use SUBJECT as ACTION
+            scene: subject,   // Use SUBJECT as SCENE
+            style: "",
+            dialogue: "",
+            negativePrompt: "",
+            aspect: ""
+        )
     }
 
     // MARK: - Section Extraction
