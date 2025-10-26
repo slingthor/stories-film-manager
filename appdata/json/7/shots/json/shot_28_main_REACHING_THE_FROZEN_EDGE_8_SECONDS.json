@@ -1,218 +1,78 @@
 {
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "action" : "Final pull brings boat to ice edge. The fjord spread before him: black water so clear it looks like air. Can see straight down to grey bedrock, naked stone scoured clean. No kelp forests swaying. No fish shadows. No crabs. Nothing. The clarity itself is wrong - water shouldn't be this pure, this empty. Ice edge drops straight down, 3-foot thick shelf ending in knife-sharp line. Beyond the ice, open water stretches to horizon, not a ripple. Magnús stares down through clarity, counting depth by eye: 10 feet, 20 feet, 30 feet to bottom. Counts automatically in Danish: \"Ti... tyve... tredive...\" Realizes he can see trawl marks on seafloor - parallel gouges where nets scraped everything. British extraction complete. His 0Hz hands (no tremor) feel nothing as he positions boat. Behind him, blood trail leads back to house, now small in distance. Trawler visible in far fjord, waiting, watching with yellow lights. Sky darkening more despite morning.",
-      "subject" : "[MAGNÚS] dragging the árabátur to the fjord's frozen edge where black water meets white ice, the transition sharp as a blade, revealing through crystalline clarity that the water is completely empty - no kelp shadows, no fish movement, just visible bedrock 30 feet down.",
-      "dialogue" : "(Magnús, seeing emptiness): \"Tómt... allt tómt\" (Empty... all empty) (Counting depth): \"Ti... tyve... tredive...\" (To trawler in distance): \"Þið tókuð allt\" (You took everything)",
-      "scene" : "Fjord edge, 6:45 AM, unnatural darkness. Temperature -28°C. Water temperature -2°C (salt prevents freezing). The transition from ice to water absolute, no slush, no gradual zone.",
-      "progressive_state" : "",
-      "videos" : [
+      "action": "Final pull brings boat to ice edge. The fjord spread before him: black water so clear it looks like air. Can see straight down to grey bedrock, naked stone scoured clean. No kelp forests swaying. No fish shadows. No crabs. Nothing. The clarity itself is wrong - water shouldn't be this pure, this empty. Ice edge drops straight down, 3-foot thick shelf ending in knife-sharp line. Beyond the ice, open water stretches to horizon, not a ripple. Magn\u00fas stares down through clarity, counting depth by eye: 10 feet, 20 feet, 30 feet to bottom. Counts automatically in Danish: \"Ti... tyve... tredive...\" Realizes he can see trawl marks on seafloor - parallel gouges where nets scraped everything. British extraction complete. His 0Hz hands (no tremor) feel nothing as he positions boat. Behind him, blood trail leads back to house, now small in distance. Trawler visible in far fjord, waiting, watching with yellow lights. Sky darkening more despite morning.",
+      "subject": "[MAGN\u00daS] dragging the \u00e1rab\u00e1tur to the fjord's frozen edge where black water meets white ice, the transition sharp as a blade, revealing through crystalline clarity that the water is completely empty - no kelp shadows, no fish movement, just visible bedrock 30 feet down.",
+      "dialogue": "(Magn\u00fas, seeing emptiness): \"T\u00f3mt... allt t\u00f3mt\" (Empty... all empty) (Counting depth): \"Ti... tyve... tredive...\" (To trawler in distance): \"\u00dei\u00f0 t\u00f3ku\u00f0 allt\" (You took everything)",
+      "scene": "Fjord edge, 6:45 AM, unnatural darkness. Temperature -28\u00b0C. Water temperature -2\u00b0C (salt prevents freezing). The transition from ice to water absolute, no slush, no gradual zone.",
+      "progressive_state": "",
+      "videos": [
         {
-          "filename" : "Subject_magns_dragging_202509211920_qlgbo.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_dragging_202509211920_qlgbo.mp4",
-          "duration" : 8
+          "filename": "Subject_magns_dragging_202509211920_qlgbo.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_magns_dragging_202509211920_qlgbo.mp4",
+          "duration": 8
         },
         {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_dragging_202509211920_f5fi4.mp4",
-          "filename" : "Subject_magns_dragging_202509211920_f5fi4.mp4"
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Subject_magns_dragging_202509211920_f5fi4.mp4",
+          "filename": "Subject_magns_dragging_202509211920_f5fi4.mp4"
         },
         {
-          "filename" : "Subject_magns_dragging_202509211920_tgtrn.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_dragging_202509211920_tgtrn.mp4",
-          "duration" : 8
+          "filename": "Subject_magns_dragging_202509211920_tgtrn.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_magns_dragging_202509211920_tgtrn.mp4",
+          "duration": 8
         },
         {
-          "filename" : "Subject_magns_dragging_202509211920_ep549.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_dragging_202509211920_ep549.mp4",
-          "duration" : 8
+          "filename": "Subject_magns_dragging_202509211920_ep549.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_magns_dragging_202509211920_ep549.mp4",
+          "duration": 8
         },
         {
-          "filename" : "Subject_magns_dragging_202509211931_i5cbh.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_dragging_202509211931_i5cbh.mp4",
-          "duration" : 8
+          "filename": "Subject_magns_dragging_202509211931_i5cbh.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_magns_dragging_202509211931_i5cbh.mp4",
+          "duration": 8
         },
         {
-          "filename" : "Subject_magns_dragging_202509211931_rct3v.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_dragging_202509211931_rct3v.mp4",
-          "duration" : 8
+          "filename": "Subject_magns_dragging_202509211931_rct3v.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_magns_dragging_202509211931_rct3v.mp4",
+          "duration": 8
         },
         {
-          "filename" : "Subject_magns_dragging_202509211931_65jbt.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_dragging_202509211931_65jbt.mp4"
+          "filename": "Subject_magns_dragging_202509211931_65jbt.mp4",
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Subject_magns_dragging_202509211931_65jbt.mp4"
         },
         {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_dragging_202509211931_po0y1.mp4",
-          "filename" : "Subject_magns_dragging_202509211931_po0y1.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_the_trawler_202510240003_txilg.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_txilg.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_zgstl.mp4",
-          "filename" : "Subject_the_trawler_202510240003_zgstl.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_magns_raising_202510240003_3jlp0.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_raising_202510240003_3jlp0.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_raising_202510240003_c0jzw.mp4",
-          "filename" : "Subject_magns_raising_202510240003_c0jzw.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_reaching_202510240003_7wa1e.mp4",
-          "duration" : 8,
-          "filename" : "Subject_magns_reaching_202510240003_7wa1e.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_magns_reaching_202510240003_m3rsq.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_reaching_202510240003_m3rsq.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_nbgln.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_trawler_202510240003_nbgln.mp4"
-        },
-        {
-          "filename" : "Subject_the_trawler_202510240003_bl606.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_bl606.mp4"
-        },
-        {
-          "filename" : "Subject_magns_pulling_202510240003_n3t9w.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pulling_202510240003_n3t9w.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pulling_202510240003_dau04.mp4",
-          "duration" : 8,
-          "filename" : "Subject_magns_pulling_202510240003_dau04.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_underwater_camera_202510240004_ty49r.mp4",
-          "duration" : 8,
-          "filename" : "Subject_underwater_camera_202510240004_ty49r.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_underwater_camera_202510240004_x86el.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_underwater_camera_202510240004_x86el.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510240004_jtyhy.mp4",
-          "duration" : 8,
-          "filename" : "Subject_jn_and_202510240004_jtyhy.mp4"
-        },
-        {
-          "filename" : "Subject_jn_and_202510240004_lub2n.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510240004_lub2n.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510240004_tt8oi.mp4",
-          "filename" : "Subject_jn_and_202510240004_tt8oi.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510240004_2rn2y.mp4",
-          "filename" : "Subject_jn_and_202510240004_2rn2y.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240004_n81jo.mp4",
-          "duration" : 8,
-          "filename" : "Subject_subject_reference_202510240004_n81jo.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240004_nvw19.mp4",
-          "filename" : "Subject_subject_reference_202510240004_nvw19.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_magnus_and_202510240004_dxwww.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magnus_and_202510240004_dxwww.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magnus_and_202510240004_mfs75.mp4",
-          "filename" : "Subject_magnus_and_202510240004_mfs75.mp4"
-        },
-        {
-          "filename" : "Subject_a_translucent_202510240004_foupt.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_translucent_202510240004_foupt.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_a_translucent_202510240004_ns3dg.mp4",
-          "duration" : 8,
-          "filename" : "Subject_a_translucent_202510240004_ns3dg.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240005_k9ldv.mp4",
-          "duration" : 8,
-          "filename" : "Subject_subject_reference_202510240005_k9ldv.mp4"
-        },
-        {
-          "filename" : "Subject_subject_reference_202510240005_r0yh5.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240005_r0yh5.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202510240005_8o1wz.mp4",
-          "filename" : "Subject_magns_pushing_202510240005_8o1wz.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_magns_pushing_202510240005_5qeut.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pushing_202510240005_5qeut.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_magns_dragging_202510240005_7ef6z.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_dragging_202510240005_7ef6z.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_magns_dragging_202510240005_tzayy.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_dragging_202510240005_tzayy.mp4",
-          "duration" : 8
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Subject_magns_dragging_202509211931_po0y1.mp4",
+          "filename": "Subject_magns_dragging_202509211931_po0y1.mp4"
         }
       ],
-      "variant_name" : "Primary - REACHING THE FROZEN EDGE 8 SECONDS",
-      "style" : "High angle looking down through clear water to empty bottom, then Magnús's face realizing (that's where the camera is), documentary of extraction revealed.",
-      "active_video_index" : 0,
-      "selected_plates" : [
+      "variant_name": "Primary - REACHING THE FROZEN EDGE 8 SECONDS",
+      "style": "High angle looking down through clear water to empty bottom, then Magn\u00fas's face realizing (that's where the camera is), documentary of extraction revealed.",
+      "active_video_index": 0,
+      "selected_plates": [
         "MAGNUS-AFLOAT",
         "SEA-EXTRACTED",
         "WESTFJORDS-FJORD",
         "WESTFJORDS-WINTER"
       ],
-      "negative_prompt" : "no subtitles, show crystalline empty clarity, trawl marks visible, documentary observation",
-      "variant_id" : "28_story_primary",
-      "camera_position" : "High angle looking down through clear water to empty bottom, then Magnús's face realizing",
-      "is_active" : false
+      "negative_prompt": "no subtitles, show crystalline empty clarity, trawl marks visible, documentary observation",
+      "variant_id": "28_story_primary",
+      "camera_position": "High angle looking down through clear water to empty bottom, then Magn\u00fas's face realizing",
+      "is_active": false
     }
   ],
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "id" : "28",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "needs_improvements" : false,
-    "title" : "REACHING THE FROZEN EDGE 8 SECONDS",
-    "narrative_function" : "Fjord approaching | Ice edge visible | Camera fros...",
-    "stitch_from" : ""
+  "selected_prompt_index": 0,
+  "shot_metadata": {
+    "id": "28",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "needs_improvements": false,
+    "title": "REACHING THE FROZEN EDGE 8 SECONDS",
+    "narrative_function": "Fjord approaching | Ice edge visible | Camera fros...",
+    "stitch_from": ""
   },
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Fjord approaching | Ice edge visible | Camera frost 18.5% | Final approach | Watching: Trawler waiting"
+  "aspect_ratio": "4:3",
+  "progressive_state": "Fjord approaching | Ice edge visible | Camera frost 18.5% | Final approach | Watching: Trawler waiting"
 }

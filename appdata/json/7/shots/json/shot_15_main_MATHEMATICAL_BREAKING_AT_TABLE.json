@@ -1,51 +1,51 @@
 {
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "action" : "Family resumes positions at table. Guðrún mechanically sets bowls - her hands place six though she looks at five people. Magnús counts them, pointing with tremoring finger (3.5Hz): \"Einn\" (Guðrún), \"Tveir\" (Jón), \"Þrír\" (Lilja), \"Fjórir\" (himself), \"Fimm\" (Sigrid at 11 feet). Finger rises to point at empty space: \"Sex?\" But sixth bowl sits there, sixth shadow on wall, sixth breath visible in cold air. In the water bucket, reflection shows six faces clearly. Magnús shakes head, counts again on fingers, gets five. Counts family, gets five. Counts bowls, gets six. Counts shadows, gets six. The lamp flame flickers with each count, dimmer each time - oil nearly gone. Sigrid watches the sixth space, her hand protective on belly - does she count the unborn? Or something else? Empty clothes in corner arranged as sixth figure. House heartbeat skips - 60bpm stutters, resumes.",
-      "subject" : "The family returning to table from storage room, but as they sit, the count breaks - [MAGNÚS] counts aloud \"einn, tveir, þrír, fjórir, fimm\" pointing at each person, but six plates are set, six shadows on wall, six breaths visible in cold air, the sixth presence undeniable but unseen.",
-      "scene" : "Table, 6:15 AM, lamp barely alive. Temperature -12°C, breath from six sources visible though five people. The mathematics visibly breaking - different counts for different things. Cross patterns in window frost seem to shift with each count. Oil lamp has maybe 10 minutes left, wick showing black.",
-      "dialogue" : "(Magnús counting): \"Einn, tveir, þrír, fjórir, fimm... sex?\" (Counting again): \"Fimm... nei, sex... nei...\" (Frustrated): \"Hversu margir erum við?\" (How many are we?) (Sigrid, quiet): \"Það fer eftir því\" (That depends)",
-      "progressive_state" : "",
-      "videos" : [
+      "action": "Family resumes positions at table. Gu\u00f0r\u00fan mechanically sets bowls - her hands place six though she looks at five people. Magn\u00fas counts them, pointing with tremoring finger (3.5Hz): \"Einn\" (Gu\u00f0r\u00fan), \"Tveir\" (J\u00f3n), \"\u00der\u00edr\" (Lilja), \"Fj\u00f3rir\" (himself), \"Fimm\" (Sigrid at 11 feet). Finger rises to point at empty space: \"Sex?\" But sixth bowl sits there, sixth shadow on wall, sixth breath visible in cold air. In the water bucket, reflection shows six faces clearly. Magn\u00fas shakes head, counts again on fingers, gets five. Counts family, gets five. Counts bowls, gets six. Counts shadows, gets six. The lamp flame flickers with each count, dimmer each time - oil nearly gone. Sigrid watches the sixth space, her hand protective on belly - does she count the unborn? Or something else? Empty clothes in corner arranged as sixth figure. House heartbeat skips - 60bpm stutters, resumes.",
+      "subject": "The family returning to table from storage room, but as they sit, the count breaks - [MAGN\u00daS] counts aloud \"einn, tveir, \u00fer\u00edr, fj\u00f3rir, fimm\" pointing at each person, but six plates are set, six shadows on wall, six breaths visible in cold air, the sixth presence undeniable but unseen.",
+      "scene": "Table, 6:15 AM, lamp barely alive. Temperature -12\u00b0C, breath from six sources visible though five people. The mathematics visibly breaking - different counts for different things. Cross patterns in window frost seem to shift with each count. Oil lamp has maybe 10 minutes left, wick showing black.",
+      "dialogue": "(Magn\u00fas counting): \"Einn, tveir, \u00fer\u00edr, fj\u00f3rir, fimm... sex?\" (Counting again): \"Fimm... nei, sex... nei...\" (Frustrated): \"Hversu margir erum vi\u00f0?\" (How many are we?) (Sigrid, quiet): \"\u00dea\u00f0 fer eftir \u00fev\u00ed\" (That depends)",
+      "progressive_state": "",
+      "videos": [
         {
-          "duration" : 8,
-          "filename" : "Subjectnthe_family_returning_202509222347_j.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subjectnthe_family_returning_202509222347_j.mp4"
+          "duration": 8,
+          "filename": "Subjectnthe_family_returning_202509222347_j.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subjectnthe_family_returning_202509222347_j.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subjectnthe_family_returning_202509222347_4.mp4",
-          "duration" : 8,
-          "filename" : "Subjectnthe_family_returning_202509222347_4.mp4"
+          "filepath": "/Users/ingthor/Downloads/Subjectnthe_family_returning_202509222347_4.mp4",
+          "duration": 8,
+          "filename": "Subjectnthe_family_returning_202509222347_4.mp4"
         }
       ],
-      "variant_name" : "Primary - MATHEMATICAL BREAKING AT TABLE",
-      "style" : "Series of quick counts from different angles, camera position shifting (that's where the camera is), documentary of mathematical impossibility.",
-      "active_video_index" : 0,
-      "selected_plates" : [
+      "variant_name": "Primary - MATHEMATICAL BREAKING AT TABLE",
+      "style": "Series of quick counts from different angles, camera position shifting (that's where the camera is), documentary of mathematical impossibility.",
+      "active_video_index": 0,
+      "selected_plates": [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
         "LILJA-MATHEMATICAL",
         "JON-PROPHET",
         "GUDRUN-COUNTING",
-        "BAÐSTOFA-ORGANIC"
+        "BA\u00d0STOFA-ORGANIC"
       ],
-      "negative_prompt" : "no subtitles, show six evidence versus five people, maintain confusion, documentary observation, no text overlays, no screen space overlays, no text, no modern elements except if prompt explicitly mentions a modern element, no characters or other scenes floating on top of main scene",
-      "variant_id" : "15_story_primary",
-      "camera_position" : "Series of quick counts from different angles, camera position shifting",
-      "baked_prompts_metadata_file" : "15_story_primary_metadata.json",
-      "is_active" : false
+      "negative_prompt": "no subtitles, show six evidence versus five people, maintain confusion, documentary observation, no text overlays, no screen space overlays, no text, no modern elements except if prompt explicitly mentions a modern element, no characters or other scenes floating on top of main scene",
+      "variant_id": "15_story_primary",
+      "camera_position": "Series of quick counts from different angles, camera position shifting",
+      "baked_prompts_metadata_file": "15_story_primary_metadata.json",
+      "is_active": false
     }
   ],
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "id" : "15",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "needs_improvements" : true,
-    "title" : "MATHEMATICAL BREAKING AT TABLE",
-    "narrative_function" : "House 13\/min + 60bpm | Mathematics failing | Camer...",
-    "stitch_from" : ""
+  "selected_prompt_index": 0,
+  "shot_metadata": {
+    "id": "15",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "needs_improvements": true,
+    "title": "MATHEMATICAL BREAKING AT TABLE",
+    "narrative_function": "House 13/min + 60bpm | Mathematics failing | Camer...",
+    "stitch_from": ""
   },
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "House 13\/min + 60bpm | Mathematics failing | Camera frost 9% | surreal visual | Watching: House counting wrong"
+  "aspect_ratio": "4:3",
+  "progressive_state": "House 13/min + 60bpm | Mathematics failing | Camera frost 9% | surreal visual | Watching: House counting wrong"
 }

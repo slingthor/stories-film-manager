@@ -1,88 +1,58 @@
 {
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "variant_id" : "53c_story_primary",
-      "scene" : "Ceiling opening above Sigrid. Stars and ravens visible. Magnús trapped by floor. Divine selection.",
-      "dialogue" : "(House to Sigrid): \"Þú ert Ðsland... þú munt lifa...\" \"Vertu Krummi\" (Magnús, raging): \"NEI! HÚN ER MÐN!\"",
-      "subject" : "The house speaking directly to [SIGRID]: \"Þú ert Ðsland... þú munt lifa... vertu Krummi\" while the ceiling cracks open above her sleeping platform, revealing stars, creating her escape route, as [MAGNÚS] realizes the house has chosen her over him.",
-      "negative_prompt" : "no collapse, opening not destruction, show stars clearly",
-      "action" : "House focuses on Sigrid. Different voice now - tender, paternal. \"ÞÚ ERT ÐSLAND.\" Magnús staggers back, hand leaving her shoulder. House protecting her. \"ÞÚ MUNT LIFA.\" CRANE UP as ceiling above her platform begins cracking. Not collapsing - opening. Like flower blooming. Stars visible through widening gap. Cold air enters but doesn't touch her - house creates warm air bubble around her. \"VERTU KRUMMI.\" (Become raven.) The black feather in her hand begins glowing slightly. Through opening: seven ravens circling, waiting. The klettagjá (rocky cleft) forming - her escape route. But also transformation site. Magnús rages: \"NEI! HÚN ER MÐN!\" Tries to grab her. Floor becomes liquid beneath him, swallows his feet to ankles. House holds him. Protects her. Loves her. She is Iceland. She will witness. She will escape. The ceiling continues opening - 3 feet wide now. Stars bright. Freedom visible.",
-      "selected_plates" : [
+      "variant_id": "53c_story_primary",
+      "scene": "Ceiling opening above Sigrid. Stars and ravens visible. Magn\u00fas trapped by floor. Divine selection.",
+      "dialogue": "(House to Sigrid): \"\u00de\u00fa ert \u00d0\u008dsland... \u00fe\u00fa munt lifa...\" \"Vertu Krummi\" (Magn\u00fas, raging): \"NEI! H\u00daN ER M\u00d0\u008dN!\"",
+      "subject": "The house speaking directly to [SIGRID]: \"\u00de\u00fa ert \u00d0\u008dsland... \u00fe\u00fa munt lifa... vertu Krummi\" while the ceiling cracks open above her sleeping platform, revealing stars, creating her escape route, as [MAGN\u00daS] realizes the house has chosen her over him.",
+      "negative_prompt": "no collapse, opening not destruction, show stars clearly",
+      "action": "House focuses on Sigrid. Different voice now - tender, paternal. \"\u00de\u00da ERT \u00d0\u008dSLAND.\" Magn\u00fas staggers back, hand leaving her shoulder. House protecting her. \"\u00de\u00da MUNT LIFA.\" CRANE UP as ceiling above her platform begins cracking. Not collapsing - opening. Like flower blooming. Stars visible through widening gap. Cold air enters but doesn't touch her - house creates warm air bubble around her. \"VERTU KRUMMI.\" (Become raven.) The black feather in her hand begins glowing slightly. Through opening: seven ravens circling, waiting. The klettagj\u00e1 (rocky cleft) forming - her escape route. But also transformation site. Magn\u00fas rages: \"NEI! H\u00daN ER M\u00d0\u008dN!\" Tries to grab her. Floor becomes liquid beneath him, swallows his feet to ankles. House holds him. Protects her. Loves her. She is Iceland. She will witness. She will escape. The ceiling continues opening - 3 feet wide now. Stars bright. Freedom visible.",
+      "selected_plates": [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
-        "BAÐSTOFA-CRYSTALLIZING",
-        "BAÐSTOFA-CLIFF"
+        "BA\u00d0STOFA-CRYSTALLIZING",
+        "BA\u00d0STOFA-CLIFF"
       ],
-      "is_active" : false,
-      "style" : "Crane up following ceiling opening (that's where the camera is), escape route documented.",
-      "variant_name" : "Primary - BERGRISI CHOOSES SIGRID - THE PROMISE 8 SECONDS",
-      "active_video_index" : 0,
-      "progressive_state" : "",
-      "camera_position" : "Crane up following ceiling opening",
-      "videos" : [
+      "is_active": false,
+      "style": "Crane up following ceiling opening (that's where the camera is), escape route documented.",
+      "variant_name": "Primary - BERGRISI CHOOSES SIGRID - THE PROMISE 8 SECONDS",
+      "active_video_index": 0,
+      "progressive_state": "",
+      "camera_position": "Crane up following ceiling opening",
+      "videos": [
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211847_zxe14.mp4",
-          "filename" : "Subject_the_house_202509211847_zxe14.mp4",
-          "duration" : 8
+          "filepath": "/Users/ingthor/Downloads/Subject_the_house_202509211847_zxe14.mp4",
+          "filename": "Subject_the_house_202509211847_zxe14.mp4",
+          "duration": 8
         },
         {
-          "filename" : "Subject_the_house_202509211847_u7oei.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211847_u7oei.mp4",
-          "duration" : 8
+          "filename": "Subject_the_house_202509211847_u7oei.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_the_house_202509211847_u7oei.mp4",
+          "duration": 8
         },
         {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211847_1z2no.mp4",
-          "filename" : "Subject_the_house_202509211847_1z2no.mp4"
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Subject_the_house_202509211847_1z2no.mp4",
+          "filename": "Subject_the_house_202509211847_1z2no.mp4"
         },
         {
-          "filename" : "Subject_the_house_202509211847_0i0sb.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211847_0i0sb.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_subject_reference_202510232317_o22qh.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232317_o22qh.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232317_kei79.mp4",
-          "filename" : "Subject_subject_reference_202510232317_kei79.mp4"
-        },
-        {
-          "filename" : "Subject_subject_reference_202510232317_j6ssd.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232317_j6ssd.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232317_2utz6.mp4",
-          "filename" : "Subject_subject_reference_202510232317_2utz6.mp4"
-        },
-        {
-          "filename" : "Subject_the_house_202510232319_bgnp3.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232319_bgnp3.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232319_uwb1y.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_house_202510232319_uwb1y.mp4"
+          "filename": "Subject_the_house_202509211847_0i0sb.mp4",
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Subject_the_house_202509211847_0i0sb.mp4"
         }
       ]
     }
   ],
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "id" : "53c",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "needs_improvements" : false,
-    "title" : "BERGRISI CHOOSES SIGRID - THE PROMISE 8 SECONDS",
-    "narrative_function" : "Giant choosing | Escape promised | Camera frost 44...",
-    "stitch_from" : ""
+  "selected_prompt_index": 0,
+  "shot_metadata": {
+    "id": "53c",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "needs_improvements": false,
+    "title": "BERGRISI CHOOSES SIGRID - THE PROMISE 8 SECONDS",
+    "narrative_function": "Giant choosing | Escape promised | Camera frost 44...",
+    "stitch_from": ""
   },
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Giant choosing | Escape promised | Camera frost 44% | Love revealed | Watching: House loves her"
+  "aspect_ratio": "4:3",
+  "progressive_state": "Giant choosing | Escape promised | Camera frost 44% | Love revealed | Watching: House loves her"
 }

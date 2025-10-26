@@ -1,102 +1,82 @@
 {
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "variant_id" : "58c_story_primary",
-      "scene" : "Structure rising to 40-foot obelisk. Family absorbed into walls. Cleft opening. All times visible.",
-      "dialogue" : "(Bergrisi's final words in glass): \"Ð‰g er endurheimt\" (I am reclaimed)",
-      "subject" : "The house completing transformation into 40-foot black hrafntinna obelisk, rising from earth like growing crystal, the vertical klettagjá cleft opening through center as Bergrisi's mouth\/birth canal, sheep family being absorbed into glass walls except [SIGRID] who stands at cleft entrance.",
-      "negative_prompt" : "epic scale, monument grandeur",
-      "action" : "CRANE UP with rising structure. House doesn't just transform - GROWS. From earth. Like crystal forming in time-lapse. Black hrafntinna obsidian. Raven flint. The volcanic glass that IS Iceland. 40 feet rising. 10 feet wide at base. Narrowing to point. But through center: CLEFT opens. Not crack - designed opening. Bergrisi's throat. Birth canal. Escape route. The klettagjá from lullaby made literal. As structure rises, sheep family pulled into walls. Not violently - absorbed. Becoming part of monument. Magnús-ram fighting, then accepting, horns visible through glass. Guðrún-ewe peaceful, faldbúningur preserved in obsidian. Lamb-children together, eternal. They're IN the monument. ARE the monument. Visible to all future witnesses. But Sigrid stays free. Standing at cleft base. The one who escapes. Through cleft top: impossible light. Not sun - ALL suns. Every dawn that will ever be. The monument exists in all times simultaneously. Is the third monolith. The evolution marker. The moment Iceland becomes free.",
-      "selected_plates" : [
+      "variant_id": "58c_story_primary",
+      "scene": "Structure rising to 40-foot obelisk. Family absorbed into walls. Cleft opening. All times visible.",
+      "dialogue": "(Bergrisi's final words in glass): \"\u00d0\u2030g er endurheimt\" (I am reclaimed)",
+      "subject": "The house completing transformation into 40-foot black hrafntinna obelisk, rising from earth like growing crystal, the vertical klettagj\u00e1 cleft opening through center as Bergrisi's mouth/birth canal, sheep family being absorbed into glass walls except [SIGRID] who stands at cleft entrance.",
+      "negative_prompt": "epic scale, monument grandeur",
+      "action": "CRANE UP with rising structure. House doesn't just transform - GROWS. From earth. Like crystal forming in time-lapse. Black hrafntinna obsidian. Raven flint. The volcanic glass that IS Iceland. 40 feet rising. 10 feet wide at base. Narrowing to point. But through center: CLEFT opens. Not crack - designed opening. Bergrisi's throat. Birth canal. Escape route. The klettagj\u00e1 from lullaby made literal. As structure rises, sheep family pulled into walls. Not violently - absorbed. Becoming part of monument. Magn\u00fas-ram fighting, then accepting, horns visible through glass. Gu\u00f0r\u00fan-ewe peaceful, faldb\u00faningur preserved in obsidian. Lamb-children together, eternal. They're IN the monument. ARE the monument. Visible to all future witnesses. But Sigrid stays free. Standing at cleft base. The one who escapes. Through cleft top: impossible light. Not sun - ALL suns. Every dawn that will ever be. The monument exists in all times simultaneously. Is the third monolith. The evolution marker. The moment Iceland becomes free.",
+      "selected_plates": [
         "SIGRID-DUAL",
-        "BAÐSTOFA-CLIFF",
+        "BA\u00d0STOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ],
-      "is_active" : false,
-      "style" : "Crane up with ascending monument (that's where the camera is), architecture transcending.",
-      "variant_name" : "Primary - THE OBELISK RISES - HRAFNTINNA MONOLITH 10 SECONDS REWRITTEN",
-      "active_video_index" : 0,
-      "progressive_state" : "",
-      "camera_position" : "Crane up with ascending monument",
-      "videos" : [
+      "is_active": false,
+      "style": "Crane up with ascending monument (that's where the camera is), architecture transcending.",
+      "variant_name": "Primary - THE OBELISK RISES - HRAFNTINNA MONOLITH 10 SECONDS REWRITTEN",
+      "active_video_index": 0,
+      "progressive_state": "",
+      "camera_position": "Crane up with ascending monument",
+      "videos": [
         {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211832_uziu7.mp4",
-          "filename" : "Subject_the_house_202509211832_uziu7.mp4"
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Subject_the_house_202509211832_uziu7.mp4",
+          "filename": "Subject_the_house_202509211832_uziu7.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211832_e4unu.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_house_202509211832_e4unu.mp4"
+          "filepath": "/Users/ingthor/Downloads/Subject_the_house_202509211832_e4unu.mp4",
+          "duration": 8,
+          "filename": "Subject_the_house_202509211832_e4unu.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202509211832_glbu3.mp4",
-          "filename" : "Subject_the_house_202509211832_glbu3.mp4",
-          "duration" : 8
+          "filepath": "/Users/ingthor/Downloads/Subject_the_house_202509211832_glbu3.mp4",
+          "filename": "Subject_the_house_202509211832_glbu3.mp4",
+          "duration": 8
         },
         {
-          "duration" : 8,
-          "filename" : "Subject_the_house_202510192228_n9cqq.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510192228_n9cqq.mp4"
+          "duration": 8,
+          "filename": "Subject_the_house_202510192228_n9cqq.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_the_house_202510192228_n9cqq.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510192228_9zlbo.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_house_202510192228_9zlbo.mp4"
+          "filepath": "/Users/ingthor/Downloads/Subject_the_house_202510192228_9zlbo.mp4",
+          "duration": 8,
+          "filename": "Subject_the_house_202510192228_9zlbo.mp4"
         },
         {
-          "filename" : "Subject_sigrids_transformation_2025102323.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323.mp4",
-          "duration" : 8
+          "filename": "Subject_sigrids_transformation_2025102323.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_sigrids_transformation_2025102323.mp4",
+          "duration": 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_transformation_2025102323-2.mp4",
-          "filename" : "Subject_sigrids_transformation_2025102323-2.mp4",
-          "duration" : 8
+          "filepath": "/Users/ingthor/Downloads/Subject_sigrids_transformation_2025102323-2.mp4",
+          "filename": "Subject_sigrids_transformation_2025102323-2.mp4",
+          "duration": 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314.mp4",
-          "duration" : 8,
-          "filename" : "Subject_sigridraven_entering_202510232314.mp4"
+          "filepath": "/Users/ingthor/Downloads/Subject_sigridraven_entering_202510232314.mp4",
+          "duration": 8,
+          "filename": "Subject_sigridraven_entering_202510232314.mp4"
         },
         {
-          "duration" : 8,
-          "filename" : "Subject_sigridraven_entering_202510232314-2.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigridraven_entering_202510232314-2.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_124th.mp4",
-          "filename" : "Subject_the_house_202510232314_124th.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_k50fn.mp4",
-          "filename" : "Subject_the_house_202510232314_k50fn.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_the_house_202510232314_cgd4p.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_cgd4p.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_the_house_202510232314_bd128.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_house_202510232314_bd128.mp4"
+          "duration": 8,
+          "filename": "Subject_sigridraven_entering_202510232314-2.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_sigridraven_entering_202510232314-2.mp4"
         }
       ]
     }
   ],
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "id" : "58c",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 10,
-    "needs_improvements" : false,
-    "title" : "THE OBELISK RISES - HRAFNTINNA MONOLITH 10 SECONDS REWRITTEN",
-    "narrative_function" : "Monument born | Camera frost 52% | Giant reborn | ...",
-    "stitch_from" : ""
+  "selected_prompt_index": 0,
+  "shot_metadata": {
+    "id": "58c",
+    "sequence_type": "main_story",
+    "duration_seconds": 10,
+    "needs_improvements": false,
+    "title": "THE OBELISK RISES - HRAFNTINNA MONOLITH 10 SECONDS REWRITTEN",
+    "narrative_function": "Monument born | Camera frost 52% | Giant reborn | ...",
+    "stitch_from": ""
   },
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Monument born | Camera frost 52% | Giant reborn | Watching: Architecture ascending"
+  "aspect_ratio": "4:3",
+  "progressive_state": "Monument born | Camera frost 52% | Giant reborn | Watching: Architecture ascending"
 }

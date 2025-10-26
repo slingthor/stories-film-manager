@@ -1,8 +1,8 @@
 {
   "shot_metadata": {
     "id": "52c",
-    "name": "MAGNÐŠS_BREAKS_PARALYSIS___INCEST_THREAT_EXPLICIT_8_SECONDS",
-    "title": "MAGNÚS BREAKS PARALYSIS - INCEST THREAT EXPLICIT 8 SECONDS",
+    "name": "MAGN\u00d0\u0160S_BREAKS_PARALYSIS___INCEST_THREAT_EXPLICIT_8_SECONDS",
+    "title": "MAGN\u00daS BREAKS PARALYSIS - INCEST THREAT EXPLICIT 8 SECONDS",
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "Raven vanishes | Threat immediate | Camera frost 4...",
@@ -12,17 +12,17 @@
   "prompt_variants": [
     {
       "variant_id": "52c_story_primary",
-      "variant_name": "Primary - MAGNÚS BREAKS PARALYSIS - INCEST THREAT EXPLICIT 8 SECONDS",
+      "variant_name": "Primary - MAGN\u00daS BREAKS PARALYSIS - INCEST THREAT EXPLICIT 8 SECONDS",
       "intent_tags": [
         "story_primary"
       ],
       "priority": 1,
-      "subject": "The raven vanishing like smoke, paralysis breaking, [MAGNÚS] immediately moving toward [SIGRID]: \"Ef Guðrún deyr á morgun, þú verður konan\" (If Guðrún dies tomorrow, you become the woman), the incest threat fully explicit while she backs toward her sleeping platform.",
-      "action": "Raven dissolves - smoke, then nothing. Family gasps, can move. Magnús's 0Hz hands perfectly steady. Moves toward Sigrid. Not violent. Worse. Determined. \"Ð‰g sá hvað fuglinn sýndi þér. Framtíð.\" (I saw what bird showed you. Future.) \"En það er MINN framtíð líka.\" (But it's MY future too.) HANDHELD FOLLOWS him, unstable, threatening. Sigrid backs toward platform, maintaining 11 feet but running out of room. Black feather in her hand. He continues: \"Guðrún er veik. Hún deyr fljótlega.\" (Guðrún is weak. She dies soon.) \"Þú ert tilbúin. Ð‰g sé það.\" (You're ready. I see it.) Reaches for her. She presses against wall. Klettagjá cracks deeper behind her - escape route forming but not yet open. \"Þú verður góð kona. Móðir. Allt.\" (You'll be good wife. Mother. Everything.) His hand touches her shoulder. She doesn't scream - who would hear? 40 miles to anyone. Guðrún watches, paralyzed by different kind of freeze. Cannot save daughter. The isolation complete.",
+      "subject": "The raven vanishing like smoke, paralysis breaking, [MAGN\u00daS] immediately moving toward [SIGRID]: \"Ef Gu\u00f0r\u00fan deyr \u00e1 morgun, \u00fe\u00fa ver\u00f0ur konan\" (If Gu\u00f0r\u00fan dies tomorrow, you become the woman), the incest threat fully explicit while she backs toward her sleeping platform.",
+      "action": "Raven dissolves - smoke, then nothing. Family gasps, can move. Magn\u00fas's 0Hz hands perfectly steady. Moves toward Sigrid. Not violent. Worse. Determined. \"\u00d0\u2030g s\u00e1 hva\u00f0 fuglinn s\u00fdndi \u00fe\u00e9r. Framt\u00ed\u00f0.\" (I saw what bird showed you. Future.) \"En \u00fea\u00f0 er MINN framt\u00ed\u00f0 l\u00edka.\" (But it's MY future too.) HANDHELD FOLLOWS him, unstable, threatening. Sigrid backs toward platform, maintaining 11 feet but running out of room. Black feather in her hand. He continues: \"Gu\u00f0r\u00fan er veik. H\u00fan deyr flj\u00f3tlega.\" (Gu\u00f0r\u00fan is weak. She dies soon.) \"\u00de\u00fa ert tilb\u00fain. \u00d0\u2030g s\u00e9 \u00fea\u00f0.\" (You're ready. I see it.) Reaches for her. She presses against wall. Klettagj\u00e1 cracks deeper behind her - escape route forming but not yet open. \"\u00de\u00fa ver\u00f0ur g\u00f3\u00f0 kona. M\u00f3\u00f0ir. Allt.\" (You'll be good wife. Mother. Everything.) His hand touches her shoulder. She doesn't scream - who would hear? 40 miles to anyone. Gu\u00f0r\u00fan watches, paralyzed by different kind of freeze. Cannot save daughter. The isolation complete.",
       "scene": "Pursuit toward sleeping platform. Raven gone. Threat immediate. No escape yet.",
       "style": "Handheld following pursuit (that's where the camera is), predator documented.",
       "camera_position": "Handheld following pursuit",
-      "dialogue": "(Magnús): \"Ef Guðrún deyr á morgun, þú verður konan\" \"Þú ert tilbúin. Ð‰g sé það\" \"Þú verður góð kona. Móðir. Allt.\"",
+      "dialogue": "(Magn\u00fas): \"Ef Gu\u00f0r\u00fan deyr \u00e1 morgun, \u00fe\u00fa ver\u00f0ur konan\" \"\u00de\u00fa ert tilb\u00fain. \u00d0\u2030g s\u00e9 \u00fea\u00f0\" \"\u00de\u00fa ver\u00f0ur g\u00f3\u00f0 kona. M\u00f3\u00f0ir. Allt.\"",
       "audio": {
         "primary": [
           "Footsteps pursuing",
@@ -31,7 +31,7 @@
         ],
         "ambient": [
           "House heartbeat accelerating",
-          "Guðrún's paralyzed breathing"
+          "Gu\u00f0r\u00fan's paralyzed breathing"
         ],
         "absent": [
           "no intervention possible"
@@ -45,7 +45,7 @@
         "LILJA-EVOLVING",
         "JON-ENERGETIC",
         "GUDRUN-RETURNING",
-        "BAÐSTOFA-CRYSTALLIZING",
+        "BA\u00d0STOFA-CRYSTALLIZING",
         "WESTFJORDS-CLIFF"
       ],
       "available_character_plates": {
@@ -56,13 +56,13 @@
         "gudrun": "GUDRUN-RETURNING"
       },
       "available_environmental_plates": [
-        "BAÐSTOFA-CRYSTALLIZING",
+        "BA\u00d0STOFA-CRYSTALLIZING",
         "WESTFJORDS-CLIFF"
       ]
     }
   ],
   "others": {
-    "womens_silence": "Guðrún cannot intervene",
+    "womens_silence": "Gu\u00f0r\u00fan cannot intervene",
     "triple_reality": "Physical: father becoming predator | Psychological: isolation enabling | Mythological: Ram claiming ewe"
   },
   "notes": {

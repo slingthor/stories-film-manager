@@ -1,203 +1,73 @@
 {
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "variant_id" : "3b_story_primary",
-      "scene" : "Vertical cliff face, 100 feet down from top. Black basalt with bird-covered ledges. Ocean below with whale blood reaching shore. Yolk spreading on rocks.",
-      "dialogue" : "Jón: says “Helvítis” when the egg breaks",
-      "subject" : "[JÐ“N] descending the cliff face on rope, bare feet finding holds on black rock, reaching into round holes to pull out pure white eggs, one egg slipping from his hand to break on rocks below, golden yolk splattering bright yellow.",
-      "negative_prompt" : "no subtitles, show golden yolk spreading on rocks, impossible egg abundance, mixing with blood below, 1080p",
-      "action" : "Jón climbs backward down cliff, rope taut around waist. Magnús above, visible hands holding rope steady. Boy's feet grip small ledges. Reaches first hole in cliff, 2 feet wide, perfectly round. Reaches in up to elbow. Pulls out three white eggs, each large as his fist. Places them in leather pouch at hip. Descends further. Second hole contains five eggs. Too many for one bird. Third egg slips from his grip. Falls 50 feet. Hits black rock below. Shell explodes. Yolk spreads bright golden across rock, running down in streams. Same color as morning sunlight. Jón freezes, watching yolk spread. Magnús tugs rope - continue. Boy reaches next hole. This one deeper. Entire arm disappears inside. Face shows surprise. Pulls out seven eggs. Pouch already full. Holds extra eggs against chest. One more falls. Another golden explosion on rocks. Yolk and blood from whale mixing where rock meets water.",
-      "selected_plates" : [
+      "variant_id": "3b_story_primary",
+      "scene": "Vertical cliff face, 100 feet down from top. Black basalt with bird-covered ledges. Ocean below with whale blood reaching shore. Yolk spreading on rocks.",
+      "dialogue": "J\u00f3n: says \u201cHelv\u00edtis\u201d when the egg breaks",
+      "subject": "[J\u00d0\u201cN] descending the cliff face on rope, bare feet finding holds on black rock, reaching into round holes to pull out pure white eggs, one egg slipping from his hand to break on rocks below, golden yolk splattering bright yellow.",
+      "negative_prompt": "no subtitles, show golden yolk spreading on rocks, impossible egg abundance, mixing with blood below, 1080p",
+      "action": "J\u00f3n climbs backward down cliff, rope taut around waist. Magn\u00fas above, visible hands holding rope steady. Boy's feet grip small ledges. Reaches first hole in cliff, 2 feet wide, perfectly round. Reaches in up to elbow. Pulls out three white eggs, each large as his fist. Places them in leather pouch at hip. Descends further. Second hole contains five eggs. Too many for one bird. Third egg slips from his grip. Falls 50 feet. Hits black rock below. Shell explodes. Yolk spreads bright golden across rock, running down in streams. Same color as morning sunlight. J\u00f3n freezes, watching yolk spread. Magn\u00fas tugs rope - continue. Boy reaches next hole. This one deeper. Entire arm disappears inside. Face shows surprise. Pulls out seven eggs. Pouch already full. Holds extra eggs against chest. One more falls. Another golden explosion on rocks. Yolk and blood from whale mixing where rock meets water.",
+      "selected_plates": [
         "MAGNUS-AUTHORITY",
         "JON-MILD",
         "SEA-DIVINE",
         "WESTFJORDS-CLIFF"
       ],
-      "is_active" : false,
-      "style" : "Vertical angle from beside Jón showing descent and egg collecting (that's where the camera is), eggs falling and breaking visible.",
-      "variant_name" : "Primary - THE DESCENT FOR GOLDEN EGGS",
-      "active_video_index" : 0,
-      "camera_position" : "Vertical angle from beside Jón showing descent and egg collecting",
-      "progressive_state" : "",
-      "videos" : [
+      "is_active": false,
+      "style": "Vertical angle from beside J\u00f3n showing descent and egg collecting (that's where the camera is), eggs falling and breaking visible.",
+      "variant_name": "Primary - THE DESCENT FOR GOLDEN EGGS",
+      "active_video_index": 0,
+      "camera_position": "Vertical angle from beside J\u00f3n showing descent and egg collecting",
+      "progressive_state": "",
+      "videos": [
         {
-          "filename" : "Meta_setting_iceland_202509142018_c6med.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142018_c6med.mp4",
-          "duration" : 8
+          "filename": "Meta_setting_iceland_202509142018_c6med.mp4",
+          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142018_c6med.mp4",
+          "duration": 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142018_tg354.mp4",
-          "duration" : 8,
-          "filename" : "Meta_setting_iceland_202509142018_tg354.mp4"
+          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142018_tg354.mp4",
+          "duration": 8,
+          "filename": "Meta_setting_iceland_202509142018_tg354.mp4"
         },
         {
-          "duration" : 8,
-          "filename" : "Meta_setting_iceland_202509142018_ncgb3.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142018_ncgb3.mp4"
+          "duration": 8,
+          "filename": "Meta_setting_iceland_202509142018_ncgb3.mp4",
+          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142018_ncgb3.mp4"
         },
         {
-          "filename" : "Meta_setting_iceland_202509142018_ujhyk.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142018_ujhyk.mp4",
-          "duration" : 8
+          "filename": "Meta_setting_iceland_202509142018_ujhyk.mp4",
+          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142018_ujhyk.mp4",
+          "duration": 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142354_b3h2w.mp4",
-          "duration" : 8,
-          "filename" : "Meta_setting_iceland_202509142354_b3h2w.mp4"
+          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142354_b3h2w.mp4",
+          "duration": 8,
+          "filename": "Meta_setting_iceland_202509142354_b3h2w.mp4"
         },
         {
-          "duration" : 8,
-          "filename" : "Meta_setting_iceland_202509142354_e6ktf.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142354_e6ktf.mp4"
+          "duration": 8,
+          "filename": "Meta_setting_iceland_202509142354_e6ktf.mp4",
+          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142354_e6ktf.mp4"
         },
         {
-          "filename" : "Subject_jn_descending_202509142253_veov7.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_descending_202509142253_veov7.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_subject_reference_202510232323_pynpj.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232323_pynpj.mp4"
-        },
-        {
-          "filename" : "Subject_lilja_suddenly_202510232324_fdhwd.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_fdhwd.mp4"
-        },
-        {
-          "filename" : "Subject_lilja_suddenly_202510232324_t60yd.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_lilja_suddenly_202510232324_t60yd.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_the_three_202510232325_zn2am.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_zn2am.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_the_three_202510232325_17xug.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_three_202510232325_17xug.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_gurn_standing_202510232325_z7nk.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_standing_202510232325_z7nk.mp4"
-        },
-        {
-          "filename" : "Subject_as_gurn_202510232326_0macj.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_as_gurn_202510232326_0macj.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_m5xhc.mp4",
-          "filename" : "Subject_aerial_shot_202510232326_m5xhc.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_aerial_shot_202510232326_gu6zn.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_aerial_shot_202510232326_gu6zn.mp4"
-        },
-        {
-          "filename" : "Subject_gurn_rising_202510232326_b1r58.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_rising_202510232326_b1r58.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_griungur_using_202510232326_l3eff.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_l3eff.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_griungur_using_202510232326_ff0m1.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_griungur_using_202510232326_ff0m1.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202510232326_c4k55.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_water_202510232326_c4k55.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_the_water_202510232326_whf4w.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_water_202510232326_whf4w.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_polynya_202510232326_qs0hq.mp4",
-          "filename" : "Subject_the_polynya_202510232326_qs0hq.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_gurn_arriving_202510232327_51aj.mp4",
-          "filename" : "Subject_gurn_arriving_202510232327_51aj.mp4"
-        },
-        {
-          "filename" : "Subject_close_tracking_202510232327_jiwn0.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_close_tracking_202510232327_jiwn0.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_tracking_202510232327_bgh48.mp4",
-          "filename" : "Subject_camera_tracking_202510232327_bgh48.mp4"
-        },
-        {
-          "filename" : "Subject_camera_spiraling_202510232327_nux0d.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202510232327_nux0d.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_camera_spiraling_202510232327_ejaum.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_spiraling_202510232327_ejaum.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_camera_on_202510232327_vtlji.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_on_202510232327_vtlji.mp4"
-        },
-        {
-          "filename" : "Subject_magns_stepping_202510232327_dohg6.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202510232327_dohg6.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_stepping_202510232327_ecs7b.mp4",
-          "duration" : 8,
-          "filename" : "Subject_magns_stepping_202510232327_ecs7b.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_camera_slowly_202510232327_1j6bp.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_slowly_202510232327_1j6bp.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_slowly_202510232328_dfkbz.mp4",
-          "duration" : 8,
-          "filename" : "Subject_camera_slowly_202510232328_dfkbz.mp4"
-        },
-        {
-          "filename" : "Subject_jn_descending_202510232328_lr3yy.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_descending_202510232328_lr3yy.mp4",
-          "duration" : 8
+          "filename": "Subject_jn_descending_202509142253_veov7.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_jn_descending_202509142253_veov7.mp4",
+          "duration": 8
         }
       ]
     }
   ],
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "id" : "3b",
-    "sequence_type" : "prologue",
-    "duration_seconds" : 8,
-    "needs_improvements" : false,
-    "title" : "THE DESCENT FOR GOLDEN EGGS",
-    "narrative_function" : "Trust tested | Eggs abundant | Camera frost 0% | G...",
-    "stitch_from" : ""
+  "selected_prompt_index": 0,
+  "shot_metadata": {
+    "id": "3b",
+    "sequence_type": "prologue",
+    "duration_seconds": 8,
+    "needs_improvements": false,
+    "title": "THE DESCENT FOR GOLDEN EGGS",
+    "narrative_function": "Trust tested | Eggs abundant | Camera frost 0% | G...",
+    "stitch_from": ""
   },
-  "aspect_ratio" : "1.85:1",
-  "progressive_state" : "Trust tested | Eggs abundant | Camera frost 0% | Gold revealed | Watching: Earth provides"
+  "aspect_ratio": "1.85:1",
+  "progressive_state": "Trust tested | Eggs abundant | Camera frost 0% | Gold revealed | Watching: Earth provides"
 }

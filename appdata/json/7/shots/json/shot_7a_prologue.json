@@ -26,7 +26,7 @@
       ],
       "priority": 1,
       "subject": "Three long driftwood tables arranged in horseshoe shape in field, laden with whale meat, dried fish, berry juice in jugs, boiled eggs, bread, the tables bending slightly under weight, fifty people taking seats.",
-      "action": "Tables covered with white cloth - where did cloth come from? Food arranged in patterns. Whale meat in center, still steaming. Dried fish in pyramids. Purple juice in clay jugs, liquid glowing slightly in evening light. Eggs boiled, shells removed, golden yolks visible. Fresh bread - impossible, no one baked today. Tables bend in middle from weight. People approach from all directions. Still wearing work clothes stained with three colors. Children's mouths still black from juice. Take seats in specific order - families together but pattern emerges. From above, people arranged like spokes of wheel. Magnús at head of center table. Guðrún to his right. Sigrid to his left - honor position. Jón beside mother. Lilja on bench end. Everyone sits simultaneously. No signal given. All faces turn toward Magnús. Waiting. Sun low on horizon but not moving. Stuck again.",
+      "action": "Tables covered with white cloth - where did cloth come from? Food arranged in patterns. Whale meat in center, still steaming. Dried fish in pyramids. Purple juice in clay jugs, liquid glowing slightly in evening light. Eggs boiled, shells removed, golden yolks visible. Fresh bread - impossible, no one baked today. Tables bend in middle from weight. People approach from all directions. Still wearing work clothes stained with three colors. Children's mouths still black from juice. Take seats in specific order - families together but pattern emerges. From above, people arranged like spokes of wheel. Magn\u00fas at head of center table. Gu\u00f0r\u00fan to his right. Sigrid to his left - honor position. J\u00f3n beside mother. Lilja on bench end. Everyone sits simultaneously. No signal given. All faces turn toward Magn\u00fas. Waiting. Sun low on horizon but not moving. Stuck again.",
       "scene": "Field near houses. Three tables in horseshoe. Evening light golden. Ocean visible in distance. Mountains surrounding.",
       "style": "High angle showing table arrangement and people positioning (that's where the camera is), formal composition, symmetrical.",
       "camera_position": "High angle showing horseshoe formation, that's where the camera is",
@@ -56,7 +56,7 @@
         "LILJA-PURE",
         "JON-MILD",
         "GUDRUN-ABUNDANT",
-        "BAÐSTOFA-DOMESTIC",
+        "BA\u00d0STOFA-DOMESTIC",
         "WESTFJORDS-BEACH"
       ],
       "available_character_plates": {
@@ -67,7 +67,7 @@
         "gudrun": "GUDRUN-ABUNDANT"
       },
       "available_environmental_plates": [
-        "BAÐSTOFA-DOMESTIC",
+        "BA\u00d0STOFA-DOMESTIC",
         "WESTFJORDS-BEACH"
       ]
     }

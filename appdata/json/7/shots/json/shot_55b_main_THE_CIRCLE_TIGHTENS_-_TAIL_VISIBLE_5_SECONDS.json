@@ -1,13 +1,13 @@
 {
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "variant_id" : "55b_story_primary",
-      "scene" : "Zoomed view of water. Tail visible following ship. Scale of serpent revealed. Moment before bite.",
-      "dialogue" : "(Sigrid): \"Jörmungandr... hann bítur\" (Lilja, prophetic): \"Þegar hann bítur, breytumst við\"",
-      "subject" : "The trawler's circle tightening, and through the churning water, something massive visible - not ship's hull but TAIL, scaled, ancient, the trawler is just the HEAD of Jörmungandr, the world serpent about to bite itself.",
-      "negative_prompt" : "",
-      "action" : "ZOOM IN on water where trawler circles. Circle tightening - 1 kilometer to 800 meters to 600. Speed increasing: 20 knots. Impossible. Water exploding upward from force. Then through foam: glimpse of truth. Following trawler's path: massive scaled TAIL. Black-green. Each scale size of door. Industrial barnacles grown into scales - brass fixtures, rope, net, all fused with ancient flesh. The trawler isn't LIKE serpent. It IS serpent's head. Has always been. The industrial system and otherworldly appearance were always same thing. Tail rises slightly from water - 50 meters of it visible. Moving toward trawler's bow. The head hunting its tail. Jörmungandr about to complete ouroboros. When serpent bites tail, Ragnarök begins. World ends. Transforms. Rebirths.",
-      "selected_plates" : [
+      "variant_id": "55b_story_primary",
+      "scene": "Zoomed view of water. Tail visible following ship. Scale of serpent revealed. Moment before bite.",
+      "dialogue": "(Sigrid): \"J\u00f6rmungandr... hann b\u00edtur\" (Lilja, prophetic): \"\u00deegar hann b\u00edtur, breytumst vi\u00f0\"",
+      "subject": "The trawler's circle tightening, and through the churning water, something massive visible - not ship's hull but TAIL, scaled, ancient, the trawler is just the HEAD of J\u00f6rmungandr, the world serpent about to bite itself.",
+      "negative_prompt": "",
+      "action": "ZOOM IN on water where trawler circles. Circle tightening - 1 kilometer to 800 meters to 600. Speed increasing: 20 knots. Impossible. Water exploding upward from force. Then through foam: glimpse of truth. Following trawler's path: massive scaled TAIL. Black-green. Each scale size of door. Industrial barnacles grown into scales - brass fixtures, rope, net, all fused with ancient flesh. The trawler isn't LIKE serpent. It IS serpent's head. Has always been. The industrial system and otherworldly appearance were always same thing. Tail rises slightly from water - 50 meters of it visible. Moving toward trawler's bow. The head hunting its tail. J\u00f6rmungandr about to complete ouroboros. When serpent bites tail, Ragnar\u00f6k begins. World ends. Transforms. Rebirths.",
+      "selected_plates": [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
         "LILJA-EVOLVING",
@@ -17,46 +17,46 @@
         "WESTFJORDS-CLIFF",
         "WESTFJORDS-WINTER"
       ],
-      "is_active" : false,
-      "style" : "Zoom revealing serpent truth (that's where the camera is), mythology visible.",
-      "variant_name" : "Primary - THE CIRCLE TIGHTENS - TAIL VISIBLE 5 SECONDS",
-      "active_video_index" : 0,
-      "progressive_state" : "",
-      "camera_position" : "Zoom revealing serpent truth",
-      "videos" : [
+      "is_active": false,
+      "style": "Zoom revealing serpent truth (that's where the camera is), mythology visible.",
+      "variant_name": "Primary - THE CIRCLE TIGHTENS - TAIL VISIBLE 5 SECONDS",
+      "active_video_index": 0,
+      "progressive_state": "",
+      "camera_position": "Zoom revealing serpent truth",
+      "videos": [
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawlers_202509211845_eg8lf.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_trawlers_202509211845_eg8lf.mp4"
+          "filepath": "/Users/ingthor/Downloads/Subject_the_trawlers_202509211845_eg8lf.mp4",
+          "duration": 8,
+          "filename": "Subject_the_trawlers_202509211845_eg8lf.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawlers_202509211845_bdwok.mp4",
-          "filename" : "Subject_the_trawlers_202509211845_bdwok.mp4",
-          "duration" : 8
+          "filepath": "/Users/ingthor/Downloads/Subject_the_trawlers_202509211845_bdwok.mp4",
+          "filename": "Subject_the_trawlers_202509211845_bdwok.mp4",
+          "duration": 8
         },
         {
-          "filename" : "Subject_the_trawlers_202509211845_m1nwu.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawlers_202509211845_m1nwu.mp4",
-          "duration" : 8
+          "filename": "Subject_the_trawlers_202509211845_m1nwu.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_the_trawlers_202509211845_m1nwu.mp4",
+          "duration": 8
         },
         {
-          "filename" : "Subject_the_trawlers_202509211845_l4uev.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawlers_202509211845_l4uev.mp4",
-          "duration" : 8
+          "filename": "Subject_the_trawlers_202509211845_l4uev.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_the_trawlers_202509211845_l4uev.mp4",
+          "duration": 8
         }
       ]
     }
   ],
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "id" : "55b",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 5,
-    "needs_improvements" : false,
-    "title" : "THE CIRCLE TIGHTENS - TAIL VISIBLE 5 SECONDS",
-    "narrative_function" : "Serpent revealed | Circle closing | Camera frost 4...",
-    "stitch_from" : ""
+  "selected_prompt_index": 0,
+  "shot_metadata": {
+    "id": "55b",
+    "sequence_type": "main_story",
+    "duration_seconds": 5,
+    "needs_improvements": false,
+    "title": "THE CIRCLE TIGHTENS - TAIL VISIBLE 5 SECONDS",
+    "narrative_function": "Serpent revealed | Circle closing | Camera frost 4...",
+    "stitch_from": ""
   },
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Serpent revealed | Circle closing | Camera frost 46.5% | End near | Watching: Revelation"
+  "aspect_ratio": "4:3",
+  "progressive_state": "Serpent revealed | Circle closing | Camera frost 46.5% | End near | Watching: Revelation"
 }

@@ -6,7 +6,7 @@
     "sequence_type": "main_story",
     "duration_seconds": 6,
     "narrative_function": "Storm chaos | Last light dying | Camera frost 30% ...",
-    "stitch_from": "[STITCH from Shot 43c: Door closes, Guðrún in storm]"
+    "stitch_from": "[STITCH from Shot 43c: Door closes, Gu\u00f0r\u00fan in storm]"
   },
   "progressive_state": "Storm chaos | Last light dying | Camera frost 30% | Solitude begins | Watching: Only storm",
   "prompt_variants": [
@@ -17,9 +17,9 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Camera spiraling around [GUÐRÚN] as she stands in the storm, oil lamp flame horizontal in wind then dying, the moment of darkness triggering her first deep breath in years - visible as massive white cloud - finally alone, no one watching except us.",
-      "action": "CAMERA SPIRALS counterclockwise matching wind vortex. Guðrún holds lamp fragment, flame bending 90 degrees horizontal. First spiral: flame yellow, fighting. Second spiral: flame blue, shrinking. Her sealskin cloak whipping, revealing wool she pulled from wrists - now 25mm long, wrapped around fingers, already ice-covered. Third spiral: flame dies. Darkness except snow reflecting pre-dawn grey. But in darkness - her breathing changes. Deep inhale, visible as huge white cloud, held, released. First unobserved breath in years. No husband counting. No children needing. Face relaxes into something almost like peace. Wind creates snow spirals around her - five spirals with six intersection points, the pattern everywhere. Her first step: not toward sea but standing still, feeling solitude. Faldbúningur headdress collecting snow, becoming white crown.",
-      "scene": "Outside house, horizontal snow. Visibility 3 meters. Wind vortex creating natural spiral. -30°C visible in instant ice formation.",
+      "subject": "Camera spiraling around [GU\u00d0\u0090R\u00daN] as she stands in the storm, oil lamp flame horizontal in wind then dying, the moment of darkness triggering her first deep breath in years - visible as massive white cloud - finally alone, no one watching except us.",
+      "action": "CAMERA SPIRALS counterclockwise matching wind vortex. Gu\u00f0r\u00fan holds lamp fragment, flame bending 90 degrees horizontal. First spiral: flame yellow, fighting. Second spiral: flame blue, shrinking. Her sealskin cloak whipping, revealing wool she pulled from wrists - now 25mm long, wrapped around fingers, already ice-covered. Third spiral: flame dies. Darkness except snow reflecting pre-dawn grey. But in darkness - her breathing changes. Deep inhale, visible as huge white cloud, held, released. First unobserved breath in years. No husband counting. No children needing. Face relaxes into something almost like peace. Wind creates snow spirals around her - five spirals with six intersection points, the pattern everywhere. Her first step: not toward sea but standing still, feeling solitude. Faldb\u00faningur headdress collecting snow, becoming white crown.",
+      "scene": "Outside house, horizontal snow. Visibility 3 meters. Wind vortex creating natural spiral. -30\u00b0C visible in instant ice formation.",
       "style": "Spiraling camera matching wind pattern, darkness when lamp dies (that's where the camera is), her liberation through solitude.",
       "camera_position": "Spiraling camera matching wind pattern, darkness when lamp dies",
       "dialogue": "None - just breathing changing from controlled to free",
@@ -63,7 +63,7 @@
   ],
   "others": {
     "womens_silence": "Alone, she breathes freely",
-    "triple_reality": "Physical: -30°C death cold | Psychological: first solitude in years | Mythological: walking to water god"
+    "triple_reality": "Physical: -30\u00b0C death cold | Psychological: first solitude in years | Mythological: walking to water god"
   },
   "notes": {
     "sequence": "main_story",

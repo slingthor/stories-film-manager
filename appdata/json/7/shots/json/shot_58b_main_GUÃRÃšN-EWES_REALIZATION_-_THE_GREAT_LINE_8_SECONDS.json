@@ -1,28 +1,28 @@
 {
   "shot_metadata": {
     "id": "58b",
-    "name": "GUÐRÐŠN_EWES_REALIZATION___THE_GREAT_LINE_8_SECONDS",
-    "title": "GUÐRÚN-EWES REALIZATION - THE GREAT LINE 8 SECONDS",
+    "name": "GU\u00d0R\u00d0\u0160N_EWES_REALIZATION___THE_GREAT_LINE_8_SECONDS",
+    "title": "GU\u00d0R\u00daN-EWES REALIZATION - THE GREAT LINE 8 SECONDS",
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "Truth understood | Camera frost 51% | Sacrifice me...",
-    "stitch_from": "[STITCH from Shot 58a: Klettagjá revealed, sheep family huddled]"
+    "stitch_from": "[STITCH from Shot 58a: Klettagj\u00e1 revealed, sheep family huddled]"
   },
   "progressive_state": "Truth understood | Camera frost 51% | Sacrifice meaning | Watching: Mother knows",
   "prompt_variants": [
     {
       "variant_id": "58b_story_primary",
-      "variant_name": "Primary - GUÐRÚN-EWES REALIZATION - THE GREAT LINE 8 SECONDS",
+      "variant_name": "Primary - GU\u00d0R\u00daN-EWES REALIZATION - THE GREAT LINE 8 SECONDS",
       "intent_tags": [
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[GUÐRÚN]-ewe suddenly understanding, struggling with sheep vocal cords to speak the crucial truth: \"Við deyjum sem kindur... til að börn okkar... geti orðið fólk\" (We die as sheep... so our children... can become human).",
-      "action": "PUSH IN on Guðrún-ewe's face. Her horizontal pupils dilate with understanding. She KNOWS now. Why this happened. What it means. Struggles to speak. Sheep throat fighting human consciousness. \"Vvvvið...\" Harder than \"Mamma.\" These are complex words. \"Við deyjum...\" Push closer. Tears from sheep eyes. Real tears. Mother's tears. \"Sem kindur...\" The words barely human. More bleat than speech. But we understand. She understands. They're the sacrifice generation. \"Til að börn okkar...\" Looking at lamb-children. They won't stay sheep. Their children will be human. Free. \"Geti orðið fólk.\" The last word clear. FÐ“LK. Human. People. Not livestock. The colonial transformation was temporary. One generation sacrificed so the next could be free. Iceland under Denmark - sheep. Iceland independent - human again. She sees it all. Accepts it. The mother's ultimate sacrifice.",
+      "subject": "[GU\u00d0\u0090R\u00daN]-ewe suddenly understanding, struggling with sheep vocal cords to speak the crucial truth: \"Vi\u00f0 deyjum sem kindur... til a\u00f0 b\u00f6rn okkar... geti or\u00f0i\u00f0 f\u00f3lk\" (We die as sheep... so our children... can become human).",
+      "action": "PUSH IN on Gu\u00f0r\u00fan-ewe's face. Her horizontal pupils dilate with understanding. She KNOWS now. Why this happened. What it means. Struggles to speak. Sheep throat fighting human consciousness. \"Vvvvi\u00f0...\" Harder than \"Mamma.\" These are complex words. \"Vi\u00f0 deyjum...\" Push closer. Tears from sheep eyes. Real tears. Mother's tears. \"Sem kindur...\" The words barely human. More bleat than speech. But we understand. She understands. They're the sacrifice generation. \"Til a\u00f0 b\u00f6rn okkar...\" Looking at lamb-children. They won't stay sheep. Their children will be human. Free. \"Geti or\u00f0i\u00f0 f\u00f3lk.\" The last word clear. F\u00d0\u201cLK. Human. People. Not livestock. The colonial transformation was temporary. One generation sacrificed so the next could be free. Iceland under Denmark - sheep. Iceland independent - human again. She sees it all. Accepts it. The mother's ultimate sacrifice.",
       "scene": "Close on ewe face. Tears visible. Dawn light making wool glow. Truth spoken barely.",
       "style": "Push in on speaking ewe (that's where the camera is), revelation documented.",
       "camera_position": "Push in on speaking ewe",
-      "dialogue": "(Guðrún-ewe, struggling): \"Við deyjum sem kindur...\" \"Til að börn okkar...\" \"Geti orðið fólk\"",
+      "dialogue": "(Gu\u00f0r\u00fan-ewe, struggling): \"Vi\u00f0 deyjum sem kindur...\" \"Til a\u00f0 b\u00f6rn okkar...\" \"Geti or\u00f0i\u00f0 f\u00f3lk\"",
       "audio": {
         "primary": [
           "Sheep throat forming human words",
@@ -45,7 +45,7 @@
         "LILJA-LAMB",
         "JON-LAMB",
         "GUDRUN-EWE",
-        "BAÐSTOFA-CLIFF",
+        "BA\u00d0STOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ],
       "available_character_plates": {
@@ -56,7 +56,7 @@
         "gudrun": "GUDRUN-EWE"
       },
       "available_environmental_plates": [
-        "BAÐSTOFA-CLIFF",
+        "BA\u00d0STOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ]
     }

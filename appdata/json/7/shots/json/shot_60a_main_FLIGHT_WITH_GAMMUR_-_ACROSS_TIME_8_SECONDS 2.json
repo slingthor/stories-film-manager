@@ -19,11 +19,11 @@
       ],
       "priority": 1,
       "subject": "[SIGRID]-raven flying alongside GAMMUR across Iceland's landscape but each wingbeat takes them through different time - over 1888's frozen fjords, through 1944's independence celebration, past 2024's tourist buses at the black obelisk, all in single flight.",
-      "action": "AERIAL TRACKING both ravens. Gammur leads, massive wings cutting through time itself. Each downbeat: different era. First beat: 1888 below, frozen fjord, trawler still circling in eternal ouroboros (frozen in ice). Second beat: 1904, Danish administration buildings rising. Third beat: 1920, Sigrid laying her egg on cathedral roof - the human child emerging from raven egg. Fourth beat: 1940, British occupation, tanks replacing Danish clerks. Fifth beat: 1944, June 17, independence day, crowds cheering, Sigrid (aged 72, human again) in crowd, looking up, SEEING her younger raven self flying over, remembering. Sixth beat: 2024, the obelisk a tourist destination, children on school trips, guides explaining \"the family preserved inside represents colonial sacrifice.\" Seventh beat: future unknown, Iceland green, warm, different. Gammur speaks while flying: \"Þetta er það sem þú verður að muna\" (This is what you must remember). All of it. Every moment. The witness carries all.",
+      "action": "AERIAL TRACKING both ravens. Gammur leads, massive wings cutting through time itself. Each downbeat: different era. First beat: 1888 below, frozen fjord, trawler still circling in eternal ouroboros (frozen in ice). Second beat: 1904, Danish administration buildings rising. Third beat: 1920, Sigrid laying her egg on cathedral roof - the human child emerging from raven egg. Fourth beat: 1940, British occupation, tanks replacing Danish clerks. Fifth beat: 1944, June 17, independence day, crowds cheering, Sigrid (aged 72, human again) in crowd, looking up, SEEING her younger raven self flying over, remembering. Sixth beat: 2024, the obelisk a tourist destination, children on school trips, guides explaining \"the family preserved inside represents colonial sacrifice.\" Seventh beat: future unknown, Iceland green, warm, different. Gammur speaks while flying: \"\u00deetta er \u00fea\u00f0 sem \u00fe\u00fa ver\u00f0ur a\u00f0 muna\" (This is what you must remember). All of it. Every moment. The witness carries all.",
       "scene": "Flying across all Iceland times. Landscape changing below. History visible. Future glimpsed.",
       "style": "Aerial tracking through time (that's where the camera is), memory flight documented.",
       "camera_position": "Aerial tracking through time",
-      "dialogue": "(Gammur): \"Þetta er það sem þú verður að muna\" (Sigrid, 1944): Looking up: \"Ð‰g man\" (I remember)",
+      "dialogue": "(Gammur): \"\u00deetta er \u00fea\u00f0 sem \u00fe\u00fa ver\u00f0ur a\u00f0 muna\" (Sigrid, 1944): Looking up: \"\u00d0\u2030g man\" (I remember)",
       "audio": {
         "primary": [
           "Wings through time",
@@ -47,7 +47,7 @@
         "LILJA-LAMB",
         "JON-LAMB",
         "GUDRUN-EWE",
-        "BAÐSTOFA-CLIFF",
+        "BA\u00d0STOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ],
       "available_character_plates": {
@@ -58,14 +58,14 @@
         "gudrun": "GUDRUN-EWE"
       },
       "available_environmental_plates": [
-        "BAÐSTOFA-CLIFF",
+        "BA\u00d0STOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ]
     }
   ],
   "others": {
     "womens_silence": "No longer human to be silent",
-    "triple_reality": "Physical: ravens flying | Psychological: freedom achieved | Mythological: landvættir guiding"
+    "triple_reality": "Physical: ravens flying | Psychological: freedom achieved | Mythological: landv\u00e6ttir guiding"
   },
   "notes": {
     "sequence": "main_story",

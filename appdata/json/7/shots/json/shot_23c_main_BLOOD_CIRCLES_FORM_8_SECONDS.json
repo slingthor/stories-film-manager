@@ -1,48 +1,48 @@
 {
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "action" : "Sigrid raises brass button to prick finger for blood offering. But button industrially sharp, corroded edge like razor. Goes too deep, through to bone. Blood flows immediately, more than intended. Drops hit floor in pattern - not random but guided. Blood forms spirals, five perfect circles radiating from her kneeling position. But five spirals create six intersection points - impossible geometry. Voice continues ritual but drops full octave: \"Komdu til mín\" becomes bass rumble. Then deeper, below human range, 16Hz, felt in bones: \"Komdu...\" Her throat shouldn't make this sound. Baby's heartbeat visible through dress, 150bpm, red pulse glowing. The blood circles begin steaming despite cold. Through window, Magnús visible collapsed in matching blood spirals outside. Connection made. House breathing drops to 6\/min, preparing. Contaminated tilberi creation beginning to breathe. Voice now giant's voice: \"LAND...\"",
-      "variant_name" : "Primary - BLOOD CIRCLES FORM 8 SECONDS",
-      "active_video_index" : 0,
-      "selected_plates" : [
-        "BAÐSTOFA-BODY",
+      "action": "Sigrid raises brass button to prick finger for blood offering. But button industrially sharp, corroded edge like razor. Goes too deep, through to bone. Blood flows immediately, more than intended. Drops hit floor in pattern - not random but guided. Blood forms spirals, five perfect circles radiating from her kneeling position. But five spirals create six intersection points - impossible geometry. Voice continues ritual but drops full octave: \"Komdu til m\u00edn\" becomes bass rumble. Then deeper, below human range, 16Hz, felt in bones: \"Komdu...\" Her throat shouldn't make this sound. Baby's heartbeat visible through dress, 150bpm, red pulse glowing. The blood circles begin steaming despite cold. Through window, Magn\u00fas visible collapsed in matching blood spirals outside. Connection made. House breathing drops to 6/min, preparing. Contaminated tilberi creation beginning to breathe. Voice now giant's voice: \"LAND...\"",
+      "variant_name": "Primary - BLOOD CIRCLES FORM 8 SECONDS",
+      "active_video_index": 0,
+      "selected_plates": [
+        "BA\u00d0STOFA-BODY",
         "WESTFJORDS-WINTER",
-        "BAÐSTOFA-ORGANIC",
+        "BA\u00d0STOFA-ORGANIC",
         "SIGRID-BIRTHING"
       ],
-      "is_active" : false,
-      "camera_position" : "Overhead shot showing blood pattern forming, matching outside",
-      "dialogue" : "(Sigrid, full octave drop): \"Komdu til mín\" (16Hz beginning): \"Komdu... nei...\" (Giant's voice emerging): \"LAND...\"",
-      "subject" : "[SIGRID] pricking her finger with the brass button for blood offering, but industrial sharp makes it go too deep, blood flowing freely onto floor where it forms five perfect spirals with six intersection points - matching the ram circles outside, as her voice drops to impossible depth.",
-      "videos" : [
+      "is_active": false,
+      "camera_position": "Overhead shot showing blood pattern forming, matching outside",
+      "dialogue": "(Sigrid, full octave drop): \"Komdu til m\u00edn\" (16Hz beginning): \"Komdu... nei...\" (Giant's voice emerging): \"LAND...\"",
+      "subject": "[SIGRID] pricking her finger with the brass button for blood offering, but industrial sharp makes it go too deep, blood flowing freely onto floor where it forms five perfect spirals with six intersection points - matching the ram circles outside, as her voice drops to impossible depth.",
+      "videos": [
         {
-          "duration" : 8,
-          "filename" : "Subject_sigrid_pricking_202509211759_ilvyx.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_pricking_202509211759_ilvyx.mp4"
+          "duration": 8,
+          "filename": "Subject_sigrid_pricking_202509211759_ilvyx.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_sigrid_pricking_202509211759_ilvyx.mp4"
         },
         {
-          "filename" : "Subject_sigrid_pricking_202509211936_nwl93.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_pricking_202509211936_nwl93.mp4"
+          "filename": "Subject_sigrid_pricking_202509211936_nwl93.mp4",
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Subject_sigrid_pricking_202509211936_nwl93.mp4"
         }
       ],
-      "negative_prompt" : "no subtitles, show blood pattern clearly, voice transformation to 16Hz, documentary observation",
-      "variant_id" : "23c_story_primary",
-      "progressive_state" : "",
-      "style" : "Overhead shot showing blood pattern forming, matching outside (that's where the camera is), documentary of pattern recognition.",
-      "scene" : "Blood pooling in impossible pattern, steam rising. Matching exactly the ram circles Magnús found outside. The inevitability visible - this was always going to happen."
+      "negative_prompt": "no subtitles, show blood pattern clearly, voice transformation to 16Hz, documentary observation",
+      "variant_id": "23c_story_primary",
+      "progressive_state": "",
+      "style": "Overhead shot showing blood pattern forming, matching outside (that's where the camera is), documentary of pattern recognition.",
+      "scene": "Blood pooling in impossible pattern, steam rising. Matching exactly the ram circles Magn\u00fas found outside. The inevitability visible - this was always going to happen."
     }
   ],
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "id" : "23c",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "needs_improvements" : false,
-    "title" : "BLOOD CIRCLES FORM 8 SECONDS",
-    "narrative_function" : "House 6\/min + 45bpm | Blood pattern emerging | Cam...",
-    "stitch_from" : ""
+  "selected_prompt_index": 0,
+  "shot_metadata": {
+    "id": "23c",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "needs_improvements": false,
+    "title": "BLOOD CIRCLES FORM 8 SECONDS",
+    "narrative_function": "House 6/min + 45bpm | Blood pattern emerging | Cam...",
+    "stitch_from": ""
   },
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "House 6\/min + 45bpm | Blood pattern emerging | Camera frost 15% | Giant's voice beginning | Watching: House recognizing"
+  "aspect_ratio": "4:3",
+  "progressive_state": "House 6/min + 45bpm | Blood pattern emerging | Camera frost 15% | Giant's voice beginning | Watching: House recognizing"
 }

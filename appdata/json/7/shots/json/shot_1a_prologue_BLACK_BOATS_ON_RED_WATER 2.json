@@ -1,213 +1,73 @@
 {
-  "selected_prompt_index" : 0,
-  "prompt_variants" : [
+  "selected_prompt_index": 0,
+  "prompt_variants": [
     {
-      "scene" : "Black sand beach, dawn. Ocean calm except for whale spouts. Red-tinted water from sun angle. Mountains behind beach. Women and children watching from shore.",
-      "videos" : [
+      "scene": "Black sand beach, dawn. Ocean calm except for whale spouts. Red-tinted water from sun angle. Mountains behind beach. Women and children watching from shore.",
+      "videos": [
         {
-          "filename" : "Revised_prompt_subject_202509141854_leday.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Revised_prompt_subject_202509141854_leday.mp4",
-          "duration" : 8
+          "filename": "Revised_prompt_subject_202509141854_leday.mp4",
+          "filepath": "/Users/ingthor/Downloads/Revised_prompt_subject_202509141854_leday.mp4",
+          "duration": 8
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Revised_prompt_subject_202509141854_m00rr.mp4",
-          "duration" : 8,
-          "filename" : "Revised_prompt_subject_202509141854_m00rr.mp4"
+          "filepath": "/Users/ingthor/Downloads/Revised_prompt_subject_202509141854_m00rr.mp4",
+          "duration": 8,
+          "filename": "Revised_prompt_subject_202509141854_m00rr.mp4"
         },
         {
-          "filename" : "Revised_prompt_subject_202509141854_c8b1k.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Revised_prompt_subject_202509141854_c8b1k.mp4",
-          "duration" : 8
+          "filename": "Revised_prompt_subject_202509141854_c8b1k.mp4",
+          "filepath": "/Users/ingthor/Downloads/Revised_prompt_subject_202509141854_c8b1k.mp4",
+          "duration": 8
         },
         {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509142342_f1obp.mp4",
-          "filename" : "Meta_setting_iceland_202509142342_f1obp.mp4"
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509142342_f1obp.mp4",
+          "filename": "Meta_setting_iceland_202509142342_f1obp.mp4"
         },
         {
-          "filename" : "Subject_twelve_men_202509142253_2za0z.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_twelve_men_202509142253_2za0z.mp4"
+          "filename": "Subject_twelve_men_202509142253_2za0z.mp4",
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Subject_twelve_men_202509142253_2za0z.mp4"
         },
         {
-          "duration" : 20,
-          "filepath" : "\/Users\/ingthor\/Downloads\/20250919_2026_Dawn Whale Hunt_simple_compose_01k5jjhbpzf4gvf3nxsyxzk9cc.mp4",
-          "filename" : "20250919_2026_Dawn Whale Hunt_simple_compose_01k5jjhbpzf4gvf3nxsyxzk9cc.mp4"
+          "duration": 20,
+          "filepath": "/Users/ingthor/Downloads/20250919_2026_Dawn Whale Hunt_simple_compose_01k5jjhbpzf4gvf3nxsyxzk9cc.mp4",
+          "filename": "20250919_2026_Dawn Whale Hunt_simple_compose_01k5jjhbpzf4gvf3nxsyxzk9cc.mp4"
         },
         {
-          "duration" : 20,
-          "filename" : "20250919_2026_Dawn Whale Hunt_simple_compose_01k5jjhc07f62swdvb78e2fmck.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/20250919_2026_Dawn Whale Hunt_simple_compose_01k5jjhc07f62swdvb78e2fmck.mp4"
-        },
-        {
-          "filename" : "Subject_magns_collapsed_202510240007_ekku.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_ekku.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_mkt0.mp4",
-          "duration" : 8,
-          "filename" : "Subject_magns_collapsed_202510240007_mkt0.mp4"
-        },
-        {
-          "filename" : "Subject_the_contaminated_202510240007_fvlyf.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_fvlyf.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_it5ua.mp4",
-          "filename" : "Subject_the_contaminated_202510240007_it5ua.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_from_south_202510240007_fd14i.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_south_202510240007_fd14i.mp4"
-        },
-        {
-          "filename" : "Subject_from_the_202510240007_ewmxm.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_ewmxm.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_from_the_202510240007_bqik0.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_bqik0.mp4"
-        },
-        {
-          "filename" : "Subject_sigrids_mouth_202510240007_mktig.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_mktig.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_52mwz.mp4",
-          "duration" : 8,
-          "filename" : "Subject_sigrids_mouth_202510240007_52mwz.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_sigrids_voice_202510240008_v9tql.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_v9tql.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_voice_202510240008_fs1fm.mp4",
-          "filename" : "Subject_sigrids_voice_202510240008_fs1fm.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_sigrid_attempting_202510240008_9v1.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_9v1.mp4"
-        },
-        {
-          "filename" : "Subject_sigrid_attempting_202510240008_o7s.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_attempting_202510240008_o7s.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_sigrid_kneeling_202510240008_5fnyt.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_5fnyt.mp4"
-        },
-        {
-          "filename" : "Subject_sigrid_kneeling_202510240008_gt764.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_kneeling_202510240008_gt764.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_inside_the_202510240008_p26br.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_p26br.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_inside_the_202510240008_g8yo0.mp4",
-          "filename" : "Subject_inside_the_202510240008_g8yo0.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_h6o6u.mp4",
-          "filename" : "Subject_subject_reference_202510240008_h6o6u.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240008_emjns.mp4",
-          "duration" : 8,
-          "filename" : "Subject_subject_reference_202510240008_emjns.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_the_camera_202510240008_kjftz.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_camera_202510240008_kjftz.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_sigrid_standing_202510240009_z2vvg.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_z2vvg.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrid_standing_202510240009_xwxxw.mp4",
-          "filename" : "Subject_sigrid_standing_202510240009_xwxxw.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_view_from_202510240009_31574.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_31574.mp4"
-        },
-        {
-          "filename" : "Subject_view_from_202510240009_4ae9w.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_view_from_202510240009_4ae9w.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_subject_reference_202510240009_rn42a.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_rn42a.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_subject_reference_202510240009_uowzh.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240009_uowzh.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_action_whales_202510240009_vn1hy.mp4",
-          "duration" : 8,
-          "filename" : "Subject_action_whales_202510240009_vn1hy.mp4"
-        },
-        {
-          "filename" : "Subject_twelve_men_202510240009_tfnyc.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_twelve_men_202510240009_tfnyc.mp4",
-          "duration" : 8
+          "duration": 20,
+          "filename": "20250919_2026_Dawn Whale Hunt_simple_compose_01k5jjhc07f62swdvb78e2fmck.mp4",
+          "filepath": "/Users/ingthor/Downloads/20250919_2026_Dawn Whale Hunt_simple_compose_01k5jjhc07f62swdvb78e2fmck.mp4"
         }
       ],
-      "active_video_index" : 0,
-      "selected_plates" : [
+      "active_video_index": 0,
+      "selected_plates": [
         "MAGNUS-AUTHORITY",
         "SEA-DIVINE",
         "WESTFJORDS-BEACH",
         "JON-MASTER"
       ],
-      "camera_position" : "Wide shot from elevated position on beach showing boats entering water",
-      "progressive_state" : "",
-      "negative_prompt" : "no subtitles, show red-tinted water, synchronized rowing, distant whale spouts, 1080p",
-      "style" : "Wide shot from elevated position on beach showing boats entering water (that's where the camera is), seeing both boats and distant whales.",
-      "variant_id" : "1a_story_primary",
-      "action" : "Men's boots sink into black sand as they push boats. Three boats, each 18 feet long, wooden, dark with age. Four men per boat. Magnús leads first boat, carries 7-foot spear with iron point, shaft dark wood. Other men carry similar spears. They push boats into water. Water appears red - dawn light creating illusion of blood. Boats float immediately. Men climb over sides, water dripping from boots. Take positions at oars - two men per side. Begin rowing. All twelve men pull oars simultaneously. Each stroke moves boats 6 feet forward. Water parts around boat bows, red color intensifying where disturbed. In distance, whale spouts visible - water shooting up 30 feet, three locations, 500 yards away. Young boy [JÐ“N] stands on shore watching, too young for hunt.",
-      "variant_name" : "Primary - BLACK BOATS ON RED WATER",
-      "dialogue" : "None",
-      "subject" : "Twelve men pushing three wooden rowing boats across black sand into ocean water that appears red-tinted in dawn light, [MAGNÚS] 45 years old with brown beard carrying iron-pointed spear, boats arranged pointing toward whale spouts visible in distance.",
-      "is_active" : false
+      "camera_position": "Wide shot from elevated position on beach showing boats entering water",
+      "progressive_state": "",
+      "negative_prompt": "no subtitles, show red-tinted water, synchronized rowing, distant whale spouts, 1080p",
+      "style": "Wide shot from elevated position on beach showing boats entering water (that's where the camera is), seeing both boats and distant whales.",
+      "variant_id": "1a_story_primary",
+      "action": "Men's boots sink into black sand as they push boats. Three boats, each 18 feet long, wooden, dark with age. Four men per boat. Magn\u00fas leads first boat, carries 7-foot spear with iron point, shaft dark wood. Other men carry similar spears. They push boats into water. Water appears red - dawn light creating illusion of blood. Boats float immediately. Men climb over sides, water dripping from boots. Take positions at oars - two men per side. Begin rowing. All twelve men pull oars simultaneously. Each stroke moves boats 6 feet forward. Water parts around boat bows, red color intensifying where disturbed. In distance, whale spouts visible - water shooting up 30 feet, three locations, 500 yards away. Young boy [J\u00d0\u201cN] stands on shore watching, too young for hunt.",
+      "variant_name": "Primary - BLACK BOATS ON RED WATER",
+      "dialogue": "None",
+      "subject": "Twelve men pushing three wooden rowing boats across black sand into ocean water that appears red-tinted in dawn light, [MAGN\u00daS] 45 years old with brown beard carrying iron-pointed spear, boats arranged pointing toward whale spouts visible in distance.",
+      "is_active": false
     }
   ],
-  "aspect_ratio" : "1.85:1",
-  "progressive_state" : "Hunt begins | Men gathering | Camera frost 0% | Blood water | Watching: The marking approaches",
-  "shot_metadata" : {
-    "title" : "BLACK BOATS ON RED WATER",
-    "stitch_from" : "",
-    "narrative_function" : "Hunt begins | Men gathering | Camera frost 0% | Bl...",
-    "needs_improvements" : true,
-    "duration_seconds" : 8,
-    "sequence_type" : "prologue",
-    "id" : "1a"
+  "aspect_ratio": "1.85:1",
+  "progressive_state": "Hunt begins | Men gathering | Camera frost 0% | Blood water | Watching: The marking approaches",
+  "shot_metadata": {
+    "title": "BLACK BOATS ON RED WATER",
+    "stitch_from": "",
+    "narrative_function": "Hunt begins | Men gathering | Camera frost 0% | Bl...",
+    "needs_improvements": true,
+    "duration_seconds": 8,
+    "sequence_type": "prologue",
+    "id": "1a"
   }
 }

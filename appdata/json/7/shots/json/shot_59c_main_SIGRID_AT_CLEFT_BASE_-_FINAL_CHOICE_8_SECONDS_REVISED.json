@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[SIGRID]-raven at the base of the cleft, looking up through the vertical passage at sky, then back at family preserved in obsidian, spreading wings, beginning to fly upward through the klettagjá while speaking: \"Ð‰g mun muna ykkur\" (I will remember you).",
-      "action": "Sigrid fully raven now. Standing at cleft base. Looking up: freedom. Sky. Seven ravens. Looking back: family in glass. Preserved. Eternal. She spreads wings - 5-foot span barely fits. SPIRAL UP with her as she begins to rise. Not flying yet - hopping. Testing. Glass walls show infinite reflections of her. Thousand ravens ascending. All possible futures. Halfway up, she speaks. Not human voice - raven voice but we understand: \"Ð‰g mun muna ykkur.\" Promise. Duty. Love. Will remember them. Witness their sacrifice. Tell their story. Wings catch updraft through cleft. Real flight beginning. Below: sheep family watching through obsidian. Guðrún-ewe nods. Permission. Blessing. Go. Be free. Remember us. Sigrid rises faster. Toward light. Toward sky. Toward 1944. Toward independence. The egg inside her (the rounded belly transformed) will be laid in freedom. Human child from raven mother. The bridge generation.",
+      "subject": "[SIGRID]-raven at the base of the cleft, looking up through the vertical passage at sky, then back at family preserved in obsidian, spreading wings, beginning to fly upward through the klettagj\u00e1 while speaking: \"\u00d0\u2030g mun muna ykkur\" (I will remember you).",
+      "action": "Sigrid fully raven now. Standing at cleft base. Looking up: freedom. Sky. Seven ravens. Looking back: family in glass. Preserved. Eternal. She spreads wings - 5-foot span barely fits. SPIRAL UP with her as she begins to rise. Not flying yet - hopping. Testing. Glass walls show infinite reflections of her. Thousand ravens ascending. All possible futures. Halfway up, she speaks. Not human voice - raven voice but we understand: \"\u00d0\u2030g mun muna ykkur.\" Promise. Duty. Love. Will remember them. Witness their sacrifice. Tell their story. Wings catch updraft through cleft. Real flight beginning. Below: sheep family watching through obsidian. Gu\u00f0r\u00fan-ewe nods. Permission. Blessing. Go. Be free. Remember us. Sigrid rises faster. Toward light. Toward sky. Toward 1944. Toward independence. The egg inside her (the rounded belly transformed) will be laid in freedom. Human child from raven mother. The bridge generation.",
       "scene": "Raven ascending through obelisk cleft. Family watching from glass. Freedom above.",
       "style": "Spiral up following ascent (that's where the camera is), escape documented.",
       "camera_position": "Spiral up following ascent",
-      "dialogue": "(Sigrid-raven): \"Ð‰g mun muna ykkur\" (Raven voice but understood)",
+      "dialogue": "(Sigrid-raven): \"\u00d0\u2030g mun muna ykkur\" (Raven voice but understood)",
       "audio": {
         "primary": [
           "Wings against narrow walls",
@@ -45,7 +45,7 @@
         "LILJA-LAMB",
         "JON-LAMB",
         "GUDRUN-EWE",
-        "BAÐSTOFA-CLIFF",
+        "BA\u00d0STOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ],
       "available_character_plates": {
@@ -56,7 +56,7 @@
         "gudrun": "GUDRUN-EWE"
       },
       "available_environmental_plates": [
-        "BAÐSTOFA-CLIFF",
+        "BA\u00d0STOFA-CLIFF",
         "WESTFJORDS-CLIFF"
       ]
     }

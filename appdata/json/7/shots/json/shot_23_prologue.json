@@ -48,7 +48,7 @@
         "LILJA-HARMONIC",
         "JON-TEMPORAL",
         "GUDRUN-RITUAL",
-        "BAÐSTOFA-BODY",
+        "BA\u00d0STOFA-BODY",
         "WESTFJORDS-WINTER"
       ],
       "available_character_plates": {
@@ -59,7 +59,7 @@
         "gudrun": "GUDRUN-RITUAL"
       },
       "available_environmental_plates": [
-        "BAÐSTOFA-BODY",
+        "BA\u00d0STOFA-BODY",
         "WESTFJORDS-WINTER"
       ]
     }

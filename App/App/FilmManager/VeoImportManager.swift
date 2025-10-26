@@ -284,9 +284,20 @@ class VeoImportManager: ObservableObject {
 
             let message = "Imported \(completedFiles.count) video(s) to Shot #\(shotId) - Variant '\(variantName)'"
             await notificationManager.sendNotification(title: "✅ Import Successful", body: "\(shotTitle)\n\(message)", isError: false)
-            await MainActor.run {
+
+            // Update modeActivatedAt to current time so next import only considers NEW downloads
+            let newTimestamp = await MainActor.run { () -> Date in
                 lastImportStatus = "✅ " + message
+                let timestamp = Date()
+                modeActivatedAt = timestamp
+                print("[Sora] 📅 Updated modeActivatedAt to \(timestamp) - next import will only consider files downloaded after this time")
+                return timestamp
             }
+
+            // Restart monitoring with new timestamp
+            downloadMonitor.stopMonitoring()
+            downloadMonitor.startMonitoring(downloadsPath: downloadsPath, since: newTimestamp)
+            print("[Sora] 🔄 Restarted DownloadMonitor with new timestamp")
 
         } catch {
             let message = "Failed to complete downloads: \(error.localizedDescription)"

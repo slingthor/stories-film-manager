@@ -1,87 +1,82 @@
 {
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "action" : "Magnús shifts to Danish, voice becoming mechanical, administrative. Points at Guðrún with first piece of hákarl: \"En\" (One). She takes it, puts in mouth immediately, begins chewing. The meat is 13 days into 90-day fermentation - visible green spots, ammonia vapor rising. Points at Jón with second piece: \"To\" (Two). The fevered boy takes it, struggles to swallow, green liquid dripping from corner of mouth. With each Danish word, temperature seems to drop - frost spreading on walls near where Danish is spoken, as if language itself brings cold. The hákarl pieces show dark veining throughout, unusual patterns in the preserved meat. Foreign elements already in the food. Magnús's tremor makes pointing unstable, hákarl pieces shaking. House breathing maintains 13\/min but heartbeat underneath beginning - subtle, might be imagination. Six shadows on wall, sixth shadow moving though no sixth person counted yet.",
-      "subject" : "[MAGNÚS] beginning the Danish counting while simultaneously distributing hákarl, his tremoring hand (3.5Hz) pointing at each family member with a piece of the grey-green fermented shark, the counting and poisoned hakarl revealed as the same act - administrative violence IS physical poisoning.",
-      "dialogue" : "(Magnús): \"En\" (Tone: mechanical, pointing at Guðrún) \"To\" (Tone: administrative, pointing at Jón) (Guðrún): Chewing in silence (Jón): Slight gagging, swallows",
-      "scene" : "Morning sorting ritual, 5:49 AM, light growing outside but still dim. Temperature drops from -8°C to -9°C as Danish spoken. Frost spreading on north wall in dendritic patterns where Danish words hit. The hákarl on plate shows five pieces cut but six exist. Each piece releasing visible ammonia that makes eyes water. Breath vapor from everyone, but during Danish, breath seems to freeze mid-air briefly.",
-      "progressive_state" : "",
-      "videos" : [
+      "action": "Magn\u00fas shifts to Danish, voice becoming mechanical, administrative. Points at Gu\u00f0r\u00fan with first piece of h\u00e1karl: \"En\" (One). She takes it, puts in mouth immediately, begins chewing. The meat is 13 days into 90-day fermentation - visible green spots, ammonia vapor rising. Points at J\u00f3n with second piece: \"To\" (Two). The fevered boy takes it, struggles to swallow, green liquid dripping from corner of mouth. With each Danish word, temperature seems to drop - frost spreading on walls near where Danish is spoken, as if language itself brings cold. The h\u00e1karl pieces show dark veining throughout, unusual patterns in the preserved meat. Foreign elements already in the food. Magn\u00fas's tremor makes pointing unstable, h\u00e1karl pieces shaking. House breathing maintains 13/min but heartbeat underneath beginning - subtle, might be imagination. Six shadows on wall, sixth shadow moving though no sixth person counted yet.",
+      "subject": "[MAGN\u00daS] beginning the Danish counting while simultaneously distributing h\u00e1karl, his tremoring hand (3.5Hz) pointing at each family member with a piece of the grey-green fermented shark, the counting and poisoned hakarl revealed as the same act - administrative violence IS physical poisoning.",
+      "dialogue": "(Magn\u00fas): \"En\" (Tone: mechanical, pointing at Gu\u00f0r\u00fan) \"To\" (Tone: administrative, pointing at J\u00f3n) (Gu\u00f0r\u00fan): Chewing in silence (J\u00f3n): Slight gagging, swallows",
+      "scene": "Morning sorting ritual, 5:49 AM, light growing outside but still dim. Temperature drops from -8\u00b0C to -9\u00b0C as Danish spoken. Frost spreading on north wall in dendritic patterns where Danish words hit. The h\u00e1karl on plate shows five pieces cut but six exist. Each piece releasing visible ammonia that makes eyes water. Breath vapor from everyone, but during Danish, breath seems to freeze mid-air briefly.",
+      "progressive_state": "",
+      "videos": [
         {
-          "duration" : 8,
-          "filename" : "Subject_magns_beginning_202509211549_0n68.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_beginning_202509211549_0n68.mp4"
+          "duration": 8,
+          "filename": "Subject_magns_beginning_202509211549_0n68.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_magns_beginning_202509211549_0n68.mp4"
         },
         {
-          "filename" : "Subject_magns_beginning_202509211552_loto.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_beginning_202509211552_loto.mp4",
-          "duration" : 8
+          "filename": "Subject_magns_beginning_202509211552_loto.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_magns_beginning_202509211552_loto.mp4",
+          "duration": 8
         },
         {
-          "duration" : 8,
-          "filename" : "Subject_magns_beginning_202509211552_em2p.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_beginning_202509211552_em2p.mp4"
+          "duration": 8,
+          "filename": "Subject_magns_beginning_202509211552_em2p.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_magns_beginning_202509211552_em2p.mp4"
         },
         {
-          "filename" : "Subject_magns_beginning_202509211552_4bbn.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_beginning_202509211552_4bbn.mp4"
-        },
-        {
-          "filename" : "Subject_magns_beginning_202510232240_vs3d.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_beginning_202510232240_vs3d.mp4",
-          "duration" : 8
+          "filename": "Subject_magns_beginning_202509211552_4bbn.mp4",
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Subject_magns_beginning_202509211552_4bbn.mp4"
         }
       ],
-      "variant_name" : "Primary - THE COUNTING BEGINS - EN TO",
-      "style" : "Medium shot from Sigrid's position showing counting\/poisoning combination (that's where the camera is), her POV of colonial administration as feeding ritual.",
-      "active_video_index" : 0,
-      "selected_plates" : [
+      "variant_name": "Primary - THE COUNTING BEGINS - EN TO",
+      "style": "Medium shot from Sigrid's position showing counting/poisoning combination (that's where the camera is), her POV of colonial administration as feeding ritual.",
+      "active_video_index": 0,
+      "selected_plates": [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
         "LILJA-MATHEMATICAL",
         "JON-PROPHET",
         "GUDRUN-COUNTING",
-        "BAÐSTOFA-STIRRING",
+        "BA\u00d0STOFA-STIRRING",
         "STOFA-DOMESTIC"
       ],
-      "negative_prompt" : "no subtitles, no text overlays, show hákarl contamination, frost spreading from Danish, documentary observation",
-      "variant_id" : "8_story_primary",
-      "camera_position" : "Medium shot from Sigrid's position showing counting\/poisoning combination",
-      "is_active" : false
+      "negative_prompt": "no subtitles, no text overlays, show h\u00e1karl contamination, frost spreading from Danish, documentary observation",
+      "variant_id": "8_story_primary",
+      "camera_position": "Medium shot from Sigrid's position showing counting/poisoning combination",
+      "is_active": false
     },
     {
-      "dialogue" : "(Magnús): \"En\" (Tone: mechanical, the sound has a 40Hz industrial hum underneath) \"To\" (Tone: administrative, the word itself feels cold, metallic) (Jón): Chokes silently, a frozen green-black tear forming on his chin",
-      "selected_plates" : [
+      "dialogue": "(Magn\u00fas): \"En\" (Tone: mechanical, the sound has a 40Hz industrial hum underneath) \"To\" (Tone: administrative, the word itself feels cold, metallic) (J\u00f3n): Chokes silently, a frozen green-black tear forming on his chin",
+      "selected_plates": [
         "MAGNUS-CONFUSED",
         "SIGRID-CALCULATING",
         "LILJA-MATHEMATICAL",
         "JON-PROPHET",
         "GUDRUN-COUNTING",
-        "BAÐSTOFA-STIRRING"
+        "BA\u00d0STOFA-STIRRING"
       ],
-      "scene" : "Morning sorting ritual, 5:49 AM. The air is thick with the smell of ammonia and something metallic, like hot brass. The temperature drops to -9.5°C with each Danish word, the frost on the walls forming patterns that mimic industrial schematics. The sixth piece of hákarl on the plate seems to absorb light, a miniature black hole in the dim room. The house's heartbeat is a faint, metallic 60bpm.",
-      "progressive_state" : "",
-      "style" : "Impossible macro-to-medium pull-out shot, starting inside the hákarl and ending on Jón's face (that's where the camera is), the movement synchronized with the Danish word 'To', creating a sense of linguistic violence and revealing the contamination at a microscopic level.",
-      "variant_id" : "8_micro_contamination_v1",
-      "variant_name" : "Microscopic Contamination POV",
-      "negative_prompt" : "no subtitles, no text overlays, show hákarl contamination, frost spreading from Danish, documentary observation",
-      "action" : "Camera starts as an impossible macro shot inside the hákarl piece, showing industrial contaminants (brass shavings, coal dust) integrated into the meat's cellular structure. As Magnús's tremoring hand moves the piece toward Jón, the camera pulls out to a medium shot, revealing the boy's fevered face as his mouth opens reluctantly. The Danish word 'To' is a physical force, a wave of cold that causes ice crystals to form on Jón's lips before the hákarl even touches them. As he takes the meat, a single green-black tear of contaminated liquid rolls from the corner of his mouth, freezing into a perfect, impossible spiral on his chin.",
-      "subject" : "Extreme close-up on the piece of hákarl offered to Jón, revealing dark veining with a slow, rhythmic quality (40Hz) inside the grey-green fermented flesh, the ammonia vapor visibly carrying microscopic brass particles that catch the dim light.",
-      "camera_position" : "Impossible macro shot inside hákarl pulling out to medium shot of Jón's face",
-      "is_active" : false
+      "scene": "Morning sorting ritual, 5:49 AM. The air is thick with the smell of ammonia and something metallic, like hot brass. The temperature drops to -9.5\u00b0C with each Danish word, the frost on the walls forming patterns that mimic industrial schematics. The sixth piece of h\u00e1karl on the plate seems to absorb light, a miniature black hole in the dim room. The house's heartbeat is a faint, metallic 60bpm.",
+      "progressive_state": "",
+      "style": "Impossible macro-to-medium pull-out shot, starting inside the h\u00e1karl and ending on J\u00f3n's face (that's where the camera is), the movement synchronized with the Danish word 'To', creating a sense of linguistic violence and revealing the contamination at a microscopic level.",
+      "variant_id": "8_micro_contamination_v1",
+      "variant_name": "Microscopic Contamination POV",
+      "negative_prompt": "no subtitles, no text overlays, show h\u00e1karl contamination, frost spreading from Danish, documentary observation",
+      "action": "Camera starts as an impossible macro shot inside the h\u00e1karl piece, showing industrial contaminants (brass shavings, coal dust) integrated into the meat's cellular structure. As Magn\u00fas's tremoring hand moves the piece toward J\u00f3n, the camera pulls out to a medium shot, revealing the boy's fevered face as his mouth opens reluctantly. The Danish word 'To' is a physical force, a wave of cold that causes ice crystals to form on J\u00f3n's lips before the h\u00e1karl even touches them. As he takes the meat, a single green-black tear of contaminated liquid rolls from the corner of his mouth, freezing into a perfect, impossible spiral on his chin.",
+      "subject": "Extreme close-up on the piece of h\u00e1karl offered to J\u00f3n, revealing dark veining with a slow, rhythmic quality (40Hz) inside the grey-green fermented flesh, the ammonia vapor visibly carrying microscopic brass particles that catch the dim light.",
+      "camera_position": "Impossible macro shot inside h\u00e1karl pulling out to medium shot of J\u00f3n's face",
+      "is_active": false
     }
   ],
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "id" : "8",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "needs_improvements" : true,
-    "title" : "THE COUNTING BEGINS - EN TO",
-    "narrative_function" : "House 13\/min | Klettagjá hairline | Danish emergi...",
-    "stitch_from" : ""
+  "selected_prompt_index": 0,
+  "shot_metadata": {
+    "id": "8",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "needs_improvements": true,
+    "title": "THE COUNTING BEGINS - EN TO",
+    "narrative_function": "House 13/min | Klettagj\u00e1 hairline | Danish emergi...",
+    "stitch_from": ""
   },
-  "aspect_ratio" : "1:1",
-  "progressive_state" : "House 13\/min | Klettagjá hairline | Danish emerging | Camera frost 4% | Counting IS poisoning | Watching: Empire through Magnús"
+  "aspect_ratio": "1:1",
+  "progressive_state": "House 13/min | Klettagj\u00e1 hairline | Danish emerging | Camera frost 4% | Counting IS poisoning | Watching: Empire through Magn\u00fas"
 }

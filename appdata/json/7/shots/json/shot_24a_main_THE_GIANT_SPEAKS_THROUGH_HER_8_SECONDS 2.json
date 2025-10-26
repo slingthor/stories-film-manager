@@ -1,105 +1,50 @@
 {
-  "selected_prompt_index" : 0,
-  "aspect_ratio" : "4:3",
-  "prompt_variants" : [
+  "selected_prompt_index": 0,
+  "aspect_ratio": "4:3",
+  "prompt_variants": [
     {
-      "selected_plates" : [
+      "selected_plates": [
         "SIGRID-SUMMONING",
         "LILJA-MATHEMATICAL",
         "JON-PROPHET",
         "GUDRUN-PRODUCING",
-        "BAÐSTOFA-BODY",
+        "BA\u00d0STOFA-BODY",
         "STOFA-ORGANIC"
       ],
-      "variant_name" : "Primary - THE GIANT SPEAKS THROUGH HER 8 SECONDS",
-      "dialogue" : "(Giant through everything): \"LANDVÐ†TTIR, KOMIÐ\" (Sigrid fighting): Normal voice breaking through: \"Nei, ekki...\" (Giant overwhelming): \"HJÐLPIÐ OKKUR\"",
-      "negative_prompt" : "no subtitles, 16Hz as vibration not sound, show house as speaker, documentary observation",
-      "camera_position" : "Wide shot showing whole house as speaker, Sigrid small at center",
-      "scene" : "Interior becoming speaker. Walls showing stress cracks from vibration. Dust thick in air. Temperature dropping with each word.",
-      "active_video_index" : 0,
-      "progressive_state" : "",
-      "subject" : "[SIGRID]'s mouth moving but the giant's voice emerging from the house itself - 16Hz resonance from walls, floor, beams - as she becomes conduit for Bergrisi's dying call: \"LANDVÐ†TTIR, KOMIÐ\" vibrating through everything, dust falling from ceiling, her body just the focal point of architectural speech.",
-      "style" : "Wide shot showing whole house as speaker, Sigrid small at center (that's where the camera is), documentary of possession.",
-      "variant_id" : "24a_story_primary",
-      "videos" : [
+      "variant_name": "Primary - THE GIANT SPEAKS THROUGH HER 8 SECONDS",
+      "dialogue": "(Giant through everything): \"LANDV\u00d0\u2020TTIR, KOMI\u00d0\u0090\" (Sigrid fighting): Normal voice breaking through: \"Nei, ekki...\" (Giant overwhelming): \"HJ\u00d0\u0081LPI\u00d0\u0090 OKKUR\"",
+      "negative_prompt": "no subtitles, 16Hz as vibration not sound, show house as speaker, documentary observation",
+      "camera_position": "Wide shot showing whole house as speaker, Sigrid small at center",
+      "scene": "Interior becoming speaker. Walls showing stress cracks from vibration. Dust thick in air. Temperature dropping with each word.",
+      "active_video_index": 0,
+      "progressive_state": "",
+      "subject": "[SIGRID]'s mouth moving but the giant's voice emerging from the house itself - 16Hz resonance from walls, floor, beams - as she becomes conduit for Bergrisi's dying call: \"LANDV\u00d0\u2020TTIR, KOMI\u00d0\u0090\" vibrating through everything, dust falling from ceiling, her body just the focal point of architectural speech.",
+      "style": "Wide shot showing whole house as speaker, Sigrid small at center (that's where the camera is), documentary of possession.",
+      "variant_id": "24a_story_primary",
+      "videos": [
         {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202509211935_53izo.mp4",
-          "filename" : "Subject_sigrids_mouth_202509211935_53izo.mp4"
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Subject_sigrids_mouth_202509211935_53izo.mp4",
+          "filename": "Subject_sigrids_mouth_202509211935_53izo.mp4"
         },
         {
-          "duration" : 8,
-          "filename" : "Subject_sigrids_mouth_202509211935_toro4.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202509211935_toro4.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232334_wm36w.mp4",
-          "duration" : 8,
-          "filename" : "Subject_subject_reference_202510232334_wm36w.mp4"
-        },
-        {
-          "filename" : "Subject_subject_reference_202510232334_13hyz.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510232334_13hyz.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_ekku.mp4",
-          "duration" : 8,
-          "filename" : "Subject_magns_collapsed_202510240007_ekku.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_magns_collapsed_202510240007_mkt0.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_collapsed_202510240007_mkt0.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_fvlyf.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_contaminated_202510240007_fvlyf.mp4"
-        },
-        {
-          "filename" : "Subject_the_contaminated_202510240007_it5ua.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_contaminated_202510240007_it5ua.mp4"
-        },
-        {
-          "filename" : "Subject_from_south_202510240007_fd14i.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_south_202510240007_fd14i.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_from_the_202510240007_ewmxm.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_ewmxm.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_from_the_202510240007_bqik0.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_from_the_202510240007_bqik0.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_sigrids_mouth_202510240007_mktig.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_mktig.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_sigrids_mouth_202510240007_52mwz.mp4",
-          "filename" : "Subject_sigrids_mouth_202510240007_52mwz.mp4"
+          "duration": 8,
+          "filename": "Subject_sigrids_mouth_202509211935_toro4.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_sigrids_mouth_202509211935_toro4.mp4"
         }
       ],
-      "action" : "Sigrid's mouth opens wider than should be possible. The word completes: \"LANDVÐ†TTIR\" but not from her throat. From walls - turf vibrating. From floor - packed earth speaking. From beams - giant's ribs resonating. 16Hz below hearing, felt in bones, teeth, eyes. Her body rigid, back arched, hands spread, conduit not source. \"KOMIÐ\" emerges from everywhere. Dust cascades from ceiling with each syllable. The three beams (ribs) flex visibly, showing pink tissue beneath wood for split second. Windows vibrate in frames, frost cracking off in sheets. Guðrún crawls backward, mouth open in silent scream. Children grip each other, Jón's fever breaking in sudden sweat, Lilja's eyes rolled back showing whites. Empty clothes standing fully upright, breathing matching house rhythm. Sigrid's eyes remain conscious, terrified - she's aware but not in control. Baby's heartbeat visible as red strobe through dress: 160bpm.",
-      "is_active" : false
+      "action": "Sigrid's mouth opens wider than should be possible. The word completes: \"LANDV\u00d0\u2020TTIR\" but not from her throat. From walls - turf vibrating. From floor - packed earth speaking. From beams - giant's ribs resonating. 16Hz below hearing, felt in bones, teeth, eyes. Her body rigid, back arched, hands spread, conduit not source. \"KOMI\u00d0\u0090\" emerges from everywhere. Dust cascades from ceiling with each syllable. The three beams (ribs) flex visibly, showing pink tissue beneath wood for split second. Windows vibrate in frames, frost cracking off in sheets. Gu\u00f0r\u00fan crawls backward, mouth open in silent scream. Children grip each other, J\u00f3n's fever breaking in sudden sweat, Lilja's eyes rolled back showing whites. Empty clothes standing fully upright, breathing matching house rhythm. Sigrid's eyes remain conscious, terrified - she's aware but not in control. Baby's heartbeat visible as red strobe through dress: 160bpm.",
+      "is_active": false
     }
   ],
-  "shot_metadata" : {
-    "needs_improvements" : false,
-    "title" : "THE GIANT SPEAKS THROUGH HER 8 SECONDS",
-    "id" : "24a",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "stitch_from" : "",
-    "narrative_function" : "House 6\/min + 40bpm stuttering | Giant possession ..."
+  "shot_metadata": {
+    "needs_improvements": false,
+    "title": "THE GIANT SPEAKS THROUGH HER 8 SECONDS",
+    "id": "24a",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "stitch_from": "",
+    "narrative_function": "House 6/min + 40bpm stuttering | Giant possession ..."
   },
-  "progressive_state" : "House 6\/min + 40bpm stuttering | Giant possession | Camera frost 15% | Voice complete | Watching: House IS speaker"
+  "progressive_state": "House 6/min + 40bpm stuttering | Giant possession | Camera frost 15% | Voice complete | Watching: House IS speaker"
 }

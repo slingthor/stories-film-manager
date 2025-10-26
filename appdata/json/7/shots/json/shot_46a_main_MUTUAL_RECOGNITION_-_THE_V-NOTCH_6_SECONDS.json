@@ -1,44 +1,44 @@
 {
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "variant_id" : "46a_story_primary",
-      "scene" : "Polynya edge, 10:01 AM grey light. Steam creating intimate space around them. Ice holding their weight.",
-      "dialogue" : "(Guðrún, touching her scar): \"Þú líka... merkt\" (You too... marked) (Bull): Low rumble of recognition",
-      "subject" : "Camera slowly zooming on GRIÐUNGUR's left ear revealing a V-notch cut - the livestock marking - then cutting to [GUÐRÚN]'s ear where beneath her hair, an identical V-shaped scar exists, both marked as property by different masters.",
-      "negative_prompt" : "",
-      "action" : "SLOW ZOOM begins on Bull's massive head, pushing toward left ear. Through steam and contamination, detail resolves: V-notch cut in ear, traditional livestock marking. But around it, infected - brass fixtures growing from wound edges, green verdigris staining fur. The cut old, decades maybe, from when he was young, before divinity, when he was just cattle. ZOOM continues tighter - inside the V, tiny numbers etched: Danish registration. He was counted. Administered. Made property. CUT TO: Guðrún's ear, her hair pulled back by wind. Same V-scar beneath hairline, but subtle, hidden. From childhood - father's mark? Husband's? Denmark's? The scar white against skin, old exhausted appearance. Her hand rises unconsciously to touch it. Bull sees her gesture. Lowers massive head. Their eyes meet - livestock to livestock, property to property. He breathes out steam. She breathes out vapor. Same rhythm: 11\/minute. The impossible synchronized rate. Both accepting their marking.",
-      "selected_plates" : [
+      "variant_id": "46a_story_primary",
+      "scene": "Polynya edge, 10:01 AM grey light. Steam creating intimate space around them. Ice holding their weight.",
+      "dialogue": "(Gu\u00f0r\u00fan, touching her scar): \"\u00de\u00fa l\u00edka... merkt\" (You too... marked) (Bull): Low rumble of recognition",
+      "subject": "Camera slowly zooming on GRI\u00d0\u0090UNGUR's left ear revealing a V-notch cut - the livestock marking - then cutting to [GU\u00d0\u0090R\u00daN]'s ear where beneath her hair, an identical V-shaped scar exists, both marked as property by different masters.",
+      "negative_prompt": "",
+      "action": "SLOW ZOOM begins on Bull's massive head, pushing toward left ear. Through steam and contamination, detail resolves: V-notch cut in ear, traditional livestock marking. But around it, infected - brass fixtures growing from wound edges, green verdigris staining fur. The cut old, decades maybe, from when he was young, before divinity, when he was just cattle. ZOOM continues tighter - inside the V, tiny numbers etched: Danish registration. He was counted. Administered. Made property. CUT TO: Gu\u00f0r\u00fan's ear, her hair pulled back by wind. Same V-scar beneath hairline, but subtle, hidden. From childhood - father's mark? Husband's? Denmark's? The scar white against skin, old exhausted appearance. Her hand rises unconsciously to touch it. Bull sees her gesture. Lowers massive head. Their eyes meet - livestock to livestock, property to property. He breathes out steam. She breathes out vapor. Same rhythm: 11/minute. The impossible synchronized rate. Both accepting their marking.",
+      "selected_plates": [
         "LILJA-EVOLVING",
         "GUDRUN-DIVINE",
         "SEA-CONTAMINATED",
         "WESTFJORDS-FJORD",
         "WESTFJORDS-WINTER"
       ],
-      "is_active" : false,
-      "style" : "Zoom revealing detail, then match cut to parallel marking (that's where the camera is), documentary of shared enslavement.",
-      "variant_name" : "Primary - MUTUAL RECOGNITION - THE V-NOTCH 6 SECONDS",
-      "active_video_index" : 0,
-      "progressive_state" : "",
-      "camera_position" : "Zoom revealing detail, then match cut to parallel marking",
-      "videos" : [
+      "is_active": false,
+      "style": "Zoom revealing detail, then match cut to parallel marking (that's where the camera is), documentary of shared enslavement.",
+      "variant_name": "Primary - MUTUAL RECOGNITION - THE V-NOTCH 6 SECONDS",
+      "active_video_index": 0,
+      "progressive_state": "",
+      "camera_position": "Zoom revealing detail, then match cut to parallel marking",
+      "videos": [
         {
-          "filename" : "20251019_1652_01k7ze1aaafzyt7ha2v779baf3.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1652_01k7ze1aaafzyt7ha2v779baf3.mp4",
-          "duration" : 15.088666666666667
+          "filename": "20251019_1652_01k7ze1aaafzyt7ha2v779baf3.mp4",
+          "filepath": "/Users/ingthor/Downloads/20251019_1652_01k7ze1aaafzyt7ha2v779baf3.mp4",
+          "duration": 15.088666666666667
         }
       ]
     }
   ],
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "id" : "46a",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 6,
-    "needs_improvements" : false,
-    "title" : "MUTUAL RECOGNITION - THE V-NOTCH 6 SECONDS",
-    "narrative_function" : "Two trapped gods | Understanding | Camera frost 33...",
-    "stitch_from" : ""
+  "selected_prompt_index": 0,
+  "shot_metadata": {
+    "id": "46a",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "needs_improvements": false,
+    "title": "MUTUAL RECOGNITION - THE V-NOTCH 6 SECONDS",
+    "narrative_function": "Two trapped gods | Understanding | Camera frost 33...",
+    "stitch_from": ""
   },
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Two trapped gods | Understanding | Camera frost 33% | Livestock marked | Watching: Each other"
+  "aspect_ratio": "4:3",
+  "progressive_state": "Two trapped gods | Understanding | Camera frost 33% | Livestock marked | Watching: Each other"
 }

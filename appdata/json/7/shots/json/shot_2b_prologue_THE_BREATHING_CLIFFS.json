@@ -1,153 +1,53 @@
 {
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "action" : "Magnus leads up steep path, boots finding holds in dirt. Jon follows 6 feet behind, smaller feet careful on loose stones. Path only 2 feet wide, cliff wall on right, drop on left. Seabirds cover every ledge - puffins with orange beaks, guillemots in rows, kittiwakes clustered. Birds shift as humans pass but don't fly. Too many birds - every square foot of cliff has nests. Path turns sharply. View opens showing full cliff height - 300 feet vertical black basalt columns. In cliff face, regular holes appear, 2 feet diameter, perfectly round. Some holes have golden light inside despite sun angle wrong. Magnus’s breathing steady. Jon breathing harder, stops to rest. Magnus waits without turning. Boy starts climbing again. Near path, eggs visible in nests - pure white, no spots, glowing faintly in shadow.",
-      "variant_name" : "Primary - THE BREATHING CLIFFS",
-      "active_video_index" : 0,
-      "selected_plates" : [
+      "action": "Magnus leads up steep path, boots finding holds in dirt. Jon follows 6 feet behind, smaller feet careful on loose stones. Path only 2 feet wide, cliff wall on right, drop on left. Seabirds cover every ledge - puffins with orange beaks, guillemots in rows, kittiwakes clustered. Birds shift as humans pass but don't fly. Too many birds - every square foot of cliff has nests. Path turns sharply. View opens showing full cliff height - 300 feet vertical black basalt columns. In cliff face, regular holes appear, 2 feet diameter, perfectly round. Some holes have golden light inside despite sun angle wrong. Magnus\u2019s breathing steady. Jon breathing harder, stops to rest. Magnus waits without turning. Boy starts climbing again. Near path, eggs visible in nests - pure white, no spots, glowing faintly in shadow.",
+      "variant_name": "Primary - THE BREATHING CLIFFS",
+      "active_video_index": 0,
+      "selected_plates": [
         "MAGNUS-AUTHORITY",
         "JON-MILD",
         "SEA-DIVINE",
         "WESTFJORDS-CLIFF"
       ],
-      "is_active" : false,
-      "camera_position" : "Following shot behind climbers showing path and cliff face",
-      "dialogue" : "Jón: At start of scene: “Jæja, tíðin og dagurinn eru góður” Waits a bit and then says: “hvernig líst þér á blikuna?”",
-      "subject" : "[Magnus] and [Jon] climbing a narrow dirt path up 300-foot cliff face, the black rock wall covered with thousands of nesting seabirds, patches of green grass clinging to ledges, rope coiled over Magnús's shoulder.",
-      "videos" : [
+      "is_active": false,
+      "camera_position": "Following shot behind climbers showing path and cliff face",
+      "dialogue": "J\u00f3n: At start of scene: \u201cJ\u00e6ja, t\u00ed\u00f0in og dagurinn eru g\u00f3\u00f0ur\u201d Waits a bit and then says: \u201chvernig l\u00edst \u00fe\u00e9r \u00e1 blikuna?\u201d",
+      "subject": "[Magnus] and [Jon] climbing a narrow dirt path up 300-foot cliff face, the black rock wall covered with thousands of nesting seabirds, patches of green grass clinging to ledges, rope coiled over Magn\u00fas's shoulder.",
+      "videos": [
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509141953_8tfda.mp4",
-          "filename" : "Meta_setting_iceland_202509141953_8tfda.mp4",
-          "duration" : 8
+          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509141953_8tfda.mp4",
+          "filename": "Meta_setting_iceland_202509141953_8tfda.mp4",
+          "duration": 8
         },
         {
-          "duration" : 8,
-          "filename" : "Meta_setting_iceland_202509141953_h8d0t.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Meta_setting_iceland_202509141953_h8d0t.mp4"
+          "duration": 8,
+          "filename": "Meta_setting_iceland_202509141953_h8d0t.mp4",
+          "filepath": "/Users/ingthor/Downloads/Meta_setting_iceland_202509141953_h8d0t.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Progressive_state_paradise_202509142300_tffq.mp4",
-          "duration" : 8,
-          "filename" : "Progressive_state_paradise_202509142300_tffq.mp4"
-        },
-        {
-          "filename" : "Subject_the_trawler_202510240003_txilg.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_txilg.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_the_trawler_202510240003_zgstl.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_zgstl.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_magns_raising_202510240003_3jlp0.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_raising_202510240003_3jlp0.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_magns_raising_202510240003_c0jzw.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_raising_202510240003_c0jzw.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_reaching_202510240003_7wa1e.mp4",
-          "filename" : "Subject_magns_reaching_202510240003_7wa1e.mp4"
-        },
-        {
-          "filename" : "Subject_magns_reaching_202510240003_m3rsq.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_reaching_202510240003_m3rsq.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_the_trawler_202510240003_nbgln.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_nbgln.mp4"
-        },
-        {
-          "filename" : "Subject_the_trawler_202510240003_bl606.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_bl606.mp4"
-        },
-        {
-          "filename" : "Subject_magns_pulling_202510240003_n3t9w.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pulling_202510240003_n3t9w.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_magns_pulling_202510240003_dau04.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pulling_202510240003_dau04.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_underwater_camera_202510240004_ty49r.mp4",
-          "filename" : "Subject_underwater_camera_202510240004_ty49r.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_underwater_camera_202510240004_x86el.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_underwater_camera_202510240004_x86el.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510240004_jtyhy.mp4",
-          "duration" : 8,
-          "filename" : "Subject_jn_and_202510240004_jtyhy.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_jn_and_202510240004_lub2n.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510240004_lub2n.mp4"
-        },
-        {
-          "filename" : "Subject_jn_and_202510240004_tt8oi.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510240004_tt8oi.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202510240004_2rn2y.mp4",
-          "duration" : 8,
-          "filename" : "Subject_jn_and_202510240004_2rn2y.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_subject_reference_202510240004_n81jo.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240004_n81jo.mp4"
-        },
-        {
-          "filename" : "Subject_subject_reference_202510240004_nvw19.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_subject_reference_202510240004_nvw19.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_magnus_and_202510240004_dxwww.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magnus_and_202510240004_dxwww.mp4"
-        },
-        {
-          "filename" : "Subject_magnus_and_202510240004_mfs75.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magnus_and_202510240004_mfs75.mp4"
+          "filepath": "/Users/ingthor/Downloads/Progressive_state_paradise_202509142300_tffq.mp4",
+          "duration": 8,
+          "filename": "Progressive_state_paradise_202509142300_tffq.mp4"
         }
       ],
-      "negative_prompt" : "no subtitles, show massive cliff scale, birds covering every surface, golden light in holes, 1080p",
-      "variant_id" : "2b_story_primary",
-      "style" : "Following shot behind climbers showing path and cliff face (that's where the camera is), handheld matching climbing movement.",
-      "progressive_state" : "",
-      "scene" : "Cliff face, morning. Path zigzagging up basalt columns. Ocean 200 feet below. Millions of seabirds. Clear morning light."
+      "negative_prompt": "no subtitles, show massive cliff scale, birds covering every surface, golden light in holes, 1080p",
+      "variant_id": "2b_story_primary",
+      "style": "Following shot behind climbers showing path and cliff face (that's where the camera is), handheld matching climbing movement.",
+      "progressive_state": "",
+      "scene": "Cliff face, morning. Path zigzagging up basalt columns. Ocean 200 feet below. Millions of seabirds. Clear morning light."
     }
   ],
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "id" : "2b",
-    "sequence_type" : "prologue",
-    "duration_seconds" : 8,
-    "needs_improvements" : false,
-    "title" : "THE BREATHING CLIFFS",
-    "narrative_function" : "Cliff approach | Ancient paths | Camera frost 0% |...",
-    "stitch_from" : ""
+  "selected_prompt_index": 0,
+  "shot_metadata": {
+    "id": "2b",
+    "sequence_type": "prologue",
+    "duration_seconds": 8,
+    "needs_improvements": false,
+    "title": "THE BREATHING CLIFFS",
+    "narrative_function": "Cliff approach | Ancient paths | Camera frost 0% |...",
+    "stitch_from": ""
   },
-  "aspect_ratio" : "1.85:1",
-  "progressive_state" : "Cliff approach | Ancient paths | Camera frost 0% | Height revealed | Watching: Earth opens"
+  "aspect_ratio": "1.85:1",
+  "progressive_state": "Cliff approach | Ancient paths | Camera frost 0% | Height revealed | Watching: Earth opens"
 }

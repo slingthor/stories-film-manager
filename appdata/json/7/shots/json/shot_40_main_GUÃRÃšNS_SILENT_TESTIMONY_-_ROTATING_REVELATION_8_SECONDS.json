@@ -1,67 +1,67 @@
 {
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "variant_id" : "40_story_primary",
-      "scene" : "Her position in réttir, 9:37 AM. Light through smoke creating chiaroscuro. Temperature at her level exactly 37°C - body temperature of dying house.",
-      "dialogue" : "(Guðrún, lips moving silently): Visible counting no sound (On \"sex\"): Slight sound escapes: \"Sss...?\" (Hands pulling wool): subtle at 11\/min breathing rate",
-      "subject" : "Camera slowly rotating around [GUÐRÚN] while pushing in on her face, her lips moving in silent counting - \"einn, tveir, þrír, fjórir, fimm, sex\" - over and over, as rotation reveals different angles: profile shows ewe silhouette, three-quarter shows human exhaustion, full face shows both simultaneously, her hands unconsciously pulling wool from her own wrists.",
-      "negative_prompt" : "smooth rotation with push, no cuts, maintain eye contact at end",
-      "action" : "CAMERA BEGINS rotating counterclockwise around Guðrún while slowly PUSHING IN. First angle (profile): her silhouette unmistakably sheep-like, jaw extended, nose elongated. She doesn't notice. Lips counting silent Danish. Second angle (three-quarter): more human but exhausted, aged beyond 35 years, faldbúningur sitting wrong like it's meant for different head shape. Counting continues. Third angle (approaching front): both aspects visible - human features with ovine bone structure beneath. PUSH IN closer. Her hands unconsciously pulling at wrists where wool emerged earlier, now 15mm long, white fibers she's gathering like spinning preparation. Doesn't notice. Fourth angle (full face): eyes meet camera. Knows we're watching. Counts directly at us: \"einn, tveir, þrír, fjórir, fimm... sex?\" Always confusion at six. Behind her, wet wall shows reflection but reflection is fully sheep, standing upright, wearing her clothes. She doesn't turn to look.",
-      "selected_plates" : [
-        "BAÐSTOFA-CLEFT",
+      "variant_id": "40_story_primary",
+      "scene": "Her position in r\u00e9ttir, 9:37 AM. Light through smoke creating chiaroscuro. Temperature at her level exactly 37\u00b0C - body temperature of dying house.",
+      "dialogue": "(Gu\u00f0r\u00fan, lips moving silently): Visible counting no sound (On \"sex\"): Slight sound escapes: \"Sss...?\" (Hands pulling wool): subtle at 11/min breathing rate",
+      "subject": "Camera slowly rotating around [GU\u00d0\u0090R\u00daN] while pushing in on her face, her lips moving in silent counting - \"einn, tveir, \u00fer\u00edr, fj\u00f3rir, fimm, sex\" - over and over, as rotation reveals different angles: profile shows ewe silhouette, three-quarter shows human exhaustion, full face shows both simultaneously, her hands unconsciously pulling wool from her own wrists.",
+      "negative_prompt": "smooth rotation with push, no cuts, maintain eye contact at end",
+      "action": "CAMERA BEGINS rotating counterclockwise around Gu\u00f0r\u00fan while slowly PUSHING IN. First angle (profile): her silhouette unmistakably sheep-like, jaw extended, nose elongated. She doesn't notice. Lips counting silent Danish. Second angle (three-quarter): more human but exhausted, aged beyond 35 years, faldb\u00faningur sitting wrong like it's meant for different head shape. Counting continues. Third angle (approaching front): both aspects visible - human features with ovine bone structure beneath. PUSH IN closer. Her hands unconsciously pulling at wrists where wool emerged earlier, now 15mm long, white fibers she's gathering like spinning preparation. Doesn't notice. Fourth angle (full face): eyes meet camera. Knows we're watching. Counts directly at us: \"einn, tveir, \u00fer\u00edr, fj\u00f3rir, fimm... sex?\" Always confusion at six. Behind her, wet wall shows reflection but reflection is fully sheep, standing upright, wearing her clothes. She doesn't turn to look.",
+      "selected_plates": [
+        "BA\u00d0STOFA-CLEFT",
         "STOFA-BODY",
         "GUDRUN-MASTER"
       ],
-      "is_active" : false,
-      "style" : "Rotating push-in, intimate observation of transformation beginning (that's where the camera is), documentary of silent testimony.",
-      "variant_name" : "Primary - GUÐRÚNS SILENT TESTIMONY - ROTATING REVELATION 8 SECONDS",
-      "active_video_index" : 0,
-      "progressive_state" : "",
-      "camera_position" : "Rotating push-in, intimate observation of transformation beginning",
-      "videos" : [
+      "is_active": false,
+      "style": "Rotating push-in, intimate observation of transformation beginning (that's where the camera is), documentary of silent testimony.",
+      "variant_name": "Primary - GU\u00d0R\u00daNS SILENT TESTIMONY - ROTATING REVELATION 8 SECONDS",
+      "active_video_index": 0,
+      "progressive_state": "",
+      "camera_position": "Rotating push-in, intimate observation of transformation beginning",
+      "videos": [
         {
-          "duration" : 8,
-          "filename" : "Subject_camera_slowly_202509211921_78y1h.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_slowly_202509211921_78y1h.mp4"
+          "duration": 8,
+          "filename": "Subject_camera_slowly_202509211921_78y1h.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_camera_slowly_202509211921_78y1h.mp4"
         },
         {
-          "duration" : 8,
-          "filename" : "Subject_camera_slowly_202509211921_9ei12.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_slowly_202509211921_9ei12.mp4"
+          "duration": 8,
+          "filename": "Subject_camera_slowly_202509211921_9ei12.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_camera_slowly_202509211921_9ei12.mp4"
         },
         {
-          "filename" : "Subject_camera_slowly_202509211921_a1a77.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_slowly_202509211921_a1a77.mp4"
+          "filename": "Subject_camera_slowly_202509211921_a1a77.mp4",
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Subject_camera_slowly_202509211921_a1a77.mp4"
         },
         {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_slowly_202509211921_wdo5z.mp4",
-          "filename" : "Subject_camera_slowly_202509211921_wdo5z.mp4",
-          "duration" : 8
+          "filepath": "/Users/ingthor/Downloads/Subject_camera_slowly_202509211921_wdo5z.mp4",
+          "filename": "Subject_camera_slowly_202509211921_wdo5z.mp4",
+          "duration": 8
         },
         {
-          "filename" : "20251019_1719_01k6f14ph9ftf9qefnsmpxxz2m.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1719_01k6f14ph9ftf9qefnsmpxxz2m.mp4",
-          "duration" : 10.088666666666667
+          "filename": "20251019_1719_01k6f14ph9ftf9qefnsmpxxz2m.mp4",
+          "filepath": "/Users/ingthor/Downloads/20251019_1719_01k6f14ph9ftf9qefnsmpxxz2m.mp4",
+          "duration": 10.088666666666667
         },
         {
-          "filename" : "20251019_1723_01k6f16xrsfnwts6dkfs9pcdsq.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1723_01k6f16xrsfnwts6dkfs9pcdsq.mp4",
-          "duration" : 10.088666666666667
+          "filename": "20251019_1723_01k6f16xrsfnwts6dkfs9pcdsq.mp4",
+          "filepath": "/Users/ingthor/Downloads/20251019_1723_01k6f16xrsfnwts6dkfs9pcdsq.mp4",
+          "duration": 10.088666666666667
         }
       ]
     }
   ],
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "id" : "40",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "needs_improvements" : false,
-    "title" : "GUÐRÚNS SILENT TESTIMONY - ROTATING REVELATION 8 SECONDS",
-    "narrative_function" : "Silent aftermath | Truth visible | Camera frost 26...",
-    "stitch_from" : ""
+  "selected_prompt_index": 0,
+  "shot_metadata": {
+    "id": "40",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "needs_improvements": false,
+    "title": "GU\u00d0R\u00daNS SILENT TESTIMONY - ROTATING REVELATION 8 SECONDS",
+    "narrative_function": "Silent aftermath | Truth visible | Camera frost 26...",
+    "stitch_from": ""
   },
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Silent aftermath | Truth visible | Camera frost 26% | Women's knowledge | Watching: House watching them"
+  "aspect_ratio": "4:3",
+  "progressive_state": "Silent aftermath | Truth visible | Camera frost 26% | Women's knowledge | Watching: House watching them"
 }

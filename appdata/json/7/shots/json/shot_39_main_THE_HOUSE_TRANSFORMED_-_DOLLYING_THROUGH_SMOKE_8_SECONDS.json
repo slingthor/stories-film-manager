@@ -1,57 +1,47 @@
 {
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "variant_id" : "39_story_primary",
-      "scene" : "Interior transformed, 9:35 AM but dark from smoke. Temperature 37°C at floor (body heat) but -20°C at head height. Impossible thermodynamics.",
-      "dialogue" : "(Lilja, humming): \"Verður margt að meini...\" (Sigrid, only one speaking): \"Pabbi kemur... með dauða\" (Father comes... with death) (Others): Synchronized breathing only",
-      "subject" : "Camera descending through smoke hole into the house, dollying forward through thick smoke to reveal the family arranged in perfect réttir formation on the floor - five positions in pentagon with sixth empty - while the tilberi creation sits at center breathing its three rhythms, and through smoke, glimpses of impossible changes: walls wet with perspiration, floor showing stone patterns, everyone's breath synchronized at 11\/min except [SIGRID].",
-      "negative_prompt" : "maintain dolly movement, no cuts, reveal through smoke parting",
-      "action" : "CAMERA ENTERS through smoke hole, DOLLYING FORWARD through smoke that shouldn't exist (fire long dead). Smoke parts revealing: Family on floor in exact réttir positions - the children saw truth and arranged everyone. Guðrún kneeling at first position, silent again. Jón at second despite fever, eyes closed. Lilja at third, humming Krummi tune. Sigrid at fifth position, maintaining distance from center, breathing still 15\/min (unchanged). Fourth position Magnús's empty space. Sixth position has body-shaped depression in floor but empty. At center: tilberi creation, size of cat, rope skeleton visible, brass eye weeping. Its three-rhythm breathing (8\/12\/20) creating polyrhythm. DOLLY CONTINUES revealing: Walls literally wet, perspiring at body temperature. Floor stones visible through worn earth - ancient réttir always underneath. Through windows in background: trawler lights gone but steam from polynya (Bull stirring), mountain shadows wrong angle (Raven influence), house breathing so labored it's visible in beam movement.",
-      "selected_plates" : [
+      "variant_id": "39_story_primary",
+      "scene": "Interior transformed, 9:35 AM but dark from smoke. Temperature 37\u00b0C at floor (body heat) but -20\u00b0C at head height. Impossible thermodynamics.",
+      "dialogue": "(Lilja, humming): \"Ver\u00f0ur margt a\u00f0 meini...\" (Sigrid, only one speaking): \"Pabbi kemur... me\u00f0 dau\u00f0a\" (Father comes... with death) (Others): Synchronized breathing only",
+      "subject": "Camera descending through smoke hole into the house, dollying forward through thick smoke to reveal the family arranged in perfect r\u00e9ttir formation on the floor - five positions in pentagon with sixth empty - while the tilberi creation sits at center breathing its three rhythms, and through smoke, glimpses of impossible changes: walls wet with perspiration, floor showing stone patterns, everyone's breath synchronized at 11/min except [SIGRID].",
+      "negative_prompt": "maintain dolly movement, no cuts, reveal through smoke parting",
+      "action": "CAMERA ENTERS through smoke hole, DOLLYING FORWARD through smoke that shouldn't exist (fire long dead). Smoke parts revealing: Family on floor in exact r\u00e9ttir positions - the children saw truth and arranged everyone. Gu\u00f0r\u00fan kneeling at first position, silent again. J\u00f3n at second despite fever, eyes closed. Lilja at third, humming Krummi tune. Sigrid at fifth position, maintaining distance from center, breathing still 15/min (unchanged). Fourth position Magn\u00fas's empty space. Sixth position has body-shaped depression in floor but empty. At center: tilberi creation, size of cat, rope skeleton visible, brass eye weeping. Its three-rhythm breathing (8/12/20) creating polyrhythm. DOLLY CONTINUES revealing: Walls literally wet, perspiring at body temperature. Floor stones visible through worn earth - ancient r\u00e9ttir always underneath. Through windows in background: trawler lights gone but steam from polynya (Bull stirring), mountain shadows wrong angle (Raven influence), house breathing so labored it's visible in beam movement.",
+      "selected_plates": [
         "MAGNUS-WOUNDED",
         "SIGRID-ORACLE",
         "LILJA-COMMUNICATING",
         "JON-CHANGING",
         "GUDRUN-PRODUCING",
-        "BAÐSTOFA-CLEFT",
+        "BA\u00d0STOFA-CLEFT",
         "WESTFJORDS-WINTER",
         "STOFA-BODY"
       ],
-      "is_active" : false,
-      "style" : "Steady forward dolly through smoke, revealing family tableau (that's where the camera is), documentary entering aftermath.",
-      "variant_name" : "Primary - THE HOUSE TRANSFORMED - DOLLYING THROUGH SMOKE 8 SECONDS",
-      "active_video_index" : 0,
-      "progressive_state" : "",
-      "camera_position" : "Steady forward dolly through smoke, revealing family tableau",
-      "videos" : [
+      "is_active": false,
+      "style": "Steady forward dolly through smoke, revealing family tableau (that's where the camera is), documentary entering aftermath.",
+      "variant_name": "Primary - THE HOUSE TRANSFORMED - DOLLYING THROUGH SMOKE 8 SECONDS",
+      "active_video_index": 0,
+      "progressive_state": "",
+      "camera_position": "Steady forward dolly through smoke, revealing family tableau",
+      "videos": [
         {
-          "duration" : 8,
-          "filename" : "Subject_camera_descending_202509211922_p9ut2.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_descending_202509211922_p9ut2.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_camera_descending_202510232346_3zn8r.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_descending_202510232346_3zn8r.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_camera_descending_202510232346_lkaeg.mp4",
-          "duration" : 8,
-          "filename" : "Subject_camera_descending_202510232346_lkaeg.mp4"
+          "duration": 8,
+          "filename": "Subject_camera_descending_202509211922_p9ut2.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_camera_descending_202509211922_p9ut2.mp4"
         }
       ]
     }
   ],
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "id" : "39",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "needs_improvements" : false,
-    "title" : "THE HOUSE TRANSFORMED - DOLLYING THROUGH SMOKE 8 SECONDS",
-    "narrative_function" : "House 3\/min dying + 40bpm weak | Post-summoning af...",
-    "stitch_from" : ""
+  "selected_prompt_index": 0,
+  "shot_metadata": {
+    "id": "39",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "needs_improvements": false,
+    "title": "THE HOUSE TRANSFORMED - DOLLYING THROUGH SMOKE 8 SECONDS",
+    "narrative_function": "House 3/min dying + 40bpm weak | Post-summoning af...",
+    "stitch_from": ""
   },
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "House 3\/min dying + 40bpm weak | Post-summoning aftermath | Camera frost 25.5% | Interior transformed | Watching: Four landvættir through windows"
+  "aspect_ratio": "4:3",
+  "progressive_state": "House 3/min dying + 40bpm weak | Post-summoning aftermath | Camera frost 25.5% | Interior transformed | Watching: Four landv\u00e6ttir through windows"
 }

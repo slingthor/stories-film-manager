@@ -1,64 +1,64 @@
 {
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "variant_id" : "51a_story_primary",
-      "scene" : "By dying hearth, 8:00 PM darkness. Only light from embers. Shadows prominent on wall. Empty clothes participating.",
-      "dialogue" : "(Jón, seeing truth): \"Sjáðu! Við erum þegar...\" (Lilja): \"Ð‰g veit. Við vitum\" (I know. We know)",
-      "subject" : "[JÐ“N] and [LILJA] by the dying hearth making shadow puppets on the wall, but their human hands cast sheep shadows - ram, ewe, lambs - arranged in réttir formation, showing the transformation before it happens.",
-      "negative_prompt" : "",
-      "action" : "Children sit by hearth's last embers. Jón raises hands to make shadow bird. But shadow shows ram's head - curved horns, long snout. Doesn't notice. Lilja makes butterfly with hands. Shadow shows ewe, faldbúningur shape on sheep head. They continue playing, shadows telling truth. PUSH IN on wall. Shadow play becomes elaborate: Five sheep in pen formation. Sixth shadow appears though only two children. The shadows begin moving independently - sheep shadows walking while hands stay still. Through shadows, glimpse of empty clothes standing behind children, also casting shadows. Now eight shadows for two children and clothes. Mathematical impossibility visible. In shadow: sheep have human teeth, visible when shadow-mouths open. Jón's fever allows him to see: \"Sjáðu! Við erum þegar...\" (Look! We already are...). Lilja nods, continues playing. They know. Accept.",
-      "selected_plates" : [
+      "variant_id": "51a_story_primary",
+      "scene": "By dying hearth, 8:00 PM darkness. Only light from embers. Shadows prominent on wall. Empty clothes participating.",
+      "dialogue": "(J\u00f3n, seeing truth): \"Sj\u00e1\u00f0u! Vi\u00f0 erum \u00feegar...\" (Lilja): \"\u00d0\u2030g veit. Vi\u00f0 vitum\" (I know. We know)",
+      "subject": "[J\u00d0\u201cN] and [LILJA] by the dying hearth making shadow puppets on the wall, but their human hands cast sheep shadows - ram, ewe, lambs - arranged in r\u00e9ttir formation, showing the transformation before it happens.",
+      "negative_prompt": "",
+      "action": "Children sit by hearth's last embers. J\u00f3n raises hands to make shadow bird. But shadow shows ram's head - curved horns, long snout. Doesn't notice. Lilja makes butterfly with hands. Shadow shows ewe, faldb\u00faningur shape on sheep head. They continue playing, shadows telling truth. PUSH IN on wall. Shadow play becomes elaborate: Five sheep in pen formation. Sixth shadow appears though only two children. The shadows begin moving independently - sheep shadows walking while hands stay still. Through shadows, glimpse of empty clothes standing behind children, also casting shadows. Now eight shadows for two children and clothes. Mathematical impossibility visible. In shadow: sheep have human teeth, visible when shadow-mouths open. J\u00f3n's fever allows him to see: \"Sj\u00e1\u00f0u! Vi\u00f0 erum \u00feegar...\" (Look! We already are...). Lilja nods, continues playing. They know. Accept.",
+      "selected_plates": [
         "LILJA-EVOLVING",
         "JON-ENERGETIC",
-        "BAÐSTOFA-CRYSTALLIZING",
+        "BA\u00d0STOFA-CRYSTALLIZING",
         "WESTFJORDS-CLIFF",
         "STOFA-BODY"
       ],
-      "is_active" : false,
-      "style" : "Push in on prophetic shadows (that's where the camera is), future documented before it happens.",
-      "variant_name" : "Primary - CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS",
-      "active_video_index" : 0,
-      "progressive_state" : "",
-      "camera_position" : "Push in on prophetic shadows",
-      "videos" : [
+      "is_active": false,
+      "style": "Push in on prophetic shadows (that's where the camera is), future documented before it happens.",
+      "variant_name": "Primary - CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS",
+      "active_video_index": 0,
+      "progressive_state": "",
+      "camera_position": "Push in on prophetic shadows",
+      "videos": [
         {
-          "filename" : "Subject_jn_and_202509211852_vfg5l.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202509211852_vfg5l.mp4",
-          "duration" : 8
+          "filename": "Subject_jn_and_202509211852_vfg5l.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_jn_and_202509211852_vfg5l.mp4",
+          "duration": 8
         },
         {
-          "filename" : "Subject_jn_and_202509211852_45d8r.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202509211852_45d8r.mp4"
+          "filename": "Subject_jn_and_202509211852_45d8r.mp4",
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Subject_jn_and_202509211852_45d8r.mp4"
         },
         {
-          "duration" : 8,
-          "filename" : "Subject_jn_and_202509211852_irfn1.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202509211852_irfn1.mp4"
+          "duration": 8,
+          "filename": "Subject_jn_and_202509211852_irfn1.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_jn_and_202509211852_irfn1.mp4"
         },
         {
-          "duration" : 8,
-          "filename" : "Subject_jn_and_202509211852_nmzjd.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_jn_and_202509211852_nmzjd.mp4"
+          "duration": 8,
+          "filename": "Subject_jn_and_202509211852_nmzjd.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_jn_and_202509211852_nmzjd.mp4"
         },
         {
-          "duration" : 10.088666666666667,
-          "filepath" : "\/Users\/ingthor\/Downloads\/20251019_1713_01k6f3c05qedkbk29ebwtt07tn.mp4",
-          "filename" : "20251019_1713_01k6f3c05qedkbk29ebwtt07tn.mp4"
+          "duration": 10.088666666666667,
+          "filepath": "/Users/ingthor/Downloads/20251019_1713_01k6f3c05qedkbk29ebwtt07tn.mp4",
+          "filename": "20251019_1713_01k6f3c05qedkbk29ebwtt07tn.mp4"
         }
       ]
     }
   ],
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "id" : "51a",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 6,
-    "needs_improvements" : false,
-    "title" : "CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS",
-    "narrative_function" : "House 8\/min sleeping + 60bpm | Night falling | Cam...",
-    "stitch_from" : ""
+  "selected_prompt_index": 0,
+  "shot_metadata": {
+    "id": "51a",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "needs_improvements": false,
+    "title": "CHILDRENS SHADOW PROPHECY - HANDS BECOME TRUTH 6 SECONDS",
+    "narrative_function": "House 8/min sleeping + 60bpm | Night falling | Cam...",
+    "stitch_from": ""
   },
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "House 8\/min sleeping + 60bpm | Night falling | Camera frost 40% | Future cast on walls | Watching: Shadows know"
+  "aspect_ratio": "4:3",
+  "progressive_state": "House 8/min sleeping + 60bpm | Night falling | Camera frost 40% | Future cast on walls | Watching: Shadows know"
 }

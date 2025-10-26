@@ -1,36 +1,36 @@
 {
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "subject" : "[MAGNÚS] leaning down to kiss [SIGRID]'s forehead goodnight - normal fatherly gesture - but lips staying too long, then moving to her belly, checking the rounded belly with disturbing tenderness: \"Ef eitthvað kemur fyrir móður þína...\" (If something happens to your mother...).",
-      "progressive_state" : "",
-      "camera_position" : "Static close shot on ordeal through care",
-      "selected_plates" : [
+      "subject": "[MAGN\u00daS] leaning down to kiss [SIGRID]'s forehead goodnight - normal fatherly gesture - but lips staying too long, then moving to her belly, checking the rounded belly with disturbing tenderness: \"Ef eitthva\u00f0 kemur fyrir m\u00f3\u00f0ur \u00fe\u00edna...\" (If something happens to your mother...).",
+      "progressive_state": "",
+      "camera_position": "Static close shot on ordeal through care",
+      "selected_plates": [
         "MAGNUS-POSSESSING",
         "SIGRID-CORNERED",
-        "BAÐSTOFA-CRYSTALLIZING",
+        "BA\u00d0STOFA-CRYSTALLIZING",
         "WESTFJORDS-CLIFF",
         "STOFA-BODY"
       ],
-      "variant_id" : "50d_story_primary",
-      "dialogue" : "(Magnús): \"Ef eitthvað kemur fyrir móður þína...\" \"Þú ert tilbúin\" (You're ready) \"Sofðu vel, elskan\"",
-      "is_active" : false,
-      "scene" : "Close intimate moment, night falling. His tenderness genuine and terrible. Her frozen acceptance.",
-      "style" : "Static close shot on ordeal through care (that's where the camera is), boundary dissolution documented.",
-      "variant_name" : "Primary - THE LINGERING KISS - BOUNDARY DISSOLVED 6 SECONDS",
-      "negative_prompt" : "maintain discomfort without exploitation, show boundary ordeal",
-      "action" : "He leans down. Normal goodnight kiss coming. Lips touch forehead. Should be brief. Aren't. Stay for 3 seconds. 4. 5. She doesn't move. Can't define why this is wrong - no one taught boundaries. No other families to compare. His lips finally lift but move to her belly. \"Ð‰g þarf að athuga\" (I need to check). Hands follow, feeling the small swell. Checking his grandchild? His future child? Both? \"Ef eitthvað kemur fyrir móður þína...\" Trails off. Implication clear. She's backup. Insurance. Breeding stock with tenderness. His 0Hz hands perfectly still, gentle, terrible. No tremor in love or violence. Finally stands. \"Sofðu vel, elskan.\" Walks away. She remains frozen. The horror: he genuinely loves her. And sees her as future wife. Both true. Isolation allows both. No witnesses to say it's wrong."
+      "variant_id": "50d_story_primary",
+      "dialogue": "(Magn\u00fas): \"Ef eitthva\u00f0 kemur fyrir m\u00f3\u00f0ur \u00fe\u00edna...\" \"\u00de\u00fa ert tilb\u00fain\" (You're ready) \"Sof\u00f0u vel, elskan\"",
+      "is_active": false,
+      "scene": "Close intimate moment, night falling. His tenderness genuine and terrible. Her frozen acceptance.",
+      "style": "Static close shot on ordeal through care (that's where the camera is), boundary dissolution documented.",
+      "variant_name": "Primary - THE LINGERING KISS - BOUNDARY DISSOLVED 6 SECONDS",
+      "negative_prompt": "maintain discomfort without exploitation, show boundary ordeal",
+      "action": "He leans down. Normal goodnight kiss coming. Lips touch forehead. Should be brief. Aren't. Stay for 3 seconds. 4. 5. She doesn't move. Can't define why this is wrong - no one taught boundaries. No other families to compare. His lips finally lift but move to her belly. \"\u00d0\u2030g \u00fearf a\u00f0 athuga\" (I need to check). Hands follow, feeling the small swell. Checking his grandchild? His future child? Both? \"Ef eitthva\u00f0 kemur fyrir m\u00f3\u00f0ur \u00fe\u00edna...\" Trails off. Implication clear. She's backup. Insurance. Breeding stock with tenderness. His 0Hz hands perfectly still, gentle, terrible. No tremor in love or violence. Finally stands. \"Sof\u00f0u vel, elskan.\" Walks away. She remains frozen. The horror: he genuinely loves her. And sees her as future wife. Both true. Isolation allows both. No witnesses to say it's wrong."
     }
   ],
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "id" : "50d",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 6,
-    "needs_improvements" : false,
-    "title" : "THE LINGERING KISS - BOUNDARY DISSOLVED 6 SECONDS",
-    "narrative_function" : "House sleeping + 60bpm | ordeal complete | Came...",
-    "stitch_from" : ""
+  "selected_prompt_index": 0,
+  "shot_metadata": {
+    "id": "50d",
+    "sequence_type": "main_story",
+    "duration_seconds": 6,
+    "needs_improvements": false,
+    "title": "THE LINGERING KISS - BOUNDARY DISSOLVED 6 SECONDS",
+    "narrative_function": "House sleeping + 60bpm | ordeal complete | Came...",
+    "stitch_from": ""
   },
-  "aspect_ratio" : "1:1",
-  "progressive_state" : "House sleeping + 60bpm | ordeal complete | Camera frost 39.5% | Love and predation | Watching: We must witness"
+  "aspect_ratio": "1:1",
+  "progressive_state": "House sleeping + 60bpm | ordeal complete | Camera frost 39.5% | Love and predation | Watching: We must witness"
 }

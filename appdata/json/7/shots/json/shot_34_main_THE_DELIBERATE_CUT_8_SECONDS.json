@@ -1,148 +1,58 @@
 {
-  "prompt_variants" : [
+  "prompt_variants": [
     {
-      "action" : "Trawler closes distance: 300 meters, 200, 100. Moving wrong - not straight but undulating, hull bending impossibly in three places. As it approaches, Magnús sees truth: no crew visible on deck. No faces in windows. Just yellow searchlights sweeping like eyes. Ship operating itself. Or operated by something else. His line still taut, being dragged by net below. Trawler adjusts course precisely to pass over line. Not accident - calculated. From below waterline, industrial props emerge slightly - not normal propellers but rotating blades with edges that gleam. Modified for cutting nets, lines, anything in way. The moment: hull passes over his line. Props engage. SNAP. Line cut clean, hemp ends floating up. Thirty years of mending, his father's knots, grandfather's work - severed. Through clear water, sees net continue dragging below with all fish. Above, trawler's searchlights sweep across him once - acknowledgment, dismissal - then continue mechanical rotation. But in wheelhouse window, for split second: shape visible. Not human. Coiled. Scales. Eye larger than window. Blinks vertically. Gone.",
-      "variant_name" : "Primary - THE DELIBERATE CUT 8 SECONDS",
-      "active_video_index" : 0,
-      "selected_plates" : [
+      "action": "Trawler closes distance: 300 meters, 200, 100. Moving wrong - not straight but undulating, hull bending impossibly in three places. As it approaches, Magn\u00fas sees truth: no crew visible on deck. No faces in windows. Just yellow searchlights sweeping like eyes. Ship operating itself. Or operated by something else. His line still taut, being dragged by net below. Trawler adjusts course precisely to pass over line. Not accident - calculated. From below waterline, industrial props emerge slightly - not normal propellers but rotating blades with edges that gleam. Modified for cutting nets, lines, anything in way. The moment: hull passes over his line. Props engage. SNAP. Line cut clean, hemp ends floating up. Thirty years of mending, his father's knots, grandfather's work - severed. Through clear water, sees net continue dragging below with all fish. Above, trawler's searchlights sweep across him once - acknowledgment, dismissal - then continue mechanical rotation. But in wheelhouse window, for split second: shape visible. Not human. Coiled. Scales. Eye larger than window. Blinks vertically. Gone.",
+      "variant_name": "Primary - THE DELIBERATE CUT 8 SECONDS",
+      "active_video_index": 0,
+      "selected_plates": [
         "MAGNUS-AGING",
         "SEA-BATTLE",
         "WESTFJORDS-FJORD",
         "WESTFJORDS-WINTER"
       ],
-      "is_active" : false,
-      "camera_position" : "Low angle from Magnús's position showing trawler's dominance, then underwater showing cut",
-      "dialogue" : "(Magnús, before cut): \"Nei... NEI...\" (Line snaps): \"ÞRJÐTÐU ÐR!\" (THIRTY YEARS!) (Seeing wheelhouse): \"Skrimsli...\" (Monster...)",
-      "subject" : "The trawler GRIMSBY PRIDE approaching [MAGNÚS]'s position with serpentine movement through water, its massive hull passing over his line with deliberate precision, the industrial props underneath cutting through hemp like teeth through thread, while above deck no human figures visible - only yellow eyes watching.",
-      "videos" : [
+      "is_active": false,
+      "camera_position": "Low angle from Magn\u00fas's position showing trawler's dominance, then underwater showing cut",
+      "dialogue": "(Magn\u00fas, before cut): \"Nei... NEI...\" (Line snaps): \"\u00deRJ\u00d0\u0081T\u00d0\u008dU \u00d0\u0081R!\" (THIRTY YEARS!) (Seeing wheelhouse): \"Skrimsli...\" (Monster...)",
+      "subject": "The trawler GRIMSBY PRIDE approaching [MAGN\u00daS]'s position with serpentine movement through water, its massive hull passing over his line with deliberate precision, the industrial props underneath cutting through hemp like teeth through thread, while above deck no human figures visible - only yellow eyes watching.",
+      "videos": [
         {
-          "duration" : 8,
-          "filename" : "Subject_the_trawler_202509211926_ymu4a.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202509211926_ymu4a.mp4"
+          "duration": 8,
+          "filename": "Subject_the_trawler_202509211926_ymu4a.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_the_trawler_202509211926_ymu4a.mp4"
         },
         {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202509211926_ve8no.mp4",
-          "filename" : "Subject_the_trawler_202509211926_ve8no.mp4"
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Subject_the_trawler_202509211926_ve8no.mp4",
+          "filename": "Subject_the_trawler_202509211926_ve8no.mp4"
         },
         {
-          "filename" : "Subject_the_trawler_202509211926_gkja2.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202509211926_gkja2.mp4"
+          "filename": "Subject_the_trawler_202509211926_gkja2.mp4",
+          "duration": 8,
+          "filepath": "/Users/ingthor/Downloads/Subject_the_trawler_202509211926_gkja2.mp4"
         },
         {
-          "duration" : 8,
-          "filename" : "Subject_the_trawler_202509211926_wr76d.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202509211926_wr76d.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_txilg.mp4",
-          "filename" : "Subject_the_trawler_202510240003_txilg.mp4"
-        },
-        {
-          "filename" : "Subject_the_trawler_202510240003_zgstl.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_zgstl.mp4",
-          "duration" : 8
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_raising_202510240003_3jlp0.mp4",
-          "filename" : "Subject_magns_raising_202510240003_3jlp0.mp4"
-        },
-        {
-          "filename" : "Subject_magns_raising_202510240003_c0jzw.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_raising_202510240003_c0jzw.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_magns_reaching_202510240003_7wa1e.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_reaching_202510240003_7wa1e.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_reaching_202510240003_m3rsq.mp4",
-          "duration" : 8,
-          "filename" : "Subject_magns_reaching_202510240003_m3rsq.mp4"
-        },
-        {
-          "filename" : "Subject_the_trawler_202510240003_nbgln.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_nbgln.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_the_trawler_202510240003_bl606.mp4",
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_bl606.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_txilg.mp4",
-          "duration" : 8,
-          "filename" : "Subject_the_trawler_202510240003_txilg.mp4"
-        },
-        {
-          "duration" : 8,
-          "filename" : "Subject_the_trawler_202510240003_zgstl.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_zgstl.mp4"
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_raising_202510240003_3jlp0.mp4",
-          "duration" : 8,
-          "filename" : "Subject_magns_raising_202510240003_3jlp0.mp4"
-        },
-        {
-          "duration" : 8,
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_raising_202510240003_c0jzw.mp4",
-          "filename" : "Subject_magns_raising_202510240003_c0jzw.mp4"
-        },
-        {
-          "filename" : "Subject_magns_reaching_202510240003_7wa1e.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_reaching_202510240003_7wa1e.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_magns_reaching_202510240003_m3rsq.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_reaching_202510240003_m3rsq.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_the_trawler_202510240003_nbgln.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_nbgln.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_the_trawler_202510240003_bl606.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_the_trawler_202510240003_bl606.mp4",
-          "duration" : 8
-        },
-        {
-          "filename" : "Subject_magns_pulling_202510240003_n3t9w.mp4",
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pulling_202510240003_n3t9w.mp4",
-          "duration" : 8
-        },
-        {
-          "filepath" : "\/Users\/ingthor\/Downloads\/Subject_magns_pulling_202510240003_dau04.mp4",
-          "filename" : "Subject_magns_pulling_202510240003_dau04.mp4",
-          "duration" : 8
+          "duration": 8,
+          "filename": "Subject_the_trawler_202509211926_wr76d.mp4",
+          "filepath": "/Users/ingthor/Downloads/Subject_the_trawler_202509211926_wr76d.mp4"
         }
       ],
-      "negative_prompt" : "no subtitles, show deliberate cruelty, glimpse in wheelhouse, documentary observation",
-      "variant_id" : "34_story_primary",
-      "progressive_state" : "",
-      "style" : "Low angle from Magnús's position showing trawler's dominance, then underwater showing cut (that's where the camera is), documentary of industrial violence.",
-      "scene" : "Convergence point on fjord, 9:18 AM. Trawler massive above tiny boat. Clear water showing everything below. Mountains reflected in water, watching."
+      "negative_prompt": "no subtitles, show deliberate cruelty, glimpse in wheelhouse, documentary observation",
+      "variant_id": "34_story_primary",
+      "progressive_state": "",
+      "style": "Low angle from Magn\u00fas's position showing trawler's dominance, then underwater showing cut (that's where the camera is), documentary of industrial violence.",
+      "scene": "Convergence point on fjord, 9:18 AM. Trawler massive above tiny boat. Clear water showing everything below. Mountains reflected in water, watching."
     }
   ],
-  "selected_prompt_index" : 0,
-  "shot_metadata" : {
-    "id" : "34",
-    "sequence_type" : "main_story",
-    "duration_seconds" : 8,
-    "needs_improvements" : false,
-    "title" : "THE DELIBERATE CUT 8 SECONDS",
-    "narrative_function" : "Confrontation imminent | Line targeted | Camera fr...",
-    "stitch_from" : ""
+  "selected_prompt_index": 0,
+  "shot_metadata": {
+    "id": "34",
+    "sequence_type": "main_story",
+    "duration_seconds": 8,
+    "needs_improvements": false,
+    "title": "THE DELIBERATE CUT 8 SECONDS",
+    "narrative_function": "Confrontation imminent | Line targeted | Camera fr...",
+    "stitch_from": ""
   },
-  "aspect_ratio" : "4:3",
-  "progressive_state" : "Confrontation imminent | Line targeted | Camera frost 21.5% | Empire's cruelty | Watching: Mountains hold breath"
+  "aspect_ratio": "4:3",
+  "progressive_state": "Confrontation imminent | Line targeted | Camera frost 21.5% | Empire's cruelty | Watching: Mountains hold breath"
 }

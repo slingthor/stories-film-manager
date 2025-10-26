@@ -1,28 +1,28 @@
 {
   "shot_metadata": {
     "id": "25",
-    "name": "MAGNÐŠS_FEELS_THE_SUMMONING",
-    "title": "MAGNÚS FEELS THE SUMMONING",
+    "name": "MAGN\u00d0\u0160S_FEELS_THE_SUMMONING",
+    "title": "MAGN\u00daS FEELS THE SUMMONING",
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "All systems disrupted | Parallel disaster | Camera...",
-    "stitch_from": "[STITCH from Shot 24: Four landvættir summoned, giant's voice echoing]"
+    "stitch_from": "[STITCH from Shot 24: Four landv\u00e6ttir summoned, giant's voice echoing]"
   },
   "progressive_state": "All systems disrupted | Parallel disaster | Camera frost 16% | Distance doesn't matter | Watching: Mountains echo",
   "prompt_variants": [
     {
       "variant_id": "25_story_primary",
-      "variant_name": "Primary - MAGNÚS FEELS THE SUMMONING",
+      "variant_name": "Primary - MAGN\u00daS FEELS THE SUMMONING",
       "intent_tags": [
         "story_primary"
       ],
       "priority": 1,
-      "subject": "[MAGNÚS] collapsed in snow 50 meters from house, suddenly feeling the ground shake with 16Hz resonance, his bones vibrating with giant's voice though too far to hear, knowing instantly something catastrophic happened as the mountains themselves echo back \"LANDVÐ†TTIR\" in avalanche rumbles.",
-      "action": "Magnús on knees in blood spiral, recovering from second aflausn pull. Ground suddenly vibrates - not earthquake but resonance, 16Hz through bedrock. His skeleton becomes tuning fork. Looks back at house - sees impossible things: Smoke from chimney forming raven shape. Windows glowing with apparent that shouldn't exist (lamp dead). Door opening and closing by itself in rhythm. Knows without knowing - Sigrid did something. Tries to stand but aflausn debt keeps him down. Mountains respond to summoning - snow cascading from peaks, not avalanche but mountains shaking off sleep. East mountain groans (Raven's roost). West mountain steams (Bull's emergence point). The fjord water, visible in distance, starts churning despite no wind. Trawler horn audible, responding. His tremor stops completely for first time - 0Hz - more terrifying than shaking. The boat he's dragging slides backward 3 feet, pulled by blood spiral back toward house. Sky darkens despite sunrise.",
-      "scene": "Halfway point to fjord, 6:39 AM but darkness falling. Temperature plummets to -28°C, beyond survival. His abandoned cane in distance has grown ice roots 2 feet deep, becoming frozen tree. Blood spirals glowing slightly, activated by summoning. Entire island responding - not just house but everything awakening wrong.",
-      "style": "Wide shot showing island-wide response, Magnús tiny in landscape (that's where the camera is), documentary of distance irrelevance.",
-      "camera_position": "Wide shot showing island-wide response, Magnús tiny in landscape",
-      "dialogue": "(Magnús, feeling vibration): \"Sigrid... hvað gerðir þú?\" (To mountains): \"Ekki vakna... ekki enn\" (Don't wake... not yet) (Realization): \"Landvættirnir... allir fjórir\" (The landvættir... all four)",
+      "subject": "[MAGN\u00daS] collapsed in snow 50 meters from house, suddenly feeling the ground shake with 16Hz resonance, his bones vibrating with giant's voice though too far to hear, knowing instantly something catastrophic happened as the mountains themselves echo back \"LANDV\u00d0\u2020TTIR\" in avalanche rumbles.",
+      "action": "Magn\u00fas on knees in blood spiral, recovering from second aflausn pull. Ground suddenly vibrates - not earthquake but resonance, 16Hz through bedrock. His skeleton becomes tuning fork. Looks back at house - sees impossible things: Smoke from chimney forming raven shape. Windows glowing with apparent that shouldn't exist (lamp dead). Door opening and closing by itself in rhythm. Knows without knowing - Sigrid did something. Tries to stand but aflausn debt keeps him down. Mountains respond to summoning - snow cascading from peaks, not avalanche but mountains shaking off sleep. East mountain groans (Raven's roost). West mountain steams (Bull's emergence point). The fjord water, visible in distance, starts churning despite no wind. Trawler horn audible, responding. His tremor stops completely for first time - 0Hz - more terrifying than shaking. The boat he's dragging slides backward 3 feet, pulled by blood spiral back toward house. Sky darkens despite sunrise.",
+      "scene": "Halfway point to fjord, 6:39 AM but darkness falling. Temperature plummets to -28\u00b0C, beyond survival. His abandoned cane in distance has grown ice roots 2 feet deep, becoming frozen tree. Blood spirals glowing slightly, activated by summoning. Entire island responding - not just house but everything awakening wrong.",
+      "style": "Wide shot showing island-wide response, Magn\u00fas tiny in landscape (that's where the camera is), documentary of distance irrelevance.",
+      "camera_position": "Wide shot showing island-wide response, Magn\u00fas tiny in landscape",
+      "dialogue": "(Magn\u00fas, feeling vibration): \"Sigrid... hva\u00f0 ger\u00f0ir \u00fe\u00fa?\" (To mountains): \"Ekki vakna... ekki enn\" (Don't wake... not yet) (Realization): \"Landv\u00e6ttirnir... allir fj\u00f3rir\" (The landv\u00e6ttir... all four)",
       "audio": {
         "primary": [
           "16Hz through ground",
@@ -49,7 +49,7 @@
         "LILJA-MATHEMATICAL",
         "JON-PROPHET",
         "GUDRUN-PRODUCING",
-        "BAÐSTOFA-BODY"
+        "BA\u00d0STOFA-BODY"
       ],
       "available_character_plates": {
         "magnus": "MAGNUS-CONFUSED",
@@ -59,7 +59,7 @@
         "gudrun": "GUDRUN-PRODUCING"
       },
       "available_environmental_plates": [
-        "BAÐSTOFA-BODY"
+        "BA\u00d0STOFA-BODY"
       ]
     }
   ],

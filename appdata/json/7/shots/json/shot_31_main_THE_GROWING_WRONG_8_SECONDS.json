@@ -6,9 +6,9 @@
     "sequence_type": "main_story",
     "duration_seconds": 8,
     "narrative_function": "House 4/min dying + 80bpm | Tilberi expanding | Ca...",
-    "stitch_from": "[STITCH from Shot 30: Magnús pulling taut line, house situation parallel]"
+    "stitch_from": "[STITCH from Shot 30: Magn\u00fas pulling taut line, house situation parallel]"
   },
-  "progressive_state": "House 4/min dying + 80bpm | Tilberi expanding | Camera frost 20% | Family paralyzed | Watching: Four landvættir through windows",
+  "progressive_state": "House 4/min dying + 80bpm | Tilberi expanding | Camera frost 20% | Family paralyzed | Watching: Four landv\u00e6ttir through windows",
   "prompt_variants": [
     {
       "variant_id": "31_story_primary",
@@ -17,12 +17,12 @@
         "story_primary"
       ],
       "priority": 1,
-      "subject": "Inside the house, the contaminated tilberi has grown from cat-size to lamb-size in minutes, feeding on industrial contamination in the air itself, its rope-skeleton stretching beneath translucent skin while [SIGRID] reaches toward it with maternal instinct despite its wrongness, and [GUÐRÚN] finally breaks her silence: \"Drepa það!\" (Kill it!)",
-      "action": "The tilberi-thing has doubled in size. Rope skeleton visible stretching, hemp fibers separating and multiplying like cell division. Brass button eye now size of child's fist, green tears burning channels in floor. It stands on appendages that are neither legs nor mechanical supports - something between. When it moves, sound of rope under tension mixed with lamb's bleat. Breathing still three rhythms: 8/min, 12/min, 20/min creating constant motion. It approaches Sigrid, recognizing creator. She reaches toward it, hand protective on belly - two children, one inside, one outside but wrong. It nuzzles her hand. Where it touches, her skin shows black veins spreading up wrist (contamination transfer). Guðrún grabs fire poker, raises it, speaks for first time since Magnús left: \"Drepa það áður en það...\" (Kill it before it...). But Sigrid shields it with her body. Through windows, four landvættir watching: trawler lights, steam from polynya, house wall breathing, raven shadows circling. The creature feeds on their attention, growing.",
-      "scene": "Interior, 9:10 AM but dark from landvættir presence. Temperature -23°C. Tilberi now lamb-sized, still growing. Black contamination veins spreading up Sigrid's arm. Family frozen except Guðrún.",
+      "subject": "Inside the house, the contaminated tilberi has grown from cat-size to lamb-size in minutes, feeding on industrial contamination in the air itself, its rope-skeleton stretching beneath translucent skin while [SIGRID] reaches toward it with maternal instinct despite its wrongness, and [GU\u00d0\u0090R\u00daN] finally breaks her silence: \"Drepa \u00fea\u00f0!\" (Kill it!)",
+      "action": "The tilberi-thing has doubled in size. Rope skeleton visible stretching, hemp fibers separating and multiplying like cell division. Brass button eye now size of child's fist, green tears burning channels in floor. It stands on appendages that are neither legs nor mechanical supports - something between. When it moves, sound of rope under tension mixed with lamb's bleat. Breathing still three rhythms: 8/min, 12/min, 20/min creating constant motion. It approaches Sigrid, recognizing creator. She reaches toward it, hand protective on belly - two children, one inside, one outside but wrong. It nuzzles her hand. Where it touches, her skin shows black veins spreading up wrist (contamination transfer). Gu\u00f0r\u00fan grabs fire poker, raises it, speaks for first time since Magn\u00fas left: \"Drepa \u00fea\u00f0 \u00e1\u00f0ur en \u00fea\u00f0...\" (Kill it before it...). But Sigrid shields it with her body. Through windows, four landv\u00e6ttir watching: trawler lights, steam from polynya, house wall breathing, raven shadows circling. The creature feeds on their attention, growing.",
+      "scene": "Interior, 9:10 AM but dark from landv\u00e6ttir presence. Temperature -23\u00b0C. Tilberi now lamb-sized, still growing. Black contamination veins spreading up Sigrid's arm. Family frozen except Gu\u00f0r\u00fan.",
       "style": "Medium shot showing creature's size and family's positions, contamination spreading visible (that's where the camera is), documentary of wrong motherhood.",
       "camera_position": "Medium shot showing creature's size and family's positions, contamination spreading visible",
-      "dialogue": "(Guðrún, breaking silence): \"Drepa það!\" (Kill it!) \"Það er ekki náttúrulegt!\" (It's not natural!) (Sigrid, protective): \"Það er mitt barn\" (It's my child)",
+      "dialogue": "(Gu\u00f0r\u00fan, breaking silence): \"Drepa \u00fea\u00f0!\" (Kill it!) \"\u00dea\u00f0 er ekki n\u00e1tt\u00farulegt!\" (It's not natural!) (Sigrid, protective): \"\u00dea\u00f0 er mitt barn\" (It's my child)",
       "audio": {
         "primary": [
           "Rope skeleton stretching",
@@ -31,7 +31,7 @@
         ],
         "ambient": [
           "House dying at 4/min",
-          "four landvættir present outside",
+          "four landv\u00e6ttir present outside",
           "contamination spreading audibly"
         ],
         "absent": [
@@ -48,7 +48,7 @@
         "JON-CHANGING",
         "GUDRUN-PRODUCING",
         "SEA-EXTRACTED",
-        "BAÐSTOFA-CLEFT"
+        "BA\u00d0STOFA-CLEFT"
       ],
       "available_character_plates": {
         "magnus": "MAGNUS-AGING",
@@ -59,12 +59,12 @@
       },
       "available_environmental_plates": [
         "SEA-EXTRACTED",
-        "BAÐSTOFA-CLEFT"
+        "BA\u00d0STOFA-CLEFT"
       ]
     }
   ],
   "others": {
-    "womens_silence": "Guðrún finally speaks",
+    "womens_silence": "Gu\u00f0r\u00fan finally speaks",
     "triple_reality": "Physical: impossible growth / Psychological: maternal horror / Mythological: contamination feeding"
   },
   "notes": {
